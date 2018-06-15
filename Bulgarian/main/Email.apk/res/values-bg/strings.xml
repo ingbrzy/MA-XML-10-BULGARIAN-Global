@@ -221,7 +221,6 @@
     <string name="battery_saver">Икономия на батерията</string>
     <string name="battery_saver_keywords">икономия на батерията; енергия използвана от пощата</string>
     <string name="bcc">Bcc</string>
-    <string name="bcc_heading">"Препращане на: "</string>
     <string name="bill_center_setting">Настройки на сметките</string>
     <string name="bill_center_setting_head">Импортиране на информация от профила</string>
     <string name="bill_cycle_text">Цикъл на плащане</string>
@@ -242,7 +241,6 @@
     <string name="cancel_pop3_attchemt_downloading">Не може да отмените текущите изтегляния за прикачени файлове в POP3 профили</string>
     <string name="cant_move_or_change_labels">Не може да премествате елементи от много профили.</string>
     <string name="cc">Cc</string>
-    <string name="cc_attribution">Копие до %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Копие до: "</string>
     <string name="change_folders_selection_dialog_title">Промяна на папки</string>
@@ -260,7 +258,6 @@
     <string name="click_download_all_content">[Натиснете, за да изтеглите съдържание]</string>
     <string name="click_to_reload">Докоснете екрана, за да се обнови</string>
     <string name="collapse_recipient_details">Скриване на данни за получателя</string>
-    <string name="colon">:</string>
     <string name="compose">Съставяне на</string>
     <string name="compose_attachment_number_limit">Не може да добавите повече от 10 прикачени файлове</string>
     <string name="compose_paste_address_oob">Твърде много символи</string>
@@ -472,7 +469,6 @@
     <string name="gmail_web_login_go">OK</string>
     <string name="gmail_web_login_required_message">Влезте в Gmail</string>
     <string name="header_category_account">Профили</string>
-    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">Обратна връзка</string>
     <string name="header_label_general_preferences">Общи настройки</string>
     <string name="help_and_info">Помощ</string>
@@ -494,7 +490,6 @@
     <string name="invalid_recipient">"Адресът %s  е невалиден."</string>
     <string name="invalid_recipient_title">Получателят не съществува</string>
     <string name="kilobytes">"%s  КБ"</string>
-    <string name="label_notification_ticker" formatted="false">%s: %s</string>
     <string name="load_from_remote">Търсене на пощенска кутия на сървъра</string>
     <string name="load_more">Зареди още</string>
     <string name="loading_conversation">Зарежда се…</string>
@@ -936,7 +931,6 @@
     <string name="silent_ringtone">Без звук</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
-    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">Паролата за сървъра за изходяща поща е неправилна</string>
     <string name="sort_attachment">Сортиране по</string>
     <string name="storage">Хранилище</string>
