@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="sniff_find_resource">
+        <item quantity="other">Открити са %d елементи</item>
+        <item quantity="one">Открит е 1 елемент</item>
+    </plurals>
+    <plurals name="numberOfItemsAvailable">
+        <item quantity="other">Изтриване на %d елементи?</item>
+        <item quantity="one">Изтриване на този елемент?</item>
+    </plurals>
+    <plurals name="sniff_find_result">
+        <item quantity="other">Открити са %d резултата</item>
+        <item quantity="one">Открит е 1 резултат</item>
+    </plurals>
+</resources>

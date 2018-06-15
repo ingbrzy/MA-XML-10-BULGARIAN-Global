@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="subtitle_offset_advance_times">
+        <item quantity="other">Субтитрите са преместени с %.1f секунди напред</item>
+        <item quantity="one">Субтитрите са преместени с %.1f секунда напред</item>
+    </plurals>
+    <plurals name="subtitle_offset_delay_times">
+        <item quantity="other">Субтитрите се забавят с %.1f секунди</item>
+        <item quantity="one">Субтитрите се забавят с %.1f секунда</item>
+    </plurals>
+    <plurals name="subtitle_onlinesub_size_float_kb">
+        <item quantity="other">Размер: %.2fКБ</item>
+        <item quantity="one">Размер: %.2fКБ</item>
+    </plurals>
+    <plurals name="v_video_count">
+        <item quantity="other">%d видеоклипа</item>
+        <item quantity="one">%d видеоклип</item>
+    </plurals>
+</resources>

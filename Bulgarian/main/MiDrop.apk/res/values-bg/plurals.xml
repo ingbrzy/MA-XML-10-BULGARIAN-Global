@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="notif_receive_cancel">
+        <item quantity="other">%1$s от файловете не са прехвърлени</item>
+        <item quantity="one">%1$s от файловете не е прехвърлен</item>
+    </plurals>
+    <plurals name="notif_receive_progress">
+        <item quantity="other">Получаване на %1$s файла…</item>
+        <item quantity="one">Получаване на %1$s файл…</item>
+    </plurals>
+    <plurals name="notif_receive_success">
+        <item quantity="other">Получени %1$s файла</item>
+        <item quantity="one">Получен %1$s файл</item>
+    </plurals>
+    <plurals name="receiver_file_num">
+        <item quantity="other">получени %2$d файла от %1$s</item>
+        <item quantity="one">получен %2$d файл от %1$s</item>
+    </plurals>
+    <plurals name="sender_file_num">
+        <item quantity="other">Изчакване за %1$d файла…</item>
+        <item quantity="one">Изчакване за %1$d файл…</item>
+    </plurals>
+</resources>

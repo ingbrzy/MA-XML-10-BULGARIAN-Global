@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_recent_task_enter">
+        <item quantity="other">Последно използвани, налични приложения: %d.</item>
+        <item quantity="one">Последно използвани, налично приложение:%d.</item>
+    </plurals>
+    <plurals name="accessibility_recent_task_first_enter_tips">
+        <item quantity="other">Последно използвани, налични приложения: %d. Плъзнете нагоре за да ги премахнете или плъзнете надолу, за да ги заключите.</item>
+        <item quantity="one">Последно използвани, налично приложение: %d. Плъзнете нагоре за да го премахнете или плъзнете надолу, за да го заключите.</item>
+    </plurals>
+    <plurals name="block_record_notification_more_text">
+        <item quantity="other">Скрити известия от %1$s &amp; %2$d приложения.</item>
+        <item quantity="one">Скрити известия от %1$s &amp; %2$d приложение.</item>
+    </plurals>
+    <plurals name="disable_notification_confirm_title">
+        <item quantity="other">Скрий известията от %d прил.?</item>
+        <item quantity="one">Скрий известията от това прил.?\"</item>
+    </plurals>
+    <plurals name="fold_tips_title">
+        <item quantity="other">%d маловажни известия</item>
+        <item quantity="one">%d маловажно известие</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Неправилен ПИН код за SIM картата – остават ви %d опита.</item>
+        <item quantity="one">Неправилен ПИН код за SIM картата – остава ви %d опит, преди да трябва да се свържете с оператора си, за да отключите устройството.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Неправилен PUK код за SIM картата – остават ви %d опита, преди тя да стане неизползваема завинаги.</item>
+        <item quantity="one">Неправилен PUK код за SIM картата – остава ви %d опит, преди тя да стане неизползваема завинаги.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Устройството не е отключвано от %d часа. Потвърдете паролата.</item>
+        <item quantity="one">Устройството не е отключвано от %d час. Потвърдете паролата.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Устройството не е отключвано от %d часа. Потвърдете фигурата.</item>
+        <item quantity="one">Устройството не е отключвано от %d час. Потвърдете фигурата.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Устройството не е отключвано от %d часа. Потвърдете ПИН кода.</item>
+        <item quantity="one">Устройството не е отключвано от %d час. Потвърдете ПИН кода.</item>
+    </plurals>
+    <plurals name="notification_channels_list_desc_2_and_others">
+        <item quantity="other">%1$s, %2$s, и %3$d други</item>
+        <item quantity="one">%1$s, %2$s, и %3$d друг</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">Още %s вътрешни известия.</item>
+        <item quantity="one">Още %s вътрешно известие.</item>
+    </plurals>
+    <plurals name="notification_num_channels_desc">
+        <item quantity="other">1 от %d известия от това приложение</item>
+        <item quantity="one">1 от %d известия от това приложение</item>
+    </plurals>
+    <plurals name="settings_toggle_position_divider_page">
+        <item quantity="other">%1$d превключватели над лентата са активни</item>
+        <item quantity="one">%1$d превключвател над лентата е активен</item>
+    </plurals>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d екрани в Преглед</item>
+        <item quantity="one">1 екран в Преглед</item>
+    </plurals>
+    <plurals name="view_realtime_clear">
+        <item quantity="other">Ясно</item>
+        <item quantity="one">Ясно</item>
+    </plurals>
+</resources>

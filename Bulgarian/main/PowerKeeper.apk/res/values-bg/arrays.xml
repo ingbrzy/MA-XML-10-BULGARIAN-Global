@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hmode_app_groups">
+        <item>Потребителска настройка</item>
+        <item>Икономия на батерия</item>
+    </string-array>
+    <string-array name="thermal_entries">
+        <item>Контрол на температурата по подразбиране</item>
+        <item>Режим \"Производителност\"</item>
+    </string-array>
+    <string-array name="thermal_summaries">
+        <item>Текущ контрол на температурата</item>
+        <item>Текущ режим производителност</item>
+    </string-array>
+    <string-array name="power_mode_entries">
+        <item>Производителност</item>
+        <item>Балансиран</item>
+    </string-array>
+</resources>

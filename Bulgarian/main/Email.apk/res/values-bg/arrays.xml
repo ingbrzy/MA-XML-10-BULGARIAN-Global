@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="all_month_str">
+        <item>Яну</item>
+        <item>Февр</item>
+        <item>Март</item>
+        <item>Април</item>
+        <item>Май</item>
+        <item>Юни</item>
+        <item>Юли</item>
+        <item>Август</item>
+        <item>Септ</item>
+        <item>Октом</item>
+        <item>Ноем</item>
+        <item>Дек</item>
+    </string-array>
+    <string-array name="calendar_remind_string_array">
+        <item>Тази вечер</item>
+        <item>Утре</item>
+        <item>Почивните дни</item>
+        <item>Следващата седмица</item>
+        <item>Следващия месец</item>
+        <item>Изберете дата</item>
+    </string-array>
+    <string-array name="compose_modes">
+        <item>Отговор</item>
+        <item>Отговор до всички</item>
+        <item>Препращане</item>
+    </string-array>
+    <string-array name="general_preference_text_zoom_summary_array">
+        <item>Много малък шрифт</item>
+        <item>Малък шрифт</item>
+        <item>Нормален шрифт</item>
+        <item>Голям шрифт</item>
+        <item>Огромен шрифт</item>
+    </string-array>
+    <string-array name="menu_att_mgr_sort_string_array">
+        <item>Наскоро разглеждани</item>
+        <item>Формат</item>
+        <item>Име</item>
+        <item>Подател</item>
+        <item>Дата на получаване</item>
+    </string-array>
+    <string-array name="moveto_folder_sections">
+        <item>Система</item>
+        <item>Често използвани</item>
+        <item>Всички папки</item>
+    </string-array>
+    <string-array name="prefEntries_autoAdvance">
+        <item>Ново съобщение</item>
+        <item>По-стари съобщения</item>
+        <item>Входяща поща</item>
+    </string-array>
+    <string-array name="signature_normal_string_array_next">
+        <item>Адрес:</item>
+        <item>Тел:</item>
+        <item>Име:</item>
+        <item>Електронна поща:</item>
+        <item>Мобилен:</item>
+        <item>WeChat:</item>
+        <item>Факс:</item>
+        <item>Пощенски код:</item>
+    </string-array>
+    <string-array name="signature_special_string_array_next">
+        <item>Благодаря,</item>
+        <item>Много поздрави</item>
+        <item>Изпратено от</item>
+        <item>Оригинално писмо</item>
+        <item>Изпратено от</item>
+        <item>Изпратено от</item>
+        <item>От</item>
+        <item>Това писмо</item>
+        <item>Отказване</item>
+        <item>Отказване на писмото</item>
+    </string-array>
+</resources>

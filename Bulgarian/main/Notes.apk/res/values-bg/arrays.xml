@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="attachment_chooser">
+        <item>Камера</item>
+        <item>Галерия</item>
+    </string-array>
+    <string-array name="contact_entries">
+        <item>Име</item>
+        <item>Псевдоним</item>
+        <item>Телефон</item>
+        <item>Имейл</item>
+        <item>Организация</item>
+        <item>IM</item>
+        <item>Интернет-телефон</item>
+        <item>Рожден ден</item>
+        <item>Уеб сайт</item>
+        <item>Адрес</item>
+        <item>Бележка</item>
+    </string-array>
+    <string-array name="folder_operations">
+        <item>Преименуване</item>
+        <item>Изтриване</item>
+    </string-array>
+    <string-array name="font_size_names">
+        <item>Малък</item>
+        <item>Среден</item>
+        <item>Голям</item>
+        <item>Огромен</item>
+    </string-array>
+    <string-array name="note_sort_way">
+        <item>По дата на създаване</item>
+        <item>По дата на посл. промяна</item>
+    </string-array>
+    <string-array name="welcome_notes_content">
+        <item>\"Добре дошли в Бележки \"</item>
+        <item>\"Чукнете за създаване на бележка \"</item>
+        <item>\"Изберете шаблони \"</item>
+        <item>\"Създайте папки \"</item>
+        <item>\"Защитете личните бележки \"</item>
+        <item>\"И още страхотни функции!  - Синхр. с Mi Cloud  - Напомняния\"</item>
+    </string-array>
+    <string-array name="welcome_notes_image">
+        <item>guide_1</item>
+        <item></item>
+        <item>guide_3_1</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+</resources>
