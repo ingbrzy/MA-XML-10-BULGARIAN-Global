@@ -570,7 +570,6 @@
     <string name="kg_reordering_delete_drop_target_text">Премахване</string>
     <string name="kg_sim_pin_instructions">Въведете ПИН кода за SIM картата</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM картата се отключва…</string>
-    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_attempts_countdown">Опитайте отново след %1$d секунди.</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Въведохте неправилно паролата си %1$d пъти. 
 
