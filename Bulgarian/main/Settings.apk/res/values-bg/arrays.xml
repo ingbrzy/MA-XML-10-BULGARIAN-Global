@@ -1340,16 +1340,4 @@
         <item>Скала на анимацията 5x</item>
         <item>Скала на анимацията 10x</item>
     </string-array>
-    <string-array name="device_global_support_face">
-        <item>стил</item>
-        <item>полярен</item>
-        <item>усл</item>
-    </string-array>
-    <string-array name="region_support_face">
-        <item>IN</item>
-        <item>ID</item>
-        <item>RU</item>
-        <item>HK</item>
-        <item>TW</item>
-    </string-array>
 </resources>
