@@ -693,21 +693,6 @@
         <item>OpenGL (по подразбиране)</item>
         <item>OpenGL (Skia)</item>
     </string-array>
-    <string-array name="device_support_face">
-        <item>джейсън</item>
-        <item>полярен</item>
-        <item>сагит</item>
-        <item>хирон</item>
-        <item>стил</item>
-        <item>нитроген</item>
-        <item>уейн</item>
-        <item>усл</item>
-        <item>сакура</item>
-        <item>clover</item>
-        <item>черпак</item>
-        <item>sirius</item>
-        <item>ursa</item>
-    </string-array>
     <string-array name="dream_timeout_entries">
         <item>Никога</item>
         <item>15 секунди</item>
