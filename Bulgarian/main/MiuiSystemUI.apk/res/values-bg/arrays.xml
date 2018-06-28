@@ -17,6 +17,15 @@
         <item>Най-много 3 процеса</item>
         <item>Най-много 4 процеса</item>
     </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+    </string-array>
     <string-array name="battery_options">
         <item>Винаги показвай проценти</item>
         <item>Показвайпроценти само когато се зарежда телефона</item>
@@ -95,6 +104,18 @@
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
+    <string-array name="carrier_name">
+        <item>А1</item>
+        <item>Теленор</item>
+        <item>Виваком</item>
+        <item>Водафон</item>
+    </string-array>
+    <string-array name="carrier_simple_name">
+        <item>А1</item>
+        <item>CU</item>
+        <item>CT</item>
+        <item>SMC HK</item>
+    </string-array>
     <string-array name="clock_options">
         <item>Показване на час, минути и секунди</item>
         <item>Показване на час и минути(по подразбиране)</item>
@@ -137,10 +158,10 @@
     </string-array>
     <string-array name="miui_volume_timer_segments_title">
         <item>Изкл</item>
-        <item>Половин час</item>
+        <item>30 минути</item>
         <item>1 час</item>
         <item>2 часа</item>
-        <item>8 Часа</item>
+        <item>8 часа</item>
     </string-array>
     <string-array name="nav_bar_buttons">
         <item>Клипборд</item>

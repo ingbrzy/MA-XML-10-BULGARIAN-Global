@@ -48,6 +48,10 @@
         <item quantity="other">Още %s вътрешни известия.</item>
         <item quantity="one">Още %s вътрешно известие.</item>
     </plurals>
+    <plurals name="notification_num_channels">
+        <item quantity="other">%d категории известия</item>
+        <item quantity="one">%d категория известие</item>
+    </plurals>
     <plurals name="notification_num_channels_desc">
         <item quantity="other">1 от %d известия от това приложение</item>
         <item quantity="one">1 от %d известия от това приложение</item>

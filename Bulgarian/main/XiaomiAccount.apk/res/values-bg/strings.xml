@@ -4,6 +4,7 @@
     <string name="passport_notification_title">Грешка при вписване за %1$s</string>
     <string name="passport_login_prompt">Един Mi профил. Всички Mi услуги.</string>
     <string name="passport_login_using_other_ways">Други начини за вписване</string>
+    <string name="passport_register_using_other_ways">Други начини за създаване на профил</string>
     <string name="passport_login_title">Вписване във вашия Mi профил</string>
     <string name="passport_login">Вписване</string>
     <string name="passport_relogin">Ново вписване</string>
@@ -27,6 +28,7 @@
     <string name="passport_reg_success_summary">%1$s е свързан с Вашия профил. Можете да го използвате, за да влизете или за да смените паролата си.</string>
     <string name="passport_re_register">Ново вписване</string>
     <string name="passport_register">Създаване на профил</string>
+    <string name="passport_new_user_register">Създай профил</string>
     <string name="passport_vcode_sms_send_prompt">Изпрати код за потвърждаване на %s</string>
     <string name="passport_get_verify_code">Вземи код</string>
     <string name="passport_re_get_verify_code">Изискай нов код</string>
@@ -69,6 +71,7 @@
     <string name="passport_skip_register">Пропусни вписването</string>
     <string name="passport_account_not_activated">Профилът не бе активиран</string>
     <string name="passport_change_account"><u>Промяна на профила</u></string>
+    <string name="passport_btn_change_account">Промяна на профила</string>
     <string name="passport_register_account_verified_confirm">Профилът е потвърден</string>
     <string name="passport_register_account_goto_email">Посетете вашата поща</string>
     <string name="passport_error_dup_email">Този имейл вече е свързан с друг профил</string>
@@ -88,6 +91,7 @@
     <string name="passport_input_password_hint">Въведете парола</string>
     <string name="passport_input_captcha_hint">Въведете код</string>
     <string name="passport_input_vcode_hint">Въведете код за потвърждение</string>
+    <string name="passport_input_voice_hint">Въведете гласов код</string>
     <string name="passport_email">Имейл адрес</string>
     <string name="passport_vcode_prompt_long">Въведете кода за потвърждение</string>
     <string name="passport_input_phone_hint">Въведете телефонен номер</string>
@@ -101,6 +105,7 @@
     <string name="passport_error_empty_pwd">Въведете вашата парола</string>
     <string name="passport_error_illegal_pwd">Невалидна парола</string>
     <string name="passport_error_empty_captcha_code">Главни букви</string>
+    <string name="passport_error_empty_voice_code">Главни букви</string>
     <string name="passport_error_empty_vcode">Въведете код за потвърждение</string>
     <string name="passport_i_know">Разбрах</string>
     <string name="passport_retry">Нов опит</string>
@@ -113,6 +118,7 @@
     <string name="passport_yes">Да</string>
     <string name="passport_no">Не</string>
     <string name="passport_continue">Продължи</string>
+    <string name="passport_Resend">Повторен опит</string>
     <string name="passport_loading">Зарежда се…</string>
     <string name="passport_reging">Създава се профил…</string>
     <string name="passport_checking_account">Проверка на паролата…</string>
@@ -144,6 +150,7 @@
     <string name="passport_error_user_name">Невалидно потребителско име</string>
     <string name="passport_access_denied">Достъпът е отказан</string>
     <string name="passport_wrong_captcha">Кодът, който сте въвели е грешен</string>
+    <string name="passport_wrong_voice">Кодът, който сте въвели, е невалиден</string>
     <string name="passport_wrong_vcode">Кодът, който сте въвели е грешен</string>
     <string name="passport_error_device_id">Не може да се получи ID на устройството</string>
     <string name="passport_error_invalid_dev_id">Невалидно ID на устройството</string>
@@ -200,6 +207,12 @@
     <string name="passport_get_innetdate_agree">Проверка</string>
     <string name="passport_get_innetdate_disagree">Не</string>
     <string name="passport_extra_gdpr_license">Със създаването на вашия Mi профил, вие се съгласявате, че Xiaomi ще събира, обработва и използва вашите лични данни включително и информация за потвърждение (като например кодове за потвърждение), Второ работно място (като например информация за това, как използвате Второ работно място, регистрации, използвани в Основно работно място) и други специфични данни, определени в Политика на поверителност. Запознайте се с нашата Политика на поверителност, за да научите повече за това как ние използваме вашите лични данни.</string>
+    <string name="passport_talkback_image_captcha">Изображение с код за потвърждение</string>
+    <string name="passport_talkback_voice_captcha">Пусни гласов код за потвърждение</string>
+    <string name="passport_talkback_switch_voice_captcha">Превключи на гласов код за потвърждение</string>
+    <string name="passport_talkback_switch_image_captcha">Превключи на гласов код за потвърждение</string>
+    <string name="passport_license_info_open">Подробности</string>
+    <string name="passport_license_info_collapse">Скрий</string>
     <string name="search_app_name">Mi Профил</string>
     <string name="search_mi_account">Mi Профил</string>
     <string name="search_mi_account_key_words">Mi Облак,Настройки на профил,Mi Плащане, Отписване</string>
@@ -331,7 +344,7 @@
     <string name="account_user_details">Потребителски данни</string>
     <string name="account_security">Сигурност на профила</string>
     <string name="account_mibi_center">Mi Кредити</string>
-    <string name="account_mibi_charge">Зареждане на Mi Кредити</string>
+    <string name="account_mibi_charge">Заредете</string>
     <string name="account_mipay_info">Mi плащане</string>
     <string name="account_xiaomi_service">Услуги</string>
     <string name="cloud_service">Облачни услуги</string>

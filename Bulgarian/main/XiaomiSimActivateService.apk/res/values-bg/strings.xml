@@ -94,6 +94,7 @@
     <string name="activate_popup_confirm_error_device_id">Опитайте отново</string>
     <string name="activate_feature_mx">Активиране на Mi Message</string>
     <string name="activate_feature_mx_and_voip">Mi Message и Voice</string>
+    <string name="activate_feature_voip">Mi Съобщение с глас</string>
     <string name="activate_feature_mms_sync">Синхр. на съобщения</string>
     <string name="activate_feature_call_log_sync">Синхронизиране на повикванията</string>
     <string name="activate_feature_find_device">Открий устройството</string>
@@ -118,4 +119,10 @@
     <string name="agree">Приеми</string>
     <string name="privacy_revoke_tips">След като отмените разрешението, Съобщения ще спре да събира информация и цялата такава налична досега ще бъде изтрита от сървърите. Синхронизирането с Mi Облак, Mi Съобщения и всички други услуги на Съобщения няма да бъдат повече достъпни. Да се отмени ли разрешението въпреки това?</string>
     <string name="privacy_revoke_failed_msg">Активирането изисква даване на разрешение за това, Съобщения да научи и използва вашия телефонен номер.</string>
+    <string name="waiting_sim_in_service">изчакване на sim услугата</string>
+    <string name="checking_client">проверка на клиента</string>
+    <string name="error_sim_not_in_service">sim не се обслужва</string>
+    <string name="error_checking_client">грешка в клиента</string>
+    <string name="error_network_io">грешка в мрежата</string>
+    <string name="error_no_send_sms_permission">няма изпратени sms разрешения</string>
 </resources>

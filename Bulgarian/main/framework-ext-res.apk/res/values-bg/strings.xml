@@ -115,14 +115,10 @@
     <string name="maml_component_customization_title">Настройки</string>
     <string name="default_name">Стандартно</string>
     <string name="resource_select">Изберете</string>
-    <string name="group_name_contacts">Контакти</string>
-    <string name="group_name_friends">Приятели</string>
-    <string name="group_name_family">Семейство</string>
-    <string name="group_name_coworkers">Колеги</string>
     <string name="fp_nav_center_action_choose_dlg_title">Включи Тъч асистент</string>
     <string name="fp_nav_center_action_choose_dlg_msg">Можете да се върнете в начален екран с леко докосване на бутон Начало. Можете да включите или изключите тази функция от Настройки > Допълнителни настройки > Бутони > Докоснете бутон Начало за връщане в начален екран.</string>
     <string name="fp_nav_center_action_choose_dlg_positive_btn_text">Включи</string>
-    <string name="fp_nav_center_action_choose_dlg_negative_btn_text">No thanks</string>
+    <string name="fp_nav_center_action_choose_dlg_negative_btn_text">Не сега</string>
     <string name="auto_disable_screenbuttons_float_text">Докоснете за да изключите бутоните за управление</string>
     <string name="auto_disable_screenbuttons_enable_toast_text">Бутоните за управление са включени</string>
     <string name="auto_disable_screenbuttons_disable_toast_text">Бутоните за управление са изключени, чукнете два пъти върху бутона, който искате да активирате</string>

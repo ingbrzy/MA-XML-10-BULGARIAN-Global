@@ -12,4 +12,12 @@
         <item quantity="other">%1$s бележки</item>
         <item quantity="one">%1$s бележка</item>
     </plurals>
+    <plurals name="record_last_ten_seconds_reminder">
+        <item quantity="other">остават %d секунди</item>
+        <item quantity="one">остава %d секунда</item>
+    </plurals>
+    <plurals name="word_count">
+        <item quantity="other">%s символа</item>
+        <item quantity="one">%s символ</item>
+    </plurals>
 </resources>

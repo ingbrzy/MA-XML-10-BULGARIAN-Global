@@ -432,6 +432,7 @@
     <string name="theme_is_external_priority_storage">Запази на картата с памет</string>
     <string name="theme_is_external_priority_storage_summary">Приложението Теми ще се рестартира за да се приложат промените</string>
     <string name="theme_multiple_button_title_customize">Редактиране</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Не</string>
     <string name="theme_precast_create_notification_content">Чукни за преглед на нови теми.</string>
     <string name="theme_precast_create_notification_title">Обновено до MIUI 7</string>

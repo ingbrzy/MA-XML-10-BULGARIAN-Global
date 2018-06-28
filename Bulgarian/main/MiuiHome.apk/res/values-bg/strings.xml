@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Добави в работно място</string>
     <string name="activity_not_found">Приложението не е инсталирано на телефона Ви.</string>
     <string name="add_screen">Добави бутон за екрани</string>
@@ -92,6 +93,7 @@
     <string name="default_folder_title_microsoft">Microsoft</string>
     <string name="default_folder_title_recommend">Още приложения</string>
     <string name="default_folder_title_security">Безопасност</string>
+    <string name="default_folder_title_services">Услуги</string>
     <string name="default_folder_title_telcel">Telcel</string>
     <string name="default_folder_title_tools">Инструменти</string>
     <string name="default_screen_preview_title">Докоснете за да зададете като начален екран</string>
@@ -235,6 +237,7 @@
     <string name="open_personal_assistant_dialog_btn_cancel">Отмени</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Изключи</string>
     <string name="open_personal_assistant_dialog_desc">Няма да можете да използвате Трезор за приложения и да получавате неговите актуализации. Да се изключи ли сега?</string>
+    <string name="open_personal_assistant_dialog_desc_international">"You won't be able to use App vault cards (Stocks, Shortcuts, etc.) and receive updates after you turn this feature off."</string>
     <string name="open_personal_assistant_dialog_title">Изключи Трезор за приложения</string>
     <string name="open_personal_assistant_title">App vault</string>
     <string name="out_of_space">На този екран няма свободно място.</string>
@@ -342,6 +345,4 @@
     <string name="widget_gadget_player">Музика</string>
     <string name="widget_global_search">Търсене</string>
     <string name="widget_quick_function">Бързи функции</string>
-    <string name="default_folder_title_services">Услуги</string>
-    <string name="open_personal_assistant_dialog_desc_international">"You won't be able to use App vault cards (Stocks, Shortcuts, etc.) and receive updates after you turn this feature off."</string>
 </resources>

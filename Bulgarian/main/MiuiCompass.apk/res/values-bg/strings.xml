@@ -57,4 +57,8 @@
     <string name="altitude_longitude_Degree_format" formatted="false">"%d°%d'%d\""</string>
     <string name="app_description_title">За Компас</string>
     <string name="app_description_content">Приложението Компас се използва за навигация и ориентация и показва вашата посока. Уверете се, че можете да използвате телефона си без тези услуги, преди да го деинсталирате.</string>
+    <string name="open_perm_msg">Приложението Компас се нуждае от достъп до местоположението ви и камерата. Това е необходимо за да се определят координатите и да се предостави преглед на живо. Разрешавате ли?</string>
+    <string name="open_perm_title">Необходими са разрешения</string>
+    <string name="cancel">Отказ</string>
+    <string name="allow">Разреши</string>
 </resources>

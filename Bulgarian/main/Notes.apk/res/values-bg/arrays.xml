@@ -17,6 +17,16 @@
         <item>Адрес</item>
         <item>Бележка</item>
     </string-array>
+    <string-array name="first_guide_contents">
+        <item>Добре дошли в Бележки!</item>
+        <item>Води си бележки</item>
+        <item>Можете да използвате текст, изображения и гласови записи във Вашите бележки. Богата библиотека от стилове и шрифтове ще направи Вашите прости драсканици да изглеждат зашеметяващо.</item>
+        <item>Списъците и напомнянията са тук, за да ви помогнат когато имате нужда от основни и ефективни инструменти за планиране на следващото си пътуване или за да организирате списъка си за покупки.</item>
+        <item>Сподели бележки</item>
+        <item>You can generate scrolling screenshots in Notes automatically, and them share them with your friends.</item>
+        <item>Create &amp; switch between folders</item>
+        <item>Натиснете стрелката по-долу, за да създадете нова папка или да превключите между съществуващите такива.</item>
+    </string-array>
     <string-array name="folder_operations">
         <item>Преименуване</item>
         <item>Изтриване</item>
@@ -31,20 +41,8 @@
         <item>По дата на създаване</item>
         <item>По дата на посл. промяна</item>
     </string-array>
-    <string-array name="welcome_notes_content">
-        <item>\"Добре дошли в Бележки \"</item>
-        <item>\"Чукнете за създаване на бележка \"</item>
-        <item>\"Изберете шаблони \"</item>
-        <item>\"Създайте папки \"</item>
-        <item>\"Защитете личните бележки \"</item>
-        <item>\"И още страхотни функции!  - Синхр. с Mi Cloud  - Напомняния\"</item>
-    </string-array>
-    <string-array name="welcome_notes_image">
-        <item>guide_1</item>
-        <item></item>
-        <item>guide_3_1</item>
-        <item></item>
-        <item></item>
-        <item></item>
+    <string-array name="second_guide_contents">
+        <item>Гласови бележки</item>
+        <item>Създайте бележки с помощта на нашата вградена опция реч към текст, за да прикачите оригиналните записи на Вашия глас към бележките.</item>
     </string-array>
 </resources>

@@ -93,14 +93,14 @@
         <item quantity="one">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> приложение не е използвано от много време. Вижте кое е.;&lt;/Data></item>
     </plurals>
     <plurals name="clean_long_msg_p1">
-        <item quantity="other">"Почистването на %1$d файла,%2$d завърши 
+        <item quantity="other">"Изчистване на %1$d файла (%2$d%%)
 "</item>
-        <item quantity="one">"Почистването на %1$d файл,%2$d завърши 
+        <item quantity="one">"Изчистване на %1$d файл (%2$d%%)
 "</item>
     </plurals>
     <plurals name="clean_long_msg_p2">
-        <item quantity="other">%1$d%% елементи/оставащо време:%2$s</item>
-        <item quantity="one">%1$d%% елемент/оставащо време:%2$s</item>
+        <item quantity="other">%1$d елемента в секунда | Оставащо време: %2$s</item>
+        <item quantity="one">%1$d елемент в секунда | Оставащо време: %2$s</item>
     </plurals>
     <plurals name="hour">
         <item quantity="other">%1$d часа</item>

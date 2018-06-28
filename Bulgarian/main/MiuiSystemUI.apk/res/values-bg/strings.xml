@@ -418,7 +418,7 @@
     <string name="daltonizer_mode_protanomaly">Протаномалия (червено – зелено)</string>
     <string name="daltonizer_mode_tritanomaly">Тританомалия (синьо – жълто)</string>
     <string name="daltonizer_type_overridden">Заменено от „%1$s“</string>
-    <string name="data_connection_no_internet">Няма интернет връзка</string>
+    <string name="data_connection_no_internet">Не е свързан с интернет</string>
     <string name="data_saver">Спестяване на данни</string>
     <string name="data_usage_disabled_dialog">"Достигнат е зададения от вас лимит на данни. Не трябва да използвате мобилните данни.
 
@@ -489,9 +489,9 @@
     <string name="drag_to_add_tiles">Издърпайте за да добавите бутон</string>
     <string name="drag_to_remove_tiles">Издърпайте за преместване на бутон</string>
     <string name="drive_mode_tip">Режим Шофиране е включен</string>
-    <string name="drive_mode_tip_idle">Чукнете за да излезете от режим Шофиране</string>
-    <string name="drive_mode_tip_idle_notch">Изход от режим Шофиране</string>
-    <string name="drive_mode_tip_notch">Режим Шофиране е включен</string>
+    <string name="drive_mode_tip_idle">Режим Шофиране е включен</string>
+    <string name="drive_mode_tip_idle_notch">Режим Шофиране</string>
+    <string name="drive_mode_tip_notch">Режим Шофиране</string>
     <string name="empty_shade_text">Няма известия</string>
     <string name="enable_adb">През USB</string>
     <string name="enable_adb_summary">Режим за отстраняване на грешки, когато е свързано USB</string>
@@ -938,12 +938,13 @@
     <string name="notification_all_categories">Всички категории</string>
     <string name="notification_app_settings">Персонализиране: %1$s</string>
     <string name="notification_channel_alerts">Предупреждения</string>
+    <string name="notification_channel_battery">Батерия</string>
     <string name="notification_channel_controls_closed_accessibility">Настройките за известия за %1$s са затворени</string>
     <string name="notification_channel_controls_opened_accessibility">Настройките за известия за %1$s са отворени</string>
     <string name="notification_channel_disabled">Няма да получавате известия от тези категории повече.</string>
     <string name="notification_channel_general">Основни съобщения</string>
     <string name="notification_channel_location">Местоположение</string>
-    <string name="notification_channel_screenbutton">Бутон на екрана</string>
+    <string name="notification_channel_screenbutton">Бутони</string>
     <string name="notification_channel_screenshot">Екр. снимки</string>
     <string name="notification_channel_storage">Хранилище</string>
     <string name="notification_channel_switch_accessibility">Показване на известия от този канал</string>
@@ -953,7 +954,7 @@
     <string name="notification_group_collapse_button_text">Сгъни</string>
     <string name="notification_header_default_channel">Известия</string>
     <string name="notification_header_title">Известия</string>
-    <string name="notification_hidden_by_policy_text">Съдържанието е скрито поради правилата за сигурност</string>
+    <string name="notification_hidden_by_policy_text">Съдържанието е скрито</string>
     <string name="notification_hidden_text">Получено е ново съобщение</string>
     <string name="notification_info_channel_disabled_text">Вие няма да получите %2$s известия от %1$s.</string>
     <string name="notification_info_channel_enabled_text">Вие ще получите %2$s известия от %1$s.</string>
@@ -1050,6 +1051,7 @@
     <string name="power_remaining_charging_duration_only">Оставащо време до пълно зареждане: %1$s</string>
     <string name="power_remaining_duration_only">Оставащо време: около %1$s</string>
     <string name="power_remaining_duration_only_short">Оставащо време: %1$s</string>
+    <string name="process_kernel_label">Android (ОС)</string>
     <string name="profile_owned_footer">Профилът може да се наблюдава</string>
     <string name="prompt_danger">Опасно</string>
     <string name="prompt_detecting">Откриване</string>
@@ -1533,4 +1535,6 @@ d MMMM"</string>
     <string name="zen_silence_introduction">Това ще блокира ВСИЧКИ звуци и вибрация, включително от будилника, музика, видеоклипове и игри.</string>
     <string name="zen_silence_introduction_voice">Това ще блокира ВСИЧКИ звуци и вибрация, включително от будилника, музика, видеоклипове и игри. Вие все пак ще можете да провеждате телефонни обаждания.</string>
     <string name="notification_num_channels">%d категории известия</string>
+    <string name="status_bar_date_formatter">"%2$s
+%1$s"</string>
 </resources>

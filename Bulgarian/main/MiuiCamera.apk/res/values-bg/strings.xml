@@ -32,10 +32,12 @@
     <string name="pref_front_mirror_title">Предно огледало</string>
     <string name="pref_video_quality_title">Видео резолюция</string>
     <string name="pref_video_hfr_title">Видео HFR</string>
-    <string name="pref_video_quality_entry_4kuhd">UHD 4K</string>
-    <string name="pref_video_quality_entry_1080p">FHD 1080P</string>
-    <string name="pref_video_quality_entry_720p">HD 720P</string>
-    <string name="pref_video_quality_entry_480p">SD 480P</string>
+    <string name="pref_video_quality_entry_4kuhd">UHD 4K, 30к/сек</string>
+    <string name="pref_video_quality_entry_4kuhd_60fps">UHD 4K, 60к/сек</string>
+    <string name="pref_video_quality_entry_1080p">FHD 1080P, 30к/сек</string>
+    <string name="pref_video_quality_entry_1080p_60fps">FHD 1080P, 60к/сек</string>
+    <string name="pref_video_quality_entry_720p">HD 720P, 30к/сек</string>
+    <string name="pref_video_quality_entry_480p">SD 480P, 30к/сек</string>
     <string name="pref_video_encoder_title">Видео енкодер</string>
     <string name="pref_video_encoder_entry_h264">H.264 Висока съвместимост</string>
     <string name="pref_video_encoder_entry_h265">H.265 Висока производителност</string>
@@ -427,6 +429,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Ефект дълбочина</string>
     <string name="portrait_mode_use_hint">"Режим Портрет замъглява задния план, 
 и по този начин лицата на хората изпъкват ясно на преден план."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">Квадрат</string>
     <string name="simple_mode_button_text_square">Изключи Квадрат</string>
     <string name="face_beauty_smart">Смарт</string>
@@ -441,6 +444,7 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средно</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Режими</string>
     <string name="button_front_camera_title">Направете селфи</string>
     <string name="button_normal_video_title">Запишете видео</string>
@@ -533,6 +537,5 @@
     <string name="pref_camera_picturesize_entry_fullscreen">Широкоекранно 16:9</string>
     <string name="lens_dirty_detected_title_back">Лещите на задната камера са замърсени</string>
     <string name="lens_dirty_detected_title_front">Лещите на предната камера са замърсени</string>
-    <string name="lens_dirty_detected_content">"Ако ви бъде съобщено, че лещите на вашата камера са замърсени,
-, моля почистете ги за по-добро качество на заснемане."</string>
+    <string name="lens_dirty_detected_content">Изглежда, че обективът на камерата е замърсен. Почистете го за по-качествени снимки.</string>
 </resources>
