@@ -464,7 +464,6 @@
     <string name="face_name_edit">Промени</string>
     <string name="face_name_input">Въведете име</string>
     <string name="face_recommend">Препоръки</string>
-    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Операцията е неуспешна</string>
     <string name="fail_to_pick_email">Невалиден Имейл</string>
     <string name="fail_to_sync_album">Албумът не можа да се синхронизира. Проверете връзката си за данни и опитайте отново.</string>
@@ -473,7 +472,6 @@
     <string name="fast_share_auto_render">Разкраси</string>
     <string name="fast_share_auto_render_finish">Разкрасено</string>
     <string name="feature_guidance_photo_effects">Photo effects</string>
-    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Спомени</string>
     <string name="filter_bi_mono">Моно</string>
     <string name="filter_bi_pink">Розово</string>
@@ -542,7 +540,6 @@
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">ГБ</string>
     <string name="grant_permission_go_and_set">Задай</string>
-    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Галерия се нуждае от достъп до 
 %s
  за да работи нормално, чукнете \"Задай\" за да отидете в Разрешения."</string>
@@ -738,7 +735,6 @@
     <string name="people_mark_mode_title_no_mark_name">Изберете човек</string>
     <string name="people_page_label">Лице</string>
     <string name="people_page_unname">Неизвестно</string>
-    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Домашни любимци</string>
     <string name="petabyteShort">ПБ</string>
     <string name="photo">Снимка</string>
@@ -978,9 +974,6 @@
     <string name="search_title_recommend">Препоръчвани</string>
     <string name="search_title_suggestion">Предложения</string>
     <string name="search_title_tag">Обекти</string>
-    <string name="search_transition_element_icon">search_icon</string>
-    <string name="search_transition_element_input">search_input</string>
-    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Търсене на проектор…</string>
     <string name="secret_album_card_description">Най-доброто място за всички ваши малки тайни</string>
     <string name="secret_album_card_title">Изпробвайте скрития албум</string>
@@ -1249,7 +1242,6 @@
     <string name="view_more_face_desc">Покажи още хора</string>
     <string name="view_queuing_status">Проверка на статуса</string>
     <string name="voice_assistant">Гласово въвеждане</string>
-    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Добре дошли в Mi Cloud.</string>
     <string name="where_is_barcode">Къде е QR кода?</string>
     <string name="who_is_this">Кой е този?</string>
