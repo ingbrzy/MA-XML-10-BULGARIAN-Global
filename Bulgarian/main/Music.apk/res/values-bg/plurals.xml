@@ -16,10 +16,6 @@
         <item quantity="other">Музиката ще спре след %d минути</item>
         <item quantity="one">Музиката ще спре след %d минута</item>
     </plurals>
-    <plurals name="Nrecognize_switch_off_alert_message">
-        <item quantity="other">Вие сте избрали да не се търсят обложки на албуми и текстове автоматично за локални песни. Да се изтрие ли информацията за %d песни?</item>
-        <item quantity="one">Вие сте избрали да не се търсят обложки на албуми и текстове автоматично за локални песни. Да се изтрие ли информацията за %d песен?</item>
-    </plurals>
     <plurals name="Nsong_group_detail_subtitle">
         <item quantity="other">Създадена на %1$s | общо %2$d песни</item>
         <item quantity="one">Създадена на %1$s | общо %2$d песен</item>
@@ -113,5 +109,9 @@
     <plurals name="songs_count">
         <item quantity="other">%d песни</item>
         <item quantity="one">%d песен</item>
+    </plurals>
+    <plurals name="video_play_count">
+        <item quantity="other">%1$s views</item>
+        <item quantity="one">%1$s view</item>
     </plurals>
 </resources>

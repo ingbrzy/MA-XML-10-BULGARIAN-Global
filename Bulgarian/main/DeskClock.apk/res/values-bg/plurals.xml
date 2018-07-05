@@ -4,10 +4,6 @@
         <item quantity="other">Отлагане за %d минути.</item>
         <item quantity="one">Отлагане за %d минута.</item>
     </plurals>
-    <plurals name="auto_silence_summary">
-        <item quantity="other">Заглушаване след %d минути</item>
-        <item quantity="one">Заглушаване след %d минута</item>
-    </plurals>
     <plurals name="delete_alarm_confirm">
         <item quantity="other">Да се изтрият ли избраните будилници?</item>
         <item quantity="one">Да се изтрие ли този будилник?</item>
@@ -18,19 +14,11 @@
     </plurals>
     <plurals name="second">
         <item quantity="other">%d секунди</item>
-        <item quantity="one">%d second</item>
+        <item quantity="one">%d секунда</item>
     </plurals>
     <plurals name="snooze_message">
         <item quantity="other">Заглуши за %d мин.</item>
         <item quantity="one">Заглуши за %d мин.</item>
-    </plurals>
-    <plurals name="timer_item_duration_display_minutes">
-        <item quantity="other">%1$d минути</item>
-        <item quantity="one">1 минута</item>
-    </plurals>
-    <plurals name="timer_item_duration_display_seconds">
-        <item quantity="other">%1$d секунди</item>
-        <item quantity="one">1 секунда</item>
     </plurals>
     <plurals name="timer_message_hour">
         <item quantity="other">"%1$d часа "</item>
@@ -43,5 +31,17 @@
     <plurals name="timer_message_second">
         <item quantity="other">%1$d секунди</item>
         <item quantity="one">%1$d секунда</item>
+    </plurals>
+    <plurals name="auto_silence_summary">
+        <item quantity="other">Заглушаване след %d минути</item>
+        <item quantity="one">Заглушаване след %d минута</item>
+    </plurals>
+    <plurals name="timer_item_duration_display_minutes">
+        <item quantity="other">%1$d минути</item>
+        <item quantity="one">1 минута</item>
+    </plurals>
+    <plurals name="timer_item_duration_display_seconds">
+        <item quantity="other">%1$d секунди</item>
+        <item quantity="one">1 секунда</item>
     </plurals>
 </resources>

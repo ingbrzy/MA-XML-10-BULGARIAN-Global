@@ -28,8 +28,8 @@
         <item>Натиснете стрелката по-долу, за да създадете нова папка или да превключите между съществуващите такива.</item>
     </string-array>
     <string-array name="folder_operations">
-        <item>Преименуване</item>
-        <item>Изтриване</item>
+        <item>Преименувай</item>
+        <item>Изтрий</item>
     </string-array>
     <string-array name="font_size_names">
         <item>Малък</item>

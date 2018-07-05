@@ -15,6 +15,7 @@
     <string name="hide_touch_assistant_intro">Скриване на Тъч асистент в избрани приложения.</string>
     <string name="hide_when_fullscreen">Скриване при цял екран</string>
     <string name="hide_when_fullscreen_intro">Скриване, когато сте в пълноекранен режим.</string>
+    <string name="mi_wallet_summary">Транспортна карта/Mi плащане/карта за отключване</string>
     <string name="motion_behavior">Предпочитан жест</string>
     <string name="name_alipay_payment_code">Плащане в Аliexpress</string>
     <string name="name_alipay_scan">Alipay скенер</string>
@@ -22,6 +23,7 @@
     <string name="name_handy_mode">Режим с една ръка</string>
     <string name="name_long_press_power_key">Дълго натискане на бутон Захранване</string>
     <string name="name_memory_clean">Изчисти кеша</string>
+    <string name="name_mi_wallet">Mi портфейл</string>
     <string name="name_music_next_song">Следваща песен</string>
     <string name="name_music_prev_song">Предишна песен</string>
     <string name="name_music_toggle">Пусни/Пауза на песента</string>
@@ -53,6 +55,4 @@
     <string name="show_on_keyguard">Показване на закл. екран</string>
     <string name="theme_manager_not_supported">Мениджъра на теми не е поддържан.</string>
     <string name="three_seconds_auto_hide">Ще се скрие след 3 секунди бездействие</string>
-    <string name="mi_wallet_summary">Transport card/Mi Pay/Key card</string>
-    <string name="name_mi_wallet">Mi портфейл</string>
 </resources>

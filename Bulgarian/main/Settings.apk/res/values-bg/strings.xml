@@ -160,6 +160,7 @@
     <string name="add_device_admin_msg">Да се активира ли прилож. за администр.?</string>
     <string name="add_facerecoginition_text">Добави данни за лице</string>
     <string name="add_fingerprint_cancel_button_text">Назад</string>
+    <string name="add_fingerprint_dirty_fingerprint">Уверете се, че повърхността на екрана е чиста. Опитайте се да запишете вашият пръстов отпечатък отново.</string>
     <string name="add_fingerprint_done_msg">Сега може да отключвате устройството си с пръстов отпечатък.</string>
     <string name="add_fingerprint_done_title">Готови сте да започнете!</string>
     <string name="add_fingerprint_edge_instruction_msg">Движете пръста си по целия сензор за да може да бъдат записани ъглите на отпечатъка.</string>
@@ -168,6 +169,7 @@
     <string name="add_fingerprint_finished_button_text">Готово</string>
     <string name="add_fingerprint_instruction_msg">Сензорът за пръстов отпечатък е на бутон Начало на устройството ви.</string>
     <string name="add_fingerprint_instruction_title">Добавете пръстов отпечатък</string>
+    <string name="add_fingerprint_move_fast">Задръжте пръста си на екрана малко повече</string>
     <string name="add_fingerprint_name_suggest_text">Име на пръстов отпечатък</string>
     <string name="add_fingerprint_put_finger_edge_msg">Движете пръста си леко, за да добавите всички различни части от отпечатъка си.</string>
     <string name="add_fingerprint_put_finger_msg">Сложете пръста си върху сензора и го махнете щом усетите вибрация.</string>
@@ -1929,6 +1931,7 @@
     <string name="gadget_picker_title">Избор на притурка</string>
     <string name="gadget_state_off">изключено</string>
     <string name="gadget_state_on">включено</string>
+    <string name="gadget_state_template">%1$s: %2$s</string>
     <string name="gadget_state_turning_off">изключва сe</string>
     <string name="gadget_state_turning_on">включва се</string>
     <string name="gadget_sync">Синхронизиране</string>
@@ -1955,18 +1958,18 @@
     <string name="got_it">Разбрах</string>
     <string name="gsm_to_wifi_connect_type_title">GSM към Wi-Fi</string>
     <string name="gxzw_add_fingerprint_continue">Продължете</string>
-    <string name="gxzw_add_fingerprint_edge_message">Движете пръста си по целия сензор за да може да бъдат записани ъглите на отпечатъка.</string>
-    <string name="gxzw_add_fingerprint_edge_title">Местете вашия пръст постепенно</string>
-    <string name="gxzw_add_fingerprint_finish">Готово</string>
-    <string name="gxzw_add_fingerprint_indicate">Натиснете по-силно тук</string>
+    <string name="gxzw_add_fingerprint_edge_message">Движете пръста си по целия сензор за да може да бъдат записани ъглите на отпечатъка</string>
+    <string name="gxzw_add_fingerprint_edge_title">Малко мръднете пръста си</string>
+    <string name="gxzw_add_fingerprint_finish">Готово!</string>
+    <string name="gxzw_add_fingerprint_indicate">Натиснете върху осветеното място</string>
     <string name="gxzw_add_fingerprint_know">Разбрах</string>
-    <string name="gxzw_add_fingerprint_message">Пазете пръстите си и повърхността на екрана чисти</string>
+    <string name="gxzw_add_fingerprint_message">Уверете се, че вашите пръсти и екранът са чисти</string>
     <string name="gxzw_add_fingerprint_move_indicate">Местете вашия пръст постепенно</string>
-    <string name="gxzw_add_fingerprint_move_message">Не може да се запишат оставащите полета от вашия пръстов отпечатък. Движете пръста си бавно и постепенно</string>
-    <string name="gxzw_add_fingerprint_move_title">Местете вашия пръст постепенно</string>
+    <string name="gxzw_add_fingerprint_move_message">Движете пръста си по целия сензор за да може да бъдат записани всички участъци от отпечатъка</string>
+    <string name="gxzw_add_fingerprint_move_title">Преместете пръста си малко</string>
     <string name="gxzw_add_fingerprint_put_finger_message">Натиснете малко по-силно и махнете пръста си след като усетите вибрация. Повторете това няколко пъти.</string>
-    <string name="gxzw_add_fingerprint_put_finger_title">Натиснете по-силно, махнете след вибрацията</string>
-    <string name="gxzw_add_fingerprint_title">Добавяне на пръстов отпечатък</string>
+    <string name="gxzw_add_fingerprint_put_finger_title">Натиснете и махнете след вибрацията</string>
+    <string name="gxzw_add_fingerprint_title">Добавете пръстов отпечатък</string>
     <string name="handy_mode">Режим с една ръка</string>
     <string name="handy_mode_enable">Режим с една ръка</string>
     <string name="handy_mode_size">Размер на екрана</string>
@@ -2217,6 +2220,7 @@
     <string name="lift_to_wake_title">Събуждане при повдигане</string>
     <string name="line_breaking_summary">Оптимизирай пренасянето на текста</string>
     <string name="line_breaking_title">Оптимизиране на текст</string>
+    <string name="link_speed">%1$d Мб/с</string>
     <string name="list_bg_header_text">Ако ограничите свързването във фонов режим, новите приложения няма да могат да се свързват към интернет, след като ги инсталирате. Това може да бъде проблем при получаването на съобщения и уведомления или изтегляне на информация.</string>
     <string name="list_empty_text">Празно</string>
     <string name="loading_notification_apps">Приложенията се зареждат...</string>
@@ -2347,6 +2351,7 @@
     <string name="lockpassword_choose_your_pin_header">Задайте своя PIN</string>
     <string name="lockpassword_choose_your_pin_header_second_space">"Задайте PIN 
  за Второ работно място"</string>
+    <string name="lockpassword_choose_your_pin_title">Въведете 4-16 цифри</string>
     <string name="lockpassword_confirm_for_second_user">Потвърдете вашата парола за Второ работно място</string>
     <string name="lockpassword_confirm_passwords_dont_match">Паролите не си съответстват</string>
     <string name="lockpassword_confirm_pins_dont_match">PIN кодовете не са идентични</string>
@@ -2567,6 +2572,7 @@
     <string name="memory_title">Свободни: %1$s\u0009\u0009Общо: %2$s</string>
     <string name="memory_usage">Използване на паметта</string>
     <string name="memory_usage_apps">Използвана от приложенията памет</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">Средно %1$s използвана памет през последните 3 часа</string>
     <string name="menu_cancel">Отхвърляне</string>
     <string name="menu_check">Опит</string>
@@ -2808,6 +2814,7 @@
     <string name="nfc_how_it_works_got_it">Разбрах</string>
     <string name="nfc_how_it_works_title">Плащане на терминал</string>
     <string name="nfc_more_title">Още...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Основно приложение за плащане</string>
     <string name="nfc_payment_default_not_set">Не е зададено</string>
     <string name="nfc_payment_favor_default">Винаги използвайте приложението по подразбиране</string>
@@ -3014,6 +3021,7 @@
     <string name="overlay_display_devices_title">Симулиране на втори дисплей</string>
     <string name="overlay_settings">Показв. върху други приложения</string>
     <string name="owner_info_settings_edit_text_hint">Напр. „Устройството с Android на Иван“.</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Няма</string>
     <string name="owner_info_settings_title">Подпис на заключен екран</string>
     <string name="owner_space">Основно работно място</string>
@@ -3305,6 +3313,7 @@
     <string name="private_sms_recording_intro_header">Начертайте шаблон за отключване:</string>
     <string name="private_sms_reset_by_account">Влезте в Mi Профила си за нулиране на паролата</string>
     <string name="process_dex2oat_label">Оптимизиране на приложенията</string>
+    <string name="process_kernel_label">Android операционна система</string>
     <string name="process_mediaserver_label">Медиен сървър</string>
     <string name="process_provider_in_use_description">Доставчикът %1$s се използва.</string>
     <string name="process_service_in_use_description">Услугата %1$s се използва</string>
@@ -3598,7 +3607,7 @@ Wi-Fi телефония: %3$s
     <string name="screen_paper_mode_off_apps_title">Не използвай режим Четене</string>
     <string name="screen_paper_mode_range_title">Настройки</string>
     <string name="screen_paper_mode_set_apps_title">Приложения за Режим четене</string>
-    <string name="screen_paper_mode_summary">Намалява сините цветове</string>
+    <string name="screen_paper_mode_summary">Режим четене прави цветовете на вашия екран меки и топли за по - лесно възприемане и възможност на очите ви да отпочиват.</string>
     <string name="screen_paper_mode_time_summary">Планиране на времето за включване и изключване на режим Четене</string>
     <string name="screen_paper_mode_time_title">Планиране</string>
     <string name="screen_paper_mode_title">Режим четене</string>
@@ -4154,6 +4163,7 @@ Wi-Fi телефония: %3$s
     <string name="sim_reenter_new">Въведете пак новия ПИН код</string>
     <string name="sim_select_card">Изберете SIM карта</string>
     <string name="sim_selection_required_pref">Изборът е задължителен</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM карти</string>
     <string name="sim_setup_wizard_title">SIM карти</string>
     <string name="sim_signal_strength">%1$d dBm, %2$d asu</string>
@@ -4242,6 +4252,7 @@ Wi-Fi телефония: %3$s
     <string name="status_bar_settings_all_app_display_loading">Зарежда се…</string>
     <string name="status_bar_settings_app_notification_preferences">Настройки на приложенията</string>
     <string name="status_bar_settings_basic_settings">Основни настройки</string>
+    <string name="status_bar_settings_carrier_sim">SIM %1$s:</string>
     <string name="status_bar_settings_custom_carrier">Име на оператора по избор</string>
     <string name="status_bar_settings_custom_wifi_name">Редактирай името на Wi-Fi</string>
     <string name="status_bar_settings_enable_notification">Разрешаване на известия</string>
@@ -4460,6 +4471,7 @@ Wi-Fi телефония: %3$s
     <string name="suggestions_summary">+ %1$d</string>
     <string name="suggestions_title">Предложения</string>
     <string name="sum_carrier_select">Избиране на мрежов оператор</string>
+    <string name="summary_range_symbol_combination">от %1$s до %2$s</string>
     <string name="summary_range_verbal_combination">от %1$s до %2$s</string>
     <string name="super_resolution_access_title">Достъпни приложения</string>
     <string name="super_resolution_desc">Направи изображението отчетливо чрез използване на AI алгоритъм</string>

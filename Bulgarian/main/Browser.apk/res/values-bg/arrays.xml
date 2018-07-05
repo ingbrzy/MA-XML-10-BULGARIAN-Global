@@ -48,6 +48,10 @@
         <item>Телефон</item>
         <item>Таблет</item>
     </string-array>
+    <string-array name="pref_navscreen_layoutstate_choices">
+        <item>Vertical view</item>
+        <item>Horizontal view</item>
+    </string-array>
     <string-array name="pref_text_zoom_choices">
         <item>Миниатюрен</item>
         <item>Малък</item>

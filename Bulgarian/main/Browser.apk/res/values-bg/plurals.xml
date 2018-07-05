@@ -20,6 +20,14 @@
         <item quantity="other">%d съвпадения</item>
         <item quantity="one">%d съвпадение</item>
     </plurals>
+    <plurals name="mw_last_num_days">
+        <item quantity="other">Last %d days</item>
+        <item quantity="one">Last %d days</item>
+    </plurals>
+    <plurals name="mw_matches_found">
+        <item quantity="other">%1$d of %2$d</item>
+        <item quantity="one">1 match</item>
+    </plurals>
     <plurals name="nav_screen_incognito_time">
         <item quantity="other">След %d секунди автоматично ще се създаде нова страница</item>
         <item quantity="one">След %d секунда автоматично ще се създаде нова страница</item>
@@ -79,5 +87,13 @@
     <plurals name="view_realtime_clear">
         <item quantity="other">Ясно</item>
         <item quantity="one">Ясно</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Последните %d дни</item>
+        <item quantity="one">Последният %d ден</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d от %2$d</item>
+        <item quantity="one">1 съответствие</item>
     </plurals>
 </resources>

@@ -133,12 +133,12 @@
         <item quantity="one">PIN кодът трябва да е %d цифра</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
-        <item quantity="other">PIN кодът може да съдържа до %d цифри</item>
-        <item quantity="one">PIN кодът може да съдържа до %d цифра</item>
+        <item quantity="other">Може да въведете до %d цифри</item>
+        <item quantity="one">Може да въведете до %d цифра</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short">
-        <item quantity="other">PIN кодът трябва да е поне %d цифри</item>
-        <item quantity="one">PIN кодът трябва да е поне %d цифра</item>
+        <item quantity="other">Въведете поне %d цифри</item>
+        <item quantity="one">Въведете поне %d цифра</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Свържете поне %d точка. Опитайте отново.</item>
