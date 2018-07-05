@@ -110,7 +110,6 @@
     <string name="menu_title_select_folder">Избери папка</string>
     <string name="menu_unhide">Покажи</string>
     <string name="menu_unstick">Откачи</string>
-    <string name="micloud_state_total_count">%1$s</string>
     <string name="not_now">Не сега</string>
     <string name="note_description_content">Приложението Бележки е чудесен инструмент за записване на вашите идеи. То има вградени напомняния и синхронизира Вашите теми с Mi Облак, за да имате достъп до тях отвсякъде и по всяко време. Уверете се, че можете да се справяте и без това приложение, преди да го деинсталирате.</string>
     <string name="note_description_title">За Бележки</string>

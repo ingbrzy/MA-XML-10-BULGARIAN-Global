@@ -1058,7 +1058,6 @@
     <string name="power_remaining_charging_duration_only">%1$s остава до пълно зареждане</string>
     <string name="power_remaining_duration_only">Остава %1$sч</string>
     <string name="power_remaining_duration_only_short">%1$s е изминало</string>
-    <string name="process_kernel_label">Android операционна система</string>
     <string name="profile_owned_footer">Профилът може да се наблюдава</string>
     <string name="prompt_danger">Опасно</string>
     <string name="prompt_detecting">Откриване</string>
@@ -1542,6 +1541,4 @@ d MMMM"</string>
     <string name="zen_silence_introduction">Това ще блокира ВСИЧКИ звуци и вибрация, включително от будилника, музика, видеоклипове и игри.</string>
     <string name="zen_silence_introduction_voice">Това ще блокира ВСИЧКИ звуци и вибрация, включително от будилника, музика, видеоклипове и игри. Вие все пак ще можете да провеждате телефонни обаждания.</string>
     <string name="notification_num_channels">%d категории известия</string>
-    <string name="status_bar_date_formatter">"%2$s
-%1$s"</string>
 </resources>

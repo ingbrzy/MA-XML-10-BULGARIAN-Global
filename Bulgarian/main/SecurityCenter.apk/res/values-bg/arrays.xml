@@ -73,12 +73,6 @@
         <item>Сортиране по използване на хранилището</item>
         <item>Подреди по време на инсталиране</item>
     </string-array>
-    <string-array name="key_app_info">
-        <item>източник на инсталиране</item>
-        <item>час на инсталиране</item>
-        <item>източник на актуализиране</item>
-        <item>час на актуализиране</item>
-    </string-array>
     <string-array name="title_app_info">
         <item>Източник на инсталиране</item>
         <item>Час на инсталиране</item>

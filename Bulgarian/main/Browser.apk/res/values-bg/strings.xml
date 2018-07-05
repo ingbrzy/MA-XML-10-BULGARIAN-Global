@@ -732,8 +732,6 @@ Are you sure you want to navigate away from this page?"</string>
     <string name="mw_snippets_disabled_generic_prompt">Get personalized content</string>
     <string name="mw_snippets_disabled_signed_out_instructions">To get personalized content suggested by Google, sign in to Chrome.</string>
     <string name="mw_time_picker_dialog_am">AM</string>
-    <string name="mw_time_picker_dialog_hour_minute_separator">:</string>
-    <string name="mw_time_picker_dialog_minute_second_separator">:</string>
     <string name="mw_time_picker_dialog_pm">PM</string>
     <string name="mw_time_picker_dialog_second_subsecond_separator">.</string>
     <string name="mw_time_picker_dialog_title">Set time</string>

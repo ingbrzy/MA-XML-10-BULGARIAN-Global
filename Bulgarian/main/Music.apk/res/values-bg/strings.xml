@@ -130,7 +130,6 @@
     <string name="continue_backup">Продължи</string>
     <string name="cp_info_first">"Услугата за поточно слушане на музика
 се предоставя основно от Ultimate Inc."</string>
-    <string name="cp_info_second">service1@ultimobi.com</string>
     <string name="create_order_fail">Не мога да направя поръчка,опитайте отново.</string>
     <string name="create_playlist">Създаване на плейлист</string>
     <string name="create_playlist_failure">Не може да се създаде плейлист</string>
@@ -227,7 +226,6 @@
     <string name="download_method">Изтегляне</string>
     <string name="download_no_application_title">Файлът не може да се отвори</string>
     <string name="download_paused_in_power_save_mode">Изтеглянето е спряно когато Икономия на батерията е включено</string>
-    <string name="download_percent">%d%%</string>
     <string name="download_processing">Изтегля се…</string>
     <string name="download_quality">Качество при изтегляне</string>
     <string name="download_quality_summary">Допълнителни настройки на песните, които сте изтеглили</string>
@@ -595,7 +593,6 @@
     <string name="priority_storage">Съхраняване на SD картата</string>
     <string name="priority_storage_summary">При поставена SD карта, автоматично записване на файловете на SD картата</string>
     <string name="privacy_policy">Политика за поверителност</string>
-    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=en</string>
     <string name="project_device">Mi Телефон</string>
     <string name="prompt_grant_write_settings_permission">Позволи промяна на системните настройки</string>
     <string name="pulluprefreshrecyclerview_loading_error">Неуспешно зареждане</string>
@@ -705,7 +702,6 @@
     <string name="start_to_check_new_version">Проверява се за актуализации…</string>
     <string name="start_to_download">Старирайте изтегляне…</string>
     <string name="start_to_play">Пусни</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop">Стоп</string>
     <string name="stop_backup">Стоп</string>
     <string name="storage_internal">Вътрешна памет</string>
@@ -767,7 +763,6 @@
     <string name="upgrade_music_message">Обновяването приключи. Рестартирайте програмата.</string>
     <string name="upgrading_in_backstage">Актуализиране във фонов режим…</string>
     <string name="user_agreement">Потребителско споразумение</string>
-    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=en</string>
     <string name="version_info">Версия</string>
     <string name="video_play_cellular">"Your device isn't connected to Wi-Fi. Use mobile data?"</string>
     <string name="video_replay_btn">Play again</string>
