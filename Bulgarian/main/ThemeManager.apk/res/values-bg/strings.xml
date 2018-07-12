@@ -101,7 +101,6 @@
     <string name="incompatible_dialog_ok">Разбрах</string>
     <string name="incompatible_dialog_title">Грешка при съвместимостта</string>
     <string name="is_setting_wallpaper_message">Тапетът се задава…</string>
-    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Будилници</string>
     <string name="item_resource_audio_optional_color_ring">Тон на обратно позвъняване</string>
     <string name="item_resource_audio_optional_notification_ring">Известия</string>
@@ -294,7 +293,6 @@
     <string name="resource_pack_price_info">%1$s Нормално</string>
     <string name="resource_pack_warning">Внимание! Вече сте закупили %1$d елемента. Текущата им цена не е валидна за оставащите елементи, моля да ги купите поотделно.</string>
     <string name="resource_present">Подарък</string>
-    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Безплатни</string>
     <string name="resource_price_unit"> МiКредити</string>
     <string name="resource_purchase_common_error">Получи се грешка, опитайте отново</string>

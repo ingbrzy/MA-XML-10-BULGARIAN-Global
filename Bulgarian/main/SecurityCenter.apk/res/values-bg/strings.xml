@@ -1365,9 +1365,7 @@
     <string name="menu_text_antispam">Антиспам</string>
     <string name="menu_text_license_manager">Разрешения</string>
     <string name="menu_text_garbage_cleanup">Почистване</string>
-    <string name="menu_text_garbage_cleanup_danger">%s над лимита</string>
     <string name="menu_text_power_manager">Батерия</string>
-    <string name="menu_text_power_percent_title">Батерия %s</string>
     <string name="menu_text_power_percent_title_default">Батерия</string>
     <string name="last_check_canceled">Предишното сканиране е прекъснато преди да завърши</string>
     <string name="examination_score_100">Изглежда всичко работи добре!</string>
