@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="add_alarm">Добавяне</string>
+    <string name="add_clock">Добави часова зона</string>
     <string name="add_timezone_title">Добави часова зона</string>
     <string name="alarm_alert_alert_silenced">Будилника спира след %d минути.</string>
     <string name="alarm_alert_snooze_set">Повтори сигнала след %d минути.</string>
@@ -36,6 +37,7 @@
     <string name="close_alarm">Изключване</string>
     <string name="common_settings">Общи настройки</string>
     <string name="confirm_abort">Отмяна на промените</string>
+    <string name="content_desc_keep_screen">Бутон за запазване на екрана включен</string>
     <string name="control_set_alarm">Навиване на будилника</string>
     <string name="control_set_alarm_with_existing">Будилникът е настроен за: %s</string>
     <string name="day">1 ден</string>
@@ -54,6 +56,7 @@
     <string name="dialog_message_agree">Съгласен съм</string>
     <string name="dialog_message_for_contact_permission">За да са налични аларми за рождени дни, Часовникът трябва да има достъп до контактите Ви. Съгласен ли сте?</string>
     <string name="dialog_message_negative">Не съм съгласен</string>
+    <string name="dialog_message_not_remind">Не показвай отново</string>
     <string name="done">Готово</string>
     <string name="dynamic_alarm_speech">Умна аларма</string>
     <string name="edit_alarm">Настрой будилник</string>
@@ -109,14 +112,14 @@
     <string name="menu_item_sort_by_name">Сортиране по име</string>
     <string name="minute">1 минута</string>
     <string name="minutes">%d минути</string>
-    <string name="module_download_cancel">Не сега</string>
-    <string name="module_download_data_msg">За да са налични умни аларми, звуци от природата и аларми за рождени дни, Часовникът трябва да се свърже с интернет и да има достъп до Вашите контакти. Вие също ще трябва да изтеглите и допълнително аудио. Желаете ли да използвате мобилни данни, за да изтеглите допълнително аудио?</string>
-    <string name="module_download_data_msg_golbal">За да са налични умни аларми и звуци от природата, Часовникът трябва изтегли допълнително аудио. Желаете ли да използвате мобилни данни, за да изтеглите допълнително аудио?</string>
+    <string name="module_download_cancel">Не, благодаря</string>
+    <string name="module_download_data_msg">Приложението Часовник се нуждае от интернет връзка, за да изтегли аудио файлове (20MB) за околни шумове и умни аларми. В момента Вие използвате мобилни данни. Разрешаване?</string>
+    <string name="module_download_data_msg_golbal">Приложението Часовник трябва да изтегли аудио файлове (20MB) за околни шумове и умни аларми. В момента Вие използвате мобилни данни. Разрешаване?</string>
     <string name="module_download_fail">Неуспешно изтегляне на допълнителното аудио</string>
-    <string name="module_download_msg">За да са налични умни аларми, звуци от природата и аларми за рожден ден, Часовникът трябва да се свърже с интернет и да има достъп до Вашите контакти. Вие също ще трябва да изтеглите и допълнително аудио. Съгласен ли сте?</string>
-    <string name="module_download_msg_golbal">За да са налични умни аларми и звуци от природата, часовникът трябва да изтегли допълнително аудио. Съгласен ли сте?</string>
+    <string name="module_download_msg">Приложението Часовник се нуждае от интернет връзка, за да изтегли аудио файлове за околни шумове и умни аларми. Разрешаване?</string>
+    <string name="module_download_msg_golbal">Приложението Часовник трябва да изтегли аудио файлове за околни шумове и умни аларми. Разрешаване?</string>
     <string name="module_download_no_network">Неуспешно свързване с мрежата. Проверете настройките на мрежата и опитайте отново.</string>
-    <string name="module_download_ok">Съгласи се &amp; изтегли</string>
+    <string name="module_download_ok">Разреши</string>
     <string name="module_download_success">Успешно изтегляне на допълнителното аудио</string>
     <string name="module_download_title">Необходимо е допълнително аудио</string>
     <string name="module_downloading">Изтегляне на допълнително аудио…</string>
@@ -145,6 +148,7 @@
     <string name="shutdown_alarm_enable_summary">Автоматично включване на телефона при настроен будилник</string>
     <string name="shutdown_alarm_title">Включване на телефона</string>
     <string name="silent_alarm_summary">Без звук</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Изключи еднократно на %s</string>
     <string name="slider_text">Плъзнете нагоре за да изключите</string>
     <string name="snooze_confirm_cancel">Спри аларма</string>
@@ -153,6 +157,7 @@
     <string name="start_up">Старт</string>
     <string name="stopwatch_lap_empty_text">Няма обиколки</string>
     <string name="stopwatch_title">Хронометър</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Настройте време</string>
     <string name="system_time_settings_category_title">Настройки за часовник</string>
     <string name="temperature_unit">%1$s°</string>
@@ -183,10 +188,8 @@
     <string name="timer_item_picker_second">сек.</string>
     <string name="timer_new_item">Добави таймер</string>
     <string name="timer_notify_text">Заглушаване или отмяна на таймера.</string>
-    <string name="timer_pause_hint">Пауза</string>
     <string name="timer_pause_timer">Поставяне на таймера на пауза</string>
     <string name="timer_running">Таймерът работи</string>
-    <string name="timer_running_hint">Продължете</string>
     <string name="timer_start_alarm">Времето изтече</string>
     <string name="timer_start_timer">Стартиране на таймера</string>
     <string name="timer_title">Таймер</string>
@@ -211,4 +214,6 @@
     <string name="worldcolock_timezone_date">dd MMM</string>
     <string name="worldcolock_timezone_gap">час</string>
     <string name="worldcolock_timezone_local">Същото като местното време</string>
+    <string name="timer_pause_hint">Пауза</string>
+    <string name="timer_running_hint">Продължете</string>
 </resources>

@@ -143,7 +143,7 @@
     <string name="passport_license_host_unreachable">Няма връзка с мрежата. За да видите страницата, отидете на %s.</string>
     <string name="passport_login_failed">Неуспешно вписване</string>
     <string name="passport_reg_failed">Профилът не може да се създаде</string>
-    <string name="passport_verification_failed">Неуспешно удостоверяване</string>
+    <string name="passport_verification_failed">Не може да се провери вашият Mi Профил</string>
     <string name="passport_reset_fail_title">Неуспешно въстановяване</string>
     <string name="passport_identification_expired">Кодът за проверка е изтекъл, започнете отначало</string>
     <string name="passport_bad_authentication">Невалидно име или парола</string>

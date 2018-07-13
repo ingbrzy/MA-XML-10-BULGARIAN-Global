@@ -236,6 +236,10 @@
         <item quantity="other">Вече сте на %1$d стъпки от докладването на грешка.</item>
         <item quantity="one">Вече сте на %1$d стъпка от докладването на грешка.</item>
     </plurals>
+    <plurals name="show_reset_countdown">
+        <item quantity="other">Остават %1$d стъпки до възстановяване на фабр. настройки</item>
+        <item quantity="one">Остава %1$d стъпка до възстановяване на фабр. настройки</item>
+    </plurals>
     <plurals name="special_access_summary">
         <item quantity="other">%d приложения могат да използват неограничено количество данни</item>
         <item quantity="one">1 приложение може да използва неограничено количество данни</item>

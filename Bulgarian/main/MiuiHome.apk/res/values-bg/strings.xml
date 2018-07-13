@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Добави в работно място</string>
     <string name="activity_not_found">Приложението не е инсталирано на телефона Ви.</string>
     <string name="add_screen">Добави бутон за екрани</string>
@@ -236,9 +237,9 @@
     <string name="open_personal_assistant_dialog_btn_cancel">Отмени</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Изключи</string>
     <string name="open_personal_assistant_dialog_desc">Няма да можете да използвате Трезор за приложения и да получавате неговите актуализации. Да се изключи ли сега?</string>
-    <string name="open_personal_assistant_dialog_desc_international">"You won't be able to use App vault cards (Stocks, Shortcuts, etc.) and receive updates after you turn this feature off."</string>
+    <string name="open_personal_assistant_dialog_desc_international">Няма да можете да използвате карти за приложението (запаси, преки пътища и др.) и да получавате актуализации, след като изключите тази функция.</string>
     <string name="open_personal_assistant_dialog_title">Изключи Трезор за приложения</string>
-    <string name="open_personal_assistant_title">App vault</string>
+    <string name="open_personal_assistant_title">Секция на приложението</string>
     <string name="out_of_space">На този екран няма свободно място.</string>
     <string name="permdesc_install_shortcut">Позволява на приложението да добавя преки пътища без намеса от потребителя.</string>
     <string name="permdesc_install_widget">Позволява на приложението да добавя джаджи без намеса от потребителя.</string>
@@ -280,11 +281,11 @@
     <string name="recommend_apps_tips">Тази функция се нуждае от връзка към интернет, за да работи нормално. Ако искате да я изключите, докоснете името на тази папка.</string>
     <string name="recommend_loading">Зареждане</string>
     <string name="refresh">Презареди</string>
-    <string name="reset_description_first_time">You can restore the layout from %1$s within 2 hours</string>
-    <string name="reset_description_others">You can restore the layout from %1$s</string>
-    <string name="reset_fail">"Couldn't restore"</string>
+    <string name="reset_description_first_time">Можете да възстановите оформлението от %1$s в рамките на 2 часа</string>
+    <string name="reset_description_others">Можете да възстановите оформлението от %1$s</string>
+    <string name="reset_fail">Не успя да възстанови</string>
     <string name="reset_scene_prompt">Сцената ще бъде възстановена до състояние по подразбиране</string>
-    <string name="reset_title">Restore</string>
+    <string name="reset_title">Възстанови</string>
     <string name="screen_cells_config_title">Схема на Начален екран</string>
     <string name="screen_locked_toast">Оформлението за начален екран е заключено.</string>
     <string name="screen_number">Екран %d</string>

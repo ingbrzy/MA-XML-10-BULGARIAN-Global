@@ -164,6 +164,22 @@
         <item quantity="other">%s приложения не са защитени</item>
         <item quantity="one">%s приложение не е защитено</item>
     </plurals>
+    <plurals name="menu_text_antivirus_2">
+        <item quantity="other">%d елементи</item>
+        <item quantity="one">%d елемент</item>
+    </plurals>
+    <plurals name="menu_text_antivirus_3">
+        <item quantity="other">%d дни</item>
+        <item quantity="one">%d ден</item>
+    </plurals>
+    <plurals name="menu_text_antispam_2">
+        <item quantity="other">%d елементи</item>
+        <item quantity="one">%d елемент</item>
+    </plurals>
+    <plurals name="menu_text_app_manager_2">
+        <item quantity="other">%d приложения</item>
+        <item quantity="one">%d приложение</item>
+    </plurals>
     <plurals name="system_check_content">
         <item quantity="other">%1$d обекта са защитени</item>
         <item quantity="one">%1$d обект е защитен</item>

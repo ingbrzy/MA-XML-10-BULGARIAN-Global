@@ -32,16 +32,4 @@
         <item quantity="other">%1$d секунди</item>
         <item quantity="one">%1$d секунда</item>
     </plurals>
-    <plurals name="auto_silence_summary">
-        <item quantity="other">Заглушаване след %d минути</item>
-        <item quantity="one">Заглушаване след %d минута</item>
-    </plurals>
-    <plurals name="timer_item_duration_display_minutes">
-        <item quantity="other">%1$d минути</item>
-        <item quantity="one">1 минута</item>
-    </plurals>
-    <plurals name="timer_item_duration_display_seconds">
-        <item quantity="other">%1$d секунди</item>
-        <item quantity="one">1 секунда</item>
-    </plurals>
 </resources>

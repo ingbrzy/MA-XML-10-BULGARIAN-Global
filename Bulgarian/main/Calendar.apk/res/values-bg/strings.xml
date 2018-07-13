@@ -34,7 +34,9 @@
     <string name="alert_reminder_expired">Изтекло</string>
     <string name="alert_title">Известия за календар</string>
     <string name="anniversary_event_title">Годишнина: %1$s</string>
+    <string name="anniversary_secondary_tag">Годишнина</string>
     <string name="app_label">Календар</string>
+    <string name="birthday_born">дата на раждане</string>
     <string name="birthday_calendar_display_name">Напомняне за рожден ден</string>
     <string name="birthday_event_description_a_week_ago">Преди седмица</string>
     <string name="birthday_event_description_a_week_later">След седмица</string>
@@ -74,6 +76,7 @@
     <string name="countdown_event_title">Обратно броене: %1$s</string>
     <string name="countdown_notify_before_3_day_title">Обратно броене: %1$s след 3 дни</string>
     <string name="countdown_notify_title">Обратно броене: %1$s</string>
+    <string name="countdown_secondary_tag">Обратно отброяване</string>
     <string name="countdown_today">Днес</string>
     <string name="create_an_account_desc">"Календарът работи най-добре с Mi Профил.
 
@@ -120,6 +123,7 @@
     <string name="edit_event_birthday_import_from_contact">Импортиране на рождени дни от контактите</string>
     <string name="edit_event_birthday_name_empty_hint">Въведете име</string>
     <string name="edit_event_birthday_name_hint">Име</string>
+    <string name="edit_event_birthday_reminder_3_days_before">Напомни 3 дни предварително също</string>
     <string name="edit_event_birthday_reminder_time">Час за напомняне</string>
     <string name="edit_event_calendar_label">Календар</string>
     <string name="edit_event_choose_date">Изберете дата</string>
@@ -180,6 +184,10 @@
     <string name="global_football_final">ФИНАЛ</string>
     <string name="global_football_no_match">Няма планирани футболни мачове за днес.</string>
     <string name="global_onthisday_com">OnThisDay.com</string>
+    <string name="guide_card_import">Импортиране</string>
+    <string name="guide_card_primary_text">Вмъкване на рождените дни на Вашите приятели</string>
+    <string name="guide_card_second_text">Никога не пропускайте важни дати</string>
+    <string name="guide_card_title">Вмъкване на рождени дни</string>
     <string name="hint_attendees">Гости</string>
     <string name="hint_description">Описание</string>
     <string name="hint_what">Име на събитие</string>
@@ -417,12 +425,4 @@
     <string name="xiaomi_calendar_display_name">Xiaomi Календар</string>
     <string name="yearly">Ежегодно (%s)</string>
     <string name="yearly_plain">Годишно</string>
-    <string name="anniversary_secondary_tag">Годишнина</string>
-    <string name="birthday_born">дата на раждане</string>
-    <string name="countdown_secondary_tag">Обратно отброяване</string>
-    <string name="edit_event_birthday_reminder_3_days_before">Напомни 3 дни предварително също</string>
-    <string name="guide_card_import">Импортиране</string>
-    <string name="guide_card_primary_text">Вмъкване на рождените дни на Вашите приятели</string>
-    <string name="guide_card_second_text">Никога не пропускайте важни дати</string>
-    <string name="guide_card_title">Вмъкване на рождени дни</string>
 </resources>

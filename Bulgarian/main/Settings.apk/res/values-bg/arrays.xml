@@ -862,6 +862,10 @@
         <item>Връзката е бавна поради слаб сигнал</item>
         <item>Преместване…</item>
     </string-array>
+    <string-array name="notch_battery_indicator_style_entries">
+        <item>Графично</item>
+        <item>Процентно</item>
+    </string-array>
     <string-array name="organized_locales">
         <item>dz</item>
         <item>ao</item>

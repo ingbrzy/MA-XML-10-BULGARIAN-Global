@@ -380,6 +380,7 @@
     <string name="pref_camera_beauty">Разкраси</string>
     <string name="pref_camera_beauty_deep">Разкрасяване</string>
     <string name="pref_camera_asd_night_title">Авт. подобряване на нощни снимки</string>
+    <string name="pref_camera_super_resolution_title">Включи SR</string>
     <string name="simple_mode_button_text_scene">Спри сценичен режим</string>
     <string name="pref_camera_peak_title">Пиков фокус</string>
     <string name="pref_camera_peak_entry_off">Изкл.</string>
@@ -429,6 +430,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Ефект дълбочина</string>
     <string name="portrait_mode_use_hint">"Режим Портрет замъглява задния план, 
 и по този начин лицата на хората изпъкват ясно на преден план."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">Квадрат</string>
     <string name="simple_mode_button_text_square">Изключи Квадрат</string>
     <string name="face_beauty_smart">Смарт</string>
@@ -443,6 +445,7 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средно</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Режими</string>
     <string name="button_front_camera_title">Направете селфи</string>
     <string name="button_normal_video_title">Запишете видео</string>
@@ -536,4 +539,16 @@
     <string name="lens_dirty_detected_title_back">Лещите на задната камера са замърсени</string>
     <string name="lens_dirty_detected_title_front">Лещите на предната камера са замърсени</string>
     <string name="lens_dirty_detected_content">Изглежда, че обективът на камерата е замърсен. Почистете го за по-качествени снимки.</string>
+    <string name="lighting_hint_title">Студийно осветление</string>
+    <string name="lighting_hint_usage">Вие можете да използвате ефекта Студийно осветление в режим Портрет</string>
+    <string name="lighting_hint_needed">Поставете обекта под прожектора</string>
+    <string name="lighting_hint_too_far">Приближете още малко камерата</string>
+    <string name="lighting_hint_too_close">Преместете камерата още малко</string>
+    <string name="lighting_pattern_nature">Естествен</string>
+    <string name="lighting_pattern_stage">Сцена</string>
+    <string name="lighting_pattern_movie">Филм</string>
+    <string name="lighting_pattern_rainbow">Дъга</string>
+    <string name="lighting_pattern_leaf">Листа</string>
+    <string name="lighting_pattern_dot">Точки</string>
+    <string name="lighting_pattern_shutter">Щори</string>
 </resources>

@@ -68,6 +68,7 @@
     <string name="accessibility_wifi_two_bars">Wi-Fi е с две чертички.</string>
     <string name="accessibility_wifi_three_bars">Wi-Fi е с три чертички.</string>
     <string name="accessibility_wifi_signal_full">Сигналът за Wi-Fi е пълен.</string>
+    <string name="process_kernel_label">Android (ОС)</string>
     <string name="data_usage_uninstalled_apps">Премахнати приложения</string>
     <string name="data_usage_uninstalled_apps_users">Премахнати приложения и потребители</string>
     <string name="tether_settings_title_usb">Тетъринг през USB</string>
@@ -406,7 +407,7 @@
     <string name="can_not_dial_vt_while_voice_prompt">Не може да се осъществи видео обаждане, докато е активно гласово обаждане</string>
     <string name="voice_dial_out">Гласово обаждане</string>
     <string name="notification_AllMissedCallTitle">Всички пропуснати повиквания</string>
-    <string name="close">Затвори</string>
+    <string name="close">Изключване</string>
     <string name="callFailed_simError">Грешка в SIM картата</string>
     <string name="incall_error_supp_service_unknown">Неподдържана услуга.</string>
     <string name="incall_error_power_off">Първо изключете самолетния режим, за да може да се обадите.</string>

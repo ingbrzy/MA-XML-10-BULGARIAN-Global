@@ -54,6 +54,7 @@
     <string name="album_name_people">Хора</string>
     <string name="album_name_recent_discovery">Скорошни</string>
     <string name="album_name_tags">Тагове</string>
+    <string name="album_notes">Бележки</string>
     <string name="album_others_share_baby_info_format">Бебе албум от %s</string>
     <string name="album_others_share_info_format">От %s</string>
     <string name="album_owner_share">Мои споделени</string>
@@ -160,7 +161,7 @@
     <string name="backup_no_network_title">Свързването с Mi Облак беше неуспешно</string>
     <string name="backup_no_wifi_btn_text">Използване на мобилни данни</string>
     <string name="backup_no_wifi_desc">Може да архивирате елементите използвайки мобилни данни</string>
-    <string name="backup_no_wifi_title">Sync will resume after you connect to Wi-Fi</string>
+    <string name="backup_no_wifi_title">Синхронизирането ще се възобнови, след като се свържете към Wi-Fi</string>
     <string name="backup_only_in_wifi">Да се архивира само чрез Wi‑Fi</string>
     <string name="backup_only_in_wifi_summary">При архивиране никога да не се използват мобилни данни</string>
     <string name="backup_only_wifi_dialog_message">Да се използват ли мобилни данни за архивиране на снимки и видеоклипове?</string>
@@ -206,8 +207,8 @@
     <string name="change_to_face_mode">Покажи само лица на хора</string>
     <string name="change_to_photo_mode">Показване на на цял екран</string>
     <string name="change_to_visible">Възстанови този човек?</string>
-    <string name="checked">Selected</string>
-    <string name="checked_something">Selected %s</string>
+    <string name="checked">Маркирани</string>
+    <string name="checked_something">Маркирани %s</string>
     <string name="choose_baby_sexy">Пол</string>
     <string name="choose_owner_relation">Връзка</string>
     <string name="choose_people">Изберете албум с лица</string>
@@ -373,8 +374,7 @@
     <string name="enable_cloud_for_sharing">Необходимо е да активирате облачните албуми за преглед на споделените снимки.</string>
     <string name="enable_face_album_summary">Автоматично сортиране на снимките по лицата в тях</string>
     <string name="enable_face_album_title">Сортиране по лица</string>
-    <string name="enabling_face_feature">Един момент…</string>
-    <string name="enter_choice_mode">Entered Share dialog</string>
+    <string name="enter_choice_mode">Влязохте в Share dialog</string>
     <string name="enter_email_hint">Въведете Имейл адрес</string>
     <string name="error_album_not_exist">Албумът не съществува.</string>
     <string name="error_build_thumbnail_action">Изтегляне на оригиналния файл</string>
@@ -438,7 +438,7 @@
     <string name="error_unknown_msg">Настъпи грешка. Изпратете ни отзив за нея.</string>
     <string name="error_unknown_tip">Настъпи грешка.</string>
     <string name="exit">Изход</string>
-    <string name="exit_choice_mode">Left Share dialog</string>
+    <string name="exit_choice_mode">Излязохте от Share dialog</string>
     <string name="exit_share">Изход от албума</string>
     <string name="exit_share_failed">Излизането от албума %1$s е неуспешно</string>
     <string name="exit_share_in_process">Изход от албум \"%s\"…</string>
@@ -446,14 +446,12 @@
     <string name="exit_video_play">Изход</string>
     <string name="expand_desc">Още</string>
     <string name="expand_people">Повече лица</string>
-    <string name="face_album_detecting_tip">Един момент…</string>
     <string name="face_album_empty">Празно</string>
     <string name="face_album_empty_syncing">Синхр. на данни</string>
     <string name="face_album_empty_syncing_when_connect_wifi">Свържете се с интернет, за да синхронизирате информацията</string>
     <string name="face_album_long_tap_tip">За избиране на много хора или промяна на групови настройки, натиснете и задръжте профилната снимка</string>
     <string name="face_album_new_name_hint">Ново име</string>
     <string name="face_album_not_named">Без име</string>
-    <string name="face_album_pending_enable_tip">Снимките ще се сортират само по Wi-Fi</string>
     <string name="face_album_rename_hint">Въведете име</string>
     <string name="face_album_title">Снимки c %s</string>
     <string name="face_album_use_tip">Автоматично сортиране на снимките по лицата в тях.</string>
@@ -464,6 +462,7 @@
     <string name="face_name_edit">Промени</string>
     <string name="face_name_input">Въведете име</string>
     <string name="face_recommend">Препоръки</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Операцията е неуспешна</string>
     <string name="fail_to_pick_email">Невалиден Имейл</string>
     <string name="fail_to_sync_album">Албумът не можа да се синхронизира. Проверете връзката си за данни и опитайте отново.</string>
@@ -471,7 +470,10 @@
     <string name="fancy_color_desc">Цветове</string>
     <string name="fast_share_auto_render">Разкраси</string>
     <string name="fast_share_auto_render_finish">Разкрасено</string>
-    <string name="feature_guidance_photo_effects">Photo effects</string>
+    <string name="feature_guidance_photo_effects">"Налични са нови
+фото ефекти"</string>
+    <string name="feature_guidance_video_editor_smart_effects">Налични са нови ефекти</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Спомени</string>
     <string name="filter_bi_mono">Моно</string>
     <string name="filter_bi_pink">Розово</string>
@@ -540,6 +542,7 @@
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">ГБ</string>
     <string name="grant_permission_go_and_set">Задай</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Галерия се нуждае от достъп до 
 %s
  за да работи нормално, чукнете \"Задай\" за да отидете в Разрешения."</string>
@@ -574,8 +577,8 @@
     <string name="image_invalid_path">Невалидна връзка</string>
     <string name="image_not_found">Не може да се открие изображението</string>
     <string name="image_quota_fulfiled">Твърде много снимки. Изтрийте някой снимки и опитайте отново.</string>
-    <string name="image_with_time">Photo taken on %s</string>
-    <string name="image_with_time_and_location">Photo taken on %1$s. Location: %2$s.</string>
+    <string name="image_with_time">Снимка, направена на %s</string>
+    <string name="image_with_time_and_location">Снимка, направена на %1$s. Местоположение: %2$s.</string>
     <string name="impunity_declaration_settings">Известие за интернет връзка</string>
     <string name="impunity_declaration_summary">Показване на известие всеки път, когато стартирате приложението Галерия</string>
     <string name="initializing_cloud">Инициализиране…</string>
@@ -735,6 +738,7 @@
     <string name="people_mark_mode_title_no_mark_name">Изберете човек</string>
     <string name="people_page_label">Лице</string>
     <string name="people_page_unname">Неизвестно</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Домашни любимци</string>
     <string name="petabyteShort">ПБ</string>
     <string name="photo">Снимка</string>
@@ -809,7 +813,13 @@
     <string name="photo_print_package_installing">Зареждане на плъгин…</string>
     <string name="photo_save_to_msg">Запазени в %s</string>
     <string name="photomovie_audio_custom">Локално</string>
+    <string name="photomovie_audio_default">Памет</string>
+    <string name="photomovie_audio_kawaii">Романтика</string>
+    <string name="photomovie_audio_light">Балада</string>
+    <string name="photomovie_audio_linear">Рок</string>
     <string name="photomovie_audio_none">Няма</string>
+    <string name="photomovie_audio_soft">Укулеле</string>
+    <string name="photomovie_audio_sport">Техно</string>
     <string name="photomovie_cancel_download">Отказ</string>
     <string name="photomovie_delete_disable">Трябват поне три снимки за създаване на клип.</string>
     <string name="photomovie_download">Изтегляне</string>
@@ -831,6 +841,11 @@
     <string name="photomovie_tab_music">Музика</string>
     <string name="photomovie_tab_template">Шаблон</string>
     <string name="photomovie_template_default">Бавно</string>
+    <string name="photomovie_template_kawaii">Сексапил</string>
+    <string name="photomovie_template_light">Бриз</string>
+    <string name="photomovie_template_linear">Пътешествие</string>
+    <string name="photomovie_template_soft">Младеж</string>
+    <string name="photomovie_template_sport">Жизненост</string>
     <string name="pick_from_contact">Избиране от контакти</string>
     <string name="pick_too_many_recipients">Твърде много получатели</string>
     <string name="picker_cancel_download">Отмяна на изтеглянето</string>
@@ -843,6 +858,7 @@
     <string name="picker_image_will_download">%d от избраните снимки не са в устройството, изтегляне</string>
     <string name="picker_no_network_message">Свържете се към мрежата за да теглите файлове</string>
     <string name="picker_origin_need_download">%1$d от избраните снимки не са в устройството (%2$dMB), изтегляне чрез мобилни данни?</string>
+    <string name="picker_origin_request_progress_message">Оригиналните файлове се подготвят (%1$d/%2$d)…</string>
     <string name="picker_title_format">Изберете %1$d до %2$d снимки</string>
     <string name="picker_title_selection_format">%d избрани</string>
     <string name="picker_title_selection_format_multiple">Изберете от %1$d до %2$d снимки (%3$d)</string>
@@ -956,12 +972,12 @@
     <string name="search_net_error">Грешка в мрежата. Свържете се с друга мрежа и опитайте отново.</string>
     <string name="search_request_applied">Приложено</string>
     <string name="search_request_open">Станете член на Бета-тийма</string>
+    <string name="search_request_requesting">Приложено. Изчакайте малко преди да започнете.</string>
     <string name="search_result_empty">Не може да се открие нищо</string>
     <string name="search_retry">Опитайте отново</string>
     <string name="search_select_network">Избор на мрежа</string>
     <string name="search_set_network_connection">Настройки на мрежата</string>
     <string name="search_setting_sub_title">Търсене на хора, места и обекти във вашите снимки.</string>
-    <string name="search_setting_sub_title_open">Приложено. Изчакайте малко преди да започнете.</string>
     <string name="search_setting_title">Намерете снимки в Галерия</string>
     <string name="search_syncing">Синхронизират се данни, върнете се след малко</string>
     <string name="search_title_album">Албум</string>
@@ -974,6 +990,9 @@
     <string name="search_title_recommend">Препоръчвани</string>
     <string name="search_title_suggestion">Предложения</string>
     <string name="search_title_tag">Обекти</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Търсене на проектор…</string>
     <string name="secret_album_card_description">Най-доброто място за всички ваши малки тайни</string>
     <string name="secret_album_card_title">Изпробвайте скрития албум</string>
@@ -991,6 +1010,7 @@
     <string name="secret_reason_too_large">Файлът е твърде голям</string>
     <string name="secret_reason_type_not_support">Този вид файлове не се поддържа</string>
     <string name="secret_reason_unknow_reasons">Неизвестна грешка</string>
+    <string name="secret_reason_video_not_support">Не могат да се добавят видеоклипове към скрит албум</string>
     <string name="see_ignore_faces">Вижте хората, които игнорирахте</string>
     <string name="select_item_face">Снимки на %s</string>
     <string name="select_origin_tip">Оригинал (%s)</string>
@@ -1061,7 +1081,7 @@
     <string name="sticker_words">Думи</string>
     <string name="storage_description_primary">Вътрешно хранилище</string>
     <string name="storage_description_sdcard">SD карта</string>
-    <string name="storage_description_usb">USB storage</string>
+    <string name="storage_description_usb">USB памет</string>
     <string name="storage_description_xspace">Данни клонирани приложения</string>
     <string name="storage_no_space">Няма място в хранилището.</string>
     <string name="sub_discard_confirm_message">Запази промените?</string>
@@ -1127,8 +1147,8 @@
     <string name="turn_off_and_move">Изключи и Премести</string>
     <string name="turn_on_and_remove">Включи и Премахни</string>
     <string name="turn_on_sync">Вкл.на синхр.</string>
-    <string name="unchecked">Deselected</string>
-    <string name="unchecked_something">Deselected %s</string>
+    <string name="unchecked">Размаркирани</string>
+    <string name="unchecked_something">Размаркирани %s</string>
     <string name="unpublish_failed">Неуспешно премахване от споделени албуми!</string>
     <string name="unpublish_succeeded">Албумът вече не е споделен</string>
     <string name="unpublishing">Отменя се…</string>
@@ -1204,7 +1224,7 @@
     <string name="video_editor_smart_effect_fastslow">Движение</string>
     <string name="video_editor_smart_effect_freesze">Спиране на движението</string>
     <string name="video_editor_smart_effect_halo">Ореол</string>
-    <string name="video_editor_smart_effect_high_iframes_text">Този ефект работи най-добре с видео клипове с висока скорост на кадрите.</string>
+    <string name="video_editor_smart_effect_high_iframes_text">Този ефект работи най-добре с видео клипове със скорост 120 кадъра в секунда.</string>
     <string name="video_editor_smart_effect_movie">Филм</string>
     <string name="video_editor_smart_effect_none">Няма</string>
     <string name="video_editor_smart_effect_radical">Оптимистично</string>
@@ -1232,16 +1252,17 @@
     <string name="video_editor_unsupport_audio_file">Неподдържан аудио файл</string>
     <string name="video_editor_unzip_file_fail">Неуспешно възпроизвеждане на видеото.</string>
     <string name="video_editor_video_is_short">Видеото не може да бъде редактирано.</string>
+    <string name="video_editor_video_loading">Подготвяне на видеото. Изчакайте малко и опитайте отново.</string>
     <string name="video_editor_watermark">Воден знак</string>
     <string name="video_err">Видеото не може да се възпроизведе.</string>
     <string name="video_not_exist">Видеото не съществува</string>
-    <string name="video_with_time">Video taken on %s</string>
-    <string name="video_with_time_and_location">Video taken on %1$s. Location: %2$s.</string>
+    <string name="video_with_time">Видеоклип, направен на %s</string>
+    <string name="video_with_time_and_location">Видеоклип, направен на %1$s. Местоположение: %2$s.</string>
     <string name="view_by_gallery_tip">MIUI Галерия</string>
     <string name="view_face_album">Покажи албума</string>
     <string name="view_more_face_desc">Покажи още хора</string>
-    <string name="view_queuing_status">Проверка на статуса</string>
     <string name="voice_assistant">Гласово въвеждане</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Добре дошли в Mi Cloud.</string>
     <string name="where_is_barcode">Къде е QR кода?</string>
     <string name="who_is_this">Кой е този?</string>
