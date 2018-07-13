@@ -50,7 +50,6 @@
     <string name="s5">Създаване на събитие в календара</string>
     <string name="s6">Да се разреши ли на рекламата да създаде събитие в календара?</string>
     <string name="search_menu_title">Търсене</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="account_info">Моят профил</string>
     <string name="account_name_not_login">Вписване</string>
     <string name="account_unactivated">Профилът не е активиран</string>
@@ -152,7 +151,6 @@
     <string name="incompatible_dialog_ok">Разбрах</string>
     <string name="incompatible_dialog_title">Грешка при съвместимостта</string>
     <string name="is_setting_wallpaper_message">Тапетът се задава…</string>
-    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Будилници</string>
     <string name="item_resource_audio_optional_color_ring">Тон на обратно позвъняване</string>
     <string name="item_resource_audio_optional_notification_ring">Известия</string>
@@ -344,7 +342,6 @@
     <string name="resource_pack_price_info">%1$s Нормално</string>
     <string name="resource_pack_warning">Внимание! Вече сте закупили %1$d елемента. Текущата им цена не е валидна за оставащите елементи, моля да ги купите поотделно.</string>
     <string name="resource_present">Подарък</string>
-    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Безплатни</string>
     <string name="resource_price_unit"> МiКредити</string>
     <string name="resource_purchase_common_error">Получи се грешка, опитайте отново</string>
@@ -482,7 +479,6 @@
     <string name="theme_is_external_priority_storage">Запази на картата с памет</string>
     <string name="theme_is_external_priority_storage_summary">Приложението Теми ще се рестартира за да се приложат промените</string>
     <string name="theme_multiple_button_title_customize">Редактиране</string>
-    <string name="theme_name">%1$s</string>
     <string name="theme_no">Не</string>
     <string name="theme_precast_create_notification_content">Чукни за преглед на нови теми.</string>
     <string name="theme_precast_create_notification_title">Обновено до MIUI 7</string>
