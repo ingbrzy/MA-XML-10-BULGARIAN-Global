@@ -192,7 +192,6 @@
     <string name="file_size">Размер:</string>
     <string name="file_title">Име:</string>
     <string name="file_width_height">Размер:</string>
-    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ново съобщение</string>
     <string name="forward_from">Препратено от:</string>
     <string name="forward_prefix">От:</string>
@@ -544,7 +543,6 @@
     <string name="send_signature_confirm_dialog_title">Изпрати подпис</string>
     <string name="send_sms">Изпрати съобщение</string>
     <string name="send_to">До:</string>
-    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Изпратено в: %1s</string>
     <string name="sent_label">Изпратени:</string>
     <string name="service_message_not_found">Съобщението е изтекло или не е достъпно</string>

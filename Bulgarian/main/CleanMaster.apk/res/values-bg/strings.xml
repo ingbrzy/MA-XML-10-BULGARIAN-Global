@@ -91,7 +91,6 @@
     <string name="hints_apk_header_left">Инсталационни файлове</string>
     <string name="hints_residual_header_left">Остатъци</string>
     <string name="hints_memory_header_left">Памет</string>
-    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Големи файлове: %d</string>
     <string name="hints_installed_apps_header_left">Изтеглени приложения: %d</string>
     <string name="toast_resolve_apk_error">Поправка на грешки в apk</string>
@@ -299,7 +298,6 @@
     <string name="downloading">Изтегля се</string>
     <string name="installing">Инсталира се</string>
     <string name="start_install">Начало на инсталация</string>
-    <string name="empty">" "</string>
     <string name="open_browser">Отваряне в браузъра</string>
     <string name="title_share_link">Споделяне на URL</string>
     <string name="connecting">Установява се връзка…</string>
