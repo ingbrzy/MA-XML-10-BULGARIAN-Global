@@ -377,6 +377,7 @@
     <string name="pref_camera_delay_capture_entry_5s">Забавяне 5сек</string>
     <string name="pref_camera_delay_capture_entry_10s">Забавяне 10сек</string>
     <string name="pref_ai_detect">AI откриване</string>
+    <string name="pref_google_lens">Google lens</string>
     <string name="pref_camera_beauty">Разкраси</string>
     <string name="pref_camera_beauty_deep">Разкрасяване</string>
     <string name="pref_camera_asd_night_title">Авт. подобряване на нощни снимки</string>
@@ -426,10 +427,11 @@
     <string name="pref_camera_portrait_mode_entry_on">Режим Портрет е включен</string>
     <string name="portrait_mode_lowlight_hint">Прекалено е тъмно</string>
     <string name="portrait_mode_too_close_hint">Отдалечете малко обекта</string>
-    <string name="portrait_mode_too_far_hint">Поставете обекта на разстояние до 2.5 метра</string>
+    <string name="portrait_mode_too_far_hint">Поставете обекта на разстояние до 2 метра</string>
     <string name="portrait_mode_depth_effect_success_hint">Ефект дълбочина</string>
     <string name="portrait_mode_use_hint">"Режим Портрет замъглява задния план, 
 и по този начин лицата на хората изпъкват ясно на преден план."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">Квадрат</string>
     <string name="simple_mode_button_text_square">Изключи Квадрат</string>
     <string name="face_beauty_smart">Смарт</string>
@@ -444,6 +446,7 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средно</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Режими</string>
     <string name="button_front_camera_title">Направете селфи</string>
     <string name="button_normal_video_title">Запишете видео</string>

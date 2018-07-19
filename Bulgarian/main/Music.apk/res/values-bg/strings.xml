@@ -61,8 +61,6 @@
     <string name="asset_sync_power_alert_message">Свържете зарядното устройство за да архивирате песни.</string>
     <string name="asset_sync_power_alert_title">Слаба батерия</string>
     <string name="audio_picker_title">Изберете песен</string>
-    <string name="auto_payment">Авт. подновяване</string>
-    <string name="auto_payment_date">Следващо плащане: %s</string>
     <string name="available_playlist_name_format">Нов плейлист %d</string>
     <string name="avoid_to_use_traffic_summary">Предупреждение за ползване на данни</string>
     <string name="avoid_to_use_traffic_title">Питай, когато се използват мобилни данни за прослушване на песни</string>
@@ -71,8 +69,6 @@
     <string name="backup_empty_button">Няма избрани песни</string>
     <string name="backup_immediate">Архивиране</string>
     <string name="backup_song_title">Изберете песни за архивиране</string>
-    <string name="being_disable_auto_payment">Спиране…</string>
-    <string name="being_enable_auto_payment">Включване…</string>
     <string name="bluetooth_device">Bluetooth устройство</string>
     <string name="buffering">Буфериране…</string>
     <string name="button_cancel_download">Отмени</string>
@@ -130,6 +126,7 @@
     <string name="continue_backup">Продължи</string>
     <string name="cp_info_first">"Услугата за поточно слушане на музика
 се предоставя основно от Ultimate Inc."</string>
+    <string name="cp_info_second">service1@ultimobi.com</string>
     <string name="create_order_fail">Не мога да направя поръчка,опитайте отново.</string>
     <string name="create_playlist">Създаване на плейлист</string>
     <string name="create_playlist_failure">Не може да се създаде плейлист</string>
@@ -183,10 +180,6 @@
     <string name="dialog_title_not_available">Изтеглянето е невъзможно</string>
     <string name="dialog_title_queued_body">Файлът е недостъпен</string>
     <string name="dialog_title_remove_tracks">Премахване на песни</string>
-    <string name="disable_auto_payment_fail">Не може да се изключи</string>
-    <string name="disable_auto_payment_fail_message">Не може да се спре автоматичното подновяване</string>
-    <string name="disable_auto_payment_success">Спряно</string>
-    <string name="disable_auto_payment_success_message">Автоматичното подновяване е спряно. Когато Вашият абонамент изтече, можете отново да го пуснете.</string>
     <string name="disallow_add_to_fm">Не можете да добавите песни към FM радио.</string>
     <string name="disallow_add_to_personal_radio">Не може да добавяте песни в личното радио</string>
     <string name="do_not_remind_this_version">Не ми напомняй за тази версия</string>
@@ -226,6 +219,7 @@
     <string name="download_method">Изтегляне</string>
     <string name="download_no_application_title">Файлът не може да се отвори</string>
     <string name="download_paused_in_power_save_mode">Изтеглянето е спряно когато Икономия на батерията е включено</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Изтегля се…</string>
     <string name="download_quality">Качество при изтегляне</string>
     <string name="download_quality_summary">Допълнителни настройки на песните, които сте изтеглили</string>
@@ -264,10 +258,6 @@
     <string name="edit_playlist_info">Редактирай инфо списък за изпълнение</string>
     <string name="empty_page_no_album">Няма албуми.</string>
     <string name="empty_page_no_artist">Няма изпълнители.</string>
-    <string name="enable_auto_payment_fail">Не може да се включи.</string>
-    <string name="enable_auto_payment_fail_message">Не мога да включа авт.подновяване</string>
-    <string name="enable_auto_payment_success">Автоматично подновяване</string>
-    <string name="enable_auto_payment_success_message">Включвано автоматично подновяване. Следващото плащане трябва да е на %s.</string>
     <string name="enabled">Активирано</string>
     <string name="enter_garbage_clean">Почисти вътрешната памет.</string>
     <string name="eq_auto">По избор</string>
@@ -393,13 +383,13 @@
     <string name="higher_quality_music">Музика с високо качество</string>
     <string name="higher_quality_music_summary">Слушайте и изтегляйте музика с високо качество</string>
     <string name="home_tab_local">Моята музика</string>
-    <string name="home_tab_online">Online music</string>
+    <string name="home_tab_online">Онлайн музика</string>
     <string name="hot_icon_in_fast_indexer">H</string>
     <string name="hungama_subscribe_message">Купи ПРО членство за изтегляне на музика с високо качество.</string>
     <string name="hungama_subscribe_positive_button">Купи PRO членство</string>
     <string name="hungama_subscribe_title">ПРО членство</string>
     <string name="i_know">Знам това</string>
-    <string name="impunity_declaration_content">Трябва да се съгласите с нашите&lt;a href=\"http://www.miui.com/res/doc/eula.html?lang=en\"> Споразумение с потребителя &lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/privacy.html?lang=en\"> Политики за сигурност &lt;/a>за да ползвате този продукт.</string>
+    <string name="impunity_declaration_content">Трябва да се съгласите с нашите&lt;a href=\"http://www.miui.com/res/doc/eula.html?lang=bg_BG\"> Споразумение с потребителя &lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/privacy.html?lang=bg_BG\"> Политики за сигурност &lt;/a>за да ползвате този продукт.</string>
     <string name="impunity_declaration_ignore">Не показвай отново</string>
     <string name="impunity_declaration_negative_text">Изход</string>
     <string name="impunity_declaration_positive_text">Приемам</string>
@@ -484,8 +474,9 @@
     <string name="modify_song_info_success">Информацията за песента е обновена</string>
     <string name="more">Още</string>
     <string name="more_add_song_list">Добавяне на песни в опашката</string>
+    <string name="more_milink">MI връзка</string>
     <string name="more_settings">Настройки за напреднали</string>
-    <string name="more_settings_summary">Настройки за изтегляне, заспиване, мобилен интернет план, и филтри за файлове.</string>
+    <string name="more_settings_summary">Sleep timer, filters for files, etc.</string>
     <string name="more_share">Споделяне</string>
     <string name="music_browser_label">Музика</string>
     <string name="music_filter">Филтриране на файловете</string>
@@ -575,7 +566,7 @@
     <string name="play_mode_shuffle_all">Разбъркване</string>
     <string name="play_next">Пусни следваща</string>
     <string name="play_video_with_traffic">ПРОДЪЛЖИ</string>
-    <string name="play_video_with_traffic_toast">"You're using mobile data now."</string>
+    <string name="play_video_with_traffic_toast">В момента Вие използвате мобилни данни.</string>
     <string name="playlist_empty">Няма намерени списъци с песни.</string>
     <string name="playlist_title">Име на списък</string>
     <string name="playlist_title_is_empty">Името на списъка не може да е празно</string>
@@ -593,6 +584,7 @@
     <string name="priority_storage">Съхраняване на SD картата</string>
     <string name="priority_storage_summary">При поставена SD карта, автоматично записване на файловете на SD картата</string>
     <string name="privacy_policy">Политика за поверителност</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=bg_BG</string>
     <string name="project_device">Mi Телефон</string>
     <string name="prompt_grant_write_settings_permission">Позволи промяна на системните настройки</string>
     <string name="pulluprefreshrecyclerview_loading_error">Неуспешно зареждане</string>
@@ -619,7 +611,7 @@
     <string name="request_share_info">Един момент…</string>
     <string name="request_subscription_status">Един момент…</string>
     <string name="restart_immediate">Рестартирайте сега</string>
-    <string name="retry">Try again</string>
+    <string name="retry">Оптитайте отново</string>
     <string name="retry_after_network_available">Няма мрежа. Проверете вашата връзка с мобилни данни и опитайте отново</string>
     <string name="retry_download">Нов опит</string>
     <string name="ringtone_not_support">Форматът на песента не се поддържа</string>
@@ -684,7 +676,7 @@
     <string name="shuffle_off_notif">Разбъркването е изключено.</string>
     <string name="shuffle_on_notif">Разбъркването е включено.</string>
     <string name="similar_songs">Подобни песни</string>
-    <string name="similar_videos">Similar videos</string>
+    <string name="similar_videos">Подобни видеоклипове</string>
     <string name="sleep_mode">Таймер за заспиване</string>
     <string name="sleep_mode_canceled">Таймерът за заспиване е отменен</string>
     <string name="sleep_mode_summary">Използвайте плъзгача по-долу, за да зададете време</string>
@@ -702,6 +694,7 @@
     <string name="start_to_check_new_version">Проверява се за актуализации…</string>
     <string name="start_to_download">Старирайте изтегляне…</string>
     <string name="start_to_play">Пусни</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop">Стоп</string>
     <string name="stop_backup">Стоп</string>
     <string name="storage_internal">Вътрешна памет</string>
@@ -763,11 +756,12 @@
     <string name="upgrade_music_message">Обновяването приключи. Рестартирайте програмата.</string>
     <string name="upgrading_in_backstage">Актуализиране във фонов режим…</string>
     <string name="user_agreement">Потребителско споразумение</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=bg_BG</string>
     <string name="version_info">Версия</string>
-    <string name="video_play_cellular">"Your device isn't connected to Wi-Fi. Use mobile data?"</string>
-    <string name="video_replay_btn">Play again</string>
-    <string name="video_retry_btn">Try again</string>
-    <string name="view_album">View album</string>
+    <string name="video_play_cellular">Вашето устройство не е свързано с Wi-Fi. Използвайте мобилни данни?</string>
+    <string name="video_replay_btn">Пуснете отново</string>
+    <string name="video_retry_btn">Оптитайте отново</string>
+    <string name="view_album">Покажи албума</string>
     <string name="vip_after_tomorrow_auto_renew_message">Вашият абонамент в Музика ще бъде подновен автоматично след една вечер. Бъдете сигурни, че имате достатъчно Mi-кредити за да извършите плащането.</string>
     <string name="vip_after_tomorrow_renew_message">Вие няма да можете да предавате аудио с високо качество, но някои песни ще са достъпни в стандартно качество.</string>
     <string name="vip_auto_renew_message">Вашият абонамент в Музка ще бъде подновен автоматично тази вечер. Бъдете сигурни, че имате достатъчно Mi-кредити за да извършите плащането.</string>

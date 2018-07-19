@@ -123,7 +123,7 @@
         <item quantity="one">%1$s</item>
     </plurals>
     <plurals name="whatsapp_delete_files">
-        <item quantity="other">Да се изтрият ли %1$d файлове?</item>
-        <item quantity="one">Изтриване на %1$d файл?</item>
+        <item quantity="other">Изтрий %1$d елементи?</item>
+        <item quantity="one">Изтрий %1$d елемент?</item>
     </plurals>
 </resources>

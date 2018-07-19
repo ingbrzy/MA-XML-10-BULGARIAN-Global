@@ -49,8 +49,8 @@
         <item>Таблет</item>
     </string-array>
     <string-array name="pref_navscreen_layoutstate_choices">
-        <item>Vertical view</item>
-        <item>Horizontal view</item>
+        <item>Вертикален изглед</item>
+        <item>Хоризонтален изглед</item>
     </string-array>
     <string-array name="pref_text_zoom_choices">
         <item>Миниатюрен</item>

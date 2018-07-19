@@ -192,6 +192,7 @@
     <string name="file_size">Размер:</string>
     <string name="file_title">Име:</string>
     <string name="file_width_height">Размер:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ново съобщение</string>
     <string name="forward_from">Препратено от:</string>
     <string name="forward_prefix">От:</string>
@@ -396,7 +397,7 @@
     <string name="pref_show_blocked_messages_summary">Показване на блокираните SMS в списъка с кореспонденции</string>
     <string name="pref_show_list_avatar_summary">Покажи профилни снимки и информация за контакт като списък</string>
     <string name="pref_show_photo_word_summary">Автоматично присвояване на снимка за контакт без снимка</string>
-    <string name="pref_show_sms_template_entry_summary">Detect one-time passwords and show quick menus</string>
+    <string name="pref_show_sms_template_entry_summary">Открийте еднократни пароли и покажете бързо меню</string>
     <string name="pref_show_sms_template_in_summary">Автоматично засичане на OTP в SMS съобщенията</string>
     <string name="pref_show_sms_template_summary">Включете смарт функциите на Mi Message - копиране на кодове, проверка на сметката и т.н.</string>
     <string name="pref_smart_messages_settings">Тарикатски съобщения</string>
@@ -543,6 +544,7 @@
     <string name="send_signature_confirm_dialog_title">Изпрати подпис</string>
     <string name="send_sms">Изпрати съобщение</string>
     <string name="send_to">До:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Изпратено в: %1s</string>
     <string name="sent_label">Изпратени:</string>
     <string name="service_message_not_found">Съобщението е изтекло или не е достъпно</string>
@@ -625,7 +627,7 @@
     <string name="title_show_blocked_messages">Показване на блокирани SMS</string>
     <string name="title_show_list_avatar">Покажи профилни снимки</string>
     <string name="title_show_photo_word">Присвои снимка за контакт</string>
-    <string name="title_show_sms_template">Smart Messaging</string>
+    <string name="title_show_sms_template">Смарт съобщения</string>
     <string name="title_show_sms_template_in">Проверка на SMS за OTP</string>
     <string name="title_timed_message_dialog">Час за изпращане на съобщение</string>
     <string name="title_use_gsm_alphabet">Използвайте GSM азбука</string>

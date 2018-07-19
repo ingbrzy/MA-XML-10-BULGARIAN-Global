@@ -21,12 +21,12 @@
         <item quantity="one">%d съвпадение</item>
     </plurals>
     <plurals name="mw_last_num_days">
-        <item quantity="other">Last %d days</item>
-        <item quantity="one">Last %d days</item>
+        <item quantity="other">Последни %d дни</item>
+        <item quantity="one">Последен %d ден</item>
     </plurals>
     <plurals name="mw_matches_found">
-        <item quantity="other">%1$d of %2$d</item>
-        <item quantity="one">1 match</item>
+        <item quantity="other">%1$d на %2$d</item>
+        <item quantity="one">1 съвпадение</item>
     </plurals>
     <plurals name="nav_screen_incognito_time">
         <item quantity="other">След %d секунди автоматично ще се създаде нова страница</item>

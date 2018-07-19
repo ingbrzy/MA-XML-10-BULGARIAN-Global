@@ -289,7 +289,7 @@
     <string name="xspace_default_setting_label">Прилож по подразбиране</string>
     <string name="xspace_default_app_title">Прилож по подразбиране</string>
     <string name="xspace_default_app_summary">Задайте приложение по подразбиране за плащания, споделяне, любими неща и други.</string>
-    <string name="xspace_default_setting_dialog_title">Подразбиране</string>
+    <string name="xspace_default_setting_dialog_title"> основен</string>
     <string name="xspace_default_guide_notification_content">Чукнете за промяна</string>
     <string name="xspace_default_guide_notification_main_title">Използване приложение по подразбиране</string>
     <string name="xspace_default_guide_notification_xspace_title">Използване на клонирано приложение</string>
