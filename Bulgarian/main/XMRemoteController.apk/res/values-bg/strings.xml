@@ -20,7 +20,6 @@
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
     <string name="search_menu_title">Търсене</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="ac_gree">Климатик</string>
     <string name="ac_mode_auto">Автоматично</string>
     <string name="ac_mode_cold">Охлаждане</string>
@@ -103,7 +102,6 @@
     <string name="bind_stb">Продължете сдвояването с цифров приемник</string>
     <string name="bind_stb_dlg">Сдвояване на цифров приемник за смяна на каналите</string>
     <string name="bind_stb_dlg_agree">Сдвояване</string>
-    <string name="brand_device">%1$s %2$s</string>
     <string name="brand_search_box_hint">Изберете производител</string>
     <string name="brand_title_all">Всички</string>
     <string name="brand_title_hot">Популярни</string>
@@ -306,7 +304,6 @@
     <string name="hot_videos">Популярни</string>
     <string name="hour">ч</string>
     <string name="humidity">Влажност:</string>
-    <string name="humidity_frame">%1$d%%</string>
     <string name="increase">Високо</string>
     <string name="input_complete">ОК</string>
     <string name="input_dialogue_cancel_button">Отказ</string>
@@ -406,7 +403,6 @@
     <string name="loading_more">Една секунда…</string>
     <string name="locate_current_place">Намерете текущото местоположение</string>
     <string name="location_select">Преименуване на устройство</string>
-    <string name="lock_screen_device_sum">%1$d</string>
     <string name="login">Вписване</string>
     <string name="login_directly">Вписване</string>
     <string name="login_done">Вписани сте</string>
@@ -433,7 +429,6 @@
     <string name="match_data">Информация за сдвояване</string>
     <string name="match_data_error_tips">"Неуспешно получаване на информация
 Върнете се обратно за да продължите"</string>
-    <string name="match_dataset_frame">%1$d/%2$d</string>
     <string name="match_direction_default">Работят ли бутоните със стрелки?</string>
     <string name="match_dvd_intro_pause">Освободете, когато ДВД-то спре на пауза</string>
     <string name="match_dvd_intro_play">Освободете, когато ДВД-то започне да възпроизвежда</string>
@@ -855,8 +850,6 @@
     <string name="scaning">Търсене…</string>
     <string name="scanning_milink">Търсене на устройства…</string>
     <string name="scene_default">По подразбиране</string>
-    <string name="scene_name_frame">%1$s %2$s%3$s</string>
-    <string name="scene_name_frame_short">%1$s%2$s</string>
     <string name="screenshot">Снимка на екран</string>
     <string name="screenshot_failed">Не можах да направя екранна снимка</string>
     <string name="screenshot_failed_and_check_connection">Не можах да заснема екранна снимка, проверете свързаните устройства</string>
@@ -964,7 +957,6 @@
     <string name="start_diagnosis">Тест</string>
     <string name="start_match">Сдвояване</string>
     <string name="stb">Топ бокс</string>
-    <string name="stb_detail_title_frame">%1$s - %2$d</string>
     <string name="stb_power">СТВ вкл/изкл</string>
     <string name="steps">Опит #%d</string>
     <string name="sticky_on_top">Пин</string>
