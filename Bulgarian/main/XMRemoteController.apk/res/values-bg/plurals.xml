@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="apk_file_list_view_header">
+        <item quantity="other">%d APKs</item>
+        <item quantity="one">%d APK</item>
+    </plurals>
+    <plurals name="app_install_count">
+        <item quantity="other">%1$s изтегляния</item>
+        <item quantity="one">%1$s изтеглено</item>
+    </plurals>
+    <plurals name="app_user_used">
+        <item quantity="other">%1$s потребители</item>
+        <item quantity="one">%1$s потребител</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">Преди %1$d дни</item>
+        <item quantity="one">Преди %1$d ден</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">Преди %1$d часа</item>
+        <item quantity="one">Преди %1$d час</item>
+    </plurals>
+    <plurals name="match_brand_selection_des">
+        <item quantity="other">%d модела са достъпни</item>
+        <item quantity="one">1 модел е достъпен</item>
+    </plurals>
+    <plurals name="mins_ago">
+        <item quantity="other">Преди %1$d минути</item>
+        <item quantity="one">Преди %1$d минута</item>
+    </plurals>
+    <plurals name="mitv_show_update_full">
+        <item quantity="other">%d епизоди</item>
+        <item quantity="one">%d епизод</item>
+    </plurals>
+    <plurals name="video_count_info">
+        <item quantity="other">%d видеоклипове</item>
+        <item quantity="one">%d видеоклип</item>
+    </plurals>
+    <plurals name="video_play_series_num">
+        <item quantity="other">Пусни епизоди %d</item>
+        <item quantity="one">Пусни епизод %d</item>
+    </plurals>
+    <plurals name="video_search_title">
+        <item quantity="other">Намерено %d видеа</item>
+        <item quantity="one">Намерено %d видео</item>
+    </plurals>
+</resources>

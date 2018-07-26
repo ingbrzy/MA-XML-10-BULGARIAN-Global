@@ -23,8 +23,10 @@
     <string name="dialog_alert_title">Внимание</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Този видеоклип не е валиден за поточно предаване към това устройство.</string>
     <string name="selectTextMode">Избор на текст</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Икона за отпечатък</string>
     <string name="paste_as_plain_text">Поставяне като неформатиран текст</string>
+    <string name="autofill">Автоматично попълване</string>
     <string name="BaMmi">Забрана за повиквания</string>
     <string name="CLIRDefaultOffNextCallOff">Стандартната идентификация на повикванията е „разрешено“. За следващото обаждане тя е разрешена.</string>
     <string name="CLIRDefaultOffNextCallOn">Стандартната идентификация на повикванията е „разрешено“. За следващото обаждане тя е забранена.</string>
@@ -41,8 +43,10 @@
     <string name="ColrMmi">Ограничение за идентификацията на свързаната линия</string>
     <string name="CwMmi">Изчакване на повикване</string>
     <string name="DndMmi">Не безпокойте</string>
+    <string name="EmergencyCallWarningSummary">За спешните обаждания се изисква мобилна мрежа.</string>
+    <string name="EmergencyCallWarningTitle">Функцията за обаждания през Wi-Fi е активна</string>
     <string name="Midnight">0:00 ч.</string>
-    <string name="NetworkPreferenceSwitchSummary">За да подобрите сигнала, променете избрания тип мрежа от „Система“ > „Мрежа и интернет“ > „Мобилни мрежи“ > „Предпочитан тип мрежа“.</string>
+    <string name="NetworkPreferenceSwitchSummary">За да подобрите сигнала, променете избрания тип мрежа от „Настройки“ > „Мрежа и интернет“ > „Мобилни мрежи“ > „Предпочитан тип мрежа“.</string>
     <string name="NetworkPreferenceSwitchTitle">Не може да се установи връзка с мрежата</string>
     <string name="Noon">12:00 ч.</string>
     <string name="PinMmi">Промяна на PIN кода</string>
@@ -134,7 +138,6 @@
     <string name="app_running_notification_text">Докоснете за още информация или за да спрете приложението.</string>
     <string name="app_running_notification_title">%1$s се изпълнява</string>
     <string name="app_upgrading_toast">%1$s се надстройва…</string>
-    <string name="autofill">Автоматично попълване</string>
     <string name="autofill_address_name_separator">" "</string>
     <string name="autofill_address_summary_format">$1$2$3</string>
     <string name="autofill_address_summary_name_format">$1$2$3</string>
@@ -270,10 +273,6 @@
     <string name="deleted_key">Изтрихте %1$s</string>
     <string name="demo_restarting_message">Устройството се нулира…</string>
     <string name="demo_starting_message">Демонстрацията се стартира…</string>
-    <string name="demo_user_inactivity_timeout_countdown">Ще загубите всички промени и демонстрацията ще започне отново след %1$s секунди…</string>
-    <string name="demo_user_inactivity_timeout_left_button">Отказ</string>
-    <string name="demo_user_inactivity_timeout_right_button">Нулиране сега</string>
-    <string name="demo_user_inactivity_timeout_title">Да се нулира ли устройството?</string>
     <string name="deny">Отказване</string>
     <string name="description_target_unlock_tablet">Прокарайте пръст, за да отключите.</string>
     <string name="device_storage_monitor_notification_channel">Хранилище на устройството</string>
@@ -293,18 +292,6 @@
     <string name="dump_heap_notification_detail">Извлечена е моментна снимка на паметта. Докоснете, за да я споделите</string>
     <string name="dump_heap_text">Процесът %1$s надхвърли ограничението си от %2$s. Налице е моментна снимка на паметта, която да споделите със съответния програмист. Бъдете внимателни, защото тя може да съдържа ваши лични данни, до които приложението има достъп.</string>
     <string name="dump_heap_title">Да се сподели ли моментната снимка на паметта?</string>
-    <string name="durationDayHour">%1$d ден %2$d ч</string>
-    <string name="durationDayHours">%1$d ден %2$d ч</string>
-    <string name="durationDays">%1$d дни</string>
-    <string name="durationHourMinute">%1$d ч %2$d мин</string>
-    <string name="durationHourMinutes">%1$d ч %2$d мин</string>
-    <string name="durationHours">%1$d ч</string>
-    <string name="durationMinute">%1$d мин</string>
-    <string name="durationMinuteSecond">%1$d мин %2$d сек</string>
-    <string name="durationMinuteSeconds">%1$d мин %2$d сек</string>
-    <string name="durationMinutes">%1$d мин</string>
-    <string name="durationSecond">%1$d сек</string>
-    <string name="durationSeconds">%1$d сек</string>
     <string name="editTextMenuTitle">Действия с текста</string>
     <string name="elapsed_time_short_format_h_mm_ss">%1$d:%2$02d:%3$02d</string>
     <string name="elapsed_time_short_format_mm_ss">%1$02d:%2$02d</string>
@@ -384,6 +371,7 @@
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Кодът за функцията се изпълни.</string>
     <string name="fcError">Има проблем с връзката или кодът за функцията е невалиден.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Намиране</string>
     <string name="find_next">Търсене на следващото</string>
     <string name="find_on_page">Намиране в страницата</string>
@@ -405,14 +393,13 @@
     <string name="floating_toolbar_close_overflow_description">Затваряне на менюто при препълване</string>
     <string name="floating_toolbar_open_overflow_description">Още опции</string>
     <string name="force_close">OK</string>
-    <string name="foreground_service_app_in_background">%1$s се изпълнява на заден план</string>
-    <string name="foreground_service_apps_in_background">%1$d приложения работят на заден план</string>
+    <string name="foreground_service_app_in_background">%1$s използва батерията</string>
+    <string name="foreground_service_apps_in_background">%1$d приложения използват батерията</string>
     <string name="foreground_service_multiple_separator">%1$s, %2$s</string>
     <string name="foreground_service_tap_for_details">Докоснете за информация относно използването на батерията и преноса на данни</string>
     <string name="forward_intent_to_owner">Използвате това приложение извън служебния си потребителски профил</string>
     <string name="forward_intent_to_work">Използвате това приложение в служебния си потребителски профил</string>
     <string name="gadget_host_error_inflating">Приспособлението не можа да бъде добавено.</string>
-    <string name="gigabyteShort">ГБ</string>
     <string name="global_action_assist">Помощ</string>
     <string name="global_action_bug_report">Сигнал за програмна грешка</string>
     <string name="global_action_emergency">Спешно обаждане</string>
@@ -484,7 +471,7 @@
     <string name="ime_action_search">Търсене</string>
     <string name="ime_action_send">Изпращане</string>
     <string name="imei">IMEI</string>
-    <string name="immersive_cling_description">За изход прекарайте пръст надолу от горната част.</string>
+    <string name="immersive_cling_description">За изход плъзнете пръст надолу от горната част.</string>
     <string name="immersive_cling_positive">Разбрах</string>
     <string name="immersive_cling_title">Изглед на цял екран</string>
     <string name="importance_from_person">Това е важно заради участващите хора.</string>
@@ -570,6 +557,7 @@
     <string name="kg_reordering_delete_drop_target_text">Премахване</string>
     <string name="kg_sim_pin_instructions">Въведете ПИН кода за SIM картата</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM картата се отключва…</string>
+    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_attempts_countdown">Опитайте отново след %1$d секунди.</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Въведохте неправилно паролата си %1$d пъти. 
 
@@ -583,7 +571,6 @@
     <string name="kg_wrong_password">Грешна парола</string>
     <string name="kg_wrong_pattern">Грешна фигура</string>
     <string name="kg_wrong_pin">Грешен ПИН код</string>
-    <string name="kilobyteShort">КБ</string>
     <string name="language_picker_section_all">Всички езици</string>
     <string name="language_picker_section_suggested">Предложени</string>
     <string name="language_selection_title">Добавяне на език</string>
@@ -775,7 +762,6 @@
     <string name="mediasize_na_tabloid">Tabloid</string>
     <string name="mediasize_unknown_landscape">Неизвестен хоризонтален формат</string>
     <string name="mediasize_unknown_portrait">Неизвестен вертикален формат</string>
-    <string name="megabyteShort">МБ</string>
     <string name="meid">MEID</string>
     <string name="menu_delete_shortcut_label">изтриване</string>
     <string name="menu_enter_shortcut_label">enter</string>
@@ -824,8 +810,8 @@
     <string name="notification_channel_developer">Съобщения за програмистите</string>
     <string name="notification_channel_device_admin">Администриране на устройство</string>
     <string name="notification_channel_emergency_callback">Режим на обратно обаждане при спешност</string>
-    <string name="notification_channel_foreground_service">Приложения, работещи на заден план</string>
-    <string name="notification_channel_mobile_data_alert">Сигнали за мобилните данни</string>
+    <string name="notification_channel_foreground_service">Приложения, използващи батерията</string>
+    <string name="notification_channel_mobile_data_status">Състояние на мобилните данни</string>
     <string name="notification_channel_network_alert">Сигнали</string>
     <string name="notification_channel_network_alerts">Сигнали за мрежата</string>
     <string name="notification_channel_network_available">Налице е мрежа</string>
@@ -840,10 +826,11 @@
     <string name="notification_channel_voice_mail">Съобщения в гласовата поща</string>
     <string name="notification_channel_vpn">Състояние на VPN</string>
     <string name="notification_channel_wfc">Обаждания през Wi-Fi</string>
-    <string name="notification_hidden_by_policy_text">Съдържанието е скрито чрез правило</string>
-    <string name="notification_hidden_text">Скрито съдържание</string>
+    <string name="notification_hidden_text">Ново известие</string>
     <string name="notification_listener_binding_label">Слушател на известия</string>
+    <string name="notification_messaging_title_template">„%1$s“: %2$s</string>
     <string name="notification_ranker_binding_label">Услуга за класифициране на известията</string>
+    <string name="notification_reply_button_accessibility">Отговор</string>
     <string name="notification_title">Грешка при влизането за %1$s</string>
     <string name="notification_work_profile_content_description">Служебен потребителски профил</string>
     <string name="now_string_shortest">сега</string>
@@ -953,8 +940,8 @@
     <string name="permdesc_requestInstallPackages">Разрешава на приложението да заявява инсталиране на пакети.</string>
     <string name="permdesc_route_media_output">Разрешава на приложението да насочва изходящата мултимедия към други външни устройства.</string>
     <string name="permdesc_runInBackground">Това приложение може да работи на заден план, което може да изразходи батерията по-бързо.</string>
-    <string name="permdesc_sdcardRead">Разрешава на прил. да чете съдърж. на USB.</string>
-    <string name="permdesc_sdcardWrite">Разрешава на приложението да записва в USB.</string>
+    <string name="permdesc_sdcardRead">Разрешава на приложението да чете съдържанието на SD картата ви.</string>
+    <string name="permdesc_sdcardWrite">Разрешава на приложението да записва върху SD картата.</string>
     <string name="permdesc_sendSms">Разрешава на приложението да изпраща SMS съобщения. Това може да доведе до неочаквано таксуване. Злонамерените приложения могат да ви въвлекат в разходи, като изпращат съобщения без потвърждение от ваша страна.</string>
     <string name="permdesc_setAlarm">Разрешава на приложението да навие инсталирано приложение будилник. Някои будилници може да не изпълнят тази функция.</string>
     <string name="permdesc_setInputCalibration">Разрешава на приложението да променя параметрите на калибриране на сензорния екран. Нормалните приложения би трябвало никога да не се нуждаят от това.</string>
@@ -997,7 +984,7 @@
     <string name="permgrouplab_phone">Телефон</string>
     <string name="permgrouplab_sensors">Телесни сензори</string>
     <string name="permgrouplab_sms">SMS</string>
-    <string name="permgrouplab_storage">Съхранение</string>
+    <string name="permgrouplab_storage">Хранилище</string>
     <string name="permission_request_notification_title">Иска се разрешение</string>
     <string name="permission_request_notification_with_subtitle">"Иска се разрешение
 за профила %s."</string>
@@ -1080,8 +1067,8 @@
     <string name="permlab_requestInstallPackages">заявка на пакети за инсталиране</string>
     <string name="permlab_route_media_output">маршрутизиране на извеждането на мултимедия</string>
     <string name="permlab_runInBackground">работа на заден план</string>
-    <string name="permlab_sdcardRead">четене на съдърж. от USB хран. ви</string>
-    <string name="permlab_sdcardWrite">промяна или изтрив. на съдърж. от USB хран. ви</string>
+    <string name="permlab_sdcardRead">четене на съдържанието от SD картата ви</string>
+    <string name="permlab_sdcardWrite">промяна или изтриване на съдържанието от SD картата ви</string>
     <string name="permlab_sendSms">изпращане и преглед на SMS съобщения</string>
     <string name="permlab_setAlarm">навиване на будилника</string>
     <string name="permlab_setInputCalibration">промяна на калибрирането на устройството за въвеждане</string>
@@ -1155,6 +1142,7 @@
     <string name="policylab_watchLogin">Наблюдаване на опитите за отключване на екрана</string>
     <string name="policylab_wipeData">Изтриване на всички данни</string>
     <string name="policylab_wipeData_secondaryUser">Изтриване на потребителските данни</string>
+    <string name="popup_window_default_title">Изскачащ прозорец</string>
     <string name="postalTypeCustom">По избор</string>
     <string name="postalTypeHome">Домашен</string>
     <string name="postalTypeOther">Друг</string>
@@ -1169,7 +1157,7 @@
     <string name="print_service_installed_title">Услугата %s е инсталирана</string>
     <string name="profile_encrypted_detail">Служ. потр. профил е заключен</string>
     <string name="profile_encrypted_message">Докоснете за откл. на служ. потр. профил</string>
-    <string name="progress_erasing">USB хранилището се изтрива...</string>
+    <string name="progress_erasing">SD картата се изтрива...</string>
     <string name="quick_contacts_not_available">Няма намерено приложение, с което да се отвори този контакт.</string>
     <string name="reason_service_unavailable">Услугата за отпечатване не е активирана</string>
     <string name="reason_unknown">неизвестно</string>
@@ -1203,8 +1191,6 @@
     <string name="replace">Замяна...</string>
     <string name="report">Подаване на сигнал</string>
     <string name="reset">Повторно задаване</string>
-    <string name="reset_retail_demo_mode_text">Докоснете, за да нулирате устройството</string>
-    <string name="reset_retail_demo_mode_title">Да се нулира ли устройството?</string>
     <string name="restr_pin_confirm_pin">Потвърждаване на новия ПИН код</string>
     <string name="restr_pin_create_pin">Създаване на ПИН код за промяна на ограниченията</string>
     <string name="restr_pin_enter_admin_pin">Въведете ПИН кода на администратор</string>
@@ -1357,7 +1343,6 @@
     <string name="system_error_manufacturer">Възникна вътрешен проблем с устройството ви. За подробности се свържете с производителя.</string>
     <string name="system_error_wipe_data">Възникна вътрешен проблем с устройството ви. То може да е нестабилно, докато не възстановите фабричните настройки.</string>
     <string name="taking_remote_bugreport_notification_title">Сигналът за програмна грешка се извлича…</string>
-    <string name="terabyteShort">ТБ</string>
     <string name="tethered_notification_message">Докоснете, за да настроите.</string>
     <string name="tethered_notification_title">Има активна споделена връзка или безжична точка за достъп</string>
     <string name="textSelectionCABTitle">Избиране на текст</string>
@@ -1399,6 +1384,8 @@
     <string name="usb_notification_message">Докоснете за още опции.</string>
     <string name="usb_ptp_notification_title">USB за прехвърляне на снимки</string>
     <string name="usb_supplying_notification_title">През USB се зарежда свързаното устройство</string>
+    <string name="usb_unsupported_audio_accessory_message">Свързаното устройство не е съвместимо с този телефон. Докоснете, за да научите повече.</string>
+    <string name="usb_unsupported_audio_accessory_title">Открит е аналогов аудиоаксесоар</string>
     <string name="use_a_different_app">Използване на друго приложение</string>
     <string name="user_creation_account_exists">Да се разреши ли на %1$s да създаде нов потребител с профила %2$s?</string>
     <string name="user_creation_adding">Да се разреши ли на %1$s да създаде нов потребител с профила %2$s (вече съществува потребител с този профил)?</string>
@@ -1467,7 +1454,14 @@
     <string name="whichViewApplication">Отваряне чрез</string>
     <string name="whichViewApplicationLabel">Отваряне</string>
     <string name="whichViewApplicationNamed">Отваряне чрез %1$s</string>
+    <string name="wifi_available_action_all_networks">Всички мрежи</string>
+    <string name="wifi_available_action_connect">Свързване</string>
+    <string name="wifi_available_content_failed_to_connect">Докоснете, за да видите всички мрежи</string>
     <string name="wifi_available_sign_in">Влизане в Wi-Fi мрежа</string>
+    <string name="wifi_available_title">Свързване с отворена Wi‑Fi мрежа</string>
+    <string name="wifi_available_title_connected">Установихте връзка с Wi-Fi мрежата</string>
+    <string name="wifi_available_title_connecting">Установява се връзка с отворена Wi‑Fi мрежа</string>
+    <string name="wifi_available_title_failed_to_connect">Не можа да се установи връзка с Wi‑Fi мрежата</string>
     <string name="wifi_calling_off_summary">Изключено</string>
     <string name="wifi_connect_alert_message">Приложението %1$s иска да се свърже с Wi-Fi мрежата „%2$s“</string>
     <string name="wifi_connect_alert_title">Да се разреши ли връзката?</string>
@@ -1508,5 +1502,6 @@
     <string name="zen_mode_feature_name">Не безпокойте</string>
     <string name="zen_mode_forever">Докато не изключите „Не безпокойте“</string>
     <string name="zen_mode_forever_dnd">Докато не изключите „Не безпокойте“</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">До %1$s</string>
 </resources>

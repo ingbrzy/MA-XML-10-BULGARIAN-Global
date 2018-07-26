@@ -53,10 +53,10 @@
         <item>виртуална частна мрежа (VPN)</item>
     </string-array>
     <string-array name="wfcOperatorErrorAlertMessages">
-        <item>За да извършвате обаждания и да изпращате съобщения през Wi-Fi, първо помолете оператора си да настрои тази услуга. След това включете отново функцията за обаждания през Wi-Fi от настройките.</item>
+        <item>За да извършвате обаждания и да изпращате съобщения през Wi-Fi, първо, помолете оператора си да настрои тази услуга. След това включете отново функцията за обаждания през Wi-Fi от настройките. (Код на грешката: %1$s)</item>
     </string-array>
     <string-array name="wfcOperatorErrorNotificationMessages">
-        <item>Регистриране с оператора ви</item>
+        <item>Регистриране с оператора ви (код на грешката: %1$s)</item>
     </string-array>
     <string-array name="wfcSpnFormats">
         <item>%s</item>

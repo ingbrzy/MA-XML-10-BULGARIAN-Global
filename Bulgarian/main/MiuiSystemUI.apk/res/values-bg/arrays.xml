@@ -17,6 +17,38 @@
         <item>Не повече от 3 процеса</item>
         <item>Не повече от 4 процеса</item>
     </string-array>
+    <string-array name="aqi_title">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+    </string-array>
+    <string-array name="battery_labels">
+        <item>0%</item>
+        <item>50%</item>
+        <item>100%</item>
+    </string-array>
     <string-array name="battery_options">
         <item>Винаги показвай проценти</item>
         <item>Показвайпроценти само когато се зарежда телефона</item>
@@ -89,6 +121,11 @@
         <item>LDAC</item>
         <item>Включи опционално кодеците</item>
         <item>Изключи опционално кодеците</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
         <item>AVRCP 1.4 (По подразбиране)</item>
@@ -180,6 +217,7 @@
         <item>4K (по-голям мащаб, безопасно)</item>
         <item>720p, 1080p (двоен екран)</item>
     </string-array>
+    <array name="recents_blacklist_array" />
     <string-array name="select_logd_size_lowram_titles">
         <item>Изкл</item>
         <item>64KБ</item>
@@ -243,6 +281,17 @@
         <item>Изключително бърза</item>
         <item>Екстремно бърза</item>
         <item>Скорострелна</item>
+    </string-array>
+    <string-array name="tts_rate_values">
+        <item>60</item>
+        <item>80</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
     </string-array>
     <string-array name="usb_configuration_titles">
         <item>Зареждане</item>

@@ -11,7 +11,7 @@
     <string name="permdesc_downloadManagerAdvanced">Разрешава на приложението да има достъп до разширените функции на Изтеглянията. Злонамерените приложения могат да използват това, за да нарушат изтеглянията и да имат достъп до лична информация.</string>
     <string name="permlab_downloadCompletedIntent">Изпращане на известия за изтегляне.</string>
     <string name="permdesc_downloadCompletedIntent">Разрешава на приложението да изпраща известия за завършени изтегляния. Злонамерените приложения могат да използват това, за да объркат други приложения, които изтеглят файлове.</string>
-    <string name="permlab_seeAllExternal">Преглед на всички изтегляния в USB хранилището</string>
+    <string name="permlab_seeAllExternal">Преглед на всички изтегляния в SD картата</string>
     <string name="permdesc_seeAllExternal">Разрешава на приложението да вижда всички изтегляния на SD картата, независимо от това, кое приложение ги изтегля.</string>
     <string name="permlab_downloadCacheNonPurgeable">Резервирай пространство в изтегления кеш</string>
     <string name="permdesc_downloadCacheNonPurgeable">Разрешете на приложението да изтегля в кешираните файлове, които биват автоматично изтрити, когато мениджър изтегляне се нуждае от повече място.</string>

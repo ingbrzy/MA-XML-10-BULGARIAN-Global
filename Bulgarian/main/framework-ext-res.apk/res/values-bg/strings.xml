@@ -174,4 +174,9 @@
     <string name="wifi_assistant_wifi_no_internet">Тази Wi-Fi мрежа няма достъп до интернет</string>
     <string name="wifi_assistant_wifi_no_internet_detail">Чукнете за подробности</string>
     <string name="resolver_app_recommend_flag">Препоръчани</string>
+    <string name="voice_button_action_up">Натиснете за да говорите</string>
+    <string name="voice_button_action_down">Пуснете за да търсите</string>
+    <string name="voice_begin">Какво търсите?</string>
+    <string name="voice_input_error_network">Не мога да се свържа с мрежата. Проверете настройките си и опитайте отново.</string>
+    <string name="voice_input_error_other">Неочаквана грешка. Моля, изчакайте минута-две и опитайте отново.</string>
 </resources>
