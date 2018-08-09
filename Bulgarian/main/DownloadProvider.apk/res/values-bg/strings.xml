@@ -42,5 +42,4 @@
     <string name="download_running">Изтегля се</string>
     <string name="download_error">Неуспешно изтегляне</string>
     <string name="download_running_percent">Изтегля се %s</string>
-    <string name="common_google_play_services_unknown_issue">%1$s има проблеми с услугите за Google Play. Моля, опитайте отново.</string>
 </resources>

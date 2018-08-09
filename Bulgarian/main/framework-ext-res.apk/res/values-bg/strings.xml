@@ -179,4 +179,7 @@
     <string name="voice_begin">Какво търсите?</string>
     <string name="voice_input_error_network">Не мога да се свържа с мрежата. Проверете настройките си и опитайте отново.</string>
     <string name="voice_input_error_other">Неочаквана грешка. Моля, изчакайте минута-две и опитайте отново.</string>
+    <string name="miui_warning_button_ok">OK</string>
+    <string name="miui_warning_button_cancel">Отказ</string>
+    <string name="miui_warning_tip_info">Настъпи грешка в %1$s. Да се затвори ли това приложение?</string>
 </resources>

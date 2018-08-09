@@ -45,19 +45,30 @@
     <string name="ime_privacy_policy">Правила за поверителност за избраната клавиатура</string>
     <string name="ime_privacy_policy_no_network">Вашият телефон не е свързан с интернет. Вижте информацията на адрес: %s</string>
     <string name="terms_of_use">Условия за ползване</string>
-    <string name="terms_of_use_label">"Вашата сигурност е много важна за нас. Моля, прочетете нашето потребителско споразумение, за да разберете каква информация събираме, как я използваме и какви възможности за избор имате вие.
+    <string name="terms_of_use_label">"Вашата сигурност е много важна за нас. Моля, прочетете нашето Потребитеско споразумение и Политика за поверителност за да разберете каква информация събираме, как я използваме и какви възможности за избор имате. 
 
-Вие трябва да се съгласите с потребителското споразумение, преди да използвате MIUI. При активирането Mi услугите, Открий устройството, системен компонент MSA и данни за статистика, ще се свържат към Интернет и ще изискат вашето местоположение."</string>
-    <string name="terms_of_use_label_gms">"Вашата сигурност е много важна за нас. Моля, прочетете нашето потребителско споразумение, за да разберете каква информация събираме, как я използваме и какви възможности за избор имате вие.
+Вие трябва да се съгласите с Потребителското споразумение и Политика за поверителност, преди да използвате MIUI. %s и компонентите на Mi Профил ще се свържат към Интернет и ще изискат вашето местоположение."</string>
+    <string name="terms_of_use_lable_apps">Mi услуги, Mi SIM услуги за активация, Mi Облак, Намери устройството, Начален екран, Център за игра, MAB, MIUI и MSA системни компоненти, Преводачески услуги, Бързи приложения, Трезор за приложения, статистика, Mi Линк</string>
+    <string name="terms_of_use_lable_gms">, Услуги на Google магазин</string>
+    <string name="terms_of_use_label_systemhelper">, Саморегистриращи се услуги</string>
+    <string name="terms_of_use_lable_smart_cards">, Смарт карти</string>
+    <string name="terms_of_use_lable_default_input_method_facemoji">"
 
-Вие трябва да се съгласите с потребителското споразумение, преди да използвате MIUI. При активирането Mi услугите, Открий устройството, системен компонент MSA и данни за статистика, ще се свържат към Интернет и ще изискат вашето местоположение."</string>
+Вие трябва да се съгласите с политиката за поверителност на Емоджи, преди да използвате тази услуга."</string>
+    <string name="terms_of_use_lable_default_input_method_kika">"
+
+Вие трябва да се съгласите с политиката за поверителност на Кика, преди да използвате тази услуга."</string>
     <string name="user_agreement">Потребителско споразумение</string>
     <string name="privacy_policy">Правила за поверителност</string>
+    <string name="terms_privacy_policy_input_method_kika">Кика Политика на поверителност</string>
+    <string name="terms_privacy_policy_input_method_facemoji">Емоджи Политика на поверителност</string>
     <string name="application_permissions">Разрешения за приложения</string>
     <string name="agree">Приемам</string>
     <string name="disagree">Отказ</string>
     <string name="setting_locale">Задаване на регион…</string>
     <string name="agree_terms">Прочетох споразумението и съм съгласен с него.</string>
+    <string name="agree_terms_input_method_facemoji">Вие прочетохте и се съгласявате с Емоджи Политика на поверителност.</string>
+    <string name="agree_terms_input_method_kika">Вие прочетохте и се съгласявате с Кика Политика на поверителност.</string>
     <string name="miui_terms_no_network">Няма връзка с интернет. Вижте условията за ползване на %s</string>
     <string name="miui_privacy_policy_no_network">Няма връзка с интернет. Вижте правилата за поверителност на %s</string>
     <string name="locale_picker_title">Изберете регион</string>
@@ -72,7 +83,7 @@
     <string name="desc_international_fingerprint">Използвайте вашия пръстов отпечатък за отключване на устройството или за вход в приложения и услуги.</string>
     <string name="content_description_start">Старт</string>
     <string name="start_up_slogan">Създаден за изживяване на цял екран</string>
-    <string name="content_description_miui_version">MIUI 9</string>
+    <string name="content_description_miui_version">MIUI 10</string>
     <string name="content_description_complete">Готово</string>
     <string name="language_picker_other_languages_title">Други езици</string>
     <string name="language_settings">Избор на език</string>
@@ -89,4 +100,5 @@
     <string name="continue_to_enable_accessibility">Продължете да държите два пръста, за да включите услугата Достъпност.</string>
     <string name="voice_assist_title">Събуждане с глас</string>
     <string name="voice_assist_desp">Кажете \"Mi AI\" на смартфона си. Mi Асистент ще разпознае вашият глас и ще може да контролира вашето устройство.</string>
+    <string name="voice_assist_desp_screen_light">След като екранът светне кажете \"Mi AI\" на смартфона си. Mi Асистент ще разпознае вашият глас и ще може да контролира вашето устройство.</string>
 </resources>

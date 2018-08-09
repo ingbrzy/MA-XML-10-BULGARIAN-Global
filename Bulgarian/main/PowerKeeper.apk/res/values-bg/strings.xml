@@ -85,4 +85,7 @@
     <string name="sleepmode_privacy_link">Научете повече за нашата Политика на поверителност и сигурност</string>
     <string name="sleepmode_disclaimer_cancel">Отказ</string>
     <string name="sleepmode_disclaimer_agree">Приемам</string>
+    <string name="appconfig_active_app_dialog_title">Управление на активните приложения</string>
+    <string name="config_classify">Настройки на сортиране по приложения</string>
+    <string name="active_classify">Сортиране по състояние на активност</string>
 </resources>

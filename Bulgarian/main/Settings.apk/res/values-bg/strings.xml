@@ -314,7 +314,7 @@
     <string name="app_list_memory_use">Използване от приложенията</string>
     <string name="app_list_preference_none">Няма</string>
     <string name="app_memory_use">Използвана памет</string>
-    <string name="app_mobile">Мобилни</string>
+    <string name="app_mobile">Мобилна мрежа</string>
     <string name="app_name_label">Приложение</string>
     <string name="app_name_na">Използвани данни</string>
     <string name="app_names_concatenation_template_2">%1$s, %2$s</string>
@@ -371,7 +371,7 @@
     <string name="apply_now_button_text">Актуализирай</string>
     <string name="apply_password_to_category_title">Необходимо е отключване</string>
     <string name="apply_update_fail">Неуспешно актуализиране</string>
-    <string name="approve_title">Потвърждение</string>
+    <string name="approve_title">Сертифициране</string>
     <string name="apps_storage">Хранилище за приложения</string>
     <string name="apps_summary">%1$d приложения са инсталирани</string>
     <string name="apps_summary_example">24 инсталирани приложения</string>
@@ -898,6 +898,8 @@
     <string name="bootloader_locked_answer_2">"1. Уверете се, че вече сте поставили SIM карта във вашето устройство.
 2. Чукнете \"Добави Профил\" преди да свържете вашия профил с това устройство.
 3. Изтеглете инструмента за отключване от нашия уебсайт. Отбележете, че можете да отключите устройството само през компютъра си. Изтеглете оттук:"</string>
+    <string name="bootloader_locked_answer_2_no_sim">"1. Чукнете \"Добави профил\" отдолу за да свържете вашия Mi Профил с това устройство.
+2. Изтеглете инструмента за отключване от нашия уебсайт. Обърнете внимание, че можете да отключите устройството само от компютър. Изтеглете оттук:"</string>
     <string name="bootloader_locked_check_status">Добавете профил и устройство</string>
     <string name="bootloader_locked_question_1">Защо трябва устройството да е заключено?</string>
     <string name="bootloader_locked_question_2">Разбирам риска, искам да отключа устройството.</string>
@@ -914,6 +916,7 @@
     <string name="bootloader_status_unlocked">Отключено</string>
     <string name="bootloader_status_unlocked_info">Това устройство е отключено</string>
     <string name="bootloader_summary">Флашване на вашето устройство чрез USB</string>
+    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="breathing_light_color_menu_title">Цвят на LED</string>
     <string name="breathing_light_color_summary">Цвят на LED за нови известия</string>
     <string name="breathing_light_freq_summary">Мигане когато има нови известия</string>
@@ -925,11 +928,11 @@
     <string name="brightness_title">Яркост</string>
     <string name="bt_hci_snoop_log">Активиране на регистрационния файл за анализ на пакетите в команден ред за Bluetooth с протокола HCI</string>
     <string name="bt_hci_snoop_log_summary">Заснемане на всички пакети за Bluetooth с протокола HCI във файла</string>
-    <string name="bt_ldac_declaration">Когато Bluetooth устройството поддържа LDAC, то ще се свърже по подразбиране. LDAC дава възможност за високо качество на аудио преживяванията и консумира повече енергия. Възпроизвеждането може да бъде ограничено от хардуера на Bluetooth</string>
+    <string name="bt_ldac_declaration">Когато Bluetooth устройството поддържа LDAC, то ще се свърже по подразбиране. LDAC дава възможност за високо качество на аудио преживяванията и консумира повече енергия. Възпроизвеждането може да бъде ограничено от хардуера на Bluetooth.</string>
     <string name="bt_ldac_dialog_summary">LDAC ви дава възможност да използвате аудио с много високо качество, но също така и с голям разход на енергия от батерията. Тази услуга може да бъде изключена от меню [Настройки]</string>
     <string name="bt_ldac_dialog_title">Това устройство поддържа LDAC, което означава, че ще се свърже по подразбиране с:</string>
-    <string name="bt_ldac_open_dialog_summary">LDAC дава възможност за високо качество на аудио преживяванията и консумира повече енергия. Възпроизвеждането може да бъде ограничено от хардуера на Bluetooth</string>
-    <string name="bt_ldac_open_dialog_title">Сигурни ли сте, че искате да включите LDAC?</string>
+    <string name="bt_ldac_open_dialog_summary">LDAC дава възможност за високо качество на аудио преживяванията и консумира повече енергия. Възпроизвеждането може да бъде ограничено от хардуера на Bluetooth.</string>
+    <string name="bt_ldac_open_dialog_title">Активиране на LDAC?</string>
     <string name="bt_ldac_pre_summary">Възможност за високо качество на аудио възпроизвеждане</string>
     <string name="bt_ldac_pre_title">LDAC</string>
     <string name="bt_ldac_property">Атрибути</string>
@@ -1549,6 +1552,7 @@
     <string name="dndm_auto_button_title">Повторете времето за Режим не безпокойте</string>
     <string name="dndm_auto_setting_group">Планирано</string>
     <string name="dndm_auto_time_setting">Задаване на време</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_off">До</string>
     <string name="dndm_auto_time_turn_off_title">Автоматично изключване на Режим не безпокойте</string>
     <string name="dndm_auto_time_turn_on">От</string>
@@ -1950,6 +1954,12 @@
     <string name="foreground_traffic">На преден план %s</string>
     <string name="forget">Забравяне</string>
     <string name="forget_password_button_text"><u>Забравена парола</u></string>
+    <string name="forget_password_dialog_button_text">Назад</string>
+    <string name="forget_password_dialog_content_four"><Data>2. Изберете &lt;font color=#e6e6e6>[Wipe data]&lt;/font> и изчакайте, докато устройството се рестартира.</Data></string>
+    <string name="forget_password_dialog_content_one"><Data>Ако забравите вашата парола, вие няма да можете да я възстановите. Все пак можете да нулирате паролата си, след като&lt;font color=#ec2700>изтриете цялата информация на устройството си&lt;/font> (включително снимки, контакти и т. н). Направете си копие на всички важни данни преди това.</Data></string>
+    <string name="forget_password_dialog_content_three"><Data>"1. Изключете вашето устройство. Натиснете бутон &lt;font color=#e6e6e6>[Захранване]&lt;/font> и бутон &lt;font color=#e6e6e6>[Усилване на звук]&lt;/font> едновременно и задръжте докато не видите &lt;img src=''> икона."</Data></string>
+    <string name="forget_password_dialog_content_two">Следвайте следните стъпки за да изтриете информация:</string>
+    <string name="forget_password_dialog_title">Нулирайте вашата парола</string>
     <string name="forget_pattern"><u>Забравен шаблон?</u></string>
     <string name="forget_privacy_password_setting">Добавяне на Mi Профил</string>
     <string name="forget_privacy_password_summary">Използвайте Mi Профил, за да смените паролата си</string>
@@ -1998,6 +2008,7 @@
     <string name="gadget_picker_title">Избор на притурка</string>
     <string name="gadget_state_off">изключено</string>
     <string name="gadget_state_on">включено</string>
+    <string name="gadget_state_template">%1$s: %2$s</string>
     <string name="gadget_state_turning_off">изключва сe</string>
     <string name="gadget_state_turning_on">включва се</string>
     <string name="gadget_sync">Синхронизиране</string>
@@ -2305,6 +2316,7 @@
     <string name="lift_to_wake_title">Събуждане при повдигане</string>
     <string name="line_breaking_summary">Оптимизирай пренасянето на текста</string>
     <string name="line_breaking_title">Оптимизиране на текст</string>
+    <string name="link_speed">%1$d Мб/с</string>
     <string name="list_bg_header_text">Ако ограничите свързването във фонов режим, новите приложения няма да могат да се свързват към интернет, след като ги инсталирате. Това може да бъде проблем при получаването на съобщения и уведомления или изтегляне на информация.</string>
     <string name="list_empty_text">Празно</string>
     <string name="loading_notification_apps">Приложенията се зареждат...</string>
@@ -2660,6 +2672,7 @@
     <string name="memory_title">Свободни: %1$s\u0009\u0009Общо: %2$s</string>
     <string name="memory_usage">Използване на паметта</string>
     <string name="memory_usage_apps">Използвана от приложенията памет</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">Средно %1$s използвана памет през последните 3 часа</string>
     <string name="menu_cancel">Отхвърляне</string>
     <string name="menu_check">Опит</string>
@@ -2711,6 +2724,9 @@
     <string name="miui_lab_features">MIUI лаб услуги</string>
     <string name="miui_lab_gallery_search_desc">Подобрено търсене на изображения</string>
     <string name="miui_lab_gallery_search_title">Намерете снимки в Галерия</string>
+    <string name="miui_lab_install_drive_mode_error">Не може да се инсталира, опитайте отново.</string>
+    <string name="miui_lab_install_drive_mode_summary">Режим Шофиране е системно приложение. Не се изисква връзка с интернет.</string>
+    <string name="miui_lab_install_drive_mode_title">Инсталиране на режим Шофиране</string>
     <string name="miui_lab_settings">MIUI лаб</string>
     <string name="miui_lab_slogan">Учете. Изследвайте. Откривайте.</string>
     <string name="miui_lab_super_resolution_desc">Направи изображението отчетливо</string>
@@ -2846,8 +2862,6 @@
     <string name="navigation_guide_app_title">Действие на приложението</string>
     <string name="navigation_guide_appswitch_summary">Плъзнете наляво или надясно от ъгъла на екрана и задръжте малко</string>
     <string name="navigation_guide_appswitch_title">Превключване към предишно приложение</string>
-    <string name="navigation_guide_back_anim_summary">Показване на анимация, докато плъзгате от ръба на екрана</string>
-    <string name="navigation_guide_back_anim_title">Анимиран жест \"Върни се обратно\"</string>
     <string name="navigation_guide_back_summary">Плъзнете наляво или надясно от ръба на екрана</string>
     <string name="navigation_guide_back_title">Назад</string>
     <string name="navigation_guide_dialog_dont_show_again">Не показвай отново</string>
@@ -2906,6 +2920,7 @@
     <string name="nfc_how_it_works_got_it">Разбрах</string>
     <string name="nfc_how_it_works_title">Плащане на терминал</string>
     <string name="nfc_more_title">Още...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Основно приложение за плащане</string>
     <string name="nfc_payment_default_not_set">Не е зададено</string>
     <string name="nfc_payment_favor_default">Винаги използвайте приложението по подразбиране</string>
@@ -3049,7 +3064,7 @@
     <string name="notification_show_lights_title">Премигваща светлина</string>
     <string name="notification_sound_default">Стандартен звук за известяване</string>
     <string name="notification_sound_dialog_title">Стандартен звук за известяване</string>
-    <string name="notification_sound_title">Звуци за съобщения и известия</string>
+    <string name="notification_sound_title">Стандартен звук за известяване</string>
     <string name="notification_suggestion_summary">Показване или скриване на съдържанието на известията</string>
     <string name="notification_suggestion_title">Известия на заключения екран: Управление</string>
     <string name="notification_summary_channel">%1$s • %2$s</string>
@@ -3117,6 +3132,7 @@
     <string name="overlay_display_devices_title">Симулиране на втори дисплей</string>
     <string name="overlay_settings">Показв. върху други приложения</string>
     <string name="owner_info_settings_edit_text_hint">Напр. „Устройството с Android на Иван“.</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Няма</string>
     <string name="owner_info_settings_title">Подпис на заключен екран</string>
     <string name="owner_space">Основно работно място</string>
@@ -3230,6 +3246,7 @@
     <string name="picture_in_picture_title">Картина в картина</string>
     <string name="pin_failed">Операцията с ПИН кода за SIM картата не бе успешна!</string>
     <string name="ping_test_label">Изпълняване на тест „ping“</string>
+    <string name="play_pause_description">Бутон Възпроизвеждане/Пауза</string>
     <string name="please_select_phase2">Фаза 2 на удостоверяване</string>
     <string name="please_type_passphrase">Парола</string>
     <string name="pointer_location">Позициониране на местоположението</string>
@@ -3428,6 +3445,8 @@
     <string name="private_sms_recording_intro_header">Начертайте шаблон за отключване:</string>
     <string name="private_sms_reset_by_account">Влезте в Mi Профила си за нулиране на паролата</string>
     <string name="process_dex2oat_label">Оптимизиране на приложенията</string>
+    <string name="process_format">%1$s (%2$d)</string>
+    <string name="process_kernel_label">Android операционна система</string>
     <string name="process_mediaserver_label">Медиен сървър</string>
     <string name="process_provider_in_use_description">Доставчикът %1$s се използва.</string>
     <string name="process_service_in_use_description">Услугата %1$s се използва</string>
@@ -4050,6 +4069,7 @@ Wi-Fi телефония: %3$s
     <string name="security_encryption_attention_3">Вие сте на път да промените вашата парола за отключване на екрана.</string>
     <string name="security_encryption_attention_4">Уверете се, че сте запомнили вашата парола за заключване на екрана, в противен случай ще се наложи да извършите пълно нулиране и изтриване на цялата информация във вашето устройство.</string>
     <string name="security_encryption_attention_info">Вие можете да криптирате акаунти, настройки, инсталирани приложения и тяхната информация, медия или други файлове.</string>
+    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">Важно</string>
     <string name="security_encryption_close_dialog_info">Ако изберете да не криптирате устройството, използвайки парола за заключване на екрана, е възможно някои услуги на Google да не работят след това.</string>
     <string name="security_encryption_close_dialog_title">Връщане обратно към стандартната защита с парола</string>
@@ -4059,6 +4079,8 @@ Wi-Fi телефония: %3$s
     <string name="security_encryption_progress_dialog_open">Криптиране…</string>
     <string name="security_encryption_rejected_via_home_manager">Тази услуга не се поддържа в демо версия.</string>
     <string name="security_encryption_title">Криптирайте устройството си, като използвате парола за заключване на екрана</string>
+    <string name="security_input">Защитено въвеждане</string>
+    <string name="security_input_hint">Използвайте защитена клавиатура за въвеждане на парола</string>
     <string name="security_keyguard_category_name">Заключен екран</string>
     <string name="security_password_category_name">Закл. на екрана</string>
     <string name="security_passwords_title">Поверителност</string>
@@ -4300,6 +4322,7 @@ Wi-Fi телефония: %3$s
     <string name="sim_reenter_new">Въведете пак новия ПИН код</string>
     <string name="sim_select_card">Изберете SIM карта</string>
     <string name="sim_selection_required_pref">Изборът е задължителен</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM карти</string>
     <string name="sim_setup_wizard_title">SIM карти</string>
     <string name="sim_signal_strength">%1$d dBm, %2$d asu</string>
@@ -4313,6 +4336,7 @@ Wi-Fi телефония: %3$s
     <string name="size_kilo_byte">КБ</string>
     <string name="size_mega_byte">МБ</string>
     <string name="size_peta_byte">ПБ</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">ТБ</string>
     <string name="skip_anyway_button_label">Пропускане въпреки това</string>
     <string name="skip_label">Пропускане</string>
@@ -4348,7 +4372,7 @@ Wi-Fi телефония: %3$s
     <string name="sound_settings_summary">Сила на звука при звънене: %1$s</string>
     <string name="sound_settings_summary_silent">Зададен е тих режим при звънене</string>
     <string name="sound_settings_summary_vibrate">Зададено е вибриране при звънене</string>
-    <string name="sound_stereo_mode_summary">Достъпно само при възпроизвеждане от говорителя</string>
+    <string name="sound_stereo_mode_summary">Работи само с говорителите</string>
     <string name="sound_stereo_mode_title">Стерео звук</string>
     <string name="sound_vibrate_settings">Звук и вибрация</string>
     <string name="sound_work_settings">Звуци за служебния потребителски профил</string>
@@ -4390,6 +4414,7 @@ Wi-Fi телефония: %3$s
     <string name="status_bar_settings_all_app_display_loading">Зарежда се…</string>
     <string name="status_bar_settings_app_notification_preferences">Настройки на приложенията</string>
     <string name="status_bar_settings_basic_settings">Основни настройки</string>
+    <string name="status_bar_settings_carrier_sim">SIM %1$s:</string>
     <string name="status_bar_settings_custom_carrier">Име на оператора по избор</string>
     <string name="status_bar_settings_custom_wifi_name">Редактирай името на Wi-Fi</string>
     <string name="status_bar_settings_enable_notification">Разрешаване на известия</string>
@@ -4621,6 +4646,7 @@ Wi-Fi телефония: %3$s
     <string name="suggestions_title">Предложения</string>
     <string name="sum_carrier_select">Избиране на мрежов оператор</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_range_symbol_combination">от %1$s до %2$s</string>
     <string name="summary_range_verbal_combination">от %1$s до %2$s</string>
     <string name="super_resolution_access_title">Достъпни приложения</string>
     <string name="super_resolution_desc">Направи изображението отчетливо чрез използване на AI алгоритъм</string>
@@ -4768,7 +4794,8 @@ Wi-Fi телефония: %3$s
     <string name="toast_lockscreen_glogin_empty_password">Въведете парола</string>
     <string name="toast_need_login">Влезте във вашия Mi Профил</string>
     <string name="total">Режим Не безпокойте</string>
-    <string name="total_info">Заглуши звуци %1$sс изключение на будилниците</string>
+    <string name="total_info">Заглуши звуците и изключи вибрацията с изключение на будилниците</string>
+    <string name="total_info_no_vibrator">Заглуши звуци с изключение на будилниците</string>
     <string name="total_memory">Общо памет</string>
     <string name="total_size">Общо %s</string>
     <string name="total_size_label">Общо</string>
@@ -5330,16 +5357,16 @@ Wi-Fi телефония: %3$s
     <string name="wapi_cert_manage_summary">Добави или изтрий WAPI сертификата</string>
     <string name="wapi_cert_manage_title">Управление на WAPI сертификати</string>
     <string name="wapi_cert_select">WAPI сертификат</string>
-    <string name="wapi_no">не</string>
-    <string name="wapi_no_vaild_cert">Няма налични сертификати, инсталиране сега?</string>
-    <string name="wapi_password_empty">Моля, въведете паролата</string>
-    <string name="wapi_password_hex_format_invalid">Невалидни шестнадесетични знаци</string>
+    <string name="wapi_no">Не</string>
+    <string name="wapi_no_vaild_cert">Няма инсталиран сертификат. Инсталиране сега?</string>
+    <string name="wapi_password_empty">Въведете парола</string>
+    <string name="wapi_password_hex_format_invalid">Неподдържан формат за парола</string>
     <string name="wapi_password_hex_length_invalid">Броят на шестнадесетичните знаци трябва е четен</string>
-    <string name="wapi_password_length_invalid">Паролата трябва да е между 8-64 знака</string>
+    <string name="wapi_password_length_invalid">Паролата трябва да е между 8 до 64 знака дължина</string>
     <string name="wapi_psk_type">Тип парола</string>
     <string name="wapi_psk_type_ascii">ASCII</string>
     <string name="wapi_psk_type_hex">Шестнадесетично</string>
-    <string name="wapi_yes">да</string>
+    <string name="wapi_yes">Да</string>
     <string name="warm_color">Топъл</string>
     <string name="web_action_enable_summary">Отваряйте връзките в приложения дори ако те не са инсталирани</string>
     <string name="web_action_enable_title">Мигновени приложения</string>
@@ -5608,15 +5635,17 @@ Wi-Fi телефония: %3$s
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_none">Няма</string>
     <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
-    <string name="wifi_security_wapi_cert">WAPI-Cert</string>
-    <string name="wifi_security_wapi_psk">WAPI-PSK</string>
+    <string name="wifi_security_wapi_cert">WAPI CERT</string>
+    <string name="wifi_security_wapi_psk">WAPI PSK</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
@@ -5940,7 +5969,6 @@ Wi-Fi телефония: %3$s
     <string name="audio_profile_bes_surround_summary">Аудио среда</string>
     <string name="audio_profile_bes_surround_title">Отличнсреда</string>
     <string name="bg_power_saving_title">Готовност интелигентен пестене на енергия</string>
-    <string name="cancel_description">Отказ</string>
     <string name="card_emulation_settings_category_title">достъпен защитен елемент</string>
     <string name="card_emulation_settings_no_element_found">Няма достъпен защитен елемент.</string>
     <string name="card_emulation_settings_off_text">За показване на достъпните защитни елементи включете Емулиране на карта.</string>
@@ -5951,7 +5979,6 @@ Wi-Fi телефония: %3$s
     <string name="card_emulation_turning_on_text">Включване на емулация на карта…</string>
     <string name="card_emulation_two_sim_not_supported_message">SIM1,SIM2 do not support NFC Card emulation function.</string>
     <string name="clear_motion_summary">Подобрител на плавността на видео</string>
-    <string name="confirm_description">Потвърди</string>
     <string name="custom_build_version">Версия, създадена от потребител</string>
     <string name="data_saving_title">Запазване на данни</string>
     <string name="data_usage_menu_cellular_data_control">Управление на клетъчни данни</string>
@@ -6031,7 +6058,6 @@ Wi-Fi телефония: %3$s
     <string name="status_imei_slot2">IMEI(гнездо2)</string>
     <string name="tethering_apn_settings_summary">Конфигуриране на APN за обвързване</string>
     <string name="tethering_apn_settings_title">Настройки APN</string>
-    <string name="total_info_sub">и изключи вибрацията</string>
     <string name="two_cdma_dialog_msg">Гнездо 1 и гнездо 2 не могат да поддържат CDMA едновременно.</string>
     <string name="usb_bicr_summary">Показване на виртуален CD-ROM с полезен софтуер.</string>
     <string name="usb_ums_summary">Препоръчва се ХР. Позволява трансфер на файлове между компютъра и у-вото с Android.</string>

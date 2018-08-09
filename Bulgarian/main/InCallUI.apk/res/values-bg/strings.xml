@@ -66,8 +66,8 @@
     <string name="card_title_answering">Отговор на повикване</string>
     <string name="card_title_answering_time_out">Не можа да се отговори на повикването, опитайте отново.</string>
     <string name="card_title_call_ended">"Обаждането завърши "</string>
-    <string name="card_title_on_hold">Задържане на обаждането</string>
-    <string name="card_title_hanging_up">Приключване на разговора</string>
+    <string name="card_title_on_hold">"Задържане на обаждането "</string>
+    <string name="card_title_hanging_up">"Приключване на разговора "</string>
     <string name="card_title_hanging_up_fail">Не можа да се приключи обаждането, опитайте отново.</string>
     <string name="card_title_hanging_up_weak_signal">Сигналът на мобилната мрежа е слаб. Приключване на обаждане…</string>
     <string name="card_title_hanging_up_restart">Не може да се прекрати обаждането. Рестартирайте устройството.</string>
@@ -127,6 +127,8 @@
     <string name="select_sim_hint">Не може да използвате SIM %2$d, докато SIM %1$d е в употреба.</string>
     <string name="select_one_sim_title">Да се използва само SIM %1$d</string>
     <string name="can_not_use">Не може да се използва</string>
+    <string name="sim1_description">SIM1</string>
+    <string name="sim2_description">SIM2</string>
     <string name="call_description_recording">Запис на разговор…</string>
     <string name="call_recording_error_privacy">Не можете да записвате докато сте в режим Гост</string>
     <string name="call_recording_error_sd_access">Няма достъп до SD картата</string>
@@ -170,7 +172,7 @@
     <string name="close_camera_requesting">Камера се изключва…</string>
     <string name="close_camera_failed">Не може да се изключи камерата…</string>
     <string name="change_to_voice_tips_when_background">Отсрещният абонат е превключил на гласово повикване</string>
-    <string name="video_crbt_title">%s видео тон за звънене</string>
+    <string name="video_crbt_title">Другата фонова част на звънене от видеото се възпроизвежда</string>
     <string name="crbt_second_hold_prompt">%s се задържа…</string>
     <string name="crbt_second_hold_prompt_no_name">Предишното повикване е на задържане. …</string>
     <string name="crbt_second_hold_prompt_conference">Конферентното обаждане е задържано…</string>

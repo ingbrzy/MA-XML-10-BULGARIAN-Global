@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="delete_confirm_multiple_files">
+    <plurals name="a">
         <item quantity="other">Да изтрия ли %d избрани файлове?</item>
         <item quantity="one">Да изтрия ли %d избран файл?</item>
     </plurals>
-    <plurals name="notif_receive_cancel">
+    <plurals name="b">
         <item quantity="other">%1$s от файловете не са прехвърлени</item>
         <item quantity="one">%1$s от файловете не е прехвърлен</item>
     </plurals>
-    <plurals name="notif_receive_progress">
+    <plurals name="c">
         <item quantity="other">Получаване на %1$s файла…</item>
         <item quantity="one">Получаване на %1$s файл…</item>
     </plurals>
-    <plurals name="notif_receive_success">
+    <plurals name="d">
         <item quantity="other">Получени %1$s файла</item>
         <item quantity="one">Получен %1$s файл</item>
     </plurals>
-    <plurals name="receiver_file_num">
+    <plurals name="e">
         <item quantity="other">получени %2$d файла от %1$s</item>
         <item quantity="one">получен %2$d файл от %1$s</item>
     </plurals>
-    <plurals name="selected_file_num">
+    <plurals name="f">
         <item quantity="other">Избрани %d елементи</item>
         <item quantity="one">Избран е %d елемент</item>
     </plurals>
-    <plurals name="sender_file_num">
+    <plurals name="g">
         <item quantity="other">Изчакване за %1$d файла…</item>
         <item quantity="one">Изчакване за %1$d файл…</item>
     </plurals>
-    <plurals name="transfer_list_received_header">
+    <plurals name="h">
         <item quantity="other">Получаване на %1$d файла (%2$s)</item>
         <item quantity="one">Получаване на %1$d файл (%2$s)</item>
     </plurals>
-    <plurals name="transfer_list_sent_header">
+    <plurals name="i">
         <item quantity="other">Изпрати %1$d файла (%2$s)</item>
         <item quantity="one">Изпрати %1$d файл (%2$s)</item>
     </plurals>

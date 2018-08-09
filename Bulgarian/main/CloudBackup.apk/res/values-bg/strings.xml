@@ -164,11 +164,11 @@
     <string name="done_remove">Успешно премахнато</string>
     <string name="doing_restore_home">Възстановяване на Начален екран и настройки…</string>
     <string name="title_alert_cancel_restore">Спри възстановяването</string>
-    <string name="msg_alert_cancel_restore">Възстановяване от Облака е в ход, да се прекъсне ли?</string>
+    <string name="msg_alert_cancel_restore">Възстановяване на елементи. Спиране сега?</string>
     <string name="btn_restore_cancel">Отказ</string>
     <string name="btn_restore_resume">Поднови</string>
-    <string name="title_alert_restore_error">Възстановяването пропадна</string>
-    <string name="msg_alert_restore_error">Възстановяването от Облака пропадна, опитайте отново.</string>
-    <string name="btn_restore_retry">Нов опит</string>
+    <string name="title_alert_restore_error">Не може да се възстанови</string>
+    <string name="msg_alert_restore_error">Не може да се възстановят елементите от Mi Облак. Опитайте отново.</string>
+    <string name="btn_restore_retry">Оптитайте отново</string>
     <string name="btn_restore_abort">Отказ</string>
 </resources>

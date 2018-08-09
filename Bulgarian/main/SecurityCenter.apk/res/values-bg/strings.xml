@@ -433,6 +433,7 @@
     <string name="managed_user_title">Всички работни приложения</string>
     <string name="pref_about_traffic_title">Настройка на трафика</string>
     <string name="pref_traffic_manage_title">Използвани данни</string>
+    <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_package_traffic_settings">План за данни</string>
     <string name="pref_adjust_traffic_data">Задаване на изп. на данни</string>
     <string name="pref_category_title_other">Допълнитени настройки</string>
@@ -442,9 +443,9 @@
     <string name="pref_title_declaration">Отказ от отговорност</string>
     <string name="pref_new_installed_preconfig_title">Стандартни настройки за нови прил.</string>
     <string name="pref_bg_network_title">Връзка на заден план</string>
-    <string name="pref_mi_sim_settings">Настройки на Mi SIM</string>
-    <string name="pref_title_upload_data_usage">Докладвайте за бъг при отчитането на данните</string>
-    <string name="pref_summary_upload_data_usage">Докладвайте за проблеми при отчитането на изразходваните мобилни данни, за да ни помогнете да подобрим MIUI. Докладваното е съобразно нашите правила за сигурност.</string>
+    <string name="pref_mi_sim_settings">%sнастройки на пакет</string>
+    <string name="pref_title_upload_data_usage">Докладвайте използването на мобилни данни</string>
+    <string name="pref_summary_upload_data_usage">Докладването на употребата на мобилни данни помага да подобрим услугите на MIUI. Целият процес на изпращане на вашия доклад е координиран с нашата Политика на поверителност.</string>
     <string name="pref_manual_adjust">Ръчна настройка на трафика</string>
     <string name="pref_daily_adjust">Задайте лимит на данни при слаб трафик</string>
     <string name="pref_free_adjust">Задайте лимит на мобилни данни при слаб трафик</string>
@@ -885,6 +886,7 @@
     <string name="status_bar_network_flow_content">Днес: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;; Остават: %2$s</string>
     <string name="status_bar_network_flow_content_not_setting">Днес: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;; Този месец: %2$s</string>
     <string name="status_bar_network_flow_today">Днес: %1$s</string>
+    <string name="status_bar_network_flow_content_virtual_card">%1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;%2$s&amp;nbsp;&amp;nbsp;&amp;nbsp;</string>
     <string name="pref_key_tethering_setting">Еднократен лимит за данни</string>
     <string name="pref_key_tethering_title">Еднократен лимит за данни</string>
     <string name="tether_limit_value_custom">По избор</string>
@@ -958,6 +960,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Това приложение може да забави прекалено много
 вашето устройство"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Деинсталиране на %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Деинсталирайте това приложение, за да поправите проблем с прекален разход на батерията.</string>
     <string name="om_ill_proc_type_wakelock_title">Това приложение блокира режим сън на устройството и изразходва много батерия</string>
@@ -1016,6 +1019,7 @@
     <string name="usage_type_data_send">Изпратени мобилни данни</string>
     <string name="usage_type_no_coverage">Време без сигнал</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android операционна система</string>
     <string name="process_mediaserver_label">Медиен сървър</string>
     <string name="power_screen">Екран</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1362,11 +1366,13 @@
     <string name="menu_text_optimize_manage">Подобрете скоростта</string>
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_summary_networkassistants">Управление на вашия план за данни</string>
+    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Надхвърлен е лимита за данни</string>
     <string name="menu_summary_networkassistants_3">От пакет за данни остава</string>
     <string name="menu_summary_networkassistants_4">Надхвърлен лимит за данни</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
     <string name="menu_text_networkassistants_unit_mb">МБ</string>
     <string name="menu_text_networkassistants_unit_kb">КБ</string>
@@ -1379,12 +1385,14 @@
     <string name="menu_summary_garbage_cleanup">Няма открити отпадъци</string>
     <string name="menu_summary_garbage_cleanup_2">Размер на отпадъците</string>
     <string name="menu_summary_garbage_cleanup_3">Почисти отпадъците сега</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Батерия</string>
     <string name="menu_summary_power_manager">Икономия на батерия ви дава повече време за работа преди следващо зареждане</string>
     <string name="menu_summary_power_manager_1">Батерията е напълно заредена</string>
     <string name="menu_summary_power_manager_2">Остават: %s</string>
     <string name="menu_summary_power_manager_3">Свържете зарядно устройство</string>
     <string name="menu_summary_power_manager_4">Ще се зареди след %s</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Предишното сканиране е прекъснато преди да завърши</string>
     <string name="examination_score_100">Изглежда всичко работи добре!</string>
     <string name="examination_score_80_100">Някои елементи могат да бъдат оптимизирани</string>
@@ -1750,6 +1758,7 @@
     <string name="card_main_deepclean_wechat_action">Изчистване</string>
     <string name="card_main_sectool_title">Инструменти</string>
     <string name="card_main_monthreport_action">Покажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Диагностика на мрежата</string>
     <string name="card_main_netcheck_summary">Диагностика на мрежата за проблеми при свързването</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -1918,6 +1927,9 @@
     <string name="set_pattern_password_name">Задайте шаблон</string>
     <string name="set_numeric_password_name">Задайте PIN</string>
     <string name="set_mixed_password_name">Задайте парола</string>
+    <string name="reset_data_title">Не може да се възстанови паролата</string>
+    <string name="reset_data_dialog_message">Това устройство не е свързано с Вашия профил в Mi. Поради това не може да се възстанови или нулира паролата. Архивирайте всички важни елементи, направете им копия и преминете към възстановяване на фабрични настройки. Цялата информация ще бъде завинаги изтрита и вашата SD карта ще бъде форматирана по време на този процес.</string>
+    <string name="reset_data_dialog_ok">Фабрични настройки</string>
     <string name="wakepath_confirm_start_activity">Позволявате ли на %1$s да отвори %2$s?</string>
     <string name="unlike">Не, благодаря</string>
     <string name="toast_network_eror">Няма връзка с мрежата</string>
@@ -2170,7 +2182,7 @@
     <string name="sys_title_gamebooster_unit_mb">МБ</string>
     <string name="gmscore_support_service">Услуги на Google</string>
     <string name="gmscore_support_remind">Включете тази услуга, ако имате проблеми с използването на Gmail, Google Карти и други услуги на Google. Ще се съкрати малко животът на батерията.</string>
-    <string name="google_base_app_install_choice">\"%s\" изисква услугата Google Service Framework, за да работи нормално, да се изтегли ли и инсталира сега?</string>
+    <string name="google_base_app_install_choice">Приложението изисква инсталиран Google рамка на услугите, за да работи нормално. Да се изтегли ли и инсталира сега?</string>
     <string name="application_item_disable">Забранено</string>
     <string name="application_item_already_permission">Позволено</string>
     <string name="man_add_application">Добавете приложения за автостартиране ръчно</string>

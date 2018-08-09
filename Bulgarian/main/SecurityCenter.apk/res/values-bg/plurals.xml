@@ -280,6 +280,10 @@
         <item quantity="other">%d открити прил.</item>
         <item quantity="one">%d открито прил.</item>
     </plurals>
+    <plurals name="reset_data_dialog_ok_tick">
+        <item quantity="other">Връщане на фабрични настройки (%ds)</item>
+        <item quantity="one">Връщане на фабрични настройки (%ds)</item>
+    </plurals>
     <plurals name="section_clear_acc_item_right_tips">
         <item quantity="other">%d заключени приложения чакат за почистване</item>
         <item quantity="one">%d заключено приложение чака за почистване</item>

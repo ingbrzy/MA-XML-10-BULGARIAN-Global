@@ -52,6 +52,7 @@
     <string name="accessibility_camera_button">Камера</string>
     <string name="accessibility_carrier_network_change_mode">Мрежата на оператора е променена.</string>
     <string name="accessibility_cast_name">Свързахте се с %s.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_casting_turned_off">Запис на екрана е изключено.</string>
     <string name="accessibility_cell_data">Мобилни данни</string>
     <string name="accessibility_cell_data_off">Мобилните данни са изключени</string>
@@ -103,7 +104,7 @@
     <string name="accessibility_home">Начало</string>
     <string name="accessibility_ime_switch_button">Смяна на метода за въвеждане.</string>
     <string name="accessibility_key">Потребителски бутон за управление</string>
-    <string name="accessibility_left_button">пряк път</string>
+    <string name="accessibility_left_button">Пряк път</string>
     <string name="accessibility_location_active">Услуга за местоположение е активна</string>
     <string name="accessibility_managed_profile">Служебнен профил</string>
     <string name="accessibility_menu">Меню</string>
@@ -144,6 +145,7 @@
     <string name="accessibility_quick_settings_airplane_off">Самолетен режим е изкл.</string>
     <string name="accessibility_quick_settings_airplane_on">Самолетен режим е вкл.</string>
     <string name="accessibility_quick_settings_alarm">Будилникът е настроен за: %s.</string>
+    <string name="accessibility_quick_settings_alarm_on">Будилникът е настроен.</string>
     <string name="accessibility_quick_settings_alarm_set">Настройка на будилника.</string>
     <string name="accessibility_quick_settings_battery">Батерия%s.</string>
     <string name="accessibility_quick_settings_bluetooth">Bluetooth.</string>
@@ -151,6 +153,7 @@
     <string name="accessibility_quick_settings_bluetooth_changed_on">Bluetooth е включен.</string>
     <string name="accessibility_quick_settings_bluetooth_connected">Bluetooth е свързан.</string>
     <string name="accessibility_quick_settings_bluetooth_connecting">Bluetooth се свързва.</string>
+    <string name="accessibility_quick_settings_bluetooth_handsfree_battery_level">Батерия на Bluetooth устройство %d в проценти.</string>
     <string name="accessibility_quick_settings_bluetooth_off">Bluetooth е изкл.</string>
     <string name="accessibility_quick_settings_bluetooth_on">Bluetooth е вкл.</string>
     <string name="accessibility_quick_settings_close">Затвори меню.</string>
@@ -274,7 +277,7 @@
     <string name="apn_settings_not_available">Настройките за промяна на името на точката за достъп не са налице за този потребител</string>
     <string name="app_info">Инф за приложение</string>
     <string name="app_label">Системен изглед</string>
-    <string name="app_name">Защита на клавиатура</string>
+    <string name="app_name">Заключен екран</string>
     <string name="app_process_limit_title">Ограничение за фонови процеси</string>
     <string name="as_important">Важно</string>
     <string name="as_unimportant">Маловажно</string>
@@ -713,6 +716,7 @@
     <string name="incorrect_pukcode">Неправилен PUK код</string>
     <string name="input_password_after_boot_msg">За да отключите вашето устройство, въведете паролата си</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Не може да се превключва между пространства по време на обаждане</string>
+    <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Не може да се превключва между работните места когато Родителски контрол работи</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">Трябва да влезете в Основно работно място след рестарт на устройството</string>
     <string name="input_password_handle_sdcard_fs">Не може да влезете във Второ работно място от заключен екран. Направете го от Основно работно място.</string>
     <string name="input_password_hint_text">Въведете парола</string>
@@ -790,10 +794,14 @@
     <string name="keyguard_accessibility_pin_area">PIN област</string>
     <string name="keyguard_accessibility_sim_pin_area">SIM PIN област</string>
     <string name="keyguard_accessibility_sim_puk_area">SIM PUK област</string>
-    <string name="keyguard_carrier_default">Няма услуга.</string>
+    <string name="keyguard_carrier_default">Няма услуга</string>
     <string name="keyguard_charged">Заредена</string>
     <string name="keyguard_charging_info_battery_used_time_text">На батерия</string>
     <string name="keyguard_charging_info_click_to_detail">Покажи подробности</string>
+    <string name="keyguard_charging_info_data_c">%s℃</string>
+    <string name="keyguard_charging_info_data_ma">%smA</string>
+    <string name="keyguard_charging_info_data_percent">%s%%</string>
+    <string name="keyguard_charging_info_data_v">%sV</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Изразходени</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Днес%s</string>
@@ -803,7 +811,7 @@
     <string name="keyguard_charging_info_tip_text2">Не презареждайте вашето устройство. Многократните къси зареждания са по-добър вариант от едно продължително през цялата нощ.</string>
     <string name="keyguard_charging_info_tip_text3">Избягвайте да зареждате вашето устройство, когато температурата е под 0℃.</string>
     <string name="keyguard_charging_info_tip_text4">Не използвайте вашето устройство активно по време на зареждане, за да избегнете прегряване.</string>
-    <string name="keyguard_charging_info_tip_text5">Зареждането на батерията може да отнеме повече време от обичайното, ако е по-топла от нормалното.</string>
+    <string name="keyguard_charging_info_tip_text5">Зареждането на батерията ще отнеме повече време от обикновено при нагрято устройство.</string>
     <string name="keyguard_charging_info_tip_text6">Изключете екрана и оставете вашето устройство да се охлади за известно време.</string>
     <string name="keyguard_indication_charging_time">Зареждане (%s до пълна)</string>
     <string name="keyguard_indication_charging_time_fast">Бързо зареждане (%s до пълна)</string>
@@ -817,6 +825,7 @@
     <string name="keyguard_missing_sim_instructions_long">SIM картата липсва или не се разпознава. Поставете SIM карта.</string>
     <string name="keyguard_missing_sim_message">В телефона няма SIM карта.</string>
     <string name="keyguard_missing_sim_message_short">Няма SIM карта</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Мрежата е заключена</string>
     <string name="keyguard_password_enter_password_code">Въведете парола за отключване</string>
     <string name="keyguard_password_enter_pin_code">Въведете PIN код</string>
@@ -825,7 +834,7 @@
     <string name="keyguard_password_enter_puk_code">Въведете SIM PUK кода и новия PIN код</string>
     <string name="keyguard_password_enter_puk_prompt">SIM PUK код</string>
     <string name="keyguard_password_entry_touch_hint"><font size="17">Докоснете за въвеждане на парола</font></string>
-    <string name="keyguard_password_wrong_pin_code">Неправилен PIN код.</string>
+    <string name="keyguard_password_wrong_pin_code">PIN кодът е неправилен.</string>
     <string name="keyguard_permanent_disabled_sim_instructions">"Вашата SIM карта е деактивирана.
 Свържете се с вашия доставчик на мобилни услуги за получаване на нова SIM карта."</string>
     <string name="keyguard_permanent_disabled_sim_message_short">Неизползваема SIM карта.</string>
@@ -838,7 +847,7 @@
     <string name="keyguard_sim_unlock_progress_dialog_message">Отключване на SIM карта…</string>
     <string name="keyguard_torch_cover_text">За да остане фенерчето включено, натиснете бутон Захранване</string>
     <string name="keyguard_unlock">Плъзнете нагоре за отключване</string>
-    <string name="kg_enter_confirm_pin_hint">Потвърдете желания от вас PIN код</string>
+    <string name="kg_enter_confirm_pin_hint">Потвърдете новия PIN код</string>
     <string name="kg_failed_attempts_almost_at_erase_profile">Направихте опит да отключите устройството неправилно %1$dпъти. След още %2$d неуспешни опита ще бъдат възстановени стандартните му фабрични настройки и всички потребителски данни ще бъдат изтрити.</string>
     <string name="kg_failed_attempts_almost_at_erase_user">Направихте опит да отключите устройството неправилно %1$dпъти. След още %2$d неуспешни опита ще бъдат възстановени стандартните му фабрични настройки и всички потребителски данни ще бъдат изтрити.</string>
     <string name="kg_failed_attempts_almost_at_login">"Начертахте неправилно шаблона си %1$d пъти. След още %2$d неуспешни опита ще бъдете помолени да отключите устройството посредством данните за вход в профила ви.
@@ -848,19 +857,19 @@
     <string name="kg_failed_attempts_now_erasing_profile">Направихте опит да отключите устройството неправилно %d пъти. Сега ще бъдат възстановени стандартните му фабрични настройки.</string>
     <string name="kg_failed_attempts_now_erasing_user">Направихте опит да отключите устройството неправилно %d пъти. Сега ще бъдат възстановени стандартните му фабрични настройки.</string>
     <string name="kg_failed_attempts_now_wiping">Направихте опит да отключите устройството неправилно %d пъти. Сега ще бъдат възстановени стандартните му фабрични настройки.</string>
-    <string name="kg_forgot_pattern_button_text">Забравена фигура</string>
+    <string name="kg_forgot_pattern_button_text">Забравен шаблон</string>
     <string name="kg_invalid_confirm_pin_hint">PIN кодовете не съвпадат</string>
     <string name="kg_invalid_puk">Въведете отново правилния PUK код. Повторените опити ще бъдат изключени за SIM картата.</string>
-    <string name="kg_invalid_sim_pin_hint">Невалиден PIN. Въведете PIN с четири до осем цифри.</string>
+    <string name="kg_invalid_sim_pin_hint">Въведете PIN с четири до осем цифри.</string>
     <string name="kg_invalid_sim_puk_hint">PUK кодът трябва да е поне с 8 и повече цифри.</string>
     <string name="kg_login_too_many_attempts">Твърде много опити за начертаване на шаблон</string>
     <string name="kg_password_instructions">Въведете парола</string>
-    <string name="kg_password_pin_failed">SIM PIN операцията е неуспешна!</string>
-    <string name="kg_password_puk_failed">SIM PUK операцията е неуспешна!</string>
-    <string name="kg_password_wrong_pin_code_pukked">Грешен SIM PIN код. Трябва да се свържете с вашия оператор за да отключите вашето устройство.</string>
+    <string name="kg_password_pin_failed">Не може да се отключи чрез SIM PIN</string>
+    <string name="kg_password_puk_failed">Не може да се отключи чрез SIM PUK</string>
+    <string name="kg_password_wrong_pin_code_pukked">SIM PIN кодът е неправилен. Свържете се с вашия оператор за да отключите устройството.</string>
     <string name="kg_password_wrong_puk_code_dead">SIM картата е невалидна. Свържете се с вашия оператор.</string>
     <string name="kg_pattern_instructions">Начертайте вашата фигура</string>
-    <string name="kg_pin_accepted">Кодът е приет!</string>
+    <string name="kg_pin_accepted">Кодът е приет</string>
     <string name="kg_pin_instructions">Въведи PIN-код</string>
     <string name="kg_prompt_reason_device_admin">Устройството е заключено от администратор</string>
     <string name="kg_prompt_reason_restart_password">Въведете парола за отключване</string>
@@ -873,9 +882,9 @@
     <string name="kg_prompt_reason_timeout_pattern">Шаблонът се изисква за допълнителна защита</string>
     <string name="kg_prompt_reason_timeout_pin">PIN кодът се изисква за допълнителна защита</string>
     <string name="kg_prompt_reason_user_request">Устройството е било заключено ръчно</string>
-    <string name="kg_puk_enter_pin_hint">Въведете желаният от вас PIN код</string>
-    <string name="kg_puk_enter_puk_hint">SIM картата е деактивирана. Въведете вашият PUK код за да продължите. Свържете се с вашия оператор за подробности.</string>
-    <string name="kg_puk_enter_puk_hint_multi">SIM картата \"%1$s\" е деактивирана. Въведете вашият PUK код за да продължите. Свържете с вашия оператор за подробности.</string>
+    <string name="kg_puk_enter_pin_hint">Въведете новия PIN код</string>
+    <string name="kg_puk_enter_puk_hint">SIM картата е деактивирана. Въведете вашия PUK код за да продължите. Свържете се с вашия оператор за подробности.</string>
+    <string name="kg_puk_enter_puk_hint_multi">SIM картата \"%1$s\" е деактивирана. Въведете вашия PUK код за да продължите. Свържете с вашия оператор за подробности.</string>
     <string name="kg_sim_pin_instructions">Въведи SIM PIN</string>
     <string name="kg_sim_pin_instructions_multi">Въведи SIM PIN за \"%1$s\"</string>
     <string name="kg_sim_unlock_progress_dialog_message">Отключване на SIM карта…</string>
@@ -890,7 +899,7 @@
 
 Опитайте отново след %2$d секунди."</string>
     <string name="kg_wrong_password">Грешна парола</string>
-    <string name="kg_wrong_pattern">Грешна фигура</string>
+    <string name="kg_wrong_pattern">Грешен шаблон</string>
     <string name="kg_wrong_pin">Грешен PIN</string>
     <string name="kilobyte_per_second">КБ/сек</string>
     <string name="label_view">Покажи</string>
@@ -900,6 +909,7 @@
     <string name="left_keycode">Клавиатура за лява ръка</string>
     <string name="left_nav_bar_button_type">Опции за левия бутон</string>
     <string name="legacy_vpn_name">VPN</string>
+    <string name="list_delimeter">", "</string>
     <string name="local_backup_password_summary_change">Чукнете за да промените или премахнете паролата за архивите на Начален екран</string>
     <string name="local_backup_password_summary_none">Архивните на Начален екран’ са защитени</string>
     <string name="local_backup_password_title">Архиви на нач. екран с парола</string>
@@ -927,8 +937,7 @@
     <string name="lockscreen_none">Без ефекти</string>
     <string name="lockscreen_shortcut_left">Пряк път отляво</string>
     <string name="lockscreen_shortcut_right">Пряк път отдясно</string>
-    <string name="lockscreen_sim_error_message_short">Невалидна карта.</string>
-    <string name="lockscreen_storage_locked">Отключи за всички услуги и данни</string>
+    <string name="lockscreen_sim_error_message_short">SIM картата е невалидна.</string>
     <string name="lockscreen_unlock_left">Левият пряк път също може да отключва</string>
     <string name="lockscreen_unlock_right">Десния пряк път също може да отключва</string>
     <string name="long_screenshot_not_support_msg">Приложението не поддържа дълги екранни снимки.</string>
@@ -962,6 +971,7 @@
     <string name="miui_guide_dialog_message">Звуците и мелодиите от медийното съдържание ще продължат да се възпроизвеждат в Тих режим. Вие можете да промените това от меню Настройки.</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Отключено с Bluetooth устройство</string>
     <string name="miui_ringer_count_down">Позиции надолу</string>
+    <string name="miui_ringer_count_down_time">%s</string>
     <string name="miui_ringer_standard">Без звук</string>
     <string name="miui_ringer_standard_description">Заглуши звука за входящи повиквания и известия</string>
     <string name="miui_ringer_total">Режим Не безпокойте</string>
@@ -988,12 +998,14 @@
 
 За повече информация се свържете с вашия администратор."</string>
     <string name="monitoring_description_ca_cert_settings">Отвори доверени източници</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">Сертификатът за сигурност вече е инсталиран на това устройство. Мрежовият ви трафик може да бъде наблюдаван и променян.</string>
     <string name="monitoring_description_do_body">Вашият администратор може да наблюдава и променя настройките, корпоративния достъп, приложения и данни свързани с вашето устройство и информацията за местоположението му.</string>
     <string name="monitoring_description_do_body_vpn">Вие сте свързан с %1$s,с което се наблюдава мрежовата активност, включително имейли, приложения и уебсайтове.</string>
     <string name="monitoring_description_do_header_generic">Вашето устройство се управлява от %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s използва %2$s за да управлява вашето устройство.</string>
     <string name="monitoring_description_do_learn_more">Научете повече</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Вашата организация е инсталирала сертификат за достоверност във вашия служебен профил. Вашият защитен мрежов трафик може да бъде наблюдаван и променян.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Вашият служебен профил е свързан с %1$s, който може да наблюдава мрежовата активност, включително имейли, приложения и уебсайтове.</string>
     <string name="monitoring_description_management">"Вашето устройство се управлява от вашата организация. 
@@ -1025,6 +1037,7 @@
 
 Вие също така сте свързан и с VPN, при което се наблюдава мрежовата активност."</string>
     <string name="monitoring_description_vpn_settings">Отваряне на VPN Настройки</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA сертификати</string>
     <string name="monitoring_subtitle_network_logging">Логове на мрежата</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1039,6 +1052,7 @@
     <string name="nav_guide_message">Използвайте жестове за скриване и показване на софтуерните бутони.</string>
     <string name="nav_guide_ok">Настройки</string>
     <string name="nav_guide_title">Скрий софтуерните бутони</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Без да се задава</string>
     <string name="no_multi_window_app">Няма приложения, които да поддържат Разделен екран</string>
     <string name="no_notification_tips">Няма известия</string>
@@ -1126,12 +1140,12 @@
     <string name="phone_locked_string">Устройството е заключено</string>
     <string name="picture_color_mode">Режим Цветно изображение</string>
     <string name="picture_color_mode_desc">Използване на sRGB</string>
-    <string name="pip_close">Затвори К в К</string>
+    <string name="pip_close">Затвори Картина в картината</string>
     <string name="pip_fullscreen">Цял екран</string>
-    <string name="pip_menu_title">Картина в картината</string>
+    <string name="pip_menu_title">Меню на Картина в картината</string>
     <string name="pip_notification_message">Ако не желаете %s да използва тази функция, отворете настройки и го изключете.</string>
-    <string name="pip_notification_title">%s е в режим картинав картината</string>
-    <string name="pip_notification_unknown_title">(Програма без име)</string>
+    <string name="pip_notification_title">%s е в режим Картина в картината</string>
+    <string name="pip_notification_unknown_title">(Няма име)</string>
     <string name="pip_pause">Пауза</string>
     <string name="pip_phone_close">Затваряне</string>
     <string name="pip_phone_dismiss_hint">Издърпайте надолу за отхвърляне</string>
@@ -1175,6 +1189,7 @@
     <string name="power_remaining_charging_duration_only">%1$s остава до пълно зареждане</string>
     <string name="power_remaining_duration_only">Остава %1$sч</string>
     <string name="power_remaining_duration_only_short">%1$s е изминало</string>
+    <string name="process_kernel_label">Android операционна система</string>
     <string name="profile_owned_footer">Профилът може да се наблюдава</string>
     <string name="prompt_danger">Опасно</string>
     <string name="prompt_detecting">Откриване</string>
@@ -1700,6 +1715,7 @@ d MMMM"</string>
     <string name="wait_for_debugger">Изчакване на приложение за отстраняване на грешки</string>
     <string name="wait_for_debugger_summary">Приложение за отстраняване на грешки изчаква за да се свърже преди изпълнението</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Пуснете за да видите детайли</string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_publish_time">Актуализирано %1$s</string>
     <string name="wifi_aggressive_handover">Принудително Wi‑Fi към мобилно предаване на данни</string>
     <string name="wifi_aggressive_handover_summary">Когато е активирано, връзката ще превключи на мобилни данни по-активно, когато сигналът на Wi‑Fi е слаб.</string>
@@ -1724,9 +1740,11 @@ d MMMM"</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_none">Няма</string>
     <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
@@ -1755,4 +1773,6 @@ d MMMM"</string>
     <string name="zen_silence_introduction">Това ще блокира ВСИЧКИ звуци и вибрация, включително от будилника, музика, видеоклипове и игри.</string>
     <string name="zen_silence_introduction_voice">Това ще блокира ВСИЧКИ звуци и вибрация, включително от будилника, музика, видеоклипове и игри. Вие все пак ще можете да провеждате телефонни обаждания.</string>
     <string name="notification_num_channels">%d категории известия</string>
+    <string name="status_bar_date_formatter">"%2$s
+%1$s"</string>
 </resources>
