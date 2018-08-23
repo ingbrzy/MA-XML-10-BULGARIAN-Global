@@ -200,6 +200,7 @@
     <string name="tap_to_exposure">Чукнете за ръчно експониране</string>
     <string name="accessibility_shutter_button">Бутон на затвора</string>
     <string name="accessibility_intent_done_apply">Готово</string>
+    <string name="accessibility_intent_done_retry">Повторно</string>
     <string name="accessibility_review_thumbnail">Последна снимка</string>
     <string name="accessibility_camera_picker">Превключване между предна и задна камера</string>
     <string name="accessibility_stereo_button">Регулиране на фокуса</string>
@@ -431,6 +432,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Ефект дълбочина</string>
     <string name="portrait_mode_use_hint">"Режим Портрет замъглява задния план, 
 и по този начин лицата на хората изпъкват ясно на преден план."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_square_mode_title">Квадрат</string>
     <string name="simple_mode_button_text_square">Изключи Квадрат</string>
     <string name="face_beauty_smart">Смарт</string>
@@ -445,6 +447,7 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средно</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Режими</string>
     <string name="button_front_camera_title">Направете селфи</string>
     <string name="button_normal_video_title">Запишете видео</string>
@@ -555,4 +558,5 @@
     <string name="lighting_pattern_leaf">Листа</string>
     <string name="lighting_pattern_dot">Точки</string>
     <string name="lighting_pattern_shutter">Щори</string>
+    <string name="view_privacy_policy">Виж Политиката на поверителност</string>
 </resources>

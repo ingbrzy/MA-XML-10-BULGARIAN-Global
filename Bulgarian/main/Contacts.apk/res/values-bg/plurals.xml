@@ -36,6 +36,10 @@
         <item quantity="other">%1$d импортирани контакти</item>
         <item quantity="one">%1$d импортиран контакт</item>
     </plurals>
+    <plurals name="device_import_progress_toast_plurals">
+        <item quantity="other">Въведени %1$d контакти</item>
+        <item quantity="one">Въведен %1$d контакт</item>
+    </plurals>
     <plurals name="dlg_add_blacklist">
         <item quantity="other">Блокиране на %1$d телефонни номера?</item>
         <item quantity="one">Блокиране на %1$d телефонен номер?</item>

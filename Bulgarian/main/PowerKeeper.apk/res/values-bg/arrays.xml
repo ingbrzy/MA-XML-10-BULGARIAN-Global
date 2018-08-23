@@ -12,6 +12,10 @@
         <item>Активни приложения</item>
         <item>Приспани приложения</item>
     </string-array>
+    <string-array name="emode_app_groups">
+        <item>Системни приложения</item>
+        <item>Други приложения</item>
+    </string-array>
     <string-array name="thermal_entries">
         <item>Контрол на температурата по подразбиране</item>
         <item>Режим \"Производителност\"</item>

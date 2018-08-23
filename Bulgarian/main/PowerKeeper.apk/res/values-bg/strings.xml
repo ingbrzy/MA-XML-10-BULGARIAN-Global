@@ -4,7 +4,8 @@
     <string name="error_filename_too_long">Въведеното от вас име е твърде дълго.</string>
     <string name="power_config_select_apps_title">Приложения</string>
     <string name="power_config_event_delete">Изтрий</string>
-    <string name="hide_mode_desc">Икономия на батерията чрез ограничаване на процесите на заден план, Wi-Fi, мобилните данни и GPS за всяко приложение поотделно</string>
+    <string name="hide_mode_desc"><font color="#000000">Когато приложение работи във фонов режим, неговата активност ще се наблюдава за намаляване на употребата на батерия. Тази функция ще получи данни за потребителя съобразно с %s</font></string>
+    <string name="privacy">Политика на поверителност</string>
     <string name="power_hide_mode_title">Батерия и производителност</string>
     <string name="power_config_apps">Икономия на батерия</string>
     <string name="app_list_title">Избор на приложения</string>
@@ -12,6 +13,7 @@
     <string name="about_hide_mode">За Икономия на батерия</string>
     <string name="show_system_app">Покажи системните приложения</string>
     <string name="hide_system_app">Скрий системните приложения</string>
+    <string name="about_extreme_mode">Свръх икономия на батерията</string>
     <string name="scenario_policies_title">Интелигентни ситуации</string>
     <string name="config_scenario_policies_title">Ситуации</string>
     <string name="scenario_policies_summary">Прилагане на различни стратегии за спестяване на енергия за различни ситуации.</string>
@@ -88,4 +90,6 @@
     <string name="appconfig_active_app_dialog_title">Управление на активните приложения</string>
     <string name="config_classify">Настройки на сортиране по приложения</string>
     <string name="active_classify">Сортиране по състояние на активност</string>
+    <string name="extreme_mode_max_item_alert">До 4 приложения могат да бъдат избирани да работят във фонов режим при включен Свръх икономия на батерията</string>
+    <string name="message_i_know">Знам това</string>
 </resources>

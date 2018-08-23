@@ -96,6 +96,7 @@
     <string name="error_sdcard_unmounted">SD картата е демонтирана, моля поставете SD карта</string>
     <string name="record_back_pressed_hint">Докоснете отново, за да спрете записа</string>
     <string name="record_mark_point">%sмарка</string>
+    <string name="record_format_preference_title">Формат на запис</string>
     <string name="record_quliaty_preference_title">Качество на записа</string>
     <string name="cloud_record_tip">Синхр.на записи с Mi Cloud.</string>
     <string name="cloud_record_open">Синхр.на записи</string>
@@ -153,4 +154,5 @@
     <string name="head_set_tip_dialog_ok">Направено</string>
     <string name="rename_fail_tip">Грешка при преименуване, файл с такова име вече съществува.</string>
     <string name="dialog_privacy_revoke_tips">След като анулирате разрешението, приложението ще спре събирането на данни и всички свързани с него данни ще бъдат изтрити от сървърите. Това може да направи приложението практически неизползваемо. Наистина ли искате да отмените разрешението? За да гарантирате сигурността на профила си, влезте в i.mi.com преди да отмените разрешението за услугите на Mi Облак.</string>
+    <string name="privacy_policy_title">Правила за поверителност</string>
 </resources>

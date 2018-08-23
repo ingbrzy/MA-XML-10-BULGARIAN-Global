@@ -24,6 +24,8 @@
     <string name="description_title">Относно Запис на екрана</string>
     <string name="deselect_all">Отмаркирай всичко</string>
     <string name="error_open_file_failed_no_app_found">Няма приложение, което да отвори този файл</string>
+    <string name="first_using_mic_dialog_message">Рекордерът на екрана се нуждае от достъп до Вашия микрофон, за да записва звук. Позволи?</string>
+    <string name="first_using_mic_dialog_title">Необходими разрешения</string>
     <string name="fixed_frame_rate">Фиксирана скорост на кадър</string>
     <string name="fixed_frame_rate_summary">Записването на видео с фиксирана скорост на кадъра ще подобри възпроизвеждането в социалните мрежи и ще удължи живота на батерията.</string>
     <string name="frames">Скорост на кадър</string>
@@ -82,4 +84,6 @@
     <string name="storage_location_summary">Изберете вашите предпочитани опции за хранилище</string>
     <string name="timer_format">%s</string>
     <string name="unchecked">Не е избрано</string>
+    <string name="using_record_confirm_cancel">Ограничи</string>
+    <string name="using_record_confirm_ok">Разреши</string>
 </resources>

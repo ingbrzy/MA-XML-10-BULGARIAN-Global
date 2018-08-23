@@ -220,6 +220,10 @@
         <item quantity="other">%1$d превключватели ще стоят в лента с известия</item>
         <item quantity="one">%1$d превключвател ще стои в лента с известия</item>
     </plurals>
+    <plurals name="show_audio_logcat_countdown">
+        <item quantity="other">%1$d steps left before you can get audio log</item>
+        <item quantity="one">%1$d step left before you can get audio log</item>
+    </plurals>
     <plurals name="show_cit_countdown">
         <item quantity="other">Вече сте на %1$d стъпки от това, да влезете в инженерно меню CIT.</item>
         <item quantity="one">Вече сте на %1$d стъпка от това, да влезете в инженерно меню CIT.</item>
@@ -227,6 +231,14 @@
     <plurals name="show_dev_countdown">
         <item quantity="other">Вече сте на %1$d стъпки от това, да бъдете програмист.</item>
         <item quantity="one">Вече сте на %1$d стъпка от това, да бъдете програмист.</item>
+    </plurals>
+    <plurals name="show_gps_logcat_countdown">
+        <item quantity="other">%1$d steps left before you can get GPS log</item>
+        <item quantity="one">%1$d step left before you can get GPS log</item>
+    </plurals>
+    <plurals name="show_modem_logcat_countdown">
+        <item quantity="other">%1$d steps left before you can get modem log</item>
+        <item quantity="one">%1$d step left before you can get modem log</item>
     </plurals>
     <plurals name="show_pho_countdown">
         <item quantity="other">Вече сте на %1$d стъпка от влизането в информацията за устройството.</item>

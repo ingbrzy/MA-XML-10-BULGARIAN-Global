@@ -12,6 +12,7 @@
     <string name="menu_save_station_presets">Добави към любими</string>
     <string name="menu_speaker">Превключи на говорител</string>
     <string name="menu_headset">Превключи на слушалки</string>
+    <string name="menu_privacy">Политика на поверителност</string>
     <string name="menu_exit">Изход</string>
     <string name="dialog_sleep_title">Задаване на таймер за заспиване</string>
     <string name="search_dialog_title">Сканиране за станции</string>

@@ -25,6 +25,7 @@
     <string name="s5">Създаване на събитие в календара</string>
     <string name="s6">Да се разреши ли на рекламата да създаде събитие в календара?</string>
     <string name="s7">Тестова реклама</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="abc_action_bar_home_description">Отидете в началната страница</string>
     <string name="abc_action_bar_up_description">Нагоре</string>
     <string name="abc_action_menu_overflow_description">Повече</string>
@@ -731,6 +732,8 @@
     <string name="mw_snippets_disabled_generic_prompt">Получете персонализирано съдържание</string>
     <string name="mw_snippets_disabled_signed_out_instructions">За да получите персонализирано съдържание, препоръчано от Google, се впишете в Chrome.</string>
     <string name="mw_time_picker_dialog_am">сутрин</string>
+    <string name="mw_time_picker_dialog_hour_minute_separator">:</string>
+    <string name="mw_time_picker_dialog_minute_second_separator">:</string>
     <string name="mw_time_picker_dialog_pm">вечер</string>
     <string name="mw_time_picker_dialog_second_subsecond_separator">.</string>
     <string name="mw_time_picker_dialog_title">Задайте време</string>
