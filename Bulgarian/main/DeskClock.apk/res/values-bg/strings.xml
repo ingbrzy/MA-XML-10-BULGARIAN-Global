@@ -62,6 +62,7 @@
     <string name="edit_alarm">Настрой будилник</string>
     <string name="edit_systemtime">Промяна на системното време</string>
     <string name="every_day">Всеки ден</string>
+    <string name="expired_timers_dismissed">Таймерът е отхвърлен</string>
     <string name="force_touch_add_alarm">Добави будилник</string>
     <string name="force_touch_enter_stopwatch">Хронометър</string>
     <string name="force_touch_enter_timer">Таймер</string>
@@ -72,6 +73,7 @@
     <string name="install_weather_app_error">Приложението не можа да се зареди</string>
     <string name="install_weather_app_loading">Един момент…</string>
     <string name="invalid_time">Невалидно име: %3$s %1$d: %2$d</string>
+    <string name="invalid_timer_length">Невалидна дължина на таймера</string>
     <string name="keep_screen_on">Не изключвай екрана</string>
     <string name="label">Задайте етикет</string>
     <string name="label_pref_summary">Етикет</string>
@@ -129,8 +131,10 @@
     <string name="never">Никога</string>
     <string name="oneshot_alarm">Изтрий след изключване</string>
     <string name="open_keep_screen">Екранът ще се съхранява</string>
+    <string name="other_category_title">Друг</string>
     <string name="pause">Пауза</string>
     <string name="percentage_sign">%</string>
+    <string name="privacy_policy">Правила за поверителност</string>
     <string name="remind_ringtone">Тон на звънене</string>
     <string name="reset">Нулиране</string>
     <string name="revert">Върни се обратно</string>
@@ -148,6 +152,7 @@
     <string name="shutdown_alarm_enable_summary">Автоматично включване на телефона при настроен будилник</string>
     <string name="shutdown_alarm_title">Включване на телефона</string>
     <string name="silent_alarm_summary">Без звук</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Изключи еднократно на %s</string>
     <string name="slider_text">Плъзнете нагоре за да изключите</string>
     <string name="snooze_confirm_cancel">Спри аларма</string>
@@ -156,6 +161,7 @@
     <string name="start_up">Старт</string>
     <string name="stopwatch_lap_empty_text">Няма обиколки</string>
     <string name="stopwatch_title">Хронометър</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Настройте време</string>
     <string name="system_time_settings_category_title">Настройки за часовник</string>
     <string name="temperature_unit">%1$s°</string>
@@ -180,6 +186,7 @@
     <string name="timer_clock_alert_text">Моля, задайте таймер</string>
     <string name="timer_continue">Продължи</string>
     <string name="timer_continue_timer">Възобновяване на таймера</string>
+    <string name="timer_created">Таймерът е създаден</string>
     <string name="timer_end_time">Таймерът ще спре в %s</string>
     <string name="timer_end_time_format">HH:mm dd MMM</string>
     <string name="timer_end_time_format_today">HH:mm</string>

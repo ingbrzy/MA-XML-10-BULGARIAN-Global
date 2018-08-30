@@ -9,8 +9,8 @@
         <item quantity="one">%d блокиран елемент</item>
     </plurals>
     <plurals name="articles_updated_amount">
-        <item quantity="other">%1$d статии са актуализирани за Вас</item>
-        <item quantity="one">%1$d статия е актуализирана за Вас</item>
+        <item quantity="other">Вижте %1$d нови статии</item>
+        <item quantity="one">Вижте %1$d нова статия</item>
     </plurals>
     <plurals name="dialog_confirm_delete_downloads_message">
         <item quantity="other">Да се изтрият ли %d задачи?</item>
@@ -81,8 +81,8 @@
         <item quantity="one">%d минута остава</item>
     </plurals>
     <plurals name="videos_updated_amount">
-        <item quantity="other">%1$d видео клипове са актуализирани за Вас</item>
-        <item quantity="one">%1$d видео е актуализирано за Вас</item>
+        <item quantity="other">Вижте %1$d нови видео клипове</item>
+        <item quantity="one">Вижте %1$d нов видео клип</item>
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Ясно</item>

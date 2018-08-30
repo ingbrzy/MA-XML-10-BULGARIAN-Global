@@ -25,6 +25,7 @@
     <string name="s5">Създаване на събитие в календара</string>
     <string name="s6">Да се разреши ли на рекламата да създаде събитие в календара?</string>
     <string name="s7">Тестова реклама</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="abc_action_bar_home_description">Отидете в началната страница</string>
     <string name="abc_action_bar_up_description">Нагоре</string>
     <string name="abc_action_menu_overflow_description">Повече</string>
@@ -86,7 +87,6 @@
     <string name="add_to_quicklink">Начална страница</string>
     <string name="added_to_bookmarks">Добавено в отметки.</string>
     <string name="adjust_text_zoom_toast">Промяната в мащаба на текста може да предизвика неправилно показване на някои интернет страници</string>
-    <string name="adx_loading_str">Момент…</string>
     <string name="agree">Приемам</string>
     <string name="agree_permissions_request">Разрешете</string>
     <string name="alert_tips">Тази страница може да застраши Вашата сигурност, моля бъдете внимателни!</string>
@@ -102,7 +102,6 @@
     <string name="aqi_quality_index_moderate">Умерено</string>
     <string name="aqi_quality_index_pure">Отлично</string>
     <string name="aqi_quality_index_unhealthy">Вредно</string>
-    <string name="articles_updated">Актуализирани %1$d статии</string>
     <string name="autoSwithcingSearchEngineTips">Превключено на най-често използвана търсачка</string>
     <string name="autologin_bar_error">Неуспешно влизане.</string>
     <string name="autologin_bar_hide_text">Скрий</string>
@@ -347,6 +346,7 @@
     <string name="ignore_add_pwa_dialog_today">Не показвай отново днес</string>
     <string name="in_incognito">Активен е режим Инкогнито, при който не се записва история на сърфирането.</string>
     <string name="in_secureaccess">Браузърът е в безопасен режим</string>
+    <string name="into_info_flow_guide">Вижте още статии</string>
     <string name="isReplacePage">Файлът вече съществува, да се замени ли?</string>
     <string name="is_first_history_item">Първа страница в историята на браузъра</string>
     <string name="is_first_tab">Първи раздел</string>
@@ -470,8 +470,8 @@
     <string name="mw_color_picker_value">Стойност</string>
     <string name="mw_config_webSettingsDefaultTextEncoding">UTF-8</string>
     <string name="mw_copy_to_clipboard_failure_message">Копирането в буфера бе неуспешно</string>
-    <string name="mw_data_traffic_prompt_change">"Използването на Вашите мобилни данни за гледане на видео клипове ще увеличи използването на Вашите данни. Ако надвишите лимита за данни,  Вашият оператор може да Ви таксува с допълнителни такси."</string>
-    <string name="mw_data_traffic_prompt_message">"Използването на Вашите мобилни данни за гледане на видео клипове ще увеличи използването на Вашите данни. Ако надвишите лимита за данни,  Вашият оператор може да Ви таксува с допълнителни такси."</string>
+    <string name="mw_data_traffic_prompt_change">Използването на Вашите мобилни данни за гледане на видео клипове ще увеличи използването на Вашите данни. Ако надвишите включените в пакета Ви данни, Вашият оператор може да Ви таксува с допълнителни такси.</string>
+    <string name="mw_data_traffic_prompt_message">Използването на Вашите мобилни данни за гледане на видео клипове ще увеличи използването на Вашите данни. Ако надвишите включените в пакета Ви данни, Вашият оператор може да Ви таксува с допълнителни такси.</string>
     <string name="mw_data_traffic_prompt_message_short">Използването на мобилни данни за стриймване на видео може да коства превишаване на лимита Ви за данни.</string>
     <string name="mw_data_traffic_prompt_title">Предупреждение за използв. на данни</string>
     <string name="mw_date_picker_dialog_clear">Изтрийте</string>
@@ -486,7 +486,7 @@
     <string name="mw_http_post_warning_resend">Продължете</string>
     <string name="mw_js_dialog_before_unload">"%s
 
-Наистина ли искате да излезете от тази страница?"</string>
+Искате ли да излезете от тази страница?"</string>
     <string name="mw_js_dialog_before_unload_negative_button">Останете на тази страница</string>
     <string name="mw_js_dialog_before_unload_positive_button">Напуснете тази страница</string>
     <string name="mw_js_dialog_before_unload_title">Потвърждаване на придвижването</string>
@@ -500,7 +500,7 @@
     <string name="mw_login_dialog_username_field">Потребителско име</string>
     <string name="mw_low_memory_error">Няма достатъчно памет за завършване на операцията</string>
     <string name="mw_media_player_error_button">ОК</string>
-    <string name="mw_media_player_error_text_invalid_progressive_playback">Съжаляваме, това видео не е валидно за стриймване до това устройство.</string>
+    <string name="mw_media_player_error_text_invalid_progressive_playback">Това видео не е валидно за стриймване до това устройство.</string>
     <string name="mw_media_player_error_text_unknown">.Съжаляваме, но това видео не може да бъде пуснато.</string>
     <string name="mw_media_player_error_title">Не може да се възпроизведе видео</string>
     <string name="mw_media_player_loading_video">Зареждане на видеоклип</string>
@@ -700,7 +700,7 @@
     <string name="mw_payments_unsupported_shipping_address">Не можем да изпращаме до този адрес. Изберете различен адрес.</string>
     <string name="mw_payments_unsupported_shipping_option">Този начин на изпращане не е наличен. Опитайте различен.</string>
     <string name="mw_payments_updated_label">Актуализирано</string>
-    <string name="mw_permission_alert_window">За да използвате тази функция, моля, отворете системните опции покажете изскачащия прозорец.</string>
+    <string name="mw_permission_alert_window">За да използвате тази функция, отворете Покажете изскачащия прозорец.</string>
     <string name="mw_permission_unknown">Непозната опция</string>
     <string name="mw_photo_picker_browse">Сърфирайте</string>
     <string name="mw_photo_picker_camera">Камера</string>
@@ -724,13 +724,15 @@
     <string name="mw_sad_tab_send_feedback_label">Изпратете обратна връзка</string>
     <string name="mw_sad_tab_title">Упс, грешка!</string>
     <string name="mw_sad_tab_uma_optin">Автоматично изпращайте статистика за използване и краш доклади на Google</string>
-    <string name="mw_save_password_message">Искате ли браузърът да запомни тази парола?</string>
+    <string name="mw_save_password_message">Запомняне на тази парола?</string>
     <string name="mw_save_password_never">Никога</string>
     <string name="mw_save_password_notnow">Не сега</string>
     <string name="mw_save_password_remember">Запомняне</string>
     <string name="mw_snippets_disabled_generic_prompt">Получете персонализирано съдържание</string>
     <string name="mw_snippets_disabled_signed_out_instructions">За да получите персонализирано съдържание, препоръчано от Google, се впишете в Chrome.</string>
     <string name="mw_time_picker_dialog_am">сутрин</string>
+    <string name="mw_time_picker_dialog_hour_minute_separator">:</string>
+    <string name="mw_time_picker_dialog_minute_second_separator">:</string>
     <string name="mw_time_picker_dialog_pm">вечер</string>
     <string name="mw_time_picker_dialog_second_subsecond_separator">.</string>
     <string name="mw_time_picker_dialog_title">Задайте време</string>
@@ -740,7 +742,7 @@
     <string name="mw_video_float_window_playing">Възпроизвеждане на видео</string>
     <string name="mw_video_play_error">Неуспешно възпроизвеждане на видео</string>
     <string name="mw_webview_find_on_page">Намери на страницата</string>
-    <string name="mw_webviewchromium_private_browsing_warning">Функционалността не се поддържа в тази версия на Android.</string>
+    <string name="mw_webviewchromium_private_browsing_warning">Тази функция не се поддържа в тази версия на Android.</string>
     <string name="mw_week_picker_dialog_title">Задайте седмица</string>
     <string name="my_cahnnel">Моите канали</string>
     <string name="nav_bottom_bar_back">Назад</string>
@@ -748,9 +750,8 @@
     <string name="nav_bottom_bar_new_tab">Нов раздел</string>
     <string name="nav_screen_container_tab_incognito">Инкогнито раздел</string>
     <string name="nav_screen_container_tab_normal">Нормален раздел</string>
-    <string name="nav_screen_incognito_message">"Хронологията на търсенето и посетените страници няма да се запазват в режим Инкогнито. 
-Запомнете, че всички файлове, които изтеглите, както отметките, които добавяте, ще бъдат запазени."</string>
-    <string name="nav_screen_incognito_title">Режим инкогнито</string>
+    <string name="nav_screen_incognito_message">Хронологията на търсените и посетени страници няма да се запази в режим Инкогнито. Помнете, че файловете, които теглите и отметките, които добавяте, ще бъдат запазени.</string>
+    <string name="nav_screen_incognito_title"> Режим инкогнито</string>
     <string name="navigation_delete_all">Плъзнете наляво или надясно за да затворите всички прозорци</string>
     <string name="navigationbar_rightbutton_actiontext_cancle">Отказ</string>
     <string name="navigationbar_rightbutton_actiontext_go">Отиди</string>
@@ -803,6 +804,7 @@
     <string name="pref_accessibility_url_shortcut_enter_summary">При въвеждане в адресната лента, общите буквени комбинации могат да се въведат с едно натискане на клавиш</string>
     <string name="pref_accessibility_url_shortcut_enter_title">Бързо въвеждане на URL адрес</string>
     <string name="pref_adblock_title">Блокиране на реклами</string>
+    <string name="pref_auto_update">Автоматично обновяване</string>
     <string name="pref_auto_update_under_wifi">Авт. актуал. чрез Wi-Fi</string>
     <string name="pref_automatic_matching_searchengines_title">Превключи на най-често използваната търсачка</string>
     <string name="pref_card_setting">Подредба на топ-сайтове</string>
@@ -952,6 +954,7 @@
     <string name="readmodelist_bookmarks_to_show">Списък за четене</string>
     <string name="refresh">Опресни</string>
     <string name="refresh_fail">Информацията не може да бъде заредена</string>
+    <string name="refresh_guide">Обратно към началото</string>
     <string name="refreshing">Обновява се…</string>
     <string name="refuse_permissions_request">Ограничаване</string>
     <string name="release_to_refresh">Пуснете за да се опресни</string>
@@ -1027,7 +1030,7 @@
     <string name="share_image_text">Вижте какво споделих! @MIUI</string>
     <string name="share_page_text">Вижте какво споделих: %1$s @MIUI| %2$s</string>
     <string name="share_video">Споделете видеото</string>
-    <string name="sign_in_to" formatted="false">Влизане в %s%s2\"</string>
+    <string name="sign_in_to" formatted="false">Влизане в %s1 %s2\"</string>
     <string name="site_sort_des">Пренареди елементите</string>
     <string name="skip_button_label">Пропусни</string>
     <string name="skip_current_version">Пропусни тази версия</string>
@@ -1114,6 +1117,7 @@
     <string name="version_check_button_resume_download">Продължи изтеглянето</string>
     <string name="version_check_button_update">Актуализирай</string>
     <string name="version_check_failed">Неуспешна проверка за актуализации</string>
+    <string name="version_dialog_4G_checkbox">Можете да актуализирате системните приложения, използвайки мобилни данни. Това може да генерира допълнителни такси за данни.</string>
     <string name="version_dialog_buttion_ok">ОК</string>
     <string name="version_dialog_buttion_update">Актуализирай</string>
     <string name="version_update_file_download_toast">Изтегля се</string>
@@ -1216,6 +1220,7 @@
     <string name="date_picker_dialog_set">Задаване</string>
     <string name="date_picker_dialog_title">Задай дата</string>
     <string name="date_time_picker_dialog_title">Задай дата и час</string>
+    <string name="external_app_restricted_access_error">Mi браузър няма достъп до искания ресурс.</string>
     <string name="find_next">Търсене на следващото</string>
     <string name="find_previous">Търсене на предишното</string>
     <string name="js_dialog_before_unload">"\"%s
