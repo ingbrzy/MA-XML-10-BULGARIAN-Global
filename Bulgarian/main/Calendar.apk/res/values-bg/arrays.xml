@@ -48,10 +48,6 @@
         <item>Това и бъдещите събития</item>
         <item>Всички събития</item>
     </string-array>
-    <string-array name="english_premium_league">
-        <item>4</item>
-        <item>@string/english_premium_league</item>
-    </string-array>
     <string-array name="gemini_info">
         <item>близнаци</item>
         <item>Близнаци</item>
