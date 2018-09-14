@@ -21,6 +21,7 @@
     <string name="add_to_secret_successful">Добавено в скрит албум</string>
     <string name="add_to_share_album_not_delete">Не може да се изтрие снимка от албум споделени</string>
     <string name="added_to_favorites">Добавено в любими</string>
+    <string name="added_to_favorites_desc">Добавено в любими</string>
     <string name="added_to_favorites_tip">Добавено към албум \"Любими\"</string>
     <string name="adding">Добавяне</string>
     <string name="adding_recipients">Добавяне на получатели...</string>
@@ -98,7 +99,6 @@
     <string name="app_name_view_picture">Преглед на снимка</string>
     <string name="app_name_view_video">Прегледайте клиповете</string>
     <string name="apply">Приложи</string>
-    <string name="assistant_page_label">Асистент</string>
     <string name="associate_face_album">Изберете албум</string>
     <string name="auto_backup_introduce">Архивирайте снимки и видео автоматично(Изисква се Mi профил)</string>
     <string name="auto_download_media_title">Автоматично изтегляне на снимки от Mi Облак</string>
@@ -226,7 +226,7 @@
     <string name="cleaner_screen_shot_action">Почисти</string>
     <string name="cleaner_screen_shot_description">Изтрийте снимките на екрана, които не ви трябват.</string>
     <string name="cleaner_screen_shot_title">Изтрий снимки на екрана</string>
-    <string name="cleaner_slim_action">Стартиране на оптимизиране…</string>
+    <string name="cleaner_slim_action">Start optimization</string>
     <string name="cleaner_slim_description">Дръжте оптимизирани снимките на вашето устройство. Оригиналните снимки ще бъдат съхранени в Mi Облак.</string>
     <string name="cleaner_slim_start">Оптимизирай</string>
     <string name="cleaner_slim_title">Оптимизиране на снимки</string>
@@ -261,6 +261,9 @@
     <string name="cloudfolder_name_reserved">Това име на папка е запазено.</string>
     <string name="collage__talkback_effect">%d ефект</string>
     <string name="collage_choose">Избор</string>
+    <string name="collage_drawable_normal_date_format">dd/MM/yyyy</string>
+    <string name="collage_drawable_rect_date_month_day">dd MMM</string>
+    <string name="collage_drawable_rect_date_year">yyyy</string>
     <string name="collage_margin_text">Събери</string>
     <string name="collage_mirror">Огледало</string>
     <string name="collage_poster_global_cat_text">ЛАПИ</string>
@@ -462,6 +465,7 @@
     <string name="face_name_edit">Промени</string>
     <string name="face_name_input">Въведете име</string>
     <string name="face_recommend">Препоръки</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Операцията е неуспешна</string>
     <string name="fail_to_pick_email">Невалиден Имейл</string>
     <string name="fail_to_sync_album">Албумът не можа да се синхронизира. Проверете връзката си за данни и опитайте отново.</string>
@@ -472,6 +476,7 @@
     <string name="feature_guidance_photo_effects">"Налични са нови
 фото ефекти"</string>
     <string name="feature_guidance_video_editor_smart_effects">Налични са нови ефекти</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Спомени</string>
     <string name="filter_bi_mono">Моно</string>
     <string name="filter_bi_pink">Розово</string>
@@ -540,6 +545,7 @@
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">ГБ</string>
     <string name="grant_permission_go_and_set">Задай</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Галерия се нуждае от достъп до 
 %s
  за да работи нормално, чукнете \"Задай\" за да отидете в Разрешения."</string>
@@ -648,6 +654,7 @@
     <string name="merge_album_title">Обедини с другиго</string>
     <string name="messagelist_sender_self">Аз</string>
     <string name="micloud_introduce">Архивиране на снимки и видео автоматично(Изисква се Mi профил)</string>
+    <string name="more">Повече</string>
     <string name="more_album_hint">, и др.</string>
     <string name="more_face">Още хора, които имат прилика</string>
     <string name="more_face_album_name">Още лица</string>
@@ -698,6 +705,7 @@
     <string name="operation_edit_video">Промени</string>
     <string name="operation_enable_auto_upload">Включване на Синхр. с Mi Cloud</string>
     <string name="operation_failed">Операцията е неуспешна</string>
+    <string name="operation_favorites">Любими</string>
     <string name="operation_force_top">Закачи</string>
     <string name="operation_hide">Направи невидим</string>
     <string name="operation_in_process">Обработва се…</string>
@@ -735,6 +743,7 @@
     <string name="people_mark_mode_title_no_mark_name">Изберете човек</string>
     <string name="people_page_label">Лице</string>
     <string name="people_page_unname">Неизвестно</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Домашни любимци</string>
     <string name="petabyteShort">ПБ</string>
     <string name="photo">Снимка</string>
@@ -866,6 +875,10 @@
     <string name="play_gif_desc">Възпроизвеждане на GIF</string>
     <string name="play_video_desc">Възпроизвеждане на видео</string>
     <string name="preparing_data">Момент…</string>
+    <string name="privacy_permission_request_message">Галерия се нуждае от достъп до %3$s. Информацията, която събираме, ще бъде използвана в съответствие с нашите %1$s и %2$s. Разрешавате ли?</string>
+    <string name="privacy_permission_request_negative">Ограничи</string>
+    <string name="privacy_permission_request_positive">Разреши</string>
+    <string name="privacy_permission_request_title">Необходими са разрешения</string>
     <string name="projection_cancel">Отказ</string>
     <string name="projection_checkbox_text">Запомняне на този дисплей</string>
     <string name="projection_device_connection_failed">Неуспешно свързване към проекционното устройство</string>
@@ -911,6 +924,7 @@
     <string name="remove_from_secret_successful">Премахнато от скрит албум</string>
     <string name="remove_to_album_title">Обедини с</string>
     <string name="remove_to_other_album">Обедини с друг човек</string>
+    <string name="removed_from_favorites_desc">Премахнато от любими</string>
     <string name="remover_edit_type_free">Обекти</string>
     <string name="remover_edit_type_line">Линии</string>
     <string name="remover_erase_aera_too_big">Зоната за изтриване е твърде голяма</string>
@@ -987,6 +1001,9 @@
     <string name="search_title_recommend">Препоръчвани</string>
     <string name="search_title_suggestion">Предложения</string>
     <string name="search_title_tag">Обекти</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Търсене на проектор…</string>
     <string name="secret_album_card_description">Най-доброто място за всички ваши малки тайни</string>
     <string name="secret_album_card_title">Изпробвайте скрития албум</string>
@@ -1169,10 +1186,15 @@
     <string name="video_editor_auto_trim">Автоматично почистване</string>
     <string name="video_editor_auto_trim_tip">Почиства се автоматично…</string>
     <string name="video_editor_cancel">Отказ</string>
+    <string name="video_editor_cancel_download">Отказ</string>
     <string name="video_editor_done">Готово</string>
     <string name="video_editor_down_load_later">По-късно</string>
     <string name="video_editor_down_load_no_wifi_tips">Може да се свали само чрез WiFi</string>
     <string name="video_editor_down_load_now">Изтегляне</string>
+    <string name="video_editor_download">Изтегляне</string>
+    <string name="video_editor_download_failed_for_notwork">Неуспешно изтегляне. Свържете се към интернет и опитайте отново.</string>
+    <string name="video_editor_download_without_wifi_msg">Използването на мобилни данни за изтегляне на файлове ще увеличи използването на данни. Ако надвишите лимита на Вашия план, Вашият оператор може да Ви таксува допълнително.</string>
+    <string name="video_editor_download_without_wifi_title">Предупреждение за използв. на данни</string>
     <string name="video_editor_encode_video">Разчитане на видеофайл…</string>
     <string name="video_editor_encode_video_error">Не може да се разчете видеото</string>
     <string name="video_editor_fatal_error">Непозната грешка</string>
@@ -1211,6 +1233,8 @@
     <string name="video_editor_res_download_mobil_network_confirm_msg">Изтегляне на мелодиите с използване на мобилни данни?</string>
     <string name="video_editor_res_download_mobil_network_confirm_title">Използване на мобилни данни</string>
     <string name="video_editor_res_not_load_dialog_msg">За да се използва това е необходимо да се изтеглят пакети от източника</string>
+    <string name="video_editor_return">Обратно</string>
+    <string name="video_editor_save">Запазване</string>
     <string name="video_editor_smart_effect_beat">Удари</string>
     <string name="video_editor_smart_effect_big_film">Епос</string>
     <string name="video_editor_smart_effect_cadence">Ритъм</string>
@@ -1256,6 +1280,7 @@
     <string name="view_face_album">Покажи албума</string>
     <string name="view_more_face_desc">Покажи още хора</string>
     <string name="voice_assistant">Гласово въвеждане</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Добре дошли в Mi Cloud.</string>
     <string name="where_is_barcode">Къде е QR кода?</string>
     <string name="who_is_this">Кой е този?</string>

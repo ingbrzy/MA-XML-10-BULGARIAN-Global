@@ -28,6 +28,10 @@
         <item quantity="other">%d съобщения</item>
         <item quantity="one">%d съобщение</item>
     </plurals>
+    <plurals name="mark_number_dialog_subtitle">
+        <item quantity="other">Маркирано като %2$s от %1$d човека</item>
+        <item quantity="one">Маркирано като %2$s от %1$d човек</item>
+    </plurals>
     <plurals name="message_count">
         <item quantity="other">%1$s съобщения</item>
         <item quantity="one">%1$s съобщение</item>

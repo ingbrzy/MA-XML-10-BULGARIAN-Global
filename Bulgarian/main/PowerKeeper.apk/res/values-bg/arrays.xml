@@ -23,6 +23,7 @@
     <string-array name="thermal_summaries">
         <item>Приоритет за температурен контрол</item>
         <item>Приоритет за производителност</item>
+        <item>Не работи в Максимален режим на пестене на батерията</item>
     </string-array>
     <string-array name="power_mode_entries">
         <item>Производителност</item>

@@ -297,6 +297,7 @@
     <string name="user_avatar_uploading">Качва се…</string>
     <string name="user_avatar_update_title">Промяна на профилната снимка</string>
     <string name="photoPickerNotFoundText">Не са налични изображения.</string>
+    <string name="account_invalid_user_avatar">Тази снимка е невалидна. Оптитайте с друга.</string>
     <string name="account_none_binded_info">Няма</string>
     <string name="account_bind_secure_phone_title">Добавяне на тел. за възстановяване</string>
     <string name="account_bind_secure_email_title">Добавяне на имейл за възстановяване</string>

@@ -105,6 +105,7 @@
     <string name="card_settings_rule">Настройки за реда в картата</string>
     <string name="card_title_funclaunch">Преки пътища</string>
     <string name="card_title_noteboard">Една кратка бележка</string>
+    <string name="card_title_utilities">Услуги</string>
     <string name="check_network">Проверете мрежовите си настройки</string>
     <string name="check_network_retry">Проверете мрежовите настройки и опитайте отново</string>
     <string name="cleanup_garbage">Изчистване</string>
@@ -141,6 +142,7 @@
     <string name="google">Google</string>
     <string name="help_quick_start_wechat_video">Получете достъп до специфични услуги като създадете преки пътища</string>
     <string name="hold_down_adjustment_order">Задръжте иконата вдясно, за да плъзнете елементи</string>
+    <string name="holiday_empty_desc">Натиснете тук, за да прочетете още</string>
     <string name="home">Начало</string>
     <string name="home_and_company">Начало &amp; работа</string>
     <string name="hour12_format_en">hh:mm</string>
@@ -202,6 +204,7 @@
     <string name="no_more_result">Това е всичко за сега.</string>
     <string name="no_settings">Не е готово</string>
     <string name="no_signal">Неуспешно обновяване, моля, опитайте по-късно</string>
+    <string name="no_utilities_apps">Няма налични нови услуги. Проверете по-късно.</string>
     <string name="not_install_c1">Това приложение не е инсталирано на вашия телефон. Да се изтегли ли и инсталира?</string>
     <string name="not_install_c3">Изтегляне</string>
     <string name="not_install_c4">Не, благодаря</string>
@@ -344,6 +347,7 @@
     <string name="upgrade_log_title">Нова версия</string>
     <string name="upgrade_now">Актуализирай</string>
     <string name="user_id">ID на потребител:%s</string>
+    <string name="utilities_apps_bref">Разгледайте услугите на трети страни тук</string>
     <string name="walk">Ходене</string>
     <string name="webull_title">Webull</string>
     <string name="which_transport">Как обикновено получавате вашата дестинация?</string>

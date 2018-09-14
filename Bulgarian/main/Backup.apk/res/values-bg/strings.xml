@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"\"Представяме версия %1$s
  Делта актуализация: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Хранилището не е на разположение, проверете картата памет.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMБ</string>
     <string name="xiaomi_connect_download_manager_fail">Не може да се стартира изтегляне. Уверете се, че мениджър изтегляния работи нормално.</string>
     <string name="app_name">Резервно копие</string>
     <string name="local_app_name">Резервно копие</string>
@@ -222,6 +225,7 @@
     <string name="restore_backup">Възстанови</string>
     <string name="enable_encrypt_description">Кодиране</string>
     <string name="disable_encrypt_description">Не кодирай</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Един момент…</string>
     <string name="state_mounting">Достъп до хранилището на рутера…</string>
     <string name="abort_backup_confirm">Резервното копие не е завършено! Да спре ли въпреки това?</string>
@@ -460,6 +464,13 @@
     <string name="trans_success_dialog_market_comment_title">"Вашето ново устройство е вече готово с познатите ви неща в него. 
  Харесвате ли Mi Трансфер?"</string>
     <string name="trans_success_dialog_button_market_favourable_comment">Оценете Mi Трансфер</string>
+    <string name="trans_success_dialog_market_comment_and_survey_title">Успяхте! Кажете ни какво мислите за Mi Трансфер.</string>
+    <string name="trans_success_dialog_button_market_comment">Коментар</string>
+    <string name="trans_success_dialog_button_survey">Изследвай</string>
+    <string name="trans_success_dialog_survey_title">Ние ценим вашите отзиви</string>
+    <string name="trans_success_survey_hint">Първо попълнете всички полета.</string>
+    <string name="trans_cancel_dialog_survey_title">Защо прекъснахте прехвърлянето?</string>
+    <string name="trans_dialog_survey_finish">Изпрати</string>
     <string name="trans_failed_details_page_title">Неуспешни прехвърляния</string>
     <string name="close_twice_auth_tutor">Изключете Apple двустепенна оторизация</string>
     <string name="close_twice_auth_steps">Следвайте тези стъпки за да изключите двустепенната оторизация на Apple ID:</string>
@@ -528,6 +539,7 @@ https://appleid.apple.com/#!&amp;page=signin за затваряне"</string>
 вие трябва да направите архив в iCloud."</string>
     <string name="list_footer_tip_title">Съвети:</string>
     <string name="import_tip_summary">Поради проблеми със съвместимостта, вие можете да прехвърлите само частична информация от iOS устройството. Уверете се, че сте направили резервно копие в iCloud, преди да започнете прехвърлянето.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Импортирай</string>
     <string name="select_empty">Изберете елементи за импортиране</string>
     <string name="select_item_summary_wait">Изчаква се…</string>

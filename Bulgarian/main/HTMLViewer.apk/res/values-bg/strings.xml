@@ -11,7 +11,7 @@
 отидете на %s от друго свързано към мрежата устройство."</string>
     <string name="permdesc_accessDrm">Разрешете на приложението достъп до DRM защитено съдържание.</string>
     <string name="open_wifi_connect_title">Свързан с %1$s</string>
-    <string name="open_wifi_connect_and_use_data_summary">продължете да използвате връзката, чукнете за превключване към Wi-Fi и потвърждение.</string>
+    <string name="open_wifi_connect_and_use_data_summary">Using mobile data. Tap to switch to Wi-Fi.</string>
     <string name="open_wifi_connect_summary">Чукнете за преглед на детайлите.</string>
     <string name="settings_license_activity_title">Лиценз за свободни източници</string>
     <string name="settings_license_activity_loading">Момент…</string>
@@ -25,4 +25,5 @@
     <string name="settings_ad_loading">Момент…</string>
     <string name="settings_ad_loading_unavailable">Информацията не можа да се зареди.</string>
     <string name="autoconnect">Автоматично свързване</string>
+    <string name="poco_privacy_policy">POCO Launcher Privacy Policy &amp; POCO Launcher User Agreement</string>
 </resources>

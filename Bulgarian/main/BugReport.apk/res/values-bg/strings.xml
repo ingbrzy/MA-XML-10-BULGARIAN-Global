@@ -57,6 +57,7 @@
     <string name="save_pic_success">Запазване на изобр. в %s</string>
     <string name="save_pic_fail">Не може да се запази изобр. Прегледайте SD-картата си</string>
     <string name="pic_not_exist">Това изобр. не съществува</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Изберете продукт</string>
     <string name="michat_skillset_business_type_title">Изберете услуга</string>
     <string name="michat_close_text">Чатът е затворен</string>
@@ -161,13 +162,17 @@
     <string name="cta_cancel">Отказ</string>
     <string name="cta_confirm">ОК</string>
     <string name="submit_dialog_title">Изпращане на доклад до Mi</string>
-    <string name="submit_dialog_content">Вашият отзив с прикачените файлове и записи ще бъде изпратен на сървърите на MIUI. Може да съдържа лична информация и вашето местоположение.</string>
-    <string name="submit_dialog_content_global">Отзивите ви, заедно с прикачените файлове (ако има такива) и регистрационните файлове (можете да махнете отметката от съответните полета за елементите, които не искате да качите) ще бъдат изпратени на сървърите на MIUI и ограничен раздел на MIUI Форум за разработчици. Информацията за темата и форума ще бъде събрана и за анализ и по-нататъшна комуникация. Регистрите могат да съдържат лична информация и данните за местоположението ви.</string>
+    <string name="submit_dialog_content"><Data>Вашата обратна връзка заедно с прикачените файлове и логовете ще бъде изпратена до сървърите на MIUI. Тази информация може да съдържа вашите лични данни. Избирането на \"Съгласен съм \" означава, че вие сте прочели и сте съгласни с нашите &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>.</Data></string>
+    <string name="submit_dialog_content_global"><Data>"Вашата обратна връзка заедно с прикачените файлове (ако има) и логовете (Вие можете да махнете отметката в менюто за кореспонденция на тези елементи, които не искате да изпращате до сървърите на MIU) ще бъдат изпратени до тях и в определената секция на форума за програмисти на MIUI. Информацията за дадения проблем ще бъде запазена и за бъдеща кореспонденция. Тя може да съдържа лични данни и информация за местоположението ви. Натискането на ъгласен съм \" означава, че вие сте прочели и сте съгласни с нашите
+         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>."</Data></string>
     <string name="submit_dialog_cancel">Не приемам</string>
     <string name="submit_dialog_confirm">Приемам</string>
+    <string name="tab_title_preferences">Настройки</string>
+    <string name="privacy_policy_title">Политика на поверителност</string>
+    <string name="privacy_category_title">Поверителност</string>
     <string name="mobile_data_note_dialog_title">Предупреждение за използв. на данни</string>
-    <string name="mobile_data_note_dialog_content">Използването на мобилни данни за качване на логове може да бъде причина за допълнително таксуване от вашия оператор.</string>
-    <string name="mobile_data_note_dialog_content_with_file_size">За качване на тези логове ще са необходими %sМБ от мобилните данни.</string>
+    <string name="mobile_data_note_dialog_content">Изглежда, че сте свързани към платена мрежа. Качването на логовете може да генерира допълнително такси и разходи.</string>
+    <string name="mobile_data_note_dialog_content_with_file_size">Изглежда, че сте свързани към платена мрежа. За качването на логовете са необходими %sМБ мобилни данни.</string>
     <string name="mobile_data_note_dialog_cancel">Изчакване за Wi-Fi връзка</string>
     <string name="mobile_data_note_dialog_confirm">Качване</string>
     <string name="modem_tool_log_dumping_title">Заснемане на лог от модема</string>
@@ -177,7 +182,8 @@
     <string name="modem_tool_log_finish_title">Логът на модема е заснет</string>
     <string name="modem_tool_log_finish_desc">Логът е запазен като %s</string>
     <string name="bugreport_dialog_not_show_again">Не показвай отново</string>
-    <string name="bugreport_dialog_submit_content">Вие запазвате софтуерни логове на това устройство. Те могат да съдържат лична информация и вашето местоположение. Не споделяйте логовете с никой друг, ако не искате тази информация да бъде достъпна за всички.</string>
+    <string name="bugreport_dialog_submit_content"><Data>"Вие ще запазите логовете на софтуера на вашето устройство. Тези записи могат да съдържат лична информация и вашето местоположение. Не споделяйте тези логове с никой, ако искате да останете защитени. Избирането на ъгласен съм \" означава, че вие сте прочели и сте съгласни с нашите
+         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>."</Data></string>
     <string name="bugreport_dump_start_notification_title">Създаване на доклад за грешка</string>
     <string name="bugreport_dump_start_notification_summary">Това може да отнеме няколко минути.</string>
     <string name="bugreport_dump_complete_notification_title">Докладът е създаден</string>
@@ -242,6 +248,7 @@
     <string name="feedback_third_packagename_hint">Кое външно приложение ви създава проблеми?</string>
     <string name="toast_third_packagename_required">Въведете име на приложението</string>
     <string name="feedback_contact_info_hint">Тел номер/Имейл</string>
+    <string name="toast_loading_app_id">Получаване на информация…</string>
     <string name="feedback_status_commit_succ_title">Изпрати</string>
     <string name="feedback_status_commit_uploading_title">Изпращане…</string>
     <string name="feedback_status_commit_failed_title">Не може да се изпрати доклада</string>
@@ -254,12 +261,12 @@
     <string name="feedback_status_jira_comment">Оставете коментар</string>
     <string name="feedback_status_forum_reply">Отговори</string>
     <string name="feedback_status_submit_attachment">Успешно прикачено</string>
-    <string name="feedback_status_collect_log_failed">Няма достъп до регистрационните файлове</string>
-    <string name="feedback_status_submit_feedback_failed">Неуспешно изпращане на отзив</string>
-    <string name="feedback_status_save_log_info_failed">Неуспешна промяна на прикачения URL файл</string>
-    <string name="feedback_status_submit_bbs_failed">Неуспешно изпращане на съдържанието на отзива</string>
-    <string name="feedback_status_get_and_save_bbs_info_failed">Няма достъп до прикачения URL файл</string>
-    <string name="feedback_status_upload_log_failed">Неуспешно качване на прикачени файлове</string>
+    <string name="feedback_status_collect_log_failed">Не може да се получат логовете</string>
+    <string name="feedback_status_submit_feedback_failed">Не може да се приеме обратна връзка</string>
+    <string name="feedback_status_save_log_info_failed">Не може да се промени прикачено URL</string>
+    <string name="feedback_status_submit_bbs_failed">Не може да се приеме съдържанието за обратна връзка</string>
+    <string name="feedback_status_get_and_save_bbs_info_failed">Не може да се получи прикачено URL</string>
+    <string name="feedback_status_upload_log_failed">Не може да се прикачат</string>
     <string name="feedback_status_change_notification_title">Прогреса на вашия доклад е обновен</string>
     <string name="feedback_bug_status_change_notification_desc">%1$s грешка \"%2$s\"</string>
     <string name="feedback_suggestion_status_change_notification_desc">%1$s предложения \"%2$s\"</string>
@@ -285,6 +292,8 @@
     <string name="warning_field_invalid">Изберете валидно %1$s</string>
     <string name="min_error">Вашият %1$s трябва да е по-дълъг.</string>
     <string name="max_error">Вашия %1$s трябва да е по-кратък.</string>
+    <string name="reply_option_log_hint">По избор</string>
+    <string name="reply_select_log_hint">Изберете лог файл</string>
     <string name="title_mi_family">Mi Homes наблизо</string>
     <string name="hint_feedback_main">Опишете вашия проблем</string>
     <string name="goon_feedback_main">Напред</string>
@@ -320,7 +329,6 @@
     <string name="toast_pic_not_exists">Кешираното изображение беше изтрито</string>
     <string name="toast_screenshot_too_large">Не може да се качи файл по-голям от 10МБ.</string>
     <string name="toast_log_too_large">Не може да се качи. Файлът е прекалено голям.</string>
-    <string name="title_bbs_feedback_main">Научете повече за Mi телефоните</string>
     <string name="title_customer_service">Обслужване на клиенти</string>
     <string name="customer_service_apply">Запитване към Обслужване на клиенти</string>
     <string name="customer_service_complain">Докладвайте на Обслужване на клиенти</string>

@@ -19,7 +19,9 @@
     <string name="exo_download_notification_channel_name">Изтегляния</string>
     <string name="exo_download_removing">Изтеглянията се премахват</string>
     <string name="exo_item_list">%1$s – %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Автоматично</string>
     <string name="exo_track_selection_none">Нищо</string>
     <string name="exo_track_selection_title_audio">Аудиозапис</string>
@@ -463,6 +465,7 @@
     <string name="managed_user_title">Всички работни приложения</string>
     <string name="pref_about_traffic_title">Настройка на трафика</string>
     <string name="pref_traffic_manage_title">Използвани данни</string>
+    <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_package_traffic_settings">План за данни</string>
     <string name="pref_adjust_traffic_data">Задаване на изп. на данни</string>
     <string name="pref_category_title_other">Допълнитени настройки</string>
@@ -472,7 +475,7 @@
     <string name="pref_title_declaration">Отказ от отговорност</string>
     <string name="pref_new_installed_preconfig_title">Стандартни настройки за нови прил.</string>
     <string name="pref_bg_network_title">Връзка на заден план</string>
-    <string name="pref_mi_sim_settings">%sнастройки на пакет</string>
+    <string name="pref_mi_sim_settings">%s настройки на пакета</string>
     <string name="pref_title_upload_data_usage">Докладвайте използването на мобилни данни</string>
     <string name="pref_summary_upload_data_usage">Докладването на употребата на мобилни данни помага да подобрим услугите на MIUI. Целият процес на изпращане на вашия доклад е координиран с нашата Политика на поверителност.</string>
     <string name="pref_manual_adjust">Ръчна настройка на трафика</string>
@@ -989,6 +992,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Това приложение може да забави прекалено много
 вашето устройство"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Деинсталиране на %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Деинсталирайте това приложение, за да поправите проблем с прекален разход на батерията.</string>
     <string name="om_ill_proc_type_wakelock_title">Това приложение блокира режим сън на устройството и изразходва много батерия</string>
@@ -1047,6 +1051,7 @@
     <string name="usage_type_data_send">Изпратени мобилни данни</string>
     <string name="usage_type_no_coverage">Време без сигнал</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android операционна система</string>
     <string name="process_mediaserver_label">Медиен сървър</string>
     <string name="power_screen">Екран</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1125,6 +1130,7 @@
     <string name="btn_text_goto_setup">Към Настройки</string>
     <string name="power_save_title_text">Икономия на батерия</string>
     <string name="power_save_summary_text">Включете Икономия на батерията за ограничаване на фоновите процеси, спиране на синхр. и системните анимации.</string>
+    <string name="power_save_started_summary_text">"Battery saver is on. It reduces apps' background activity, stops sync, and minimizes system animations."</string>
     <string name="hide_mode_summary_text">Управление на дейностите на заден план с цел спестяване на батерия</string>
     <string name="hide_mode_app_background_setting_text">Икономия по приложения</string>
     <string name="battery_estimate_usage_time_title">Използване</string>
@@ -1251,6 +1257,36 @@
     <string name="notification_open_extreme_mode_text">Свръх икономия на батерията е включен</string>
     <string name="notification_exit_extreme_mode_title">Свръх икономия на батерията е изключен</string>
     <string name="notification_exit_extreme_mode_text">Батерията е заредена повече от %s</string>
+    <string name="handle_title_app">Приложения</string>
+    <string name="handle_title_abnormal">Изразходване на батерия</string>
+    <string name="handle_title_system">Изразходване на батерията от системата</string>
+    <string name="handle_title_details">Детайли за разхода на батерия</string>
+    <string name="power_center_scan_result_safe">Няма открити проблеми с батерията</string>
+    <string name="power_center_scan_item_title_clean_memory">Изчистване на паметта</string>
+    <string name="power_center_scan_item_title_brightness">Коригиране яркостта на екрана</string>
+    <string name="power_center_scan_item_title_hide">Управление на изп. батерия</string>
+    <string name="power_center_scan_item_title_power_saver">Включване Икономия на батерията</string>
+    <string name="power_center_scan_item_title_GPS">Коригиране на точността на GPS</string>
+    <string name="power_center_scan_item_title_abnormal">Проблеми с батерията</string>
+    <string name="power_center_scan_item_title_abnormal_apps">Приложения, които хабят батерия</string>
+    <string name="power_center_scan_item_title_auto_start">Автостартиране</string>
+    <string name="power_center_scan_item_title_auto_invoke">Верижно стартиране</string>
+    <string name="power_center_scan_item_title_battery_details">Детайли за разхода на батерия</string>
+    <string name="power_center_hints_scan_danger_result">Можете да коригирате този проблем сега</string>
+    <string name="power_center_scan_item_title_running_app">Приложения на заден план</string>
+    <string name="power_center_list_item_close_bluetooth">Изключете Bluetooth</string>
+    <string name="power_center_list_item_set_lockscreen_time">Настройте екрана да изгасне след 30 секунди неактивност</string>
+    <string name="power_center_list_item_auto_brightness">Корекция на автоматичната яркост на екрана</string>
+    <string name="power_center_list_item_deep_save_title">Разширени настройки</string>
+    <string name="power_center_list_item_battery_status_time">ч</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
+    <string name="power_center_list_item_battery_status_capacity">мАч</string>
+    <string name="power_center_stop_scan_title">Спри сканирането</string>
+    <string name="hide_mode_result_summary_text">Задайте свои настройки на Икономия на батерия за лични приложения</string>
+    <string name="auto_task_result_summary_text">Настройте автоматични задачи за Икономия на батерия</string>
+    <string name="pc_settings_title">Детайли за разхода на батерия</string>
+    <string name="pc_main_activity_back">Назад</string>
+    <string name="extreme_power_save_mode_card_summary">Включете Максималем режим на Икономия, когато зарядът на батерията е прекалено нисък.</string>
     <string name="handle_bar_title_system">Система</string>
     <string name="apps_list_header_title_sms">Проверка на Съобщения</string>
     <string name="apps_list_header_title_sms_access">Ограничаване на достъпа до кодове за потвърждение</string>
@@ -1404,11 +1440,13 @@
     <string name="menu_text_optimize_manage">Подобрете скоростта</string>
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_summary_networkassistants">Управление на вашия план за данни</string>
+    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Надхвърлен е лимита за данни</string>
     <string name="menu_summary_networkassistants_3">От пакет за данни остава</string>
     <string name="menu_summary_networkassistants_4">Надхвърлен лимит за данни</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
     <string name="menu_text_networkassistants_unit_mb">МБ</string>
     <string name="menu_text_networkassistants_unit_kb">КБ</string>
@@ -1421,12 +1459,14 @@
     <string name="menu_summary_garbage_cleanup">Няма открити отпадъци</string>
     <string name="menu_summary_garbage_cleanup_2">Размер на отпадъците</string>
     <string name="menu_summary_garbage_cleanup_3">Почисти отпадъците сега</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Батерия</string>
     <string name="menu_summary_power_manager">Икономия на батерия ви дава повече време за работа преди следващо зареждане</string>
     <string name="menu_summary_power_manager_1">Батерията е напълно заредена</string>
     <string name="menu_summary_power_manager_2">Остават: %s</string>
     <string name="menu_summary_power_manager_3">Свържете зарядно устройство</string>
     <string name="menu_summary_power_manager_4">Ще се зареди след %s</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Предишното сканиране е прекъснато преди да завърши</string>
     <string name="examination_score_100">Изглежда всичко работи добре!</string>
     <string name="examination_score_80_100">Някои елементи могат да бъдат оптимизирани</string>
@@ -1800,6 +1840,7 @@
     <string name="card_main_deepclean_wechat_action">Изчистване</string>
     <string name="card_main_sectool_title">Инструменти</string>
     <string name="card_main_monthreport_action">Покажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Диагностика на мрежата</string>
     <string name="card_main_netcheck_summary">Диагностика на мрежата за проблеми при свързването</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -2349,11 +2390,12 @@
     <string name="gb_create_icon_summary">Създаване пряк път на Начален екран</string>
     <string name="title_reply">Коментар</string>
     <string name="title_like">Харесай</string>
+    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Мобилни данни</string>
     <string name="game_wid_viewpoint_buttom">Направи кратка почивка.</string>
     <string name="video_repeat">Пусни отново</string>
     <string name="game_video_network_eror">Не мога да се свържа с мрежата. Проверете настройките си и опитайте отново.</string>
-    <string name="see_more_content">Актуализирайте Център за игри, за да видите още акценти</string>
+    <string name="see_more_content">Актуализирайте Игри за да видите още акценти</string>
     <string name="notify_channel_name_security">Защита на системата</string>
     <string name="privacy_apps_category_title">Скрити приложения</string>
     <string name="privacy_apps">Скрити приложения</string>
@@ -2364,7 +2406,7 @@
     <string name="privacy_apps_tutorial_prompt_pagetwo">Разтворете двата си пръста по екрана. Ще видите съобщение, което ви подканя да въведете вашата парола за Заключване на приложения.</string>
     <string name="privacy_apps_tutorial_prompt_pagethree">След като въведете паролата си, скритата папка ще се покаже.</string>
     <string name="privacy_apps_manage_dialog_title">За Скрити приложения</string>
-    <string name="privacy_apps_manager_dialog_message">Скрити приложения изисква настройка на Заключен екран. Известията на скритите приложения ще бъдат изключени. Скриване на това приложение?</string>
+    <string name="privacy_apps_manager_dialog_message">Иконата на това приложение няма да се показва на Начален екран, след като го скриете. Скриване сега?</string>
     <string name="privacy_apps_checkbox_remind_choice">Не показвай отново</string>
     <string name="privacy_apps_go_to_use">Започни</string>
     <string name="privacy_apps_close">Затвори</string>
@@ -2385,15 +2427,10 @@
     <string name="first_aid_card_consume_power_button1">Ограничи</string>
     <string name="first_aid_card_consume_power_summary2">Изключете мобилната точка за достъп за да пестите батерия</string>
     <string name="first_aid_card_consume_power_button2">Изключи</string>
-    <string name="first_aid_card_consume_power_summary3">Изключете Bluetooth за да пестите батерия</string>
-    <string name="first_aid_card_consume_power_button3">Изключи</string>
-    <string name="first_aid_card_consume_power_summary4">Изключете GPS за да пестите батерия</string>
-    <string name="first_aid_card_consume_power_button4">Изключи</string>
     <string name="first_aid_card_system_root_title">Вие сте разрешили ROOT достъп</string>
     <string name="first_aid_card_system_root_summary">Ограничете ROOT достъпа за да избегнете рискове със сигурността</string>
     <string name="first_aid_card_system_root_button">Ограничи</string>
     <string name="first_aid_card_float_window_title">Вие сте разрешили плаващи известия</string>
-    <string name="first_aid_card_float_window_summary">%s може да се показва некоректно. Ограничете плаващите известия.</string>
     <string name="first_aid_card_float_window_button">Ограничи</string>
     <string name="first_aid_card_wifi_or_flow_title">Не може да се свърже с интернет</string>
     <string name="first_aid_card_wifi_or_flow_summary">Включете Wi-Fi или мобилни данни за да се свържете</string>
@@ -2408,8 +2445,9 @@
     <string name="first_aid_card_unable_install_summary">Само %s от хранилището са достъпни. Освободете още място за инсталиране на нови приложения.</string>
     <string name="first_aid_card_unable_install_button">Освободи място</string>
     <string name="first_aid_result_summary_normal">Изглежда всичко работи добре!</string>
+    <string name="first_aid_result_summary_not_finished">Сканирането не е завършено. Може би има неоткрити рискове.</string>
     <string name="first_aid_result_feedback_title">Отзив</string>
-    <string name="first_aid_result_feedback_summary">Не мога да коригирам проблемите с моето устройство.</string>
+    <string name="first_aid_result_feedback_summary">"First aid scan couldn't find any problems. However, I spotted some."</string>
     <string name="first_aid_result_feedback_button">Приеми</string>
     <string name="first_aid_card_kadun_title">Устройството е много бавно</string>
     <string name="first_aid_card_kadun_summary1">Освободете място в хранилището за да работи устройството ви нормално.</string>
@@ -2420,4 +2458,8 @@
     <string name="first_aid_card_kadun_button3">Изключи</string>
     <string name="first_aid_dialog_title_stop_scan">Спри сканирането</string>
     <string name="first_aid_dialog_msg_stop_scan">Спиране на сканирането сега?</string>
+    <string name="device_manager_apply_step_1">Да се активират ли администраторски права за това приложение?</string>
+    <string name="device_manager_apply_step_2">"Activating device administrator for this app might lead to the exposure of your personal data.
+All data on your device might be erased and your Lock screen password might be reset."</string>
+    <string name="device_manager_apply_step_3">Make sure you understand all the possible risks before you proceed. Activate device administrator for this app now?</string>
 </resources>

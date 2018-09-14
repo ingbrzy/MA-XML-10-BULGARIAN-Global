@@ -17,7 +17,7 @@
     <string name="recording">Записване...</string>
     <string name="recording_stopped">Звукозаписът спря</string>
     <string name="timer_format" formatted="false">%02d:%02d</string>
-    <string name="error_sdcard_access">Няма достъп до външното или вътрешното място за съхранение</string>
+    <string name="error_sdcard_access">Няма достъп до SD картата</string>
     <string name="error_app_internal">Вътрешна грешка</string>
     <string name="error_app_internal_title">Грешка при звукозапис</string>
     <string name="error_file_access">Файлът не съществува или е повреден</string>
@@ -36,6 +36,7 @@
     <string name="no_file">Няма звукозаписи</string>
     <string name="alert_message_delete_record_title">Изтриване на записа</string>
     <string name="alert_message_delete_record">Изтриването на записа от вашето устройство ще го изтрие и от Mi облака. Ще го изтриете ли?</string>
+    <string name="alert_message_delete_local_record">Delete this record?</string>
     <string name="share">Сподели</string>
     <string name="rename">Преименуване</string>
     <string name="delete">Изтрий</string>
@@ -101,7 +102,7 @@
     <string name="cloud_record_tip">Синхр.на записи с Mi Cloud.</string>
     <string name="cloud_record_open">Синхр.на записи</string>
     <string name="cloud_service_state_open_reminder">Включете синхронизирането с Mi Облак за да синхронизирате записаните файлове.</string>
-    <string name="cloud_status_full_dialog_title">Мястото в облака е пълно.</string>
+    <string name="cloud_status_full_dialog_title">Мястото в Mi Облак е пълно</string>
     <string name="cloud_status_full_dialog_msg">Мястото в облака е пълно.Надстройте акаунта за повече свободно място.</string>
     <string name="cloud_status_full_dialog_cancel">Не сега</string>
     <string name="cloud_status_full_dialog_ok">Надстройка</string>

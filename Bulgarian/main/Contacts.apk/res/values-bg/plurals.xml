@@ -52,6 +52,10 @@
         <item quantity="other">В SIM картата може да се запаметят %1$d контакти.</item>
         <item quantity="one">В SIM картата може да се запамети %1$d контакт.</item>
     </plurals>
+    <plurals name="foundTooManyContacts_plurals">
+        <item quantity="other">Открити са повече от %d контакти.</item>
+        <item quantity="one">Открит е повече от %d контакт.</item>
+    </plurals>
     <plurals name="group_add_success_toast">
         <item quantity="other">%1$d добавени контакти</item>
         <item quantity="one">%1$d контакт е добавен</item>
@@ -80,6 +84,10 @@
         <item quantity="other">%1$d номера</item>
         <item quantity="one">%1$d номер</item>
     </plurals>
+    <plurals name="label_duplicate_count_plurals">
+        <item quantity="other">(%1$d)</item>
+        <item quantity="one">(%1$d)</item>
+    </plurals>
     <plurals name="listFoundAllContacts">
         <item quantity="other">Открити %d контакта</item>
         <item quantity="one">Открит 1 контакт</item>
@@ -91,6 +99,10 @@
     <plurals name="listTotalPhoneContacts">
         <item quantity="other">Показани %d контакта с телефонни номера</item>
         <item quantity="one">Показан 1 контакт с телефонен номер</item>
+    </plurals>
+    <plurals name="merge_contact_message_plurals">
+        <item quantity="other">%1$d контакти с частично дублирани данни</item>
+        <item quantity="one">%1$d контакти с частично дублирани данни</item>
     </plurals>
     <plurals name="merge_info">
         <item quantity="other">Обединен от %0$d източника</item>
@@ -139,6 +151,14 @@
     <plurals name="searchFoundContacts">
         <item quantity="other">%d контакта</item>
         <item quantity="one">1 контакт</item>
+    </plurals>
+    <plurals name="select_all_exceed_plurals">
+        <item quantity="other">Не избирайте повече от %1$d, не може да изберете всички</item>
+        <item quantity="one">Не избирайте повече от %1$d, не може да изберете всички</item>
+    </plurals>
+    <plurals name="select_exceed_plurals">
+        <item quantity="other">Не избирайте повече от %1$d</item>
+        <item quantity="one">Не избирайте повече от %1$d</item>
     </plurals>
     <plurals name="smart_group_member_count">
         <item quantity="other">%1$d души</item>
