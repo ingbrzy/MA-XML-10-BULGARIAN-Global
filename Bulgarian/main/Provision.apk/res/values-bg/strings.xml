@@ -13,7 +13,7 @@
     <string name="sim_card_detection">Не е открита SIM карта</string>
     <string name="sim_card_detecting_title">Проверка за SIM карта</string>
     <string name="sim_card_detection_info">Нуждаете се от SIM карта, за да настроите Mi профила.</string>
-    <string name="sim_card_detecting">Проверява се за SIM карта…</string>
+    <string name="sim_card_detecting">Проверява се за SIM…</string>
     <string name="sim_card_detecting_check">Няма открита SIM карта. Уверете се, че SIM картата е правилно поставена и имате достатъчно средства по сметката си.</string>
     <string name="sim_card_detection_mobile_not_available">SIM картата не може да се свърже с мрежата</string>
     <string name="sim_scard_detecting_check_mobile_not_available">Вашата SIM карта не може да се свърже с валиден доставчик на мрежа. Уверете се, че имате достатъчно минути или мобилни данни по вашия баланс и опитайте да се свържете отново.</string>
@@ -67,7 +67,7 @@
     <string name="disagree">Отказ</string>
     <string name="setting_locale">Задаване на регион…</string>
     <string name="agree_terms">Прочетох споразумението и съм съгласен с него.</string>
-    <string name="poco_agree_terms_other">(Including POCO Launcher Privacy Policy and User Agreement)</string>
+    <string name="poco_agree_terms_other">(Включително Политика на поверителност и Потребителско споразумение на POCO Launcher)</string>
     <string name="agree_terms_input_method_facemoji">Вие прочетохте и се съгласявате с Емоджи Политика на поверителност.</string>
     <string name="agree_terms_input_method_kika">Вие прочетохте и се съгласявате с Кика Политика на поверителност.</string>
     <string name="miui_terms_no_network">Няма връзка с интернет. Вижте условията за ползване на %s</string>

@@ -36,7 +36,7 @@
     <string name="no_file">Няма звукозаписи</string>
     <string name="alert_message_delete_record_title">Изтриване на записа</string>
     <string name="alert_message_delete_record">Изтриването на записа от вашето устройство ще го изтрие и от Mi облака. Ще го изтриете ли?</string>
-    <string name="alert_message_delete_local_record">Delete this record?</string>
+    <string name="alert_message_delete_local_record">Delete this recording?</string>
     <string name="share">Сподели</string>
     <string name="rename">Преименуване</string>
     <string name="delete">Изтрий</string>
@@ -147,13 +147,13 @@
     <string name="alert_message_clear_records">Желаете ли да изтриете избрания звукозапис?</string>
     <string name="clear_records">Изтрий синхронизираните записи</string>
     <string name="network_tip_dialog_title">Необходима е връзка с интернет</string>
-    <string name="network_tip_dialog_content">Звукозапис се нуждае от връзка с интернет за да прочете вашите контакти и да работи нормално. Съгласен ли сте?</string>
+    <string name="network_tip_dialog_content">Това приложение се нуждае от интернет, за да работи нормално. Приемате ли?</string>
     <string name="network_tip_dialog_ok">Съгласен</string>
-    <string name="network_tip_dialog_cancel">Отмени</string>
+    <string name="network_tip_dialog_cancel">Не приемам</string>
     <string name="head_set_tip_dialog_title">Използвай вградения микрофон</string>
     <string name="head_set_tip_dialog_msg">Разкачете слушалките си, за да можете да запишете звуци със специфично съдържание (напр. Музика, Гласове).</string>
     <string name="head_set_tip_dialog_ok">Направено</string>
-    <string name="rename_fail_tip">Грешка при преименуване, файл с такова име вече съществува.</string>
+    <string name="rename_fail_tip">"Couldn't rename. Item with this name already exists."</string>
     <string name="dialog_privacy_revoke_tips">След като анулирате разрешението, приложението ще спре събирането на данни и всички свързани с него данни ще бъдат изтрити от сървърите. Това може да направи приложението практически неизползваемо. Наистина ли искате да отмените разрешението? За да гарантирате сигурността на профила си, влезте в i.mi.com преди да отмените разрешението за услугите на Mi Облак.</string>
     <string name="privacy_policy_title">Правила за поверителност</string>
 </resources>

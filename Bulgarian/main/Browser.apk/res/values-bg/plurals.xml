@@ -88,6 +88,10 @@
         <item quantity="other">Ясно</item>
         <item quantity="one">Ясно</item>
     </plurals>
+    <plurals name="vote_all_people">
+        <item quantity="other">%d човека са гласували</item>
+        <item quantity="one">%d човек е гласувал</item>
+    </plurals>
     <plurals name="last_num_days">
         <item quantity="other">Последните %d дни</item>
         <item quantity="one">Последният %d ден</item>

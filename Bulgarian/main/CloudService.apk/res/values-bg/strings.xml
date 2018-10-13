@@ -35,6 +35,8 @@
     <string name="mx_sub_dspt_provision_with_voip">Интернет обаждания</string>
     <string name="phone_number_required_dspt_provision">"Тази услуга изисква вашия телефонен номер. "</string>
     <string name="sync_dspt_provision">"Mi Cloud синхронизира снимките, SMS, бележки и др. между всичките ваши Mi устройства. Също така те са достъпни за вас от всеки браузър на "</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">"\".
 
 По всяко време можете да включите или изключите услугата от Настройки.
@@ -47,6 +49,8 @@
     <string name="sync_dspt_entrance_provision_skip">Прескочи тази стъпка</string>
     <string name="sync_dspt_entrance_provision_network">Това приложение се нуждае от достъп до интернет, за да работи нормално. Синхронизирането може да ви свърже с мобилни данни и да включи Wi-Fi.</string>
     <string name="find_device_dspt_provision">Ако загубите устройството си, можете да отидете на %s, за да го локализирате, заключите или нулирате. Функцията се управлява от Настройки.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_send_sms_alert">Когато смените SIM картата, е необходимо да бъде изпратено ново регистрационно SMS съобщение.</string>
     <string name="mx_dspt_provision">"\"Облачните съобщения ви позволяват да изпращате съобщения до други потребители на MIUI, без да се начислява такса от вашия оператор за това.
 
@@ -136,7 +140,7 @@
     <string name="micloud_main_set_internet">Мрежа</string>
     <string name="micloud_main_sync_now">Синхронизирай</string>
     <string name="micloud_main_sync_on">Синхр. е вкл.</string>
-    <string name="micloud_main_master_sync_on">Синхр. е вкл</string>
+    <string name="micloud_main_master_sync_on">Синхронизацията е вкл</string>
     <string name="micloud_main_network_error">Мрежата е недостъпна</string>
     <string name="micloud_main_sync_pending">Чака за синхр.</string>
     <string name="micloud_main_sync_pause">Пауза</string>
@@ -168,8 +172,8 @@
     <string name="micloud_main_button_set_internet">Настройки</string>
     <string name="micloud_main_button_activate">Активирай</string>
     <string name="micloud_main_button_authorize">Упълномощи</string>
-    <string name="micloud_main_simple_synced">Синхр</string>
-    <string name="micloud_main_simple_syncing">Синхр. се</string>
+    <string name="micloud_main_simple_synced">Синхронизация</string>
+    <string name="micloud_main_simple_syncing">Синхронизиране</string>
     <string name="micloud_main_simple_pending">В очакване</string>
     <string name="micloud_main_simple_off">Синхр. е изключена</string>
     <string name="micloud_main_simple_last_sync_time">Последно синхр: %s</string>
@@ -183,7 +187,7 @@
     <string name="micloud_detail_preference_sync_items">Елементи</string>
     <string name="micloud_detail_query_error">Не може да се получи статуса на синхр.</string>
     <string name="micloud_detail_force_sync">Синхр. сега</string>
-    <string name="micloud_detail_pause">Синхр на пауза</string>
+    <string name="micloud_detail_pause">Синхронизацията е на пауза</string>
     <string name="micloud_privacy_cloud_off">Синхр. е изключена</string>
     <string name="micloud_privacy_licence_agreed">Съгласен съм с Политиката за поверителност на Mi Облак.</string>
     <string name="micloud_privacy_licence_privacy_policy">Политика на поверителност</string>
@@ -288,6 +292,7 @@
     <string name="micloud_find_device_opened">Открий устройството е вкл.</string>
     <string name="micloud_find_device_open_fail">Открий устройството не може да се включи</string>
     <string name="micloud_find_device_opened_content">Открийте вашето устройство на %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
     <string name="micloud_find_device_verify_fail">Не може да се активира повторно Намери устройство</string>
     <string name="micloud_find_device_close_fail">Не може да се изключи Намери устройство</string>
     <string name="micloud_find_device_finish">Готово</string>
@@ -317,7 +322,7 @@
     <string name="account_related">Устройството е свързано към съществуващ Mi профил(%s). Свържете се с мрежата, за да потвърдите устройството.</string>
     <string name="connect_network">Connect to WLAN or insert a SIM card</string>
     <string name="trying_to_connect_to_network">Connecting to the network…</string>
-    <string name="detect_sim_card">Search for SIM card again</string>
+    <string name="detect_sim_card">Търсене на SIM карта</string>
     <string name="connect_wlan">Connect to WLAN</string>
     <string name="soundrecorder_sync_records">Синхр. с Mi Cloud</string>
     <string name="soundrecorder_sync_only_in_wifi">Синхр. само чрез Wi-Fi</string>
@@ -354,6 +359,8 @@
     <string name="micloud_main_head_menu_state_close">Изкл</string>
     <string name="micloud_main_head_menu_state_unavailable">Не се поддържа</string>
     <string name="micloud_main_head_menu_finddevice_unavailable">Открий устройството не е налично във Второ работно място. Вие можете да използвате Основно работно място.</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
     <string name="ks_fingerprint_payment">Плащане с Пръстов отпечатък</string>
     <string name="ks_name_fido">FIDO</string>
     <string name="ks_name_alipay">IFAA</string>

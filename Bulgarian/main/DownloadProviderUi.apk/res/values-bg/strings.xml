@@ -197,7 +197,11 @@
     <string name="toast_only_wifi_download">Свържете се с Wi-Fi, за да изтеглите този елемент</string>
     <string name="total_speedup">Усилване на скоростта (Всичко)</string>
     <string name="version">Версия %s</string>
+    <string name="check_new_downloaded_action">Преглед</string>
+    <string name="check_new_downloaded_file">Открит е нов файл</string>
     <string name="get_data_failed">Не може да се получи информация, изчакайте минута-две и опитайте отново.</string>
+    <string name="info_download_details">Подробности</string>
+    <string name="info_download_progress">Покажи напредъка на изтегляне</string>
     <string name="load_finish_hint">Това е всичко за сега.</string>
     <string name="loading">Един момент…</string>
     <string name="net_error">Свържете се с мрежата и опитайте отново</string>

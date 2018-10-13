@@ -76,6 +76,10 @@
         <item quantity="other">Може да въведете до %1$d дни</item>
         <item quantity="one">Може да въведете до %1$d ден</item>
     </plurals>
+    <plurals name="event_reminders_to_max">
+        <item quantity="other">Можете да зададете до %d напомняния</item>
+        <item quantity="one">Можете да зададете до %d напомняне</item>
+    </plurals>
     <plurals name="month_more_events">
         <item quantity="other">+%d</item>
         <item quantity="one">+1</item>

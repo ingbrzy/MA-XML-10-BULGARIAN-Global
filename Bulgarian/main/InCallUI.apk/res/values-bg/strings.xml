@@ -112,6 +112,7 @@
     <string name="description_image_button_dialpad">Клавиатура</string>
     <string name="description_image_button_tools">Опции</string>
     <string name="description_target_answer">Отговор</string>
+    <string name="description_message_list_title">Списък с бързи отговори</string>
     <string name="ok">OK</string>
     <string name="cancel">Отказ</string>
     <string name="wait_prompt_str">\"Да се изпратят ли следните мелодии? \"</string>
@@ -198,4 +199,5 @@
     <string name="dialpad_eight">8</string>
     <string name="dialpad_nine">9</string>
     <string name="prompt_no_volte_when_failed">Не може да се извърши обаждане. Уверете се, че вашето устройство е свързано с 4G мрежа с VoLTE поддържка.</string>
+    <string name="volume_boost_text">Ускоряването е успешно</string>
 </resources>

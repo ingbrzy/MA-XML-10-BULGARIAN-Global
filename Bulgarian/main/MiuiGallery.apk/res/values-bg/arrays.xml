@@ -29,4 +29,9 @@
         <item>Дядо по майчина линия</item>
         <item>Баба по майчина линия</item>
     </string-array>
+    <string-array name="menu_copy_or_move">
+        <item>Move</item>
+        <item>Copy</item>
+        <item>@string/cancel</item>
+    </string-array>
 </resources>

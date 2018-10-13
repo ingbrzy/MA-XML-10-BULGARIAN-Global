@@ -25,6 +25,7 @@
     <string name="s5">Създаване на събитие в календара</string>
     <string name="s6">Да се разреши ли на рекламата да създаде събитие в календара?</string>
     <string name="s7">Тестова реклама</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="abc_action_bar_home_description">Отидете в началната страница</string>
     <string name="abc_action_bar_up_description">Нагоре</string>
     <string name="abc_action_menu_overflow_description">Повече</string>
@@ -296,6 +297,7 @@
     <string name="exit">Изход</string>
     <string name="exit_browser_warning">Изход от браузъра?</string>
     <string name="exit_fullscreen">Изход от цял екран</string>
+    <string name="external_app_restricted_access_error">Mi браузър няма достъп до този елемент.</string>
     <string name="fast_search_title">Бързо търсене</string>
     <string name="file_dir">Променете папката</string>
     <string name="file_name">"Въведете име: "</string>
@@ -485,7 +487,7 @@
     <string name="mw_http_post_warning_resend">Продължете</string>
     <string name="mw_js_dialog_before_unload">"%s
 
-Искате ли да излезете от тази страница?"</string>
+Излезте от страницата сега?"</string>
     <string name="mw_js_dialog_before_unload_negative_button">Останете на тази страница</string>
     <string name="mw_js_dialog_before_unload_positive_button">Напуснете тази страница</string>
     <string name="mw_js_dialog_before_unload_title">Потвърждаване на придвижването</string>
@@ -730,6 +732,8 @@
     <string name="mw_snippets_disabled_generic_prompt">Получете персонализирано съдържание</string>
     <string name="mw_snippets_disabled_signed_out_instructions">За да получите персонализирано съдържание, препоръчано от Google, се впишете в Chrome.</string>
     <string name="mw_time_picker_dialog_am">сутрин</string>
+    <string name="mw_time_picker_dialog_hour_minute_separator">:</string>
+    <string name="mw_time_picker_dialog_minute_second_separator">:</string>
     <string name="mw_time_picker_dialog_pm">вечер</string>
     <string name="mw_time_picker_dialog_second_subsecond_separator">.</string>
     <string name="mw_time_picker_dialog_title">Задайте време</string>
@@ -1174,6 +1178,8 @@
     <string name="voice_title_listening">Слушане…</string>
     <string name="voice_title_please">Започнете да говорите…</string>
     <string name="voice_title_speech_again">Не мога да ви разбера</string>
+    <string name="vote_already">Вие вече сте гласували</string>
+    <string name="vote_fail">Гласуването неуспешно, опитайте отново по-късно</string>
     <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_location_confirm_message">Изключването на функцията може да засегне използването.</string>
     <string name="weather_publish_time">Актуализирано %1$s</string>
@@ -1217,7 +1223,6 @@
     <string name="date_picker_dialog_set">Задаване</string>
     <string name="date_picker_dialog_title">Задай дата</string>
     <string name="date_time_picker_dialog_title">Задай дата и час</string>
-    <string name="external_app_restricted_access_error">Mi браузър няма достъп до искания ресурс.</string>
     <string name="find_next">Търсене на следващото</string>
     <string name="find_previous">Търсене на предишното</string>
     <string name="js_dialog_before_unload">"\"%s

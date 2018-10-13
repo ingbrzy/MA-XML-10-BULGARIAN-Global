@@ -225,6 +225,8 @@
     <string name="tax_social_insurance">Застраховка</string>
     <string name="tax_thershold_foreign">%s (Чужденци)</string>
     <string name="tax_thershold_native">%s (България)</string>
+    <string name="tax_thershold_native_new">%s (new)</string>
+    <string name="tax_thershold_native_new_description">Taxes will be calculated according to the new tax law starting from October 1, 2018</string>
     <string name="tax_threshold">Без такси</string>
     <string name="tax_title_primary" />
     <string name="tax_title_secondary" />

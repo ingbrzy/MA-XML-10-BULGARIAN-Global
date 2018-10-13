@@ -260,4 +260,8 @@
         <item quantity="other">%d елемента</item>
         <item quantity="one">%d елемент</item>
     </plurals>
+    <plurals name="creation_max_image">
+        <item quantity="other">Select up to %d photos</item>
+        <item quantity="one">Select up to %d photo</item>
+    </plurals>
 </resources>

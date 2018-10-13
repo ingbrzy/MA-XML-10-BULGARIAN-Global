@@ -8,7 +8,6 @@
     <string name="close_panel">Затвори Тъч асистент</string>
     <string name="customize_entries">Избор на преки пътища</string>
     <string name="enable_touch_assistant">Включете Тъч асистент</string>
-    <string name="enabled_for_pad_hint">Работи, когато \"Блокирай бутони за навигация в режим пейзаж\" е включено</string>
     <string name="function_settings">Настройка на преки пътища</string>
     <string name="handy_mode_default_to_close_whether_open">Режим Ползване с една ръка е изключен по подразбиране. Да го включа ли сега?</string>
     <string name="hide_touch_assistant">Автоматично скриване</string>

@@ -19,7 +19,9 @@
     <string name="exo_download_notification_channel_name">Изтегляния</string>
     <string name="exo_download_removing">Изтеглянията се премахват</string>
     <string name="exo_item_list">%1$s – %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Автоматично</string>
     <string name="exo_track_selection_none">Нищо</string>
     <string name="exo_track_selection_title_audio">Аудиозапис</string>
@@ -205,7 +207,7 @@
     <string name="report_only">Изберете съобщение за докладване</string>
     <string name="report_success">Съобщението е докладвано</string>
     <string name="report_error">Съобщението не може да се докладва</string>
-    <string name="report_warning">Да се докладват ли %1$s SMS на Mi? Съобщенията и телефонните номера, от които са изпратени ще бъдат изпратени за проверка до сървърите на Mi. Всички лични данни свързани със съобщенията ще се запазят в анонимност.</string>
+    <string name="report_warning">"Report %1$s SMS to Mi? These messages and phone numbers they were sent from will be uploaded to Mi's servers for review. Any personal info associated with these messages is always kept anonymous."</string>
     <string name="report_warning_title">Внимание</string>
     <string name="st_sub_title_customize_mode_name">Име</string>
     <string name="read_all_sms">Прочети всички</string>
@@ -378,7 +380,6 @@
     <string name="main_month_used">План за данни</string>
     <string name="main_leisure_remained">Оставаш лимит на слаб трафик</string>
     <string name="main_bill_remained">Оставащ кредит</string>
-    <string name="main_used_bill">%s CNY</string>
     <string name="main_no_info">Няма данни</string>
     <string name="guide_quck_open">Включване</string>
     <string name="guide_wait_setting">По-късно</string>
@@ -386,13 +387,6 @@
     <string name="guide_second_text">След като настроите оператора, MIUI ще следи ежедневно трафика ви на данни изпращайки съобщение до оператора. Когато MIUI засече, че надхвърляте вашия лимит, ще ви спре достъпа до мрежата и ще ви уведоми.</string>
     <string name="guide_get_operator_error">"&lt;font color='#33b4ff'>&lt;U>Грешен оператор?&lt;/U>&lt;/font>"</string>
     <string name="card_tc_failed">Не може да се калибрира</string>
-    <string name="card_tc_failed_content">"Вероятни причини:
- 1. Оператора ви отговаря по-бавно в началото и в края на месеца. Опитайте след няколко дни.
- 2. Необходим е шаблон за заявка от мрежата, когато калибрирате за първи път. Свържете се към мрежата и опитайте отново.
- 3. Вашият оператор може да не поддържа съобщения с лимит и баланс. Свържете се с оператора, за да научите повече.
- 4. Грешка в оператора. Опитайте диагностика на оператора.
- 5. Изглежда нищо не помага? Натиснете \"Докладвайте с SMS\" за да изпратите отзив до Xiaomi."</string>
-    <string name="card_sms_report">Докладване с SMS</string>
     <string name="main_normal_data_usage">Използвани мобилни данни</string>
     <string name="main_tc_send_sms">"Изпращане на SMS
 за калибриране"</string>
@@ -463,6 +457,7 @@
     <string name="managed_user_title">Всички работни приложения</string>
     <string name="pref_about_traffic_title">Настройка на трафика</string>
     <string name="pref_traffic_manage_title">Използвани данни</string>
+    <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_package_traffic_settings">План за данни</string>
     <string name="pref_adjust_traffic_data">Задаване на изп. на данни</string>
     <string name="pref_category_title_other">Допълнитени настройки</string>
@@ -557,7 +552,6 @@
     <string name="traffic_setting_fragment_send_num_tips">Въведете телефонен номер</string>
     <string name="traffic_setting_fragment_sms_content_tips">Напишете съобщението си тук</string>
     <string name="traffic_setting_fragment_loacation_alert_nomore">Не показвай повече</string>
-    <string name="traffic_setting_fragment_find_brand">"&lt;font color='#33b4ff'>&lt;U>Грешен оператор?&lt;/U>&lt;/font>"</string>
     <string name="data_usage_warning_body">Докоснете за преглед на данните.</string>
     <string name="data_usage_mobile_limit_title">Достигнат лимит за данни</string>
     <string name="data_usage_limit_body">Докоснете за включване на мобилните данни.</string>
@@ -636,7 +630,6 @@
     <string name="operator_number_cmcc">10086</string>
     <string name="operator_number_unicom">10010</string>
     <string name="operator_number_telcom">10000</string>
-    <string name="operator_mi_sim">Mi SIM</string>
     <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
     <string name="mi_service_app_detail">Детайли за употребата на данни</string>
@@ -670,7 +663,7 @@
     <string name="tc_sms_report_notify_correction_body">Отидете в приложението Монитор за данни в Оптимизация и опитайте отново ръчно.</string>
     <string name="tc_sms_report_notify_get_failure_body">Неуспешно изпращане на доклад. Проверете параметрите на мрежата.</string>
     <string name="tc_sms_report_tips_dialog_title">SMS доклад за трафика</string>
-    <string name="tc_sms_report_tips_dialog_message">Ще бъде изпратен SMS за да се получи актуална информация за изразходваните мобилни данни от вашия оператор. Ако смятате, че информацията не е правилна, оставете ни обратна връзка.</string>
+    <string name="tc_sms_report_tips_dialog_message">"An SMS is sent to get the latest data usage info from your carrier. If you think the info isn't correct, send us your feedback."</string>
     <string name="tc_sms_report_get_sms_failure">Не мога да получа информация за използвани данни</string>
     <string name="tc_sms_report_get_sms_timeout">Времето на заявката изтече</string>
     <string name="tc_sms_report_get_sms_successs">Информацията за изразходвани данни бе успешно обновена</string>
@@ -690,7 +683,6 @@
     <string name="pref_roaming_setting_gategory">Настройки</string>
     <string name="pref_allow_connect_network_title">Международен роуминг на данни</string>
     <string name="pref_whitelist_setting">Изключения за роуминг на данни</string>
-    <string name="firewall_rule_group_title_roaming">Международен роуминг</string>
     <string name="dialog_roaming_title">Международен роуминг</string>
     <string name="dialog_roaming_message">Оператора ще ви начисли допълнителни такси за данни в роуминг.</string>
     <string name="add_to_whitelist_button">Изключения</string>
@@ -704,7 +696,6 @@
     <string name="add_miservice_dialog_content">%s изисква добавянето на MIUI рамка за услуги към изключенията. Може да получавате известия от MIUI и останалите приложения.</string>
     <string name="pref_roaming_daily_limit_setting_cat_title">Дневен лимит за данни</string>
     <string name="pref_roaming_daily_limit_setting">Дневен лимит за данни при роуминг</string>
-    <string name="mian_page_primary_txt">Международен роуминг</string>
     <string name="hints_input_roaming_daily_limit">Въведете лимит за данни</string>
     <string name="roaming_limit_notification_title">Достигнахте дневния лимит за данни в роуминг</string>
     <string name="roaming_limit_warning_notification_body">Показване на използваните данни.</string>
@@ -742,9 +733,6 @@
     <string name="btn_start_diagnostic">Проверка</string>
     <string name="btn_stop_diagnostic">Спри</string>
     <string name="btn_finish_diagnostic">ОК</string>
-    <string name="main_toolbar_internet_by_pc_brige">Интернет чрез USB</string>
-    <string name="main_toolbar_internet_by_wifi">Свързване чрез Wi-Fi</string>
-    <string name="main_toolbar_internet_by_mobiledata">Мобилни данни</string>
     <string name="connect_internet_by_usbshare">Споделен интернет чрез USB</string>
     <string name="connect_internet_by_mobiledata">Връзка чрез мобилни данни</string>
     <string name="connect_internet_by_wifi">Wi-Fi</string>
@@ -752,7 +740,6 @@
     <string name="enable_network">Включете мобилните даннни</string>
     <string name="disable_air_mode">Изклчете самолетен режим</string>
     <string name="repair">Поправи</string>
-    <string name="check_network_state">Проверка на състоянието на мрежата</string>
     <string name="current_network_state_not_need_diagnose">Всичко е наред</string>
     <string name="apn_exception_title">Проверете настройките за APN</string>
     <string name="apn_exception_summary">Настройките за APN на оператора не са правилни</string>
@@ -914,7 +901,6 @@
     <string name="status_bar_network_flow_exceed_content">Днес: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Надвишени: &lt;font color=%2$s>%3$s&lt;/font></string>
     <string name="status_bar_network_flow_content">Днес: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;; Остават: %2$s</string>
     <string name="status_bar_network_flow_content_not_setting">Днес: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;; Този месец: %2$s</string>
-    <string name="status_bar_network_flow_today">Днес: %1$s</string>
     <string name="status_bar_network_flow_content_virtual_card">%1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;%2$s&amp;nbsp;&amp;nbsp;&amp;nbsp;</string>
     <string name="pref_key_tethering_setting">Еднократен лимит за данни</string>
     <string name="pref_key_tethering_title">Еднократен лимит за данни</string>
@@ -989,6 +975,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Това приложение може да забави прекалено много
 вашето устройство"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Деинсталиране на %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Деинсталирайте това приложение, за да поправите проблем с прекален разход на батерията.</string>
     <string name="om_ill_proc_type_wakelock_title">Това приложение блокира режим сън на устройството и изразходва много батерия</string>
@@ -1033,7 +1020,7 @@
     <string name="menu_item_force_stop">Затваряне</string>
     <string name="menu_item_uninstall">Деинсталиране</string>
     <string name="menu_item_app_details">Детайли</string>
-    <string name="details_subtitle">Подробности за употреба</string>
+    <string name="details_subtitle">Usage details</string>
     <string name="packages_subtitle">Включени пакети</string>
     <string name="battery_desc_standby">Използвана при неактивно устройство батерия</string>
     <string name="battery_desc_radio">Батерия, използване от клетъчно радио</string>
@@ -1047,6 +1034,7 @@
     <string name="usage_type_data_send">Изпратени мобилни данни</string>
     <string name="usage_type_no_coverage">Време без сигнал</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android операционна система</string>
     <string name="process_mediaserver_label">Медиен сървър</string>
     <string name="power_screen">Екран</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1125,7 +1113,7 @@
     <string name="btn_text_goto_setup">Към Настройки</string>
     <string name="power_save_title_text">Икономия на батерия</string>
     <string name="power_save_summary_text">Включете Икономия на батерията за ограничаване на фоновите процеси, спиране на синхр. и системните анимации.</string>
-    <string name="power_save_started_summary_text">"Battery saver is on. It reduces apps' background activity, stops sync, and minimizes system animations."</string>
+    <string name="power_save_started_summary_text">Икономия на батерията е вкл. Ще бъде ограничена активността на заден план, синхронизирането ще бъде спряно, системните анимации ще бъдат изключени.</string>
     <string name="hide_mode_summary_text">Управление на дейностите на заден план с цел спестяване на батерия</string>
     <string name="hide_mode_app_background_setting_text">Икономия по приложения</string>
     <string name="battery_estimate_usage_time_title">Използване</string>
@@ -1274,6 +1262,8 @@
     <string name="power_center_list_item_auto_brightness">Корекция на автоматичната яркост на екрана</string>
     <string name="power_center_list_item_deep_save_title">Разширени настройки</string>
     <string name="power_center_list_item_battery_status_time">ч</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
+    <string name="power_center_list_item_battery_status_capacity">мАч</string>
     <string name="power_center_stop_scan_title">Спри сканирането</string>
     <string name="hide_mode_result_summary_text">Задайте свои настройки на Икономия на батерия за лични приложения</string>
     <string name="auto_task_result_summary_text">Настройте автоматични задачи за Икономия на батерия</string>
@@ -1433,11 +1423,13 @@
     <string name="menu_text_optimize_manage">Подобрете скоростта</string>
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_summary_networkassistants">Управление на вашия план за данни</string>
+    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Надхвърлен е лимита за данни</string>
     <string name="menu_summary_networkassistants_3">От пакет за данни остава</string>
     <string name="menu_summary_networkassistants_4">Надхвърлен лимит за данни</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
     <string name="menu_text_networkassistants_unit_mb">МБ</string>
     <string name="menu_text_networkassistants_unit_kb">КБ</string>
@@ -1450,12 +1442,14 @@
     <string name="menu_summary_garbage_cleanup">Няма открити отпадъци</string>
     <string name="menu_summary_garbage_cleanup_2">Размер на отпадъците</string>
     <string name="menu_summary_garbage_cleanup_3">Почисти отпадъците сега</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Батерия</string>
     <string name="menu_summary_power_manager">Икономия на батерия ви дава повече време за работа преди следващо зареждане</string>
     <string name="menu_summary_power_manager_1">Батерията е напълно заредена</string>
     <string name="menu_summary_power_manager_2">Остават: %s</string>
     <string name="menu_summary_power_manager_3">Свържете зарядно устройство</string>
     <string name="menu_summary_power_manager_4">Ще се зареди след %s</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Предишното сканиране е прекъснато преди да завърши</string>
     <string name="examination_score_100">Изглежда всичко работи добре!</string>
     <string name="examination_score_80_100">Някои елементи могат да бъдат оптимизирани</string>
@@ -1623,7 +1617,7 @@
     <string name="monitor_requests_from_pc">Управление на инсталирането на приложения през USB</string>
     <string name="app_install_intercept">Блокирай инсталирането</string>
     <string name="pc_to_phone_install">Блокирано инсталиране на %s през USB</string>
-    <string name="recently_reject_message_one">Отхвърлени %1$s заявки за инсталиране</string>
+    <string name="recently_reject_message_one">Отхвърлено %1$s искане за инсталиране</string>
     <string name="recently_reject_message">Отхвърлени инсталации на %1$s и %2$d други прил.</string>
     <string name="delete_from_manual_item_white_list">Да се премахне ли от изключенията?</string>
     <string name="button_text_ignore">Игнорирай</string>
@@ -1829,6 +1823,7 @@
     <string name="card_main_deepclean_wechat_action">Изчистване</string>
     <string name="card_main_sectool_title">Инструменти</string>
     <string name="card_main_monthreport_action">Покажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Диагностика на мрежата</string>
     <string name="card_main_netcheck_summary">Диагностика на мрежата за проблеми при свързването</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -1870,7 +1865,7 @@
     <string name="ac_notification_contentTitle">Защитете приложенията си със Заключване на приложения</string>
     <string name="ac_pre_notification_contentTitle">Опитайте Закл на приложения</string>
     <string name="ac_post_notification_contentTitle">Включете Закл. приложения</string>
-    <string name="midrop_post_notification_contentTitle">Трябва да прехвърлите файлове?</string>
+    <string name="midrop_post_notification_contentTitle">Need to share files?</string>
     <string name="notification_masked_item">Скрий известията</string>
     <string name="lock_mode_title">Настройки за заключване</string>
     <string name="after_the_lock_screen">Заключване на приложения заедно с екрана</string>
@@ -1880,7 +1875,7 @@
     <string name="ac_notification_contentText">Чукнете за включване</string>
     <string name="ac_pre_notification_contentText">Защитете вашата лична информация</string>
     <string name="ac_post_notification_contentText">Получаване на системно ниво на защита</string>
-    <string name="midrop_post_notification_contentText">Опитайте Mi Drop. Той е бърз и без реклами.</string>
+    <string name="midrop_post_notification_contentText">Transfer files at speeds up to 50 Mbps in Mi Drop.</string>
     <string name="notification_masked_subtitle">Скрий известията от приложенията, защитени от Закл. приложения</string>
     <string name="ac_enter_applock">Вход в закл. на прил.</string>
     <string name="ac_mask_all_apps">Скрий за всички приложения</string>
@@ -2367,8 +2362,8 @@
     <string name="gamebox_type_gesture">Плъзнете за показване</string>
     <string name="gb_first_window_title">Подобряване бързината при игри</string>
     <string name="gb_first_window_summary">Подобряване на скоростта на работа на системата</string>
-    <string name="gb_first_window_gamebox_summary_four">Използване на бързи отговори, създаване на записи и снимки на екрана</string>
-    <string name="gb_first_window_gamebox_summary_six">Изчистване на кеша, създаване на записи и снимки на екрана</string>
+    <string name="gb_first_window_gamebox_summary_four">Изчистване на кеша, създаване на записи и снимки на екрана</string>
+    <string name="gb_first_window_gamebox_summary_six">Използване на бързи отговори, създаване на записи и снимки на екрана</string>
     <string name="gb_first_window_handsfree_title">Обаждания през Хендсфрий</string>
     <string name="gb_first_window_handsfree_summary">Включи говорителя автоматично</string>
     <string name="gb_first_window_antimsg_title">Удобни известия</string>
@@ -2378,6 +2373,7 @@
     <string name="gb_create_icon_summary">Създаване пряк път на Начален екран</string>
     <string name="title_reply">Коментар</string>
     <string name="title_like">Харесай</string>
+    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Мобилни данни</string>
     <string name="game_wid_viewpoint_buttom">Направи кратка почивка.</string>
     <string name="video_repeat">Пусни отново</string>
@@ -2434,7 +2430,7 @@
     <string name="first_aid_result_summary_normal">Изглежда всичко работи добре!</string>
     <string name="first_aid_result_summary_not_finished">Сканирането не е завършено. Може би има неоткрити рискове.</string>
     <string name="first_aid_result_feedback_title">Отзив</string>
-    <string name="first_aid_result_feedback_summary">"First aid scan couldn't find any problems. However, I spotted some."</string>
+    <string name="first_aid_result_feedback_summary">Първоначалното сканиране не откри никакви проблеми. Все пак може да е пропуснато нещо дребно.</string>
     <string name="first_aid_result_feedback_button">Приеми</string>
     <string name="first_aid_card_kadun_title">Устройството е много бавно</string>
     <string name="first_aid_card_kadun_summary1">Освободете място в хранилището за да работи устройството ви нормално.</string>
@@ -2446,7 +2442,7 @@
     <string name="first_aid_dialog_title_stop_scan">Спри сканирането</string>
     <string name="first_aid_dialog_msg_stop_scan">Спиране на сканирането сега?</string>
     <string name="device_manager_apply_step_1">Да се активират ли администраторски права за това приложение?</string>
-    <string name="device_manager_apply_step_2">"Activating device administrator for this app might lead to the exposure of your personal data.
-All data on your device might be erased and your Lock screen password might be reset."</string>
-    <string name="device_manager_apply_step_3">Make sure you understand all the possible risks before you proceed. Activate device administrator for this app now?</string>
+    <string name="device_manager_apply_step_2">"Активирането на административен достъп за това приложение може да направи незащитена Вашата лична информация. 
+Цялата Ваша информация бъде изтрита и паролата за заключен екран ще бъде нулирана."</string>
+    <string name="device_manager_apply_step_3">Уверете се, че разбирате рисковете, преди да продължите. Да се активират ли администраторски права за това приложение?</string>
 </resources>

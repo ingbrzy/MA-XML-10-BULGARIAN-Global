@@ -64,7 +64,7 @@
     <string name="button_sure_abandon">Отмени промените?</string>
     <string name="card_vote_item_vs">За/Пр</string>
     <string name="change_alert">Проверете мрежовата връзка и опитайте отново</string>
-    <string name="china_version_first_start_network_msg">Използвайки този продукт, Вие се съгласявате с %1$s и %2$s на Xiaomi. За да Ви помогнем да получите по-точна информация за времето, Приложението за времето ще получи и обработи информация за Вашето местоположение, и има нужда от връзка с интернет. Съгласявате ли се?</string>
+    <string name="china_version_first_start_network_msg">Вие трябва да се съгласите с %1$s и %2$s на Xiaomi, за да можете да използвате Време. Време има нужда от достъп до Вашето местоположение и връзка с интернет, заа да работи нормално. Съгласявате ли се?</string>
     <string name="city_exceeded_warning">Можете да добавите до 10 града</string>
     <string name="common_loading_text">Един момент…</string>
     <string name="connect_fail">Не може да се свърже с мрежа, опитайте отново</string>
@@ -72,8 +72,9 @@
     <string name="content_desc_activity_main_add_city_manage">Редакция на градове</string>
     <string name="content_desc_activity_main_more_settings">Още настройки</string>
     <string name="content_desc_back_button">Назад</string>
+    <string name="content_desc_city_manage_del">Премахване</string>
+    <string name="content_desc_city_manage_edit">Редакция на градове</string>
     <string name="content_desc_close_button">Затвори</string>
-    <string name="content_desc_edit_city_manage">Редакция на градове</string>
     <string name="daily_forcast_no_stable_direction">Бриз</string>
     <string name="daily_forcast_no_wind">0</string>
     <string name="daily_forcast_weather_transfer">%1$s. %2$s по-късно.</string>
@@ -83,10 +84,12 @@
     <string name="daily_forecast_add_city_message">Следвайте времето в %1$s за по-подробна прогноза.</string>
     <string name="daily_forecast_add_city_title">Следвайте времето в %1$s</string>
     <string name="daily_forecast_detail_date">d.M</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Не можа да се получи информация за времето
 Издърпайте надолу, за да обновите или проверете мрежовите настройки"</string>
     <string name="data_provided_by">Информацията е предоставена от</string>
     <string name="edit_city">Редакция на град</string>
+    <string name="empty">" "</string>
     <string name="eu_region_version_first_start_network_msg">С използването на този продукт, Вие се съгласявате с това, че този продукт ще се свързва с мрежата, ще събира, обработва и използва Вашите лични данни, включително и координатите на търсените от Вас градове, както и други видове данни, описани в нашата Политика на поверителност. Запознайте се с нашата Политика на поверителност, за да разберете как събираме и обработваме информация. С натискане на \"Съгласявам се\" Вие приемате %1$s и %2$s на Xiaomi.</string>
     <string name="feedback_heavy_rain">Силен дъжд</string>
     <string name="feedback_heavy_snow">Сняг</string>
@@ -99,6 +102,8 @@
     <string name="first_start_network_title">Известие за свързване</string>
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="hourly_forcast_now">Сега</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="hourly_forecast_title_24_hours_desc">24-часова прогноза</string>
     <string name="hourly_forecast_title_hourly_desc">Почасова прогноза</string>
@@ -112,10 +117,12 @@
     <string name="indices_title_feel">Усеща се</string>
     <string name="indices_title_pressure">Налягане</string>
     <string name="install">Инсталирай</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_pressure_title">Налягане</string>
     <string name="international_details_real_feel_title">REAL FEEL®</string>
     <string name="international_details_title">Подробности</string>
     <string name="international_details_uv_index_title">UV индекс</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">Вятър</string>
     <string name="it_is_going_to_rain">Започва да вали</string>
     <string name="locate_fail_detail_err">"Не може да се локализира устройството
@@ -188,6 +195,7 @@
     <string name="share_menu_title">Споделяне</string>
     <string name="share_subject">Споделяне</string>
     <string name="share_weather_desc">\#MIUI Времето#Днес %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Не може да се направи екр. снимка</string>
     <string name="some_where_on_earth">Някъде по Земята</string>
@@ -223,7 +231,7 @@
     <string name="update_setting_title_text">Актуализиране на инф. за времето</string>
     <string name="updated_a_moment_ago">Обновено преди малко</string>
     <string name="updating">Актуализиране…</string>
-    <string name="user_agreement">Условия за използване</string>
+    <string name="user_agreement">Потребителско споразумение</string>
     <string name="video_dialog_no_play" />
     <string name="video_dialog_play" />
     <string name="video_dialog_subtitle" />

@@ -9,7 +9,7 @@
     <string name="passport_login">Вписване</string>
     <string name="passport_relogin">Ново вписване</string>
     <string name="passport_skip_login">Пропусни</string>
-    <string name="passport_skip_setup_account_title">Пропускане</string>
+    <string name="passport_skip_setup_account_title">Да не се ли използва Mi Cloud?</string>
     <string name="passport_skip_setup_account_msg">Може да настроите вашият Mi профил по-късно от \"Настройки\".</string>
     <string name="passport_confirm_login">Продължи</string>
     <string name="passport_find_password_on_web_msg">Посетете account.mi.com за възстановяване на вашата парола.</string>

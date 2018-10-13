@@ -30,12 +30,12 @@
     <string name="cloud_back_up_share_activity_title">Надграждане на Mi профил</string>
     <string name="cloud_back_up_share_activity_discription">Get more storage space, daily backups, and more.</string>
     <string name="cloud_back_up_share_activity_confirm">Надстройка</string>
-    <string name="cloud_back_up_detail_discription">"Тези елементи ще бъдат съхранени на Mi Cloud, когато устройството ви се свърже с Wi-Fi: 
-*\u0009\u0009\u0009\u0009Приложения, Начален екран и Тапети 
-*\u0009\u0009\u0009\u0009Аларма, Часовник и Настройки на часа 
-*\u0009\u0009\u0009\u0009Настройки за известия 
-*\u0009\u0009\u0009\u0009MIUI и Системни настройки 
-\"Забележка: Данните от инсталираните приложения няма да бъдат съхранени на Mi Cloud\""</string>
+    <string name="cloud_back_up_detail_discription">"Следните приложения и настройки ще се запазят в архива на Mi Облак, когато се свържете с Wi-Fi: 
+*  Приложения, Начален екран, тапети 
+*  Аларма, Часовник и настрики за час и дата 
+*  Настройки на известията 
+*  MIUI и системни настройки 
+“Забележка: Данните за приложенията, които са инсталирани допълнително няма да се архивират\""</string>
     <string name="cloud_app_no_data">Не са открити инсталирани по-рано приложения</string>
     <string name="cloud_app_restore_error">Не може да се възстанови</string>
     <string name="cloud_app_restore_success">Приложенията са възстановени</string>
@@ -45,10 +45,13 @@
     <string name="button_delete">Изтрий</string>
     <string name="customization"><u>Персонализиране</u></string>
     <string name="home_hint_global_launcher">Poco Начален екран</string>
-    <string name="self_phone">Този телефон</string>
-    <string name="self_phone_home">Този телефон: %s</string>
+    <string name="home_hint_other_launcher">Друг Начален екран</string>
+    <string name="self_device">"  на този телефон"</string>
+    <string name="main_space">Основно работно място</string>
+    <string name="second_space">Второ работно място</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s%3$s: %4$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s%3$s)</string>
     <string name="process_whole_recovery">Възстановяване \"%s\"</string>
-    <string name="device_xiaomi">Mi Phone</string>
     <string name="size_unknown">Неизвестен размер</string>
     <string name="recovering">Възстановява се %s</string>
     <string name="start_recover">Възстанови %s</string>
@@ -76,7 +79,6 @@
     <string name="open_wifi">Включване на Wi-Fi</string>
     <string name="open_wifi_description">Свързване към Wi-Fi мрежа за възстановяване на прил.</string>
     <string name="open_wifi_setting">Wi-Fi настройки</string>
-    <string name="name_model">%1$s на %2$s</string>
     <string name="download_settings">Изтегляне на настройките на нач. екран: %s%%</string>
     <string name="cloud_back_up_date_format">HH:mm dd.MM.yyyy</string>
     <string name="recover_home_settings">Възстановяване на настройките на нач. екран</string>
@@ -129,12 +131,18 @@
     <string name="restore_data_title">Възстановяване на данни</string>
     <string name="provision_error_connect_msg">Тествайте мрежовата връзка и опитайте отново. Архивите не са достъпни, когато вашето устройство е офлайн.</string>
     <string name="provision_error_connect_title">Не може да се свърже</string>
+    <string name="loading_user_backup">Зареждане на архив…</string>
+    <string name="loading_progress_num">(%s%%)</string>
+    <string name="error_num_placeholder">--</string>
     <string name="authentication_failed">Не може да се провери вашият Mi Профил.</string>
     <string name="no_account">Не сте вписан в Mi Профил.</string>
     <string name="no_backup">Няма резервно копие в Mi Облак.</string>
     <string name="download_meta_failed">Не може да се заредят данни.</string>
     <string name="home_restore_error">Неуспешно изтегляне на настройките на нач. екран</string>
     <string name="get_device_id_error">Не може да се получи ID на устройството</string>
+    <string name="unsupported_home">Моля актуализирайте до последната версия на системата.</string>
+    <string name="error_retry_later">Неуспешно, опитайте по - късно.</string>
+    <string name="try_continue">Чукнете за да продължите</string>
     <string name="download_home_data">Изтегляне на настройките на нач. екран…</string>
     <string name="restore_home_failed">Неуспешно изтегляне на настройките на нач. екран.</string>
     <string name="arrange_restore_order">Пренареждане на приложенията…</string>
@@ -145,6 +153,7 @@
     <string name="download_meta_again">Не може да се свали резервното копие, опитайте отново.</string>
     <string name="cancel_restore_home">Отменя се…</string>
     <string name="cancel_backup">Отмяна на резервно копие…</string>
+    <string name="load_backup_failed">Зареждането на резервните копия е неуспешно</string>
     <string name="dialog_title_require_wlan">Свържете се с Wi-Fi</string>
     <string name="dialog_msg_restore_require_wlan">Възстановяването от архивни копия изисква връзка с Wi-Fi.</string>
     <string name="dialog_btn_next">Следващо</string>

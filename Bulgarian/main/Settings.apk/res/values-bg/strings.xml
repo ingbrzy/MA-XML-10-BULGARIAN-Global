@@ -101,6 +101,7 @@
     <string name="accessibility_shortcut_service_on_lock_screen_title">Разрешаване за заключения екран</string>
     <string name="accessibility_shortcut_service_title">Услуга за прекия път</string>
     <string name="accessibility_summary_default_combination">%1$s/%2$s</string>
+    <string name="accessibility_summary_source">Предоставя се от%s</string>
     <string name="accessibility_summary_state_disabled">ИЗКЛЮЧЕНО</string>
     <string name="accessibility_summary_state_enabled">ВКЛЮЧЕНО</string>
     <string name="accessibility_sync_disabled">Синхронизирането е деактивирано</string>
@@ -892,19 +893,18 @@
     <string name="bootloader_device_bind_fail">Неуспешно влизане. Изчакайте малко и опитайте отново</string>
     <string name="bootloader_device_bind_msg">Добавя се профил и устройство…</string>
     <string name="bootloader_device_bind_no_account">Първо влезте в своя Mi Профил</string>
-    <string name="bootloader_device_bind_no_data_network">Turn off Wi-Fi and add your account and device using mobile data.</string>
+    <string name="bootloader_device_bind_no_data_network">Изключете WiFi и добавете вашият профил и устройство чрез използване на мобилни данни.</string>
     <string name="bootloader_device_bind_no_network">Свържете се с интернет и опитайте отново</string>
     <string name="bootloader_device_bind_no_sim">Сложете SIM карта и опитайте отново.</string>
     <string name="bootloader_device_bind_server_code">Не може да се добави. Код на грешка:</string>
-    <string name="bootloader_device_bind_server_token_expired_1">"Couldn't verify. Try adding your account and device again."</string>
-    <string name="bootloader_device_bind_server_token_expired_2">"Couldn't verify. Sign in to your account again and start over."</string>
+    <string name="bootloader_device_bind_server_token_expired_1">Не може да се потвърди. Опитайте се да добавите профила си и устройството отново.</string>
+    <string name="bootloader_device_bind_server_token_expired_2">Не може да се потвърди. Впишете се с Вашия профил и започнете отново.</string>
     <string name="bootloader_device_bind_sim_invalid">SIM картата е невалидна. Заменете я с друга и опитайте отново.</string>
     <string name="bootloader_locked_answer_1">Xiaomi заключва устройствата за да защити личните ви данни и да прекрати достъпа до тях. Ако искате да преинсталирате устройството в режим Fastboot трябва да го отключите.</string>
     <string name="bootloader_locked_answer_1_warning">Запомнете: Няма да може да използвате “Открий устройството“ след отключването на телефона.</string>
-    <string name="bootloader_locked_answer_2">"1. Make sure you've already inserted a SIM card into your device.
-2. Turn off Wi-Fi and turn on mobile data. Make sure your device can connect to the internet using mobile data.
-3. Tap \"Add account\" below to associate your Mi Account with this device.
-4. Download the unlock tool from our website. Note that you should unlock devices using a computer. Download here:"</string>
+    <string name="bootloader_locked_answer_2">"1. Уверете се, че вече сте поставили SIM карта във вашето устройство. Изключете WiFi и включете мобилните данни, като след това се уверете, че устройството използва интернет само през тях.
+2. Чукнете \"Добави Профил\" преди да свържете вашия профил с това устройство.
+3. Изтеглете инструмента за отключване от нашия уебсайт. Отбележете, че можете да отключите устройството само през компютъра си. Изтеглете оттук:"</string>
     <string name="bootloader_locked_answer_2_no_sim">"1. Чукнете \"Добави профил\" отдолу за да свържете вашия Mi Профил с това устройство.
 2. Изтеглете инструмента за отключване от нашия уебсайт. Обърнете внимание, че можете да отключите устройството само от компютър. Изтеглете оттук:"</string>
     <string name="bootloader_locked_check_status">Добавете профил и устройство</string>
@@ -923,6 +923,7 @@
     <string name="bootloader_status_unlocked">Отключено</string>
     <string name="bootloader_status_unlocked_info">Това устройство е отключено</string>
     <string name="bootloader_summary">Флашване на вашето устройство чрез USB</string>
+    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="breathing_light_color_menu_title">Цвят на LED</string>
     <string name="breathing_light_color_summary">Цвят на LED за нови известия</string>
     <string name="breathing_light_freq_summary">Мигане когато има нови известия</string>
@@ -1052,6 +1053,7 @@
     <string name="checking_decryption">Извършва се проверка…</string>
     <string name="checking_find_device_status">Проверява се статус на услугата \"Открий устройството\"…</string>
     <string name="checking_for_updates">Проверява се за актуализации…</string>
+    <string name="child_mode_settings">Родителски контрол</string>
     <string name="choose_a_card_to_reset">Изберете SIM карта за нулиране</string>
     <string name="choose_profile">Изберете профил</string>
     <string name="choose_smartcover_type">Изберете вид на калъфа</string>
@@ -1256,6 +1258,9 @@
     <string name="daltonizer_mode_tritanomaly">Тританомалия (синьо-жълт)</string>
     <string name="daltonizer_type">Режим на коригиране</string>
     <string name="daltonizer_type_overridden">Надхвърлено от %1$s</string>
+    <string name="dangerous_option">Опции на програмиста с висок риск</string>
+    <string name="dangerous_option_hint">%1$s е включена. Чукнете за промяна на настройките.</string>
+    <string name="dangerous_option_hint_title">Услуга с висок риск на ползване е включена</string>
     <string name="dashboard_title">Настройки</string>
     <string name="data_limit">Ограничение за данните</string>
     <string name="data_saver_off">Изключено</string>
@@ -1504,6 +1509,7 @@
     <string name="dialog_title_hdmi_color_calibration">Корекция на цветовете</string>
     <string name="dialog_title_login">Впишете се с вашия Mi Профил</string>
     <string name="dialog_yes">Да</string>
+    <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Забележка: Ще можете да използвате тази клавиатура след рестартиране само ако отключите устройството си.</string>
     <string name="disable_overlays">Изкл на хардуерно преизчертаване</string>
     <string name="disable_overlays_summary">Винаги използвай CPU за рендериране на екрана</string>
@@ -1564,6 +1570,7 @@
     <string name="dndm_auto_button_title">Повторете времето за Режим не безпокойте</string>
     <string name="dndm_auto_setting_group">Планирано</string>
     <string name="dndm_auto_time_setting">Задаване на време</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_off">До</string>
     <string name="dndm_auto_time_turn_off_title">Автоматично изключване на Режим не безпокойте</string>
     <string name="dndm_auto_time_turn_on">От</string>
@@ -1658,6 +1665,7 @@
     <string name="emergency_address_title">Актуализиране на адреса за спешни случаи</string>
     <string name="emergency_info_summary">Информация и контакти за %1$s</string>
     <string name="emergency_info_title">Информация за спешни случаи</string>
+    <string name="emergency_sos_title">Спешни повиквания</string>
     <string name="emergency_tone_alert">Сигнал</string>
     <string name="emergency_tone_silent">Тих режим</string>
     <string name="emergency_tone_summary">Задаване на поведение при спешно обаждане</string>
@@ -1817,8 +1825,8 @@
     <string name="factory_reset_summary">Изтриване на всички ваши данни от вътрешното хранилище на устройството</string>
     <string name="failed_to_check_find_device_status_content">Не може да се провери състоянието на \"Открий устройството\". Изчакайте малко и опитайте отново.</string>
     <string name="failed_to_check_find_device_status_title">Не може да се провери състоянието</string>
-    <string name="failed_to_erase_text">Turn off your Lock screen password before entering the \"1217\" code.</string>
-    <string name="failed_to_erase_title">"Can't complete this action"</string>
+    <string name="failed_to_erase_text">Изключете паролата си за заключен екран, преди да въведете код \"1217\".</string>
+    <string name="failed_to_erase_title">Действието не може да се извърши</string>
     <string name="failed_to_open_app_settings_toast">Неуспешно отваряне на настройките за %1$s</string>
     <string name="failed_to_shut_down_find_device_content">\"Открий устройството\" не може да се изключи. Изчакайте малко и опитайте отново.</string>
     <string name="failed_to_shut_down_find_device_title">Не може да се изключи</string>
@@ -1878,6 +1886,7 @@
     <string name="fingerprint_manage_tittle">Пръстов отпечатък</string>
     <string name="fingerprint_not_identified_msg">Пръстовият отпечатък не може да бъде прочетен. Въведете паролата си</string>
     <string name="fingerprint_not_recognized">Не е разпознато</string>
+    <string name="fingerprint_others_title">Друго</string>
     <string name="fingerprint_payment">Плащане с Пръстов отпечатък</string>
     <string name="fingerprint_removal_failed">Отпечатъкът не може да се премахне, опитайте по-късно</string>
     <string name="fingerprint_swipe_for_notifications_summary">За да проверите известията си, плъзнете пръст надолу през сензора за отпечатъци на гърба на телефона си.</string>
@@ -2023,6 +2032,7 @@
     <string name="gadget_picker_title">Избор на притурка</string>
     <string name="gadget_state_off">изключено</string>
     <string name="gadget_state_on">включено</string>
+    <string name="gadget_state_template">%1$s: %2$s</string>
     <string name="gadget_state_turning_off">изключва сe</string>
     <string name="gadget_state_turning_on">включва се</string>
     <string name="gadget_sync">Синхронизиране</string>
@@ -2063,6 +2073,15 @@
     <string name="gxzw_add_fingerprint_put_finger_message">Натиснете малко по-силно и махнете пръста си след като усетите вибрация. Повторете това няколко пъти.</string>
     <string name="gxzw_add_fingerprint_put_finger_title">Натиснете и махнете след вибрацията</string>
     <string name="gxzw_add_fingerprint_title">Добавете пръстов отпечатък</string>
+    <string name="gxzw_anim_light">Неон</string>
+    <string name="gxzw_anim_metal">Метал</string>
+    <string name="gxzw_anim_pulse">Пулс</string>
+    <string name="gxzw_anim_rhythm">Ритъм</string>
+    <string name="gxzw_anim_title">Анимация на пръстов отпечатък</string>
+    <string name="gxzw_dialog_message">За да използвате вградения в екрана пръстов отпечатък, не използвайте защитни проектори. Ако мислите че са необходими, изберете препоръчан за модела от Xiaomi.</string>
+    <string name="gxzw_dialog_not_show_again">Не показвай отново</string>
+    <string name="gxzw_dialog_ok">Разбрах</string>
+    <string name="gxzw_dialog_title">Информация за отключване с пръстов отпечатък</string>
     <string name="handy_mode">Режим с една ръка</string>
     <string name="handy_mode_enable">Режим с една ръка</string>
     <string name="handy_mode_size">Размер на екрана</string>
@@ -2333,6 +2352,7 @@
     <string name="lift_to_wake_title">Събуждане при повдигане</string>
     <string name="line_breaking_summary">Оптимизирай пренасянето на текста</string>
     <string name="line_breaking_title">Оптимизиране на текст</string>
+    <string name="link_speed">%1$d Мб/с</string>
     <string name="list_bg_header_text">Ако ограничите свързването във фонов режим, новите приложения няма да могат да се свързват към интернет, след като ги инсталирате. Това може да бъде проблем при получаването на съобщения и уведомления или изтегляне на информация.</string>
     <string name="list_empty_text">Празно</string>
     <string name="loading_notification_apps">Приложенията се зареждат...</string>
@@ -2463,7 +2483,7 @@
     <string name="lockpassword_choose_your_pin_header">Задайте своя PIN</string>
     <string name="lockpassword_choose_your_pin_header_second_space">"Задайте PIN 
  за Второ работно място"</string>
-    <string name="lockpassword_choose_your_pin_title">Въведете 4-16 цифри</string>
+    <string name="lockpassword_choose_your_pin_title" formatted="false">Въведете %d-%d цифри</string>
     <string name="lockpassword_confirm_for_second_user">Потвърдете вашата парола за Второ работно място</string>
     <string name="lockpassword_confirm_passwords_dont_match">Паролите не си съответстват</string>
     <string name="lockpassword_confirm_pins_dont_match">PIN кодовете не са идентични</string>
@@ -2688,6 +2708,7 @@
     <string name="memory_title">Свободни: %1$s\u0009\u0009Общо: %2$s</string>
     <string name="memory_usage">Използване на паметта</string>
     <string name="memory_usage_apps">Използвана от приложенията памет</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">Средно %1$s използвана памет през последните 3 часа</string>
     <string name="menu_cancel">Отхвърляне</string>
     <string name="menu_check">Опит</string>
@@ -2716,9 +2737,11 @@
     <string name="menu_use_uss">Използване на USS</string>
     <string name="mi_pay">Mi Портфейл</string>
     <string name="mi_pay_summary">Карта за автобус/Mi плащане/Симулация на карта</string>
+    <string name="mi_service">Mi Услуги</string>
     <string name="mi_service_app_detail">Детайли за употребата на данни</string>
     <string name="mi_shopping_mall">Mi Магазин</string>
     <string name="mi_upi_settings">Mi Pay Профил</string>
+    <string name="mipush_fake_channel_group_name">Mi Push</string>
     <string name="misc_files">Разни файлове</string>
     <string name="misc_files_selected_count">избрани са %1$d от %2$d</string>
     <string name="misc_files_selected_count_bytes">%1$s от %2$s</string>
@@ -2747,6 +2770,55 @@
     <string name="miui_lab_super_resolution_desc">Направи изображението отчетливо</string>
     <string name="miui_lab_super_resolution_title">Супер резолюция</string>
     <string name="miui_master_clear_summary">Изтрива всички данни на телефона</string>
+    <string name="miui_optimization_disabled">Изкл. на MIUI оптимизация</string>
+    <string name="miui_sos_audio_summary">Предайте съобщението след като контакта отговори</string>
+    <string name="miui_sos_audio_title">Спешно гласово съобщение</string>
+    <string name="miui_sos_call_log_duration">Продължителност</string>
+    <string name="miui_sos_call_log_min">мин</string>
+    <string name="miui_sos_call_log_none">Нямате история на повикванията от последния час.</string>
+    <string name="miui_sos_call_log_sec">сек</string>
+    <string name="miui_sos_call_log_stranger">Непознат номер</string>
+    <string name="miui_sos_call_log_summary">Изпращане на историята на повикванията от последния час до контактите ви за спешни случаи</string>
+    <string name="miui_sos_call_log_title">Изпращане на изстория на повикванията</string>
+    <string name="miui_sos_call_warning_sim_unable">Неуспешно изпращане на SMS.</string>
+    <string name="miui_sos_calling_summary">Вашето устройство ще извърши автоматично повикване до вашите контакти за спешни случаи със записано от вас съобщение. Обаждането ще приключи след доставяне на съобщението.</string>
+    <string name="miui_sos_calling_title">Авт. набиране</string>
+    <string name="miui_sos_contacts_add">Контакти за спешни случаи</string>
+    <string name="miui_sos_contacts_category">Контакти за спешни случаи</string>
+    <string name="miui_sos_emergency_contacts">Контакти за спешни случаи</string>
+    <string name="miui_sos_emergency_contacts_quantity">%d е добавен</string>
+    <string name="miui_sos_emergency_delivered_sms" formatted="false">%1s(%2s) вече е добавен</string>
+    <string name="miui_sos_emergency_delivered_sms_noname">%1s е добавен</string>
+    <string name="miui_sos_emergency_failed_sms" formatted="false">%1s(%2s) смс за спешен случай не е изпратен.</string>
+    <string name="miui_sos_emergency_failed_sms_noname">%1s съобщения не са изпратени.</string>
+    <string name="miui_sos_enable_switch_summary">Бързо натиснете бутона за включване 5 пъти за да изпратите смс за критична ситуация със вашето местоположение на вашите контакти за спешни случаи</string>
+    <string name="miui_sos_enable_switch_title">Спешни повиквания</string>
+    <string name="miui_sos_exit_dialog_cancel">Отмени</string>
+    <string name="miui_sos_exit_dialog_message">Активирахте Спешни повиквания. Вашето местоположение се изпраща на контактите ви за спешни случаи. Искате ли да го изключите?</string>
+    <string name="miui_sos_exit_dialog_ok">OК</string>
+    <string name="miui_sos_exit_dialog_title">Изключване на Спешни повиквания</string>
+    <string name="miui_sos_green_guard_summary">Споделяне на местоположение в реално време</string>
+    <string name="miui_sos_green_guard_title">Родителски контрол</string>
+    <string name="miui_sos_launch_error">Не може да се активират Спешни повиквания</string>
+    <string name="miui_sos_launch_error_confirm">Разбрах</string>
+    <string name="miui_sos_launch_error_message">Не може да се свърже с мрежата. Не можете да ползвате услугата Спешни повиквания.</string>
+    <string name="miui_sos_launching_summary">Активиране на Спешни случаи в %d</string>
+    <string name="miui_sos_launching_title">Спешни сигнали</string>
+    <string name="miui_sos_menu_add">Добавяне</string>
+    <string name="miui_sos_menu_edit">Редактиране</string>
+    <string name="miui_sos_msg_call_log_prefix">Това е историята ми на повикванията от последния час:</string>
+    <string name="miui_sos_play_voice">Възпроизвеждане на съобщение за спешен случай</string>
+    <string name="miui_sos_remind_add">Добавяне</string>
+    <string name="miui_sos_remind_infocontent">Добавих ви като контакт за спешни случаи. Ще получите съобщение с моето местоположение в случай на опасност. [Mi смс за спешни случаи]</string>
+    <string name="miui_sos_remind_open">Спешни случай има нужда от поне 1 контакт, за да работи нормално.</string>
+    <string name="miui_sos_remind_sendinfo">Не забравяйте да уведомите вашите контакти за спешни случаи, че те са във вашия списък за реакция. Така ще ви помогнат веднага след вашето спешно повикване.</string>
+    <string name="miui_sos_remind_sendnow">Изпращане сега</string>
+    <string name="miui_sos_remind_title">Внимание</string>
+    <string name="miui_sos_settings_alert_contacts_repeat">Не може да добавите дублиращ се контакт.</string>
+    <string name="miui_sos_settings_alert_contacts_too_many">Можете да добавите до 3 контакта за спешни случаи.</string>
+    <string name="miui_sos_settings_category">Настройки за спешни случаи</string>
+    <string name="miui_sos_statusbar_summary">Докоснете за да изключите</string>
+    <string name="miui_sos_statusbar_title">Спешното предаване е активирано</string>
     <string name="miui_touch_filtered_warning">Ако някое приложение е блокирано и се показва диалогов прозорец, провлачете го настрани или затворете приложението.</string>
     <string name="miui_updater">Системна актуализация</string>
     <string name="miui_userguide">Упътване за употреба</string>
@@ -2822,11 +2894,15 @@
     <string name="music_dirac_mode_general">Обикновени</string>
     <string name="music_dirac_mode_general_earbuds">Обикновени слушалки</string>
     <string name="music_dirac_mode_general_inear">Обикновени \"тапи за уши\"</string>
+    <string name="music_dirac_mode_half_in_ear">Mi слушалки на едно ухо</string>
     <string name="music_dirac_mode_headset">Mi Слушалки</string>
     <string name="music_dirac_mode_headset_comfort">Mi Комфорт</string>
     <string name="music_dirac_mode_in_ear">Mi in-ear headphones</string>
+    <string name="music_dirac_mode_in_ear2">Mi слушалки на две уши</string>
     <string name="music_dirac_mode_in_ear_2013">Mi In-Ear (2013)</string>
     <string name="music_dirac_mode_in_ear_pro">Mi In-Ear Pro</string>
+    <string name="music_dirac_mode_india_earphones">Mi Слушалки</string>
+    <string name="music_dirac_mode_india_earphones_basic">Mi Слушалки</string>
     <string name="music_dirac_mode_off">Изключено</string>
     <string name="music_dirac_mode_piston_1">Mi piston-1</string>
     <string name="music_dirac_mode_piston_100">Mi piston-1</string>
@@ -2938,6 +3014,7 @@
     <string name="nfc_how_it_works_got_it">Разбрах</string>
     <string name="nfc_how_it_works_title">Плащане на терминал</string>
     <string name="nfc_more_title">Още...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Основно приложение за плащане</string>
     <string name="nfc_payment_default_not_set">Не е зададено</string>
     <string name="nfc_payment_favor_default">Винаги използвайте приложението по подразбиране</string>
@@ -3149,6 +3226,7 @@
     <string name="overlay_display_devices_title">Симулиране на втори дисплей</string>
     <string name="overlay_settings">Показв. върху други приложения</string>
     <string name="owner_info_settings_edit_text_hint">Напр. „Устройството с Android на Иван“.</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Няма</string>
     <string name="owner_info_settings_title">Подпис на заключен екран</string>
     <string name="owner_space">Основно работно място</string>
@@ -3461,6 +3539,8 @@
     <string name="private_sms_recording_intro_header">Начертайте шаблон за отключване:</string>
     <string name="private_sms_reset_by_account">Влезте в Mi Профила си за нулиране на паролата</string>
     <string name="process_dex2oat_label">Оптимизиране на приложенията</string>
+    <string name="process_format">%1$s (%2$d)</string>
+    <string name="process_kernel_label">Android операционна система</string>
     <string name="process_mediaserver_label">Медиен сървър</string>
     <string name="process_provider_in_use_description">Доставчикът %1$s се използва.</string>
     <string name="process_service_in_use_description">Услугата %1$s се използва</string>
@@ -4084,6 +4164,7 @@ Wi-Fi телефония: %3$s
     <string name="security_encryption_attention_3">Вие сте на път да промените вашата парола за отключване на екрана.</string>
     <string name="security_encryption_attention_4">Уверете се, че сте запомнили вашата парола за заключване на екрана, в противен случай ще се наложи да извършите пълно нулиране и изтриване на цялата информация във вашето устройство.</string>
     <string name="security_encryption_attention_info">Вие можете да криптирате акаунти, настройки, инсталирани приложения и тяхната информация, медия или други файлове.</string>
+    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">Важно</string>
     <string name="security_encryption_close_dialog_info">Ако изберете да не криптирате устройството, използвайки парола за заключване на екрана, е възможно някои услуги на Google да не работят след това.</string>
     <string name="security_encryption_close_dialog_title">Връщане обратно към стандартната защита с парола</string>
@@ -4093,8 +4174,8 @@ Wi-Fi телефония: %3$s
     <string name="security_encryption_progress_dialog_open">Криптиране…</string>
     <string name="security_encryption_rejected_via_home_manager">Тази услуга не се поддържа в демо версия.</string>
     <string name="security_encryption_title">Криптирайте устройството си, като използвате парола за заключване на екрана</string>
-    <string name="security_input">Secure keyboard</string>
-    <string name="security_input_hint">Use secure keyboard when you enter passwords</string>
+    <string name="security_input">Сигурна клавиатура</string>
+    <string name="security_input_hint">Използвайте сигурна клавиатура, когато въвеждате пароли</string>
     <string name="security_keyguard_category_name">Заключен екран</string>
     <string name="security_password_category_name">Закл. на екрана</string>
     <string name="security_passwords_title">Поверителност</string>
@@ -4336,6 +4417,7 @@ Wi-Fi телефония: %3$s
     <string name="sim_reenter_new">Въведете пак новия ПИН код</string>
     <string name="sim_select_card">Изберете SIM карта</string>
     <string name="sim_selection_required_pref">Изборът е задължителен</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM карти</string>
     <string name="sim_setup_wizard_title">SIM карти</string>
     <string name="sim_signal_strength">%1$d dBm, %2$d asu</string>
@@ -4349,11 +4431,13 @@ Wi-Fi телефония: %3$s
     <string name="size_kilo_byte">КБ</string>
     <string name="size_mega_byte">МБ</string>
     <string name="size_peta_byte">ПБ</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">ТБ</string>
     <string name="skip_anyway_button_label">Пропускане въпреки това</string>
     <string name="skip_label">Пропускане</string>
     <string name="skip_lock_screen_confirm_msg">Известията, управлението на музикалния плеър и преките пътища няма да се показват на Закл. екран.</string>
     <string name="skip_step">Пропусни</string>
+    <string name="slight_pause">,</string>
     <string name="slot_number">(слот %1$d)</string>
     <string name="slot_status_title">Информация за IMEI</string>
     <string name="smallwindow_smartcover_title">Предна част на калъф с прозорец</string>
@@ -4374,6 +4458,12 @@ Wi-Fi телефония: %3$s
     <string name="sort_max_use">Сортиране по макс. използвана памет</string>
     <string name="sort_order_alpha">Сортиране по име</string>
     <string name="sort_order_size">Сортиране по размер</string>
+    <string name="sos_privacy_and_content_policy">Политика на поверителност</string>
+    <string name="sos_privacy_dialog_button_cancel">Отмяна</string>
+    <string name="sos_privacy_dialog_button_ok">Продължете</string>
+    <string name="sos_privacy_dialog_message">"Активирането на функцията Спешни случаи, моля потвърдете и прочетете %s. r
+ трябва да се активира за нормално използване на услугата. Тя ще изпраща вашето местоположение, използването на мобилни данни и ще има достъп до контактите ви, моля потвърдете?"</string>
+    <string name="sos_privacy_dialog_title">Условия за ползване</string>
     <string name="sound_category_call_ringtone_vibrate_title">Тон на звънене и звуци за известия</string>
     <string name="sound_category_sound_title">Общи</string>
     <string name="sound_category_system_title">Система</string>
@@ -4426,9 +4516,10 @@ Wi-Fi телефония: %3$s
     <string name="status_bar_settings_all_app_display_loading">Зарежда се…</string>
     <string name="status_bar_settings_app_notification_preferences">Настройки на приложенията</string>
     <string name="status_bar_settings_basic_settings">Основни настройки</string>
+    <string name="status_bar_settings_carrier_sim">SIM %1$s:</string>
     <string name="status_bar_settings_custom_carrier">Име на оператора по избор</string>
     <string name="status_bar_settings_custom_wifi_name">Редактирай името на Wi-Fi</string>
-    <string name="status_bar_settings_customer_feedback">Отзив</string>
+    <string name="status_bar_settings_customer_feedback">feedback</string>
     <string name="status_bar_settings_enable_notification">Разрешаване на известия</string>
     <string name="status_bar_settings_function_description">Относно тази функция</string>
     <string name="status_bar_settings_long_click_sort">Дълго натискане за сортиране</string>
@@ -4667,6 +4758,7 @@ Wi-Fi телефония: %3$s
     <string name="suggestions_title">Предложения</string>
     <string name="sum_carrier_select">Избиране на мрежов оператор</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_range_symbol_combination">от %1$s до %2$s</string>
     <string name="summary_range_verbal_combination">от %1$s до %2$s</string>
     <string name="super_resolution_access_title">Достъпни приложения</string>
     <string name="super_resolution_desc">Направи изображението отчетливо чрез използване на AI алгоритъм</string>
@@ -4706,6 +4798,7 @@ Wi-Fi телефония: %3$s
     <string name="suw_back_button_label">Назад</string>
     <string name="suw_more_button_label">Още</string>
     <string name="suw_next_button_label">Напред</string>
+    <string name="switch_access_service_on">Промяна на достъп</string>
     <string name="switch_off_text">Изключване</string>
     <string name="switch_on_text">Включено</string>
     <string name="switch_screen_button_order">Огледални бутони</string>
@@ -4716,7 +4809,7 @@ Wi-Fi телефония: %3$s
     <string name="sync_calendar">Календар</string>
     <string name="sync_contacts">Контакти</string>
     <string name="sync_disabled">Синхр. е ИЗКЛЮЧЕНО</string>
-    <string name="sync_enable">Синхр</string>
+    <string name="sync_enable">Синхронизация</string>
     <string name="sync_enabled">Синхр. е ВКЛЮЧЕНО</string>
     <string name="sync_error">Грешка при синхр.</string>
     <string name="sync_failed">Синхронизирането не бе успешно</string>
@@ -4725,12 +4818,12 @@ Wi-Fi телефония: %3$s
     <string name="sync_is_failing">Синхронизирането понастоящем среща проблеми. Ще продължи скоро.</string>
     <string name="sync_menu_sync_cancel">Анулиране на синхронизирането</string>
     <string name="sync_menu_sync_now">Синхрон сега</string>
-    <string name="sync_now">Синхр</string>
+    <string name="sync_now">Синхронизация</string>
     <string name="sync_one_time_sync">"Докоснете, за да синхронизирате сега (
 %1$s)"</string>
     <string name="sync_plug"><font fgcolor="#ffffffff">Добре дошли в Google Синхронизиране!</font>"
 Подходът на Google към синхронизирането на данни, за да ви осигурим достъп до контактите ви, срещите ви и много други неща, където и да сте."</string>
-    <string name="sync_settings">Синхр</string>
+    <string name="sync_settings">Синхронизация</string>
     <string name="sync_wifi_label">Wi-Fi</string>
     <string name="sync_wifi_only">Само по Wi-Fi</string>
     <string name="system">Система</string>
@@ -4755,6 +4848,7 @@ Wi-Fi телефония: %3$s
     <string name="system_update_settings_list_item_title">Актуализации на системата</string>
     <string name="talkback_summary">Екранен четец, предимно за хора със слепота и слабо зрение</string>
     <string name="talkback_title">TalkBack</string>
+    <string name="talkback_watermark_enable">TalkBack запазена марка</string>
     <string name="tap_to_wake">Докоснете за „събуждане“</string>
     <string name="tap_to_wake_summary">Докоснете два пъти произволно място на екрана, за да „събудите“ устройството</string>
     <string name="taplus_title">Асистент за проследяване</string>
@@ -4991,7 +5085,7 @@ Wi-Fi телефония: %3$s
     <string name="unlock_set_unlock_password_title">Парола</string>
     <string name="unlock_set_unlock_pattern_summary">Начертайте прост шаблон с пръста си за да отключите устройството</string>
     <string name="unlock_set_unlock_pattern_title">Фигура</string>
-    <string name="unlock_set_unlock_pin_summary">Въведете 4-16 числа за отключване на устройството</string>
+    <string name="unlock_set_unlock_pin_summary" formatted="false">Въведете %d-%d числа за отключване на устройството</string>
     <string name="unlock_set_unlock_pin_title">PIN</string>
     <string name="unlock_set_unlock_summary">Настройване на заключване на екран</string>
     <string name="unlock_setup_wizard_fingerprint_details">След като сте настроили заключване на екрана, можете да настроите и отпечатъка си от „Настройки“ > „Сигурност“.</string>
@@ -5660,9 +5754,11 @@ Wi-Fi телефония: %3$s
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_none">Няма</string>
     <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>

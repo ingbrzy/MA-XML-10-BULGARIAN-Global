@@ -113,6 +113,10 @@
     <string name="cleanup_power">Дълбоко почистване</string>
     <string name="company">Работа</string>
     <string name="company_or_school">Работа или училище</string>
+    <string name="cricket_content_provider">Доставчик на съдържание</string>
+    <string name="cricket_fixtures_label">Спортни събития с определена дата</string>
+    <string name="cricket_news_label">Новини</string>
+    <string name="cricket_select_series">Изберете вашата любима серия</string>
     <string name="cta_desc">Събиране на важни преки пътища и информация точно тук.</string>
     <string name="cta_dialog_negative">Изход</string>
     <string name="cta_dialog_positive">Приемам</string>
@@ -234,6 +238,7 @@
     <string name="scan_code">QR код</string>
     <string name="scan_doc">Документ</string>
     <string name="scan_parent">Скенер</string>
+    <string name="search_card_view_date">EE г.м.д</string>
     <string name="search_tip">Търсене…</string>
     <string name="security">Сигурност</string>
     <string name="service_unavailiable">Свържете се с интернет и опитайте отново.</string>

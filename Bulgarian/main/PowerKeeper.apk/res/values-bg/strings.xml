@@ -92,4 +92,6 @@
     <string name="active_classify">Сортиране по състояние на активност</string>
     <string name="extreme_mode_max_item_alert">Вие сте избрали най-много 4 приложения да работят във фонов режим</string>
     <string name="message_i_know">Разбрах</string>
+    <string name="high_temp_state">Защита от прегряване</string>
+    <string name="high_temp_state_message">Защита от прегряване, мобилни данни, безжични връзки, камера и др. подобни ще бъдат ограничени</string>
 </resources>

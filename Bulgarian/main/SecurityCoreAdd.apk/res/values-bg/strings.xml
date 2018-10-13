@@ -278,8 +278,8 @@
     <string name="xpsace_guide_button">Създай</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">Не може да се открият приложения</string>
-    <string name="confirm_close_password_title">Turning off password</string>
-    <string name="confirm_close_password_desc">"You won't be able to enter Second space from the Lock screen after you turn the password off. Turn off anyway?"</string>
+    <string name="confirm_close_password_title">Изключване на паролата</string>
+    <string name="confirm_close_password_desc">Няма да можете да използвате Второ работно място от Закл. екран, след като изключите паролата. Изключи въпреки това?</string>
     <string name="xspace_weixin_title">WeChat</string>
     <string name="weixin_pay">WeChat Pay</string>
     <string name="weixin_share_sign">Впишете се и споделете</string>
