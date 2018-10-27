@@ -108,6 +108,8 @@
     <string name="card_title_utilities">Услуги</string>
     <string name="check_network">Проверете мрежовите си настройки</string>
     <string name="check_network_retry">Проверете мрежовите настройки и опитайте отново</string>
+    <string name="clean_grabage">Почистване</string>
+    <string name="clean_now">Проверка</string>
     <string name="cleanup_garbage">Изчистване</string>
     <string name="cleanup_memory">Изчистване на кеша</string>
     <string name="cleanup_power">Дълбоко почистване</string>
@@ -129,6 +131,7 @@
     <string name="cta_negative">Затвори</string>
     <string name="cta_positive">Подробни данни</string>
     <string name="cta_title">Оставете на приложението да ви помогне</string>
+    <string name="current_optimization_value">Рисковете намаляват сигурността на Вашето устройство</string>
     <string name="data_error">Неочаквана грешка. Моля, изчакайте минута-две и опитайте отново.</string>
     <string name="data_error_show">Поръчката е завършена, не може да се видят подробности.</string>
     <string name="donnot_ask">Не питай отново</string>
@@ -225,7 +228,11 @@
     <string name="ola_trip">Повикване на такси</string>
     <string name="ola_trip_content">Изчисли цената на билета и се обади през Ola</string>
     <string name="ola_trip_content_detail">Изчисли средната цена и се обади през Ola.</string>
+    <string name="optimizate_now">Оптимизирай</string>
+    <string name="optimization">Оценка на сигурността</string>
     <string name="phone_check">Оптимизация</string>
+    <string name="phone_has_garbage">Траш файловете могат да забавят Вашето устройство</string>
+    <string name="phone_has_virus">Злонамереният софтуер и вирусите представляват риск за сигурността</string>
     <string name="place_label">Чести места</string>
     <string name="record_name">Запис</string>
     <string name="record_parent">Записващо устройство</string>
@@ -241,6 +248,7 @@
     <string name="search_card_view_date">EE г.м.д</string>
     <string name="search_tip">Търсене…</string>
     <string name="security">Сигурност</string>
+    <string name="security_brief">Защитете Вашето устройство и почистете хранилището</string>
     <string name="service_unavailiable">Свържете се с интернет и опитайте отново.</string>
     <string name="set_home_failed">Не можах да добавя адрес, опитайте отново.</string>
     <string name="set_office_failed">Не можах да добавя адрес, опитайте отново.</string>
@@ -353,6 +361,7 @@
     <string name="upgrade_now">Актуализирай</string>
     <string name="user_id">ID на потребител:%s</string>
     <string name="utilities_apps_bref">Разгледайте услугите на трети страни тук</string>
+    <string name="virus_scan">Сканиране за вируси</string>
     <string name="walk">Ходене</string>
     <string name="webull_title">Webull</string>
     <string name="which_transport">Как обикновено получавате вашата дестинация?</string>

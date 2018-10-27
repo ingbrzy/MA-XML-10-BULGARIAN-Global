@@ -18,6 +18,17 @@
     <string name="common_open_on_phone">Отваряне на телефона</string>
     <string name="common_signin_button_text">Вход</string>
     <string name="common_signin_button_text_long">Вход с Google</string>
+    <string name="exo_controls_fastforward_description">Превъртане напред</string>
+    <string name="exo_controls_next_description">Следващ запис</string>
+    <string name="exo_controls_pause_description">Пауза</string>
+    <string name="exo_controls_play_description">Пускане</string>
+    <string name="exo_controls_previous_description">Предишен запис</string>
+    <string name="exo_controls_repeat_all_description">Повтаряне на всички</string>
+    <string name="exo_controls_repeat_off_description">Без повтаряне</string>
+    <string name="exo_controls_repeat_one_description">Повтаряне на един елемент</string>
+    <string name="exo_controls_rewind_description">Превъртане назад</string>
+    <string name="exo_controls_shuffle_description">Разбъркване</string>
+    <string name="exo_controls_stop_description">Спиране</string>
     <string name="s1">Запазване на изображението</string>
     <string name="s2">Да се разреши ли на рекламата да съхрани изображение в галерията със снимки?</string>
     <string name="s3">Приемам</string>
@@ -25,11 +36,12 @@
     <string name="s5">Създаване на събитие в календара</string>
     <string name="s6">Да се разреши ли на рекламата да създаде събитие в календара?</string>
     <string name="s7">Тестова реклама</string>
-    <string name="abc_action_bar_home_description">Отидете в началната страница</string>
-    <string name="abc_action_bar_up_description">Нагоре</string>
-    <string name="abc_action_menu_overflow_description">Повече</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="abc_action_bar_home_description">Придвижване към „Начало“</string>
+    <string name="abc_action_bar_up_description">Придвижване нагоре</string>
+    <string name="abc_action_menu_overflow_description">Още</string>
     <string name="abc_action_mode_done">Готово</string>
-    <string name="abc_action_mode_select_all">Избиране на всички</string>
+    <string name="abc_action_mode_select_all">Избор на всички</string>
     <string name="accept_cookies_confirm_message">Изключването на функцията може да предизвика неправилно показване на някой страници.</string>
     <string name="accessibility_button_clear">Изчисти въведеното</string>
     <string name="account_prifix">Профил:</string>
@@ -147,6 +159,7 @@
     <string name="cannot_download">Може да изтегляте само от адреси, които започват с \"http\" и \"https\".</string>
     <string name="card_setting_close_recommend">Получавайте препоръки</string>
     <string name="cast_video">Снимайте видео</string>
+    <string name="change_news_language">Смяна на езика за новините?</string>
     <string name="channels_edit">Редактиране</string>
     <string name="channels_finish">Готово</string>
     <string name="choosertitle_sharevia">Сподели чрез:</string>
@@ -240,6 +253,7 @@
     <string name="document_open_other">Други приложения</string>
     <string name="document_open_title">Отваряне с</string>
     <string name="dont_remind_again">Не напомняй отново</string>
+    <string name="download_btn">Download</string>
     <string name="download_btn_select_all">Избери всички</string>
     <string name="download_btn_select_none">Размаркирай всички</string>
     <string name="download_complete">Изтеглянето е успешно</string>
@@ -330,6 +344,7 @@
     <string name="go_supermarket_title">Повече приложения, по-бърза скорост и икономия на трафика в App Store</string>
     <string name="gold_medals">Златни медали</string>
     <string name="google_bookmarks">Google:</string>
+    <string name="hash_tag">\# %1$s</string>
     <string name="have_sent_bookmark_to_home_screen">Отметката е запазена на началните екрани</string>
     <string name="hint">Съвет</string>
     <string name="history">Хронология</string>
@@ -731,6 +746,8 @@
     <string name="mw_snippets_disabled_generic_prompt">Получете персонализирано съдържание</string>
     <string name="mw_snippets_disabled_signed_out_instructions">За да получите персонализирано съдържание, препоръчано от Google, се впишете в Chrome.</string>
     <string name="mw_time_picker_dialog_am">сутрин</string>
+    <string name="mw_time_picker_dialog_hour_minute_separator">:</string>
+    <string name="mw_time_picker_dialog_minute_second_separator">:</string>
     <string name="mw_time_picker_dialog_pm">вечер</string>
     <string name="mw_time_picker_dialog_second_subsecond_separator">.</string>
     <string name="mw_time_picker_dialog_title">Задайте време</string>
@@ -964,6 +981,7 @@
     <string name="remove_snapshot">Изтрий записаната страница</string>
     <string name="removed_from_bookmarks">Изтрито от отметките.</string>
     <string name="replace">Замени</string>
+    <string name="replay">Play again</string>
     <string name="reply_comment_title">Отговор: %s</string>
     <string name="resume_download">Старт</string>
     <string name="retry_after_network_available">Няма връзка с мрежата</string>
@@ -1027,10 +1045,11 @@
     <string name="sendstartpage">Начална страница</string>
     <string name="share_image_text">Вижте какво споделих! @MIUI</string>
     <string name="share_page_text">Вижте какво споделих: %1$s @MIUI| %2$s</string>
+    <string name="share_slide_video_text">Look what I shared: %1$s</string>
     <string name="share_video">Споделете видеото</string>
     <string name="sign_in_to" formatted="false">Влизане в %s1 %s2\"</string>
     <string name="site_sort_des">Пренареди елементите</string>
-    <string name="skip_button_label">Пропусни</string>
+    <string name="skip_button_label">Пропускане</string>
     <string name="skip_current_version">Пропусни тази версия</string>
     <string name="snapshot">Локално</string>
     <string name="snapshot_failed">Неуспешно запазване на страницата</string>
@@ -1163,6 +1182,9 @@
     <string name="video_unknown_duration">Не може да се определи продължителността на видео файла</string>
     <string name="view_certificate">Преглед на сертификата</string>
     <string name="view_document_downloaded_files">Преглед на изтеглянията</string>
+    <string name="view_source">View source</string>
+    <string name="vmate_download_content">Enjoy all prank, comedy, music, dance videos</string>
+    <string name="vmate_download_title">India’s most Entertaining App</string>
     <string name="voice_check_network">Проверете мрежовите настройки и опитайте отново.</string>
     <string name="voice_connect_network">Не можах да се свържа с мрежа.</string>
     <string name="voice_description">Гласово търсене</string>

@@ -435,6 +435,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Ефект дълбочина</string>
     <string name="portrait_mode_use_hint">"Режим Портрет замъглява задния план, 
 и по този начин лицата на хората изпъкват ясно на преден план."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Изпробвайте режим Портрет.
  Направете обекта ясен и замъглете фона."</string>
     <string name="pref_camera_square_mode_title">Квадрат</string>
@@ -451,6 +452,7 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средно</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Режими</string>
     <string name="button_front_camera_title">Направете селфи</string>
     <string name="button_normal_video_title">Запишете видео</string>
@@ -564,4 +566,8 @@
     <string name="lighting_pattern_shutter">Щори</string>
     <string name="view_privacy_policy">Виж Политиката на поверителност</string>
     <string name="fps960_toast">Заснемането на забавен кадър ще започне когато таймерът достигне бялата точка</string>
+    <string name="portrait_bokeh_text">Режим Портрет</string>
+    <string name="portrait_bokeh_first_tips">"Използвайте режим Портрет за да замъглите
+ фона около вашите снимки"</string>
+    <string name="portrait_bokeh_tips">Поставете обекта на разстояние до 1.5 метра</string>
 </resources>

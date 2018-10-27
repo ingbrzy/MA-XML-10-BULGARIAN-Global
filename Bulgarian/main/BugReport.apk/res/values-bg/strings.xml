@@ -57,6 +57,7 @@
     <string name="save_pic_success">Запазване на изобр. в %s</string>
     <string name="save_pic_fail">Не може да се запази изобр. Прегледайте SD-картата си</string>
     <string name="pic_not_exist">Това изобр. не съществува</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Изберете продукт</string>
     <string name="michat_skillset_business_type_title">Изберете услуга</string>
     <string name="michat_close_text">Чатът е затворен</string>
@@ -291,8 +292,8 @@
     <string name="warning_field_invalid">Изберете валидно %1$s</string>
     <string name="min_error">Вашият %1$s трябва да е по-дълъг.</string>
     <string name="max_error">Вашия %1$s трябва да е по-кратък.</string>
-    <string name="reply_option_log_hint">По избор</string>
-    <string name="reply_select_log_hint">Изберете лог файл</string>
+    <string name="reply_option_log_hint">По желание</string>
+    <string name="reply_select_log_hint">Избери регистър</string>
     <string name="title_mi_family">Mi Homes наблизо</string>
     <string name="hint_feedback_main">Опишете вашия проблем</string>
     <string name="goon_feedback_main">Напред</string>
@@ -332,5 +333,34 @@
     <string name="customer_service_apply">Запитване към Обслужване на клиенти</string>
     <string name="customer_service_complain">Докладвайте на Обслужване на клиенти</string>
     <string name="customer_service_station">Местопол на Обслужване на клиенти</string>
+    <string name="title_catch_full_log">Регистри</string>
+    <string name="toast_catch_full_log_catching">Не можете да създавате много регистри на един път.</string>
+    <string name="catch_full_log_item_title_signal">Телефон, сигнал и мобилни мрежи</string>
+    <string name="catch_full_log_item_title_wifi">Wi-Fi и Mi Drop</string>
+    <string name="catch_full_log_item_title_gps">Услуги за местоположението</string>
+    <string name="catch_full_log_item_title_audio">Звук, запис на звук и звук при обаждане</string>
+    <string name="catch_full_log_item_title_sensor">Сензори</string>
+    <string name="catch_full_log_item_title_bt">Bluetooth</string>
+    <string name="catch_full_log_item_title_dump_heap">Регистриране</string>
+    <string name="catch_full_log_item_content_need_open">"Изпълнете следните стъпки: 
+1. Натиснете \"Създай регистър\". 
+2. Върнете се на услугата, която искате да докладвате и я стартирайте отново. 
+3. Върнете се обратно в менюто за регистри и натиснете \"Завърши и изпрати\"."</string>
+    <string name="catch_full_log_item_content_catch_direct">"Стъпки: 
+1. Върнете се на услугата, която искате да докладвате и я стартирайте отново. 
+2. Върнете се обратно в менюто за регистри и натиснете \"Завърши и изпрати\"."</string>
+    <string name="catch_full_log_action_start">Създай регистър</string>
+    <string name="catch_full_log_action_complete">Завърши и изпрати</string>
+    <string name="catch_full_log_action_cancel">Отказ</string>
+    <string name="catch_full_log_dialog_content">MIUI създава регистър. Това може да окаже влияние върху производителността на вашето устройство. Ако не можете да включите отново услугата, която искате да докладвате, върнете се обратно в менюто на регистрите и натиснете \"Отказ\".</string>
+    <string name="catch_full_log_dialog_confirm_text">Отиди на Начален екран</string>
+    <string name="catch_full_log_notification_title">Създава се регистър…</string>
+    <string name="catch_full_log_notification_content">Докоснете, за връщане към регистри</string>
+    <string name="catch_full_log_start_dump_hprof">Създава се регистър</string>
+    <string name="catch_full_log_dump_hprof_failed">Не може да се създаде регистър</string>
+    <string name="catch_full_log_add_original_photo">Добави снимка</string>
+    <string name="catch_full_log_add_photo_dialog_content">Ако проблемът, който докладвате е свързан с качеството на камерата, добавете оригинална обикновена снимка, която да не е изрязана, за да ни помогнете да определим проблема. Добавяне на снимка сега?</string>
+    <string name="catch_full_log_submit_directly">Приеми</string>
+    <string name="catch_full_log_add_photo">Добави снимка</string>
     <string name="select_system_app_tag">Изберете даден проблем</string>
 </resources>

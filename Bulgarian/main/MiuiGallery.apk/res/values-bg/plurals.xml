@@ -76,6 +76,10 @@
         <item quantity="other">%d клипа</item>
         <item quantity="one">%d клип</item>
     </plurals>
+    <plurals name="creation_max_image">
+        <item quantity="other">Изберете до %d снимки</item>
+        <item quantity="one">Изберете до %d снимка</item>
+    </plurals>
     <plurals name="custom_select_title_items_selected">
         <item quantity="other">Избрани %d елементи</item>
         <item quantity="one">Избран %d елемент</item>
@@ -259,9 +263,5 @@
     <plurals name="sync_total_count">
         <item quantity="other">%d елемента</item>
         <item quantity="one">%d елемент</item>
-    </plurals>
-    <plurals name="creation_max_image">
-        <item quantity="other">Select up to %d photos</item>
-        <item quantity="one">Select up to %d photo</item>
     </plurals>
 </resources>

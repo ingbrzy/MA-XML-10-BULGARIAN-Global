@@ -49,6 +49,8 @@
     <string name="self_device">"  на този телефон"</string>
     <string name="main_space">Основно работно място</string>
     <string name="second_space">Второ работно място</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s%3$s: %4$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s%3$s)</string>
     <string name="process_whole_recovery">Възстановяване \"%s\"</string>
     <string name="size_unknown">Неизвестен размер</string>
     <string name="recovering">Възстановява се %s</string>
@@ -130,6 +132,8 @@
     <string name="provision_error_connect_msg">Тествайте мрежовата връзка и опитайте отново. Архивите не са достъпни, когато вашето устройство е офлайн.</string>
     <string name="provision_error_connect_title">Не може да се свърже</string>
     <string name="loading_user_backup">Зареждане на архив…</string>
+    <string name="loading_progress_num">(%s%%)</string>
+    <string name="error_num_placeholder">--</string>
     <string name="authentication_failed">Не може да се провери вашият Mi Профил.</string>
     <string name="no_account">Не сте вписан в Mi Профил.</string>
     <string name="no_backup">Няма резервно копие в Mi Облак.</string>

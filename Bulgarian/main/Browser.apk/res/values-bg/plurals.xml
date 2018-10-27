@@ -84,6 +84,10 @@
         <item quantity="other">Вижте %1$d нови видео клипове</item>
         <item quantity="one">Вижте %1$d нов видео клип</item>
     </plurals>
+    <plurals name="view_count">
+        <item quantity="other">%1$d views</item>
+        <item quantity="one">%1$d view</item>
+    </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Ясно</item>
         <item quantity="one">Ясно</item>

@@ -35,7 +35,7 @@
     <string name="skip_underline">Пропусни тази стъпка</string>
     <string name="sim_dectection_next">Продължи</string>
     <string name="shut_down">Изключване</string>
-    <string name="sim_redetection">Провери отново за SIM карта</string>
+    <string name="sim_redetection">Провери отново</string>
     <string name="navigation_picker_gesture_guide">Упътване за жестове</string>
     <string name="congratulation_title">Поздравления!!</string>
     <string name="congratulation_label">Насладете се на новият си телефон :)</string>

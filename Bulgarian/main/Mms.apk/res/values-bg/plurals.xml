@@ -20,6 +20,10 @@
         <item quantity="other">%d избрани</item>
         <item quantity="one">%d избрани</item>
     </plurals>
+    <plurals name="delivery_toast_body_more_plurals">
+        <item quantity="other">Съобщението е получено от %1$s и %2$d други души</item>
+        <item quantity="one">Съобщението е получено от %1$s и %2$d друг човек</item>
+    </plurals>
     <plurals name="group_message_failed_title">
         <item quantity="other">Неуспешно изпращане до %d контакта</item>
         <item quantity="one">Неуспешно изпращане до %d контакт</item>

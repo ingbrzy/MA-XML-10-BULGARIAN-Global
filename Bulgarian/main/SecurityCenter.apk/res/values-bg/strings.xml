@@ -19,7 +19,9 @@
     <string name="exo_download_notification_channel_name">Изтегляния</string>
     <string name="exo_download_removing">Изтеглянията се премахват</string>
     <string name="exo_item_list">%1$s – %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Автоматично</string>
     <string name="exo_track_selection_none">Нищо</string>
     <string name="exo_track_selection_title_audio">Аудиозапис</string>
@@ -205,7 +207,7 @@
     <string name="report_only">Изберете съобщение за докладване</string>
     <string name="report_success">Съобщението е докладвано</string>
     <string name="report_error">Съобщението не може да се докладва</string>
-    <string name="report_warning">"Report %1$s SMS to Mi? These messages and phone numbers they were sent from will be uploaded to Mi's servers for review. Any personal info associated with these messages is always kept anonymous."</string>
+    <string name="report_warning">Да се докладват ли %1$s SMS на Mi? Съобщенията и телефонните номера, от които са изпратени, ще бъдат изпратени за проверка до сървърите на Mi. Всички лични данни, свързани със тези съобщения, винаги ще бъдат пазени в анонимност.</string>
     <string name="report_warning_title">Внимание</string>
     <string name="st_sub_title_customize_mode_name">Име</string>
     <string name="read_all_sms">Прочети всички</string>
@@ -455,6 +457,7 @@
     <string name="managed_user_title">Всички работни приложения</string>
     <string name="pref_about_traffic_title">Настройка на трафика</string>
     <string name="pref_traffic_manage_title">Използвани данни</string>
+    <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_package_traffic_settings">План за данни</string>
     <string name="pref_adjust_traffic_data">Задаване на изп. на данни</string>
     <string name="pref_category_title_other">Допълнитени настройки</string>
@@ -660,7 +663,7 @@
     <string name="tc_sms_report_notify_correction_body">Отидете в приложението Монитор за данни в Оптимизация и опитайте отново ръчно.</string>
     <string name="tc_sms_report_notify_get_failure_body">Неуспешно изпращане на доклад. Проверете параметрите на мрежата.</string>
     <string name="tc_sms_report_tips_dialog_title">SMS доклад за трафика</string>
-    <string name="tc_sms_report_tips_dialog_message">"An SMS is sent to get the latest data usage info from your carrier. If you think the info isn't correct, send us your feedback."</string>
+    <string name="tc_sms_report_tips_dialog_message">Ще бъде изпратен SMS, за да се получи актуална информация за изразходваните мобилни данни от вашия оператор. Ако смятате, че информацията не е правилна, оставете ни обратна връзка.</string>
     <string name="tc_sms_report_get_sms_failure">Не мога да получа информация за използвани данни</string>
     <string name="tc_sms_report_get_sms_timeout">Времето на заявката изтече</string>
     <string name="tc_sms_report_get_sms_successs">Информацията за изразходвани данни бе успешно обновена</string>
@@ -972,6 +975,7 @@
     <string name="om_formatted_percent_string">%s%%</string>
     <string name="om_cpu_usage_warn_title_text">"Това приложение може да забави прекалено много
 вашето устройство"</string>
+    <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_ill_proc_handle_unstaill_title">Деинсталиране на %s?</string>
     <string name="om_ill_proc_handle_uninstall_prompt">Деинсталирайте това приложение, за да поправите проблем с прекален разход на батерията.</string>
     <string name="om_ill_proc_type_wakelock_title">Това приложение блокира режим сън на устройството и изразходва много батерия</string>
@@ -1016,7 +1020,7 @@
     <string name="menu_item_force_stop">Затваряне</string>
     <string name="menu_item_uninstall">Деинсталиране</string>
     <string name="menu_item_app_details">Детайли</string>
-    <string name="details_subtitle">Usage details</string>
+    <string name="details_subtitle">Детайли за употреба</string>
     <string name="packages_subtitle">Включени пакети</string>
     <string name="battery_desc_standby">Използвана при неактивно устройство батерия</string>
     <string name="battery_desc_radio">Батерия, използване от клетъчно радио</string>
@@ -1030,6 +1034,7 @@
     <string name="usage_type_data_send">Изпратени мобилни данни</string>
     <string name="usage_type_no_coverage">Време без сигнал</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android операционна система</string>
     <string name="process_mediaserver_label">Медиен сървър</string>
     <string name="power_screen">Екран</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1124,7 +1129,6 @@
     <string name="deep_save_ontime_boot_shutdown_summary">Включване и изключване на устройството по график</string>
     <string name="btn_text_quick_save_power">Охлаждане</string>
     <string name="notification_battery_consume_abnormal_title">Батерията се изтощава твърде бързо</string>
-    <string name="notification_battery_consume_abnormal_summary">Изразходи се %2$s батерия през последните %1$d минути</string>
     <string name="app_check_no_issue">Супер! Изглежда, че няма проблеми с батерията.</string>
     <string name="power_save_mode_enable">Икономия на батерия</string>
     <string name="power_save_mode_summary">Наблюдение на процесите на заден фон и изключване на синхронизацията.</string>
@@ -1257,12 +1261,17 @@
     <string name="power_center_list_item_auto_brightness">Корекция на автоматичната яркост на екрана</string>
     <string name="power_center_list_item_deep_save_title">Разширени настройки</string>
     <string name="power_center_list_item_battery_status_time">ч</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
+    <string name="power_center_list_item_battery_status_capacity">мАч</string>
     <string name="power_center_stop_scan_title">Спри сканирането</string>
     <string name="hide_mode_result_summary_text">Задайте свои настройки на Икономия на батерия за лични приложения</string>
     <string name="auto_task_result_summary_text">Настройте автоматични задачи за Икономия на батерия</string>
     <string name="pc_settings_title">Детайли за разхода на батерия</string>
     <string name="pc_main_activity_back">Назад</string>
     <string name="extreme_power_save_mode_card_summary">Включете Максималем режим на Икономия, когато зарядът на батерията е прекалено нисък.</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh (милиампер-час)</string>
     <string name="handle_bar_title_system">Система</string>
     <string name="apps_list_header_title_sms">Проверка на Съобщения</string>
     <string name="apps_list_header_title_sms_access">Ограничаване на достъпа до кодове за потвърждение</string>
@@ -1416,11 +1425,13 @@
     <string name="menu_text_optimize_manage">Подобрете скоростта</string>
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_summary_networkassistants">Управление на вашия план за данни</string>
+    <string name="menu_text_networkassistants_2">%s</string>
     <string name="menu_summary_networkassistants_2">Надхвърлен е лимита за данни</string>
     <string name="menu_summary_networkassistants_3">От пакет за данни остава</string>
     <string name="menu_summary_networkassistants_4">Надхвърлен лимит за данни</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
     <string name="menu_text_networkassistants_unit_mb">МБ</string>
     <string name="menu_text_networkassistants_unit_kb">КБ</string>
@@ -1433,12 +1444,14 @@
     <string name="menu_summary_garbage_cleanup">Няма открити отпадъци</string>
     <string name="menu_summary_garbage_cleanup_2">Размер на отпадъците</string>
     <string name="menu_summary_garbage_cleanup_3">Почисти отпадъците сега</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_power_manager">Батерия</string>
     <string name="menu_summary_power_manager">Икономия на батерия ви дава повече време за работа преди следващо зареждане</string>
     <string name="menu_summary_power_manager_1">Батерията е напълно заредена</string>
     <string name="menu_summary_power_manager_2">Остават: %s</string>
     <string name="menu_summary_power_manager_3">Свържете зарядно устройство</string>
     <string name="menu_summary_power_manager_4">Ще се зареди след %s</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Предишното сканиране е прекъснато преди да завърши</string>
     <string name="examination_score_100">Изглежда всичко работи добре!</string>
     <string name="examination_score_80_100">Някои елементи могат да бъдат оптимизирани</string>
@@ -1653,6 +1666,8 @@
     <string name="summary_cloud_space_full">Получи повече място в хранилището и достъп до още функции</string>
     <string name="title_auto_update">Авт. обновяване</string>
     <string name="summary_auto_update">MIUI ще избере най-подходящото време за изтегляне и ще инсталира обновленията.</string>
+    <string name="title_rcs_switch">Включване на мобилните данни</string>
+    <string name="summary_rcs_switch">Размяна на безплатни съобщения с другите потребители, които използват тази функция</string>
     <string name="title_miui_update_latest">MIUI е актуална версия</string>
     <string name="title_miui_update">Налична е актуализация</string>
     <string name="summary_miui_update">Налична е актуализ. за %s.</string>
@@ -1812,6 +1827,7 @@
     <string name="card_main_deepclean_wechat_action">Изчистване</string>
     <string name="card_main_sectool_title">Инструменти</string>
     <string name="card_main_monthreport_action">Покажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Диагностика на мрежата</string>
     <string name="card_main_netcheck_summary">Диагностика на мрежата за проблеми при свързването</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -1853,7 +1869,7 @@
     <string name="ac_notification_contentTitle">Защитете приложенията си със Заключване на приложения</string>
     <string name="ac_pre_notification_contentTitle">Опитайте Закл на приложения</string>
     <string name="ac_post_notification_contentTitle">Включете Закл. приложения</string>
-    <string name="midrop_post_notification_contentTitle">Need to share files?</string>
+    <string name="midrop_post_notification_contentTitle">Трябва да споделите файлове?</string>
     <string name="notification_masked_item">Скрий известията</string>
     <string name="lock_mode_title">Настройки за заключване</string>
     <string name="after_the_lock_screen">Заключване на приложения заедно с екрана</string>
@@ -1863,7 +1879,7 @@
     <string name="ac_notification_contentText">Чукнете за включване</string>
     <string name="ac_pre_notification_contentText">Защитете вашата лична информация</string>
     <string name="ac_post_notification_contentText">Получаване на системно ниво на защита</string>
-    <string name="midrop_post_notification_contentText">Transfer files at speeds up to 50 Mbps in Mi Drop.</string>
+    <string name="midrop_post_notification_contentText">Прехвърляйте файлове със скорост до 50 Mbps в Mi Drop.</string>
     <string name="notification_masked_subtitle">Скрий известията от приложенията, защитени от Закл. приложения</string>
     <string name="ac_enter_applock">Вход в закл. на прил.</string>
     <string name="ac_mask_all_apps">Скрий за всички приложения</string>
@@ -1983,6 +1999,7 @@
     <string name="reset_data_title">Не може да се възстанови паролата</string>
     <string name="reset_data_dialog_message">Това устройство не е свързано с Вашия профил в Mi. Поради това не може да се възстанови или нулира паролата. Архивирайте всички важни елементи, направете им копия и преминете към възстановяване на фабрични настройки. Цялата информация ще бъде завинаги изтрита и вашата SD карта ще бъде форматирана по време на този процес.</string>
     <string name="reset_data_dialog_ok">Фабрични настройки</string>
+    <string name="ad_split_screen_title">Моля, превключете на режим цял екран за да отключите</string>
     <string name="wakepath_confirm_start_activity">Позволявате ли на %1$s да отвори %2$s?</string>
     <string name="unlike">Не, благодаря</string>
     <string name="toast_network_eror">Няма връзка с мрежата</string>
@@ -2194,6 +2211,7 @@
     <string name="gs_call_handsfree_mute">Тих режим</string>
     <string name="gs_gamebox">Преки пътища за игрите</string>
     <string name="gs_gamebox_detail">Покажи панела с преки пътища за игри</string>
+    <string name="gs_gamebox_slip">Чукнете върху екрана, за да отворите приложението</string>
     <string name="gs_forbid_autosync">Ограничаване синхр на заден план</string>
     <string name="gs_app_back_self_start">Икономия на батерия</string>
     <string name="gs_only_self_start_for_list">Ограничаване на процесите на заден план за икономия на батерия при игри</string>
@@ -2345,6 +2363,7 @@
     <string name="screenrecord_not_find">Инсталирайте последната версия на Запис на екрана и опитайте отново.</string>
     <string name="gamebox_qq_not_find">Инсталирайте QQ и опитайте отново.</string>
     <string name="gamebox_wechat_not_find">Инсталирайте WeChat и опитайте отново.</string>
+    <string name="gamebox_app_not_find">Инсталирайте приложението първо.</string>
     <string name="gamebox_type_close">Не показвай</string>
     <string name="gamebox_type_float">Оправен пряк път</string>
     <string name="gamebox_type_gesture">Плъзнете за показване</string>
@@ -2361,6 +2380,7 @@
     <string name="gb_create_icon_summary">Създаване пряк път на Начален екран</string>
     <string name="title_reply">Коментар</string>
     <string name="title_like">Харесай</string>
+    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Мобилни данни</string>
     <string name="game_wid_viewpoint_buttom">Направи кратка почивка.</string>
     <string name="video_repeat">Пусни отново</string>
@@ -2408,9 +2428,6 @@
     <string name="first_aid_card_airplane_title">Не може да се извършват повиквания или връзка с мрежата</string>
     <string name="first_aid_card_airplane_summary">Изключете режим Самолет, за да можете да се обаждате или да се свържете с мрежата</string>
     <string name="first_aid_card_airplane_button">Изключи</string>
-    <string name="first_aid_card_apn_title">Няма връзка с мрежата</string>
-    <string name="first_aid_card_apn_summary">APN са променени. Поправете настройките, за да се свържете с мрежата.</string>
-    <string name="first_aid_card_apn_button">Поправи</string>
     <string name="first_aid_card_unable_install_title">Не може да се инсталират приложения</string>
     <string name="first_aid_card_unable_install_summary">Само %s от хранилището са достъпни. Освободете още място за инсталиране на нови приложения.</string>
     <string name="first_aid_card_unable_install_button">Освободи място</string>

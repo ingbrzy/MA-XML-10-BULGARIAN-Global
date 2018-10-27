@@ -120,6 +120,10 @@
         <item quantity="other">Открити са %d проблема с батерията, оптимизирайте ситемата</item>
         <item quantity="one">Открит е %d проблем с батерията, оптимизирайте ситемата</item>
     </plurals>
+    <plurals name="notification_battery_consume_abnormal_summary">
+        <item quantity="other">През последните %1$d минути батерията се изтощи с %2$d%%</item>
+        <item quantity="one">През последната %1$d минута батерията се изтощи с %2$d%%</item>
+    </plurals>
     <plurals name="power_center_menu_text">
         <item quantity="other">елементи</item>
         <item quantity="one">елемент</item>
@@ -241,12 +245,12 @@
         <item quantity="one">%d ден от последната проверка</item>
     </plurals>
     <plurals name="hints_handle_item_text_risk_number">
-        <item quantity="other">%d risks,</item>
-        <item quantity="one">%d risk,</item>
+        <item quantity="other">%d рискове,</item>
+        <item quantity="one">%d риск,</item>
     </plurals>
     <plurals name="hints_handle_item_text_virus_number">
-        <item quantity="other">%d trojans</item>
-        <item quantity="one">%d trojan</item>
+        <item quantity="other">%d троянски коне</item>
+        <item quantity="one">%d троянски кон</item>
     </plurals>
     <plurals name="white_list_risk_app_header">
         <item quantity="other">Опасни приложения: %d</item>
@@ -367,5 +371,13 @@
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d проблеми изискват корекция</item>
         <item quantity="one">%1$d проблем изисква корекция</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p1">
+        <item quantity="other">%1$s:</item>
+        <item quantity="one">%1$s:</item>
+    </plurals>
+    <plurals name="game_booster_incoming_call_duration_p2">
+        <item quantity="other">%1$s</item>
+        <item quantity="one">%1$s</item>
     </plurals>
 </resources>

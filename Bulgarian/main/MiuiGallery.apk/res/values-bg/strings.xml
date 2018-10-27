@@ -274,6 +274,7 @@
     <string name="collage_poster_global_summer_flower_text">ЛЯТО</string>
     <string name="collage_poster_global_tea_text">ПОЧИВКА ЗА ЧАЙ</string>
     <string name="collage_rotate">Завъртане</string>
+    <string name="collage_select_image_range">Колажите могат да съдържат 1-4 снимки</string>
     <string name="collage_title_layout">Подложка</string>
     <string name="collage_title_poster">Плакат</string>
     <string name="collaps_people">Скрий</string>
@@ -465,6 +466,7 @@
     <string name="face_name_edit">Промени</string>
     <string name="face_name_input">Въведете име</string>
     <string name="face_recommend">Препоръки</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Операцията е неуспешна</string>
     <string name="fail_to_pick_email">Невалиден Имейл</string>
     <string name="fail_to_sync_album">Албумът не можа да се синхронизира. Проверете връзката си за данни и опитайте отново.</string>
@@ -475,6 +477,7 @@
     <string name="feature_guidance_photo_effects">"Налични са нови
 фото ефекти"</string>
     <string name="feature_guidance_video_editor_smart_effects">Налични са нови ефекти</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Спомени</string>
     <string name="filter_bi_mono">Моно</string>
     <string name="filter_bi_pink">Розово</string>
@@ -536,6 +539,7 @@
     <string name="finish_fill_baby">Създаване</string>
     <string name="flash_off">Без светкавица</string>
     <string name="flash_on">Със светкавица</string>
+    <string name="frame_not_support_image_ratio">Това съотношение не се поддържа</string>
     <string name="free_view_desc">3D изглед</string>
     <string name="gallery_setting">Галерия</string>
     <string name="gallery_sync_disable_toast">Синхр. на Галерия е изкл.</string>
@@ -543,6 +547,7 @@
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">ГБ</string>
     <string name="grant_permission_go_and_set">Задай</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Галерия се нуждае от достъп до 
 %s
  за да работи нормално, чукнете \"Задай\" за да отидете в Разрешения."</string>
@@ -708,6 +713,7 @@
     <string name="operation_in_process">Обработва се…</string>
     <string name="operation_move_to_other_albums">Премести в други албуми</string>
     <string name="operation_not_show_in_photos_tab">Не показвай в раздел Снимки</string>
+    <string name="operation_produce">Творчество</string>
     <string name="operation_projection">Проекция</string>
     <string name="operation_remove_face">Премахни</string>
     <string name="operation_remove_from_face_album">Премахване от албума</string>
@@ -740,6 +746,7 @@
     <string name="people_mark_mode_title_no_mark_name">Изберете човек</string>
     <string name="people_page_label">Лице</string>
     <string name="people_page_unname">Неизвестно</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Домашни любимци</string>
     <string name="petabyteShort">ПБ</string>
     <string name="photo">Снимка</string>
@@ -750,10 +757,12 @@
     <string name="photo_editor_beauty_compare">Оригинално</string>
     <string name="photo_editor_crop_and_rotate">Изрежи</string>
     <string name="photo_editor_crop_auto">Автом</string>
+    <string name="photo_editor_crop_auto_tips">Автоматично изрязани</string>
     <string name="photo_editor_crop_reset">Нулирай</string>
     <string name="photo_editor_crop_rotation_format">%d°</string>
     <string name="photo_editor_doodle">Драскулка</string>
     <string name="photo_editor_filter">Филтър</string>
+    <string name="photo_editor_frame">Рамка</string>
     <string name="photo_editor_label">Промени</string>
     <string name="photo_editor_long_crop">Изрежи</string>
     <string name="photo_editor_miui_beauty">Разкраси</string>
@@ -808,6 +817,7 @@
     <string name="photo_editor_talkback_redo">Възстанови</string>
     <string name="photo_editor_talkback_undo">Отмени</string>
     <string name="photo_editor_text">Текст</string>
+    <string name="photo_movie_select_image_range">Клиповете могат да съдържат 3-6 снимки</string>
     <string name="photo_page_save_uri_image_fail">Неуспешно записване на снимката.</string>
     <string name="photo_page_save_uri_image_ok">Снимката е записана в папката на камерата.</string>
     <string name="photo_print_menu_loading">Зареждане на плъгин…</string>
@@ -997,6 +1007,9 @@
     <string name="search_title_recommend">Препоръчвани</string>
     <string name="search_title_suggestion">Предложения</string>
     <string name="search_title_tag">Обекти</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Търсене на проектор…</string>
     <string name="secret_album_card_description">Най-доброто място за всички ваши малки тайни</string>
     <string name="secret_album_card_title">Изпробвайте скрития албум</string>
@@ -1016,6 +1029,7 @@
     <string name="secret_reason_unknow_reasons">Неизвестна грешка</string>
     <string name="secret_reason_video_not_support">Не могат да се добавят видеоклипове към скрит албум</string>
     <string name="see_ignore_faces">Вижте хората, които игнорирахте</string>
+    <string name="select_image_operation">Добавяне на снимки</string>
     <string name="select_item_face">Снимки на %s</string>
     <string name="select_origin_tip">Оригинал (%s)</string>
     <string name="send_file_beautify_failed">Споделянето е неуспешно</string>
@@ -1156,6 +1170,7 @@
     <string name="unpublish_failed">Неуспешно премахване от споделени албуми!</string>
     <string name="unpublish_succeeded">Албумът вече не е споделен</string>
     <string name="unpublishing">Отменя се…</string>
+    <string name="unsupport_video">%s не работи с видео</string>
     <string name="user_agree">Приемам</string>
     <string name="user_agreement2">Условия за ползване</string>
     <string name="user_agreement4">Правилата за поверителност</string>
@@ -1273,6 +1288,7 @@
     <string name="view_face_album">Покажи албума</string>
     <string name="view_more_face_desc">Покажи още хора</string>
     <string name="voice_assistant">Гласово въвеждане</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Добре дошли в Mi Cloud.</string>
     <string name="where_is_barcode">Къде е QR кода?</string>
     <string name="who_is_this">Кой е този?</string>
@@ -1280,10 +1296,7 @@
     <string name="yes">Да</string>
     <string name="yesterday">Вчера</string>
     <string name="you_are">Вие сте дете на</string>
-    <string name="collage_select_image_range">Collages can contain 1-4 photos</string>
-    <string name="operation_produce">Creativity</string>
-    <string name="photo_editor_crop_auto_tips">Cropped automatically</string>
-    <string name="photo_movie_select_image_range">Clips can contain 3-6 photos</string>
+    <string name="operation_set_slide_wallpaper">Задай като слайдшоу тапет</string>
     <string name="refocus_discard_confirm_message">Запази промените?</string>
     <string name="refocus_discard_negative_btn">Отхвърляне</string>
     <string name="refocus_discard_positive_btn">Запази</string>
@@ -1296,6 +1309,6 @@
     <string name="refocus_title">Замъглен</string>
     <string name="refocus_type_static">Ниво на замъгляване</string>
     <string name="refocus_type_video">Светлинен лъч</string>
-    <string name="select_image_operation">Adding photos</string>
-    <string name="unsupport_video">"%s doesn't work with videos"</string>
+    <string name="set_as_slide_wallpaper_description">Това изображение е умалено, да изтегля ли оригинала?</string>
+    <string name="set_as_slide_wallpaper_title">Задай като слайдшоу тапет</string>
 </resources>

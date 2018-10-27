@@ -8,6 +8,10 @@
         <item quantity="other">Налични са актуализации за %1$d теми.</item>
         <item quantity="one">Налична е актуализация за %1$d тема.</item>
     </plurals>
+    <plurals name="theme_designer_products_count">
+        <item quantity="other">%1$s творби</item>
+        <item quantity="one">%1$s творба</item>
+    </plurals>
     <plurals name="theme_update_local_resource_notifaction">
         <item quantity="other">%1$d теми имат актуализации</item>
         <item quantity="one">%1$d тема има актуализация</item>

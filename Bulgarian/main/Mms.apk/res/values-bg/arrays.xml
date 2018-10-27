@@ -31,6 +31,11 @@
         <item>Само в тих режим</item>
         <item>Никога</item>
     </string-array>
+    <string-array name="recv_type">
+        <item>接收并通知</item>
+        <item>只接收</item>
+        <item>拒收</item>
+    </string-array>
     <string-array name="resent_via_entries_mms">
         <item>Чрез MMS</item>
         <item>Чрез облачно съобщение</item>

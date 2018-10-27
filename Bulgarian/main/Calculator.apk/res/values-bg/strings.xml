@@ -62,6 +62,21 @@
     <string name="fund" />
     <string name="fund_loan">Заем от фонда</string>
     <string name="global_network_confirm_content">Конверторът на валута се нуждае от връзка с интернет за да работи нормално.</string>
+    <string name="global_search_key_area_convertion">Площ;Конвертор на площ;Конвертиране на площ</string>
+    <string name="global_search_key_calculation">Изчисляване;Калкулатор;Единица на преобразуване;Конвертор;Единица на конвертора</string>
+    <string name="global_search_key_date_convertion">Времеви конвертор;Времеви единици;Конвертиране на време;Време</string>
+    <string name="global_search_key_exchange_rate">Обменен курс;Преобразуване на валутния курс;Валутен конвертор;Валута;Обменни курсове</string>
+    <string name="global_search_key_length_convertion">Дължина;Конвертор на дължината;Конвертиране на дължина</string>
+    <string name="global_search_key_mortgage">Изчисляване на ипотека;Калкулатор на ипотека;Ипотека</string>
+    <string name="global_search_key_personal_tax">Данък общ доход;Данък върху доходите;Данъчен Калкулатор;Изчисление на личния доход;Изчисляване на дохода;Изчисление на данък общ доход; данък върху личните доходи;данъци</string>
+    <string name="global_search_key_scientific_convertion">Научен калкулатор;Изчисляване на функцията;Математика;Алгебра</string>
+    <string name="global_search_key_speed_convertion">Преобразуване на единица скорост;Преобразуване на скорост;Конвертор на скорост;Скорост;Бързина</string>
+    <string name="global_search_key_temperature_convertion">Конвертиране на единица температура;Конвертиране на температура;Температурен конвертор;Фаренхайт;Целзий;По Целзий</string>
+    <string name="global_search_key_volume_convertion">Преобразуване на единица обем;Преобразуване на обем;Конвертор на обем</string>
+    <string name="global_search_key_weight_convertion">Конвертиране на единица тегло;Конвертиране на тегло;Конвертор на тегло;Килотрами;Кг;Килограми;Фут;Фута;lbs</string>
+    <string name="global_search_key_word_figure">Финансови знаци</string>
+    <string name="golbal_search_calculator_setting">Калкулатор;Настройки на калкулатора;Настройки</string>
+    <string name="golbal_search_path_calculator_setting">Системни приложения/Калкулатор/Настройки</string>
     <string name="home_title_calculator">Калкулатор</string>
     <string name="income_type" />
     <string name="install">Инсталирай</string>
@@ -141,6 +156,7 @@
     <string name="negDesc">Превключвайте между температури под и над нула</string>
     <string name="network_confirm_content">Конверторът на валута, кредити и ипотеки има нужда от интернет връзка и местоположение за да работи нормално.</string>
     <string name="network_confirm_title">Изисква потвърждение</string>
+    <string name="not_supported_due_to_language">Тази функция не е достъпна на китайски език</string>
     <string name="percent" />
     <string name="percentDesc">процент</string>
     <string name="piDesc">пи</string>
@@ -225,8 +241,8 @@
     <string name="tax_social_insurance">Застраховка</string>
     <string name="tax_thershold_foreign">%s (Чужденци)</string>
     <string name="tax_thershold_native">%s (България)</string>
-    <string name="tax_thershold_native_new">%s (new)</string>
-    <string name="tax_thershold_native_new_description">Taxes will be calculated according to the new tax law starting from October 1, 2018</string>
+    <string name="tax_thershold_native_new">%s (ново)</string>
+    <string name="tax_thershold_native_new_description">Данъците ще бъдат изчислявани съгласно новия закон за данъците, считано от 1 октомври 2018 г</string>
     <string name="tax_threshold">Без такси</string>
     <string name="tax_title_primary" />
     <string name="tax_title_secondary" />
@@ -536,5 +552,15 @@
     <string name="word_figure_unit_shi">Вземете</string>
     <string name="word_figure_yuan">Юан</string>
     <string name="word_figure_zheng">Цяло</string>
+    <string name="xiaomi_bytes_unit">%1$sБ</string>
+    <string name="xiaomi_connect_download_manager_fail">Неуспешно свързване с Мениджъра за изтеглянията. Моля, проверете състоянието на Мениджъра за изтеглянията в Управлението на приложението.</string>
+    <string name="xiaomi_external_storage_unavailable">Съхранението е недостъпно. Моля, проверете SD картата.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sКБ</string>
+    <string name="xiaomi_megabytes_unit">%1$sМБ</string>
+    <string name="xiaomi_update_dialog_message">"Представяне на версия%1$s
+Размер:%2$s"</string>
+    <string name="xiaomi_update_dialog_message_diff">"Представяне на версия%1$s
+Делта актуализация на размера:%2$s"</string>
+    <string name="xiaomi_update_dialog_title">%1$s актуализация!</string>
     <string name="year" />
 </resources>

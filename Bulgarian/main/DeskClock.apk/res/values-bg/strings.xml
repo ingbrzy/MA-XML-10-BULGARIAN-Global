@@ -152,6 +152,7 @@
     <string name="shutdown_alarm_enable_summary">Автоматично включване на телефона при настроен будилник</string>
     <string name="shutdown_alarm_title">Включване на телефона</string>
     <string name="silent_alarm_summary">Без звук</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Изключи еднократно на %s</string>
     <string name="slider_text">Плъзнете нагоре за да изключите</string>
     <string name="snooze_confirm_cancel">Спри аларма</string>
@@ -160,6 +161,7 @@
     <string name="start_up">Старт</string>
     <string name="stopwatch_lap_empty_text">Няма обиколки</string>
     <string name="stopwatch_title">Хронометър</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Настройте време</string>
     <string name="system_time_settings_category_title">Настройки за часовник</string>
     <string name="temperature_unit">%1$s°</string>
@@ -172,6 +174,10 @@
     <string name="timer_alarm_cancel_pad">Чукнете екрана, за да спре звъненето</string>
     <string name="timer_alarm_dot_matrix_label">Таймер</string>
     <string name="timer_alert_alert_silenced">Будилника спира след %d минути.</string>
+    <string name="timer_alert_mute_off">Алармата ще звучи, когато таймерът спре</string>
+    <string name="timer_alert_mute_on">Алармата няма да звучи, когато таймерът спре</string>
+    <string name="timer_alert_mute_remind">Докоснете, за да заглушите алармата</string>
+    <string name="timer_alert_mute_switch">Превключете, за да заглушите алармите на таймера</string>
     <string name="timer_alert_type_beach">Плаж</string>
     <string name="timer_alert_type_forest">Гора</string>
     <string name="timer_alert_type_mute">По подразбиране</string>
@@ -215,7 +221,7 @@
     <string name="volume_button_setting_title">Бутони за сила на звука</string>
     <string name="workday_alarm_clock">През делничните дни</string>
     <string name="worldclock_empty_text">Няма часовници</string>
-    <string name="worldclock_input_hint_text">Въведи град</string>
+    <string name="worldclock_input_hint_text">Търсене на държава или град</string>
     <string name="worldclock_search_city">Избери град</string>
     <string name="worldclock_title">Часовници</string>
     <string name="worldclock_world_time">Часови зони</string>
