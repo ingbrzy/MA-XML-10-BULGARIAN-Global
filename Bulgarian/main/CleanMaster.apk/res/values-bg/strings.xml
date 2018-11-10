@@ -92,6 +92,7 @@
     <string name="hints_apk_header_left">Инсталационни файлове</string>
     <string name="hints_residual_header_left">Остатъци</string>
     <string name="hints_memory_header_left">Памет</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_large_file_header_left">Големи файлове: %d</string>
     <string name="hints_installed_apps_header_left">Изтеглени приложения: %d</string>
     <string name="toast_resolve_apk_error">Поправка на грешки в apk</string>
@@ -299,6 +300,7 @@
     <string name="downloading">Изтегля се</string>
     <string name="installing">Инсталира се</string>
     <string name="start_install">Начало на инсталация</string>
+    <string name="empty">" "</string>
     <string name="open_browser">Отваряне в браузъра</string>
     <string name="title_share_link">Споделяне на URL</string>
     <string name="connecting">Установява се връзка…</string>
@@ -467,9 +469,9 @@
     <string name="file_not_found">Файлът не е открит</string>
     <string name="app_usage_never">Не са скоро използвани</string>
     <string name="app_usage_recently">Скоро използвани</string>
-    <string name="resutl_function_deep_clean_summary">" "<Data>&lt;font color=#ff0000 >%1$s&lt;/font> още файлове могат да бъдат почистени. Освободете повече място.;</Data>" "</string>
-    <string name="resutl_function_wechat_clean_summary">" "<Data>&lt;font color=#ff0000 >%1$s&lt;/font> of WeChat кеш. Освободете повече място.;</Data>" "</string>
-    <string name="resutl_function_qq_clean_summary">" "<Data>Вие можете да изчистите &lt;font color=#ff0000 >%1$s&lt;/font> от кеша, създаден от QQ;</Data>" "</string>
+    <string name="resutl_function_deep_clean_summary">" "<Data> &lt;font color=#ff0000 >%1$s&lt;/font> още файлове могат да бъдат почистени. Освободете повече място. ;</Data>" "</string>
+    <string name="resutl_function_wechat_clean_summary">" "<Data> &lt;font color=#ff0000 >%1$s&lt;/font> of WeChat кеш. Освободете повече място. ;</Data>" "</string>
+    <string name="resutl_function_qq_clean_summary">" "<Data> Вие можете да изчистите &lt;font color=#ff0000 >%1$s&lt;/font> от кеша, създаден от QQ ;</Data>" "</string>
     <string name="engine_tm">Tencent</string>
     <string name="engine_cm">Clean Master</string>
     <string name="app_description_title">За Почистване</string>
@@ -498,19 +500,6 @@
     <string name="auto_clean_time_three_day">На всеки 3 дни</string>
     <string name="auto_clean_time_seven_day">На всеки 7 дни</string>
     <string name="auto_clean_time_fifteen_day">На всеки 15 дни</string>
-    <string name="pref_category_title_auto_clean_config_settings">Автоматично почистване</string>
-    <string name="pref_title_auto_clean">Почисти автоматично</string>
-    <string name="pref_title_auto_clean_operation">Метод на почистване</string>
-    <string name="pref_title_auto_clean_trigger">Почистване на хранилището</string>
-    <string name="auto_clean_operation_dialog_title">Метод на почистване</string>
-    <string name="auto_clean_operation_clean_and_alert">Напомни и почисти</string>
-    <string name="auto_clean_operation_just_clean">Само почистване</string>
-    <string name="auto_clean_trigger_dialog_title">Почистване на хранилището</string>
-    <string name="auto_clean_trigger_percent_ninety">Когато е пълно на 90%</string>
-    <string name="auto_clean_trigger_percent_eighty">Когато е пълно на 80%</string>
-    <string name="auto_clean_trigger_percent_sixty">Когато е пълно на 60%</string>
-    <string name="auto_clean_notification_title">Напомняне за изчистване</string>
-    <string name="auto_clean_notification_content">Почистихте %s отпадъци</string>
     <string name="guide_secure_dialog_title">Оптимизиране на производителността</string>
     <string name="guide_secure_dialog_message">Нивото на оптимизиция е под 80 точки. Да се оптимизира ли сега?</string>
     <string name="guide_secure_dialog_positive">Оптимизирай</string>
@@ -538,10 +527,6 @@
     <string name="whatsapp_group_gif">GIF-ове</string>
     <string name="whatsapp_group_document">Документи</string>
     <string name="whatsapp_btn_quick_cleanup">Изтрий избраните елементи (%s)</string>
-    <string name="whatsapp_type_image_send">Изпратени изображения</string>
-    <string name="whatsapp_type_image_recv">Получени изображения</string>
-    <string name="whatsapp_type_document_send">Изпратени файлове</string>
-    <string name="whatsapp_type_document_recv">Получени файлове</string>
     <string name="whatsapp_file_show_order">Днес</string>
     <string name="whatsapp_clean_exit_confirm_title">Спиране на сканирането?</string>
     <string name="whatsapp_clean_exit_confirm_msg">"Сканирането на What's App не е завършено. Спиране сега?"</string>
@@ -567,4 +552,17 @@
     <string name="memory_clean_no_trash_tip">Всичко изглежда добре</string>
     <string name="toast_updater_open_4g_text">Приложенията ще бъдат актуализирани през връзка с мобилни данни (4G)</string>
     <string name="toast_updater_close_4g_text">Приложенията няма да бъдат актуализирани през връзка с мобилни данни (4G)</string>
+    <string name="facebook_cleaner">Почистване на Фейсбук</string>
+    <string name="facebook_group_image">Изображения</string>
+    <string name="facebook_group_video">Видеоклипове</string>
+    <string name="facebook_group_gif">GIF-ове</string>
+    <string name="facebook_group_cache">Кеш файлове</string>
+    <string name="app_clean_group_image_send">Изпратени изображения</string>
+    <string name="app_clean_group_image_recv">Получени изображения</string>
+    <string name="app_clean_group_document_send">Изпратени файлове</string>
+    <string name="app_clean_group_document_recv">Получени файлове</string>
+    <string name="facebook_clean_exit_confirm_title">Спиране на сканирането?</string>
+    <string name="facebook_clean_exit_confirm_msg">Сканирането на Фейсбук не е завършено. Спиране сега?</string>
+    <string name="facebook_clean_exit_confirm_cancel">Продължи сканирането</string>
+    <string name="facebook_clean_exit_confirm_ok">Спри</string>
 </resources>

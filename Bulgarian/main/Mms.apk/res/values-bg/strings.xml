@@ -202,6 +202,7 @@
     <string name="file_size">Размер:</string>
     <string name="file_title">Име:</string>
     <string name="file_width_height">Размер:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ново съобщение</string>
     <string name="forward_from">Препратено от:</string>
     <string name="forward_message_select_title">Съобщение за препращане</string>
@@ -530,6 +531,7 @@
     <string name="rcs_summary_auto_resend_mms">Конвертирайте мултимедийните съобщения на China Mobile в MMS, след като първоначалното съобщение не можe да бъде изпратено. Вашият оператор ще Ви таксува за това съобщение.</string>
     <string name="rcs_summary_auto_resend_sms">Конвертирайте текстовите съобщения на China Mobile в SMS, след като първоначалното съобщение не можа да бъде изпратено. Вашият оператор ще Ви таксува за това съобщение.</string>
     <string name="rcs_summary_silence_message">Безшумно уведомяване за съобщения, когато десктопът е включен</string>
+    <string name="rcs_unavailable">В момента не може да използва съобщенията на China Mobile. SIM картата на China Mobile не е Вашата стандартна карта за данни.</string>
     <string name="rcs_wait_for_retry_text">Изчакване…</string>
     <string name="received_at_time">Получено в: %1s</string>
     <string name="received_label">Получени:</string>
@@ -633,6 +635,7 @@
     <string name="send_signature_confirm_dialog_title">Изпрати подпис</string>
     <string name="send_sms">Изпрати съобщение</string>
     <string name="send_to">До:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Изпратено в: %1s</string>
     <string name="sent_label">Изпратени:</string>
     <string name="service_message_not_found">Съобщението е изтекло или не е достъпно</string>

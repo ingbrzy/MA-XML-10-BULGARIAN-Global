@@ -76,9 +76,9 @@
         <item quantity="other">"Мрежовият достъп е ограничен за &lt;font color='#ff0000'>%d&lt;/font> приложения"</item>
         <item quantity="one">"Мрежовият достъп е ограничен за &lt;font color='#ff0000'>%d&lt;/font> приложение"</item>
     </plurals>
-    <plurals name="om_ill_proc_multi_app_title">
-        <item quantity="other">%d приложения не работят правилно и изразходват много батерия</item>
-        <item quantity="one">%d приложение не работи правилно и изразходва много батерия</item>
+    <plurals name="om_locked_apps_title">
+        <item quantity="other">%d закл приложения</item>
+        <item quantity="one">%d закл приложение</item>
     </plurals>
     <plurals name="power_center_battery_day">
         <item quantity="other">"%d дни "</item>

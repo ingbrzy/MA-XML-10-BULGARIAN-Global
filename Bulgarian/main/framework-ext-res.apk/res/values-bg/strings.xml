@@ -102,7 +102,7 @@
     <string name="all_call_livetalk_enable">Use top-up packages for domestic and international calls</string>
     <string name="all_call_livetalk_remain_mins">Minutes remaining: %1$s domestic | %2$s international</string>
     <string name="enable_livetalk_title">Заредете сега</string>
-    <string name="enable_livetalk_summary">Само за Китай</string>
+    <string name="enable_livetalk_summary">Спести до 70% от цената за обаждане</string>
     <string name="cancel_action">Отказ</string>
     <string name="set_password_action">Задай парола</string>
     <string name="set_password_title">Задаване на парола</string>
@@ -137,6 +137,7 @@
     <string name="security_permission_open_wifi_settings">Отваряне на настройки за Wi-Fi</string>
     <string name="xspace_resolver_activity_title">Изберете приложение</string>
     <string name="user_switching_dialog_text">Switching…</string>
+    <string name="xspace_head">Клонирани прилож</string>
     <string name="activity_package_delete_confirm_title">Предупреждение</string>
     <string name="button_text_cancel">Отмяна</string>
     <string name="button_text_delete">Деинсталирай</string>

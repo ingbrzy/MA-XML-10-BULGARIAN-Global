@@ -94,4 +94,7 @@
     <string name="message_i_know">Разбрах</string>
     <string name="high_temp_state">Защита от прегряване</string>
     <string name="high_temp_state_message">Защита от прегряване, мобилни данни, безжични връзки, камера и др. подобни ще бъдат ограничени</string>
+    <string name="atrace_start">Запис на регистрите на Atrace…</string>
+    <string name="atrace_saving">Запазване на регистрите на Atrace…</string>
+    <string name="atrace_saved">Успешно запазено</string>
 </resources>

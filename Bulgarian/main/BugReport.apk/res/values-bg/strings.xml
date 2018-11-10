@@ -57,6 +57,7 @@
     <string name="save_pic_success">Запазване на изобр. в %s</string>
     <string name="save_pic_fail">Не може да се запази изобр. Прегледайте SD-картата си</string>
     <string name="pic_not_exist">Това изобр. не съществува</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Изберете продукт</string>
     <string name="michat_skillset_business_type_title">Изберете услуга</string>
     <string name="michat_close_text">Чатът е затворен</string>
@@ -161,9 +162,10 @@
     <string name="cta_cancel">Отказ</string>
     <string name="cta_confirm">ОК</string>
     <string name="submit_dialog_title">Изпращане на доклад до Mi</string>
-    <string name="submit_dialog_content"><Data>Вашата обратна връзка заедно с прикачените файлове и логовете ще бъде изпратена до сървърите на MIUI. Тази информация може да съдържа вашите лични данни. Избирането на \"Съгласен съм \" означава, че вие сте прочели и сте съгласни с нашите &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>.</Data></string>
-    <string name="submit_dialog_content_global"><Data>"Вашата обратна връзка заедно с прикачените файлове (ако има) и логовете (Вие можете да махнете отметката в менюто за кореспонденция на тези елементи, които не искате да изпращате до сървърите на MIU) ще бъдат изпратени до тях и в определената секция на форума за програмисти на MIUI. Информацията за дадения проблем ще бъде запазена и за бъдеща кореспонденция. Тя може да съдържа лични данни и информация за местоположението ви. Натискането на ъгласен съм \" означава, че вие сте прочели и сте съгласни с нашите
-         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>."</Data></string>
+    <string name="submit_dialog_content">" "<Data> Вашата обратна връзка заедно с прикачените файлове и логовете ще бъде изпратена до сървърите на MIUI. Тази информация може да съдържа вашите лични данни. Избирането на \"Съгласен съм \" означава, че вие сте прочели и сте съгласни с нашите &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>. </Data>" "</string>
+    <string name="submit_dialog_content_global">" "<Data>" Вашата обратна връзка заедно с прикачените файлове (ако има) и логовете (Вие можете да махнете отметката в менюто за кореспонденция на тези елементи, които не искате да изпращате до сървърите на MIU) ще бъдат изпратени до тях и в определената секция на форума за програмисти на MIUI. Информацията за дадения проблем ще бъде запазена и за бъдеща кореспонденция. Тя може да съдържа лични данни и информация за местоположението ви. Натискането на ъгласен съм \" означава, че вие сте прочели и сте съгласни с нашите
+         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>.
+"</Data>" "</string>
     <string name="submit_dialog_cancel">Не приемам</string>
     <string name="submit_dialog_confirm">Приемам</string>
     <string name="tab_title_preferences">Настройки</string>
@@ -181,8 +183,9 @@
     <string name="modem_tool_log_finish_title">Логът на модема е заснет</string>
     <string name="modem_tool_log_finish_desc">Логът е запазен като %s</string>
     <string name="bugreport_dialog_not_show_again">Не показвай отново</string>
-    <string name="bugreport_dialog_submit_content"><Data>"Вие ще запазите логовете на софтуера на вашето устройство. Тези записи могат да съдържат лична информация и вашето местоположение. Не споделяйте тези логове с никой, ако искате да останете защитени. Избирането на ъгласен съм \" означава, че вие сте прочели и сте съгласни с нашите
-         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>."</Data></string>
+    <string name="bugreport_dialog_submit_content">" "<Data>" Вие ще запазите логовете на софтуера на вашето устройство. Тези записи могат да съдържат лична информация и вашето местоположение. Не споделяйте тези логове с никой, ако искате да останете защитени. Избирането на ъгласен съм \" означава, че вие сте прочели и сте съгласни с нашите
+         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>.
+"</Data>" "</string>
     <string name="bugreport_dump_start_notification_title">Създаване на доклад за грешка</string>
     <string name="bugreport_dump_start_notification_summary">Това може да отнеме няколко минути.</string>
     <string name="bugreport_dump_complete_notification_title">Докладът е създаден</string>

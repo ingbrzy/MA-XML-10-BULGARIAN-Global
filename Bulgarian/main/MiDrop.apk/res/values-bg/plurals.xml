@@ -21,19 +21,31 @@
         <item quantity="one">получен %2$d файл от %1$s</item>
     </plurals>
     <plurals name="f">
+        <item quantity="other">%1$s и %2$s други елементи са вече прехвърлени.</item>
+        <item quantity="one">%1$s и %2$s друг елемент са вече прехвърлени.</item>
+    </plurals>
+    <plurals name="g">
         <item quantity="other">Избрани %d елементи</item>
         <item quantity="one">Избран е %d елемент</item>
     </plurals>
-    <plurals name="g">
+    <plurals name="h">
         <item quantity="other">Изчакване за %1$d файла…</item>
         <item quantity="one">Изчакване за %1$d файл…</item>
     </plurals>
-    <plurals name="h">
+    <plurals name="i">
         <item quantity="other">Получаване на %1$d файла (%2$s)</item>
         <item quantity="one">Получаване на %1$d файл (%2$s)</item>
     </plurals>
-    <plurals name="i">
+    <plurals name="j">
         <item quantity="other">Изпрати %1$d файла (%2$s)</item>
         <item quantity="one">Изпрати %1$d файл (%2$s)</item>
+    </plurals>
+    <plurals name="k">
+        <item quantity="other">Открити актуализации за %d приложения</item>
+        <item quantity="one">Открити актуализации за %d приложение</item>
+    </plurals>
+    <plurals name="l">
+        <item quantity="other">%1$s сподели %2$s елементи</item>
+        <item quantity="one">%1$s сподели %2$s елемент</item>
     </plurals>
 </resources>

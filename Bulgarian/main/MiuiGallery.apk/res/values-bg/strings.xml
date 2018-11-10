@@ -98,7 +98,6 @@
     <string name="app_name">Галерия</string>
     <string name="app_name_view_picture">Преглед на снимка</string>
     <string name="app_name_view_video">Прегледайте клиповете</string>
-    <string name="apply">Приложи</string>
     <string name="associate_face_album">Изберете албум</string>
     <string name="auto_backup_introduce">Архивирайте снимки и видео автоматично(Изисква се Mi профил)</string>
     <string name="auto_download_media_title">Автоматично изтегляне на снимки от Mi Облак</string>
@@ -123,10 +122,6 @@
     <string name="baby_album_sharers_page_title">Сподели с роднини</string>
     <string name="baby_birthday">Рожден ден</string>
     <string name="baby_face_desc">Албум Бебе</string>
-    <string name="baby_lock_wallpaper">Тапет на закл. екран</string>
-    <string name="baby_lock_wallpaper_cancelled">Променено към стандартния тапет на закл. екран</string>
-    <string name="baby_lock_wallpaper_save_settings_msg">Приложи текущите настройки?</string>
-    <string name="baby_lock_wallpaper_title">Използване на снимките на бебето за тапет на закл. екран</string>
     <string name="baby_name_cannot_empty">Въведете име</string>
     <string name="baby_name_cannot_start_with">"Името не може да започва с/ъс '%s'"</string>
     <string name="baby_name_contain_invalidate_char">"Името не може да съдържа '%s'"</string>
@@ -196,7 +191,6 @@
     <string name="byteShort">Б</string>
     <string name="camera_needs_auto_backup_tip">Снимки от камерата трябва да бъдат архивирани</string>
     <string name="cancel">Отказ</string>
-    <string name="cancel_baby_lock_wallpaper_confirm_msg">Да се отмени ли бебе тапета и да се нулира до стандартния тапет на закл. екран?</string>
     <string name="cancel_download_btn_text">Спри</string>
     <string name="cancel_hint">Операцията е отменена</string>
     <string name="cannot_remove_creator">Не може да премахнете автора</string>
@@ -347,6 +341,11 @@
     <string name="disable_auto_upload_tip">Да се изключи ли синхр с Ми Облак за този албум?</string>
     <string name="disable_auto_upload_title">Изключване на Синхр. с Mi Cloud</string>
     <string name="do_not_remind_me">Не показвай повече</string>
+    <string name="document_provider_guide_step_1">1. Натиснете бутона \"Още\".</string>
+    <string name="document_provider_guide_step_2">2. Натиснете \"Покажи вътрешното хранилище\".</string>
+    <string name="document_provider_guide_step_3">3. Натиснете страничния бутон за менюто.</string>
+    <string name="document_provider_guide_step_4">4. Изберете \"SD карта\".</string>
+    <string name="document_provider_guide_step_5">5. Натиснете \"Избери\".</string>
     <string name="double_tap_to_higher_definition">Двойно почукване за HD Преглед</string>
     <string name="download_canceled">Изтеглянето е отменено</string>
     <string name="download_error_format">Неуспешно изтегляне %s</string>
@@ -450,6 +449,18 @@
     <string name="exit_video_play">Изход</string>
     <string name="expand_desc">Още</string>
     <string name="expand_people">Повече лица</string>
+    <string name="ext_sdcard_first_entrance_request_failed_text">Вместо това Галерията ще запази елементите на вътрешната памет. Можете да промените това в Настройки > Съхранение > Настойки на съхранението.</string>
+    <string name="ext_sdcard_first_entrance_request_failed_title">Неуспешен опит за даване на разрешения.</string>
+    <string name="ext_sdcard_guide_first_page_button_text">Напред</string>
+    <string name="ext_sdcard_guide_last_page_button_text">Дайте разрешения</string>
+    <string name="ext_sdcard_guide_text">Необходимо е Вашето разрешение за достъп на Галерията до SD картата. Ето какво можете да направите:</string>
+    <string name="ext_sdcard_operation_failed_text">Необходими са разрешения за достъп на Галерията до SD картата.</string>
+    <string name="ext_sdcard_operation_failed_title">Това действие е неуспешно</string>
+    <string name="ext_sdcard_permission_request_button_text">Разбрах</string>
+    <string name="ext_sdcard_permission_request_reason">Необходимо е Вашето разрешение за достъп на Галерията до SD картата. Това ще Ви позволи да изтривате и редактирате снимки и видеофайлове, които се съхраняват на SD картата.</string>
+    <string name="ext_sdcard_permission_request_title">Позволи на Галерията достъп до SD картата</string>
+    <string name="ext_sdcard_request_failed_button_text">OК</string>
+    <string name="ext_sdcard_request_succeed_toast_text">Готови сте да започнете!</string>
     <string name="face_album_empty">Празно</string>
     <string name="face_album_empty_syncing">Синхр. на данни</string>
     <string name="face_album_empty_syncing_when_connect_wifi">Свържете се с интернет, за да синхронизирате информацията</string>
@@ -466,6 +477,7 @@
     <string name="face_name_edit">Промени</string>
     <string name="face_name_input">Въведете име</string>
     <string name="face_recommend">Препоръки</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Операцията е неуспешна</string>
     <string name="fail_to_pick_email">Невалиден Имейл</string>
     <string name="fail_to_sync_album">Албумът не можа да се синхронизира. Проверете връзката си за данни и опитайте отново.</string>
@@ -476,6 +488,7 @@
     <string name="feature_guidance_photo_effects">"Налични са нови
 фото ефекти"</string>
     <string name="feature_guidance_video_editor_smart_effects">Налични са нови ефекти</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_memory">Спомени</string>
     <string name="filter_bi_mono">Моно</string>
     <string name="filter_bi_pink">Розово</string>
@@ -545,6 +558,7 @@
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">ГБ</string>
     <string name="grant_permission_go_and_set">Задай</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Галерия се нуждае от достъп до 
 %s
  за да работи нормално, чукнете \"Задай\" за да отидете в Разрешения."</string>
@@ -720,6 +734,7 @@
     <string name="operation_save">Запиши</string>
     <string name="operation_send">Изпрати</string>
     <string name="operation_set_contact_photo">Задай като снимка на контакт</string>
+    <string name="operation_set_slide_wallpaper">Задай като слайдшоу тапет</string>
     <string name="operation_set_wallpaper">Задай като тапет</string>
     <string name="operation_share">Сподели</string>
     <string name="operation_show_in_photos_tab">Покажи на началната страница</string>
@@ -743,6 +758,7 @@
     <string name="people_mark_mode_title_no_mark_name">Изберете човек</string>
     <string name="people_page_label">Лице</string>
     <string name="people_page_unname">Неизвестно</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Домашни любимци</string>
     <string name="petabyteShort">ПБ</string>
     <string name="photo">Снимка</string>
@@ -866,6 +882,7 @@
     <string name="picker_image_will_download">%d от избраните снимки не са в устройството, изтегляне</string>
     <string name="picker_no_network_message">Свържете се към мрежата за да теглите файлове</string>
     <string name="picker_origin_need_download">%1$d от избраните снимки не са в устройството (%2$dMB), изтегляне чрез мобилни данни?</string>
+    <string name="picker_origin_request_progress_fail">Оригиналното изображение не можа да бъде изтеглено заради грешка в мрежата.</string>
     <string name="picker_origin_request_progress_message">Оригиналните файлове се подготвят (%1$d/%2$d)…</string>
     <string name="picker_title_format">Изберете %1$d до %2$d снимки</string>
     <string name="picker_title_selection_format">%d избрани</string>
@@ -1003,6 +1020,9 @@
     <string name="search_title_recommend">Препоръчвани</string>
     <string name="search_title_suggestion">Предложения</string>
     <string name="search_title_tag">Обекти</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Търсене на проектор…</string>
     <string name="secret_album_card_description">Най-доброто място за всички ваши малки тайни</string>
     <string name="secret_album_card_title">Изпробвайте скрития албум</string>
@@ -1031,7 +1051,8 @@
     <string name="send_secret_file_failed">Споделянето е неуспешно</string>
     <string name="send_secret_file_space_low">Няма достатъчно място</string>
     <string name="send_too_many_files_error">Не може да изпращате толкова много елементи (максимум %d елементи).</string>
-    <string name="set_as_baby_lock_wallpaper">Задай за тапет на закл. екран</string>
+    <string name="set_as_slide_wallpaper_description">Това изображение е умалено, да изтегля ли оригинала?</string>
+    <string name="set_as_slide_wallpaper_title">Задай като слайдшоу тапет</string>
     <string name="set_as_wallpaper_description">Това изображение е връзка, изтеглете оригинала?</string>
     <string name="set_as_wallpaper_title">Задай като тапет</string>
     <string name="set_face_group_toast_msg_new_user">Задръжте лицето, за да обедините или игнорирате този човек.</string>
@@ -1281,6 +1302,7 @@
     <string name="view_face_album">Покажи албума</string>
     <string name="view_more_face_desc">Покажи още хора</string>
     <string name="voice_assistant">Гласово въвеждане</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Добре дошли в Mi Cloud.</string>
     <string name="where_is_barcode">Къде е QR кода?</string>
     <string name="who_is_this">Кой е този?</string>
@@ -1288,7 +1310,7 @@
     <string name="yes">Да</string>
     <string name="yesterday">Вчера</string>
     <string name="you_are">Вие сте дете на</string>
-    <string name="operation_set_slide_wallpaper">Задай като слайдшоу тапет</string>
+    <string name="photo_editor_talkback_crop_screen">Аспектно съотношение на цял екран</string>
     <string name="refocus_discard_confirm_message">Запази промените?</string>
     <string name="refocus_discard_negative_btn">Отхвърляне</string>
     <string name="refocus_discard_positive_btn">Запази</string>
@@ -1301,6 +1323,4 @@
     <string name="refocus_title">Замъглен</string>
     <string name="refocus_type_static">Ниво на замъгляване</string>
     <string name="refocus_type_video">Светлинен лъч</string>
-    <string name="set_as_slide_wallpaper_description">Това изображение е умалено, да изтегля ли оригинала?</string>
-    <string name="set_as_slide_wallpaper_title">Задай като слайдшоу тапет</string>
 </resources>

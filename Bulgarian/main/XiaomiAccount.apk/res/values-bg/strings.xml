@@ -30,6 +30,7 @@
     <string name="passport_register">Създаване на профил</string>
     <string name="passport_new_user_register">Създай профил</string>
     <string name="passport_vcode_sms_send_prompt">Изпрати код за потвърждаване на %s</string>
+    <string name="passport_input_phone_password">Моля, въведете паролата за този мобилен номер%s</string>
     <string name="passport_get_verify_code">Вземи код</string>
     <string name="passport_re_get_verify_code">Изискай нов код</string>
     <string name="passport_getting_verify_code">Получаване</string>
@@ -59,6 +60,7 @@
     <string name="passport_forget_password_no_underline">Забравена парола</string>
     <string name="passport_reg_type_email">Имейл адрес</string>
     <string name="passport_register_by_email"><u>Създаване на профил чрез имейл адрес</u></string>
+    <string name="passport_international_register_by_email">Създаване на профил чрез имейл адрес</string>
     <string name="passport_account_not_actived">Профилът ви не беше активиран</string>
     <string name="passport_active_email_visit">Проверете входящата поща на %s</string>
     <string name="passport_click_email_to_valid">\" За да активирате вашият профил, последвайте връзката за активиране от писмото в пощата ви.\"</string>
@@ -174,6 +176,7 @@
     <string name="passport_quick_register_notice"><u>Нямате Mi профил? Направете си сега.</u></string>
     <string name="passport_password_phone_login">Вписване с Mi профил</string>
     <string name="passport_sms_verification_code_login">Вписване със SMS</string>
+    <string name="passport_sms_verification_code_login_or_register">Вписване или регистрация чрез SMS</string>
     <string name="passport_login_other_account">Друг профил</string>
     <string name="passport_reg_new_account">Създайте профил</string>
     <string name="passport_select_the_login_account">Изберете профил за вписване</string>
