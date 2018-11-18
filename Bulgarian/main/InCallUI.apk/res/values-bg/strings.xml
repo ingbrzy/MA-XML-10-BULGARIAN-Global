@@ -51,14 +51,12 @@
     <string name="onscreen_note_calls_text">Бележка</string>
     <string name="call_record_wait_label">Изчакване</string>
     <string name="contacts_icon_label">Контакти</string>
-    <string name="conference_call_number">%s човека</string>
     <string name="conference_call_description" formatted="false">%s,%s и т.н. общо %s</string>
     <string name="conference_call_single_description" formatted="false">%s etc. Всичко %s</string>
     <string name="separate_from_conference">Отдели обаждането</string>
     <string name="caller_manage_header">Конферентно обаждане %s</string>
     <string name="incall_call_type_label_sip">Интернет обаждане</string>
     <string name="incoming_call_forwarded_title">Прехвърляне на входящите повиквания</string>
-    <string name="call_title_redialing_with_times">Набран повторно %d пъти</string>
     <string name="card_title_dialing">Набиране</string>
     <string name="card_title_conf_call">Конферентно обаждане</string>
     <string name="card_title_video_conf_call">Видеоконферентен разговор</string>
@@ -145,7 +143,6 @@
     <string name="call_recording_deny_permission_msg">Нямате права за запис на разговор, не може да се запише.</string>
     <string name="call_contacts_deny_permission_msg">\"Нямате права за получаване на информация за контакт, не може да се покаже информация.</string>
     <string name="conference_call_recorder_title">Конферентно обаждане</string>
-    <string name="antispam_marked_count">Отклонени: %1$d</string>
     <string name="antispam_local_marked">Маркирано локално</string>
     <string name="antispam_provider">Доставчик: %s</string>
     <string name="antispam_notification_title">Неизвестен</string>

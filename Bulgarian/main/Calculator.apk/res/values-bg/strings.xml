@@ -552,8 +552,11 @@
     <string name="word_figure_unit_shi">Вземете</string>
     <string name="word_figure_yuan">Юан</string>
     <string name="word_figure_zheng">Цяло</string>
+    <string name="xiaomi_bytes_unit">%1$sБ</string>
     <string name="xiaomi_connect_download_manager_fail">Неуспешно свързване с Мениджъра за изтеглянията. Моля, проверете състоянието на Мениджъра за изтеглянията в Управлението на приложението.</string>
     <string name="xiaomi_external_storage_unavailable">Съхранението е недостъпно. Моля, проверете SD картата.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sКБ</string>
+    <string name="xiaomi_megabytes_unit">%1$sМБ</string>
     <string name="xiaomi_update_dialog_message">"Представяне на версия%1$s
 Размер:%2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Представяне на версия%1$s

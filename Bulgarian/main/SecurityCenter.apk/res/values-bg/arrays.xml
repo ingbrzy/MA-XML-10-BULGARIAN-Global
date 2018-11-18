@@ -73,6 +73,12 @@
         <item>Сортиране по използване на хранилището</item>
         <item>Подреди по време на инсталиране</item>
     </string-array>
+    <string-array name="key_app_info">
+        <item>източник на инсталиране</item>
+        <item>час на инсталиране</item>
+        <item>източник на актуализиране</item>
+        <item>час на актуализиране</item>
+    </string-array>
     <string-array name="title_app_info">
         <item>Източник на инсталиране</item>
         <item>Час на инсталиране</item>
@@ -86,6 +92,11 @@
     <string-array name="tether_limit_warn_type">
         <item>Изключи и уведоми</item>
         <item>Само уведомяване</item>
+    </string-array>
+    <string-array name="traffic_package_type">
+        <item>Месечен план за данни</item>
+        <item>Дневен план за данни</item>
+        <item>Неограничен план за данни</item>
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>Веднъж</item>

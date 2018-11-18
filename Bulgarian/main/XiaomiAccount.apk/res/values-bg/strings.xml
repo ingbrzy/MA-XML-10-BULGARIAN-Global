@@ -475,4 +475,14 @@
     <string name="sim_changed_notification_msg">Чукнете, за да актуализирате вашия телефон за възстановяване и поддръжайте вашия профил защитен.</string>
     <string name="recycle_phone_notification_title">Рискове в сигурността на Mi Профил</string>
     <string name="recycle_phone_notification_msg">Изглежда, че вашият телефонен номер е бил сменен. Чукнете за актуализиране.</string>
+    <string name="send_diagnosis_log">Изпрати архив с диагностика</string>
+    <string name="for_diagnosis_usage_only">Използвай тази информация само за диагностика.</string>
+    <string name="collect_diagnosis_log">Събери архив с диагностика</string>
+    <string name="sending">Изпращане...</string>
+    <string name="diagnosis_log_sent_format">"Архивът с диагностика беше изпратен.
+Идентификация%s
+Моля, изпратете този код към техниците."</string>
+    <string name="diagnosis_log_send_failed">Изпращането на архив с диагностика е неуспешен.</string>
+    <string name="temporary_not_available">е временно недостъпно</string>
+    <string name="ok">OK</string>
 </resources>

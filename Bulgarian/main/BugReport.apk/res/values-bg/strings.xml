@@ -57,6 +57,7 @@
     <string name="save_pic_success">Запазване на изобр. в %s</string>
     <string name="save_pic_fail">Не може да се запази изобр. Прегледайте SD-картата си</string>
     <string name="pic_not_exist">Това изобр. не съществува</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Изберете продукт</string>
     <string name="michat_skillset_business_type_title">Изберете услуга</string>
     <string name="michat_close_text">Чатът е затворен</string>
@@ -161,10 +162,9 @@
     <string name="cta_cancel">Отказ</string>
     <string name="cta_confirm">ОК</string>
     <string name="submit_dialog_title">Изпращане на доклад до Mi</string>
-    <string name="submit_dialog_content">" "<Data> Вашата обратна връзка заедно с прикачените файлове и логовете ще бъде изпратена до сървърите на MIUI. Тази информация може да съдържа вашите лични данни. Избирането на \"Съгласен съм \" означава, че вие сте прочели и сте съгласни с нашите &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>. </Data>" "</string>
-    <string name="submit_dialog_content_global">" "<Data>" Вашата обратна връзка заедно с прикачените файлове (ако има) и логовете (Вие можете да махнете отметката в менюто за кореспонденция на тези елементи, които не искате да изпращате до сървърите на MIU) ще бъдат изпратени до тях и в определената секция на форума за програмисти на MIUI. Информацията за дадения проблем ще бъде запазена и за бъдеща кореспонденция. Тя може да съдържа лични данни и информация за местоположението ви. Натискането на ъгласен съм \" означава, че вие сте прочели и сте съгласни с нашите
-         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>.
-"</Data>" "</string>
+    <string name="submit_dialog_content"><Data>Вашата обратна връзка заедно с прикачените файлове и логовете ще бъде изпратена до сървърите на MIUI. Тази информация може да съдържа вашите лични данни. Избирането на \"Съгласен съм \" означава, че вие сте прочели и сте съгласни с нашите &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>.</Data></string>
+    <string name="submit_dialog_content_global"><Data>"Вашата обратна връзка заедно с прикачените файлове (ако има) и логовете (Вие можете да махнете отметката в менюто за кореспонденция на тези елементи, които не искате да изпращате до сървърите на MIU) ще бъдат изпратени до тях и в определената секция на форума за програмисти на MIUI. Информацията за дадения проблем ще бъде запазена и за бъдеща кореспонденция. Тя може да съдържа лични данни и информация за местоположението ви. Натискането на ъгласен съм \" означава, че вие сте прочели и сте съгласни с нашите
+         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>."</Data></string>
     <string name="submit_dialog_cancel">Не приемам</string>
     <string name="submit_dialog_confirm">Приемам</string>
     <string name="tab_title_preferences">Настройки</string>
@@ -182,9 +182,8 @@
     <string name="modem_tool_log_finish_title">Логът на модема е заснет</string>
     <string name="modem_tool_log_finish_desc">Логът е запазен като %s</string>
     <string name="bugreport_dialog_not_show_again">Не показвай отново</string>
-    <string name="bugreport_dialog_submit_content">" "<Data>" Вие ще запазите логовете на софтуера на вашето устройство. Тези записи могат да съдържат лична информация и вашето местоположение. Не споделяйте тези логове с никой, ако искате да останете защитени. Избирането на ъгласен съм \" означава, че вие сте прочели и сте съгласни с нашите
-         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>.
-"</Data>" "</string>
+    <string name="bugreport_dialog_submit_content"><Data>"Вие ще запазите логовете на софтуера на вашето устройство. Тези записи могат да съдържат лична информация и вашето местоположение. Не споделяйте тези логове с никой, ако искате да останете защитени. Избирането на ъгласен съм \" означава, че вие сте прочели и сте съгласни с нашите
+         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>."</Data></string>
     <string name="bugreport_dump_start_notification_title">Създаване на доклад за грешка</string>
     <string name="bugreport_dump_start_notification_summary">Това може да отнеме няколко минути.</string>
     <string name="bugreport_dump_complete_notification_title">Докладът е създаден</string>
@@ -214,7 +213,7 @@
     <string name="feedback_submit_succ_button">Готово</string>
     <string name="feedback_title">Заглавие</string>
     <string name="feedback_description">Описание</string>
-    <string name="feedback_select_images">Добави снимка</string>
+    <string name="feedback_select_images">Добавете изображение или кратко видео</string>
     <string name="feedback_delete_images">Изтрий изображенията</string>
     <string name="feedback_select_upload_log">Добави логове</string>
     <string name="feedback_select_modem_log">Добави логове от модем</string>
@@ -328,9 +327,10 @@
     <string name="toast_post_deleted">Темата не съществува, изтрита е или редактирана.</string>
     <string name="toast_log_not_exists">Исканите данни са били изтрити или не съществуват</string>
     <string name="toast_pic_not_exists">Кешираното изображение беше изтрито</string>
-    <string name="toast_screenshot_too_large">Не може да се качи файл по-голям от 10МБ.</string>
-    <string name="toast_log_too_large">Не може да се качи. Файлът е прекалено голям.</string>
+    <string name="toast_screenshot_too_large">Не може да качвате изображение или видео с размер по-голям от 10МБ.</string>
+    <string name="toast_log_too_large">Не може да се качи. Регистърът е прекалено голям.</string>
     <string name="title_customer_service">Обслужване на клиенти</string>
+    <string name="title_first_aid">Първа помощ</string>
     <string name="customer_service_apply">Запитване към Обслужване на клиенти</string>
     <string name="customer_service_complain">Докладвайте на Обслужване на клиенти</string>
     <string name="customer_service_station">Местопол на Обслужване на клиенти</string>
@@ -359,7 +359,7 @@
     <string name="catch_full_log_notification_content">Докоснете, за връщане към регистри</string>
     <string name="catch_full_log_start_dump_hprof">Създава се регистър</string>
     <string name="catch_full_log_dump_hprof_failed">Не може да се създаде регистър</string>
-    <string name="catch_full_log_add_original_photo">Добави снимка</string>
+    <string name="catch_full_log_add_original_photo">Добавете оригинално изображение или кратко видео</string>
     <string name="catch_full_log_add_photo_dialog_content">Ако проблемът, който докладвате е свързан с качеството на камерата, добавете оригинална обикновена снимка, която да не е изрязана, за да ни помогнете да определим проблема. Добавяне на снимка сега?</string>
     <string name="catch_full_log_submit_directly">Приеми</string>
     <string name="catch_full_log_add_photo">Добави снимка</string>
