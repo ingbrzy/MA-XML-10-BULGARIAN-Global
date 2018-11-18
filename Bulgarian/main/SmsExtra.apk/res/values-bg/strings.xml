@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="activity_not_found">Няма приложение, което поддържа това действие</string>
     <string name="allow_network_hint">Включете \"Автоматично актуализиране на информацията\" или проверете Вашата връзка с мрежата</string>
     <string name="already_updated">Актуално</string>
