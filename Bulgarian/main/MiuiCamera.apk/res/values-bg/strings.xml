@@ -203,7 +203,7 @@
     <string name="tap_to_exposure">Чукнете за ръчно експониране</string>
     <string name="accessibility_shutter_button">Бутон на затвора</string>
     <string name="accessibility_intent_done_apply">Готово</string>
-    <string name="accessibility_intent_done_retry">Повторно</string>
+    <string name="accessibility_intent_done_retry">Опитайте отново</string>
     <string name="accessibility_review_thumbnail">Последна снимка</string>
     <string name="accessibility_camera_picker">Превключване между предна и задна камера</string>
     <string name="accessibility_stereo_button">Регулиране на фокуса</string>
@@ -261,13 +261,12 @@
     <string name="pref_camera_referenceline_title">Базова линия</string>
     <string name="pref_camera_volumekey_function_entry_volume">Звук</string>
     <string name="pref_camera_volumekey_function_entry_shutter">Затвор</string>
+    <string name="pref_camera_volumekey_function_entry_timer">Брояч на затвора</string>
     <string name="pref_camera_volumekey_function_entry_zoom">Мащабиране</string>
-    <string name="pref_camera_volumekey_function_entry_exposure">Експониране</string>
     <string name="pref_camera_volumekey_function_title">Функция на бутоните за звук</string>
     <string name="error_fail_to_start_audio_capture">Няма възможност за звукозапис.</string>
     <string name="toast_start_audio_capture">Издайте звук, за да сработи затвора</string>
     <string name="record_back_pressed_hint">Натиснете отново, за спиране на записа</string>
-    <string name="toast_burst_snap_finished_summary">Бързото заснемане приключи, %1$s снимки са направени</string>
     <string name="toast_burst_snap_forbidden_when_audio_capture_open">Серийното снимане не се поддържа, когато е включен запис на звук.</string>
     <string name="time_lapse_error">Невалидна резолюция за записване на \"Time lapse\" видео.</string>
     <string name="pref_camera_movie_solid_title">Стабилизация на изображението</string>
@@ -430,11 +429,12 @@
     <string name="pref_camera_portrait_mode_entry_off">Режим Портрет е изключен</string>
     <string name="pref_camera_portrait_mode_entry_on">Режим Портрет е включен</string>
     <string name="portrait_mode_lowlight_hint">Прекалено е тъмно</string>
-    <string name="portrait_mode_too_close_hint">Отдалечете малко обекта</string>
-    <string name="portrait_mode_too_far_hint">Поставете обекта на разстояние до 2 метра</string>
+    <string name="portrait_mode_too_close_hint">Отдалечете се повече от обекта</string>
+    <string name="portrait_mode_too_far_hint">Поставете обекта на 2 метра разстояние</string>
     <string name="portrait_mode_depth_effect_success_hint">Ефект дълбочина</string>
     <string name="portrait_mode_use_hint">"Режим Портрет замъглява задния план, 
 и по този начин лицата на хората изпъкват ясно на преден план."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Изпробвайте режим Портрет.
  Направете обекта ясен и замъглете фона."</string>
     <string name="pref_camera_square_mode_title">Квадрат</string>
@@ -451,6 +451,7 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средно</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Режими</string>
     <string name="button_front_camera_title">Направете селфи</string>
     <string name="button_normal_video_title">Запишете видео</string>
@@ -552,7 +553,7 @@
     <string name="lens_dirty_detected_content">Изглежда, че обективът на камерата е замърсен. Почистете го за по-качествени снимки.</string>
     <string name="lighting_hint_title">Студийно осветление</string>
     <string name="lighting_hint_usage">Вие можете да използвате ефекта Студийно осветление в режим Портрет</string>
-    <string name="lighting_hint_needed">Поставете обекта под прожектора</string>
+    <string name="lighting_hint_needed">Поставете Вашия обект под прожектора</string>
     <string name="lighting_hint_too_far">Приближете още малко камерата</string>
     <string name="lighting_hint_too_close">Преместете камерата още малко</string>
     <string name="lighting_pattern_nature">Естествен</string>
@@ -567,5 +568,5 @@
     <string name="portrait_bokeh_text">Режим Портрет</string>
     <string name="portrait_bokeh_first_tips">"Използвайте режим Портрет за да замъглите
  фона около вашите снимки"</string>
-    <string name="portrait_bokeh_tips">Поставете обекта на разстояние до 1.5 метра</string>
+    <string name="portrait_bokeh_tips">Поставете обекта на 1,5 метра разстояние</string>
 </resources>

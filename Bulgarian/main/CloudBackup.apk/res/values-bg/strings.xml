@@ -46,9 +46,12 @@
     <string name="customization"><u>Персонализиране</u></string>
     <string name="home_hint_global_launcher">POCO Launcher</string>
     <string name="home_hint_other_launcher">Други работни екрани</string>
-    <string name="self_device">"  на този телефон"</string>
-    <string name="main_space">Основно работно място</string>
-    <string name="second_space">Второ работно място</string>
+    <string name="self_device_main_space">Това е Основно работно място на телефона</string>
+    <string name="self_device_second_space">Това е Второ работно място на телефона</string>
+    <string name="other_device_main_space">Основно работно място</string>
+    <string name="other_device_second_space">Второ работно място</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Възстановяване \"%s\"</string>
     <string name="size_unknown">Неизвестен размер</string>
     <string name="recovering">Възстановява се %s</string>
@@ -130,6 +133,8 @@
     <string name="provision_error_connect_msg">Тествайте мрежовата връзка и опитайте отново. Архивите не са достъпни, когато вашето устройство е офлайн.</string>
     <string name="provision_error_connect_title">Не може да се свърже</string>
     <string name="loading_user_backup">Зареждане на архив…</string>
+    <string name="loading_progress_num">(%s%%)</string>
+    <string name="error_num_placeholder">--</string>
     <string name="authentication_failed">Не може да се провери вашият Mi Профил.</string>
     <string name="no_account">Не сте вписан в Mi Профил.</string>
     <string name="no_backup">Няма резервно копие в Mi Облак.</string>
@@ -137,7 +142,7 @@
     <string name="home_restore_error">Неуспешно изтегляне на настройките на нач. екран</string>
     <string name="get_device_id_error">Не може да се получи ID на устройството</string>
     <string name="unsupported_home">Актуализирайте MIUI до последната версия.</string>
-    <string name="error_retry_later">Не може да се извърши действието. Изчакайте минута-две и опитайте отново..</string>
+    <string name="error_retry_later">Действието не бе изпълнено. Изчакайте минута-две и опитайте отново…</string>
     <string name="try_continue">Чукнете за да продължите</string>
     <string name="download_home_data">Изтегляне на настройките на нач. екран…</string>
     <string name="restore_home_failed">Неуспешно изтегляне на настройките на нач. екран.</string>
@@ -154,6 +159,9 @@
     <string name="dialog_msg_restore_require_wlan">Възстановяването от архивни копия изисква връзка с Wi-Fi.</string>
     <string name="dialog_btn_next">Следващо</string>
     <string name="dialog_btn_restore_skip">Възстанови по-късно</string>
+    <string name="dialog_btn_cancel_backup">Отмени</string>
+    <string name="dialog_btn_overwrite_backup">Презапис</string>
+    <string name="dialog_msg_overwrite_backup">Локалното архивиране е различно от това в Mi Облак. Ако продължите, текущото архивиране ще замени предишното.</string>
     <string name="cloud_backup">Резервни копия в Mi Облак</string>
     <string name="open_backup_switch">Превключи на Резервно копие</string>
     <string name="restore_cloud_backup_to_phone">Възстановяване на данни от Mi Облак</string>
@@ -176,4 +184,6 @@
     <string name="msg_alert_restore_error">Не може да се възстановят елементите от Mi Облак. Опитайте отново.</string>
     <string name="btn_restore_retry">Оптитайте отново</string>
     <string name="btn_restore_abort">Отказ</string>
+    <string name="backup_stopped_title">Архивирането беше на пауза</string>
+    <string name="backup_stopped_msg">Текущото архивиране ще замени предишното такова. Чукнете за преглед.</string>
 </resources>

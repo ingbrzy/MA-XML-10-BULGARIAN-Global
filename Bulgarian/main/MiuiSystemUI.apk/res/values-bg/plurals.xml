@@ -29,12 +29,12 @@
         <item quantity="one">Невалиден PUK код, %d опит остава</item>
     </plurals>
     <plurals name="input_password_after_timeout_msg">
-        <item quantity="other">Изисква се въвеждане на парола след %d часа неактивност</item>
-        <item quantity="one">Изисква се въвеждане на парола след %d час неактивност</item>
+        <item quantity="other">Не сте използвали паролата си поне %d часа. Въведете паролата си.</item>
+        <item quantity="one">Не сте използвали паролата си поне %d час. Въведете паролата си.</item>
     </plurals>
     <plurals name="input_pattern_after_timeout_msg">
-        <item quantity="other">Изисква се вписване с фигура след %d часа неактивност</item>
-        <item quantity="one">Изисква се вписване с фигура след %d час неактивност</item>
+        <item quantity="other">Не сте използвали вашия отключен модел поне %d часа. Начертайте модела си.</item>
+        <item quantity="one">Не сте използвали вашия отключен модел поне %d час. Начертайте модела си.</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_hour_time_text">
         <item quantity="other">Остават %d часа</item>

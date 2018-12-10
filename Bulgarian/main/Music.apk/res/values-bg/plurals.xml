@@ -8,25 +8,23 @@
         <item quantity="other">Търсене на обложки и текстове на песни (%1$d/%2$d)</item>
         <item quantity="one">Търсене на обложки и текстове на песни (%1$d/%2$d)</item>
     </plurals>
-    <plurals name="Nbackup_songs">
-        <item quantity="other">Архивиране на песни, %1$d песни остават (%2$.1fMB)</item>
-        <item quantity="one">Архивиране на песни, %1$d песен остава (%2$.1fMB)</item>
+    <plurals name="Ndialog_renew_content">
+        <item quantity="other">"Вашият абонамент изтича след %dдни.
+Желаете ли да Ви помогнем да го подновите?"</item>
+        <item quantity="one">"Вашият абонамент изтича след %d ден.
+Желаете ли да Ви помогнем да го подновите?"</item>
+    </plurals>
+    <plurals name="Nhungama_free_download_summary">
+        <item quantity="other">Можете да изтеглите %1$d безплатни песни. Изтеглете %2$s сега?</item>
+        <item quantity="one">Можете да изтеглите %1$d безплатна песен. Изтеглете %2$s сега?</item>
     </plurals>
     <plurals name="Nquit_warning">
         <item quantity="other">Музиката ще спре след %d минути</item>
         <item quantity="one">Музиката ще спре след %d минута</item>
     </plurals>
-    <plurals name="Nrecognize_switch_off_alert_message">
-        <item quantity="other">Вие сте избрали да не се търсят обложки на албуми и текстове автоматично за локални песни. Да се изтрие ли информацията за %d песни?</item>
-        <item quantity="one">Вие сте избрали да не се търсят обложки на албуми и текстове автоматично за локални песни. Да се изтрие ли информацията за %d песен?</item>
-    </plurals>
     <plurals name="Nsong_group_detail_subtitle">
         <item quantity="other">Създадена на %1$s | общо %2$d песни</item>
         <item quantity="one">Създадена на %1$s | общо %2$d песен</item>
-    </plurals>
-    <plurals name="Nstop_backup_songs_message">
-        <item quantity="other">%d песни не са архивирани в Mi Облак. Спиране сега?</item>
-        <item quantity="one">%d песен не е архивирана в Mi Облак. Спиране сега?</item>
     </plurals>
     <plurals name="Ntracks_add_to_playlist">
         <item quantity="other">%d песни са добавени в списъка</item>
@@ -43,14 +41,6 @@
     <plurals name="Ntracks_similar_count">
         <item quantity="other">%d подобни песни</item>
         <item quantity="one">%d подобна песен</item>
-    </plurals>
-    <plurals name="Nunbackup_audios">
-        <item quantity="other">%1$d песни не са архивирани (%2$.1fMB)</item>
-        <item quantity="one">%1$d песен не е архивирана (%2$.1fMB)</item>
-    </plurals>
-    <plurals name="Nupload_song_button">
-        <item quantity="other">Архивиране %1$d песни (%2$.1fMB)</item>
-        <item quantity="one">Архивиране %1$d песен (%2$.1fMB)</item>
     </plurals>
     <plurals name="comment_count">
         <item quantity="other">%d коментари</item>
@@ -73,10 +63,6 @@
     <plurals name="dialog_remove_descript">
         <item quantity="other">Премахване на %d песни?</item>
         <item quantity="one">Премахване на %d песен?</item>
-    </plurals>
-    <plurals name="dialog_remove_from_cloud_descript">
-        <item quantity="other">Изтриване на %d песни от Mi Облак? Ще се изтрият и от запазените списъци с изпълнители също.</item>
-        <item quantity="one">Изтриване на %d песен от Mi Облак? Ще се изтрие и от запазените списъци с изпълнители също.</item>
     </plurals>
     <plurals name="download_finished">
         <item quantity="other">Изтеглени &lt;font color==\"red\">%d песни&lt;/font></item>
@@ -113,5 +99,13 @@
     <plurals name="songs_count">
         <item quantity="other">%d песни</item>
         <item quantity="one">%d песен</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">Видеоклипове</item>
+        <item quantity="one">Видеоклип</item>
+    </plurals>
+    <plurals name="video_play_count">
+        <item quantity="other">%1$s изгледи</item>
+        <item quantity="one">%1$s изглед</item>
     </plurals>
 </resources>

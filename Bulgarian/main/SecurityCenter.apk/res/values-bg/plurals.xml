@@ -264,6 +264,18 @@
         <item quantity="other">"Изчакайте %d секунди и опитайте пак. "</item>
         <item quantity="one">"Изчакайте %d секунда и опитайте пак. "</item>
     </plurals>
+    <plurals name="lockpattern_recording_incorrect_too_short">
+        <item quantity="other">Свържете поне %d точки</item>
+        <item quantity="one">Свържете поне %d точка</item>
+    </plurals>
+    <plurals name="numeric_recording_incorrect_too_short">
+        <item quantity="other">Въведете поне %d цифри</item>
+        <item quantity="one">Въведете поне %d цифра</item>
+    </plurals>
+    <plurals name="mixed_recording_incorrect_too_short">
+        <item quantity="other">Въведете поне %d знака</item>
+        <item quantity="one">Въведете поне %d знак</item>
+    </plurals>
     <plurals name="number_masked">
         <item quantity="other">%d приложения</item>
         <item quantity="one">%d приложение</item>

@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Добави в работно място</string>
     <string name="activity_not_found">Приложението не е инсталирано на телефона Ви.</string>
     <string name="add_screen">Добави бутон за екрани</string>
+    <string name="announce_for_app_move_in_folder">Преместено на позиция %1$d в папката</string>
     <string name="announce_for_checked">%1$s, проверени</string>
     <string name="announce_for_choose_default_screen">Задайте екран %1$d за Начален екран по подразбиране</string>
     <string name="announce_for_close_default_preview">Затворени настройки по подразбиране за Начален екран</string>
     <string name="announce_for_close_folder">Затворена папка</string>
     <string name="announce_for_close_launcher_menu">Затворено меню</string>
+    <string name="announce_for_create_folder_with_app">Създадена е папка с %1$s</string>
     <string name="announce_for_delete_gadget_and_widget">Джаджи</string>
     <string name="announce_for_delete_item">%1$s беше изтрита</string>
     <string name="announce_for_drag_enter_delete_zone">Провлачени елементи към зоната за деинсталиране</string>
@@ -30,6 +33,7 @@
     <string name="announce_for_open_launcher_menu">Отворено меню</string>
     <string name="announce_for_show_uninstall_dialog">Появи се диалог за деинсталиране. Отменете или потвърдете.</string>
     <string name="announce_for_unchecked">%1$s，непроверени</string>
+    <string name="announce_for_widget_span">Ширина %1$d, височина %2$d</string>
     <string name="app_already_exist">Приложението вече съществува</string>
     <string name="app_being_backup_message">Приложението е архивирано.</string>
     <string name="app_being_restored_message">Приложението бе възстановено</string>
@@ -296,6 +300,7 @@
     <string name="share">Сподели</string>
     <string name="show_all">Покажи всички</string>
     <string name="show_mem_info_title">Покажи съст. на рам памет</string>
+    <string name="show_recents_recommend_title">Покажи предложения</string>
     <string name="sort_by_abc">Подреди по име</string>
     <string name="sort_by_frequency">Подреди по популярност</string>
     <string name="sort_by_not_defined">Не сортирай</string>
@@ -343,9 +348,6 @@
     <string name="widget_gadget_player">Музика</string>
     <string name="widget_global_search">Търсене</string>
     <string name="widget_quick_function">Бързи функции</string>
-    <string name="announce_for_app_move_in_folder">Преместено на позиция %1$d в папката</string>
-    <string name="announce_for_create_folder_with_app">Създадена е папка с %1$s</string>
-    <string name="announce_for_widget_span">Ширина %1$d, височина %2$d</string>
     <string name="recommend_apps_no_data_toast">В момента няма препоръки.</string>
     <string name="recommend_refresh">Обновяване</string>
     <string name="recommend_xout">Не показвай</string>

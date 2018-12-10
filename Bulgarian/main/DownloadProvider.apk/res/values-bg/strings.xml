@@ -4,6 +4,7 @@
     <string name="notif_title_file_size">Общо: %1$d</string>
     <string name="notif_title_single_downloading">Изтегляне: %1$s</string>
     <string name="download_filesize_unknown">Непознат</string>
+    <string name="notification_dld_msg">Управление на изтеглените приложения</string>
     <string name="app_label">Изтеглени</string>
     <string name="permlab_downloadManager">Достъп до Изтегляния.</string>
     <string name="permdesc_downloadManager">Разрешава на приложението да има достъп до Изтегляния и да го използва, за да изтегля файлове. Злонамерените приложения могат да използват това, за да нарушат изтеглянията и да имат достъп до лична информация.</string>

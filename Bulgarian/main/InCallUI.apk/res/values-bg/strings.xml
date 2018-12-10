@@ -197,4 +197,5 @@
     <string name="dialpad_nine">9</string>
     <string name="prompt_no_volte_when_failed">Не може да се извърши обаждане. Уверете се, че вашето устройство е свързано с 4G мрежа с VoLTE поддържка.</string>
     <string name="volume_boost_text">Ускоряването е успешно</string>
+    <string name="supp_service_notification_call_waiting">Номерът, който избирате е зает. Моля изчакайте…</string>
 </resources>

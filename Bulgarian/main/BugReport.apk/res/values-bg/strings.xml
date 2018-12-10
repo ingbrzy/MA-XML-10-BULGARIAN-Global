@@ -46,7 +46,6 @@
     <string name="michat_cant_join_artificial">Не може да се свърже поради грешка в мрежата</string>
     <string name="michat_lose_artificial">Възникна грешка в мрежата, напуснахте чата</string>
     <string name="michat_transfer_message">Търсене на свободен оператор…</string>
-    <string name="michat_queue_pos_update">Има %1$d човека преди вас. Моля, изчакайте…</string>
     <string name="michat_in_artificial_customer_state">В момента поддръжката е заета с друг клиент</string>
     <string name="michat_pull_to_refresh_pull_label">Изтеглете надолу за да видите хронологията</string>
     <string name="michat_pull_to_refresh_release_label">Пуснете, за да видите хронологията</string>
@@ -57,6 +56,7 @@
     <string name="save_pic_success">Запазване на изобр. в %s</string>
     <string name="save_pic_fail">Не може да се запази изобр. Прегледайте SD-картата си</string>
     <string name="pic_not_exist">Това изобр. не съществува</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Изберете продукт</string>
     <string name="michat_skillset_business_type_title">Изберете услуга</string>
     <string name="michat_close_text">Чатът е затворен</string>
@@ -132,7 +132,6 @@
     <string name="toast_report_sent_failed">Не може да се изпрати отзив</string>
     <string name="toast_report_copied_to_clipboard">Отзивът е копиран в клипборда</string>
     <string name="toast_description_required">Трябва да напишете описание (на Английски)</string>
-    <string name="toast_feedbackservice_in_submit">Изпраща се предишния отзив…</string>
     <string name="toast_pending_log_collection">Все още се събира информация…</string>
     <string name="toast_feedback_submitted">Отзивът беше изпратен</string>
     <string name="toast_feedback_submitting">Публикува се…</string>
@@ -161,7 +160,7 @@
     <string name="cta_cancel">Отказ</string>
     <string name="cta_confirm">ОК</string>
     <string name="submit_dialog_title">Изпращане на доклад до Mi</string>
-    <string name="submit_dialog_content"><Data>Вашата обратна връзка заедно с прикачените файлове и логовете ще бъде изпратена до сървърите на MIUI. Тази информация може да съдържа вашите лични данни. Избирането на \"Съгласен съм \" означава, че вие сте прочели и сте съгласни с нашите &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>.</Data></string>
+    <string name="submit_dialog_content"><Data>Вие трябва да се съгласите с &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a> за да можете да използвате Фейсбук. Проблемите, които докладвате, заедно с прикачените файлове (може да се съдържа лична информация, като например информация за вашето устройство и текущата мрежа) ще бъдат качени на сървърите на MIUI. Това ще ни помогне да разберем проблемите, които сте докладвали.</Data></string>
     <string name="submit_dialog_content_global"><Data>"Вашата обратна връзка заедно с прикачените файлове (ако има) и логовете (Вие можете да махнете отметката в менюто за кореспонденция на тези елементи, които не искате да изпращате до сървърите на MIU) ще бъдат изпратени до тях и в определената секция на форума за програмисти на MIUI. Информацията за дадения проблем ще бъде запазена и за бъдеща кореспонденция. Тя може да съдържа лични данни и информация за местоположението ви. Натискането на ъгласен съм \" означава, че вие сте прочели и сте съгласни с нашите
          &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>."</Data></string>
     <string name="submit_dialog_cancel">Не приемам</string>
@@ -249,6 +248,7 @@
     <string name="feedback_contact_info_hint">Тел номер/Имейл</string>
     <string name="toast_loading_app_id">Получаване на информация…</string>
     <string name="feedback_status_commit_succ_title">Изпрати</string>
+    <string name="feedback_status_commit_in_queue_title">Изчаква се…</string>
     <string name="feedback_status_commit_uploading_title">Изпращане…</string>
     <string name="feedback_status_commit_failed_title">Не може да се изпрати доклада</string>
     <string name="feedback_status_processing">Зареждане…</string>
@@ -335,6 +335,7 @@
     <string name="customer_service_station">Местопол на Обслужване на клиенти</string>
     <string name="title_catch_full_log">Регистри</string>
     <string name="toast_catch_full_log_catching">Не можете да създавате много регистри на един път.</string>
+    <string name="toast_catch_full_log_open_failed">Не може да се стартира записване на регистър.</string>
     <string name="catch_full_log_item_title_signal">Телефон, сигнал и мобилни мрежи</string>
     <string name="catch_full_log_item_title_wifi">Wi-Fi и Mi Drop</string>
     <string name="catch_full_log_item_title_gps">Услуги за местоположението</string>
@@ -352,7 +353,7 @@
     <string name="catch_full_log_action_start">Създай регистър</string>
     <string name="catch_full_log_action_complete">Завърши и изпрати</string>
     <string name="catch_full_log_action_cancel">Отказ</string>
-    <string name="catch_full_log_dialog_content">MIUI създава регистър. Това може да окаже влияние върху производителността на вашето устройство. Ако не можете да включите отново услугата, която искате да докладвате, върнете се обратно в менюто на регистрите и натиснете \"Отказ\".</string>
+    <string name="catch_full_log_dialog_content">MIUI създава регистър. Това може да се отрази на ефективността на Вашето устройство. Ако не можете да включите отново услугата, която искате да докладвате, върнете се обратно в менюто на регистрите и натиснете \"Отказ\".</string>
     <string name="catch_full_log_dialog_confirm_text">Отиди на Начален екран</string>
     <string name="catch_full_log_notification_title">Създава се регистър…</string>
     <string name="catch_full_log_notification_content">Докоснете, за връщане към регистри</string>

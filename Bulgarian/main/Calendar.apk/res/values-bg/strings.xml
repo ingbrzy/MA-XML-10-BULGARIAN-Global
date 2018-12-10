@@ -94,7 +94,7 @@
     <string name="card_manager_no_data">Нямате абонаменти още</string>
     <string name="card_title_change">Допълнение</string>
     <string name="change_response_title">Промяна на отговора</string>
-    <string name="click_to_share">Чукнете, за да споделите</string>
+    <string name="click_to_share">Натиснете, за да споделите</string>
     <string name="countdown_event_title">Обратно броене: %1$s</string>
     <string name="countdown_notify_before_3_day_title">Обратно броене: %1$s след 3 дни</string>
     <string name="countdown_notify_title">Обратно броене: %1$s</string>

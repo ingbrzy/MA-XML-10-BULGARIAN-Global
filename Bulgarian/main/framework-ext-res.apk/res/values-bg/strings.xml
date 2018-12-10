@@ -187,4 +187,5 @@
     <string name="miui_warning_tip_info">Настъпи грешка в %1$s. Да се затвори ли това приложение?</string>
     <string name="talk_back_water_mark_string1">TalkBack е вкл</string>
     <string name="talk_back_water_mark_string2">Натиснете и задръжте бутоните за увеличаване и намаляване на звука за 3 секунди за да изключите</string>
+    <string name="start_dump_log">Вижте регистрите на проблемни грешки</string>
 </resources>

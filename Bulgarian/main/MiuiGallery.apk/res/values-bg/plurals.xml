@@ -264,4 +264,12 @@
         <item quantity="other">%d елемента</item>
         <item quantity="one">%d елемент</item>
     </plurals>
+    <plurals name="backup_file_over_size_title">
+        <item quantity="other">%d елементи са твърде големи, за да бъдат архивирани</item>
+        <item quantity="one">%d елемент е твърде голям, за да бъде архивиран</item>
+    </plurals>
+    <plurals name="sync_oversized_count">
+        <item quantity="other">%d елементи са твърде големи, за да бъдат архивирани</item>
+        <item quantity="one">%d елемент е твърде голям, за да бъде архивиран</item>
+    </plurals>
 </resources>

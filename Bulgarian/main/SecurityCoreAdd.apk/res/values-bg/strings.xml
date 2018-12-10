@@ -426,4 +426,26 @@
     <string name="install_error">Не може да се инсталира. Опитайте отново.</string>
     <string name="ent_install_dialog_content">Инсталиране на приложенията и рестартиране на устройството сега?</string>
     <string name="ent_disallow_running">Това приложение е забранено</string>
+    <string name="greenguard_child_des_title">Нуждая се от помощ от моите приятели и семейство</string>
+    <string name="greenguard_child_des">Използвайте нашето приложение за да останете свързани</string>
+    <string name="greenguard_parent_des_title">Трябва да помогна на моите приятели и семейство</string>
+    <string name="greenguard_parent_des">Изтеглете нашето приложение и добавете устройствата на други хора</string>
+    <string name="cta_declaration_title">Правила и условия</string>
+    <string name="cta_declaration_message_format" formatted="false">Необходимо е да прочетете и да приемете нашите &lt;&lt;font color=%s>&lt;a href=%s>%s&lt;/a>&lt;/font> преди да използвате режим Enterprise. Устройството ви трябва да се свърже с интернет, за да активира режим Enterprise. Съгласни ли сте?</string>
+    <string name="cta_declaration_agree_and_continue">Приемам</string>
+    <string name="undo_activated_dialog_message">Отмяната на разрешението ще деактивира режим Enterprise и ще възстанови фабричните настройки на вашето устройство. Всички свързани функции вече няма да са налични. Освен това Xiaomi ще спре събирането на информацията, необходима за режим Enterprise (IMEI, идентификатор на устройството, версия на системата, регион и т. н.). Бихме искали да Ви напомним, че Xiaomi не управлява данните, които събира за режим Enterprise. Ще направим всичко възможно, за да уведомим всички свързани лица, но Ви препоръчваме да се свържете с мениджерите на Вашата компания за одобрение на тази отмяна. Да отменим ли разрешението и да възобновим фабричните настройки?</string>
+    <string name="undo_activated_dialog_ok">Отмяна</string>
+    <string name="undo_grant_dialog_message">Xiaomi ще спре да събира информацията, необходима за тази функция (IMEI, идентификатор на устройството, версия на системата, регион и т. н.), след като оттеглите разрешението. Ще го оттеглите ли сега?</string>
+    <string name="undo_privacy_menu">Отмяна на разрешението</string>
+    <string name="more_settings">Повече</string>
+    <string name="undo_success">Оттеглено успешно</string>
+    <string name="master_clear_apply_title">Внимание</string>
+    <string name="master_clear_apply_step_1">Отмяната на разрешението изисква възстановяването на фабричните настройки на Вашето устройство. То ще изтрие перманентно всички файлове и данни, включително профили, контакти, снимки и приложения. Преди да отмените разрешението, архивирайте всички важни елементи в компютъра си.</string>
+    <string name="master_clear_apply_step_2">Уверете се, че сте архивирали всички важни елементи на Вашия компютър. След като натиснете \"OK\", устройството Ви ще възобнови фабричните си настройки, като изтрие перманентно всички файлове и данни, включително профили, контакти, снимки и приложения.</string>
+    <string name="button_text_next_step">Напред</string>
+    <string name="button_text_next_step_timer">Следваща стъпка (%d)</string>
+    <string name="dialog_tip_need_network">Устройството Ви трябва да се свърже с интернет за отмяна на разрешението.</string>
+    <string name="dialog_undo_negative">Не отменяй</string>
+    <string name="dialog_title_service_error">Грешка в сървъра</string>
+    <string name="dialog_message_service_error">Неуспешен опит за отмяна на разрешението и възобновяване на фабрични настройки. Опитайте отново.</string>
 </resources>

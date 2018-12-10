@@ -9,8 +9,8 @@
         <item quantity="one">Да се изтрие ли този будилник?</item>
     </plurals>
     <plurals name="delete_timezone_confirm">
-        <item quantity="other">Да се изтрият ли избраните часови зони?</item>
-        <item quantity="one">Да се изтрие ли тази часова зона?</item>
+        <item quantity="other">Изтриване на избраните часови зони?</item>
+        <item quantity="one">Изтриване на часовата зона?</item>
     </plurals>
     <plurals name="second">
         <item quantity="other">%d секунди</item>

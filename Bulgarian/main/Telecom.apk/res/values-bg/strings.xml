@@ -105,6 +105,7 @@
     <string name="accessibility_wifi_signal_full">Сигналът за Wi-Fi е пълен.</string>
     <string name="accessibility_wifi_security_type_none">Отворена мрежа</string>
     <string name="accessibility_wifi_security_type_secured">Защитена мрежа</string>
+    <string name="process_kernel_label">Android (ОС)</string>
     <string name="data_usage_uninstalled_apps">Премахнати приложения</string>
     <string name="data_usage_uninstalled_apps_users">Премахнати приложения и потребители</string>
     <string name="tether_settings_title_usb">Тетъринг през USB</string>
@@ -433,7 +434,7 @@
     <string name="answer_incoming_call">Отговор</string>
     <string name="decline_incoming_call">Отхвърли</string>
     <string name="cant_call_due_to_ongoing_call">Не може да се вмести повикване. %1$s извършва се друго повикване.</string>
-    <string name="cant_call_due_to_ongoing_calls">Не може да се вмести повикване. %1$s извършват се други повиквания.</string>
+    <string name="cant_call_due_to_ongoing_calls">Не може да осъществи обаждане. Завършете първо Вашето %1$s обаждане.</string>
     <string name="cant_call_due_to_ongoing_unknown_call">Не може да се вмести повикване по време на извършване на същото от друго приложение.</string>
     <string name="notification_channel_incoming_call">Входящи повиквания</string>
     <string name="notification_channel_missed_call">Пропуснати обаждания</string>
