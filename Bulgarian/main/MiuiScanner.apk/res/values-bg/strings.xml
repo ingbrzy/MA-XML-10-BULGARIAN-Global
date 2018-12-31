@@ -92,6 +92,7 @@
     <string name="module_title_business_card">Визитна картичка</string>
     <string name="module_title_code">QR код</string>
     <string name="module_title_document">Документ</string>
+    <string name="module_title_plant">Растение</string>
     <string name="module_title_shopping">Пазаруване</string>
     <string name="module_title_translation">Превод</string>
     <string name="name">Име:</string>
@@ -106,6 +107,11 @@
     <string name="payment_text">Отваряне с %s</string>
     <string name="phone">Телефон:</string>
     <string name="place_barcode_into_rectangle">Нагласете кода вътре в рамката</string>
+    <string name="plant_fail">Не може да бъде разпознато</string>
+    <string name="plant_loading">Идентифициране…</string>
+    <string name="plant_reg_fail_2">Обектът не може да бъде разпознат. Скенерът може да идентифицира само растения.</string>
+    <string name="plant_support">" (Техническа поддръжка)"</string>
+    <string name="plant_title">Сканирайте растението, което искате да идентифицирате</string>
     <string name="preparing_sd">Подготовка на карта с памет…</string>
     <string name="previous">Обратно</string>
     <string name="qr_code_details">Детайли за QR код:</string>

@@ -4,6 +4,10 @@
         <item quantity="other">Отлагане за %d минути.</item>
         <item quantity="one">Отлагане за %d минута.</item>
     </plurals>
+    <plurals name="day">
+        <item quantity="other">%d дни</item>
+        <item quantity="one">%d ден</item>
+    </plurals>
     <plurals name="delete_alarm_confirm">
         <item quantity="other">Да се изтрият ли избраните будилници?</item>
         <item quantity="one">Да се изтрие ли този будилник?</item>
@@ -12,9 +16,25 @@
         <item quantity="other">Изтриване на избраните часови зони?</item>
         <item quantity="one">Изтриване на часовата зона?</item>
     </plurals>
+    <plurals name="hour">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
+    </plurals>
+    <plurals name="life_post_wake_up_item_acumu_day">
+        <item quantity="other">%1$d дни</item>
+        <item quantity="one">%1$d ден</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="other">%d минути</item>
+        <item quantity="one">%d минута</item>
+    </plurals>
     <plurals name="second">
         <item quantity="other">%d секунди</item>
         <item quantity="one">%d секунда</item>
+    </plurals>
+    <plurals name="snooze_duration_summary">
+        <item quantity="other">Будилникът ще се изключи %2$s пъти (%1$s мин. всеки)</item>
+        <item quantity="one">Будилникът ще се изключи %2$s път (%1$s мин.)</item>
     </plurals>
     <plurals name="snooze_message">
         <item quantity="other">Заглуши за %d мин.</item>

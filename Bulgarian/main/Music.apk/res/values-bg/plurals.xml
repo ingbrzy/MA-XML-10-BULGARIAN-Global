@@ -23,8 +23,10 @@
         <item quantity="one">Музиката ще спре след %d минута</item>
     </plurals>
     <plurals name="Nsong_group_detail_subtitle">
-        <item quantity="other">Създадена на %1$s | общо %2$d песни</item>
-        <item quantity="one">Създадена на %1$s | общо %2$d песен</item>
+        <item quantity="other">"Създадена на %1$s 
+общо %2$d песни"</item>
+        <item quantity="one">"Създадена на %1$s 
+общо %2$d песен"</item>
     </plurals>
     <plurals name="Ntracks_add_to_playlist">
         <item quantity="other">%d песни са добавени в списъка</item>
@@ -79,6 +81,14 @@
     <plurals name="multichoice_title">
         <item quantity="other">Избрани: %d елементи</item>
         <item quantity="one">Избран %d елемент</item>
+    </plurals>
+    <plurals name="notif_title_multiple_downloading">
+        <item quantity="other">Изтегляне на %1$d файлове</item>
+        <item quantity="one">Изтегляне на %1$d файл</item>
+    </plurals>
+    <plurals name="notification_download_failed_more">
+        <item quantity="other">%1$d елемента не могат да бъдат изтеглени</item>
+        <item quantity="one">%1$d елемент не може да бъде изтеглен</item>
     </plurals>
     <plurals name="reader_count">
         <item quantity="other">%d последователи</item>

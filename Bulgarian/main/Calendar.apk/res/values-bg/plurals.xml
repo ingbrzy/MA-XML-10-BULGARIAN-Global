@@ -9,8 +9,8 @@
         <item quantity="one">След %1$d ден в %2$s</item>
     </plurals>
     <plurals name="Ndays_ago_at">
-        <item quantity="other">%1$d дни преди в %2$s</item>
-        <item quantity="one">%1$d ден преди в %2$s</item>
+        <item quantity="other">преди %1$d дни в %2$s</item>
+        <item quantity="one">преди %1$d ден в %2$s</item>
     </plurals>
     <plurals name="Nhours">
         <item quantity="other">%d часа преди</item>

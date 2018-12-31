@@ -56,6 +56,7 @@
     <string name="save_pic_success">Запазване на изобр. в %s</string>
     <string name="save_pic_fail">Не може да се запази изобр. Прегледайте SD-картата си</string>
     <string name="pic_not_exist">Това изобр. не съществува</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="michat_skillset_product_title">Изберете продукт</string>
     <string name="michat_skillset_business_type_title">Изберете услуга</string>
     <string name="michat_close_text">Чатът е затворен</string>
@@ -217,8 +218,10 @@
     <string name="feedback_select_suggestion">Предложения</string>
     <string name="feedback_select_problem">Проблеми</string>
     <string name="feedback_choose_module">Избери елемент</string>
+    <string name="feedback_choose_app_tag">Изберете проблем</string>
     <string name="feedback_choose_third_app_name">Посочете името на приложението</string>
     <string name="toast_module_required">Избери елемент</string>
+    <string name="toast_app_tag_required">Изберете проблем</string>
     <string name="feedback_choose_module_hint">Необходимо</string>
     <string name="feedback_choose_reproductivity">Репродуктивност</string>
     <string name="feedback_title_reproductivity">Изберете репродуктивност</string>
@@ -329,6 +332,7 @@
     <string name="toast_log_too_large">Не може да се качи. Регистърът е прекалено голям.</string>
     <string name="title_customer_service">Обслужване на клиенти</string>
     <string name="title_first_aid">Първа помощ</string>
+    <string name="title_user_guide">Упътване за употреба</string>
     <string name="customer_service_apply">Запитване към Обслужване на клиенти</string>
     <string name="customer_service_complain">Докладвайте на Обслужване на клиенти</string>
     <string name="customer_service_station">Местопол на Обслужване на клиенти</string>
@@ -342,12 +346,11 @@
     <string name="catch_full_log_item_title_sensor">Сензори</string>
     <string name="catch_full_log_item_title_bt">Bluetooth</string>
     <string name="catch_full_log_item_title_dump_heap">Регистриране</string>
-    <string name="catch_full_log_item_content_need_open">"Изпълнете следните стъпки: 
-1. Натиснете \"Създай регистър\". 
+    <string name="catch_full_log_item_content_title">Стъпки:</string>
+    <string name="catch_full_log_item_content_need_open">"1. Натиснете \"Създай регистър\". 
 2. Върнете се на услугата, която искате да докладвате и я стартирайте отново. 
 3. Върнете се обратно в менюто за регистри и натиснете \"Завърши и изпрати\"."</string>
-    <string name="catch_full_log_item_content_catch_direct">"Стъпки: 
-1. Върнете се на услугата, която искате да докладвате и я стартирайте отново. 
+    <string name="catch_full_log_item_content_catch_direct">"1. Върнете се на услугата, която искате да докладвате и я стартирайте отново. 
 2. Върнете се обратно в менюто за регистри и натиснете \"Завърши и изпрати\"."</string>
     <string name="catch_full_log_action_start">Създай регистър</string>
     <string name="catch_full_log_action_complete">Завърши и изпрати</string>

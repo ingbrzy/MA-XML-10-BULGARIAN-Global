@@ -56,6 +56,10 @@
         <item quantity="other">Продължи архивирането след %d часа</item>
         <item quantity="one">Продължи архивирането след %d час</item>
     </plurals>
+    <plurals name="backup_file_over_size_title">
+        <item quantity="other">%d елементи са твърде големи, за да бъдат архивирани</item>
+        <item quantity="one">%d елемент е твърде голям, за да бъде архивиран</item>
+    </plurals>
     <plurals name="backup_pause_desc">
         <item quantity="other">%d снимки или видео | На пауза</item>
         <item quantity="one">%d снимка или видео | На пауза</item>
@@ -260,16 +264,12 @@
         <item quantity="other">Неуспешно архивиране на %d снимки и клипове</item>
         <item quantity="one">Неуспешно архивиране на %d снимка или клип</item>
     </plurals>
-    <plurals name="sync_total_count">
-        <item quantity="other">%d елемента</item>
-        <item quantity="one">%d елемент</item>
-    </plurals>
-    <plurals name="backup_file_over_size_title">
-        <item quantity="other">%d елементи са твърде големи, за да бъдат архивирани</item>
-        <item quantity="one">%d елемент е твърде голям, за да бъде архивиран</item>
-    </plurals>
     <plurals name="sync_oversized_count">
         <item quantity="other">%d елементи са твърде големи, за да бъдат архивирани</item>
         <item quantity="one">%d елемент е твърде голям, за да бъде архивиран</item>
+    </plurals>
+    <plurals name="sync_total_count">
+        <item quantity="other">%d елемента</item>
+        <item quantity="one">%d елемент</item>
     </plurals>
 </resources>

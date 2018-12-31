@@ -332,7 +332,7 @@
     <string name="gpg_message">Създаването на клонирани игри изисква работа с Google Play Игри. Да клонирам ли приложението Google Play Игри?</string>
     <string name="gpg_title">Клониране на Google Play Игри</string>
     <string name="gms_message">Клонирането на приложения изисква работа с Услуги за Google. Да ги клонирам ли?</string>
-    <string name="gms_title">Включете услугите за Google</string>
+    <string name="gms_title">Клониране на Google услуги</string>
     <string name="gms_open_button">Включи</string>
     <string name="create_second_space">Успешно създадено</string>
     <string name="set_space_password">Задай парола</string>
@@ -448,4 +448,8 @@
     <string name="dialog_undo_negative">Не отменяй</string>
     <string name="dialog_title_service_error">Грешка в сървъра</string>
     <string name="dialog_message_service_error">Неуспешен опит за отмяна на разрешението и възобновяване на фабрични настройки. Опитайте отново.</string>
+    <string name="dialog_verify">Потвърдете вашия пръстов отпечатък</string>
+    <string name="dialog_verify_fingerprint_retry">Не може да се потвърди пръстов отпечатък. Опитайте отново.</string>
+    <string name="button_touch">Поставете пръста си върху сензора</string>
+    <string name="button_input_password">Въведете парола</string>
 </resources>

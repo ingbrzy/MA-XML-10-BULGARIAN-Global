@@ -30,9 +30,6 @@
     <string name="other_settings_auto_update_summary">MIUI ще избере най-подходящото време за да инсталира актуализациите</string>
     <string name="other_settings_ad_enable">Персонализирана рекламна препоръка</string>
     <string name="other_settings_ad_enable_summary">Получаване на препоръчани персонализирани реклами въз основа на данните за поведението ви</string>
-    <string name="other_settings_enhanced_lockscreen">Сменящи се тапети</string>
-    <string name="other_settings_enhanced_lockscreen_summary">Получавайте интересни тематични картини на вашия Заключен екран всеки ден. Приемете Условията за ползване.</string>
-    <string name="other_settings_enhanced_lockscreen_summary_index">Условия за ползване</string>
     <string name="back">Назад</string>
     <string name="next">Напред</string>
     <string name="skip_underline">Пропусни тази стъпка</string>

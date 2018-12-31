@@ -22,7 +22,7 @@
     <string name="sleep_config_enhance_description_non_nfc">Винаги, когато MIUI установи, че Вие спите, ще затвори приложенията на заден план, ще ограничи Bluetooth, GPS, мобилни данни и Wi-Fi и няма да светва екрана за известия.</string>
     <string name="nonui_mode_config_title">Неинтерактивен режим</string>
     <string name="nonui_mode_config_description">Не осветявай екрана за известия, изключи светодиода, сензора за пръстови отпечатъци и контролите с докосване, за да се пести батерия, когато MIUI установи, че не използвате устройството си.</string>
-    <string name="power_center">Захранване</string>
+    <string name="power_center">Употреба на батерия</string>
     <string name="power_usage">Консумация на енергия</string>
     <string name="power_mode">Настройки на захранването</string>
     <string name="performance_category">Производителност</string>
@@ -97,4 +97,13 @@
     <string name="atrace_start">Запис на регистрите на Atrace…</string>
     <string name="atrace_saving">Запазване на регистрите на Atrace…</string>
     <string name="atrace_saved">Успешно запазено</string>
+    <string name="notification_open_extreme_mode_text">Свръх икономия на батерията е включен</string>
+    <string name="extreme_power_settings_title">настройки</string>
+    <string name="notification_exit_extreme_mode_title">Свръх икономия на батерията е изключен</string>
+    <string name="notification_exit_extreme_mode_text">Батерията е заредена повече от %s</string>
+    <string name="extreme_power_config_mode_summary">Максималната икономия на батерията ограничава активността на заден план и спира синхронизирането.</string>
+    <string name="extreme_add_white_list_title">Изключения във фонов режим</string>
+    <string name="extreme_add_white_list_summary">Добави до 4 приложения</string>
+    <string name="adaptive_battery_title">Използване на Адаптивна батерия</string>
+    <string name="adaptive_battery_summary">Ограничаване разход на батерията от рядко използвани приложения</string>
 </resources>

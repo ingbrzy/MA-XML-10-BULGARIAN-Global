@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Добави в работно място</string>
     <string name="activity_not_found">Приложението не е инсталирано на телефона Ви.</string>
     <string name="add_screen">Добави бутон за екрани</string>
@@ -152,6 +153,7 @@
     <string name="gadget_clock_24_label">Часовник 4x2</string>
     <string name="gadget_clock_34_label">Часовник 4x3</string>
     <string name="gadget_clock_label">Часовник</string>
+    <string name="gadget_dual_clock_label">Двоен часовник</string>
     <string name="gadget_error_text">Проблем при зареждането на джаджа</string>
     <string name="gadget_google_search_label">Google търсене</string>
     <string name="gadget_load_error">Грешка при зареждане на джаджа...</string>
@@ -277,11 +279,14 @@
     <string name="recommend_apk_size_and_desc">%1$dМБ | %2$s</string>
     <string name="recommend_apps_default_title">Празно</string>
     <string name="recommend_apps_no_data">Няма данни</string>
+    <string name="recommend_apps_no_data_toast">В момента няма препоръки.</string>
     <string name="recommend_apps_notice">Препоръчани</string>
     <string name="recommend_apps_notice_nodata">Препоръчани прил. (Няма данни)</string>
     <string name="recommend_apps_switch_title">Препоръчани</string>
     <string name="recommend_apps_tips">Тази функция се нуждае от връзка към интернет, за да работи нормално. Ако искате да я изключите, докоснете името на тази папка.</string>
     <string name="recommend_loading">Зареждане</string>
+    <string name="recommend_refresh">Обновяване</string>
+    <string name="recommend_xout">Не показвай</string>
     <string name="reset_description_first_time">Можете да възстановите оформлението от %1$s в рамките на 2 часа</string>
     <string name="reset_description_others">Можете да възстановите оформлението от %1$s</string>
     <string name="reset_fail">Не успя да възстанови</string>
@@ -347,7 +352,4 @@
     <string name="widget_gadget_player">Музика</string>
     <string name="widget_global_search">Търсене</string>
     <string name="widget_quick_function">Бързи функции</string>
-    <string name="recommend_apps_no_data_toast">В момента няма препоръки.</string>
-    <string name="recommend_refresh">Обновяване</string>
-    <string name="recommend_xout">Не показвай</string>
 </resources>

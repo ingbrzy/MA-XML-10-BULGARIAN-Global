@@ -68,11 +68,11 @@
     <string name="account_setup_address_label">Електронна поща</string>
     <string name="account_setup_autodiscover_dlg_authfail_message">Потвърдете потребителското име, паролата и настройките на профила.</string>
     <string name="account_setup_autodiscover_dlg_authfail_title">Не може да се настрои профила</string>
-    <string name="account_setup_basics_email_label">Въведете адрес на ел. поща</string>
+    <string name="account_setup_basics_email_label">Имейл адрес</string>
     <string name="account_setup_basics_login_gmail_without_proxy">Влезте с текущата мрежа</string>
     <string name="account_setup_basics_manual_setup_action">Ръчна настройка</string>
     <string name="account_setup_basics_mi_mail_login_help">Може да се наложи да потвърдите профила си чрез SMS, за да получавате имейли</string>
-    <string name="account_setup_basics_password_label">Въведете парола</string>
+    <string name="account_setup_basics_password_label">Парола</string>
     <string name="account_setup_basics_title">Добавяне на профил</string>
     <string name="account_setup_check_settings_check_incoming_msg">Проверка на настройките на сървъра…</string>
     <string name="account_setup_check_settings_check_outgoing_msg">Потвърждаване на SMTP настройки…</string>
@@ -83,6 +83,7 @@
     <string name="account_setup_exchange_certificate_title">Сертификат на клиент</string>
     <string name="account_setup_exchange_device_id_label">Идентифициране на мобилно устройство</string>
     <string name="account_setup_exchange_no_certificate">Няма</string>
+    <string name="account_setup_failed_auth_required">Този метод за удостоверяване не се поддържа от сървъра.</string>
     <string name="account_setup_failed_certificate_inaccessible">Сертификатът е невалиден или недостъпен.</string>
     <string name="account_setup_failed_certificate_required">Сертификат на клиента е задължителен. Искате ли да се свържете със сървъра със сертификати на клиента?</string>
     <string name="account_setup_failed_check_credentials_message">Сървърът отговори с грешка. Проверете вашето потребителско име и парола, след това опитайте отново.</string>
@@ -221,6 +222,7 @@
     <string name="battery_saver">Икономия на батерията</string>
     <string name="battery_saver_keywords">икономия на батерията; енергия използвана от пощата</string>
     <string name="bcc">Bcc</string>
+    <string name="bcc_heading">"Препращане на: "</string>
     <string name="bill_center_setting">Настройки на сметките</string>
     <string name="bill_center_setting_head">Импортиране на информация от профила</string>
     <string name="bill_cycle_text">Цикъл на плащане</string>
@@ -241,6 +243,7 @@
     <string name="cancel_pop3_attchemt_downloading">Не може да отмените текущите изтегляния за прикачени файлове в POP3 профили</string>
     <string name="cant_move_or_change_labels">Не може да премествате елементи от много профили.</string>
     <string name="cc">Cc</string>
+    <string name="cc_attribution">Копие до %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Копие до: "</string>
     <string name="change_folders_selection_dialog_title">Промяна на папки</string>
@@ -258,6 +261,7 @@
     <string name="click_download_all_content">[Натиснете, за да изтеглите съдържание]</string>
     <string name="click_to_reload">Докоснете екрана, за да се обнови</string>
     <string name="collapse_recipient_details">Скриване на данни за получателя</string>
+    <string name="colon">:</string>
     <string name="compose">Съставяне на</string>
     <string name="compose_attachment_number_limit">Не може да добавите повече от 10 прикачени файлове</string>
     <string name="compose_paste_address_oob">Твърде много символи</string>
@@ -469,6 +473,7 @@
     <string name="gmail_web_login_go">OK</string>
     <string name="gmail_web_login_required_message">Влезте в Gmail</string>
     <string name="header_category_account">Профили</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">Обратна връзка</string>
     <string name="header_label_general_preferences">Общи настройки</string>
     <string name="help_and_info">Помощ</string>
@@ -490,6 +495,7 @@
     <string name="invalid_recipient">"Адресът %s  е невалиден."</string>
     <string name="invalid_recipient_title">Получателят не съществува</string>
     <string name="kilobytes">"%s  КБ"</string>
+    <string name="label_notification_ticker" formatted="false">%s: %s</string>
     <string name="load_from_remote">Търсене на пощенска кутия на сървъра</string>
     <string name="load_more">Зареди още</string>
     <string name="loading_conversation">Зарежда се…</string>
@@ -501,6 +507,7 @@
     <string name="login139">Вписване в China Mobile</string>
     <string name="login_failed_ticker">"%s  с неуспешно вписване."</string>
     <string name="login_failed_title">Неуспешно вписване</string>
+    <string name="login_mail">Вписване</string>
     <string name="login_support_tip_text">Поддържа всички основни имейл профили</string>
     <string name="long_press_to_select_tip">Докоснете &amp; задръжте, за да изберете кореспонденция, а след това докоснете други, за да изберете повече.</string>
     <string name="mail">Поща</string>
@@ -616,6 +623,7 @@
     <string name="multiple_new_message_notification_item"><b>%1$s</b>"   %2$s"</string>
     <string name="mute">Без звук</string>
     <string name="navigation_menu">Навигационно меню</string>
+    <string name="need_get_qq_mail">Изисква QQ Mail</string>
     <string name="network_error">Няма връзка</string>
     <string name="network_invaild">Не може да се свърже с мрежата</string>
     <string name="network_not_available">Не може да се свърже с мрежата</string>
@@ -646,8 +654,11 @@
     <string name="notification_action_reply_all">Отговор до всички</string>
     <string name="notification_action_undo_archive">Архивирани</string>
     <string name="notification_action_undo_delete">Изтрити</string>
-    <string name="notification_action_undo_remove_label">Етикетите са премахнати</string>
+    <string name="notification_action_undo_remove_label">Етикета е премахнат</string>
     <string name="notification_exchange_calendar_added">Добавен е календар на Exchange</string>
+    <string name="notify_channel_new_mail">Уведоми за нови съобщения</string>
+    <string name="notify_channel_permission_notice">Необходими са разрешения</string>
+    <string name="notify_channel_send_fail">Известяване за неосъществена доставка</string>
     <string name="oauth_error_description">Не можа да се удостовери</string>
     <string name="oauth_gmail_login_notify">Въведете име и парола на вашия Google профил на следната страница.</string>
     <string name="oauth_login_continue">Напред</string>
@@ -662,6 +673,10 @@
     <string name="open_external_storage_and_calendar_permission">Позволете на Поща да има достъп до информация за хранилището и календара в настройките</string>
     <string name="open_external_storage_and_contacts_and_calendar_permission">Позволете на Поща да получи достъп до хранилището, контактите и календара в настройките</string>
     <string name="open_external_storage_and_contacts_permission">Позволете на Поща да има достъп до хранилището и контактите в настройките</string>
+    <string name="open_notification_kingagent">Включете уведомленията за \"burial point\"</string>
+    <string name="optimization_suggestion">Предложения за оптимизация</string>
+    <string name="others_mail">Други</string>
+    <string name="others_mail_des">(Съвместим с пощенски услуги 600K)</string>
     <string name="outbox_alert_button_no_resend">Не изпращайте</string>
     <string name="outbox_alert_button_resend">Повторно изпращане</string>
     <string name="outbox_alert_certificate_error">Обърнете се към администратора на вашата пощенска система и актуализирайте вашия сертификат.</string>
@@ -765,6 +780,7 @@
     <string name="preview_attachment">Предварителен преглед</string>
     <string name="previous_action">Назад</string>
     <string name="print">Печат</string>
+    <string name="privacy_policy">Политика на поверителност</string>
     <string name="prompt_title">Питане</string>
     <string name="protocol_setting_toast">Докоснете горния десен ъгъл, за да отидете в Настройки след одобрение</string>
     <string name="pull_to_refresh">Дръпнете надолу за обновяване</string>
@@ -778,6 +794,9 @@
     <string name="push_wps_confirm_message">Използвайте WPS офис, за да отворите този прикачен файл.</string>
     <string name="push_wps_confirm_title">Пробвайте WPS офис</string>
     <string name="push_wps_no_response_app">Не е открито приложение, което да изпълни това действие</string>
+    <string name="qq_authorization_help_get">Вземете код</string>
+    <string name="qq_authorization_know">За кода на</string>
+    <string name="qq_authorization_tips">Не показвай отново</string>
     <string name="qq_auto_login_failed_cpy_pass_success">Копирана успешно. Върнете се към страницата за влизане и поставите кода в полето на паролата.</string>
     <string name="qq_auto_login_failed_dialog_message">Копиране на код за потвърждение, натиснете \"Въведете потребителско име и парола за да влезете в\" на страницата за влизане и поставите кода в полето на паролата.</string>
     <string name="qq_auto_login_failed_dialog_positive_label">Копиране на код</string>
@@ -791,6 +810,7 @@
     <string name="qq_login_webview">Влезте в уеб клиента на QQ, докоснете вход, като използвате паролата.</string>
     <string name="qq_next_generation_auth_toast">Включете защита с парола на браузъра</string>
     <string name="qq_uthentication_failed">Не може да се потвърди профила, впишете се отново</string>
+    <string name="qq_verify_code">(Изисква код за потвърждение от QQ)</string>
     <string name="qq_webview_loading">Момент…</string>
     <string name="questionnair_body_invisibility">Съобщенията не са показани</string>
     <string name="questionnair_confirm_delete">Премахване на профил?</string>
@@ -872,7 +892,7 @@
     <string name="saved">"Записано %s "</string>
     <string name="saving">Записване…</string>
     <string name="sdcard_cannot_use">Не може да използвате SD картата</string>
-    <string name="search_bar_text">Търсене на съобщения и контакти</string>
+    <string name="search_bar_text">Търсене за податели или контакти</string>
     <string name="search_hint">Търсене на поща</string>
     <string name="search_result">"Резултати "</string>
     <string name="search_tabs_name_all">Всички</string>
@@ -931,6 +951,7 @@
     <string name="silent_ringtone">Без звук</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">Паролата за сървъра за изходяща поща е неправилна</string>
     <string name="sort_attachment">Сортиране по</string>
     <string name="storage">Хранилище</string>
@@ -961,6 +982,7 @@
     <string name="tap_to_configure">Докоснете, за да настроите.</string>
     <string name="tap_to_enable_sync">Докоснете, за да включите.</string>
     <string name="three_day">3 дни</string>
+    <string name="title_activity_about">Относно</string>
     <string name="to">На</string>
     <string name="to_heading">"До: "</string>
     <string name="toast_bar_fail_synchronization">Не може да се свърже с мрежата</string>
@@ -1002,7 +1024,7 @@
     <string name="unzip_file_failed">Неуспешно разархивиране на файла</string>
     <string name="update_date_format_templete">HH:mm aa, MMMM dd</string>
     <string name="updated_at">Обновено в %1$s</string>
-    <string name="upload_log">Качване на хронологията</string>
+    <string name="upload_log">Изпрати</string>
     <string name="upload_log_failed">Не може да се изпрати писмото с хронологията</string>
     <string name="upload_log_no">Отказ</string>
     <string name="upload_log_success">Успешно изпратено, ние ще се свържем с вас скоро.</string>
@@ -1016,6 +1038,8 @@
     <string name="veiled_alternate_text" />
     <string name="veiled_alternate_text_unknown_person" />
     <string name="veiled_summary_unknown_person" />
+    <string name="verify_code">Код за потвърждение</string>
+    <string name="version_string">Версия: %s</string>
     <string name="via_domain">"чрез %1$s "</string>
     <string name="view_more_conversations">Преглед на още кореспонденции</string>
     <string name="wait_for_manual_sync_body">"Този профил не е настроен да се синхронизира автоматично. 
@@ -1032,12 +1056,10 @@
     <string name="widget_other_views">Други</string>
     <string name="wipe_account_fail_description">Позволете</string>
     <string name="wipe_account_fail_title">Не може да изтриете лични данни</string>
+    <string name="wps_title">WPS Mail</string>
     <string name="wrong_password">Въведената от вас парола е неправилна</string>
     <string name="yes">Да</string>
     <string name="you_are_in_mobile_network">Използване на мобилни данни, за да качвате регистрационни файлове?</string>
     <string name="youfuli">Промоция</string>
     <string name="zip_viewer_no_file">Няма файлове.</string>
-    <string name="account_settings_preference_add_account">Добави имейл профил</string>
-    <string name="mailbox_name_display_add_account">Добави имейл профил</string>
-    <string name="update_to_wps_mail">Насладете се на повече функции с WPS поща</string>
 </resources>

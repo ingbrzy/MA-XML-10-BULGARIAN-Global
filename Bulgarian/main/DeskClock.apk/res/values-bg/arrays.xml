@@ -13,8 +13,8 @@
     <string-array name="alarm_repeat_type">
         <item>Веднъж</item>
         <item>Ежедневно</item>
-        <item>Работни дни (в Китай)</item>
-        <item>Почивни дни (в Китай)</item>
+        <item>Работни дни</item>
+        <item>Почивни дни</item>
         <item>Понеделник-Петък</item>
         <item>По избор</item>
     </string-array>
@@ -673,17 +673,5 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
-    </string-array>
-    <string-array name="weather_tips_value">
-        <item>Намалете дейностите на открито.</item>
-        <item>Пътищата са хлъзгави днес.</item>
-        <item>Времето е буреносно, бъдете внимателни.</item>
-        <item>Днес е мъгливо. Шофирайте отговорно.</item>
-        <item>Въздухът е замърсен, носете маска.</item>
-        <item>Вземете си чадър, когато излизате.</item>
-        <item>Бъдете внимателни на пътя.</item>
-        <item>Днес ще вали градушка, бъдете внимателни.</item>
-        <item>Наближава пясъчна буря, носете маска.</item>
-        <item>Желаем Ви приятен ден!</item>
     </string-array>
 </resources>

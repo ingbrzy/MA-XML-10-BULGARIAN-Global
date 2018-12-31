@@ -23,6 +23,7 @@
     <string name="copy_number">Копиране на телефонния номер</string>
     <string name="done">Enter</string>
     <string name="more_string">+ %1$s</string>
+    <string name="search_menu_title">Търсене</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="accessibility_add_attendee">Добавете участник</string>
     <string name="accessibility_all_day">Събитие през целия ден</string>
@@ -84,6 +85,7 @@
     <string name="can_not_modify_allday_event">Целодневно събитие не може да бъде променяно</string>
     <string name="can_not_modify_event">Не може да бъде променяно</string>
     <string name="can_not_modify_repeating_acrossing_days_event">Повтарящо и няколкодневно събитие не може да бъде променяно</string>
+    <string name="cancel_reminder">Cancel Reminder</string>
     <string name="card_detail_dialog_message">“%1$s ще се обновява всеки ден. Абонирайте се за всекидневно обновяване.</string>
     <string name="card_detail_dialog_negative">Абонирайте се по-късно</string>
     <string name="card_detail_dialog_positive">Абонирайте се сега</string>
@@ -135,6 +137,7 @@
     <string name="description_calendar">Системни приложения/Календар</string>
     <string name="description_calendar_edit_event">Системни приложения/Календар/Дневен ред</string>
     <string name="directory_searching_fmt">Търсене %s…</string>
+    <string name="discard_label">Отказ</string>
     <string name="does_not_repeat">Еднократно събитие</string>
     <string name="edit_date_calculate_days_backward_error_hint">Не може да се пресметне напред</string>
     <string name="edit_date_calculate_days_empty_hint">Въведете числото на дните</string>
@@ -202,6 +205,7 @@
     <string name="fb_calendar_owner_account">Mi Календар</string>
     <string name="festival_detail_title">Festival</string>
     <string name="file_exception">Възникна грешка</string>
+    <string name="fixtures">Fixtures</string>
     <string name="force_touch_title_add_new_event">Ново събитие</string>
     <string name="from_google_group_calendar">Google Календар</string>
     <string name="gadget_no_events">Няма предстоящи събития в календара</string>
@@ -211,6 +215,7 @@
     <string name="global_football_final">ФИНАЛ</string>
     <string name="global_football_no_match">Няма планирани футболни мачове за днес.</string>
     <string name="global_onthisday_com">OnThisDay.com</string>
+    <string name="guide_card_close">Затвори</string>
     <string name="guide_card_import">Импортиране</string>
     <string name="guide_card_primary_fb_text">Рождени дни на приятели от Facebook</string>
     <string name="guide_card_primary_text">Вмъкване на рождените дни на Вашите приятели</string>
@@ -273,6 +278,7 @@
     <string name="new_event_description">Ново</string>
     <string name="new_event_dialog_label">Ново събитие</string>
     <string name="new_event_dialog_option">Ново събитие</string>
+    <string name="news">News</string>
     <string name="no_contact_birthday_hint">Няма рождени дни за вмъкване</string>
     <string name="no_events_hint">Няма събития</string>
     <string name="no_internet">Не можах да се свържа с интернет</string>
@@ -368,6 +374,7 @@
     <string name="search_calendar_settings">Календар;Дневен ред;Напомняне</string>
     <string name="select_date">Избор на дата</string>
     <string name="select_synced_calendars_title">Календари за синхронизиране</string>
+    <string name="set_reminder">Set Reminder</string>
     <string name="setting_about_calendar_version">Версия на Календар:</string>
     <string name="setting_about_imei">IMEI:</string>
     <string name="setting_about_miui_version">Версия на MIUI:</string>
@@ -398,7 +405,7 @@
     <string name="subscribe_channel_hint">"Абонирайте се за услугите, които желаете и получавайте автоматични актуализации на вашата начална страница.
 Вие можете също така да зададете и напомняния, за да не изпуснете нищо важно."</string>
     <string name="subscribe_channel_subscribe">Абонамент</string>
-    <string name="subscribe_channel_subscribing">Абониране</string>
+    <string name="subscribe_channel_subscribing">Абонамент</string>
     <string name="subscribe_channel_title">Канал</string>
     <string name="subscribing_card">Абониране</string>
     <string name="synced">синхронизиран</string>
@@ -406,7 +413,8 @@
     <string name="tab_title_day">Ден</string>
     <string name="tab_title_month">Месец</string>
     <string name="tab_title_week">Седмица</string>
-    <string name="talk_back_read_date">Текуща дата:%1$s(%2$sспоред лунния календар).</string>
+    <string name="talk_back_read_date">%1$s (%2$s според лунния календар).</string>
+    <string name="talk_back_setting">Настройки</string>
     <string name="template_announce_item_index">Събитие %1$s в %2$s.</string>
     <string name="template_week_num">Седмица %1$s</string>
     <string name="time_zone">Часова зона</string>
@@ -443,11 +451,12 @@
     <string name="travel_train_station">Гара</string>
     <string name="unsubscribe_card">Изтриване на абонамента</string>
     <string name="unsubscribe_card_success">Отписване от “%1$s” успешно</string>
-    <string name="unsubscribing_card">Изтриване на абонамента</string>
+    <string name="unsubscribing_card">Отписване</string>
     <string name="user_notice_button_exit">Отказ</string>
     <string name="user_notice_button_ok">ОК</string>
     <string name="user_notice_message">Използвайки този продукт, вие се съгласявате с %1$s и %2$s на Xiaomi. Някой функции изискват връзка с интернет, достъп до местоположение и контактите ви, за да работят нормално.</string>
     <string name="user_notice_title">Предупреждение</string>
+    <string name="view_details">View Details</string>
     <string name="view_event_calendar_label">Календар:</string>
     <string name="view_event_organizer_label">Организатор:</string>
     <string name="view_event_response_label">Да участвам?</string>
