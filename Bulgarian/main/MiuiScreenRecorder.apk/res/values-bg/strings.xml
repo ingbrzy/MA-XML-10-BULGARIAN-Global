@@ -87,4 +87,5 @@
     <string name="unchecked">Не е избрано</string>
     <string name="using_record_confirm_cancel">Ограничи</string>
     <string name="using_record_confirm_ok">Разреши</string>
+    <string name="warning_recording_when_a2dp_connect">Вашето устройство не поддържа запис на системни звуци при използването на Bluetooth слушалки.</string>
 </resources>

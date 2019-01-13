@@ -85,7 +85,7 @@
     <string name="can_not_modify_allday_event">Целодневно събитие не може да бъде променяно</string>
     <string name="can_not_modify_event">Не може да бъде променяно</string>
     <string name="can_not_modify_repeating_acrossing_days_event">Повтарящо и няколкодневно събитие не може да бъде променяно</string>
-    <string name="cancel_reminder">Cancel Reminder</string>
+    <string name="cancel_reminder">Отмяна на напомняне</string>
     <string name="card_detail_dialog_message">“%1$s ще се обновява всеки ден. Абонирайте се за всекидневно обновяване.</string>
     <string name="card_detail_dialog_negative">Абонирайте се по-късно</string>
     <string name="card_detail_dialog_positive">Абонирайте се сега</string>
@@ -205,7 +205,7 @@
     <string name="fb_calendar_owner_account">Mi Календар</string>
     <string name="festival_detail_title">Festival</string>
     <string name="file_exception">Възникна грешка</string>
-    <string name="fixtures">Fixtures</string>
+    <string name="fixtures">Спортни събития с определена дата</string>
     <string name="force_touch_title_add_new_event">Ново събитие</string>
     <string name="from_google_group_calendar">Google Календар</string>
     <string name="gadget_no_events">Няма предстоящи събития в календара</string>
@@ -278,7 +278,7 @@
     <string name="new_event_description">Ново</string>
     <string name="new_event_dialog_label">Ново събитие</string>
     <string name="new_event_dialog_option">Ново събитие</string>
-    <string name="news">News</string>
+    <string name="news">Новини</string>
     <string name="no_contact_birthday_hint">Няма рождени дни за вмъкване</string>
     <string name="no_events_hint">Няма събития</string>
     <string name="no_internet">Не можах да се свържа с интернет</string>
@@ -374,7 +374,7 @@
     <string name="search_calendar_settings">Календар;Дневен ред;Напомняне</string>
     <string name="select_date">Избор на дата</string>
     <string name="select_synced_calendars_title">Календари за синхронизиране</string>
-    <string name="set_reminder">Set Reminder</string>
+    <string name="set_reminder">Настройване на напомняне</string>
     <string name="setting_about_calendar_version">Версия на Календар:</string>
     <string name="setting_about_imei">IMEI:</string>
     <string name="setting_about_miui_version">Версия на MIUI:</string>
@@ -456,7 +456,7 @@
     <string name="user_notice_button_ok">ОК</string>
     <string name="user_notice_message">Използвайки този продукт, вие се съгласявате с %1$s и %2$s на Xiaomi. Някой функции изискват връзка с интернет, достъп до местоположение и контактите ви, за да работят нормално.</string>
     <string name="user_notice_title">Предупреждение</string>
-    <string name="view_details">View Details</string>
+    <string name="view_details">Покажи подробности</string>
     <string name="view_event_calendar_label">Календар:</string>
     <string name="view_event_organizer_label">Организатор:</string>
     <string name="view_event_response_label">Да участвам?</string>

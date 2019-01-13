@@ -27,9 +27,9 @@
     <string name="cloud_back_up_frequence_choice_title">Резервно копие по график</string>
     <string name="cloud_back_up_frequence_long">На всеки 7 дни</string>
     <string name="cloud_back_up_frequence_short">Всеки ден</string>
-    <string name="cloud_back_up_share_activity_title">Надграждане на Mi профил</string>
-    <string name="cloud_back_up_share_activity_discription">Get more storage space, daily backups, and more.</string>
-    <string name="cloud_back_up_share_activity_confirm">Надстройка</string>
+    <string name="cloud_back_up_subscribe_vip_title">Надграждане на Mi Профил</string>
+    <string name="cloud_back_up_subscribe_vip_discription">Получете повече място за съхранение, ежедневни резервни копия и още много неща.</string>
+    <string name="cloud_back_up_subscribe_vip_confirm">Надстройка</string>
     <string name="cloud_back_up_detail_discription">"Следните приложения и настройки ще се запазят в архива на Mi Облак, когато се свържете с Wi-Fi: 
 *  Приложения, Начален екран, тапети 
 *  Аларма, Часовник и настрики за час и дата 
@@ -50,6 +50,8 @@
     <string name="self_device_second_space">Това е Второ работно място на телефона</string>
     <string name="other_device_main_space">Основно работно място</string>
     <string name="other_device_second_space">Второ работно място</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Възстановяване \"%s\"</string>
     <string name="size_unknown">Неизвестен размер</string>
     <string name="recovering">Възстановява се %s</string>
@@ -59,6 +61,7 @@
     <string name="backing_up_to_micloud">Архивира се…</string>
     <string name="restore_from_cloud">Възстановяване от рез. копие в Mi Cloud</string>
     <string name="backup_to_cloud">Архив на прил.</string>
+    <string name="restoring_file_title_no_progress">Възстановяване на файлове…</string>
     <string name="menu_item_sort">Сортиране по</string>
     <string name="menu_item_sort_name">Име</string>
     <string name="menu_item_sort_size">Размер</string>
@@ -86,6 +89,8 @@
     <string name="recover_miui_settings">Възстановяване системните настройки на MIUI</string>
     <string name="wait_icon_download">Изтегляне икони на приложения</string>
     <string name="download_settings_fail">Неуспешно изтегляне на настройките на нач. екран</string>
+    <string name="restore_init_description">Стартирай възстановяване</string>
+    <string name="restore_finish_description">Възстановяването завърши</string>
     <string name="backup_fail_wifi_needed">Не може да се направи резв. копие без Wi-Fi връзка.</string>
     <string name="backup_success">Успешен архив на прил. от нач. екран</string>
     <string name="cloud_task_in_process">Да спре ли %s и да се изтрие това рез. копие? Това действие е необратимо.</string>
@@ -131,6 +136,7 @@
     <string name="provision_error_connect_msg">Тествайте мрежовата връзка и опитайте отново. Архивите не са достъпни, когато вашето устройство е офлайн.</string>
     <string name="provision_error_connect_title">Не може да се свърже</string>
     <string name="loading_user_backup">Зареждане на архив…</string>
+    <string name="loading_progress_num">(%s%%)</string>
     <string name="error_num_placeholder">--</string>
     <string name="authentication_failed">Не може да се провери вашият Mi Профил.</string>
     <string name="no_account">Не сте вписан в Mi Профил.</string>
@@ -173,6 +179,7 @@
     <string name="notification_channel_remind">Напомняне</string>
     <string name="done_remove">Успешно премахнато</string>
     <string name="doing_restore_home">Възстановяване на Начален екран и настройки…</string>
+    <string name="restoring_settings">Настройки за възстановяване…</string>
     <string name="title_alert_cancel_restore">Спри възстановяването</string>
     <string name="msg_alert_cancel_restore">Възстановяване на елементи. Спиране сега?</string>
     <string name="btn_restore_cancel">Отказ</string>

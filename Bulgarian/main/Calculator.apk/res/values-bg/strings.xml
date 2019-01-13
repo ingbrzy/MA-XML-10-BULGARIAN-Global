@@ -11,6 +11,7 @@
     <string name="cal_result_format">= %s</string>
     <string name="cal_text_copied">Текста е копиран</string>
     <string name="cancel">Отказ</string>
+    <string name="children_education">Образование за деца</string>
     <string name="choose_currency">Избери валута</string>
     <string name="choose_unit">Избери мерна единица</string>
     <string name="city">Град</string>
@@ -44,10 +45,10 @@
     <string name="devided_by_zero_reminder_message">Нулата не може да е интервал</string>
     <string name="dialog_privacy_content">Освен основните функции на калкулатор, нашето приложение съдържа научен калкулатор и мултифункционален конвертор. Някои функции изискват интернет, за да работят нормално. Трябва да прочетете и да се съгласите с нашите%1$s и %2$s преди да използвате Калкулатора.</string>
     <string name="dialog_privacy_title">Условия за ползване</string>
-    <string name="dialog_rating_desc_ask">How do you feel about Calculator?</string>
-    <string name="dialog_rating_desc_less">Could you give us your feedback as well?</string>
-    <string name="dialog_rating_desc_perfect">Nice! Rate Calculator in App Store as well?</string>
-    <string name="dialog_rating_title">Rate our app</string>
+    <string name="dialog_rating_desc_ask">Какво е мнението Ви за калкулатор?</string>
+    <string name="dialog_rating_desc_less">Можете ли да ни изпратите и Вашия отзив?</string>
+    <string name="dialog_rating_desc_perfect">Супер! Оценете калкулатор и в Google Play Магазин?</string>
+    <string name="dialog_rating_title">Оценете приложението ни</string>
     <string name="digit0">0</string>
     <string name="digit1">1</string>
     <string name="digit2">2</string>
@@ -66,9 +67,13 @@
     <string name="error">Грешка</string>
     <string name="error_fomrat">Грешен формат</string>
     <string name="exit">Изход</string>
+    <string name="extra_deduction_instruction">Подробности за удръжките</string>
+    <string name="extra_deduction_tips">Натиснете бутона в горния ъгъл на екрана, за да видите подробностите за удръжките.</string>
+    <string name="extra_deduction_title">Допълнителни удръжки</string>
     <string name="factorialDesc">факториел</string>
     <string name="fund" />
     <string name="fund_loan">Заем от фонда</string>
+    <string name="further_education">По-нататъшно образование</string>
     <string name="global_network_confirm_content">Конверторът на валута се нуждае от връзка с интернет за да работи нормално.</string>
     <string name="global_search_key_area_convertion">Площ;Конвертор на площ;Конвертиране на площ</string>
     <string name="global_search_key_calculation">Изчисляване;Калкулатор;Единица на преобразуване;Конвертор;Единица на конвертора</string>
@@ -85,7 +90,10 @@
     <string name="global_search_key_word_figure">Финансови знаци</string>
     <string name="golbal_search_calculator_setting">Калкулатор;Настройки на калкулатора;Настройки</string>
     <string name="golbal_search_path_calculator_setting">Системни приложения/Калкулатор/Настройки</string>
+    <string name="help_content_desc">Помощ</string>
+    <string name="home_loan">Лихва за ипотека</string>
     <string name="home_title_calculator">Калкулатор</string>
+    <string name="house_rent">Наем</string>
     <string name="income_type" />
     <string name="install">Инсталирай</string>
     <string name="install_scanner_to_continued_use">Баркод-скенерът е деинсталиран. Инсталиране отново?</string>
@@ -109,8 +117,10 @@
     <string name="leftParenDesc">Лява скоба</string>
     <string name="lg">lg</string>
     <string name="lgDesc">логаритъм</string>
+    <string name="license_host_unreachable">Неуспешно свързване с мрежата. Проверете настройките на мрежата и опитайте отново.</string>
     <string name="ln">ln</string>
     <string name="lnDesc">естествен логаритъм</string>
+    <string name="loading">Момент…</string>
     <string name="loading_fail_message_no_network">Не може да се свърже с мрежата. Тупнете тук, за да опитате отново.</string>
     <string name="loading_fail_refresh">Обновяване</string>
     <string name="loading_message">Зареждане на приложението…</string>
@@ -130,6 +140,7 @@
     <string name="loan_repayment_detail_loading">Зареждане на подробното погасяване…</string>
     <string name="loan_repayment_detail_unit">Подробно погасяване (CNY)</string>
     <string name="loan_unit">(×10K)</string>
+    <string name="medical_treatment">Медицинско лечение</string>
     <string name="menuDesc">меню</string>
     <string name="minusDesc">изваждане</string>
     <string name="month" />
@@ -165,10 +176,12 @@
     <string name="mortgage_tab_combining_loan">Комбинирана вноска</string>
     <string name="mortgage_tab_commercial_loan">ГПР</string>
     <string name="mortgage_years_amount">Годишни разходи</string>
+    <string name="mt_max">Сумата, която въведохте, е твърде голяма</string>
     <string name="mulDesc">умножение</string>
     <string name="negDesc">Превключвайте между температури под и над нула</string>
     <string name="network_confirm_content">Конверторът на валута, кредити и ипотеки има нужда от интернет връзка и местоположение за да работи нормално.</string>
     <string name="network_confirm_title">Изисква потвърждение</string>
+    <string name="none">Без</string>
     <string name="not_supported_due_to_language">Тази функция не е достъпна на китайски език</string>
     <string name="ok">OK</string>
     <string name="percent" />
@@ -189,10 +202,10 @@
     <string name="preference_follow_web_title">Официална страница</string>
     <string name="preference_follow_wechat_title">WeChat</string>
     <string name="preference_follow_weibo_title">Sina Weibo</string>
-    <string name="preference_help">Help &amp; feedback</string>
+    <string name="preference_help">Помощ &amp; отзиви</string>
     <string name="preference_other">Други</string>
     <string name="preference_privacy_title">Правила за поверителност</string>
-    <string name="preference_rating_title">Rate our app</string>
+    <string name="preference_rating_title">Оценете приложението ни</string>
     <string name="preference_settings">Настройки</string>
     <string name="preference_use_degress_summary">Заместване на радиани с ъгли в тригонометрични функции</string>
     <string name="preference_use_degress_title">Използване на ъгли</string>
@@ -212,6 +225,7 @@
     <string name="social_security" />
     <string name="sqrtDesc">корен квадратен</string>
     <string name="start_calculate" />
+    <string name="support_elder">Подкрепа за възрастните хора</string>
     <string name="switchDesc">Превключи</string>
     <string name="tab_title_calculator">Калкулатор</string>
     <string name="tab_title_convert">Конвертор</string>
@@ -254,7 +268,7 @@
     <string name="tax_location">Местоположение</string>
     <string name="tax_medical">Такса здравно осигуряване</string>
     <string name="tax_param_error">Въведете коректно застраховките</string>
-    <string name="tax_rate_provider">Данните са предоставени от hexun.com и East Money</string>
+    <string name="tax_rate_provider">Изчислено съобразно новите данъчни регламенти. Данните се предоставят от hexun.com и East Money.</string>
     <string name="tax_result_real_get">Преди облагане</string>
     <string name="tax_social_insurance">Застраховка</string>
     <string name="tax_thershold_foreign">%s (Чужденци)</string>
@@ -548,6 +562,7 @@
     <string name="unit_year">Г</string>
     <string name="unit_year_format">Годишен %s</string>
     <string name="unit_yuan">CNY</string>
+    <string name="updating">Актуализиране на калкулатор…</string>
     <string name="user_agreement">Потребителско споразумение</string>
     <string name="voiceDesc">Гласови контроли</string>
     <string name="wf_word_figure">Валута</string>
@@ -572,8 +587,11 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sБ</string>
     <string name="xiaomi_connect_download_manager_fail">Няма връзка с Изтегляния. Проверете дали това приложение има всички необходими разрешения и настройки > Инсталирани приложения.</string>
     <string name="xiaomi_external_storage_unavailable">Паметта не е достъпна. Проверете вашата SD карта.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sКБ</string>
+    <string name="xiaomi_megabytes_unit">%1$sМБ</string>
     <string name="xiaomi_update_dialog_message">"Представяне на версия%1$s
 Размер:%2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Представяне на версия%1$s

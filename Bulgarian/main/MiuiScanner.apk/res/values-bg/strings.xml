@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="about_title">Относно</string>
     <string name="access_sd_fail">Няма достъп до картата с памет</string>
     <string name="accessibility_shutter_button">Снимай</string>
+    <string name="action_search">Search</string>
     <string name="address">Адрес:</string>
     <string name="agree_btn">Приемам</string>
     <string name="amazon_assistant_shopping_title">Търсене в Amazon</string>
@@ -14,6 +16,7 @@
     <string name="birthday">Рожден ден:</string>
     <string name="blog">Weibo</string>
     <string name="business_card">Визитна картичка</string>
+    <string name="business_card_result_title">Визитна картичка</string>
     <string name="business_card_title">Поставете визитката в рамката</string>
     <string name="business_copy">Копиране</string>
     <string name="business_new_contacts">Създай контакт</string>
@@ -22,8 +25,10 @@
     <string name="call_anyone">Повикване</string>
     <string name="camera_error_title">Грешка в камерата</string>
     <string name="cancel">Отказ</string>
+    <string name="choose_pay_title">Изберете метод на плащане</string>
     <string name="choose_picture">Избор на изображение с QR код</string>
     <string name="common_retake_picture">Повторно</string>
+    <string name="common_retry">Try again</string>
     <string name="common_save">Запази</string>
     <string name="company">Компания:</string>
     <string name="confirm">OК</string>
@@ -35,6 +40,7 @@
     <string name="copy_text_success">Текстът копиран</string>
     <string name="crop_cancel_description">Отказ</string>
     <string name="crop_done_description">Готово</string>
+    <string name="crop_title_study">Crop the photo</string>
     <string name="crop_title_translation">Избор на текст за превод</string>
     <string name="document_color_picture">Цветна гама</string>
     <string name="document_color_picture_tip">Превръщане в цвят…</string>
@@ -59,9 +65,11 @@
     <string name="email">Имейл:</string>
     <string name="error_camera_disabled">Достъп до Камера отказан поради изисквания за сигурност</string>
     <string name="error_cannot_connect_camera">Не може да се свърже с камерата</string>
+    <string name="error_empty_result">"Couldn't find results"</string>
     <string name="error_get_image">Снимката не можа да се получи</string>
     <string name="error_media_storage_failure">Не може да се запази снимката</string>
     <string name="error_permissions">Скенерът няма права, необходими за нормална работа. Проверете в Настройки, преди да продължите</string>
+    <string name="error_server_error">Server error</string>
     <string name="fax">Факс</string>
     <string name="feed_search_fail">Няма резултати, опитайте отново</string>
     <string name="feedback_description_camera_access">Скенерът няма връзка с Камера</string>
@@ -94,12 +102,14 @@
     <string name="module_title_document">Документ</string>
     <string name="module_title_plant">Растение</string>
     <string name="module_title_shopping">Пазаруване</string>
+    <string name="module_title_study">Study</string>
     <string name="module_title_translation">Превод</string>
     <string name="name">Име:</string>
     <string name="new_schedule">Създай събитие</string>
     <string name="nickname">Потребителско име:</string>
     <string name="no_network">Няма връзка с мрежа</string>
     <string name="no_storage">Сложете карта памет, преди да използвате Камера</string>
+    <string name="no_support_to_translate_type">Този език не се поддържа</string>
     <string name="not_insert_contact">Не може да се вмъкне контакт</string>
     <string name="not_recommend_access_web_url">Продължаване въпреки това</string>
     <string name="note">Бележка:</string>
@@ -118,18 +128,32 @@
     <string name="recognize">Сканиране</string>
     <string name="recognize_fail">Не може да се разпознае кода</string>
     <string name="scan_result">Резултати</string>
+    <string name="scan_support_type">WeChat, Alipay, QR кодове, баркодове</string>
     <string name="sdk_not_ready">SDK се подготвя. Опитайте по-късно.</string>
     <string name="secure_access_web_url">Отидете на уеб страница</string>
     <string name="see_app_details">Вижте подробности за прилож.</string>
     <string name="select_dialog_confirm">OК</string>
     <string name="send_mail">Изпрати имейл</string>
+    <string name="setting_alipay">AliPay</string>
+    <string name="setting_choose_every_time">Винаги питай</string>
+    <string name="setting_default_function">Функция по подразбиране</string>
+    <string name="setting_preference_pay">Предпочитан метод на плащане</string>
+    <string name="setting_title">Настройки</string>
+    <string name="setting_use_last_choose">Запомни предишния избор</string>
+    <string name="setting_wechat">WeChat</string>
     <string name="shopping_searching">Сканиране за продукти…</string>
     <string name="shopping_title">Направете снимка на продукта</string>
     <string name="shopping_vendor_info">Техническа поддръжка от Taobao</string>
     <string name="spaceIsLow_content">Няма достатъчно място в картата памет. Освободете място.</string>
+    <string name="study_rotate_picture">Processing the photo</string>
+    <string name="study_scan_result">Result</string>
+    <string name="study_searching">Searching for result</string>
+    <string name="study_title">Take a photo of the problem</string>
+    <string name="study_vendor_info">Powered by 作业帮</string>
     <string name="switch_open">Включи</string>
     <string name="tel">Телефон</string>
     <string name="title">Заглавие:</string>
+    <string name="to_pay">Завършване на плащане</string>
     <string name="translate_auto_lock">Заключете превода</string>
     <string name="translate_auto_unlock">Отключете превода</string>
     <string name="translate_copy_success">Копирането е успешно</string>

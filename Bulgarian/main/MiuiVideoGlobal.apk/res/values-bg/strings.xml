@@ -35,6 +35,7 @@
     <string name="cast_forward">Превъртане напред</string>
     <string name="cast_forward_10">Превъртане напред с десет секунди</string>
     <string name="cast_forward_30">Превъртане напред с тридесет секунди</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_mute">Спиране</string>
     <string name="cast_notification_connected_message">Установена е връзка с/ъс „%1$s“</string>
     <string name="cast_notification_connecting_message">Установява се връзка с/ъс „%1$s“</string>
@@ -112,6 +113,7 @@
     <string name="s6">Да се разреши ли на рекламата да създаде събитие в календара?</string>
     <string name="s7">Тестова реклама</string>
     <string name="search_menu_title">Търсене</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="agree">Приемам</string>
     <string name="ai_animation_music_text">AI саундтрак</string>
     <string name="ai_music_save_cancel">Отмяна</string>

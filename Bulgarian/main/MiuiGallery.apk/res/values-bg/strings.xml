@@ -205,6 +205,9 @@
     <string name="change_to_face_mode">Покажи само лица на хора</string>
     <string name="change_to_photo_mode">Показване на на цял екран</string>
     <string name="change_to_visible">Възстанови този човек?</string>
+    <string name="channel_default_name">Нови функции</string>
+    <string name="channel_low_name">Нови съобщения</string>
+    <string name="channel_min_name">Известия за приложението</string>
     <string name="checked">Маркирани</string>
     <string name="checked_something">Маркирани %s</string>
     <string name="choose_baby_sexy">Пол</string>
@@ -483,6 +486,7 @@
     <string name="face_name_edit">Промени</string>
     <string name="face_name_input">Въведете име</string>
     <string name="face_recommend">Препоръки</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Операцията е неуспешна</string>
     <string name="fail_to_pick_email">Невалиден Имейл</string>
     <string name="fail_to_sync_album">Албумът не можа да се синхронизира. Проверете връзката си за данни и опитайте отново.</string>
@@ -493,17 +497,19 @@
     <string name="feature_guidance_photo_effects">"Налични са нови
 фото ефекти"</string>
     <string name="feature_guidance_video_editor_smart_effects">Налични са нови ефекти</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
+    <string name="filter_bi_bw">Ч&amp;Б</string>
+    <string name="filter_bi_dusk">Здрач</string>
+    <string name="filter_bi_lilt">Забавна песен</string>
     <string name="filter_bi_memory">Спомени</string>
-    <string name="filter_bi_mono">Моно</string>
     <string name="filter_bi_pink">Розово</string>
-    <string name="filter_bi_portrait">Портрет</string>
     <string name="filter_bi_retro">Ретро</string>
     <string name="filter_bi_romantic">Романтика</string>
+    <string name="filter_bi_sepia">Сепия</string>
     <string name="filter_bi_strong">Силно</string>
     <string name="filter_bi_sunny">Слънчево</string>
-    <string name="filter_bi_sweet">Сладко</string>
+    <string name="filter_bi_tea">Чай</string>
     <string name="filter_bi_warm">Топъл</string>
-    <string name="filter_bi_young">Млад</string>
     <string name="filter_category_film">Филм</string>
     <string name="filter_category_food">Храна</string>
     <string name="filter_category_master">Майстор</string>
@@ -563,6 +569,7 @@
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">ГБ</string>
     <string name="grant_permission_go_and_set">Задай</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Галерия се нуждае от достъп до 
 %s
  за да работи нормално, чукнете \"Задай\" за да отидете в Разрешения."</string>
@@ -675,6 +682,7 @@
     <string name="more_album_hint">, и др.</string>
     <string name="more_face">Още хора, които имат прилика</string>
     <string name="more_face_album_name">Още лица</string>
+    <string name="motion_photo_play">Play</string>
     <string name="move_to_other_albums_tip">Да се премести ли този албум в Други албуми?</string>
     <string name="movie_add_disable">Можете да изберете до 20 снимки</string>
     <string name="movie_audio_custom">Локално</string>
@@ -687,6 +695,10 @@
     <string name="movie_audio_sport">Техно</string>
     <string name="movie_cancel_download">Отмяна</string>
     <string name="movie_change_to_long_video">Избрахте повече от 5 снимки. Преминаване към по-дълго видео.</string>
+    <string name="movie_content_describe_add">Добави снимки</string>
+    <string name="movie_content_describe_delete">Изтрий снимки</string>
+    <string name="movie_content_describe_pause">Пауза</string>
+    <string name="movie_content_describe_play">Пусни</string>
     <string name="movie_delete_disable">Трябват поне 3 снимки за създаване на клип.</string>
     <string name="movie_download">Изтегляне</string>
     <string name="movie_download_failed">Неуспешно изтегляне</string>
@@ -805,6 +817,7 @@
     <string name="people_mark_mode_title_no_mark_name">Изберете човек</string>
     <string name="people_page_label">Лице</string>
     <string name="people_page_unname">Неизвестно</string>
+    <string name="percent_sign">%</string>
     <string name="pet_album_display_name">Домашни любимци</string>
     <string name="petabyteShort">ПБ</string>
     <string name="photo">Снимка</string>
@@ -876,6 +889,8 @@
     <string name="photo_editor_talkback_redo">Възстанови</string>
     <string name="photo_editor_talkback_undo">Отмени</string>
     <string name="photo_editor_text">Текст</string>
+    <string name="photo_movie_menu_loading">@string/photo_print_menu_loading</string>
+    <string name="photo_movie_module_failed">@string/error_install_connect_fail</string>
     <string name="photo_movie_module_finish">Успешно зареждане на клипове</string>
     <string name="photo_movie_module_loading">Зареждане на клипове…</string>
     <string name="photo_movie_select_image_range">Клипове може да съдържа 3-20 снимки</string>
@@ -1035,6 +1050,9 @@
     <string name="search_title_recommend">Препоръчвани</string>
     <string name="search_title_suggestion">Предложения</string>
     <string name="search_title_tag">Обекти</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Търсене на проектор…</string>
     <string name="secret_album_card_description">Най-доброто място за всички ваши малки тайни</string>
     <string name="secret_album_card_title">Изпробвайте скрития албум</string>
@@ -1321,6 +1339,7 @@
     <string name="view_face_album">Покажи албума</string>
     <string name="view_more_face_desc">Покажи още хора</string>
     <string name="voice_assistant">Гласово въвеждане</string>
+    <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
     <string name="welcome_to_micloud">Добре дошли в Mi Cloud.</string>
     <string name="where_is_barcode">Къде е QR кода?</string>
     <string name="who_is_this">Кой е този?</string>
@@ -1328,9 +1347,9 @@
     <string name="yes">Да</string>
     <string name="yesterday">Вчера</string>
     <string name="you_are">Вие сте дете на</string>
-    <string name="channel_default_name">Нови функции</string>
-    <string name="channel_low_name">Нови съобщения</string>
-    <string name="channel_min_name">Известия за приложението</string>
+    <string name="month_view_tip_button_text">Разбрах</string>
+    <string name="month_view_tip_sub_title">Стеснете екрана за изглед на месеца</string>
+    <string name="month_view_tip_title">Изглед в месеца</string>
     <string name="photomovie_audio_custom">Локално</string>
     <string name="photomovie_audio_default">Памет</string>
     <string name="photomovie_audio_kawaii">Романтика</string>
@@ -1377,4 +1396,6 @@
     <string name="refocus_title">Замъглен</string>
     <string name="refocus_type_static">Ниво на замъгляване</string>
     <string name="refocus_type_video">Светлинен лъч</string>
+    <string name="text_tab_bubble">Bubbles</string>
+    <string name="text_tab_watermark">Watermarks</string>
 </resources>
