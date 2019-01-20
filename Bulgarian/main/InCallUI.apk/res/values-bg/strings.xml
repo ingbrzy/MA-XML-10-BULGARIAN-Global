@@ -51,6 +51,7 @@
     <string name="onscreen_note_calls_text">Бележка</string>
     <string name="call_record_wait_label">Изчакване</string>
     <string name="contacts_icon_label">Контакти</string>
+    <string name="call_not_support_high_frequency_click">Не натискайте този бутон толкова често</string>
     <string name="conference_call_description" formatted="false">%s,%s и т.н. общо %s</string>
     <string name="conference_call_single_description" formatted="false">%s etc. Всичко %s</string>
     <string name="separate_from_conference">Отдели обаждането</string>

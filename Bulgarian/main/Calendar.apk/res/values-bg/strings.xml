@@ -97,6 +97,7 @@
     <string name="card_title_change">Допълнение</string>
     <string name="change_response_title">Промяна на отговора</string>
     <string name="click_to_share">Натиснете, за да споделите</string>
+    <string name="close_alarm">Изключи</string>
     <string name="countdown_event_title">Обратно броене: %1$s</string>
     <string name="countdown_notify_before_3_day_title">Обратно броене: %1$s след 3 дни</string>
     <string name="countdown_notify_title">Обратно броене: %1$s</string>
@@ -291,6 +292,8 @@
     <string name="no_visiable_calendar_select_account">Добави профил</string>
     <string name="no_visiable_calendar_title">Добави профил</string>
     <string name="not_synced">не е синхр</string>
+    <string name="notification_channel_description" />
+    <string name="notification_channel_name">Напомняния в календара</string>
     <string name="panchang_amanta">Аманта</string>
     <string name="panchang_amanta_month">Месец Аманта:</string>
     <string name="panchang_ayana">Аяна</string>

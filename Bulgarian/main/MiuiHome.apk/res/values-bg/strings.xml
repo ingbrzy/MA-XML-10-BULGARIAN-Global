@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Добави в работно място</string>
     <string name="activity_not_found">Приложението не е инсталирано на телефона Ви.</string>
     <string name="add_screen">Добави бутон за екрани</string>

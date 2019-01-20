@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="SMTP_independent_verification_text">SMTP независима проверка</string>
     <string name="SMTP_password_text">Парола</string>
     <string name="SMTP_username_text">Потребителско име</string>
@@ -77,7 +78,7 @@
     <string name="account_setup_check_settings_check_incoming_msg">Проверка на настройките на сървъра…</string>
     <string name="account_setup_check_settings_check_outgoing_msg">Потвърждаване на SMTP настройки…</string>
     <string name="account_setup_check_settings_retr_info_msg">"    Извличане на информация за профила…"</string>
-    <string name="account_setup_correct_address_tips">Въведете адрес на ел. поща</string>
+    <string name="account_setup_correct_address_tips">Въведеният от вас имейл адрес е невалиден.</string>
     <string name="account_setup_creating_account_msg">"    Създаване на профил…"</string>
     <string name="account_setup_deleting_account_msg">"    Премахване на профил…"</string>
     <string name="account_setup_exchange_certificate_title">Сертификат на клиент</string>
@@ -222,6 +223,7 @@
     <string name="battery_saver">Икономия на батерията</string>
     <string name="battery_saver_keywords">икономия на батерията; енергия използвана от пощата</string>
     <string name="bcc">Bcc</string>
+    <string name="bcc_heading">"Препращане на: "</string>
     <string name="bill_center_setting">Настройки на сметките</string>
     <string name="bill_center_setting_head">Импортиране на информация от профила</string>
     <string name="bill_cycle_text">Цикъл на плащане</string>
@@ -242,6 +244,7 @@
     <string name="cancel_pop3_attchemt_downloading">Не може да отмените текущите изтегляния за прикачени файлове в POP3 профили</string>
     <string name="cant_move_or_change_labels">Не може да премествате елементи от много профили.</string>
     <string name="cc">Cc</string>
+    <string name="cc_attribution">Копие до %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Копие до: "</string>
     <string name="change_folders_selection_dialog_title">Промяна на папки</string>
@@ -259,6 +262,7 @@
     <string name="click_download_all_content">[Натиснете, за да изтеглите съдържание]</string>
     <string name="click_to_reload">Докоснете екрана, за да се обнови</string>
     <string name="collapse_recipient_details">Скриване на данни за получателя</string>
+    <string name="colon">:</string>
     <string name="compose">Съставяне на</string>
     <string name="compose_attachment_number_limit">Не може да добавите повече от 10 прикачени файлове</string>
     <string name="compose_paste_address_oob">Твърде много символи</string>
@@ -470,6 +474,7 @@
     <string name="gmail_web_login_go">OK</string>
     <string name="gmail_web_login_required_message">Влезте в Gmail</string>
     <string name="header_category_account">Профили</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_category_other">Обратна връзка</string>
     <string name="header_label_general_preferences">Общи настройки</string>
     <string name="help_and_info">Помощ</string>
@@ -491,6 +496,7 @@
     <string name="invalid_recipient">"Адресът %s  е невалиден."</string>
     <string name="invalid_recipient_title">Получателят не съществува</string>
     <string name="kilobytes">"%s  КБ"</string>
+    <string name="label_notification_ticker" formatted="false">%s: %s</string>
     <string name="load_from_remote">Търсене на пощенска кутия на сървъра</string>
     <string name="load_more">Зареди още</string>
     <string name="loading_conversation">Зарежда се…</string>
@@ -821,7 +827,7 @@
     <string name="quick_3">Ще прочетем това по-късно и ще се свържем с вас.</string>
     <string name="quick_4">Нека да направим сявещание да обсъдим това.</string>
     <string name="quick_reply_dialog_title">Изберете отговор</string>
-    <string name="quick_reply_hint_bcc">(В Копие до)</string>
+    <string name="quick_reply_hint_bcc">(В Скрито копие до)</string>
     <string name="quick_reply_hint_cc">(В Копие до)</string>
     <string name="quick_reply_hint_reply_only_from">Бърз отговор (само за подателя)</string>
     <string name="quick_responses_empty_view">Няма бързи отговори</string>
@@ -946,6 +952,7 @@
     <string name="silent_ringtone">Без звук</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">Паролата за сървъра за изходяща поща е неправилна</string>
     <string name="sort_attachment">Сортиране по</string>
     <string name="storage">Хранилище</string>
@@ -1016,7 +1023,7 @@
     <string name="unknow">Неизвестен</string>
     <string name="unread_string">непрочетена кореспонденция</string>
     <string name="unzip_file_failed">Неуспешно разархивиране на файла</string>
-    <string name="update_date_format_templete">HH:mm aa, MMMM dd</string>
+    <string name="update_date_format_templete">HH:mm aa, dd MMMM</string>
     <string name="updated_at">Обновено в %1$s</string>
     <string name="upload_log">Изпрати</string>
     <string name="upload_log_failed">Не може да се изпрати писмото с хронологията</string>

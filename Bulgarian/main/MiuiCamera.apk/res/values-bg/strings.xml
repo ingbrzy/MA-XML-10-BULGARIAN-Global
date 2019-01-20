@@ -217,6 +217,7 @@
     <string name="accessibility_shutter_button">Бутон на затвора</string>
     <string name="accessibility_intent_done_apply">Готово</string>
     <string name="accessibility_intent_done_retry">Опитайте отново</string>
+    <string name="accessibility_video_btn_play">Възпроизв на видео</string>
     <string name="accessibility_review_thumbnail">Последна снимка</string>
     <string name="accessibility_camera_picker">Превключване между предна и задна камера</string>
     <string name="accessibility_stereo_button">Регулиране на фокуса</string>
@@ -250,6 +251,7 @@
     <string name="accessibility_beauty_panel_open">Режим Разкрасяване е пуснат</string>
     <string name="accessibility_back_preview_status">Преглед на задна камера</string>
     <string name="accessibility_front_preview_status">Преглед на предна камера</string>
+    <string name="accessibility_pull_down_to_open_camera">Плъзнете надолу, за да стартирате Камера</string>
     <string name="accessibility_focus_status">Приближение %1$sX</string>
     <string name="accessibility_filter_pad_close">Менюто за филтри е скрито</string>
     <string name="accessibility_camera_picker_finish">Превключването между камерите е успешно</string>
@@ -455,6 +457,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Ефект дълбочина</string>
     <string name="portrait_mode_use_hint">"Режим Портрет замъглява задния план, 
 и по този начин лицата на хората изпъкват ясно на преден план."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Изпробвайте режим Портрет.
  Направете обекта ясен и замъглете фона."</string>
     <string name="pref_camera_square_mode_title">Квадрат</string>
@@ -471,6 +474,7 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средно</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Режими</string>
     <string name="button_front_camera_title">Направете селфи</string>
     <string name="button_normal_video_title">Запишете видео</string>
@@ -610,7 +614,7 @@
     <string name="beauty_body_body">Стройно тяло</string>
     <string name="beauty_body_shoulder">Рамене</string>
     <string name="beauty_body_legged">Крака</string>
-    <string name="beauty_body_reset_tip">Успешно премахване на ефектите на фигурата</string>
+    <string name="beauty_body_reset_tip">Успешно нулиране ефектите на фигурата</string>
     <string name="ultra_wide_open_tip">Режим малък ъгъл</string>
     <string name="ultra_wide_close_tip">Режим малък ъгъл е изключен</string>
     <string name="pref_camera_zoom_mode_entry_ultra">Режим малък ъгъл</string>
@@ -668,4 +672,5 @@
     <string name="ultra_pixel_photography_32mp_close_tip">32MP е изключен</string>
     <string name="accessibility_ultra_pixel_photography_32mp_on">32MP е включен</string>
     <string name="accessibility_ultra_pixel_photography_32mp_off">32MP е изключен</string>
+    <string name="zoom_no_support_tip_48M">Зумирането не работи в режим 48MP</string>
 </resources>

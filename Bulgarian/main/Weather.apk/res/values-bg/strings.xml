@@ -90,10 +90,12 @@
     <string name="daily_forecast_add_city_message">Следвайте времето в %1$s за по-подробна прогноза.</string>
     <string name="daily_forecast_add_city_title">Следвайте времето в %1$s</string>
     <string name="daily_forecast_detail_date">d.M</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Не можа да се получи информация за времето
 Издърпайте надолу, за да обновите или проверете мрежовите настройки"</string>
     <string name="data_provided_by">Информацията е предоставена отчасти от</string>
     <string name="edit_city">Редакция на градове</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Актуализиране…</string>
     <string name="empty_view_net_unavailable">Няма връзка с мрежата</string>
     <string name="empty_view_refresh">Опитайте отново</string>
@@ -112,6 +114,8 @@
     <string name="first_start_network_title">Известие за свързване</string>
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="hourly_forcast_now">Сега</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="hourly_forecast_title_24_hours_desc">24-часова прогноза</string>
     <string name="hourly_forecast_title_hourly_desc">Почасова прогноза</string>
@@ -127,9 +131,11 @@
     <string name="indices_title_feel">Усеща се</string>
     <string name="indices_title_pressure">Налягане</string>
     <string name="install">Инсталирай</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_pressure_title">Налягане</string>
     <string name="international_details_title">Подробности</string>
     <string name="international_details_uv_index_title">UV индекс</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">Вятър</string>
     <string name="it_is_going_to_rain">Започва да вали</string>
     <string name="locate_fail_detail_err">"Не може да се локализира устройството
@@ -204,6 +210,7 @@
     <string name="share_menu_title">Споделяне</string>
     <string name="share_subject">Споделяне</string>
     <string name="share_weather_desc">\#MIUI Времето#Днес %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Не може да се направи екр. снимка</string>
     <string name="some_where_on_earth">Някъде по Земята</string>
@@ -222,7 +229,7 @@
     <string name="traffic_control_today_numbers">Днес: %1$s</string>
     <string name="traffic_control_tomorrow_numbers">Утре: %1$s</string>
     <string name="traffic_controls">Състояние на пътищата</string>
-    <string name="translate_notification_info">Translating in the background…</string>
+    <string name="translate_notification_info">Превеждане във фонов режим…</string>
     <string name="tts_report_aqi" />
     <string name="tts_report_defautl_head" />
     <string name="tts_report_split" />
@@ -237,7 +244,7 @@
     <string name="unit_wind">Сила на вятъра</string>
     <string name="update_night_setting_summary_text">Актуализирай инф. за времето между 23:00ч и 07:00ч</string>
     <string name="update_night_setting_title_text">Актуализирай автом. през нощта</string>
-    <string name="update_notification_info">Updating data in the background…</string>
+    <string name="update_notification_info">Актуализиране на данни във фонов режим…</string>
     <string name="update_setting_title_text">Актуализиране на инф. за времето</string>
     <string name="updated_a_moment_ago">Обновено преди малко</string>
     <string name="updating">Актуализиране…</string>
@@ -249,8 +256,8 @@
     <string name="view_forecast_item_yesterday">Вчера</string>
     <string name="view_indexes_item_today">Днес</string>
     <string name="view_indexes_item_tommorrow">Утре</string>
-    <string name="weather_alert_channel_name">Alerts</string>
-    <string name="weather_service_channel_name">Background services</string>
+    <string name="weather_alert_channel_name">Предупреждения</string>
+    <string name="weather_service_channel_name">Услуги във фонов режим</string>
     <string name="wind_direction_no_data">Вятър</string>
     <string name="wind_unit">%1$sкм/ч</string>
     <string name="xiaomi_weather_description_content">Прогноза за Времето ви показва информация за метеорологичната обстановка. Без него лентата с известия, приложението за времето на начален екран и джаджите няма да работят правилно. Уверете се, че можете да използвате телефона си без тези неща, преди да деинсталирате приложението.</string>

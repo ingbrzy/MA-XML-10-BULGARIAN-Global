@@ -174,7 +174,7 @@
     <string name="add_fingerprint_put_finger_msg">Сложете пръста си върху сензора и го махнете щом усетите вибрация.</string>
     <string name="add_fingerprint_put_finger_title">Добавяне на пръстов отпечатък</string>
     <string name="add_fingerprint_similar_fingerprint_input_error_msg">Местете вашия пръст постепенно</string>
-    <string name="add_fingerprint_success_msg">Добавено успешно</string>
+    <string name="add_fingerprint_success_msg">Успешно добавено</string>
     <string name="add_fingerprint_text">Добавяне на отпечатък</string>
     <string name="add_fingerprint_toast_text">Поставете пръста си върху сензора</string>
     <string name="add_front_fingerprint_instruction_msg">Сензорът за пръстов отпечатък е на бутон Начало на устройството ви.</string>
@@ -633,7 +633,7 @@
     <string name="bind_xiaomi_account_success">Mi Профилът е добавен успешно</string>
     <string name="biometric_weak_improve_matching_title">Подобряване на лицевото разпознаване</string>
     <string name="biometric_weak_liveliness_summary">Необходимо е да мигате, за да отключите</string>
-    <string name="biometric_weak_liveliness_title">Проверка за реален човек</string>
+    <string name="biometric_weak_liveliness_title">Проверка за истински човек</string>
     <string name="ble_scan_notify_text">С цел подобряване на точността на местоположението системните приложения и услуги пак ще могат да откриват устройства с Bluetooth. Можете да промените това от LINK_BEGINнастройките за сканиранеLINK_END.</string>
     <string name="block_list_connected_devices">Свързани устройства</string>
     <string name="block_list_diaglog_cancle">Отказ</string>
@@ -926,6 +926,7 @@
     <string name="bootloader_summary">Флашване на вашето устройство чрез USB</string>
     <string name="bootloader_tips">След като добавите своя Mi Профил не излизайте от него, не връщайте фабрични настройки, не трийте кеша на системните приложения. Ако все пак сте направили едно от гореизброените неща, добавете Вашият Mi Профил отново, в противен случай няма да можете да отключите Вашето устройство.</string>
     <string name="bootloader_tips_ok">Разбрах</string>
+    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="breathing_light_color_menu_title">Цвят на LED</string>
     <string name="breathing_light_color_summary">Цвят на LED за нови известия</string>
     <string name="breathing_light_freq_summary">Мигане когато има нови известия</string>
@@ -1433,7 +1434,7 @@
     <string name="delete">Изтриване</string>
     <string name="delete_fingerprint_confirm_msg">Да се премахне ли отпечатъка?</string>
     <string name="delete_fingerprint_text">Премахване на пръстов отпечатък</string>
-    <string name="delete_legacy_fingerprint">Изтриване</string>
+    <string name="delete_legacy_fingerprint">Изтрий</string>
     <string name="delete_or_keep_legacy_passwords_confirm_msg">Да изтрия ли този пръстов отпечатък?</string>
     <string name="delete_rule">Премахни правила</string>
     <string name="delete_saved_network">Изтрий запазените мрежи</string>
@@ -1524,6 +1525,7 @@
     <string name="dialog_title_hdmi_color_calibration">Корекция на цветовете</string>
     <string name="dialog_title_login">Впишете се с вашия Mi Профил</string>
     <string name="dialog_yes">Да</string>
+    <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Забележка: Ще можете да използвате тази клавиатура след рестартиране само ако отключите устройството си</string>
     <string name="disable_overlays">Изкл на хардуерно преизчертаване</string>
     <string name="disable_overlays_summary">Винаги използвай CPU за рендериране на екрана</string>
@@ -1584,6 +1586,7 @@
     <string name="dndm_auto_button_title">Повторете времето за Режим не безпокойте</string>
     <string name="dndm_auto_setting_group">Планирано</string>
     <string name="dndm_auto_time_setting">Задаване на време</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_off">До</string>
     <string name="dndm_auto_time_turn_off_title">Автоматично изключване на Режим не безпокойте</string>
     <string name="dndm_auto_time_turn_on">От</string>
@@ -1891,7 +1894,7 @@
     <string name="fingerprint_for_keyguard_disabled">Отпечатъка беше деактивиран от настройките за сигурност.</string>
     <string name="fingerprint_identify_input_password_msg">Въведете парола</string>
     <string name="fingerprint_identify_msg">Разчитане на отпечатък…</string>
-    <string name="fingerprint_identify_try_again_msg">Отпечатък не можа да се сканира, опитайте отново</string>
+    <string name="fingerprint_identify_try_again_msg">Не може да се разчете, опитайте отново</string>
     <string name="fingerprint_intro_error_max">Добавихте максималния брой отпечатъци</string>
     <string name="fingerprint_intro_error_unknown">Не могат да се добавят още отпечатъци</string>
     <string name="fingerprint_last_delete_confirm">Да, да се премахнат</string>
@@ -2001,7 +2004,7 @@
     <string name="forget_password_dialog_button_text">Назад</string>
     <string name="forget_password_dialog_content_four"><Data>2. Изберете &lt;font color=#e6e6e6>[Wipe data]&lt;/font> и изчакайте, докато устройството се рестартира.</Data></string>
     <string name="forget_password_dialog_content_one"><Data>Ако забравите вашата парола, вие няма да можете да я възстановите. Все пак можете да нулирате паролата си, след като&lt;font color=#ec2700>изтриете цялата информация на устройството си&lt;/font> (включително снимки, контакти и т. н). Направете си копие на всички важни данни преди това.</Data></string>
-    <string name="forget_password_dialog_content_three"><Data>"1. Изключете вашето устройство. Натиснете бутон &lt;font color=#e6e6e6>[Power]&lt;/font> и бутон &lt;font color=#e6e6e6>[Усилване на звук]&lt;/font> едновременно и задръжте докато не видите &lt;img src=''> икона."</Data></string>
+    <string name="forget_password_dialog_content_three"><Data>"1. Изключете вашето устройство. Натиснете бутон &lt;font color=#e6e6e6>[Захранване]&lt;/font> и бутон &lt;font color=#e6e6e6>[Усилване на звук]&lt;/font> едновременно и задръжте докато не видите &lt;img src=''> икона."</Data></string>
     <string name="forget_password_dialog_content_two">Следвайте следните стъпки за да изтриете информация:</string>
     <string name="forget_password_dialog_title">Нулирайте вашата парола</string>
     <string name="forget_pattern"><u>Забравен шаблон?</u></string>
@@ -2052,6 +2055,7 @@
     <string name="gadget_picker_title">Избор на притурка</string>
     <string name="gadget_state_off">изключено</string>
     <string name="gadget_state_on">включено</string>
+    <string name="gadget_state_template">%1$s: %2$s</string>
     <string name="gadget_state_turning_off">изключва сe</string>
     <string name="gadget_state_turning_on">включва се</string>
     <string name="gadget_sync">Синхронизиране</string>
@@ -2102,6 +2106,7 @@
     <string name="gxzw_dialog_not_show_again">Не показвай отново</string>
     <string name="gxzw_dialog_ok">Разбрах</string>
     <string name="gxzw_dialog_title">Информация за отключване с пръстов отпечатък</string>
+    <string name="gxzw_quick_open_title" />
     <string name="handy_mode">Режим с една ръка</string>
     <string name="handy_mode_enable">Режим с една ръка</string>
     <string name="handy_mode_size">Размер на екрана</string>
@@ -2375,6 +2380,7 @@
     <string name="lift_to_wake_title">Събуждане при повдигане</string>
     <string name="line_breaking_summary">Оптимизирай пренасянето на текста</string>
     <string name="line_breaking_title">Оптимизиране на текст</string>
+    <string name="link_speed">%1$d Мб/с</string>
     <string name="list_bg_header_text">Ако ограничите свързването във фонов режим, новите приложения няма да могат да се свързват към интернет, след като ги инсталирате. Това може да бъде проблем при получаването на съобщения и уведомления или изтегляне на информация.</string>
     <string name="list_empty_text">Празно</string>
     <string name="loading_notification_apps">Приложенията се зареждат...</string>
@@ -2552,18 +2558,18 @@
     <string name="lockpattern_change_lock_pin_label">Промяна на PIN</string>
     <string name="lockpattern_confirm_button_text">Потвърди</string>
     <string name="lockpattern_continue_button_text">Продължи</string>
-    <string name="lockpattern_need_to_confirm">За потвърждение начертайте фигурата отново:</string>
+    <string name="lockpattern_need_to_confirm">За потвърждение начертайте шаблона отново:</string>
     <string name="lockpattern_need_to_unlock_wrong">Опитайте отново:</string>
-    <string name="lockpattern_pattern_confirmed_header">Новата ви фигура за отключване:</string>
-    <string name="lockpattern_pattern_entered_header">Фигурата е записана</string>
+    <string name="lockpattern_pattern_confirmed_header">Новият ви шаблон за отключване:</string>
+    <string name="lockpattern_pattern_entered_header">Шаблонът е записан</string>
     <string name="lockpattern_pattern_same_with_others">Паролата трябва да е различна от тази за Второ работно място</string>
     <string name="lockpattern_pattern_same_with_owner">Паролата трябва да е различна от тази за Основното работно място</string>
     <string name="lockpattern_pattern_same_with_security_space">Трябва да се различава от паролата за Второ работно място</string>
     <string name="lockpattern_recording_incorrect_too_short">Свържете поне %d точки. Опитайте отново.</string>
     <string name="lockpattern_recording_inprogress">Махнете пръста си, когато сте готови</string>
     <string name="lockpattern_recording_intro_footer">Натиснете „Меню“ за помощ.</string>
-    <string name="lockpattern_recording_intro_header">Начертайте фигура за отключване:</string>
-    <string name="lockpattern_recording_intro_header_second_space">Начертайте фигура за отключване на Второ работно място:</string>
+    <string name="lockpattern_recording_intro_header">Начертайте шаблон за отключване:</string>
+    <string name="lockpattern_recording_intro_header_second_space">Начертайте шаблон за отключване на Второ работно място:</string>
     <string name="lockpattern_restart_button_text">Повторен опит</string>
     <string name="lockpattern_retry_button_text">Изчисти</string>
     <string name="lockpattern_settings_change_lock_pattern">Промяна на фигурата за отключване</string>
@@ -2731,6 +2737,7 @@
     <string name="memory_title">Свободни: %1$s\u0009\u0009Общо: %2$s</string>
     <string name="memory_usage">Използване на паметта</string>
     <string name="memory_usage_apps">Използвана от приложенията памет</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">Средно %1$s използвана памет през последните 3 часа</string>
     <string name="menu_cancel">Отхвърляне</string>
     <string name="menu_check">Опит</string>
@@ -3038,6 +3045,7 @@
     <string name="nfc_how_it_works_got_it">Разбрах</string>
     <string name="nfc_how_it_works_title">Плащане на терминал</string>
     <string name="nfc_more_title">Още...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_default">Основно приложение за плащане</string>
     <string name="nfc_payment_default_not_set">Не е зададено</string>
     <string name="nfc_payment_favor_default">Винаги използвайте приложението по подразбиране</string>
@@ -3250,6 +3258,7 @@
     <string name="overlay_display_devices_title">Симулиране на втори дисплей</string>
     <string name="overlay_settings">Показв. върху други приложения</string>
     <string name="owner_info_settings_edit_text_hint">Напр. „Устройството с Android на Иван“.</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Няма</string>
     <string name="owner_info_settings_title">Подпис на заключен екран</string>
     <string name="owner_space">Основно работно място</string>
@@ -3326,7 +3335,7 @@
     <string name="passpoint_content">Идентификационни данни за %1$s</string>
     <string name="passpoint_label">Запазено чрез</string>
     <string name="passwordIncorrect">Въведената от вас парола е неправилна</string>
-    <string name="password_entrance_title">Заключване на екран</string>
+    <string name="password_entrance_title">Закл. на екрана</string>
     <string name="password_guard">Парола</string>
     <string name="password_turned_off_text">Паролата е отменена</string>
     <string name="password_turned_on_text">Паролата е зададена</string>
@@ -3577,6 +3586,8 @@
     <string name="private_sms_recording_intro_header">Начертайте шаблон за отключване:</string>
     <string name="private_sms_reset_by_account">Влезте в Mi Профила си за нулиране на паролата</string>
     <string name="process_dex2oat_label">Оптимизиране на приложенията</string>
+    <string name="process_format">%1$s (%2$d)</string>
+    <string name="process_kernel_label">Android операционна система</string>
     <string name="process_mediaserver_label">Медиен сървър</string>
     <string name="process_provider_in_use_description">Доставчикът %1$s се използва.</string>
     <string name="process_service_in_use_description">Услугата %1$s се използва</string>
@@ -4205,6 +4216,7 @@ Wi-Fi телефония: %3$s
     <string name="security_encryption_attention_3">Вие сте на път да промените вашата парола за отключване на екрана.</string>
     <string name="security_encryption_attention_4">Уверете се, че сте запомнили вашата парола за заключване на екрана, в противен случай ще се наложи да извършите пълно нулиране и изтриване на цялата информация във вашето устройство.</string>
     <string name="security_encryption_attention_info">Вие можете да криптирате акаунти, настройки, инсталирани приложения и тяхната информация, медия или други файлове.</string>
+    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">Важно</string>
     <string name="security_encryption_close_dialog_info">Ако изберете да не криптирате устройството, използвайки парола за заключване на екрана, е възможно някои услуги на Google да не работят след това.</string>
     <string name="security_encryption_close_dialog_title">Връщане обратно към стандартната защита с парола</string>
@@ -4217,7 +4229,7 @@ Wi-Fi телефония: %3$s
     <string name="security_input">Сигурна клавиатура</string>
     <string name="security_input_hint">Използвайте сигурна клавиатура, когато въвеждате пароли</string>
     <string name="security_keyguard_category_name">Заключен екран</string>
-    <string name="security_password_category_name">Заключване на екран</string>
+    <string name="security_password_category_name">Закл. на екрана</string>
     <string name="security_passwords_title">Поверителност</string>
     <string name="security_patch">Ниво на корекцията на сигурността под Android</string>
     <string name="security_privacy_settings_title">Сигурност</string>
@@ -4330,12 +4342,12 @@ Wi-Fi телефония: %3$s
     <string name="settings_toggle_position_divider_list">Превключвателите поставени над лентата са активни</string>
     <string name="setup_choose_unlock_fingerprint_msg">Настройте заключване на екрана преди да добавите пръстов отпечатък.</string>
     <string name="setup_choose_unlock_mixed_password">Парола</string>
-    <string name="setup_choose_unlock_mixpassword_title">Задаване на парола</string>
-    <string name="setup_choose_unlock_password">ПИН</string>
+    <string name="setup_choose_unlock_mixpassword_title">Задайте парола</string>
+    <string name="setup_choose_unlock_password">PIN</string>
     <string name="setup_choose_unlock_password_msg">Въведете 4 цифри</string>
-    <string name="setup_choose_unlock_password_title">Настройка на ПИН код</string>
-    <string name="setup_choose_unlock_pattern">Фигура</string>
-    <string name="setup_choose_unlock_pattern_title">Начертайте фигура за отключване</string>
+    <string name="setup_choose_unlock_password_title">Задай PIN</string>
+    <string name="setup_choose_unlock_pattern">Шаблон</string>
+    <string name="setup_choose_unlock_pattern_title">Начертайте шаблон за отключване</string>
     <string name="setup_choose_unlock_type_title">Задайте парола</string>
     <string name="setup_fingerprint_enroll_enrolling_skip_message">Избрахте да използвате отпечатъка си като един от начините за отключване на телефона си. Ако пропуснете сега, ще трябва да настроите по-късно. Настройването отнема около минута.</string>
     <string name="setup_fingerprint_enroll_enrolling_skip_title">Пропуск. на настройването на отпечатък?</string>
@@ -4459,6 +4471,7 @@ Wi-Fi телефония: %3$s
     <string name="sim_reenter_new">Въведете пак новия ПИН код</string>
     <string name="sim_select_card">Изберете SIM карта</string>
     <string name="sim_selection_required_pref">Изборът е задължителен</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM карти</string>
     <string name="sim_setup_wizard_title">SIM карти</string>
     <string name="sim_signal_strength">%1$d dBm, %2$d asu</string>
@@ -4472,6 +4485,7 @@ Wi-Fi телефония: %3$s
     <string name="size_kilo_byte">КБ</string>
     <string name="size_mega_byte">МБ</string>
     <string name="size_peta_byte">ПБ</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">ТБ</string>
     <string name="skip_anyway_button_label">Пропускане въпреки това</string>
     <string name="skip_label">Пропускане</string>
@@ -4556,6 +4570,7 @@ Wi-Fi телефония: %3$s
     <string name="status_bar_settings_all_app_display_loading">Зарежда се…</string>
     <string name="status_bar_settings_app_notification_preferences">Настройки на приложенията</string>
     <string name="status_bar_settings_basic_settings">Основни настройки</string>
+    <string name="status_bar_settings_carrier_sim">SIM %1$s:</string>
     <string name="status_bar_settings_custom_carrier">Име на оператора по избор</string>
     <string name="status_bar_settings_custom_wifi_name">Редактирай името на Wi-Fi</string>
     <string name="status_bar_settings_customer_feedback">Отзив</string>
@@ -4801,6 +4816,7 @@ Wi-Fi телефония: %3$s
     <string name="sum_carrier_select">Избиране на мрежов оператор</string>
     <string name="summary_divider_text">", "</string>
     <string name="summary_font_size_v2">Коригиране на размера на текста, изображенията и иконите</string>
+    <string name="summary_range_symbol_combination">от %1$s до %2$s</string>
     <string name="summary_range_verbal_combination">от %1$s до %2$s</string>
     <string name="super_resolution_access_title">Достъпни приложения</string>
     <string name="super_resolution_desc">Направи изображението отчетливо чрез използване на AI алгоритъм</string>
@@ -5127,10 +5143,10 @@ Wi-Fi телефония: %3$s
     <string name="unlock_set_unlock_none_title">Няма</string>
     <string name="unlock_set_unlock_off_summary" />
     <string name="unlock_set_unlock_off_title">Няма</string>
-    <string name="unlock_set_unlock_password_none">Без парола</string>
-    <string name="unlock_set_unlock_password_summary">Въведете 4 или повече букви или цифри за отключване на устройството</string>
+    <string name="unlock_set_unlock_password_none">Няма</string>
+    <string name="unlock_set_unlock_password_summary">Въведете 4 или повече букви за отключване на устройството</string>
     <string name="unlock_set_unlock_password_title">Парола</string>
-    <string name="unlock_set_unlock_pattern_summary">Начертайте фигура с пръста си за да отключите устройството</string>
+    <string name="unlock_set_unlock_pattern_summary">Начертайте прост шаблон с пръста си за да отключите устройството</string>
     <string name="unlock_set_unlock_pattern_title">Фигура</string>
     <string name="unlock_set_unlock_pin_summary" formatted="false">Въведете %d-%d числа за отключване на устройството</string>
     <string name="unlock_set_unlock_pin_title">PIN</string>
@@ -5801,9 +5817,11 @@ Wi-Fi телефония: %3$s
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_none">Няма</string>
     <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
