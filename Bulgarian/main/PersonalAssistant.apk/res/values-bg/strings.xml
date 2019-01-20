@@ -296,7 +296,6 @@
     <string name="sms_happened">Готово</string>
     <string name="stock_card_add">Добави фирми</string>
     <string name="stock_card_title">Стоки</string>
-    <string name="stock_change_rate_format">%.2f%%</string>
     <string name="stock_color_schema">Цветна тема</string>
     <string name="stock_list_empty_text">Вие нямате фирми, които следвате.</string>
     <string name="stock_provider">Котировките на стоковия пазар са предоставени от Webull</string>
