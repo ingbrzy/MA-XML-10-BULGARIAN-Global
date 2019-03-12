@@ -23,7 +23,6 @@
     <string name="dialog_alert_title">Внимание</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Този видеоклип не е валиден за поточно предаване към това устройство.</string>
     <string name="selectTextMode">Избор на текст</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Икона за отпечатък</string>
     <string name="paste_as_plain_text">Поставяне като неформатиран текст</string>
     <string name="autofill">Автоматично попълване</string>
@@ -371,7 +370,6 @@
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Кодът за функцията се изпълни.</string>
     <string name="fcError">Има проблем с връзката или кодът за функцията е невалиден.</string>
-    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Намиране</string>
     <string name="find_next">Търсене на следващото</string>
     <string name="find_on_page">Намиране в страницата</string>
@@ -557,7 +555,6 @@
     <string name="kg_reordering_delete_drop_target_text">Премахване</string>
     <string name="kg_sim_pin_instructions">Въведете ПИН кода за SIM картата</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM картата се отключва…</string>
-    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_attempts_countdown">Опитайте отново след %1$d секунди.</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Въведохте неправилно паролата си %1$d пъти. 
 
@@ -828,7 +825,6 @@
     <string name="notification_channel_wfc">Обаждания през Wi-Fi</string>
     <string name="notification_hidden_text">Ново известие</string>
     <string name="notification_listener_binding_label">Слушател на известия</string>
-    <string name="notification_messaging_title_template">„%1$s“: %2$s</string>
     <string name="notification_ranker_binding_label">Услуга за класифициране на известията</string>
     <string name="notification_reply_button_accessibility">Отговор</string>
     <string name="notification_title">Грешка при влизането за %1$s</string>
@@ -1505,6 +1501,5 @@
     <string name="zen_mode_feature_name">Не безпокойте</string>
     <string name="zen_mode_forever">Докато не изключите „Не безпокойте“</string>
     <string name="zen_mode_forever_dnd">Докато не изключите „Не безпокойте“</string>
-    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">До %1$s</string>
 </resources>
