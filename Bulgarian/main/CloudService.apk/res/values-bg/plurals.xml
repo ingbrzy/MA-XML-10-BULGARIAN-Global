@@ -56,12 +56,16 @@
         <item quantity="other">%d скрити снимки не са синхронизирани. Излезте от профила си, след като всички елементи се синхронизират, в противен случай ще бъдат изтрити.</item>
         <item quantity="one">%d скрита снимка не е синхронизирана. Излезте от профила си, след като всички елементи се синхронизират, в противен случай ще бъдат изтрити.</item>
     </plurals>
-    <plurals name="micloud_main_resume_sync_hour">
-        <item quantity="other">Продължи синхронизирането след %d часа</item>
-        <item quantity="one">Продължи синхронизирането след %d час</item>
+    <plurals name="micloud_manual_pause_and_resume">
+        <item quantity="other">Синхр. е на пауза. Продължаване след %d минути…</item>
+        <item quantity="one">Синхр. е на пауза. Продължаване след %d минута…</item>
     </plurals>
-    <plurals name="micloud_main_resume_sync_min">
-        <item quantity="other">Продължи синхронизирането след %d минути</item>
-        <item quantity="one">Продължи синхронизирането след %d минута</item>
+    <plurals name="last_sync_time_mins_ago">
+        <item quantity="other">Преди %s мин</item>
+        <item quantity="one">Преди %s мин</item>
+    </plurals>
+    <plurals name="last_sync_time_hours_ago">
+        <item quantity="other">Преди %s часа</item>
+        <item quantity="one">Преди %s час</item>
     </plurals>
 </resources>

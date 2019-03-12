@@ -1,8 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="activities_title">
+        <item>Специален ден</item>
+        <item>Ден за запомняне</item>
+        <item>Ярки моменти</item>
+    </string-array>
     <string-array name="baby_sexy">
         <item>Момче</item>
         <item>Момиче</item>
+    </string-array>
+    <string-array name="last_weekend_title">
+        <item>Моите уикенди</item>
+        <item>Нещата от живота</item>
+        <item>Спомени от уикенда</item>
+    </string-array>
+    <string-array name="menu_copy_or_move">
+        <item>Премести</item>
+        <item>Копирай</item>
+        <item>@string/cancel</item>
     </string-array>
     <string-array name="month">
         <item>Януари</item>
@@ -26,6 +41,11 @@
         <item>Дядо по майчина линия</item>
         <item>Баба по майчина линия</item>
     </string-array>
+    <string-array name="parties_title">
+        <item>Заедно</item>
+        <item>Добри времена</item>
+        <item>В унисон</item>
+    </string-array>
     <string-array name="relation_with_me">
         <item>Аз</item>
         <item>Дете</item>
@@ -48,5 +68,9 @@
         <item>Баба по бащина линия</item>
         <item>Дядо по майчина линия</item>
         <item>Баба по майчина линия</item>
+    </string-array>
+    <string-array name="sports_title">
+        <item>Продължаваме напред</item>
+        <item>Пълни с енергия</item>
     </string-array>
 </resources>

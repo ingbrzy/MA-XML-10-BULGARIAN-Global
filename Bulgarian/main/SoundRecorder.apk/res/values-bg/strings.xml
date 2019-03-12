@@ -65,6 +65,12 @@
     <string name="keywords_search_call_record">Запис на обаждания;Запис на обаждане;Записване на обаждане;Записване на обаждания</string>
     <string name="keywords_search_record">Нов запис;Добави запис;Запис;Записи;Копие;Презапис;Записване;Запис на реч;Запис на звук;Приложение за записване;Как да направя запис;Как да запиша звук;Къде е програмата за звукозапис;MIUI Рекордер</string>
     <string name="keywords_search_record_list">Записване;Презапис;Запис;Споделяне на записа;Споделяне на записите;Записване;Записи</string>
+    <string name="korea_permission_phone">Телефон</string>
+    <string name="korea_permission_phone_resc">За достъп до състоянието на устройството и управление на записите по време на обаждания</string>
+    <string name="korea_permission_record">Микрофон</string>
+    <string name="korea_permission_record_resc">За записване на звук</string>
+    <string name="korea_permission_storage">Съхранение</string>
+    <string name="korea_permission_storage_desc">За съхраняване на записи</string>
     <string name="loading_order_list">Момент…</string>
     <string name="loading_order_list_empty">Тук няма поръчки.</string>
     <string name="low_battery_error">Остават по-малко от 5% батерия. Спрете и запазете записа си, за да не се изгуби.</string>

@@ -118,6 +118,7 @@
     <string name="menu_title_select_folder">Избери папка</string>
     <string name="menu_unhide">Покажи</string>
     <string name="menu_unstick">Откачи</string>
+    <string name="micloud_state_total_count">%1$s</string>
     <string name="not_now">Не сега</string>
     <string name="note_description_content">Приложението Бележки е чудесен инструмент за записване на вашите идеи. То има вградени напомняния и синхронизира Вашите теми с Mi Облак, за да имате достъп до тях отвсякъде и по всяко време. Уверете се, че можете да се справяте и без това приложение, преди да го деинсталирате.</string>
     <string name="note_description_title">За Бележки</string>
@@ -129,8 +130,13 @@
     <string name="note_sort_way">Изберете как да подредите бележките си</string>
     <string name="notealert_enter">Покажи</string>
     <string name="notealert_ok">Игнорирай</string>
+    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Напомняне</string>
     <string name="permdesc_accessNote">Злонамерените приложения могат да използват това за достъп до личните ви данни.</string>
+    <string name="permission_intro_contact">За маркиране на бележки по време на обаждания</string>
+    <string name="permission_intro_microphone">За записване на гласови бележки</string>
+    <string name="permission_intro_phone">За маркиране на бележки по време на обаждания</string>
+    <string name="permission_intro_storage">За съхраняване на бележки и приложения</string>
     <string name="permlab_accessNote">Достъп до бележките</string>
     <string name="pref_desc_skip_confirm_for_quick_delete">Не питай за потвърждение при изтриване на бележки когато се използват жестове</string>
     <string name="pref_title_cloud_trash_bin">Изтрити бележки от Mi Облак</string>
@@ -213,6 +219,14 @@
     <string name="toast_reach_text_limit_truncate">Съдържанието на бележката ще се намали автоматично, защото е много дълго.</string>
     <string name="toast_refuse_to_record_when_in_call">Тази функция не може да се използва по време на разговори</string>
     <string name="toast_refuse_to_record_when_in_multi_window">Не можете да използвате тази функция с разделен екран</string>
+    <string name="toast_refuse_to_use_contact">"Разрешенията за контакти са ограничени. 
+Разрешете на Бележки да чете контактите ви и да намира профили на устройството."</string>
+    <string name="toast_refuse_to_use_external_storage">"Разрешенията за съхранение са ограничени. 
+Разрешете на Бележки да чете съдържанието на вашата SD карта."</string>
+    <string name="toast_refuse_to_use_phone_state">"Разрешенията за телефон са ограничени. 
+Разрешете на Бележки да чете статуса на телефона ви и да го идентифицира."</string>
+    <string name="toast_refuse_to_use_record_audio">"Разрешенията за микрофон са ограничени. 
+Разрешете на Бележки да записва аудио."</string>
     <string name="toolbar_check_description">Добави отметка</string>
     <string name="toolbar_delete_description">Изтриване на тази бележка</string>
     <string name="toolbar_gallery_description">Добави изображение</string>

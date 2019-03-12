@@ -42,6 +42,7 @@
     <string name="add_to_last_of_playlist">Добавете в края на списък за слушане.</string>
     <string name="add_to_playlist_successful">Успешно добавено</string>
     <string name="added_next_play">Добавено към следващо изпълнение</string>
+    <string name="agreement_desc">Потребителско споразумение (задължително)</string>
     <string name="alaka_required">Трябва да платите, за да чуете тази песен</string>
     <string name="album_label">Обложки на албуми</string>
     <string name="album_name">Албум</string>
@@ -53,6 +54,16 @@
     <string name="already_favorited">Вече е в любими</string>
     <string name="always_use_metered">Винаги използвайте мобилни данни</string>
     <string name="app_label">Изтегляния</string>
+    <string name="app_permission_confirm">Разбрах</string>
+    <string name="app_permission_optional">Разрешения по избор</string>
+    <string name="app_permission_require">Задължителни разрешения</string>
+    <string name="app_permission_use_desc">Разрешения</string>
+    <string name="app_permission_use_group_account">Профили</string>
+    <string name="app_permission_use_group_account_desc">За получаване на информация за Mi профил</string>
+    <string name="app_permission_use_group_phone">Телефон</string>
+    <string name="app_permission_use_group_phone_desc">Относно услугите на Google Push</string>
+    <string name="app_permission_use_group_storage">Съхранение</string>
+    <string name="app_permission_use_group_storage_desc">За намиране и възпроизвеждане на песни, съхранени на устройството</string>
     <string name="artist">Изпълнители</string>
     <string name="artist_area_all">Всички</string>
     <string name="artist_area_china">Китай</string>
@@ -119,6 +130,7 @@
     <string name="current_version">Текуща версия</string>
     <string name="data_usage_warning">Предупреждение</string>
     <string name="data_usage_warning_summary">Използването на мобилни данни за слушане на музика с високо качество може да увеличи вашите месечни такси.</string>
+    <string name="data_use_desc">Правни документи</string>
     <string name="date_format_str">dd-MM-yyyy</string>
     <string name="delete">Изтрий</string>
     <string name="delete_download">Премахни</string>
@@ -205,6 +217,7 @@
     <string name="download_method">Изтегляне</string>
     <string name="download_no_application_title">Файлът не може да се отвори</string>
     <string name="download_paused_in_power_save_mode">Изтеглянето е спряно когато Икономия на батерията е включено</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Изтегля се…</string>
     <string name="download_quality">Качество при изтегляне</string>
     <string name="download_quality_summary">Допълнителни настройки на песните, които сте изтеглили</string>
@@ -284,7 +297,9 @@
     <string name="exo_download_notification_channel_name">Изтегляния</string>
     <string name="exo_download_removing">Изтеглянията се премахват</string>
     <string name="exo_item_list">%1$s – %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Автоматично</string>
     <string name="exo_track_selection_none">Нищо</string>
     <string name="exo_track_selection_title_audio">Аудиозапис</string>
@@ -306,6 +321,7 @@
     <string name="favorite_succeed">Вече е в любими</string>
     <string name="favorite_tracks">Любими</string>
     <string name="favorites">Любими</string>
+    <string name="fcm_fallback_notification_channel_label">Разни</string>
     <string name="feed_back">Отзив</string>
     <string name="file_not_found">Файлът не съществува</string>
     <string name="filter_by_duration">Филтриране по продължителност</string>
@@ -326,6 +342,7 @@
     <string name="format_not_support">Форматът не се поддържа</string>
     <string name="format_unsupported_or_corrupted">Този формат не се поддържа или файла е повреден</string>
     <string name="fragment_title_artist_album">Албум</string>
+    <string name="gcm_fallback_notification_channel_label">Разни</string>
     <string name="handle_later">Не сега</string>
     <string name="hd_quality_audio">Музика с високо качество</string>
     <string name="headset_and_audio_effect_category">Слушалки; аудио ефекти</string>
@@ -344,7 +361,7 @@
     <string name="hungama_subscribe_positive_button">Купи PRO членство</string>
     <string name="hungama_subscribe_title">ПРО членство</string>
     <string name="i_know">Знам това</string>
-    <string name="impunity_declaration_content">Трябва да се съгласите с нашите&lt;a href=\"http://www.miui.com/res/doc/eula.html?lang=bg_BG\"> Споразумение с потребителя &lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/privacy.html?lang=bg_BG\"> Политики за сигурност &lt;/a>за да ползвате този продукт.</string>
+    <string name="impunity_declaration_content">Трябва да се съгласите с нашите &lt;a href=\"http://www.miui.com/res/doc/eula.html?lang=bg_BG\">Споразумение с потребителя&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/privacy.html?lang=bg_BG\">Политики за сигурност&lt;/a> за да ползвате този продукт.</string>
     <string name="impunity_declaration_ignore">Не показвай отново</string>
     <string name="impunity_declaration_negative_text">Изход</string>
     <string name="impunity_declaration_positive_text">Приемам</string>
@@ -538,7 +555,9 @@
     <string name="preset_music_playlist">Mi Музика плейлист</string>
     <string name="priority_storage">Съхраняване на SD картата</string>
     <string name="priority_storage_summary">При поставена SD карта, автоматично записване на файловете на SD картата</string>
+    <string name="privacy_desc">Политика за поверителност (задължително)</string>
     <string name="privacy_policy">Политика за поверителност</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=bg_BG</string>
     <string name="pro_member">PRO член</string>
     <string name="project_device">Mi Телефон</string>
     <string name="prompt_grant_write_settings_permission">Позволи промяна на системните настройки</string>
@@ -546,6 +565,7 @@
     <string name="pulluprefreshrecyclerview_loading_finished">Зареждането е успешно</string>
     <string name="pulluprefreshrecyclerview_loading_running">Зареждане…</string>
     <string name="queue_is_empty">Опашката за възпроизвеждане е празна.</string>
+    <string name="ready_to_play">Към следващото</string>
     <string name="recently_played">Скоро прослушани</string>
     <string name="recently_played_songs">Последни</string>
     <string name="recommended_file_size_download_in_mobile">Използване %s от мобилни данни за изтегляне на файла?</string>
@@ -636,6 +656,7 @@
     <string name="start_to_check_new_version">Проверява се за актуализации…</string>
     <string name="start_to_download">Старирайте изтегляне…</string>
     <string name="start_to_play">Пусни</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_internal">Вътрешна памет</string>
     <string name="storage_sd_card">SD карта</string>
     <string name="storage_usb">USB хранилище</string>
@@ -696,6 +717,7 @@
     <string name="upgrade_music_message">Обновяването приключи. Рестартирайте програмата.</string>
     <string name="upgrading_in_backstage">Актуализиране във фонов режим…</string>
     <string name="user_agreement">Потребителско споразумение</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=bg_BG</string>
     <string name="version_info">Версия</string>
     <string name="video_play_cellular">Вашето устройство не е свързано с Wi-Fi. Използвайте мобилни данни?</string>
     <string name="video_replay_btn">Пуснете отново</string>

@@ -4,16 +4,16 @@
     <string name="error_filename_too_long">Въведеното от вас име е твърде дълго.</string>
     <string name="power_config_select_apps_title">Приложения</string>
     <string name="power_config_event_delete">Изтрий</string>
-    <string name="hide_mode_desc"><font color="#000000">Когато приложение работи във фонов режим, неговата активност ще се наблюдава за намаляване на употребата на батерия. Тази функция ще получи данни за потребителя съобразно с %s</font></string>
+    <string name="hide_mode_desc">Когато приложение работи във фонов режим, неговата активност ще се наблюдава за намаляване на употребата на батерия. Тази функция ще получи данни за потребителя съобразно с %s</string>
     <string name="privacy">Политика на поверителност</string>
     <string name="power_hide_mode_title">Батерия и производителност</string>
-    <string name="power_config_apps">Икономия на батерия</string>
+    <string name="power_config_apps">Икономия на батерия за приложения</string>
     <string name="app_list_title">Избор на приложения</string>
     <string name="power_hide_mode_app_list_summary">Икономия на енергия на заден план</string>
-    <string name="about_hide_mode">За Икономия на батерия</string>
+    <string name="about_hide_mode">За икономия на батерия за приложения</string>
     <string name="show_system_app">Покажи системните приложения</string>
     <string name="hide_system_app">Скрий системните приложения</string>
-    <string name="about_extreme_mode">Максимален режим</string>
+    <string name="about_extreme_mode">Свръх икономия на батерията</string>
     <string name="scenario_policies_title">Интелигентни ситуации</string>
     <string name="config_scenario_policies_title">Ситуации</string>
     <string name="scenario_policies_summary">Прилагане на различни стратегии за спестяване на енергия за различни ситуации.</string>
@@ -22,7 +22,7 @@
     <string name="sleep_config_enhance_description_non_nfc">Винаги, когато MIUI установи, че Вие спите, ще затвори приложенията на заден план, ще ограничи Bluetooth, GPS, мобилни данни и Wi-Fi и няма да светва екрана за известия.</string>
     <string name="nonui_mode_config_title">Неинтерактивен режим</string>
     <string name="nonui_mode_config_description">Не осветявай екрана за известия, изключи светодиода, сензора за пръстови отпечатъци и контролите с докосване, за да се пести батерия, когато MIUI установи, че не използвате устройството си.</string>
-    <string name="power_center">Икономия на батерия</string>
+    <string name="power_center">Оптимизация на батерия</string>
     <string name="power_usage">Консумация на енергия</string>
     <string name="power_mode">Настройки на захранването</string>
     <string name="performance_category">Производителност</string>
@@ -36,8 +36,8 @@
     <string name="warm_performance_tip">Вашето устройство ще се затопли когато има повече работещи процеси.</string>
     <string name="vip_feedback">VIP Отзив</string>
     <string name="vip_feedback_enable">Вкл ВИП Отзив</string>
-    <string name="extreme_power_config_mode_category">Максимален режим</string>
-    <string name="extreme_power_config_mode_title">Максимален режим</string>
+    <string name="extreme_power_config_mode_category">Свръх икономия на батерия</string>
+    <string name="extreme_power_config_mode_title">Свръх икономия на батерия</string>
     <string name="extreme_power_config_mode_desc"><li> Свръх икономия на батерията ще спре всякаква активност на заден план след като се върнете в Начален екран. Няма да получавате известия или актуализации.</li>"
 "<li>Ако искате дадено приложение да продължи да работи във фонов режим, заключете го от меню Последни или го добавете в изключения. До 4 приложения могат да се изпълняват във фонов режим, когато е включен Свръх икономия на батерията. </li>"
 "<li>NFC услугите ще бъдат спрени. Вие можете да промените това в меню Настройки.</li>"
@@ -93,7 +93,7 @@
     <string name="appconfig_active_app_dialog_title">Управление на активните приложения</string>
     <string name="config_classify">Настройки на сортиране по приложения</string>
     <string name="active_classify">Сортиране по състояние на активност</string>
-    <string name="extreme_mode_max_item_alert">Вие сте избрали най-много 4 приложения да работят във фонов режим</string>
+    <string name="extreme_mode_max_item_alert">Можете да изберете до 4 приложения, които да работят във фонов режим, когато е включена свръх икономията на батерията</string>
     <string name="message_i_know">Разбрах</string>
     <string name="high_temp_state">Прегряване</string>
     <string name="high_temp_state_message">Вашето устройство е прегряло. Мобилните данни, Точките за достъп, GPS и приложението Камера ще бъдат изключени.</string>
@@ -109,8 +109,4 @@
     <string name="extreme_add_white_list_summary">Добави до 4 приложения</string>
     <string name="adaptive_battery_title">Използване на Адаптивна батерия</string>
     <string name="adaptive_battery_summary">Ограничаване разход на батерията от рядко използвани приложения</string>
-    <string name="dark_mode">Режим На тъмно</string>
-    <string name="dark_mode_summary">Превключване към тъмни цветове за пестене на батерия</string>
-    <string name="open_dark_mode">Превключване към режим На тъмно</string>
-    <string name="open_dark_mode_tip">Качеството на показване на някой функции може да се намали в режим На тъмно. Ще премине към нормалното, когато излезете от Нощен режим. Искате ли да преминете към режим На тъмно сега?</string>
 </resources>

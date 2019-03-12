@@ -9,8 +9,8 @@
     <string name="app_search">Търсене на приложения</string>
     <string name="btn_send">Изпрати</string>
     <string name="bugreport_dialog_not_show_again">Не показвай отново</string>
-    <string name="bugreport_dialog_submit_content"><Data>"Вие ще запазите логовете на софтуера на вашето устройство. Тези записи могат да съдържат лична информация и вашето местоположение. Не споделяйте тези логове с никой, ако искате да останете защитени. Избирането на ъгласен съм \" означава, че вие сте прочели и сте съгласни с нашите
-         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>."</Data></string>
+    <string name="bugreport_dialog_submit_content">"&lt;Data>Вие ще запазите логовете на софтуера на вашето устройство. Тези записи могат да съдържат лична информация и вашето местоположение. Не споделяйте тези логове с никой, ако искате да останете защитени. Избирането на ъгласен съм \" означава, че вие сте прочели и сте съгласни с нашите
+         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>.&lt;/Data>"</string>
     <string name="bugreport_dump_complete_notification_summary">Чукнете за преглед.</string>
     <string name="bugreport_dump_complete_notification_title">Докладът е създаден</string>
     <string name="bugreport_dump_start_notification_summary">Това може да отнеме няколко минути.</string>
@@ -108,6 +108,10 @@
     <string name="feedback_remind_login_btn">Вход</string>
     <string name="feedback_report_remind_login_desc">Влезте с вашия Mi профил, за да може нашите инженери да се свържат с Вас.</string>
     <string name="feedback_report_remind_login_desc2">Може да прегледате прогреса на доклада в раздела \"Моите доклади\".</string>
+    <string name="feedback_reproductivity_everytime">Всеки път</string>
+    <string name="feedback_reproductivity_occasionally">От време на време</string>
+    <string name="feedback_reproductivity_often">Често</string>
+    <string name="feedback_reproductivity_once">Веднъж</string>
     <string name="feedback_retest_label">Стъпки</string>
     <string name="feedback_select_images">Добавете изображение или кратко видео</string>
     <string name="feedback_select_modem_log">Добави логове от модем</string>
@@ -168,6 +172,20 @@
     <string name="goon_feedback_main">Напред</string>
     <string name="hint_feedback_main">Опишете вашия проблем</string>
     <string name="issue_search">Търси</string>
+    <string name="kr_authorization_agree">Accept</string>
+    <string name="kr_authorization_contact">Accounts</string>
+    <string name="kr_authorization_contact_desc">For getting Mi Account info and verifying your account</string>
+    <string name="kr_authorization_exit">Exit</string>
+    <string name="kr_authorization_log_protocol">Log Protocol (optional)</string>
+    <string name="kr_authorization_log_protocol_desc">"In order to improve the services provided to you, we'll upload usage stats and system logs to our servers. These items may include your personal information, as well as the information about your device and networks. We'll use uploaded items to locate and analyze the problems in the system."</string>
+    <string name="kr_authorization_phone">Phone</string>
+    <string name="kr_authorization_phone_desc">For identifying device using IMEI and model number, as well as locating and analyzing issues</string>
+    <string name="kr_authorization_privacy_policy">Privacy Policy (mandatory)</string>
+    <string name="kr_authorization_select_all">Select all</string>
+    <string name="kr_authorization_storage">Storage</string>
+    <string name="kr_authorization_storage_desc">For accessing storage and saving items including logs, images, and videos</string>
+    <string name="kr_authorization_summary">Legal documents</string>
+    <string name="kr_authorization_user_protocol">User Agreement (mandatory)</string>
     <string name="loading_apps">Създава се списък…</string>
     <string name="login_system_failed">Неможе да се впише, опитайте отново</string>
     <string name="logo_title">Обратна връзка</string>
@@ -277,7 +295,7 @@
     <string name="network_errortip_server">Грешка в сървъра. Опитайте по-късно</string>
     <string name="network_errortip_timeout">Времето за изчакване изтече, опитайте отново</string>
     <string name="network_errortip_unknow">Опитваме се да го поправим…</string>
-    <string name="network_unavailable_dialog_button_ok">OK</string>
+    <string name="network_unavailable_dialog_button_ok">OК</string>
     <string name="network_unavailable_dialog_content">Не може да се свърже с мрежата. Отзивът ще бъде изпратен, когато е достъпна мобилна мрежа.</string>
     <string name="network_unavailable_dialog_title">Не може да се свърже с мрежата</string>
     <string name="non_system_app_select">Изтеглени приложения</string>
@@ -436,6 +454,7 @@
     <string name="passport_wrong_phone_number_format">Въведеният телефонен номер е с невалиден формат</string>
     <string name="passport_wrong_vcode">Кодът, който сте въвели е грешен</string>
     <string name="pic_not_exist">Това изобр. не съществува</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="plus_one_submit_dialog_content">Избраният от вас отзив, заедно с логовете с грешки, ще бъде изпратен до сървърите на Mi.</string>
     <string name="plus_one_submit_dialog_not_show_again">Запомни настройката</string>
     <string name="post_miui_bbs_failed">Неуспешно публикуване във форума</string>
@@ -464,9 +483,9 @@
     <string name="select_system_app_tag">Изберете даден проблем</string>
     <string name="submit_dialog_cancel">Не приемам</string>
     <string name="submit_dialog_confirm">Приемам</string>
-    <string name="submit_dialog_content"><Data>Вие трябва да се съгласите с &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a> за да можете да използвате Фейсбук. Проблемите, които докладвате, заедно с прикачените файлове (може да се съдържа лична информация, като например информация за вашето устройство и текущата мрежа) ще бъдат качени на сървърите на MIUI. Това ще ни помогне да разберем проблемите, които сте докладвали.</Data></string>
-    <string name="submit_dialog_content_global"><Data>"Вашата обратна връзка заедно с прикачените файлове (ако има) и логовете (Вие можете да махнете отметката в менюто за кореспонденция на тези елементи, които не искате да изпращате до сървърите на MIU) ще бъдат изпратени до тях и в определената секция на форума за програмисти на MIUI. Информацията за дадения проблем ще бъде запазена и за бъдеща кореспонденция. Тя може да съдържа лични данни и информация за местоположението ви. Натискането на ъгласен съм \" означава, че вие сте прочели и сте съгласни с нашите
-         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>."</Data></string>
+    <string name="submit_dialog_content">&lt;Data>Вие трябва да се съгласите с &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a> за да можете да използвате Фейсбук. Проблемите, които докладвате, заедно с прикачените файлове (може да се съдържа лична информация, като например информация за вашето устройство и текущата мрежа) ще бъдат качени на сървърите на MIUI. Това ще ни помогне да разберем проблемите, които сте докладвали.&lt;/Data></string>
+    <string name="submit_dialog_content_global">"&lt;Data>Вашата обратна връзка заедно с прикачените файлове (ако има) и логовете (Вие можете да махнете отметката в менюто за кореспонденция на тези елементи, които не искате да изпращате до сървърите на MIU) ще бъдат изпратени до тях и в определената секция на форума за програмисти на MIUI. Информацията за дадения проблем ще бъде запазена и за бъдеща кореспонденция. Тя може да съдържа лични данни и информация за местоположението ви. Натискането на ъгласен съм \" означава, че вие сте прочели и сте съгласни с нашите
+         &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>.&lt;/Data>"</string>
     <string name="submit_dialog_title">Изпращане на доклад до Mi</string>
     <string name="submit_feedback_info_failed">Не може да се изпрати доклад</string>
     <string name="suggestion_description">Надявам се да добавите функцията Х, защото…</string>

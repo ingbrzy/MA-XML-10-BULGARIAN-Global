@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Добави в работно място</string>
     <string name="activity_not_found">Приложението не е инсталирано на телефона Ви.</string>
     <string name="add_screen">Добави бутон за екрани</string>
@@ -98,7 +99,7 @@
     <string name="default_folder_title_services">Услуги</string>
     <string name="default_folder_title_telcel">Telcel</string>
     <string name="default_folder_title_tools">Инструменти</string>
-    <string name="default_screen_preview_title">Докоснете за да зададете като начален екран</string>
+    <string name="default_screen_preview_title">Задай екран по подразбиране</string>
     <string name="default_shortcut_title_10086">10086.cn</string>
     <string name="delete">Изтрий</string>
     <string name="delete_screen">Изтрий бутон за екрани</string>
@@ -108,6 +109,7 @@
     <string name="download_action">Изтегляне</string>
     <string name="drag_multiple_item_name" />
     <string name="drag_single_item_name" />
+    <string name="dual_app">Клонирани приложения</string>
     <string name="edit_folder_title">Редактиране на името на папка</string>
     <string name="edit_mode_group">Група</string>
     <string name="edit_mode_group_error_full">Недостатъчно място</string>
@@ -351,5 +353,15 @@
     <string name="widget_gadget_player">Музика</string>
     <string name="widget_global_search">Търсене</string>
     <string name="widget_quick_function">Бързи функции</string>
-    <string name="dual_app">Клонирани приложения</string>
+    <string name="home_gesture_content_center">Център със съдържание</string>
+    <string name="home_gesture_global_search">Търсене</string>
+    <string name="home_gesture_no_action">Няма действие</string>
+    <string name="home_gesture_notification_bar">Известия</string>
+    <string name="home_pull_down_action">Плъзнете с пръст надолу по Началния екран</string>
+    <string name="home_slide_up_action">Плъзнете с пръст нагоре по Началния екран</string>
+    <string name="launcher_pull_down_title">Плъзнете с пръст нагоре по Началния екран</string>
+    <string name="launcher_slide_up_title">Плъзнете с пръст надолу по Началния екран</string>
+    <string name="menu_finish">Готово</string>
+    <string name="minus_one_screen">minus one screen</string>
+    <string name="widgets_preview_title">Добави джаджа</string>
 </resources>

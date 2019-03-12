@@ -56,6 +56,8 @@
     <string name="no_sound">Заглуши</string>
     <string name="operation_delete">Изтриване</string>
     <string name="operation_send">Изпрати</string>
+    <string name="permission_intro_microphone">За запис на звук, когато звуков източник е поставен до микрофон</string>
+    <string name="permission_intro_storage">За съхраняване на записи от екрана</string>
     <string name="quit_recording">Изход от Записване на екран</string>
     <string name="recording_failure">Не може да се запише, започни отначало</string>
     <string name="recording_max_size">Записът бе спрян и запазен, защото видеофайлът достигна своя максимален размер. Започнете записването, откъдето сте спрели, ако все още не сте готови.</string>
@@ -72,6 +74,10 @@
     <string name="show_hard_key_summary">Покажи запитване, преди натискане на бутоните Начало, Меню и Назад</string>
     <string name="show_screen_touch">Покажи жестове на докосване</string>
     <string name="show_screen_touch_summary">Визуализация на жестове с използването на бяла точка</string>
+    <string name="size_byte">B</string>
+    <string name="size_gigabyte">GB</string>
+    <string name="size_kilobyte">KB</string>
+    <string name="size_megabyte">MB</string>
     <string name="sound_source">Източник на звук</string>
     <string name="sound_source_summary">Системни звуци или микрофон</string>
     <string name="sound_source_summary_without_system_sounds">Използвайте микрофона или заглушете звука</string>

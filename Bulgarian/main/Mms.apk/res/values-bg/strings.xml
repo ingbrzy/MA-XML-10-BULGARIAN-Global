@@ -45,6 +45,10 @@
     <string name="audio_message_mx_offline">Не може да се изтегли аудио файла. Mi Message няма връзка или не може да се зареди.</string>
     <string name="audio_playing_seconds">%d\"</string>
     <string name="audio_sim_card_mismatching">Няма мрежа или е инсталирана невалидна SIM карта. Поставете валидна SIM карта и се свържете към мрежата.</string>
+    <string name="auto_identify_btn_text_only_smart_messaging">Включете Смарт съобщения</string>
+    <string name="auto_identify_btn_text_when_all_disabled">Автоматично идентифициране на ИД на изпращача</string>
+    <string name="auto_identify_btn_title">Това съобщение е изпратено от непознат номер.</string>
+    <string name="auto_identify_confirmation">Може да отнеме няколко минути за активиране на тази функция.</string>
     <string name="back_to_message_list">Списък със съобщения</string>
     <string name="batch_adding_progress_message">Добавяне...</string>
     <string name="batch_deleting_message_progress_message">Изтриване на избраните съобщения</string>
@@ -153,7 +157,7 @@
     <string name="delete">Изтрий</string>
     <string name="delete_bookmark">Премахни от любими</string>
     <string name="delete_message">Изтрий</string>
-    <string name="delete_phrase">Изтрий шаблон</string>
+    <string name="delete_phrase">Изтрийте отговор</string>
     <string name="delete_unlocked">Изтрий заключени съобщения</string>
     <string name="delete_wild_sims">Изтриване на номера</string>
     <string name="delete_wild_sims_confirm">Всички съобщения от тези номера ще бъдат изтрити от вашия телефон. Можете да ги възстановите на i.mi.com.</string>
@@ -186,7 +190,7 @@
     <string name="duration_zero">Продължителността трябва да е по-голяма от 0 секунди</string>
     <string name="earlier">По-рано</string>
     <string name="edit">Редактирай</string>
-    <string name="edit_phrase">Редактирай шаблон</string>
+    <string name="edit_phrase">Редактиране на бързи отговори</string>
     <string name="edit_slide_activity">Редактирай слайд</string>
     <string name="edit_slideshow_activity">Редактирай слайдшоу</string>
     <string name="enabled">Вкл</string>
@@ -220,6 +224,7 @@
     <string name="file_size">Размер:</string>
     <string name="file_title">Име:</string>
     <string name="file_width_height">Размер:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ново съобщение</string>
     <string name="forward_from">Препратено от:</string>
     <string name="forward_message_select_title">Съобщение за препращане</string>
@@ -290,6 +295,7 @@
     <string name="menu_pick_from_contact">Избери от контакти</string>
     <string name="menu_preferences">Настройки</string>
     <string name="menu_send_as_common">Изпрати като SMS</string>
+    <string name="menu_traffic_destination">Дестинация</string>
     <string name="menu_unlock">Премахни от любими</string>
     <string name="menu_view_contact">Преглед на контакт</string>
     <string name="message_class_label">Клас на съобщение:</string>
@@ -388,6 +394,7 @@
     <string name="mx_stranger_recommend_msg">Докоснете, за да блокирате Mi съобщения от непознати номера</string>
     <string name="mx_type_guide">Изпрати съобщение до други MIUI устройства без допълнителни разходи</string>
     <string name="need_download">Синхронизация…</string>
+    <string name="net_sms_subscribed">Абонирахте се успешно</string>
     <string name="net_sms_unsubscribe">Успешно отписване</string>
     <string name="network_error_description">Възникна грешка в мрежата. Изчакайте минута - две и опитайте отново.</string>
     <string name="networking_allow_continue">Позволи</string>
@@ -396,8 +403,8 @@
     <string name="networking_allow_title">Предупреждение</string>
     <string name="new_message">Създаване</string>
     <string name="new_message_arrived">Получено е ново съобщение</string>
-    <string name="new_phrase">Нов шаблон</string>
-    <string name="new_phrase_hint">Въведи нов шаблон</string>
+    <string name="new_phrase">Добавяне на отговор</string>
+    <string name="new_phrase_hint">Въведете нов отговор</string>
     <string name="no">Отмени</string>
     <string name="no_block_button_msg">Деблокирай</string>
     <string name="no_conversations">Няма разговори</string>
@@ -422,14 +429,15 @@
     <string name="notification_multiple">[%s]</string>
     <string name="notification_multiple_title">Нови съобщения</string>
     <string name="number_add_hint">Въведете номер за добавяне към частен контакт</string>
+    <string name="number_recognition_partner">Доставчици на услуги за разпознаване номера на подателя</string>
     <string name="open_audio_record_panel">Отворете панела за записване на аудио</string>
     <string name="open_edit_sms_panel">Отворете панела за редакция на съобщения</string>
     <string name="open_url_with_web">Да се отвори ли URL с Браузъра?</string>
     <string name="over_max_mms_size">MMS-ът е прекалено голям.</string>
     <string name="overwrite_edited_content">Редактираното съдържание ще бъде презаписано. Ще продължите ли?</string>
     <string name="packages_select_sim_cards_title">Изберете SIM карта</string>
-    <string name="phrase_confirm_delete_message">Шаблонът ще бъде премахнат.</string>
-    <string name="phrase_empty">Няма шаблони</string>
+    <string name="phrase_confirm_delete_message">Този отговор ще бъде изтрит.</string>
+    <string name="phrase_empty">Няма отговори</string>
     <string name="phrase_from">От %1s</string>
     <string name="phrase_list_title">Бързи отговори</string>
     <string name="pick_too_many_recipients">Прекалено много получатели</string>
@@ -661,6 +669,7 @@
     <string name="send_signature_confirm_dialog_title">Изпрати подпис</string>
     <string name="send_sms">Изпрати съобщение</string>
     <string name="send_to">До:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Изпратено в: %1s</string>
     <string name="sent_label">"Изпратени: "</string>
     <string name="service_message_not_found">Съобщението е изтекло или не е достъпно</string>
@@ -732,7 +741,7 @@
     <string name="storage_unavailable">Няма свободно място</string>
     <string name="subject_hint">Тема</string>
     <string name="subject_label">Тема:</string>
-    <string name="subscribe">Subscribe</string>
+    <string name="subscribe">Абонирайте се</string>
     <string name="summary_pref_cm_smart_sms">Шаблони на карти, сервизни номера за SMS и др.</string>
     <string name="switch_to_editor">Режим редактиране</string>
     <string name="switch_to_menu">Режим Меню</string>
@@ -759,6 +768,7 @@
     <string name="too_many_attachments">Има ограничение за %1$s прикачени файла. Ще бъде прикачен: %2$s.</string>
     <string name="too_many_recipients">Съобщението има твърде много получатели (%1$s). Максимум: %2$s получатели.</string>
     <string name="too_many_unsent_mms">Не може да изпратите съобщението веднага. Има твърде много неизпратени MMS.</string>
+    <string name="train_edit_destination">Добавяне</string>
     <string name="try_to_send">Опитайте се да изпратите</string>
     <string name="type_attachment">Прикачен файл</string>
     <string name="type_audio">Аудиозапис</string>

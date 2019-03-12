@@ -249,6 +249,11 @@
     <string name="tax_credit_mortgage">Ипотека</string>
     <string name="tax_credit_personal_income_tax">Данък върху доходите на физическите лица</string>
     <string name="tax_credit_pretax_income">Печалба преди данъци (CNY)</string>
+    <string name="tax_detail">Данъчна информация</string>
+    <string name="tax_detail_amount">Данъчна сума</string>
+    <string name="tax_detail_rate">Данъчна ставка</string>
+    <string name="tax_detail_take_off">Приспадане</string>
+    <string name="tax_detail_tax_payed">Платена сума</string>
     <string name="tax_edittext_hint" />
     <string name="tax_endowment">Пенсионен фонд</string>
     <string name="tax_fixed_salary_hint">Заплата преди облагане</string>
@@ -263,11 +268,13 @@
     <string name="tax_individual_income_tax_result">Крайна сума</string>
     <string name="tax_injury">Такса злополука</string>
     <string name="tax_insurance_and_fund">Застраховка</string>
+    <string name="tax_insurance_and_fund_detail">Информация за застраховки</string>
     <string name="tax_last_salary_hint">Въведете стойността на заплатата</string>
     <string name="tax_last_salary_number">Заплата</string>
     <string name="tax_location">Местоположение</string>
     <string name="tax_medical">Такса здравно осигуряване</string>
     <string name="tax_param_error">Въведете коректно застраховките</string>
+    <string name="tax_payment_period">Брой на плащанията</string>
     <string name="tax_rate_provider">Изчислено съобразно новите данъчни регламенти. Данните се предоставят от hexun.com и East Money.</string>
     <string name="tax_result_real_get">Преди облагане</string>
     <string name="tax_social_insurance">Застраховка</string>
@@ -587,8 +594,11 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sБ</string>
     <string name="xiaomi_connect_download_manager_fail">Няма връзка с Изтегляния. Проверете дали това приложение има всички необходими разрешения и настройки > Инсталирани приложения.</string>
     <string name="xiaomi_external_storage_unavailable">Паметта не е достъпна. Проверете вашата SD карта.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sКБ</string>
+    <string name="xiaomi_megabytes_unit">%1$sМБ</string>
     <string name="xiaomi_update_dialog_message">"Представяне на версия%1$s
 Размер:%2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Представяне на версия%1$s

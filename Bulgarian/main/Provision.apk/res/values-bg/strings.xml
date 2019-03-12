@@ -30,6 +30,9 @@
     <string name="other_settings_auto_update_summary">MIUI ще избере най-подходящото време за да инсталира актуализациите</string>
     <string name="other_settings_ad_enable">Персонализирана рекламна препоръка</string>
     <string name="other_settings_ad_enable_summary">Получаване на препоръчани персонализирани реклами въз основа на данните за поведението ви</string>
+    <string name="other_settings_enhanced_lockscreen">Сменящи се тапети</string>
+    <string name="other_settings_enhanced_lockscreen_summary">Получавайте интересни тематични картини на вашия Заключен екран всеки ден. Приемете Условията за ползване.</string>
+    <string name="other_settings_enhanced_lockscreen_summary_index">Условия за ползване</string>
     <string name="back">Назад</string>
     <string name="next">Напред</string>
     <string name="skip_underline">Пропусни тази стъпка</string>
@@ -52,6 +55,7 @@
     <string name="terms_of_use_lable_gms">, Услуги на Google магазин</string>
     <string name="terms_of_use_label_systemhelper">, Саморегистриращи се услуги</string>
     <string name="terms_of_use_lable_smart_cards">, Смарт карти</string>
+    <string name="terms_of_use_lable_vsimcore">, MConnService</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
 
 Вие трябва да се съгласите с политиката за поверителност на Емоджи, преди да използвате тази услуга."</string>
@@ -105,13 +109,14 @@
 1. Когато екранът е включен. 
 2. Когато слушате музика и екранът е изключен."</string>
     <string name="voice_assist_advice">Mi AI ви дава възможност да използвате гласови контроли, но така ще се увеличи консумацията на енергия (с около 1% на всеки час).</string>
-    <string name="ai_button_title">Относно бутон AI</string>
-    <string name="ai_button_desc">Използвайте този бутон за да включите Mi AI и завършите задачите на своя телефон чрез вашия глас</string>
+    <string name="ai_button_title">Бутон AI</string>
+    <string name="ai_button_desc">Получете бърз достъп до вашия умен Гласов асистент</string>
     <string name="ai_button_long_press">Натиснете и задръжте</string>
-    <string name="ai_button_long_press_desc">Кажете вашата команда и пуснете бутона</string>
+    <string name="ai_button_long_press_desc">Натиснете и задръжте бутон AI за да говорите с Mi AI</string>
     <string name="ai_button_single_press">Натисни</string>
-    <string name="ai_button_single_press_desc">Включи Mi AI</string>
+    <string name="ai_button_single_press_desc">Натиснете бутон AI за да видите прекия път към Mi AI</string>
     <string name="ai_button_double_press">Двойно натискане</string>
-    <string name="ai_button_double_press_desc">Настройка на функциите на Mi AI</string>
+    <string name="ai_button_double_press_desc">Двойно натискане на бутон AI за изпълнение на потребителски задачи</string>
     <string name="zone_picker_title">Избор на часова зона</string>
+    <string name="locale_picker_other_locale_title">Още региони</string>
 </resources>

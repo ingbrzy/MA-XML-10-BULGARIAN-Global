@@ -244,6 +244,10 @@
         <item quantity="other">%d дни от последната проверка</item>
         <item quantity="one">%d ден от последната проверка</item>
     </plurals>
+    <plurals name="hints_scan_danger_result_with_number">
+        <item quantity="other">%d подозрителни елементи, почистване сега</item>
+        <item quantity="one">%d подозрителен елемент, почистване сега</item>
+    </plurals>
     <plurals name="hints_handle_item_text_risk_number">
         <item quantity="other">%d рискове,</item>
         <item quantity="one">%d риск,</item>
@@ -375,10 +379,6 @@
     <plurals name="privacy_apps_disable_header_title">
         <item quantity="other">%d приложения са скрити</item>
         <item quantity="one">%d приложение е скрито</item>
-    </plurals>
-    <plurals name="first_aid_card_float_window_summary">
-        <item quantity="other">%d може да се показват некоректно. Ограничете плаващите известия.</item>
-        <item quantity="one">%d може да се показва некоректно. Ограничете плаващите известия.</item>
     </plurals>
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d проблеми изискват корекция</item>

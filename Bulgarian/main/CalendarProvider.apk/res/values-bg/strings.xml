@@ -23,4 +23,5 @@
     <string name="debug_tool_email_body">Прикачена е базата данни на календара ми, заедно с всички мои срещи и лична информация. Моля, използвайте я с необходимата грижа.</string>
     <string name="channel_name">Напомняния на календар</string>
     <string name="channel_description" />
+    <string name="cta_notice">Отворете Календар и разрешете връзката с интернет.</string>
 </resources>

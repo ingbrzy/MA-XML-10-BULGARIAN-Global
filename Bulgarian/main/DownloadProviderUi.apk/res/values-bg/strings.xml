@@ -151,6 +151,14 @@
     <string name="install">Инсталиране</string>
     <string name="installing">Инсталиране…</string>
     <string name="insufficient_space">Няма достатъчно място</string>
+    <string name="korean_all_choose_item_title">Съгласен съм с Условията за ползване.</string>
+    <string name="korean_permission_group_phone_describe">Достъп до IMEI на устройството и състояние на мрежата, събиране на данни за неуспешни изтегляния</string>
+    <string name="korean_permission_group_phone_title">Телефон</string>
+    <string name="korean_privacy_btn_accept">Приеми</string>
+    <string name="korean_privacy_btn_exit">Изход</string>
+    <string name="korean_privacy_item_title">Политика на поверителност(задължително)</string>
+    <string name="korean_privacy_tv_summary">Прочетете внимателно следващия текст и изберете дали ще го приемете.</string>
+    <string name="korean_user_agreement_item_title">Потребителско споразумение (задължително)</string>
     <string name="load_finish_hint">Това е всичко за сега.</string>
     <string name="loading">Един момент…</string>
     <string name="media_filter">Медия</string>
@@ -162,6 +170,7 @@
     <string name="menu_title_resume_all">Стартиране на всички</string>
     <string name="menu_title_settings">Настройки</string>
     <string name="net_error">Свържете се с мрежата и опитайте отново</string>
+    <string name="new_file_notification_title_image">Изображения</string>
     <string name="no_file_hint">Задачата за сваляне на този файл вече съществува</string>
     <string name="no_result_for_keyword">Не може да се намери \"%1$s\"</string>
     <string name="no_share_file">Файлът не може да се сподели</string>

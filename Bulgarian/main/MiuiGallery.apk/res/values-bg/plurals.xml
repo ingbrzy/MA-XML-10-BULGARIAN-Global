@@ -144,10 +144,6 @@
         <item quantity="other">Пропуснахме %1$d снимки, които не могат да бъдат разкрасени.</item>
         <item quantity="one">Пропуснахме 1 снимка, която не може да бъде разкрасена.</item>
     </plurals>
-    <plurals name="file_count_format">
-        <item quantity="other">Общо %1$d елемента</item>
-        <item quantity="one">Общо %1$d елемент</item>
-    </plurals>
     <plurals name="number_of_images_and_videos_to_upload">
         <item quantity="other">%1$d елемента изчакващи за архивиране</item>
         <item quantity="one">1 елемент изчакващ за архивиране</item>
@@ -271,5 +267,13 @@
     <plurals name="sync_total_count">
         <item quantity="other">%d елемента</item>
         <item quantity="one">%d елемент</item>
+    </plurals>
+    <plurals name="photo_count_format">
+        <item quantity="other">Общо %1$d елемента</item>
+        <item quantity="one">Общо %1$d елемент</item>
+    </plurals>
+    <plurals name="video_count_format">
+        <item quantity="other">%1$d файла</item>
+        <item quantity="one">%1$d файл</item>
     </plurals>
 </resources>

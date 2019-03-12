@@ -457,6 +457,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Ефект дълбочина</string>
     <string name="portrait_mode_use_hint">"Режим Портрет замъглява задния план, 
 и по този начин лицата на хората изпъкват ясно на преден план."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Изпробвайте режим Портрет.
  Направете обекта ясен и замъглете фона."</string>
     <string name="pref_camera_square_mode_title">Квадрат</string>
@@ -473,6 +474,7 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средно</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Режими</string>
     <string name="button_front_camera_title">Направете селфи</string>
     <string name="button_normal_video_title">Запишете видео</string>
@@ -586,6 +588,7 @@
     <string name="lighting_pattern_leaf">Листа</string>
     <string name="lighting_pattern_dot">Точки</string>
     <string name="lighting_pattern_shutter">Щори</string>
+    <string name="lighting_pattern_holi">Холи</string>
     <string name="view_privacy_policy">Виж Политиката на поверителност</string>
     <string name="fps960_toast">Заснемането на забавен кадър ще започне в последната четвърт на записа</string>
     <string name="portrait_bokeh_text">Режим Портрет</string>
@@ -606,27 +609,27 @@
     <string name="live_speed_extreme_fast">Много бърза</string>
     <string name="live_sticker_updating">Актуализиране…</string>
     <string name="live_sticker_network_error_hint">Грешка в мрежата</string>
-    <string name="ultra_wide_mode">Режим малък ъгъл</string>
+    <string name="ultra_wide_mode">Ултра широкоъгълен</string>
     <string name="beauty_body">Фигура</string>
     <string name="beauty_body_head">Портрет</string>
     <string name="beauty_body_body">Стройно тяло</string>
     <string name="beauty_body_shoulder">Рамене</string>
     <string name="beauty_body_legged">Крака</string>
     <string name="beauty_body_reset_tip">Успешно нулиране ефектите на фигурата</string>
-    <string name="ultra_wide_open_tip">Режим малък ъгъл</string>
-    <string name="ultra_wide_close_tip">Режим малък ъгъл е изключен</string>
-    <string name="pref_camera_zoom_mode_entry_ultra">Режим малък ъгъл</string>
-    <string name="ultra_wide_recommend_tip_hint">Опитайте Режим малък ъгъл</string>
+    <string name="ultra_wide_open_tip">Ултра широкоъгълен режим</string>
+    <string name="ultra_wide_close_tip">Ултра широкоъгълният режим е изключен</string>
+    <string name="pref_camera_zoom_mode_entry_ultra">УЛТРА ШИРОК</string>
+    <string name="ultra_wide_recommend_tip_hint">Опитайте Ултра широкоъгълен режим</string>
     <string name="camera_liveshot_on_tip">Динамични снимки</string>
     <string name="camera_liveshot_off_tip">Изключване на Динамични снимки</string>
     <string name="accessibility_camera_liveshot_on">Включване на Динамични снимки</string>
     <string name="accessibility_camera_liveshot_off">Изключване на Динамични снимки</string>
     <string name="beauty_tab_name_live_filter">Ефекти</string>
     <string name="beauty_tab_name_live_beauty">Разкрасяване</string>
-    <string name="accessibility_ultra_wide_on">Включване на Режим малък ъгъл</string>
-    <string name="accessibility_ultra_wide_off">Изключване на Режим малък ъгъл</string>
+    <string name="accessibility_ultra_wide_on">Включване на Ултра широкоъгълен режим</string>
+    <string name="accessibility_ultra_wide_off">Изключване на Ултра широкоъгълен режим</string>
     <string name="ai_scene_top_tip">Режим лунен ефект</string>
-    <string name="pref_camera_ultra_wide_ldc_title">Корекция на изкривяването на снимки от малък ъгъл</string>
+    <string name="pref_camera_ultra_wide_ldc_title">Корекция на изкривяването при ултра широките снимки</string>
     <string name="pref_camera_ultra_wide_ldc_description">Корекция на изкривените обекти автоматично</string>
     <string name="pref_camera_normal_wide_ldc_title">Корекция на лицево изкривяване при групови снимки</string>
     <string name="pref_camera_normal_wide_ldc_description">Корекция на лицево изкривяване на обекти близо до рамката на снимката</string>
@@ -644,9 +647,9 @@
     <string name="live_edit_exit_confirm">Спри</string>
     <string name="live_edit_share_title">Споделяне</string>
     <string name="beauty_reset_toast">Успешно премахване на ефектите за разкрасяване</string>
-    <string name="pref_camera_ultra_wide_mode_title">Режим малък ъгъл</string>
-    <string name="ultra_wide_mode_use_hint_text">"Използвайте този режим, за да обхванете повече обекти в снимките.
- Режим малък ъгъл помага, когато не можете да се премествате повече от снимания обект."</string>
+    <string name="pref_camera_ultra_wide_mode_title">Ултра широкоъгълен режим</string>
+    <string name="ultra_wide_mode_use_hint_text">"Използвайте този режим, за да обхванете повече обекти на снимките.
+Ултра широкоъгълният режим помага, когато не можете да поберете панорамата."</string>
     <string name="live_reverse_message">Ще изтриете ли снимания обект?</string>
     <string name="live_reverse_confirm">Изтриване</string>
     <string name="live_error_title">Некоректни данни за час и дата</string>
@@ -671,4 +674,10 @@
     <string name="accessibility_ultra_pixel_photography_32mp_on">32MP е включен</string>
     <string name="accessibility_ultra_pixel_photography_32mp_off">32MP е изключен</string>
     <string name="zoom_no_support_tip_48M">Зумирането не работи в режим 48MP</string>
+    <string name="hand_gesture_open_tip">Показване менюто на камерата, за да стартирате брояча</string>
+    <string name="hand_gesture_tip">Снимане чрез долната част</string>
+    <string name="autozoom_landscape_hint">Заснемане в режим Пейзаж за най-добър ефект</string>
+    <string name="super_night_toast">Дръжте телефона си стабилно, докато правите снимка</string>
+    <string name="capture_back_pressed_hint">Докоснете отново за изход</string>
+    <string name="video_ultra_clear_tip">4K UHD</string>
 </resources>

@@ -409,7 +409,7 @@
     <string name="ent_licence_code_hint">Въведете код за лиценз</string>
     <string name="ent_next_step">Следващо</string>
     <string name="ent_get_code_hint">Вие можете да получите корпоративен код и код за лиценз от вашия ръководител</string>
-    <string name="ent_agree_privacy_policy">Вие прочетохте и се съгласявате с Политика на поверителност</string>
+    <string name="ent_agree_privacy_policy">Прочетох и се съгласявам с Политиката на поверителност</string>
     <string name="ent_activation">Активирай</string>
     <string name="ent_activating">Активиране…</string>
     <string name="ent_installing">Инсталиране…</string>
@@ -452,4 +452,5 @@
     <string name="dialog_verify_fingerprint_retry">Не може да се потвърди пръстов отпечатък. Опитайте отново.</string>
     <string name="button_touch">Поставете пръста си върху сензора</string>
     <string name="button_input_password">Въведете парола</string>
+    <string name="master_clear_not_available">Фабричните настройки са ограничени от вашата компания.</string>
 </resources>

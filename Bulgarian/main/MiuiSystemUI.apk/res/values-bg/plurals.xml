@@ -8,6 +8,10 @@
         <item quantity="other">Последно използвани, налични приложения: %d. Плъзнете нагоре за да ги премахнете или плъзнете надолу, за да ги заключите.</item>
         <item quantity="one">Последно използвани, налично приложение: %d. Плъзнете нагоре за да го премахнете или плъзнете надолу, за да го заключите.</item>
     </plurals>
+    <plurals name="aod_dual_togother_city">
+        <item quantity="other">" %1$sчаса %2$s"</item>
+        <item quantity="one">" %1$sчас %2$s"</item>
+    </plurals>
     <plurals name="block_record_notification_more_text">
         <item quantity="other">Скрити известия от %1$s &amp; %2$d приложения.</item>
         <item quantity="one">Скрити известия от %1$s &amp; %2$d приложение.</item>

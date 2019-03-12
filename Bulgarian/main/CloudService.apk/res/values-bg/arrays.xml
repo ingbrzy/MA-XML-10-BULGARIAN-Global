@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="korea_permission_groups_descriptions">
+        <item>За определяне елементи на синхр</item>
+        <item>За синхр. на съобщения</item>
+        <item>За синхр. на контакти</item>
+        <item>За синхр. на събития от календара</item>
+        <item>За синхр. на елементи и услуги, използващи хранилището</item>
+    </string-array>
+    <string-array name="korea_permission_groups_names">
+        <item>Телефон</item>
+        <item>Съобщения</item>
+        <item>Контакти</item>
+        <item>Календар</item>
+        <item>Хранилище</item>
+    </string-array>
     <string-array name="micloud_entrance_titleArray">
         <item>Синхронизиране на данните на приложението</item>
         <item>Резервно копие на оформлението на начален екран</item>

@@ -26,6 +26,24 @@
         <item>%1$s</item>
         <item>%1$s</item>
     </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+    </string-array>
     <string-array name="battery_labels">
         <item>0%</item>
         <item>50%</item>
@@ -113,18 +131,6 @@
         <item>AVRCP 1.4 (По подразбиране)</item>
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
-    </string-array>
-    <string-array name="carrier_name">
-        <item>А1</item>
-        <item>Теленор</item>
-        <item>Виваком</item>
-        <item>Водафон</item>
-    </string-array>
-    <string-array name="carrier_simple_name">
-        <item>А1</item>
-        <item>CU</item>
-        <item>CT</item>
-        <item>SMC HK</item>
     </string-array>
     <string-array name="clock_options">
         <item>Показване на час, минути и секунди</item>
