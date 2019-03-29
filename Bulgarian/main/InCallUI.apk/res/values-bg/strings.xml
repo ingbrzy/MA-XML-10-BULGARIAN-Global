@@ -78,6 +78,7 @@
     <string name="respond_via_sms_custom_message">Потребителски SMS</string>
     <string name="manageConferenceLabel">Управление на конферентно обаждане</string>
     <string name="emergency_call_dialog_number_for_display">Номер за спешна помощ</string>
+    <string name="volte_call">VoLTE обаждане</string>
     <string name="notification_dialing">Набиране</string>
     <string name="notification_ongoing_call">Провеждащ се разговор</string>
     <string name="notification_on_hold">Задържане на обаждането</string>

@@ -176,6 +176,10 @@
         <item quantity="other">%1$d видеота чакат за синхронизация</item>
         <item quantity="one">1 видео за качване</item>
     </plurals>
+    <plurals name="photo_count_format">
+        <item quantity="other">Общо %1$d елемента</item>
+        <item quantity="one">Общо %1$d елемент</item>
+    </plurals>
     <plurals name="picker_all_image_need_download">
         <item quantity="other">Избраните снимки не са в устройството.Да се изтеглят ли чрез използване на мобилни данни?</item>
         <item quantity="one">Избраната снимка на е в устройството.Да се изтегли ли чрез използване на мобилни данни?</item>
@@ -267,10 +271,6 @@
     <plurals name="sync_total_count">
         <item quantity="other">%d елемента</item>
         <item quantity="one">%d елемент</item>
-    </plurals>
-    <plurals name="photo_count_format">
-        <item quantity="other">Общо %1$d елемента</item>
-        <item quantity="one">Общо %1$d елемент</item>
     </plurals>
     <plurals name="video_count_format">
         <item quantity="other">%1$d файла</item>

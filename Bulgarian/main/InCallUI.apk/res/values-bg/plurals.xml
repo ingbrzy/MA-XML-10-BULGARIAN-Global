@@ -18,14 +18,14 @@
     </plurals>
     <plurals name="duration_seconds">
         <item quantity="other">%d секунди</item>
-        <item quantity="one">1 секунда</item>
+        <item quantity="one">%d секунда</item>
     </plurals>
     <plurals name="duration_minutes">
         <item quantity="other">%d минути</item>
-        <item quantity="one">1 минута</item>
+        <item quantity="one">%d минута</item>
     </plurals>
     <plurals name="duration_hours">
         <item quantity="other">%d часа</item>
-        <item quantity="one">1 час</item>
+        <item quantity="one">%d час</item>
     </plurals>
 </resources>

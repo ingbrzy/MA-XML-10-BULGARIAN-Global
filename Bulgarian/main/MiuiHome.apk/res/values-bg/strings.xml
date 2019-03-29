@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Добави в работно място</string>
     <string name="activity_not_found">Приложението не е инсталирано на телефона Ви.</string>
     <string name="add_screen">Добави бутон за екрани</string>
@@ -114,6 +115,7 @@
     <string name="edit_mode_group_error_full">Недостатъчно място</string>
     <string name="edit_mode_group_error_in_folder">Затворете папката, преди групиране на иконите</string>
     <string name="edit_mode_group_error_one_folder">Не може да се дублира папката с избраните икони</string>
+    <string name="edit_mode_top_menu_finish">Готово</string>
     <string name="edit_mode_uninstall">Деинсталиране</string>
     <string name="editing_add_widget_tips">Редактиране на джаджи</string>
     <string name="editing_mode_enter_tip_text">Щипнете за редактиране на началния екран</string>
@@ -215,6 +217,7 @@
     <string name="menu_default_screen_preview">Задай екран по подразбиране</string>
     <string name="menu_edit">Редактирай джаджи</string>
     <string name="menu_exit_scene">Изход от Mi Space</string>
+    <string name="menu_finish">Готово</string>
     <string name="menu_item_add_item">Добави към началния екран</string>
     <string name="menu_launcher_setting">Настройка на MIUI Launcher</string>
     <string name="menu_lock">Оформление на Заключен екран</string>
@@ -352,15 +355,15 @@
     <string name="widget_gadget_player">Музика</string>
     <string name="widget_global_search">Търсене</string>
     <string name="widget_quick_function">Бързи функции</string>
+    <string name="widgets_preview_title">Добави джаджа</string>
     <string name="home_gesture_content_center">Център със съдържание</string>
     <string name="home_gesture_global_search">Търсене</string>
     <string name="home_gesture_no_action">Няма действие</string>
     <string name="home_gesture_notification_bar">Известия</string>
     <string name="home_pull_down_action">Плъзнете с пръст надолу по Началния екран</string>
     <string name="home_slide_up_action">Плъзнете с пръст нагоре по Началния екран</string>
-    <string name="launcher_pull_down_title">Плъзнете с пръст нагоре по Началния екран</string>
-    <string name="launcher_slide_up_title">Плъзнете с пръст надолу по Началния екран</string>
-    <string name="menu_finish">Готово</string>
-    <string name="minus_one_screen">minus one screen</string>
-    <string name="widgets_preview_title">Добави джаджа</string>
+    <string name="launcher_pull_down_title">Плъзнете с пръст надолу по Началния екран</string>
+    <string name="launcher_slide_up_title">Плъзнете с пръст нагоре по Началния екран</string>
+    <string name="launcher_sliding_up_gesture">Плъзнете нагоре по Началния екран, за да отворите търсене</string>
+    <string name="minus_one_screen">Трезор за прилож</string>
 </resources>

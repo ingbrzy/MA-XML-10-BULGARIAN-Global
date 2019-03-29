@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"\"Представяме версия %1$s
  Делта актуализация: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Хранилището не е на разположение, проверете картата памет.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMБ</string>
     <string name="xiaomi_connect_download_manager_fail">Не може да се стартира изтегляне. Уверете се, че мениджър изтегляния работи нормално.</string>
     <string name="app_name">Резервно копие</string>
     <string name="local_app_name">Резервно копие</string>
@@ -222,6 +225,7 @@
     <string name="restore_backup">Възстанови</string>
     <string name="enable_encrypt_description">Кодиране</string>
     <string name="disable_encrypt_description">Не кодирай</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Един момент…</string>
     <string name="state_mounting">Достъп до хранилището на рутера…</string>
     <string name="abort_backup_confirm">Резервното копие не е завършено! Да спре ли въпреки това?</string>
@@ -301,7 +305,9 @@
     <string name="trans_detail_app_data_useless_tip">Вие можете да възстановите това от самото приложение, не е необходимо прехвърляне.</string>
     <string name="trans_detail_item_app_data_too_large_tip">Изглежда, че този елемент е твърде голям за прехвърляне.</string>
     <string name="trans_detail_item_app_data_selected_tip">Изберете съответните приложения както е необходимо.</string>
-    <string name="trans_detail_list_footer">Съвет: Вие можете да изберете прехвърляне на приложенията поотделно. Въпреки това, ако изберете данните на съответното приложение, то ще бъде прехвърлено.</string>
+    <string name="trans_detail_list_footer">"1. Вие можете да изберете свои приложения, които да прехвърлите. 
+2. Ако изберете поне едно, то неговите данни също ще бъдат избрани. 
+3. WeChat и QQ данните може да не могат да се прехвърлят, поради грешки в съвместимостта. Вие можете да изпробвате вградените услуги за прехвърляне."</string>
     <string name="trans_detail_page_tip">Колкото повече елементи избирате, толкова по-дълго ще бъде прехвърлянето.</string>
     <string name="trans_detail_sys_data_list_title">Системни приложения</string>
     <string name="trans_detail_app_data_list_title">Данни на приложения</string>
@@ -364,7 +370,9 @@
     <string name="trans_generate_qrcode_failed">Не може да се генерира QR код. Затворете останалите приложения и опитайте отново.</string>
     <string name="trans_wait_trans_data">\"Свързано към старото устройство. В очакване за трансфер…\"</string>
     <string name="trans_select_data">Избор на елементи за изпращане</string>
-    <string name="trans_select_data_tips">\"Изберете елементи за трансфер Подобните файлове на новото устройство ще бъдат презаписани\"</string>
+    <string name="trans_select_data_tips">"Изберете елементи за прехвърляне.
+ Еднаквите елементи ще бъдат презаписани.
+(Размерът на прехвърляните елементи можете да виждате в реда за оставащо време.)"</string>
     <string name="trans_select_data_no_space">"Няма достатъчно място на новото устройство (%s са достъпни).
 Освободете място в хранилището за да прехвърлите само важните неща."</string>
     <string name="trans_select_data_too_large">"Избрали сте твърде много елементи за прехвърляне.
@@ -380,6 +388,22 @@
     <string name="trans_old_phone_low_space_msg">Mi Трансфер се нуждае от повече място за пакетите с прехвърляна информация. Изглежда, че на старото устройство няма достатъчно свободно място. Освободете необходимото в \"Оптимизация\" или прехвърляйте само важните неща.</string>
     <string name="button_clean_garbage">Освободи място</string>
     <string name="button_quit">Изход</string>
+    <string name="soft_ap_creating">Създава се гореща точка…</string>
+    <string name="wait_link">"Свържете Вашето старо устройство към тази гореща точка.
+ Не напускайте тази страница, докато връзката не се осъществи."</string>
+    <string name="old_way">Можете да се свържете чрез използване на QR код. Чукнете, за да генерирате кода.</string>
+    <string name="soft_ap_create_failed">Не може да се създаде гореща точка</string>
+    <string name="scan_soft_ap_label">Свържете се към старото устройство</string>
+    <string name="scan_soft_ap">Търсене на ново устройство…</string>
+    <string name="click_soft_ap_to_link">Изберете гореща точка за свързване</string>
+    <string name="waiting">Един момент…</string>
+    <string name="old_soft_name">Свързване чрез QR код</string>
+    <string name="confirm_exit_link_title">Прекъсване на прехвърляне</string>
+    <string name="confirm_exit_link_msg">Ако напуснете приложението, ще прекъснете изходящото прехвърляне. Ще се наложи да осъществите повторна стабилна връзка между двете устройства. Напускане на приложението сега?</string>
+    <string name="confirm_exit_link">Напускане</string>
+    <string name="confirm_exit_link_cancel">Не напускай</string>
+    <string name="connect_soft_ap_label">Свързване към ново устройство…</string>
+    <string name="recreate_soft_ap_tips">Чукнете бутона отдолу за повторен опит.</string>
     <string name="trans_install_guide_page_title">Инсталирайте Mi Трансфер на вашия стар телефон</string>
     <string name="trans_install_guide_scan_install_tip">"Сканирайте този QR код с вашия стар телефон 
  за да изтеглите и инсталирате Mi Трансфер."</string>
@@ -412,6 +436,8 @@
     <string name="trans_intro_title_old">На стар телефон:</string>
     <string name="trans_intro_desc_old">Докоснете \"Аз съм Изпращач\". Сканирайте QR кода на новия телефон, изчакайте докато Mi трансфер подготви файловете, които искате да изпратите и натиснете \"Изпрати\".</string>
     <string name="trans_intro_desc_old_market">Чукнете \"Старт\". Сканирайте QR кода с новия си телефон докато Mi Трансфер не определи кои файлове ще прехвърля и натиснете \"Изпрати\".</string>
+    <string name="trans_intro_question_10">%d. Не можете ли да откриете горещата точка на старото устройство?</string>
+    <string name="trans_intro_desc_10">Чукнете \"Връзка чрез QR код\" на новото устройство и сканирайте QR кода за да установите връзка.</string>
     <string name="trans_intro_question_3">%d. Какво трябва да направя, ако Mi Трансфер спре да работи на определена стъпка?</string>
     <string name="trans_intro_desc_3">Отменете прехвърлянето, излезте от Mi Трансфер и започнете отново. Дублиращите се файлове ще бъдат презаписани.</string>
     <string name="trans_intro_question_4">%d. Защо не мога да използвам Wi-Fi по време на прехвърлянето?</string>
@@ -434,6 +460,8 @@
     <string name="trans_intro_desc_multiuser">Mi трансфер няма достъп до елементите във Второ работно място. Преместете ги в Основно работно място и започнете прехвърляне.</string>
     <string name="trans_intro_title_multiapp">Клонирани приложения:</string>
     <string name="trans_intro_desc_multiapp">Mi трансфер не може да прехвърля данни от клонирани приложения поради конфликт между файловете.</string>
+    <string name="trans_intro_title_gms">Данни, създадени от Google приложения:</string>
+    <string name="trans_intro_desc_gms">Поради грешки в съвместимостта на данните, Mi Трансфер не поддържа прехвърляне на данни от Google приложения.</string>
     <string name="trans_intro_question_9_market">%d. Обратна връзка.</string>
     <string name="trans_intro_desc_9_method_1_title">1. Споделете вашия отзив, използвайки \"Обратна връзка\".</string>
     <string name="trans_intro_desc_9_method_1_dec">Отидете в Начален екран > Инструменти > Обратна връзка.</string>
@@ -465,7 +493,6 @@
     <string name="trans_success_dialog_button_survey">Изследвай</string>
     <string name="trans_success_dialog_survey_title">Ние ценим вашите отзиви</string>
     <string name="trans_success_survey_hint">Първо попълнете всички полета.</string>
-    <string name="trans_cancel_dialog_survey_title">Защо прекъснахте прехвърлянето?</string>
     <string name="trans_dialog_survey_finish">Изпрати</string>
     <string name="trans_failed_details_page_title">Неуспешни прехвърляния</string>
     <string name="close_twice_auth_tutor">Изключете Apple двустепенна оторизация</string>
@@ -535,6 +562,7 @@ https://appleid.apple.com/#!&amp;page=signin за затваряне"</string>
 вие трябва да направите архив в iCloud."</string>
     <string name="list_footer_tip_title">Съвети:</string>
     <string name="import_tip_summary">Поради проблеми със съвместимостта, вие можете да прехвърлите само частична информация от iOS устройството. Уверете се, че сте направили резервно копие в iCloud, преди да започнете прехвърлянето.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Импортирай</string>
     <string name="select_empty">Изберете елементи за импортиране</string>
     <string name="select_item_summary_wait">Изчаква се…</string>

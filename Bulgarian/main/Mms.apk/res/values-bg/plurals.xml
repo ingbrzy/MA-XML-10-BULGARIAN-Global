@@ -13,7 +13,7 @@
         <item quantity="one">%d съобщение не е синхронизирано</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
-        <item quantity="other">Да се изтрият ли &lt;g example="15" id="number">%1$s&lt;/g> разговори?</item>
+        <item quantity="other">Да се изтрият ли %1$s разговори?</item>
         <item quantity="one">Да се изтрие ли този разговор?</item>
     </plurals>
     <plurals name="custom_select_title_items_selected">
@@ -39,6 +39,10 @@
     <plurals name="message_count">
         <item quantity="other">%1$s съобщения</item>
         <item quantity="one">%1$s съобщение</item>
+    </plurals>
+    <plurals name="rcs_group_notification_invitation_receive">
+        <item quantity="other">You received %d group chat invitations</item>
+        <item quantity="one">You received %d group chat invitation</item>
     </plurals>
     <plurals name="recipient_count">
         <item quantity="other">%1$s хора</item>

@@ -29,6 +29,8 @@
     <string name="already_updated">Актуално</string>
     <string name="app_label">Съобщения</string>
     <string name="app_name">Device Management</string>
+    <string name="application_list_title">Mini app</string>
+    <string name="attach_group_chat">Group chat</string>
     <string name="attach_image">Изображения</string>
     <string name="attach_rcs_file">Файл</string>
     <string name="attach_rcs_location">Местоположение</string>
@@ -40,6 +42,7 @@
     <string name="attach_take_photo">Направи снимка</string>
     <string name="attach_transaction">Прехвърляне на пари</string>
     <string name="attach_video">Видеоклипове</string>
+    <string name="attach_video_call">Video call</string>
     <string name="audio_download_failed">изтеглянето на записа е неуспешно</string>
     <string name="audio_message_expired">Това гласово съобщение е с изтекъл срок.</string>
     <string name="audio_message_mx_offline">Не може да се изтегли аудио файла. Mi Message няма връзка или не може да се зареди.</string>
@@ -73,6 +76,7 @@
     <string name="button_unfold">Разгъни</string>
     <string name="call_sender">Изпращащ обаждане</string>
     <string name="can_not_send_by_rcs">Не може да използва China Mobile Messaging</string>
+    <string name="can_not_view_group_chat_stranger">"Can't view the details of strangers."</string>
     <string name="cannot_add_picture_and_video">Не можете да добавите снимка и видео едновременно.</string>
     <string name="cannot_add_slide_anymore">Не можете да добавяте повече снимки.</string>
     <string name="cannot_forward_drm_obj">DRM обекта включен в съобщението не може да бъде препратен.</string>
@@ -130,6 +134,7 @@
     <string name="confirm_restore_positive">Възстанови</string>
     <string name="confirm_restore_title">Възстанови съобщенията</string>
     <string name="confirm_send_mms">Един от вашите получатели съдържа имейл адрес. Съобщението ще бъде изпратено като MMS, възможно е да се начисли допълнителна такса от оператора ви.</string>
+    <string name="contact_not_exists">"This person isn't in your contacts."</string>
     <string name="context_menu_add_calendar">Покажи в Календар</string>
     <string name="context_menu_add_contact">Добави в контакти</string>
     <string name="context_menu_add_to_browser_favorite">Добави към отметките в браузъра</string>
@@ -224,6 +229,7 @@
     <string name="file_size">Размер:</string>
     <string name="file_title">Име:</string>
     <string name="file_width_height">Размер:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ново съобщение</string>
     <string name="forward_from">Препратено от:</string>
     <string name="forward_message_select_title">Съобщение за препращане</string>
@@ -245,6 +251,7 @@
     <string name="group_resend_message">Повт. изпращане (%d)</string>
     <string name="group_view_settings_disolved">Не можете да видите елементите. Този групов чат беше изтрит.</string>
     <string name="group_view_settings_not_memeber">Не можете да видите елементите. Вие не сте член на този групов чат.</string>
+    <string name="groupchat_list_title">Group chats</string>
     <string name="guild_add_attachments">Натиснете за добавяне на емотикони и друго съдържание</string>
     <string name="guild_add_recipients">Чукнете, за да добавите получатели от контакти</string>
     <string name="guild_msim_switcher">Чукнете за смяна на SIM картите</string>
@@ -287,6 +294,7 @@
     <string name="menu_edit">Редактирай</string>
     <string name="menu_forward">Препращане</string>
     <string name="menu_lock">Добави в любими</string>
+    <string name="menu_make_call">Call</string>
     <string name="menu_mark">Маркирай</string>
     <string name="menu_more">Още</string>
     <string name="menu_new_contact">Нов контакт</string>
@@ -297,6 +305,7 @@
     <string name="menu_traffic_destination">Дестинация</string>
     <string name="menu_unlock">Премахни от любими</string>
     <string name="menu_view_contact">Преглед на контакт</string>
+    <string name="menu_view_group_info">Group Info</string>
     <string name="message_class_label">Клас на съобщение:</string>
     <string name="message_contact">Контакт:</string>
     <string name="message_details_title">Детайли за съобщение</string>
@@ -408,6 +417,7 @@
     <string name="no_block_button_msg">Деблокирай</string>
     <string name="no_conversations">Няма разговори</string>
     <string name="no_delivery_report">Няма доклад за получаване</string>
+    <string name="no_network_description">"Couldn't connect to the network. Check your network settings and try again."</string>
     <string name="no_subject">(Няма тема)</string>
     <string name="no_subject_view">(Няма тема)</string>
     <string name="non_english_subject_limit">13 символа</string>
@@ -530,6 +540,9 @@
     <string name="prvate_contact">Частни контакти</string>
     <string name="quick_reply">Отговори</string>
     <string name="rate_limit_surpassed">ОК</string>
+    <string name="rcs_auto_resend_as_sms_remind_change">Change</string>
+    <string name="rcs_auto_resend_as_sms_remind_desp">When the network signal is weak, the text part of a message (up to 900 Bytes) can be converted and sent as SMS. You can change this in Settings.</string>
+    <string name="rcs_auto_resend_as_sms_remind_title">Convert to SMS</string>
     <string name="rcs_auto_resend_mms">Конвертирайте в MMS</string>
     <string name="rcs_auto_resend_sms">Конвертирайте в SMS</string>
     <string name="rcs_auto_resume">Автоматично възобнови прекъснатите качвания</string>
@@ -540,10 +553,12 @@
     <string name="rcs_forward_faild">Неуспешно препращане</string>
     <string name="rcs_forward_successful">Препращането е успешно</string>
     <string name="rcs_group_notification_invitation">Покана за групов чат</string>
+    <string name="rcs_hello_from_pc">Sign in to Fetion on your computer to transfer files.</string>
     <string name="rcs_message">China Mobile съобщения</string>
     <string name="rcs_message_disable">Не може да разглеждате това съобщение във втория интервал</string>
     <string name="rcs_msg">China Mobile Messaging</string>
     <string name="rcs_not_online">Не може да използва China Mobile Messaging. Проверете настройките на Вашата мрежа и опитайте отново.</string>
+    <string name="rcs_offline">Not signed in to UC. Wait a minute or two and try again.</string>
     <string name="rcs_offline_hint">China Mobile Messaging е офлайн. Не може да препрати това съобщение.</string>
     <string name="rcs_recipient_type_contact">Препратете до контакта</string>
     <string name="rcs_recipient_type_group">Препратете към групов чат</string>
@@ -668,6 +683,7 @@
     <string name="send_signature_confirm_dialog_title">Изпрати подпис</string>
     <string name="send_sms">Изпрати съобщение</string>
     <string name="send_to">До:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Изпратено в: %1s</string>
     <string name="sent_label">"Изпратени: "</string>
     <string name="service_message_not_found">Съобщението е изтекло или не е достъпно</string>

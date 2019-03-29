@@ -79,6 +79,8 @@
     <string name="HIPS_Perm_get_installed_apps_Desc">покажи информация за инсталираните приложения на това устройство</string>
     <string name="HIPS_Perm_service_foreground">Услуги на преден план</string>
     <string name="HIPS_Perm_service_foreground_Desc">услуги на преден план</string>
+    <string name="HIPS_Perm_UDevice_ID">Споделете части от устройство си с програмистите на игри, за да им помогнете да подобрят своите продукти за в бъдеще. Съгласни ли сте?</string>
+    <string name="HIPS_Perm_UDevice_ID_DESC">споделете части от устройство си с програмистите на игри, за да им помогнете да подобрят своите продукти за в бъдеще. Съгласни ли сте?</string>
     <string name="permission_group_title_charges_related">Такси</string>
     <string name="permission_group_title_privacy_related">Поверителност</string>
     <string name="permission_group_title_media_related">Мултимедия</string>

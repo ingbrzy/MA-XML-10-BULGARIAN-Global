@@ -30,6 +30,7 @@
     <string name="sdcard_not_present">SD картата липсва.</string>
     <string name="only_primary_user_allowed">Само собственикът на това устройство може да инсталира сертификати.</string>
     <string name="credential_usage_label">Използв. на идент. данни</string>
+    <string name="certificate_capabilities_warning">Забележка: Издателят на този сертификат може да провери целия входящ и изходящ трафик за устройството.</string>
     <string name="wifi_title">Потребителски профил за Wi-Fi</string>
     <string name="wifi_detail_title">Подробности за %s</string>
     <string name="wifi_detail_label">Подробности</string>

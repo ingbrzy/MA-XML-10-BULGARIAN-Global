@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">Преди %d дни</item>
+        <item quantity="one">Преди %d ден</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">Преди %d мин</item>
+        <item quantity="one">Преди %d мин</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">Преди %d год</item>
+        <item quantity="one">Преди %d год</item>
+    </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
         <item quantity="other">Изключително кратко забавяне (%1$d милисек)</item>
         <item quantity="one">Изключително кратко забавяне (%1$d милисек)</item>
@@ -20,10 +32,6 @@
         <item quantity="other">Много кратко забавяне (%1$d милисек)</item>
         <item quantity="one">Много кратко забавяне (%1$d милисек)</item>
     </plurals>
-    <plurals name="aod_dual_togother_city">
-        <item quantity="other">" %1$sчаса %2$s"</item>
-        <item quantity="one">" %1$sчас %2$s"</item>
-    </plurals>
     <plurals name="app_notification_listing_summary_others">
         <item quantity="other">Изключено за %d приложения</item>
         <item quantity="one">Изключено за %d приложение</item>
@@ -40,6 +48,30 @@
         <item quantity="other">%d приложения имат разрешение за автостартиране</item>
         <item quantity="one">%d приложение има разрешение за автостартиране</item>
     </plurals>
+    <plurals name="battery_manager_app_restricted">
+        <item quantity="other">%1$d приложения са ограничени</item>
+        <item quantity="one">%1$d приложение е ограничено</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_app_dialog_title">
+        <item quantity="other">Да се ограничат ли %1$d приложения?</item>
+        <item quantity="one">Да се ограничи ли приложението?</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_summary">
+        <item quantity="other">Тези приложения не могат да се изпълняват на заден план</item>
+        <item quantity="one">Това приложение не може да се изпълнява на заден план</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_handled_title">
+        <item quantity="other">Наскоро ограничихте %2$d приложения</item>
+        <item quantity="one">Наскоро ограничихте %1$s приложение</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_summary">
+        <item quantity="other">%2$d приложения използват батерията интензивно на заден план</item>
+        <item quantity="one">%1$s приложение използва батерията интензивно на заден план</item>
+    </plurals>
+    <plurals name="battery_tip_restrict_title">
+        <item quantity="other">Ограничаване на %1$d приложения</item>
+        <item quantity="one">Ограничаване на %1$d приложение</item>
+    </plurals>
     <plurals name="bg_network_allow_count">
         <item quantity="other">%d приложения могат да се свържат с мрежата</item>
         <item quantity="one">%d приложение може да се свърже с мрежата</item>
@@ -47,6 +79,10 @@
     <plurals name="bg_network_restrict_count">
         <item quantity="other">%d приложения не могат да се свържат с мрежата</item>
         <item quantity="one">%d приложение не може да се свърже с мрежата</item>
+    </plurals>
+    <plurals name="billing_cycle_days_left">
+        <item quantity="other">Остават %d дни</item>
+        <item quantity="one">Остава %d ден</item>
     </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d устройства</item>
@@ -164,10 +200,6 @@
         <item quantity="other">%d надеждни агента са активни</item>
         <item quantity="one">1 надежден агент е активен</item>
     </plurals>
-    <plurals name="master_clear_with_account_summary">
-        <item quantity="other">%1$d профила ще бъдат нулирани</item>
-        <item quantity="one">1 профил ще бъде нулиран</item>
-    </plurals>
     <plurals name="memory_usage_apps_summary">
         <item quantity="other">%1$d приложения са използвали памет през последния период от %2$s</item>
         <item quantity="one">1 приложение е използвало памет през последния период от %2$s</item>
@@ -184,9 +216,17 @@
         <item quantity="other">%1$d ограничения</item>
         <item quantity="one">1 ограничение</item>
     </plurals>
+    <plurals name="notification_group_summary">
+        <item quantity="other">%d категории</item>
+        <item quantity="one">%d категория</item>
+    </plurals>
     <plurals name="notification_summary">
         <item quantity="other">Изключено за %d приложения</item>
         <item quantity="one">Изключено за 1 приложение</item>
+    </plurals>
+    <plurals name="notifications_categories_off">
+        <item quantity="other">%d категории са изключени</item>
+        <item quantity="one">%d категория е изключена</item>
     </plurals>
     <plurals name="number_of_device_admins">
         <item quantity="other">%d активни приложения</item>
@@ -195,6 +235,14 @@
     <plurals name="permissions_summary">
         <item quantity="other">Предоставени са %d разрешения</item>
         <item quantity="one">Предоставено е %d разрешение</item>
+    </plurals>
+    <plurals name="power_high_usage_summary">
+        <item quantity="other">Поведението на %2$d приложения е необичайно</item>
+        <item quantity="one">Поведението на %1$s е необичайно</item>
+    </plurals>
+    <plurals name="power_high_usage_title">
+        <item quantity="other">Приложения, които изтощават батерията</item>
+        <item quantity="one">%1$s изтощава батерията</item>
     </plurals>
     <plurals name="print_jobs_summary">
         <item quantity="other">%1$d задания за отпечатване</item>
@@ -224,14 +272,6 @@
         <item quantity="other">Показване на %d скрити елемента</item>
         <item quantity="one">Показване на %d скрит елемент</item>
     </plurals>
-    <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d превключватели ще стоят в лента с известия</item>
-        <item quantity="one">%1$d превключвател ще стои в лента с известия</item>
-    </plurals>
-    <plurals name="show_audio_logcat_countdown">
-        <item quantity="other">%1$d стъпки остават, преди да получите регистър на аудио</item>
-        <item quantity="one">%1$d стъпка остава, преди да получите регистър на аудио</item>
-    </plurals>
     <plurals name="show_cit_countdown">
         <item quantity="other">Вече сте на %1$d стъпки от това, да влезете в инженерно меню CIT.</item>
         <item quantity="one">Вече сте на %1$d стъпка от това, да влезете в инженерно меню CIT.</item>
@@ -240,13 +280,9 @@
         <item quantity="other">Вече сте на %1$d стъпки от това, да бъдете програмист.</item>
         <item quantity="one">Вече сте на %1$d стъпка от това, да бъдете програмист.</item>
     </plurals>
-    <plurals name="show_gps_logcat_countdown">
-        <item quantity="other">%1$d стъпки остават, преди да получите регистър на GPS</item>
-        <item quantity="one">%1$d стъпка остава, преди да получите регистър на GPS</item>
-    </plurals>
-    <plurals name="show_modem_logcat_countdown">
-        <item quantity="other">%1$d стъпки остават, преди да получите регистър на модема</item>
-        <item quantity="one">%1$d стъпка остава, преди да получите регистър на модема</item>
+    <plurals name="show_number_hearingaid_count">
+        <item quantity="other">Запазени са %1$d слухови апарата</item>
+        <item quantity="one">Запазен е %1$d слухов апарат</item>
     </plurals>
     <plurals name="show_pho_countdown">
         <item quantity="other">Вече сте на %1$d стъпка от влизането в информацията за устройството.</item>
@@ -255,10 +291,6 @@
     <plurals name="show_rep_countdown">
         <item quantity="other">Вече сте на %1$d стъпки от докладването на грешка.</item>
         <item quantity="one">Вече сте на %1$d стъпка от докладването на грешка.</item>
-    </plurals>
-    <plurals name="show_reset_countdown">
-        <item quantity="other">Остават %1$d стъпки до възстановяване на фабр. настройки</item>
-        <item quantity="one">Остава %1$d стъпка до възстановяване на фабр. настройки</item>
     </plurals>
     <plurals name="special_access_summary">
         <item quantity="other">%d приложения могат да използват неограничено количество данни</item>
@@ -296,6 +328,14 @@
         <item quantity="other">%d приложения могат да показват известия</item>
         <item quantity="one">%d приложение може да показва известия</item>
     </plurals>
+    <plurals name="suggestions_collapsed_summary">
+        <item quantity="other">+ %1$d предложения</item>
+        <item quantity="one">+ 1 предложение</item>
+    </plurals>
+    <plurals name="suggestions_collapsed_title">
+        <item quantity="other">%1$d предложения</item>
+        <item quantity="one">1 предложение</item>
+    </plurals>
     <plurals name="uri_permissions_text">
         <item quantity="other">%d елемента</item>
         <item quantity="one">1 елемент</item>
@@ -312,13 +352,29 @@
         <item quantity="other">Споделена е %d мрежа</item>
         <item quantity="one">Споделена е %d мрежа</item>
     </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d свързани устройства</item>
+        <item quantity="one">%1$d свързано устройство</item>
+    </plurals>
     <plurals name="wrong_pin_code">
         <item quantity="other">Неправилен ПИН код за SIM картата – остават ви %d опита.</item>
         <item quantity="one">Неправилен ПИН код за SIM картата – остава ви %d опит, преди да трябва да се свържете с оператора си, за да отключите устройството.</item>
     </plurals>
+    <plurals name="zen_mode_duration_summary_time_hours">
+        <item quantity="other">%d часа (освен ако не е включен автоматично)</item>
+        <item quantity="one">1 час (освен ако не е включен автоматично)</item>
+    </plurals>
     <plurals name="zen_mode_settings_summary_on">
-        <item quantity="other">%d автоматични правила са включени</item>
-        <item quantity="one">1 автоматично правило е включено</item>
+        <item quantity="other">%d правила</item>
+        <item quantity="one">1 правило</item>
+    </plurals>
+    <plurals name="zen_mode_sound_summary_summary_off_info">
+        <item quantity="other">%d правила могат да се включат автоматично</item>
+        <item quantity="one">1 правило може да се включи автоматично</item>
+    </plurals>
+    <plurals name="zen_mode_starred_contacts_summary_additional_contacts">
+        <item quantity="other">Още %d</item>
+        <item quantity="one">Още 1</item>
     </plurals>
     <plurals name="zen_mode_summary_alarms_only_by_hour">
         <item quantity="other">Активиране на режима „Само будилници“ за %1$d часа до %2$s</item>

@@ -144,4 +144,8 @@
         <item quantity="other">Ясно</item>
         <item quantity="one">Ясно</item>
     </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d свързани устройства</item>
+        <item quantity="one">%1$d свързано устройство</item>
+    </plurals>
 </resources>

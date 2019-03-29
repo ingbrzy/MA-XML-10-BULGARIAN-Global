@@ -104,7 +104,7 @@
     <string name="item_title_currency">Валута</string>
     <string name="item_title_dress_size">Размери на дрехи</string>
     <string name="item_title_length_conversion">Разстояние</string>
-    <string name="item_title_mortgage">Ипотека</string>
+    <string name="item_title_mortgage">Home loan</string>
     <string name="item_title_scientific_calculator">Сметки</string>
     <string name="item_title_tax">Такси</string>
     <string name="item_title_temprature_conversion">Температура</string>
@@ -136,9 +136,7 @@
     <string name="loan_interest_rate">Лихва</string>
     <string name="loan_pay_years">Период на изплащане</string>
     <string name="loan_payback_way">Начин на изплащане</string>
-    <string name="loan_repayment_detail">Подробно погасяване</string>
     <string name="loan_repayment_detail_loading">Зареждане на подробното погасяване…</string>
-    <string name="loan_repayment_detail_unit">Подробно погасяване (CNY)</string>
     <string name="loan_unit">(×10K)</string>
     <string name="medical_treatment">Медицинско лечение</string>
     <string name="menuDesc">меню</string>
@@ -166,7 +164,7 @@
     <string name="mortgage_interest_rate">Търговска лихва</string>
     <string name="mortgage_item_repayment">Метод на изплащане</string>
     <string name="mortgage_item_start_time">Начална дата</string>
-    <string name="mortgage_item_years">Период на ипотеката</string>
+    <string name="mortgage_item_years">Loan tenure</string>
     <string name="mortgage_loans_amount">Ипотечна сума</string>
     <string name="mortgage_provident_found_interest_rate">Лихвен процент на фонда</string>
     <string name="mortgage_repayment_amount">Ипотечна вноска</string>
@@ -594,8 +592,11 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sБ</string>
     <string name="xiaomi_connect_download_manager_fail">Няма връзка с Изтегляния. Проверете дали това приложение има всички необходими разрешения и настройки > Инсталирани приложения.</string>
     <string name="xiaomi_external_storage_unavailable">Паметта не е достъпна. Проверете вашата SD карта.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sКБ</string>
+    <string name="xiaomi_megabytes_unit">%1$sМБ</string>
     <string name="xiaomi_update_dialog_message">"Представяне на версия%1$s
 Размер:%2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Представяне на версия%1$s

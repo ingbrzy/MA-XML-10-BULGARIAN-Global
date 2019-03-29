@@ -12,6 +12,16 @@
     <string name="abc_activitychooserview_choose_application">Изберете приложение</string>
     <string name="abc_capital_off">ИЗКЛ.</string>
     <string name="abc_capital_on">ВКЛ.</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">клавиша за интервал</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">Търсете…</string>
     <string name="abc_searchview_description_clear">Изчистване на заявката</string>
     <string name="abc_searchview_description_query">Заявка за търсене</string>
@@ -53,6 +63,7 @@
     <string name="accessibility_camera_button">Камера</string>
     <string name="accessibility_carrier_network_change_mode">Мрежата на оператора е променена.</string>
     <string name="accessibility_cast_name">Свързахте се с %s.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_casting_turned_off">Запис на екрана е изключено.</string>
     <string name="accessibility_cell_data">Мобилни данни</string>
     <string name="accessibility_cell_data_off">Мобилните данни са изключени</string>
@@ -111,6 +122,8 @@
     <string name="accessibility_left_lock_screen_magazine_button">Сменящи се тапети</string>
     <string name="accessibility_location_active">Услуга за местоположение е активна</string>
     <string name="accessibility_managed_profile">Служебнен профил</string>
+    <string name="accessibility_manual_zen_less_time">Намалено време.</string>
+    <string name="accessibility_manual_zen_more_time">Допълнително време.</string>
     <string name="accessibility_menu">Меню</string>
     <string name="accessibility_menu_item_split_disable">Приложението не поддържа режим Разделен екран.</string>
     <string name="accessibility_menu_item_split_enable">Приложението поддържа режим Разделен екран</string>
@@ -250,6 +263,8 @@
     <string name="accessibility_wifi_name">Свързахте се с %s.</string>
     <string name="accessibility_wifi_off">Wifi е изключен.</string>
     <string name="accessibility_wifi_one_bar">Едно деление за Wi-Fi обхват.</string>
+    <string name="accessibility_wifi_security_type_none">Отворена мрежа</string>
+    <string name="accessibility_wifi_security_type_secured">Защитена мрежа</string>
     <string name="accessibility_wifi_signal_full">Пълен обхват на Wi-Fi.</string>
     <string name="accessibility_wifi_three_bars">Три деления за Wi-Fi обхват.</string>
     <string name="accessibility_wifi_two_bars">Две деления за Wi-Fi обхват.</string>
@@ -278,6 +293,8 @@
     <string name="always_use_accessory">Използвай по подразбиране за този USB аксесоар</string>
     <string name="always_use_device">Използвай по подразбиране това USB устройство</string>
     <string name="animator_duration_scale_title">Скала на времетраене на анимацията</string>
+    <string name="aod_lock_screen_date">EE, d MMMM</string>
+    <string name="aod_lock_screen_date_12">EE, d MMMM</string>
     <string name="apn_settings_not_available">Настройките за промяна на името на точката за достъп не са налице за този потребител</string>
     <string name="app_info">Инф за приложение</string>
     <string name="app_label">Системен изглед</string>
@@ -294,6 +311,7 @@
     <string name="audio_effect_settings">Избор на тип слушалки</string>
     <string name="auto_disable_screenbuttons_disable_toast_text">Бутоните за управление са изключени, чукнете два пъти върху бутона, който искате да активирате.</string>
     <string name="auto_disable_screenbuttons_enable_toast_text">Бутоните за управление са включени</string>
+    <string name="available_via_carrier">Достъпно чрез %1$s</string>
     <string name="available_via_passpoint">Достъпно чрез %1$s</string>
     <string name="back">Назад</string>
     <string name="battery">Батерия</string>
@@ -328,11 +346,18 @@
     <string name="block_record_notification_title">Скрити известия</string>
     <string name="bluetooth_a2dp_profile_summary_connected">Свързан като аудио за медия</string>
     <string name="bluetooth_a2dp_profile_summary_use_for">Използва се за аудио медия</string>
-    <string name="bluetooth_connected">Свързан</string>
-    <string name="bluetooth_connected_no_a2dp">Свързан (без медия)</string>
-    <string name="bluetooth_connected_no_headset">Свързан (без телефон)</string>
-    <string name="bluetooth_connected_no_headset_no_a2dp">Свързан (без телефон или медия)</string>
-    <string name="bluetooth_connected_no_map">Свързан (без достъп до съобщения)</string>
+    <string name="bluetooth_active_battery_level">Активно, %1$s батерия</string>
+    <string name="bluetooth_active_no_battery_level">Активно</string>
+    <string name="bluetooth_battery_level">%1$s батерия</string>
+    <string name="bluetooth_connected">Свързан%1$s</string>
+    <string name="bluetooth_connected_battery_level">Свързан | Батерия %1$s%2$s</string>
+    <string name="bluetooth_connected_no_a2dp">Свързан (без медия) %1$s</string>
+    <string name="bluetooth_connected_no_a2dp_battery_level">Свързан(без медия) | Батерия %1$s%2$s</string>
+    <string name="bluetooth_connected_no_headset">Свързан (без телефон) %1$s</string>
+    <string name="bluetooth_connected_no_headset_battery_level">Свързан(без телефон) | Батерия %1$s%2$s</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp">Свързан (без телефон и медия) %1$s</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp_battery_level">Свързан(без телефон или медия) | Батерия %1$s%2$s</string>
+    <string name="bluetooth_connected_no_map">Свързан (без достъп до съобщения) %1$s</string>
     <string name="bluetooth_connecting">Свързва се…</string>
     <string name="bluetooth_disable_absolute_volume">Изключване на максималния звук</string>
     <string name="bluetooth_disable_absolute_volume_summary">Забраняване на Bluetooth максимална сила на звука, за да предотвратите проблеми с дистанционно управлявани устройства.</string>
@@ -340,10 +365,14 @@
     <string name="bluetooth_disconnecting">Прекъсване…</string>
     <string name="bluetooth_dun_profile_summary_connected">Свързан с DUN Сървър</string>
     <string name="bluetooth_dun_profile_summary_use_for">Използва се за dial-up достъп до мрежата</string>
-    <string name="bluetooth_enable_inband_ringing">Активирайте звъненето в обхвата</string>
-    <string name="bluetooth_enable_inband_ringing_summary">Разрешаване възпроизвеждането на мелодиите за звънене от телефона на Bluetooth слушалки</string>
     <string name="bluetooth_headset_profile_summary_connected">Свързан като аудио от телефон</string>
     <string name="bluetooth_headset_profile_summary_use_for">Използва се за аудио от телефон</string>
+    <string name="bluetooth_hearing_aid_profile_summary_connected">Свързан със слухов апарат</string>
+    <string name="bluetooth_hearing_aid_profile_summary_use_for">Използване за слухов апарат</string>
+    <string name="bluetooth_hearingaid_left_battery_level">Лява батерия - %1$s</string>
+    <string name="bluetooth_hearingaid_left_pairing_message">Закачен ляв слухов апарат…</string>
+    <string name="bluetooth_hearingaid_right_battery_level">Дясна батерия - %1$s</string>
+    <string name="bluetooth_hearingaid_right_pairing_message">Закачен десен слухов апарат…</string>
     <string name="bluetooth_hid_profile_summary_connected">Свързан към входно устройство</string>
     <string name="bluetooth_hid_profile_summary_use_for">Използва се за входящ</string>
     <string name="bluetooth_map_profile_summary_connected">Свързан с MAP</string>
@@ -364,18 +393,19 @@
     <string name="bluetooth_pan_profile_summary_use_for">Използва се за интернет достъп</string>
     <string name="bluetooth_pan_user_profile_summary_connected">Установена е връзка с устройство за достъп до интернет</string>
     <string name="bluetooth_profile_a2dp">Аудио медия</string>
-    <string name="bluetooth_profile_a2dp_high_quality">Използване на високо качество на звука: %1$s</string>
-    <string name="bluetooth_profile_a2dp_high_quality_unknown_codec">Използване на високо качество на звука</string>
-    <string name="bluetooth_profile_dun">Използвано за достъп до мрежата чрез dial-up</string>
-    <string name="bluetooth_profile_headset">Аудио от телефон</string>
+    <string name="bluetooth_profile_a2dp_high_quality">HD аудио: %1$s</string>
+    <string name="bluetooth_profile_a2dp_high_quality_unknown_codec">HD аудио</string>
+    <string name="bluetooth_profile_dun">Достъп до мрежата чрез dial-up</string>
+    <string name="bluetooth_profile_headset">Телефонни разговори</string>
+    <string name="bluetooth_profile_hearing_aid">Слухов апарат</string>
     <string name="bluetooth_profile_hid">Входно устройство</string>
-    <string name="bluetooth_profile_map">Използвано за достъп до съобщенията</string>
+    <string name="bluetooth_profile_map">Текстово съобщение</string>
     <string name="bluetooth_profile_opp">Прехвърляне на файлове</string>
     <string name="bluetooth_profile_pan">Интернет достъп</string>
     <string name="bluetooth_profile_pan_nap">Споделяне на интернет връзка</string>
     <string name="bluetooth_profile_pbap">Споделяне на контакти</string>
     <string name="bluetooth_profile_pbap_summary">Използва се за споделяне на контакти</string>
-    <string name="bluetooth_profile_sap">Използвано за достъп до SIM</string>
+    <string name="bluetooth_profile_sap">Достъп до SIM</string>
     <string name="bluetooth_sap_profile_summary_connected">Свързан със SAP</string>
     <string name="bluetooth_sap_profile_summary_use_for">Използва се за достъп до SIM картата</string>
     <string name="bluetooth_select_a2dp_codec_bits_per_sample">Дълбочина на кодиране при Bluetooth звук</string>
@@ -395,6 +425,15 @@
     <string name="bluetooth_select_a2dp_codec_type_dialog_title">Изберете Bluetooth кодек на звука</string>
     <string name="bluetooth_select_avrcp_version_dialog_title">Изберете Bluetooth AVRCP версия</string>
     <string name="bluetooth_select_avrcp_version_string">Bluetooth AVRCP версия</string>
+    <string name="bluetooth_show_devices_without_names">Покажи Bluetooth устройства без имена</string>
+    <string name="bluetooth_show_devices_without_names_summary">Ще се показват Bluetooth устройства без име (само MAC адрес)</string>
+    <string name="bluetooth_talkback_bluetooth">Bluetooth</string>
+    <string name="bluetooth_talkback_computer">Компютър</string>
+    <string name="bluetooth_talkback_headphone">Слушалки</string>
+    <string name="bluetooth_talkback_headset">Слушалки</string>
+    <string name="bluetooth_talkback_imaging">Изображение</string>
+    <string name="bluetooth_talkback_input_peripheral">Закачена Периферия</string>
+    <string name="bluetooth_talkback_phone">Телефон</string>
     <string name="bluetooth_tethered">Bluetooth тетъринг</string>
     <string name="branded_monitoring_description_app_personal">Вие сте свързан с %1$s,с което се наблюдава мрежовата активност, включително имейли, приложения и уебсайтове.</string>
     <string name="branded_vpn_footer">Мрежата може да се наблюдава</string>
@@ -446,6 +485,7 @@
     <string name="confirm_enable_oem_unlock_text">ПРЕДУПРЕЖДЕНИЕ: Функциите за защита на устройството няма да работят, докато настройките са включени.</string>
     <string name="confirm_enable_oem_unlock_title">Разрешавате ли отключване чрез OEM?</string>
     <string name="confirm_pin_msg">Въведете отново PIN код</string>
+    <string name="connected_via_carrier">Свързан чрез %1$s</string>
     <string name="connected_via_network_scorer">Автоматично свързан чрез %1$s</string>
     <string name="connected_via_network_scorer_default">Автоматично свързан чрез доставчик на мрежата</string>
     <string name="connected_via_passpoint">Свързан чрез %1$s</string>
@@ -486,7 +526,6 @@
     <string name="debug_drawing_category">Начертаване</string>
     <string name="debug_hw_drawing_category">Хардуерно ускорено предаване</string>
     <string name="debug_hw_overdraw">Отстраняване на грешки при превишено използване на видеокартата</string>
-    <string name="debug_hw_renderer">Задаване на CPU рендиране</string>
     <string name="debug_input_category">Въвеждане</string>
     <string name="debug_layout">Покажи границите на оформление</string>
     <string name="debug_layout_summary">Показване на границите на клипа, полетата и др.</string>
@@ -557,8 +596,6 @@
     <string name="empty_shade_text">Няма известия</string>
     <string name="enable_adb">Отстр. USB грешки</string>
     <string name="enable_adb_summary">Режим за Отстр. USB грешки е включен</string>
-    <string name="enable_atrace">Включете ATrace</string>
-    <string name="enable_atrace_summary">Уловете основните събития с помощта на ATrace</string>
     <string name="enable_bluetooth_confirmation_ok">Включи</string>
     <string name="enable_bluetooth_message">За да останете свързани към вашия таблет, включете първо Bluetooth.</string>
     <string name="enable_bluetooth_title">Да включа ли Bluetooth?</string>
@@ -566,12 +603,15 @@
     <string name="enable_extreme_power_save_mode">Свръх икономия на батерията</string>
     <string name="enable_freeform_support">Активиране на прозорци със свободна форма</string>
     <string name="enable_freeform_support_summary">Активиране на поддръжка на експериментални прозорци със свободна форма.</string>
+    <string name="enable_gpu_debug_layers">Включване на GPU дебъг слоеве</string>
+    <string name="enable_gpu_debug_layers_summary">Разреши зареждане на GPU дебъг слоевете за поправка на приложения</string>
     <string name="enable_opengl_traces_title">Вкл на OpenGL трасиране</string>
     <string name="enable_power_save_mode">Икономия на батерията</string>
     <string name="enable_terminal_summary">Активиране на приложение за контрол на изводите за локален достъп</string>
     <string name="enable_terminal_title">Локален извод</string>
     <string name="enabled_by_admin">Вкл от администратора</string>
     <string name="ethernet_label">Вътрешна мрежа</string>
+    <string name="expand_button_title">Разширени</string>
     <string name="expanded_confirm_disable_notification">Скрий</string>
     <string name="expanded_header_battery_charged">Заредена</string>
     <string name="expanded_header_battery_charging">Зареждане</string>
@@ -651,6 +691,7 @@
     <string name="face_unlock_rotated_right">Преместете главата си наляво</string>
     <string name="face_unlock_sc_status">Натиснете екрана за да стартирате камерата</string>
     <string name="face_unlock_stay_away_screen">Застанете между 25см до 45см от екрана</string>
+    <string name="face_unlock_success">Лицевите данни са потвърдени</string>
     <string name="face_unlock_success_stay_screen_msg">Останете на заключен екран след като лицевото разпознаване е потвърдено. Плъзнете за да отворите Начален екран.</string>
     <string name="face_unlock_success_stay_screen_title">Останете на заключен екран след отключване</string>
     <string name="failed_to_open_app_settings_toast">Неуспешно отваряне на настройките за %1$s</string>
@@ -739,6 +780,9 @@
     <string name="immediately_destroy_activities">Не’ запазвайте активността</string>
     <string name="immediately_destroy_activities_summary">Унищож. на всяка дейност при напускането от потребител</string>
     <string name="important_desc">Всички важни известия ще бъдат показвани в лентата с известия.</string>
+    <string name="ims_reg_status_not_registered">Не е регистриран</string>
+    <string name="ims_reg_status_registered">Регистриран</string>
+    <string name="ims_reg_title">IMS състояние на регистрация</string>
     <string name="inactive_app_active_summary">Активен. Чукнете за да промените.</string>
     <string name="inactive_app_inactive_summary">Неактивен. Чукнете за да промените.</string>
     <string name="inactive_apps_title">Неактивни приложения</string>
@@ -828,6 +872,10 @@
     <string name="keyguard_charging_back_to_lockscreen">Обратно към закл. екран</string>
     <string name="keyguard_charging_info_battery_used_time_text">На батерия</string>
     <string name="keyguard_charging_info_click_to_detail">Покажи подробности</string>
+    <string name="keyguard_charging_info_data_c">%s℃</string>
+    <string name="keyguard_charging_info_data_ma">%smA</string>
+    <string name="keyguard_charging_info_data_percent">%s%%</string>
+    <string name="keyguard_charging_info_data_v">%sV</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Изразходени</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Днес%s</string>
@@ -852,6 +900,7 @@
     <string name="keyguard_missing_sim_instructions_long">SIM картата липсва или не се разпознава. Поставете SIM карта.</string>
     <string name="keyguard_missing_sim_message">В телефона няма SIM карта.</string>
     <string name="keyguard_missing_sim_message_short">Няма SIM карта</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Мрежата е заключена</string>
     <string name="keyguard_password_enter_password_code">Въведете парола за отключване</string>
     <string name="keyguard_password_enter_pin_code">Въведете PIN код</string>
@@ -935,6 +984,7 @@
     <string name="left_keycode">Клавиатура за лява ръка</string>
     <string name="left_nav_bar_button_type">Опции за левия бутон</string>
     <string name="legacy_vpn_name">VPN</string>
+    <string name="list_delimeter">", "</string>
     <string name="local_backup_password_summary_change">Чукнете за да промените или премахнете паролата за архивите на Начален екран</string>
     <string name="local_backup_password_summary_none">Архивните на Начален екран’ са защитени</string>
     <string name="local_backup_password_title">Архиви на нач. екран с парола</string>
@@ -1000,6 +1050,7 @@
     <string name="miui_guide_dialog_message">Звуците и мелодиите от медийното съдържание ще продължат да се възпроизвеждат в Тих режим. Вие можете да промените това от меню Настройки.</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Отключено с Bluetooth устройство</string>
     <string name="miui_ringer_count_down">Позиции надолу</string>
+    <string name="miui_ringer_count_down_time">%s</string>
     <string name="miui_ringer_standard">Без звук</string>
     <string name="miui_ringer_standard_description">Заглуши звука за входящи повиквания и известия</string>
     <string name="miui_ringer_total">Режим Не безпокойте</string>
@@ -1027,12 +1078,14 @@
 
 За повече информация се свържете с вашия администратор."</string>
     <string name="monitoring_description_ca_cert_settings">Отвори доверени източници</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">Сертификатът за сигурност вече е инсталиран на това устройство. Мрежовият ви трафик може да бъде наблюдаван и променян.</string>
     <string name="monitoring_description_do_body">Вашият администратор може да наблюдава и променя настройките, корпоративния достъп, приложения и данни свързани с вашето устройство и информацията за местоположението му.</string>
     <string name="monitoring_description_do_body_vpn">Вие сте свързан с %1$s,с което се наблюдава мрежовата активност, включително имейли, приложения и уебсайтове.</string>
     <string name="monitoring_description_do_header_generic">Вашето устройство се управлява от %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s използва %2$s за да управлява вашето устройство.</string>
     <string name="monitoring_description_do_learn_more">Научете повече</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Вашата организация е инсталирала сертификат за достоверност във вашия служебен профил. Вашият защитен мрежов трафик може да бъде наблюдаван и променян.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Вашият служебен профил е свързан с %1$s, който може да наблюдава мрежовата активност, включително имейли, приложения и уебсайтове.</string>
     <string name="monitoring_description_management">"Вашето устройство се управлява от вашата организация. 
@@ -1064,6 +1117,7 @@
 
 Вие също така сте свързан и с VPN, при което се наблюдава мрежовата активност."</string>
     <string name="monitoring_description_vpn_settings">Отваряне на VPN Настройки</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA сертификати</string>
     <string name="monitoring_subtitle_network_logging">Логове на мрежата</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1078,6 +1132,7 @@
     <string name="nav_guide_message">Използвайте жестове за скриване и показване на софтуерните бутони.</string>
     <string name="nav_guide_ok">Настройки</string>
     <string name="nav_guide_title">Скрий софтуерните бутони</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Без да се задава</string>
     <string name="no_multi_window_app">Няма приложения, които да поддържат Разделен екран</string>
     <string name="no_notification_tips">Няма известия</string>
@@ -1145,6 +1200,7 @@
     <string name="notification_template_text">" има известие. Натиснете, за да го видите."</string>
     <string name="oem_unlock_enable">Отключване чрез оборудването на производителя</string>
     <string name="oem_unlock_enable_summary">Разрешаване на отключването на програмата за зареждане на системата (bootloader)</string>
+    <string name="okay">OK</string>
     <string name="oldman_airplane_mode_text">Самолетен режим</string>
     <string name="oldman_incall_text">Обратно към обаждането</string>
     <string name="open_camera_hint_text">Плъзнете наляво, за да стартирате Камера</string>
@@ -1185,6 +1241,10 @@
     <string name="please_slide_agian">Плъзнете отново</string>
     <string name="pointer_location">Позициониране на местоположението</string>
     <string name="pointer_location_summary">Показване на информация за докосванията на екрана</string>
+    <string name="power_discharge_by">Би трябвало да трае около %1$s (%2$s)</string>
+    <string name="power_discharge_by_enhanced">Би трябвало да трае около %1$s въз основа на вашата употреба (%2$s)</string>
+    <string name="power_discharge_by_only">Би трябвало да трае около %1$s</string>
+    <string name="power_discharge_by_only_enhanced">Би трябвало да трае около %1$s въз основа на вашата употреба</string>
     <string name="power_notification_controls_description">"С контролиране на известията за енергия вие може зададете нива за важност от 0 до 5 за известията на приложения 
 
 "<b>Ниво 5</b>" 
@@ -1213,10 +1273,25 @@
 - Показвай най-долу в лентата с известия 
 
 "<b>Ниво 0</b>" 
-- Блокирай всички известия от приложението"</string>
+- Блокирай всички известия от приложението "</string>
     <string name="power_remaining_charging_duration_only">%1$s остава до пълно зареждане</string>
     <string name="power_remaining_duration_only">Остава %1$sч</string>
+    <string name="power_remaining_duration_only_enhanced">Около %1$s остават, въз основа на вашата употреба</string>
     <string name="power_remaining_duration_only_short">%1$s е изминало</string>
+    <string name="power_remaining_duration_only_shutdown_imminent">Телефонът може да се изключи скоро</string>
+    <string name="power_remaining_duration_shutdown_imminent">Телефонът може да се изключи скоро (%1$s)</string>
+    <string name="power_remaining_less_than_duration">По-малко от %1$s остават (%2$s)</string>
+    <string name="power_remaining_less_than_duration_only">Остават по-малко от %1$s</string>
+    <string name="power_remaining_more_than_subtext">Повече от %1$s остават (%2$s)</string>
+    <string name="power_remaining_only_more_than_subtext">Повече от %1$s остават</string>
+    <string name="power_remaining_settings_home_page">%1$s - %2$s</string>
+    <string name="preference_summary_default_combination">%1$s / %2$s</string>
+    <string name="private_dns_mode_off">Изкл</string>
+    <string name="private_dns_mode_opportunistic">Автоматичен</string>
+    <string name="private_dns_mode_provider">Име на хоста на частния DNS доставчик</string>
+    <string name="private_dns_mode_provider_failure">Не може да се свърже</string>
+    <string name="private_dns_mode_provider_hostname_hint">Въведете името на хоста на DNS доставчик</string>
+    <string name="process_kernel_label">Android операционна система</string>
     <string name="profile_owned_footer">Профилът може да се наблюдава</string>
     <string name="prompt_danger">Опасно</string>
     <string name="prompt_detecting">Откриване</string>
@@ -1426,11 +1501,12 @@
     <string name="search_hint">Търсене на уеб сайтове, приложения, контакти, видеоклипове…</string>
     <string name="search_menu_title">Търсене</string>
     <string name="select_application">Изберете приложение</string>
-    <string name="select_logd_level">Изберете ниво на лога</string>
     <string name="select_logd_size_dialog_title">Изберете размер на буфериране за логове</string>
     <string name="select_logd_size_title">Размер на на буфериране на лога</string>
     <string name="select_logpersist_dialog_title">Изберете буферите за дневници, които да се съхраняват постоянно на устройството</string>
     <string name="select_logpersist_title">Съхранявайте данни за запаметяващите устройства постоянно на устройството</string>
+    <string name="select_private_dns_configuration_dialog_title">Избор на режим Частни DNS</string>
+    <string name="select_private_dns_configuration_title">Частни DNS</string>
     <string name="select_usb_configuration_dialog_title">Избор на USB конфигурация</string>
     <string name="select_usb_configuration_title">Избор на USB конфигурация</string>
     <string name="select_webview_provider_dialog_title">Настройка на внедряването на WebView</string>
@@ -1469,8 +1545,15 @@
     <string name="sos_status_bar_summary">Натиснете за изход</string>
     <string name="sos_status_bar_title">Спешни сигнали</string>
     <string name="speed_bump_explanation">Поставете спешните известия отдолу</string>
+    <string name="speed_label_fast">Бързо</string>
+    <string name="speed_label_medium">Средно</string>
+    <string name="speed_label_okay">OK</string>
+    <string name="speed_label_slow">Бавно</string>
+    <string name="speed_label_very_fast">Много бързо</string>
+    <string name="speed_label_very_slow">Много Бавно</string>
     <string name="ssl_ca_cert_warning">"Мрежата може
 да се наблюдава"</string>
+    <string name="standby_bucket_summary">Приложения в режим готовност област: %s</string>
     <string name="start_dreams">Скрийнсейвър</string>
     <string name="status_bar">Статус лента</string>
     <string name="status_bar_accessibility_dismiss_recents">Отхвърли последните приложения</string>
@@ -1496,6 +1579,7 @@ d MMM"</string>
     <string name="status_bar_no_notifications_title">Няма известия</string>
     <string name="status_bar_no_recent_apps">Вашите последни екрани ще се показват тук</string>
     <string name="status_bar_notification_app_settings_title">%sнастройки</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_notification_inspect_item_title">Настройка на известия</string>
     <string name="status_bar_ongoing_events_title">Текущо</string>
     <string name="status_bar_recent_guide_all">\"Плъзнете нагоре за затваряне Плъзнете надолу за заключване\"</string>
@@ -1523,6 +1607,7 @@ d MMM"</string>
     <string name="status_bar_style_settings">Настройка на статус лентата</string>
     <string name="status_bar_use_physical_keyboard">Реална клавиатура</string>
     <string name="status_bar_work">Служебнен профил</string>
+    <string name="status_unavailable">Не е налично</string>
     <string name="stream_accessibility">Достъпност</string>
     <string name="stream_alarm">Будилник</string>
     <string name="stream_bluetooth_sco">Bluetooth</string>
@@ -1587,18 +1672,19 @@ d MMM"</string>
     <string name="structure_face_unlock_not_same_person">Вие трябва сам да преминете през всички стъпки в настройките. Не показвайте на друг нищо. Опасно е.</string>
     <string name="structure_face_unlock_really_person">Изглежда, че сте заменили вашето лице с друго или с друг обект.</string>
     <string name="structure_face_unlock_tof_covered">Не може да се добави информация за лице. Отдалечете се малко от екрана.</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_bar_off">Изкл</string>
     <string name="switch_bar_on">Вкл</string>
     <string name="switch_system_user">Обратно в Основно работно място</string>
     <string name="system_ui_tuner">Настройки на Потребителския интерфейс</string>
     <string name="task_access_locked_app_msg">Съдържанието на прил. е скрито.</string>
-    <string name="telephony_monitor_switch">Наблюдение на телефона</string>
-    <string name="telephony_monitor_switch_summary">Следенето на телефона ще събира информация от регистрите при наличие на проблем с телефона или модема и тяхната функционалност и ще уведомява потребителя за създаването на файл с грешката.</string>
     <string name="tether_settings_title_all">Споделяне на връзката &amp; пренос. точка за достъп</string>
     <string name="tether_settings_title_bluetooth">Bluetooth споделяне на връзката</string>
     <string name="tether_settings_title_usb">USB споделяне на връзката</string>
     <string name="tether_settings_title_usb_bluetooth">Споделяне на връзка</string>
     <string name="tether_settings_title_wifi">Преносима точка за достъп</string>
+    <string name="tethering_hardware_offload">Хардуерно ускоряване на споделянето на мрежата</string>
+    <string name="tethering_hardware_offload_summary">Използвай хардуерно ускоряване на споделянето, ако е възможно</string>
     <string name="tethering_settings_not_available">Настройките за споделяне на връзката не са налице за този потребител</string>
     <string name="thermal_shutdown_dialog_message">"Телефонът ви беше прегрял и се изключи. Сега работи нормално.
 
@@ -1608,7 +1694,7 @@ d MMM"</string>
 \u0009• Или използвайки телефона при високи външни температури"</string>
     <string name="thermal_shutdown_message">Телефонът ви сега работи нормално</string>
     <string name="thermal_shutdown_title">Телефона се изключва поради прегряване</string>
-    <string name="time_zone_gmt">GMT</string>
+    <string name="time_unit_just_now">Току-що</string>
     <string name="title_convert_fbe">Основно криптиране на конвертиране на файловете</string>
     <string name="title_usb_accessory">USB aксесоари</string>
     <string name="torch_activity_hint">Включете фенерчето като задържите [icon] при заключен екран</string>
@@ -1639,8 +1725,8 @@ d MMM"</string>
     <string name="tts_play_example_title">Прослушване на примерен текст</string>
     <string name="tts_reset_speech_pitch_summary">Нулиране на стъпката при която текста се произнася по подразбиране.</string>
     <string name="tts_reset_speech_pitch_title">Нулиране на стъпката на речта</string>
-    <string name="tts_settings">Настройки на Текст за произнасяне</string>
-    <string name="tts_settings_title">Изходящ Текст за произнасяне</string>
+    <string name="tts_settings">Настройки на текст за произнасяне</string>
+    <string name="tts_settings_title">Изходящ текст за произнасяне</string>
     <string name="tts_status_checking">Проверка…</string>
     <string name="tts_status_not_supported">%1$s не се поддържа</string>
     <string name="tts_status_ok">%1$s се поддържа изцяло</string>
@@ -1732,6 +1818,8 @@ d MMM"</string>
     <string name="user_remove_user_message">Всички приложения и данни на този потребител ще бъдат изтрити.</string>
     <string name="user_remove_user_remove">Премахни</string>
     <string name="user_remove_user_title">Премахни потребител?</string>
+    <string name="v7_preference_off">ИЗКЛ.</string>
+    <string name="v7_preference_on">ВКЛ.</string>
     <string name="verify_apps_over_usb_summary">Проверка на приложения инсталирани чрез ADB/ADT за вредоносен код.</string>
     <string name="verify_apps_over_usb_title">Потвърждаване на приложение през usb</string>
     <string name="voice_assist_label">Отвори Гласов асистент</string>
@@ -1756,12 +1844,44 @@ d MMM"</string>
     <string name="wait_for_debugger">Изчакване на приложение за отстраняване на грешки</string>
     <string name="wait_for_debugger_summary">Приложение за отстраняване на грешки изчаква за да се свърже преди изпълнението</string>
     <string name="wallpaper_global_des_drop_down_notify_text">Пуснете за да видите детайли</string>
+    <string name="wapi_all_sel_mode">Избери</string>
+    <string name="wapi_auto_sel_cert">Автоматичен избор</string>
+    <string name="wapi_auto_sel_cert_fail">Не може да се избере сертификат автоматично. Моля изберете сертификата от списъка и след това опитайте да се свържете.</string>
+    <string name="wapi_cert_is_not_exist">Няма налични сертификати. Добавете своя първи сертификат.</string>
+    <string name="wapi_cert_is_not_selected">Моля първо изберете сертификат</string>
+    <string name="wapi_cert_manage_error">Не може да се зададе WAPI сертификат.</string>
+    <string name="wapi_cert_manage_summary">Добави или изтрий WAPI сертификата</string>
+    <string name="wapi_cert_manage_title">Управление на WAPI сертификат</string>
+    <string name="wapi_cert_roaming">Свързва се…</string>
+    <string name="wapi_cert_select">WAPI сертификат</string>
+    <string name="wapi_no">Не</string>
+    <string name="wapi_no_vaild_cert">Няма инсталиран сертификат. Инсталиране сега?</string>
+    <string name="wapi_password_empty">Въведете парола</string>
+    <string name="wapi_password_hex_format_add">Използвайте четно число от шеснадесетичната система</string>
+    <string name="wapi_password_hex_format_invalid">Неподдържан формат за парола</string>
+    <string name="wapi_password_hex_length_invalid">Броят на шестнадесетичните знаци трябва е четен</string>
+    <string name="wapi_password_is_empty">Полето за парола не може да е празно.</string>
+    <string name="wapi_password_is_not_hex_format">Невалидни шестнадесетични знаци</string>
+    <string name="wapi_password_length_invalid">Паролата трябва да е между 8 до 64 знака дължина</string>
+    <string name="wapi_password_length_is_max">Паролата трябва да е между 8 до 64 знака дължина</string>
+    <string name="wapi_password_length_is_min">Паролата трябва да е не по-малко от 8 знака</string>
+    <string name="wapi_password_length_is_min_to_max">Паролата трябва да съдържа между 8 и 64 знака</string>
+    <string name="wapi_psk_type">Тип парола</string>
+    <string name="wapi_psk_type_ascii">ASCII</string>
+    <string name="wapi_psk_type_hex">Шестнадесетично</string>
+    <string name="wapi_yes">Да</string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_publish_time">Актуализирано %1$s</string>
-    <string name="wifi_aggressive_handover">Принудително Wi‑Fi към мобилно предаване на данни</string>
-    <string name="wifi_aggressive_handover_summary">Когато е активирано, връзката ще превключи на мобилни данни по-активно, когато сигналът на Wi‑Fi е слаб.</string>
-    <string name="wifi_allow_scan_with_traffic">Винаги позволявай сканиране в роуминг за Wi‑Fi</string>
-    <string name="wifi_allow_scan_with_traffic_summary">Разрешаване/Забраняване на сканирането в роуминг чрез Wi‑Fi, базирано на реализирания трафик.</string>
+    <string name="wifi_ap_unable_to_handle_new_sta">Капацитетът на точката за достъп е пълен</string>
+    <string name="wifi_auto_sel_wapi_cert">Автоматичен избор</string>
+    <string name="wifi_cant_connect">Не може да се свърже</string>
+    <string name="wifi_cant_connect_to_ap">"Не може да се свърже с '%1$s'"</string>
+    <string name="wifi_check_password_try_again">Проверете паролата и опитайте отново</string>
+    <string name="wifi_connected_mac_randomization">Свързан с произволен MAC</string>
+    <string name="wifi_connected_mac_randomization_summary">Произволен MAC адрес, когато се свърже с Wi‑Fi мрежи</string>
     <string name="wifi_connected_no_internet">Свързан, няма интернет</string>
+    <string name="wifi_coverage_extend">Включване на Wi ‑Fi разширен обхват</string>
+    <string name="wifi_coverage_extend_summary">Разширен Wi‑Fi обхват чрез използване на Гореща точка</string>
     <string name="wifi_disabled_by_recommendation_provider">Не е свързан поради слаб сигнал на мрежата</string>
     <string name="wifi_disabled_generic">Изключено</string>
     <string name="wifi_disabled_network_failure">Не може да се конфигурира IP</string>
@@ -1770,29 +1890,58 @@ d MMM"</string>
     <string name="wifi_display_certification">Сертификат за безжичен дисплей</string>
     <string name="wifi_display_certification_summary">Показване на опции за Wi-Fi дисплей</string>
     <string name="wifi_fail_to_scan">Не може да се сканира за мрежи</string>
+    <string name="wifi_hand_sel_wapi_cert">WAPI сертификат</string>
     <string name="wifi_is_off">Wi-Fi е изкл</string>
+    <string name="wifi_metered_label">Измерено потр</string>
     <string name="wifi_no_internet">Не може да се свърже с интернет</string>
-    <string name="wifi_no_internet_no_reconnect">Не може да се свърже с интернет</string>
+    <string name="wifi_no_internet_no_reconnect">Не може да свърже с интернет</string>
     <string name="wifi_not_in_range">Извън обхват</string>
     <string name="wifi_remembered">Запазено</string>
     <string name="wifi_security_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_WAPI_PSK">WAPI PSK</string>
+    <string name="wifi_security_dpp">DPP</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_security_none">Няма</string>
+    <string name="wifi_security_owe">OWE</string>
     <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
+    <string name="wifi_security_sae">SAE</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
+    <string name="wifi_security_short_dpp">DPP</string>
     <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_owe">OWE</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
+    <string name="wifi_security_short_sae">SAE</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>
     <string name="wifi_security_short_wpa2">WPA2</string>
     <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_wapi_cert">WAPI-Cert</string>
+    <string name="wifi_security_wapi_psk">WAPI-PSK</string>
+    <string name="wifi_security_wapi_psk_ascii">ASCII</string>
+    <string name="wifi_security_wapi_psk_hexadecimal">Hexadecimal</string>
     <string name="wifi_security_wep">WEP</string>
     <string name="wifi_security_wpa">WPA PSK</string>
     <string name="wifi_security_wpa2">WPA2 PSK</string>
     <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
-    <string name="wifi_verbose_logging">Активирай Wi‑Fi Разширено регистриране</string>
+    <string name="wifi_ssid_is_empty">SSID полето не може да е празно</string>
+    <string name="wifi_ssid_length_is_max">SSID полето трябва да съдържа име не по-дълго от 32 знака</string>
+    <string name="wifi_status_mac_randomized">MAC адресът е произволен</string>
+    <string name="wifi_status_no_internet">Няма интернет връзка</string>
+    <string name="wifi_status_sign_in_required">Изисква се регистрация</string>
+    <string name="wifi_unmetered_label">Неизмерено потр</string>
+    <string name="wifi_verbose_logging">Включване на Wi‑Fi разширено регистр</string>
     <string name="wifi_verbose_logging_summary">Увеличете нивото на записване в Wi‑Fi, покажете RSSI за всеки SSID в списъка с Wi‑Fi мрежи.</string>
+    <string name="wifi_wapi_as_certificate">AS сертификат</string>
+    <string name="wifi_wapi_cert_mode_hand_text">Избери ръчно</string>
+    <string name="wifi_wapi_certification_dont_exist">Въведената от Вас парола е неправилна. Опитайте отново.</string>
+    <string name="wifi_wapi_fail_to_auth">"Не може да се завърши оторизацията на WAPI.
+ Уверете се, че сертификът Ви е валиден."</string>
+    <string name="wifi_wapi_fail_to_init">"Не може да се отвори WAPI certificates.
+Изглежда, че мястото за съхранение не е достъпно."</string>
+    <string name="wifi_wapi_psk_type">Тип парола</string>
+    <string name="wifi_wapi_user_certificate">Потребителски сертификат</string>
     <string name="window_animation_scale_title">Скала на анимацията на прозорец</string>
     <string name="wireless_change_to_ac_charging">Превключено на зареждане от кабел</string>
     <string name="wireless_charge_current">Зареждане</string>
@@ -1805,10 +1954,15 @@ d MMM"</string>
     <string name="zen_alarm_warning">Вие нямате да чуете следващата аларма %1$s</string>
     <string name="zen_alarm_warning_indef">Вие нямате да чуете следващата аларма %1$s докато не изключите това</string>
     <string name="zen_alarms_introduction">Вие няма да бъдете обезпокоени от звуци, вибрация и др. с изключение на будилника. Вие ще продължавате да чувате всичко, което сте избрали, включително музика, видеоклипове и игри.</string>
+    <string name="zen_interruption_level_priority">Само с приоритет</string>
     <string name="zen_mode_and_condition">%1$s %2$s</string>
+    <string name="zen_mode_duration_always_prompt_title">Питай ме всеки път</string>
+    <string name="zen_mode_duration_settings_title">Продължителност</string>
+    <string name="zen_mode_enable_dialog_turn_on">Включи</string>
+    <string name="zen_mode_settings_summary_off">Никога</string>
+    <string name="zen_mode_settings_turn_on_dialog_title">Включи Режим не безпокойте</string>
     <string name="zen_priority_customize_button">Персонализиране</string>
     <string name="zen_priority_introduction">Вие няма да бъдете обезпокоени от звуци, вибрация и др. с изключение на будилника, напомняне за събития и обаждания от абонати, на които сте разрешили това. Вие ще продължавате да чувате всичко, което сте избрали, включително музика, видеоклипове и игри.</string>
     <string name="zen_silence_introduction">Това ще блокира ВСИЧКИ звуци и вибрация, включително от будилника, музика, видеоклипове и игри.</string>
     <string name="zen_silence_introduction_voice">Това ще блокира ВСИЧКИ звуци и вибрация, включително от будилника, музика, видеоклипове и игри. Вие все пак ще можете да провеждате телефонни обаждания.</string>
-    <string name="notification_num_channels">%d категории известия</string>
 </resources>

@@ -457,6 +457,7 @@
     <string name="portrait_mode_depth_effect_success_hint">Ефект дълбочина</string>
     <string name="portrait_mode_use_hint">"Режим Портрет замъглява задния план, 
 и по този начин лицата на хората изпъкват ясно на преден план."</string>
+    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="portrait_mode_use_hint_for_bokeh">"Изпробвайте режим Портрет.
  Направете обекта ясен и замъглете фона."</string>
     <string name="pref_camera_square_mode_title">Квадрат</string>
@@ -473,6 +474,7 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средно</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Режими</string>
     <string name="button_front_camera_title">Направете селфи</string>
     <string name="button_normal_video_title">Запишете видео</string>
@@ -678,4 +680,8 @@
     <string name="super_night_toast">Дръжте телефона си стабилно, докато правите снимка</string>
     <string name="capture_back_pressed_hint">Докоснете отново за изход</string>
     <string name="video_ultra_clear_tip">4K UHD</string>
+    <string name="pref_camera_video_bokeh_on">Ефект Боке за видео</string>
+    <string name="pref_camera_video_bokeh_off">Ефект Боке за видео е изкл</string>
+    <string name="macro_mode">Макро</string>
+    <string name="macro_mode_tip">Разстоянието между обектива и обекта не трябва да надвишава 10см</string>
 </resources>

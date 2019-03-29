@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Добавка за сигурност на системата</string>
+    <string name="app_name">Плъгин за системни услуги</string>
     <string name="ok_button">OК</string>
     <string name="cancel_button">Отказ</string>
     <string name="privacy_declare_dialog_title">Обезпечаване</string>
@@ -13,6 +13,7 @@
     <string name="no_network_btn">Опитайте отново</string>
     <string name="main_toolbar_purchase">Попълване</string>
     <string name="usage_sorted_loading_text">Момент</string>
+    <string name="empty">" "</string>
     <string name="share">Споделяне</string>
     <string name="open_browser">Отваряне в браузъра</string>
     <string name="title_share_link">Споделяне на URL</string>
@@ -34,4 +35,5 @@
     <string name="gb_alipays_can_not_complete">Плащането не можа да завърши. Инсталирайте за да продължите.</string>
     <string name="xunyou_pay_webview">Xunyou услуги</string>
     <string name="gamebox_no_network_btn">Презареждане</string>
+    <string name="ad_downloading">Изтегляне…</string>
 </resources>

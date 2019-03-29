@@ -38,10 +38,17 @@
     <string name="vip_feedback_enable">Вкл ВИП Отзив</string>
     <string name="extreme_power_config_mode_category">Свръх икономия на батерия</string>
     <string name="extreme_power_config_mode_title">Свръх икономия на батерия</string>
+    <string name="notification_open_extreme_mode_text">Свръх икономия на батерията е включен</string>
+    <string name="extreme_power_settings_title">настройки</string>
+    <string name="notification_exit_extreme_mode_title">Свръх икономия на батерията е изключен</string>
+    <string name="notification_exit_extreme_mode_text">Батерията е заредена повече от %s</string>
+    <string name="extreme_power_config_mode_summary">Максималната икономия на батерията ограничава активността на заден план и спира синхронизирането.</string>
     <string name="extreme_power_config_mode_desc"><li> Свръх икономия на батерията ще спре всякаква активност на заден план след като се върнете в Начален екран. Няма да получавате известия или актуализации.</li>"
 "<li>Ако искате дадено приложение да продължи да работи във фонов режим, заключете го от меню Последни или го добавете в изключения. До 4 приложения могат да се изпълняват във фонов режим, когато е включен Свръх икономия на батерията. </li>"
 "<li>NFC услугите ще бъдат спрени. Вие можете да промените това в меню Настройки.</li>"
 "<li>За да сте сигурни че тези услуги ще работят нормално, режим Свръх икономия на батерията ще се изключи автоматично, когато батерията е заредена над 30%</li></string>
+    <string name="extreme_add_white_list_title">Изключения във фонов режим</string>
+    <string name="extreme_add_white_list_summary">Добави до 4 приложения</string>
     <string name="empty_title_apps_container_list">Няма приложения</string>
     <string name="hints_loading_text">Един момент…</string>
     <string name="config_mode_title">Настройки за работа на заден план</string>
@@ -100,13 +107,6 @@
     <string name="atrace_start">Запис на регистрите на Atrace…</string>
     <string name="atrace_saving">Запазване на регистрите на Atrace…</string>
     <string name="atrace_saved">Успешно запазено</string>
-    <string name="notification_open_extreme_mode_text">Свръх икономия на батерията е включен</string>
-    <string name="extreme_power_settings_title">настройки</string>
-    <string name="notification_exit_extreme_mode_title">Свръх икономия на батерията е изключен</string>
-    <string name="notification_exit_extreme_mode_text">Батерията е заредена повече от %s</string>
-    <string name="extreme_power_config_mode_summary">Максималната икономия на батерията ограничава активността на заден план и спира синхронизирането.</string>
-    <string name="extreme_add_white_list_title">Изключения във фонов режим</string>
-    <string name="extreme_add_white_list_summary">Добави до 4 приложения</string>
     <string name="adaptive_battery_title">Използване на Адаптивна батерия</string>
     <string name="adaptive_battery_summary">Ограничаване разход на батерията от рядко използвани приложения</string>
 </resources>

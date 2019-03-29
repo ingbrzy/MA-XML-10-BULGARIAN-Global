@@ -27,8 +27,8 @@
     <string name="stk_dialog_reject">Не</string>
     <string name="no_sim_card_inserted">Поставете SIM карта за да използвате инструменти за SIM.</string>
     <string name="stk_channel_name">Съобщения за мобилни услуги</string>
-    <string name="stk_intent_permission">Необходими са разрешения</string>
     <string name="sim_type_sim_name">Инструменти на SIM</string>
     <string name="sim_type_usim_name">Инструменти на USIM</string>
     <string name="sim_type_uim_name">Инструменти на UIM</string>
+    <string name="stk_intent_permission">Необходими са разрешения</string>
 </resources>
