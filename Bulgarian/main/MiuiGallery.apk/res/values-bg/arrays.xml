@@ -14,11 +14,6 @@
         <item>Нещата от живота</item>
         <item>Спомени от уикенда</item>
     </string-array>
-    <string-array name="menu_copy_or_move">
-        <item>Премести</item>
-        <item>Копирай</item>
-        <item>@string/cancel</item>
-    </string-array>
     <string-array name="month">
         <item>Януари</item>
         <item>Февруари</item>

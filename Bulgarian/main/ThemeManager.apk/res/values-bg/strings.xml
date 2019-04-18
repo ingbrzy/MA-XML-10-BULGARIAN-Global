@@ -38,9 +38,7 @@
     <string name="exo_download_notification_channel_name">Изтегляния</string>
     <string name="exo_download_removing">Изтеглянията се премахват</string>
     <string name="exo_item_list">%1$s – %2$s</string>
-    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Автоматично</string>
     <string name="exo_track_selection_none">Нищо</string>
     <string name="exo_track_selection_title_audio">Аудиозапис</string>
@@ -52,7 +50,6 @@
     <string name="exo_track_surround_7_point_1">7,1-канален обемен звук</string>
     <string name="exo_track_unknown">Неизвестно</string>
     <string name="search_menu_title">Търсене</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="accessibility_setting_hint">"Докоснете бутона в горния десен ъгъл, за да включите тази услуга.
 Themes ще открие кои приложения използвате и показва прозрачни тапети в избраните от вас приложения."</string>
     <string name="accessibiliy_description_content_account">Профил</string>
@@ -209,7 +206,6 @@ Themes ще открие кои приложения използвате и п�
     <string name="incompatible_dialog_ok">Разбрах</string>
     <string name="incompatible_dialog_title">Грешка при съвместимостта</string>
     <string name="is_setting_wallpaper_message">Тапетът се задава…</string>
-    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Будилници</string>
     <string name="item_resource_audio_optional_color_ring">Тон на обратно позвъняване</string>
     <string name="item_resource_audio_optional_notification_ring">Известия</string>
@@ -439,7 +435,6 @@ Themes ще открие кои приложения използвате и п�
     <string name="resource_pack_price_info">%1$s Нормално</string>
     <string name="resource_pack_warning">Внимание! Вече сте закупили %1$d елемента. Текущата им цена не е валидна за оставащите елементи, моля да ги купите поотделно.</string>
     <string name="resource_present">Подарък</string>
-    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Безплатни</string>
     <string name="resource_price_unit"> МiКредити</string>
     <string name="resource_purchase_common_error">Получи се грешка, опитайте отново</string>
@@ -451,10 +446,6 @@ Themes ще открие кои приложения използвате и п�
     <string name="resource_ranking">Популярни</string>
     <string name="resource_ranking_free">Безплатни</string>
     <string name="resource_ranking_purchase">Платени</string>
-    <string name="resource_ring_ranking_list_divider">-</string>
-    <string name="resource_ring_ranking_list_rank_1">1</string>
-    <string name="resource_ring_ranking_list_rank_2">2</string>
-    <string name="resource_ring_ranking_list_rank_3">3</string>
     <string name="resource_ringtone_default">Мелодии</string>
     <string name="resource_ringtone_playing_error">грешка при възпроизвеждане</string>
     <string name="resource_ringtone_volume_mute">Звъненето е заглушено</string>
@@ -593,7 +584,6 @@ Themes ще открие кои приложения използвате и п�
     <string name="theme_is_external_priority_storage">Запази на картата с памет</string>
     <string name="theme_is_external_priority_storage_summary">Приложението Теми ще се рестартира за да се приложат промените</string>
     <string name="theme_multiple_button_title_customize">Редактиране</string>
-    <string name="theme_name">%1$s</string>
     <string name="theme_no">Не</string>
     <string name="theme_purchased_list_empty">Нямате закупени теми.</string>
     <string name="theme_purchased_non_local">Онлайн</string>
