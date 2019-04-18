@@ -50,6 +50,8 @@
     <string name="self_device_second_space">Това е Второ работно място на телефона</string>
     <string name="other_device_main_space">Основно работно място</string>
     <string name="other_device_second_space">Второ работно място</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Възстановяване \"%s\"</string>
     <string name="size_unknown">Неизвестен размер</string>
     <string name="recovering">Възстановява се %s</string>
@@ -72,7 +74,7 @@
     <string name="desktop_waiting">Изчаква</string>
     <string name="desktop_downloading">Изтегля се</string>
     <string name="desktop_installing">Инсталира се</string>
-    <string name="desktop_wait_wifi">Изчаква</string>
+    <string name="desktop_wait_network">Изчаква се…</string>
     <string name="desktop_failed">Грешка</string>
     <string name="recover_from_micloud">Възстановяване от рез. копие в Mi Cloud</string>
     <string name="click_try_to_restore_again">Чукнете за нов опит</string>
@@ -114,7 +116,7 @@
     <string name="confirm_cancel_restore_positive">Продължи</string>
     <string name="confirm_cancel_restore_negative">Отказ</string>
     <string name="confirm_restore_title">Възстанови</string>
-    <string name="confirm_restore_summary">Home screen will restart and apps will be downloaded automatically when connected to WLAN</string>
+    <string name="confirm_restore_summary">Вашият Начален екран беше презареден. Архивираните приложения ще бъдат изтеглени автоматично отново.</string>
     <string name="confirm_restore">Възстанови</string>
     <string name="cloud_backup_have_data">Открито Резервно копие в Mi Cloud</string>
     <string name="cloud_backup_select_recover">Изберете резервно копие от Mi Cloud</string>
@@ -134,7 +136,9 @@
     <string name="provision_error_connect_msg">Тествайте мрежовата връзка и опитайте отново. Архивите не са достъпни, когато вашето устройство е офлайн.</string>
     <string name="provision_error_connect_title">Не може да се свърже</string>
     <string name="loading_user_backup">Зареждане на архив…</string>
+    <string name="loading_progress_num">(%s%%)</string>
     <string name="error_num_placeholder">--</string>
+    <string name="doing_calc_backup_data_size">Изчисляване на размер…</string>
     <string name="authentication_failed">Не може да се провери вашият Mi Профил.</string>
     <string name="no_account">Не сте вписан в Mi Профил.</string>
     <string name="no_backup">Няма резервно копие в Mi Облак.</string>
@@ -181,10 +185,33 @@
     <string name="msg_alert_cancel_restore">Възстановяване на елементи. Спиране сега?</string>
     <string name="btn_restore_cancel">Отказ</string>
     <string name="btn_restore_resume">Поднови</string>
+    <string name="btn_restore_wait">Изчакване за Wi-Fi връзка</string>
+    <string name="btn_restore_continue">Възстанови въпреки това</string>
+    <string name="msg_restore_with_metered_network_pattern">"&lt;font color='red'>&lt;b>%s&lt;/b>&lt;/font> от файловете ще бъдат изтеглени."</string>
+    <string name="msg_restore_with_metered_network_hint">Ако продължите с възстановяването на тези елементи, ще бъдат използвани мобилни данни за изтеглянето им.</string>
+    <string name="msg_restore_start_with_metered_network">"Вашият Начален екран ще бъде нулиран. Архивираните приложения ще се изтеглят отново автоматично. &lt;br />&lt;b>&lt;font color='red'>%s от файловете ще бъдат изтеглени.&lt;/font>&lt;/b>"</string>
+    <string name="title_restore_with_current_network">Използване на текущата връзка за изтегляне на файловете</string>
     <string name="title_alert_restore_error">Не може да се възстанови</string>
     <string name="msg_alert_restore_error">Не може да се възстановят елементите от Mi Облак. Опитайте отново.</string>
     <string name="btn_restore_retry">Оптитайте отново</string>
     <string name="btn_restore_abort">Отказ</string>
     <string name="backup_stopped_title">Архивирането беше на пауза</string>
     <string name="backup_stopped_msg">Текущото архивиране ще замени предишното такова. Чукнете за преглед.</string>
+    <string name="restore_network_unconnect">%s (Изчаква се връзка)</string>
+    <string name="restore_network_pause">%s (Чукнете за подновяване)</string>
+    <string name="restore_detail_title">Изберете обекти за възстановяване</string>
+    <string name="restore_detail_category_settings">Настройки</string>
+    <string name="restore_detail_category_apps">Начален екран и приложения</string>
+    <string name="restore_detail_more">Още</string>
+    <string name="restore_app_order_title">Приоритет на възстановените елементи</string>
+    <string name="restore_app_order_search_hint">Търсене на елементи за задаване на приоритет</string>
+    <string name="restore_app_order_search_prior">Приложения с висок приоритет</string>
+    <string name="restore_app_order_search_normal">Приложения с нормален приоритет</string>
+    <string name="restore_app_order_search_installed">Прилож на това устройство</string>
+    <string name="restore_app_order_retry">Оптитайте отново</string>
+    <string name="restore_app_order_retry_desc">Не мога да се свържа с мрежата. Проверете настройките си и опитайте отново.</string>
+    <string name="restore_app_order_loading">Един момент…</string>
+    <string name="restore_app_order_finish">Готово</string>
+    <string name="provision_restore_data">Възстановяване на елементи</string>
+    <string name="provision_background_restore_more_data">Възстановяване на повече елементи на заден план</string>
 </resources>

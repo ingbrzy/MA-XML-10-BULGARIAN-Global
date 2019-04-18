@@ -194,4 +194,18 @@
     <string name="talk_back_water_mark_string1">TalkBack е вкл</string>
     <string name="talk_back_water_mark_string2">Натиснете и задръжте бутоните за увеличаване и намаляване на звука за 3 секунди за да изключите</string>
     <string name="start_dump_log">Вижте регистрите на проблемни грешки</string>
+    <string name="popup_camera_tip">Внимание</string>
+    <string name="popup_camera_sure">Разбрах</string>
+    <string name="popup_camera_sure_wait">Разбрах (%dи)</string>
+    <string name="popup_camera_front_failed">Не може да се отвори селфи камерата. Опитайте отново.</string>
+    <string name="popup_camera_front_falied_times">Неуспешен опит за отваряне на селфи камерата многократно. За дръжте устройството близо до Mi Home (семейство), за да се диагностицира проблема.</string>
+    <string name="takeback_camera_front_failed">Не може да се затвори селфи камерата. Опитайте отново.</string>
+    <string name="stop_operate_camera_frequently">Изглежда се опитвате да сменяте двете камери доста често.</string>
+    <string name="popup_camera_front_when_use">Селфи камерата изпълнява друга функция. Да се отвори ли?</string>
+    <string name="popup_camera_popup_falied_times_calibrate">Неуспешен опит за отваряне на селфи камерата многократно. Опитайте да калибрирате камерата.</string>
+    <string name="popup_camera_takeback_falied_times_calibrate">Неуспешен опит за заттваряне на селфи камерата многократно. Опитайте да калибрирате камерата.</string>
+    <string name="popup_camera_calibrate_now">Калибриране</string>
+    <string name="popup_camera_calibrate_success">Калибрирането е успешно. Може да отворите камерата сега.</string>
+    <string name="popup_camera_calibrate_failed">Неуспешен опит за калибриране. За дръжте устройството близо до Mi Home (семейство), за да се диагностицира проблема.</string>
+    <string name="popup_camera_using_camera_background">%sизползва селфи камерата</string>
 </resources>

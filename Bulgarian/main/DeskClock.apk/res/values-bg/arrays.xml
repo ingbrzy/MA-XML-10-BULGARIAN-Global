@@ -340,6 +340,11 @@
         <item>Парамарибо</item>
         <item>Кито</item>
     </string-array>
+    <string-array name="clock_bg_setting_entries">
+        <item>Бяло</item>
+        <item>Чернo</item>
+        <item>Автоматично</item>
+    </string-array>
     <string-array name="countries_names_miui">
         <item>"Кот д'Ивоар"</item>
         <item>Гана</item>

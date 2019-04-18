@@ -32,6 +32,10 @@
         <item quantity="other">Много кратко забавяне (%1$d милисек)</item>
         <item quantity="one">Много кратко забавяне (%1$d милисек)</item>
     </plurals>
+    <plurals name="aod_dual_togother_city">
+        <item quantity="other">" %1$sчаса %2$s"</item>
+        <item quantity="one">" %1$sчас %2$s"</item>
+    </plurals>
     <plurals name="app_notification_listing_summary_others">
         <item quantity="other">Изключено за %d приложения</item>
         <item quantity="one">Изключено за %d приложение</item>

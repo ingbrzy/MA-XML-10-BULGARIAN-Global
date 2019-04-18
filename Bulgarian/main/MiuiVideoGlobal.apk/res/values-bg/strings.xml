@@ -58,6 +58,7 @@
     <string name="cast_forward">Превъртане напред</string>
     <string name="cast_forward_10">Превъртане напред с десет секунди</string>
     <string name="cast_forward_30">Превъртане напред с тридесет секунди</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_mute">Спиране</string>
     <string name="cast_notification_connected_message">Установена е връзка с/ъс „%1$s“</string>
     <string name="cast_notification_connecting_message">Установява се връзка с/ъс „%1$s“</string>
@@ -464,6 +465,7 @@
     <string name="slid_fail_message">Запазването неуспешно</string>
     <string name="slide_save_message">Генериране на видео…</string>
     <string name="sns_sign_in">Други начини за регистрация</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sure_to_logout">Отписване сега?</string>
     <string name="switch_ratio_pause">Скоростта на възпроизвеждане е нестабилна. Превключване обратнот към скорост по подразбиране…</string>
     <string name="symbol_rmb">¥</string>
@@ -495,4 +497,26 @@
     <string name="v_ok">OК</string>
     <string name="v_pw_need_update_app">Актуализирайте Mi Видео, за да използвате всички негови функции</string>
     <string name="v_save">Запазване</string>
+    <string name="Subscribe">Абониране</string>
+    <string name="diy_channels_tips">Можете да персонализирате списъка на каналите си сега.</string>
+    <string name="empty_channels">Управление на канали</string>
+    <string name="empty_subscribe">Все още не сте се абонирали за нищо.</string>
+    <string name="hidden_channels">Следните канали няма да бъдат показвани на началната страница.</string>
+    <string name="init_channels">Възстанови по подразбиране</string>
+    <string name="isSubscribed">Абониран</string>
+    <string name="my_favorite_channels">Моите канали</string>
+    <string name="ovp_navigation_subscribe">Абонирайте се</string>
+    <string name="ovp_player_plugin_dlg_neg_btn">Затваряне</string>
+    <string name="ovp_player_plugin_dlg_no_content">Няма инсталирани плъгини за видеоплейър.</string>
+    <string name="ovp_player_plugin_dlg_title">Плъгини за видеоплеър</string>
+    <string name="permission_phone">Телефон</string>
+    <string name="permission_phone_desc">За достъп до състоянието на устройството и паузиране на възпроизвеждането по време на обаждания</string>
+    <string name="permission_storage">Съхранение</string>
+    <string name="permission_storage_desc">За достъп до елементи, записване на файлове, показване и възпроизвеждане на местни видео клипове</string>
+    <string name="pw_channels">Канали</string>
+    <string name="recommend_channels">Препоръчани канали</string>
+    <string name="restore_channel_list">Възстанови по подразбиране сега?</string>
+    <string name="title_publisher">Създатели</string>
+    <string name="title_subscribe">Абонаменти</string>
+    <string name="ugc_confirm_unsubscribe">Отпишете се сега?</string>
 </resources>

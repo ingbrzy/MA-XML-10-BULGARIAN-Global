@@ -78,6 +78,10 @@
         <item quantity="other">Изтеглят се &lt;font color==\"red\">%d песни&lt;/font></item>
         <item quantity="one">Изтегля се &lt;font color==\"red\">%d песен&lt;/font></item>
     </plurals>
+    <plurals name="free_downloads_num_hint">
+        <item quantity="other">Останали са безплатни изтегляния %d песни</item>
+        <item quantity="one">Останали са безплатни изтегляния %d песен</item>
+    </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">Избрани: %d елементи</item>
         <item quantity="one">Избран %d елемент</item>
@@ -117,5 +121,9 @@
     <plurals name="video_play_count">
         <item quantity="other">%1$s изгледи</item>
         <item quantity="one">%1$s изглед</item>
+    </plurals>
+    <plurals name="vip_remain_days_hint">
+        <item quantity="other">Остават %d дни</item>
+        <item quantity="one">Остава %d ден</item>
     </plurals>
 </resources>

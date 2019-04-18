@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
     <string name="search_menu_title">Търсене</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="add_alarm">Добавяне</string>
     <string name="add_clock">Добави часова зона</string>
     <string name="add_timezone_title">Добави часова зона</string>
@@ -63,6 +64,9 @@
     <string name="channel_name_timer">Таймер</string>
     <string name="check_theme_app_install">Уверете се, че приложението Теми е инсталирано на вашето устройство.</string>
     <string name="check_voice_assist_app_version">Актуализирайте Mi AI до последната версия.</string>
+    <string name="clock_bg_button_setting_summary_common">Изберете фонов цвят за приложението Часовник</string>
+    <string name="clock_bg_button_setting_summary_follow_sys">Всеки път, когато превключите на тъмен режим, за черният цвят ще бъде фонов</string>
+    <string name="clock_bg_button_setting_title">Цвят на фона</string>
     <string name="close_alarm">Изключване</string>
     <string name="common_settings">Общи настройки</string>
     <string name="confirm_abort">Отмяна на промените</string>
@@ -83,6 +87,11 @@
     <string name="dialog_message_for_contact_permission">За да са налични аларми за рождени дни, Часовникът трябва да има достъп до контактите Ви. Съгласен ли сте?</string>
     <string name="dialog_message_negative">Не съм съгласен</string>
     <string name="dialog_message_not_remind">Не показвай отново</string>
+    <string name="dialog_privacy_content">За да получавате и синхронизирате данни за местни официални празници и за да ви предоставим персонални услуги, Часовник трябва да се свърже с интернет. Преди да използвате Часовник, трябва да прочетете и да се съгласите с нашите %1$s и и%2$s. Съгласни ли сте?</string>
+    <string name="dialog_privacy_content_global">За да ви предоставим персонални услуги, Часовник трябва да се свърже с интернет. Преди да използвате Часовник, трябва да прочетете и да се съгласите с нашите %1$s и и%2$s. Съгласни ли сте?</string>
+    <string name="dialog_privacy_content_news">За да ви предоставим персонални услуги и да включим сутрешни новини към алармите ви, Часовник трябва да се свърже с интернет. Преди да използвате Часовник, трябва да прочетете и да се съгласите с нашите %1$s и и%2$s. Съгласни ли сте?</string>
+    <string name="dialog_privacy_content_timer">За да изтеглите аудио файлове за таймерите на околния шум и за да ви предоставим персонални услуги, Часовник трябва да се свърже с интернет. Преди да използвате Часовник, трябва да прочетете и да се съгласите с нашите %1$s и и%2$s. Съгласни ли сте?</string>
+    <string name="dialog_privacy_content_timer_data">За да изтеглите аудио файлове за таймерите на околния шум (≈20MB) и за да ви предоставим персонални услуги, Часовник трябва да се свърже с интернет. Преди да използвате Часовник, трябва да прочетете и да се съгласите с нашите %1$s и и%2$s. В момента използвате мобилни данни. Съгласни ли сте?</string>
     <string name="done">Готово</string>
     <string name="dynamic_alarm_speech">Умна аларма</string>
     <string name="edit_alarm">Настрой будилник</string>
@@ -93,6 +102,10 @@
     <string name="force_touch_enter_stopwatch">Хронометър</string>
     <string name="force_touch_enter_timer">Таймер</string>
     <string name="go_back">Назад</string>
+    <string name="holiday_update">Налична е актуализация за официалните празници</string>
+    <string name="holiday_update_fail">Неуспешно актуализиране</string>
+    <string name="holiday_update_loading">Обновяване…</string>
+    <string name="holiday_update_success">Всички елементи са актуализирани</string>
     <string name="hour_unit">ч</string>
     <string name="install_weather_app_error">Приложението не можа да се зареди</string>
     <string name="install_weather_app_loading">Един момент…</string>
@@ -118,6 +131,7 @@
     <string name="life_post_setting">Сутрешно докладване</string>
     <string name="life_post_setting_FBE_remind">Поради ограничения в системата, информацията за времето в сутрешната емисия може да не се покаже правилно след рестартиране.</string>
     <string name="life_post_setting_close_title">Изключване на сутрешните доклади</string>
+    <string name="life_post_setting_open_desc">Изключване на повтарящи се аларми между 04:00 и 10:00 ч. за слушане на текуща метеорологична прогноза</string>
     <string name="life_post_setting_open_subtitle">Получаване на инф-я за времето, когато сте изключили алармата си, между 4:00ч и 9:30ч</string>
     <string name="life_post_setting_open_title">Получаване на сутрешни доклади</string>
     <string name="life_post_setting_wake_up_list_title">Хронолг. на събуждания</string>
@@ -139,13 +153,15 @@
     <string name="menu_item_sort_by_gmt_offset">Сортиране по време</string>
     <string name="menu_item_sort_by_name">Сортиране по име</string>
     <string name="module_download_cancel">Не, благодаря</string>
-    <string name="module_download_data_msg">Часовник се нуждае от интернет връзка, за да изтегли аудио файлове за предупреждения за времето и таймери за шума на околната среда за MIUI 10. За това изтегляне ще са нужни 20 MB от вашите мобилни данни. Съгласявате ли се?</string>
-    <string name="module_download_data_msg_golbal">Часовник трябва да изтегли аудио файлове за предупреждения за времето и таймери за шума на околната среда за MIUI 10. За това изтегляне ще са нужни 20 MB от вашите мобилни данни. Съгласявате ли се?</string>
-    <string name="module_download_data_msg_replace">Налична е актуализация за аудио за смарт аларми (≈20MB). Свържете се с интернет и изтеглете, като използвате мобилни данни?</string>
+    <string name="module_download_data_msg">Часовникът трябва да изтегли аудио файлове за интелигентните аларми MIUI. Интелигентните аларми съдържат аудио функции, които позволяват в алармите да бъде включена информация за времето. За това изтегляне са необходими ≈ 20 MB от мобилните ви данни. Да изтегля ли сега?</string>
+    <string name="module_download_data_msg_golbal">Часовникът трябва да изтегли аудио файлове за интелигентните аларми MIUI. За това изтегляне са необходими ≈ 20 MB от мобилните ви данни. Да изтегля ли сега?</string>
+    <string name="module_download_data_msg_replace">Наличен е актуализиран аудио файл за интелигентните аларми MIUI. За това изтегляне са необходими ≈ 20 MB от мобилните ви данни. Да изтегля ли сега?</string>
+    <string name="module_download_data_msg_timer">Часовникът трябва да изтегли аудио файлове за таймерите за шума на околната среда. За това изтегляне ще са нужни ≈20MB от вашите мобилни данни. Да изтегля ли сега?</string>
     <string name="module_download_fail">Неуспешно изтегляне на допълнителното аудио</string>
-    <string name="module_download_msg">Часовник се нуждае от интернет връзка, за да изтегли аудио файлове за предупреждения за времето и таймери за шума на околната среда за MIUI 10. Разрешаване?</string>
-    <string name="module_download_msg_golbal">Часовник трябва да изтегли аудио файлове за предупреждения за времето и таймери за шума на околната среда за MIUI 10. Съгласявате ли се?</string>
-    <string name="module_download_msg_replace">Налична е актуализация за аудио за смарт аларми. Свържете се с интернет и изтеглете сега?</string>
+    <string name="module_download_msg">Часовникът трябва да изтегли аудио файлове за интелигентните аларми MIUI. Интелигентните аларми съдържат аудио функции, които позволяват в алармите да бъде включена информация за времето. Да изтегля ли сега?</string>
+    <string name="module_download_msg_golbal">Часовникът трябва да изтегли аудио файлове за интелигентните аларми MIUI. Да изтегля ли сега?</string>
+    <string name="module_download_msg_replace">Наличен е актуализиран аудио файл за интелигентните аларми MIUI. Да изтегля ли сега?</string>
+    <string name="module_download_msg_timer">Часовникът трябва да изтегли аудио файлове за таймерите за околен шум. Да изтегля ли сега?</string>
     <string name="module_download_no_network">Неуспешно свързване с мрежата. Проверете настройките на мрежата и опитайте отново.</string>
     <string name="module_download_ok">Разреши</string>
     <string name="module_download_success">Успешно изтегляне на допълнителното аудио</string>
@@ -160,6 +176,7 @@
     <string name="other_category_title">Друг</string>
     <string name="pause">Пауза</string>
     <string name="percentage_sign">%</string>
+    <string name="personal_recommend">Персонализирани препоръки за съдържание</string>
     <string name="privacy_policy">Правила за поверителност</string>
     <string name="remind_ringtone">Тон на звънене</string>
     <string name="repeat_count">Пъти</string>
@@ -184,6 +201,7 @@
     <string name="shutdown_alarm_enable_summary">Алармата ще се изключи, ако е настроена за най-малко 5 минути след изключване на устройството</string>
     <string name="shutdown_alarm_title">Включване на телефона</string>
     <string name="silent_alarm_summary">Без звук</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Изключи еднократно на %s</string>
     <string name="slider_text">Плъзнете нагоре за да изключите</string>
     <string name="snooze_confirm_cancel">Спри аларма</string>
@@ -202,6 +220,7 @@
     <string name="start_up">Старт</string>
     <string name="stopwatch_lap_empty_text">Няма обиколки</string>
     <string name="stopwatch_title">Хронометър</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Настройте време</string>
     <string name="system_time_settings_category_title">Настройки за часовник</string>
     <string name="temperature_unit">℃</string>
@@ -255,6 +274,7 @@
     <string name="turn_off_this_repeat_alarm">Изключи повтарянето на този будилник</string>
     <string name="upcoming_alarm">%s Предстоящ будилник</string>
     <string name="upcoming_alarm_hint">Може да изкл алармата предварително</string>
+    <string name="user_agreement">Потребителско споразумение</string>
     <string name="vibrate_pref_summary">Вибриране при будилник</string>
     <string name="vibrate_when_ringing">Вибриране при звънене</string>
     <string name="volume_button_setting_summary">Задайте функция на бутоните при натискане по време на звънене на будилника</string>

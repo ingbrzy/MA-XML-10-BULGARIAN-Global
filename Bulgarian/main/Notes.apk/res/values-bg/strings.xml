@@ -86,8 +86,6 @@
     <string name="force_touch_menu_add">Добави бележка</string>
     <string name="format_move_note_out_folder">Тази бележка беше преместена</string>
     <string name="format_move_note_to_folder">Преместено в %1$s</string>
-    <string name="format_move_notes_out_folder">Преместени: %1$s</string>
-    <string name="format_move_notes_to_folder">Преместени са %1$s бележки в %2$s</string>
     <string name="hidden_notes_fragment_title">Скрити бележки</string>
     <string name="hide_arrow_description">Скрий</string>
     <string name="hint_cannot_view_hidden_note_content">Съдържанието на скритите бележки не може да бъде видяно</string>
@@ -129,6 +127,7 @@
     <string name="note_sort_way">Изберете как да подредите бележките си</string>
     <string name="notealert_enter">Покажи</string>
     <string name="notealert_ok">Игнорирай</string>
+    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Напомняне</string>
     <string name="permdesc_accessNote">Злонамерените приложения могат да използват това за достъп до личните ви данни.</string>
     <string name="permission_intro_contact">За маркиране на бележки по време на обаждания</string>
@@ -207,11 +206,9 @@
     <string name="toast_cancel_to_insert_image">Не може да се добави изображение.</string>
     <string name="toast_message_add_image_fail">Вмъкването на изображение е неуспешно!</string>
     <string name="toast_notes_delete_success">Изтрити успешно</string>
-    <string name="toast_notes_hidden_count">%1$s са скрити успешно</string>
     <string name="toast_notes_hidden_edit">Тази бележка е скрита успешно. Дръпнете надолу, за да видите скритите бележки.</string>
     <string name="toast_notes_hidden_home">Тази бележка е скрита успешно. Дръпнете надолу, за да видите скритите бележки.</string>
     <string name="toast_notes_unhidden">Успешно показване</string>
-    <string name="toast_notes_unhidden_count">%1$s показани успешно</string>
     <string name="toast_reach_text_limit_attachment">Съдържанието на бележката е твърде дълго за нови прикачвания.</string>
     <string name="toast_reach_text_limit_checkbox">Съдържанието на бележката е твърде дълго за нови прикачвания</string>
     <string name="toast_reach_text_limit_truncate">Съдържанието на бележката ще се намали автоматично, защото е много дълго.</string>

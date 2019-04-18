@@ -20,10 +20,6 @@
         <item quantity="other">%1$s-дневна прогноза</item>
         <item quantity="one">%1$s-дневна прогноза</item>
     </plurals>
-    <plurals name="feedback_result_interval_time_too_short">
-        <item quantity="other">%1$s секунди след доклад за грешки</item>
-        <item quantity="one">%1$s секунда след доклад за грешки</item>
-    </plurals>
     <plurals name="no_vote_num">
         <item quantity="other">%1$s души | </item>
         <item quantity="one">%1$s човек | </item>
@@ -39,5 +35,9 @@
     <plurals name="yes_vote_num">
         <item quantity="other"> | %1$s души</item>
         <item quantity="one"> | %1$s човек</item>
+    </plurals>
+    <plurals name="feedback_result_interval_time_too_short">
+        <item quantity="other">%1$s секунди след доклад за грешки</item>
+        <item quantity="one">%1$s секунда след доклад за грешки</item>
     </plurals>
 </resources>

@@ -12,4 +12,16 @@
         <item quantity="other">Възстановяване на %d файла</item>
         <item quantity="one">Възстановяване на %d файл</item>
     </plurals>
+    <plurals name="restore_app_order_prior">
+        <item quantity="other">Висок приоритет: %d елементи</item>
+        <item quantity="one">Висок приоритет: %d елемент</item>
+    </plurals>
+    <plurals name="restore_app_order_normal">
+        <item quantity="other">Нормален приоритет: %d елементи</item>
+        <item quantity="one">Нормален приоритет: %d елемент</item>
+    </plurals>
+    <plurals name="restore_app_order_installed">
+        <item quantity="other">%d прилож на това устройство</item>
+        <item quantity="one">%d прилож на това устройство</item>
+    </plurals>
 </resources>

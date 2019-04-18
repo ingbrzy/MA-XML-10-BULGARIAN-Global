@@ -33,12 +33,12 @@
         <item quantity="one">Невалиден PUK код, %d опит остава</item>
     </plurals>
     <plurals name="input_password_after_timeout_msg">
-        <item quantity="other">Не сте използвали паролата си поне %d часа. Въведете паролата си.</item>
-        <item quantity="one">Не сте използвали паролата си поне %d час. Въведете паролата си.</item>
+        <item quantity="other">Въведете Вашата парола поне един път на всеки %d часа за да бъде запазена за постоянно</item>
+        <item quantity="one">Въведете Вашата парола поне един път на всеки %d час за да бъде запазена за постоянно</item>
     </plurals>
     <plurals name="input_pattern_after_timeout_msg">
-        <item quantity="other">Не сте използвали вашия отключен модел поне %d часа. Начертайте модела си.</item>
-        <item quantity="one">Не сте използвали вашия отключен модел поне %d час. Начертайте модела си.</item>
+        <item quantity="other">Въведете Вашата парола поне един път на всеки %d часа за да бъде запазена за постоянно</item>
+        <item quantity="one">Въведете Вашата парола поне един път на всеки %d час за да бъде запазена за постоянно</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_hour_time_text">
         <item quantity="other">Остават %d часа</item>

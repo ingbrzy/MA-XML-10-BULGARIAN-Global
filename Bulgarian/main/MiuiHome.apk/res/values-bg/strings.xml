@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Добави в работно място</string>
     <string name="activity_not_found">Приложението не е инсталирано на телефона Ви.</string>
     <string name="add_screen">Добави бутон за екрани</string>
@@ -195,6 +196,7 @@
     <string name="is_system_wallpaper_message">Не могат да се изтриват системни ресурси</string>
     <string name="launcher_auto_fill_empty_title">Запълване на празните клетки</string>
     <string name="launcher_not_exist">Неочаквана грешка, върнете се в Начален екран и опитайте отново.</string>
+    <string name="launcher_sliding_up_gesture">Плъзнете нагоре по Началния екран, за да отворите търсене</string>
     <string name="launcher_title">Начален екран и Последни</string>
     <string name="like">Добави в любими</string>
     <string name="liked">Добавено в любими</string>
@@ -355,6 +357,9 @@
     <string name="widget_global_search">Търсене</string>
     <string name="widget_quick_function">Бързи функции</string>
     <string name="widgets_preview_title">Добави джаджа</string>
+    <string name="edit_mode_dual_app">Създайте клонирано приложение</string>
+    <string name="edit_mode_group_error_cant_delete_system_apps">Не можете да деинсталирате системни приложения</string>
+    <string name="edit_mode_group_error_nothing_be_selected">Първо изберете приложението</string>
     <string name="home_gesture_content_center">Център със съдържание</string>
     <string name="home_gesture_global_search">Търсене</string>
     <string name="home_gesture_no_action">Няма действие</string>
@@ -363,6 +368,5 @@
     <string name="home_slide_up_action">Плъзнете с пръст нагоре по Началния екран</string>
     <string name="launcher_pull_down_title">Плъзнете с пръст надолу по Началния екран</string>
     <string name="launcher_slide_up_title">Плъзнете с пръст нагоре по Началния екран</string>
-    <string name="launcher_sliding_up_gesture">Плъзнете нагоре по Началния екран, за да отворите търсене</string>
     <string name="minus_one_screen">Трезор за прилож</string>
 </resources>

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="user_detail_fixed_items">
+        <item>Вижте синхронизираните елементи</item>
+        <item>Детайли за хранилището</item>
+    </string-array>
     <string-array name="korea_permission_groups_descriptions">
         <item>За определяне елементи на синхр</item>
         <item>За синхр. на съобщения</item>
