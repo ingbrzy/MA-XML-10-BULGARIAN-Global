@@ -290,7 +290,6 @@
     <string name="month_view">Месец</string>
     <string name="monthly">Ежемесечно</string>
     <string name="monthly_on_day">Ежемесечно (същия ден)</string>
-    <string name="monthly_on_day_count">Ежемесечно (всеки %1$s%2$s)</string>
     <string name="network_not_available">Няма връзка с мрежата</string>
     <string name="new_event_description">Ново</string>
     <string name="news">Новини</string>
