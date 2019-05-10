@@ -2,7 +2,7 @@
 <resources>
     <string name="button_dismiss">OK</string>
     <string name="app_label">Клетъчни излъчвания</string>
-    <string name="sms_cb_settings">Настройки на клетъчното излъчване</string>
+    <string name="sms_cb_settings">Сигнали при спешни случаи</string>
     <string name="cell_broadcast_settings_not_available">Настройките за клетъчно излъчване не са налице за този потребител</string>
     <string name="no_cell_broadcasts">В района ви няма активни сигнали. Можете да промените настройките за тях посредством опцията от менюто „Настройки“.</string>
     <string name="menu_preferences">Настройки</string>

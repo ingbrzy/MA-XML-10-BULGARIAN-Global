@@ -38,7 +38,9 @@
     <string name="exo_download_notification_channel_name">Изтегляния</string>
     <string name="exo_download_removing">Изтеглянията се премахват</string>
     <string name="exo_item_list">%1$s – %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Автоматично</string>
     <string name="exo_track_selection_none">Нищо</string>
     <string name="exo_track_selection_title_audio">Аудиозапис</string>
@@ -50,6 +52,7 @@
     <string name="exo_track_surround_7_point_1">7,1-канален обемен звук</string>
     <string name="exo_track_unknown">Неизвестно</string>
     <string name="search_menu_title">Търсене</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="accessibility_setting_hint">"Докоснете бутона в горния десен ъгъл, за да включите тази услуга.
 Themes ще открие кои приложения използвате и показва прозрачни тапети в избраните от вас приложения."</string>
     <string name="accessibiliy_description_content_account">Профил</string>
@@ -89,6 +92,7 @@ Themes ще открие кои приложения използвате и п�
     <string name="apply_theme_with_ringtones">Използвай мелодиите на темата</string>
     <string name="audio_duration_minutes_format">%1$d минути</string>
     <string name="audio_duration_seconds_format">%1$d секунди</string>
+    <string name="audition_ringtone">Пусни</string>
     <string name="automatically_update_using_theme_tips">Актуализирай автоматично следващия път</string>
     <string name="backup_theme_dialog_message">Да се архивира ли текущата ви тема?</string>
     <string name="backup_theme_dialog_ok">Архивиране</string>
@@ -115,6 +119,7 @@ Themes ще открие кои приложения използвате и п�
     <string name="component_title_settings_video_wallpaper">Тапети със специални ефекти</string>
     <string name="component_title_video_wallpaper">Тапети от филми</string>
     <string name="component_title_wallpaper">Тапети</string>
+    <string name="count_down_tip">%d оставащи</string>
     <string name="current_using_desktop_wallpaper_text">Начален екран</string>
     <string name="current_using_lockscreen_wallpaper_text">Закл. екран</string>
     <string name="current_version_incompatible">Не е съвместим</string>
@@ -206,11 +211,13 @@ Themes ще открие кои приложения използвате и п�
     <string name="incompatible_dialog_ok">Разбрах</string>
     <string name="incompatible_dialog_title">Грешка при съвместимостта</string>
     <string name="is_setting_wallpaper_message">Тапетът се задава…</string>
+    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Будилници</string>
     <string name="item_resource_audio_optional_color_ring">Тон на обратно позвъняване</string>
     <string name="item_resource_audio_optional_notification_ring">Известия</string>
     <string name="item_resource_audio_optional_phone_ring">Тон на звънене</string>
     <string name="lab">Тематична лаборатория</string>
+    <string name="like_list">Харесвани от мен</string>
     <string name="live_wallpaper">Динамични тапети</string>
     <string name="loading">Зареждане...</string>
     <string name="loading_resource_detail_fail">Неуспешно зареждане на детайли!</string>
@@ -277,6 +284,7 @@ Themes ще открие кои приложения използвате и п�
     <string name="online_precust_plant">Растение</string>
     <string name="online_precust_scenery">Природа</string>
     <string name="online_search_hint">Търсене на информация онлайн</string>
+    <string name="playing_ringtone">Възпроизвеждане</string>
     <string name="pref_privacy_policy">Правилата за поверителност</string>
     <string name="present_local_fonts">Моите шрифтове</string>
     <string name="present_local_themes">Моите теми</string>
@@ -309,7 +317,6 @@ Themes ще открие кои приложения използвате и п�
     <string name="resource_alarm_default">Будилник</string>
     <string name="resource_app_name">Покажи източници</string>
     <string name="resource_apply">Приложи</string>
-    <string name="resource_apply_trial">Пробвай сега</string>
     <string name="resource_back">Обратно</string>
     <string name="resource_buy">Купи</string>
     <string name="resource_can_not_selected">%1$s не може да бъде избрано!</string>
@@ -380,7 +387,6 @@ Themes ще открие кои приложения използвате и п�
     <string name="resource_download">Изтегляне</string>
     <string name="resource_download_notification_title_many">Изтеглени са %1$s теми</string>
     <string name="resource_download_notification_title_one">Темата е изтеглена</string>
-    <string name="resource_download_trial">Безплатен тест</string>
     <string name="resource_downloaded_title">Изтеглени ресурси</string>
     <string name="resource_downloading">Изтегляне...</string>
     <string name="resource_exchange">Активиране на код</string>
@@ -435,6 +441,7 @@ Themes ще открие кои приложения използвате и п�
     <string name="resource_pack_price_info">%1$s Нормално</string>
     <string name="resource_pack_warning">Внимание! Вече сте закупили %1$d елемента. Текущата им цена не е валидна за оставащите елементи, моля да ги купите поотделно.</string>
     <string name="resource_present">Подарък</string>
+    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Безплатни</string>
     <string name="resource_price_unit"> МiКредити</string>
     <string name="resource_purchase_common_error">Получи се грешка, опитайте отново</string>
@@ -446,6 +453,10 @@ Themes ще открие кои приложения използвате и п�
     <string name="resource_ranking">Популярни</string>
     <string name="resource_ranking_free">Безплатни</string>
     <string name="resource_ranking_purchase">Платени</string>
+    <string name="resource_ring_ranking_list_divider">-</string>
+    <string name="resource_ring_ranking_list_rank_1">1</string>
+    <string name="resource_ring_ranking_list_rank_2">2</string>
+    <string name="resource_ring_ranking_list_rank_3">3</string>
     <string name="resource_ringtone_default">Мелодии</string>
     <string name="resource_ringtone_playing_error">грешка при възпроизвеждане</string>
     <string name="resource_ringtone_volume_mute">Звъненето е заглушено</string>
@@ -539,8 +550,6 @@ Themes ще открие кои приложения използвате и п�
     <string name="theme_changed_failed_message">Неуспешно прилагане на темата.</string>
     <string name="theme_changed_message">Темата е успешно приложена.</string>
     <string name="theme_changing_dialog_title">Прилагане на нова тема, моля изчакайте...</string>
-    <string name="theme_comment_dialog_message">Оценете това приложение и ни кажете какво мислите.</string>
-    <string name="theme_comment_dialog_ok">Оценете</string>
     <string name="theme_component_title_alarm">Будилник</string>
     <string name="theme_component_title_alarmstyle">Стил на будилника</string>
     <string name="theme_component_title_all">Теми</string>
@@ -584,13 +593,13 @@ Themes ще открие кои приложения използвате и п�
     <string name="theme_is_external_priority_storage">Запази на картата с памет</string>
     <string name="theme_is_external_priority_storage_summary">Приложението Теми ще се рестартира за да се приложат промените</string>
     <string name="theme_multiple_button_title_customize">Редактиране</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Не</string>
     <string name="theme_purchased_list_empty">Нямате закупени теми.</string>
     <string name="theme_purchased_non_local">Онлайн</string>
     <string name="theme_select_others">Други</string>
     <string name="theme_setting">Настройки</string>
     <string name="theme_staggered_item_text">Получете Мi Кредити</string>
-    <string name="theme_to_comment">Не е зле!</string>
     <string name="theme_user_agreement_allow">Приемам</string>
     <string name="theme_user_agreement_content1">"Натискайки Приемам, вие се съгласявате с условията, посочени в нашето "</string>
     <string name="theme_user_agreement_content2">" Потребителско споразумение"</string>
@@ -629,6 +638,17 @@ Themes ще открие кои приложения използвате и п�
     <string name="transparent_wallpaper_guide">Отидете на Теми</string>
     <string name="transparent_wallpaper_guide_tip">Можете да изберете прозрачен тапет в теми сега.</string>
     <string name="transparent_wallpaper_pref_summary">Тапети с намалена непрозрачност на фона</string>
+    <string name="transparent_wallpaper_white_wallpaper">Направете фона бял</string>
+    <string name="transparent_wallpaper_white_wallpaper_failed">Задаването на бял фон беше неуспешно</string>
+    <string name="transparent_wallpaper_white_wallpaper_success">Сега цветът на фона е бял</string>
+    <string name="transparent_wallpaper_white_wallpaper_tip">Прозрачният тапет изглежда най-добре на бял фон</string>
+    <string name="trial_count_empty">Няма повече безплатни елементи за днес. Върнете се утре!</string>
+    <string name="trial_count_tip">Пробният период завършва в %1$s:%2$s:%3$s</string>
+    <string name="trial_for_free">Безплатен пробен период</string>
+    <string name="trial_get_failed_tip">Приключете с гледането на видеоклипа, за да получите темата.</string>
+    <string name="trial_get_success_tip">Поздравления! Получихте 3-дневен пробен период.</string>
+    <string name="trial_now">Опитайте сега</string>
+    <string name="try_5_min">Опитайте за 5 минути</string>
     <string name="uid_change_dialog_message">Вие изтрихте актуализациите. Рестартирайте устройството, за да може да използвате темите.</string>
     <string name="uid_change_dialog_ok">Разбрах</string>
     <string name="uid_change_dialog_title">Рестартирай устройството</string>
@@ -646,6 +666,11 @@ Themes ще открие кои приложения използвате и п�
     <string name="using_theme_next_automatic_update">Авт. актуализации са изкл</string>
     <string name="using_theme_next_automatic_update_summary">Актуализирай изтеглените теми през Wi-Fi автоматично, когато екранът е заключен</string>
     <string name="using_theme_show_ad">Препоръки</string>
+    <string name="video_ad_click">Изпробвайте сега</string>
+    <string name="video_ad_try_for_free">Безплатен пробен период</string>
+    <string name="video_ad_uncomplete_tip">Приключете с гледането на видеоклипа, за да получите темата.</string>
+    <string name="video_ad_uncomplete_tip_cancel">Отказ</string>
+    <string name="video_ad_uncomplete_tip_continue">Продължете гледането</string>
     <string name="video_audio_apply_success">Видеото със звук е конфигурирано успешно</string>
     <string name="video_data_tips_message">Използването на мобилни данни може да генерира допълнително разходи. Продължи въпреки това?</string>
     <string name="video_data_tips_title">Предупреждение за използв. на данни</string>

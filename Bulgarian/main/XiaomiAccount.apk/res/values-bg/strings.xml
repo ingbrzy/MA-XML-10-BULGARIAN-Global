@@ -216,6 +216,7 @@
     <string name="passport_talkback_switch_image_captcha">Превключи на гласов код за потвърждение</string>
     <string name="passport_license_info_open">Подробности</string>
     <string name="passport_license_info_collapse">Скрий</string>
+    <string name="passport_first_login_prompt">Mi Профил ще бъде създаден автоматично, когато се регистрирате за пръв път.</string>
     <string name="search_app_name">Mi Профил</string>
     <string name="search_mi_account">Mi Профил</string>
     <string name="search_mi_account_key_words">Mi Облак,Настройки на профил,Mi Плащане, Отписване</string>
@@ -350,6 +351,8 @@
     <string name="activity_not_found_notice">Не може да се намери приложението</string>
     <string name="scan_barcode_title">За да се впишете в Mi профила си, сканирайте QR кодът</string>
     <string name="talkback_scan_barcode">Сканиране на QR код</string>
+    <string name="scan_barcode">Сканирайте QR кода за да се впишете</string>
+    <string name="agreement_and_privacy">Политика на поверителност и Потребителско споразумение</string>
     <string name="authorize_title">Оторизация</string>
     <string name="my_device_title">Текущо устройство</string>
     <string name="device_list_title">Списък с устройства</string>
@@ -416,9 +419,8 @@
     <string name="push_notify_dialog_title">Потвърждение на профила</string>
     <string name="push_notify_dialog_message">Непознато устройство е използвано за вписване във вашия Mi профил. Въведете код за потвърждение от това устройство. Ако не сте били вие, веднага сменете паролата на профила си. Не предоставяйте кода за потвърждение на други хора.</string>
     <string name="account_secure_info_pref_title">Информация за профила</string>
-    <string name="account_user_email">Имейл</string>
-    <string name="account_user_phone">Телефонен номер</string>
-    <string name="account_user_recovery_phone">Телефон за възстановяване</string>
+    <string name="account_user_email">Имейл за възстановяване</string>
+    <string name="account_user_phone">Телефон за възстановяване</string>
     <string name="input_new_pwd">Въведете новата парола</string>
     <string name="confirm_new_pwd">Потвърдете новата парола</string>
     <string name="inconsistent_pwd">Паролите не съвпадат</string>

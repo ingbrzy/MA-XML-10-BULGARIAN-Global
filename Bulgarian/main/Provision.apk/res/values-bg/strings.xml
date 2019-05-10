@@ -92,6 +92,8 @@
     <string name="content_description_complete">Готово</string>
     <string name="language_picker_other_languages_title">Други езици</string>
     <string name="language_settings">Избор на език</string>
+    <string name="font_hint_normal">Увеличи размера на текста</string>
+    <string name="font_hint_large">Размер на текста по подразбиране</string>
     <string name="navigation_picker_radio_text_full_screen">Жестове на цял екран</string>
     <string name="navigation_picker_radio_text_virtual_key">Бутони</string>
     <string name="congratulation_swipe">Плъзнете нагоре, за да влезете в системата</string>
@@ -119,4 +121,8 @@
     <string name="ai_button_double_press_desc">Двойно натискане на бутон AI за изпълнение на потребителски задачи</string>
     <string name="zone_picker_title">Избор на часова зона</string>
     <string name="locale_picker_other_locale_title">Още региони</string>
+    <string name="skip_gesture_guide_dialog_title">Жестове на цял екран</string>
+    <string name="skip_gesture_guide_dialog_message">Уверете се, че знаете как да използвате жестовете на цял екран, преди да активирате тази услуга.</string>
+    <string name="skip_gesture_guide_dialog_negative_btn">Отказ</string>
+    <string name="skip_gesture_guide_dialog_positive_btn">OK</string>
 </resources>

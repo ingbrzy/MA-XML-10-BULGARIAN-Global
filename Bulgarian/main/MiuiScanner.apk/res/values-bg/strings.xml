@@ -39,6 +39,7 @@
     <string name="business_card">Визитна картичка</string>
     <string name="business_card_result_title">Визитна картичка</string>
     <string name="business_card_title">Поставете визитката в рамката</string>
+    <string name="business_card_with_qr_code">Поставете визитката или QR кода в рамката</string>
     <string name="business_copy">Копиране</string>
     <string name="business_new_contacts">Създай контакт</string>
     <string name="business_no_result">Неуспешно разпознаване на визитната картичка. Опитайте отново.</string>

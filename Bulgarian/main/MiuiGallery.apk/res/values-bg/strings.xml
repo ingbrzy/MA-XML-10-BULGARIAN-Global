@@ -15,7 +15,7 @@
     <string name="add_to_album_success">Добавено в албум</string>
     <string name="add_to_album_tip">Снимки в облака</string>
     <string name="add_to_favorites_failed">Не може да се добави към любими</string>
-    <string name="add_to_secret_exist">Снимката вече съществува в скрит албум</string>
+    <string name="add_to_secret_exist">Тази снимка вече съществува в скрит албум</string>
     <string name="add_to_secret_fail">Неуспешно добавяне в скрит албум</string>
     <string name="add_to_secret_failed_with_reason">Не може да се добави в скрит албум. %1$s.</string>
     <string name="add_to_secret_successful">Добавено в скрит албум</string>
@@ -39,6 +39,7 @@
     <string name="agreement_summary">Правни документи</string>
     <string name="ai_album_open_switch_button_title">Започнете анализа на снимките</string>
     <string name="ai_album_requesting_title">Алгоритъмът AI все още обработва снимките Ви. Върнете се след малко.</string>
+    <string name="ai_album_setting_key_word">Търсене на снимки</string>
     <string name="ai_album_setting_sub_title">Позволете на алгоритъма AI да идентифицира хора, места и обекти на Вашите снимки, за да ги намирате по-бързо.</string>
     <string name="ai_album_setting_title">Идентифицирайте обекти на снимки</string>
     <string name="album_already_exists_check">Преглед</string>
@@ -188,6 +189,8 @@
     <string name="backuped_title">Успешно архивирано</string>
     <string name="backuping_title_gprs">Архивира се използвайки мобилни данни…</string>
     <string name="backuping_title_normal">Архивиране…</string>
+    <string name="base_btn_cancel">Отказ</string>
+    <string name="base_btn_download">Изтегляне</string>
     <string name="begin_share">Бебе албумът \"%s\" е създаден, може да го споделите сега</string>
     <string name="begin_share_toast">Да се създаде ли отделен албум за това дете преди споделяне?</string>
     <string name="blank_app_name" />
@@ -361,7 +364,7 @@
     <string name="detail_title">Детайли</string>
     <string name="disable_auto_upload_tip">Да се изключи ли синхр с Ми Облак за този албум?</string>
     <string name="disable_auto_upload_title">Изключване на Синхр. с Mi Cloud</string>
-    <string name="do_not_remind_me">Не показвай повече</string>
+    <string name="do_not_remind_me">Не показвай отново</string>
     <string name="document_provider_guide_step_1">1. Натиснете бутона \"Още\".</string>
     <string name="document_provider_guide_step_2">2. Натиснете \"Покажи вътрешното хранилище\".</string>
     <string name="document_provider_guide_step_3">3. Натиснете страничния бутон за менюто.</string>
@@ -499,6 +502,7 @@
     <string name="face_name_edit">Промени</string>
     <string name="face_name_input">Въведете име</string>
     <string name="face_recommend">Препоръки</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Операцията е неуспешна</string>
     <string name="fail_to_pick_email">Невалиден Имейл</string>
     <string name="fail_to_sync_album">Албумът не можа да се синхронизира. Проверете връзката си за данни и опитайте отново.</string>
@@ -509,6 +513,7 @@
     <string name="feature_guidance_photo_effects">"Налични са нови
 фото ефекти"</string>
     <string name="feature_guidance_video_editor_smart_effects">Налични са нови ефекти</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_bw">Ч&amp;Б</string>
     <string name="filter_bi_dusk">Здрач</string>
     <string name="filter_bi_lilt">Забавна песен</string>
@@ -526,6 +531,7 @@
     <string name="filter_category_master">Майстор</string>
     <string name="filter_category_portrait">Портрет</string>
     <string name="filter_category_scene">Пейзаж</string>
+    <string name="filter_category_sky">Небе</string>
     <string name="filter_film_blackwhite">Ч/Б</string>
     <string name="filter_film_dew">Роса</string>
     <string name="filter_film_fade">Избледняване</string>
@@ -568,6 +574,17 @@
     <string name="filter_scene_series">Отражения</string>
     <string name="filter_scene_vivid">Живо</string>
     <string name="filter_scene_warm">Слънце</string>
+    <string name="filter_sky_cloudy">Облачно</string>
+    <string name="filter_sky_detect_forbidden_tips">Не може да засече небето</string>
+    <string name="filter_sky_download_failed">Неуспешно изтегляне на приставката. Проверете настройките на Вашата мрежа и опитайте отново.</string>
+    <string name="filter_sky_download_finish">Успешно изтегляне на приставката</string>
+    <string name="filter_sky_download_sdk_without_wifi_msg">Ако не сте свързани с Wi-Fi, можете да използвате мобилните данни, за да изтеглите приставката (%1$d dMB), която ви позволява да замените небето на снимките си.</string>
+    <string name="filter_sky_download_sdk_without_wifi_title">Изтегляне на приставка</string>
+    <string name="filter_sky_dusk">Здрач</string>
+    <string name="filter_sky_glow">Светло</string>
+    <string name="filter_sky_rainbow">Дъга</string>
+    <string name="filter_sky_sunny">Слънчево</string>
+    <string name="filter_sky_sunset">Залез</string>
     <string name="finish_create_baby_album_toast">Създаден е албум за \"%s\" в Mi Cloud</string>
     <string name="finish_fill_baby">Създаване</string>
     <string name="flash_off">Без светкавица</string>
@@ -582,10 +599,11 @@
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">ГБ</string>
     <string name="grant_permission_go_and_set">Задай</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Галерия се нуждае от достъп до 
 %s
  за да работи нормално, чукнете \"Задай\" за да отидете в Разрешения."</string>
-    <string name="grant_permission_title">Разреши достъп</string>
+    <string name="grant_permission_title">Даване на достъп</string>
     <string name="grant_permission_unlock_and_set">Отключване и настройка</string>
     <string name="has_invalid_recipient">Невалидни получатели: %1$s</string>
     <string name="have_known">Разбрах</string>
@@ -835,6 +853,7 @@
     <string name="people_mark_mode_title_no_mark_name">Изберете човек</string>
     <string name="people_page_label">Лице</string>
     <string name="people_page_unname">Неизвестно</string>
+    <string name="percent_sign">%</string>
     <string name="permissin_contract_desc">За именуване на хора на снимки</string>
     <string name="permission_contract_name">Контакти</string>
     <string name="permission_optional_category">Разрешения по избор</string>
@@ -958,8 +977,8 @@
     <string name="preparing_data">Момент…</string>
     <string name="privacy_permission_request_message">Галерия се нуждае от достъп до %3$s. Информацията, която събираме, ще бъде използвана в съответствие с нашите %1$s и %2$s. Разрешавате ли?</string>
     <string name="privacy_permission_request_negative">Ограничи</string>
-    <string name="privacy_permission_request_positive">Разреши</string>
-    <string name="privacy_permission_request_title">Необходими са разрешения</string>
+    <string name="privacy_permission_request_positive">Позволи</string>
+    <string name="privacy_permission_request_title">Необходими разрешения</string>
     <string name="projection_cancel">Отказ</string>
     <string name="projection_checkbox_text">Запомняне на този дисплей</string>
     <string name="projection_device_connection_failed">Неуспешно свързване към проекционното устройство</string>
@@ -1030,7 +1049,12 @@
     <string name="scan_barcode_to_join">Сканирайте QR кода, за да се присъедините към албума.</string>
     <string name="scan_qr_code_buttom_text">Сканирайте QR кода, за да видите този албум.</string>
     <string name="screen_doodle_talkback_size">Ширина на Дудъл линията</string>
+    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
+    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
     <string name="screen_editor_finish">Готово</string>
+    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
+    <string name="screen_editor_send">@string/operation_send</string>
+    <string name="screen_editor_text">@string/photo_editor_text</string>
     <string name="screen_save_dialog_btn_cancel">Отказ</string>
     <string name="screen_save_dialog_btn_delete">Изтриване на снимката на екрана</string>
     <string name="screen_save_dialog_btn_save">Запази в Галерията</string>
@@ -1088,6 +1112,9 @@
     <string name="search_title_recommend">Препоръчвани</string>
     <string name="search_title_suggestion">Предложения</string>
     <string name="search_title_tag">Обекти</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Търсене на проектор…</string>
     <string name="secret_album_card_description">Най-доброто място за всички ваши малки тайни</string>
     <string name="secret_album_card_title">Изпробвайте скрития албум</string>
@@ -1107,7 +1134,7 @@
     <string name="secret_reason_unknow_reasons">Неизвестна грешка</string>
     <string name="secret_reason_video_not_support">Не могат да се добавят видеоклипове към скрит албум</string>
     <string name="see_ignore_faces">Вижте хората, които игнорирахте</string>
-    <string name="select_all">Избор на всички</string>
+    <string name="select_all">Избиране на всички</string>
     <string name="select_image_operation">Добавяне на снимки</string>
     <string name="select_item_face">Снимки на %s</string>
     <string name="select_origin_tip">Оригинал (%s)</string>
@@ -1251,6 +1278,7 @@
     <string name="today">Днес</string>
     <string name="too_many_recipients">Съобщението има прекалено много получатели (%1$s), позволени са %2$s.</string>
     <string name="trash_bin">Кошче</string>
+    <string name="trash_bin_key_word">Изтрити снимки</string>
     <string name="trash_bin_summary">Преглед на архивирани снимки, които сте изтрили наскоро</string>
     <string name="try_again_later">Опитай по-късно.</string>
     <string name="try_to_send">Изпращане</string>
@@ -1263,12 +1291,12 @@
     <string name="unpublish_succeeded">Албумът вече не е споделен</string>
     <string name="unpublishing">Отменя се…</string>
     <string name="unsupport_video">%s не работи с видео</string>
-    <string name="user_agree">Приемам</string>
-    <string name="user_agreement2">Условия за ползване</string>
+    <string name="user_agree">Приеми</string>
+    <string name="user_agreement2">Условия за използване</string>
     <string name="user_agreement4">Правилата за поверителност</string>
     <string name="user_alias_self">Аз</string>
     <string name="user_notice_identify_summary_format">Използвайки тази услуга, вие се съгласявате с %1$s и %2$s на Xiaomi.</string>
-    <string name="user_notice_title">Внимание</string>
+    <string name="user_notice_title">Условия за ползване</string>
     <string name="video_edit_file_not_exits_tip">Първо трябва да изтеглите видеото</string>
     <string name="video_editor_abandon_changes_tip_message">Отмяна на всички промени?</string>
     <string name="video_editor_abandon_changes_tip_title">Отмяна на промените</string>

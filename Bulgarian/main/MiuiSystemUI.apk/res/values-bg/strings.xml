@@ -63,6 +63,7 @@
     <string name="accessibility_camera_button">Камера</string>
     <string name="accessibility_carrier_network_change_mode">Мрежата на оператора е променена.</string>
     <string name="accessibility_cast_name">Свързахте се с %s.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_casting_turned_off">Запис на екрана е изключено.</string>
     <string name="accessibility_cell_data">Мобилни данни</string>
     <string name="accessibility_cell_data_off">Мобилните данни са изключени</string>
@@ -324,9 +325,14 @@
     <string name="battery_info_status_full">Зареден</string>
     <string name="battery_info_status_not_charging">Не се зарежда</string>
     <string name="battery_info_status_unknown">Непознат</string>
+    <string name="battery_low_button_not_open_power_save">Не сега</string>
+    <string name="battery_low_button_open_power_save">Включи</string>
     <string name="battery_low_percent_format">%d%% остават</string>
+    <string name="battery_low_percent_format_save_mode_closed">По-малко от %d%% остават от заряда на батерията Ви. Моля, заредете Вашето устройство.</string>
+    <string name="battery_low_percent_format_save_mode_open">По-малко от %d%% остават от заряда на батерията Ви. Включете Икономия на батерия за да го запазите за по-дълго време.</string>
     <string name="battery_low_percent_format_saver_started">%s оставащи.Икономия на батерия е вкл.</string>
     <string name="battery_low_title">Слаба батерия</string>
+    <string name="battery_low_title_power_save">Икономия на батерия</string>
     <string name="battery_low_why">Настройки</string>
     <string name="battery_meter_very_low_overlay_symbol">!</string>
     <string name="battery_panel_title">Употреба на батерията</string>
@@ -467,6 +473,9 @@
     <string name="category_work">Работен</string>
     <string name="charge_length_format">Преди %1$s</string>
     <string name="chooseUsbActivity">Избор на приложение за USB усторйството</string>
+    <string name="choose_clock_title_left_top">Подравнено наляво</string>
+    <string name="choose_clock_title_middle">Център</string>
+    <string name="choose_clock_title_vertical">Вертикално</string>
     <string name="choose_profile">Изберете профил</string>
     <string name="clear_adb_keys">Отмяна на достъпа до Отстр. USB грешки</string>
     <string name="clear_all_notifications_text">Изчисти всичко</string>
@@ -576,6 +585,7 @@
     <string name="dlg_summary_nfc">Изключи NFC</string>
     <string name="dlg_summary_title">Режим Свръх икономия на батерията ще спре всички процеси във фонов режим след като излезете от дадено приложение и се върнете в Начален екран. Ако искате съответното приложение да продължи да работи, добавете го в изключенията.</string>
     <string name="dnd_is_off">Режим Не безпокойте е изкл</string>
+    <string name="dnd_notification_warnings_title">Режим Не безпокойте е активен. Повикванията и известията ще бъдат заглушени.</string>
     <string name="do_disclosure_generic">Това устройство се управлява от вашата организация</string>
     <string name="do_disclosure_with_name">Това устройство се управлява от %s</string>
     <string name="do_not_silence">Не заглушавай</string>
@@ -654,6 +664,7 @@
     <string name="face_data_manage_delete_msg">Изтрий лицеви данни</string>
     <string name="face_data_manage_delete_sure">Няма да можете да отключите устройството си с вашите лицеви данни, след като ги изтриете.</string>
     <string name="face_data_manage_delete_title">Лицеви данни</string>
+    <string name="face_data_manage_unlock_liftcamera_msg">След като екранът светне, плъзнете нагоре за отключване с лице.</string>
     <string name="face_data_manage_unlock_msg">Отключване чрез използване на вашето лице</string>
     <string name="face_data_manage_unlock_slide_msg">Заместете преките пътища с отключване на лице</string>
     <string name="face_data_manage_unlock_title">Отключване чрез лице</string>
@@ -670,6 +681,7 @@
     <string name="face_unlock_down">Вдигнете главата си</string>
     <string name="face_unlock_fail">Неуспешно лицево разпознаване</string>
     <string name="face_unlock_fail_retry">Вашето лице не може да се разпознае. Чукнете за да опитате отново.</string>
+    <string name="face_unlock_fail_retry_global">Чукнете, за да използвате Откл. с лице</string>
     <string name="face_unlock_identify_error">Грешка при разпознаването</string>
     <string name="face_unlock_not_found">Не сте разпознат</string>
     <string name="face_unlock_not_roi">Задръжте вашето лице вътре в рамката</string>
@@ -691,6 +703,13 @@
     <string name="face_unlock_sc_status">Натиснете екрана за да стартирате камерата</string>
     <string name="face_unlock_stay_away_screen">Застанете между 25см до 45см от екрана</string>
     <string name="face_unlock_success">Лицевите данни са потвърдени</string>
+    <string name="face_unlock_success_show_message_dialog_msg">Разреши известия на заключен екран, за да ги видите и прочете при заключено устройство.</string>
+    <string name="face_unlock_success_show_message_dialog_negative_btn">Не, благодаря</string>
+    <string name="face_unlock_success_show_message_dialog_positive_btn">Разреши</string>
+    <string name="face_unlock_success_show_message_dialog_title">Известия на заключен екран</string>
+    <string name="face_unlock_success_show_message_msg">Показвай известие само на заключен екран и добави подробностите за лицево разпознаване след потвърждение</string>
+    <string name="face_unlock_success_show_message_title">Покажи известие за подробности след потвърждение на данни за лице</string>
+    <string name="face_unlock_success_show_message_toast">Известията ще бъдат показвани на заключен екран</string>
     <string name="face_unlock_success_stay_screen_msg">Останете на заключен екран след като лицевото разпознаване е потвърдено. Плъзнете за да отворите Начален екран.</string>
     <string name="face_unlock_success_stay_screen_title">Останете на заключен екран след отключване</string>
     <string name="failed_to_open_app_settings_toast">Неуспешно отваряне на настройките за %1$s</string>
@@ -757,6 +776,7 @@
     <string name="gxzw_try_again">Оптитайте отново</string>
     <string name="gxzw_try_more_again">Оптитайте отново</string>
     <string name="gxzw_use_password">Използвайте паролата си за отключване</string>
+    <string name="gxzw_use_password_to_unlock">Въведете парола</string>
     <string name="hdcp_checking_dialog_title">Задайте модел на поведение HDCP проверка</string>
     <string name="hdcp_checking_title">HDCP Проверка</string>
     <string name="headset">Слушалки</string>
@@ -872,6 +892,10 @@
     <string name="keyguard_charging_back_to_lockscreen">Обратно към закл. екран</string>
     <string name="keyguard_charging_info_battery_used_time_text">На батерия</string>
     <string name="keyguard_charging_info_click_to_detail">Покажи подробности</string>
+    <string name="keyguard_charging_info_data_c">%s℃</string>
+    <string name="keyguard_charging_info_data_ma">%smA</string>
+    <string name="keyguard_charging_info_data_percent">%s%%</string>
+    <string name="keyguard_charging_info_data_v">%sV</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Изразходени</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Днес%s</string>
@@ -896,6 +920,7 @@
     <string name="keyguard_missing_sim_instructions_long">SIM картата липсва или не се разпознава. Поставете SIM карта.</string>
     <string name="keyguard_missing_sim_message">В телефона няма SIM карта.</string>
     <string name="keyguard_missing_sim_message_short">Няма SIM карта</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Мрежата е заключена</string>
     <string name="keyguard_password_enter_password_code">Въведете парола за отключване</string>
     <string name="keyguard_password_enter_pin_code">Въведете PIN код</string>
@@ -979,6 +1004,7 @@
     <string name="left_keycode">Клавиатура за лява ръка</string>
     <string name="left_nav_bar_button_type">Опции за левия бутон</string>
     <string name="legacy_vpn_name">VPN</string>
+    <string name="list_delimeter">", "</string>
     <string name="local_backup_password_summary_change">Чукнете за да промените или премахнете паролата за архивите на Начален екран</string>
     <string name="local_backup_password_summary_none">Архивните на Начален екран’ са защитени</string>
     <string name="local_backup_password_title">Архиви на нач. екран с парола</string>
@@ -1048,6 +1074,7 @@ d MMMM"</string>
     <string name="miui_guide_dialog_message">Звуците и мелодиите от медийното съдържание ще продължат да се възпроизвеждат в Тих режим. Вие можете да промените това от меню Настройки.</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Отключено с Bluetooth устройство</string>
     <string name="miui_ringer_count_down">Позиции надолу</string>
+    <string name="miui_ringer_count_down_time">%s</string>
     <string name="miui_ringer_standard">Без звук</string>
     <string name="miui_ringer_standard_description">Заглуши звука за входящи повиквания и известия</string>
     <string name="miui_ringer_total">Режим Не безпокойте</string>
@@ -1075,12 +1102,14 @@ d MMMM"</string>
 
 За повече информация се свържете с вашия администратор."</string>
     <string name="monitoring_description_ca_cert_settings">Отвори доверени източници</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">Сертификатът за сигурност вече е инсталиран на това устройство. Мрежовият ви трафик може да бъде наблюдаван и променян.</string>
     <string name="monitoring_description_do_body">Вашият администратор може да наблюдава и променя настройките, корпоративния достъп, приложения и данни свързани с вашето устройство и информацията за местоположението му.</string>
     <string name="monitoring_description_do_body_vpn">Вие сте свързан с %1$s,с което се наблюдава мрежовата активност, включително имейли, приложения и уебсайтове.</string>
     <string name="monitoring_description_do_header_generic">Вашето устройство се управлява от %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s използва %2$s за да управлява вашето устройство.</string>
     <string name="monitoring_description_do_learn_more">Научете повече</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Вашата организация е инсталирала сертификат за достоверност във вашия служебен профил. Вашият защитен мрежов трафик може да бъде наблюдаван и променян.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Вашият служебен профил е свързан с %1$s, който може да наблюдава мрежовата активност, включително имейли, приложения и уебсайтове.</string>
     <string name="monitoring_description_management">"Вашето устройство се управлява от вашата организация. 
@@ -1112,6 +1141,7 @@ d MMMM"</string>
 
 Вие също така сте свързан и с VPN, при което се наблюдава мрежовата активност."</string>
     <string name="monitoring_description_vpn_settings">Отваряне на VPN Настройки</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA сертификати</string>
     <string name="monitoring_subtitle_network_logging">Логове на мрежата</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1126,6 +1156,7 @@ d MMMM"</string>
     <string name="nav_guide_message">Използвайте жестове за скриване и показване на софтуерните бутони.</string>
     <string name="nav_guide_ok">Настройки</string>
     <string name="nav_guide_title">Скрий софтуерните бутони</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Без да се задава</string>
     <string name="no_multi_window_app">Няма приложения, които да поддържат Разделен екран</string>
     <string name="no_notification_tips">Няма известия</string>
@@ -1139,6 +1170,7 @@ d MMMM"</string>
     <string name="notification_channel_controls_closed_accessibility">Настройките за известия за %1$s са затворени</string>
     <string name="notification_channel_controls_opened_accessibility">Настройките за известия за %1$s са отворени</string>
     <string name="notification_channel_disabled">Няма да получавате известия от тези категории повече.</string>
+    <string name="notification_channel_dnd">Режим Не безпокойте</string>
     <string name="notification_channel_general">Основни съобщения</string>
     <string name="notification_channel_location">Местоположение</string>
     <string name="notification_channel_screenbutton">Бутони</string>
@@ -1161,7 +1193,7 @@ d MMMM"</string>
     <string name="notification_low_battery_action_btn">Включи</string>
     <string name="notification_low_battery_need_charge">Батерията е слаба. Заредете устройството си.</string>
     <string name="notification_low_battery_open_save_mode">Включване Икономия на батерията</string>
-    <string name="notification_low_battery_title">Слаба батерия: %d%%</string>
+    <string name="notification_low_battery_title">По-малко от %d%% остават от заряда на батерията Ви</string>
     <string name="notification_manager">Управление на известията</string>
     <string name="notification_manager_des">Филтриране и управление на известията</string>
     <string name="notification_menu_accessibility">%1$s %2$s</string>
@@ -1278,12 +1310,17 @@ d MMMM"</string>
     <string name="power_remaining_more_than_subtext">Повече от %1$s остават (%2$s)</string>
     <string name="power_remaining_only_more_than_subtext">Повече от %1$s остават</string>
     <string name="power_remaining_settings_home_page">%1$s - %2$s</string>
+    <string name="power_save_ps_clean">Изчистване на кеша, когато устройството е заключено</string>
+    <string name="power_save_ps_close_setting">Изключете процесите на заден план (синхр, GPS) за да съхраните заряда на батерията</string>
+    <string name="power_save_ps_freeze">Замрази приложенията на заден план</string>
+    <string name="power_save_ps_limit">Ограничаване активността на системните приложения</string>
     <string name="preference_summary_default_combination">%1$s / %2$s</string>
     <string name="private_dns_mode_off">Изкл</string>
     <string name="private_dns_mode_opportunistic">Автоматичен</string>
     <string name="private_dns_mode_provider">Име на хоста на частния DNS доставчик</string>
     <string name="private_dns_mode_provider_failure">Не може да се свърже</string>
     <string name="private_dns_mode_provider_hostname_hint">Въведете името на хоста на DNS доставчик</string>
+    <string name="process_kernel_label">Android операционна система</string>
     <string name="profile_owned_footer">Профилът може да се наблюдава</string>
     <string name="prompt_danger">Опасно</string>
     <string name="prompt_detecting">Откриване</string>
@@ -1863,6 +1900,7 @@ d MMM"</string>
     <string name="wapi_psk_type_ascii">ASCII</string>
     <string name="wapi_psk_type_hex">Шестнадесетично</string>
     <string name="wapi_yes">Да</string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_publish_time">Актуализирано %1$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Капацитетът на точката за достъп е пълен</string>
     <string name="wifi_auto_sel_wapi_cert">Автоматичен избор</string>
@@ -1896,12 +1934,14 @@ d MMM"</string>
     <string name="wifi_security_none">Няма</string>
     <string name="wifi_security_owe">OWE</string>
     <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_sae">SAE</string>
     <string name="wifi_security_short_WAPI_CERT">WAPI CERT</string>
     <string name="wifi_security_short_WAPI_PSK">WAPI PSK</string>
     <string name="wifi_security_short_dpp">DPP</string>
     <string name="wifi_security_short_eap">802.1x</string>
     <string name="wifi_security_short_owe">OWE</string>
+    <string name="wifi_security_short_psk_generic">@string/wifi_security_short_wpa_wpa2</string>
     <string name="wifi_security_short_sae">SAE</string>
     <string name="wifi_security_short_wep">WEP</string>
     <string name="wifi_security_short_wpa">WPA</string>

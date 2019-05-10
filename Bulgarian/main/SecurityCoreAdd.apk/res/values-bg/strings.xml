@@ -56,6 +56,7 @@
     <string name="loading_space">Един момент…</string>
     <string name="private_space_setting">Управление</string>
     <string name="exit_private_space">Превключи</string>
+    <string name="kid_mode_label">Режим Дете</string>
     <string name="wating">Един момент…</string>
     <string name="Active">Активно</string>
     <string name="ok_button">OК</string>
@@ -161,6 +162,7 @@
     <string name="create_space_loading">Създаване на Второ пространство…</string>
     <string name="close_second_space">Изтриване на Второ работно място</string>
     <string name="close_second_space_success">Второто пространство е изтрито.</string>
+    <string name="close_kid_space_success">Детското пространство е изтрито</string>
     <string name="enable">Включване</string>
     <string name="disable">Изключване</string>
     <string name="PrivacyContactDes1">\"Контактите ще останат скрити. Съобщенията ще се показват само във Второ пространство.\"</string>
@@ -453,4 +455,6 @@
     <string name="button_touch">Поставете пръста си върху сензора</string>
     <string name="button_input_password">Въведете парола</string>
     <string name="master_clear_not_available">Фабричните настройки са ограничени от вашата компания.</string>
+    <string name="dual_animation">Анимация при стартиране</string>
+    <string name="dual_animation_description">Покажи анимация при стартиране на Клонирани приложения</string>
 </resources>

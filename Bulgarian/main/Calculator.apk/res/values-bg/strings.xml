@@ -3,7 +3,12 @@
     <string name="allow">Съгласен</string>
     <string name="app_name">Калкулатор</string>
     <string name="app_name_danfa">Mi Калкулатор</string>
+    <string name="app_notification_info">Калкулаторът работи във фонов режим</string>
     <string name="base_rate">Основен лихвен процент</string>
+    <string name="btn_float_window_alpha">Регулирай непрозрачност</string>
+    <string name="btn_float_window_back_to_app">Увеличи калкулатор</string>
+    <string name="btn_float_window_close">Затвори минимизиран калкулатор</string>
+    <string name="btn_float_window_resize">Преоразмеряване на минимизиран калкулатор</string>
     <string name="cal_convert_to_word_figure">Конвертирай валути</string>
     <string name="cal_copy">Копирай</string>
     <string name="cal_edit_mode">Корекция</string>
@@ -71,6 +76,7 @@
     <string name="extra_deduction_tips">Натиснете бутона в горния ъгъл на екрана, за да видите подробностите за удръжките.</string>
     <string name="extra_deduction_title">Допълнителни удръжки</string>
     <string name="factorialDesc">факториел</string>
+    <string name="float_window_guide_text">Тупнете тук, за да минимизирате калкулатора</string>
     <string name="fund" />
     <string name="fund_loan">Заем от фонда</string>
     <string name="further_education">По-нататъшно образование</string>
@@ -91,6 +97,7 @@
     <string name="golbal_search_calculator_setting">Калкулатор;Настройки на калкулатора;Настройки</string>
     <string name="golbal_search_path_calculator_setting">Системни приложения/Калкулатор/Настройки</string>
     <string name="help_content_desc">Помощ</string>
+    <string name="hint_floatwindow_alpha_guide_text">Тупнете, за да настроите прозрачността</string>
     <string name="home_loan">Лихва за ипотека</string>
     <string name="home_title_calculator">Калкулатор</string>
     <string name="house_rent">Наем</string>
@@ -569,6 +576,7 @@
     <string name="unit_yuan">CNY</string>
     <string name="updating">Актуализиране на калкулатор…</string>
     <string name="user_agreement">Потребителско споразумение</string>
+    <string name="view_float_window_move">Премести минимизиран калкулатор</string>
     <string name="voiceDesc">Гласови контроли</string>
     <string name="wf_word_figure">Валута</string>
     <string name="word_figure_big_unit_fen">分</string>
@@ -592,20 +600,15 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sБ</string>
     <string name="xiaomi_connect_download_manager_fail">Няма връзка с Изтегляния. Проверете дали това приложение има всички необходими разрешения и настройки > Инсталирани приложения.</string>
     <string name="xiaomi_external_storage_unavailable">Паметта не е достъпна. Проверете вашата SD карта.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sКБ</string>
+    <string name="xiaomi_megabytes_unit">%1$sМБ</string>
     <string name="xiaomi_update_dialog_message">"Представяне на версия%1$s
 Размер:%2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Представяне на версия%1$s
 Делта актуализация на размера:%2$s"</string>
     <string name="xiaomi_update_dialog_title">%1$s актуализация!</string>
     <string name="year" />
-    <string name="app_notification_info">Калкулаторът работи във фонов режим</string>
-    <string name="btn_float_window_alpha">Регулирай непрозрачност</string>
-    <string name="btn_float_window_back_to_app">Увеличи калкулатор</string>
-    <string name="btn_float_window_close">Затвори минимизиран калкулатор</string>
-    <string name="btn_float_window_resize">Преоразмеряване на минимизиран калкулатор</string>
-    <string name="float_window_guide_text">Тупнете тук, за да минимизирате калкулатора</string>
-    <string name="hint_floatwindow_alpha_guide_text">Тупнете, за да настроите прозрачността</string>
-    <string name="view_float_window_move">Премести минимизиран калкулатор</string>
 </resources>

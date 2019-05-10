@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Добави в работно място</string>
     <string name="activity_not_found">Приложението не е инсталирано на телефона Ви.</string>
     <string name="add_screen">Добави бутон за екрани</string>
@@ -110,9 +111,12 @@
     <string name="drag_single_item_name" />
     <string name="dual_app">Клонирани приложения</string>
     <string name="edit_folder_title">Редактиране на името на папка</string>
+    <string name="edit_mode_dual_app">Създайте клонирано приложение</string>
     <string name="edit_mode_group">Група</string>
+    <string name="edit_mode_group_error_cant_delete_system_apps">Не можете да деинсталирате системни приложения</string>
     <string name="edit_mode_group_error_full">Недостатъчно място</string>
     <string name="edit_mode_group_error_in_folder">Затворете папката, преди групиране на иконите</string>
+    <string name="edit_mode_group_error_nothing_be_selected">Първо изберете приложението</string>
     <string name="edit_mode_group_error_one_folder">Не може да се дублира папката с избраните икони</string>
     <string name="edit_mode_top_menu_finish">Готово</string>
     <string name="edit_mode_uninstall">Деинсталиране</string>
@@ -186,15 +190,22 @@
     <string name="guide_install_app_msg">Приложението не е инсталирано. Искате ли да го потърсите в Google Play?</string>
     <string name="guide_install_app_title">Инсталиране на приложение</string>
     <string name="guide_tips_editing_mode">Натиснете &amp; задръжте за да преместите джаджата</string>
+    <string name="home_gesture_content_center">Център със съдържание</string>
+    <string name="home_gesture_global_search">Търсене</string>
+    <string name="home_gesture_no_action">Няма действие</string>
+    <string name="home_gesture_notification_bar">Известия</string>
+    <string name="home_pull_down_action">Плъзнете с пръст надолу по Началния екран</string>
     <string name="home_screen">Начален екран</string>
+    <string name="home_slide_up_action">Плъзнете с пръст нагоре по Началния екран</string>
     <string name="icon_reorganize_channel">Подреди иконите</string>
     <string name="image_too_small_message">Оригиналното изображение не е достатъчно голямо.</string>
     <string name="install">Инсталиране</string>
     <string name="invalid_contact_shortcut">Невалиден пряк път</string>
     <string name="is_setting_wallpaper_message">Тапетът се настройва…</string>
     <string name="is_system_wallpaper_message">Не могат да се изтриват системни ресурси</string>
-    <string name="launcher_auto_fill_empty_title">Запълване на празните клетки</string>
     <string name="launcher_not_exist">Неочаквана грешка, върнете се в Начален екран и опитайте отново.</string>
+    <string name="launcher_pull_down_title">Плъзнете с пръст надолу по Началния екран</string>
+    <string name="launcher_slide_up_title">Плъзнете с пръст нагоре по Началния екран</string>
     <string name="launcher_sliding_up_gesture">Плъзнете нагоре по Началния екран, за да отворите търсене</string>
     <string name="launcher_title">Начален екран и Последни</string>
     <string name="like">Добави в любими</string>
@@ -210,7 +221,7 @@
     <string name="memory_clear_nothing_result">Няма нищо за почистване в кеша</string>
     <string name="memory_clear_result">%1$sБ почистени</string>
     <string name="menu_add">Добави</string>
-    <string name="menu_auto_fill">Запълване на празните клетки</string>
+    <string name="menu_auto_fill_of_uninstall">Запълване на клетки на деинсталирани приложения</string>
     <string name="menu_back_desktop">Обратно към началния екран</string>
     <string name="menu_cell_setting">Оформление на Начален екран</string>
     <string name="menu_customize">Настройки</string>
@@ -231,6 +242,7 @@
     <string name="menu_wallpaper">Тапет</string>
     <string name="menu_workspace_preview">Преглед на начален екран</string>
     <string name="mi_wallpaper">MIUI Теми</string>
+    <string name="minus_one_screen">Трезор за прилож</string>
     <string name="miui_screen_config_title">Настройки на Начален екран</string>
     <string name="mtzgadget_missing_text">Вече не се поддържа, добавете отново</string>
     <string name="multi_selecting_tips">За да преместите някое приложение задръжте пръст върху иконата му и го завлачете.</string>
@@ -356,16 +368,7 @@
     <string name="widget_global_search">Търсене</string>
     <string name="widget_quick_function">Бързи функции</string>
     <string name="widgets_preview_title">Добави джаджа</string>
-    <string name="edit_mode_dual_app">Създайте клонирано приложение</string>
-    <string name="edit_mode_group_error_cant_delete_system_apps">Не можете да деинсталирате системни приложения</string>
-    <string name="edit_mode_group_error_nothing_be_selected">Първо изберете приложението</string>
-    <string name="home_gesture_content_center">Център със съдържание</string>
-    <string name="home_gesture_global_search">Търсене</string>
-    <string name="home_gesture_no_action">Няма действие</string>
-    <string name="home_gesture_notification_bar">Известия</string>
-    <string name="home_pull_down_action">Плъзнете с пръст надолу по Началния екран</string>
-    <string name="home_slide_up_action">Плъзнете с пръст нагоре по Началния екран</string>
-    <string name="launcher_pull_down_title">Плъзнете с пръст надолу по Началния екран</string>
-    <string name="launcher_slide_up_title">Плъзнете с пръст нагоре по Началния екран</string>
-    <string name="minus_one_screen">Трезор за прилож</string>
+    <string name="privacy_thumbnail_blur_summary">Прегледи на приложението за замъгляване в Последни</string>
+    <string name="privacy_thumbnail_blur_title">Прегледи на приложението за замъгляване</string>
+    <string name="system_shortcuts_more_operation">Инф за приложение</string>
 </resources>

@@ -60,7 +60,7 @@
     <string name="agenda_month_empty_hint">Няма събития за този ден</string>
     <string name="agenda_tomorrow">УТРЕ, %1$s</string>
     <string name="agenda_view">Събития</string>
-    <string name="alarm_label">ОК</string>
+    <string name="alarm_label">Изключи</string>
     <string name="alert_reminder_divider">|</string>
     <string name="alert_reminder_expired">Изтекло</string>
     <string name="alert_title">Известия за календар</string>
@@ -102,6 +102,7 @@
     <string name="card_title_change">Допълнение</string>
     <string name="cards_language_hint">Някои карти може да не са достъпни на избрания език.</string>
     <string name="change_response_title">Промяна на отговора</string>
+    <string name="change_zodiac">Променете зодиакалния знак</string>
     <string name="click_to_share">Натиснете, за да споделите</string>
     <string name="close_alarm">Изключи</string>
     <string name="contacts_permission_desc">Влез в информацията за контакт</string>
@@ -134,6 +135,7 @@
     <string name="date_interval_text_to">До %1$s</string>
     <string name="date_jump_hint">Отиди директно на определена дата</string>
     <string name="date_jump_title">Отиди на дата</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_today">" (днес)"</string>
     <string name="day_view_new_event_hint">Ново събитие</string>
     <string name="default_reminder_mode">Напомняне по подразбиране</string>
@@ -145,7 +147,7 @@
     <string name="discard_label">Отказ</string>
     <string name="does_not_repeat">Еднократно събитие</string>
     <string name="edit_date_calculate_days_backward_error_hint">Не може да се пресметне напред</string>
-    <string name="edit_date_calculate_days_empty_hint">Въведете числото на дните</string>
+    <string name="edit_date_calculate_days_empty_hint">Въведете броя дни</string>
     <string name="edit_date_calculate_days_forward_error_hint">Не може да се пресметне назад</string>
     <string name="edit_event_all_day_label">Цял ден</string>
     <string name="edit_event_anniversary_name_empty_hint">Въведете име на събитието</string>
@@ -202,6 +204,7 @@
     <string name="event_view">Преглед на събитие</string>
     <string name="every_weekday">Всеки делник (Пон-Пт)</string>
     <string name="fb_birthday_failure">Неуспешен опит за импортиране на рождени дни от Facebook. Опитайте отново.</string>
+    <string name="fb_birthday_region_warning">Тази функция не е налична във вашия регион</string>
     <string name="fb_birthday_success">Рождени дни от Facebook са вмъкнати успешно</string>
     <string name="fb_calendar_account_name">Mi Локален календар</string>
     <string name="fb_calendar_display_name">Рождени дни на приятели от Facebook</string>
@@ -290,6 +293,7 @@
     <string name="month_view">Месец</string>
     <string name="monthly">Ежемесечно</string>
     <string name="monthly_on_day">Ежемесечно (същия ден)</string>
+    <string name="monthly_on_day_count">Ежемесечно (%1$s)</string>
     <string name="network_not_available">Няма връзка с мрежата</string>
     <string name="new_event_description">Ново</string>
     <string name="news">Новини</string>

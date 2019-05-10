@@ -23,6 +23,7 @@
     <string name="dialog_alert_title">Внимание</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Този видеоклип не е валиден за поточно предаване към това устройство.</string>
     <string name="selectTextMode">Избор на текст</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Икона за отпечатък</string>
     <string name="paste_as_plain_text">Поставяне като неформатиран текст</string>
     <string name="autofill">Автоматично попълване</string>
@@ -386,6 +387,7 @@
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Кодът за функцията се изпълни.</string>
     <string name="fcError">Има проблем с връзката или кодът за функцията е невалиден.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Намиране</string>
     <string name="find_next">Търсене на следващото</string>
     <string name="find_on_page">Намиране в страницата</string>
@@ -591,6 +593,7 @@
     <string name="kg_reordering_delete_drop_target_text">Премахване</string>
     <string name="kg_sim_pin_instructions">Въведете ПИН кода за SIM картата</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM картата се отключва…</string>
+    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Въведохте неправилно паролата си %1$d пъти. 
 
 Опитайте отново след %2$d секунди."</string>
@@ -615,10 +618,10 @@
     <string name="leave_accessibility_shortcut_on">Използване на пряк път</string>
     <string name="loading">Зарежда се...</string>
     <string name="locale_search_menu">Търсене</string>
-    <string name="lock_to_app_description">\"Фиксирането на екрана заключва дисплея в един изглед. За да го освободите, докоснете и задръжте едновременно бутона за връщане назад и този за общ преглед.\"</string>
-    <string name="lock_to_app_description_accessible">\"Фиксирането на екрана заключва дисплея в един изглед. За да го освободите, докоснете и задръжте бутона за общ преглед.\"</string>
-    <string name="lock_to_app_toast">За да освободите екрана, докоснете и задръжте едновременно бутона за връщане назад и този за общ преглед.</string>
-    <string name="lock_to_app_toast_accessible">За да освободите този екран, докоснете и задръжте бутона „Общ преглед“.</string>
+    <string name="lock_to_app_description">Фиксирането на екрана заключва дисплея в един изглед. За да го освободите, натиснете и задръжте бутон Начало и Захранване едновременно.</string>
+    <string name="lock_to_app_description_accessible">Фиксирането на екрана заключва дисплея в един изглед. За да го освободите, натиснете и задръжте бутон Начало и Захранване едновременно.</string>
+    <string name="lock_to_app_toast">За да освободите този екран, натиснете и задръжте бутона Начало + Захранване едновременно.</string>
+    <string name="lock_to_app_toast_accessible">За да освободите този екран, натиснете и задръжте бутона Начало + Захранване едновременно.</string>
     <string name="lock_to_app_unlock_password">Запитване за парола преди освобождаване</string>
     <string name="lock_to_app_unlock_pattern">Запитване за фигура за отключване преди освобождаване</string>
     <string name="lock_to_app_unlock_pin">Запитване за ПИН код преди освобождаване</string>
@@ -879,6 +882,7 @@
     <string name="notification_channel_wfc">Обаждания през Wi-Fi</string>
     <string name="notification_hidden_text">Ново известие</string>
     <string name="notification_listener_binding_label">Слушател на известия</string>
+    <string name="notification_messaging_title_template">„%1$s“: %2$s</string>
     <string name="notification_ranker_binding_label">Услуга за класифициране на известията</string>
     <string name="notification_reply_button_accessibility">Отговор</string>
     <string name="notification_title">Грешка при влизането за %1$s</string>
@@ -1424,11 +1428,11 @@
     <string name="system_error_wipe_data">Възникна вътрешен проблем с устройството ви. То може да е нестабилно, докато не възстановите фабричните настройки.</string>
     <string name="taking_remote_bugreport_notification_title">Сигналът за програмна грешка се извлича…</string>
     <string name="terabyteShort">ТБ</string>
-    <string name="tethered_notification_message">Tap to set up.</string>
-    <string name="tethered_notification_multi_device_message">%1$s connected devices</string>
-    <string name="tethered_notification_no_device_message">No connected device</string>
-    <string name="tethered_notification_one_device_message">%1$s connected device</string>
-    <string name="tethered_notification_title">Tethering or hotspot active</string>
+    <string name="tethered_notification_message">Чукнете за настройка.</string>
+    <string name="tethered_notification_multi_device_message">%1$s свързани устройства</string>
+    <string name="tethered_notification_no_device_message">Няма свързано устройство</string>
+    <string name="tethered_notification_one_device_message">%1$s свързано устройство</string>
+    <string name="tethered_notification_title">Активна е точка за достъп</string>
     <string name="textSelectionCABTitle">Избиране на текст</string>
     <string name="text_copied">Текстът е копиран в буферната памет.</string>
     <string name="time_of_day" formatted="false">%H:%M:%S</string>
@@ -1496,8 +1500,8 @@
     <string name="volume_dialog_ringer_guidance_silent">Обажданията и известията ще бъдат заглушени</string>
     <string name="volume_dialog_ringer_guidance_vibrate">При обаждания и известия устройството ще вибрира</string>
     <string name="volume_icon_description_bluetooth">Bluetooth</string>
-    <string name="volume_icon_description_incall">Обаждания</string>
-    <string name="volume_icon_description_media">Медиа</string>
+    <string name="volume_icon_description_incall">Повикване</string>
+    <string name="volume_icon_description_media">Медия</string>
     <string name="volume_icon_description_notification">Известия</string>
     <string name="volume_icon_description_ringer">Звънене</string>
     <string name="volume_music">Сила на звука</string>
@@ -1604,6 +1608,7 @@
     <string name="zen_mode_feature_name">Не безпокойте</string>
     <string name="zen_mode_forever">До изключване</string>
     <string name="zen_mode_forever_dnd">Докато не изключите „Не безпокойте“</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">До %1$s</string>
     <string name="zen_upgrade_notification_content">Докоснете, за да проверите какво е блокирано.</string>
     <string name="zen_upgrade_notification_title">Настройките за „Не безпокойте“ са променени</string>

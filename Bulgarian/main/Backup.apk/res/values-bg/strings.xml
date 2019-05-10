@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"\"Представяме версия %1$s
  Делта актуализация: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Хранилището не е на разположение, проверете картата памет.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMБ</string>
     <string name="xiaomi_connect_download_manager_fail">Не може да се стартира изтегляне. Уверете се, че мениджър изтегляния работи нормално.</string>
     <string name="app_name">Резервно копие</string>
     <string name="local_app_name">Резервно копие</string>
@@ -73,6 +76,7 @@
     <string name="sms_title">Съобщения</string>
     <string name="mms_title">MMS съобщения</string>
     <string name="wifi_title">Настройки на Wi-Fi</string>
+    <string name="phone_title">Настройки на телефона</string>
     <string name="note_title">Бележки</string>
     <string name="compute_backup_info">Получаване на информация……</string>
     <string name="compute_delete_contact_info">Търсене на контакти за изтриване…</string>
@@ -222,6 +226,7 @@
     <string name="restore_backup">Възстанови</string>
     <string name="enable_encrypt_description">Кодиране</string>
     <string name="disable_encrypt_description">Не кодирай</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Един момент…</string>
     <string name="state_mounting">Достъп до хранилището на рутера…</string>
     <string name="abort_backup_confirm">Резервното копие не е завършено! Да спре ли въпреки това?</string>
@@ -251,6 +256,7 @@
     <string name="err_pkg_not_exist">Не може да се открият приложения.</string>
     <string name="err_user_abort">Отменено от потребителя.</string>
     <string name="err_binder_died">Приложението спря неочаквано.</string>
+    <string name="err_no_gms">Несъвместима версия на приложението. Инсталирайте това приложение отделно</string>
     <string name="backup_is_running">Рез. копие на устройството</string>
     <string name="restore_is_running">Възстановяване на устройството</string>
     <string name="notif_backup_title">Архив на данни</string>
@@ -300,6 +306,7 @@
     <string name="trans_detail_qq_data">QQ данни (включително история на чата)</string>
     <string name="trans_detail_app_data_useless_tip">Вие можете да възстановите това от самото приложение, не е необходимо прехвърляне.</string>
     <string name="trans_detail_item_app_data_too_large_tip">Изглежда, че този елемент е твърде голям за прехвърляне.</string>
+    <string name="trans_detail_item_app_data_skip_data">Не може да се прехвърли информация или данни</string>
     <string name="trans_detail_item_app_data_selected_tip">Изберете съответните приложения както е необходимо.</string>
     <string name="trans_detail_list_footer">"1. Вие можете да изберете свои приложения, които да прехвърлите. 
 2. Ако изберете поне едно, то неговите данни също ще бъдат избрани. 
@@ -558,6 +565,7 @@ https://appleid.apple.com/#!&amp;page=signin за затваряне"</string>
 вие трябва да направите архив в iCloud."</string>
     <string name="list_footer_tip_title">Съвети:</string>
     <string name="import_tip_summary">Поради проблеми със съвместимостта, вие можете да прехвърлите само частична информация от iOS устройството. Уверете се, че сте направили резервно копие в iCloud, преди да започнете прехвърлянето.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Импортирай</string>
     <string name="select_empty">Изберете елементи за импортиране</string>
     <string name="select_item_summary_wait">Изчаква се…</string>
