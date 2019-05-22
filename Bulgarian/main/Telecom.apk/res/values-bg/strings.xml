@@ -370,7 +370,6 @@
     <string name="private_dns_mode_provider">Име на хоста на доставчика на частния DNS</string>
     <string name="private_dns_mode_provider_failure">Не можа да се установи връзка</string>
     <string name="private_dns_mode_provider_hostname_hint">Въведете името на хоста на DNS доставчика</string>
-    <string name="process_kernel_label">Android (ОС)</string>
     <string name="remaining_length_format">Оставащо време: %1$s</string>
     <string name="respond_via_sms_canned_response_1">Сега не мога да говоря. По-късно?</string>
     <string name="respond_via_sms_canned_response_2">Ще ви се обадя веднага обратно.</string>
