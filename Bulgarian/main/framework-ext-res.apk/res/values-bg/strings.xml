@@ -206,4 +206,6 @@
     <string name="popup_camera_calibrate_success">Калибрирането е успешно. Може да отворите камерата сега.</string>
     <string name="popup_camera_calibrate_failed">Не може да се калибрира</string>
     <string name="popup_camera_using_camera_background">%sизползва селфи камерата</string>
+    <string name="sim_lock_non_ais_msg">Вашата SIM карта не е напълно съвместима с този телефон, защото не сте се съгласили с Условията за ползване на вашия абонамент. Ако имате въпроси или се нуждаете от информация, моля, свържете се с отдел обслужване на Xiaomi центъра, от който сте закупили Вашето устройство.</string>
+    <string name="sim_lock_now_ais_title">SIM%1$d</string>
 </resources>

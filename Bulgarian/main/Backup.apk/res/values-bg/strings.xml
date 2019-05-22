@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"\"Представяме версия %1$s
  Делта актуализация: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Хранилището не е на разположение, проверете картата памет.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMБ</string>
     <string name="xiaomi_connect_download_manager_fail">Не може да се стартира изтегляне. Уверете се, че мениджър изтегляния работи нормално.</string>
     <string name="app_name">Резервно копие</string>
     <string name="local_app_name">Резервно копие</string>
@@ -223,6 +226,7 @@
     <string name="restore_backup">Възстанови</string>
     <string name="enable_encrypt_description">Кодиране</string>
     <string name="disable_encrypt_description">Не кодирай</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Един момент…</string>
     <string name="state_mounting">Достъп до хранилището на рутера…</string>
     <string name="abort_backup_confirm">Резервното копие не е завършено! Да спре ли въпреки това?</string>
@@ -252,7 +256,7 @@
     <string name="err_pkg_not_exist">Не може да се открият приложения.</string>
     <string name="err_user_abort">Отменено от потребителя.</string>
     <string name="err_binder_died">Приложението спря неочаквано.</string>
-    <string name="err_no_gms">Несъвместима версия на приложението. Инсталирайте това приложение отделно</string>
+    <string name="err_no_gms">Несъвместима версия на приложението. Инсталирайте това приложение отделно.</string>
     <string name="backup_is_running">Рез. копие на устройството</string>
     <string name="restore_is_running">Възстановяване на устройството</string>
     <string name="notif_backup_title">Архив на данни</string>
@@ -561,6 +565,7 @@ https://appleid.apple.com/#!&amp;page=signin за затваряне"</string>
 вие трябва да направите архив в iCloud."</string>
     <string name="list_footer_tip_title">Съвети:</string>
     <string name="import_tip_summary">Поради проблеми със съвместимостта, вие можете да прехвърлите само частична информация от iOS устройството. Уверете се, че сте направили резервно копие в iCloud, преди да започнете прехвърлянето.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Импортирай</string>
     <string name="select_empty">Изберете елементи за импортиране</string>
     <string name="select_item_summary_wait">Изчаква се…</string>
@@ -630,4 +635,11 @@ https://appleid.apple.com/#!&amp;page=signin за затваряне"</string>
     <string name="usb_trans_native_no_space">Само %s са достъпни на вашето устройство. Освободете място или прехвърлете малко неща.</string>
     <string name="usb_trans_old_phone_low_space_title">Няма достатъчно място</string>
     <string name="usb_trans_old_phone_low_space_msg">Необходимо е друго място за съхранение на вашите резервни копия. Тук няма достатъчно място за да продължи прехвърлянето. Вие можете да изтриете непотребните файлове чрез приложението Оптимизация или да прехвърлите само важните неща.</string>
+    <string name="dialog_app_upgrade_message">Достъпна е нова версия на Mi трансфер. Ще актуализирате ли Mi трансфер сега?</string>
+    <string name="dialog_app_upgrade_exit">Изход</string>
+    <string name="dialog_app_upgrade_download">Актуализиране</string>
+    <string name="dialog_backup_password_change_machine_tips">"You won't be able to transfer password-protected backups. Turn off backup password before using Mi Mover."</string>
+    <string name="dialog_backup_password_backup_tips">"Can't back up items when backup password is on. Turn off backup password."</string>
+    <string name="dialog_backup_password_cancel">Cancel</string>
+    <string name="dialog_backup_password_to_settings">Settings</string>
 </resources>

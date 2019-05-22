@@ -80,6 +80,10 @@
         <item quantity="other">%d клипа</item>
         <item quantity="one">%d клип</item>
     </plurals>
+    <plurals name="collage_select_image_dynamic_range">
+        <item quantity="other">Колажите могат да съдържат 1-%d снимки</item>
+        <item quantity="one">Колажите могат да съдържат 1-%d снимка</item>
+    </plurals>
     <plurals name="creation_max_image">
         <item quantity="other">Изберете до %d снимки</item>
         <item quantity="one">Изберете до %d снимка</item>

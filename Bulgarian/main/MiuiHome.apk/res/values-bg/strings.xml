@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_add_to_workspace">Добави в работно място</string>
     <string name="activity_not_found">Приложението не е инсталирано на телефона Ви.</string>
     <string name="add_screen">Добави бутон за екрани</string>
@@ -367,6 +368,8 @@
     <string name="widget_global_search">Търсене</string>
     <string name="widget_quick_function">Бързи функции</string>
     <string name="widgets_preview_title">Добави джаджа</string>
+    <string name="activity_not_unlocked">Изчакайте устройството ви да се рестартира напълно, преди да отваряте приложения</string>
+    <string name="default_folder_title_meitu">Meitu</string>
     <string name="privacy_thumbnail_blur_summary">Прегледи на приложението за замъгляване в Последни</string>
     <string name="privacy_thumbnail_blur_title">Прегледи на приложението за замъгляване</string>
     <string name="system_shortcuts_more_operation">Инф за приложение</string>

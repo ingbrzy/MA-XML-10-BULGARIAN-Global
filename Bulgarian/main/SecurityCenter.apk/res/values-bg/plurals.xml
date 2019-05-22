@@ -132,6 +132,14 @@
         <item quantity="other">Добавени %d минути</item>
         <item quantity="one">Добавена %d минута</item>
     </plurals>
+    <plurals name="notification_battery_scan_consume_abnormal_title_split">
+        <item quantity="other">%2$d apps, including %1$s, are draining battery</item>
+        <item quantity="one">%2$d app, including %1$s, is draining battery</item>
+    </plurals>
+    <plurals name="pc_abnormal_scan_result_model_result_title">
+        <item quantity="other">%d apps are draining battery</item>
+        <item quantity="one">%d app is draining battery</item>
+    </plurals>
     <plurals name="people">
         <item quantity="other">Изтеглено от %1$d човека</item>
         <item quantity="one">Изтеглено от %1$d човек</item>
@@ -367,6 +375,10 @@
     <plurals name="gb_signed_days_sum">
         <item quantity="other">Регистриран %d дни подред</item>
         <item quantity="one">Регистриран %d път</item>
+    </plurals>
+    <plurals name="function_shield_num">
+        <item quantity="other">%d услуги</item>
+        <item quantity="one">%d услуга</item>
     </plurals>
     <plurals name="hide_txt_hint_with_blank_2">
         <item quantity="other">    +%1$d повече знаци</item>
