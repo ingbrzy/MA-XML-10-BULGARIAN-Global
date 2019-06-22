@@ -64,6 +64,7 @@
     <string name="alert_reminder_divider">|</string>
     <string name="alert_reminder_expired">Изтекло</string>
     <string name="alert_title">Известия за календар</string>
+    <string name="all_events">Всички събития</string>
     <string name="anniversary_event_title">Годишнина: %1$s</string>
     <string name="anniversary_secondary_tag">Годишнина</string>
     <string name="app_label">Календар</string>
@@ -135,6 +136,7 @@
     <string name="date_interval_text_to">До %1$s</string>
     <string name="date_jump_hint">Отиди директно на определена дата</string>
     <string name="date_jump_title">Отиди на дата</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_today">" (днес)"</string>
     <string name="day_view_new_event_hint">Ново събитие</string>
     <string name="default_reminder_mode">Напомняне по подразбиране</string>
@@ -344,6 +346,7 @@
     <string name="preferences_default_reminder_title">Време за напомняне по подразбиране</string>
     <string name="preferences_home_tz_title">Домашна часова зона</string>
     <string name="preferences_notification_ringtone_title">Мелодия</string>
+    <string name="preferences_show_indic_date_title">Покажи индийски календар</string>
     <string name="preferences_title">Настройки</string>
     <string name="preferences_use_home_tz_descrip">Показва календари и времена на събития в домашния часови пояс, когато пътувате</string>
     <string name="preferences_use_home_tz_title">Използвай домашната часова зона</string>
@@ -403,10 +406,12 @@
     <string name="setting_others">Други</string>
     <string name="setting_title_about">Относно</string>
     <string name="setting_title_holiday_display">Покажи празници</string>
+    <string name="setting_title_policy">Политика за поверителност</string>
     <string name="share_image">Споделяне</string>
     <string name="share_image_label">Споделете чрез</string>
     <string name="share_title">Споделяне</string>
     <string name="show_day_view">Покажи ден</string>
+    <string name="show_indic_date_summary">Индийският календар е наличен, когато един от езиците на Индия е заложен като системен език</string>
     <string name="start_date_calculate">Пресметни</string>
     <string name="storage_permission_denied">Първо позволете достъп до хранилището</string>
     <string name="subscribe_card">Абонирайте се сега</string>

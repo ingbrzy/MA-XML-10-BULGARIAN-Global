@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
     <string name="search_menu_title">Търсене</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="add_alarm">Добавяне будилник</string>
     <string name="add_clock">Добави часова зона</string>
     <string name="add_timezone_title">Добави часова зона</string>
@@ -108,7 +109,9 @@
     <string name="hour_unit">ч</string>
     <string name="install_weather_app_error">Приложението не можа да се зареди</string>
     <string name="install_weather_app_loading">Един момент…</string>
-    <string name="invalid_time">Невалидно име: %3$s %1$d: %2$d</string>
+    <string name="invalid_time">"Невалидно име:
+%3$s %1$d:
+%2$d "</string>
     <string name="invalid_timer_length">Продължителността на таймера е невалидна</string>
     <string name="keep_screen_on">Не изключвай екрана</string>
     <string name="korea_permission_calendar">Календар</string>
@@ -195,11 +198,15 @@
     <string name="setting_alarm_arriving_summary">Изпращане на известие преди аларма</string>
     <string name="setting_alarm_arriving_title">Известие преди аларма</string>
     <string name="settings">Настройки</string>
+    <string name="shortcut_new_alarm">Set alarm</string>
+    <string name="shortcut_start_timer">Start timer</string>
+    <string name="shortcut_stop_watch">Start stopwatch</string>
     <string name="shut_down_keep_screen">Екранът няма да се съхранява</string>
     <string name="shutdown_alarm_disable_summary">Алармата няма да се изключи, когато изключите устройството</string>
     <string name="shutdown_alarm_enable_summary">Алармата ще се изключи, ако е настроена за най-малко 5 минути след изключване на устройството</string>
     <string name="shutdown_alarm_title">Включване на телефона</string>
     <string name="silent_alarm_summary">Без звук</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Изключи еднократно на %s</string>
     <string name="slider_text">Плъзнете нагоре за да изключите</string>
     <string name="snooze_confirm_cancel">Спри аларма</string>
@@ -218,6 +225,7 @@
     <string name="start_up">Старт</string>
     <string name="stopwatch_lap_empty_text">Няма обиколки</string>
     <string name="stopwatch_title">Хронометър</string>
+    <string name="symbol_colon">:</string>
     <string name="system_time_setting">Настройте време</string>
     <string name="system_time_settings_category_title">Настройки за часовник</string>
     <string name="temperature_unit">℃</string>
@@ -271,6 +279,7 @@
     <string name="turn_off_this_repeat_alarm">Изключи повтарянето на този будилник</string>
     <string name="upcoming_alarm">%s Предстоящ будилник</string>
     <string name="upcoming_alarm_hint">Може да изкл алармата предварително</string>
+    <string name="update_notification_info">Актуализиране на данни във фонов режим…</string>
     <string name="user_agreement">Потребителско споразумение</string>
     <string name="vibrate_pref_summary">Вибриране при будилник</string>
     <string name="vibrate_when_ringing">Вибриране при звънене</string>

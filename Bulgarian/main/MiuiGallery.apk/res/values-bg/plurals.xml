@@ -72,6 +72,18 @@
         <item quantity="other">%1$d снимки и клипове</item>
         <item quantity="one">%1$d снимка или клип</item>
     </plurals>
+    <plurals name="burst_image_download_item_title_count">
+        <item quantity="other">%d снимки</item>
+        <item quantity="one">%d снимка</item>
+    </plurals>
+    <plurals name="burst_save_confirm_dialog_message">
+        <item quantity="other">Съхрани %d избрани снимки и изтрий останалите?</item>
+        <item quantity="one">Съхрани %d избрана снимка и изтрий останалите?</item>
+    </plurals>
+    <plurals name="burst_save_selected">
+        <item quantity="other">Съхрани %d избрани снимки</item>
+        <item quantity="one">Съхрани %d избрана снимка</item>
+    </plurals>
     <plurals name="cloud_storage_photo_num">
         <item quantity="other">%d снимки</item>
         <item quantity="one">%d снимка</item>
@@ -91,6 +103,18 @@
     <plurals name="custom_select_title_items_selected">
         <item quantity="other">Избрани %d елементи</item>
         <item quantity="one">Избран %d елемент</item>
+    </plurals>
+    <plurals name="delete_burst_photo_from_all_devices_and_cloud_msg">
+        <item quantity="other">Изтрийте %d серийни заснемания от Mi Cloud и всички синхронизирани устройства?</item>
+        <item quantity="one">Изтрийте %d серийно заснемане от Mi Cloud и всички синхронизирани устройства?</item>
+    </plurals>
+    <plurals name="delete_burst_photo_from_local">
+        <item quantity="other">Изтрийте %d серийни заснемания?</item>
+        <item quantity="one">Изтрийте %d серийно заснемане?</item>
+    </plurals>
+    <plurals name="delete_burst_photo_from_this_album_and_cloud_msg">
+        <item quantity="other">Изтрийте %d серийни заснемания от Mi Cloud и това устройство?</item>
+        <item quantity="one">Изтрийте %d серийно заснемане от Mi Cloud и това устройство?</item>
     </plurals>
     <plurals name="delete_media_from_all_devices_and_cloud_msg">
         <item quantity="other">Изтрий %d елементи от всички устройства и Mi Облак?</item>
@@ -115,6 +139,10 @@
     <plurals name="delete_photo_from_this_album_and_cloud_msg">
         <item quantity="other">Изтриване на %d снимки от този албум и Mi Облак?</item>
         <item quantity="one">Изтриване на снимката от този албум и Mi Облак?</item>
+    </plurals>
+    <plurals name="delete_third_party_burst_photo">
+        <item quantity="other">Изтрийте %d серийни заснемания от устройството си?</item>
+        <item quantity="one">Изтрийте %d серийно заснемане от устройството си?</item>
     </plurals>
     <plurals name="delete_video_from_all_devices_and_cloud_msg">
         <item quantity="other">Изтриване на %d видеоклипа от всички устройства и Mi Облак?</item>

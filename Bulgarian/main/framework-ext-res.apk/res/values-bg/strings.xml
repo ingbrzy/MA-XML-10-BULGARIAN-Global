@@ -42,7 +42,6 @@
     <string name="auto_start_warning_title">Разрешавате ли автостарт на %s за в бъдеще?</string>
     <string name="auto_start_warning_allow">Разреши</string>
     <string name="auto_start_warning_deny">Откажи</string>
-    <string name="call_record_sample_prefix_miui">Разговор</string>
     <string name="call_record_or">" или "</string>
     <string name="caller_info_name_delimiter">" или "</string>
     <string name="first_back_long_press_message">"\"Продължителното натискане на бутон Назад да затваря процесите и фоновите услуги на текущото приложение.
@@ -200,6 +199,7 @@
     <string name="popup_camera_front_failed">Не може да се отвори селфи камерата. Опитайте отново.</string>
     <string name="takeback_camera_front_failed">Не може да се затвори селфи камерата. Опитайте отново.</string>
     <string name="stop_operate_camera_frequently">Вие стартирате предната камера твърде често.</string>
+    <string name="popup_camera_front_when_use">Приложението Камера трябва да отвори отново предната камера. Да я отвори ли сега?</string>
     <string name="popup_camera_popup_falied_times_calibrate">Неуспешен опит за отваряне на селфи камерата многократно. Опитайте да калибрирате камерата.</string>
     <string name="popup_camera_takeback_falied_times_calibrate">Неуспешен опит за заттваряне на селфи камерата многократно. Опитайте да калибрирате камерата.</string>
     <string name="popup_camera_calibrate_now">Калибриране</string>

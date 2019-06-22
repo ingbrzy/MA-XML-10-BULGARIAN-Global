@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="action_firewall_setting">Антиспам</string>
     <string name="activity_not_found">Няма приложение, което поддържа това действие</string>
     <string name="activity_not_found_uri">Не е открита програма за това действие</string>
@@ -99,16 +98,7 @@
     <string name="cm_privacy_dialog_tips">Вашият доставчик предоставя услугата смарт съобщения. Съобщения трябва да се свърже с интернет и да получи достъп до Вашето местоположение, за да предостави тези услуги. Вие трябва да се съгласите с %1s на Вашия доставчик преди да започнете да използвате тези услуги. Съгласявате ли се?</string>
     <string name="cm_privacy_dialog_title">Внимание</string>
     <string name="cmcc_privacy">Споразумение за поверителност на доставчик China Mobile</string>
-    <string name="complain_input_number">Въведете телефоненния си номер</string>
-    <string name="complain_jump">Пропускане</string>
     <string name="complain_message_title">Докладвай</string>
-    <string name="complain_ok">OК</string>
-    <string name="complain_phone_number">Телефонен номер (по избор)</string>
-    <string name="complain_reason">Защо докладвате това съобщение?</string>
-    <string name="complain_success">Благодарим ви за обратната връзка. Ще ни помогне да направим Messaging по-добър!</string>
-    <string name="complain_tips">"Съдържанието на най-скорошното съобщение, което докладвате, ще бъде качено на нашите сървъри, заедно с телефонния номер, който предоставяте. Нашите доставчици ще прегледат докладваното съобщение.
-"</string>
-    <string name="complain_upload">Оплакването е подадено</string>
     <string name="compressing">Снимката е прекалено голяма. Компресиране…</string>
     <string name="confirm">ОК</string>
     <string name="confirm_add_blacklist_dialog_dspt">Ще добавите ли номера към списъка с блокирани?</string>
@@ -173,8 +163,8 @@
     <string name="dialog_message_mx">Mi съобщение Ви позволява да изпращате съобщения до други MIUI потребители без допълнителни такси. За активиране на Mi съобщение трябва да изпратите SMS. Вашият оператор ще Ви таксува за това съобщение. Вие трябва да се съгласите с нашите %1$s и %2$s преди да използвате Mi съобщение.</string>
     <string name="dialog_message_networking">Съобщения трябва да използва Жълти страници, за да може да предостави разпознаване на изпращача. Съобщения и жълти страници трябва да се свържат с интернет и да имат достъп до Вашето местоположение, за да работят нормално. Съгласявате ли се?</string>
     <string name="dialog_message_rcs">Съобщенията на China Mobile Ви позволяват да изпращате съобщения до други потребители на China Mobile в континенталната част на Китай без допълнителни такси. Вие трябва да се съгласите с нашите %1$s и преди да използвате Съобщенията на China Mobile.</string>
-    <string name="dialog_sim_locked_confirm">OK</string>
-    <string name="dialog_sim_locked_message">"Your SIM card isn't fully operational with this phone because it doesn't comply with the terms and conditions of your subscription. If you have any questions or need more information about this matter, please contact Xiaomi service centers or the store that sold products to you."</string>
+    <string name="dialog_sim_locked_confirm">OК</string>
+    <string name="dialog_sim_locked_message">Вашата SIM карта не работи добре с този телефон, защото то не е съобразена с правилата и условията на вашия абонамент. Ако имате някакви въпроси или нужда от повече информация по този въпрос, моля свържете се със сервизните центрове на Xiaomi или магазина, който ви е продал продукта.</string>
     <string name="dialog_title_fake_cell_detect_error">Корекция</string>
     <string name="dialog_title_mx_rcs">Mi Съобщение</string>
     <string name="dialog_title_networking">Правила и условия</string>
@@ -231,6 +221,7 @@
     <string name="file_size">Размер:</string>
     <string name="file_title">Име:</string>
     <string name="file_width_height">Размер:</string>
+    <string name="flatshow_page_no">%1$d</string>
     <string name="force_touch_new_message_title">Ново съобщение</string>
     <string name="forward_from">Препратено от:</string>
     <string name="forward_message_select_title">Съобщение за препращане</string>
@@ -685,6 +676,7 @@
     <string name="send_signature_confirm_dialog_title">Изпрати подпис</string>
     <string name="send_sms">Изпрати съобщение</string>
     <string name="send_to">До:</string>
+    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Изпратено в: %1s</string>
     <string name="sent_label">"Изпратени: "</string>
     <string name="service_message_not_found">Съобщението е изтекло или не е достъпно</string>
@@ -733,6 +725,7 @@
     <string name="sp_mark_as_read_menu_title">Маркирай прочетено</string>
     <string name="sqlite_disk_full">Мястото за съхранение на устройството ви е пълно.</string>
     <string name="sqlite_low_memory">Няма достатъчно място в хранилището</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_failed">Неуспешно</string>
     <string name="status_label">Статус:</string>
     <string name="status_pending">Изчакващо</string>

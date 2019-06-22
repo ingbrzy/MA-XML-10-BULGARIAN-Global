@@ -36,6 +36,22 @@
         <item quantity="other">"&lt;font color='#20a7ff'>%1$s&lt;/font> хора са гласували"</item>
         <item quantity="one">"&lt;font color='#20a7ff'>%1$s&lt;/font> човек е гласувал"</item>
     </plurals>
+    <plurals name="tts_report_temperature_high_centigrade">
+        <item quantity="other">Най-висока температура: %1$s градуса по Целзий</item>
+        <item quantity="one">Най-висока температура: %1$s градус по Целзий</item>
+    </plurals>
+    <plurals name="tts_report_temperature_high_fahrenheit">
+        <item quantity="other">Най-висока температура: %1$s градуса по Фаренхайт</item>
+        <item quantity="one">Най-висока температура: %1$s градус по Фаренхайт</item>
+    </plurals>
+    <plurals name="tts_report_temperature_low_centigrade">
+        <item quantity="other">Най-ниска температура: %1$s градуса по Целзий</item>
+        <item quantity="one">Най-ниска температура: %1$s градус по Целзий</item>
+    </plurals>
+    <plurals name="tts_report_temperature_low_fahrenheit">
+        <item quantity="other">Най-ниска температура: %1$s градуса по Фаренхайт</item>
+        <item quantity="one">Най-ниска температура: %1$s градус по Фаренхайт</item>
+    </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Ясно</item>
         <item quantity="one">Слънчево</item>

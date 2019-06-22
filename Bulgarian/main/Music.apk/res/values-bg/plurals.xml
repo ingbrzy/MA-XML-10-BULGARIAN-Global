@@ -48,6 +48,10 @@
         <item quantity="other">%d коментари</item>
         <item quantity="one">%d коментар</item>
     </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">Преди %d дни</item>
+        <item quantity="one">Преди %d ден</item>
+    </plurals>
     <plurals name="dialog_confirm_delete_downloads_message">
         <item quantity="other">Изтриване на %d елементи?</item>
         <item quantity="one">Изтриване на %d елемент?</item>

@@ -2,6 +2,7 @@
 <resources>
     <string name="action_add_to_workspace">Добави в работно място</string>
     <string name="activity_not_found">Приложението не е инсталирано на телефона Ви.</string>
+    <string name="activity_not_unlocked">Изчакайте устройството ви да се рестартира напълно, преди да отваряте приложения</string>
     <string name="add_screen">Добави бутон за екрани</string>
     <string name="announce_for_app_move_in_folder">Преместено на позиция %1$d в папката</string>
     <string name="announce_for_checked">%1$s, проверени</string>
@@ -30,9 +31,11 @@
     <string name="announce_for_open_default_preview">Отворени настройки по подразбиране за Начален екран</string>
     <string name="announce_for_open_folder">Отворена папка %1$s</string>
     <string name="announce_for_open_launcher_menu">Отворено меню</string>
+    <string name="announce_for_search_bar">Лента за търсене</string>
     <string name="announce_for_show_uninstall_dialog">Появи се диалог за деинсталиране. Отменете или потвърдете.</string>
     <string name="announce_for_unchecked">%1$s，непроверени</string>
     <string name="announce_for_widget_span">Ширина %1$d, височина %2$d</string>
+    <string name="announce_for_xiaoai">Mi AI</string>
     <string name="app_already_exist">Приложението вече съществува</string>
     <string name="app_being_backup_message">Приложението е архивирано.</string>
     <string name="app_being_restored_message">Приложението бе възстановено</string>
@@ -92,6 +95,7 @@
     <string name="defalut_launcher_title">Стартер по подразбиране</string>
     <string name="default_folder_title_claro">Claro</string>
     <string name="default_folder_title_game">Игри</string>
+    <string name="default_folder_title_meitu">Meitu приложения</string>
     <string name="default_folder_title_microsoft">Microsoft</string>
     <string name="default_folder_title_recommend">Още приложения</string>
     <string name="default_folder_title_security">Безопасност</string>
@@ -288,6 +292,8 @@
     <string name="preferences_general_title">Основни настройки</string>
     <string name="preferences_title">Настройка на MIUI Launcher</string>
     <string name="preferred_app_settings_not_selected">Не е избрано</string>
+    <string name="privacy_thumbnail_blur_summary">Прегледи на приложението за замъгляване в Последни</string>
+    <string name="privacy_thumbnail_blur_title">Прегледи на приложението за замъгляване</string>
     <string name="quick_app">Бързи приложения</string>
     <string name="recents_config_title">Скорошни</string>
     <string name="recommend_apk_size_and_desc">%1$dМБ | %2$s</string>
@@ -315,6 +321,9 @@
     <string name="setting_wallpaper_tip">Преместване или уголемяване</string>
     <string name="settings">Настройки</string>
     <string name="settings_shortcut">Настройки</string>
+    <string name="shake_to_align_icons">Разтърсете устройството, за да запълните празните клетки с икони</string>
+    <string name="shake_to_align_icons_summary">Разтърсете устройството си, докато сте в режим редакция, за да запълните празните клетки с икони автоматично</string>
+    <string name="shake_to_align_icons_title">Разтърсете, за да запълните празните клетки</string>
     <string name="share">Сподели</string>
     <string name="show_all">Покажи всички</string>
     <string name="show_mem_info_title">Покажи съст. на рам памет</string>
@@ -324,11 +333,13 @@
     <string name="sort_by_not_defined">Не сортирай</string>
     <string name="start_activity_failed">Приложението не успя да стартира.</string>
     <string name="starting_preset_app">Стартиране</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_downloaded">изтеглено</string>
     <string name="status_downloading">изтегля се</string>
     <string name="status_installing">инсталира се</string>
     <string name="status_paused">на пауза</string>
     <string name="status_pending">изчаква се</string>
+    <string name="system_shortcuts_more_operation">Инф за приложение</string>
     <string name="title_jeejen">Jeejen Начален екран</string>
     <string name="title_select_live_folder">Избери папка</string>
     <string name="title_select_shortcut">Избери пряк път</string>
@@ -367,9 +378,4 @@
     <string name="widget_global_search">Търсене</string>
     <string name="widget_quick_function">Бързи функции</string>
     <string name="widgets_preview_title">Добави джаджа</string>
-    <string name="activity_not_unlocked">Изчакайте устройството ви да се рестартира напълно, преди да отваряте приложения</string>
-    <string name="default_folder_title_meitu">Meitu</string>
-    <string name="privacy_thumbnail_blur_summary">Прегледи на приложението за замъгляване в Последни</string>
-    <string name="privacy_thumbnail_blur_title">Прегледи на приложението за замъгляване</string>
-    <string name="system_shortcuts_more_operation">Инф за приложение</string>
 </resources>

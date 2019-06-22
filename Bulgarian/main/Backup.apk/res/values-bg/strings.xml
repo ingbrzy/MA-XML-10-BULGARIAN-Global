@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"\"Представяме версия %1$s
  Делта актуализация: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Хранилището не е на разположение, проверете картата памет.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMБ</string>
     <string name="xiaomi_connect_download_manager_fail">Не може да се стартира изтегляне. Уверете се, че мениджър изтегляния работи нормално.</string>
     <string name="app_name">Резервно копие</string>
     <string name="local_app_name">Резервно копие</string>
@@ -46,6 +49,7 @@
     <string name="restore_launcher_layout_hit">Възстановяване настройките на Launcher-а</string>
     <string name="settings_summary">Настройки за телефон и съобщения</string>
     <string name="camera_summary">Настройки на камерата (без снимките)</string>
+    <string name="gallery_summary">Настройки на галерията (без снимките)</string>
     <string name="account_summary">Архивиране на данните от Google Профил, Mi Профил и др</string>
     <string name="cloud_app_name">Рез. копие в Mi Cloud</string>
     <string name="cloud_home_title">Mi Cloud</string>
@@ -223,6 +227,7 @@
     <string name="restore_backup">Възстанови</string>
     <string name="enable_encrypt_description">Кодиране</string>
     <string name="disable_encrypt_description">Не кодирай</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Един момент…</string>
     <string name="state_mounting">Достъп до хранилището на рутера…</string>
     <string name="abort_backup_confirm">Резервното копие не е завършено! Да спре ли въпреки това?</string>
@@ -231,6 +236,7 @@
     <string name="feature_title_contacts">Контакти</string>
     <string name="feature_title_sms">Съобщения</string>
     <string name="feature_title_mms">MMS</string>
+    <string name="feature_title_mms_setting">Настройки на съобщения</string>
     <string name="feature_title_account">Профил</string>
     <string name="feature_title_antispam">Списък блокирани</string>
     <string name="summary_err_backup_encrypting">Впишете се в Mi профила си.</string>
@@ -388,9 +394,10 @@
     <string name="button_clean_garbage">Освободи място</string>
     <string name="button_quit">Изход</string>
     <string name="soft_ap_creating">Създава се гореща точка…</string>
-    <string name="wait_link">"Свържете Вашето старо устройство към тази гореща точка.
- Не напускайте тази страница, докато връзката не се осъществи."</string>
-    <string name="old_way">Можете да се свържете чрез използване на QR код. Чукнете, за да генерирате кода.</string>
+    <string name="wait_link">"Отворете Mi Трансфер на старото устройство, 
+натиснете \"Аз съм изпращач\" и изберете мрежа за връзка. 
+Не затваряйте страницата преди връзката да се осъществи."</string>
+    <string name="old_way">Вие може да създадете QR код на Вашето ново устройство и да го сканирате със старото си устройство.</string>
     <string name="soft_ap_create_failed">Не може да се създаде гореща точка</string>
     <string name="scan_soft_ap_label">Свържете се към старото устройство</string>
     <string name="scan_soft_ap">Търсене на ново устройство…</string>
@@ -561,6 +568,7 @@ https://appleid.apple.com/#!&amp;page=signin за затваряне"</string>
 вие трябва да направите архив в iCloud."</string>
     <string name="list_footer_tip_title">Съвети:</string>
     <string name="import_tip_summary">Поради проблеми със съвместимостта, вие можете да прехвърлите само частична информация от iOS устройството. Уверете се, че сте направили резервно копие в iCloud, преди да започнете прехвърлянето.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Импортирай</string>
     <string name="select_empty">Изберете елементи за импортиране</string>
     <string name="select_item_summary_wait">Изчаква се…</string>
@@ -633,8 +641,14 @@ https://appleid.apple.com/#!&amp;page=signin за затваряне"</string>
     <string name="dialog_app_upgrade_message">Достъпна е нова версия на Mi трансфер. Ще актуализирате ли Mi трансфер сега?</string>
     <string name="dialog_app_upgrade_exit">Изход</string>
     <string name="dialog_app_upgrade_download">Актуализиране</string>
-    <string name="dialog_backup_password_change_machine_tips">"You won't be able to transfer password-protected backups. Turn off backup password before using Mi Mover."</string>
-    <string name="dialog_backup_password_backup_tips">"Can't back up items when backup password is on. Turn off backup password."</string>
-    <string name="dialog_backup_password_cancel">Cancel</string>
-    <string name="dialog_backup_password_to_settings">Settings</string>
+    <string name="dialog_backup_password_change_machine_tips">Няма да можете да прехвърляте защитени с парола архиви. Изключете паролата за архивиране, преди да използвате Mi Mover.</string>
+    <string name="dialog_backup_password_backup_tips">Не можете да архивирате елементите при включена парола за архивиране. Изключете паролата за архивиране.</string>
+    <string name="dialog_backup_password_cancel">Отказ</string>
+    <string name="dialog_backup_password_to_settings">Настройки</string>
+    <string name="user_feedback">Обратна връзка</string>
+    <string name="iCloud_ID_verification_tip">Въведете SMS кода за потвърждение, изпратен на телефонния номер, свързан с Вашия Apple Акаунт. Игнорирайте прозореца с код, който ще се появи на екрана на Вашия iPhone.</string>
+    <string name="trans_complete_restoring">Прехвърлянето е успешно. Възстановяване на данни от прилож…</string>
+    <string name="dialog_backup_password_auto_backup_tips">Не можете да архивирате елементите автоматично, когато е включена парола за архивиране. Изключете паролата за архивиране.</string>
+    <string name="dialog_backup_password_change_device_restore_tips">Не можете да използвате Mi Трансфер при включена парола за архивиране. Първо изключете паролата за архивиране.</string>
+    <string name="dialog_backup_password_restore_tips">Не можете да възстановите елементи при включена парола за архивиране. Първо изключете паролата за архивиране.</string>
 </resources>

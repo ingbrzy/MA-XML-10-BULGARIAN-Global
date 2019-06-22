@@ -281,6 +281,7 @@
     <string name="tax_param_error">Въведете коректно застраховките</string>
     <string name="tax_payment_period">Брой на плащанията</string>
     <string name="tax_rate_provider">Изчислено съобразно новите данъчни регламенти. Данните се предоставят от hexun.com и East Money.</string>
+    <string name="tax_rate_provider_east_money">Изчислено съобразно новите данъчни регламенти. Данните се предоставят от East Money.</string>
     <string name="tax_result_real_get">Преди облагане</string>
     <string name="tax_social_insurance">Застраховка</string>
     <string name="tax_thershold_foreign">%s (Чужденци)</string>
@@ -600,8 +601,11 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sБ</string>
     <string name="xiaomi_connect_download_manager_fail">Няма връзка с Изтегляния. Проверете дали това приложение има всички необходими разрешения и настройки > Инсталирани приложения.</string>
     <string name="xiaomi_external_storage_unavailable">Паметта не е достъпна. Проверете вашата SD карта.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sКБ</string>
+    <string name="xiaomi_megabytes_unit">%1$sМБ</string>
     <string name="xiaomi_update_dialog_message">"Представяне на версия%1$s
 Размер:%2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Представяне на версия%1$s

@@ -9,6 +9,9 @@
     <string name="button_queue_for_wifi">Чрез Wi-Fi</string>
     <string name="button_start_now">Изтегляне</string>
     <string name="call_record">Записи на обаждания</string>
+    <string name="call_record_list_group_all">Всички</string>
+    <string name="call_record_list_group_connected">Свързани</string>
+    <string name="call_record_list_group_unconnected">Не са свързани</string>
     <string name="clear_records">Изтрий синхронизираните записи</string>
     <string name="cloud_record_open">Синхр.на записи</string>
     <string name="cloud_record_tip">Синхр.на записи с Mi Cloud.</string>
@@ -134,13 +137,14 @@
     <string name="preference_enable_earpiece_summary">Използване на изхода за слушалки за възпроизвеждане на външно устройство</string>
     <string name="preference_enable_earpiece_title">Външен изход</string>
     <string name="preference_led_indicator">Индикатор за записване при заключен екран</string>
-    <string name="preference_led_indicator_prompt">По време на звукозапис индикирай с LED и в лентата на състоянието, когато екранът е заключен</string>
+    <string name="preference_led_indicator_prompt">По време на звукозапис показвай кратък път до лентата на състоянието и индикирай с уведомителна светлина</string>
     <string name="preference_online_orders">Онлайн поръчки</string>
     <string name="preference_recog_faqs">Онлайн разпознаване ЧЗВ</string>
     <string name="preference_recog_terms">Условия за използване</string>
     <string name="preference_record_scenes_dialog_title">Избор на сцена</string>
     <string name="preference_scenes">Настройки на сцените</string>
     <string name="preference_silent_mode">Тих звукозапис</string>
+    <string name="preference_status_bar_indicator_prompt">Покажи пряк път на лента за състоянието, докато записваш</string>
     <string name="preference_tip_rename">Показване на диалог за преименуване след край на записа</string>
     <string name="privacy_policy_title">Политика на поверителност</string>
     <string name="recognition_error_cancel">Отменено</string>
@@ -232,6 +236,9 @@
     <string name="service_instructions">За iflyrec.com</string>
     <string name="share">Сподели</string>
     <string name="share_dialog_title">Сподели с</string>
+    <string name="shortcut_records">Записи</string>
+    <string name="shortcut_start_record">Започни запис</string>
+    <string name="shortcut_stop_record">Спри записа</string>
     <string name="sound_recorder_settings">Настройки на звукозаписа</string>
     <string name="speech_recognition_complete">Разпознато</string>
     <string name="speech_recognition_running_tip">"Обработка "</string>

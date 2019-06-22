@@ -36,4 +36,8 @@
         <item quantity="other">Преглед на %d коментара</item>
         <item quantity="one">Преглед на %d коментар</item>
     </plurals>
+    <plurals name="subscriber">
+        <item quantity="other"> абонати</item>
+        <item quantity="one"> абонат</item>
+    </plurals>
 </resources>

@@ -398,7 +398,7 @@
     <string name="pref_camera_delay_capture_entry_5s">Забавяне 5сек</string>
     <string name="pref_camera_delay_capture_entry_10s">Забавяне 10сек</string>
     <string name="pref_ai_detect">AI откриване</string>
-    <string name="pref_google_lens">Google lens</string>
+    <string name="pref_google_lens">Google Lens</string>
     <string name="pref_camera_beauty">Разкраси</string>
     <string name="pref_camera_beauty_deep">Разкрасяване</string>
     <string name="pref_camera_asd_night_title">Авт. подобряване на нощни снимки</string>
@@ -465,6 +465,7 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средно</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="camera_mode_options">Режими</string>
     <string name="button_front_camera_title">Направете селфи</string>
     <string name="button_normal_video_title">Запишете видео</string>
@@ -534,7 +535,7 @@
     <string name="pref_privacy_title">Правила за поверителност</string>
     <string name="user_agree">Приемам</string>
     <string name="do_not_remind_me">Не показвай отново</string>
-    <string name="user_notice_identify_summary_format">Преди да използвате камерата трябва да се съгласите с нашето Потребителско споразумение&lt;a href=http://www.miui.com/res/doc/eula.html?lang=en_US>и&lt;a href=http://www.miui.com/res/doc/privacy.html?lang=en_US>Политика на поверителност. Камерата се нуждае също от интернет, за да работи правилно. Приемате ли?</string>
+    <string name="user_notice_identify_summary_format">Преди да използвате камерата трябва да се съгласите с нашето Потребителско споразумение&lt;a href=http://www.miui.com/res/doc/eula.html?lang=en_US>и&lt;a href=http://www.miui.com/res/doc/privacy.html?lang=en_US>Политика на поверителност&lt;/a>. Камерата се нуждае също от интернет, за да работи правилно. Приемате ли?</string>
     <string name="user_notice_title">Правила и условия</string>
     <string name="network_access_user_notice_title">Свързване с интернет</string>
     <string name="install_confirmed">Инсталирай</string>
@@ -714,12 +715,13 @@
     <string name="eye_light_angel">Ангел</string>
     <string name="beauty_mode_reset_toast">Успешно премахване на ефектите за моделиране</string>
     <string name="makeup_reset_toast">Успешно премахване на ефектите за грим</string>
+    <string name="pref_camera_zoom_mode_entry_macro">МАКРО</string>
     <string name="beauty_clear_toast">Успешно премахване на ефектите за разкрасяване</string>
     <string name="ultra_wide_mode_use_hint_text_sat">"Изпробвайте 0.6х Ултра широкоъгълен режим, за да обхванете повече обекти на снимките.
 Ултра широкоъгълният режим помага, когато не можете да поберете панорамата."</string>
     <string name="ultra_wide_open_tip_sat">0.6X ултра широкоъгълен</string>
     <string name="video_beauty_tip">Подобряване за видео</string>
-    <string name="module_name_fun_ar">Забава</string>
+    <string name="module_name_fun_ar">Mimoji</string>
     <string name="mimoji_fragment_tab_name">Mimoji</string>
     <string name="mimoji_on_create">Създаване на Mimoji</string>
     <string name="mimoji_check_normal">Натиснете бутон Снимане</string>
@@ -746,39 +748,40 @@
     <string name="mimoji_edit_abandon_alert">Отмяна на всички промени?</string>
     <string name="mimoji_edit_abandon_capture_alert">Отмяна на всички промени?</string>
     <string name="mimoji_edit_cancel_alert">Всички промени ще бъдат отменени. Продължи въпреки това?</string>
-    <string name="mimoji_delete_dialog_title">Да изтрия ли Mimoji?</string>
-    <string name="mimoji_tips">Tap to take a photo. Press and hold to record a video.</string>
-    <string name="mimoji_detect_tips">Keep your face inside the frame</string>
-    <string name="mimoji_cancle">Cancel</string>
-    <string name="mimoji_delete"><font fgcolor="#ffff0000">Delete</font></string>
-    <string name="mimoji_back">Back</string>
-    <string name="mimoji_reset">Reset</string>
-    <string name="mimoji_confirm">OK</string>
-    <string name="mimoji_editor">Edit</string>
-    <string name="mimoji_save">Save</string>
-    <string name="mimoji_recapture">Start over</string>
-    <string name="mimoji_selected">Select</string>
-    <string name="mimoji_edit_mimoji">Edit Mimoji</string>
-    <string name="mimoji_delete_mimoji">Delete Mimoji</string>
-    <string name="mimoji_delete_success">Deleted successfully</string>
-    <string name="mimoji_save_success">Saved successfully</string>
-    <string name="mimoji_hairstyle">Hair</string>
-    <string name="mimoji_featured_face">Face</string>
-    <string name="mimoji_eye">Eyes</string>
-    <string name="mimoji_eyebrow">Eyebrows</string>
-    <string name="mimoji_nose_lisps">Nose and lips</string>
-    <string name="mimoji_mustache">Facial hair</string>
-    <string name="mimoji_mole">Moles</string>
-    <string name="mimoji_freckle">Freckles</string>
-    <string name="mimoji_eyeglass">Glasses</string>
-    <string name="mimoji_ornament">Accessories</string>
-    <string name="mimoji_headwear">Hats</string>
-    <string name="mimoji_ear">Ears</string>
-    <string name="mimoji_eye_shape">Eye shape</string>
-    <string name="mimoji_eyelash">Eyelashes</string>
-    <string name="mimoji_eyebrow_shape">Eyebrow shape</string>
-    <string name="mimoji_mouth_type">Mouth</string>
-    <string name="mimoji_nose">Nose</string>
-    <string name="mimoji_earring">Earrings</string>
-    <string name="ultra_wide_recommend_tip_hint_sat">Try 0.6X ultra wide angle mode</string>
+    <string name="mimoji_delete_dialog_title">Изтрий Mimoji?</string>
+    <string name="mimoji_tips">Докоснете, за да направите снимка. Натиснете и задръжте, за да запишете видеоклип.</string>
+    <string name="mimoji_detect_tips">Задръжте вашето лице вътре в рамката</string>
+    <string name="mimoji_cancle">Отказ</string>
+    <string name="mimoji_delete"><font fgcolor="#ffff0000">Изтрийте</font></string>
+    <string name="mimoji_back">Назад</string>
+    <string name="mimoji_reset">Нулиране</string>
+    <string name="mimoji_confirm">OК</string>
+    <string name="mimoji_editor">Редактиране</string>
+    <string name="mimoji_save">Запазване</string>
+    <string name="mimoji_recapture">Започнете отначало</string>
+    <string name="mimoji_selected">Изберете</string>
+    <string name="mimoji_edit_mimoji">Редактирай Mimoji</string>
+    <string name="mimoji_delete_mimoji">Изтрий Mimoji</string>
+    <string name="mimoji_delete_success">Успешно изтрито</string>
+    <string name="mimoji_save_success">Успешно запазено</string>
+    <string name="mimoji_hairstyle">Коса</string>
+    <string name="mimoji_featured_face">Лице</string>
+    <string name="mimoji_eye">Очи</string>
+    <string name="mimoji_eyebrow">Вежди</string>
+    <string name="mimoji_nose_lisps">Нос и устни</string>
+    <string name="mimoji_mustache">Окосмяване по лицето</string>
+    <string name="mimoji_mole">Бенки</string>
+    <string name="mimoji_freckle">Лунички</string>
+    <string name="mimoji_eyeglass">Очила</string>
+    <string name="mimoji_ornament">Аксесоари</string>
+    <string name="mimoji_headwear">Шапки</string>
+    <string name="mimoji_ear">Уши</string>
+    <string name="mimoji_eye_shape">Форма на окото</string>
+    <string name="mimoji_eyelash">Мигли</string>
+    <string name="mimoji_eyebrow_shape">Форма на веждите</string>
+    <string name="mimoji_mouth_type">Уста</string>
+    <string name="mimoji_nose">Нос</string>
+    <string name="mimoji_earring">Обици</string>
+    <string name="ultra_wide_recommend_tip_hint_sat">Опитайте Ултра широкоъгълен режим 0.6X</string>
+    <string name="lying_direct_hint">Текуща ориентация</string>
 </resources>

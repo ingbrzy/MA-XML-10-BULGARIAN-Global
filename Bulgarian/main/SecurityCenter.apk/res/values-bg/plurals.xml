@@ -132,13 +132,61 @@
         <item quantity="other">Добавени %d минути</item>
         <item quantity="one">Добавена %d минута</item>
     </plurals>
+    <plurals name="pc_main_power_center_battery_day">
+        <item quantity="other">%s дни</item>
+        <item quantity="one">%s ден</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_hour">
+        <item quantity="other">%s часа</item>
+        <item quantity="one">%s час</item>
+    </plurals>
+    <plurals name="pc_main_power_center_battery_minute">
+        <item quantity="other">%s минути</item>
+        <item quantity="one">%s минута</item>
+    </plurals>
+    <plurals name="power_main_battery_last_day">
+        <item quantity="other">остават %s дни</item>
+        <item quantity="one">остава %s ден</item>
+    </plurals>
+    <plurals name="power_main_battery_last_hour">
+        <item quantity="other">%s часа остават</item>
+        <item quantity="one">%s час остава</item>
+    </plurals>
+    <plurals name="power_main_battery_last_minute">
+        <item quantity="other">%s минути остават</item>
+        <item quantity="one">%s минута остава</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_day">
+        <item quantity="other">остават %s дни</item>
+        <item quantity="one">остава %s ден</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_hour">
+        <item quantity="other">%s часа остават</item>
+        <item quantity="one">%s час остава</item>
+    </plurals>
+    <plurals name="pc_main_sub_battery_text_minute">
+        <item quantity="other">%s минути остават</item>
+        <item quantity="one">%s минута остава</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_day">
+        <item quantity="other">Остават %s дни до пълно зареждане</item>
+        <item quantity="one">Остава %s ден до пълно зареждане</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_hour">
+        <item quantity="other">%s часа до пълно зареждане</item>
+        <item quantity="one">%s час до пълно зареждане</item>
+    </plurals>
+    <plurals name="pc_main_power_manager_minute">
+        <item quantity="other">Остават %s минути до пълно зареждане</item>
+        <item quantity="one">Остава %s минута до пълно зареждане</item>
+    </plurals>
     <plurals name="notification_battery_scan_consume_abnormal_title_split">
-        <item quantity="other">%2$d apps, including %1$s, are draining battery</item>
-        <item quantity="one">%2$d app, including %1$s, is draining battery</item>
+        <item quantity="other">%2$d приложения, включително %1$s, изтощават батерията</item>
+        <item quantity="one">%2$d приложение, включително %1$s, изтощава батерията</item>
     </plurals>
     <plurals name="pc_abnormal_scan_result_model_result_title">
-        <item quantity="other">%d apps are draining battery</item>
-        <item quantity="one">%d app is draining battery</item>
+        <item quantity="other">%d приложения изтощават батерията</item>
+        <item quantity="one">%d приложение изтощава батерията</item>
     </plurals>
     <plurals name="people">
         <item quantity="other">Изтеглено от %1$d човека</item>

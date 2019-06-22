@@ -56,6 +56,7 @@
     <string name="terms_of_use_label_systemhelper">, Саморегистриращи се услуги</string>
     <string name="terms_of_use_lable_smart_cards">, Смарт карти</string>
     <string name="terms_of_use_lable_vsimcore">, MConnService</string>
+    <string name="terms_of_use_label_updater">, Актуализатор</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
 
 Вие трябва да се съгласите с политиката за поверителност на Емоджи, преди да използвате тази услуга."</string>

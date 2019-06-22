@@ -127,6 +127,7 @@
     <string name="note_sort_way">Изберете как да подредите бележките си</string>
     <string name="notealert_enter">Покажи</string>
     <string name="notealert_ok">Игнорирай</string>
+    <string name="notelist_string_info">…</string>
     <string name="notify_alarm_title">Напомняне</string>
     <string name="permdesc_accessNote">Злонамерените приложения могат да използват това за достъп до личните ви данни.</string>
     <string name="permission_intro_contact">За маркиране на бележки по време на обаждания</string>
@@ -134,13 +135,13 @@
     <string name="permission_intro_phone">За маркиране на бележки по време на обаждания</string>
     <string name="permission_intro_storage">За съхраняване на бележки и приложения</string>
     <string name="permlab_accessNote">Достъп до бележките</string>
-    <string name="pref_desc_skip_confirm_for_quick_delete">Не питай за потвърждение при изтриване на бележки когато се използват жестове</string>
+    <string name="pref_desc_skip_confirm_for_quick_delete">Плъзнете нагоре с 2 пръста, за да изтривате бележки без потвърждение</string>
     <string name="pref_title_cloud_trash_bin">Изтрити бележки от Mi Облак</string>
     <string name="pref_title_common">Общи настройки</string>
     <string name="pref_title_font_size">Размер на шрифта</string>
     <string name="pref_title_note_style">Стил на бележки</string>
     <string name="pref_title_show_root_folder_in_homepage">Показване само на бързи бележки на началния екран</string>
-    <string name="pref_title_skip_confirm_for_quick_delete">Бързо изтриване</string>
+    <string name="pref_title_skip_confirm_for_quick_delete">Изтрийте чрез жест</string>
     <string name="recover_notes_hint">Възникнала е грешка, отидете на i.mi.com, за да възстановите бележките.</string>
     <string name="redo">Възстанови</string>
     <string name="refuse_to_open_as_pic_because_of_loading">Изчакайте, докато бележката се зареди и опитайте отново.</string>
@@ -208,6 +209,7 @@
     <string name="toast_notes_hidden_edit">Тази бележка е скрита успешно. Дръпнете надолу, за да видите скритите бележки.</string>
     <string name="toast_notes_hidden_home">Тази бележка е скрита успешно. Дръпнете надолу, за да видите скритите бележки.</string>
     <string name="toast_notes_unhidden">Успешно показване</string>
+    <string name="toast_pic_is_not_really">Съхраняване на изображение…</string>
     <string name="toast_reach_text_limit_attachment">Съдържанието на бележката е твърде дълго за нови прикачвания.</string>
     <string name="toast_reach_text_limit_checkbox">Съдържанието на бележката е твърде дълго за нови прикачвания</string>
     <string name="toast_reach_text_limit_truncate">Съдържанието на бележката ще се намали автоматично, защото е много дълго.</string>

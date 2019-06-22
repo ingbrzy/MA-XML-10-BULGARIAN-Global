@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="April">Април</string>
+    <string name="August">Август</string>
+    <string name="December">Декември</string>
+    <string name="February">Февруари</string>
+    <string name="January">Януари</string>
+    <string name="July">Юли</string>
+    <string name="June">Юни</string>
+    <string name="March">Март</string>
+    <string name="May">Май</string>
+    <string name="November">Ноември</string>
+    <string name="October">Октомври</string>
+    <string name="September">Септември</string>
+    <string name="Updated_at">"Актуализирано: "</string>
     <string name="abc_action_bar_home_description">Придвижване към „Начало“</string>
     <string name="abc_action_bar_up_description">Придвижване нагоре</string>
     <string name="abc_action_menu_overflow_description">Още опции</string>
@@ -88,6 +101,7 @@
     <string name="available_playlist_name_format">Нов плейлист %d</string>
     <string name="avoid_to_use_traffic_summary">Предупреждение за ползване на данни</string>
     <string name="avoid_to_use_traffic_title">Питай, когато се използват мобилни данни за прослушване на песни</string>
+    <string name="back">Обратно</string>
     <string name="back_confirm">Чукнете още веднъж за изход</string>
     <string name="bluetooth_device">Bluetooth устройство</string>
     <string name="buffering">Буфериране…</string>
@@ -222,6 +236,7 @@
     <string name="download_method">Изтегляне</string>
     <string name="download_no_application_title">Файлът не може да се отвори</string>
     <string name="download_paused_in_power_save_mode">Изтеглянето е спряно когато Икономия на батерията е включено</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Изтегля се…</string>
     <string name="download_quality">Качество при изтегляне</string>
     <string name="download_quality_summary">Допълнителни настройки на песните, които сте изтеглили</string>
@@ -301,7 +316,9 @@
     <string name="exo_download_notification_channel_name">Изтегляния</string>
     <string name="exo_download_removing">Изтеглянията се премахват</string>
     <string name="exo_item_list">%1$s – %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Автоматично</string>
     <string name="exo_track_selection_none">Нищо</string>
     <string name="exo_track_selection_title_audio">Аудиозапис</string>
@@ -359,6 +376,9 @@
     <string name="hot_icon_in_fast_indexer">H</string>
     <string name="hungama_batch_download_alert_summary">Само PRO потребители могат да теглят няколко песни. Вземете PRO членство сега?</string>
     <string name="hungama_free_download_out_summary">Не можете да изтеглите повече безплатни песни. Вземете PRO членство, за да теглите неограничено песни?</string>
+    <string name="hungama_privacy_desc">Политика на поверителност на Hungama</string>
+    <string name="hungama_privacy_tips_content">За да получите достъп до онлайн съдържание, трябва да се съгласите с <a href="/link/click">Политика на поверителност на Hungama</a>.</string>
+    <string name="hungama_privacy_tips_title">Политика на поверителност на Hungama</string>
     <string name="hungama_subscribe_message">Купи ПРО членство за изтегляне на музика с високо качество.</string>
     <string name="hungama_subscribe_positive_button">Купи PRO членство</string>
     <string name="hungama_subscribe_title">ПРО членство</string>
@@ -497,14 +517,29 @@
     <string name="nowplaying_dialog_title_delete_tracks">Да се премахне ли тази песен от опашката?</string>
     <string name="nowplaying_menu_item_delete">Премахни от опашката</string>
     <string name="ok">OK</string>
+    <string name="online_apk_acquired">Заредено %d%%</string>
+    <string name="online_apk_acquiring">Зареждане… %d%%</string>
     <string name="online_apk_download_error_no_enough_space">Неуспешен опит за теглене заради недостатъчно памет.</string>
     <string name="online_apk_downloading">Изтегляне на …%d%%</string>
     <string name="online_apk_install_alert_confirm">Изтегляне</string>
+    <string name="online_apk_install_alert_continue">Възобновяване</string>
+    <string name="online_apk_install_alert_failed_text">Изтеглянето е неуспешно, опитайте отново.</string>
     <string name="online_apk_install_alert_message">Трябва да изтеглите приставката Yandex.Music. Ще изтеглите ли сега?</string>
+    <string name="online_apk_install_alert_mobile_net_text">В момента използвате мобилни данни. Използването на мобилни данни за изтегляне на елементи може да генерира допълнителни такси.</string>
     <string name="online_apk_install_alert_note">Тази услуга се предоставя от Yandex.Music</string>
+    <string name="online_apk_install_alert_note_new">Онлайн съдържанието е предоставено от %s</string>
+    <string name="online_apk_install_alert_pause">Пауза</string>
+    <string name="online_apk_install_alert_retry">Оптитайте отново</string>
+    <string name="online_apk_install_alert_start">Стартиране</string>
+    <string name="online_apk_install_completed">Успешно заредено онлайн съдържание. Натиснете %s за преглед.</string>
     <string name="online_apk_install_error_no_enough_space">Неуспешен опит за инсталиране заради недостатъчно памет.</string>
     <string name="online_apk_install_error_with_reason">Неуспешен опит за инсталиране (Грешка %d)</string>
+    <string name="online_apk_install_failed_with_reason" formatted="false">Неуспешно зареждане на онлайн съдържание. Натиснете %s, за да опитате отново. Код за грешка: %d.</string>
+    <string name="online_apk_install_in_background">Зареждане на онлайн съдържание във фонов режим…</string>
+    <string name="online_apk_install_network_change_paused">Вие използвате мобилни данни. Засега зареждането на елементи е на пауза. Натиснете %s за преглед.</string>
+    <string name="online_apk_install_network_error">Неуспешно свързване с мрежата. Проверете настройките на мрежата и опитайте отново.</string>
     <string name="online_list_delete_message">Всички изтеглени песни от този списък ще бъдат изтрити от устройството.</string>
+    <string name="online_playlist_category">Плейлисти</string>
     <string name="online_recommend">Плейлиста</string>
     <string name="online_service_open_tip">Онлайн услугите за Музика са включени</string>
     <string name="online_service_title">Онлайн услуги</string>
@@ -559,6 +594,7 @@
     <string name="priority_storage_summary">При поставена SD карта, автоматично записване на файловете на SD картата</string>
     <string name="privacy_desc">Политика за поверителност (задължително)</string>
     <string name="privacy_policy">Политика за поверителност</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=bg_BG</string>
     <string name="pro_member">PRO член</string>
     <string name="project_device">Mi Телефон</string>
     <string name="prompt_grant_write_settings_permission">Позволи промяна на системните настройки</string>
@@ -593,6 +629,8 @@
     <string name="save_changes">Запази промените</string>
     <string name="search_album_and_lyric">Търсене обложки и текстове на песни</string>
     <string name="search_empty">Няма резултати</string>
+    <string name="search_empty_subtitle_online_music">Натиснете бутона по-долу, за да отворите %s.</string>
+    <string name="search_empty_title_online_music">Тук все още няма елементи.</string>
     <string name="search_for_album">Албум</string>
     <string name="search_for_artist">Изпълнител</string>
     <string name="search_hint">Търсене на изпълнители, песни, албуми и препоръчани</string>
@@ -659,6 +697,7 @@
     <string name="start_to_check_new_version">Проверява се за актуализации…</string>
     <string name="start_to_download">Старирайте изтегляне…</string>
     <string name="start_to_play">Пусни</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_internal">Вътрешна памет</string>
     <string name="storage_sd_card">SD карта</string>
     <string name="storage_usb">USB хранилище</string>
@@ -711,6 +750,8 @@
     <string name="toast_not_pro">Тази функция е достъпна само за ПРО членове.</string>
     <string name="toast_uhd_songs_for_download">Скоростта на изтегляне е усилена.</string>
     <string name="toast_uhd_songs_for_stream">Качеството на стриймване е настроено на високо.</string>
+    <string name="today">Днес</string>
+    <string name="top_chart_title">Класации</string>
     <string name="ultra_high_quality">Най-високо</string>
     <string name="unknown_album_name">Неизвестен албум</string>
     <string name="unknown_artist_name">Неизвестен изпълнител</string>
@@ -721,6 +762,7 @@
     <string name="upgrade_music_message">Обновяването приключи. Рестартирайте програмата.</string>
     <string name="upgrading_in_backstage">Актуализиране във фонов режим…</string>
     <string name="user_agreement">Потребителско споразумение</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=bg_BG</string>
     <string name="version_info">Версия</string>
     <string name="video_play_cellular">Вашето устройство не е свързано с Wi-Fi. Използвайте мобилни данни?</string>
     <string name="video_replay_btn">Пуснете отново</string>

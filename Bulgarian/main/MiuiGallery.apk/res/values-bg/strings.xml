@@ -195,6 +195,13 @@
     <string name="begin_share_toast">Да се създаде ли отделен албум за това дете преди споделяне?</string>
     <string name="blank_app_name" />
     <string name="browse_category_title">Преглеждане</string>
+    <string name="burst_image_download_item_title" formatted="false">Изтегляне на оригинал (%s|%s)</string>
+    <string name="burst_preview_title">Серийно заснемане</string>
+    <string name="burst_save_all">Запиши всички</string>
+    <string name="burst_save_choice_title" formatted="false">Избрани %d от %d</string>
+    <string name="burst_save_confirm_dialog_title">Запазване на снимки</string>
+    <string name="burst_save_error_msg">Запазването неуспешно</string>
+    <string name="burst_save_processing">Обработка…</string>
     <string name="buy_member_tip">стана член.</string>
     <string name="by_email">Имейл</string>
     <string name="by_others">Други</string>
@@ -337,6 +344,8 @@
     <string name="custom_select_title_select_item">Избери елементи</string>
     <string name="debugging_info">Информацията за отстраняване на грешки бе генерирана успешно. Докоснете OK, за да отворите папката.</string>
     <string name="debugging_tip">Генериране на данни за отстр. на грешки</string>
+    <string name="decrypt_video_failed">Неуспешен опит за подготовка на видеото</string>
+    <string name="decrypting_video">Подготвяне на видеото…</string>
     <string name="default_relation_name">Нова група</string>
     <string name="define_by_user">Потр. настройка</string>
     <string name="delete">Изтрий</string>
@@ -390,6 +399,10 @@
     <string name="downloading_dialog_message">Вие можете да избирате качеството на изтеглените изображения или да изключите автоматичното изтегляне в Настройки.</string>
     <string name="downloading_title">Изтегляне на снимки от Mi Облак</string>
     <string name="edit_baby_info">Покажи информация за детето</string>
+    <string name="editor_cancel">Отказ</string>
+    <string name="editor_export">Запази</string>
+    <string name="editor_talkback_redo">Възстанови</string>
+    <string name="editor_talkback_undo">Отмени</string>
     <string name="email_picker_title">Добави споделен Имейл</string>
     <string name="empty_query_text_msg">Не зная какво да търся…</string>
     <string name="empty_recommend_back">Обратно</string>
@@ -502,6 +515,7 @@
     <string name="face_name_edit">Промени</string>
     <string name="face_name_input">Въведете име</string>
     <string name="face_recommend">Препоръки</string>
+    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="fail_hint">Операцията е неуспешна</string>
     <string name="fail_to_pick_email">Невалиден Имейл</string>
     <string name="fail_to_sync_album">Албумът не можа да се синхронизира. Проверете връзката си за данни и опитайте отново.</string>
@@ -512,6 +526,7 @@
     <string name="feature_guidance_photo_effects">"Налични са нови
 фото ефекти"</string>
     <string name="feature_guidance_video_editor_smart_effects">Налични са нови ефекти</string>
+    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="filter_bi_bw">Ч&amp;Б</string>
     <string name="filter_bi_dusk">Здрач</string>
     <string name="filter_bi_lilt">Забавна песен</string>
@@ -560,7 +575,7 @@
     <string name="filter_people_movie">Филм</string>
     <string name="filter_people_nature">Естествен</string>
     <string name="filter_people_pink">Руменина</string>
-    <string name="filter_people_riddle">Candy</string>
+    <string name="filter_people_riddle">Бонбон</string>
     <string name="filter_people_sepia">Сепия</string>
     <string name="filter_people_story">Разказ</string>
     <string name="filter_people_tea">Чай</string>
@@ -585,18 +600,20 @@
     <string name="filter_sky_sunset">Залез</string>
     <string name="finish_create_baby_album_toast">Създаден е албум за \"%s\" в Mi Cloud</string>
     <string name="finish_fill_baby">Създаване</string>
+    <string name="first_time_add_video_to_secret_tips">Актуализирайте галерията, за да можете да скривате видеоклипове</string>
     <string name="flash_off">Без светкавица</string>
     <string name="flash_on">Със светкавица</string>
     <string name="frame_not_support_image_ratio">Това съотношение не се поддържа</string>
     <string name="free_view_desc">3D изглед</string>
     <string name="gallery_setting">Галерия</string>
     <string name="gallery_sync_disable_toast">Синхр. на Галерия е изкл.</string>
-    <string name="generate_story_summary">MIUI ще анализира вашите снимки и ще създаде албуми с история. Изключете тази функция, за да спрете създаването на албуми с история.</string>
-    <string name="generate_story_title">Албуми с истории</string>
+    <string name="generate_story_summary">MIUI will analyze your photos and create memories. Turn this feature off to stop creating memories.</string>
+    <string name="generate_story_title">Memories</string>
     <string name="get_album_info_in_process">Получаване на информация за споделен албум…</string>
     <string name="gif_tip">GIF</string>
     <string name="gigabyteShort">ГБ</string>
     <string name="grant_permission_go_and_set">Задай</string>
+    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_text">"Галерия се нуждае от достъп до 
 %s
  за да работи нормално, чукнете \"Задай\" за да отидете в Разрешения."</string>
@@ -850,6 +867,7 @@
     <string name="people_mark_mode_title_no_mark_name">Изберете човек</string>
     <string name="people_page_label">Лице</string>
     <string name="people_page_unname">Неизвестно</string>
+    <string name="percent_sign">%</string>
     <string name="permissin_contract_desc">За именуване на хора на снимки</string>
     <string name="permission_contract_name">Контакти</string>
     <string name="permission_optional_category">Разрешения по избор</string>
@@ -875,7 +893,7 @@
     <string name="photo_editor_crop_rotation_format">%d°</string>
     <string name="photo_editor_doodle">Драскулка</string>
     <string name="photo_editor_filter">Филтър</string>
-    <string name="photo_editor_font_default">>Mi Lanting (редовно)</string>
+    <string name="photo_editor_font_default">Mi Lanting (редовно)</string>
     <string name="photo_editor_frame">Рамка</string>
     <string name="photo_editor_label">Промени</string>
     <string name="photo_editor_long_crop">Изрежи</string>
@@ -906,6 +924,7 @@
     <string name="photo_editor_navigator_module_downloading">Изтегляне %s…</string>
     <string name="photo_editor_navigator_need_download">Свържете се към интернет за да изтеглите %s.</string>
     <string name="photo_editor_remove_watermark">Премахнете водния знак</string>
+    <string name="photo_editor_remove_watermark_on">Добавяне на воден знак</string>
     <string name="photo_editor_remover">Изтрий</string>
     <string name="photo_editor_rotate">Завъртане</string>
     <string name="photo_editor_saving">Запазване</string>
@@ -914,6 +933,7 @@
     <string name="photo_editor_talkback_confirm">Потвърди</string>
     <string name="photo_editor_talkback_crop_16_9">Шестнайсет към девет</string>
     <string name="photo_editor_talkback_crop_1_1">Едно към едно</string>
+    <string name="photo_editor_talkback_crop_2_3">Две до три</string>
     <string name="photo_editor_talkback_crop_3_4">Три към четири</string>
     <string name="photo_editor_talkback_crop_4_3">Четири към три</string>
     <string name="photo_editor_talkback_crop_9_16">Девет към шестнайсет</string>
@@ -1045,7 +1065,12 @@
     <string name="scan_barcode_to_join">Сканирайте QR кода, за да се присъедините към албума.</string>
     <string name="scan_qr_code_buttom_text">Сканирайте QR кода, за да видите този албум.</string>
     <string name="screen_doodle_talkback_size">Ширина на Дудъл линията</string>
+    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
+    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
     <string name="screen_editor_finish">Готово</string>
+    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
+    <string name="screen_editor_send">@string/operation_send</string>
+    <string name="screen_editor_text">@string/photo_editor_text</string>
     <string name="screen_save_dialog_btn_cancel">Отказ</string>
     <string name="screen_save_dialog_btn_delete">Изтриване на снимката на екрана</string>
     <string name="screen_save_dialog_btn_save">Запази в Галерията</string>
@@ -1103,6 +1128,9 @@
     <string name="search_title_recommend">Препоръчвани</string>
     <string name="search_title_suggestion">Предложения</string>
     <string name="search_title_tag">Обекти</string>
+    <string name="search_transition_element_icon">search_icon</string>
+    <string name="search_transition_element_input">search_input</string>
+    <string name="search_transition_element_voice">search_voice</string>
     <string name="searching_cast_devices">Търсене на проектор…</string>
     <string name="secret_album_card_description">Най-доброто място за всички ваши малки тайни</string>
     <string name="secret_album_card_title">Изпробвайте скрития албум</string>
@@ -1178,6 +1206,12 @@
     <string name="slim_running">Оптимизиране…</string>
     <string name="slim_space">освободено</string>
     <string name="slim_stop">Спри оптимизирането</string>
+    <string name="special_type_eye_repair">Коригирани затворени очи чрез AI</string>
+    <string name="special_type_hdr">HDR</string>
+    <string name="special_type_night_beauty">AI low light portrait</string>
+    <string name="special_type_night_mode">AI нощен режим</string>
+    <string name="special_type_portrait">AI портрет светлинна живопис</string>
+    <string name="special_type_wide_angle">AI ултра широкоъгълен</string>
     <string name="start_debug">Отстраняване на грешки</string>
     <string name="start_to_use_face_albumset">Сортиране по хора</string>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -1291,8 +1325,14 @@
     <string name="video_editor_adjust">Подобряване</string>
     <string name="video_editor_analyzing">Видеото се анализира…</string>
     <string name="video_editor_audio">Аудио</string>
+    <string name="video_editor_audio_antiquity">Ретро</string>
     <string name="video_editor_audio_custom">Избрано</string>
+    <string name="video_editor_audio_dream">Сън</string>
+    <string name="video_editor_audio_electronics">Електро</string>
     <string name="video_editor_audio_none">Нищо</string>
+    <string name="video_editor_audio_quiet">Дзен</string>
+    <string name="video_editor_audio_summertime">Лято</string>
+    <string name="video_editor_audio_vitality">Жизненост</string>
     <string name="video_editor_auto_trim">Автоматично почистване</string>
     <string name="video_editor_auto_trim_tip">Почиства се автоматично…</string>
     <string name="video_editor_cancel">Отказ</string>

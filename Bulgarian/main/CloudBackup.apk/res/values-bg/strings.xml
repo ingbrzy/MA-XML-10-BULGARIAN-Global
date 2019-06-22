@@ -32,7 +32,7 @@
     <string name="cloud_back_up_subscribe_vip_confirm">Надстройка</string>
     <string name="cloud_back_up_detail_discription">"Следните приложения и настройки ще се запазят в архива на Mi Облак, когато се свържете с Wi-Fi: 
 *  Приложения, Начален екран, тапети 
-*  Аларма, Часовник и настрики за час и дата 
+*  Аларма, Часовник и настройки за час и дата 
 *  Настройки на известията 
 *  MIUI и системни настройки 
 “Забележка: Данните за приложенията, които са инсталирани допълнително няма да се архивират\""</string>
@@ -50,6 +50,8 @@
     <string name="self_device_second_space">Това е Второ работно място на телефона</string>
     <string name="other_device_main_space">Основно работно място</string>
     <string name="other_device_second_space">Второ работно място</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Възстановяване \"%s\"</string>
     <string name="size_unknown">Неизвестен размер</string>
     <string name="recovering">Възстановява се %s</string>
@@ -100,7 +102,7 @@
     <string name="restore_task_cancelling">Отменя се…</string>
     <string name="remove_task_in_process">премахва се</string>
     <string name="remove_task_unfinished">Премахването не е завършило</string>
-    <string name="back_up_task_unfinished">Незавършено архивиране</string>
+    <string name="back_up_task_unfinished">Не може да се архивира</string>
     <string name="about_to_recover">Един момент…</string>
     <string name="success_open_cloudbackup">Включено архивиране на прил. на Начален екран</string>
     <string name="as_new_device">Replace previous Home screen and settings</string>
@@ -134,6 +136,7 @@
     <string name="provision_error_connect_msg">Тествайте мрежовата връзка и опитайте отново. Архивите не са достъпни, когато вашето устройство е офлайн.</string>
     <string name="provision_error_connect_title">Не може да се свърже</string>
     <string name="loading_user_backup">Зареждане на архив…</string>
+    <string name="loading_progress_num">(%s%%)</string>
     <string name="error_num_placeholder">--</string>
     <string name="doing_calc_backup_data_size">Изчисляване на размер…</string>
     <string name="authentication_failed">Не може да се провери вашият Mi Профил.</string>
@@ -214,4 +217,10 @@
     <string name="provision_background_restore_more_data">Възстановяване на повече елементи на заден план</string>
     <string name="selected">Избрано</string>
     <string name="unselected">Не е избрано</string>
+    <string name="backup_failed_reason_network_error">Грешка в мрежата. Изчакайте минута-две и опитайте отново.</string>
+    <string name="backup_failed_reason_disk_space_not_enough">Няма достатъчно място в хранилището. Освободете място първо.</string>
+    <string name="backup_failed_reason_cloud_space_not_enough">Няма достатъчно място в хранилището на Mi Облак. Надстройте Вашия абонамент за Mi Облак, за да получите повече място за съхранение.</string>
+    <string name="restore_task_unfinished">Не може да се възстанови</string>
+    <string name="restore_failed_reason_network_error">Грешка в мрежата. Изчакайте минута-две и опитайте отново.</string>
+    <string name="restore_failed_reason_disk_space_not_enough">Няма достатъчно място в хранилището. Първо освободете място за съхранение.</string>
 </resources>

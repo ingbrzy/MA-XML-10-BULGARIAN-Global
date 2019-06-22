@@ -42,6 +42,14 @@
     <string name="common_google_play_services_update_text">%1$s няма да се изпълнява, освен ако не актуализирате услугите за Google Play.</string>
     <string name="common_google_play_services_update_title">Актуализиране на услугите за Google Play</string>
     <string name="common_google_play_services_updating_text">%1$s няма да се изпълнява без услугите за Google Play. Понастоящем те се актуализират.</string>
+    <string name="early_warning_android_system">Система Android</string>
+    <string name="early_warning_feedback_action">Отзиви</string>
+    <string name="early_warning_feedback_body">Моля, напишете отзивите си тук</string>
+    <string name="early_warning_feedback_chooser_text">Изберете приложение за електронна поща</string>
+    <string name="early_warning_feedback_subject">Отзиви за известието за ранно предупреждение</string>
+    <string name="early_warning_notification_channel_name">Предупреждения за батерията</string>
+    <string name="early_warning_notification_text">Това е преди обичайното ви време за зареждане</string>
+    <string name="early_warning_notification_title">Батерията може да се изтощи в %1$s</string>
     <string name="icon_content_description">Икона за диалогов прозорец</string>
     <string name="password_toggle_content_description">Показване на паролата</string>
     <string name="ssb_clear_data_activity_name">Нулиране на адаптивната яркост?</string>
