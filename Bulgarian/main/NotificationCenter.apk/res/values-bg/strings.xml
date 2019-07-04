@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Уведомления</string>
+    <string name="default_list_type">Сортирай по време на получаване</string>
+    <string name="disable_float_notification">Плаващите уведомления не са разрешени</string>
+    <string name="disable_lockscreen_notification">Уведомленията на заключен екран не са позволени</string>
+    <string name="disable_show_badge_notification">Уведомителните значки не са позволени</string>
+    <string name="enable_float_notification">Плаващите уведомления са разрешени</string>
+    <string name="enable_lockscreen_notification">Уведомленията на заключен екран са позволени</string>
+    <string name="enable_show_badge_notification">Уведомителните значки са позволени</string>
+    <string name="expandable_under_keyguard">Отворете лентата с известия на заключен екран</string>
+    <string name="float_notifications">Плаващи известия</string>
+    <string name="hint_search_all">Търсене на приложения</string>
+    <string name="hint_search_in_disabled_apps">Търсене на приложения, които не показват известия</string>
+    <string name="hint_search_in_enabled_apps">Търсене на приложения, които показват известия</string>
+    <string name="list_title_disable_notification">Уведомленията не са позволени</string>
+    <string name="loading">Момент…</string>
+    <string name="lock_screen_display_rules">Формат</string>
+    <string name="lock_screen_tip_toast">Първо позволи известията в \"Известия на приложението\"</string>
+    <string name="lockscreen_notifications">Известия на заключен екран</string>
+    <string name="not_sent_recently">Отдавнашно</string>
+    <string name="notification_display_setting">Лента с известия</string>
+    <string name="notification_display_style">Стил на известията</string>
+    <string name="notification_fold_summary">Всички маловажни известия ще бъдат показвани в отделна папка</string>
+    <string name="notification_fold_title">Папка с известия</string>
+    <string name="notification_manager">Известия за приложението</string>
+    <string name="notification_style_android">Android</string>
+    <string name="notification_style_miui">MIUI</string>
+    <string name="off">Изключване</string>
+    <string name="on">Включване</string>
+    <string name="show_badge_notifications">Уведомителни значки</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_disable_float_notification">Плаващите уведомления не са разрешени</string>
+    <string name="summary_disable_lockscreen_notification">Уведомленията за заключен екран не са позволени</string>
+    <string name="summary_disable_show_badge_notification">Уведомителните значки не са позволени</string>
+    <string name="summary_enable_float_notification">Плаващите уведомления са разрешени</string>
+    <string name="summary_enable_lockscreen_notification">Уведомленията за заключен екран са разрешени</string>
+    <string name="summary_enable_show_badge_notification">Уведомителните значки са позволени</string>
+    <string name="summary_float_enable_notification_first">Позволете известията, за да можете да включите плаващите известия</string>
+    <string name="summary_lock_screen_enable_notification_first">Позволете известията, за да можете да включите уведомленията за заключен екран</string>
+    <string name="summary_show_badge_enable_notification_first">Позволете известията, за да включите уведомителните значки</string>
+</resources>
