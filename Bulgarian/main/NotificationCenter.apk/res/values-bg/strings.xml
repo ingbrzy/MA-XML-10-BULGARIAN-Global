@@ -29,7 +29,6 @@
     <string name="off">Изключване</string>
     <string name="on">Включване</string>
     <string name="show_badge_notifications">Уведомителни значки</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_disable_float_notification">Плаващите уведомления не са разрешени</string>
     <string name="summary_disable_lockscreen_notification">Уведомленията за заключен екран не са позволени</string>
     <string name="summary_disable_show_badge_notification">Уведомителните значки не са позволени</string>
