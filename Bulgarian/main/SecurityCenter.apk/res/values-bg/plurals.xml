@@ -180,6 +180,22 @@
         <item quantity="other">Остават %s минути до пълно зареждане</item>
         <item quantity="one">Остава %s минута до пълно зареждане</item>
     </plurals>
+    <plurals name="pc_statistics_battery_use_minute">
+        <item quantity="other">%d минути от последното зареждане</item>
+        <item quantity="one">%d минута от последното зареждане</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_use_second">
+        <item quantity="other">%d секунди от последното зареждане</item>
+        <item quantity="one">%d секунда от последното зареждане</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_last_minute">
+        <item quantity="other">Остават %d минути</item>
+        <item quantity="one">Остава %d минута</item>
+    </plurals>
+    <plurals name="pc_statistics_battery_last_hour">
+        <item quantity="other">Остават %d часа</item>
+        <item quantity="one">Остава %d час</item>
+    </plurals>
     <plurals name="notification_battery_scan_consume_abnormal_title_split">
         <item quantity="other">%2$d приложения, включително %1$s, изтощават батерията</item>
         <item quantity="one">%2$d приложение, включително %1$s, изтощава батерията</item>
@@ -232,21 +248,21 @@
         <item quantity="other">%s приложения не са защитени</item>
         <item quantity="one">%s приложение не е защитено</item>
     </plurals>
-    <plurals name="menu_text_antivirus_2">
-        <item quantity="other">%d елементи</item>
-        <item quantity="one">%d елемент</item>
+    <plurals name="menu_text_antivirus_virus_ex">
+        <item quantity="other">%d приложения съдържат вируси или зловреден софтуер.</item>
+        <item quantity="one">%d приложение съдържа вируси или зловреден софтуер.</item>
     </plurals>
-    <plurals name="menu_text_antivirus_3">
-        <item quantity="other">%d дни</item>
-        <item quantity="one">%d ден</item>
+    <plurals name="menu_text_antivirus_day_ex">
+        <item quantity="other">Устройството не е сканирано от %d дни.</item>
+        <item quantity="one">Устройството не е сканирано от %d ден.</item>
     </plurals>
-    <plurals name="menu_text_antispam_2">
-        <item quantity="other">%d елементи</item>
-        <item quantity="one">%d елемент</item>
+    <plurals name="menu_text_antispam_ex">
+        <item quantity="other">Блокирани са %d съобщения или обаждания.</item>
+        <item quantity="one">Блокирано е %d съобщение или обаждане.</item>
     </plurals>
-    <plurals name="menu_text_app_manager_2">
-        <item quantity="other">%d приложения</item>
-        <item quantity="one">%d приложение</item>
+    <plurals name="menu_text_app_manager_ex">
+        <item quantity="other">Налични са %d обновления.</item>
+        <item quantity="one">Налично е %d обновление.</item>
     </plurals>
     <plurals name="system_check_content">
         <item quantity="other">%1$d обекта са защитени</item>
@@ -433,12 +449,12 @@
         <item quantity="one">    +%1$d повече знак</item>
     </plurals>
     <plurals name="privacy_apps_enable_header_title">
-        <item quantity="other">Може да се скрият %d приложения</item>
-        <item quantity="one">Може да се скрие %d приложение</item>
+        <item quantity="other">%d икони на приложения не са скрити</item>
+        <item quantity="one">%d икона на приложение не е скрита</item>
     </plurals>
     <plurals name="privacy_apps_disable_header_title">
-        <item quantity="other">%d приложения са скрити</item>
-        <item quantity="one">%d приложение е скрито</item>
+        <item quantity="other">%d икони на приложения са скрити</item>
+        <item quantity="one">%d икона на приложение е скрита</item>
     </plurals>
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d проблеми изискват корекция</item>

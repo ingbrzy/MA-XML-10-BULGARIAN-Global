@@ -60,19 +60,19 @@
     <string name="wating">Един момент…</string>
     <string name="Active">Активно</string>
     <string name="ok_button">OК</string>
-    <string name="remove_button">Премахни и рестартирай</string>
-    <string name="remove_button_time">Премахни и рестартирай (%dс)</string>
+    <string name="remove_button">Изтрий</string>
+    <string name="remove_button_time">Изтрий (%dсек)</string>
     <string name="cancel_button">Отказ</string>
     <string name="list_empty_text">Празно</string>
-    <string name="list_empty_text_xspace">Инсталирайте WeChat/QQ/Weibo, клонирайте го и опитайте отново.</string>
+    <string name="list_empty_text_xspace">Създайте още клонирани приложения и опитайте отново.</string>
     <string name="xspace_label">Клонирани приложения</string>
     <string name="xspace_setting_label">Настройки за клонирани приложения</string>
     <string name="xspace_account">Профили за клонирани приложения</string>
     <string name="xspace_remove">Изтриване на профилите в Клонирани приложения</string>
     <string name="declare_dialog_title">За клонираните приложения</string>
     <string name="menu_item_about_privacy_title">Политика на поверителност</string>
-    <string name="stop_xspace_alert_title">Изтриване на профили в клонирани приложения</string>
-    <string name="stop_xspace_alert_content">Всички клонирани приложения и техните данни ще бъдат завинаги изтрити. Трябва да рестартирате устройството си, за да се приложи промяната. Да се изтрият ли профилите?</string>
+    <string name="stop_xspace_alert_title">Изтриване на профилите в Клонирани приложения</string>
+    <string name="stop_xspace_alert_content">Да се изтрият ли всички клонирани приложения и техните профили? Вашето устройство ще бъде рестартирано, за да се приложат промените.</string>
     <string name="xspace_loading_msg">Зареждане на приложения…</string>
     <string name="xspace_header">Клонирани приложения</string>
     <string name="xspace_introduce">Препоръчани</string>
@@ -286,15 +286,23 @@
     <string name="xspace_weixin_title">WeChat</string>
     <string name="weixin_pay">WeChat Pay</string>
     <string name="weixin_share_sign">Впишете се и споделете</string>
-    <string name="use_xiaoai_open">Събуждане чрез използване на гласов асистент</string>
+    <string name="use_xiaoai_open">Събуждане с Mi AI</string>
+    <string name="use_google_open">Събуждане с Google Асистент</string>
     <string name="xspace_weibo_title">Weibo</string>
     <string name="weibo_send">Изпрати към Weibo</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="qq_send">Изпрати към приятелите в QQ/компютър</string>
     <string name="qq_login">Впишете се в QQ</string>
-    <string name="xspace_default_setting_label">Прилож по подразбиране</string>
-    <string name="xspace_default_app_title">Прилож по подразбиране</string>
-    <string name="xspace_default_app_summary">Задайте приложение по подразбиране за плащания, споделяне, любими неща и други.</string>
+    <string name="xspace_whatsapp_title">WhatsApp</string>
+    <string name="whatsapp_send">Сподели във WhatsApp</string>
+    <string name="xspace_facebook_title">Facebook</string>
+    <string name="facebook_send">Споделяне във Facebook</string>
+    <string name="facebook_login">Вписване с данни от Facebook</string>
+    <string name="xspace_instagram_title">Instagram</string>
+    <string name="instagram_send">Сподели в Instagram</string>
+    <string name="xspace_default_setting_label">Персонализация</string>
+    <string name="xspace_default_app_title">Персонализация</string>
+    <string name="xspace_default_app_summary">Избор на приложения по подразбиране за вписване, споделяне и гласов асистент</string>
     <string name="xspace_default_setting_dialog_title"> основен</string>
     <string name="xspace_default_guide_notification_content">Чукнете за промяна</string>
     <string name="xspace_default_guide_notification_main_title">Използване приложение по подразбиране</string>
@@ -428,10 +436,12 @@
     <string name="install_error">Не може да се инсталира. Опитайте отново.</string>
     <string name="ent_install_dialog_content">Инсталиране на приложенията и рестартиране на устройството сега?</string>
     <string name="ent_disallow_running">Това приложение е забранено</string>
-    <string name="greenguard_child_des_title">Нуждая се от помощ от моите приятели и семейство</string>
-    <string name="greenguard_child_des">Използвайте нашето приложение за да останете свързани</string>
-    <string name="greenguard_parent_des_title">Трябва да помогна на моите приятели и семейство</string>
-    <string name="greenguard_parent_des">Изтеглете нашето приложение и добавете устройствата на други хора</string>
+    <string name="greenguard_child_des_title">Сканирайте QR кода, за да добавите устройство</string>
+    <string name="greenguard_child_des">Управлявайте устройствата на вашите приятели или семейство</string>
+    <string name="greenguard_parent_des_title">Използвайте Kite Guard за добавяне на устройство</string>
+    <string name="greenguard_parent_des">Управлявайте устройствата на вашите приятели или семейство</string>
+    <string name="greenguard_functional_description">"Управлявайте устройствата дистанционно, вижте информацията за местоположението,
+ контролирайте инсталираните приложения и задавайте ограничения за използването им"</string>
     <string name="cta_declaration_title">Правила и условия</string>
     <string name="cta_declaration_message_format" formatted="false">Необходимо е да прочетете и да приемете нашите &lt;&lt;font color=%s>&lt;a href=%s>%s&lt;/a>&lt;/font> преди да използвате режим Enterprise. Устройството ви трябва да се свърже с интернет, за да активира режим Enterprise. Съгласни ли сте?</string>
     <string name="cta_declaration_agree_and_continue">Приемам</string>
@@ -457,4 +467,5 @@
     <string name="master_clear_not_available">Фабричните настройки са ограничени от вашата компания.</string>
     <string name="dual_animation">Анимация при стартиране</string>
     <string name="dual_animation_description">Покажи анимация при стартиране на Клонирани приложения</string>
+    <string name="can_not_switch_when_super_power_active">Не може да се превключва между пространства когато Свръх икономия на батерия е вкл</string>
 </resources>

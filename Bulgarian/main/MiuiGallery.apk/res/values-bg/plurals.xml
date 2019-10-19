@@ -44,6 +44,10 @@
         <item quantity="other">(общо %d елементи)</item>
         <item quantity="one">(общо %d елемент)</item>
     </plurals>
+    <plurals name="album_photo_count_text">
+        <item quantity="other">%1$d файла</item>
+        <item quantity="one">%1$d файл</item>
+    </plurals>
     <plurals name="baby_album_sharer_recommand_new_pictures">
         <item quantity="other">%1$d снимки на %2$s ще бъдат добавени</item>
         <item quantity="one">%1$d снимка на %2$s ще бъде добавена</item>
@@ -61,8 +65,8 @@
         <item quantity="one">%d елемент е твърде голям, за да бъде архивиран</item>
     </plurals>
     <plurals name="backup_pause_desc">
-        <item quantity="other">%d снимки или видео | На пауза</item>
-        <item quantity="one">%d снимка или видео | На пауза</item>
+        <item quantity="other">Ще се поднови след %d мин</item>
+        <item quantity="one">Ще се поднови след %d мин</item>
     </plurals>
     <plurals name="backuping_desc_gprs">
         <item quantity="other">%1$d снимки и клипове | %2$s</item>
@@ -77,12 +81,16 @@
         <item quantity="one">%d снимка</item>
     </plurals>
     <plurals name="burst_save_confirm_dialog_message">
-        <item quantity="other">Съхрани %d избрани снимки и изтрий останалите?</item>
-        <item quantity="one">Съхрани %d избрана снимка и изтрий останалите?</item>
+        <item quantity="other">Изтрийте %d снимки, които не са избрани?</item>
+        <item quantity="one">Изтрийте %d снимка, която не е избрана?</item>
+    </plurals>
+    <plurals name="burst_save_confirm_dialog_title">
+        <item quantity="other">Изтрий %d снимки</item>
+        <item quantity="one">Изтрий %d снимка</item>
     </plurals>
     <plurals name="burst_save_selected">
-        <item quantity="other">Съхрани %d избрани снимки</item>
-        <item quantity="one">Съхрани %d избрана снимка</item>
+        <item quantity="other">Запази %d избрани снимки</item>
+        <item quantity="one">Запази %d избрана снимка</item>
     </plurals>
     <plurals name="cloud_storage_photo_num">
         <item quantity="other">%d снимки</item>
@@ -105,56 +113,60 @@
         <item quantity="one">Избран %d елемент</item>
     </plurals>
     <plurals name="delete_burst_photo_from_all_devices_and_cloud_msg">
-        <item quantity="other">Изтрийте %d серийни заснемания от Mi Cloud и всички синхронизирани устройства?</item>
-        <item quantity="one">Изтрийте %d серийно заснемане от Mi Cloud и всички синхронизирани устройства?</item>
+        <item quantity="other">Да се изтрият ли %d серии от снимки от Xiaomi Cloud и от всички синхронизирани устройства?</item>
+        <item quantity="one">Да се изтрие ли %d серия от снимки от Xiaomi Cloud и от всички синхронизирани устройства?</item>
     </plurals>
     <plurals name="delete_burst_photo_from_local">
         <item quantity="other">Изтрийте %d серийни заснемания?</item>
         <item quantity="one">Изтрийте %d серийно заснемане?</item>
     </plurals>
     <plurals name="delete_burst_photo_from_this_album_and_cloud_msg">
-        <item quantity="other">Изтрийте %d серийни заснемания от Mi Cloud и това устройство?</item>
-        <item quantity="one">Изтрийте %d серийно заснемане от Mi Cloud и това устройство?</item>
+        <item quantity="other">Да се изтрият ли %d серии от снимки от Xiaomi Cloud и от това устройство?</item>
+        <item quantity="one">Да се изтрие ли %d серия от снимки от Xiaomi Cloud и от това устройство?</item>
+    </plurals>
+    <plurals name="delete_finish_format">
+        <item quantity="other">%d елемента са изтрити</item>
+        <item quantity="one">%d елемент изтрит</item>
     </plurals>
     <plurals name="delete_media_from_all_devices_and_cloud_msg">
-        <item quantity="other">Изтрий %d елементи от всички устройства и Mi Облак?</item>
-        <item quantity="one">Изтрий %d елемент от всички устройства и Mi Облак?</item>
+        <item quantity="other">Да се изтрият ли %d елемента от всички устройства и от Xiaomi Cloud?</item>
+        <item quantity="one">Да се изтрие ли %d елемент от всички устройства и от Xiaomi Cloud?</item>
     </plurals>
     <plurals name="delete_media_from_local">
         <item quantity="other">Изтрий %d елементи?</item>
         <item quantity="one">Изтрий %d елемент?</item>
     </plurals>
     <plurals name="delete_media_from_this_album_and_cloud_msg">
-        <item quantity="other">Изтрий %d елементи от този албум и Mi Облак?</item>
-        <item quantity="one">Изтрий %d елемент от този албум и Mi Облак?</item>
+        <item quantity="other">Да се изтрият ли %d елемента от този албум и от Xiaomi Cloud?</item>
+        <item quantity="one">Да се изтрие ли %d елемент от този албум и от Xiaomi Cloud?</item>
     </plurals>
     <plurals name="delete_photo_from_all_devices_and_cloud_msg">
-        <item quantity="other">Изтриване на %d снимки от всички устройства и Mi Облак?</item>
-        <item quantity="one">Изтриване на тази снимка от всички устройства и Mi Облак?</item>
+        <item quantity="other">Да се изтрият ли %d снимки от всички устройства и от Xiaomi Cloud?</item>
+        <item quantity="one">Да се изтрие ли %d снимка от всички устройства и от Xiaomi Cloud?</item>
     </plurals>
     <plurals name="delete_photo_from_local">
-        <item quantity="other">Изтриване на %d снимки?</item>
-        <item quantity="one">Изтриване на тази снимка?</item>
+        <item quantity="other">Да се изтрият ли %d снимки?</item>
+        <item quantity="one">Да се изтрие ли %d снимка?</item>
     </plurals>
     <plurals name="delete_photo_from_this_album_and_cloud_msg">
-        <item quantity="other">Изтриване на %d снимки от този албум и Mi Облак?</item>
-        <item quantity="one">Изтриване на снимката от този албум и Mi Облак?</item>
+        <item quantity="other">Да се изтрият ли %d снимки от този албум и от Xiaomi Cloud?</item>
+        <item quantity="one">Да се изтрие ли %d снимка от този албум и от Xiaomi Cloud?</item>
     </plurals>
     <plurals name="delete_third_party_burst_photo">
         <item quantity="other">Изтрийте %d серийни заснемания от устройството си?</item>
         <item quantity="one">Изтрийте %d серийно заснемане от устройството си?</item>
     </plurals>
     <plurals name="delete_video_from_all_devices_and_cloud_msg">
-        <item quantity="other">Изтриване на %d видеоклипа от всички устройства и Mi Облак?</item>
-        <item quantity="one">Изтриване на видеото от всички устройства и Mi Облак?</item>
+        <item quantity="other">Да се изтрият ли %d видеа от всички устройства и от Xiaomi Cloud?</item>
+        <item quantity="one">Да се изтрие ли %d видео от всички устройства и от Xiaomi Cloud?</item>
     </plurals>
     <plurals name="delete_video_from_local">
-        <item quantity="other">Изтриване на %d видеоклипа?</item>
-        <item quantity="one">Изтриване на това видео?</item>
+        <item quantity="other">Да се изтрият ли %d видеа?</item>
+        <item quantity="one">Да се изтрие ли %d видео?</item>
     </plurals>
     <plurals name="delete_video_from_this_album_and_cloud_msg">
-        <item quantity="other">Изтриване на %d видеоклипа от този албум и Mi Облак?</item>
-        <item quantity="one">Изтриване на видеоклипа от този албум и Mi Облак?</item>
+        <item quantity="other">Да се изтрият ли %d видеа от този албум и от Xiaomi Cloud?</item>
+        <item quantity="one">Да се изтрие ли %d видео от този албум и от Xiaomi Cloud?</item>
     </plurals>
     <plurals name="download_error">
         <item quantity="other">Грешка при изтегляне: %1$d файла</item>
@@ -175,6 +187,10 @@
     <plurals name="fast_share_auto_render_failed">
         <item quantity="other">Пропуснахме %1$d снимки, които не могат да бъдат разкрасени.</item>
         <item quantity="one">Пропуснахме 1 снимка, която не може да бъде разкрасена.</item>
+    </plurals>
+    <plurals name="file_type_detail_count">
+        <item quantity="other">%1$d файла</item>
+        <item quantity="one">%1$d файл</item>
     </plurals>
     <plurals name="number_of_images_and_videos_to_upload">
         <item quantity="other">%1$d елемента изчакващи за архивиране</item>
@@ -279,6 +295,10 @@
     <plurals name="send_processing_files_error">
         <item quantity="other">Не може да се сподели. Обработват се още %d снимки…</item>
         <item quantity="one">Не може да се сподели. Обработва се още %d снимка…</item>
+    </plurals>
+    <plurals name="slideshow_interval_value">
+        <item quantity="other">%1$d секунди</item>
+        <item quantity="one">%1$d секунда</item>
     </plurals>
     <plurals name="slim_complete_photo_count">
         <item quantity="other">Оптимизирани са %d снимки</item>

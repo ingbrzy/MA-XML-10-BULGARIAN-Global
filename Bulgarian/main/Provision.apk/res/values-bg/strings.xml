@@ -26,13 +26,16 @@
     <string name="other_settings_user_experience_summary_index">Покажи подробности</string>
     <string name="other_settings_upload_debug_log_title">Изпращай диагностични данни автоматично</string>
     <string name="other_settings_upload_debug_log_summary">Информацията за начина на използване, която ни изпращате, може да съдържа лични данни</string>
-    <string name="other_settings_auto_update">Автоматично актуализиране</string>
-    <string name="other_settings_auto_update_summary">MIUI ще избере най-подходящото време за да инсталира актуализациите</string>
-    <string name="other_settings_ad_enable">Персонализирана рекламна препоръка</string>
-    <string name="other_settings_ad_enable_summary">Получаване на препоръчани персонализирани реклами въз основа на данните за поведението ви</string>
+    <string name="other_settings_auto_update">Автоматични системни актуализации</string>
+    <string name="other_settings_auto_update_summary">MIUI ще избере най-подходящото време за изтегляне и инсталиране на актуализациите. Вашето устройство ще се рестартира автоматично, за да приложи промените.</string>
+    <string name="other_settings_ad_enable">Персонализирани реклами</string>
+    <string name="other_settings_ad_enable_summary">Рекламите се персонализират според Вашите интереси.</string>
+    <string name="other_settings_ad_disable_summary">Включете, за да се показват персонализирани реклами.</string>
+    <string name="other_settings_ad_dialog_content">Когато изключите тази функционалност, ще спрете да виждате персонализирани реклами. Реклами обаче ще продължавате да виждате реклами, но те няма да са свързани с нещата, които Ви интересуват. Можете да научите повече за персонализираните реклами в политиката за поверителност на Xiaomi. Да се изключат ли персонализираните реклами въпреки всичко?</string>
     <string name="other_settings_enhanced_lockscreen">Сменящи се тапети</string>
-    <string name="other_settings_enhanced_lockscreen_summary">Получавайте интересни тематични картини на вашия Заключен екран всеки ден. Приемете Условията за ползване.</string>
-    <string name="other_settings_enhanced_lockscreen_summary_index">Условия за ползване</string>
+    <string name="other_settings_enhanced_lockscreen_summary">Получавайте подбрани изображения и истории на заключения си екран всеки ден. %1$s и %2$s</string>
+    <string name="other_settings_enhanced_lockscreen_summary_index">Лицензионно споразумение с краен потребител</string>
+    <string name="other_settings_enhanced_lockscreen_privacy_index">Политика на поверителност</string>
     <string name="back">Назад</string>
     <string name="next">Напред</string>
     <string name="skip_underline">Пропусни тази стъпка</string>
@@ -51,12 +54,17 @@
     <string name="terms_of_use_label">"Вашата сигурност е много важна за нас. Моля, прочетете нашето Потребитеско споразумение и Политика за поверителност за да разберете каква информация събираме, как я използваме и какви възможности за избор имате. 
 
 Вие трябва да се съгласите с Потребителското споразумение и Политика за поверителност, преди да използвате MIUI. %s и компонентите на Mi Профил ще се свържат към Интернет и ще изискат вашето местоположение."</string>
-    <string name="terms_of_use_lable_apps">Mi услуги, Mi SIM услуги за активация, Mi Облак, Намери устройството, Начален екран, Център за игра, MAB, MIUI и MSA системни компоненти, Преводачески услуги, Бързи приложения, Трезор за приложения, статистика, Mi Линк</string>
+    <string name="terms_of_use_lable_apps">Mi services, Mi SIM activation services, Xiaomi Cloud, Find device, Home screen, Games, MIUI Daemon, MSA system components, translation services, Quick apps, App vault, statistics, Mi Link</string>
+    <string name="terms_of_use_label_mab">, MAB</string>
+    <string name="terms_of_use_label_Mistore">, Mi Store system plug-in</string>
     <string name="terms_of_use_lable_gms">, Услуги на Google магазин</string>
     <string name="terms_of_use_label_systemhelper">, Саморегистриращи се услуги</string>
+    <string name="terms_of_use_ble_htmlViewer">, слети доставчици на местоположение, HTMLViewer</string>
     <string name="terms_of_use_lable_smart_cards">, Смарт карти</string>
     <string name="terms_of_use_lable_vsimcore">, MConnService</string>
     <string name="terms_of_use_label_updater">, Актуализатор</string>
+    <string name="terms_of_use_label_package">, Packageinstaller</string>
+    <string name="terms_of_use_label_phrase">, Frequent phrases</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
 
 Вие трябва да се съгласите с политиката за поверителност на Емоджи, преди да използвате тази услуга."</string>
@@ -88,7 +96,7 @@
     <string name="desc_extra_international_fingerprint" />
     <string name="desc_international_fingerprint">Използвайте вашия пръстов отпечатък за отключване на устройството или за вход в приложения и услуги.</string>
     <string name="content_description_start">Старт</string>
-    <string name="start_up_slogan">Създаден за изживяване на цял екран</string>
+    <string name="start_up_slogan">Животът става по-лесен</string>
     <string name="content_description_miui_version">MIUI 10</string>
     <string name="content_description_complete">Готово</string>
     <string name="language_picker_other_languages_title">Други езици</string>

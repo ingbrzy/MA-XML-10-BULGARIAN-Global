@@ -19,7 +19,9 @@
     <string name="exo_download_notification_channel_name">Изтегляния</string>
     <string name="exo_download_removing">Изтеглянията се премахват</string>
     <string name="exo_item_list">%1$s – %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Автоматично</string>
     <string name="exo_track_selection_none">Нищо</string>
     <string name="exo_track_selection_title_audio">Аудиозапис</string>
@@ -103,7 +105,7 @@
     <string name="dlg_not_block_call">Да се отблокират ли избраните номера? Те ще бъдат добавени в изключенията, но предишните блокирани повиквания няма да се показват история на повикванията.</string>
     <string name="dlg_update_date_title">Внимание</string>
     <string name="dlg_update_data_content">Не сте свързан с Wi-Fi мрежа. Използването на мобилни данни може да е причина за допълнително таксуване. Продължете?</string>
-    <string name="dlg_sec_network_unavailable">Приложението Оптимизация не може да се актуализира, защото сте ограничили интернет връзката. Да се разреши ли на Оптимизация да се свърже с интернет?</string>
+    <string name="dlg_sec_network_unavailable">Приложението \"Сигурност\" не може да се обнови, защото сте ограничили интернет връзката. Да се разреши ли на \"Сигурност\" да се свърже с интернет?</string>
     <string name="dlg_update_btn_contiue">Продължи</string>
     <string name="dlg_update_btn_open">Разреши</string>
     <string name="dlg_update_updating">Актуализиране…</string>
@@ -172,7 +174,7 @@
     <string name="sms_filter">Умен филтър</string>
     <string name="sms_keywords">Блокирани по ключови думи</string>
     <string name="sms_service">Блокиране на сервизни SMS</string>
-    <string name="sms_stranger_block">Блокиране на SMS от непознати</string>
+    <string name="sms_stranger_block">Блокирано</string>
     <string name="sms_contact_block">Блокиране на SMS от контакти</string>
     <string name="sms_malicious_url">Блокиране на SMS с опасни URL</string>
     <string name="sms_cloud_block">Облачен списък блокирани</string>
@@ -198,7 +200,9 @@
     <string name="sms_delete_title">Изтрий съобщения</string>
     <string name="call_delete_title">Изтриване на списъка с повиквания</string>
     <string name="sms_delete_hint">Да се изтрият ли всички блокирани съобщения от избрания номер?</string>
+    <string name="sms_delete_all_hint">Да изтрия ли всички съобщения сега?</string>
     <string name="call_delete_hint">Да се изтрият ли всички блокирани обаждания от избрания номер?</string>
+    <string name="call_delete_all_hint">Да се изтрият ли всички блокирани обаждания?</string>
     <string name="backsound_set_hint">Да се настрои ли звука за %s?</string>
     <string name="report">Доклад</string>
     <string name="report_only">Изберете съобщение за докладване</string>
@@ -208,6 +212,7 @@
     <string name="report_warning_title">Внимание</string>
     <string name="st_sub_title_customize_mode_name">Име</string>
     <string name="read_all_sms">Прочети всички</string>
+    <string name="delete_all_sms">Изтриване на всички</string>
     <string name="loding">Зареждане на данни</string>
     <string name="action_source_sms_title">Блокирани съобщения</string>
     <string name="action_source_call_title">Блокирани повиквания</string>
@@ -237,6 +242,7 @@
     <string name="st_antispam_title_anoy_incoming">Обаждания от непознати</string>
     <string name="st_antispam_title_null_incoming">Частни номера</string>
     <string name="st_antispam_title_service_sms">Известия за услуги</string>
+    <string name="st_antispam_title_mms">MMS</string>
     <string name="st_summary_keywords_blacklist">Добавете ключови думи, за да блокирате съобщения</string>
     <string name="st_summary_blacklist_numbers">Блокирайте обаждания и съобщения от конкретни номера и области</string>
     <string name="st_summary_whitelist_numbers">Приемайте обаждания и съобщения от конкретни номера и области</string>
@@ -320,7 +326,7 @@
     <string name="st_share_settings">Използвай настройки на SIM 1</string>
     <string name="st_msg_settings">Блокиране по SMS</string>
     <string name="st_msg_intercept_contacts">Блокирай SMS от контакти</string>
-    <string name="st_msg_stranger_group">Блокирай SMS от непознати</string>
+    <string name="st_msg_stranger_group">Блокиране на съобщения от непознати</string>
     <string name="st_msg_other_group">Друго</string>
     <string name="st_msg_keyword_group">Ключови думи</string>
     <string name="st_msg_keyword_black">Списък с блокирани думи</string>
@@ -342,11 +348,11 @@
     <string name="st_confirm_dialog_summary_contact_call">Всички обаждания от контакти ще бъдат блокирани.</string>
     <string name="st_confirm_dialog_summary_oversea_call">Включете, за да блокирате входящи повиквания от чуждестранни телефонни номера.</string>
     <string name="cta_dialog_title">Известие за свързване</string>
-    <string name="cta_dialog_msg">&lt;Data>Вие трябва да се съгласите с нашата &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a> преди да използвате приложението Оптимизация. Приложението Оптимизация трябва да се свърже с интернет и да има достъп до Вашето местоположение за да работи нормално и да държи антивирусните дефиниции винаги актуални. Съгласен ли сте с това?&lt;/Data></string>
     <string name="cta_dialog_negative">Изход</string>
     <string name="cta_dialog_positive">Съгласен</string>
     <string name="cta_settings">Разреши достъп до интернет</string>
-    <string name="gdpr_msg">&lt;Data>За да използвате основните функции на Оптимизация, вие трябва да се съгласите с това, че Xiaomi ще събира и използва вашите лични данни, включително и това, как използвате приложението и неговите функции (напр. употребата на мобилни данни, информация за открити вредни приложения, както и основна информация за вашето устройство) и друг тип информация, определена в нашата &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Политика на поверителност&lt;/a>.&lt;/Data></string>
+    <string name="gdpr_msg">&lt;Data>За да използвате основните функции на \"Сигурност\", трябва да дадете съгласието си на Xiaomi да събира и използва Вашите лични данни, включително начина, по който използвате приложението и неговите функции (напр. използваните мобилни данни, информация за открити вредни приложения, основна информация за устройството), както и други видове информация, посочени в нашата &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">политика на поверителност&lt;/a>.&lt;/Data></string>
+    <string name="cta_main_purpose">Добре дошли в Оптимизация! Можете да използвате това приложение за почистване на боклука от устройството си, откриване и неутрализиране на вируси, оптимизиране на ефективността за игри, запазване на батерията, управление на приложения и други.</string>
     <string name="app_name_na">Монитор</string>
     <string name="list_empty_text">Празно</string>
     <string name="dialog_title_attention">Внимание</string>
@@ -356,7 +362,7 @@
     <string name="megabyteShort">МБ</string>
     <string name="kilobyteShort">КБ</string>
     <string name="byteShort">Б</string>
-    <string name="yuan">BGN</string>
+    <string name="yuan">CNY</string>
     <string name="percent_text_formatted">%s%%</string>
     <string name="main_traffic_detail">Използвани данни</string>
     <string name="main_toolbar_firewall">Ограничения</string>
@@ -461,6 +467,7 @@
     <string name="not_limited_brand">Неограничен</string>
     <string name="pref_about_traffic_title">Настройка на трафика</string>
     <string name="pref_traffic_manage_title">Използвани данни</string>
+    <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_package_traffic_settings">План за данни</string>
     <string name="pref_adjust_traffic_data">Задаване на изп. на данни</string>
     <string name="pref_category_title_other">Допълнитени настройки</string>
@@ -969,7 +976,7 @@
     <string name="om_running_system_apps">Работещи системни приложения</string>
     <string name="om_running_third_apps">Работещи приложения от трета страна</string>
     <string name="om_locked_apps_summary">Заключените приложения ще бъдат игнорирани при оптимизиране скоростта на устройството.</string>
-    <string name="power_center_title">Оптимизация на батерия</string>
+    <string name="power_center_title">Батерия &amp; производителност</string>
     <string name="power_center_back">Назад</string>
     <string name="power_center_auto_shutdown">Превключвател</string>
     <string name="power_center_ontime_boot">Включване по време</string>
@@ -1012,6 +1019,7 @@
     <string name="usage_type_data_send">Изпратени мобилни данни</string>
     <string name="usage_type_no_coverage">Време без сигнал</string>
     <string name="usage_type_gps">GPS</string>
+    <string name="process_kernel_label">Android операционна система</string>
     <string name="process_mediaserver_label">Медиен сървър</string>
     <string name="power_screen">Екран</string>
     <string name="power_wifi">Wi-Fi</string>
@@ -1019,6 +1027,8 @@
     <string name="power_cell">В режим на готовност</string>
     <string name="power_phone">Гласови обаждания</string>
     <string name="power_idle">Устройството е неактивно</string>
+    <string name="power_ambient_display">Дисплей, открояващ важни неща</string>
+    <string name="battery_desc_ambient_display">Енергия, изразходена от Дисплей, открояващ важни неща</string>
     <string name="usage_type_cpu">Процесор, общо</string>
     <string name="usage_type_cpu_foreground">Процесор, на преден план</string>
     <string name="usage_type_wake_lock">Оставяне в будно състояние</string>
@@ -1086,7 +1096,7 @@
     <string name="btn_text_optimize_now">Оптимизирай</string>
     <string name="btn_text_optimize_manually">Ръчно оптимизиране</string>
     <string name="battery_history_activity_title">История</string>
-    <string name="btn_text_goto_power_rank">Преглед на класацията</string>
+    <string name="btn_text_goto_power_rank">Виж всички статистики</string>
     <string name="btn_text_goto_setup">Към Настройки</string>
     <string name="power_save_title_text">Икономия на батерия</string>
     <string name="power_save_summary_text">Включете Икономия на батерията за ограничаване на фоновите процеси, спиране на синхр. и системните анимации.</string>
@@ -1112,7 +1122,7 @@
     <string name="deep_power_save_item_title_bluetooth">Изключете Bluetooth</string>
     <string name="deep_power_save_item_summary_bluetooth">Изключете Bluetooth за да пестите батерия</string>
     <string name="deep_power_save_item_title_lock_screen_time">Изключване на екрана</string>
-    <string name="deep_power_save_item_summary_lock_screen_time">Изключване на екрана след 30 секунди неактивност за спестяване на батерия</string>
+    <string name="deep_power_save_item_summary_lock_screen_time">Изключвай екрана след 15 секунди неактивност, за да се пести батерия.</string>
     <string name="power_save_mode_enable">Икономия на батерия</string>
     <string name="power_save_mode_summary">Наблюдение на процесите на заден фон и изключване на синхронизацията.</string>
     <string name="power_optimize_save_mode_not_opened">Икономия на батерия е икл.</string>
@@ -1234,18 +1244,23 @@
     <string name="power_center_list_item_auto_brightness">Корекция на автоматичната яркост на екрана</string>
     <string name="power_center_list_item_deep_save_title">Разширени настройки</string>
     <string name="power_center_list_item_battery_status_time">ч</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
+    <string name="power_center_list_item_battery_status_capacity">мАч</string>
     <string name="power_center_stop_scan_title">Спри сканирането</string>
     <string name="hide_mode_result_summary_text">Задайте свои настройки на Икономия на батерия за лични приложения</string>
     <string name="auto_task_result_summary_text">Настройте автоматични задачи за Икономия на батерия</string>
-    <string name="pc_settings_title">Настройки на оптимизацията на батерията</string>
+    <string name="pc_settings_title">Батерия&amp; настройки за производителност</string>
     <string name="pc_main_activity_back">Назад</string>
     <string name="extreme_power_save_mode_card_summary">Включете Свръх икономия на батерия, за да пестите енергия, когато зарядът на батерията е нисък.</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh (милиампер-час)</string>
     <string name="power_save_ps_limit">Ограничаване активността на системните приложения</string>
     <string name="power_save_ps_freeze">Замрази приложенията на заден план</string>
     <string name="power_save_ps_clean">Изчистване на кеша, когато устройството е заключено</string>
     <string name="power_save_ps_close_setting">Изключете процесите на заден план (синхр, GPS) за да съхраните заряда на батерията</string>
     <string name="power_center_dialog_msg_top">Когато услугата Икономия на батерия е включена, MIUI ще предприеме следните оптимизации:</string>
-    <string name="power_center_dialog_msg_bottom">Вие можете да увеличите живота на батерията до %1$dч %2$dмин. Включване Икономия на батерия?</string>
+    <string name="power_center_dialog_msg_bottom">Можете да увеличите живота на батерията до %1$d ч %2$d мин. Включване на \"Икономичен режим\"?</string>
     <string name="power_dialog_super_save_msg">Свръх икономия на батерията ограничава повечето услуги, които консумират енергия и забавят работата на Вашето устройство. Функционалността ще бъде сведена до основните неща за един телефон: обаждания, SMS и връзката с клетъчната мрежа. Те ще работят колкото се може по - дълго. Да включа ли режим Свръх икономия на батерията?</string>
     <string name="power_dialog_super_save_title">Свръх икономия на батерията</string>
     <string name="power_center_power_save_title_text">Икономия на батерия</string>
@@ -1259,6 +1274,15 @@
     <string name="power_setting_category_other">Допълнителни настройки</string>
     <string name="power_setting_background_app_save_title">Пестене на батерията на заден план</string>
     <string name="power_setting_background_app_save_summary">Задайте лимит за приложенията, които работят във фонов режим, без това да навреди на функционалността на телефона Ви</string>
+    <string name="power_setting_warm_configure">Контрол на температурата</string>
+    <string name="power_setting_config_scenario_policies_title">Варианти</string>
+    <string name="power_setting_scenario_policies_summary">Определяне на варианти за автоматично превключване между режимите за пестене на батерията</string>
+    <string name="power_setting_important_warning">Внимание</string>
+    <string name="power_setting_warm_performance_tip">Вариантите, в които се изисква висока консумация на енергия, могат да повишат температурата на Вашето устройство над нивата за температурен контрол по подразбиране.</string>
+    <string name="power_setting_features">Специални функции</string>
+    <string name="power_setting_wireless_reverse_charging_title">Безжичното зареждане е спряно</string>
+    <string name="power_setting_wireless_reverse_charging_summary">Зареждайте други съвместими устройства безжично</string>
+    <string name="battery_and_property">Батерия &amp; производителност</string>
     <string name="power_settings_lock_screen_saver_title">Настройки на Заключен екран</string>
     <string name="quick_optimize_sub_summary_with_battery_text">Добавени %1$s, около %2$s остават</string>
     <string name="quick_optimize_sub_battery_text">Остават около %s</string>
@@ -1273,6 +1297,17 @@
     <string name="pc_main_sub_battery_text_hour_minute">Остават %1$sч %2$sмин</string>
     <string name="pc_main_power_manager_day_hour">%1$sдни %2$sч до пълно зареждане</string>
     <string name="pc_main_power_manager_hour_minute">%1$sч %2$sмин до пълно зареждане</string>
+    <string name="battery_statistics_activity_title">Статистика за разхода на батерия</string>
+    <string name="pc_battery_history_consume_rank_menu_item">Класиране</string>
+    <string name="pc_battery_history_battery_detail_menu_item">Детайли</string>
+    <string name="pc_battery_history_rank_percent_menu_item">Процент</string>
+    <string name="pc_battery_history_rank_mha_menu_item">Милиампер час</string>
+    <string name="pc_battery_detail_curve_reference_now">Сега</string>
+    <string name="pc_battery_detail_device_item_title">Статистика за разхода на батерия</string>
+    <string name="pc_statistics_battery_use_title">Консумация на батерия</string>
+    <string name="pc_statistics_battery_use_summary">%s от последното зареждане</string>
+    <string name="pc_statistics_battery_use_hour_minute">%1$d ч %2$d м от последното зареждане</string>
+    <string name="pc_statistics_battery_last_hour_minute">Остават %1$d ч и %2$d мин</string>
     <string name="notification_battery_scan_consume_abnormal_title_set">%s изтощава батерията</string>
     <string name="notification_battery_scan_consume_abnormal_summary">Чукнете за да оправите проблема</string>
     <string name="pc_abnormal_scan_reason_prevent_standby">Не дава на системата преминаване в режим на готовност</string>
@@ -1282,6 +1317,38 @@
     <string name="pc_abnormal_scan_reason_wake_system">Прекалено често събужда системата</string>
     <string name="pc_abnormal_scan_reason_reconnect">Прекалено често прави опит да се свърже с мрежата</string>
     <string name="pc_abnormal_scan_button_text">Затворете приложенията</string>
+    <string name="superpower_settings">Свръх икономия на батерията</string>
+    <string name="superpower_notification_time_12">EEEE, dd MMMM</string>
+    <string name="superpower_notification_time_24">EEEE, dd MMMM</string>
+    <string name="superpower_notification_hint_enter">Включи</string>
+    <string name="superpower_savemode_limit1">Тъмна тема</string>
+    <string name="superpower_savemode_limit2">Ограничаване активността на заден план</string>
+    <string name="superpower_savemode_limit3">Ограничаване консумацията на енергия (синхр, GPS, вибрация, Екран, показващ важни неща и др.)</string>
+    <string name="superpower_savemode_limit4">Разрешете избраните приложения, за да работят нормално</string>
+    <string name="superpower_settins_switch_summary">Ограничава повечето функции, които консумират енергия, за да останат работещи основни функционалности (напр. обаждания, SMS и избрани приложения) възможно най-дълго</string>
+    <string name="superpower_settins_autoleave_title">Автоматично изключване</string>
+    <string name="superpower_settins_autoleave_summary">Изключи Свръхикономия на батерията автоматично, когато батерията е заредена на 50%</string>
+    <string name="superpower_settins_other">Други настройки</string>
+    <string name="superpower_settins_autoenter_title">Автоматично включване</string>
+    <string name="superpower_settins_autoenter_summary">Включи Свръхикономия на батерията автоматично, когато батерията е заредена само на 10%</string>
+    <string name="superpower_notification_title">По-малко от 10% остават от заряда на батерията Ви</string>
+    <string name="superpower_notification_summary">Включи Свръхикономия на батерията</string>
+    <string name="superpower_dialog_title">Свръхикономия на батерията</string>
+    <string name="superpower_dialog_massage">Свръхикономия на батерията ограничава повечето услуги, които консумират енергия и забавят работата на Вашето устройство, като оставя само основни функционалности (напр. обаждания, SMS и връзка с клетъчната мрежа) възможно най - дълго. Да включа ли режим Свръхикономия на батерията?</string>
+    <string name="superpower_dialog_button_ok">OК</string>
+    <string name="superpower_dialog_button_disable_dialog">Не показвай отново</string>
+    <string name="superpower_progress_title">Оставащо време</string>
+    <string name="superpower_progress_content">Включване на Свръхикономия на батерията…</string>
+    <string name="superpower_progress_turnoff_items">Ограничаване на дейности, консумиращи енергия</string>
+    <string name="superpower_progress_turnoff_process">Ограничаване активността на заден план</string>
+    <string name="superpower_progress_turndown_brightness">Намаляване на яркостта на екрана</string>
+    <string name="superpower_progress_switch_home">Преминаване към тъмна тема</string>
+    <string name="superpower_progress_left_time">%1$dч %2$dмин</string>
+    <string name="pc_search_keywords_battery">Батерия</string>
+    <string name="pc_search_keywords_battery_save">Пестене на батерия</string>
+    <string name="pc_search_keywords_battery_use">Консумация на батерия</string>
+    <string name="pc_search_keywords_capacity">Капацитет на батерия</string>
+    <string name="pc_search_keywords_property">Ефективност</string>
     <string name="handle_bar_title_system">Система</string>
     <string name="apps_list_header_title_sms">Проверка на Съобщения</string>
     <string name="apps_list_header_title_sms_access">Ограничаване на достъпа до кодове за потвърждение</string>
@@ -1349,7 +1416,7 @@
     <string name="sp_settings_check_item_title_wifi">Wi-Fi</string>
     <string name="sp_settings_check_item_title_root">Рут достъп</string>
     <string name="sp_settings_check_item_title_update">Системни актуализации</string>
-    <string name="sp_settings_check_item_title_virus_exception">Вирус изключения</string>
+    <string name="sp_settings_check_item_title_virus_exception">Изключения</string>
     <string name="sp_settings_check_item_title_sign_exception">Потвърдете изключенията</string>
     <string name="sp_settings_check_item_summary_virus_exception">Управление на изключенията</string>
     <string name="sp_settings_check_item_summary_sign_exception">Управление на изключенията</string>
@@ -1357,7 +1424,7 @@
     <string name="sp_empty_title_sign_exception">Задръжте върху името на приложението, за да го добавите в изключенията</string>
     <string name="sp_toast_removed_from_sign_white_list">Преместено от Изключенията. Елементът ще бъде сканиран следващият път.</string>
     <string name="sp_network_privacy_dialog_title">Не може да се използва сигурно сканиране</string>
-    <string name="sp_network_privacy_dialog_message">Приложението Оптимизация не може да работи правилно, поради ограничения в интернет връзката. Да разреша ли на Оптимизация да се свърже с интернет?</string>
+    <string name="sp_network_privacy_dialog_message">Приложението \"Сигурност\" не може да работи правилно поради ограничения в интернет връзката. Разрешавате ли на \"Сигурност\" да се свърже с интернет?</string>
     <string name="sp_settings_exception_count_zero">Няма съдържание</string>
     <string name="sp_monitored_apps_count_zero">Няма приложения за плащане</string>
     <string name="monitor_app_more">Повече</string>
@@ -1385,8 +1452,6 @@
     <string name="btn_text_quick_scan">Сканирай</string>
     <string name="menu_text_antivirus">Сканиране на защитата</string>
     <string name="menu_summary_antivirus">Tърсене на вируси в устройството</string>
-    <string name="menu_summary_antivirus_2">Открит е потенциален риск</string>
-    <string name="menu_summary_antivirus_3">Не е сканирано устройство</string>
     <string name="menu_text_optimize_manage">Подобрете скоростта</string>
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_summary_networkassistants">Управление на вашия план за данни</string>
@@ -1395,24 +1460,25 @@
     <string name="menu_summary_networkassistants_4">Надхвърлен лимит за данни</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
     <string name="menu_text_networkassistants_unit_mb">МБ</string>
     <string name="menu_text_networkassistants_unit_kb">КБ</string>
     <string name="menu_text_networkassistants_unit_b">Б</string>
     <string name="menu_text_antispam">Антиспам</string>
     <string name="menu_summary_antispam">Блокиране на обаждания и съобщения</string>
-    <string name="menu_summary_antispam_2">Блокирани обаждания и съобщения</string>
     <string name="menu_text_license_manager">Разрешения</string>
     <string name="menu_text_garbage_cleanup">Почистване</string>
     <string name="menu_summary_garbage_cleanup">Няма открити отпадъци</string>
-    <string name="menu_summary_garbage_cleanup_2">Размер на отпадъците</string>
-    <string name="menu_summary_garbage_cleanup_3">Почисти отпадъците сега</string>
-    <string name="menu_text_power_manager">Оптимизация на батерия</string>
+    <string name="menu_summary_garbage_cleanup_ex">Почисти %s отпадъци.</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
+    <string name="menu_text_power_manager">Батерия и производителност</string>
     <string name="menu_summary_power_manager">Икономия на батерия ви дава повече време за работа преди следващо зареждане</string>
     <string name="menu_summary_power_manager_1">Батерията е напълно заредена</string>
     <string name="menu_summary_power_manager_2">Остават: %s</string>
     <string name="menu_summary_power_manager_3">Свържете зарядно устройство</string>
     <string name="menu_summary_power_manager_4">Ще се зареди след %s</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="last_check_canceled">Предишното сканиране е прекъснато преди да завърши</string>
     <string name="examination_score_100">Изглежда всичко работи добре!</string>
     <string name="examination_score_80_100">Някои елементи могат да бъдат оптимизирани</string>
@@ -1427,7 +1493,6 @@
     <string name="activity_title_power_manager">Оптимизация на батерия</string>
     <string name="activity_title_garbage_cleanup">Почистване</string>
     <string name="menu_summary_app_manager">Актуал. и деинстал. на прилож</string>
-    <string name="menu_summary_app_manager_2">Налични са актуализации</string>
     <string name="memory_check_content">Освободени %s</string>
     <string name="memory_clear_unused">Изчисти кеша (%s)</string>
     <string name="activity_title_virus">Вирус</string>
@@ -1500,7 +1565,7 @@
     <string name="hints_virus_app_list_item_summary">приложение</string>
     <string name="hints_virus_apk_list_item_summary">apk</string>
     <string name="hints_loading_text">Зареждане...</string>
-    <string name="security_center_slogan">Сигурност. Винаги Ви пази.</string>
+    <string name="security_center_slogan">Поддържайте устройството си бързо и сигурно</string>
     <string name="activity_title_auto_start_manager">Автостарт</string>
     <string name="activity_title_permission_manager">Разрешения</string>
     <string name="activity_title_other_permission_manager">Други разрешения</string>
@@ -1526,6 +1591,8 @@
     <string name="permission_action_accept">Приемане</string>
     <string name="permission_action_prompt">Запитване</string>
     <string name="permission_action_reject">Отказване</string>
+    <string name="permission_action_always">Позволявай винаги</string>
+    <string name="permission_action_foreground">Докато използвам приложението</string>
     <string name="empty_title_permission_apps_list">Празно</string>
     <string name="old_sdk_deny_warning">Приложението не е съвместимо с последните разрешения. Забраната на разрешенията може да окаже ефект на работата му.</string>
     <string name="empty_title_root_apps">Няма приложения</string>
@@ -1588,10 +1655,10 @@
     <string name="empty_title_manual_item_white_list">Празно</string>
     <string name="title_cloud_account">Впишете се в Mi профила си</string>
     <string name="summary_cloud_account">За да получите достъп до всички услуги, впишете се с Mi профила си.</string>
-    <string name="title_cloud_service">Mi Cloud е изкл.</string>
+    <string name="title_cloud_service">Xiaomi Cloud</string>
     <string name="summary_cloud_service">Използвайте Mi Cloud за архивиране на данните си в случай на пореда или загуба на устройството ви.</string>
     <string name="title_network_switch">Мрежа</string>
-    <string name="summary_network_switch">Позволете мобилни данни при използване на Оптимизация</string>
+    <string name="summary_network_switch">Позволете на \"Сигурност\" да се свързва с интернет.</string>
     <string name="title_power_optimizer">Спест. на батерия е изкл.</string>
     <string name="summary_power_optimizer">За удължаване на живота на батерията, спест. на батерия ще намали производителността когато остава малко заряд.</string>
     <string name="title_data_flow_monitor">Мониторът за данни е вкл</string>
@@ -1702,7 +1769,7 @@
     <string name="antivirus_none_engine_dialog_ok">OK</string>
     <string name="antivirus_privacy_dialog_title">Политика на поверителност</string>
     <string name="antivirus_privacy_dialog_summary">Тази функция криптира и изпраща идентификатора на устройството Ви на сървърите на Avast, AVL и Tencent (%s).</string>
-    <string name="antivirus_privacy_dialog_summary_link">виж Политиката на поверителност</string>
+    <string name="antivirus_privacy_dialog_summary_link">Политика на поверителност</string>
     <string name="antivirus_privacy_dialog_cloudscan">Качване на имена и детайли за прил.</string>
     <string name="antivirus_privacy_dialog_cloudscan_description">Качване и сканиране на имената и детайлите с помощта на онлайн вирусни дефиниции.</string>
     <string name="antivirus_privacy_dialog_ok">OK</string>
@@ -1712,7 +1779,7 @@
     <string name="antivirus_not_wlan">Не сте свързан с Wi-Fi мрежа. Използването на мобилни данни може да е причина за допълнително таксуване. Продължете?</string>
     <string name="antivirus_longtime_no_update">Базата данни на антивирусната програма е остаряла. Редовните нейни актуализации са гаранция за добри резултати при сканиране. Да разреша ли на Оптимизация да се свърже с интернет и обнови вирусните дефиниции?</string>
     <string name="antivirus_longtime_no_update1">Базата данни на антивирусната програма е остаряла. Редовните нейни актуализации са гаранция за добри резултати при сканиране. Обновете антивирусните дефиниции и опитайте отново.</string>
-    <string name="antivirus_sec_network_unavailable">Приложението Оптимизация не може да се актуализира, защото сте ограничили интернет връзката. Да се разреши ли на Оптимизация да се свърже с интернет?</string>
+    <string name="antivirus_sec_network_unavailable">Приложението \"Сигурност\" не може да се обнови, защото сте ограничили интернет връзката. Да се разреши ли на \"Сигурност\" да се свърже с интернет?</string>
     <string name="antivirus_update_btn_contiue">Продължи</string>
     <string name="antivirus_update_btn_open">Приеми</string>
     <string name="antivirus_update_btn_update">Актуализирай</string>
@@ -1794,6 +1861,7 @@
     <string name="card_main_deepclean_wechat_action">Изчистване</string>
     <string name="card_main_sectool_title">Инструменти</string>
     <string name="card_main_monthreport_action">Покажи</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_netcheck_title">Диагностика на мрежата</string>
     <string name="card_main_netcheck_summary">Диагностика на мрежата за проблеми при свързването</string>
     <string name="card_main_netcheck_action">Тест</string>
@@ -1850,7 +1918,7 @@
     <string name="ac_enter_applock">Вход в закл. на прил.</string>
     <string name="ac_mask_all_apps">Скрий за всички приложения</string>
     <string name="ac_unmask_all_apps">Покажи за всички приложения</string>
-    <string name="ac_summaryOn">Включено, изисква се парола за вход в приложенията</string>
+    <string name="ac_summaryOn">Изисква се парола за отваряне на защитени приложения</string>
     <string name="ac_summaryOff">Изключено, не се изисква парола за вход в приложенията</string>
     <string name="lockpattern_tutorial_cancel_label">Отказ</string>
     <string name="lockpattern_tutorial_continue_label">Напред</string>
@@ -1864,8 +1932,8 @@
     <string name="modifypassword">Променете вида на паролата</string>
     <string name="back_modifypassword">Върнете се обратно към промяна на вида на паролата</string>
     <string name="showpattern">Показване на фигурата</string>
-    <string name="notification_mask_title">Скрий съдържанието</string>
-    <string name="notification_mask_summary">Скрий съдържанието на известията на заключен екран и в панела за известия</string>
+    <string name="notification_mask_title">Скрий съдържанието на известието</string>
+    <string name="notification_mask_summary">Не показвай съдържанието на известие от защитени приложения</string>
     <string name="convenient_mode">Еднократно отключване</string>
     <string name="convenient_summary">Въвеждане на паролата веднъж за отключване на всички приложения</string>
     <string name="suggest_app_tolock">Предложения</string>
@@ -2178,6 +2246,7 @@
     <string name="app_manager_find_apps">Откриване на приложения</string>
     <string name="app_manager_thumbnail_blur_title">Замъгляване прегледите на приложения</string>
     <string name="app_manager_thumbnail_blur_summary">Замъгляване прегледите на приложения в Скорошни</string>
+    <string name="app_manager_power_consume">%.1f%%</string>
     <string name="ad_btn_default_text">Научете повече</string>
     <string name="open_activity_err">Приложението не е открито</string>
     <string name="low_memory_warning_dialog_title">Няма достатъчно място в хранилището</string>
@@ -2233,7 +2302,7 @@
     <string name="already_close_gamebooster">Ускорителят на игри е изключен</string>
     <string name="no_game">Не намерих игри</string>
     <string name="gamebooster_network_dialog_title">Някои услуги не са достъпни</string>
-    <string name="gamebooster_network_dialog_message">Позволявате ли на Оптимизация да се свърже с мрежата, за да използва всички услуги за ускоряване на игрите?</string>
+    <string name="gamebooster_network_dialog_message">Позволявате ли на \"Сигурност\" да се свърже с интернет, за да използвате всички функционалности на \"Турбо за игри\"?</string>
     <string name="ask_create_shortcut">Създаване пряк път на начален екран?</string>
     <string name="create_shortcut">Създайте пряк път за Ускорител на игри на Начален екран</string>
     <string name="i_know">Направено</string>
@@ -2245,6 +2314,12 @@
     <string name="gmscore_support_service">Базови услуги на Google</string>
     <string name="gmscore_support_remind">Включете тази услуга, ако имате проблеми с използването на Gmail, Google Карти и други услуги на Google. Ще се съкрати малко животът на батерията.</string>
     <string name="google_base_app_install_choice">Приложението изисква инсталиран Google рамка на услугите, за да работи нормално. Да се изтегли ли и инсталира сега?</string>
+    <string name="function_gwsd_title">Не позволявай на входящите обаждания да прекъсват връзката на SIM картата за данни</string>
+    <string name="function_gwsd_detail">"За тази функционалност:
+ 1. Входящите обаждания към SIM картата за данни няма да прекъсват връзката за мобилни данни. Връзката ще бъде прекъсната само когато отговорите на обаждането.
+ 2. Когато тази функционалност бъде включена, обаждащият се няма да чува музика, докато чака да отговорите. Входящото обаждане ще бъде прекратено, ако не отговорите в рамките на 6 секунди.
+ 3. Тази функционалност работи само за SIM карти за данни. Обажданията към основната SIM карта ще прекъсват връзката за мобилни данни. 
+ 4. Тази функционалност се поддържа само от операторите China Mobile и China Unicom."</string>
     <string name="application_item_disable">Забранено</string>
     <string name="application_item_already_permission">Позволено</string>
     <string name="man_add_application">Добавете приложения за автостартиране ръчно</string>
@@ -2377,6 +2452,7 @@
     <string name="gamebox_display_3">Яркост</string>
     <string name="gamebox_display_4">Ярко &amp; наситено</string>
     <string name="gamebox_display_set">"Подобряване на изображение: "</string>
+    <string name="gamebox_milink">Излъчване</string>
     <string name="gb_first_window_title">Подобряване бързината при игри</string>
     <string name="gb_first_window_summary">Подобряване на скоростта на работа на системата</string>
     <string name="gb_first_window_gamebox_summary_four">Изчистване на кеша, създаване на записи и снимки на екрана</string>
@@ -2411,6 +2487,7 @@
     <string name="gb_advance_settings_reset_dialog_content">Да възстановя ли настройките по подразбиране?</string>
     <string name="title_reply">Коментар</string>
     <string name="title_like">Харесай</string>
+    <string name="ellipsis">…</string>
     <string name="game_video_net_data">Мобилни данни</string>
     <string name="game_wid_viewpoint_buttom">Направи кратка почивка.</string>
     <string name="video_repeat">Пусни отново</string>
@@ -2460,12 +2537,21 @@
     <string name="function_shield_eye_shield">Изкл. на режим Четене</string>
     <string name="function_shield_three_finger">Ограничи жестовете за снимка на екрана</string>
     <string name="function_shield_pull_notification_bar">Не отваряй панела с известия</string>
+    <string name="function_shield_voice_trigger">Не събуждай Mi AI с глас</string>
     <string name="choose_gs_show_way">Избор на ориентация на домашната страница</string>
     <string name="gs_show_way">Ориентация на домашната страница</string>
     <string name="gs_show_way_horizontal">Хоризонтално</string>
     <string name="gs_show_way_vertical">Вертикално</string>
     <string name="gb_global_settings">Основни настройки</string>
     <string name="gb_add_game_hint">Добави елементи от списъка с приложения</string>
+    <string name="gb_first_guide_title">Подобряване на скоростта на работа на системата</string>
+    <string name="gb_first_guide_gamebox_des">Използване на преки пътища по време на игри</string>
+    <string name="gb_first_guide_handsfree_des">Отговор на повиквания на заден план</string>
+    <string name="gb_first_guide_shortcut_des">Беше създаден пряк път до Турбо режим за игри</string>
+    <string name="gb_first_guide_function_shiled_title">Изключи системните услуги, докато е включен Турбо режим</string>
+    <string name="stop_milink_connect">Излъчването е спряно</string>
+    <string name="other_milink_connect">Не може да се излъчи. В момента се излъчва друга част.</string>
+    <string name="alert_back_milink_hangup_tips_content">Излъчването не може да бъде прекъснато, докато приключвате обаждане. Можете да натиснете бутона за вкл./изкл., за да активирате екрана.</string>
     <string name="notify_channel_name_security">Защита на системата</string>
     <string name="privacy_apps_category_title">Скрити приложения</string>
     <string name="privacy_apps">Скрити приложения</string>
@@ -2480,6 +2566,12 @@
     <string name="privacy_apps_checkbox_remind_choice">Не показвай отново</string>
     <string name="privacy_apps_go_to_use">Започни</string>
     <string name="privacy_apps_close">Затвори</string>
+    <string name="privacy_apps_shield_message_title">Не показвай известия</string>
+    <string name="privacy_apps_shield_message_summary">Не показвай известия от защитени приложения</string>
+    <string name="privacy_apps_begin_use">Започни</string>
+    <string name="privacy_apps_next_stup">Следващо</string>
+    <string name="privacy_apps_button_know">Разбрах</string>
+    <string name="privacy_apps_tutorial_dlg_title">Как да намерим скрити приложения</string>
     <string name="first_aid_stop_scan">Спри сканирането</string>
     <string name="first_aid_scanning_item1">Проверка за проблеми в производителността…</string>
     <string name="first_aid_scanning_item2">Проверка за проблеми с мрежата…</string>
@@ -2552,6 +2644,55 @@
     <string name="third_desktop_dialog_content">Лаунчерите от неизвестени приложения или източници може да създадат проблеми с работата на батерията, изтичане на данни, забавянето на системата и т. н. Само проверени от MIUI лаунчери могат да бъдат зададени по подразбиране.</string>
     <string name="third_desktop_dialog_ok">Разбрах</string>
     <string name="user_guide">Плъзнете, за да откриете още нови игри</string>
+    <string name="system_permission_declare_main_purpose" formatted="false">Добре дошли в %1s! Това приложение Ви позволява да използвате следните функции: %2s.</string>
+    <string name="system_permission_declare_privacy_declare">Ние уважаваме и защитаваме поверителността Ви. Обърнете внимание, че %1s се нуждае от събиране на данните Ви и изисква следните разрешения, за да работи нормално:</string>
+    <string name="system_permission_declare_analytics_declare">Благодарим Ви, че се включихте в нашата Програма за потребителски опит. Устройството Ви трябва да е свързано с интернет, за да може тази функция да работи нормално. Също така е необходимо да дадете следните разрешения, за да ни позволите да събираме данните, които ще ни помогнат да подобрим продуктите и услегите си. Тези данни се събират само със стътистическа цел. Няма да можем да използваме тези данни, за да Ви идентифицираме лично.</string>
+    <string name="system_permission_declare_privacy_no_permission">Обърнете внимание, че %1s се нуждае от събиране на данните Ви, за да работи нормално. Ние уважаваме и защитаваме поверителността Ви.</string>
+    <string name="system_permission_declare_use_network">Свържете се с мрежа</string>
+    <string name="system_permission_declare_use_network_no_permission">Свържете се с мрежа</string>
+    <string name="system_permission_declare_no_say_no">Ако не сте съгласни да събираме Ваши лични данни и не искате да ни дадете разрешение, приложението няма да работи нормално.</string>
+    <string name="system_permission_declare_no_say_no_analytics">Ако не желаете да дадете тези разрешения, можете да се отпишете от програмата от Настройки > Допълнителни настройки > Поверителност > Програма за потребителски опит.</string>
+    <string name="system_permission_declare_no_say_no_non_mandatory">Ако изберете да не давате необходимите разрешения или да не ни позволите да събираме и използваме Вашите данни, това приложение частично няма да може да работи.</string>
+    <string name="system_permission_declare_revoke_uninstallable">Можете да излезете от профила си, да деинсталирате това приложение или да оттеглите разрешението си в \"Сигурност\" > \"Управление на приложения\" > \"Разрешения\" > \"Разрешения\".</string>
+    <string name="system_permission_declare_revoke_system">Можете да излезете от това приложение.</string>
+    <string name="system_permission_declare_double_link">&lt;Data>Прочетете и се съгласете с &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a>и&lt;a href=\"%2$s\">Политика на поверителност&lt;/a>Преди да използвате функцията&lt;/Data></string>
+    <string name="system_permission_declare_user_agreement">&lt;Data>Прочетете и се съгласете с нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a>, преди да използвате тази функция.&lt;/Data></string>
+    <string name="system_permission_declare_privacy_policy">&lt;Data>Прочетете и се съгласете с нашата &lt;a href=\"%1$s\">Политика за поверителност&lt;/a>, преди да използвате тази функция.&lt;/Data></string>
+    <string name="system_permission_declare_agree">Приемам</string>
+    <string name="system_permission_declare_disagree">Отхвърли</string>
+    <string name="system_permission_perm_send_mms">Изпращане на MMS</string>
+    <string name="system_permission_perm_read_mms">Четене на МMS</string>
+    <string name="system_permission_perm_answer_call">Телефонни обаждания</string>
+    <string name="system_permission_perm_read_numbers">Четене на телефонни номера</string>
+    <string name="permgroupdesc_contacts">Достъп до контактите</string>
+    <string name="permgroupdesc_location">Достъп до данни за местоположението</string>
+    <string name="permgroupdesc_calendar">Достъп до събития в календара</string>
+    <string name="permgroupdesc_sms">Четене и изпращане на SMS</string>
+    <string name="permgroupdesc_storage">Достъп до снимки и файлове на устройството</string>
+    <string name="permgroupdesc_microphone">Записване на звук</string>
+    <string name="permgroupdesc_camera">Правене на снимки и видеоклипове</string>
+    <string name="permgroupdesc_calllog">Достъп до история на обажданията и записване в нея</string>
+    <string name="permgroupdesc_phone">Извършване на обаждания и управление на разговорите</string>
+    <string name="permgroupdesc_sensors">Достъп до данните от телесния сензор</string>
+    <string name="permgroupdesc_recognition">Достъп до данните за здравословното състояние и дейностите</string>
+    <string name="phone_manage">Полезно</string>
+    <string name="securitycenter_tab_title">Сигурност</string>
+    <string name="phone_manage_system_tool_title">Инструменти</string>
+    <string name="phone_manage_system_tool_summary">Полезни системни инструменти</string>
+    <string name="phone_manage_clean_title">Почистване</string>
+    <string name="phone_manage_clean_summary">Освобождаване на място за съхранение</string>
+    <string name="phone_manage_app_manager_summary">Управлявайте намиращите се на устройството приложения.</string>
+    <string name="phone_manage_electric_title">Батерия</string>
+    <string name="phone_manage_electric_summary">Оптимизирайте устройството си, за да пестите батерия.</string>
+    <string name="phone_manage_special_title">Специални функции</string>
+    <string name="phone_manage_special_summary">Разгледайте допълнителните функционалности</string>
+    <string name="system_tool_green_guard">Родителски контрол</string>
+    <string name="system_tool_sos">Спешни повиквания</string>
+    <string name="power_save_mode">Пестене на батерия</string>
+    <string name="power_save_settings">Настройки на батерията</string>
+    <string name="banner_optimizemanage_summary">Освобождаване на памет</string>
+    <string name="banner_red_money_assist_summary">По-бързо отваряне на червените пликове.</string>
+    <string name="banner_red_money_assist_button">Включи</string>
     <string name="resource_securitycenter_settings">Сигурност</string>
     <string name="keywords_securitycenter_settings">Употреба на батерията;Настройки за автостарт;Инсталиране през USB;Права на приложенията;Купуване на мобилен интернет;Списък с блокирани;Употреба на данни;Настройка на план за данни;Тест на мрежата; Икономия на батерията;Прегряване;Включване; Изключване;Батерия;Преразход;Проблеми с батерията;Енергия;Пестене на батерията;Пестене на енергия;Съхранение на енергия;Пестене на батерията; Автостарт;Права;Автостарт;MIUI автостарт; Автостарт на прилож; автостарт на прилож;Ограничен старт;ограничено стартиране;внезапно стартиране; USB инсталиране;инсталиране от компютър;ADB инсталиране; Местоположение;Достъп до контакти; данни;мобилни данни;купуване на данни;увеличаване на данни;план за данни; Блокирайте;Списък с блокирани;Умен списък с блокирани;Измамници;Продавачи;Агенти;Блокирани обаждания;Блокирани съобщения;Блокирани съобщения;SMS списък блокирани;черен списък;черен списък;списък с блокирани;списък с блокирани;измами;блокиран контакт;блокирани контакти; Трафик; Калибриране; Свързване;Интернет;Тест; Използване на батерията;Оптимизация на батерията;Консумация на енергия; Игри;ускорител на игри;Славата на краля;Режим Производителност;Режим не безпокойте</string>
     <string name="path_securitycenter_settings">Системни приложения/Сигурност</string>

@@ -73,8 +73,8 @@
     <string name="HIPS_Perm_get_tasks_Desc">достъп до задачите</string>
     <string name="HIPS_Perm_show_when_locked">Активирай на заключен екран</string>
     <string name="HIPS_Perm_show_when_locked_Desc">Ще се показва на заключен екран</string>
-    <string name="HIPS_Perm_background_start_activity">Работа на заден план</string>
-    <string name="HIPS_Perm_background_start_activity_Desc">Работа на заден план</string>
+    <string name="HIPS_Perm_background_start_activity">Показвай изскачащи прозорци, докато работи във фонов режим</string>
+    <string name="HIPS_Perm_background_start_activity_Desc">показвай изскачащи прозорци, докато работи във фонов режим</string>
     <string name="HIPS_Perm_get_installed_apps">Покажи информация за инсталираните приложения</string>
     <string name="HIPS_Perm_get_installed_apps_Desc">покажи информация за инсталираните приложения на това устройство</string>
     <string name="HIPS_Perm_service_foreground">Услуги на преден план</string>
@@ -100,4 +100,26 @@
     <string name="grant_dialog_button_deny">Забрани</string>
     <string name="current_permission_template">%1$s от %2$s</string>
     <string name="never_ask_again">Не питай повече</string>
+    <string name="background_location_access_reminder_notification_title">%s използва Вашето местоположение</string>
+    <string name="background_location_access_reminder_notification_content">Това приложение ще може винаги да използва Вашето местоположение. Докоснете за промяна.</string>
+    <string name="permission_reminders">Напомняне за Разрешения</string>
+    <string name="grant_dialog_button_deny_and_dont_ask_again">Откажи &amp; и ’ не питай отново</string>
+    <string name="grant_dialog_button_deny_background">Запази достъп, докато се използва</string>
+    <string name="grant_dialog_button_deny_background_and_dont_ask_again">Запази и не ’ питай отново</string>
+    <string name="grant_dialog_button_allow_always">Разреши винаги</string>
+    <string name="grant_dialog_button_allow_foreground">Разреши само по време на използване на приложението</string>
+    <string name="grant_dialog_button_allow_background">Разреши винаги</string>
+    <string name="permgrouprequest_storage_isolated">Позволи &lt;b>%1$s&lt;/b> достъп до снимки и др. медия на Вашето устройство?</string>
+    <string name="permission_description_summary_activity_recognition">Приложения с тези разрешения мога да имат достъп до Вашата физическа активност, като например ходене, каране на колело, шофиране, брояч на стъпки и т. н</string>
+    <string name="permission_description_summary_calendar">Приложения с тези разрешения могат да имат достъп до Вашия календар</string>
+    <string name="permission_description_summary_call_log">Приложения с тези разрешения могат да четат и записват във Вашия списък с повиквания</string>
+    <string name="permission_description_summary_camera">Приложения с тези разрешения могат да правят снимки или записват видео</string>
+    <string name="permission_description_summary_contacts">Приложения с тези разрешения могат да имат достъп до Вашите контакти</string>
+    <string name="permission_description_summary_location">Приложения с тези разрешения могат да имат достъп до Вашето местоположение</string>
+    <string name="permission_description_summary_microphone">Приложения с тези разрешения могат да записват аудио</string>
+    <string name="permission_description_summary_phone">Приложения с тези разрешения могат да извършват и управляват повиквания</string>
+    <string name="permission_description_summary_sensors">Приложения с тези разрешения могат да имат достъп до сензора за различни здравни услуги</string>
+    <string name="permission_description_summary_sms">Приложения с тези разрешения могат да изпращат и преглеждат Вашите кратки съобщения SMS</string>
+    <string name="permission_description_summary_storage">Приложения с тези разрешения могат да имат достъп до Вашите снимки, медия и други файлове на устройството</string>
+    <string name="permission_description_summary_generic">Приложения с тези разрешения могат да %1$s</string>
 </resources>

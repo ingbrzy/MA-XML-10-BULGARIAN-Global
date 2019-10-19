@@ -8,7 +8,7 @@
     <string-array name="date_of_traffic">
         <item>"Вчера "</item>
         <item>"Днес "</item>
-        <item>"Последният месец "</item>
+        <item>"Последния месец "</item>
         <item>"Този месец "</item>
     </string-array>
     <string-array name="date_of_traffic_prefix_cmcc">
@@ -19,25 +19,25 @@
     <string-array name="date_of_traffic_prefix">
         <item>"Вчера: "</item>
         <item>"Днес: "</item>
-        <item>"Последният месец: "</item>
+        <item>"Последния месец: "</item>
         <item>"Този месец: "</item>
     </string-array>
     <string-array name="date_of_app_all">
-        <item>Мобилни данни вчера</item>
-        <item>Мобилни данни днес</item>
-        <item>Последният месец (данни)</item>
-        <item>Този месец (данни)</item>
-        <item>Wi-Fi вчера</item>
-        <item>Wi-Fi днес</item>
-        <item>Wi-Fi последния месец</item>
-        <item>Wi-Fi този месец</item>
+        <item>"Вчера (мобилни данни) "</item>
+        <item>"Днес (мобилни данни) "</item>
+        <item>"Последния месец (мобилни данни) "</item>
+        <item>"Този месец (мобилни данни) "</item>
+        <item>"Вчера (Wi-Fi) "</item>
+        <item>"Днес (Wi-Fi) "</item>
+        <item>"Последния месец (Wi-Fi) "</item>
+        <item>"Този месец (Wi-Fi) "</item>
     </string-array>
     <string-array name="traffic_type">
-        <item>"Изп. мобилни данни "</item>
-        <item>"Изп. Wi-Fi "</item>
+        <item>"Използване на мобилни данни "</item>
+        <item>"Използване на Wi-Fi "</item>
     </string-array>
     <string-array name="mi_service_traffic_type">
-        <item>"Мобилни данни "</item>
+        <item>"Използване на мобилни данни "</item>
         <item>"Използване на Wi-Fi "</item>
     </string-array>
     <string-array name="over_limit_traffic_waring_style">
@@ -73,6 +73,12 @@
         <item>Сортиране по използване на хранилището</item>
         <item>Подреди по време на инсталиране</item>
     </string-array>
+    <string-array name="key_app_info">
+        <item>източник на инсталиране</item>
+        <item>час на инсталиране</item>
+        <item>източник на актуализиране</item>
+        <item>час на актуализиране</item>
+    </string-array>
     <string-array name="title_app_info">
         <item>Източник на инсталиране</item>
         <item>Час на инсталиране</item>
@@ -104,5 +110,13 @@
         <item>Ежедневно</item>
         <item>Понеделник-Петък</item>
         <item>По избор</item>
+    </string-array>
+    <string-array name="pc_settings_thermal_entries">
+        <item>По подразбиране</item>
+        <item>Приоритет за производителност</item>
+    </string-array>
+    <string-array name="pc_settings_thermal_summaries">
+        <item>Контрол на температурата по подразбиране</item>
+        <item>Приоритет за производителност</item>
     </string-array>
 </resources>

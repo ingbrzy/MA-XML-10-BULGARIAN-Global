@@ -4,6 +4,19 @@
     <string name="activity_not_found">Приложението не е инсталирано на телефона Ви.</string>
     <string name="activity_not_unlocked">Изчакайте устройството ви да се рестартира напълно, преди да отваряте приложения</string>
     <string name="add_screen">Добави бутон за екрани</string>
+    <string name="all_apps">Всички приложения</string>
+    <string name="all_apps_no_search_results">Не са открити резултати</string>
+    <string name="all_apps_search_app">Търсене на приложения</string>
+    <string name="all_apps_search_market_message">Търсене онлайн</string>
+    <string name="all_apps_setting_desktop_desc">Покажете всички инсталирани приложения на началния екран. Натиснете и задръжте икона на приложение, за да видите наличните преки пътища, да управлявате или деинсталирате приложението.</string>
+    <string name="all_apps_setting_desktop_title">Нормален</string>
+    <string name="all_apps_setting_drawer_desc">Поставете всички инсталирани приложения в Чекмеджето, което може да бъде отворено чрез плъзгане по началния екран. В Чекмеджето все още ще можете да откривате приложенията, които сте преместили на началния екран.</string>
+    <string name="all_apps_setting_drawer_tips_desc">Чекмеджето за приложения се отваря с плъзгане по началния екран. Превключването към режим Начален екран с Чекмедже за приложения ще направи Център за съдържание недостъпен. Превключване въпреки това?</string>
+    <string name="all_apps_setting_drawer_tips_title">Използване на Чекмедже за приложения</string>
+    <string name="all_apps_setting_drawer_title">С Чекмедже за приложения</string>
+    <string name="all_apps_setting_title">Начален екран</string>
+    <string name="all_apps_slide_up_tips">Плъзгането е резервирано за Чекмедже за приложения. Превключете към нормалния Начален екран и опитайте отново.</string>
+    <string name="all_apps_suggestions">Предложения за приложения</string>
     <string name="announce_for_app_move_in_folder">Преместено на позиция %1$d в папката</string>
     <string name="announce_for_checked">%1$s, проверени</string>
     <string name="announce_for_choose_default_screen">Задайте екран %1$d за Начален екран по подразбиране</string>
@@ -251,6 +264,7 @@
     <string name="multi_selecting_tips">За да преместите някое приложение задръжте пръст върху иконата му и го завлачете.</string>
     <string name="no_detail_page">Няма страница с подробности</string>
     <string name="no_space_toast">Няма достатъчно място</string>
+    <string name="no_space_toast_when_click_widget">Няма достатъчно място на тази страница. Пробвайте да провлачите този елемент на друга страница.</string>
     <string name="normal_wallpaper">Тапет</string>
     <string name="notification_installed">Инсталацията е успешна</string>
     <string name="notification_open_button">Отвори</string>
@@ -295,6 +309,7 @@
     <string name="privacy_thumbnail_blur_summary">Прегледи на приложението за замъгляване в Последни</string>
     <string name="privacy_thumbnail_blur_title">Прегледи на приложението за замъгляване</string>
     <string name="quick_app">Бързи приложения</string>
+    <string name="recent_apps">Скорошни</string>
     <string name="recents_config_title">Скорошни</string>
     <string name="recommend_apk_size_and_desc">%1$dМБ | %2$s</string>
     <string name="recommend_apps_default_title">Празно</string>
@@ -307,6 +322,7 @@
     <string name="recommend_loading">Зареждане</string>
     <string name="recommend_refresh">Обновяване</string>
     <string name="recommend_xout">Не показвай</string>
+    <string name="remove_invalidate_gadget_tips">Един от екранните елементи, който ползвате, вече не се предлага. Можете да добавите друг.</string>
     <string name="reset_description_first_time">Можете да възстановите оформлението от %1$s в рамките на 2 часа</string>
     <string name="reset_description_others">Можете да възстановите оформлението от %1$s</string>
     <string name="reset_fail">Не успя да възстанови</string>
@@ -325,6 +341,9 @@
     <string name="shake_to_align_icons_summary">Разтърсете устройството си, докато сте в режим редакция, за да запълните празните клетки с икони автоматично</string>
     <string name="shake_to_align_icons_title">Разтърсете, за да запълните празните клетки</string>
     <string name="share">Сподели</string>
+    <string name="shortcut_share_dialog_content">Файловете, които изпращате от телефона си, както и техните получатели, се избират и определят от Вас. Бъдете внимателни, когато решавате да споделяте файлове и избирате кой да ги получава. Не бива да използвате телефона си, за да пренасяте вируси, зловреден софтуер, вируси тип \"троянски кон\" и \"бомба със закъснител\", както и други зловредни обекти към други хора. Не използвайте телефона си за пренос на софтуер, който може да влоши нормалната работа на устройството на получателя, нито други елементи, които могат да повредят, прихванат, попречат на работата или унищожат системни данни или лична информация върху мобилното устройство. Вие носите отговорност за всички щети, причинени на други потребители или мобилни устройства. Xiaomi ще прави всичко по силите си, за да гарантира, че функционалността за споделяне, както и технологията и свързаната с нея информация са безопасни, ефективни, точни и надеждни. Поради ограничения на текущите технологии обаче Xiaomi не гарантира, че функционалността за споделяне е без недостатъци и ще удовлетворява всичките Ви потребности.</string>
+    <string name="shortcut_share_dialog_positive_button">Разбрах</string>
+    <string name="shortcut_share_dialog_title">Отказ от отговорност</string>
     <string name="show_all">Покажи всички</string>
     <string name="show_mem_info_title">Покажи съст. на рам памет</string>
     <string name="show_recents_recommend_title">Покажи предложения</string>
@@ -333,6 +352,7 @@
     <string name="sort_by_not_defined">Не сортирай</string>
     <string name="start_activity_failed">Приложението не успя да стартира.</string>
     <string name="starting_preset_app">Стартиране</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_downloaded">изтеглено</string>
     <string name="status_downloading">изтегля се</string>
     <string name="status_installing">инсталира се</string>

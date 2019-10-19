@@ -55,6 +55,8 @@
     <string name="mobiledata_alert_dialog_title">Предупреждение за данни</string>
     <string name="open_perm_msg">Приложението Компас се нуждае от достъп до информация за Вашето местоположение и камера, за да определи координати и да предостави преглед наживо. Разреши?</string>
     <string name="open_perm_title">Необходими разрешения</string>
+    <string name="permission_camera_desc">Използване на нивото на спирта</string>
+    <string name="permission_location_desc">Показване на координати и атмосферно налягане</string>
     <string name="preference_other">Друг</string>
     <string name="preference_privacy_title">Правилата за поверителност</string>
     <string name="pressure">%.1f</string>

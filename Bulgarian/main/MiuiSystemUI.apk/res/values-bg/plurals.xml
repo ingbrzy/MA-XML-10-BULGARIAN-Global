@@ -8,14 +8,6 @@
         <item quantity="other">Последно използвани, налични приложения: %d. Плъзнете нагоре за да ги премахнете или плъзнете надолу, за да ги заключите.</item>
         <item quantity="one">Последно използвани, налично приложение: %d. Плъзнете нагоре за да го премахнете или плъзнете надолу, за да го заключите.</item>
     </plurals>
-    <plurals name="block_record_notification_more_text">
-        <item quantity="other">Скрити известия от %1$s &amp; %2$d приложения.</item>
-        <item quantity="one">Скрити известия от %1$s &amp; %2$d приложение.</item>
-    </plurals>
-    <plurals name="disable_notification_confirm_title">
-        <item quantity="other">Скрий известията от %d прил.?</item>
-        <item quantity="one">Скрий известията от това прил.?\"</item>
-    </plurals>
     <plurals name="fold_tips_title">
         <item quantity="other">%d маловажни известия</item>
         <item quantity="one">%d маловажно известие</item>

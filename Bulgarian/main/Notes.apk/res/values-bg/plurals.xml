@@ -8,6 +8,14 @@
         <item quantity="other">%1$s елементи не са синхронизирани</item>
         <item quantity="one">%1$s елемент не е синхронизиран</item>
     </plurals>
+    <plurals name="date_calculate_days_after">
+        <item quantity="other">%1$d дни след</item>
+        <item quantity="one">%1$d ден след</item>
+    </plurals>
+    <plurals name="date_calculate_days_ago">
+        <item quantity="other">Преди %1$d дни</item>
+        <item quantity="one">Преди %1$d ден</item>
+    </plurals>
     <plurals name="format_move_notes_out_folder">
         <item quantity="other">Премахнати са %1$s бележки от папката</item>
         <item quantity="one">Премахната е %1$s бележка от папката</item>
@@ -27,6 +35,26 @@
     <plurals name="toast_notes_unhidden_count">
         <item quantity="other">%1$s бележки са разкрити успешно</item>
         <item quantity="one">%1$s бележка е разкрита успешно</item>
+    </plurals>
+    <plurals name="todo_N_days_after">
+        <item quantity="other">След %1$d дни</item>
+        <item quantity="one">След %1$d ден</item>
+    </plurals>
+    <plurals name="todo_N_days_ago">
+        <item quantity="other">Преди %1$d дни</item>
+        <item quantity="one">Преди %1$d ден</item>
+    </plurals>
+    <plurals name="todo_alert_message_delete">
+        <item quantity="other">Да се изтрият ли %1$s задачи?</item>
+        <item quantity="one">Да се изтрие ли %1$s задача?</item>
+    </plurals>
+    <plurals name="todo_event_description_days_ago">
+        <item quantity="other">Преди %1$d дни</item>
+        <item quantity="one">Преди %1$d ден</item>
+    </plurals>
+    <plurals name="todo_event_description_days_later">
+        <item quantity="other">След %1$d дни</item>
+        <item quantity="one">След %1$d ден</item>
     </plurals>
     <plurals name="word_count">
         <item quantity="other">%d символи</item>

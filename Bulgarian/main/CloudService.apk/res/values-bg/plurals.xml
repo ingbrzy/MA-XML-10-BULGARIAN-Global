@@ -61,8 +61,8 @@
         <item quantity="one">%d скрита снимка не е синхронизирана. Излезте от профила си, след като всички елементи се синхронизират, в противен случай ще бъдат изтрити.</item>
     </plurals>
     <plurals name="micloud_manual_pause_and_resume">
-        <item quantity="other">Синхр. е на пауза. Продължаване след %d минути…</item>
-        <item quantity="one">Синхр. е на пауза. Продължаване след %d минута…</item>
+        <item quantity="other">Продължи синхронизирането след %d минути</item>
+        <item quantity="one">Продължи синхронизирането след %d минута</item>
     </plurals>
     <plurals name="last_sync_time_mins_ago">
         <item quantity="other">Преди %s мин</item>
@@ -73,7 +73,7 @@
         <item quantity="one">Преди %s час</item>
     </plurals>
     <plurals name="provision_sync_items_status_title">
-        <item quantity="other">%s услуги ще бъдат синхр. с Mi Облак</item>
-        <item quantity="one">%s услуга ще бъде синхр. с Mi Облак</item>
+        <item quantity="other">%s услуги ще бъдат синхр. с Xiaomi Облак</item>
+        <item quantity="one">%s услуга ще бъде синхр. с Xiaomi Облак</item>
     </plurals>
 </resources>

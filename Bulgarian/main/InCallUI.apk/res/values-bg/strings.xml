@@ -78,7 +78,6 @@
     <string name="respond_via_sms_custom_message">Потребителски SMS</string>
     <string name="manageConferenceLabel">Управление на конферентно обаждане</string>
     <string name="emergency_call_dialog_number_for_display">Номер за спешна помощ</string>
-    <string name="volte_call">VoLTE обаждане</string>
     <string name="notification_dialing">Набиране</string>
     <string name="notification_ongoing_call">Провеждащ се разговор</string>
     <string name="notification_on_hold">Задържане на обаждането</string>
@@ -127,14 +126,9 @@
     <string name="msim_select_default_time_left">(%d сек.)</string>
     <string name="select_sim_hint">Не може да използвате SIM %2$d, докато SIM %1$d е в употреба.</string>
     <string name="select_one_sim_title">Да се използва само SIM %1$d</string>
-    <string name="select_sim_hint_for_heduohao">Не може да използвате друга SIM, докато SIM %1$d Sub %2$d е в употреба.</string>
-    <string name="select_one_sim_title_for_heduohao">Можете да използвате само SIM %1$d Sub %2$d</string>
     <string name="can_not_use">Не може да се използва</string>
     <string name="sim1_description">SIM1</string>
     <string name="sim2_description">SIM2</string>
-    <string name="sim1_heduohao_card">Sub1</string>
-    <string name="sim2_heduohao_card">Sub2</string>
-    <string name="sim3_heduohao_card">Sub3</string>
     <string name="call_description_recording">Запис на разговор…</string>
     <string name="call_recording_error_privacy">Не можете да записвате докато сте в режим Гост</string>
     <string name="call_recording_error_sd_access">Няма достъп до SD картата</string>
@@ -168,7 +162,6 @@
     <string name="onscreen_message_text">Съобщения</string>
     <string name="onscreen_close_preview_camera">Затваряне</string>
     <string name="upgrade_vt_prompt">Да се превключи ли на видео повикване?</string>
-    <string name="incoming_answer_voice_text">Гласово обаждане</string>
     <string name="picking_participant">Получаване на информация за контакт…</string>
     <string name="conference_caller_info_name">%1$s конферентни обаждания</string>
     <string name="video_conference_caller_info_name">%1$sВидеоконферентно обаждане</string>
@@ -190,8 +183,8 @@
     <string name="incoming_circle_text_reject">Отпуснете за отхвърляне</string>
     <string name="incoming_circle_text_answer_p">Плъзнете за приемане</string>
     <string name="incoming_circle_text_answer">Отпуснете за приемане</string>
-    <string name="incoming_circle_text_message_p">Плъзнете за SMS</string>
-    <string name="incoming_circle_text_message">Отпуснете за SMS</string>
+    <string name="incoming_circle_text_video_answer_p">Плъзнете нагоре, за да отговорите с видео</string>
+    <string name="incoming_circle_text_video_answer">Отпуснете, за да отговорите с видео</string>
     <string name="dialpad_zero">0</string>
     <string name="dialpad_one">1</string>
     <string name="dialpad_two">2</string>
@@ -205,4 +198,9 @@
     <string name="prompt_no_volte_when_failed">Не може да се извърши обаждане. Уверете се, че вашето устройство е свързано с 4G мрежа с VoLTE поддържка.</string>
     <string name="volume_boost_text">Ускоряването е успешно</string>
     <string name="supp_service_notification_call_waiting">Номерът, който избирате е зает. Моля изчакайте…</string>
+    <string name="incall_bubble_hangup_click_hint">Натиснете отново, за да се върнете към обаждането</string>
+    <string name="manager_conference_done">Готово</string>
+    <string name="incoming_answer_voice_text">Гласово обаждане</string>
+    <string name="incoming_circle_text_message_p">Плъзнете за SMS</string>
+    <string name="incoming_circle_text_message">Отпуснете за SMS</string>
 </resources>

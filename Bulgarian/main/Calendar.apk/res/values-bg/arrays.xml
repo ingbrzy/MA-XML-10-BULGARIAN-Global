@@ -81,6 +81,10 @@
         <item>Това и бъдещите събития</item>
         <item>Всички събития</item>
     </string-array>
+    <string-array name="english_premium_league">
+        <item>4</item>
+        <item>@string/english_premium_league</item>
+    </string-array>
     <string-array name="gemini_info">
         <item>gemini</item>
         <item>Близнаци</item>
@@ -103,6 +107,15 @@
     <string-array name="ligue_1">
         <item>5</item>
         <item>Лига 1</item>
+    </string-array>
+    <string-array name="panchang_weeks">
+        <item>Неделя</item>
+        <item>Понеделник</item>
+        <item>Вторник</item>
+        <item>Сряда</item>
+        <item>Четвъртък</item>
+        <item>Петък</item>
+        <item>Събота</item>
     </string-array>
     <string-array name="pisces_info">
         <item>pisces</item>
@@ -203,6 +216,43 @@
         <item>седмица</item>
         <item>месец</item>
         <item>година</item>
+    </string-array>
+    <string-array name="repeat_monthly_on_day_count_values">
+        <item>първи понеделник</item>
+        <item>първи вторник</item>
+        <item>първа сряда</item>
+        <item>първи четвъртък</item>
+        <item>първи петък</item>
+        <item>първа събота</item>
+        <item>първа неделя</item>
+        <item>втори понеделник</item>
+        <item>втори вторник</item>
+        <item>втора сряда</item>
+        <item>втори четвъртък</item>
+        <item>втори петък</item>
+        <item>втора събота</item>
+        <item>втора неделя</item>
+        <item>трети понеделник</item>
+        <item>трети вторник</item>
+        <item>трета сряда</item>
+        <item>трети четвъртък</item>
+        <item>трети петък</item>
+        <item>трета събота</item>
+        <item>трета неделя</item>
+        <item>четвърти понеделник</item>
+        <item>четвърти вторник</item>
+        <item>четвърта сряда</item>
+        <item>четвърти четвъртък</item>
+        <item>четвърти петък</item>
+        <item>четвърта събота</item>
+        <item>четвърта неделя</item>
+        <item>последен понеделник</item>
+        <item>последен вторник</item>
+        <item>последна сряда</item>
+        <item>последен четвъртък</item>
+        <item>последен петък</item>
+        <item>последна събота</item>
+        <item>последна неделя</item>
     </string-array>
     <string-array name="response_labels1">
         <item>Без отговор</item>
@@ -341,42 +391,5 @@
     <string-array name="widget_style_list">
         <item>Прозрачно</item>
         <item>Бял фон</item>
-    </string-array>
-    <string-array name="repeat_monthly_on_day_count_values">
-        <item>първи понеделник</item>
-        <item>първи вторник</item>
-        <item>първа сряда</item>
-        <item>първи четвъртък</item>
-        <item>първи петък</item>
-        <item>първа събота</item>
-        <item>първа неделя</item>
-        <item>втори понеделник</item>
-        <item>втори вторник</item>
-        <item>втора сряда</item>
-        <item>втори четвъртък</item>
-        <item>втори петък</item>
-        <item>втора събота</item>
-        <item>втора неделя</item>
-        <item>трети понеделник</item>
-        <item>трети вторник</item>
-        <item>трета сряда</item>
-        <item>трети четвъртък</item>
-        <item>трети петък</item>
-        <item>трета събота</item>
-        <item>трета неделя</item>
-        <item>четвърти понеделник</item>
-        <item>четвърти вторник</item>
-        <item>четвърта сряда</item>
-        <item>четвърти четвъртък</item>
-        <item>четвърти петък</item>
-        <item>четвърта събота</item>
-        <item>четвърта неделя</item>
-        <item>последен понеделник</item>
-        <item>последен вторник</item>
-        <item>последна сряда</item>
-        <item>последен четвъртък</item>
-        <item>последен петък</item>
-        <item>последна събота</item>
-        <item>последна неделя</item>
     </string-array>
 </resources>

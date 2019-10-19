@@ -2,7 +2,7 @@
 <resources>
     <string name="alert_message_clear_records">Желаете ли да изтриете избрания звукозапис?</string>
     <string name="alert_message_delete_local_record">Изтриване на този запис?</string>
-    <string name="alert_message_delete_record">Изтриването на записа от вашето устройство ще го изтрие и от Mi облака. Ще го изтриете ли?</string>
+    <string name="alert_message_delete_record">Изтриването на записа от устройството ще го изтрие и от Xiaomi Cloud. Да се изтрие ли?</string>
     <string name="alert_message_delete_record_title">Изтриване на записа</string>
     <string name="app_name">Звукозапис</string>
     <string name="back">Назад</string>
@@ -14,12 +14,12 @@
     <string name="call_record_list_group_unconnected">Не са свързани</string>
     <string name="clear_records">Изтрий синхронизираните записи</string>
     <string name="cloud_record_open">Синхр.на записи</string>
-    <string name="cloud_record_tip">Синхр.на записи с Mi Cloud.</string>
-    <string name="cloud_service_state_open_reminder">Включете синхронизирането с Mi Облак, за да синхронизирате записите.</string>
+    <string name="cloud_record_tip">Синхронизирайте записите с Xiaomi Cloud.</string>
+    <string name="cloud_service_state_open_reminder">Включете синхронизирането с Xiaomi Cloud, за да синхронизирате записите.</string>
     <string name="cloud_status_full_dialog_cancel">Не сега</string>
     <string name="cloud_status_full_dialog_msg">Мястото в облака е пълно.Надстройте акаунта за повече свободно място.</string>
     <string name="cloud_status_full_dialog_ok">Надстройка</string>
-    <string name="cloud_status_full_dialog_title">Мястото в Mi облака е пълно</string>
+    <string name="cloud_status_full_dialog_title">Мястото в Xiaomi Cloud е пълно</string>
     <string name="data_connection_body">"\"\"Съвет:
 В операторска мрежа изтеглянето ще начисли такси.\"\""</string>
     <string name="data_connection_button_text">OK</string>
@@ -29,7 +29,7 @@
     <string name="deleting_message">Изтриване...</string>
     <string name="details">Детайли</string>
     <string name="dialog_content_storage_full">Поради липса на място за съхранение звукозаписът беше спрян.</string>
-    <string name="dialog_privacy_revoke_tips">След като анулирате разрешението, приложението ще спре събирането на данни и всички свързани с него данни ще бъдат изтрити от сървърите. Това може да направи приложението практически неизползваемо. Наистина ли искате да отмените разрешението? За да гарантирате сигурността на профила си, влезте в i.mi.com преди да отмените разрешението за услугите на Mi Облак.</string>
+    <string name="dialog_privacy_revoke_tips">След като отмените разрешението, приложението ще спре да събира данни и всички свързани данни ще бъдат изтрити от сървърите. Това може да направи приложението практически неизползваемо. Наистина ли искате да отмените разрешението? За да гарантирате сигурността на профила си, влезте в i.mi.com преди да отмените разрешението за услугите на Xiaomi Cloud.</string>
     <string name="dialog_title_storage_full">Малко място</string>
     <string name="download">Изтегляне</string>
     <string name="duration_format_hour">%s ч</string>
@@ -181,7 +181,7 @@
     <string name="recognize_extra_price_desp">(Ексклузивна оферта за потребители на Mi)</string>
     <string name="record">Запис</string>
     <string name="record_back_pressed_hint">Докоснете отново, за да спрете записа</string>
-    <string name="record_download">Изтегляне от Mi Cloud</string>
+    <string name="record_download">Изтегли от Xiaomi Cloud</string>
     <string name="record_download_complete">Завършено</string>
     <string name="record_download_msg">Записите могат да бъдат прослушани само след като изтеглянето им завърши.</string>
     <string name="record_download_msg_reload">Този запис не съществува</string>
@@ -246,7 +246,9 @@
     <string name="status_bar_back">За да се върнете назад, докоснете тук</string>
     <string name="status_bar_recording">Записване...</string>
     <string name="status_bar_recording_pause">"Записването е сложено на пауза. "</string>
+    <string name="text_btn_backward_3_seconds">3 секунди назад</string>
     <string name="text_btn_complete">Завършени</string>
+    <string name="text_btn_forward_3_seconds">3 секунди напред</string>
     <string name="text_btn_list">Списък</string>
     <string name="text_btn_mark">Маркиран</string>
     <string name="text_btn_pause">Пауза</string>
@@ -256,11 +258,16 @@
     <string name="text_btn_recording">Звукозаписи</string>
     <string name="text_btn_wave">Вълна</string>
     <string name="text_finish">Потвърди</string>
+    <string name="text_play_speed_0_5">скорост на възпроизвеждане 0.5X</string>
+    <string name="text_play_speed_1_0">Стандартна скорост на възпроизвеждане</string>
+    <string name="text_play_speed_1_5">скорост на възпроизвеждане 1.5X</string>
+    <string name="text_play_speed_2_0">скорост на възпроизвеждане 2X</string>
     <string name="timer_format" formatted="false">%02d:%02d</string>
     <string name="timer_format_three_sections" formatted="false">%02d:%02d:%02d</string>
     <string name="title_activity_recinbox_sdk_browser">RecinboxSdkBrowser</string>
     <string name="toast_max_record_time">App: %1$s максимално време за запис %2$s</string>
     <string name="toast_uninstall_fileexplorer">Файлов мениджър не е инсталиран</string>
+    <string name="usage_description">Транскрибиране на аудио и синхронизиране на елементи с облака</string>
     <string name="webview_check_network">Мрежови настройки</string>
     <string name="webview_data_error">Настъпи грешка</string>
     <string name="webview_locating_fail">Не може да се определи местоположението ви</string>

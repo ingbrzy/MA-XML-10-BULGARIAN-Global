@@ -32,9 +32,25 @@
         <item quantity="other">%d секунди</item>
         <item quantity="one">%d секунда</item>
     </plurals>
+    <plurals name="snooze_duration_changed_info">
+        <item quantity="other">Повторението на алармата е променено на %d минути</item>
+        <item quantity="one">Повторението на алармата е променено на %d минута</item>
+    </plurals>
+    <plurals name="snooze_duration_count">
+        <item quantity="other">%1$s пъти</item>
+        <item quantity="one">%1$s път</item>
+    </plurals>
+    <plurals name="snooze_duration_desc">
+        <item quantity="other">На всеки %1$s минути, изключване %2$s пъти</item>
+        <item quantity="one">На всеки %1$s минути, изключване %2$s път</item>
+    </plurals>
+    <plurals name="snooze_duration_min">
+        <item quantity="other">Всеки %1$s мин</item>
+        <item quantity="one">Всяка %1$s мин</item>
+    </plurals>
     <plurals name="snooze_duration_summary">
-        <item quantity="other">Будилникът ще се изключи %2$s пъти (%1$s мин. всеки)</item>
-        <item quantity="one">Будилникът ще се изключи %2$s път (%1$s мин.)</item>
+        <item quantity="other">Алармата ще се включи %2$s пъти (%1$s мин. всеки)</item>
+        <item quantity="one">Алармата ще се включи %2$s път (%1$s мин.)</item>
     </plurals>
     <plurals name="snooze_message">
         <item quantity="other">Заглуши за %d мин.</item>

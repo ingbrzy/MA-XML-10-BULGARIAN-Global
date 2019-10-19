@@ -6,6 +6,9 @@
     <string name="xiaomi_update_dialog_message_diff">"\"Представяме версия %1$s
  Делта актуализация: %2$s"</string>
     <string name="xiaomi_external_storage_unavailable">Хранилището не е на разположение, проверете картата памет.</string>
+    <string name="xiaomi_bytes_unit">%1$sB</string>
+    <string name="xiaomi_kilobytes_unit">%1$sKB</string>
+    <string name="xiaomi_megabytes_unit">%1$sMБ</string>
     <string name="xiaomi_connect_download_manager_fail">Не може да се стартира изтегляне. Уверете се, че мениджър изтегляния работи нормално.</string>
     <string name="app_name">Резервно копие</string>
     <string name="local_app_name">Резервно копие</string>
@@ -48,8 +51,8 @@
     <string name="camera_summary">Настройки на камерата (без снимките)</string>
     <string name="gallery_summary">Настройки на галерията (без снимките)</string>
     <string name="account_summary">Архивиране на данните от Google Профил, Mi Профил и др</string>
-    <string name="cloud_app_name">Рез. копие в Mi Cloud</string>
-    <string name="cloud_home_title">Mi Cloud</string>
+    <string name="cloud_app_name">Резервно копие в Xiaomi Cloud</string>
+    <string name="cloud_home_title">Xiaomi Cloud</string>
     <string name="prompt_reading">Разчитане на данни…</string>
     <string name="prompt_sending">Изпращане…</string>
     <string name="prompt_writing">Записване……</string>
@@ -57,17 +60,17 @@
     <string name="backup_update">Актуализиране</string>
     <string name="backup_delete">Изтриване:</string>
     <string name="findlost_contact">Възстановяване на контакти</string>
-    <string name="findlost_contact_online">Възстановяване на изтрити контакти от Mi Cloud</string>
+    <string name="findlost_contact_online">Възстановяване на контакти от облака</string>
     <string name="cloud_backup_login">Влезте с Mi профила си</string>
     <string name="cloud_backup_hint">За достъп до вашите резервни копия, впишете се сега</string>
-    <string name="cloud_backup_window_title">Рез. копие в Mi Cloud</string>
-    <string name="cloud_restore_window_title">Възстановяване от Mi Cloud</string>
+    <string name="cloud_backup_window_title">Резервни копия в Xiaomi Cloud</string>
+    <string name="cloud_restore_window_title">Възстановяване от Xiaomi Cloud</string>
     <string name="cloud_restore_title">Възстановяване на данни</string>
     <string name="local_backup_window_title">Локално резервно копие</string>
     <string name="local_restore_window_title">Локално възстановяване</string>
     <string name="account_login">Вписване</string>
     <string name="miliao_account_login">Влизане с MiTalk</string>
-    <string name="miliao_account_guide">Създайте си Mi профил, за да се регистрирате в Mi Облак, MIUI Магазин за теми и всички други услуги на MIUI, достъпни за вас отвсякъде.</string>
+    <string name="miliao_account_guide">Използвайте своя Mi профил, за да влизате в Xiaomi Cloud, теми MIUI и други услуги Mi – отвсякъде.</string>
     <string name="auto_backup">Автоматично архивиране</string>
     <string name="contact_title">Контакти</string>
     <string name="call_title">Списъци с повиквания</string>
@@ -115,7 +118,7 @@
     <string name="sc_network_unavailable">Грешка при свързване с мрежата</string>
     <string name="sc_bad_request">Невалидна заявка</string>
     <string name="sc_unaccess_password_file">Не съхранявайте пароли за Wi-Fi мрежи</string>
-    <string name="sc_service_unavailable">Mi Cloud е недостъпен</string>
+    <string name="sc_service_unavailable">Xiaomi Cloud е недостъпен</string>
     <string name="sc_unauthorized">Моля, впишете се отново</string>
     <string name="sc_request_timeout">Времето на заявката изтече</string>
     <string name="sc_precondition_failed">Необходимо е да обвържете Mi профила си с валиден имейл адрес</string>
@@ -173,7 +176,7 @@
     <string name="deselect_all">Размаркирай всички</string>
     <string name="reverse_all">Изчисти всички</string>
     <string name="refresh">Опресни</string>
-    <string name="cloud_item_info_summary">" (Локално: %1$s | Mi Облак: %2$s)"</string>
+    <string name="cloud_item_info_summary">(На устройството: %1$s | в Xiaomi Cloud: %2$s)</string>
     <string name="cloud_restore_guide">За да възстановите потребителските данни за %s, натиснете Възстановяване</string>
     <string name="import_from_xiaomi_account_hint1">\"1.\u0009Изтеглете приложението MiTalk и се впишете. \u0009http://www.miliao.com 2.\u0009Отидете на MiTalk Settings и изберете ”Back up contacts to Mi Account”\"</string>
     <string name="import_from_xiaomi_account_hint2">Ако вече имате резервно копие, натиснете Next.</string>
@@ -224,6 +227,7 @@
     <string name="restore_backup">Възстанови</string>
     <string name="enable_encrypt_description">Кодиране</string>
     <string name="disable_encrypt_description">Не кодирай</string>
+    <string name="digit_percent">%</string>
     <string name="state_waiting">Един момент…</string>
     <string name="state_mounting">Достъп до хранилището на рутера…</string>
     <string name="abort_backup_confirm">Резервното копие не е завършено! Да спре ли въпреки това?</string>
@@ -254,7 +258,7 @@
     <string name="err_pkg_not_exist">Не може да се открият приложения.</string>
     <string name="err_user_abort">Отменено от потребителя.</string>
     <string name="err_binder_died">Приложението спря неочаквано.</string>
-    <string name="err_no_gms">Несъвместима версия на приложението. Инсталирайте това приложение отделно.</string>
+    <string name="err_no_gms">Несъвместима версия на приложението. Инсталирайте това приложение отделно</string>
     <string name="backup_is_running">Рез. копие на устройството</string>
     <string name="restore_is_running">Възстановяване на устройството</string>
     <string name="notif_backup_title">Архив на данни</string>
@@ -306,9 +310,7 @@
     <string name="trans_detail_item_app_data_too_large_tip">Изглежда, че този елемент е твърде голям за прехвърляне.</string>
     <string name="trans_detail_item_app_data_skip_data">Не може да се прехвърли информация или данни</string>
     <string name="trans_detail_item_app_data_selected_tip">Изберете съответните приложения както е необходимо.</string>
-    <string name="trans_detail_list_footer">"1. Вие можете да изберете свои приложения, които да прехвърлите. 
-2. Ако изберете поне едно, то неговите данни също ще бъдат избрани. 
-3. WeChat и QQ данните може да не могат да се прехвърлят, поради грешки в съвместимостта. Вие можете да изпробвате вградените услуги за прехвърляне."</string>
+    <string name="trans_detail_list_footer">1. Вие можете да изберете свои приложения, които да прехвърлите. 2. Ако изберете поне едно, то неговите данни също ще бъдат избрани. 3. WeChat и QQ данните може да не могат да се прехвърлят, поради грешки в съвместимостта. Вие можете да изпробвате вградените услуги за прехвърляне.</string>
     <string name="trans_detail_page_tip">Колкото повече елементи избирате, толкова по-дълго ще бъде прехвърлянето.</string>
     <string name="trans_detail_sys_data_list_title">Системни приложения</string>
     <string name="trans_detail_app_data_list_title">Данни на приложения</string>
@@ -371,9 +373,7 @@
     <string name="trans_generate_qrcode_failed">Не може да се генерира QR код. Затворете останалите приложения и опитайте отново.</string>
     <string name="trans_wait_trans_data">\"Свързано към старото устройство. В очакване за трансфер…\"</string>
     <string name="trans_select_data">Избор на елементи за изпращане</string>
-    <string name="trans_select_data_tips">"Изберете елементи за прехвърляне.
- Еднаквите елементи ще бъдат презаписани.
-(Размерът на прехвърляните елементи можете да виждате в реда за оставащо време.)"</string>
+    <string name="trans_select_data_tips">Изберете елементи за прехвърляне. Еднаквите елементи ще бъдат презаписани. (Размерът на прехвърляните елементи можете да виждате в реда за оставащо време.)</string>
     <string name="trans_select_data_no_space">"Няма достатъчно място на новото устройство (%s са достъпни).
 Освободете място в хранилището за да прехвърлите само важните неща."</string>
     <string name="trans_select_data_too_large">"Избрали сте твърде много елементи за прехвърляне.
@@ -390,9 +390,7 @@
     <string name="button_clean_garbage">Освободи място</string>
     <string name="button_quit">Изход</string>
     <string name="soft_ap_creating">Създава се гореща точка…</string>
-    <string name="wait_link">"Отворете Mi Трансфер на старото устройство, 
-натиснете \"Аз съм изпращач\" и изберете мрежа за връзка. 
-Не затваряйте страницата преди връзката да се осъществи."</string>
+    <string name="wait_link">Отворете Mi Трансфер на старото устройство, натиснете Аз съм изпращач и изберете мрежа за връзка. Не затваряйте страницата преди връзката да се осъществи.</string>
     <string name="old_way">Вие може да създадете QR код на Вашето ново устройство и да го сканирате със старото си устройство.</string>
     <string name="soft_ap_create_failed">Не може да се създаде гореща точка</string>
     <string name="scan_soft_ap_label">Свържете се към старото устройство</string>
@@ -434,12 +432,12 @@
     <string name="trans_intro_desc_1">На Mi телефон, свържете се с Wi-Fi и натиснете \"Аз съм получател\". Изберете вашето iOS устройство, впишете се в Mi Облак и прехвърлете информацията.</string>
     <string name="trans_intro_question_2">%d. Как да използвам Mi Трансфер за преместване на данни от Android устройство?</string>
     <string name="trans_intro_title_new">На нов телефон:</string>
-    <string name="trans_intro_desc_new">Докоснете \"Аз съм Получател\". QR код ще бъде генериран.</string>
+    <string name="trans_intro_desc_new">Докоснете Аз съм Получател. QR код ще бъде генериран.</string>
     <string name="trans_intro_title_old">На стар телефон:</string>
     <string name="trans_intro_desc_old">Докоснете \"Аз съм Изпращач\". Сканирайте QR кода на новия телефон, изчакайте докато Mi трансфер подготви файловете, които искате да изпратите и натиснете \"Изпрати\".</string>
     <string name="trans_intro_desc_old_market">Чукнете \"Старт\". Сканирайте QR кода с новия си телефон докато Mi Трансфер не определи кои файлове ще прехвърля и натиснете \"Изпрати\".</string>
     <string name="trans_intro_question_10">%d. Не можете ли да откриете горещата точка на старото устройство?</string>
-    <string name="trans_intro_desc_10">Чукнете \"Връзка чрез QR код\" на новото устройство и сканирайте QR кода за да установите връзка.</string>
+    <string name="trans_intro_desc_10">Чукнете Връзка чрез QR код на новото устройство и сканирайте QR кода за да установите връзка.</string>
     <string name="trans_intro_question_3">%d. Какво трябва да направя, ако Mi Трансфер спре да работи на определена стъпка?</string>
     <string name="trans_intro_desc_3">Отменете прехвърлянето, излезте от Mi Трансфер и започнете отново. Дублиращите се файлове ще бъдат презаписани.</string>
     <string name="trans_intro_question_4">%d. Защо не мога да използвам Wi-Fi по време на прехвърлянето?</string>
@@ -457,7 +455,7 @@
     <string name="trans_intro_title_account">Профили и пароли:</string>
     <string name="trans_intro_desc_account">Вие трябва да се впишете отново във вашите профили (например Mi Профил, Exchange, Google Профил и др.) на новото си устройство поради съображения за сигурност.</string>
     <string name="trans_intro_title_private">Скрит албум:</string>
-    <string name="trans_intro_desc_private">Mi трансфер няма достъп до снимките в скритите албуми, защото те са криптирани. Вие трябва да възстановите тези снимки от Mi Облак на новото устройство.</string>
+    <string name="trans_intro_desc_private">Mi трансфер няма достъп до снимките в скритите албуми, защото са криптирани. Можете да възстановите тези снимки от Xiaomi Cloud на ново устройство.</string>
     <string name="trans_intro_title_multiuser">Данни от Второ работно място:</string>
     <string name="trans_intro_desc_multiuser">Mi трансфер няма достъп до елементите във Второ работно място. Преместете ги в Основно работно място и започнете прехвърляне.</string>
     <string name="trans_intro_title_multiapp">Клонирани приложения:</string>
@@ -549,8 +547,7 @@ https://appleid.apple.com/#!&amp;page=signin за затваряне"</string>
     <string name="hsa_sending">Изпращане…</string>
     <string name="hsa_send_failed">Не може да се изпрати код за потвърждение. Изчакайте малко и опитайте отново.</string>
     <string name="hsa_tip_title">Съвети:</string>
-    <string name="hsa_tip_message">"1. Съобщението с код за потвърждение беше изпратено на устройството, свързано с вашия профил в Apple. 
-2. Изключете двустепенната оторизация, ако потвърждението е неуспешно."</string>
+    <string name="hsa_tip_message">1. Ако все още не сте получили код за потвърждение, уверете се, че не сте регистрирани вече в iCloud на Вашето Apple устройство. . Ако въвеждането на кода за потвърждение не помогне, изключете модула за двустепенната оторизация.</string>
     <string name="hsa_tip_message_with_device">"1. Съобщението с код за потвърждение беше изпратено на \"%s\", свързано с вашия профил в Apple. 
 2. Изключете двустепенната оторизация, ако потвърждението е неуспешно."</string>
     <string name="hsa_tip_message_shutdown_hsa">Как да изключите двустепенната оторизация</string>
@@ -564,6 +561,7 @@ https://appleid.apple.com/#!&amp;page=signin за затваряне"</string>
 вие трябва да направите архив в iCloud."</string>
     <string name="list_footer_tip_title">Съвети:</string>
     <string name="import_tip_summary">Поради проблеми със съвместимостта, вие можете да прехвърлите само частична информация от iOS устройството. Уверете се, че сте направили резервно копие в iCloud, преди да започнете прехвърлянето.</string>
+    <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
     <string name="button_import">Импортирай</string>
     <string name="select_empty">Изберете елементи за импортиране</string>
     <string name="select_item_summary_wait">Изчаква се…</string>
@@ -641,9 +639,10 @@ https://appleid.apple.com/#!&amp;page=signin за затваряне"</string>
     <string name="dialog_backup_password_cancel">Отказ</string>
     <string name="dialog_backup_password_to_settings">Настройки</string>
     <string name="user_feedback">Обратна връзка</string>
-    <string name="iCloud_ID_verification_tip">Въведете SMS кода за потвърждение, изпратен на телефонния номер, свързан с Вашия Apple Акаунт. Игнорирайте прозореца с код, който ще се появи на екрана на Вашия iPhone.</string>
+    <string name="iCloud_ID_verification_tip">Докоснете Позволи на Вашето Apple устройство за да се покаже полето за въвеждане. Въведете Вашия код тук.</string>
     <string name="trans_complete_restoring">Прехвърлянето е успешно. Възстановяване на данни от прилож…</string>
     <string name="dialog_backup_password_auto_backup_tips">Не можете да архивирате елементите автоматично, когато е включена парола за архивиране. Изключете паролата за архивиране.</string>
     <string name="dialog_backup_password_change_device_restore_tips">Не можете да използвате Mi Трансфер при включена парола за архивиране. Първо изключете паролата за архивиране.</string>
     <string name="dialog_backup_password_restore_tips">Не можете да възстановите елементи при включена парола за архивиране. Първо изключете паролата за архивиране.</string>
+    <string name="trans_cancel_dialog_survey_title">Защо прекъснахте прехвърлянето?</string>
 </resources>

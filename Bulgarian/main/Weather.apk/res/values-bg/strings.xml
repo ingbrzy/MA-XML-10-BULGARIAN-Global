@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="about_weather_setting">За \"Прогноза за времето\"</string>
+    <string name="about_weather_setting_feedback">Отзив</string>
+    <string name="abrupt_weather_settings_summary_type">Получавай предупреждения за валежи, промени в качеството на въздуха и други важни промени</string>
     <string name="act_find_city_hint">Въведете място</string>
     <string name="act_find_city_hot_attractions_title">Популярни места</string>
     <string name="act_find_city_hot_city_title">Популярни градове</string>
@@ -29,6 +32,8 @@
     <string name="add_city">Добавяне</string>
     <string name="alert_detail_title">Подробности за алармиране</string>
     <string name="alert_warning">Предупреждения</string>
+    <string name="alert_weather_enable_settings_summary">Получавай официални предупреждения за времето</string>
+    <string name="alert_weather_enable_settings_title">Предупреждения за времето</string>
     <string name="already_voted_toast">Вие вече гласувахте днес</string>
     <string name="app_name">Времето</string>
     <string name="aqi_data_source">Предоставено от Colorful Clouds</string>
@@ -96,14 +101,17 @@
     <string name="daily_forecast_add_city_message">Следвайте времето в %1$s за по-подробна прогноза.</string>
     <string name="daily_forecast_add_city_title">Следвайте времето в %1$s</string>
     <string name="daily_forecast_detail_date">d.M</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Не можа да се получи информация за времето
 Издърпайте надолу, за да обновите или проверете мрежовите настройки"</string>
     <string name="data_provided_by">Информацията е предоставена отчасти от</string>
     <string name="edit_city">Редакция на градове</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Актуализиране…</string>
     <string name="empty_view_net_unavailable">Няма връзка с мрежата</string>
     <string name="empty_view_refresh">Опитайте отново</string>
     <string name="eu_region_version_first_start_network_msg">С използването на този продукт, Вие се съгласявате с това, че този продукт ще се свързва с мрежата, ще събира, обработва и използва Вашите лични данни, включително и координатите на търсените от Вас градове, както и други видове данни, описани в нашата Политика на поверителност. Запознайте се с нашата Политика на поверителност, за да разберете как събираме и обработваме информация. С натискане на \"Съгласявам се\" Вие приемате %1$s и %2$s на Xiaomi.</string>
+    <string name="feedback">Докладвайте неточна информация за времето</string>
     <string name="feedback_cloudy">Облачно</string>
     <string name="feedback_foggy">Мъгливо</string>
     <string name="feedback_haze">Замъгленост</string>
@@ -112,12 +120,16 @@
     <string name="feedback_overcast">Облачно</string>
     <string name="feedback_report_privacy_msg">Отчетът ще съдържа информация за Вашето местоположение</string>
     <string name="feedback_result_fail_no_choice">Изберете текущата прогноза за време</string>
+    <string name="feedback_result_fail_no_reason">Благодарим Ви за отзива!</string>
+    <string name="feedback_result_fail_same_type">Изглежда, че Вашият доклад не е различен от текущото време. Опитайте отново.</string>
     <string name="feedback_result_success">Успешно изпратен доклад за грешки, благодарим Ви.</string>
     <string name="feedback_sandy">Слънчево</string>
     <string name="feedback_sunny">Ясно</string>
     <string name="first_start_network_title">Известие за свързване</string>
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="hourly_forcast_now">Сега</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s%2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="hourly_forecast_title_24_hours_desc">24-часова прогноза</string>
     <string name="hourly_forecast_title_hourly_desc">Почасова прогноза</string>
@@ -133,11 +145,15 @@
     <string name="indices_title_feel">Усеща се</string>
     <string name="indices_title_pressure">Налягане</string>
     <string name="install">Инсталирай</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_pressure_title">Налягане</string>
     <string name="international_details_title">Подробности</string>
     <string name="international_details_uv_index_title">UV индекс</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">Вятър</string>
     <string name="it_is_going_to_rain">Започва да вали</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="locate_fail_detail_err">"Не може да се локализира устройството
 Чукнете екрана за ръчно въвеждане или промяна на град"</string>
     <string name="location_provider_btn_text">Включване на услугите за местоположение</string>
@@ -160,7 +176,7 @@
     <string name="more_details">Подробности</string>
     <string name="network_not_available">Няма връзка с мрежата</string>
     <string name="network_unavailable">Няма връзка с мрежата.</string>
-    <string name="night_not_disturb_settings_summary">Заглуши предупрежденията между 23:00ч и 07:00ч</string>
+    <string name="night_not_disturb_settings_summary">Блокирай предупрежденията между 23:00 ч и 7:00 ч</string>
     <string name="night_not_disturb_settings_title">Не ме безпокой през нощта</string>
     <string name="no_data">Няма данни</string>
     <string name="no_network_btn">Нов опит</string>
@@ -219,6 +235,7 @@
     <string name="share_menu_title">Споделяне</string>
     <string name="share_subject">Споделяне</string>
     <string name="share_weather_desc">\#MIUI Времето#Днес %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Не може да се направи екр. снимка</string>
     <string name="shortcut_short_label_24_hour_forecast">24-часова прогноза</string>
@@ -226,6 +243,7 @@
     <string name="some_where_on_earth">Някъде по Земята</string>
     <string name="sunrise">Изгрев</string>
     <string name="sunset">Залез</string>
+    <string name="temperature_normal_unit">%1$s°</string>
     <string name="temperature_unit_C">%1$s℃</string>
     <string name="temperature_unit_F">%1$s℉</string>
     <string name="title_share_link">Споделяне на URL</string>
@@ -265,6 +283,8 @@
     <string name="view_forecast_item_yesterday">Вчера</string>
     <string name="view_indexes_item_today">Днес</string>
     <string name="view_indexes_item_tommorrow">Утре</string>
+    <string name="warning_weather_day_and_night_settings_summary">Получавай дневни обобщения, съдържащи инф. за времето, в 7:00 ч и 19:00 ч</string>
+    <string name="warning_weather_day_and_night_settings_title">Дневни обобщения</string>
     <string name="weather_alert_channel_name">Предупреждения</string>
     <string name="weather_introduce">Винаги с вас, в дъжд или слънце.</string>
     <string name="weather_permission_agree">Приемане</string>

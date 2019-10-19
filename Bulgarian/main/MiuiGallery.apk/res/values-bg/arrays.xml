@@ -11,12 +11,17 @@
     </string-array>
     <string-array name="backup_automatically_key_words">
         <item>Създай резервно копие на снимки</item>
-        <item>Синхронизирай снимки с Mi Cloud</item>
+        <item>Синхронизиране на снимките с облака</item>
     </string-array>
     <string-array name="last_weekend_title">
         <item>Моите уикенди</item>
         <item>Нещата от живота</item>
         <item>Спомени от уикенда</item>
+    </string-array>
+    <string-array name="menu_copy_or_move">
+        <item>Премести</item>
+        <item>Копирай</item>
+        <item>@string/cancel</item>
     </string-array>
     <string-array name="month">
         <item>Януари</item>

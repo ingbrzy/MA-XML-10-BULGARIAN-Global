@@ -44,16 +44,4 @@
         <item quantity="other">Избрани са %1$d елементи</item>
         <item quantity="one">Избран е %1$d елемент</item>
     </plurals>
-    <plurals name="search_head_hint_app">
-        <item quantity="other">%2$d елемента от %1$s</item>
-        <item quantity="one">%2$d елемент от %1$s</item>
-    </plurals>
-    <plurals name="search_head_hint_file">
-        <item quantity="other">%2$d елементи с ключова дума \"%1$s\"</item>
-        <item quantity="one">%2$d елемент с ключова дума \"%1$s\"</item>
-    </plurals>
-    <plurals name="search_head_hint_tag">
-        <item quantity="other">%2$d елемента са маркирани като %1$s</item>
-        <item quantity="one">%2$d елемент е маркиран като %1$s</item>
-    </plurals>
 </resources>

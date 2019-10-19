@@ -16,6 +16,10 @@
         <item quantity="other">Средната стойност на %1$s станции</item>
         <item quantity="one">Средната стойност на %1$s станция</item>
     </plurals>
+    <plurals name="daily_forcast_drawer_on_home">
+        <item quantity="other">%1$s-дневна прогноза</item>
+        <item quantity="one">%1$s-дневна прогноза</item>
+    </plurals>
     <plurals name="daily_forcast_drawer_on_top">
         <item quantity="other">%1$s-дневна прогноза</item>
         <item quantity="one">%1$s-дневна прогноза</item>

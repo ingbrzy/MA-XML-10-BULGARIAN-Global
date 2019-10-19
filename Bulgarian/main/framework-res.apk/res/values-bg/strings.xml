@@ -23,6 +23,7 @@
     <string name="dialog_alert_title">Внимание</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Този видеоклип не е валиден за поточно предаване към това устройство.</string>
     <string name="selectTextMode">Избор на текст</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Икона за отпечатък</string>
     <string name="paste_as_plain_text">Поставяне като неформатиран текст</string>
     <string name="autofill">Автоматично попълване</string>
@@ -386,6 +387,7 @@
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Кодът за функцията се изпълни.</string>
     <string name="fcError">Има проблем с връзката или кодът за функцията е невалиден.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Намиране</string>
     <string name="find_next">Търсене на следващото</string>
     <string name="find_on_page">Намиране в страницата</string>
@@ -591,6 +593,7 @@
     <string name="kg_reordering_delete_drop_target_text">Премахване</string>
     <string name="kg_sim_pin_instructions">Въведете ПИН кода за SIM картата</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM картата се отключва…</string>
+    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Въведохте неправилно паролата си %1$d пъти. 
 
 Опитайте отново след %2$d секунди."</string>
@@ -879,6 +882,7 @@
     <string name="notification_channel_wfc">Обаждания през Wi-Fi</string>
     <string name="notification_hidden_text">Ново известие</string>
     <string name="notification_listener_binding_label">Слушател на известия</string>
+    <string name="notification_messaging_title_template">„%1$s“: %2$s</string>
     <string name="notification_ranker_binding_label">Услуга за класифициране на известията</string>
     <string name="notification_reply_button_accessibility">Отговор</string>
     <string name="notification_title">Грешка при влизането за %1$s</string>
@@ -991,8 +995,8 @@
     <string name="permdesc_requestInstallPackages">Разрешава на приложението да заявява инсталиране на пакети.</string>
     <string name="permdesc_route_media_output">Разрешава на приложението да насочва изходящата мултимедия към други външни устройства.</string>
     <string name="permdesc_runInBackground">Това приложение може да работи на заден план, което може да изразходи батерията по-бързо.</string>
-    <string name="permdesc_sdcardRead">Разрешава на приложението да чете съдържанието на SD картата ви.</string>
-    <string name="permdesc_sdcardWrite">Разрешава на приложението да записва върху SD картата.</string>
+    <string name="permdesc_sdcardRead">Разрешава на прил. да чете съдърж. на USB.</string>
+    <string name="permdesc_sdcardWrite">Разрешава на приложението да записва в USB.</string>
     <string name="permdesc_sendSms">Разрешава на приложението да изпраща SMS съобщения. Това може да доведе до неочаквано таксуване. Злонамерените приложения могат да ви въвлекат в разходи, като изпращат съобщения без потвърждение от ваша страна.</string>
     <string name="permdesc_setAlarm">Разрешава на приложението да навие инсталирано приложение будилник. Някои будилници може да не изпълнят тази функция.</string>
     <string name="permdesc_setInputCalibration">Разрешава на приложението да променя параметрите на калибриране на сензорния екран. Нормалните приложения би трябвало никога да не се нуждаят от това.</string>
@@ -1133,8 +1137,8 @@
     <string name="permlab_requestInstallPackages">заявка на пакети за инсталиране</string>
     <string name="permlab_route_media_output">маршрутизиране на извеждането на мултимедия</string>
     <string name="permlab_runInBackground">работа на заден план</string>
-    <string name="permlab_sdcardRead">четене на съдържанието от SD картата ви</string>
-    <string name="permlab_sdcardWrite">промяна или изтриване на съдържанието от SD картата ви</string>
+    <string name="permlab_sdcardRead">четене на съдърж. от USB хран. ви</string>
+    <string name="permlab_sdcardWrite">промяна или изтрив. на съдърж. от USB хран. ви</string>
     <string name="permlab_sendSms">изпращане и преглед на SMS съобщения</string>
     <string name="permlab_setAlarm">навиване на будилника</string>
     <string name="permlab_setInputCalibration">промяна на калибрирането на устройството за въвеждане</string>
@@ -1225,7 +1229,7 @@
     <string name="printing_disabled_by">Отпечатването е деактивиранo от %s.</string>
     <string name="profile_encrypted_detail">Служ. потр. профил е заключен</string>
     <string name="profile_encrypted_message">Докоснете за откл. на служ. потр. профил</string>
-    <string name="progress_erasing">SD картата се изтрива...</string>
+    <string name="progress_erasing">USB хранилището се изтрива...</string>
     <string name="quick_contacts_not_available">Няма намерено приложение, с което да се отвори този контакт.</string>
     <string name="reason_service_unavailable">Услугата за отпечатване не е активирана</string>
     <string name="reason_unknown">неизвестно</string>
@@ -1576,6 +1580,9 @@
     <string name="wifi_p2p_show_pin_message">ПИН:</string>
     <string name="wifi_p2p_to_message">До:</string>
     <string name="wifi_p2p_turnon_message">Стартиране на Wi-Fi Direct. Това ще изключи клиентската програма/точката за достъп до Wi-Fi.</string>
+    <string name="wifi_softap_config_change">Промени в настройките ви за точка за достъп</string>
+    <string name="wifi_softap_config_change_detailed">Това устройство не поддържа предпочитанието ви за използване само на честотната лента от 5 ГХц. Вместо това то ще я ползва, когато е възможно.</string>
+    <string name="wifi_softap_config_change_summary">Честотната лента на точката ви за достъп е променена.</string>
     <string name="wifi_wakeup_enabled_content">Намирате се в района на запазена мрежа: %1$s</string>
     <string name="wifi_wakeup_enabled_title">Wi-Fi се включи автоматично</string>
     <string name="wifi_wakeup_onboarding_action_disable">Без повторно включване</string>
@@ -1604,6 +1611,7 @@
     <string name="zen_mode_feature_name">Не безпокойте</string>
     <string name="zen_mode_forever">До изключване</string>
     <string name="zen_mode_forever_dnd">Докато не изключите „Не безпокойте“</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">До %1$s</string>
     <string name="zen_upgrade_notification_content">Докоснете, за да проверите какво е блокирано.</string>
     <string name="zen_upgrade_notification_title">Настройките за „Не безпокойте“ са променени</string>

@@ -168,6 +168,14 @@
         <item quantity="other">Трябва да съдържа поне %d главни букви</item>
         <item quantity="one">Трябва да съдържа поне 1 главна буква</item>
     </plurals>
+    <plurals name="lockpassword_password_too_long">
+        <item quantity="other">Може да въведете до %d знака</item>
+        <item quantity="one">Може да въведете до %d знак</item>
+    </plurals>
+    <plurals name="lockpassword_password_too_short">
+        <item quantity="other">Въведете поне %d знака</item>
+        <item quantity="one">Въведете поне %d знак</item>
+    </plurals>
     <plurals name="lockpassword_pin_fixed_length">
         <item quantity="other">PIN кодът трябва да е %d цифри</item>
         <item quantity="one">PIN кодът трябва да е %d цифра</item>

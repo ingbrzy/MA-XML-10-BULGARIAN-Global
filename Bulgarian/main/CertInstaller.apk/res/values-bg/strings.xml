@@ -26,8 +26,8 @@
     <string name="cert_too_large_error">Не можа да се инсталира, защото размерът на сертификата е твърде голям.</string>
     <string name="cert_missing_error">Не можа да се инсталира, защото файлът със сертификата не можа да бъде намерен.</string>
     <string name="cert_read_error">Не можа да се инсталира, защото файлът със сертификата не можа да бъде прочетен.</string>
-    <string name="no_cert_file_found">На SD картата не бе намерен файл със сертификат.</string>
-    <string name="sdcard_not_present">SD картата липсва.</string>
+    <string name="no_cert_file_found">В USB хранилището не бе намерен файл със сертификат.</string>
+    <string name="sdcard_not_present">USB хранилището не е налице.</string>
     <string name="only_primary_user_allowed">Само собственикът на това устройство може да инсталира сертификати.</string>
     <string name="credential_usage_label">Използв. на идент. данни</string>
     <string name="certificate_capabilities_warning">Забележка: Издателят на този сертификат може да провери целия входящ и изходящ трафик за устройството.</string>

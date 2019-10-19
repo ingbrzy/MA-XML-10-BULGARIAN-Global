@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="fast_connect_headset_reset">
+        <item quantity="other">Натиснете и задръжте бутона за %1$d секунди</item>
+        <item quantity="one">Натиснете и задръжте бутона за %1$d секунда</item>
+    </plurals>
+</resources>
