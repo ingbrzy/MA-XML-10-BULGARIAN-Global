@@ -161,7 +161,6 @@
     <string name="dialog_type_image">Изображения</string>
     <string name="dialog_type_text">Документи</string>
     <string name="dialog_type_video">Видео</string>
-    <string name="directory_info_divider">"  |  "</string>
     <string name="display_name">Покажи името</string>
     <string name="domain">Домейн</string>
     <string name="download_success">Изтеглянето е успешно</string>
@@ -208,7 +207,6 @@
     <string name="favorite_ringtone">Тонове за звънене</string>
     <string name="favorite_screen_cap">Снимки на екрана</string>
     <string name="feedback_send_email_body_extra_info">Не изтривайте следната информация. Тя ще ни помогне да намерим проблема.</string>
-    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">Само за четене: </string>
     <string name="file_info_canwrite">Записващи: </string>
     <string name="file_info_ishidden">Скрити: </string>

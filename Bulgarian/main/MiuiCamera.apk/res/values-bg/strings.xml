@@ -331,7 +331,6 @@
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средно</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
-    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="button_front_camera_title">Направете селфи</string>
     <string name="button_normal_video_title">Запишете видео</string>
     <string name="button_fisheye_camera_title">Рибешко око</string>
@@ -709,7 +708,6 @@
     <string name="pref_camera_snap_toast_when_volume_can_wake_screen">Не може да се използват бутони за бързо стартиране \"Събуждане със странични бутони\" е вкл.\"</string>
     <string name="pref_camera_zoom_ratio_wide">100</string>
     <string name="pref_camera_zoom_ratio_tele">200</string>
-    <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
     <string name="pref_camera_beautify_entry_auto">Изкл</string>
     <string name="user_agreement2">Условия за използване</string>
     <string name="user_agreement4">Правила за поверителност</string>

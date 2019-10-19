@@ -75,7 +75,6 @@
     <string name="cast_forward">Превъртане напред</string>
     <string name="cast_forward_10">Превъртане напред с десет секунди</string>
     <string name="cast_forward_30">Превъртане напред с тридесет секунди</string>
-    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_mute">Спиране</string>
     <string name="cast_notification_connected_message">Установена е връзка с/ъс „%1$s“</string>
     <string name="cast_notification_connecting_message">Установява се връзка с/ъс „%1$s“</string>
@@ -690,7 +689,6 @@
     <string name="slide_save_message">Генериране на видео…</string>
     <string name="sns_sign_in">Други начини за регистрация</string>
     <string name="source">"Източник: "</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">Карта с памет</string>
     <string name="storage_internal_sdcard">Вътрешна памет</string>
     <string name="submit">Изпратено</string>
