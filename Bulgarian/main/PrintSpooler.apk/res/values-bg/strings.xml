@@ -85,7 +85,6 @@
     <string name="printer_busy">Принтерът е зает</string>
     <string name="printer_error">Грешка в принтера</string>
     <string name="printer_error_msg">Грешка в принтера: %1$s</string>
-    <string name="printer_extended_description_template">%1$s – %2$s</string>
     <string name="printer_info_desc">Още информация за този принтер</string>
     <string name="printer_notification_error_title">Не може да се принтира %1$s</string>
     <string name="printer_unavailable">Принтерът не е наличен</string>
