@@ -5,10 +5,10 @@
     <string name="ack_record">Запис на Ack</string>
     <string name="airplane_error_msg">Не можете да използвате Bluetooth в самолетен режим.</string>
     <string name="airplane_error_title">Самолетен режим</string>
-    <string name="app_name">Bluetooth</string>
     <string name="auth_notif_message">Въведете ключ за сесия за %1$s</string>
     <string name="auth_notif_ticker">Заявка за удостоверяване на Obex</string>
     <string name="auth_notif_title">Ключ за сесия</string>
+    <string name="bluetooth_a2dp_sink_queue_name">Възпроизвеждано сега съдържание</string>
     <string name="bluetooth_connected">Установена е аудиовръзка през Bluetooth</string>
     <string name="bluetooth_disconnected">Аудиовръзката през Bluetooth е прекратена</string>
     <string name="bluetooth_map_settings_app_icon">Икона на приложението</string>
@@ -29,10 +29,8 @@
     <string name="bt_enable_line1">Първо трябва да включите Bluetooth, за да използвате услугите му.</string>
     <string name="bt_enable_line2">Включване на Bluetooth сега?</string>
     <string name="bt_enable_ok">Включване</string>
-    <string name="bt_enable_title" />
-    <string name="bt_error_btn_ok">OK</string>
-    <string name="bt_share_picker_label">Bluetooth</string>
-    <string name="bt_sm_2_1">В USB хранилището няма достатъчно място, за да бъде запазен файлът от „%1$s“</string>
+    <string name="bt_sm_2_1_default">На SD картата няма достатъчно място, за да бъде запазен файлът от %1$s</string>
+    <string name="bt_sm_2_1_nosdcard">В USB хранилището няма достатъчно място, за да бъде запазен файлът от %1$s</string>
     <string name="bt_sm_2_2">Необходимо място: %1$s</string>
     <string name="bt_toast_1">Файлът ще бъде получен. Проверете хода в панела за известия.</string>
     <string name="bt_toast_2">Файлът не може да бъде получен.</string>
@@ -42,18 +40,15 @@
     <string name="bt_toast_6">Изпращането на файл до „%1$s“ спря</string>
     <string name="btopp_live_folder">Получено с Bluetooth</string>
     <string name="defaultname">Комплект за автомобил</string>
-    <string name="defaultnumber">000000</string>
     <string name="deleteAll_record">Изтриване на всички записи</string>
     <string name="delete_record">Изтриване на записа</string>
     <string name="download_cancel">Стоп</string>
     <string name="download_fail_line1">Файлът не е получен</string>
     <string name="download_fail_line2">Файл: %1$s</string>
     <string name="download_fail_line3">Причина: %1$s</string>
-    <string name="download_fail_ok">OK</string>
     <string name="download_line1">От: „%1$s“</string>
     <string name="download_line2">Файл: %1$s</string>
     <string name="download_line3">Размер на файла: %1$s</string>
-    <string name="download_line4" />
     <string name="download_line5">Файлът се получава...</string>
     <string name="download_ok">Скриване</string>
     <string name="download_succ_line5">Файлът е получен</string>
@@ -70,7 +65,6 @@
     <string name="incoming_file_confirm_content">Да се приеме ли входящият файл?</string>
     <string name="incoming_file_confirm_ok">Приемане</string>
     <string name="incoming_file_confirm_timeout_content">Времето за изчакване изтече при приемането на входящ файл от „%1$s“</string>
-    <string name="incoming_file_confirm_timeout_ok">OK</string>
     <string name="incoming_file_confirm_title">Прехвърляне на файл</string>
     <string name="incoming_line1">От</string>
     <string name="incoming_line2">Име на файла</string>
@@ -92,7 +86,6 @@
     <string name="notification_sent_complete">100% завършено</string>
     <string name="notification_sent_fail">Споделяне чрез Bluetooth: Файлът %1$s не е изпратен</string>
     <string name="notify_server">Известяване на TCP сървър</string>
-    <string name="ok_button">OK</string>
     <string name="opp_notification_group">Споделяне през Bluetooth</string>
     <string name="outbound_history_title">Изходящи прехвърляния</string>
     <string name="outbound_noti_title">Споделяне чрез Bluetooth: Изпратени файлове</string>
@@ -106,12 +99,12 @@
     <string name="permlab_bluetoothShareManager">Достъп до диспечера за изтегляне.</string>
     <string name="permlab_bluetoothWhitelist">Достъп до устройство с Bluetooth, поставено в белия списък.</string>
     <string name="start_server">Стартиране на TCP сървър</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_canceled">Прехвърлянето бе анулирано от потребителя.</string>
     <string name="status_connection_error">Връзката не е успешна.</string>
     <string name="status_file_error">Проблем с хранилището.</string>
     <string name="status_forbidden">Прехвърлянето е забранено от целевото устройство.</string>
-    <string name="status_no_sd_card">Няма USB хранилище.</string>
+    <string name="status_no_sd_card_default">Няма SD карта. Поставете такава, за да запазите прехвърлените файлове.</string>
+    <string name="status_no_sd_card_nosdcard">Няма USB хранилище.</string>
     <string name="status_not_accept">Съдържанието не се поддържа.</string>
     <string name="status_pending">Прехвърлянето на файла още не е започнало.</string>
     <string name="status_protocol_error">Заявката не може да бъде обработена правилно.</string>
@@ -138,6 +131,5 @@
     <string name="upload_line3">Файлов тип: %1$s (%2$s)</string>
     <string name="upload_line5">Файлът се изпраща...</string>
     <string name="upload_succ_line5">Файлът е изпратен</string>
-    <string name="upload_succ_ok">OK</string>
     <string name="upload_success">%1$s – Изпращането завърши.</string>
 </resources>

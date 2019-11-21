@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="abc_action_bar_home_description">Придвижване към „Начало“</string>
     <string name="abc_action_bar_home_description_format">„%1$s“ – %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">„%1$s“, „%2$s“ – %3$s</string>
@@ -251,13 +250,8 @@
     <string name="passport_talkback_switch_image_captcha">Превключи на гласов код за потвърждение</string>
     <string name="passport_first_login_prompt">Mi Профил ще бъде създаден автоматично, когато се регистрирате за пръв път.</string>
     <string name="passport_wx_bind_account_limit">Не може да бъде създаден профил в момента. Опитайте други начини за вписване.</string>
-    <string name="facebook_app_id">2263965750590514</string>
-    <string name="fb_login_protocol_scheme">fb2263965750590514</string>
-    <string name="server_client_id">29336734752-hkhmuft60qa4qn1ual7etmp6pfo0ib54.apps.googleusercontent.com</string>
     <string name="passport_ticket_login_select_sim_card">Изберете SIM карта</string>
     <string name="passport_ticket_login_select_sim_card_cancel">Отказ</string>
-    <string name="passport_ticket_login_select_sim_card_1">SIM 1</string>
-    <string name="passport_ticket_login_select_sim_card_2">SIM 2</string>
     <string name="search_app_name">Mi Профил</string>
     <string name="search_mi_account">Mi Профил</string>
     <string name="search_mi_account_key_words">Xiaomi Облак,Настройки на профил,Mi Плащане, Отписване</string>
@@ -281,18 +275,12 @@
     <string name="removing_account">Отписване…</string>
     <string name="delete_bank_card_title">Внимание</string>
     <string name="delete_bank_card_message">Картите за Mi Плащане и NFC картите ще бъдат изтрити, след като се отпишете.</string>
-    <string name="sina_weibo">Sina Weibo</string>
     <string name="bind_sina_weibo">Свързан със Sina Weibo</string>
     <string name="bind_weibo_description">Намери и синхронизирай приятелите си от Sina Weibo.</string>
     <string name="bind_sns_description">Попълване на профила ви използвайки личната си информация в %s.</string>
     <string name="add_account">Добавяне на профил</string>
-    <string name="qq">QQ</string>
-    <string name="weixin">WeChat</string>
-    <string name="bind_qq">QQ</string>
     <string name="bind_weixin">Добавяне на WeChat профил</string>
     <string name="need_install_wechat">Инсталирайте WeChat първо</string>
-    <string name="facebook">Facebook</string>
-    <string name="google">Google</string>
     <string name="bind_facebook">Добавяне на Facebook профил</string>
     <string name="bind_google">Добавяне на Google профил</string>
     <string name="binded">Свързан</string>
@@ -387,7 +375,6 @@
     <string name="account_xiaomi_service">Услуги</string>
     <string name="cloud_service">Xiaomi Облак</string>
     <string name="vip_account_settings">VIP Настройки</string>
-    <string name="xiao_mi_vip">Mi VIP</string>
     <string name="mi_vip_info">Покажи предимствата</string>
     <string name="vip_settings_info">VIP настройки</string>
     <string name="used_cloud_storage_info">Заето място в хранилището %s</string>
@@ -511,9 +498,7 @@ ID:%s
 Изпратете този код на вашия доставчик."</string>
     <string name="diagnosis_log_send_failed">Логът не може се изпрати.</string>
     <string name="temporary_not_available">Тази услуга още не е налична.</string>
-    <string name="ok">OK</string>
     <string name="select_all">Избери всички</string>
-    <string name="i_agree">OK</string>
     <string name="i_agree_continue">Съгласен</string>
     <string name="exit">Изход</string>
     <string name="passport_privacy_policy_required">Политика на поверителност (задължително)</string>
@@ -524,7 +509,6 @@ ID:%s
     <string name="permission_group_contacts">Контакти</string>
     <string name="permission_group_phone">Телефон</string>
     <string name="permission_group_storage">Хранилище</string>
-    <string name="permission_group_sms">SMS</string>
     <string name="kr_permission_contacts_desc">За достъп до информация за контакт</string>
     <string name="kr_permission_phone_desc">За защита на вашия профил</string>
     <string name="kr_permission_storage_desc">За съхраняване на диагностика</string>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="net_booster_expire_notification_tip">
+        <item quantity="other">Остават %d дни преди сесията на Мрежов ускорител да приключи. Подновете я сега, за да се предпазите от проблеми със скоростта.</item>
+        <item quantity="one">Остава %d ден преди сесията на Мрежов ускорител да приключи. Подновете я сега, за да се предпазите от проблеми със скоростта.</item>
+    </plurals>
+</resources>

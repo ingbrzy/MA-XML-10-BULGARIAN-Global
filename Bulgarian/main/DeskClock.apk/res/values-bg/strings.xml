@@ -8,16 +8,7 @@
     <string name="abc_activitychooserview_choose_application">Изберете приложение</string>
     <string name="abc_capital_off">ИЗКЛ.</string>
     <string name="abc_capital_on">ВКЛ.</string>
-    <string name="abc_menu_alt_shortcut_label">Alt+</string>
-    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
-    <string name="abc_menu_delete_shortcut_label">delete</string>
-    <string name="abc_menu_enter_shortcut_label">enter</string>
-    <string name="abc_menu_function_shortcut_label">Function+</string>
-    <string name="abc_menu_meta_shortcut_label">Meta+</string>
-    <string name="abc_menu_shift_shortcut_label">Shift+</string>
     <string name="abc_menu_space_shortcut_label">клавиша за интервал</string>
-    <string name="abc_menu_sym_shortcut_label">Sym+</string>
-    <string name="abc_prepend_shortcut_label">Menu+</string>
     <string name="abc_search_hint">Търсете…</string>
     <string name="abc_searchview_description_clear">Изчистване на заявката</string>
     <string name="abc_searchview_description_query">Заявка за търсене</string>
@@ -56,7 +47,6 @@
     <string name="app_label">Часовник</string>
     <string name="auto_silence_never">Никога</string>
     <string name="auto_silence_title">Заглушаване след</string>
-    <string name="battery_charging_level">%d%%</string>
     <string name="birthday_alarm">Будилник на рожден ден</string>
     <string name="birthday_alarm_summary">Пускане на \"Happy Birthday\" на вашия рожден ден вместо стандартната мелодия на будилника</string>
     <string name="cancel">Спри</string>
@@ -74,7 +64,6 @@
     <string name="content_desc_keep_screen">Бутон за запазване на екрана включен</string>
     <string name="control_set_alarm">Навиване на будилника</string>
     <string name="control_set_alarm_with_existing">Будилникът е настроен за: %s</string>
-    <string name="day_concat">", "</string>
     <string name="default_alarm_alert">Тон аларма по подразбиране</string>
     <string name="default_alarm_title">Мелодия по подразбиране</string>
     <string name="default_label">Будилник</string>
@@ -151,13 +140,11 @@
     <string name="life_post_wake_up_item_acumu_day_title">Брой дни</string>
     <string name="life_post_wake_up_item_percentage_title">Mi феновете са до теб</string>
     <string name="life_post_wake_up_item_time_title">Време на събуждане</string>
-    <string name="life_post_wake_up_percentage_sign">%</string>
     <string name="life_post_wake_up_percentage_title">Mi феновете са до теб</string>
     <string name="life_post_wake_up_time_title">Време на събуждане</string>
     <string name="life_post_weather_invalid">Натиснете за информация за времето</string>
     <string name="life_post_weather_no_network">Свържете се с мрежата за актуализиране на инф. за времето</string>
-    <string name="life_post_weather_temperature_centigrade">°</string>
-    <string name="listen_news_privacy">&lt;Data>За да Ви предоставя персонализирани услуги и да включва сутрешни новини към алармите, \"Часовник\" се нуждае от връзка с интернет. Преди да използвате \"Часовник\", трябва също така да прочетете и да се съгласите с нашето &lt;a href=\"%1$s\">потребителско споразумение&lt;/a> и с &lt;a href=\"%2$s\">политиката ни за поверителност&lt;/a>. Съгласни ли сте?&lt;/Data></string>
+    <string name="listen_news_privacy">&lt;Data>За да Ви предоставим персонализирани услуги и за да включим сутрешни новини към алармите Ви, Часовник трябва да се свърже с интернет. Преди да използвате Часовник, трябва също да прочетете и да се съгласите с нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%2$s\">Политика за поверителност&lt;/a>. Съгласни ли сте?&lt;/Data></string>
     <string name="loading_ringtone">Зареждане на мелодии...</string>
     <string name="menu_add_worldclock">Часова зона</string>
     <string name="menu_desk_clock">Часовник</string>
@@ -184,32 +171,33 @@
     <string name="module_download_success">Успешно изтегляне на аудиото</string>
     <string name="module_download_title">Необходимо е допълнително аудио</string>
     <string name="module_downloading">Изтегляне на аудио…</string>
+    <string name="module_unzipping">Разпакетиране на аудио…</string>
     <string name="module_update_success">Успешно е изтеглено обновено аудио за умните аларми на MIUI. Можете да настроите умните аларми на MIUI в настройките на Часовник.</string>
     <string name="module_update_success_control">Разбрах</string>
     <string name="module_weather_ringtone_download_data">Алармата за времето избира различни мелодии на звънене според времето в момента. \"Часовник\" трябва да изтегли ок. 30 MB аудио, за да работи това. Изтегляне сега?</string>
-    <string name="module_weather_ringtone_download_data_privacy">&lt;Data>Алармата за времето избира различни мелодии на звънене според времето в момента. \"Часовник\" се нуждае от връзка с интернет, за да изтегли ок. 30 MB аудио. Преди да използвате \"Часовник\", трябва също така да прочетете и да се съгласите с нашето &lt;a href=\"%1$s\">потребителско споразумение&lt;/a> и с &lt;a href=\"%2$s\">политиката ни за поверителност&lt;/a>. Съгласни ли сте?&lt;/Data></string>
+    <string name="module_weather_ringtone_download_data_privacy">&lt;Data>Алармата за времето избира различни тонове на звънене, според времето в момента. Часовник трябва да се свърже с интернет, за да изтегли ≈30 MB аудио. Преди да използвате Часовник, трябва също да прочетете и да се съгласите с нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%2$s\">Политика за поверителност&lt;/a>. Съгласни ли сте?&lt;/Data></string>
     <string name="module_weather_ringtone_download_wifi">Алармата за времето избира различни тонове на звънене според времето в момента. Часовник трябва да изтегли аудио, за да работи това. Изтегляне сега?</string>
-    <string name="module_weather_ringtone_download_wifi_privacy">&lt;Data>Алармата за времето избира различни мелодии на звънене според времето в момента. \"Часовник\" се нуждае от връзка с интернет, за да изтегли звуците. Преди да използвате \"Часовник\", трябва също така да прочетете и да се съгласите с нашето &lt;a href=\"%1$s\">потребителско споразумение&lt;/a> и с &lt;a href=\"%2$s\">политиката ни за поверителност&lt;/a>. Съгласни ли сте?&lt;/Data></string>
+    <string name="module_weather_ringtone_download_wifi_privacy">&lt;Data>Алармата за времето избира различни тонове на звънене, според времето в момента. Часовник трябва да се свърже с интернет, за да изтегли аудио. Преди да използвате Часовник, трябва също да прочетете и да се съгласите с нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%2$s\">Политика за поверителност&lt;/a>. Съгласни ли сте?&lt;/Data></string>
     <string name="module_weather_ringtone_introduce">Алармата за времето избира различни мелодии на звънене според времето в момента. Освен това можете да чуете актуална информация за времето сутринта.</string>
     <string name="module_weather_ringtone_introduce_global">Алармата за времето избира различни тонове на звънене според времето в момента.</string>
     <string name="module_weather_ringtone_update_data">Алармата за времето вече има фонова музика и по-добри гласови известия. Часовник трябва да изтегли ≈30 MB аудио, за да работи това. Изтегляне сега?</string>
     <string name="module_weather_ringtone_update_success">Алармата за времето вече има фонова музика и по-добри гласови известия. За да изпробвате тази функционалност, можете да настроите нова аларма.</string>
-    <string name="module_week_ringtone_download_data">Седмична аларма възпроизвежда различни природни звуци всеки ден от седмицата. Часовник трябва да изтегли ≈30 MB аудио, за да работи това. Изтегляне сега?</string>
-    <string name="module_week_ringtone_download_data_privacy">&lt;Data>Седмичната аларма възпроизвежда различни звуци от природата за всеки ден от седмицата. \"Часовник\" се нуждае от връзка с интернет, за да изтегли ок. 30 MB аудио. Преди да използвате \"Часовник\", трябва също така да прочетете и да се съгласите с нашето &lt;a href=\"%1$s\">потребителско споразумение&lt;/a> и с &lt;a href=\"%2$s\">политиката ни за поверителност&lt;/a>. Съгласни ли сте?&lt;/Data></string>
-    <string name="module_week_ringtone_download_wifi">Седмичната аларма възпроизвежда различни звуци от природата за всеки ден от седмицата. \"Часовник\" трябва да изтегли звуци, за да бъде възможно това. Изтегляне сега?</string>
-    <string name="module_week_ringtone_download_wifi_privacy">&lt;Data>Седмичната аларма възпроизвежда различни звуци от природата за всеки ден от седмицата. \"Часовник\" се нуждае от връзка с интернет, за да изтегли звуците. Преди да използвате \"Часовник\", трябва също така да прочетете и да се съгласите с нашето &lt;a href=\"%1$s\">потребителско споразумение&lt;/a> и с &lt;a href=\"%2$s\">политиката ни за поверителност&lt;/a>. Съгласни ли сте?&lt;/Data></string>
-    <string name="module_week_ringtone_introduce">Седмична аларма възпроизвежда различни природни звуци всеки ден от седмицата.</string>
-    <string name="module_week_ringtone_update_data">Седмична аларма възпроизвежда различни природни звуци всеки ден от седмицата. Часовник трябва да изтегли ≈30 MB аудио, за да работи това. Изтегляне сега?</string>
-    <string name="module_week_ringtone_update_success">Седмичната аларма вече има фонова музика за всеки ден от седмицата. За да изпробвате тази функционалност, можете да настроите нова аларма.</string>
+    <string name="module_week_ringtone_download_data">Природната аларма възпроизвежда различни звуци в зависимост от датата. Часовник трябва да изтегли ≈30 MB аудио, за да работи това. Изтегляне сега?</string>
+    <string name="module_week_ringtone_download_data_privacy">&lt;Data>Природната аларма възпроизвежда различни звуци в зависимост от датата. Часовник се нуждае от връзка с интернет, за да изтегли ≈30 MB аудио. Преди да използвате Часовник, трябва също така да прочетете и да се съгласите с нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%2$s\">Политика за поверителност&lt;/a>. Приемате ли?&lt;/Data></string>
+    <string name="module_week_ringtone_download_wifi">Природната аларма възпроизвежда различни звуци в зависимост от датата. Часовник трябва да изтегли аудио, за да работи това. Изтегляне сега?</string>
+    <string name="module_week_ringtone_download_wifi_privacy">&lt;Data>Природната аларма възпроизвежда различни звуци в зависимост от датата. Часовник се нуждае от връзка с интернет, за да изтегли аудио. Преди да използвате Часовник, трябва също така да прочетете и да се съгласите с нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%2$s\">Политика за поверителност&lt;/a>. Приемате ли?&lt;/Data></string>
+    <string name="module_week_ringtone_introduce">Природната аларма възпроизвежда различни звуци в зависимост от датата.</string>
+    <string name="module_week_ringtone_update_data">Природната аларма възпроизвежда различни звуци в зависимост от датата. Часовник трябва да изтегли ≈30 MB аудио, за да работи това. Изтегляне сега?</string>
+    <string name="module_week_ringtone_update_success">Природната аларма възпроизвежда различни звуци в зависимост от датата. Можете да създадете нова аларма, за да изпробвате тази функция.</string>
     <string name="module_white_noise_download_data">Часовник трябва да изтегли аудиофайлове за таймери за шум на околната среда. За това изтегляне ще са нужни ≈30 MB от Вашите мобилни данни. Изтегляне сега?</string>
-    <string name="module_white_noise_download_data_privacy">&lt;Data>За да може да изтегли аудио файлове за таймери със звуци от околната среда (ок. 30 MB) и да Ви предоставя персонализирани услуги, \"Часовник\" се нуждае от връзка с интернет. Преди да използвате \"Часовник\", трябва също така да прочетете и да приемете нашето &lt;a href=\"%1$s\">потребителско споразумение&lt;/a> и с &lt;a href=\"%2$s\">политиката ни за поверителност&lt;/a>. В момента използвате мобилни данни. Приемате ли?&lt;/Data></string>
+    <string name="module_white_noise_download_data_privacy">&lt;Data>За да изтегляте аудиофайлове за таймери за шум на околната среда (≈30 MB) и за да Ви предоставим персонализирани услуги, Часовник трябва да се свърже с интернет. Преди да използвате Часовник, трябва също да прочетете и да се съгласите с нашето &lt;a href=\"%1$s\">Потребителско споразумениеt&lt;/a> и &lt;a href=\"%2$s\">Политика за поверителност&lt;/a>. В момента използвате мобилни данни. Съгласни ли сте?&lt;/Data></string>
     <string name="module_white_noise_download_wifi">Часовник трябва да изтегли аудиофайлове за таймери за шум на околната среда. Изтегляне сега?</string>
-    <string name="module_white_noise_download_wifi_privacy">&lt;Data>За да изтегли аудио файлове за таймери със звуци от околната среда и за да Ви предоставя персонализирани услуги, \"Часовник\" се нуждае от връзка с интернет. Преди да използвате \"Часовник\", трябва също така да прочетете и да се съгласите с нашето &lt;a href=\"%1$s\">потребителско споразумение&lt;/a> и с &lt;a href=\"%2$s\">политиката ни за поверителност&lt;/a>. Съгласни ли сте?&lt;/Data></string>
+    <string name="module_white_noise_download_wifi_privacy">&lt;Data>За да изтегляте аудио файлове за таймери за шум на околната среда и за да Ви предоставим персонализирани услуги, Часовник трябва да се свърже с интернет. Преди да използвате Часовник, трябва също да прочетете и да се съгласите с нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%2$s\">Политика за поверителност&lt;/a>. Съгласни ли сте?&lt;/Data></string>
     <string name="monday_to_friday">от понеделник до петък</string>
     <string name="more_setting">Още настройки</string>
     <string name="more_settings">Настройки</string>
     <string name="network_privacy">&lt;Data>За да получавате правилна информация за местните официални празници и да настройвате аларми, \"Часовник\" се нуждае от връзка с интернет. Преди да използвате \"Часовник\", трябва също така да прочетете и да се съгласите с нашето &lt;a href=\"%1$s\">потребителско споразумение&lt;/a> и с &lt;a href=\"%2$s\">политиката ни за поверителност&lt;/a>. Съгласни ли сте?&lt;/Data></string>
-    <string name="network_privacy_global">&lt;Data>За да Ви предоставя персонализирани услуги, \"Часовник\" се нуждае от връзка с интернет. Преди да използвате \"Часовник\", трябва също така да прочетете и да се съгласите с нашето &lt;a href=\"%1$s\">потребителско споразумение&lt;/a> и с &lt;a href=\"%2$s\">политиката ни за поверителност&lt;/a>. Съгласни ли сте?&lt;/Data></string>
+    <string name="network_privacy_global">&lt;Data>За да Ви предоставим персонализирани услуги, Часовник трябва да се свърже с интернет. Преди да използвате Часовник, трябва също да прочетете и да се съгласите с нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%2$s\">Политика за поверителност&lt;/a>. Съгласни ли сте?&lt;/Data></string>
     <string name="never">Никога</string>
     <string name="no_alarm_setting">Тук няма аларми</string>
     <string name="no_worldclock">Тук няма часовници</string>
@@ -217,17 +205,11 @@
     <string name="open_keep_screen">Екранът ще се съхранява</string>
     <string name="other_category_title">Друг</string>
     <string name="pause">Пауза</string>
-    <string name="percentage_sign">%</string>
     <string name="personal_recommend">Персонализирани препоръки за съдържание</string>
     <string name="privacy_policy">Политика на поверителност</string>
     <string name="privacy_policy_title">Политика на поверителност</string>
     <string name="remind_ringtone">Тон на звънене</string>
     <string name="repeat_count">Пъти</string>
-    <string name="repeat_count_value_five">5</string>
-    <string name="repeat_count_value_one">1</string>
-    <string name="repeat_count_value_ten">10</string>
-    <string name="repeat_count_value_three">3</string>
-    <string name="repeat_count_value_two">2</string>
     <string name="reset">Нулиране</string>
     <string name="revert">Върни се обратно</string>
     <string name="ringtone_all">Всички мелодии</string>
@@ -236,7 +218,7 @@
     <string name="ringtone_firefly">Светулки</string>
     <string name="ringtone_other">Още тонове на звънене</string>
     <string name="ringtone_weather">Предупреждение за времето</string>
-    <string name="ringtone_week">Седмична аларма</string>
+    <string name="ringtone_week">Природна аларма</string>
     <string name="search_alarm_clock_keywords">Аларма; Будилник;</string>
     <string name="search_stopwatch_keywords">Хронометър</string>
     <string name="search_timer_keywords">Таймер</string>
@@ -263,34 +245,20 @@
     <string name="slider_text">Плъзнете нагоре за да изключите</string>
     <string name="snooze_confirm_cancel">Спри аларма</string>
     <string name="snooze_duration">Отлагане</string>
-    <string name="snooze_duration_text">%1$s | %2$s</string>
     <string name="snooze_duration_title">Отлагане</string>
     <string name="snooze_duration_value">Интервал (минути)</string>
-    <string name="snooze_duration_value_fifteen">15</string>
-    <string name="snooze_duration_value_five">5</string>
-    <string name="snooze_duration_value_one">1</string>
-    <string name="snooze_duration_value_ten">10</string>
-    <string name="snooze_duration_value_thirty">30</string>
-    <string name="snooze_duration_value_twenty">20</string>
-    <string name="snooze_duration_value_twenty_five">25</string>
     <string name="star_wy_alarm_speech">Запознайте се с Рой Уанг</string>
     <string name="start">Старт</string>
     <string name="start_up">Старт</string>
-    <string name="status_bar_clock_date_time_format">H:mm:ss</string>
-    <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
-    <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
     <string name="stopwatch_lap_empty_text">Няма обиколки</string>
     <string name="stopwatch_title">Хронометър</string>
     <string name="system_permission_purpose">Създаване на аларми за работните дни от седмицата и задаване на персонализирани тонове на звънене</string>
     <string name="system_time_setting">Настройте време</string>
     <string name="system_time_settings_category_title">Настройки за часовник</string>
-    <string name="temperature_unit">℃</string>
     <string name="time">Време</string>
-    <string name="time_picker_colon">:</string>
     <string name="time_picker_label_hour">ч</string>
     <string name="time_picker_label_minute">м</string>
     <string name="time_picker_label_second">с</string>
-    <string name="timer_alarm_alert_pad">%s</string>
     <string name="timer_alarm_cancel_pad">Чукнете екрана, за да спре звъненето</string>
     <string name="timer_alarm_dot_matrix_label">Таймер</string>
     <string name="timer_alert_alert_silenced">Таймерът спира след %1$s.</string>
@@ -314,7 +282,6 @@
     <string name="timer_created">Успешно добавен таймер</string>
     <string name="timer_end_time">Таймерът ще спре в %s</string>
     <string name="timer_end_time_format">HH:mm dd MMM</string>
-    <string name="timer_end_time_format_today">HH:mm</string>
     <string name="timer_got_it">ОК</string>
     <string name="timer_is_paused">Таймерът е на пауза</string>
     <string name="timer_item_duration_display">%1$d мин. %2$d сек.</string>

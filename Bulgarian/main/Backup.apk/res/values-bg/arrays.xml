@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="trans_succeed_survey_title">
-        <item>Общо класиране</item>
-        <item>Продължителност на прехвърлянето</item>
+    <string-array name="trans_cancel_survey_title">
+        <item>Цялостен опит</item>
+        <item>Времетраене на прехвърлянето</item>
         <item>Простота на процеса</item>
         <item>Ясни инструкции</item>
+        <item>Тази функция е полезна</item>
     </string-array>
     <string-array name="trans_succeed_rating_hint">
         <item>Много недоволен</item>
@@ -13,11 +14,10 @@
         <item>Доволен</item>
         <item>Много доволен</item>
     </string-array>
-    <string-array name="trans_cancel_survey_title">
-        <item>Цялостен опит</item>
-        <item>Времетраене на прехвърлянето</item>
+    <string-array name="trans_succeed_survey_title">
+        <item>Общо класиране</item>
+        <item>Продължителност на прехвърлянето</item>
         <item>Простота на процеса</item>
         <item>Ясни инструкции</item>
-        <item>Тази функция е полезна</item>
     </string-array>
 </resources>

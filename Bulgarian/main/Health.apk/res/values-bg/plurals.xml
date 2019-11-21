@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="day_index">
+        <item quantity="other">%1$d дни</item>
+        <item quantity="one">%1$d ден</item>
+    </plurals>
+    <plurals name="goal_format_with_unit">
+        <item quantity="other">Цел: %1$d крачки</item>
+        <item quantity="one">Цел: %1$d крачка</item>
+    </plurals>
+    <plurals name="goal_unit">
+        <item quantity="other">" крачки"</item>
+        <item quantity="one">" крачка"</item>
+    </plurals>
+    <plurals name="menstruation_sum_days">
+        <item quantity="other">%1$d-дневен цикъл</item>
+        <item quantity="one">%1$d-дневен цикъл</item>
+    </plurals>
+    <plurals name="step_num_format">
+        <item quantity="other">%1$d крачки</item>
+        <item quantity="one">%1$d крачка</item>
+    </plurals>
+    <plurals name="steps_format">
+        <item quantity="other">%1$d</item>
+        <item quantity="one">%1$d</item>
+    </plurals>
+    <plurals name="subtitle_add_record">
+        <item quantity="other">Не сте записвали от %1$d дни. Записвайте циклите си, за да получавате по-точни предвиждания.</item>
+        <item quantity="one">Не сте записвали от %1$d ден. Записвайте циклите си, за да получавате по-точни предвиждания.</item>
+    </plurals>
+    <plurals name="subtitle_menstruation_continued_days">
+        <item quantity="other">Този цикъл продължава общо %1$d дни.</item>
+        <item quantity="one">Този цикъл продължава общо %1$d ден.</item>
+    </plurals>
+    <plurals name="subtitle_menstruation_cycle_days">
+        <item quantity="other">Ден %1$d от този менструален цикъл</item>
+        <item quantity="one">Ден %1$d от този менструален цикъл</item>
+    </plurals>
+    <plurals name="sum_cycle_days">
+        <item quantity="other">%1$d-дневен цикъл</item>
+        <item quantity="one">%1$d-дневен цикъл</item>
+    </plurals>
+    <plurals name="times_format">
+        <item quantity="other">%1$d пъти</item>
+        <item quantity="one">%1$d път</item>
+    </plurals>
+    <plurals name="title_menstruation_day">
+        <item quantity="other">Ден %1$d от цикъла</item>
+        <item quantity="one">Ден %1$d от цикъла</item>
+    </plurals>
+    <plurals name="title_menstruation_margin_next_time_days">
+        <item quantity="other">%1$d дни до следващия цикъл</item>
+        <item quantity="one">%1$d ден до следващия цикъл</item>
+    </plurals>
+    <plurals name="title_menstruation_predict_period">
+        <item quantity="other">Очакван ден %1$d от цикъла</item>
+        <item quantity="one">Очакван ден %1$d от цикъла</item>
+    </plurals>
+    <plurals name="unit_days">
+        <item quantity="other">" дни"</item>
+        <item quantity="one">" ден"</item>
+    </plurals>
+    <plurals name="user_age_display_format_year">
+        <item quantity="other">%1$d години</item>
+        <item quantity="one">%1$d година</item>
+    </plurals>
+</resources>

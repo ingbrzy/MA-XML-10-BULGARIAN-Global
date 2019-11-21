@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arr_prompt_label">
+        <item>Разумно</item>
+        <item>Дълго</item>
+        <item>Твърде дълго</item>
+    </string-array>
+    <string-array name="arr_sedentary_reminder">
+        <item>Време е за движение!</item>
+        <item>Научете повече</item>
+        <item>Пийте малко вода и се разходете.</item>
+        <item>Научете повече</item>
+        <item>Изкачете редица стъпала</item>
+        <item>Научете повече</item>
+        <item>Не стойте седнали твърде дълго</item>
+        <item>Научете повече</item>
+    </string-array>
+    <string-array name="arr_time_label">
+        <item>1 час</item>
+        <item>2 часа</item>
+    </string-array>
+    <string-array name="energy_unit">
+        <item>" ккал"</item>
+        <item>" kJ"</item>
+    </string-array>
+    <string-array name="length_unit">
+        <item>" см"</item>
+        <item>" м"</item>
+        <item>" км"</item>
+    </string-array>
+    <string-array name="pager_titles">
+        <item>ден</item>
+        <item>седмица</item>
+        <item>Месечно</item>
+    </string-array>
+    <string-array name="run_in_background_state">
+        <item>Без ограничения</item>
+        <item>Ограничи фоновата дейност</item>
+        <item>Спри след 10 минути</item>
+        <item>Никога</item>
+    </string-array>
+    <string-array name="speed_unit">
+        <item>" км/ч"</item>
+        <item>" м/сек"</item>
+    </string-array>
+    <string-array name="temperature_unit">
+        <item>℃</item>
+        <item>°F</item>
+    </string-array>
+    <string-array name="week_label">
+        <item>нед.</item>
+        <item>пон.</item>
+        <item>вт.</item>
+        <item>ср.</item>
+        <item>четв.</item>
+        <item>пет.</item>
+        <item>съб.</item>
+    </string-array>
+</resources>

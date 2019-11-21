@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="Ndays">
-        <item quantity="other">%d дни преди</item>
-        <item quantity="one">%d ден преди</item>
+        <item quantity="other">%d дни преди събитието</item>
+        <item quantity="one">%d ден преди събитието</item>
     </plurals>
     <plurals name="Ndays_after_at">
         <item quantity="other">След %1$d дни в %2$s</item>
         <item quantity="one">След %1$d ден в %2$s</item>
     </plurals>
     <plurals name="Ndays_ago_at">
-        <item quantity="other">преди %1$d дни в %2$s</item>
-        <item quantity="one">преди %1$d ден в %2$s</item>
+        <item quantity="other">%1$d дни преди събитието в %2$s</item>
+        <item quantity="one">%1$d ден преди събитието в %2$s</item>
     </plurals>
     <plurals name="Nhours">
-        <item quantity="other">%d часа преди</item>
-        <item quantity="one">%d час преди</item>
+        <item quantity="other">%d часа преди събитието</item>
+        <item quantity="one">%d час преди събитието</item>
     </plurals>
     <plurals name="Nminutes">
-        <item quantity="other">%d минути преди</item>
-        <item quantity="one">%d минута преди</item>
+        <item quantity="other">%d минути преди събитието</item>
+        <item quantity="one">%d минута преди събитието</item>
     </plurals>
     <plurals name="Nweeks">
-        <item quantity="other">%d седмици преди</item>
-        <item quantity="one">%d седмица преди</item>
+        <item quantity="other">%d седмици преди събитието</item>
+        <item quantity="one">%d седмица преди събитието</item>
     </plurals>
     <plurals name="anniversary_day">
         <item quantity="other">%1$s дни</item>
@@ -84,9 +84,25 @@
         <item quantity="other">+%d</item>
         <item quantity="one">+1</item>
     </plurals>
+    <plurals name="reminder_custom_unit_day">
+        <item quantity="other">" дни"</item>
+        <item quantity="one">" ден"</item>
+    </plurals>
+    <plurals name="reminder_custom_unit_hour">
+        <item quantity="other">" часа"</item>
+        <item quantity="one">" час"</item>
+    </plurals>
+    <plurals name="reminder_custom_unit_minute">
+        <item quantity="other">" минути"</item>
+        <item quantity="one">" минута"</item>
+    </plurals>
+    <plurals name="reminder_later_toast">
+        <item quantity="other">Следващо напомняне след %1$d минути</item>
+        <item quantity="one">Следващо напомняне след %1$d минута</item>
+    </plurals>
     <plurals name="repeat_custom_prompt">
-        <item quantity="other">всеки%1$s на %2$s</item>
-        <item quantity="one">всеки%1$s на %2$s</item>
+        <item quantity="other">всеки %1$s на %2$s</item>
+        <item quantity="one">всяка %1$s на %2$s</item>
     </plurals>
     <plurals name="repeat_interval_frequency_day_multiple">
         <item quantity="other">%1$d дни</item>
@@ -103,10 +119,6 @@
     <plurals name="repeat_interval_frequency_year_multiple">
         <item quantity="other">%1$d години</item>
         <item quantity="one">%1$d година</item>
-    </plurals>
-    <plurals name="travel_eta_advice">
-        <item quantity="other">%2$s минути шофиране до %1$s.</item>
-        <item quantity="one">%2$s минута шофиране до %1$s.</item>
     </plurals>
     <plurals name="weekN">
         <item quantity="other">СЕДМИЦИ %d</item>

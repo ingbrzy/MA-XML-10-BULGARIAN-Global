@@ -12,6 +12,10 @@
         <item quantity="other">Преди %d год</item>
         <item quantity="one">Преди %d год</item>
     </plurals>
+    <plurals name="accessibility_usage_summary">
+        <item quantity="other">%1$d приложения имат пълен достъп до устройството ви</item>
+        <item quantity="one">1 приложение има пълен достъп до устройството ви</item>
+    </plurals>
     <plurals name="accessibilty_autoclick_preference_subtitle_extremely_short_delay">
         <item quantity="other">Изключително кратко забавяне (%1$d милисек)</item>
         <item quantity="one">Изключително кратко забавяне (%1$d милисек)</item>
@@ -89,8 +93,8 @@
         <item quantity="one">%d устройство</item>
     </plurals>
     <plurals name="data_saver_unrestricted_summary">
-        <item quantity="other">%1$d приложения могат да използват неограничено количество данни при включена Икономия на данни</item>
-        <item quantity="one">1 приложение може да използва неограничено количество данни при включена Икономия на данни</item>
+        <item quantity="other">%1$d приложения могат да използват неограничено количество данни при включена „Икономия на данни“</item>
+        <item quantity="one">1 приложение може да използва неограничено количество данни при включена „Икономия на данни“</item>
     </plurals>
     <plurals name="default_camera_app_title">
         <item quantity="other">Приложения за камера</item>
@@ -137,12 +141,20 @@
         <item quantity="one">Ограничено свързване за %s прил</item>
     </plurals>
     <plurals name="free_wifi_connected_count">
-        <item quantity="other">%1$d свързани потребитеи</item>
+        <item quantity="other">%1$d свързани потребители</item>
         <item quantity="one">%1$d свързан потребител</item>
     </plurals>
     <plurals name="hours">
         <item quantity="other">%s часа</item>
         <item quantity="one">1 час</item>
+    </plurals>
+    <plurals name="location_app_permission_summary_location_on">
+        <item quantity="other">%1$d от %2$d приложения имат достъп до местоположението</item>
+        <item quantity="one">%1$d от %2$d приложения има достъп до местоположението</item>
+    </plurals>
+    <plurals name="location_settings_summary_location_on">
+        <item quantity="other">Включено – %1$d приложения имат достъп до местоположението</item>
+        <item quantity="one">Включено – %1$d приложение има достъп до местоположението</item>
     </plurals>
     <plurals name="lockpassword_password_requires_letters">
         <item quantity="other">Трябва да съдържа поне %d букви</item>
@@ -220,9 +232,17 @@
         <item quantity="other">Добавени са %d</item>
         <item quantity="one">Добавен е %d</item>
     </plurals>
+    <plurals name="mobile_network_summary_count">
+        <item quantity="other">%1$d SIM карти</item>
+        <item quantity="one">%1$d SIM карта</item>
+    </plurals>
     <plurals name="network_restrictions_summary">
         <item quantity="other">%1$d ограничения</item>
         <item quantity="one">1 ограничение</item>
+    </plurals>
+    <plurals name="notification_few_channel_count_summary">
+        <item quantity="other">%1$d канала за известия.</item>
+        <item quantity="one">%1$d канал за известия.</item>
     </plurals>
     <plurals name="notification_group_summary">
         <item quantity="other">%d категории</item>
@@ -236,9 +256,21 @@
         <item quantity="other">%d категории са изключени</item>
         <item quantity="one">%d категория е изключена</item>
     </plurals>
+    <plurals name="notifications_sent_daily">
+        <item quantity="other">~%d известия на ден</item>
+        <item quantity="one">~%d известие на ден</item>
+    </plurals>
+    <plurals name="notifications_sent_weekly">
+        <item quantity="other">~%d известия на седмица</item>
+        <item quantity="one">~%d известие на седмица</item>
+    </plurals>
     <plurals name="number_of_device_admins">
         <item quantity="other">%d активни приложения</item>
         <item quantity="one">%d активно приложение</item>
+    </plurals>
+    <plurals name="permission_bar_chart_label">
+        <item quantity="other">%s приложения</item>
+        <item quantity="one">1 приложение</item>
     </plurals>
     <plurals name="permissions_summary">
         <item quantity="other">Предоставени са %d разрешения</item>
@@ -260,6 +292,10 @@
         <item quantity="other">%1$d услуги за отпечатване са включени</item>
         <item quantity="one">1 услуга за отпечатване е включена</item>
     </plurals>
+    <plurals name="restricted_app_summary">
+        <item quantity="other">Използването на батерията е ограничено за %1$d приложения</item>
+        <item quantity="one">Използването на батерията е ограничено за %1$d приложение</item>
+    </plurals>
     <plurals name="runtime_permissions_additional_count">
         <item quantity="other">%d допълнителни разрешения</item>
         <item quantity="one">%d допълнително разрешение</item>
@@ -280,6 +316,10 @@
         <item quantity="other">Показване на %d скрити елемента</item>
         <item quantity="one">Показване на %d скрит елемент</item>
     </plurals>
+    <plurals name="show_bluetooth_devices">
+        <item quantity="other">%1$d свързани устройства</item>
+        <item quantity="one">%1$d свързано устройство</item>
+    </plurals>
     <plurals name="show_cit_countdown">
         <item quantity="other">Вече сте на %1$d стъпки от това, да влезете в инженерно меню CIT.</item>
         <item quantity="one">Вече сте на %1$d стъпка от това, да влезете в инженерно меню CIT.</item>
@@ -293,7 +333,7 @@
         <item quantity="one">Запазен е %1$d слухов апарат</item>
     </plurals>
     <plurals name="show_pho_countdown">
-        <item quantity="other">Вече сте на %1$d стъпка от влизането в информацията за устройството.</item>
+        <item quantity="other">Вече сте на %1$d стъпки от влизането в информацията за устройството.</item>
         <item quantity="one">Вече сте на %1$d стъпка от влизането в информацията за устройството.</item>
     </plurals>
     <plurals name="show_rep_countdown">
@@ -424,8 +464,16 @@
         <item quantity="other">%d мрежи</item>
         <item quantity="one">1 мрежа</item>
     </plurals>
+    <plurals name="wifi_saved_all_access_points_summary">
+        <item quantity="other">%d мрежи и абонамента</item>
+        <item quantity="one">1 мрежа и абонамент</item>
+    </plurals>
+    <plurals name="wifi_saved_passpoint_access_points_summary">
+        <item quantity="other">%d абонамента</item>
+        <item quantity="one">1 абонамент</item>
+    </plurals>
     <plurals name="wifi_share_count">
-        <item quantity="other">Споделена е %d мрежа</item>
+        <item quantity="other">Споделени са %d мрежи</item>
         <item quantity="one">Споделена е %d мрежа</item>
     </plurals>
     <plurals name="wifi_tether_connected_summary">
@@ -436,17 +484,21 @@
         <item quantity="other">Неправилен ПИН код за SIM картата – остават ви %d опита.</item>
         <item quantity="one">Неправилен ПИН код за SIM картата – остава ви %d опит, преди да трябва да се свържете с оператора си, за да отключите устройството.</item>
     </plurals>
+    <plurals name="zen_mode_bypassing_apps_subtext">
+        <item quantity="other">Известията от %1$d приложения могат да отменят режима „Не безпокойте“</item>
+        <item quantity="one">Известията от 1 приложение могат да отменят режима „Не безпокойте“</item>
+    </plurals>
     <plurals name="zen_mode_duration_summary_time_hours">
-        <item quantity="other">%d часа (освен ако не е включен автоматично)</item>
-        <item quantity="one">1 час (освен ако не е включен автоматично)</item>
+        <item quantity="other">%d часа</item>
+        <item quantity="one">1 час</item>
     </plurals>
     <plurals name="zen_mode_settings_summary_on">
-        <item quantity="other">%d правила</item>
-        <item quantity="one">1 правило</item>
+        <item quantity="other">Активирахте %d</item>
+        <item quantity="one">Активирахте 1</item>
     </plurals>
     <plurals name="zen_mode_sound_summary_summary_off_info">
-        <item quantity="other">%d правила могат да се включат автоматично</item>
-        <item quantity="one">1 правило може да се включи автоматично</item>
+        <item quantity="other">%d графика могат да се включват автоматично</item>
+        <item quantity="one">1 график може да се включва автоматично</item>
     </plurals>
     <plurals name="zen_mode_starred_contacts_summary_additional_contacts">
         <item quantity="other">Още %d</item>

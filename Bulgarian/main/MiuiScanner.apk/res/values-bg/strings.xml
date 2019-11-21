@@ -29,6 +29,8 @@
     <string name="abc_toolbar_collapse_description">Свиване</string>
     <string name="search_menu_title">Търсене</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="Approval">Заяви</string>
+    <string name="Xiaomi_account_pending_approval">Разглеждане на заявката</string>
     <string name="about_title">Относно</string>
     <string name="access_sd_fail">Няма достъп до картата с памет</string>
     <string name="accessibility_shutter_button">Снимай</string>
@@ -59,6 +61,7 @@
     <string name="call_anyone">Повикване</string>
     <string name="camera_error_title">Грешка в камерата</string>
     <string name="cancel">Отказ</string>
+    <string name="check_for_updates">Проверете за Бета обновления</string>
     <string name="choose_open_code_app">Изберете приложение</string>
     <string name="choose_pay_title">Изберете метод на плащане</string>
     <string name="choose_picture">Избор на изображение с QR код</string>
@@ -72,6 +75,7 @@
     <string name="contact_details">QR код контакт:</string>
     <string name="continue_access_web_url">Отидете на уеб адрес</string>
     <string name="continue_to_website">Отидете на уеб страница</string>
+    <string name="continue_waiting">Продължи да изчакваш</string>
     <string name="copy_text">Копиране текст</string>
     <string name="copy_text_success">Текстът копиран</string>
     <string name="crop_cancel_description">Отказ</string>
@@ -96,6 +100,8 @@
     <string name="document_title">Снимайте документа</string>
     <string name="document_top_panel_title">Заснемане на документа</string>
     <string name="done">Готово</string>
+    <string name="download_stable_version">Използвай стабилната версия</string>
+    <string name="download_use_stable_version">Изтегли стабилната версия</string>
     <string name="drag_barcode_into_frame">Изтеглете рамката, за да нагласите кода</string>
     <string name="drag_crop_to_business_card">Премести за изрязване</string>
     <string name="email">Имейл:</string>
@@ -106,11 +112,28 @@
     <string name="error_media_storage_failure">Не може да се запази снимката</string>
     <string name="error_permissions">Скенерът няма права, необходими за нормална работа. Проверете в Настройки, преди да продължите</string>
     <string name="error_server_error">Възникна грешка в сървъра.</string>
+    <string name="experience_new_feature_tips">Влезте в своя Mi Профил, за да кандидатствате за разрешение да използвате Бета версията. Ще можете да я използвате, след като разгледаме заявката Ви. Бета версията може да съдържа грешки.</string>
+    <string name="experience_new_features">Бета версия</string>
+    <string name="experiential_version_of_the_prompt_content">Влезте в своя Mi Профил за достъп до Скенер Бета. Вход сега?</string>
+    <string name="failed_to_get_xiaomi_account">Неуспешно влизане</string>
     <string name="fax">Факс</string>
     <string name="feed_search_fail">Няма резултати, опитайте отново</string>
+    <string name="feedback">Отзив</string>
     <string name="feedback_description_camera_access">Скенерът няма връзка с Камера</string>
     <string name="feedback_description_save_photo">Не може да се запази снимка или видео</string>
+    <string name="feedback_title">Обратна връзка</string>
     <string name="flight_mode_connecting_to_wifi">Включете Wi-Fi ръчно, когато Самолетен режим е включен</string>
+    <string name="food_identification_fail_tips">Сканирайте плодове, зеленчуци и други храни. Тази функционалност работи и с изображения.</string>
+    <string name="food_identification_tip_msg">Разпознаване на храна…</string>
+    <string name="food_make_complaints_hint">Напишете отзива си тук</string>
+    <string name="food_module_feedback_str">Отзив</string>
+    <string name="food_module_get_more_info">Повече информация</string>
+    <string name="food_module_identification_failure">Този обект не може да се разпознае.</string>
+    <string name="food_module_send_feedback">Изпрати</string>
+    <string name="food_module_step_on">Не харесвам</string>
+    <string name="food_module_thumbs_up">Харесвам</string>
+    <string name="food_module_tip">Нагласете храната така, че да влезе в рамката.</string>
+    <string name="food_module_title_food">Калории</string>
     <string name="got_it">Разбрах</string>
     <string name="gps">Придвижване</string>
     <string name="import_contact">Вмъкване на контакт</string>
@@ -119,7 +142,7 @@
     <string name="impunity_declaration_title">Правила за поверителност</string>
     <string name="jd_shopping_title">Търсене в JD</string>
     <string name="label_choose_picture">Изберете изображение</string>
-    <string name="label_flash_light">Светкавица</string>
+    <string name="label_flash_light">фенерче</string>
     <string name="language_entry_chinese_cn">Опростен Китайски</string>
     <string name="language_entry_english">Английски</string>
     <string name="language_entry_french">Френски</string>
@@ -145,6 +168,8 @@
     <string name="name">Име:</string>
     <string name="new_schedule">Създай събитие</string>
     <string name="nickname">Потребителско име:</string>
+    <string name="no_has_experience_version_permission">Нямате разрешения за използване на Скенер Бета. Изпратете заявка за разрешения или изтеглете стабилната версия.</string>
+    <string name="no_inner_version">Бета версията не е налична</string>
     <string name="no_network">Няма връзка с мрежа</string>
     <string name="no_storage">Сложете карта памет, преди да използвате Камера</string>
     <string name="no_support_to_translate_type">Този език не се поддържа</string>
@@ -165,9 +190,11 @@
     <string name="plant_title">Сканирайте растението, което искате да идентифицирате</string>
     <string name="preparing_sd">Подготовка на карта с памет…</string>
     <string name="previous">Обратно</string>
+    <string name="prompt">Внимание</string>
     <string name="qr_code_details">Детайли за QR код:</string>
     <string name="recognize">Сканиране</string>
     <string name="recognize_fail">Не може да се разпознае кода</string>
+    <string name="request_server_failed">Неуспешно свързване със сървъра</string>
     <string name="scan_result">Резултати</string>
     <string name="scan_support_type">WeChat, Alipay, QR кодове, баркодове</string>
     <string name="sdk_not_ready">SDK се подготвя. Опитайте по-късно.</string>
@@ -192,6 +219,7 @@
     <string name="study_searching">Търсене на резултати…</string>
     <string name="study_title">Сканирайте проблема, който искате да разрешите</string>
     <string name="study_vendor_info">Със съдействието на Zuoyebang</string>
+    <string name="suggested_submission_success">Отзивът Ви е изпратен успешно.</string>
     <string name="switch_open">Включи</string>
     <string name="tel">Телефон</string>
     <string name="title">Заглавие:</string>
@@ -227,6 +255,7 @@
     <string name="translation_see_more">Вижте значението</string>
     <string name="translation_type_sentence">Фрази</string>
     <string name="translation_type_word">Думи</string>
+    <string name="uninstall_prompt">Ако по време на инсталацията възникнат проблеми, влезте в Настройки > Приложения > Управление на приложения > Скенер, натиснете \"Деинсталирай\" и опитайте отново да инсталирате приложението.</string>
     <string name="url_is_phish">Това може да е фишинг уеб страница</string>
     <string name="url_is_safety">Тази уеб страница е сигурна</string>
     <string name="url_is_unknown">Не може да се провери дали е сигурна уеб страницата</string>
@@ -235,6 +264,7 @@
     <string name="web">Уеб страница:</string>
     <string name="website_details">Уеб страница:</string>
     <string name="weixin_code_tip">Сканирайте този QR код, използвайки WeChat</string>
+    <string name="welcome_to_thesweepversion">Добре дошли в Скенер Бета!</string>
     <string name="wifi_details">Wi-Fi:</string>
     <string name="wifi_exist_fail">Точката за безжичен достъп %1$s вече съществува. Изтрийте я, а след това отново сканирайте кода, за да се свържете.</string>
     <string name="wifi_open_fail">Не може да се включи Wi-Fi</string>
@@ -242,5 +272,9 @@
     <string name="wifi_pwd">Парола:</string>
     <string name="wifi_security">Сигурност:</string>
     <string name="wifi_ssid">SSID:</string>
+    <string name="will_be_sent_tothe_background_review">" (Скоро заявката Ви ще бъде изпратена за разглеждане.)"</string>
     <string name="wx_not_installed_toast">За тази функционалност е необходим WeChat. Първо инсталирайте WeChat.</string>
+    <string name="you_have_permission_to_download">Натиснете за изтегляне на Бета версия</string>
+    <string name="you_id">"Вашето ID: "</string>
+    <string name="your_application_is_under_review">" (Заявката Ви се разглежда.)"</string>
 </resources>

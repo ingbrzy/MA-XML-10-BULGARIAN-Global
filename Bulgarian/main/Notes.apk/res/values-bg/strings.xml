@@ -23,7 +23,8 @@
     <string name="app_notification_info">Приложението \"Бележки\" работи във фонов режим.</string>
     <string name="app_widget">Бележки</string>
     <string name="application_icon">Икона на приложение</string>
-    <string name="audio_panel_time_counter_default">00:00</string>
+    <string name="audio_create_normal_state">Пуснете, за да се създаде. Плъзнете нагоре за отмяна.</string>
+    <string name="audio_create_will_cancel_state">Пуснете за отмяна</string>
     <string name="audio_toast_file_invalid">Аудио файлът е невалиден</string>
     <string name="audio_toast_file_undownload">Аудио файлът не е напълно изтеглен или липсва</string>
     <string name="audio_toast_network_is_not_available">Не успя да се свърже с мрежата</string>
@@ -40,9 +41,6 @@
     <string name="cta_dialog_title">Необходими са разрешения</string>
     <string name="cta_reminder">Бележки има нужда от разрешение, за да се свърже с интернет, да записва аудио и да има достъп до Вашите контакти, за да работи нормално. Разрешаване?</string>
     <string name="date_calculate_today">0 дни</string>
-    <string name="date_picker_label_day" />
-    <string name="date_picker_label_month" />
-    <string name="date_picker_label_year" />
     <string name="date_time_picker_alarm_reminder">Аларма</string>
     <string name="date_time_picker_dialog_title">Задаване на дата и час</string>
     <string name="date_time_picker_has_not_set_alarm">Алармата не е настроена</string>
@@ -89,8 +87,6 @@
     <string name="error_widget_exist_for_send_to_desktop">Тази бележка вече съществува на началния екран</string>
     <string name="exceed_todo_text_limitation">Описанието на задачата е твърде дълго.</string>
     <string name="first_enter_custom_folder_hint">Сеага можете да преименувате или изтриете папките тук</string>
-    <string name="fmt_chinese_date">N e</string>
-    <string name="fmt_time_12hour_minute">h:mm</string>
     <string name="folder_exist">Вече съществува папка с това име</string>
     <string name="folder_operation_delete">Премахни</string>
     <string name="folder_operation_rename">Преименувай</string>
@@ -130,6 +126,10 @@
     <string name="menu_todo_show_finished_todo">Показвай приключените задачи</string>
     <string name="menu_unhide">Покажи</string>
     <string name="menu_unstick">Откачи</string>
+    <string name="new_audio_create_cancel_talkback_des">Отменена</string>
+    <string name="new_audio_create_done_talkback_des">Готово</string>
+    <string name="new_audio_create_guide_tip">За да създадете гласова бележка, натиснете и задръжте.</string>
+    <string name="new_audio_create_talkback_des">За да създадете текстова бележка, натиснете. За да създадете гласова бележка, натиснете и задръжте. За да спрете записа и да създадете бележката, пуснете бутона или плъзнете нагоре за отказ.</string>
     <string name="not_now">Не сега</string>
     <string name="note_description_content">Приложението Бележки е чудесен инструмент за записване на идеите Ви. То има вградени напомняния и синхронизира Вашите елементи с облака, за да имате достъп до тях отвсякъде и по всяко време. Уверете се, че можете да се справяте и без това приложение, преди да го изтриете.</string>
     <string name="note_description_title">За Бележки</string>
@@ -165,6 +165,7 @@
     <string name="pref_title_skip_confirm_for_quick_delete">Изтрийте чрез жест</string>
     <string name="pref_title_todo_float_mode">Използвайте лента с инструменти за задачи</string>
     <string name="pref_title_todo_shorcut">Кутия с инструменти</string>
+    <string name="privacy_note_content_empty">Тук все още няма елементи.</string>
     <string name="recover_notes_hint">Възникнала е грешка, отидете на i.mi.com, за да възстановите бележките.</string>
     <string name="redo">Възстанови</string>
     <string name="refuse_to_open_as_pic_because_of_loading">Изчакайте, докато бележката се зареди и опитайте отново.</string>
@@ -284,8 +285,6 @@
     <string name="todo_module_name">Задачи</string>
     <string name="todo_notify_alarm_title">Напомняне за задача</string>
     <string name="todo_schedule_time_expired">" (Изтекла)"</string>
-    <string name="todo_schedule_time_for_picker_hm">H mm</string>
-    <string name="todo_schedule_time_hm">HH:mm</string>
     <string name="todo_schedule_time_md">dd/MM</string>
     <string name="todo_schedule_time_mdhm">dd/MM HH:mm</string>
     <string name="todo_schedule_time_today">Днес</string>

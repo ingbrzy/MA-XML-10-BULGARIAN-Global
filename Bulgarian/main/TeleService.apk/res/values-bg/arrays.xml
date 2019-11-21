@@ -108,6 +108,11 @@
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
+    <string-array name="bt_hci_snoop_log_entries">
+        <item>Деактивирано</item>
+        <item>Филтрирането е активирано</item>
+        <item>Активирано</item>
+    </string-array>
     <string-array name="cdma_subscription_choices">
         <item>RUIM/SIM</item>
         <item>NV</item>
@@ -315,7 +320,7 @@
         <item>Установява се връзка с/ъс %1$s...</item>
         <item>Удостоверява се с/ъс %1$s...</item>
         <item>IP адресът от %1$s се получава...</item>
-        <item>Установена е връзка с/ъс%1$s</item>
+        <item>Установена е връзка с(ъс) %1$s</item>
         <item>Прекъсната</item>
         <item>Изключва се от %1$s...</item>
         <item>Изкл.</item>

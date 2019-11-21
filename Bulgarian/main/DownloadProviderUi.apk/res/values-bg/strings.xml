@@ -73,6 +73,7 @@
     <string name="bt_path_not_exit">Избраният път не съществува</string>
     <string name="bt_restart_dialog_message">Рестартиране на всички изтегляния във BT папка?</string>
     <string name="bt_restart_dialog_title">Рестартиране на всички изтеляния</string>
+    <string name="byteShort_per_seconds">Б/сек</string>
     <string name="cancel">Отказ</string>
     <string name="check_new_downloaded_action">Преглед</string>
     <string name="check_new_downloaded_file">Открит е нов файл</string>
@@ -113,6 +114,7 @@
     <string name="download_pending">Изтеглянето е в очакване</string>
     <string name="download_remain_time">Остават:</string>
     <string name="download_speed">Скорост на сваляне:</string>
+    <string name="download_speed_suffix">%1$s %2$s</string>
     <string name="download_spend_time">Време</string>
     <string name="download_status_continue">Поднови</string>
     <string name="download_status_fail">Опитайте отново</string>
@@ -141,6 +143,7 @@
     <string name="file_exist_hint">Този файл вече съществува</string>
     <string name="file_size">Размер:</string>
     <string name="get_data_failed">Не може да се получи информация, изчакайте минута-две и опитайте отново.</string>
+    <string name="gigabyteShort_per_seconds">ГБ/сек</string>
     <string name="guess_like">Може да харесате също</string>
     <string name="hint">Предупреждение</string>
     <string name="info_download_details">Подробности</string>
@@ -151,9 +154,12 @@
     <string name="install">Инсталиране</string>
     <string name="installing">Инсталиране…</string>
     <string name="insufficient_space">Няма достатъчно място</string>
+    <string name="kilobyteShort_per_seconds">kБ/сек</string>
     <string name="korean_all_choose_item_title">Съгласен съм с Условията за ползване.</string>
     <string name="korean_permission_group_phone_describe">Достъп до IMEI на устройството и състояние на мрежата, събиране на данни за неуспешни изтегляния</string>
     <string name="korean_permission_group_phone_title">Телефон</string>
+    <string name="korean_permission_group_storage_describe">Достъп до хранилището на устройството за да управлявате изтгеглянията</string>
+    <string name="korean_permission_group_storage_title">Хранилище</string>
     <string name="korean_privacy_btn_accept">Приеми</string>
     <string name="korean_privacy_btn_exit">Изход</string>
     <string name="korean_privacy_item_title">Политика на поверителност(задължително)</string>
@@ -162,6 +168,7 @@
     <string name="load_finish_hint">Това е всичко за сега.</string>
     <string name="loading">Един момент…</string>
     <string name="media_filter">Медия</string>
+    <string name="megabyteShort_per_seconds">МБ/сек</string>
     <string name="menu_all_task_pause">Всички на пауза</string>
     <string name="menu_all_task_start">Стартиране на всички</string>
     <string name="menu_enter_edit_mode">Редактор</string>
@@ -194,6 +201,7 @@
     <string name="paused_unknown">На пауза</string>
     <string name="paused_waiting_for_network">В очакване на мрежа</string>
     <string name="paused_waiting_to_retry">Изчакване за повторен опит</string>
+    <string name="petabyteShort_per_seconds">ПБ/сек</string>
     <string name="pref_download_settings_title">Лимит на размера за изтегляне</string>
     <string name="pref_summary_any_bytes_popup">Винаги изчаквай Wi-Fi връзка за изтегляне на файлове</string>
     <string name="pref_summary_enable_max_bytes_popup">Показвай известие при използване на мобилни данни за изтегляне на съдържание</string>
@@ -219,7 +227,7 @@
     <string name="revert_default">Възстанови началните настройки</string>
     <string name="revert_download_path">Да се използва ли стандартната папка за изтегляния?</string>
     <string name="save_path">"Запазвай изтеглянията в:  "</string>
-    <string name="save_text">Спестете ￥%1$s</string>
+    <string name="save_text">Спестете лв%1$s</string>
     <string name="select_operation_items">Избор на елементи</string>
     <string name="setting_close_debug">Изключване на режим за отстр. на грешки</string>
     <string name="setting_debug_fail">Не може да влезе в режим за отстр. на грешки</string>
@@ -237,6 +245,7 @@
     <string name="task_detail">Задачи</string>
     <string name="task_detail_notfound_confirm">OК</string>
     <string name="task_fail">Неуспешно</string>
+    <string name="terabyteShort_per_seconds">ТБ/сек</string>
     <string name="toast_only_wifi_download">Свържете се с Wi-Fi, за да изтеглите този елемент</string>
     <string name="total_speedup">Усилване на скоростта (Всичко)</string>
     <string name="version">Версия %s</string>

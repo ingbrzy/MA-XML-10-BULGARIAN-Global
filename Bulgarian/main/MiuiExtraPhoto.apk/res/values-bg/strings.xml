@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="extra_photo_common_saving">Записване……</string>
+    <string name="motion_photo_re_pick_title">Изберете най-качествената снимка</string>
+    <string name="motion_photo_toast_default">По подразбиране</string>
+    <string name="motion_photo_toast_suggest">Препоръчана</string>
+    <string name="refocus_discard_confirm_message">Запази промените?</string>
+    <string name="refocus_discard_negative_btn">Отхвърляне</string>
+    <string name="refocus_discard_positive_btn">Запази</string>
+    <string name="refocus_photo_not_support">Не може да се приложи замъгляване за тази снимка</string>
+    <string name="refocus_relighting_toast">Преместете кръга за настройка на осветения ъгъл</string>
+    <string name="refocus_save_cancel">Отказ</string>
+    <string name="refocus_save_title">Избери формат</string>
+    <string name="refocus_save_to_photo">Запазване като изображение</string>
+    <string name="refocus_save_to_video">Запазване като видео</string>
+    <string name="refocus_saving">Записване…</string>
+    <string name="refocus_title">Замъглен</string>
+    <string name="refocus_type_relighting">Студийно осветление</string>
+    <string name="refocus_type_relighting_no_face">Не може да се открие лице</string>
+    <string name="refocus_type_relighting_small_face">Студийното осветление работи на снимки, където лицата са с повече място, отколкото тук.</string>
+    <string name="refocus_type_static">Ниво на замъгляване</string>
+    <string name="refocus_type_video">Светлинен лъч</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

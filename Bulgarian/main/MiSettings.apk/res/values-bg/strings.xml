@@ -5,7 +5,7 @@
     <string name="calendar_sound">Напомняния за събитие</string>
     <string name="calendar_tip">Звуците за напомняне за събития се отнасят за напомняния, бележки и задачи в календара</string>
     <string name="follow_sim1">Прилагане на настройки на SIM 1</string>
-    <string name="intelligent_recognition_item_summary">Идентифицирайте входящи обаждания, извършвани от доставчици на услуги (напр. доставка на храна) и използвайте отделни мелодии за тях</string>
+    <string name="intelligent_recognition_item_summary">Използвайте индивидуален тон на звънене за обаждания от таксиметрови услуги и доставчици. Тази функция ще работи, когато %s е зададен като тон по подразбиране.</string>
     <string name="intelligent_recognition_item_title">Идентифициране на услуги</string>
     <string name="mms">Съобщения</string>
     <string name="more_ringtone">Всички мелодии</string>

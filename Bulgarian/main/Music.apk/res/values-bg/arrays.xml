@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="recommendation_desc_week">
+        <item>Препоръчани в неделя</item>
+        <item>Препоръчани в понеделник</item>
+        <item>Препоръчани във вторник</item>
+        <item>Препоръчани в сряда</item>
+        <item>Препоръчани в четвъртък</item>
+        <item>Препоръчани в петък</item>
+        <item>Препоръчани в събота</item>
+    </string-array>
+</resources>

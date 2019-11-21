@@ -12,6 +12,7 @@
     <string name="call_record_list_group_all">Всички</string>
     <string name="call_record_list_group_connected">Свързани</string>
     <string name="call_record_list_group_unconnected">Не са свързани</string>
+    <string name="cancel_rename">Отказ</string>
     <string name="clear_records">Изтрий синхронизираните записи</string>
     <string name="cloud_record_open">Синхр.на записи</string>
     <string name="cloud_record_tip">Синхронизирайте записите с Xiaomi Cloud.</string>
@@ -22,7 +23,6 @@
     <string name="cloud_status_full_dialog_title">Мястото в Xiaomi Cloud е пълно</string>
     <string name="data_connection_body">"\"\"Съвет:
 В операторска мрежа изтеглянето ще начисли такси.\"\""</string>
-    <string name="data_connection_button_text">OK</string>
     <string name="data_connection_title">Съвет</string>
     <string name="delete">Изтрий</string>
     <string name="delete_dialog_message">Желаете ли да изтриете текущия звукозапис?</string>
@@ -74,10 +74,10 @@
     <string name="korea_permission_record_resc">За записване на звук</string>
     <string name="korea_permission_storage">Съхранение</string>
     <string name="korea_permission_storage_desc">За съхраняване на записи</string>
+    <string name="loading_more">Един момент…</string>
     <string name="loading_order_list">Момент…</string>
     <string name="loading_order_list_empty">Тук няма поръчки.</string>
     <string name="low_battery_error">Остават по-малко от 5% батерия. Спрете и запазете записа си, за да не се изгуби.</string>
-    <string name="low_battery_error_confirm">OK</string>
     <string name="low_battery_error_title">Изтощена батерия</string>
     <string name="lyric_item_point_count">%1$d към %2$d</string>
     <string name="mark_point_list_title">Списък с маркирани</string>
@@ -106,7 +106,6 @@
     <string name="online_recognize_duration_limite">(Започвайки от 10 минути)</string>
     <string name="online_recognize_fail">Неуспешно разпознаване</string>
     <string name="online_recognize_login_fail">Неуспешно влизане</string>
-    <string name="online_recognize_order_audio_price">%s CNY</string>
     <string name="online_recognize_order_create">Вписване</string>
     <string name="online_recognize_order_duration_key">Продължителност</string>
     <string name="online_recognize_order_pay">Платете и вижте резултатите</string>
@@ -122,11 +121,11 @@
     <string name="online_recognize_order_upload">Потвърдете и качете</string>
     <string name="online_recognize_order_uploading">Качване %s…</string>
     <string name="online_recognize_other_order_upload">Изчакайте докато текущите качвания се изпълнят и опитайте отново.</string>
+    <string name="online_recognize_progress">Разпознаване %s…</string>
     <string name="online_recognize_running">Разпознаване…</string>
     <string name="online_recognize_service_unavailable">Услугата не е налична в момента. Изчакайте една или две минути и опитайте отново.</string>
     <string name="order_item_duration">Свързан от: %s</string>
     <string name="order_item_number">Номер на поръчка: %s</string>
-    <string name="order_item_price">%s CNY</string>
     <string name="path_soundrecorder_setting">Системни приложения/Звукозапис</string>
     <string name="pause">Пауза</string>
     <string name="pay_error_cancel">Плащането е отменено</string>
@@ -191,15 +190,12 @@
     <string name="record_format_preference_title">Формат на запис</string>
     <string name="record_list">Списък със звукозаписи</string>
     <string name="record_list_call">Записи на обаждания</string>
-    <string name="record_list_category_title_format">MMMM yyyy</string>
     <string name="record_list_cloud">Записи в облака</string>
     <string name="record_list_cloud_call">Записи на обаждания в облака</string>
     <string name="record_list_cloud_fm">FM записи в облака</string>
     <string name="record_list_fm">FM Записи</string>
     <string name="record_list_item_recognize_text">Текст</string>
     <string name="record_mark_point">%sмарка</string>
-    <string name="record_name_hour">.</string>
-    <string name="record_name_minute" />
     <string name="record_quliaty_preference_title">Качество на записа</string>
     <string name="record_resotre">Възтанови конктакти</string>
     <string name="recording">Записване...</string>
@@ -226,7 +222,9 @@
     <string name="retry">Нов опит</string>
     <string name="runtime_permission_ungranted">Не може да използвате Звукозапис, поради нелегитимни права</string>
     <string name="search_app">Звукозапис</string>
+    <string name="search_empty">Не са открити резултати</string>
     <string name="search_enable_earpiece_title">Използвай слушалката за просвирване на аудио</string>
+    <string name="search_hint">Търсене</string>
     <string name="search_led_indicator">Уведомления на заключен екран</string>
     <string name="search_led_indicator_prompt">Когато се записва, да се покаже в лентата за уведомления с пулсираща светлина от лед-индикатора при заключен екран</string>
     <string name="search_quliaty_title">Качество на звукозапис</string>
@@ -262,9 +260,6 @@
     <string name="text_play_speed_1_0">Стандартна скорост на възпроизвеждане</string>
     <string name="text_play_speed_1_5">скорост на възпроизвеждане 1.5X</string>
     <string name="text_play_speed_2_0">скорост на възпроизвеждане 2X</string>
-    <string name="timer_format" formatted="false">%02d:%02d</string>
-    <string name="timer_format_three_sections" formatted="false">%02d:%02d:%02d</string>
-    <string name="title_activity_recinbox_sdk_browser">RecinboxSdkBrowser</string>
     <string name="toast_max_record_time">App: %1$s максимално време за запис %2$s</string>
     <string name="toast_uninstall_fileexplorer">Файлов мениджър не е инсталиран</string>
     <string name="usage_description">Транскрибиране на аудио и синхронизиране на елементи с облака</string>

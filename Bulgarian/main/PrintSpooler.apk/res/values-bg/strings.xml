@@ -63,7 +63,7 @@
     <string name="print_forget_printer">Забравяне на принтера</string>
     <string name="print_help_label">Помощ</string>
     <string name="print_help_tip">Уверете се, че както телефонът, така и принтерът Ви са свързани към една и съща Wi-Fi мрежа или Wi-Fi Direct е включено. %1$s.</string>
-    <string name="print_help_tip_reg">Вижте Помощ</string>
+    <string name="print_help_tip_reg">Вижте \"Помощ\"</string>
     <string name="print_no_print_services">Няма активирани услуги за отпечатване</string>
     <string name="print_no_printers">Няма намерени принтери</string>
     <string name="print_options_collapsed">Опциите за отпечатване са свити</string>
@@ -85,6 +85,7 @@
     <string name="printer_busy">Принтерът е зает</string>
     <string name="printer_error">Грешка в принтера</string>
     <string name="printer_error_msg">Грешка в принтера: %1$s</string>
+    <string name="printer_extended_description_template">%1$s – %2$s</string>
     <string name="printer_info_desc">Още информация за този принтер</string>
     <string name="printer_notification_error_title">Не може да се принтира %1$s</string>
     <string name="printer_unavailable">Принтерът не е наличен</string>
@@ -103,10 +104,8 @@
     <string name="search_brand">Търсене</string>
     <string name="select_to_add_printers">Изберете, за да добавите принтер</string>
     <string name="start_print">Принтиране</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_template">Обобщена информация: копия – %1$s, размер на хартията – %2$s</string>
     <string name="system_print_service_help">За отпечатването</string>
     <string name="template_all_pages">Всички %1$s</string>
     <string name="template_page_range">Обхват от %1$s</string>
-    <string name="wifi_direct">Wi-Fi Direct</string>
 </resources>

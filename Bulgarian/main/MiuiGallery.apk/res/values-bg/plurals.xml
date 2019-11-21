@@ -68,6 +68,10 @@
         <item quantity="other">Ще се поднови след %d мин</item>
         <item quantity="one">Ще се поднови след %d мин</item>
     </plurals>
+    <plurals name="backup_pause_dialog_message">
+        <item quantity="other">Поставете на пауза синхронизирането на снимки, видео, контакти, бележки и други елементи с облака за %d минути.</item>
+        <item quantity="one">Поставете на пауза синхронизирането на снимки, видео, контакти, бележки и други елементи с облака за %d минута.</item>
+    </plurals>
     <plurals name="backuping_desc_gprs">
         <item quantity="other">%1$d снимки и клипове | %2$s</item>
         <item quantity="one">%1$d снимка или клип| %2$s</item>
@@ -193,36 +197,36 @@
         <item quantity="one">%1$d файл</item>
     </plurals>
     <plurals name="number_of_images_and_videos_to_upload">
-        <item quantity="other">%1$d елемента изчакващи за архивиране</item>
-        <item quantity="one">1 елемент изчакващ за архивиране</item>
+        <item quantity="other">%1$d елементи чакат за синхронизиране</item>
+        <item quantity="one">%1$d елемент чака за синхронизиране</item>
     </plurals>
     <plurals name="number_of_images_synced">
         <item quantity="other">%1$d снимки</item>
         <item quantity="one">1 снимка</item>
     </plurals>
     <plurals name="number_of_images_to_upload">
-        <item quantity="other">%1$d снимки чакат за синхронизация</item>
-        <item quantity="one">1 снимка за качване</item>
+        <item quantity="other">%1$d снимки чакат за синхронизиране</item>
+        <item quantity="one">%1$d снимка чака за синхронизиране</item>
     </plurals>
     <plurals name="number_of_uploading_images">
-        <item quantity="other">Синхр. се %1$d снимки…</item>
-        <item quantity="one">Синхр. се 1 снимка…</item>
+        <item quantity="other">Синхронизиране на %1$d снимки…</item>
+        <item quantity="one">Синхронизиране на %1$d снимка…</item>
     </plurals>
     <plurals name="number_of_uploading_images_and_videos">
-        <item quantity="other">Синхр. се %1$d елементи…</item>
-        <item quantity="one">Синхр. се 1 елемент…</item>
+        <item quantity="other">Синхронизиране на %1$d елементи…</item>
+        <item quantity="one">Синхронизиране на %1$d елемент…</item>
     </plurals>
     <plurals name="number_of_uploading_videos">
-        <item quantity="other">Синхр. се %1$d видеоклипа…</item>
-        <item quantity="one">Синхр. се 1 видеоклип…</item>
+        <item quantity="other">Синхронизиране на %1$d видеа…</item>
+        <item quantity="one">Синхронизиране на %1$d видео…</item>
     </plurals>
     <plurals name="number_of_videos_synced">
         <item quantity="other">%1$d клипа</item>
         <item quantity="one">1 видео</item>
     </plurals>
     <plurals name="number_of_videos_to_upload">
-        <item quantity="other">%1$d видеота чакат за синхронизация</item>
-        <item quantity="one">1 видео за качване</item>
+        <item quantity="other">%1$d видеа чакат за синхронизиране</item>
+        <item quantity="one">%1$d видео чака за синхронизиране</item>
     </plurals>
     <plurals name="photo_count_format">
         <item quantity="other">Общо %1$d елемента</item>
