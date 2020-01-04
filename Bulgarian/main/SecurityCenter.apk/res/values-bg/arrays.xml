@@ -45,6 +45,12 @@
         <item>"Днес: "</item>
         <item>"Този месец: "</item>
     </string-array>
+    <string-array name="key_app_info">
+        <item>източник на инсталиране</item>
+        <item>час на инсталиране</item>
+        <item>източник на актуализиране</item>
+        <item>час на актуализиране</item>
+    </string-array>
     <string-array name="lock_mode">
         <item>При заключено устройство</item>
         <item>След изход от приложението</item>
