@@ -18,6 +18,7 @@
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
     <string name="search_menu_title">Търсене</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="ad_downloading">Изтегляне…</string>
     <string name="app_name">Плъгин за системни услуги</string>
     <string name="app_select_title">Добавяне на често използвани приложения</string>
@@ -35,6 +36,7 @@
     <string name="dialog_market_score_title_step2">Благодарим ви за отзива!</string>
     <string name="dual_app_title">Клонирани приложения</string>
     <string name="dual_app_words">Всеки профил заслужава собствено приложение</string>
+    <string name="empty">" "</string>
     <string name="fastboot_locked_answer_1">Fastboot е традиционен метод за флашване на Mi-устройства. Когато устройството е в този режим, цялата записана до този момент информация се изтрива директно. Ние заключихме Fastboot, за да направим вашата информация сигурна, в случай, че загубите телефона си и за да може да гарантираме коректна работа на услугата Намери устройството.</string>
     <string name="fastboot_locked_answer_2">В случай, че загубите вашето устройство, Fastboot гарантира сигурността на запазената информация. Ако отключите Fastboot, вие няма да можете да заключите вашето устройство дистанционно или да изтриете запазената си информация, използвайки услугата Намери устройството. Ето защо ние не препоръчваме отключването на този режим.</string>
     <string name="fastboot_locked_answer_3">Трябва да използвате инструмента за отключване на сайта на MIUI. За да отключим устройството, ние трябва да сме сигурни, че то е ваша собственост. Ето защо трябва да влезете с вашия Mi профил и да включите услугата Открий устройството.</string>

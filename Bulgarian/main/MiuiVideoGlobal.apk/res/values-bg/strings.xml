@@ -111,6 +111,7 @@
     <string name="cast_forward">Превъртане напред</string>
     <string name="cast_forward_10">Превъртане напред с десет секунди</string>
     <string name="cast_forward_30">Превъртане напред с тридесет секунди</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_mute">Спиране</string>
     <string name="cast_notification_connected_message">Установена е връзка с/ъс „%1$s“</string>
     <string name="cast_notification_connecting_message">Установява се връзка с/ъс „%1$s“</string>
@@ -145,6 +146,27 @@
     <string name="collect_diagnosis_log">Събиране на регистри</string>
     <string name="com_permission_desc">Mi Видео няма достъп до видеоклиповете на вашето устройство. Разрешете достъпа в Настройки.</string>
     <string name="com_permission_title">Необходими са разрешения</string>
+    <string name="comment_model_add_comment">Оставете коментар</string>
+    <string name="comment_model_bg_add_comment">Споделете мислите си с нашата общност</string>
+    <string name="comment_model_bg_deleted_comment">Този коментар бе изтрит.</string>
+    <string name="comment_model_comment">Коментари</string>
+    <string name="comment_model_confirm_delete">Да се изтрие ли коментарът сега?</string>
+    <string name="comment_model_copy">Копирай</string>
+    <string name="comment_model_copy_fail">Копирането е неуспешно.</string>
+    <string name="comment_model_copy_success">Копирането е успешно.</string>
+    <string name="comment_model_delete">Изтрий</string>
+    <string name="comment_model_delete_fail">Изтриването е неуспешно.</string>
+    <string name="comment_model_delete_success">Изтриването е успешно.</string>
+    <string name="comment_model_reply">Отговори</string>
+    <string name="comment_model_reply_comment">"Отговор на %s: "</string>
+    <string name="comment_model_report">Докладвай</string>
+    <string name="comment_model_report_fail">Докладът не може да се изпрати.</string>
+    <string name="comment_model_report_success">Докладът е изпратен успешно.</string>
+    <string name="comment_model_send_fail">Изпращането е неуспешно.</string>
+    <string name="comment_model_send_fail_frequently">Не бързайте толкова! Изчакайте минута-две и опитайте отново.</string>
+    <string name="comment_model_send_forbid_desc">Публикувал(а) сте множество коментари, които нарушават стандартите на нашата общност. Сега профилът Ви е блокиран завинаги. Можете да обжалвате решението ни, като използвате вградената в приложението опция за отзив.</string>
+    <string name="comment_model_send_forbid_tips">Профилът е блокиран</string>
+    <string name="comment_model_send_success">Изпращането е успешно.</string>
     <string name="common_cancel">Отказ</string>
     <string name="common_google_play_services_enable_button">Активиране</string>
     <string name="common_google_play_services_enable_text">%1$s няма да работи, освен ако не активирате услугите за Google Play.</string>
@@ -176,7 +198,7 @@
     <string name="diagnosis_log_sent_format">"Регистрите са изпратени успешно.
 ID:%s
 Изпратете този код на супервизора."</string>
-    <string name="dialog_privacy_info_new2">За да можете да използвате услугите, трябва да дадете съгласието си на %1$s да събира, обработва и използва Вашата лична информация. Когато натиснете бутона \"Приемам\" по-долу, ще се счете, че сте прочели и че приемате нашата &lt;a href=%2$s>политика за поверителност&lt;/a>.</string>
+    <string name="dialog_privacy_info_new2">За да можете да използвате услугите, трябва да дадете съгласието си на %1$s да събира, обработва и използва Вашата лична информация. Когато натиснете бутона \"Приемам\" по-долу, ще се счете, че сте прочели и че приемате нашата &lt;a href=\"%2$s\">политика за поверителност&lt;/a>.</string>
     <string name="dialog_privacy_title">Упълномощаване</string>
     <string name="dialog_revoke_privacy_info_new2">След като анулирате разрешението, приложението ще спре събирането на данни и всички свързани с него данни ще бъдат изтрити от нашите сървъри. Това може да направи приложението практически неизползваемо. Наистина ли искате да отмените разрешението?</string>
     <string name="dialog_revoke_privacy_title">Отмяна на разрешението</string>
@@ -230,6 +252,7 @@ ID:%s
     <string name="favorite_cancel_success">Премахването от \"Любими\" е успешно.</string>
     <string name="favorite_fail">Добавянето към \"Любими\" е неуспешно. Опитайте отново по-късно.</string>
     <string name="favorite_success">Успешно добавен към любими</string>
+    <string name="fcm_fallback_notification_channel_label">Разни</string>
     <string name="feedback">Отзив</string>
     <string name="feedback_activity_title">Доклад за грешки</string>
     <string name="feedback_contact_empty">Въведете вашите данни за контакт</string>
@@ -408,7 +431,7 @@ ID:%s
     <string name="lv_subtitle_onlinesub_loading">Зареждане на субтитри…</string>
     <string name="lv_subtitle_onlinesub_loading_wait">Зареждане на субтитри…</string>
     <string name="lv_subtitle_onlinesub_right_declare">Отказване</string>
-    <string name="lv_subtitle_onlinesub_right_declare_content">Вземете субтитри &lt;br/>&lt;br/>от &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>. &lt;br/>&lt;br/>Всички онлайн субтитри са предоставени от &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>.</string>
+    <string name="lv_subtitle_onlinesub_right_declare_content">Вземете субтитри &lt;br/>&lt;br/>от &lt;a href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>. &lt;br/>&lt;br/>Всички онлайн субтитри са предоставени от &lt;a href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>.</string>
     <string name="lv_subtitle_onlinesub_save_failed">Не може да се добавят субтитри</string>
     <string name="lv_subtitle_onlinesub_save_success">Добавихте субтитрите успешно</string>
     <string name="lv_subtitle_onlinesub_search_keyword">Въведете ключови думи за търсене</string>
@@ -478,8 +501,15 @@ ID:%s
     <string name="no_recommend_data">В момента няма препоръчани видеа</string>
     <string name="no_subscriptions">Няма елементи тук</string>
     <string name="not_show">Не питай отново</string>
+    <string name="notice_comment_action">%s коментира Вашата публикация</string>
+    <string name="notice_comment_action_deleted">Този коментар бе изтрит.</string>
+    <string name="notice_feedback_content">Има отговор на Вашия отзив. Натиснете, за да го видите.</string>
+    <string name="notice_like_action">%s хареса Вашия коментар</string>
+    <string name="notice_message_title">Известия</string>
+    <string name="notice_title">Съобщения</string>
     <string name="notify_apk_installed">Изтеглянето е успешно</string>
     <string name="ok">OК</string>
+    <string name="order_alphabet">А – Я</string>
     <string name="order_recently_subscribe">Скорошни абонаменти</string>
     <string name="order_recently_updated">Обновени наскоро</string>
     <string name="ovp_alert_dialog_download_install_task">Изтегля се HD плъгин…</string>
@@ -487,6 +517,7 @@ ID:%s
     <string name="ovp_category">Категории</string>
     <string name="ovp_confirm_delete_favor">Да се премахнат ли избраните елементи от любими?</string>
     <string name="ovp_default_plugin_name">HD плъгин</string>
+    <string name="ovp_detail_back_to_watch_more">Открийте още елементи на началния екран</string>
     <string name="ovp_detail_collapse_summary">Скриване</string>
     <string name="ovp_detail_collect">Добави в любими</string>
     <string name="ovp_detail_comment">Коментар</string>
@@ -529,12 +560,14 @@ ID:%s
     <string name="ovp_loading_video_netplay_label_v5">Момент…</string>
     <string name="ovp_local_videos_title">Локално видео</string>
     <string name="ovp_navigation_category">Категория</string>
+    <string name="ovp_navigation_content">Сътрудничество за съдържание</string>
     <string name="ovp_navigation_favorites">Предпочитани</string>
     <string name="ovp_navigation_feedback">Доклад за грешки</string>
     <string name="ovp_navigation_history">Хронология</string>
     <string name="ovp_navigation_home">Начало</string>
     <string name="ovp_navigation_language">Език</string>
     <string name="ovp_navigation_localvideo">Локални</string>
+    <string name="ovp_navigation_notice">Известия</string>
     <string name="ovp_navigation_setting">Настройки на звукозаписа</string>
     <string name="ovp_navigation_subscribe">Абонамент</string>
     <string name="ovp_player_plugin_dlg_neg_btn">Изключи</string>
@@ -642,8 +675,8 @@ ID:%s
     <string name="passport_unknow_error">Възникна неизвестна грешка</string>
     <string name="passport_unknow_host_network_error">Проверете мрежовите настройки и опитайте отново</string>
     <string name="passport_unknow_network_error">Възникна мрежова грешка</string>
-    <string name="passport_user_agreement_link">"&lt;Data>Прочетох и приемам's &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Политиката на поверителност&lt;/a> на Xiaomi.&lt;/Data>"</string>
-    <string name="passport_user_agreement_link_more">"&lt;Data>Прочетох и приемам следните документи:'s &lt;a href=%1$s>Потребителско споразумение&lt;/a> и &lt;a href=%4$s>Политика на поверителност&lt;/a>, &lt;a href=%2$s>%3$s&lt;/a> на Xiaomi.&lt;/Data>"</string>
+    <string name="passport_user_agreement_link">"&lt;Data>Прочетох и приемам's &lt;a href=\"%1$s\">Потребителското споразумение&lt;/a> и &lt;a href=\"%2$s\">Политиката на поверителност&lt;/a> на Xiaomi.&lt;/Data>"</string>
+    <string name="passport_user_agreement_link_more">"&lt;Data>Прочетох и приемам следните документи:'s &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%4$s\">Политика на поверителност&lt;/a>, &lt;a href=\"%2$s\">\"%3$s\"&lt;/a> на Xiaomi.&lt;/Data>"</string>
     <string name="passport_user_id_intro">Въведете парола за %1$s</string>
     <string name="passport_v_code_error">Кодът за потвърждение е невалиден</string>
     <string name="passport_vcode_notification_title">Потвърждаването на вписването Ви не е завършила</string>
@@ -680,6 +713,7 @@ ID:%s
     <string name="playlist_title">Плейлиста</string>
     <string name="plus_add_shortcut">Създаване пряк път на Начален екран</string>
     <string name="plus_change_poster">Смяна на корицата на албума</string>
+    <string name="plus_continue_watching">Продължавайте да гледате</string>
     <string name="plus_deleting_wait">Изтрива се...</string>
     <string name="plus_fallback">Доклад за грешки</string>
     <string name="plus_gallery_allvideos">Всички видеота</string>
@@ -698,6 +732,12 @@ ID:%s
     <string name="plus_gallery_video_title_mediatype">Видео категории</string>
     <string name="plus_gallery_video_title_othergallery">Други видео клипове</string>
     <string name="plus_loading_text">Зареждане на елементи…</string>
+    <string name="plus_menu_delete">Изтриване</string>
+    <string name="plus_menu_delete_popup_text">Изтриване сега?</string>
+    <string name="plus_menu_properties">Свойства</string>
+    <string name="plus_menu_rename">Преименуване</string>
+    <string name="plus_menu_rename_fail">Името на файла не може да съдържа \"/\"</string>
+    <string name="plus_menu_share">Споделяне</string>
     <string name="plus_mine_gallery">Моите албуми</string>
     <string name="plus_mine_videos">Моите видеоклипове</string>
     <string name="plus_player_8k_video_not_support">На вашето устройство не може да се възпроизведе 8K видео</string>
@@ -736,7 +776,8 @@ ID:%s
     <string name="plus_player_subtitle_local_add_success">Добавихте субтитрите успешно</string>
     <string name="plus_player_subtitle_no_file">Тук няма файлове със субтитри.</string>
     <string name="plus_player_subtitle_online">Субтитри онлайн</string>
-    <string name="plus_player_subtitle_online_declare_content">Вие ще търсите &lt;br/> субтитри в базата данни на &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>. &lt;br/>Всички субтитри са предоставени от &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>.</string>
+    <string name="plus_player_subtitle_online_declare_content">"Вие ще търсите &lt;br/> субтитри в базата данни на &lt;a
+href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>. &lt;br/>Всички субтитри са предоставени от &lt;a href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>."</string>
     <string name="plus_player_subtitle_online_declare_title">Отказване</string>
     <string name="plus_player_subtitle_online_download_fail">Субтитрите не могат да бъдат изтеглени</string>
     <string name="plus_player_subtitle_online_download_start">Изтегляне на субтитри…</string>
@@ -748,6 +789,31 @@ ID:%s
     <string name="plus_player_unhide">Покажи</string>
     <string name="plus_player_video_not_support">Този видео формат не се поддържа.</string>
     <string name="plus_poster_reset_default">Възстанови корицата по подразбиране</string>
+    <string name="plus_properties_bit_rate">Скорост на предаване</string>
+    <string name="plus_properties_codec">Кодек</string>
+    <string name="plus_properties_date">Дата</string>
+    <string name="plus_properties_file">Файл</string>
+    <string name="plus_properties_file_name">Име на файла</string>
+    <string name="plus_properties_finished">Завършено</string>
+    <string name="plus_properties_format">Формат</string>
+    <string name="plus_properties_frame_rate">Скорост на кадрите</string>
+    <string name="plus_properties_last_playback_position">Последна позиция</string>
+    <string name="plus_properties_last_playback_time">Последно пускани</string>
+    <string name="plus_properties_length">Продължителност</string>
+    <string name="plus_properties_media">Медия</string>
+    <string name="plus_properties_path">Местоположение</string>
+    <string name="plus_properties_playback_history">Хронология на възпроизвеждането</string>
+    <string name="plus_properties_resolution">Резолюция</string>
+    <string name="plus_properties_sample_rate">Честота на отчитане</string>
+    <string name="plus_properties_size">Размер</string>
+    <string name="plus_properties_status">Статус</string>
+    <string name="plus_properties_stream">Стрийм</string>
+    <string name="plus_properties_stream_title">Заглавие</string>
+    <string name="plus_properties_type">Тип</string>
+    <string name="plus_properties_type_audio">Аудио</string>
+    <string name="plus_properties_type_subtitle">Субтитри</string>
+    <string name="plus_properties_type_video">Видео</string>
+    <string name="plus_properties_unfinish">Не е завършено</string>
     <string name="plus_search_barhint">Търсене на видеоклипове на устройството</string>
     <string name="plus_search_guide">Търсене на видеоклипове</string>
     <string name="plus_search_result_empty">Няма резултати</string>
@@ -787,6 +853,11 @@ ID:%s
     <string name="reload_sub_title">Чукнете за да опитате отново.</string>
     <string name="reload_title">Не можах да се свържа с мрежа.</string>
     <string name="report">Рестартиране</string>
+    <string name="report_content_fakement">спам или измама</string>
+    <string name="report_content_illegal">незаконни твърдения</string>
+    <string name="report_content_other">друго</string>
+    <string name="report_content_sexy">неприкрито сексуално съдържание</string>
+    <string name="report_content_violence">реч на омразата</string>
     <string name="report_fail">Изпращането на доклад е неуспешно. Опитайте отново.</string>
     <string name="report_success">Докладът е изпратен успешно.</string>
     <string name="resend_active_email">Повторно изпращане</string>
@@ -839,6 +910,7 @@ ID:%s
     <string name="sns_bind_limit">Твърде много опити. Опитайте други начини за вписване.</string>
     <string name="sns_sign_in">Други начини за вписване</string>
     <string name="source">"Източник: "</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">Карта с памет</string>
     <string name="storage_internal_sdcard">Вътрешна памет</string>
     <string name="submit">Изпратено</string>

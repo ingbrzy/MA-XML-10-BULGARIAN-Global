@@ -52,6 +52,17 @@
         <item>25 минути</item>
         <item>30 минути</item>
     </string-array>
+    <string-array name="bedtime_guide_repeat_type">
+        <item>От понеделник до петък</item>
+        <item>Всеки ден</item>
+        <item>Работни дни</item>
+    </string-array>
+    <string-array name="bedtime_repeat_entries">
+        <item>Всеки ден</item>
+        <item>От понеделник до петък</item>
+        <item>Работни дни</item>
+        <item>По избор</item>
+    </string-array>
     <string-array name="cities_names_miui">
         <item>Абиджан</item>
         <item>Акра</item>
@@ -633,6 +644,22 @@
         <item>Суринам</item>
         <item>Еквадор</item>
     </string-array>
+    <string-array name="days_of_week">
+        <item>Нед</item>
+        <item>Пон</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пет</item>
+        <item>Сб</item>
+    </string-array>
+    <string-array name="notification_adv_time_entries">
+        <item>В зададеното време</item>
+        <item>15 минути предварително</item>
+        <item>30 минути предварително</item>
+        <item>1 час предварително</item>
+        <item>Без</item>
+    </string-array>
     <string-array name="snooze_duration_entries">
         <item>1 минута</item>
         <item>5 минути</item>
@@ -641,6 +668,15 @@
         <item>20 минути</item>
         <item>25 минути</item>
         <item>30 минути</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
     </string-array>
     <string-array name="time">
         <item>%1$s</item>
@@ -664,5 +700,10 @@
         <item>Няма</item>
         <item>Отлагане</item>
         <item>Изключване</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
 </resources>

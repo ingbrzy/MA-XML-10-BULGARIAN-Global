@@ -25,10 +25,13 @@
     <string name="notification_fold_summary">Всички маловажни известия ще бъдат показвани в отделна папка</string>
     <string name="notification_fold_title">Папка с известия</string>
     <string name="notification_manager">Известия за приложението</string>
+    <string name="notification_style_android">Android</string>
+    <string name="notification_style_miui">MIUI</string>
     <string name="off">Изключване</string>
     <string name="on">Включване</string>
     <string name="settings_guide_title">Искате още настройки?</string>
     <string name="show_badge_notifications">Уведомителни значки</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Статус лента</string>
     <string name="summary_disable_float_notification">Плаващите уведомления не са разрешени</string>
     <string name="summary_disable_lockscreen_notification">Уведомленията за заключен екран не са позволени</string>

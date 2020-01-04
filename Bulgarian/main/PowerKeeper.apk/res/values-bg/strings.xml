@@ -31,6 +31,7 @@
     <string name="config_scenario_policies_title">Ситуации</string>
     <string name="config_suggest_description">Използване на различни настройки за икономия за всяко приложение</string>
     <string name="config_suggest_suffix_title">Икономия на батерия (препоръчва се)</string>
+    <string name="confirm">OK</string>
     <string name="current_cloud_addr_is">Адресът на контролиращия Облака сървър е:</string>
     <string name="empty_title_apps_container_list">Няма приложения</string>
     <string name="enable_sleep_mode">Включете режим Сън за да оптимизирате употребата на батерия през нощта</string>
@@ -90,6 +91,7 @@
     <string name="scenario_policies_summary">Прилагане на различни стратегии за спестяване на енергия за различни ситуации.</string>
     <string name="scenario_policies_title">Интелигентни ситуации</string>
     <string name="scenario_policies_warmcontrol">Контрол на температурата</string>
+    <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
     <string name="search_result_text">Не може да се открият приложения</string>
     <string name="show_system_app">Покажи системните приложения</string>
     <string name="sleep_config_enhance_description">Когато MIUI регистрира, че устройството е заспало, ще затвори приложенията на заден план, ще ограничи NFC, Bluetooth, GPS, мобилните данни и употребата на Wi-Fi и няма да светва екрана за известия.</string>

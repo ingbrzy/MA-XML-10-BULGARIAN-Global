@@ -61,6 +61,13 @@
     <string name="call_anyone">Повикване</string>
     <string name="camera_error_title">Грешка в камерата</string>
     <string name="cancel">Отказ</string>
+    <string name="carsHome_title">Автомобил</string>
+    <string name="cars_is_public">Стартирано</string>
+    <string name="cars_no_public">Не е стартирано</string>
+    <string name="cars_solution">"Решение: "</string>
+    <string name="cars_suitability">"Съвпадение: "</string>
+    <string name="cars_title">Сканирайте автомобил или автомобилна част</string>
+    <string name="carshome_data">Техническата поддръжка е предоставена от Autohome Inc.</string>
     <string name="check_for_updates">Проверете за Бета обновления</string>
     <string name="choose_open_code_app">Изберете приложение</string>
     <string name="choose_pay_title">Изберете метод на плащане</string>
@@ -78,6 +85,7 @@
     <string name="continue_waiting">Продължи да изчакваш</string>
     <string name="copy_text">Копиране текст</string>
     <string name="copy_text_success">Текстът копиран</string>
+    <string name="copy_tracknum">Копирайте кода за проследяване</string>
     <string name="crop_cancel_description">Отказ</string>
     <string name="crop_done_description">Готово</string>
     <string name="crop_title_study">Изрежете снимката</string>
@@ -137,10 +145,12 @@
     <string name="got_it">Разбрах</string>
     <string name="gps">Придвижване</string>
     <string name="import_contact">Вмъкване на контакт</string>
-    <string name="impunity_declaration_content">\"Скенер\" има нужда да ползва камерата и да обработва снимките, които правите, докато използвате приложението. Не използвайте \"Скенер\" за снимане на неща, които разкриват Ваша лична информация. С натискането на \"Приемам\" Вие се съгласявате с нашата &lt;font color=\"#ff32b4ff\">&lt;a href=\"http://privacy.mi.com/all/%1$s\" style=\"color:#ff32b4ff;\">политика за поверителност&lt;/a>&lt;/font> и разрешавате на \"Скенер\" да осъществява връзка с интернет.</string>
+    <string name="impunity_declaration_content">\"Скенер\" се нуждае от използване на камерата Ви обработване на снимките, които правите, докато използвате приложението. Не използвайте \"Скенер\" за снимане на неща, които разкриват Ваша лична информация. С натискането на \"Приемам\" Вие се съгласявате с нашата &lt;font color=\"#ff32b4ff\">&lt;a href=\"%1$s\" style=\"color:#ff32b4ff;\">Политика за поверителност&lt;/a>&lt;/font> и разрешавате на \"Скенер\" да осъществява връзка с интернет.</string>
     <string name="impunity_declaration_negative_text">Изход</string>
     <string name="impunity_declaration_title">Правила за поверителност</string>
     <string name="jd_shopping_title">Търсене в JD</string>
+    <string name="jingdong">JD</string>
+    <string name="kuaidi100_data">Благодарение на Kuaidi 100</string>
     <string name="label_choose_picture">Изберете изображение</string>
     <string name="label_flash_light">фенерче</string>
     <string name="language_entry_chinese_cn">Опростен Китайски</string>
@@ -150,6 +160,7 @@
     <string name="language_entry_japanese">Японски</string>
     <string name="language_entry_korean">Корейски</string>
     <string name="language_entry_spanish">Испански</string>
+    <string name="logistics">Експресна доставка</string>
     <string name="low_version_tip">Актуализирайте MIUI до последната версия, за да можете да използвате Скенер.</string>
     <string name="miracast_connect">Проекция</string>
     <string name="miracast_connect_fail">Неуспешно излъчване, опитайте отново</string>
@@ -158,6 +169,7 @@
     <string name="miracast_message">Проекция към %s?</string>
     <string name="miracast_switch_off">Безжичният дисплей е изключен</string>
     <string name="miracast_switch_tip">Включете Безжичния дисплей за да използвате тази услуга</string>
+    <string name="mishop">Mi Магазин</string>
     <string name="module_title_business_card">Визитна картичка</string>
     <string name="module_title_code">QR код</string>
     <string name="module_title_document">Документ</string>
@@ -176,6 +188,7 @@
     <string name="not_insert_contact">Не може да се вмъкне контакт</string>
     <string name="not_recommend_access_web_url">Продължаване въпреки това</string>
     <string name="note">Бележка:</string>
+    <string name="now_state">"Текущо състояние: "</string>
     <string name="once">Само веднъж</string>
     <string name="open_url">Отвори URL</string>
     <string name="pay_no_tip">Не показвай отново</string>
@@ -188,10 +201,16 @@
     <string name="plant_reg_fail_2">Обектът не може да бъде разпознат. Скенерът може да идентифицира само растения.</string>
     <string name="plant_support">" (Техническа поддръжка)"</string>
     <string name="plant_title">Сканирайте растението, което искате да идентифицирате</string>
+    <string name="please_try_again_later">Изчакайте малко и опитайте отново</string>
     <string name="preparing_sd">Подготовка на карта с памет…</string>
     <string name="previous">Обратно</string>
     <string name="prompt">Внимание</string>
     <string name="qr_code_details">Детайли за QR код:</string>
+    <string name="queryNum">Проверете поръчка</string>
+    <string name="query_faile">Състоянието и детайлите по поръчката още не са синхронизирани. Проверете поръчката си ръчно.</string>
+    <string name="query_inai">Нека Mi AI Ви помогне</string>
+    <string name="query_more">Повече информация</string>
+    <string name="query_tracknum">Проверете поръчката за експресна доставка</string>
     <string name="recognize">Сканиране</string>
     <string name="recognize_fail">Не може да се разпознае кода</string>
     <string name="request_server_failed">Неуспешно свързване със сървъра</string>
@@ -200,6 +219,7 @@
     <string name="sdk_not_ready">SDK се подготвя. Опитайте по-късно.</string>
     <string name="secure_access_web_url">Отидете на уеб страница</string>
     <string name="see_app_details">Вижте подробности за прилож.</string>
+    <string name="see_details">Натиснете за подробен преглед</string>
     <string name="select_dialog_confirm">OК</string>
     <string name="send_mail">Изпрати имейл</string>
     <string name="setting_alipay">AliPay</string>
@@ -210,10 +230,17 @@
     <string name="setting_title">Настройки</string>
     <string name="setting_use_last_choose">Запомни предишния избор</string>
     <string name="setting_wechat">WeChat</string>
-    <string name="shopping_searching">Сканиране за продукти…</string>
+    <string name="shopping_searching">Търсене…</string>
     <string name="shopping_title">Направете снимка на продукта</string>
     <string name="shopping_vendor_info">Техническа поддръжка от Taobao</string>
     <string name="spaceIsLow_content">Няма достатъчно място в картата памет. Освободете място.</string>
+    <string name="store_feedback_prompt">Първо въведете отзива си</string>
+    <string name="store_location_dialog">Тази услуга се предоставя от Dianping. Всички снимки, които направите, докато използвате услугата, включително цялата свързана с това информация за местоположението, ще бъде споделена с Dianping, за да може да открие информацията за магазините.</string>
+    <string name="store_location_fail">Не може да се получи информация за местоположението</string>
+    <string name="store_location_prompt">Позволете на Скенер достъп до Вашето местоположение, за да може да открива магазини</string>
+    <string name="store_module_title">Магазин</string>
+    <string name="store_no_date">Магазинът не може да бъде идентифициран</string>
+    <string name="store_title">Сканиране на знака на магазина</string>
     <string name="study_rotate_picture">Обработване на изображение…</string>
     <string name="study_scan_result">Резултат</string>
     <string name="study_searching">Търсене на резултати…</string>
@@ -221,6 +248,7 @@
     <string name="study_vendor_info">Със съдействието на Zuoyebang</string>
     <string name="suggested_submission_success">Отзивът Ви е изпратен успешно.</string>
     <string name="switch_open">Включи</string>
+    <string name="taobao">Taobao</string>
     <string name="tel">Телефон</string>
     <string name="title">Заглавие:</string>
     <string name="to_install_title">Този QR Ви пренасочва към неинсталирано приложение. Изтегляне на това приложение сега?</string>
@@ -261,6 +289,7 @@
     <string name="url_is_unknown">Не може да се провери дали е сигурна уеб страницата</string>
     <string name="url_is_unsafety">Тази уеб страница не е сигурна</string>
     <string name="vender_info_translation_kingsoft">Техническа поддръжка от Kingsoft</string>
+    <string name="waybill_num">"Поръчка: "</string>
     <string name="web">Уеб страница:</string>
     <string name="website_details">Уеб страница:</string>
     <string name="weixin_code_tip">Сканирайте този QR код, използвайки WeChat</string>
@@ -274,6 +303,8 @@
     <string name="wifi_ssid">SSID:</string>
     <string name="will_be_sent_tothe_background_review">" (Скоро заявката Ви ще бъде изпратена за разглеждане.)"</string>
     <string name="wx_not_installed_toast">За тази функционалност е необходим WeChat. Първо инсталирайте WeChat.</string>
+    <string name="xiaoai_dialog">"Опитайте се да изговорите това, което
+искате да сканирате към Mi AI"</string>
     <string name="you_have_permission_to_download">Натиснете за изтегляне на Бета версия</string>
     <string name="you_id">"Вашето ID: "</string>
     <string name="your_application_is_under_review">" (Заявката Ви се разглежда.)"</string>

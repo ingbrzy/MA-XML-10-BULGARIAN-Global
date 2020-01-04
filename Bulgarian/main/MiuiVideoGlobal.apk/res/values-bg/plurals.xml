@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="comment_model_watch_reply">
+        <item quantity="other">Вижте %d отговора</item>
+        <item quantity="one">Вижте %d отговор</item>
+    </plurals>
     <plurals name="feed_back_home">
         <item quantity="other">Връщане към началната страница след %1$d секунди…</item>
         <item quantity="one">Връщане към началната страница след %1$d секунда…</item>
@@ -19,6 +23,10 @@
     <plurals name="lv_video_count">
         <item quantity="other">%d видеоклип</item>
         <item quantity="one">%d клип</item>
+    </plurals>
+    <plurals name="notice_user_banned">
+        <item quantity="other">Вашето съдържание съдържа неща (%1$s), които нарушават стандартите на нашата общност. Профилът Ви е деактивиран за %2$d дни – до %3$s.</item>
+        <item quantity="one">Вашето съдържание съдържа неща (%1$s), които нарушават стандартите на нашата общност. Профилът Ви е деактивиран за %2$d ден – до %3$s.</item>
     </plurals>
     <plurals name="ovp_detail_v_video_count">
         <item quantity="other">%d видеоклип</item>

@@ -17,6 +17,9 @@
     <string name="cannot_change_parames">Не може да променяте параметрите, докато правите запис</string>
     <string name="cannot_record">Не може да се запише, моля опитайте по-късно.</string>
     <string name="close_screen_record">Спрян запис</string>
+    <string name="date_day" />
+    <string name="date_month">/</string>
+    <string name="date_year">/</string>
     <string name="description_content">Приложението дава възможност да записвате екрана на системно ниво. Няма да може да използвате Запис на екрана, ако продължите. Моля, потвърдете, преди да продължите.</string>
     <string name="description_title">Относно Запис на екрана</string>
     <string name="deselect_all">Отмаркирай всичко</string>
@@ -74,6 +77,10 @@
     <string name="show_hard_key_summary">Покажи запитване, преди натискане на бутоните Начало, Меню и Назад</string>
     <string name="show_screen_touch">Покажи жестове на докосване</string>
     <string name="show_screen_touch_summary">Визуализация на жестове с използването на бяла точка</string>
+    <string name="size_byte">B</string>
+    <string name="size_gigabyte">GB</string>
+    <string name="size_kilobyte">KB</string>
+    <string name="size_megabyte">MB</string>
     <string name="sound_source">Източник на звук</string>
     <string name="sound_source_summary">Системни звуци или микрофон</string>
     <string name="sound_source_summary_without_system_sounds">Използвайте микрофона или заглушете звука</string>
@@ -85,6 +92,7 @@
     <string name="stop_recording">Спри записа</string>
     <string name="storage_location">Хранилище</string>
     <string name="storage_location_summary">Изберете вашите предпочитани опции за хранилище</string>
+    <string name="timer_format">%s</string>
     <string name="unchecked">Не е избрано</string>
     <string name="using_record_confirm_cancel">Ограничи</string>
     <string name="using_record_confirm_ok">Разреши</string>

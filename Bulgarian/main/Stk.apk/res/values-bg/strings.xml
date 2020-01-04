@@ -24,6 +24,7 @@
     <string name="sim_type_sim_name">Инструменти на SIM</string>
     <string name="sim_type_uim_name">Инструменти на UIM</string>
     <string name="sim_type_usim_name">Инструменти на USIM</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stk_app_state">Тип на приложението</string>
     <string name="stk_channel_name">Съобщения за мобилни услуги</string>
     <string name="stk_dialog_accept">Да</string>

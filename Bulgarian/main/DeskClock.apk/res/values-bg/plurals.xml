@@ -32,6 +32,22 @@
         <item quantity="other">%d секунди</item>
         <item quantity="one">%d секунда</item>
     </plurals>
+    <plurals name="sleep_duration_hour">
+        <item quantity="other">%1$s часа</item>
+        <item quantity="one">%1$s час</item>
+    </plurals>
+    <plurals name="sleep_duration_hour_avg">
+        <item quantity="other">%1$s ч</item>
+        <item quantity="one">%1$s ч</item>
+    </plurals>
+    <plurals name="sleep_duration_min">
+        <item quantity="other">%1$s минути</item>
+        <item quantity="one">%1$s минута</item>
+    </plurals>
+    <plurals name="sleep_duration_min_avg">
+        <item quantity="other">%1$s мин</item>
+        <item quantity="one">%1$s мин</item>
+    </plurals>
     <plurals name="snooze_duration_changed_info">
         <item quantity="other">Повторението на алармата е променено на %d минути</item>
         <item quantity="one">Повторението на алармата е променено на %d минута</item>

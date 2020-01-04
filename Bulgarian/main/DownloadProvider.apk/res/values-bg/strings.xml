@@ -41,4 +41,5 @@
     <string name="download_queued">Чакащи</string>
     <string name="download_running">Изтегля се</string>
     <string name="download_error">Неуспешно изтегляне</string>
+    <string name="download_running_percent">Изтегля се %s</string>
 </resources>
