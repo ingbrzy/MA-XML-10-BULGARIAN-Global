@@ -480,7 +480,6 @@
     <string name="passport_wrong_phone_number_format">Въведеният телефонен номер е с невалиден формат</string>
     <string name="passport_wrong_vcode">Кодът, който сте въвели е грешен</string>
     <string name="pic_not_exist">Това изобр. не съществува</string>
-    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="plus_one_submit_dialog_content">Избраният от вас отзив, заедно с логовете с грешки, ще бъде изпратен до сървърите на Mi.</string>
     <string name="plus_one_submit_dialog_not_show_again">Запомни настройката</string>
     <string name="post_miui_bbs_failed">Неуспешно публикуване във форума</string>
