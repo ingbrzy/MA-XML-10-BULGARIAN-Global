@@ -600,11 +600,8 @@
     <string name="weight_prompt">Тегло</string>
     <string name="wf_word_figure">Валута</string>
     <string name="word_figure_guide_text">Натиснете и задръжте текста, за да разгледате примерите.</string>
-    <string name="xiaomi_bytes_unit">%1$sБ</string>
     <string name="xiaomi_connect_download_manager_fail">Няма връзка с Изтегляния. Проверете дали това приложение има всички необходими разрешения и настройки > Инсталирани приложения.</string>
     <string name="xiaomi_external_storage_unavailable">Паметта не е достъпна. Проверете вашата SD карта.</string>
-    <string name="xiaomi_kilobytes_unit">%1$sКБ</string>
-    <string name="xiaomi_megabytes_unit">%1$sМБ</string>
     <string name="xiaomi_update_dialog_message">"Представяне на версия%1$s
 Размер:%2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Представяне на версия%1$s
