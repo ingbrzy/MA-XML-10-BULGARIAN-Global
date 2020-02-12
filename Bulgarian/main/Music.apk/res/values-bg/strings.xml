@@ -54,6 +54,7 @@
     <string name="action_item_hifi">Слушалки и аудио ефекти</string>
     <string name="action_item_play_all">Разбъркване на всички</string>
     <string name="action_item_play_next">Възпроизв. по-късно</string>
+    <string name="action_item_play_video">Пусни музикално видео</string>
     <string name="action_item_remove">Премахване</string>
     <string name="action_item_remove_from_favorite">Премахни от любими</string>
     <string name="action_item_share">Споделяне</string>
@@ -111,6 +112,7 @@
     <string name="artist_name">Изпълнител</string>
     <string name="audio_picker_title">Изберете песен</string>
     <string name="auto_recommend">Автоматично (препоръчително)</string>
+    <string name="auto_sound_quality">Auto</string>
     <string name="auto_update">Автоматично актуализиране</string>
     <string name="auto_update_tip">Можете да актуализирате системните приложения, като използвате мобилни данни. Това може да генерира допълнителни такси за данни.</string>
     <string name="available_playlist_name_format">Нов плейлист %d</string>
@@ -128,11 +130,13 @@
     <string name="button_wait_for_wifi">Изчакайте</string>
     <string name="cancel">Отказ</string>
     <string name="cancel_running_download">Отмени</string>
+    <string name="cannot_download_to_sdcard_hint">Не могат да се изтеглят елементи на SD карта поради ограничения от авторско право. Вместо това елементите ще бъдат изтеглени на вътрешната памет.</string>
     <string name="change_download_quality">Променете качеството на изтегляне</string>
     <string name="checking_new_version">Проверява се за актуализации…</string>
     <string name="choose_download_quality">Изберете качество на изтегляне</string>
     <string name="choose_music_lang_pref">Предпочитани езици за песни</string>
     <string name="choose_stream_quality">Изберете качество на стрийма</string>
+    <string name="click_and_watch_video_tip">Натисни за пускане на музикално видео</string>
     <string name="click_to_add_album_cover_and_lyric">Натиснете, за да добавите обложка на албума и текстове на песните.</string>
     <string name="click_to_shuffle">Докоснете, за да разбъркате всички</string>
     <string name="close_music_time">"Минути: "</string>
@@ -161,6 +165,7 @@
     <string name="connecting_apk">Свързване…</string>
     <string name="create_playlist">Създаване на плейлист</string>
     <string name="create_playlist_failure">Не може да се създаде плейлист</string>
+    <string name="create_playlist_input_hint">Въведете име на плейлиста</string>
     <string name="current_album">Текуща обложка на албум</string>
     <string name="current_lyric">Текущи текстове</string>
     <string name="current_version">Текуща версия</string>
@@ -265,7 +270,9 @@
     <string name="download_method">Изтегляне</string>
     <string name="download_no_application_title">Файлът не може да се отвори</string>
     <string name="download_paused_in_power_save_mode">Изтеглянето е спряно когато Икономия на батерията е включено</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Изтегля се…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Качество при изтегляне</string>
     <string name="download_quality_summary">Допълнителни настройки на песните, които сте изтеглили</string>
     <string name="download_queued">Чакащи</string>
@@ -346,7 +353,9 @@
     <string name="exo_download_notification_channel_name">Изтегляния</string>
     <string name="exo_download_removing">Изтеглянията се премахват</string>
     <string name="exo_item_list">%1$s – %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Автоматично</string>
     <string name="exo_track_selection_none">Нищо</string>
     <string name="exo_track_selection_title_audio">Аудиозапис</string>
@@ -374,6 +383,7 @@
     <string name="fcm_fallback_notification_channel_label">Разни</string>
     <string name="feed_back">Отзив</string>
     <string name="file_not_found">Файлът не съществува</string>
+    <string name="filter_by_MP4">Покажи папки с MP4 файлове</string>
     <string name="filter_by_duration">Филтриране по продължителност</string>
     <string name="filter_by_duration_max">%d мин</string>
     <string name="filter_by_duration_min">%d сек</string>
@@ -415,6 +425,7 @@
     <string name="home_tab_local">Моята музика</string>
     <string name="home_tab_more_music">Още музика</string>
     <string name="home_tab_online">Онлайн музика</string>
+    <string name="home_tab_recommend">Онлайн</string>
     <string name="home_tab_search">Търсене</string>
     <string name="hot_icon_in_fast_indexer">H</string>
     <string name="hungama_batch_download_alert_summary">Само PRO потребители могат да теглят няколко песни. Вземете PRO членство сега?</string>
@@ -598,6 +609,7 @@
     <string name="online_apk_install_in_background">Зареждане на онлайн съдържание във фонов режим…</string>
     <string name="online_apk_install_network_change_paused">Вие използвате мобилни данни. Засега зареждането на елементи е на пауза. Натиснете %s за преглед.</string>
     <string name="online_apk_install_network_error">Неуспешно свързване с мрежата. Проверете настройките на мрежата и опитайте отново.</string>
+    <string name="online_apk_install_tips">Трябва да изтеглите приставката от този доставчик на съдържание веднъж. Следващият път ще можете да осъществявате достъп до песни директно.</string>
     <string name="online_list_delete_message">Всички изтеглени песни от този списък ще бъдат изтрити от устройството.</string>
     <string name="online_playlist_category">Плейлисти</string>
     <string name="online_recommend">Плейлиста</string>
@@ -660,6 +672,7 @@
     <string name="priority_storage_summary">При поставена SD карта, автоматично записване на файловете на SD картата</string>
     <string name="privacy_desc">Политика за поверителност (задължително)</string>
     <string name="privacy_policy">Политика за поверителност</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=bg_BG</string>
     <string name="pro_member">PRO член</string>
     <string name="project_device">Mi Телефон</string>
     <string name="prompt_grant_write_settings_permission">Позволи промяна на системните настройки</string>
@@ -737,6 +750,8 @@
     <string name="service_and_settings">Обслужване и настройки</string>
     <string name="set_as_alarm_clock_ringtone">Будилник</string>
     <string name="set_as_ring">Задай като мелодия</string>
+    <string name="set_online_home_subtitle">Отваряй онлайн препоръките, когато приложението се стартира</string>
+    <string name="set_online_home_title">Показвай онлайн препоръки при стартиране</string>
     <string name="set_ringtones_failed">Неуспешно задаване като мелодия.</string>
     <string name="set_ringtones_successful">%s е зададена като мелодия на звънене.</string>
     <string name="setting_feature_setting">Настройки за услуги</string>
@@ -785,6 +800,7 @@
     <string name="start_to_check_new_version">Проверява се за актуализации…</string>
     <string name="start_to_download">Старирайте изтегляне…</string>
     <string name="start_to_play">Пусни</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Хранилище за клонирани приложения</string>
     <string name="storage_internal">Вътрешна памет</string>
     <string name="storage_sd_card">SD карта</string>
@@ -861,6 +877,7 @@
     <string name="upgrade_music_message">Обновяването приключи. Рестартирайте програмата.</string>
     <string name="upgrading_in_backstage">Актуализиране във фонов режим…</string>
     <string name="user_agreement">Потребителско споразумение</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=bg_BG</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
     <string name="version_info">Версия</string>
@@ -877,4 +894,5 @@
     <string name="wifi_required_title">Изтеглянето е прекалено дълго за използване на мобилни данни.</string>
     <string name="you_can_switch_mode_in_settings">Можете да превключвате между режими от Настройки</string>
     <string name="you_may_like">Може да харесате и</string>
+    <string name="youtube_play_history">Хронология на клиповете</string>
 </resources>

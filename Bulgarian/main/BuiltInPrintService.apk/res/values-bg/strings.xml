@@ -22,6 +22,7 @@
     <string name="media_size_5x7in">5 x 7 инча</string>
     <string name="media_size_89x119mm">89 x 119 мм</string>
     <string name="media_size_8x10in">8 x 10 инча</string>
+    <string name="media_size_l">Голям</string>
     <string name="no_printer_found">На този адрес не е намерен принтер</string>
     <string name="not_encrypted_request">Този принтер вече не приема криптирани заявки. Да продължи ли принтирането?</string>
     <string name="printer_bad_certificate">Невалиден сертификат</string>
@@ -44,7 +45,6 @@
     <string name="title_activity_add_printer">Добавяне на принтер</string>
     <string name="unreadable_input">Документът не може да се прочете</string>
     <string name="waiting_to_send">Изчакване за изпращане</string>
-    <string name="wifi_direct">Wi-Fi Direct</string>
     <string name="wifi_direct_permission_rationale">За да намира близкостоящи устройства, стандартната услуга за принтиране се нуждае от разрешение за достъп до местоположението.</string>
     <string name="wifi_direct_printers">Свързани чрез Wi-Fi Direct принтери</string>
     <string name="wifi_direct_printing">Отпечатване чрез Wi-Fi Direct</string>

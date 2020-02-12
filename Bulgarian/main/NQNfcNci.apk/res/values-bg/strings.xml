@@ -2,7 +2,6 @@
 <resources>
     <string name="accessibility_nfc_enabled">КБП е активирана.</string>
     <string name="android_beam">Android Лъч</string>
-    <string name="app_name">Nfc Service</string>
     <string name="ask_nfc_tap">Докоснете друго устройство, за да завършите</string>
     <string name="beam_busy">Понастоящем Android Лъч работи. Опитайте отново, когато предишното прехвърляне завърши.</string>
     <string name="beam_canceled">Излъчването бе анулирано</string>
@@ -34,7 +33,6 @@
     <string name="pairing_peripheral_failed">Неуспешно сдвояване с/ъс %1$s</string>
     <string name="pay_with">Плащане със:</string>
     <string name="prompt_connect_to_network">Да се установи ли връзка с мрежата „%1$s“?</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_unable_to_connect">Не може да се установи връзка с мрежата</string>
     <string name="status_wifi_connected">Установена е връзка</string>
     <string name="tap_again_to_complete">Докоснете отново за извършване със: %1$s</string>

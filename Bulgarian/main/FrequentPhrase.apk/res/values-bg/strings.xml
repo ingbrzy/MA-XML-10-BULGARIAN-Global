@@ -9,6 +9,5 @@
     <string name="menu_add_frequent_phrases">Добави</string>
     <string name="menu_delete">Изтрий</string>
     <string name="menu_edit">Редактирай</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sync_phrase_label">Чести фрази</string>
 </resources>

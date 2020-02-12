@@ -111,6 +111,7 @@
     <string name="cast_forward">Превъртане напред</string>
     <string name="cast_forward_10">Превъртане напред с десет секунди</string>
     <string name="cast_forward_30">Превъртане напред с тридесет секунди</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_mute">Спиране</string>
     <string name="cast_notification_connected_message">Установена е връзка с/ъс „%1$s“</string>
     <string name="cast_notification_connecting_message">Установява се връзка с/ъс „%1$s“</string>
@@ -275,6 +276,7 @@ ID:%s
     <string name="fw_loading">Момент…</string>
     <string name="fw_reload_sub_title">Чукнете екрана за повторен опит</string>
     <string name="fw_reload_title">Неуспешно свързване с мрежа.</string>
+    <string name="gallery_fold_tags">Скриване на знаци</string>
     <string name="gallery_folder_alias_TAOBAO">Taobao</string>
     <string name="gallery_folder_alias_camera">Настр. Камера</string>
     <string name="gallery_folder_alias_download">Изтегления</string>
@@ -307,6 +309,7 @@ ID:%s
     <string name="gallery_video_operate_text">Настройки за забавен кадър</string>
     <string name="gallery_video_save_video">Видеото се създава…</string>
     <string name="gallery_video_slow_edit">Забавен кадър</string>
+    <string name="gallery_view_tags">Показване на знаци</string>
     <string name="get_back_pwd">Нулиране на паролата</string>
     <string name="get_ph_ticket">Получи код</string>
     <string name="get_phone_bind_exceed_limit">Можете да асоциирате до 3 Mi Профила с един телефонен номер. Не може да се добавят нови профили.</string>
@@ -334,11 +337,16 @@ ID:%s
     <string name="language_setting_tips_dialog">Можете да изберете предпочитаните езици на съдържание в \"Профил\" > \"Език\".</string>
     <string name="later">По-късно</string>
     <string name="loading">Момент…</string>
+    <string name="local_push_title">Популярни днес</string>
     <string name="login">Влезте</string>
     <string name="login_tip">Влезте в профила си, за да можете да получавате отговори на отзивите си.</string>
     <string name="logout">Отписване</string>
     <string name="logout_account">Отписване</string>
     <string name="lp_base_folder">SD карта</string>
+    <string name="lp_play_mode_list_loop">Превърти всички</string>
+    <string name="lp_play_mode_pause">Възпроизведи едно</string>
+    <string name="lp_play_mode_single_loop">Превърти едно</string>
+    <string name="lp_play_mode_title">Режим възпроизвеждане</string>
     <string name="lp_speed_title">Скорост на възпроизвеждане</string>
     <string name="lp_speed_toast">Възпроизвеждане на %sX speed…</string>
     <string name="lp_videoView_error_button">Разбрах това</string>
@@ -359,6 +367,7 @@ ID:%s
     <string name="lv_audio_track">Аудио песен</string>
     <string name="lv_auto_update">Обнови по-късно</string>
     <string name="lv_brightness">яркост</string>
+    <string name="lv_cast">Проекция</string>
     <string name="lv_check_delete_file">Изберете елементи за изтриване</string>
     <string name="lv_check_send_file">Можете да изпращате само по 1 файл</string>
     <string name="lv_confirm_delete_history">Ще изтриете ли избраните елементи?</string>
@@ -495,6 +504,7 @@ ID:%s
     <string name="next">следващ</string>
     <string name="nick_name">Псевдоним</string>
     <string name="no_account">Не сте вписани</string>
+    <string name="no_more_content">Това е всичко засега</string>
     <string name="no_network_tips">Тази функция не може да бъде използвана в момента. Достъпът до мрежа е ограничен.</string>
     <string name="no_phone">Няма телефонен номер</string>
     <string name="no_recommend_data">В момента няма препоръчани видеа</string>
@@ -508,6 +518,7 @@ ID:%s
     <string name="notice_title">Съобщения</string>
     <string name="notify_apk_installed">Изтеглянето е успешно</string>
     <string name="ok">OК</string>
+    <string name="order_alphabet">А – Я</string>
     <string name="order_recently_subscribe">Скорошни абонаменти</string>
     <string name="order_recently_updated">Обновени наскоро</string>
     <string name="ovp_alert_dialog_download_install_task">Изтегля се HD плъгин…</string>
@@ -908,6 +919,7 @@ href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>. &lt;br/>Всич
     <string name="sns_bind_limit">Твърде много опити. Опитайте други начини за вписване.</string>
     <string name="sns_sign_in">Други начини за вписване</string>
     <string name="source">"Източник: "</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">Карта с памет</string>
     <string name="storage_internal_sdcard">Вътрешна памет</string>
     <string name="submit">Изпратено</string>

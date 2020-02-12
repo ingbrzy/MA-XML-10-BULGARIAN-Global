@@ -153,6 +153,10 @@
     <string name="preference_status_bar_indicator_prompt">Покажи пряк път на лента за състоянието, докато записваш</string>
     <string name="preference_tip_rename">Показване на диалог за преименуване след край на записа</string>
     <string name="privacy_policy_title">Политика на поверителност</string>
+    <string name="recognition_button_add_to_queue">Добавяне към чакащите</string>
+    <string name="recognition_button_cancel">Не сега</string>
+    <string name="recognition_button_start">Разпознаване</string>
+    <string name="recognition_confirm_dialog_body">Разпознаването може да отнеме малко време. Ще получите известие, когато задачата е изпълнена. Разпознаване сега?</string>
     <string name="recognition_error_cancel">Отменено</string>
     <string name="recognition_error_code">Код за грешка: %d</string>
     <string name="recognition_error_download_cancel">По-късно</string>
@@ -168,6 +172,11 @@
     <string name="recognition_error_internal">Вътрешна грешка</string>
     <string name="recognition_error_stopped">Разпознаването е спряно</string>
     <string name="recognition_error_unknown">Възникна непозната грешка. Докладвайте ни я и опитайте отново.</string>
+    <string name="recognition_interrupt_current_dialog_body">Разпознаването може да отнеме малко време. Ще получите известие, когато задачата е изпълнена. В момента \"%s\" се разпознава. Добавяне на тази задача към чакащите за разпознаване?</string>
+    <string name="recognition_notification_channel">Разпознаване</string>
+    <string name="recognition_notification_complete_success">\"%s\" е успешно разпознато. Натиснете за преглед.</string>
+    <string name="recognition_notification_error">Неуспешно разпознаване на \"%s\"</string>
+    <string name="recognition_notification_running">Разпознаване \"%s\"…</string>
     <string name="recognition_process_dialog_body">Други записи (%s) се разпознават сега. Искате ли да спрете текущите задачи и да започнете нова?</string>
     <string name="recognition_process_dialog_cancel">Опашка</string>
     <string name="recognition_process_dialog_confirm">Принуд. започване</string>
@@ -175,6 +184,7 @@
     <string name="recognition_status_downloaded">Успешно изтегляне на разпознаващата услуга</string>
     <string name="recognition_status_downloading">"Изтегляне "</string>
     <string name="recognition_status_init">"Подготвяне "</string>
+    <string name="recognition_stop_current">Спиране на текущите задачи</string>
     <string name="recognize_choose_dialog_offline">Разпознавайте безплатно</string>
     <string name="recognize_choose_dialog_offline_desp">Разпознавайте записи без връзка с интернет</string>
     <string name="recognize_choose_dialog_online">Разпознавайте в облака</string>

@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Придвижване към „Начало“</string>
+    <string name="abc_action_bar_up_description">Придвижване нагоре</string>
+    <string name="abc_action_menu_overflow_description">Още опции</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Вижте всички</string>
+    <string name="abc_activitychooserview_choose_application">Изберете приложение</string>
+    <string name="abc_capital_off">ИЗКЛ.</string>
+    <string name="abc_capital_on">ВКЛ.</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">клавиша за интервал</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Търсете…</string>
+    <string name="abc_searchview_description_clear">Изчистване на заявката</string>
+    <string name="abc_searchview_description_query">Заявка за търсене</string>
+    <string name="abc_searchview_description_search">Търсене</string>
+    <string name="abc_searchview_description_submit">Изпращане на заявката</string>
+    <string name="abc_searchview_description_voice">Гласово търсене</string>
+    <string name="abc_shareactionprovider_share_with">Споделяне със:</string>
+    <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
+    <string name="abc_toolbar_collapse_description">Свиване</string>
     <string name="about_weather_setting">За \"Прогноза за времето\"</string>
     <string name="about_weather_setting_feedback">Отзив</string>
     <string name="abrupt_weather_settings_summary_type">Получавай предупреждения за валежи, промени в качеството на въздуха и други важни промени</string>
@@ -100,11 +127,13 @@
     <string name="daily_forecast_add_city_add">Следвай</string>
     <string name="daily_forecast_add_city_message">Следвайте времето в %1$s за по-подробна прогноза.</string>
     <string name="daily_forecast_add_city_title">Следвайте времето в %1$s</string>
-    <string name="daily_forecast_detail_date">d.M</string>
+    <string name="daily_forecast_detail_date">d/M</string>
+    <string name="daily_forecast_detail_date_format">%1$s - %2$s</string>
     <string name="daily_forecast_no_data">"Не можа да се получи информация за времето
 Издърпайте надолу, за да обновите или проверете мрежовите настройки"</string>
     <string name="data_provided_by">Информацията е предоставена отчасти от</string>
     <string name="edit_city">Редакция на градове</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Актуализиране…</string>
     <string name="empty_view_net_unavailable">Няма връзка с мрежата</string>
     <string name="empty_view_refresh">Опитайте отново</string>
@@ -126,6 +155,8 @@
     <string name="first_start_network_title">Известие за свързване</string>
     <string name="global_aqi">AQI: %1$s %2$s</string>
     <string name="hourly_forcast_now">Сега</string>
+    <string name="hourly_forecast_bottom_aqi_chinese">%1$s%2$s</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="hourly_forecast_title_24_hours_desc">24-часова прогноза</string>
     <string name="hourly_forecast_title_hourly_desc">Почасова прогноза</string>
@@ -139,21 +170,25 @@
     <string name="indices_title_feel">Усеща се</string>
     <string name="indices_title_pressure">Налягане</string>
     <string name="install">Инсталирай</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_pressure_title">Налягане</string>
     <string name="international_details_title">Подробности</string>
     <string name="international_details_uv_index_title">UV индекс</string>
+    <string name="international_details_wind_connect">%1$s %2$s</string>
     <string name="international_details_wind_title">Вятър</string>
     <string name="it_is_going_to_rain">Започва да вали</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="life_index_title">Индекс на времето</string>
     <string name="locate_fail_detail_err">"Не може да се локализира устройството
 Чукнете екрана за ръчно въвеждане или промяна на град"</string>
     <string name="location_provider_btn_text">Включване на услугите за местоположение</string>
     <string name="location_tag">Локализиране</string>
-    <string name="manager_city_option_add_city_back_search">Back to search</string>
-    <string name="manager_city_option_add_city_content">Added this city to start page successfully</string>
-    <string name="manager_city_option_add_city_title">Added successfully</string>
-    <string name="manager_city_option_add_home">Add to start page</string>
-    <string name="manager_city_option_view_on_home">View on start page</string>
+    <string name="manager_city_option_add_city_back_search">Обратно към търсенето</string>
+    <string name="manager_city_option_add_city_content">Този град е успешно добавен към стартовата страница</string>
+    <string name="manager_city_option_add_city_title">Успешно добавено</string>
+    <string name="manager_city_option_add_home">Добави на стартовата страница</string>
+    <string name="manager_city_option_view_on_home">Виждай на стартовата страница</string>
     <string name="menu_location">Места</string>
     <string name="menu_speaker">Предаване на глас</string>
     <string name="minute_rain">Прогноза за валежите</string>
@@ -170,6 +205,7 @@
     <string name="minute_rain_refreshing_now">Опресняване…</string>
     <string name="missing_required_permission">Деактивирали сте разрешение, което се изисква.</string>
     <string name="more_details">Подробности</string>
+    <string name="more_expanded">Още</string>
     <string name="network_not_available">Няма връзка с мрежата</string>
     <string name="network_unavailable">Няма връзка с мрежата.</string>
     <string name="night_not_disturb_settings_summary">Блокирай предупрежденията между 23:00 ч и 7:00 ч</string>
@@ -227,6 +263,7 @@
     <string name="request_permission_read_phone_state_dialog_content">За идентифициране на Вашето устройство</string>
     <string name="request_permission_storage_dialog_content">За споделяне на информация за времето под формата на изображение</string>
     <string name="retry">Нов опит</string>
+    <string name="search_menu_title">Търсене</string>
     <string name="search_weather">Времето</string>
     <string name="search_weather_keywords">Температура;Прогноза за времето;Времето;Качество на въздуха;Степен на замърсяване;Влажност</string>
     <string name="set_degree_centigrade">°C</string>
@@ -237,11 +274,13 @@
     <string name="share_menu_title">Споделяне</string>
     <string name="share_subject">Споделяне</string>
     <string name="share_weather_desc">\#MIUI Времето#Днес %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Не може да се направи екр. снимка</string>
     <string name="shortcut_short_label_24_hour_forecast">24-часова прогноза</string>
     <string name="shortcut_short_label_recent_forecast">Проверете времето</string>
     <string name="some_where_on_earth">Някъде по Земята</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sunrise">Изгрев</string>
     <string name="sunset">Залез</string>
     <string name="temperature_normal_unit">%1$s°</string>

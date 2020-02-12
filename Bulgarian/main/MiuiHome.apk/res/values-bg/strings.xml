@@ -66,7 +66,6 @@
     <string name="announce_for_show_uninstall_dialog">Появи се диалог за деинсталиране. Отменете или потвърдете.</string>
     <string name="announce_for_unchecked">%1$s，непроверени</string>
     <string name="announce_for_widget_span">Ширина %1$d, височина %2$d</string>
-    <string name="announce_for_xiaoai">Mi AI</string>
     <string name="app_already_exist">Приложението вече съществува</string>
     <string name="app_being_backup_message">Приложението е архивирано.</string>
     <string name="app_being_restored_message">Приложението бе възстановено</string>
@@ -86,7 +85,6 @@
     <string name="app_category_sport">Спорт</string>
     <string name="app_category_tools">Инструменти</string>
     <string name="app_category_travel">Пътуване</string>
-    <string name="app_category_vr">VR</string>
     <string name="application_name">Системен лаунчер</string>
     <string name="apply">Приложи</string>
     <string name="apply_action">Приложи</string>
@@ -100,6 +98,7 @@
     <string name="aqi_quality_index_light_pollution">Леко замърсено</string>
     <string name="aqi_quality_index_moderate">Умерено</string>
     <string name="aqi_quality_index_unhealthy">Вредно</string>
+    <string name="auto_add_app_shortcut">Добавяне нови приложения на началния екран</string>
     <string name="auto_delete_category_dialog_content">Текущите приложения ще бъдат премахнати от тази категория и категорията ще бъде изтрита. Изтриване на категорията сега?</string>
     <string name="auto_delete_category_dialog_title">Изтриване на категория</string>
     <string name="backup_fail">Неуспешно архивиране на стартовия панел</string>
@@ -138,18 +137,14 @@
     <string name="current_wallpaper">Текущ</string>
     <string name="custom_wallpaper_picker">Преглеждане</string>
     <string name="defalut_launcher_title">Стартер по подразбиране</string>
-    <string name="default_folder_title_claro">Claro</string>
     <string name="default_folder_title_game">Игри</string>
     <string name="default_folder_title_meitu">Meitu приложения</string>
-    <string name="default_folder_title_microsoft">Microsoft</string>
     <string name="default_folder_title_other_apps">Други приложения</string>
     <string name="default_folder_title_recommend">Още приложения</string>
     <string name="default_folder_title_security">Безопасност</string>
     <string name="default_folder_title_services">Услуги</string>
-    <string name="default_folder_title_telcel">Telcel</string>
     <string name="default_folder_title_tools">Инструменти</string>
     <string name="default_screen_preview_title">Задай екран по подразбиране</string>
-    <string name="default_shortcut_title_10086">10086.cn</string>
     <string name="delete">Изтрий</string>
     <string name="delete_category_dialog_content">Няма да можете да възстановите тази категория, ако я изтриете. Да се изтрие ли?</string>
     <string name="delete_category_dialog_title">Изтриване на тази категория?</string>
@@ -158,8 +153,6 @@
     <string name="deselect_all">Размаркирай всички</string>
     <string name="disable_wallpaper_scroll">Изкл. превъртането на тапета</string>
     <string name="download_action">Изтегляне</string>
-    <string name="drag_multiple_item_name" />
-    <string name="drag_single_item_name" />
     <string name="drawer_background">Фонoве</string>
     <string name="drawer_background_dark">Тъмен</string>
     <string name="drawer_background_light">Светъл</string>
@@ -254,6 +247,7 @@
     <string name="home_pull_down_action">Плъзнете с пръст надолу по Началния екран</string>
     <string name="home_screen">Начален екран</string>
     <string name="home_slide_up_action">Плъзнете с пръст нагоре по Началния екран</string>
+    <string name="home_switch_personal_assistant">-1 екран</string>
     <string name="icon_reorganize_channel">Подреди иконите</string>
     <string name="icon_size">Размер на иконата</string>
     <string name="image_too_small_message">Оригиналното изображение не е достатъчно голямо.</string>
@@ -263,6 +257,9 @@
     <string name="is_system_wallpaper_message">Не могат да се изтриват системни ресурси</string>
     <string name="launcher_not_exist">Неочаквана грешка, върнете се в Начален екран и опитайте отново.</string>
     <string name="launcher_pull_down_title">Плъзнете с пръст надолу по Началния екран</string>
+    <string name="launcher_search_bar_title">Лента за търсене на началния екран</string>
+    <string name="launcher_search_bar_value_disable">Изкл.</string>
+    <string name="launcher_search_bar_value_enable">Вкл.</string>
     <string name="launcher_slide_up_title">Плъзнете с пръст нагоре по Началния екран</string>
     <string name="launcher_sliding_up_gesture">Плъзнете нагоре по Началния екран, за да отворите търсене</string>
     <string name="launcher_title">Начален екран и Последни</string>
@@ -313,6 +310,7 @@
     <string name="notification_installed">Инсталацията е успешна</string>
     <string name="notification_open_button">Отвори</string>
     <string name="notification_reset_title">Успешно подредени икони</string>
+    <string name="one_key_call_title">Натиснете за набиране</string>
     <string name="online_wallpaper">Онлайн</string>
     <string name="open_personal_assistant_dialog_btn_cancel">Отмени</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Изключи</string>
@@ -407,7 +405,10 @@
     <string name="status_installing">инсталира се</string>
     <string name="status_paused">на пауза</string>
     <string name="status_pending">изчаква се</string>
+    <string name="switch_personal_assistant_app_vault">Трезор за приложения</string>
+    <string name="switch_personal_assistant_none">Няма</string>
     <string name="system_shortcuts_more_operation">Инф за приложение</string>
+    <string name="system_shortcuts_remove">Премахни</string>
     <string name="system_text">Система</string>
     <string name="title_jeejen">Jeejen Начален екран</string>
     <string name="title_select_live_folder">Избери папка</string>
@@ -437,7 +438,6 @@
     <string name="wallpaper_auto_change_title">Закл. екран</string>
     <string name="wallpaper_failed_message">Тапетът не може да се приложи</string>
     <string name="wallpaper_scaling_message">Мащабиране до фиксиран размер</string>
-    <string name="wallpaper_scroll_type_tips">Wallpaper scroll</string>
     <string name="wallpaper_settings">Настройки на тапет</string>
     <string name="wallpaper_success_message">Успешно приложено</string>
     <string name="widget_favorite_contacts_edit">Редактор</string>

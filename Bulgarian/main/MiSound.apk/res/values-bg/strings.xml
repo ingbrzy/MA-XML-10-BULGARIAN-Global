@@ -69,8 +69,6 @@
     <string name="music_dirac_mode_headset_comfort">Mi Комфорт</string>
     <string name="music_dirac_mode_in_ear">Mi in-ear headphones</string>
     <string name="music_dirac_mode_in_ear2">Mi слушалки на две уши</string>
-    <string name="music_dirac_mode_in_ear_2013">Mi In-Ear (2013)</string>
-    <string name="music_dirac_mode_in_ear_pro">Mi In-Ear Pro</string>
     <string name="music_dirac_mode_india_earphones">Mi Слушалки</string>
     <string name="music_dirac_mode_india_earphones_basic">Mi Слушалки</string>
     <string name="music_dirac_mode_off">Изключено</string>
@@ -133,7 +131,6 @@
     <string name="second_note">Сложете си слушалките.</string>
     <string name="sound_test_title">Тест на слуховото възприятие</string>
     <string name="start_test_sound">Начало на теста</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sure_give_up_test">Ако спрете теста сега, следващия път ще трябва да започнете отначало. Потвърждавате ли?</string>
     <string name="sure_to_back">Да се отменят ли промените?</string>
     <string name="third_note">Намерете тихо място.</string>

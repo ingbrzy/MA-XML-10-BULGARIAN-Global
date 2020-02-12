@@ -105,7 +105,7 @@
         <item quantity="one">%1$d контакти с частично дублирани данни</item>
     </plurals>
     <plurals name="merge_info">
-        <item quantity="other">Обединен от %0$d източника</item>
+        <item quantity="other">Обединен от %1$d източника</item>
         <item quantity="one">Необединен</item>
     </plurals>
     <plurals name="notification_voicemail_title">
@@ -121,7 +121,7 @@
         <item quantity="one">%1$d човек от %2$s</item>
     </plurals>
     <plurals name="num_groups_in_account">
-        <item quantity="other">%0$d групи</item>
+        <item quantity="other">%1$d групи</item>
         <item quantity="one">1 група</item>
     </plurals>
     <plurals name="number_of_items_available">
