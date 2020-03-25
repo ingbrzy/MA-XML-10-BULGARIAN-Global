@@ -88,29 +88,17 @@
         <item quantity="other">(%1$d)</item>
         <item quantity="one">(%1$d)</item>
     </plurals>
-    <plurals name="listFoundAllContacts">
-        <item quantity="other">Открити %d контакта</item>
-        <item quantity="one">Открит 1 контакт</item>
-    </plurals>
     <plurals name="listTotalAllContacts">
-        <item quantity="other">Показани %d контакта</item>
-        <item quantity="one">Показан 1 контакт</item>
-    </plurals>
-    <plurals name="listTotalPhoneContacts">
-        <item quantity="other">Показани %d контакта с телефонни номера</item>
-        <item quantity="one">Показан 1 контакт с телефонен номер</item>
+        <item quantity="other">%d контакта</item>
+        <item quantity="one">%d контакт</item>
     </plurals>
     <plurals name="merge_contact_message_plurals">
         <item quantity="other">%1$d контакти с частично дублирани данни</item>
         <item quantity="one">%1$d контакти с частично дублирани данни</item>
     </plurals>
     <plurals name="merge_info">
-        <item quantity="other">Обединен от %1$d източника</item>
+        <item quantity="other">Обединен от %0$d източника</item>
         <item quantity="one">Необединен</item>
-    </plurals>
-    <plurals name="notification_voicemail_title">
-        <item quantity="other">Гласови съобщения: %1$d</item>
-        <item quantity="one">Гласова поща</item>
     </plurals>
     <plurals name="numSelectedSimContacts">
         <item quantity="other">%1$d избрани</item>
@@ -121,8 +109,8 @@
         <item quantity="one">%1$d човек от %2$s</item>
     </plurals>
     <plurals name="num_groups_in_account">
-        <item quantity="other">%1$d групи</item>
-        <item quantity="one">1 група</item>
+        <item quantity="other">%d групи</item>
+        <item quantity="one">%d група</item>
     </plurals>
     <plurals name="number_of_items_available">
         <item quantity="other">%1$d елементи остават</item>
@@ -149,8 +137,8 @@
         <item quantity="one">%1$d последно използван контакт</item>
     </plurals>
     <plurals name="searchFoundContacts">
-        <item quantity="other">%d контакта</item>
-        <item quantity="one">1 контакт</item>
+        <item quantity="other">%d открити</item>
+        <item quantity="one">%d открит</item>
     </plurals>
     <plurals name="select_all_exceed_plurals">
         <item quantity="other">Не избирайте повече от %1$d, не може да изберете всички</item>

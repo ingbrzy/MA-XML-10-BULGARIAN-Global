@@ -28,6 +28,8 @@
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
     <string name="search_menu_title">Търсене</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="above_image">Нагоре</string>
     <string name="accessibility_battery_level">Батерия %d процента.</string>
     <string name="accessibility_battery_level_charging">Батерията заредена на %d процента.</string>
     <string name="align_type">Подравняване</string>
@@ -42,19 +44,22 @@
     <string name="aod_mode_summary">Показване на часовник, дата, уведомления и фонови изображения, когато екранът е изключен</string>
     <string name="aod_mode_time_summary">Планирайте времето за вкл и изкл на режим Винаги включен</string>
     <string name="aod_mode_time_title">Планиране</string>
-    <string name="aod_mode_title">Режим Винаги включен</string>
+    <string name="aod_mode_title">Постоянно включен дисплей</string>
+    <string name="aod_show_date_and_time">Показвай дата и час</string>
     <string name="aod_show_style_title">Показване на екрана</string>
     <string name="aod_style">Тема</string>
     <string name="aod_to_close">Изключи</string>
     <string name="apply">Приложи</string>
     <string name="apply_succeed">Настройката е приложена</string>
     <string name="background_icon">Фон</string>
+    <string name="below_image">Надолу</string>
     <string name="cancel">Отказ</string>
     <string name="choose_aod_style">Изберете тема</string>
     <string name="chosen_picture">Изберете фон</string>
     <string name="clock_panel_icon">Циферблат</string>
     <string name="color_change_with_time_description">Променяй цвета на текста периодично</string>
     <string name="color_change_with_time_title">Променяй цвета автоматично</string>
+    <string name="custom_image">Изображение по избор</string>
     <string name="deep_space_planet">Космос</string>
     <string name="deep_space_planet_des">Тази тема отразява промените на светлината, които настъпват около Вас през деня. Изгревите и залезите също се синхронизират с Вашето местоположение.</string>
     <string name="digital_clock">Цифров</string>
@@ -84,18 +89,20 @@
     <string name="show_battery_status">Показвай състояние на батерията</string>
     <string name="show_notification">Показвай известия</string>
     <string name="show_notificaton">Показвай известията</string>
+    <string name="shownone_arround_image">Без</string>
     <string name="signature">Подпис</string>
     <string name="signature_default_content">"Винаги вярвайте, че нещо
 прекрасно предстои"</string>
     <string name="standard_clock_panel">Стандартен</string>
     <string name="standard_style">Стандартен</string>
-    <string name="summary">"За намаляване на консумацията на енергия на екрана няма да се показва нищо в следните случаи:
-1. Когато устройството Ви престои дълго на тъмно.
-2. Когато е включен режим DND."</string>
+    <string name="summary">За да се намали консумацията на енергия, няма да бъдат показвани елементи, когато устройството Ви е на тъмно за дълго време.</string>
     <string name="temporary_style">В продължение на 10 секунди след докосване</string>
     <string name="text_color">Цвят на текста</string>
     <string name="text_length_exceed_limit_alert">*Въведеният от Вас текст е твърде дълъг</string>
     <string name="text_size">Размер на текста</string>
+    <string name="time_location">Позиция на часовника</string>
     <string name="time_style">Стил</string>
     <string name="time_style_layout">Оформление</string>
+    <string name="disable_aod_in_power_save_mode">Изклучи, когато Пестене на батерия е вкл.</string>
+    <string name="disable_aod_in_power_save_mode_summary">Не показвай елементи, за да се пести енергия</string>
 </resources>

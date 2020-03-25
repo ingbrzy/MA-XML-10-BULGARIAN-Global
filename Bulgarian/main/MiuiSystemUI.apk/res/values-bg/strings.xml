@@ -63,6 +63,7 @@
     <string name="accessibility_camera_button">Камера</string>
     <string name="accessibility_carrier_network_change_mode">Мрежата на оператора е променена.</string>
     <string name="accessibility_cast_name">Свързахте се с %s.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_casting_turned_off">Запис на екрана е изключено.</string>
     <string name="accessibility_cell_data">Мобилни данни</string>
     <string name="accessibility_cell_data_off">Мобилните данни са изключени</string>
@@ -249,14 +250,15 @@
     <string name="accessibility_status_bar_headphones">Слушалките са свързани</string>
     <string name="accessibility_status_bar_headset">Слушалките са свързани</string>
     <string name="accessibility_status_bar_hotspot">Гореща точка</string>
+    <string name="accessibility_status_bar_micphone">Успешно свързване на микрофон</string>
     <string name="accessibility_three_bars">Над средното ниво на обхвата.</string>
     <string name="accessibility_tty_enabled">TeleTypewriter е включен.</string>
     <string name="accessibility_two_bars">Средно ниво на обхвата.</string>
     <string name="accessibility_unlock_button">Отключи</string>
     <string name="accessibility_unlock_without_fingerprint">Отключване без пръстов отпечатък</string>
     <string name="accessibility_voice_assist_button">Гласов асистент</string>
-    <string name="accessibility_volume_collapse">Свиване</string>
-    <string name="accessibility_volume_expand">Разгъване</string>
+    <string name="accessibility_volume_collapse">Скрий</string>
+    <string name="accessibility_volume_expand">Разшири</string>
     <string name="accessibility_vpn_on">ВЧМ е включена.</string>
     <string name="accessibility_waiting_for_fingerprint">Сканирайте пръстовия си отпечатък</string>
     <string name="accessibility_wifi_name">Свързахте се с %s.</string>
@@ -816,6 +818,8 @@
     <string name="how_to_use_drawer_summary">Плъзнете надясно от горната част на екрана</string>
     <string name="how_to_use_fsg">Вие можете да извършите това действие с използване на жестове:</string>
     <string name="ime_security_warning">Този инструмент на речта може да събира данни за целия текст, който ще бъде произнесен, включително лични данни като пароли и номера на кредитни карти Това се случва поради %1$s Разрешавате ли използването на този инструмент на речта?</string>
+    <string name="ime_security_warning_global">Методите на въвеждане може да събират целия текст, който въвеждате, включително лични данни, като пароли и номера на кредитни карти. Използване на %1$s?</string>
+    <string name="ime_security_warning_title_global">Включване на клавиатурата</string>
     <string name="immediately_destroy_activities">Не запазвайте активността</string>
     <string name="immediately_destroy_activities_summary">Унищож. на всяка дейност при напускането от потребител</string>
     <string name="important_desc">Всички важни известия ще бъдат показвани в лентата с известия.</string>
@@ -912,6 +916,10 @@
     <string name="keyguard_charging_back_to_lockscreen">Обратно към закл. екран</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
     <string name="keyguard_charging_info_battery_used_time_text">На батерия</string>
+    <string name="keyguard_charging_info_data_c">%s℃</string>
+    <string name="keyguard_charging_info_data_ma">%smA</string>
+    <string name="keyguard_charging_info_data_percent">%s%%</string>
+    <string name="keyguard_charging_info_data_v">%sV</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Изразходени</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Днес%s</string>
@@ -939,6 +947,7 @@
     <string name="keyguard_missing_sim_instructions_long">SIM картата липсва или не се разпознава. Поставете SIM карта.</string>
     <string name="keyguard_missing_sim_message">В телефона няма SIM карта.</string>
     <string name="keyguard_missing_sim_message_short">Няма SIM карта</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Мрежата е заключена</string>
     <string name="keyguard_password_enter_password_code">Въведете парола за отключване</string>
     <string name="keyguard_password_enter_pin_code">Въведете PIN код</string>
@@ -1022,6 +1031,7 @@
     <string name="left_keycode">Клавиатура за лява ръка</string>
     <string name="left_nav_bar_button_type">Опции за левия бутон</string>
     <string name="legacy_vpn_name">VPN</string>
+    <string name="list_delimeter">", "</string>
     <string name="loading_injected_setting_summary">Зарежда се…</string>
     <string name="local_backup_password_summary_change">Чукнете за да промените или премахнете паролата за архивите на Начален екран</string>
     <string name="local_backup_password_summary_none">Архивните на Начален екран са защитени</string>
@@ -1097,6 +1107,7 @@ d MMMM"</string>
     <string name="miui_guide_dialog_message">Звуците и мелодиите от медийното съдържание ще продължат да се възпроизвеждат в Тих режим. Вие можете да промените това от меню Настройки.</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Отключено с Bluetooth устройство</string>
     <string name="miui_ringer_count_down">Позиции надолу</string>
+    <string name="miui_ringer_count_down_time">%s</string>
     <string name="miui_ringer_standard">Без звук</string>
     <string name="miui_ringer_standard_description">Заглуши звука за входящи повиквания и известия</string>
     <string name="miui_ringer_total">Режим Не безпокойте</string>
@@ -1124,12 +1135,14 @@ d MMMM"</string>
 
 За повече информация се свържете с вашия администратор."</string>
     <string name="monitoring_description_ca_cert_settings">Отвори доверени източници</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">Сертификатът за сигурност вече е инсталиран на това устройство. Мрежовият ви трафик може да бъде наблюдаван и променян.</string>
     <string name="monitoring_description_do_body">Вашият администратор може да наблюдава и променя настройките, корпоративния достъп, приложения и данни свързани с вашето устройство и информацията за местоположението му.</string>
     <string name="monitoring_description_do_body_vpn">Вие сте свързан с %1$s,с което се наблюдава мрежовата активност, включително имейли, приложения и уебсайтове.</string>
     <string name="monitoring_description_do_header_generic">Вашето устройство се управлява от %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s използва %2$s за да управлява вашето устройство.</string>
     <string name="monitoring_description_do_learn_more">Научете повече</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Вашата организация е инсталирала сертификат за достоверност във вашия служебен профил. Вашият защитен мрежов трафик може да бъде наблюдаван и променян.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Вашият служебен профил е свързан с %1$s, който може да наблюдава мрежовата активност, включително имейли, приложения и уебсайтове.</string>
     <string name="monitoring_description_management">"Вашето устройство се управлява от вашата организация. 
@@ -1161,6 +1174,7 @@ d MMMM"</string>
 
 Вие също така сте свързан и с VPN, при което се наблюдава мрежовата активност."</string>
     <string name="monitoring_description_vpn_settings">Отваряне на VPN Настройки</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA сертификати</string>
     <string name="monitoring_subtitle_network_logging">Логове на мрежата</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1199,6 +1213,7 @@ d MMMM"</string>
     <string name="nav_guide_message">Използвайте жестове за скриване и показване на софтуерните бутони.</string>
     <string name="nav_guide_ok">Настройки</string>
     <string name="nav_guide_title">Скрий софтуерните бутони</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Без да се задава</string>
     <string name="no_multi_window_app">Няма приложения, които да поддържат Разделен екран</string>
     <string name="no_notification_tips">Няма известия</string>
@@ -1371,6 +1386,7 @@ d MMMM"</string>
     <string name="private_dns_mode_provider">Име на хоста на частния DNS доставчик</string>
     <string name="private_dns_mode_provider_failure">Не може да се свърже</string>
     <string name="private_dns_mode_provider_hostname_hint">Въведете името на хоста на DNS доставчик</string>
+    <string name="process_kernel_label">Android операционна система</string>
     <string name="profile_owned_footer">Профилът може да се наблюдава</string>
     <string name="prompt_danger">Опасно</string>
     <string name="prompt_detecting">Откриване</string>
@@ -1435,7 +1451,7 @@ d MMMM"</string>
     <string name="quick_settings_dual_location_label">Двоен GPS</string>
     <string name="quick_settings_edit_label">Редактиране</string>
     <string name="quick_settings_extreme_batterysaver_label">Свръх икономия на батерията</string>
-    <string name="quick_settings_flashlight_label">Светкавица</string>
+    <string name="quick_settings_flashlight_label">Фенерче</string>
     <string name="quick_settings_gps_label">GPS</string>
     <string name="quick_settings_hotspot_label">Гореща точка</string>
     <string name="quick_settings_ime_label">Метод на въвеждане</string>
@@ -1646,13 +1662,13 @@ d MMMM"</string>
     <string name="status_bar_airplane">Самолетен режим</string>
     <string name="status_bar_alarm">Аларма</string>
     <string name="status_bar_clear_all_button">Изчисти</string>
-    <string name="status_bar_clock_date_format">Е, d MMM</string>
-    <string name="status_bar_clock_date_format_12">Е, d MMM</string>
-    <string name="status_bar_clock_date_time_format">H:mm E, d MMM</string>
-    <string name="status_bar_clock_date_time_format_12">h:mm aa, Е, d MMM</string>
-    <string name="status_bar_date_format">"Е
+    <string name="status_bar_clock_date_format">EEE, d MMM</string>
+    <string name="status_bar_clock_date_format_12">EEE, d MMM</string>
+    <string name="status_bar_clock_date_time_format">H:mm EEE, d MMM</string>
+    <string name="status_bar_clock_date_time_format_12">h:mm aa, EEE, d MMM</string>
+    <string name="status_bar_date_format">"EEE
 d MMM"</string>
-    <string name="status_bar_date_format_12">"Е
+    <string name="status_bar_date_format_12">"EEE
 d MMM"</string>
     <string name="status_bar_ethernet">Вътрешна мрежа</string>
     <string name="status_bar_input_method_settings_configure_input_methods">Настрой методи за въвеждане</string>
@@ -1912,8 +1928,8 @@ d MMM"</string>
     <string name="voice_assist_label">Отвори Гласов асистент</string>
     <string name="voice_hint">Плъзнете от иконата за Гласов асистент</string>
     <string name="volume_and_do_not_disturb">Режим Не безпокойте</string>
-    <string name="volume_dialog_accessibility_dismissed_message">Контролите за силата на звука са скрити</string>
-    <string name="volume_dialog_accessibility_shown_message">Показани са контролите за силата на звука на %s. Прекарайте пръст нагоре, за да ги скриете.</string>
+    <string name="volume_dialog_accessibility_dismissed_message">Контролите на звука са скрити</string>
+    <string name="volume_dialog_accessibility_shown_message">%s показани са контроли за усилване. Плъзнете нагоре за отмяна.</string>
     <string name="volume_dnd_silent">Функция на бутоните за звук</string>
     <string name="volume_stream_content_description_mute">%1$s. Чукнете за заглушаване. Достъпните услуги могат да бъдат заглушени.</string>
     <string name="volume_stream_content_description_mute_a11y">%1$s. Чукнете за заглушаване.</string>
@@ -1957,6 +1973,7 @@ d MMM"</string>
     <string name="wapi_psk_type_ascii">ASCII</string>
     <string name="wapi_psk_type_hex">Шестнадесетично</string>
     <string name="wapi_yes">Да</string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_publish_time">Актуализирано %1$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Капацитетът на точката за достъп е пълен</string>
     <string name="wifi_auto_sel_wapi_cert">Автоматичен избор</string>

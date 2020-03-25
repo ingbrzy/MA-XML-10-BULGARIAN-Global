@@ -32,6 +32,7 @@
 3. Върнете се обратно в менюто за регистри и натиснете \"Завърши и изпрати\"."</string>
     <string name="catch_full_log_item_content_title">Стъпки:</string>
     <string name="catch_full_log_item_title_audio">Звук, запис на звук и звук при обаждане</string>
+    <string name="catch_full_log_item_title_bt">Bluetooth</string>
     <string name="catch_full_log_item_title_dump_heap">Регистриране</string>
     <string name="catch_full_log_item_title_gps">Услуги за местоположението</string>
     <string name="catch_full_log_item_title_sensor">Сензори</string>
@@ -67,6 +68,7 @@
     <string name="err_type">Вид грешка</string>
     <string name="err_type_app">Приложения</string>
     <string name="err_type_appstore">Магазин за приложения</string>
+    <string name="err_type_bluetooth">Bluetooth</string>
     <string name="err_type_camera">Камера</string>
     <string name="err_type_hardware">Хардуер</string>
     <string name="err_type_hardware_summary">Бутони, зареждане, сензори и т.н.</string>
@@ -80,6 +82,7 @@
     <string name="err_type_system_summary">Памет, производителност и т.н.</string>
     <string name="err_type_systemapp">MIUI приложения</string>
     <string name="err_type_translate">Език</string>
+    <string name="err_type_wifi">Wi-Fi</string>
     <string name="err_type_xiaomi_family">Mi семейство</string>
     <string name="err_type_xiaomi_service">Обслужване на клиенти</string>
     <string name="error_no_connection">Не може да се свърже с мрежата</string>
@@ -117,6 +120,8 @@
     <string name="feedback_empty_report_list">Няма доклади</string>
     <string name="feedback_guess">Вашето мнение:</string>
     <string name="feedback_history_remind_login_desc">Влезте с вашия Mi акаунт за детайли по репортите Ви</string>
+    <string name="feedback_id">ID: %d</string>
+    <string name="feedback_jira_key">JIRA Key: %s</string>
     <string name="feedback_jira_key_place_holder">Създаване на Джира…</string>
     <string name="feedback_package_log_failed">Не може да се компресират логовете</string>
     <string name="feedback_phone_model_label">Модел телефон</string>
@@ -182,6 +187,8 @@
     <string name="feedback_tracking">Проследи проблем</string>
     <string name="feedback_version_label">Версия</string>
     <string name="feesback_list">Доклади</string>
+    <string name="first_position">2#</string>
+    <string name="floor">%1$s#</string>
     <string name="from">от %1$s</string>
     <string name="goon_feedback_main">Напред</string>
     <string name="hint_feedback_main">Опишете вашия проблем</string>
@@ -212,6 +219,7 @@
     <string name="mi_service_dialog_content">Всички функции за обратна връзка са преместени в новото приложение \"Услуги и обратна връзка\". Приложението \"Обратна връзка\" ще бъде премахнато от началния Ви екран. Натиснете \"Отвори\", за да изпробвате \"Услуги и обратна връзка\".</string>
     <string name="mi_service_dialog_title">Представяме Ви \"Услуги и обратна връзка\"</string>
     <string name="michat_app_name">Онлайн поддръжка</string>
+    <string name="michat_artificial_customer_phone">4001005678</string>
     <string name="michat_artificial_customer_phone_dial_error">Ако не можете да наберете горещата линия 400, наберете %1$s от друг телефон</string>
     <string name="michat_artificial_customer_text">Персонална поддръжка</string>
     <string name="michat_attach_image">Снимка</string>
@@ -317,6 +325,7 @@
     <string name="network_unavailable_dialog_content">Не може да се свърже с мрежата. Отзивът ще бъде изпратен, когато е достъпна мобилна мрежа.</string>
     <string name="network_unavailable_dialog_title">Не може да се свърже с мрежата</string>
     <string name="non_system_app_select">Изтеглени приложения</string>
+    <string name="nothing">--</string>
     <string name="open_feedback_main">Повече</string>
     <string name="packaging_dialog_content">Създава се доклад…</string>
     <string name="passport_access_denied">Достъпът е отказан</string>
@@ -471,6 +480,7 @@
     <string name="passport_wrong_phone_number_format">Въведеният телефонен номер е с невалиден формат</string>
     <string name="passport_wrong_vcode">Кодът, който сте въвели е грешен</string>
     <string name="pic_not_exist">Това изобр. не съществува</string>
+    <string name="pic_view_format">%1$s\"/\"%2$s</string>
     <string name="plus_one_submit_dialog_content">Избраният от вас отзив, заедно с логовете с грешки, ще бъде изпратен до сървърите на Mi.</string>
     <string name="plus_one_submit_dialog_not_show_again">Запомни настройката</string>
     <string name="post_miui_bbs_failed">Неуспешно публикуване във форума</string>
@@ -492,6 +502,7 @@
     <string name="save_pic_fail">Не може да се запази изобр. Прегледайте SD-картата си</string>
     <string name="save_pic_success">Запазване на изобр. в %s</string>
     <string name="screen_lock">Закл. на екрана</string>
+    <string name="second_position">3#</string>
     <string name="section_description">Описание</string>
     <string name="section_err_type">Вид грешка</string>
     <string name="section_screenshot">Екранна снимка</string>
@@ -544,6 +555,7 @@
     <string name="toast_screenshot_too_large">Не може да качи изображения или видео с размер по-голям от 100МБ.</string>
     <string name="toast_third_packagename_required">Въведете име на приложението</string>
     <string name="toast_title_required">Опишете Вашия проблем</string>
+    <string name="topic_author">1#</string>
     <string name="try_again">Опитайте отново</string>
     <string name="upload_log_failed">Не мога да изпратя историята</string>
     <string name="warning_field_empty">Въведи %1$s</string>

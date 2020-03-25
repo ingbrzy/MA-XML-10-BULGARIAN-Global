@@ -13,6 +13,7 @@
     <string name="hint_search_all">Търсене на приложения</string>
     <string name="hint_search_in_disabled_apps">Търсене на приложения, които не показват известия</string>
     <string name="hint_search_in_enabled_apps">Търсене на приложения, които показват известия</string>
+    <string name="last_sent_time_second">Току-що</string>
     <string name="list_title_disable_notification">Уведомленията не са позволени</string>
     <string name="loading">Момент…</string>
     <string name="lock_screen_display_rules">Формат</string>
@@ -25,10 +26,13 @@
     <string name="notification_fold_summary">Всички маловажни известия ще бъдат показвани в отделна папка</string>
     <string name="notification_fold_title">Папка с известия</string>
     <string name="notification_manager">Известия за приложението</string>
+    <string name="notification_style_android">Android</string>
+    <string name="notification_style_miui">MIUI</string>
     <string name="off">Изключване</string>
     <string name="on">Включване</string>
     <string name="settings_guide_title">Искате още настройки?</string>
     <string name="show_badge_notifications">Уведомителни значки</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Статус лента</string>
     <string name="summary_disable_float_notification">Плаващите уведомления не са разрешени</string>
     <string name="summary_disable_lockscreen_notification">Уведомленията за заключен екран не са позволени</string>

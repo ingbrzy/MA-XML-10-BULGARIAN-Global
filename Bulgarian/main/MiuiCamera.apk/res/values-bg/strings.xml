@@ -21,6 +21,7 @@
     <string name="accessibility_camera_record_start">Стартиран е видеозапис</string>
     <string name="accessibility_camera_record_stop">Видеозаписът е спрян</string>
     <string name="accessibility_camera_shutter_finish">Успешно направена снимка</string>
+    <string name="accessibility_camera_switch_capture_recording">Превключване между режим снимка и видео</string>
     <string name="accessibility_camera_ultra_wide_bokeh_off">Режим цял ръст е изключен</string>
     <string name="accessibility_camera_ultra_wide_bokeh_on">Режим цял ръст е включен</string>
     <string name="accessibility_camera_video_960fps_120">120FPS</string>
@@ -71,14 +72,17 @@
     <string name="accessibility_video_pause_button">Видеозаписът е на пауза</string>
     <string name="accessibility_video_resume_button">Видеозаписът е възобновен</string>
     <string name="accessibility_zoom_button">Режим Приближаване</string>
-    <string name="ai_scene_mode_use_hint_text">"AI камера определя сцените автоматично
- и оптимизира вашите снимки на базата на тази информация"</string>
+    <string name="ai_scene_mode_use_hint_text">"Разпознава сцената с помощта на изкуствен интелект (AI)
+и автоматично променя настройките."</string>
     <string name="ai_scene_top_moon_off">Режим Слаба светлина</string>
     <string name="ai_scene_top_tip">Режим лунен ефект</string>
     <string name="audio_focus_exit_button_text">Спри аудио фокуса</string>
     <string name="autozoom_click_hint">Докоснете обекта за да започне проследяването му. Стойте на минимум 3 метра от обекта за най-добър ефект.</string>
     <string name="autozoom_disabled_hint">Спряно проследяване на движещ се обект</string>
     <string name="autozoom_hint">Проследяване на движещ се обект</string>
+    <string name="auxiliary_close_status">Допълнителните ефекти за изключени</string>
+    <string name="auxiliary_exposure_feedback_status">Потвърждението на експозицията е вкл.</string>
+    <string name="auxiliary_focus_peak_status">Пиков фокус е включен</string>
     <string name="back_bokeh_use_hint">Дръжте обекта на 1.5м разстояние за максимален ефект</string>
     <string name="beauty_body">Фигура</string>
     <string name="beauty_body_body">Стройно тяло</string>
@@ -112,6 +116,7 @@
     <string name="camera_liveshot_on_tip">Динамични снимки</string>
     <string name="camera_mode_options">Режими</string>
     <string name="camera_setting">Настройки на камерата</string>
+    <string name="camera_settings_category_development">Експериментални услуги</string>
     <string name="camera_settings_label">Камера</string>
     <string name="camera_snap_mode_title">Бързо снимане</string>
     <string name="camera_snap_mode_title_detail">Чукнете за подробности</string>
@@ -159,7 +164,7 @@
     <string name="confirm_install_scanner_message">Скенерът ще ви даде възможност да сканирате QR кодове, баркодове и други. Не се налага да се свързвате с интернет, за да го инсталирате.</string>
     <string name="confirm_install_scanner_title">Инсталирай скенер</string>
     <string name="confirm_location_alert">Запомняне на мястото на снимката</string>
-    <string name="confirm_location_message">Да се маркират ли вашите снимки и видеа с мястото, където са снимани?</string>
+    <string name="confirm_location_message">&lt;Data>Добре дошли в Камера! Отбелязването на Вашите снимки и клипове с местата, на които са направени, ще направи Галерията Ви по-организирана и ще Ви помогне да откривате различни елементи по-бързо. Някои функции може да не са налични, ако ограничите добавянето на информация за местоположението.&lt;br/>&lt;br/>Ние ще пазим Вашата лична информация в съответствие с приложимите закони, разпоредби и политики за поверителност.&lt;/Data></string>
     <string name="confirm_location_title">Запазване на данни за мястото</string>
     <string name="confirm_recording_fail_calling_alert">Не може да се записва по време на разговор.</string>
     <string name="confirm_recording_fail_recorder_busy_alert">Вероятно друго приложение вече използва микрофона на устройството, за да записва.</string>
@@ -296,9 +301,11 @@
     <string name="live_sticker_fragment_tab_name">Тик Ток ефекти</string>
     <string name="live_sticker_network_error_hint">Грешка в мрежата</string>
     <string name="live_sticker_updating">Актуализиране…</string>
+    <string name="location_access_allow">Разреши</string>
     <string name="location_permission_des">Запомняй местоположението на снимки и клипове</string>
     <string name="location_permission_not_ask_again">Разрешете на камерата да осъществява достъп до Вашето местоположение в Настройки.</string>
     <string name="location_permission_not_ask_again_go_to_settings">Разреши</string>
+    <string name="log_format">LOG</string>
     <string name="lying_direct_hint">Текуща ориентация</string>
     <string name="macro_mode">Макро</string>
     <string name="macro_mode_tip">Разстоянието между обектива и обекта не трябва да надвишава 10см</string>
@@ -379,6 +386,7 @@
     <string name="module_name_professional">Режим Професионален фотограф</string>
     <string name="module_name_square">Квадрат</string>
     <string name="module_name_video">Видеозапис</string>
+    <string name="moive_frame">Филмова рамка</string>
     <string name="multi_window_mode_not_supported">Камерата не работи в режим Разделен екран</string>
     <string name="network_access_user_notice_agree">Приемам</string>
     <string name="network_access_user_notice_message_live_video">&lt;Data>Камера се нуждае от достъп до интернет, за да предоставя ефекти, музика и други функции за кратки клипове.&lt;br/>&lt;br/>С натискането на Приемам по-долу Вие се съгласявате с нашето &lt;a href =%1$s>UПотребителско споразумение&lt;/a> и &lt;a href =%2$s>Политика за поверителност&lt;/a> и разрешавате на Камера да се свързва с интернет.&lt;/Data></string>
@@ -393,8 +401,47 @@
     <string name="pano_how_to_use_prompt_slow_down">Забавяне…</string>
     <string name="pano_how_to_use_prompt_start">Чукнете стрелката за да превключите посоката на заснемане и започнете панорамата бавно.</string>
     <string name="pano_how_to_use_prompt_to_move">Плавно движение на камерата</string>
+    <string name="parameter_description_pro_capture_title">Pro функции за правене на снимки</string>
+    <string name="parameter_description_pro_video_title">Pro функции за снимане на видео</string>
+    <string name="parameter_description_sub_title">Вземете повече творчески контрол върху снимките и клиповете си</string>
+    <string name="parameter_ef_split_description">Можете да премествате кръга на експозицията извън фокусния кръг и да настройвата двата параметъра поотделно.</string>
+    <string name="parameter_ef_split_title">Разделяне на измерването на фокуса и експозицията</string>
+    <string name="parameter_et_description">Скоростта на автоматичния затвор се определя от светломера на камерата. Когато избирате скоростта на затвора ръчно, помнете, че колкото по-дълго е отворен той, толкова повече светлина влиза в сензора, което прави изображението Ви по-ярко.</string>
+    <string name="parameter_exposure_description">Тази функция Ви позволява да компенсирате експозицията, когато искате изображението да бъде по-ярко или по-тъмно от предлаганото от уреда.</string>
+    <string name="parameter_exposure_feecback_description">Осветявайте областите със слаба експозиция в синьо и областите с твърде голяма експозиция в червено, за да регулирате експозицията правилно.</string>
+    <string name="parameter_exposure_feecback_title">Потвърждение на експозицията</string>
+    <string name="parameter_exposure_title">Компенсиране на експозицията</string>
+    <string name="parameter_focus_description">Можете да фокусирате както ръчно, така и автоматично. Колкото по-голяма стойност на фокуса задавате на плъзгача, толкова по-отдалечена от обектива ще бъде фокусираната област.</string>
+    <string name="parameter_focus_title">Фокус</string>
+    <string name="parameter_histogram_description">Хистограмата е представяне на експозицията в реално време, пказваща най-тъмните места от Вашата сцена вляво, преминавайки към най-светлите вдясно. Вертикалната част от скалата посочва каква част от сцената е тъмна или светла.</string>
+    <string name="parameter_histogram_title">Хистограма</string>
+    <string name="parameter_iso_description">ISO стойностите могат да бъдат определяни автоматично от светломера. Можете да променяте стойността и ръчно. Помнете, че по-високата стойност на ISO прави камерата Ви по-чувствителна на светлина, но внася повече цифров шум в изображението.</string>
+    <string name="parameter_lens_description">Можете да превключвате между много налични обективи:</string>
+    <string name="parameter_lens_marco">, MACRO (макро обектив)</string>
+    <string name="parameter_lens_st">, S-TELE (зум обектив)</string>
+    <string name="parameter_lens_t">, TELE (телефото обектив)</string>
+    <string name="parameter_lens_tele_2x">, TELE-2Х (телефото обектив)</string>
+    <string name="parameter_lens_tele_5x">, TELE-5Х (телефото обектив)</string>
+    <string name="parameter_lens_title">Обективи</string>
+    <string name="parameter_lens_uw">, UW (ултраширокоъгълен обектив)</string>
+    <string name="parameter_lens_w">WIDE (широкоъгълен обектив)</string>
+    <string name="parameter_log_format_description">Този формат записва видео с прилагане на логаритмична функция към експозицията, за да улавя повече детайли в осветеност и сенки, което Ви дава повече възможности в допълнителната обработка.</string>
+    <string name="parameter_log_format_title">Формат LOG</string>
+    <string name="parameter_metering_description">Средното измерване взема предвид всички области от изображението, като работи най-добре за равномерно осветени сцени. Центрираното измерване се съсредоточава най-вече върху средната област от рамката и взема под внимание осветеността на заобикалящата област, което е подходящо за заснемане на обекти в центъра на рамката. Точковото измерване покрива само областта в една точка, като Ви дава прецизен контрол върху експозицията.</string>
+    <string name="parameter_metering_title">Измервателни режими</string>
+    <string name="parameter_peak_focus_description">Когато фокусирате ръчно, използвайте пиковия фокус, за да поставите червено осветяване в областта на фокусирането.</string>
+    <string name="parameter_peak_focus_title">Пиков фокус</string>
+    <string name="parameter_peak_raw_description">Този формат на изображение улавя всички данни за изображението, записани от сензора, когато правите снимка. Некомпресираните данни Ви дават повече възможности при допълнителната обработка.</string>
+    <string name="parameter_peak_raw_title">Формат RAW</string>
+    <string name="parameter_wb_description">Освен предварително зададените настройки на баланса на бялото (изкуствена светлина, дневна светлина, флоуресцетна светлина, облачно време), можете да задавате баланса на бялото и до предпочитана от Вас стойност в диапазона 2000 – 8000 келвина.</string>
+    <string name="parameter_wb_title">Баланс на бялото</string>
+    <string name="parameter_zoom_slider_description">Премествайте плъзгача на мащаба нагоре или надолу, за да променяте заснемането си плавно от далечно на близко разстояние.</string>
+    <string name="parameter_zoom_slider_title">Мащабиране</string>
     <string name="path_settings">Системни приложения/Камера/Настройки</string>
     <string name="photo_assistance_tips_title">Съвети на живо</string>
+    <string name="pic_flaw_blink_more">Изглежда някой в кадъра е затворил очи.</string>
+    <string name="pic_flaw_blink_one">Изглежда човекът в кадъра е затворил очи.</string>
+    <string name="pic_flaw_cover">Изглежда лещата е частично покрита.</string>
     <string name="popup_tip_3d_beauty_intro_text">3D Красота</string>
     <string name="portait_effect_entry_blackwhite">Ч/Б</string>
     <string name="portait_effect_entry_cool">Мента</string>
@@ -416,6 +463,17 @@
  фона около вашите снимки"</string>
     <string name="portrait_bokeh_text">Режим Портрет</string>
     <string name="portrait_bokeh_tips">Поставете камерата от обекта на 1,5 метра разстояние</string>
+    <string name="portrait_india_effect_entry_memory">Спомени</string>
+    <string name="portrait_india_effect_entry_mono">Едноцветен</string>
+    <string name="portrait_india_effect_entry_pink">Розово</string>
+    <string name="portrait_india_effect_entry_portrait">Портрет</string>
+    <string name="portrait_india_effect_entry_retro">Ретро</string>
+    <string name="portrait_india_effect_entry_romantic">Романтика</string>
+    <string name="portrait_india_effect_entry_strong">Наситен</string>
+    <string name="portrait_india_effect_entry_sunny">Слънчево</string>
+    <string name="portrait_india_effect_entry_sweet">Карамел</string>
+    <string name="portrait_india_effect_entry_warm">Топъл</string>
+    <string name="portrait_india_effect_entry_young">Подмладяване</string>
     <string name="portrait_mode_depth_effect_success_hint">Ефект дълбочина</string>
     <string name="portrait_mode_lowlight_hint">Прекалено е тъмно</string>
     <string name="portrait_mode_too_close_hint">Отдалечете се повече от обекта</string>
@@ -425,7 +483,6 @@
     <string name="portrait_mode_use_hint_for_bokeh">"Изпробвайте режим Портрет.
  Направете обекта ясен и замъглете фона."</string>
     <string name="pref_960_watermark_title">Воден знак 960 FPS</string>
-    <string name="pref_advance_settings">Допълнителни настройки</string>
     <string name="pref_ai_detect">AI откриване</string>
     <string name="pref_audio_focus_entry_front">Преден</string>
     <string name="pref_audio_focus_entry_general">Нормално</string>
@@ -450,6 +507,10 @@
     <string name="pref_camera_autoexposure_entry_frameaverage">Средно по кадри</string>
     <string name="pref_camera_autoexposure_entry_spotmetering">Точка</string>
     <string name="pref_camera_autoexposure_title">Изберете режим на експониране</string>
+    <string name="pref_camera_auxiliary_close">Изкл.</string>
+    <string name="pref_camera_auxiliary_exposure_feedback">Потвърждение на експозицията</string>
+    <string name="pref_camera_auxiliary_focus_peak">Пиков фокус</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средно</string>
@@ -474,6 +535,7 @@
     <string name="pref_camera_coloreffect_entry_vsco_a4">Аналогов</string>
     <string name="pref_camera_coloreffect_entry_vsco_f2">Матирани ефекти</string>
     <string name="pref_camera_coloreffect_title">Филтри</string>
+    <string name="pref_camera_common_settings">Основни настройки</string>
     <string name="pref_camera_contrast_title">Контраст</string>
     <string name="pref_camera_delay_capture_entry_10s">Забавяне 10сек</string>
     <string name="pref_camera_delay_capture_entry_3s">Забавяне 3сек</string>
@@ -482,12 +544,10 @@
     <string name="pref_camera_delay_capture_title">Таймер</string>
     <string name="pref_camera_device_watermark_title">Воден знак на устройството</string>
     <string name="pref_camera_exposuretime_entry_0_5">2сек</string>
-    <string name="pref_camera_exposuretime_entry_1">1сек</string>
     <string name="pref_camera_exposuretime_entry_1000">1/1000сек</string>
     <string name="pref_camera_exposuretime_entry_125">1/125сек</string>
     <string name="pref_camera_exposuretime_entry_15">1/15сек</string>
     <string name="pref_camera_exposuretime_entry_16s">16 сек.</string>
-    <string name="pref_camera_exposuretime_entry_2">1/2сек</string>
     <string name="pref_camera_exposuretime_entry_250">1/250сек</string>
     <string name="pref_camera_exposuretime_entry_30">1/30сек</string>
     <string name="pref_camera_exposuretime_entry_32s">32 сек.</string>
@@ -524,6 +584,8 @@
     <string name="pref_camera_hdr_entry_live">На живо</string>
     <string name="pref_camera_hdr_entry_normal">Нормално</string>
     <string name="pref_camera_hdr_entry_off">Изключен</string>
+    <string name="pref_camera_heic_image_format_description">Снимките във високоефективния формат за изображения заемат по-малко пространство, но не се поддържат от всички приложения.</string>
+    <string name="pref_camera_heic_image_format_title">Формат HEIF</string>
     <string name="pref_camera_hfr_entry_2x">60</string>
     <string name="pref_camera_hfr_entry_3x">90</string>
     <string name="pref_camera_hfr_entry_4x">120</string>
@@ -546,6 +608,7 @@
     <string name="pref_camera_lying_summary">Известявай за текущата ориентация, когато телефонът е паралелно спрямо земята</string>
     <string name="pref_camera_lying_title">Известявай за ориентацията</string>
     <string name="pref_camera_magic_mirror_title">Вълшебно огледало</string>
+    <string name="pref_camera_manual_description_title">Относно Pro функциите</string>
     <string name="pref_camera_manual_mode_title">Ръчно фокусиране</string>
     <string name="pref_camera_movie_solid_title">Стабилизация на изображението</string>
     <string name="pref_camera_multilevel_entry_high">Високо</string>
@@ -569,6 +632,7 @@
     <string name="pref_camera_portrait_mode_title">Режим Портрет</string>
     <string name="pref_camera_proximity_lock_summary">Изключване на жестовете при поставяне в калъфче</string>
     <string name="pref_camera_proximity_lock_title">Случайна употреба</string>
+    <string name="pref_camera_quick_settings">Бързи настройки</string>
     <string name="pref_camera_recordlocation_entry_off">Изкл</string>
     <string name="pref_camera_recordlocation_entry_on">Вкл</string>
     <string name="pref_camera_recordlocation_title">GPS етикет</string>
@@ -673,6 +737,9 @@
     <string name="pref_new_slow_motion_video_quality_entry_720p">HD 720p</string>
     <string name="pref_photo_assistance_tips_off">Изключено</string>
     <string name="pref_photo_assistance_tips_on">Включено</string>
+    <string name="pref_pic_flaw_tip_summary">Получавайте известия в реално време, когато хората в кадъра затворят очи или лещата е частично покрита, докато снимате.</string>
+    <string name="pref_pic_flaw_tip_title">Съобщавай за нередности</string>
+    <string name="pref_popup_camera_title">Изскачаща камера</string>
     <string name="pref_priority_storage_title">Съхраняване на външната SD карта</string>
     <string name="pref_privacy_title">Правила за поверителност</string>
     <string name="pref_qc_focus_position_title">F</string>
@@ -812,7 +879,7 @@
     <string name="video_effect_entry_polaroid">Полароид</string>
     <string name="video_reach_size_limit">Достигнат е лимита за размер на видео.</string>
     <string name="video_ultra_clear_tip">4K UHD</string>
-    <string name="video_ultra_clear_tip_8k">8K UHD</string>
+    <string name="video_ultra_clear_tip_8k">AI 8K</string>
     <string name="view_privacy_policy">Виж Политиката на поверителност</string>
     <string name="vv_duartion_hint">%1$s | Сегмент %2$d | %3$ss</string>
     <string name="vv_hint">Можете да снимате влогове единствено в режим Пейзаж</string>

@@ -85,6 +85,7 @@
     <string name="handy_mode_summary">За да затворите, чукнете област на черния екран</string>
     <string name="handy_mode_title">Ползване с една ръка</string>
     <string name="ignore_home_when_fingerprint_enrolling_msg">Поставете пръст на бутон Начало</string>
+    <string name="input_method_clipboard_tips">Копираните елементи ще бъдат изтрити от клипборда след 48 часа</string>
     <string name="input_method_edit_phrase_text">Редактиране на чести фрази</string>
     <string name="input_method_no_content_text">Тук още няма елементи</string>
     <string name="input_method_switch_settings_text">Настройки на клавиатурата</string>

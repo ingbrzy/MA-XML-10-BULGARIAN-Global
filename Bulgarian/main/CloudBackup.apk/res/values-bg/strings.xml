@@ -10,7 +10,6 @@
     <string name="retry">Нов опит</string>
     <string name="cloud_app_current_device">Текущо устройство</string>
     <string name="cloud_app_other_devices">Други устройства</string>
-    <string name="cloud_app_restore_app_and_data">Задайте вашето устройство</string>
     <string name="cloud_app_restore_data">Личните данни и инсталираните по-рано приложения автоматично ще се появят на вашето устройство</string>
     <string name="cloud_app_dont_restore">Задай като ново устройство</string>
     <string name="cloud_app_restore_wifi_prompt">Възстановяване от рез. копие в облака.</string>
@@ -50,6 +49,8 @@
     <string name="self_device_second_space">Това е Второ работно място на телефона</string>
     <string name="other_device_main_space">Основно работно място</string>
     <string name="other_device_second_space">Второ работно място</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Възстановяване \"%s\"</string>
     <string name="size_unknown">Неизвестен размер</string>
     <string name="recovering">Възстановява се %s</string>
@@ -221,4 +222,5 @@
     <string name="restore_task_unfinished">Не може да се възстанови</string>
     <string name="restore_failed_reason_network_error">Грешка в мрежата. Изчакайте минута-две и опитайте отново.</string>
     <string name="restore_failed_reason_disk_space_not_enough">Няма достатъчно място в хранилището. Първо освободете място за съхранение.</string>
+    <string name="cloud_app_restore_app_and_data">Задайте вашето устройство</string>
 </resources>

@@ -13,20 +13,20 @@
         <item quantity="one">година</item>
     </plurals>
     <plurals name="entries">
-        <item quantity="other">%d елементи</item>
+        <item quantity="other">%d елемента</item>
         <item quantity="one">%d елемент</item>
     </plurals>
     <plurals name="loan_repayment_detail">
-        <item quantity="other">Подробни погасявания (%d на година)</item>
-        <item quantity="one">Подробно погасяване (%d на година)</item>
+        <item quantity="other">Подробни погасявания (%d години)</item>
+        <item quantity="one">Подробно погасяване (%d година)</item>
     </plurals>
     <plurals name="loan_repayment_detail_unit">
-        <item quantity="other">Подробни погасявания (%d на година), CNY</item>
-        <item quantity="one">Подробно погасяване (%d на година), CNY</item>
+        <item quantity="other">Подробни погасявания (%d години), CNY</item>
+        <item quantity="one">Подробно погасяване (%d година), CNY</item>
     </plurals>
     <plurals name="mortgage_summary_years">
-        <item quantity="other">%1$d годишно (%2$d месечно)</item>
-        <item quantity="one">%1$d годишно (%2$d месечно)</item>
+        <item quantity="other">%1$d години (%2$d месеца)</item>
+        <item quantity="one">%1$d година (%2$d месеца)</item>
     </plurals>
     <plurals name="tenure_months">
         <item quantity="other">%d месеца</item>

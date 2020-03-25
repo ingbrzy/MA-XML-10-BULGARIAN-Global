@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="alert_message_delete">
-        <item quantity="other">Изтрийте %1$s елемента?</item>
-        <item quantity="one">Изтрийте %1$s елемент?</item>
+        <item quantity="other">Изтрий %1$s елемента?</item>
+        <item quantity="one">Изтрий %1$s елемент?</item>
     </plurals>
     <plurals name="cloud_state_unsynced_count">
-        <item quantity="other">%1$s елементи не са синхронизирани</item>
+        <item quantity="other">%1$s елемента не са синхронизирани</item>
         <item quantity="one">%1$s елемент не е синхронизиран</item>
     </plurals>
     <plurals name="date_calculate_days_after">
@@ -45,8 +45,8 @@
         <item quantity="one">Преди %1$d ден</item>
     </plurals>
     <plurals name="todo_alert_message_delete">
-        <item quantity="other">Да се изтрият ли %1$s задачи?</item>
-        <item quantity="one">Да се изтрие ли %1$s задача?</item>
+        <item quantity="other">Изтриване на %1$s задачи?</item>
+        <item quantity="one">Изтриване на %1$s задача?</item>
     </plurals>
     <plurals name="todo_event_description_days_ago">
         <item quantity="other">Преди %1$d дни</item>
@@ -57,7 +57,7 @@
         <item quantity="one">След %1$d ден</item>
     </plurals>
     <plurals name="word_count">
-        <item quantity="other">%d символи</item>
+        <item quantity="other">%d символа</item>
         <item quantity="one">%d символ</item>
     </plurals>
 </resources>

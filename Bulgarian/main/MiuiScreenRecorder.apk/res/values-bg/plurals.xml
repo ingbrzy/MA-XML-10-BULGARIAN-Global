@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="delete_confirm_text">
-        <item quantity="other">Изтриване на %1$d записи на екрана?</item>
-        <item quantity="one">Изтриване на този запис?</item>
+        <item quantity="other">Изтриване на %1$d записа на екрана?</item>
+        <item quantity="one">Изтриване на %1$d запис на екрана?</item>
     </plurals>
     <plurals name="home_title_selected">
         <item quantity="other">Избрани са %1$d елементи</item>

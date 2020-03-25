@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="last_several_days">
+        <item quantity="other">%d дни</item>
+        <item quantity="one">%d ден</item>
+    </plurals>
+    <plurals name="trend_from_last_several_day_equal">
+        <item quantity="other">Екранното време днес се равнява на средното Ви %d-дневно</item>
+        <item quantity="one">Екранното време днес се равнява на средното Ви %d-дневно</item>
+    </plurals>
+    <plurals name="trend_from_last_several_day_less">
+        <item quantity="other">%2$s по-малко екранно време днес от средното Ви %1$d-дневно</item>
+        <item quantity="one">%2$s п-малко екранно време днес от средното Ви %1$d-дневно</item>
+    </plurals>
+    <plurals name="trend_from_last_several_day_more">
+        <item quantity="other">%2$s повече екранно време днес от средното Ви %1$d-дневно</item>
+        <item quantity="one">%2$s повече екранно време днес от средното Ви %1$d-дневно</item>
+    </plurals>
+    <plurals name="unlock_times">
+        <item quantity="other">%.2f пъти</item>
+        <item quantity="one">%.2f път</item>
+    </plurals>
+    <plurals name="usage_days">
+        <item quantity="other">%d дни</item>
+        <item quantity="one">%d ден</item>
+    </plurals>
     <plurals name="usage_state_device_explain_today">
         <item quantity="other">Отключване: %d пъти</item>
         <item quantity="one">Отключване: %d път</item>
@@ -15,6 +39,10 @@
     <plurals name="usage_state_device_noti_explain_week">
         <item quantity="other">Получихте %d известия</item>
         <item quantity="one">Получихте %d известие</item>
+    </plurals>
+    <plurals name="usage_state_focus_usage_summary">
+        <item quantity="other">%d минути са голяма крачка към постоянството и концентрацията.</item>
+        <item quantity="one">%d минута е голяма крачка към постоянството и концентрацията.</item>
     </plurals>
     <plurals name="usage_state_hour">
         <item quantity="other">%d часа</item>

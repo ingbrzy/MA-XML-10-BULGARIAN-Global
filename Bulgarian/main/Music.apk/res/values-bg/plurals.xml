@@ -118,6 +118,10 @@
         <item quantity="other">%d песни</item>
         <item quantity="one">%d песен</item>
     </plurals>
+    <plurals name="sound_fade_duration_in_seconds">
+        <item quantity="other">Преливане между песните: %d секунди</item>
+        <item quantity="one">Преливане между песните: %d секунда</item>
+    </plurals>
     <plurals name="video_count">
         <item quantity="other">Видеоклипове</item>
         <item quantity="one">Видеоклип</item>
