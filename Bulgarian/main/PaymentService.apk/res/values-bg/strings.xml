@@ -211,5 +211,4 @@
     <string name="passport_wrong_phone_number_format">Въведеният телефонен номер е с невалиден формат</string>
     <string name="passport_wrong_vcode">Кодът, който сте въвели е грешен</string>
     <string name="passport_yes">Да</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
 </resources>
