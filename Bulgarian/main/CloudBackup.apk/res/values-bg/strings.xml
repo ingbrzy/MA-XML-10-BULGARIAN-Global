@@ -49,6 +49,8 @@
     <string name="self_device_second_space">Това е Второ работно място на телефона</string>
     <string name="other_device_main_space">Основно работно място</string>
     <string name="other_device_second_space">Второ работно място</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="process_whole_recovery">Възстановяване \"%s\"</string>
     <string name="size_unknown">Неизвестен размер</string>
     <string name="recovering">Възстановява се %s</string>
@@ -57,6 +59,7 @@
     <string name="start_backup_to_micloud">Рез. копие на приложения в Xiaomi Облак</string>
     <string name="backing_up_to_micloud">Архивира се…</string>
     <string name="restore_from_cloud">Възстановяване от рез. копие в облака</string>
+    <string name="restore_from_mimover">Прехвърлете от старото си устройство чрез Mi Трансфер</string>
     <string name="backup_to_cloud">Архив на прил.</string>
     <string name="restoring_file_title_no_progress">Възстановяване на файлове…</string>
     <string name="menu_item_sort">Сортиране по</string>
@@ -80,7 +83,7 @@
     <string name="download_settings">Изтегляне на настройките на нач. екран: %s%%</string>
     <string name="cloud_back_up_date_format">HH:mm dd.MM.yyyy</string>
     <string name="recover_home_settings">Възстановяване на настройките на нач. екран</string>
-    <string name="cancel_recover_settings"><u>Отказ</u></string>
+    <string name="cancel_recover_settings">Отказ</string>
     <string name="recover_settings_description">Задръжте устройството си включено</string>
     <string name="recover_miui_settings">Възстановяване системните настройки на MIUI</string>
     <string name="wait_icon_download">Изтегляне икони на приложения</string>
@@ -106,6 +109,7 @@
     <string name="restore_data_summary">Тази функция се нуждае от връзка с интернет.</string>
     <string name="query_restore_summary">В Xiaomi Облак е открито рез. копие на това устройство. Да се възстановят ли приложенията на началния екран и настройките, или да се използва като ново устройство и да се изтрият предишните рез. копия за него в Xiaomi Облак?</string>
     <string name="restore_home_screen_apps">Възстановяване от рез. копие в облака</string>
+    <string name="restoring_home_screen_apps">Възстановяване от Xiaomi Cloud…</string>
     <string name="query_restore_description">Възстановяване на приложенията на начален екран и настройките чрез това резервно копие. Това ще презапише всички данни на дублиращите се приложения. Приложенията, които не са включени в резервното копие ще бъдат преместени на последния начален екран.</string>
     <string name="restore_from_this_device">Възстановяване чрез това резервно копие</string>
     <string name="confirm_cancel_restore_title">Да отменя ли възстановяването?</string>
@@ -132,7 +136,7 @@
     <string name="provision_error_connect_msg">Тествайте мрежовата връзка и опитайте отново. Архивите не са достъпни, когато вашето устройство е офлайн.</string>
     <string name="provision_error_connect_title">Не може да се свърже</string>
     <string name="loading_user_backup">Зареждане на архив…</string>
-    <string name="loading_progress_num">(%s%%)</string>
+    <string name="loading_progress_num">Заредени %s%%</string>
     <string name="error_num_placeholder">--</string>
     <string name="doing_calc_backup_data_size">Изчисляване на размер…</string>
     <string name="authentication_failed">Не може да се провери вашият Mi Профил.</string>
@@ -165,7 +169,7 @@
     <string name="cloud_backup">Рез. копия в Облак</string>
     <string name="open_backup_switch">Превключи на Резервно копие</string>
     <string name="restore_cloud_backup_to_phone">Възстановяване на елементи облака</string>
-    <string name="cloud_backup_in_process">Архивиране…</string>
+    <string name="cloud_backup_in_process">Създават се резервни копия</string>
     <string name="cloud_backup_in_cancel">Отказ</string>
     <string name="dialog_cancel_backup_title">Отмяна на изходящите резервни копия?</string>
     <string name="dialog_cancel_backup_msg">Преминаването към размяна ще спре всички започнати резервни копия.</string>
@@ -220,5 +224,6 @@
     <string name="restore_task_unfinished">Не може да се възстанови</string>
     <string name="restore_failed_reason_network_error">Грешка в мрежата. Изчакайте минута-две и опитайте отново.</string>
     <string name="restore_failed_reason_disk_space_not_enough">Няма достатъчно място в хранилището. Първо освободете място за съхранение.</string>
-    <string name="cloud_app_restore_app_and_data">Задайте вашето устройство</string>
+    <string name="storage_unit_mb">%s MB</string>
+    <string name="storage_unit_gb">%s GB</string>
 </resources>

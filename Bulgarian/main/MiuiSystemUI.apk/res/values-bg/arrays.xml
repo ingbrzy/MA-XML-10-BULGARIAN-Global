@@ -26,6 +26,24 @@
         <item>%1$s</item>
         <item>%1$s</item>
     </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+    </string-array>
     <string-array name="battery_labels">
         <item>0%</item>
         <item>50%</item>
@@ -93,8 +111,11 @@
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Адаптивно аудио</item>
         <item>Qualcomm® aptX™ TWS+ аудио</item>
-        <item>Включи опционално кодеците</item>
-        <item>Изключи опционалните кодеци</item>
+        <item>LHDC V3</item>
+        <item>LHDC V2</item>
+        <item>LHDC V1</item>
+        <item>Активиране на опционалните кодеци</item>
+        <item>Деактивиране на опционалните кодеци</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Използвай избора на системата (По подразбиране)</item>
@@ -105,8 +126,11 @@
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Адаптивно аудио</item>
         <item>Qualcomm® aptX™ TWS+ аудио</item>
-        <item>Включи опционално кодеците</item>
-        <item>Изключи опционалните кодеци</item>
+        <item>LHDC V3</item>
+        <item>LHDC V2</item>
+        <item>LHDC V1</item>
+        <item>Активиране на опционалните кодеци</item>
+        <item>Деактивиране на опционалните кодеци</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -130,8 +154,8 @@
         <item>Деактивирано</item>
         <item>Активирай Филтри</item>
         <item>Включено</item>
-        <item>Опцията Филтрирани хедъри е включена.</item>
-        <item>Опцията Филтрирани медийни пакети е включена.</item>
+        <item>Опцията \"Филтрирани хедъри\" е включена.</item>
+        <item>Опцията \"Филтрирани медийни пакети\" е включена.</item>
     </string-array>
     <string-array name="clock_options">
         <item>Показване на час, минути и секунди</item>

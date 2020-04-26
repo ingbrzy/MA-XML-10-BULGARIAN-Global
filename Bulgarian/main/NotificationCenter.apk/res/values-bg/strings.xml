@@ -32,6 +32,7 @@
     <string name="on">Включване</string>
     <string name="settings_guide_title">Искате още настройки?</string>
     <string name="show_badge_notifications">Уведомителни значки</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Статус лента</string>
     <string name="summary_disable_float_notification">Плаващите уведомления не са разрешени</string>
     <string name="summary_disable_lockscreen_notification">Уведомленията за заключен екран не са позволени</string>

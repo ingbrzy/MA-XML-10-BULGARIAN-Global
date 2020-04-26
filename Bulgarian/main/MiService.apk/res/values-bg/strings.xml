@@ -30,8 +30,12 @@
     <string name="mi_service_app_name">Услуги и обратна връзка</string>
     <string name="miservice_channel_update_notification_info">\"Услуги и обратна връзка\" изисква данни онлайн…</string>
     <string name="miservice_notification_boot_content">Научете повече за това какво може да прави MIUI</string>
+    <string name="miservice_notification_huanji_content">Прехвърлете ги с Mi Трансфер</string>
+    <string name="miservice_notification_huanji_title">Имате важни неща на стария си телефон?</string>
     <string name="miservice_notification_open_feedback_content">Всички функции за обратна връзка са преместени в новото приложение</string>
     <string name="miservice_notification_open_feedback_title">Представяме Ви \"Услуги и обратна връзка\"</string>
+    <string name="miservice_notification_scan_content">Използвай Скенер, за да превеждаш думи и фрази</string>
+    <string name="miservice_notification_scan_title">Превеждай мигновено</string>
     <string name="miui_feedback_answer_detail_community">Можете да откриете отговори на въпросите си в Mi Общност</string>
     <string name="miui_feedback_answer_detail_feedback_resolved">Да</string>
     <string name="miui_feedback_answer_detail_feedback_result">Благодарим Ви за коментара!</string>
@@ -46,6 +50,7 @@
     <string name="miui_feedback_edit_add_original_images_dialog_content">Ако проблемът, който докладвате, е свързан с качеството на изображения от камерата, добавете оригинална примерна снимка (неизрязана), за да ни помогнете да установим проблема. Добавяне на снимка сега?</string>
     <string name="miui_feedback_edit_choose_module">Изберете елемент</string>
     <string name="miui_feedback_edit_choose_module_hint">Задължително</string>
+    <string name="miui_feedback_edit_choose_occurrence_time">Време</string>
     <string name="miui_feedback_edit_choose_reproductivity">Репродуктивност</string>
     <string name="miui_feedback_edit_choose_third_app_name">Изберете име на приложението</string>
     <string name="miui_feedback_edit_contact_info_hint">Тел. номер/имейл</string>
@@ -58,6 +63,7 @@
     <string name="miui_feedback_edit_discard_draft_dialog_title">Отхвърляне на черновата?</string>
     <string name="miui_feedback_edit_hint">Докладвайте за грешки всеки път, когато се натъкнете на проблеми, за да ни помогнете да ги оправим по-бързо</string>
     <string name="miui_feedback_edit_hint_gone">Затворено съобщение</string>
+    <string name="miui_feedback_edit_hint_optional">Избери</string>
     <string name="miui_feedback_edit_mobile_data_note_dialog_cancel">Изчакване за Wi-Fi</string>
     <string name="miui_feedback_edit_mobile_data_note_dialog_confirm">Качване</string>
     <string name="miui_feedback_edit_mobile_data_note_dialog_content">Изглежда сте свързани към платена мрежа. Качването на регистри може да генерира допълнителни разходи.</string>
@@ -92,6 +98,7 @@
     <string name="miui_feedback_edit_submit_dialog_not_show_again">Не показвай отново</string>
     <string name="miui_feedback_edit_submit_dialog_title">Изпрати доклад</string>
     <string name="miui_feedback_edit_submit_directly">Изпрати</string>
+    <string name="miui_feedback_edit_title_occurrence_time">Изберете време</string>
     <string name="miui_feedback_edit_title_reproductivity">Изберете репродуктивност</string>
     <string name="miui_feedback_edit_toast_description_required">Трябва да напишете описание</string>
     <string name="miui_feedback_edit_toast_module_required">Изберете елемент</string>

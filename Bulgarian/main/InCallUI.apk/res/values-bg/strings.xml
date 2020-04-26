@@ -91,7 +91,6 @@
     <string name="description_image_button_four">четири</string>
     <string name="description_image_button_hangup">Край</string>
     <string name="description_image_button_message_enter">Отговорете със съобщение</string>
-    <string name="description_image_button_message_exit">Скрий съобщенията</string>
     <string name="description_image_button_nine">девет</string>
     <string name="description_image_button_one">едно</string>
     <string name="description_image_button_pound">диез</string>
@@ -206,4 +205,5 @@
     <string name="volume_boost_text">Ускоряването е успешно</string>
     <string name="wait_prompt_str">\"Да се изпратят ли следните мелодии? \"</string>
     <string name="waiting_close_airplane_mode">Изчаква изключване на самолетен режим ...</string>
+    <string name="wifi_call">VoWifi обаждане</string>
 </resources>

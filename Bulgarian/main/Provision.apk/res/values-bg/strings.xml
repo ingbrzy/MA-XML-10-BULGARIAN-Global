@@ -95,6 +95,7 @@
     <string name="other_settings_auto_update">Автоматични системни актуализации</string>
     <string name="other_settings_auto_update_summary">MIUI ще избере най-подходящото време за изтегляне и инсталиране на актуализациите. Вашето устройство ще се рестартира автоматично, за да приложи промените.</string>
     <string name="other_settings_enhanced_lockscreen">Сменящи се тапети</string>
+    <string name="other_settings_enhanced_lockscreen_for_india">Glance за Mi</string>
     <string name="other_settings_enhanced_lockscreen_privacy_index">Политика на поверителност</string>
     <string name="other_settings_enhanced_lockscreen_summary">Получавайте подбрани изображения и истории на заключения си екран всеки ден. %1$s и %2$s</string>
     <string name="other_settings_enhanced_lockscreen_summary_index">Лицензионно споразумение с краен потребител</string>
@@ -160,7 +161,7 @@
     <string name="require_authority_statement">За да можем да Ви предоставяме основни услуги, трябва да дадете следните разрешения, за да можем да събираме Вашата лична информация:</string>
     <string name="require_network_authority_statement">За да можем да Ви предоставяме основни услуги, трябва да имате връзка с интернет и да дадете следните разрешения, за да можем да събираме Вашата лична информация:</string>
     <string name="screen_recording_introduction">Това приложение Ви позволява да записвате случващото се на екрана.</string>
-    <string name="security_introduction">Можете да използвате това приложение за почистване на боклука от устройството си, за откриване и неутрализиране на вируси, оптимизиране на ефективността при игри, пестене на батерията, управление на приложенията и други.</string>
+    <string name="security_introduction">Можете да използвате това приложение за почистване на боклука от устройството си, за откриване и неутрализиране на вируси, за оптимизиране на ефективността при игри, за пестене на батерията, управление на приложенията и други.</string>
     <string name="security_mobile_account_introduction">за влизане в системни профили и управляването им;</string>
     <string name="service_agreement">Прочетох и приемам правилата и условията за ползване.</string>
     <string name="service_name_album">Галерия</string>
@@ -206,7 +207,7 @@
     <string name="summary_not_set">Не е настроено</string>
     <string name="system_navigation_mode">Режим за навигиране в системата</string>
     <string name="terms_of_use">Общи условия</string>
-    <string name="terms_of_use_ble_htmlViewer">, слети доставчици на местоположение, HTMLViewer</string>
+    <string name="terms_of_use_ble_htmlViewer">, слети доставчици на местоположение, показване на HTML</string>
     <string name="terms_of_use_label">"Прочетете нашето Потребитеско споразумение и Политика за поверителност, за да разберете каква информация събираме, как я използваме и какви възможности за избор имате.
 Вие трябва да се съгласите с нашето Потребителското споразумение и Политика за поверителност, преди да използвате MIUI.
 %s и компонентите на Mi Профил ще се свържат към интернет и ще получат Вашето местоположение."</string>

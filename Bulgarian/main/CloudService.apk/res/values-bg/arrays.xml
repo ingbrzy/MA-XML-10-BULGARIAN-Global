@@ -26,17 +26,17 @@
         <item>Архив на системните настройки</item>
         <item>Намери устройство</item>
     </string-array>
-    <string-array name="priv_dialog_finddevice_runtime_perm_desc">
-        <item>For identifying your device</item>
-        <item>For locating your device and switching to the lost mode</item>
+    <string-array name="privacy_dialog_finddevice_runtime_perm_desc">
+        <item>за идентифициране на устройството;</item>
+        <item>за установяване местоположението на устройството и превключване към режим \"Изгубено\".</item>
     </string-array>
-    <string-array name="priv_dialog_sync_runtime_perm_desc">
-        <item>For syncing events</item>
-        <item>For syncing messages</item>
-        <item>For syncing messages</item>
-        <item>For syncing contacts</item>
-        <item>For syncing contacts</item>
-        <item>For saving items on your device (e.g. images, videos, songs)</item>
+    <string-array name="privacy_dialog_sync_runtime_perm_desc">
+        <item>за синхронизиране на събития;</item>
+        <item>за синхронизиране на съобщения;</item>
+        <item>за синхронизиране на съобщения;</item>
+        <item>за синхронизиране на контакти;</item>
+        <item>за синхронизиране на контакти;</item>
+        <item>за запазване на неща в устройството Ви (напр. изображения, видеа, песни);</item>
     </string-array>
     <string-array name="settings_search_backup_manage">
         <item>Архивиране</item>

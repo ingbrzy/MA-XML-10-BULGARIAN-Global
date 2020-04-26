@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="HIPS_Perm_CallLog_Desc">Писане и изтриване на история на обажданията</string>
+    <string name="HIPS_Perm_Call_Desc">Директно набиране на телефонни номера</string>
+    <string name="HIPS_Perm_Contact_Desc">Промяна и изтриване на контакти</string>
+    <string name="HIPS_Perm_PhoneID_Desc">Достъп до телефонния номер, IMEI и IMSI</string>
+    <string name="HIPS_Perm_PhoneID_Desc_Q">Достъп до телефонния номер и състоянието на устройството</string>
+    <string name="HIPS_Perm_Read_Call_Log_Desc">Четене на списъка с повиквания</string>
+    <string name="HIPS_Perm_Read_Contact_Desc">Четене на контактите</string>
+    <string name="HIPS_Perm_Read_SMS_Desc">Четене на SMS съобщенията</string>
+    <string name="HIPS_Perm_SendSMS_Desc">Директно изпращане на SMS съобщения</string>
+    <string name="HIPS_Perm_add_voicemail_Desc">Добавяне на системно гласово съобщение</string>
+    <string name="HIPS_Perm_get_accounts_Desc">Достъп до всички профили, съхранявани на устройството</string>
+    <string name="HIPS_Perm_use_sip_Desc">Използване на протокол за стартиране на сесия за предаване на видео</string>
     <string name="Phonepass">Приемане на обаждания</string>
     <string name="SMS_and_MMS">SMS и MMS</string>
     <string name="SMSpass">Разреши съобщения</string>
@@ -13,16 +25,20 @@
     <string name="ac_enter_applock">Вход в закл. на прил.</string>
     <string name="ac_firstUseApplock_subTitle">Използвайте по-добри системни инструменти за сигурност</string>
     <string name="ac_firstUseApplock_title">Задайте парола, за да защитите приложенията си</string>
-    <string name="ac_mask_all_apps">Скрий за всички приложения</string>
+    <string name="ac_mask_all_apps">Скрий за всички</string>
     <string name="ac_notification_contentText">Чукнете за включване</string>
     <string name="ac_notification_contentTitle">Защитете приложенията си със Заключване на приложения</string>
     <string name="ac_post_notification_contentText">Получаване на системно ниво на защита</string>
     <string name="ac_post_notification_contentTitle">Включете Закл. приложения</string>
     <string name="ac_pre_notification_contentText">Защитете вашата лична информация</string>
     <string name="ac_pre_notification_contentTitle">Опитайте Закл на приложения</string>
+    <string name="ac_recommend_guide_dialog_app_content">Use App lock with this app in order to protect your personal info and avoid data leaks.</string>
+    <string name="ac_recommend_guide_dialog_content">You can protect your personal info and avoid data leaks using App lock.</string>
+    <string name="ac_recommend_guide_dialog_ignore">"Don't show again"</string>
+    <string name="ac_recommend_guide_dialog_open">Turn on</string>
     <string name="ac_summaryOff">Изключено, не се изисква парола за вход в приложенията</string>
     <string name="ac_summaryOn">Изисква се парола за отваряне на защитени приложения</string>
-    <string name="ac_unmask_all_apps">Покажи за всички приложения</string>
+    <string name="ac_unmask_all_apps">Показвай за всички</string>
     <string name="access_control_app_is_launching">Приложението стартира</string>
     <string name="access_control_failed_need_to_unlock_nofingerprint">Въведете паролата си, преди да отключите с пръстов отпечатък</string>
     <string name="access_control_fingerprint_not_identified_msg">Отпечатъкът не може да се разпознае.</string>
@@ -126,8 +142,10 @@
     <string name="antivirus_update_btn_contiue">Продължи</string>
     <string name="antivirus_update_btn_open">Приеми</string>
     <string name="antivirus_update_btn_update">Актуализирай</string>
+    <string name="apn_exception_modify_summary">Операторската точка за достъп по подразбиране не се използва или е променена.</string>
     <string name="apn_exception_summary">Настройките за APN на оператора не са правилни</string>
     <string name="apn_exception_title">Проверете настройките за APN</string>
+    <string name="apn_exception_wap_summary">В момента WAP е нестабилен. Превключете на NET.</string>
     <string name="app_bg_restrict_dialog_message">Ограничаването на мрежовата връзка на заден план може е причина приложението да не работи нормално. Например да не получавате вече съобщения или актуализации. Да се ограничи ли въпреки това.</string>
     <string name="app_check_no_issue">Супер! Изглежда, че няма проблеми с батерията.</string>
     <string name="app_detail">Детайли</string>
@@ -288,6 +306,7 @@
     <string name="applock_add_account">Добави</string>
     <string name="applock_add_account_info">Добавете вашия Mi профил, за да можете да нулирате вашата парола в случай, че я забравите.</string>
     <string name="applock_add_account_setting">Профил и сигурност</string>
+    <string name="applock_app_recommend_lock_title">Можете да заключите следните приложения</string>
     <string name="applock_bind_account_title">Забравена парола</string>
     <string name="applock_close_dialog_summary">Всички скрити приложения ще станат видими, техните преки пътища на начален екран ще бъдат възстановени и вашата парола за заключване на приложения ще бъде изтрита. Искате ли да изключите Закл. на приложения?</string>
     <string name="applock_close_dialog_title">Изкл. на Заключване на приложения?</string>
@@ -296,11 +315,29 @@
     <string name="applock_face_unlock_title">Отключване с лице</string>
     <string name="applock_function_base_settings">Заключване на приложения</string>
     <string name="applock_function_pwd_settings">Парола</string>
+    <string name="applock_go_to">Настройки</string>
+    <string name="applock_guide_open_applock">Включи</string>
+    <string name="applock_guide_tip1">Налични са различни опции за вид парола. Отключвайте приложенията с пръстов отпечатък, лицево разпознаване или с въвеждане на парола.</string>
+    <string name="applock_guide_tip1_global">Отключвайте приложенията с пръстов отпечатък, лицево разпознаване или с въвеждане на парола.</string>
+    <string name="applock_guide_tip1_global_without_face">Отключвайте приложенията с пръстов отпечатък или с въвеждане на парола.</string>
+    <string name="applock_guide_tip1_global_without_finger">Отключвайте приложенията с пръстов отпечатък или с въвеждане на парола.</string>
+    <string name="applock_guide_tip1_global_without_finger_face">Налични са различни опции за вид парола.</string>
+    <string name="applock_guide_tip1_without_face">Налични са различни опции за вид парола. Отключвайте приложенията с пръстов отпечатък или с въвеждане на парола.</string>
+    <string name="applock_guide_tip1_without_finger">Налични са различни опции за вид парола. Отключвайте приложенията с лицево разпознаване или с въвеждане на парола.</string>
+    <string name="applock_guide_tip1_without_finger_face">Налични са различни опции за вид парола.</string>
+    <string name="applock_guide_tip2">Добавете своя Mi профил, за да можете да смените паролата си, в случай че я забравите.</string>
+    <string name="applock_guide_tip3">Съдържанието на известието се скрива.</string>
+    <string name="applock_guide_tip3_global">Съдържанието на известието се скрива.</string>
+    <string name="applock_guide_title">Защитавайте поверителността си със \"Заключване на приложения\"</string>
     <string name="applock_header_text_less_than_half">Прекалено малко. Начертайте още.</string>
+    <string name="applock_lock_all">Заключи всички</string>
     <string name="applock_login_and_add_account">Вписване и добавяне</string>
     <string name="applock_not_add_account"><u>Не сега</u></string>
     <string name="applock_not_login_account">Не сте вписан</string>
+    <string name="applock_set_password_title">Смяна на типа парола</string>
+    <string name="applock_settings_unlock_all_toast">Всички приложения онключени</string>
     <string name="applock_toast_tip">Защитата на прилож. е потвърдена успешно</string>
+    <string name="applock_unlock_all">Отключи всички</string>
     <string name="apps_item_sign_dialog_content">Цифровият подпис на \"%s\" е различен от този в Google Магазин. Да се изтрие ли приложението и да се инсталира официалната версия? Забележка: инсталирането на приложения с конфликт в цифровото подписване може да предизвика загуба на данни.</string>
     <string name="apps_item_sign_dialog_title">Инсталиране на официална версия</string>
     <string name="apps_item_sign_install_button_text">Замяна</string>
@@ -533,7 +570,7 @@
     <string name="cancel_button">Отказ</string>
     <string name="card_main_applock_action">Активирай</string>
     <string name="card_main_applock_summary">Защитете вашите приложения с парола.</string>
-    <string name="card_main_applock_title">App lock</string>
+    <string name="card_main_applock_title">Заключване на приложения</string>
     <string name="card_main_deepclean_action">Изчистване</string>
     <string name="card_main_deepclean_qq_title">QQ почистване</string>
     <string name="card_main_deepclean_summary">Изтрийте файловете от които нямате нужда</string>
@@ -557,6 +594,7 @@
     <string name="card_main_private_space_summary">Използвайте Второ пространство все едно имате две устройства</string>
     <string name="card_main_private_space_title">Второ работно място</string>
     <string name="card_main_sectool_title">Инструменти</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_xspace_action">Създаване</string>
     <string name="card_main_xspace_summary">Създайте два профила за всяко приложение</string>
     <string name="card_main_xspace_title">Клонирани приложения</string>
@@ -749,6 +787,7 @@
     <string name="doze_optimization_title">Оптимизиране контрол на докосване</string>
     <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
+    <string name="ellipsis">…</string>
     <string name="email">Имейл</string>
     <string name="empty_app">Няма приложения</string>
     <string name="empty_title_auto_start_list">Няма приложения</string>
@@ -798,7 +837,9 @@
     <string name="exo_download_notification_channel_name">Изтегляния</string>
     <string name="exo_download_removing">Изтеглянията се премахват</string>
     <string name="exo_item_list">%1$s – %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Автоматично</string>
     <string name="exo_track_selection_none">Нищо</string>
     <string name="exo_track_selection_title_audio">Аудиозапис</string>
@@ -1249,6 +1290,7 @@
     <string name="load_only_under_wlan">Заредете използвайки Wi-Fi</string>
     <string name="loading">Един момент…</string>
     <string name="local_ip_exception_summary">Неуспешно получаване на IP адрес. За да докладвате този проблем до MIUI, отидете в приложението Отзиви и изпратете лог от устройството ви.</string>
+    <string name="lock_all_title">Заключи всички приложения</string>
     <string name="lock_mode_title">Настройки за заключване</string>
     <string name="lock_screen_traffic_guide_notification_summary">%s използвани при заключен екран.</string>
     <string name="lock_screen_traffic_guide_notification_title">Чукнете за регулиране на трафика на данни</string>
@@ -1425,9 +1467,11 @@
     <string name="menu_text_antispam">Антиспам</string>
     <string name="menu_text_antivirus">Сканиране на защитата</string>
     <string name="menu_text_garbage_cleanup">Почистване</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_license_manager">Разрешения</string>
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_unit_b">Б</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
@@ -1435,6 +1479,7 @@
     <string name="menu_text_networkassistants_unit_mb">МБ</string>
     <string name="menu_text_optimize_manage">Подобрете скоростта</string>
     <string name="menu_text_power_manager">Батерия и производителност</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Премахни от изключения</string>
     <string name="menu_white">Добавяне към изключения</string>
     <string name="mi_service_app_detail">Детайли за употребата на данни</string>
@@ -1457,6 +1502,11 @@
     <string name="more_lock">Още</string>
     <string name="more_settings">Още</string>
     <string name="name">Име</string>
+    <string name="nd_result_button_optimize">Оптимизирай</string>
+    <string name="nd_result_summary_optimize">Пробвай да оптимизираш мрежовата връзка, когато е нестабилна.</string>
+    <string name="nd_result_title_auxiliary">Мрежови настройки</string>
+    <string name="nd_result_title_network">Мрежова свързаност</string>
+    <string name="nd_result_title_optimize">Оптимизация на мрежата</string>
     <string name="net_booster">Подобряване скоростта на мрежата</string>
     <string name="net_booster_expire_notification">Сесията на Мрежовия ускорител е към края си</string>
     <string name="net_booster_overdue_notification">Сесията на Мрежовия ускорител е към края си</string>
@@ -1537,8 +1587,8 @@
     <string name="notification_garbage_cleanup_title">Изчисти отпадъчните файлове.</string>
     <string name="notification_mask_summary">Не показвай съдържанието на известие от защитени приложения</string>
     <string name="notification_mask_title">Скрий съдържанието на известието</string>
-    <string name="notification_masked_item">Скрий известията</string>
-    <string name="notification_masked_subtitle">Скрий известията от приложенията, защитени от Закл. приложения</string>
+    <string name="notification_masked_item">Как да скриете съдържанието на известия?</string>
+    <string name="notification_masked_subtitle">Използвайте App lock за скриване на съдържанието на известия от избрани приложения</string>
     <string name="notification_summary_cmcc_app_check">Докоснете за подробности.</string>
     <string name="notify_channel_mipush">Push известия за сигурност</string>
     <string name="notify_channel_name_security">Защита на системата</string>
@@ -1600,7 +1650,7 @@
     <string name="operator_number_unicom">10010</string>
     <string name="optimize_manage_title">Подобрете скоростта</string>
     <string name="optimize_result_available_memory_info">Достъпна памет</string>
-    <string name="optimize_result_button_cloudspace">Добави облачно хранилище</string>
+    <string name="optimize_result_button_cloudspace">Вземи още място за съхранение в облака</string>
     <string name="optimize_result_button_consume_power_analysis">Провери батерията</string>
     <string name="optimize_result_button_cooldown_now">Охлаждане</string>
     <string name="optimize_result_button_correct_now">Регулиране</string>
@@ -1695,6 +1745,8 @@
     <string name="percentage">%d%%</string>
     <string name="perfermance_optimization_summary">Предотвратяване на прегряване и проблеми с хардуера</string>
     <string name="perfermance_optimization_title">Оптимизиране на производителността</string>
+    <string name="permdesc_in_calls">Monitor incoming calls</string>
+    <string name="permdesc_out_calls">Monitor outgoing calls</string>
     <string name="permgroupdesc_calendar">Достъп до събития в календара</string>
     <string name="permgroupdesc_calllog">Достъп до история на обажданията и записване в нея</string>
     <string name="permgroupdesc_camera">Правене на снимки и видеоклипове</string>
@@ -1761,6 +1813,11 @@
     <string name="power_center_dialog_msg_top">Когато услугата Икономия на батерия е включена, MIUI ще предприеме следните оптимизации:</string>
     <string name="power_center_hints_scan_danger_result">Можете да коригирате този проблем сега</string>
     <string name="power_center_list_item_auto_brightness">Корекция на автоматичната яркост на екрана</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh (милиампер-час)</string>
+    <string name="power_center_list_item_battery_status_capacity">мАч</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">ч</string>
     <string name="power_center_list_item_close_bluetooth">Изключете Bluetooth</string>
     <string name="power_center_list_item_deep_save_title">Разширени настройки</string>
@@ -1773,6 +1830,7 @@
     <string name="power_center_power_save_summary_text">Увеличете оставащото време с до %1$dч %2$dмин</string>
     <string name="power_center_power_save_title_text">Икономия на батерия</string>
     <string name="power_center_repeat">Повтори</string>
+    <string name="power_center_scan_item_title_5g">5G свързаност</string>
     <string name="power_center_scan_item_title_GPS">Коригиране на точността на GPS</string>
     <string name="power_center_scan_item_title_abnormal">Проблеми с батерията</string>
     <string name="power_center_scan_item_title_abnormal_apps">Приложения, които хабят батерия</string>
@@ -1803,6 +1861,7 @@
     <string name="power_dialog_cancel">Отказ</string>
     <string name="power_dialog_ok">OK</string>
     <string name="power_dialog_super_save_msg">Свръх икономия на батерията ограничава повечето услуги, които консумират енергия и забавят работата на Вашето устройство. Функционалността ще бъде сведена до основните неща за един телефон: обаждания, SMS и връзката с клетъчната мрежа. Те ще работят колкото се може по - дълго. Да включа ли режим Свръх икономия на батерията?</string>
+    <string name="power_dialog_super_save_msg_5g">Ултра пестене на батерия ограничава повечето консумиращи енергия функции (напр. 5G свързаност), които намаляват ефективността на устройството Ви. Няма да бъдат ограничени само обажданията, съобщенията и мрежовата свързаност. Включване на Ултра пестене на батерия?</string>
     <string name="power_dialog_super_save_title">Свръх икономия на батерията</string>
     <string name="power_idle">Устройството е неактивно</string>
     <string name="power_main_battery_last_day_hour">Остават %1$sден %2$sч</string>
@@ -1814,6 +1873,7 @@
     <string name="power_optimize_btn_text_fixed">Оптимизирано</string>
     <string name="power_optimize_catagory_fixed_title">Оптимизирано</string>
     <string name="power_optimize_close_app">Спрете прил. с висока консумация</string>
+    <string name="power_optimize_disable_5g">Ограничи 5G свързаността</string>
     <string name="power_optimize_disable_app_autostart">Забранете автостарт на прил.</string>
     <string name="power_optimize_disable_gps">Изключете GPS</string>
     <string name="power_optimize_disable_start_other_app">Забранете прил. да отварят други прил.</string>
@@ -1835,7 +1895,8 @@
     <string name="power_save_on_time_end_time_summary_na">До</string>
     <string name="power_save_on_time_start_time_summary_na">От</string>
     <string name="power_save_ps_clean">Изчистване на кеша, когато устройството е заключено</string>
-    <string name="power_save_ps_close_setting">Изключете процесите на заден план (синхр, GPS) за да съхраните заряда на батерията</string>
+    <string name="power_save_ps_close_setting">Изключете услугите и функциите с високо потребление на енергия (синхронизиране, GPS, хаптичен отговор, \"Вдигни за събуждане\", \"Двойно почукване, за да събудите или изключите екрана\", \"Показвай икона за пръстов отпечатък, когато екранът е заключен\"), за да пестите батерия</string>
+    <string name="power_save_ps_close_setting_5g">Изключете услугите и функциите с високо потребление на енергия (синхронизиране, 5G мрежова свързаност, GPS, хаптичен отговор, \"Вдигни за събуждане\", \"Двойно почукване, за да събудите или изключите екрана\", \"Показвай икона за пръстов отпечатък, когато екранът е заключен\"), за да пестите батерия</string>
     <string name="power_save_ps_freeze">Замрази приложенията на заден план</string>
     <string name="power_save_ps_limit">Ограничаване активността на системните приложения</string>
     <string name="power_save_settings">Настройки на батерията</string>
@@ -1907,6 +1968,7 @@
     <string name="pref_normal_traffic_limit">Когато планът за данни е изразходван</string>
     <string name="pref_open_adjust_traffic">Синхронизиране статистиката за трафика с вашия оператор</string>
     <string name="pref_operator_not_set">Оператора не е зададен</string>
+    <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_over_traffic_limit">Когато сте надвишили вашия лимит за данни</string>
     <string name="pref_package_traffic_settings">План за данни</string>
     <string name="pref_pkg_begin_date">Дата за нулиране на сметката</string>
@@ -1975,6 +2037,9 @@
 
 Докато се извършва калибрацията, MIUI ще изпрати текстово съобщение до вашия оператор за да получи шаблон за калибриране."</string>
     <string name="privacy_prompt_upload">Внимание!</string>
+    <string name="privacyapp_number_masked_text">Съдържанието на известията е скрито</string>
+    <string name="privacyapp_number_unmasked_text">Съдържанието на известията може да се скрие</string>
+    <string name="process_kernel_label">Android операционна система</string>
     <string name="process_mediaserver_label">Медиен сървър</string>
     <string name="promotion">Реклами</string>
     <string name="prompt_all">Питай за всички</string>
@@ -2108,6 +2173,8 @@
     <string name="shield_keyboard_detail">Двойно почукване на бутоните за повторното им включване</string>
     <string name="shield_keyboard_summary">Ограничаване на бутони и жестове на цял екран по време на игри</string>
     <string name="shield_keyboard_title">Ограничаване на бутони и жестове</string>
+    <string name="shortcut_title_scan">Сканиране</string>
+    <string name="shortcut_title_whatsapp_clean">Почистване на WhatsApp</string>
     <string name="show_system_app">Покажи системните приложения</string>
     <string name="show_traffic_dialog_message">Използваните от вас данни ще се показват в лентата с известията. Може да включвате и изключвате тази функция от Монитор за данни > Настройки.</string>
     <string name="show_traffic_dialog_title">Покажи използваните данни в лентата с известията</string>
@@ -2115,6 +2182,8 @@
     <string name="shutdown_cancel_reminder">Предупреждение</string>
     <string name="shutdown_cancel_reminder_detail">Устройството не беше изключено в зададеното време, защото тогава провеждахте обаждане</string>
     <string name="shutdown_cancel_reminder_detail2">В момента изглежда играете игра. Планираното изключване ще бъде отменено.</string>
+    <string name="signal_exception_4g_bad_rsrq">В момента сигналът на мобилната мрежа е слаб. Връзката с интернет може да е бавна.</string>
+    <string name="signal_exception_none_4g_5g_network">Използвате 2G/3G мобилна мрежа. Връзката с интернет може да е бавна.</string>
     <string name="signal_exception_summary">Не може да се свърже с мрежа на това място.</string>
     <string name="signal_exception_title">Слаб сигнал на мрежата</string>
     <string name="signed_rule">Правила</string>
@@ -2305,7 +2374,7 @@
     <string name="still_retain_btn">Запази</string>
     <string name="stop_milink_connect">Излъчването е спряно</string>
     <string name="suggest_app_tolock">Предложения</string>
-    <string name="suggest_app_tolock_masked">Скрити</string>
+    <string name="suggest_app_tolock_masked">Съдържанието е скрито</string>
     <string name="suggest_app_tolock_unmasked">Видими известия</string>
     <string name="suggest_scan_again">Завършете сканирането, за да избегнете рискове в сигурността.</string>
     <string name="summary_app_lock_disable">Защитете данните си с App lock</string>
@@ -2397,8 +2466,8 @@
     <string name="system_permission_declare_no_say_no">Ако не сте съгласни да събираме Ваши лични данни и не искате да ни дадете разрешение, приложението няма да работи нормално.</string>
     <string name="system_permission_declare_no_say_no_analytics">Ако не желаете да дадете тези разрешения, можете да се отпишете от програмата от Настройки > Допълнителни настройки > Поверителност > Програма за потребителски опит.</string>
     <string name="system_permission_declare_no_say_no_non_mandatory">Ако изберете да не давате необходимите разрешения или да не ни позволите да събираме и използваме Вашите данни, това приложение частично няма да може да работи.</string>
-    <string name="system_permission_declare_privacy_declare">Ние ще защитаваме Вашата лична информация в съответствие с приложимото законодателство, разпоредби и политики за поверителност. Имайте предвид, че Сигурност се нуждае от връзка с интернет и изисква следните разрешения за събиране на Вашата лична информация:</string>
-    <string name="system_permission_declare_privacy_no_permission">Имайте предвид, че за да може да Ви предоставя услуги, Сигурност се нуждае от връзка с интернет и трябва да събира Ваша лична информация. Ние ще защитаваме Вашата лична информация в съответствие с приложимото законодателство, разпоредби и политики за поверителност.</string>
+    <string name="system_permission_declare_privacy_declare">Ние ще защитаваме Вашата лична информация в съответствие с приложимото законодателство, разпоредби и политики за поверителност. Имайте предвид, че това приложение се нуждае от връзка с интернет и изисква следните разрешения за събиране на Вашата лична информация:</string>
+    <string name="system_permission_declare_privacy_no_permission">Имайте предвид, че за да може да Ви предоставя услуги, това приложение се нуждае от връзка с интернет и трябва да събира Ваша лична информация. Ние ще защитаваме Вашата лична информация в съответствие с приложимото законодателство, разпоредби и политики за поверителност.</string>
     <string name="system_permission_declare_privacy_policy">&lt;Data>Прочетете и се съгласете с нашата &lt;a href=\"%1$s\">Политика за поверителност&lt;/a>, преди да използвате тази функция.&lt;/Data></string>
     <string name="system_permission_declare_revoke_system">Можете да излезете от това приложение.</string>
     <string name="system_permission_declare_revoke_uninstallable">Можете да излезете от профила си, да деинсталирате това приложение или да оттеглите разрешението си в \"Сигурност\" > \"Управление на приложения\" > \"Разрешения\" > \"Разрешения\".</string>
@@ -2406,6 +2475,7 @@
     <string name="system_permission_declare_use_network_no_permission">Свържете се с мрежа</string>
     <string name="system_permission_declare_user_agreement">&lt;Data>Прочетете и се съгласете с нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a>, преди да използвате тази функция.&lt;/Data></string>
     <string name="system_permission_perm_answer_call">Телефонни обаждания</string>
+    <string name="system_permission_perm_optional">" (по желание)"</string>
     <string name="system_permission_perm_read_mms">Четене на МMS</string>
     <string name="system_permission_perm_read_numbers">Четене на телефонни номера</string>
     <string name="system_permission_perm_send_mms">Изпращане на MMS</string>

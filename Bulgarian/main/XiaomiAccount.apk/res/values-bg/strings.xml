@@ -97,6 +97,7 @@
     <string name="passport_change_phone_number">Смяна на номерата</string>
     <string name="passport_forget_password"><u>Забравена парола</u></string>
     <string name="passport_forget_password_no_underline">Забравена парола</string>
+    <string name="passport_can_not_receive_verification_code">Не получавате кода за потвърждение?</string>
     <string name="passport_reg_type_email">Имейл адрес</string>
     <string name="passport_register_by_email"><u>Създаване на профил чрез имейл адрес</u></string>
     <string name="passport_international_register_by_email">Създаване на профил чрез имейл адрес</string>
@@ -480,7 +481,9 @@
     <string name="input_new_pwd">Въведете новата парола</string>
     <string name="confirm_new_pwd">Потвърдете новата парола</string>
     <string name="inconsistent_pwd">Паролите не съвпадат</string>
-    <string name="same_new_and_old_pwd">Не може да е същата като текущата парола</string>
+    <string name="same_new_and_old_pwd">Новата парола трябва да е различна от старата</string>
+    <string name="pwd_width_phone_number_or_mail_num">Паролата не може да съдържа телефонния Ви номер, имейл или ID на Mi Профил</string>
+    <string name="risky_pwd_not_allow">Новата парола не е сигурна. Задайте друга.</string>
     <string name="account_security_info_pref_title">Информация за сигурност</string>
     <string name="account_bind_settings">Профили</string>
     <string name="account_bind_devices">Устройства</string>

@@ -28,6 +28,10 @@
         <item quantity="other">Използвано преди %d години</item>
         <item quantity="one">Използвано преди %d година</item>
     </plurals>
+    <plurals name="applock_guide_app_count_tips">
+        <item quantity="other">Можете да защитите най-малко %s приложения.</item>
+        <item quantity="one">Можете да защитите най-малко %s приложение.</item>
+    </plurals>
     <plurals name="bg_network_allow_count">
         <item quantity="other">%d приложения могат да се свързват с интернет на заден план</item>
         <item quantity="one">%d приложение може да се свързва с интернет на заден план</item>
@@ -99,6 +103,10 @@
     <plurals name="gb_ad_ten_thousand_people_play">
         <item quantity="other">%1$d души играят</item>
         <item quantity="one">%1$d човек играе</item>
+    </plurals>
+    <plurals name="gb_record_time_title">
+        <item quantity="other">%d сек.</item>
+        <item quantity="one">%d сек.</item>
     </plurals>
     <plurals name="gb_signed_days_sum">
         <item quantity="other">Регистриран %d дни подред</item>
@@ -455,6 +463,10 @@
     <plurals name="uninstall_game_count_title">
         <item quantity="other">Не могат да се добавят %d игри</item>
         <item quantity="one">Не може да се добави %d игра</item>
+    </plurals>
+    <plurals name="videobox_settings_manager_apps_count">
+        <item quantity="other">%d приложения</item>
+        <item quantity="one">%d приложение</item>
     </plurals>
     <plurals name="view_num">
         <item quantity="other">%1$d преглеждания</item>

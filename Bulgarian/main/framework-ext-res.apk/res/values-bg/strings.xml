@@ -47,6 +47,7 @@
     <string name="content_description_web_url">Преглеждане</string>
     <string name="copy">Копирай</string>
     <string name="cut">Изрежи</string>
+    <string name="data_usage_context">If Wi-Fi is not turned on, your device will connect to a mobile network, which may result in additional charges depending on your payment plan.Thank you!</string>
     <string name="default_device_name">Неизвестно устройство</string>
     <string name="default_name">Стандартно</string>
     <string name="description_title">Тих режим</string>
@@ -73,7 +74,7 @@
     <string name="fp_nav_center_action_choose_dlg_negative_btn_text">Не сега</string>
     <string name="fp_nav_center_action_choose_dlg_positive_btn_text">Включи</string>
     <string name="fp_nav_center_action_choose_dlg_title">Включи Тъч асистент</string>
-    <string name="frequent_email">Чести имейли</string>
+    <string name="frequent_email">Често използван имейл</string>
     <string name="frequent_phrases">Чести фрази</string>
     <string name="functions_are_being_developed">Тази услуга ще бъде достъпна скоро. Останете в очакване!</string>
     <string name="global_actions_airplane_mode">Самолетен режим</string>
@@ -204,6 +205,7 @@
     <string name="sim_added_reboot_title">SIM картата ще бъде активна след рестартиране на устройството ви.</string>
     <string name="sim_lock_non_ais_msg">Вашата SIM карта не е напълно съвместима с този телефон, защото не сте се съгласили с Условията за ползване на вашия абонамент. Ако имате въпроси или се нуждаете от информация, моля, свържете се с отдел обслужване на Xiaomi центъра, от който сте закупили Вашето устройство.</string>
     <string name="sim_lock_now_ais_title">SIM%1$d</string>
+    <string name="slatoast">Използване на мобилни данни за усилване на скоростта, може да изразходи мобилни данни</string>
     <string name="slavewifi">Двулентова Wi-Fi мрежа</string>
     <string name="slavewifi_disconnect">Не е свързан</string>
     <string name="slavewifi_notification_title">С използване на двулентова Wi-Fi мрежа</string>

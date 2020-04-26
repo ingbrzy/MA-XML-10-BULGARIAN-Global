@@ -10,6 +10,7 @@
     <string name="download_queued">Чакащи</string>
     <string name="download_remaining">%s остават</string>
     <string name="download_running">Изтегля се</string>
+    <string name="download_running_percent">Изтегля се %s</string>
     <string name="download_unknown_title">&lt;Без име></string>
     <string name="notif_title_file_size">Общо: %1$d</string>
     <string name="notif_title_single_downloading">Изтегляне: %1$s</string>

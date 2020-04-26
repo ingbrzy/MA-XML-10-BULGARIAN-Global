@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="choosed">
+        <item quantity="other">Избрани са %1$d елемента</item>
+        <item quantity="one">Избран е %1$d елемент</item>
+    </plurals>
+</resources>

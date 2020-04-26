@@ -41,7 +41,6 @@
     <string name="agree_camera_permission">За правене на снимки и запис на видео</string>
     <string name="agree_storage_permission">За достъп до съхранявани на устройството Ви снимки и файлове</string>
     <string name="always">Винаги</string>
-    <string name="amazon_assistant_shopping_title">Търсене в Amazon</string>
     <string name="app_description_content">Скенерът може да сканира QR кодове, визитки и документи. Уверете се, че можете да работите без да използвате неговите услуги, преди да го деинсталирате.</string>
     <string name="app_description_title">За Скенер</string>
     <string name="app_details">Приложения:</string>
@@ -74,6 +73,7 @@
     <string name="choose_open_code_app">Изберете приложение</string>
     <string name="choose_pay_title">Изберете метод на плащане</string>
     <string name="choose_picture">Избор на изображение с QR код</string>
+    <string name="choosed_title">Избрани</string>
     <string name="classesNameNull_toast">Името на урока не може да е празно</string>
     <string name="classes_canfirmTitle">Потвърди резултатите и започни внасянето</string>
     <string name="classes_company">Внеси</string>
@@ -100,10 +100,16 @@
     <string name="copy_text">Копиране текст</string>
     <string name="copy_text_success">Текстът копиран</string>
     <string name="copy_tracknum">Копирайте кода за проследяване</string>
+    <string name="create">Генерирай QR код</string>
+    <string name="createFail">Неуспешно генериране на QR код. Вашето съобщение е твърде дълго.</string>
+    <string name="createQRCode_hint">Въведете текст</string>
+    <string name="createQRCode_save">Запази</string>
+    <string name="create_again">Обнови</string>
     <string name="crop_cancel_description">Отказ</string>
     <string name="crop_done_description">Готово</string>
     <string name="crop_title_study">Изрежете снимката</string>
     <string name="crop_title_translation">Избор на текст за превод</string>
+    <string name="delete">Изтрий</string>
     <string name="document_color_picture">Цветна гама</string>
     <string name="document_color_picture_tip">Превръщане в цвят…</string>
     <string name="document_crop_title">Изрязване на документа</string>
@@ -158,6 +164,8 @@
     <string name="food_module_title_food">Калории</string>
     <string name="got_it">Разбрах</string>
     <string name="gps">Придвижване</string>
+    <string name="history">Хронология</string>
+    <string name="importFailed">Неуспешно внасяне</string>
     <string name="import_contact">Вмъкване на контакт</string>
     <string name="impunity_declaration_content">\"Скенер\" се нуждае от използване на камерата Ви обработване на снимките, които правите, докато използвате приложението. Не използвайте \"Скенер\" за снимане на неща, които разкриват Ваша лична информация. С натискането на \"Приемам\" Вие се съгласявате с нашата &lt;font color=\"#ff32b4ff\">&lt;a href=\"%1$s\" style=\"color:#ff32b4ff;\">Политика за поверителност&lt;/a>&lt;/font> и разрешавате на \"Скенер\" да осъществява връзка с интернет.</string>
     <string name="impunity_declaration_negative_text">Изход</string>
@@ -228,6 +236,11 @@
     <string name="recognize">Сканиране</string>
     <string name="recognize_fail">Не може да се разпознае кода</string>
     <string name="request_server_failed">Неуспешно свързване със сървъра</string>
+    <string name="saveDone">Успешно запазено</string>
+    <string name="scanHistory">Хронология на сканирванията</string>
+    <string name="scanHistory_close">Изключи</string>
+    <string name="scanHistory_isOpen">Да се проследява ли хронологията на сканирани елементи?</string>
+    <string name="scanHistory_open">Включи</string>
     <string name="scan_result">Резултати</string>
     <string name="scan_support_type">WeChat, Alipay, QR кодове, баркодове</string>
     <string name="sdk_not_ready">SDK се подготвя. Опитайте по-късно.</string>

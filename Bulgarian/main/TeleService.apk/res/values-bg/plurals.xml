@@ -9,8 +9,8 @@
         <item quantity="one">Избраното действие не е налично в режим на обратно спешно обаждане. Телефонът ще бъде в този режим в продължение на %s минута. Искате ли да излезете сега?</item>
     </plurals>
     <plurals name="auto_answer_summary_delay">
-        <item quantity="other">забавяне: %s секунди</item>
-        <item quantity="one">забавяне: %s секунда</item>
+        <item quantity="other">забавяне: %d секунди</item>
+        <item quantity="one">забавяне: %d секунда</item>
     </plurals>
     <plurals name="call_record_add_white_list_over_reminder">
         <item quantity="other">Можете да добавите до %s души, изберете отново.</item>

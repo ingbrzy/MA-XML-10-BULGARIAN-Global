@@ -34,9 +34,20 @@
     <string name="confirm_save">Запази</string>
     <string name="connect_network">Connect to WLAN or insert a SIM card</string>
     <string name="connect_wlan">Connect to WLAN</string>
+    <string name="data_merge_dialog_alert_active_on_phone_msg_more_than_two">Този профил се използва и на друго устройство. Да се обединят ли нещата от много на брой приложения (включително %1$s и %2$s) с нещата на това устройство?</string>
+    <string name="data_merge_dialog_alert_active_on_phone_msg_one">Този профил се използва и на друго устройство. Да се обединят ли нещата от %s с нещата на това устройство?</string>
+    <string name="data_merge_dialog_alert_active_on_phone_msg_two">Този профил се използва и на друго устройство. Да се обединят ли нещата от %1$s и %2$s с нещата на това устройство?</string>
+    <string name="data_merge_dialog_alert_msg_more_than_two">Нещата от много на брой приложения (включително %1$s и %2$s) на това устройство ще бъдат обединени с нещата в облака. Да се обединят ли сега?</string>
+    <string name="data_merge_dialog_alert_msg_more_than_two_pad">Нещата от много на брой приложения (включително %1$s и %2$s) на това устройство ще бъдат обединени с нещата в облака. Да се обединят ли сега?</string>
+    <string name="data_merge_dialog_alert_msg_one">Нещата от %s на това устройство ще бъдат обединени с нещата в облака. Да се обединят ли сега?</string>
+    <string name="data_merge_dialog_alert_msg_one_pad">Нещата от %s на това устройство ще бъдат обединени с нещата в облака. Да се обединят ли сега?</string>
+    <string name="data_merge_dialog_alert_msg_two">Нещата от %1$s и %2$s на това устройство ще бъдат обединени с нещата в облака. Да се обединят ли сега?</string>
+    <string name="data_merge_dialog_alert_msg_two_pad">Нещата от %1$s и %2$s на това устройство ще бъдат обединени с нещата в облака. Да се обединят ли сега?</string>
+    <string name="data_merge_dialog_loading">Данните се проверяват…</string>
     <string name="data_protection_title">Защита на данните</string>
     <string name="detect_sim_card">Търсене на SIM карта</string>
     <string name="disable_find_device_error">Не може да се изключи \"Открий устройството\". %1$s</string>
+    <string name="do_not_merge">Не обединявай</string>
     <string name="enable_find_device_error">Не може да се включи \"Открий устройството\". %1$s</string>
     <string name="enable_find_device_success">Открий устройството е вкл.</string>
     <string name="enable_micloud">Впишете се, за да използвате Xiaomi Облак</string>
@@ -47,13 +58,17 @@
     <string name="error_server">Грешка на сървъра</string>
     <string name="error_unknown">Неуспешно вписване</string>
     <string name="find_device">\"Открий устройството\" е включено</string>
-    <string name="find_device_dspt_provision">Ако загубите устройството си, можете да отидете на &lt;font color=#ff0000>%s&lt;/font>, за да го локализирате, заключите или нулирате. Функцията се управлява от Настройки.</string>
+    <string name="find_device_dspt_provision">Ако загубите устройството си, можете да отидете на &lt;font color=#0097FF>%s&lt;/font>, за да го локализирате, заключите или нулирате. Можете винаги да включите или изключите тази функция от Настройки.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_error_network">Проверете връзката ви за данни и опитайте отново.</string>
     <string name="find_device_error_server">Грешка на сървъра</string>
     <string name="find_device_gdpr_prompt">С използването на услугата Намери устройството Вие се съгласявате с нашите <a href="app://com.miui.cloudservice.gdpr.license"><u>Политика на поверителност</u></a>. Ако е необходимо да отмените оторизацията, трябва да изключите тази услуга.</string>
     <string name="find_device_operation_failure_rpc">Невъзможно е да се изпълни операцията поради грешка в RPC.</string>
     <string name="find_device_send_sms_alert">Когато смените SIM картата, е необходимо да бъде изпратено ново регистрационно SMS съобщение.</string>
     <string name="find_device_service_title">Намери устройство</string>
+    <string name="finddevice_miservice_notification_content">Заключете устройство си от разстояние, ако бъде изгубено.</string>
+    <string name="finddevice_miservice_notification_title">Включване на \"Открий устройството\"</string>
     <string name="forget_password"><u>Забравена парола</u></string>
     <string name="i_know">ОК</string>
     <string name="input_password_hint">Въведете парола</string>
@@ -99,6 +114,9 @@
     <string name="member_menu_vipname_mega">Мега</string>
     <string name="member_menu_vipname_premium">Премиум</string>
     <string name="member_menu_vipname_ultra">Ултра</string>
+    <string name="menu_add_feedback">Отзив</string>
+    <string name="menu_add_short_cut">Създай пряк път на начален екран</string>
+    <string name="merge">Обедини</string>
     <string name="micloud_alert_dialog_positive">OK</string>
     <string name="micloud_all_sub_1_intl_sms">"Ще бъде изпратено международно SMS съобщение за активиране на вашата SIM карта. Ще бъдете таксувани от оператора си. Ако сте включили функцията 'Открий устройството', може да бъде изпратен SMS за активиране след смяна на SIM картите."</string>
     <string name="micloud_all_sub_1_sms">"Ще бъде изпратено обикновено SMS съобщение за активиране на вашата SIM карта. Ще бъдете таксувани от оператора си. Ако сте включили функцията 'Открий устройството', може да бъде изпратен SMS за активиране след смяна на SIM картите."</string>
@@ -173,15 +191,18 @@
     <string name="micloud_find_device_guide_noti_title_by_app_change_wx">WeChat препоръчва да включите Открий устройството</string>
     <string name="micloud_find_device_guide_noti_title_by_app_change_zfb">Alipay recommends you to turn on Find device</string>
     <string name="micloud_find_device_guide_progress">Открий устройството се включва…</string>
-    <string name="micloud_find_device_guide_title">Впишете се в &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font> за намиране, заключване или изтриване на всичко във вашето устройство. Това може да помогне в случай, че го загубите.&lt;br />Ако загубите устройството си, вашата връзка с Mi Облак ще използва услугите за сигурност на приложенията, които употребявате най-често (напр., Alipay, WeChat, QQ) за да защити вашия профил в &lt;font color=#FF0000>&lt;b>i.mi.com&lt;/b>&lt;/font>.</string>
+    <string name="micloud_find_device_guide_title">Впишете се в &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>, за да локализирате, заключите или изтриете устройството си. Това може да Ви помогне да откриете устройството си, ако е загубено.</string>
     <string name="micloud_find_device_open_fail">Открий устройството не може да се включи</string>
     <string name="micloud_find_device_opened">Открий устройството е вкл.</string>
     <string name="micloud_find_device_opened_content">Открийте вашето устройство на %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
     <string name="micloud_find_device_sms_alert">Изходящ SMS може да бъде изпратен за активация на тази услуга. Вашият оператор ще ви таксува за това съобщение. Когато смените вашата SIM карта, съобщението ще бъде изпратено автоматично отново за активация.</string>
     <string name="micloud_find_device_verify_button">Активирай повторно Намери устройство</string>
     <string name="micloud_find_device_verify_close">Изключване на Намери устройство</string>
     <string name="micloud_find_device_verify_fail">Не може да се активира повторно Намери устройство</string>
     <string name="micloud_find_device_verify_progress">Повторно активиране на Намери устройство…</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
     <string name="micloud_last_sync_canceled">Синхр. беше отменено. Опитайте отново.</string>
     <string name="micloud_main_head_menu_cloud_backup">Архив на нач. екран</string>
     <string name="micloud_main_head_menu_cloud_backup_summary">Оформление на начален екран, приложения и системни настройки</string>
@@ -241,14 +262,14 @@
     <string name="micloud_notif_content_battery_low">Изтощена батерия.</string>
     <string name="micloud_notif_content_depend_wifi">Свържете се към Wi-Fi за синхр.</string>
     <string name="micloud_notif_content_dirty_data">Детайли</string>
-    <string name="micloud_notif_content_master_depend_wifi">Първо се свържете с Wi-Fi.</string>
+    <string name="micloud_notif_content_master_depend_wifi">Свържете се към Wi-Fi или променете настройките за синхронизация. Натиснете за промяна.</string>
     <string name="micloud_notif_content_memory_low">Недостатъчно място в хранилището.</string>
     <string name="micloud_notif_content_multi_user_error">You login the same account with original space.</string>
     <string name="micloud_notif_content_privacy_reopen_failed">Покажи подробности</string>
     <string name="micloud_notif_content_sync_with_off">Чукнете за синхронизиране.</string>
     <string name="micloud_notif_title_battery_low">Неуспешна синхронизация с Xiaomi Облак</string>
     <string name="micloud_notif_title_dirty_data">Имате несинхронизирани елементи</string>
-    <string name="micloud_notif_title_master_depend_wifi">Неуспешна синхронизация с Xiaomi Облак</string>
+    <string name="micloud_notif_title_master_depend_wifi">Синхронизирането е на пауза при използване на мобилни данни</string>
     <string name="micloud_notif_title_memory_low">Не може да се синхронизира с Xiaomi Cloud</string>
     <string name="micloud_notif_title_multi_user_error">Неуспешна синхронизация с Xiaomi Облак</string>
     <string name="micloud_notif_title_privacy_reopen_failed">Не мога да включа услугите на Xiaomi Облак</string>
@@ -281,6 +302,7 @@
     <string name="micloud_setting_phrase_summary">Чести фрази</string>
     <string name="micloud_setting_recorder_summary">Аудио записи на повикванията</string>
     <string name="micloud_setting_sms_summary">SMS и MMS съобщения</string>
+    <string name="micloud_setting_sms_summary_for_google_csp">Текстови съобщения</string>
     <string name="micloud_setting_wifi_summary">Настройки за Wi-Fi</string>
     <string name="micloud_space_applist_detail">Упр. на прил. на началния ви екран</string>
     <string name="micloud_space_applist_title">Управление на приложения</string>
@@ -354,81 +376,15 @@
     <string name="pref_summary_sync_display_photo_on_wifi_only">Синхронизиране на профилните снимки на контактите само по Wi-Fi</string>
     <string name="pref_title_sync_contacts_title">Синхронизация на контакти</string>
     <string name="pref_title_sync_display_photo_on_wifi_only">Синхр. на снимките само по Wi-Fi</string>
-    <string name="priv_dialog_finddevice_all_purpose_pad">"Welcome to Find device! You can use this service to locate, lock, or erase data on your device if it's lost."</string>
-    <string name="priv_dialog_finddevice_all_purpose_phone">"Welcome to Find device! You can use this service to locate, lock, or erase data on your device if it's lost."</string>
-    <string name="priv_dialog_sync_all_purpose">Welcome to Xiaomi Cloud services! You can use Xiaomi Cloud to sync your messages, call history, contacts, notes, Browser settings, songs, photos and videos, Wi-Fi settings, recordings, Home screen layout, apps, calendar events, Blocklist items, and App vault across all connected devices.</string>
-    <string name="priv_doc_cloudservice">Welcome to Xiaomi Cloud services! You can use Xiaomi Cloud to sync your messages, call history, contacts, notes, Browser settings, songs, photos and videos, Wi-Fi settings, recordings, Home screen layout, apps, calendar events, Blocklist items, and App vault across all connected devices. Access the things you sync from any browser at <font color="#FF0000"><b>i.mi.com</b></font>".
-
-An outgoing SMS message may be required to activate this service. Your carrier will charge you for this message. When you switch your SIM card, a message may be sent automatically to reactivate this feature.
-
-We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.
-To be able to work normally, Xiaomi Cloud needs to connect to the internet and requires the following permissions in order to collect your personal information:
-• Calendar:
-For syncing events
-• Accessing SMS:
-For syncing messages
-• Accessing MMS:
-For syncing messages
-• Accessing contacts:
-For syncing contacts
-• Editing contacts:
-For syncing contacts
-• Storage:
-For saving items on your device (e.g. images, videos, songs)
-If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use these services. You can choose to uninstall this app, sign out, or restrict permissions in the Settings in such cases.
-Read and agree to our"<a href="app://com.miui.cloudservice.user_agreement.license"><u> User Agreement </u></a>and<a href="app://com.miui.cloudservice.gdpr.license"><u> Privacy Policy </u></a>"before using Xiaomi Cloud.
-"</string>
-    <string name="priv_doc_finddevice_pad">"Welcome to Find device! You can use this service to locate, lock, or erase data on your device if it's lost. You can go to "<font color="#FF0000"><b>i.mi.com</b></font>" to locate, lock, or reset it.
-
-We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.
-To be able to work normally, Find device needs to connect to the internet and requires the following permissions in order to collect your personal information:
-• Accessing device info:
-For identifying your device
-• Location:
-For locating your device and switching to the lost mode
-If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use these services. You can choose to uninstall this app, sign out, or restrict permissions in the Settings in such cases.
-Read and agree to our"<a href="app://com.miui.cloudservice.user_agreement.license"><u> User Agreement </u></a>and<a href="app://com.miui.cloudservice.gdpr.license"><u> Privacy Policy </u></a>"before using Find device.
-"</string>
-    <string name="priv_doc_finddevice_phone">"Welcome to Find device! You can use this service to locate, lock, or erase data on your device if it's lost. You can go to "<font color="#FF0000"><b>i.mi.com</b></font>" to locate, lock, or reset it.
-
-We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.
-To be able to work normally, Find device needs to connect to the internet and requires the following permissions in order to collect your personal information:
-• Accessing device info:
-For identifying your device
-• Location:
-For locating your device and switching to the lost mode
-If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use these services. You can choose to uninstall this app, sign out, or restrict permissions in the Settings in such cases.
-Read and agree to our"<a href="app://com.miui.cloudservice.user_agreement.license"><u> User Agreement </u></a>and<a href="app://com.miui.cloudservice.gdpr.license"><u> Privacy Policy </u></a>"before using Find device.
-"</string>
-    <string name="priv_doc_finddevice_with_telephony_feature_pad">"Welcome to Find device! You can use this service to locate, lock, or erase data on your device if it's lost. You can go to "<font color="#FF0000"><b>i.mi.com</b></font>" to locate, lock, or reset it.
-
-An outgoing SMS message may be required to activate this service. Your carrier will charge you for this message. When you switch your SIM card, a message may be sent automatically to reactivate this feature.
-
-An outgoing SMS message may be required to activate this service. Your carrier will charge you for this message. When you switch your SIM card, a message may be sent automatically to reactivate this feature.
-We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.
-To be able to work normally, Find device needs to connect to the internet and requires the following permissions in order to collect your personal information:
-• Accessing device info:
-For identifying your device
-• Location:
-For locating your device and switching to the lost mode
-If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use these services. You can choose to uninstall this app, sign out, or restrict permissions in the Settings in such cases.
-Read and agree to our"<a href="app://com.miui.cloudservice.user_agreement.license"><u> User Agreement </u></a>and<a href="app://com.miui.cloudservice.gdpr.license"><u> Privacy Policy </u></a>"before using Find device.
-"</string>
-    <string name="priv_doc_finddevice_with_telephony_feature_phone">"Welcome to Find device! You can use this service to locate, lock, or erase data on your device if it's lost. You can go to "<font color="#FF0000"><b>i.mi.com</b></font>" to locate, lock, or reset it.
-
-An outgoing SMS message may be required to activate this service. Your carrier will charge you for this message. When you switch your SIM card, a message may be sent automatically to reactivate this feature.
-
-An outgoing SMS message may be required to activate this service. Your carrier will charge you for this message. When you switch your SIM card, a message may be sent automatically to reactivate this feature.
-We shall protect your personal information in accordance with the relevant laws, regulations, and privacy policies.
-To be able to work normally, Find device needs to connect to the internet and requires the following permissions in order to collect your personal information:
-• Accessing device info:
-For identifying your device
-• Location:
-For locating your device and switching to the lost mode
-If you don't agree to grant such permissions or share and upload your personal information, you won't be able to use these services. You can choose to uninstall this app, sign out, or restrict permissions in the Settings in such cases.
-Read and agree to our"<a href="app://com.miui.cloudservice.user_agreement.license"><u> User Agreement </u></a>and<a href="app://com.miui.cloudservice.gdpr.license"><u> Privacy Policy </u></a>"before using Find device.
-"</string>
     <string name="privacy_and_agreement">Условия за ползване</string>
+    <string name="privacy_dialog_finddevice_all_purpose_pad">Добре дошли в \"Открий устройство\"! Можете да използвате тази услуга, за да намерите или заключите устройството си или да изтриете данните в него, ако бъде изгубено.</string>
+    <string name="privacy_dialog_finddevice_all_purpose_phone">Добре дошли в \"Открий устройство\"! Можете да използвате тази услуга, за да намерите или заключите устройството си или да изтриете данните в него, ако бъде изгубено.</string>
+    <string name="privacy_dialog_sync_all_purpose">Добре дошли в облачните услуги на Xiaomi! Можете да използвате \"Xiaomi облак\", за да синхронизирате своите съобщения, история на обажданията, контакти, бележки, настройки на браузъра, песни, снимки и видеа, настройки на Wi-Fi, аудио записи, подредба на началния екран, приложения, събития в календара, блокирани неща и трезор за приложения – между всички свързани устройства.</string>
+    <string name="privacy_doc_cloudservice">Добре дошли в облачните услуги на Xiaomi! Можете да използвате Xiaomi облак, за да синхронизирате своите съобщения, история на обажданията, контакти, бележки, настройки на браузъра, песни, снимки и видеа, настройки на Wi-Fi, аудио записи, подредба на началния екран, приложения, събития в календара, списък за блокиране и трезор за приложения – между всички свързани устройства. Получавате достъп до нещата, които синхронизирате, от всеки един браузър от &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>.&lt;br />&lt;br />За активирането на тези услуги е възможно да се изисква да изпратите SMS. Вашият оператор ще Ви таксува за това съобщение. Когато превключите между SIM картите, за повторната активация на тези услуги може да се изпрати автоматично ново съобщение.&lt;br />&lt;br />Ние ще пазим личната Ви информация съгласно приложимото законодателство, разпоредби и политики за поверителност.&lt;br />За да могат да работят нормално, тези услуги се нуждаят от връзка с интернет и изискват следните разрешения, за да могат да събират Ваша лична информация:&lt;br />• Календар:&lt;br />за синхронизация на събития;&lt;br />• Достъп до SMS:&lt;br />за синхронизиране на съобщения;&lt;br />• Достъп до MMS:&lt;br />за синхронизиране на съобщения;&lt;br />• Достъп до контактите:&lt;br />за синхронизиране на контактите;&lt;br />• Редактиране на контакти:&lt;br />за синхронизиране на контактите;&lt;br />• Памет за съхранение:&lt;br />за запазване на неща в устройството Ви (напр. изображения, видеа, песни);&lt;br />Ако не сте съгласни да дадете тези разрешения, както и със споделянето и качването на личната Ви информация, няма да можете да използвате тези услуги. В такъв случай можете да деинсталирате това приложение, да излезете от него или да ограничите разрешенията му от настройките.&lt;br />Преди да използвате Xiaomi облак, прочетете и приемете нашето &lt;a href=%1$s>&lt;u>споразумение с потребителя&lt;/u>&lt;/a> и нашата &lt;a href=%2$s>&lt;u>политика за поверителност&lt;/u>&lt;/a>.&lt;br /></string>
+    <string name="privacy_doc_finddevice_pad">Добре дошли в Открий устройство! Можете да използвате тази услуга, за да намерите или заключите устройството си или да изтриете данните в него, ако бъде изгубено. Можете да отидете на &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>, за да го намерите, заключите или изтриете.&lt;br />&lt;br />Ние ще пазим личните Ви данни в съответствие с приложимото законодателство, наредби и политики за поверителност.&lt;br />За да може да работи нормално, тази услуга се нуждае от връзка с интернет и изисква следните разрешения, за да може да събира личните Ви данни:&lt;br />• Достъп до информация за устройството:&lt;br />за идентифициране на устройството;&lt;br />• Местоположение:&lt;br />за установяване местоположението на устройството и превключване към режим Изгубено.&lt;br />Ако не сте съгласни с даването на такива разрешения или със споделянето и качването на личните Ви данни, няма да можете да използвате тези услуги. В такъв случай можете да деинсталирате приложението, да излезете от него или да ограничите разрешенията от настройките.&lt;br />Преди да използвате Открий устройство, прочетете и приемете нашето &lt;a href=%1$s>&lt;u>споразумение с потребителя&lt;/u>&lt;/a> и нашата &lt;a href=%2$s>&lt;u>политика за поверителност &lt;/u>&lt;/a>.&lt;br /></string>
+    <string name="privacy_doc_finddevice_phone">Добре дошли в Открий устройство! Можете да използвате тази услуга, за да намерите или заключите устройството си или да изтриете данните в него, ако бъде изгубено. Можете да отидете на &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>, за да го намерите, заключите или изтриете.&lt;br />&lt;br />Ние ще пазим личните Ви данни в съответствие с приложимото законодателство, наредби и политики за поверителност.&lt;br />За да може да работи нормално, тази услуга се нуждае от връзка с интернет и изисква следните разрешения, за да може да събира личните Ви данни:&lt;br />• Достъп до информация за устройството:&lt;br />за идентифициране на устройството;&lt;br />• Местоположение:&lt;br />за установяване местоположението на устройството и превключване към режим Изгубено.&lt;br />Ако не сте съгласни с даването на такива разрешения или със споделянето и качването на личните Ви данни, няма да можете да използвате тези услуги. В такъв случай можете да деинсталирате приложението, да излезете от него или да ограничите разрешенията от настройките.&lt;br />Преди да използвате Открий устройство, прочетете и приемете нашето &lt;a href=%1$s>&lt;u>споразумение с потребителя&lt;/u>&lt;/a> и нашата &lt;a href=%2$s>&lt;u>политика за поверителност &lt;/u>&lt;/a>.&lt;br /></string>
+    <string name="privacy_doc_finddevice_with_telephony_feature_pad">Добре дошли в Открий устройство! Можете да използвате тази услуга, за да намерите или заключите устройството си или да изтриете данните в него, ако бъде изгубено. Можете да отидете на &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>, за да го намерите, заключите или изтриете.&lt;br />&lt;br />За активирането на тази услуга е възможно да се изисква да изпратите SMS. Вашият оператор ще Ви таксува за това съобщение. Когато превключите между SIM картите, за повторната активация на тези услуги може да се изпрати автоматично ново съобщение.&lt;br />&lt;br />Ние ще пазим личните Ви данни в съответствие с приложимото законодателство, наредби и политики за поверителност.&lt;br />За да може да работи нормално, тази услуга се нуждае от връзка с интернет и изисква следните разрешения, за да може да събира личните Ви данни:&lt;br />• Достъп до информация за устройството:&lt;br />за идентифициране на устройството;&lt;br />• Местоположение:&lt;br />за установяване местоположението на устройството и превключване към режим Изгубено.&lt;br />Ако не сте съгласни с даването на такива разрешения или със споделянето и качването на личните Ви данни, няма да можете да използвате тази услуга. В такъв случай можете да деинсталирате приложението, да излезете от него или да ограничите разрешенията от настройките.&lt;br />Преди да използвате Открий устройство, прочетете и приемете нашето &lt;a href=%1$s>&lt;u>споразумение с потребителя&lt;/u>&lt;/a> и нашата &lt;a href=%2$s>&lt;u>политика за поверителност &lt;/u>&lt;/a>.&lt;br /></string>
+    <string name="privacy_doc_finddevice_with_telephony_feature_phone">Добре дошли в Открий устройство! Можете да използвате тази услуга, за да намерите или заключите устройството си или да изтриете данните в него, ако бъде изгубено. Можете да отидете на &lt;font color=#0097FF>&lt;b>i.mi.com&lt;/b>&lt;/font>, за да го намерите, заключите или изтриете.&lt;br />&lt;br />За активирането на тази услуга е възможно да се изисква да изпратите SMS. Вашият оператор ще Ви таксува за това съобщение. Когато превключите между SIM картите, за повторната активация на тези услуги може да се изпрати автоматично ново съобщение.&lt;br />&lt;br />Ние ще пазим личните Ви данни в съответствие с приложимото законодателство, наредби и политики за поверителност.&lt;br />За да може да работи нормално, тази услуга се нуждае от връзка с интернет и изисква следните разрешения, за да може да събира личните Ви данни:&lt;br />• Достъп до информация за устройството:&lt;br />за идентифициране на устройството;&lt;br />• Местоположение:&lt;br />за установяване местоположението на устройството и превключване към режим Изгубено.&lt;br />Ако не сте съгласни с даването на такива разрешения или със споделянето и качването на личните Ви данни, няма да можете да използвате тази услуга. В такъв случай можете да деинсталирате приложението, да излезете от него или да ограничите разрешенията от настройките.&lt;br />Преди да използвате Открий устройство, прочетете и приемете нашето &lt;a href=%1$s>&lt;u>споразумение с потребителя&lt;/u>&lt;/a> и нашата &lt;a href=%2$s>&lt;u>политика за поверителност &lt;/u>&lt;/a>.&lt;br /></string>
     <string name="privacy_policy">Правила за поверителност</string>
     <string name="provision_sync_items_loading">Подготовка за синхр. на елементи</string>
     <string name="reading_status">Зареждане на статус…</string>
@@ -473,6 +429,8 @@ Read and agree to our"<a href="app://com.miui.cloudservice.user_agreement.licens
     <string name="sync_dspt_entrance_provision_network">Това приложение се нуждае от достъп до интернет, за да работи нормално. Синхронизирането може да ви свърже с мобилни данни и да включи Wi-Fi.</string>
     <string name="sync_dspt_entrance_provision_skip">Прескочи тази стъпка</string>
     <string name="sync_dspt_provision">"Mi Cloud синхронизира снимките, SMS, бележки и др. между всичките ваши Mi устройства. Също така те са достъпни за вас от всеки браузър на "</string>
+    <string name="sync_dspt_provision2">i.mi.com</string>
+    <string name="sync_dspt_provision2_int">www.mi.com/micloud</string>
     <string name="sync_dspt_provision3">"\".
 
 По всяко време можете да включите или изключите услугата от Настройки.
@@ -493,6 +451,8 @@ Read and agree to our"<a href="app://com.miui.cloudservice.user_agreement.licens
     <string name="sync_sub_2_intl_sms">За активирането на услугата трябва да изпратите 2 международни sms-а. Може да бъдете таксувани за изходящо съобщение от доставчика ви.</string>
     <string name="sync_sub_2_sms">За активирането на услугата трябва да изпратите 2 sms-а. Може да бъдете таксувани за изходящо съобщение от доставчика ви.</string>
     <string name="system_busy_or_network_error">Възникна грешка. Изчакайте малко и опитайте отново.</string>
+    <string name="tip_short_cut_added_success">Успешно създадено</string>
+    <string name="tip_short_cut_already_added">Създаден</string>
     <string name="title_back">Назад</string>
     <string name="title_reg">Регистрация</string>
     <string name="trying_to_connect_to_network">Connecting to the network…</string>
@@ -507,7 +467,7 @@ Read and agree to our"<a href="app://com.miui.cloudservice.user_agreement.licens
     <string name="warning_bar_action_close">Затвори</string>
     <string name="warning_bar_action_turn_on_master_sync">Включи</string>
     <string name="warning_bar_action_turn_on_sync">Включи</string>
-    <string name="warning_bar_action_upgrade_vip">Надграждане на абонамента за Xiaomi Облак</string>
+    <string name="warning_bar_action_upgrade_vip">Надграждане</string>
     <string name="warning_bar_add_short_cut_success">Добавено успешно</string>
     <string name="warning_bar_title_cloud_space_already_full">Мястото в Облака намалява. Вашите снимки може да не се синхронизират.</string>
     <string name="warning_bar_title_cloud_space_full">Cloud хранилището е пълно. Неуспешно синхронизиране на снимки, история на обажданията и други елементи.</string>
@@ -520,6 +480,7 @@ Read and agree to our"<a href="app://com.miui.cloudservice.user_agreement.licens
     <string name="wipe_data_dialog_msg_and_on">, и някои други елементи</string>
     <string name="wipe_data_dialog_msg_separator">, </string>
     <string name="wipe_data_dialog_title">Елементите не са синхронизирани</string>
+    <string name="wipe_data_query_progress_title">Проверява се…</string>
     <string name="wipe_secret_photo_dialog_title">Скритите снимки не са синхронизирани</string>
     <string name="xiaomi_cloud_service">Облак</string>
     <string name="xiaomi_cloud_service_subtitle">Всички важни раздели на едно място</string>

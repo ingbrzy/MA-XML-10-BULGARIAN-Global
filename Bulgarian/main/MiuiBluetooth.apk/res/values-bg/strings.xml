@@ -46,6 +46,7 @@
     <string name="device_picker">Избор на Bluetooth устройство</string>
     <string name="disconnect">Изключи</string>
     <string name="expand_button_title">Разширени</string>
+    <string name="fast_connect_device_battery">Батерия</string>
     <string name="fast_connect_device_box">Кутия</string>
     <string name="fast_connect_device_box_name">%1$s Кутия</string>
     <string name="fast_connect_device_connect_cancel">Отказ</string>

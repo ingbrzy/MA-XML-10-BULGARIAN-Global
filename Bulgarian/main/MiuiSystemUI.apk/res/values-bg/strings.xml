@@ -63,6 +63,7 @@
     <string name="accessibility_camera_button">Камера</string>
     <string name="accessibility_carrier_network_change_mode">Мрежата на оператора е променена.</string>
     <string name="accessibility_cast_name">Свързахте се с %s.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_casting_turned_off">Запис на екрана е изключено.</string>
     <string name="accessibility_cell_data">Мобилни данни</string>
     <string name="accessibility_cell_data_off">Мобилните данни са изключени</string>
@@ -312,6 +313,8 @@
     <string name="available_via_carrier">Достъпно чрез %1$s</string>
     <string name="available_via_passpoint">Достъпно чрез %1$s</string>
     <string name="back">Назад</string>
+    <string name="band_24G">" (2.4 GHz честота)"</string>
+    <string name="band_5G">" (5 GHz честота)"</string>
     <string name="battery">Батерия</string>
     <string name="battery_can_use_time">Около %s остават</string>
     <string name="battery_detail_charging_summary">Икономия на батерията не е достъпно по време на зареждане</string>
@@ -442,7 +445,7 @@
     <string name="branded_vpn_footer">Мрежата може да се наблюдава</string>
     <string name="broadcast_tile">Плочка Излъчване</string>
     <string name="bt_hci_snoop_log">Активиране на регистрационния файл за анализ на пакетите в команден ред за Bluetooth с протокола HCI</string>
-    <string name="bt_hci_snoop_log_summary">Заснемане на всички пакети за Bluetooth с протокола HCI във файла</string>
+    <string name="bt_hci_snoop_log_summary">Bluetooth пакети Capture. (Превключете Bluetooth след промяната на тази настройка)</string>
     <string name="bt_is_off">Bluetooth е изкл</string>
     <string name="btn_camera">Задайте лицевите данни</string>
     <string name="bugreport_in_power">Връзка към Доклада за грешки</string>
@@ -773,26 +776,6 @@
     <string name="gxzw_area">Скенер за Пръстов отпечатък</string>
     <string name="gxzw_long_press_tip" />
     <string name="gxzw_press_harder">Натиснете малко по-силно</string>
-    <string name="gxzw_quick_open_add_event">Добави събитие</string>
-    <string name="gxzw_quick_open_add_event_sub">Календар</string>
-    <string name="gxzw_quick_open_alipay_pay">Код за плащане</string>
-    <string name="gxzw_quick_open_alipay_pay_sub">AliPay</string>
-    <string name="gxzw_quick_open_alipay_scan">Скенер</string>
-    <string name="gxzw_quick_open_alipay_scan_sub">AliPay</string>
-    <string name="gxzw_quick_open_qr_code">QR код</string>
-    <string name="gxzw_quick_open_qr_code_sub">Скенер</string>
-    <string name="gxzw_quick_open_search">Търсене</string>
-    <string name="gxzw_quick_open_search_sub">Браузър</string>
-    <string name="gxzw_quick_open_skip_teach">Прескочи инструкциите</string>
-    <string name="gxzw_quick_open_wechat_pay">Код за плащане</string>
-    <string name="gxzw_quick_open_wechat_pay_sub">WeChat</string>
-    <string name="gxzw_quick_open_wechat_scan">Скенер</string>
-    <string name="gxzw_quick_open_wechat_scan_sub">WeChat</string>
-    <string name="gxzw_quick_open_xiaoai_sub">Mi ИИ/AI</string>
-    <string name="gxzw_quick_open_xiaoai_title1">Кажете името на приложението, което искате да отворите</string>
-    <string name="gxzw_quick_open_xiaoai_title2">Кажете името на функцията, която искате да използвате</string>
-    <string name="gxzw_quick_tip_press">Задръжте натиснато…</string>
-    <string name="gxzw_quick_tip_slide">Не вдигайте пръста си. Плъзнете за избор.</string>
     <string name="gxzw_try_again">Оптитайте отново</string>
     <string name="gxzw_try_more_again">Оптитайте отново</string>
     <string name="gxzw_use_password">Използвайте паролата си за отключване</string>
@@ -915,6 +898,10 @@
     <string name="keyguard_charging_back_to_lockscreen">Обратно към закл. екран</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
     <string name="keyguard_charging_info_battery_used_time_text">На батерия</string>
+    <string name="keyguard_charging_info_data_c">%s℃</string>
+    <string name="keyguard_charging_info_data_ma">%smA</string>
+    <string name="keyguard_charging_info_data_percent">%s%%</string>
+    <string name="keyguard_charging_info_data_v">%sV</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Изразходени</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Днес%s</string>
@@ -942,6 +929,7 @@
     <string name="keyguard_missing_sim_instructions_long">SIM картата липсва или не се разпознава. Поставете SIM карта.</string>
     <string name="keyguard_missing_sim_message">В телефона няма SIM карта.</string>
     <string name="keyguard_missing_sim_message_short">Няма SIM карта</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Мрежата е заключена</string>
     <string name="keyguard_password_enter_password_code">Въведете парола за отключване</string>
     <string name="keyguard_password_enter_pin_code">Въведете PIN код</string>
@@ -1025,6 +1013,7 @@
     <string name="left_keycode">Клавиатура за лява ръка</string>
     <string name="left_nav_bar_button_type">Опции за левия бутон</string>
     <string name="legacy_vpn_name">VPN</string>
+    <string name="list_delimeter">", "</string>
     <string name="loading_injected_setting_summary">Зарежда се…</string>
     <string name="local_backup_password_summary_change">Чукнете за да промените или премахнете паролата за архивите на Начален екран</string>
     <string name="local_backup_password_summary_none">Архивните на Начален екран са защитени</string>
@@ -1100,6 +1089,7 @@ d MMMM"</string>
     <string name="miui_guide_dialog_message">Звуците и мелодиите от медийното съдържание ще продължат да се възпроизвеждат в Тих режим. Вие можете да промените това от меню Настройки.</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Отключено с Bluetooth устройство</string>
     <string name="miui_ringer_count_down">Позиции надолу</string>
+    <string name="miui_ringer_count_down_time">%s</string>
     <string name="miui_ringer_standard">Без звук</string>
     <string name="miui_ringer_standard_description">Заглуши звука за входящи повиквания и известия</string>
     <string name="miui_ringer_total">Режим Не безпокойте</string>
@@ -1127,12 +1117,14 @@ d MMMM"</string>
 
 За повече информация се свържете с вашия администратор."</string>
     <string name="monitoring_description_ca_cert_settings">Отвори доверени източници</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">Сертификатът за сигурност вече е инсталиран на това устройство. Мрежовият ви трафик може да бъде наблюдаван и променян.</string>
     <string name="monitoring_description_do_body">Вашият администратор може да наблюдава и променя настройките, корпоративния достъп, приложения и данни свързани с вашето устройство и информацията за местоположението му.</string>
     <string name="monitoring_description_do_body_vpn">Вие сте свързан с %1$s,с което се наблюдава мрежовата активност, включително имейли, приложения и уебсайтове.</string>
     <string name="monitoring_description_do_header_generic">Вашето устройство се управлява от %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s използва %2$s за да управлява вашето устройство.</string>
     <string name="monitoring_description_do_learn_more">Научете повече</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Вашата организация е инсталирала сертификат за достоверност във вашия служебен профил. Вашият защитен мрежов трафик може да бъде наблюдаван и променян.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Вашият служебен профил е свързан с %1$s, който може да наблюдава мрежовата активност, включително имейли, приложения и уебсайтове.</string>
     <string name="monitoring_description_management">"Вашето устройство се управлява от вашата организация. 
@@ -1164,6 +1156,7 @@ d MMMM"</string>
 
 Вие също така сте свързан и с VPN, при което се наблюдава мрежовата активност."</string>
     <string name="monitoring_description_vpn_settings">Отваряне на VPN Настройки</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA сертификати</string>
     <string name="monitoring_subtitle_network_logging">Логове на мрежата</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1202,6 +1195,7 @@ d MMMM"</string>
     <string name="nav_guide_message">Използвайте жестове за скриване и показване на софтуерните бутони.</string>
     <string name="nav_guide_ok">Настройки</string>
     <string name="nav_guide_title">Скрий софтуерните бутони</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Без да се задава</string>
     <string name="no_multi_window_app">Няма приложения, които да поддържат Разделен екран</string>
     <string name="no_notification_tips">Няма известия</string>
@@ -1279,7 +1273,7 @@ d MMMM"</string>
     <string name="open_lock_screen_magazine_hint_text">Плъзнете надясно за повече опции</string>
     <string name="open_remote_center_hint_text">Плъзнете надясно за да видите настройките</string>
     <string name="osu_completing_sign_up">Завършване на регистрацията…</string>
-    <string name="osu_connect_failed">Не можеда се свърже</string>
+    <string name="osu_connect_failed">Не може да се свърже</string>
     <string name="osu_opening_provider">Отваряне %1$s</string>
     <string name="osu_sign_up_complete">Регистрирайте се, за да завършите. Свързване…</string>
     <string name="osu_sign_up_failed">Не можеда завърши регистрацията. Чукнете, за да опитате отново.</string>
@@ -1354,7 +1348,7 @@ d MMMM"</string>
     <string name="power_remaining_charging_duration_only">%1$s остава до пълно зареждане</string>
     <string name="power_remaining_duration_only">Остава %1$sч</string>
     <string name="power_remaining_duration_only_enhanced">Около %1$s остават, въз основа на вашата употреба</string>
-    <string name="power_remaining_duration_only_short">%1$s е изминало</string>
+    <string name="power_remaining_duration_only_short">%1$s</string>
     <string name="power_remaining_duration_only_shutdown_imminent">Телефонът може да се изключи скоро</string>
     <string name="power_remaining_duration_shutdown_imminent">Телефонът може да се изключи скоро (%1$s)</string>
     <string name="power_remaining_less_than_duration">По-малко от %1$s остават (%2$s)</string>
@@ -1374,6 +1368,7 @@ d MMMM"</string>
     <string name="private_dns_mode_provider">Име на хоста на частния DNS доставчик</string>
     <string name="private_dns_mode_provider_failure">Не може да се свърже</string>
     <string name="private_dns_mode_provider_hostname_hint">Въведете името на хоста на DNS доставчик</string>
+    <string name="process_kernel_label">Android операционна система</string>
     <string name="profile_owned_footer">Профилът може да се наблюдава</string>
     <string name="prompt_danger">Опасно</string>
     <string name="prompt_detecting">Откриване</string>
@@ -1490,6 +1485,7 @@ d MMMM"</string>
     <string name="quick_settings_wifi_not_connected">Не е свързан</string>
     <string name="quick_settings_wifi_off_label">Wifi е изкл</string>
     <string name="quick_settings_wifi_on_label">Wi-Fi е вкл</string>
+    <string name="quick_settings_wireless_label">Обратно безжично зареждане</string>
     <string name="quick_settings_work_mode_label">Режим работа</string>
     <string name="rapid_charge_mode_tip">Бързо зареждане</string>
     <string name="recent_cannot_dock">Не може да се използва разделен екран във Второ работно място</string>
@@ -1575,7 +1571,9 @@ d MMMM"</string>
     <string name="screenshot_edit">Редактиране</string>
     <string name="screenshot_failed_title">Не може да се направи екр. снимка.</string>
     <string name="screenshot_failed_to_capture_text">Правенето на снимка на екрана не е позволено от приложение или вашата организация</string>
+    <string name="screenshot_failed_to_capture_title">Това приложение не разрешава да се правят екранни снимки</string>
     <string name="screenshot_failed_to_save_text">Не може да се направи снимка на екрана поради малко място в хранилището.</string>
+    <string name="screenshot_failed_to_save_title">Няма достатъчно място за съхраняване на нови екранни снимки</string>
     <string name="screenshot_failed_to_save_unknown_text">Настъпи грешка по време на запазване на екранната снимка.</string>
     <string name="screenshot_feedback_txt">Отзиви</string>
     <string name="screenshot_insert_failed">Не може да се зареди снимката на екрана. Направете нова или я вижте в Галерия.</string>
@@ -1960,6 +1958,7 @@ d MMM"</string>
     <string name="wapi_psk_type_ascii">ASCII</string>
     <string name="wapi_psk_type_hex">Шестнадесетично</string>
     <string name="wapi_yes">Да</string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_publish_time">Актуализирано %1$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Капацитетът на точката за достъп е пълен</string>
     <string name="wifi_auto_sel_wapi_cert">Автоматичен избор</string>
@@ -2023,6 +2022,15 @@ d MMM"</string>
     <string name="wireless_charge_reset_device">Зареждането е бавно. Нагласете вашето устройство.</string>
     <string name="wireless_charge_reset_device_detail">Бъдете сигурни, че вашето устройство е поставено правилно в базата за зареждане</string>
     <string name="wireless_charge_stop">Безжичното зареждане е спряно</string>
+    <string name="wireless_charging_connected_message">Обратното безжично зареждане не може да се използва, когато устройството Ви се зарежда безжично.</string>
+    <string name="wireless_charging_low_battery_level_message">Обратното безжично зареждане не може да се използва, когато батерията е с по-малко от 30% заряд.</string>
+    <string name="wireless_charging_ok">Разбрах</string>
+    <string name="wireless_charging_saver_cancel">Изключи</string>
+    <string name="wireless_charging_saver_message">Пестенето на батерия е включено. Да остане ли налично обратното безжично зареждане?</string>
+    <string name="wireless_charging_saver_ok">Запази</string>
+    <string name="wireless_charging_tips_disable">Не показвай повече</string>
+    <string name="wireless_charging_tips_message">Поставяйте устройства, които поддържат Qi безжично зареждане (телефони, принадлежности и т.н.) на гърба на това устройство.</string>
+    <string name="wireless_charging_tips_title">Обратно безжично зареждане</string>
     <string name="wrong_password">Грешна парола</string>
     <string name="zen_alarm_warning">Вие нямате да чуете следващата аларма %1$s</string>
     <string name="zen_alarm_warning_indef">Вие нямате да чуете следващата аларма %1$s докато не изключите това</string>

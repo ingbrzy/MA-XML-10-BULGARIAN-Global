@@ -127,13 +127,13 @@
     <string name="downloading">Изтегляне…</string>
     <string name="downloading_empty">Празно</string>
     <string name="downloads_operating">Обработка…</string>
-    <string name="durationDayHour">%1$d ден %2$d ч</string>
-    <string name="durationDayHours">%1$d ден %2$d часа</string>
-    <string name="durationHourMinute">%1$d час %2$d мин</string>
-    <string name="durationHourMinutes">%1$d час %2$d мин</string>
+    <string name="durationDayHour">%1$d ден и %2$d ч</string>
+    <string name="durationDayHours">%1$d ден %2$d ч</string>
+    <string name="durationHourMinute">%1$d ч и %2$d мин</string>
+    <string name="durationHourMinutes">%1$d ч и %2$d мин</string>
     <string name="durationMinute">%1$d мин</string>
-    <string name="durationMinuteSecond">%1$d мин %2$d сек</string>
-    <string name="durationMinuteSeconds">%1$d мин %2$d сек</string>
+    <string name="durationMinuteSecond">%1$d мин и %2$d с</string>
+    <string name="durationMinuteSeconds">%1$d мин и %2$d с</string>
     <string name="durationMinutes">%1$d мин</string>
     <string name="durationSecond">%1$d сек</string>
     <string name="durationSeconds">%1$d сек</string>
@@ -205,7 +205,7 @@
     <string name="pref_download_settings_title">Лимит на размера за изтегляне</string>
     <string name="pref_summary_any_bytes_popup">Винаги изчаквай Wi-Fi връзка за изтегляне на файлове</string>
     <string name="pref_summary_enable_max_bytes_popup">Показвай известие при използване на мобилни данни за изтегляне на съдържание</string>
-    <string name="pref_summary_max_bytes_limit_format">Изчакване за Wi-Fi ако размера на файла надвиши %s</string>
+    <string name="pref_summary_max_bytes_limit_format">Изчакване за Wi-Fi, ако размерът на файла надвишава %s</string>
     <string name="pref_summary_no_limit_popup">Без лимит</string>
     <string name="pref_title_enable_max_bytes_popup">Предупреди за използване на мобилни данни</string>
     <string name="preferences_title">Настройки</string>
@@ -249,4 +249,5 @@
     <string name="toast_only_wifi_download">Свържете се с Wi-Fi, за да изтеглите този елемент</string>
     <string name="total_speedup">Усилване на скоростта (Всичко)</string>
     <string name="version">Версия %s</string>
+    <string name="security_ui_title">Security ads</string>
 </resources>

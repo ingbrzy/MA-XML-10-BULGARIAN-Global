@@ -97,7 +97,7 @@
     <string name="grant_dialog_button_deny_background_and_dont_ask_again">Отказвам – не ме питай отново</string>
     <string name="location_settings">Настройки на местоположението</string>
     <string name="location_warning">%1$s е доставчик на данни за местоположението. Достъпа до местоположението може да се промени от настройките.</string>
-    <string name="never_ask_again">Не питай повече</string>
+    <string name="never_ask_again">Не питай пак след ограничаването.</string>
     <string name="ok">ОК</string>
     <string name="permdesc_camera">Правене на снимки и записване на видео</string>
     <string name="permdesc_in_calls">Следене на входящите обаждания</string>

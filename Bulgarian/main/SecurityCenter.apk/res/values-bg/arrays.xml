@@ -13,6 +13,11 @@
         <item>Понеделник-Петък</item>
         <item>По избор</item>
     </string-array>
+    <string-array name="applock_password_types">
+        <item>Шаблон</item>
+        <item>ПИН</item>
+        <item>Парола</item>
+    </string-array>
     <string-array name="date_of_app_all">
         <item>"Вчера (мобилни данни) "</item>
         <item>"Днес (мобилни данни) "</item>
@@ -44,6 +49,12 @@
         <item>"Тази седмица: "</item>
         <item>"Днес: "</item>
         <item>"Този месец: "</item>
+    </string-array>
+    <string-array name="key_app_info">
+        <item>източник на инсталиране</item>
+        <item>час на инсталиране</item>
+        <item>източник на актуализиране</item>
+        <item>час на актуализиране</item>
     </string-array>
     <string-array name="lock_mode">
         <item>При заключено устройство</item>
