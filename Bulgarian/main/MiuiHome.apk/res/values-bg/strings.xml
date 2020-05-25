@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_home_description">Придвижване към „Начало“</string>
-    <string name="abc_action_bar_up_description">Придвижване нагоре</string>
+    <string name="abc_action_bar_home_description">Навигиране към началния екран</string>
+    <string name="abc_action_bar_up_description">Навигиране нагоре</string>
     <string name="abc_action_menu_overflow_description">Още опции</string>
     <string name="abc_action_mode_done">Готово</string>
-    <string name="abc_activity_chooser_view_see_all">Вижте всички</string>
+    <string name="abc_activity_chooser_view_see_all">Преглед на всички</string>
     <string name="abc_activitychooserview_choose_application">Изберете приложение</string>
     <string name="abc_capital_off">ИЗКЛ.</string>
     <string name="abc_capital_on">ВКЛ.</string>
@@ -170,9 +170,13 @@
     <string name="confirm_uninstall_dialog_contain_xspace_app_msg">Cloned apps will be uninstalled together with these ones.</string>
     <string name="confirm_uninstall_dialog_has_xspace_app_msg">Cloned app will be uninstalled together with this one.</string>
     <string name="confirm_uninstall_dialog_title">Клонираните приложения ще бъдат премахнати</string>
+    <string name="content_description_button_add">Натиснете, за да добавите настоящите приложения</string>
+    <string name="content_description_button_disable">Не можете да добавяте повече настоящи приложения</string>
+    <string name="content_description_button_remove">Натиснете, за да премахнете настоящите приложения</string>
     <string name="content_description_for_shortcut_icon_checked">%1$s，проверени</string>
     <string name="content_description_shortcut_icon_unchecked">%1$s，непроверени</string>
     <string name="content_description_workspace_thumbnail_item">Преглед на екрана，страница %1$s</string>
+    <string name="copy">Копиране</string>
     <string name="current_preview">Преглед</string>
     <string name="current_wallpaper">Текущ</string>
     <string name="custom_wallpaper_picker">Преглеждане</string>
@@ -226,6 +230,7 @@
     <string name="emptyplaylist">Плейлистата е празна</string>
     <string name="enable_wallpaper_scroll">Вкл. превъртането на тапета</string>
     <string name="encryption">Кодиране</string>
+    <string name="expand_button_title">Разширени</string>
     <string name="failed_to_delete_temporary">Изтриването неуспeшно. Моля, опитайте отново.</string>
     <string name="failed_to_drop">Неуспешно преместване!</string>
     <string name="failed_to_drop_widget_invalid">Тази джаджа е невалидна</string>
@@ -355,6 +360,7 @@
     <string name="no_space_toast">Няма достатъчно място</string>
     <string name="no_space_toast_when_click_widget">Няма достатъчно място на тази страница. Пробвайте да провлачите този елемент на друга страница.</string>
     <string name="normal_wallpaper">Тапет</string>
+    <string name="not_set">Не е зададено</string>
     <string name="notification_installed">Инсталацията е успешна</string>
     <string name="notification_open_button">Отвори</string>
     <string name="notification_reset_title">Успешно подредени икони</string>
@@ -367,11 +373,13 @@
     <string name="open_personal_assistant_dialog_title">Изключи Трезор за приложения</string>
     <string name="open_personal_assistant_title">Секция на приложението</string>
     <string name="out_of_space">На този екран няма свободно място.</string>
+    <string name="perfect_icons_switch_summary">Създава анимации върху иконки на приложения от трета страна</string>
+    <string name="perfect_icons_switch_title">Анимации за глобална иконка</string>
     <string name="permdesc_install_shortcut">Позволява на приложението да добавя преки пътища без намеса от потребителя.</string>
-    <string name="permdesc_install_widget">Позволява на приложението да добавя джаджи без намеса от потребителя.</string>
+    <string name="permdesc_install_widget">Позволява на приложенията да добавят приспособления без да изискват допълнителни действия от потребителя.</string>
     <string name="permdesc_read_settings">Разрешете на приложението да преглежда настройките на Начален екран и преките пътища.</string>
     <string name="permdesc_uninstall_shortcut">Позволява на приложението да премахва преки пътища без намеса от потребителя.</string>
-    <string name="permdesc_uninstall_widget">Позволете на приложение да премахва приспособления без намеса на потребителя.</string>
+    <string name="permdesc_uninstall_widget">Позволява на приложенията да премахват приспособления без да изискват допълнителни действия от потребителя.</string>
     <string name="permdesc_write_settings">Разрешете на приложението да променя настройките на Начален екран и преките пътища.</string>
     <string name="permlab_install_shortcut">Добавяне на преки пътища</string>
     <string name="permlab_install_widget">Добавяне на джаджи</string>
@@ -396,6 +404,7 @@
     <string name="pref_render_in_truecolor_title">Подобрена графика</string>
     <string name="pref_screen_transformation_type_title">Ефекти за преход между екраните</string>
     <string name="pref_wallpaper_scroll_type_title">Тип на превъртане на тапетa</string>
+    <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="preferences_general_title">Основни настройки</string>
     <string name="preferences_title">Настройка на MIUI Launcher</string>
     <string name="preferred_app_settings_not_selected">Не е избрано</string>
@@ -416,6 +425,7 @@
     <string name="recents_exit_multi_window_mode">Изход</string>
     <string name="recents_forbid_dock_when_screening_toast_text">Не можете да използвате Разделен екран докато излъчвате</string>
     <string name="recents_incompatible_app_message">Това приложение не поддържа Разделен екран</string>
+    <string name="recents_smallwindow_text">Отпуснете, за да добавите</string>
     <string name="recents_task_screening">Излъчване</string>
     <string name="recents_title_app_manager">Управлявайте приложения</string>
     <string name="recents_title_game">Игри</string>
@@ -423,6 +433,7 @@
     <string name="recents_title_garbage_deepclean">Обстойно почистване</string>
     <string name="recents_title_market">Откривайте приложения</string>
     <string name="recents_title_security_scan">Сканиране на защитата</string>
+    <string name="recents_tv_small_window_text">Плаващи прозорци</string>
     <string name="recommend_apk_size_and_desc">%1$dМБ | %2$s</string>
     <string name="recommend_app">Предложения за приложения</string>
     <string name="recommend_apps_default_title">Празно</string>
@@ -467,11 +478,19 @@
     <string name="show_most_popular_apps_you_used">Покажи най-често използваните приложения в чекмеджето</string>
     <string name="show_recents_recommend_title">Покажи предложения</string>
     <string name="slide_to_open_newhome">Плъзнете нагоре за отваряне на Център за Съдържание</string>
+    <string name="small_window_button_complete">Готово</string>
+    <string name="small_window_edit_content">Можете да добавите до %d приложения</string>
+    <string name="small_window_edit_title">Текущи приложения</string>
+    <string name="small_window_empty">Изберете от наличните приложения</string>
+    <string name="small_window_select_title">Налични приложения</string>
+    <string name="small_window_title_text">Натиснете за отваряне на плаващ прозорец</string>
+    <string name="small_window_toast">Можете да добавите до %d приложения</string>
     <string name="sort_by_abc">Подреди по име</string>
     <string name="sort_by_frequency">Подреди по популярност</string>
     <string name="sort_by_not_defined">Не сортирай</string>
     <string name="start_activity_failed">Приложението не успя да стартира.</string>
     <string name="starting_preset_app">Стартиране</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_info1">Свободни %1$sB от %2$sB</string>
     <string name="status_bar_recent_memory_info2" />
     <string name="status_downloaded">изтеглено</string>
@@ -479,6 +498,7 @@
     <string name="status_installing">инсталира се</string>
     <string name="status_paused">на пауза</string>
     <string name="status_pending">изчаква се</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_personal_assistant_app_vault">Трезор за приложения</string>
     <string name="switch_personal_assistant_google">Google Discover</string>
     <string name="switch_personal_assistant_none">Няма</string>
@@ -510,6 +530,8 @@
     <string name="uninstall_xspace_dialog_title_format">Деинсталиране на клонирано \"%s\"?</string>
     <string name="unknown_artist_name">Неизвестен артист</string>
     <string name="unnamed_folder_name">Папка</string>
+    <string name="v7_preference_off">ИЗКЛ.</string>
+    <string name="v7_preference_on">ВКЛ.</string>
     <string name="wallpaper">Тапет</string>
     <string name="wallpaper_auto_change_title">Закл. екран</string>
     <string name="wallpaper_failed_message">Тапетът не може да се приложи</string>

@@ -28,6 +28,14 @@
         <item quantity="other">Изтеглени записи: %d</item>
         <item quantity="one">%d изтеглен запис</item>
     </plurals>
+    <plurals name="search_alll_records_hint">
+        <item quantity="other">Търси сред %d записа</item>
+        <item quantity="one">Търси сред %d запис</item>
+    </plurals>
+    <plurals name="search_call_records_hint">
+        <item quantity="other">Търси сред %d записа на повикване</item>
+        <item quantity="one">Търси сред %d запис на повикване</item>
+    </plurals>
     <plurals name="search_result">
         <item quantity="other">Открити са %d записа</item>
         <item quantity="one">Открит е %d запис</item>

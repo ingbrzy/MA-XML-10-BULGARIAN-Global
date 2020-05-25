@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="ai_assistant">Умни повиквания</string>
+    <string name="ai_assistant_not_installed">Първо инсталирайте AI Асистент за Повиквания</string>
     <string name="antispam_local_marked">Маркирано локално</string>
     <string name="antispam_notification_title">Неизвестен</string>
     <string name="antispam_provider">Доставчик: %s</string>
@@ -50,14 +52,10 @@
     <string name="can_not_use">Не може да се използва</string>
     <string name="cancel">Отказ</string>
     <string name="card_title_answering">Отговор на повикване</string>
-    <string name="card_title_answering_time_out">Не можа да се отговори на повикването, опитайте отново.</string>
     <string name="card_title_call_ended">"Обаждането завърши "</string>
     <string name="card_title_conf_call">Конферентно обаждане</string>
     <string name="card_title_dialing">Набиране</string>
     <string name="card_title_hanging_up">"Приключване на разговора "</string>
-    <string name="card_title_hanging_up_fail">Не можа да се приключи обаждането, опитайте отново.</string>
-    <string name="card_title_hanging_up_restart">Не може да се прекрати обаждането. Рестартирайте устройството.</string>
-    <string name="card_title_hanging_up_weak_signal">Сигналът на мобилната мрежа е слаб. Приключване на обаждане…</string>
     <string name="card_title_in_call">Вх. обаждане</string>
     <string name="card_title_in_call_short">В разговор</string>
     <string name="card_title_in_video">Видео</string>
@@ -117,6 +115,8 @@
     <string name="dialpad_zero">0</string>
     <string name="do_not_support_video_calls_by_remote">На другото устройство не се поддържат видео обаждания</string>
     <string name="emergency_call_dialog_number_for_display">Номер за спешна помощ</string>
+    <string name="enter_ai_assistant">Използвай</string>
+    <string name="enter_ai_assistant_tip">Ако не е удобно за Вас да говорите, можете да използвате AI Асистент за Повиквания, който ще преобразува Вашите съобщения в реч повреме на обаждането. Ще използвате ли AI Асистент за Повиквания?</string>
     <string name="inCallLabel">Телефон</string>
     <string name="incall_bubble_hangup_click_hint">Натиснете отново, за да се върнете към обаждането</string>
     <string name="incall_call_type_label_sip">Интернет обаждане</string>

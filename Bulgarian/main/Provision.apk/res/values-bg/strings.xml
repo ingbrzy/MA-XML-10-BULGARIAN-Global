@@ -31,7 +31,7 @@
     <string name="congratulation_swipe">Плъзнете нагоре, за да влезете в системата</string>
     <string name="congratulation_title">Поздравления!!</string>
     <string name="content_description_complete">Готово</string>
-    <string name="content_description_miui_version">MIUI 11</string>
+    <string name="content_description_miui_version">MIUI 12</string>
     <string name="content_description_start">Старт</string>
     <string name="content_introduction">В центъра за съдържание се събират съдържание и услуги от множество канали. Тук можете да четете статии, да гледате видеа, да разглеждате подбрани неща всеки ден, както и да получавате съдържание.</string>
     <string name="continue_to_enable_accessibility">Продължете да държите два пръста, за да включите услугата Достъпност.</string>
@@ -60,7 +60,7 @@
     <string name="font_hint_large">Размер на текста по подразбиране</string>
     <string name="font_hint_normal">Увеличи размера на текста</string>
     <string name="framework_introduction">Фреймуъркът \"Mi услуги\" Ви позволява да използвате \"Mi профил\", Mi Push, \"Mi статистика\" и MIUI BI.</string>
-    <string name="framwork_base_service">За да може да Ви предоставя тези услуги, фреймуъркът Услуги Mi (Mi профил, Mi Push, Mi статистика, MIUI BI) се нуждае от връзка с интернет, достъп до Вашето местоположение и до телефонния Ви номер, до IMEI и IMSI, както и от разрешение устройството да получава push известия.</string>
+    <string name="framwork_base_service">За да може да Ви предоставя тези услуги, фреймуъркът \"Услуги Mi\" (\"Mi профил\", Mi Push, \"Mi статистика\", MIUI BI) се нуждае от връзка с интернет, достъп до Вашето местоположение и до телефонния Ви номер, до IMEI и IMSI, както и от разрешение устройството да получава push известия</string>
     <string name="game_introduction">Приставката за игри Ви дава възможност да влизате в профила си, да създавате поръчки, да извършвате плащания, да използвате купони и да участвате в промоционални събития.</string>
     <string name="google_service_introduction">За да може да работи нормално, Google Play се нуждае от връзка с интернет, от достъп до Вашето местоположение, да може да записва звук, да извършва обаждания, да има достъп до събитията в календара, до историята на обажданията, до сензорите, пространството за съхранение, камерата, информация за устройството и до профилите.</string>
     <string name="ime_privacy_policy">Правила за поверителност за избраната клавиатура</string>
@@ -76,6 +76,8 @@
     <string name="locale_picker_title">Изберете регион</string>
     <string name="location_introduction">Базираните на местоположението услуги намират продукти и услуги близо до Вас.</string>
     <string name="lockscreen_introduction">Чрез сменящите се тапети всеки ден на заключения Ви екран се доставят нови изображения.</string>
+    <string name="mint_keyboard_oobe_checkbox">Прочетох и съм съгласен с Правилата за поверителност на Mint клавиатурата</string>
+    <string name="mint_keyboard_oobe_terms">Правила за поверителност на Mint клавиатура</string>
     <string name="miui_privacy_policy_no_network">Няма връзка с интернет. Вижте правилата за поверителност на %s</string>
     <string name="miui_terms_no_network">Нямате връзка с интернет. Вижте Потребителското споразумение на %s.</string>
     <string name="multisim_settings_category">Предпочитани SIM настройки</string>
@@ -203,7 +205,7 @@
     <string name="skip_gesture_guide_dialog_positive_btn">OK</string>
     <string name="skip_gesture_guide_dialog_title">Жестове на цял екран</string>
     <string name="skip_underline">Пропусни тази стъпка</string>
-    <string name="start_up_slogan">Животът става по-лесен</string>
+    <string name="start_up_slogan">Само твой</string>
     <string name="summary_not_set">Не е настроено</string>
     <string name="system_navigation_mode">Режим за навигиране в системата</string>
     <string name="terms_of_use">Общи условия</string>
@@ -224,6 +226,9 @@
     <string name="terms_of_use_lable_default_input_method_kika">"
 
 Вие трябва да се съгласите с политиката за поверителност на Кика, преди да използвате тази услуга."</string>
+    <string name="terms_of_use_lable_default_input_method_mint">"
+
+За да започнете да използвате тази функция трябва да се съгласите с Правилата за поверителност на Mint клавиатурата."</string>
     <string name="terms_of_use_lable_gms">, Услуги на Google магазин</string>
     <string name="terms_of_use_lable_smart_cards">, Смарт карти</string>
     <string name="terms_of_use_lable_vsimcore">, MConnService</string>
@@ -231,13 +236,13 @@
     <string name="terms_privacy_policy_input_method_kika">Кика Политика на поверителност</string>
     <string name="title_fingerprint">Задай парола</string>
     <string name="user_agreement">Потребителско споразумение</string>
-    <string name="user_agreement_declare">Преди да използвате MIUI, трябва да прочетете и да приемете нашето потребителско споразумение и нашата политика за поверителност. Докато устройството Ви се активира, Услугата Mi за активация на SIM, Xiaomi облак, Открий устройството, Начален екран, Чести фрази, Услуга за превод, MIUI Daemon, Показване на HTML, AI асистент, Батерия и производителност, Отчитане на потреблението, Joyose, AI настройка на операционната система и Обновяване ще се свържат с интернет. Смарт услугите ще се свържат с мрежата и ще осъществят достъп до Вашето местоположение.</string>
+    <string name="user_agreement_declare">Преди да използвате MIUI трябва да прочетете и да приемете нашето Потребителско споразумение и Правила за поверителност. Докато Вашето устройство се включва Mi SIM Услуга за активация, Xiaomi Облак, Намери устройството, Начален екран, Често използвани фрази, Преводачески услуги, MIUI Daemon, Преглед на HTML, AI Асистент, Батерия и производителност, Отчитане на мощност, Joyose, OS AI Настройка, Управление на разрешения и Актуализатор ще се свържат към мрежата. Умни услуги ще се свържат към мрежата и ще получат достъп до Вашето местоположение.</string>
     <string name="voice_assist_advice">Mi AI ви дава възможност да използвате гласови контроли, но така ще се увеличи консумацията на енергия (с около 1% на всеки час).</string>
     <string name="voice_assist_condition">"Няма да можете да използвате Mi AI в следните случаи:r
 1. Когато екранът е включен. r
 2. Когато слушате музика и екранът е изключен."</string>
     <string name="voice_assist_desp">Кажете \"Mi AI\" на смартфона си. Mi Асистент ще разпознае вашият глас и ще може да контролира вашето устройство.</string>
     <string name="voice_assist_title">Събуждане с глас</string>
-    <string name="welcome">Добре дошли в</string>
+    <string name="welcome">Добре дошли</string>
     <string name="zone_picker_title">Избор на часова зона</string>
 </resources>

@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="abc_action_bar_home_description">Навигиране към началния екран</string>
+    <string name="abc_action_bar_up_description">Навигиране нагоре</string>
+    <string name="abc_action_menu_overflow_description">Още опции</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Преглед на всички</string>
+    <string name="abc_activitychooserview_choose_application">Изберете приложение</string>
+    <string name="abc_capital_off">ИЗКЛ.</string>
+    <string name="abc_capital_on">ВКЛ.</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">клавиша за интервал</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Търсете…</string>
+    <string name="abc_searchview_description_clear">Изчистване на заявката</string>
+    <string name="abc_searchview_description_query">Заявка за търсене</string>
+    <string name="abc_searchview_description_search">Търсене</string>
+    <string name="abc_searchview_description_submit">Изпращане на заявката</string>
+    <string name="abc_searchview_description_voice">Гласово търсене</string>
+    <string name="abc_shareactionprovider_share_with">Споделяне със:</string>
+    <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
+    <string name="abc_toolbar_collapse_description">Свиване</string>
     <string name="accessibility_calllog_detail">Подробности</string>
     <string name="accessibility_contact_detail">Детайли за контакт</string>
     <string name="account_container_title">От профила</string>
@@ -106,6 +133,7 @@
     <string name="call_sim_menu_title_suffix">(Основен)</string>
     <string name="call_telex">Набери телекс</string>
     <string name="call_tty_tdd">Набери TTY/TDD</string>
+    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="call_unit">CNY</string>
     <string name="call_work">Набери служебен</string>
     <string name="call_work_mobile">Набери сл. мобилен</string>
@@ -125,6 +153,7 @@
     <string name="callrecordview_item_op_time_short_outgoing">"Изходящи:  "</string>
     <string name="callrecordview_item_op_video">Видео</string>
     <string name="callrecordview_menu_add_call_note">Добави бележка</string>
+    <string name="callrecordview_menu_aiphone">AI повиквания</string>
     <string name="callrecordview_menu_batch_delete">Пакетно изтриване</string>
     <string name="callrecordview_menu_blocklist">Блокирани</string>
     <string name="callrecordview_menu_conference">Конферентно обаждане</string>
@@ -189,7 +218,7 @@
     <string name="cloud_antispam_marked">Отбелязани</string>
     <string name="cloud_antispam_title">Антиспам (в облак)</string>
     <string name="cloud_recommend_msg">Натиснете за синхронизация на контактите с облака.</string>
-    <string name="cloud_state_disabled">Синхронизиране на контактите с облака</string>
+    <string name="cloud_state_disabled">Синхронизиране на контактите с Xiaomi Облак</string>
     <string name="cloud_state_loading">Един момент…</string>
     <string name="cloud_state_sync_finished">Синхронизирани с облака</string>
     <string name="cloud_state_syncing">Извършва се синхронизация с облака</string>
@@ -261,7 +290,7 @@
     <string name="contact_editor_prompt_one_account">Новият контакт ще бъде синхронизиран с профила ви в %1$s.</string>
     <string name="contact_editor_prompt_zero_accounts">Вашият нов контакт няма да бъде архивиран. Добавете профил за архивиране онлайн</string>
     <string name="contact_import_methods_dialog_bluetooth">Bluetooth</string>
-    <string name="contact_import_methods_dialog_mi_mover">Mi Трансфер</string>
+    <string name="contact_import_methods_dialog_mi_mover">Внасяне чрез Mi Mover</string>
     <string name="contact_import_methods_dialog_title">Изберете метод на импортиране</string>
     <string name="contact_is_deleted">Този контакт беше изтрит</string>
     <string name="contact_is_readOnly">Контакт само за четене не може да се редактира</string>
@@ -286,6 +315,7 @@
     <string name="contacts_unavailable_import_from_old_device">Импортиране от старото устройство</string>
     <string name="contacts_unavailable_import_sim_contacts">Импортиране на контактите от SIM</string>
     <string name="convenient_service">Услуги</string>
+    <string name="copy">Копиране</string>
     <string name="copy_number">Копирай</string>
     <string name="copy_text">Копирай в буферната памет</string>
     <string name="createContactShortcutSuccessful">Добавена е икона за този контакт на началния екран.</string>
@@ -466,6 +496,7 @@
     <string name="event_edit_field_hint_text">Дата</string>
     <string name="expandCloseViewDescription">Скрий</string>
     <string name="expandOpenViewDescription">Покажи</string>
+    <string name="expand_button_title">Разширени</string>
     <string name="export_sim_contact_finish">Експортирането към SIM картата завърши</string>
     <string name="export_sim_contact_finish_msg">Прехвърлени %1$d | Пропуснати %2$d | %3$d остават %4$s</string>
     <string name="export_to_sdcard">Експортиране в хранилището</string>
@@ -506,6 +537,7 @@
     <string name="force_touch_new_contact">Нов контакт</string>
     <string name="four_letter">GHI</string>
     <string name="frequentList">Често използвани</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Име</string>
     <string name="gallery">Галерия</string>
     <string name="generic_no_account_prompt">Запазете своите контакти в безопасност дори ако загубите телефона си: синхронизирайте ги с онлайн услуга.</string>
@@ -689,6 +721,7 @@
     <string name="miprofile_contact_header">Контакти с контактни карти</string>
     <string name="miprofile_contact_meaasge">Локални контакти</string>
     <string name="miprofile_contact_verifying">Проверка</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Редакция на профила</string>
     <string name="miprofile_error_accept_self">Не може да обмените вашата собствена контактна карта</string>
     <string name="miprofile_error_no_miaccount">Впишете се с вашия Mi профил</string>
@@ -798,6 +831,7 @@
     <string name="non_phone_close">Затвори</string>
     <string name="none_paired">Няма свързани устройства</string>
     <string name="not_applied">Не се поддържа</string>
+    <string name="not_set">Не е зададено</string>
     <string name="notification_action_voicemail_play">Прослушай</string>
     <string name="notification_new_voicemail_ticker">Ново гл. съобщение от %1$s</string>
     <string name="notification_voicemail_callers_list">%1$s, %2$s</string>
@@ -845,7 +879,10 @@
     <string name="path_wipe_data">Системни приложения/Контакти/Подреждане на контакти/Изчисти данните</string>
     <string name="payphone">Обществен телефон</string>
     <string name="people">Контакти</string>
+    <string name="percent_sign">%1$s</string>
+    <string name="percentage">%1$s%2$s</string>
     <string name="phoneLabelsGroup">Телефон</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Номерът е твърде дълъг</string>
     <string name="phone_primary">Основен</string>
     <string name="photoPickerNotFoundText">Няма налични изображения в устройството.</string>
@@ -899,6 +936,7 @@
     <string name="preference_contacts_filter">Контакти за показване</string>
     <string name="preference_contacts_more">Други настройки</string>
     <string name="preference_contacts_moresetting">Още</string>
+    <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="preference_dial_pad_touch_tone_default">По подразбиране</string>
     <string name="preference_dial_pad_touch_tone_human">Човешки глас</string>
     <string name="preference_dial_pad_touch_tone_piano">Пиано</string>
@@ -1033,6 +1071,7 @@
     <string name="search_key_photo_word">Приложи;контакт;снимки;Контакти</string>
     <string name="search_key_rebuild_t9_index_title">Подреждане;Контакти;Т9</string>
     <string name="search_key_sim_manage">Подреждане;Контакти</string>
+    <string name="search_menu_title">Търсене</string>
     <string name="search_preference_contacts_filter">Контакти;Показване</string>
     <string name="search_quick_dial_setting">Телефон</string>
     <string name="search_remove_duplicate">Подреждане;Контакти</string>
@@ -1106,6 +1145,7 @@
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Няма членове на групата</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">По фирма</string>
     <string name="smart_group_company_unavailable">Неизвестна фирма</string>
     <string name="smart_group_frequency_1">В рамките на месец</string>
@@ -1151,9 +1191,11 @@
     <string name="starred_contacts">Любими</string>
     <string name="status_available">Достъпен</string>
     <string name="status_away">Отсъстващ</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Зает</string>
     <string name="strequentList">Любими</string>
     <string name="success_message_import_from_account">Успешно импортиране</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_kind_title">Инфо:</string>
     <string name="sv">SV</string>
     <string name="t9_search_empty_create_contact">Нов контакт</string>
@@ -1161,7 +1203,7 @@
     <string name="t9_search_empty_send_sms">Изпрати съобщение</string>
     <string name="t9_search_empty_video_call">Видео разговор</string>
     <string name="t9_search_guide_pinyin_title1">Бързо търсене на контакти по букви</string>
-    <string name="t9_search_guide_pinyin_title2" formatted="false">Въведете \"%d\" и \"%d\", за да потърсите \"<font fgcolor="">Ю</font>лия <font fgcolor="">Л</font>юбимова\"</string>
+    <string name="t9_search_guide_pinyin_title2" formatted="false">Въведете \"%d\" и \"%d\", за да потърсите \"<font fgcolor="">М</font>ария <font fgcolor="">Г</font>еоргиева</string>
     <string name="t9_search_guide_zhuyin_title1">Бързо търсене на контакти по букви</string>
     <string name="t9_search_guide_zhuyin_title2" formatted="false">Въведете \"%d\" и \"%d\", за да потърсите \"<font fgcolor="">М</font>артин <font fgcolor="">С</font>тоянов</string>
     <string name="take_new_photo">Направи нова снимка</string>
@@ -1213,6 +1255,8 @@
     <string name="use_photo_as_primary2">Използване на снимката от %1$s</string>
     <string name="useful_numbers">Полезни номера</string>
     <string name="user_profile_contacts_list_header">Аз</string>
+    <string name="v7_preference_off">ИЗКЛ.</string>
+    <string name="v7_preference_on">ВКЛ.</string>
     <string name="vcard_export_request_rejected_message">Експортирането на визитка се провали, моля опитайте по-късно.</string>
     <string name="vcard_export_will_start_message">%s ще бъде експортирана скоро.</string>
     <string name="vcard_import_failed">Неуспешно импортиране на визитка %s.</string>
@@ -1244,6 +1288,7 @@
     <string name="voip_audio_description">Провеждане на VoIP обаждане</string>
     <string name="voip_video_description">Провеждане на VoIP видео обаждане</string>
     <string name="websiteLabelsGroup">Уеб сайт</string>
+    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">Изчисти данни</string>
     <string name="yellowPageNavigationIconLabel">Директория</string>
     <string name="yellowPageNavigationLabel">Директория</string>

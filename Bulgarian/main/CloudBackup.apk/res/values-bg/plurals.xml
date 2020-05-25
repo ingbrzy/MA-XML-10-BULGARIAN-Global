@@ -8,20 +8,20 @@
         <item quantity="other">%1$s архиви (%2$s)</item>
         <item quantity="one">%1$s архив (%2$s)</item>
     </plurals>
-    <plurals name="restoring_file_tile">
-        <item quantity="other">Възстановяване на %d файла</item>
-        <item quantity="one">Възстановяване на %d файл</item>
-    </plurals>
-    <plurals name="restore_app_order_prior">
-        <item quantity="other">Висок приоритет: %d приложения</item>
-        <item quantity="one">Висок приоритет: %d приложение</item>
+    <plurals name="restore_app_order_installed">
+        <item quantity="other">%d прилож на това устройство</item>
+        <item quantity="one">%d прилож на това устройство</item>
     </plurals>
     <plurals name="restore_app_order_normal">
         <item quantity="other">Нормален приоритет: %d приложения</item>
         <item quantity="one">Нормален приоритет: %d приложение</item>
     </plurals>
-    <plurals name="restore_app_order_installed">
-        <item quantity="other">%d прилож на това устройство</item>
-        <item quantity="one">%d прилож на това устройство</item>
+    <plurals name="restore_app_order_prior">
+        <item quantity="other">Висок приоритет: %d приложения</item>
+        <item quantity="one">Висок приоритет: %d приложение</item>
+    </plurals>
+    <plurals name="restoring_file_tile">
+        <item quantity="other">Възстановяване на %d файла</item>
+        <item quantity="one">Възстановяване на %d файл</item>
     </plurals>
 </resources>

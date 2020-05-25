@@ -17,6 +17,7 @@
     <string name="dialog_connect_verify_perssion_fail">Неуспешно одобряване на проектиране на Вашия телевизор. Изчакайте една-две минути и опитайте отново.</string>
     <string name="dialog_connected">Установена е връзка</string>
     <string name="dialog_connecting">Свързване…</string>
+    <string name="dialog_nfc_cast_wifi_off">Включете Wi-Fi, за да можете да излъчвате чрез NFC. Включване?</string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_only_suport_content">Предавайте снимки, видео или музика</string>
     <string name="dialog_open_wifi_bt">Включи</string>
@@ -41,6 +42,11 @@
     <string name="help_page_text_05">Стъпка 1: Проверете устройствата и мрежовата си среда</string>
     <string name="help_page_text_06">"1. Няма нужда да се свързвате с интернет, ако желаете да проектирате нещо от Mi телефон към Mi телевизор.
 2. Ако не можете да установите връзка между двете устройства, опитайте да свържете и двете към една и съща Wi-Fi мрежа."</string>
+    <string name="help_page_text_06_global">"1. Mi TV, Mi Кутии и Mi Прожектори:
+Свържете Вашето устройство и външния монитор към същата Wi-Fi мрежа за най-добър ефект. Ако са свързани към различни мрежи, откриването и свързването към външния монитор вероятно ще отнеме повече време.
+Забележка: По-стари версии на Mi TV може да не поддържат свързване чрез различни мрежи.
+2. Ако използвате TV, set-top кутии или проектори на други марки, свържете Вашия телефон и външен монитор към същата Wi-Fi мрежа.
+Ако не можете да свържете и двете устройства към същата мрежа, включете Miracast на външния монитор. Названията на функциите в Miracast може да варират."</string>
     <string name="help_page_text_08">Стъпка 2: Включете функцията за проекция</string>
     <string name="help_page_text_09">Натиснете бутона \"Проекция\" на скритата лента с известия на Вашия телефон. За по-стабилна връзка включете както Wi-Fi, така и Bluetooth.</string>
     <string name="help_page_text_10">Ако искате да проектирате елементи от Галерия или Mi Видео, можете да използвате вградени функции за проекция в тези приложения.</string>
@@ -87,7 +93,7 @@
     <string name="help_page_text_40">Първо се уверете, че Miracast функционалността се поддържа на Вашето устройство. На някои от моделите можете да изберете Приложения > Огледален екран.</string>
     <string name="help_page_text_41">Клиентско обслужване на Panasonic: 400-881-1315</string>
     <string name="help_page_text_42">Changhong</string>
-    <string name="help_page_text_43">Първо се уверете, че Miracast функционалността се поддържа на Вашето устройство. На някои от моделите можете да изберете Система > Системни инструменти > Множество екрани > Огледален екран.</string>
+    <string name="help_page_text_43">Проверете настройките на Вашия телевизор, за да потвърдите, че външния монитор поддържа функциите на Miracast.</string>
     <string name="help_page_text_44">Клиентско обслужване на Changhong: 400-811-1666</string>
     <string name="help_page_text_45">TCL</string>
     <string name="help_page_text_46">Първо се уверете, че Miracast функционалността се поддържа на Вашето устройство. На някои от моделите можете да изберете Приложения > Безжичен дисплей.</string>
@@ -103,6 +109,7 @@
     <string name="help_page_text_55_global">"Ако не можете да се свържете към мрежата, уверете се, че външният монитор поддържа функционалност Miracast и е включен. На някои модели тази функция се нарича\" Безжичен дисплей\", \"Огледален екран\" или \"Множество екрани\".
 4. Ако срещнете проблеми, можете да ги докладвате чрез нашето приложение \"Услуги и обратна връзка\"."</string>
     <string name="help_page_text_end">Ако марката на Вашето устройство не е изброена тук, свържете се с производителя, за да разберете повече за функционалността на проектирането.</string>
+    <string name="nfc_connect_failed_toast">Неуспешно излъчване. Опитайте отново.</string>
     <string name="notification_rc_title">XiaoMi TV Помощник</string>
     <string name="notification_show_more">Натиснете, за да видите още функции</string>
     <string name="privacy_agree">Приемам</string>
@@ -121,13 +128,15 @@
     <string name="san_wait_msg_3">Външните устройства се откриват по-лесно, когато са свързани към същата мрежа като телефона Ви</string>
     <string name="san_wait_msg_4">Вижте \"Помощ\", ако не можете да откриете устройства</string>
     <string name="small_window">Минимизиране на прозореца</string>
+    <string name="small_window_not_supported">Приложението не може да бъде минимизирано докато се извършва излъчване</string>
     <string name="status_bar_in_casting">Проектиране…</string>
     <string name="status_bar_in_casting_long">Натиснете, за да видите още функции за проектиране</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="tile_label">Проекция</string>
     <string name="toast_guide_show_more">Научете повече</string>
     <string name="toast_guide_title">Разгледайте новите ни функции тук</string>
     <string name="toast_msg_for_multi_window">Тази функция не може да се използва при разделен екран</string>
     <string name="toast_msg_for_small_window">Можете да минимизирате прозореца, който се проектира, за да можете да използвате други функции без прекъсване на процеса на проектиране.</string>
+    <string name="toast_nfc_dont_move">Не отдалечавайте телефона си</string>
     <string name="toast_title_for_small_window">Изберете \"Минимизиране на прозореца\" в приложението</string>
+    <string name="toast_turn_off_hotspot_before_cast">Изключете мобилната точка за достъп, преди излъчване.</string>
 </resources>

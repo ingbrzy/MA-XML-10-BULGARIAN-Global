@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Споделяне със:</string>
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
+    <string name="agree_description">Разрешете на това приложение достъп до интернет, за да можете да използвате всичките му функции.</string>
     <string name="alert_message_clear_records">Желаете ли да изтриете избрания звукозапис?</string>
     <string name="alert_message_delete_local_record">Изтриване на този запис?</string>
     <string name="alert_message_delete_record">Изтриването на записа от устройството ще го изтрие и от Xiaomi Cloud. Да се изтрие ли?</string>
@@ -48,6 +49,7 @@
     <string name="cloud_status_full_dialog_msg">Мястото в облака е пълно.Надстройте акаунта за повече свободно място.</string>
     <string name="cloud_status_full_dialog_ok">Надстройка</string>
     <string name="cloud_status_full_dialog_title">Мястото в Xiaomi Cloud е пълно</string>
+    <string name="copy">Копиране</string>
     <string name="data_connection_body">"\"\"Съвет:
 В операторска мрежа изтеглянето ще начисли такси.\"\""</string>
     <string name="data_connection_button_text">OK</string>
@@ -89,6 +91,7 @@
     <string name="error_filename_too_long">Името на файла е твърде дълго</string>
     <string name="error_sdcard_access">Няма достъп до SD картата</string>
     <string name="error_sdcard_unmounted">SD картата е демонтирана, моля поставете SD карта</string>
+    <string name="expand_button_title">Разширени</string>
     <string name="export_to_note">Експорт</string>
     <string name="head_set_tip_dialog_msg">Разкачете слушалките си, за да можете да запишете звуци със специфично съдържание (напр. Музика, Гласове).</string>
     <string name="head_set_tip_dialog_ok">Направено</string>
@@ -123,6 +126,7 @@
     <string name="network_unavailable_tip">Свържете се с мрежата и опитайте отново.</string>
     <string name="new_record_name">Нов звукозапис</string>
     <string name="no_file">Няма звукозаписи</string>
+    <string name="not_set">Не е зададено</string>
     <string name="notification_message_all_paused">Възможно е повишаване на трафика на мобилни данни.</string>
     <string name="notification_playback">Пускане на звукозаписа...</string>
     <string name="notification_recording">Записване...</string>
@@ -165,6 +169,7 @@
     <string name="pay_error_unknown">Непозната грешка</string>
     <string name="playback_delete_records">Изтриване на записа</string>
     <string name="playback_share_records">Споделяне на записа</string>
+    <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="preference_enable_earpiece_summary">Използване на изхода за слушалки за възпроизвеждане на външно устройство</string>
     <string name="preference_enable_earpiece_title">Външен изход</string>
     <string name="preference_led_indicator">Индикатор за записване при заключен екран</string>
@@ -293,6 +298,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Записване...</string>
     <string name="status_bar_recording_pause">"Записването е сложено на пауза. "</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="text_btn_backward_3_seconds">3 секунди назад</string>
     <string name="text_btn_complete">Завършени</string>
     <string name="text_btn_forward_3_seconds">3 секунди напред</string>
@@ -315,6 +321,8 @@
     <string name="toast_max_record_time">App: %1$s максимално време за запис %2$s</string>
     <string name="toast_uninstall_fileexplorer">Файлов мениджър не е инсталиран</string>
     <string name="usage_description">Транскрибиране на аудио и синхронизиране на елементи с облака</string>
+    <string name="v7_preference_off">ИЗКЛ.</string>
+    <string name="v7_preference_on">ВКЛ.</string>
     <string name="webview_check_network">Мрежови настройки</string>
     <string name="webview_data_error">Настъпи грешка</string>
     <string name="webview_locating_fail">Не може да се определи местоположението ви</string>

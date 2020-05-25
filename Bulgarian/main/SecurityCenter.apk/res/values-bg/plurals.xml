@@ -4,6 +4,58 @@
         <item quantity="other">Добавени %d игри</item>
         <item quantity="one">Добавена %d игра</item>
     </plurals>
+    <plurals name="app_behavior_desc_allow">
+        <item quantity="other">Позволено %3$d пъти между %1$s и %2$s</item>
+        <item quantity="one">Позволено %3$d път между %1$s и %2$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_allow_minute">
+        <item quantity="other">Разрешено %2$d пъти в %1$s</item>
+        <item quantity="one">Разрешено %2$d път в %1$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_deny">
+        <item quantity="other">Ограничено %3$d пъти между %1$s и %2$s</item>
+        <item quantity="one">Ограничено %3$d път между %1$s и %2$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_deny_minute">
+        <item quantity="other">Отказано %2$d пъти в %1$s</item>
+        <item quantity="one">Отказано %2$d път в %1$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_virtual">
+        <item quantity="other">Върнати са %3$d празни съобщения между %1$s и %2$s</item>
+        <item quantity="one">Върнато е %3$d празно съобщение между %1$s и %2$s</item>
+    </plurals>
+    <plurals name="app_behavior_desc_virtual_minute">
+        <item quantity="other">Върнати %2$d празни съобщения в %1$s</item>
+        <item quantity="one">Върнато %2$d празно съобщение в %1$s</item>
+    </plurals>
+    <plurals name="app_behavior_notification_audio_more">
+        <item quantity="other">%2$d приложения, включително %1$1s записват аудио</item>
+        <item quantity="one">%2$d приложение, включително %1$1s записва аудио</item>
+    </plurals>
+    <plurals name="app_behavior_notification_camera_more">
+        <item quantity="other">%2$d приложения, включително %1$1s правят снимки</item>
+        <item quantity="one">%2$d приложение, включително %1$1s прави снимки</item>
+    </plurals>
+    <plurals name="app_behavior_notification_location_more">
+        <item quantity="other">%2$d приложения, включително %1$1s получават достъп до вашето местоположение</item>
+        <item quantity="one">%2$d приложение, включително %1$1s получава достъп до вашето местоположение</item>
+    </plurals>
+    <plurals name="app_behavior_privacy_manager_off">
+        <item quantity="other">Няма да получавате известия относно чувствителни действия извършени от %1$d приложения</item>
+        <item quantity="one">Няма да получавате известия относно чувствителни действия извършени от %1$d приложение</item>
+    </plurals>
+    <plurals name="app_behavior_privacy_manager_on">
+        <item quantity="other">Ще получавате известия относно чувствителни действия извършени от %1$d приложения</item>
+        <item quantity="one">Ще получавате известия относно чувствителни действия извършени от %1$d приложение</item>
+    </plurals>
+    <plurals name="app_behavior_wakepath_multiple">
+        <item quantity="other">%1$1s стартира %2$d приложения</item>
+        <item quantity="one">%1$1s стартира %2$d приложение</item>
+    </plurals>
+    <plurals name="app_behavior_wakepath_multiple_single">
+        <item quantity="other">Това приложение стартира %1$d други приложения</item>
+        <item quantity="one">Това приложение стартира %1$d друго приложение</item>
+    </plurals>
     <plurals name="app_manager_permission_summary_accept">
         <item quantity="other">Дадени са %d разрешения</item>
         <item quantity="one">Дадено е %d разрешение</item>
@@ -176,6 +228,14 @@
         <item quantity="other">Добавени %d игри</item>
         <item quantity="one">Добавена %d игра</item>
     </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="other">%s часа</item>
+        <item quantity="one">%s час</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="other">%s минути</item>
+        <item quantity="one">%s минута</item>
+    </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
         <item quantity="other">Свържете поне %d точки</item>
         <item quantity="one">Свържете поне %d точка</item>
@@ -267,6 +327,14 @@
     <plurals name="pc_abnormal_scan_result_model_result_title">
         <item quantity="other">%d приложения изтощават батерията</item>
         <item quantity="one">%d приложение изтощава батерията</item>
+    </plurals>
+    <plurals name="pc_battery_history_hour">
+        <item quantity="other">" часа"</item>
+        <item quantity="one">" час"</item>
+    </plurals>
+    <plurals name="pc_battery_history_minute">
+        <item quantity="other">" мин"</item>
+        <item quantity="one">" мин"</item>
     </plurals>
     <plurals name="pc_main_power_center_battery_day">
         <item quantity="other">%s дни</item>
@@ -368,6 +436,14 @@
         <item quantity="other">%s минути остават</item>
         <item quantity="one">%s минута остава</item>
     </plurals>
+    <plurals name="power_off_warning_button_ok_time">
+        <item quantity="other">Разбрах (%ds)</item>
+        <item quantity="one">Разбрах (%ds)</item>
+    </plurals>
+    <plurals name="power_off_warning_notification_message">
+        <item quantity="other">Вашето устройство ще се изключи след %d секунди. Включете в зарядно.</item>
+        <item quantity="one">Вашето устройство ще се изключи след %d секунда. Включете в зарядно.</item>
+    </plurals>
     <plurals name="privacy_apps_disable_header_title">
         <item quantity="other">%d икони на приложения са скрити</item>
         <item quantity="one">%d икона на приложение е скрита</item>
@@ -375,6 +451,14 @@
     <plurals name="privacy_apps_enable_header_title">
         <item quantity="other">%d икони на приложения не са скрити</item>
         <item quantity="one">%d икона на приложение не е скрита</item>
+    </plurals>
+    <plurals name="privacy_permission_summary">
+        <item quantity="other">%s приложения имат постоянен достъп</item>
+        <item quantity="one">%s приложение има постоянен достъп</item>
+    </plurals>
+    <plurals name="privacy_pop_times">
+        <item quantity="other">%s пъти</item>
+        <item quantity="one">%s път</item>
     </plurals>
     <plurals name="quick_optimize_issue_count">
         <item quantity="other">%d проблема с батерията</item>

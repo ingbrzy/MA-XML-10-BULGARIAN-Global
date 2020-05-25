@@ -13,10 +13,23 @@
         <item>Понеделник-Петък</item>
         <item>По избор</item>
     </string-array>
+    <string-array name="app_behavior_type_menu">
+        <item>Всички записи</item>
+        <item>Автом. стартиране</item>
+        <item>Верижно стартиране</item>
+        <item>Използвайки разрешения</item>
+        <item>Чувствителни действия</item>
+    </string-array>
     <string-array name="applock_password_types">
         <item>Шаблон</item>
         <item>ПИН</item>
         <item>Парола</item>
+    </string-array>
+    <string-array name="daily_brand">
+        <item>Персонализирано</item>
+        <item>Фенска карта Mi</item>
+        <item>Карта Xiao Tiansheng</item>
+        <item>Карта Tencent King</item>
     </string-array>
     <string-array name="date_of_app_all">
         <item>"Вчера (мобилни данни) "</item>
@@ -50,6 +63,18 @@
         <item>"Днес: "</item>
         <item>"Този месец: "</item>
     </string-array>
+    <string-array name="debug_open_intercept">
+        <item>Ще бъде възможен достъп и редактиране на файлове във вашето устройство от компютър.</item>
+        <item>Ще бъде позволено инсталиране на приложения във вашето устройство без ваше разрешение.</item>
+        <item>Ще можете да наблюдавате и документирате съдържанието на екрана ви от разстояние.</item>
+        <item>Ще бъде възможен достъп до подробна информация относно вашето устройство.</item>
+    </string-array>
+    <string-array name="key_app_info">
+        <item>източник на инсталиране</item>
+        <item>час на инсталиране</item>
+        <item>източник на актуализиране</item>
+        <item>час на актуализиране</item>
+    </string-array>
     <string-array name="lock_mode">
         <item>При заключено устройство</item>
         <item>След изход от приложението</item>
@@ -64,9 +89,37 @@
         <item>"Използване на мобилни данни "</item>
         <item>"Използване на Wi-Fi "</item>
     </string-array>
+    <string-array name="miui_optimization_close_intercept">
+        <item>Важно: Възможно е множество системни приложения да спрат да функционират.</item>
+        <item>Възможно е текстово оформление, профили и съдържание да не бъдат показвани правилно.</item>
+    </string-array>
+    <string-array name="operate_entries">
+        <item>@string/auto_task_operation_open</item>
+        <item>@string/auto_task_operation_close</item>
+        <item>@string/auto_task_operation_no_op</item>
+    </string-array>
+    <string-array name="operate_entryValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="operate_memory_entries">
+        <item>@string/auto_task_operation_open</item>
+        <item>@string/auto_task_operation_close</item>
+        <item>@string/auto_task_operation_no_op</item>
+    </string-array>
+    <string-array name="operate_memory_entryValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
     <string-array name="over_limit_traffic_waring_style">
         <item>Показване на предупреждение</item>
         <item>Предупреждение и изкл. на моб. данни</item>
+    </string-array>
+    <string-array name="pc_battery_history_spinner_choice">
+        <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/pc_battery_history_battery_detail_menu_item</item>
     </string-array>
     <string-array name="pc_settings_thermal_entries">
         <item>По подразбиране</item>
@@ -75,6 +128,24 @@
     <string-array name="pc_settings_thermal_summaries">
         <item>Контрол на температурата по подразбиране</item>
         <item>Приоритет за производителност</item>
+    </string-array>
+    <string-array name="perm_intercept_notification">
+        <item>Четете всички известия, включително тези съдържащи ваши текстови съобщения и други елементи, които може да съдържат лична информация</item>
+        <item>Ограничаване на разрешение за известия за определени приложения</item>
+        <item>Симулирай отваряне на известия и приложения</item>
+        <item>Включване и изключване на Режим Не Безпокой</item>
+    </string-array>
+    <string-array name="perm_intercept_statitics">
+        <item>Събиране на данни за вашите интереси и поведение чрез информация за какви приложения използвате и колко често ги използвате</item>
+        <item>Получете достъп до детайли свързани с оператора и езиковите настройки, както и други</item>
+    </string-array>
+    <string-array name="perm_intercept_unknown_source">
+        <item>Приложения от трети страни, които не са верифицирани от GetApps могат да причинят множество проблеми и да понижат стабилността на системата.</item>
+        <item>Определени приложения от трети страни може да съдържат вреден софтуер, който би застрашил личните ви данни.</item>
+    </string-array>
+    <string-array name="priority_storage_entries">
+        <item>Вътрешна памет</item>
+        <item>Външна памет</item>
     </string-array>
     <string-array name="roaming_network_type">
         <item>Винаги</item>

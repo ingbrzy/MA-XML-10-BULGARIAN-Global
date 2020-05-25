@@ -4,6 +4,33 @@
     <string name="PassWordGuard">Парола за Второ пространство</string>
     <string name="PrivacyContactDes1">\"Контактите ще останат скрити. Съобщенията ще се показват само във Второ пространство.\"</string>
     <string name="PrivacyContactDes2">\"Ако използвате скрити съобщения в Първо пространство, тази услуга ще бъде добавена във Второ пространство автоматично.\"</string>
+    <string name="abc_action_bar_home_description">Навигиране към началния екран</string>
+    <string name="abc_action_bar_up_description">Навигиране нагоре</string>
+    <string name="abc_action_menu_overflow_description">Още опции</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Преглед на всички</string>
+    <string name="abc_activitychooserview_choose_application">Изберете приложение</string>
+    <string name="abc_capital_off">ИЗКЛ.</string>
+    <string name="abc_capital_on">ВКЛ.</string>
+    <string name="abc_menu_alt_shortcut_label">Alt+</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl+</string>
+    <string name="abc_menu_delete_shortcut_label">delete</string>
+    <string name="abc_menu_enter_shortcut_label">enter</string>
+    <string name="abc_menu_function_shortcut_label">Function+</string>
+    <string name="abc_menu_meta_shortcut_label">Meta+</string>
+    <string name="abc_menu_shift_shortcut_label">Shift+</string>
+    <string name="abc_menu_space_shortcut_label">клавиша за интервал</string>
+    <string name="abc_menu_sym_shortcut_label">Sym+</string>
+    <string name="abc_prepend_shortcut_label">Menu+</string>
+    <string name="abc_search_hint">Търсете…</string>
+    <string name="abc_searchview_description_clear">Изчистване на заявката</string>
+    <string name="abc_searchview_description_query">Заявка за търсене</string>
+    <string name="abc_searchview_description_search">Търсене</string>
+    <string name="abc_searchview_description_submit">Изпращане на заявката</string>
+    <string name="abc_searchview_description_voice">Гласово търсене</string>
+    <string name="abc_shareactionprovider_share_with">Споделяне със:</string>
+    <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
+    <string name="abc_toolbar_collapse_description">Свиване</string>
     <string name="about_ent_mode">За режим Инициатива</string>
     <string name="activate_ent_mode">Активирай режим Инициатива</string>
     <string name="add_finger_print">Добавяне на отпечатък</string>
@@ -58,6 +85,7 @@
     <string name="contact_titile_text">Показване на частни съобщения във Второ пространство, за да бъдат на разположение по всяко време.</string>
     <string name="contact_us">Свържете се с нас</string>
     <string name="continueButton">Продължи</string>
+    <string name="copy">Копиране</string>
     <string name="createANewSpace">Създайте отделно пространство на вашия телефон.</string>
     <string name="createUserFail">Не може да се създаде.</string>
     <string name="create_app_icon_failed">Не може да се създаде икона</string>
@@ -146,6 +174,7 @@
     <string name="err_unknown">Неизвестна грешка</string>
     <string name="err_volume_not_enough">Няма достатъчно място в хранилището</string>
     <string name="exit_private_space">Превключи</string>
+    <string name="expand_button_title">Разширени</string>
     <string name="experience_more_features">Добавете устройство, за да видите всички функции</string>
     <string name="facebook_login">Вписване с данни от Facebook</string>
     <string name="facebook_send">Споделяне във Facebook</string>
@@ -171,10 +200,10 @@
     <string name="greenguard_child_des_title">Сканирайте QR кода, за да добавите устройство</string>
     <string name="greenguard_functional_description">"Управлявайте устройствата дистанционно, вижте информацията за местоположението,
  контролирайте инсталираните приложения и задавайте ограничения за използването им"</string>
-    <string name="greenguard_install_cancle">No thanks</string>
-    <string name="greenguard_install_confirm">Install</string>
-    <string name="greenguard_install_message">"Family Guard is a system app. You don't need internet to install it."</string>
-    <string name="greenguard_install_title">Install Family Guard</string>
+    <string name="greenguard_install_cancle">Не, благодаря</string>
+    <string name="greenguard_install_confirm">Инсталирай</string>
+    <string name="greenguard_install_message">\"Родителски контрол\" е системно приложение. Нямате нужда от интернет, за да го инсталирате.</string>
+    <string name="greenguard_install_title">Инсталирай Родителски контрол</string>
     <string name="greenguard_parent_des">Управлявайте устройствата на вашите приятели или семейство</string>
     <string name="greenguard_parent_des_title">Използвайте Kite Guard за добавяне на устройство</string>
     <string name="guide_contact_sub_title_desc">\"Контактите добавени във Второ пространство ще бъдат частни Съобщенията ще се показват само във Второ пространство\"</string>
@@ -217,6 +246,7 @@
     <string name="master_clear_apply_step_2">Уверете се, че сте архивирали всички важни елементи на Вашия компютър. След като натиснете \"OK\", устройството Ви ще възобнови фабричните си настройки, като изтрие перманентно всички файлове и данни, включително профили, контакти, снимки и приложения.</string>
     <string name="master_clear_apply_title">Внимание</string>
     <string name="master_clear_not_available">Фабричните настройки са ограничени от вашата компания.</string>
+    <string name="master_clear_not_available_ep">Нямате разрешение да възстановявате към фабричните настройки или да отменяте достъпа си в момента. Свържете се с вашия ръководител.</string>
     <string name="menu_item_about_privacy_title">Политика на поверителност</string>
     <string name="messageData">Съобщения</string>
     <string name="more_settings">Повече</string>
@@ -234,6 +264,7 @@
     <string name="next_setp">Напред</string>
     <string name="no_match_repate_scanner">Не откривам съвпадение на пръстов отпечатък, сканирани отново</string>
     <string name="normal_app">Първо пространство</string>
+    <string name="not_set">Не е зададено</string>
     <string name="not_support_air_space">Тази услуга не се поддържа от вашия телефон</string>
     <string name="not_support_multiple_users">Не се поддържат няколко пространства.</string>
     <string name="notificationSetPassword">Задаване на парола</string>
@@ -255,6 +286,7 @@
     <string name="passWordGuardSummary">Влизане във Второ пространство от заключен екран чрез парола.</string>
     <string name="passwordProtect">Парола</string>
     <string name="please_diff_finger_print">\"Make sure different fingerprints are used in First space and Second space. Otherwise you may not be able to enter Second space from Lock screen.\"</string>
+    <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="privacyContactsSummary">Показване на частни елементи във Второ пространство</string>
     <string name="privacyContactsTitle">Частни съобщения и контакти</string>
     <string name="privacy_password_fingerprint_dialog_message">Поставете пръста си върху сензора</string>
@@ -304,6 +336,7 @@
 Ако не актуализирате, клонираните приложения няма да работят правилно."</string>
     <string name="sdcradfs_dialog_in_sec_title">Важна актуализация</string>
     <string name="search_input_txt_na">"&lt;font color='#ff0000'>%s&lt;/font>"</string>
+    <string name="search_menu_title">Търсене</string>
     <string name="search_result_text">Не може да се открият приложения</string>
     <string name="secondSpace">Второ пространство</string>
     <string name="second_owner_finger_print">Пръстов отпечатък 2</string>
@@ -383,6 +416,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_xspace_alert_content">Да се изтрият ли всички клонирани приложения и техните профили? Вашето устройство ще бъде рестартирано, за да се приложат промените.</string>
     <string name="stop_xspace_alert_title">Изтриване на профилите в Клонирани приложения</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_switch_apps_settings">Избор на прилжения използвани в Текущо работно място</string>
     <string name="support_desc">Услугите за безопасност са предоставени от Spaces Mobile</string>
     <string name="sure_to_use">Потвърди</string>
@@ -432,6 +466,8 @@
     <string name="undo_success">Оттеглено успешно</string>
     <string name="use_google_open">Събуждане с Google Асистент</string>
     <string name="use_xiaoai_open">Събуждане с Mi AI</string>
+    <string name="v7_preference_off">ИЗКЛ.</string>
+    <string name="v7_preference_on">ВКЛ.</string>
     <string name="wating">Един момент…</string>
     <string name="weibo_send">Изпрати към Weibo</string>
     <string name="weixin_pay">WeChat Pay</string>
@@ -451,6 +487,8 @@
     <string name="xspace_description">"Клонираните приложения са копия, които могат да се използват отделно с различен профил.
 
 Някои клонирани приложения изискват наличието на Google Services Framework. В тези случаи е необходимо да се клонира и Google Services Framework."</string>
+    <string name="xspace_disable">Не е създаден</string>
+    <string name="xspace_enable">Създаден</string>
     <string name="xspace_facebook_title">Facebook</string>
     <string name="xspace_guide_des">Използване на два профила без превключване</string>
     <string name="xspace_guide_title">Създайте клонирано приложение</string>
@@ -463,9 +501,12 @@
     <string name="xspace_introduce">Препоръчани</string>
     <string name="xspace_label">Клонирани приложения</string>
     <string name="xspace_loading_msg">Зареждане на приложения…</string>
+    <string name="xspace_notification">Известия от приложения с два профила</string>
+    <string name="xspace_notification_error">Влез в двойния WeChat профил и опитай отново</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="xspace_remove">Изтриване на профилите в Клонирани приложения</string>
     <string name="xspace_setting_label">Настройки за клонирани приложения</string>
+    <string name="xspace_settins">Задай</string>
     <string name="xspace_uninstall_completed">Клонираните приложения бяха премахнати успешно.</string>
     <string name="xspace_uninstall_dialog_content">Деинсталирането на клонираните приложения ще изтрие и данните им.</string>
     <string name="xspace_uninstall_dialog_title">Деинсталиране на клонирани прил.</string>

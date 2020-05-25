@@ -18,8 +18,8 @@
     <string name="activate_feature_verify_mx_token">Потвърждение на Mi профил</string>
     <string name="activate_feature_voip">Mi Съобщение с глас</string>
     <string name="activate_history_canceled_overview">Активирането на SIM картата е отменено. Активацията е изискана от \"%1$s\".</string>
-    <string name="activate_history_multisim_canceled_overview">SIM картата %2$d не е активирана. Активацията е изискана от %1$s\".</string>
-    <string name="activate_history_multisim_success_overview">SIM картата е активирана %2$d успешно. Активацията е изискана от %1$s\".</string>
+    <string name="activate_history_multisim_canceled_overview">SIM картата %2$d не е активирана. Активацията е изискана от \"%1$s\".</string>
+    <string name="activate_history_multisim_success_overview">SIM картата е активирана %2$d успешно. Активацията е изискана от \"%1$s\".</string>
     <string name="activate_history_sms">Беше изпратен SMS по време на активацията.</string>
     <string name="activate_history_success_overview">SIM картата е активирана успешно. Активацията е изискана от \"%1$s\".</string>
     <string name="activate_history_title">Активиране на SIM карта</string>

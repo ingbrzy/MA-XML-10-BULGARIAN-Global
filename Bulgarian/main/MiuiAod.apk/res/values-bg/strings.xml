@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_home_description">Придвижване към „Начало“</string>
-    <string name="abc_action_bar_up_description">Придвижване нагоре</string>
+    <string name="abc_action_bar_home_description">Навигиране към началния екран</string>
+    <string name="abc_action_bar_up_description">Навигиране нагоре</string>
     <string name="abc_action_menu_overflow_description">Още опции</string>
     <string name="abc_action_mode_done">Готово</string>
-    <string name="abc_activity_chooser_view_see_all">Вижте всички</string>
+    <string name="abc_activity_chooser_view_see_all">Преглед на всички</string>
     <string name="abc_activitychooserview_choose_application">Изберете приложение</string>
     <string name="abc_capital_off">ИЗКЛ.</string>
     <string name="abc_capital_on">ВКЛ.</string>
@@ -27,16 +27,19 @@
     <string name="abc_shareactionprovider_share_with">Споделяне със:</string>
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
-    <string name="search_menu_title">Търсене</string>
     <string name="above_image">Нагоре</string>
     <string name="accessibility_battery_level">Батерия %d процента.</string>
     <string name="accessibility_battery_level_charging">Батерията заредена на %d процента.</string>
+    <string name="add_from_album">Добави от Галерия</string>
     <string name="align_type">Подравняване</string>
     <string name="always_style">Винаги</string>
     <string name="animation_clock_panel">Вълнообразен циферблат</string>
     <string name="aod_close_color_inversion">Тази услуга не може да се съчетава с инверсия на цветовете. Моля, първо изключете инверсията на цветовете.</string>
     <string name="aod_lock_screen_date">EE, d MMMM</string>
     <string name="aod_lock_screen_date_12">EE, d MMMM</string>
+    <string name="aod_lock_screen_date_smartcover">"EE
+dd/MM"</string>
+    <string name="aod_lock_screen_date_smartcover_b">EE dd/MM</string>
     <string name="aod_mode_preview">Предварителен преглед</string>
     <string name="aod_mode_style">Стил на часа и фона</string>
     <string name="aod_mode_style_title">Още опции</string>
@@ -52,21 +55,32 @@
     <string name="apply_succeed">Настройката е приложена</string>
     <string name="background_icon">Фон</string>
     <string name="below_image">Надолу</string>
+    <string name="btn_know">Разбрах</string>
     <string name="cancel">Отказ</string>
     <string name="choose_aod_style">Изберете тема</string>
     <string name="chosen_picture">Изберете фон</string>
     <string name="clock_panel_icon">Циферблат</string>
     <string name="color_change_with_time_description">Променяй цвета на текста периодично</string>
     <string name="color_change_with_time_title">Променяй цвета автоматично</string>
+    <string name="copy">Копиране</string>
     <string name="custom_image">Изображение по избор</string>
     <string name="deep_space_planet">Космос</string>
     <string name="deep_space_planet_des">Тази тема отразява промените на светлината, които настъпват около Вас през деня. Изгревите и залезите също се синхронизират с Вашето местоположение.</string>
+    <string name="delete">Изтрий</string>
     <string name="digital_clock">Цифров</string>
+    <string name="disable_aod_in_power_save_mode">Изклучи, когато Пестене на батерия е вкл.</string>
+    <string name="disable_aod_in_power_save_mode_summary">Не показвай елементи, за да се пести енергия</string>
+    <string name="expand_button_title">Разширени</string>
     <string name="font_thickness">Удебелен шрифт</string>
     <string name="large_time">Голям часовник</string>
     <string name="letter_space">Разредка между буквите</string>
     <string name="line_space">Разредка между редовете</string>
     <string name="mini_time">Малък часовник</string>
+    <string name="minimalist_clock">Обикновен часовник</string>
+    <string name="modify_scheduled_time">Промяна на времето</string>
+    <string name="more_online_theme">Онлайн елементи</string>
+    <string name="my_style_title">Моята тема</string>
+    <string name="not_set">Не е зададено</string>
     <string name="notification_anim_pulse">Пулсиране</string>
     <string name="notification_anim_rhythm">Ритъм</string>
     <string name="notification_anim_star">Звездна светлина</string>
@@ -74,18 +88,28 @@
     <string name="notification_screen_on">Светване на екрана</string>
     <string name="only_show_bg_description">Не показвай час, дата и други елементи</string>
     <string name="only_show_bg_title">Показвай само фона</string>
+    <string name="open_aod_mode">Включване</string>
     <string name="panel_clock">Аналогов</string>
     <string name="paper_mode_end_time_title">Изключи</string>
     <string name="paper_mode_start_time_title">Включи</string>
+    <string name="photo_editor_saving">Запазване…</string>
     <string name="please_input_signature">Въведете подпис</string>
+    <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
+    <string name="scheduled_mode_dialog_msg">Елементи ще са налични на вашия Постоянно включен екран в рамките на този период: %s.</string>
+    <string name="scheduled_mode_dialog_msg_12">hh:mm aa</string>
+    <string name="scheduled_mode_dialog_msg_24">HH:mm</string>
+    <string name="scheduled_mode_msg">Период на активност: %s</string>
     <string name="scheduled_style">По график</string>
     <string name="scope_des">Всеки калейдоскоп съдържа 5 различни модела, които ще се показват подред всеки път, когато екранът светне.</string>
     <string name="scope_icon">Стил на калейдоскопа</string>
     <string name="scope_time">Калейдоскоп</string>
+    <string name="search_menu_title">Търсене</string>
     <string name="select_notification_animation_style">Изберете специален ефект</string>
     <string name="select_notification_notify_style">Изберете ефект за известието</string>
     <string name="show_battery">Показвай състоянието на батерията</string>
     <string name="show_battery_status">Показвай състояние на батерията</string>
+    <string name="show_lunar">Показване на Традиционен Китайски календар</string>
+    <string name="show_lunar_desc">Двойния часовник не поддържа Традиционен Китайски календар</string>
     <string name="show_notification">Показвай известия</string>
     <string name="show_notificaton">Показвай известията</string>
     <string name="shownone_arround_image">Без</string>
@@ -94,7 +118,9 @@
 прекрасно предстои"</string>
     <string name="standard_clock_panel">Стандартен</string>
     <string name="standard_style">Стандартен</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary">За да се намали консумацията на енергия, няма да бъдат показвани елементи, когато устройството Ви е на тъмно за дълго време.</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="temporary_style">В продължение на 10 секунди след докосване</string>
     <string name="text_color">Цвят на текста</string>
     <string name="text_length_exceed_limit_alert">*Въведеният от Вас текст е твърде дълъг</string>
@@ -102,6 +128,7 @@
     <string name="time_location">Позиция на часовника</string>
     <string name="time_style">Стил</string>
     <string name="time_style_layout">Оформление</string>
-    <string name="disable_aod_in_power_save_mode">Изклучи, когато Пестене на батерия е вкл.</string>
-    <string name="disable_aod_in_power_save_mode_summary">Не показвай елементи, за да се пести енергия</string>
+    <string name="tip_to_open_aod_mode">Постоянно включения екран е изключен. Включване сега?</string>
+    <string name="v7_preference_off">ИЗКЛ.</string>
+    <string name="v7_preference_on">ВКЛ.</string>
 </resources>

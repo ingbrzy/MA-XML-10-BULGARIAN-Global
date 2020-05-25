@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="extra_photo_common_save_fail">Запазването е неуспешно.</string>
     <string name="extra_photo_common_saving">Записване……</string>
-    <string name="motion_photo_re_pick_title">Изберете най-качествената снимка</string>
+    <string name="motion_photo_cancel">Отказ</string>
+    <string name="motion_photo_re_pick_title">Жива снимка</string>
+    <string name="motion_photo_save_fail">Неуспешно запазване</string>
+    <string name="motion_photo_save_gif">Запази като GIF</string>
+    <string name="motion_photo_save_gif_ing">Запазване на GIF…</string>
+    <string name="motion_photo_save_image">Запиши най-доброто изображение</string>
+    <string name="motion_photo_save_image_ing">Запазване на най-добро изображение…</string>
+    <string name="motion_photo_save_video">Запази като видео</string>
+    <string name="motion_photo_save_video_ing">Запазване на видео…</string>
     <string name="motion_photo_toast_default">По подразбиране</string>
+    <string name="motion_photo_toast_long_press_play">Натисни и задръж върху снимката за възпроизвеждане</string>
     <string name="motion_photo_toast_suggest">Препоръчана</string>
     <string name="refocus_discard_confirm_message">Запази промените?</string>
     <string name="refocus_discard_negative_btn">Отхвърляне</string>

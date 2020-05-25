@@ -4,4 +4,12 @@
         <item quantity="other">Натиснете и задръжте бутона за %1$d секунди</item>
         <item quantity="one">Натиснете и задръжте бутона за %1$d секунда</item>
     </plurals>
+    <plurals name="fast_connect_reset_air2_se">
+        <item quantity="other">Натиснете и задръжте която и да било част на слушалките, която е чувствителна на допир за %1$d секунди</item>
+        <item quantity="one">Натиснете и задръжте която и да било част на слушалките, която е чувствителна на допир за %1$d секунда</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d свързани устройства</item>
+        <item quantity="one">%1$d свързано устройство</item>
+    </plurals>
 </resources>

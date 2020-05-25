@@ -83,6 +83,7 @@
 Други причини
 Впишете се в i.mi.com и отключете вашето устройство от там."</string>
     <string name="unlock_help_title">Помощ за отключване:</string>
+    <string name="unlock_number">Код за отключване: %s</string>
     <string name="unlock_wrong_captcha">Кодът, който сте въвели, е невалиден.</string>
     <string name="unlocking">Активиране…</string>
     <string name="verifing_account">Потвърждение на паролата…</string>

@@ -4,6 +4,14 @@
         <item quantity="other">%d дни</item>
         <item quantity="one">%d ден</item>
     </plurals>
+    <plurals name="steady_on_screen_notification_summary">
+        <item quantity="other">Използвахте устройството си %d минути без прекъсване</item>
+        <item quantity="one">Използвахте устройството си %d минута без прекъсване</item>
+    </plurals>
+    <plurals name="steady_on_screen_time_pick">
+        <item quantity="other">%d мин</item>
+        <item quantity="one">%d мин</item>
+    </plurals>
     <plurals name="trend_from_last_several_day_equal">
         <item quantity="other">Екранното време днес се равнява на средното Ви %d-дневно</item>
         <item quantity="one">Екранното време днес се равнява на средното Ви %d-дневно</item>
@@ -23,6 +31,26 @@
     <plurals name="usage_days">
         <item quantity="other">%d дни</item>
         <item quantity="one">%d ден</item>
+    </plurals>
+    <plurals name="usage_new_home_avg_unlockc">
+        <item quantity="other">Средно %.2f пъти на ден</item>
+        <item quantity="one">Средно %.2f път на ден</item>
+    </plurals>
+    <plurals name="usage_new_home_total_unlocks">
+        <item quantity="other">Отключено %d пъти</item>
+        <item quantity="one">Отключено %d път</item>
+    </plurals>
+    <plurals name="usage_new_home_total_week_unlocks">
+        <item quantity="other">Отключено %d пъти</item>
+        <item quantity="one">Отключено %d път</item>
+    </plurals>
+    <plurals name="usage_remain_about_hour">
+        <item quantity="other">≈%s часа</item>
+        <item quantity="one">≈%s час</item>
+    </plurals>
+    <plurals name="usage_remain_about_miunte">
+        <item quantity="other">≈%s мин</item>
+        <item quantity="one">≈%s мин</item>
     </plurals>
     <plurals name="usage_state_device_explain_today">
         <item quantity="other">Отключване: %d пъти</item>
@@ -87,6 +115,14 @@
     <plurals name="usage_state_work_day_minute">
         <item quantity="other">Делнични дни: %d минути</item>
         <item quantity="one">Делнични дни: %d минута</item>
+    </plurals>
+    <plurals name="usage_stats_remain_hour">
+        <item quantity="other">%s часа</item>
+        <item quantity="one">%s час</item>
+    </plurals>
+    <plurals name="usage_stats_remain_miunte">
+        <item quantity="other">%s мин</item>
+        <item quantity="one">%s мин</item>
     </plurals>
     <plurals name="usagestats_device_notification_des_hour">
         <item quantity="other">" часа"</item>

@@ -181,9 +181,6 @@
     <string name="bugreport_in_power">Пряк път за сигнал за програмна грешка</string>
     <string name="bugreport_in_power_summary">В менюто за захранване да се показва бутон за подаване на сигнал за програмна грешка</string>
     <string name="button_convert_fbe">Изтриване и преобразуване…</string>
-    <string name="callFailed_simError">Грешка в SIM картата</string>
-    <string name="can_not_dial_vt_while_voice_prompt">Не може да се осъществи видео обаждане, докато е активно гласово обаждане</string>
-    <string name="can_not_dial_while_vt_prompt">Не може да избирате, докато трае видео обаждането</string>
     <string name="cancel">Отказ</string>
     <string name="cant_call_due_to_no_supported_service">Обаждането не може да бъде извършено, защото няма профили за обаждане, които поддържат обаждания от този тип.</string>
     <string name="cant_call_due_to_ongoing_call">Не може да се вмести повикване. %1$s извършва се друго повикване.</string>
@@ -203,7 +200,6 @@
     <string name="charge_length_format">Преди %1$s</string>
     <string name="choose_profile">Избор на потребителски профил</string>
     <string name="clear_adb_keys">Отмяна на упълномощ. за отстр. на грешки през USB</string>
-    <string name="close">Изключване</string>
     <string name="confirm_enable_oem_unlock_text">ПРЕДУПРЕЖДЕНИЕ: Функциите за защита на устройството няма да работят, докато следната настройка е включена.</string>
     <string name="confirm_enable_oem_unlock_title">Да се разреши ли отключване от OEM?</string>
     <string name="connected_via_app">Установена е връзка през %1$s</string>
@@ -254,8 +250,6 @@
     <string name="development_settings_not_available">Опциите за програмисти не са налице за този потребител</string>
     <string name="development_settings_summary">Задаване на опции за програмиране на приложения</string>
     <string name="development_settings_title">Опции на програмиста</string>
-    <string name="dial_conference_fail_prompt">Не може да се проведе конферентен разговор поради това, че мрежата не поддържа VoLTE.</string>
-    <string name="dial_vt_fail_prompt">Мрежата не поддържа VoLTE. Свържи към стандартна гласова услуга?</string>
     <string name="direct_boot_unaware_dialog_message">Забележка: След рестартиране това приложение не може да се стартира, докато не отключите телефона си</string>
     <string name="disable_overlays">Хардуерни наслагв.: Деактив.</string>
     <string name="disable_overlays_summary">Винаги да се използва GPU за изграждане на екрана</string>
@@ -300,9 +294,6 @@
     <string name="inactive_app_active_summary">Активно. Докоснете, за да превключите.</string>
     <string name="inactive_app_inactive_summary">Неактивно. Докоснете, за да превключите.</string>
     <string name="inactive_apps_title">Приложения в готовност</string>
-    <string name="incall_error_call_failed">Обаждането не е изпратено.</string>
-    <string name="incall_error_power_off">Изключете самолетния режим, за да може да се обадите.</string>
-    <string name="incall_error_supp_service_unknown">Неподдържана услуга.</string>
     <string name="install_other_apps">Инст. на неизвестни прилож.</string>
     <string name="keep_screen_on">Да остане активен</string>
     <string name="keep_screen_on_summary">Екранът никога няма да е в спящ режим при зареждане</string>
@@ -318,7 +309,6 @@
     <string name="managed_user_title">Вс. служебни приложения</string>
     <string name="media_category">Мултимедия</string>
     <string name="media_transfer_this_device_name">Това устройство</string>
-    <string name="missedcall_notification_public_version_title">Телефон</string>
     <string name="mobile_data_always_on">Винаги активни мобилни данни</string>
     <string name="mobile_data_always_on_summary">Мобилните данни са активни винаги – дори когато функцията за Wi‑Fi е включена (за бързо превключване между мрежите).</string>
     <string name="mock_location_app">Избиране на приложение за мнимо местоположение</string>
@@ -353,7 +343,6 @@
     <string name="no_vm_number_msg">На SIM картата няма съхранен номер за гласова поща.</string>
     <string name="non_primary_user">Само собственика на устройството може да вижда и управлява блокираните номера.</string>
     <string name="not_set">Не е зададено</string>
-    <string name="notification_AllMissedCallTitle">Всички пропуснати повиквания</string>
     <string name="notification_channel_call_blocking">Блокиране на обажданията</string>
     <string name="notification_channel_incoming_call">Входящи повиквания</string>
     <string name="notification_channel_missed_call">Пропуснати обаждания</string>
@@ -362,7 +351,6 @@
     <string name="notification_missedCallTicker">Пропуснато обаждане от %s</string>
     <string name="notification_missedCallTitle">Пропуснато обаждане</string>
     <string name="notification_missedCall_call_back">Обратно обаждане</string>
-    <string name="notification_missedCall_call_back_miui">Повикване</string>
     <string name="notification_missedCall_message">Съобщение</string>
     <string name="notification_missedCallsMsg">%s пропуснати обаждания</string>
     <string name="notification_missedCallsTitle">Пропуснати обаждания</string>
@@ -419,6 +407,7 @@
     <string name="private_dns_mode_provider">Име на хоста на доставчика на частния DNS</string>
     <string name="private_dns_mode_provider_failure">Не можа да се установи връзка</string>
     <string name="private_dns_mode_provider_hostname_hint">Въведете име на хоста на DNS доставчика</string>
+    <string name="process_kernel_label">Android (ОС)</string>
     <string name="remaining_length_format">Оставащо време: %1$s</string>
     <string name="respond_via_sms_canned_response_1">Сега не мога да говоря. По-късно?</string>
     <string name="respond_via_sms_canned_response_2">Ще ви се обадя веднага обратно.</string>
@@ -546,9 +535,6 @@
     <string name="v7_preference_on">ВКЛ.</string>
     <string name="verify_apps_over_usb_summary">Проверка на инсталираните чрез ADB/ADT приложения за опасно поведение.</string>
     <string name="verify_apps_over_usb_title">Потвържд. на прил. през USB</string>
-    <string name="voice_dial_out">Гласово обаждане</string>
-    <string name="voice_report_incoming_call">Вх. обаждане</string>
-    <string name="voice_report_unknown_num">Неизвестен номер</string>
     <string name="vpn_settings_not_available">Настройките за виртуална частна мрежа (VPN) не са налице за този потребител</string>
     <string name="wait_for_debugger">Изчакване на инструмента за отстраняване на грешки</string>
     <string name="wait_for_debugger_summary">Прил. изчаква инстр. за отстраняване на грешки да се прикачи преди изпълнение</string>

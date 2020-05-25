@@ -19,6 +19,7 @@
     <string name="poco_privacy_policy">Политика на поверителност на POCO Launcher &amp; Потребителско споразумение на POCO Launcher</string>
     <string name="policy_name">Протокол: %s</string>
     <string name="pre_installed_apps">Преинсталирани приложения</string>
+    <string name="privacy_station_title">Поверителност в Xiaomi</string>
     <string name="settings_ad_loading">Момент…</string>
     <string name="settings_ad_loading_unavailable">Информацията не можа да се зареди.</string>
     <string name="settings_license_activity_loading">Момент…</string>
@@ -28,4 +29,5 @@
     <string name="settings_safetylegal_activity_title">Информация за безопасност</string>
     <string name="settings_safetylegal_activity_unreachable">Няма връзка с мрежата. За да видите информацията сега, отидете на %s от всеки един компютър, свързан с Интернет.</string>
     <string name="settings_safetylegal_title">Информация за безопасност</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
 </resources>

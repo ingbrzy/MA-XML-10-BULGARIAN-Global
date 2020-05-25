@@ -16,6 +16,22 @@
         <item quantity="other">%d елементи</item>
         <item quantity="one">%d елемент</item>
     </plurals>
+    <plurals name="data_item_count_pair">
+        <item quantity="other">%1$d/%2$d елемента</item>
+        <item quantity="one">%1$d/%2$d елемент</item>
+    </plurals>
+    <plurals name="local_main_backup_manage_summary">
+        <item quantity="other">%1$s резервни копия (%2$s)</item>
+        <item quantity="one">%1$s резервно копие (%2$s)</item>
+    </plurals>
+    <plurals name="new_task_backup_failed">
+        <item quantity="other">Успешно създадени рез. копия, с изключение на %d елемента.</item>
+        <item quantity="one">Успешно създадени рез. копия, с изключение на %d елемент.</item>
+    </plurals>
+    <plurals name="new_task_restore_failed">
+        <item quantity="other">Успешно възстановени рез. копия, с изключение на %d елемента.</item>
+        <item quantity="one">Успешно възстановени рез. копия, с изключение на %d елемент.</item>
+    </plurals>
     <plurals name="save_item_failed_summary_seg1">
         <item quantity="other">"Прехвърлени са %d елементи. "</item>
         <item quantity="one">"Прехвърлен е %d елемент. "</item>

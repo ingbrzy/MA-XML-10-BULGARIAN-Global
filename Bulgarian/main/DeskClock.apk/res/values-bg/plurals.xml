@@ -28,6 +28,10 @@
         <item quantity="other">%d минути</item>
         <item quantity="one">%d минута</item>
     </plurals>
+    <plurals name="minute_text">
+        <item quantity="other">" мин"</item>
+        <item quantity="one">" мин"</item>
+    </plurals>
     <plurals name="second">
         <item quantity="other">%d секунди</item>
         <item quantity="one">%d секунда</item>
@@ -72,6 +76,14 @@
         <item quantity="other">Заглуши за %d мин.</item>
         <item quantity="one">Заглуши за %d мин.</item>
     </plurals>
+    <plurals name="stopwatch_running_notification_day">
+        <item quantity="other">Хронометъра работи вече %s дена. Натиснете за преглед.</item>
+        <item quantity="one">Хронометъра работи вече %s ден. Натиснете за преглед.</item>
+    </plurals>
+    <plurals name="stopwatch_running_notification_hour">
+        <item quantity="other">Хронометъра работи вече %s часа. Натиснете за преглед.</item>
+        <item quantity="one">Хронометъра работи вече %s час. Натиснете за преглед.</item>
+    </plurals>
     <plurals name="timer_message_hour">
         <item quantity="other">"%1$d часа "</item>
         <item quantity="one">"%1$d час "</item>
@@ -83,5 +95,13 @@
     <plurals name="timer_message_second">
         <item quantity="other">%1$d секунди</item>
         <item quantity="one">%1$d секунда</item>
+    </plurals>
+    <plurals name="worldcolock_timezone_gap_fast">
+        <item quantity="other">%s часа напред</item>
+        <item quantity="one">%s час напред</item>
+    </plurals>
+    <plurals name="worldcolock_timezone_gap_slow">
+        <item quantity="other">%s часа назад</item>
+        <item quantity="one">%s час назад</item>
     </plurals>
 </resources>

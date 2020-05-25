@@ -19,11 +19,12 @@
     <string name="abc_shareactionprovider_share_with">Споделяне със:</string>
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="passport_access_denied">Достъпът е отказан</string>
     <string name="passport_account_hint_text">Електронна поща, телефонен номер или Mi профил ID</string>
     <string name="passport_account_identity_title">Проверка на идентичността</string>
     <string name="passport_account_label">Mi профил</string>
-    <string name="passport_account_name">"Профил: %1$s "</string>
+    <string name="passport_account_name">Профил: %1$s</string>
     <string name="passport_account_not_activated">Профилът не бе активиран</string>
     <string name="passport_account_not_actived">Профилът ви не беше активиран</string>
     <string name="passport_account_set_password">Задайте парола</string>

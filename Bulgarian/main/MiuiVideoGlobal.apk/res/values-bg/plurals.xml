@@ -28,6 +28,10 @@
         <item quantity="other">Вашето съдържание съдържа неща (%1$s), които нарушават стандартите на нашата общност. Профилът Ви е деактивиран за %2$d дни – до %3$s.</item>
         <item quantity="one">Вашето съдържание съдържа неща (%1$s), които нарушават стандартите на нашата общност. Профилът Ви е деактивиран за %2$d ден – до %3$s.</item>
     </plurals>
+    <plurals name="notification_close_tip">
+        <item quantity="other">Тази функция ще бъде изключена за %s дни</item>
+        <item quantity="one">Тази функция ще бъде изключена за %s ден</item>
+    </plurals>
     <plurals name="ovp_detail_v_video_count">
         <item quantity="other">%d видеоклип</item>
         <item quantity="one">%d видео</item>

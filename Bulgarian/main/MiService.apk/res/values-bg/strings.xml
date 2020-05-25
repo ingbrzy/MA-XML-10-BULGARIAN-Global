@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_home_description">Придвижване към „Начало“</string>
-    <string name="abc_action_bar_up_description">Придвижване нагоре</string>
+    <string name="abc_action_bar_home_description">Навигиране към началния екран</string>
+    <string name="abc_action_bar_up_description">Навигиране нагоре</string>
     <string name="abc_action_menu_overflow_description">Още опции</string>
     <string name="abc_action_mode_done">Готово</string>
-    <string name="abc_activity_chooser_view_see_all">Вижте всички</string>
+    <string name="abc_activity_chooser_view_see_all">Преглед на всички</string>
     <string name="abc_activitychooserview_choose_application">Изберете приложение</string>
     <string name="abc_capital_off">ИЗКЛ.</string>
     <string name="abc_capital_on">ВКЛ.</string>
@@ -43,7 +43,7 @@
     <string name="miui_feedback_answer_detail_feedback_unresolved">Не</string>
     <string name="miui_feedback_answer_detail_menu_online_service">Получете помощ онлайн</string>
     <string name="miui_feedback_answer_detail_menu_phone_service">Обадете се на отдела за поддръжка</string>
-    <string name="miui_feedback_answer_detail_relative_tip">Това може да е полезно:</string>
+    <string name="miui_feedback_answer_detail_relative_tip">Това може да е полезно</string>
     <string name="miui_feedback_answer_detail_title">Детайли</string>
     <string name="miui_feedback_edit_action_submit">Изпрати</string>
     <string name="miui_feedback_edit_add_original_images">Добави снимка</string>
@@ -111,6 +111,7 @@
     <string name="miui_feedback_main_menu_catch_full_log">Генерирай регистри</string>
     <string name="miui_feedback_main_menu_feedback_list">Вижте историята на изпратените коментари</string>
     <string name="miui_feedback_main_search_footer">Това не са въпросите, които искате да зададете?</string>
+    <string name="miui_feedback_main_search_footer_submit">立即提交问题</string>
     <string name="miui_feedback_main_search_issue">Въведете ключови думи за търсене</string>
     <string name="miui_feedback_main_start_submit">Подаване на обратна връзка</string>
     <string name="miui_feedback_main_submit_dialog_confirm">Изпрати</string>
@@ -135,6 +136,7 @@
     <string name="miui_main_update_start">Обнови сега</string>
     <string name="miui_main_update_success_sub_title">Запознайте се с новия MIUI</string>
     <string name="miui_main_update_success_title">Животът става по-лесен</string>
+    <string name="miui_main_update_success_title_12">Само твой</string>
     <string name="permission_agree">Приемам</string>
     <string name="permission_china_version_msg">&lt;Data>Преди да използвате \"Услуги и обратна връзка\", трябва да прочетете и да се съгласите с нашето &lt;a href=%1$s>Потребителско споразумение&lt;/a> и &lt;a href=%2$s>Политика за поверителност&lt;/a>. Това приложение също така има нужда от връзка с интернет, за да работи нормално.&lt;/Data></string>
     <string name="permission_complete">Готово</string>
