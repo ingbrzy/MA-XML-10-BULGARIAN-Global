@@ -927,7 +927,6 @@
     <string name="private_dns_mode_provider_failure">Не можа да се установи връзка</string>
     <string name="private_dns_mode_provider_hostname_hint">Въведете име на хоста на DNS доставчика</string>
     <string name="private_num">Частен номер</string>
-    <string name="process_kernel_label">Android (ОС)</string>
     <string name="progress_dialog_exiting_ecm">Излизане от режим на обратно обаждане при спешност</string>
     <string name="proxy_address_title">Адрес на изходящ прокси сървър</string>
     <string name="pstn_connection_service_label">Вградени SIM карти</string>
@@ -1163,7 +1162,6 @@
     <string name="time_end_minute">крайна минута</string>
     <string name="time_formate_am">AM</string>
     <string name="time_formate_pm">PM</string>
-    <string name="time_interval_char">:</string>
     <string name="time_next_day">" следващия ден "</string>
     <string name="time_start">" от "</string>
     <string name="time_start_hour">начален час</string>
@@ -1201,7 +1199,6 @@
     <string name="tts_status_ok">%1$s се поддържа напълно</string>
     <string name="tts_status_requires_network">За %1$s се изисква връзка с мрежа</string>
     <string name="tts_status_title">Състояние на основния език</string>
-    <string name="tty_mode_key">button_tty_mode_key</string>
     <string name="tty_mode_not_allowed_video_call">Промяната на режима на TTY не е разрешена по време на видеообаждане</string>
     <string name="tty_mode_option_summary">Задаване на TTY режим</string>
     <string name="tty_mode_option_title">TTY режим</string>
@@ -1240,7 +1237,6 @@
     <string name="voicemail">Гласова поща</string>
     <string name="voicemail_abbreviated">VM:</string>
     <string name="voicemail_change_pin_dialog_title">Промяна на PIN</string>
-    <string name="voicemail_change_pin_key">voicemail_change_pin_key</string>
     <string name="voicemail_default">Моят оператор</string>
     <string name="voicemail_notifications_preference_title">Известия</string>
     <string name="voicemail_number_not_set">&lt;не е зададен></string>
@@ -1249,7 +1245,6 @@
     <string name="voicemail_settings">Настройки</string>
     <string name="voicemail_settings_number_label">Номер на гласова поща</string>
     <string name="voicemail_settings_with_label">Гласова поща (%s)</string>
-    <string name="voicemail_visual_voicemail_key">voicemail_visual_voicemail_key</string>
     <string name="voicemail_visual_voicemail_switch_title">Визуална гласова поща</string>
     <string name="vpn_settings_not_available">Настройките за виртуална частна мрежа (VPN) не са налице за този потребител</string>
     <string name="vvm_unsupported_message_format">Съобщение, което не се поддържа, изберете %s, за да прослушате.</string>
@@ -1258,7 +1253,6 @@
     <string name="wait_prompt_str">\"Да се изпратят ли следните мелодии? \"</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Точката за достъп временно е пълна</string>
     <string name="wifi_calling">Wi-Fi обаждане</string>
-    <string name="wifi_calling_settings_key">button_wifi_calling_settings_key</string>
     <string name="wifi_calling_settings_title">Wi-Fi обаждане</string>
     <string name="wifi_cant_connect">Не може да се установи връзка</string>
     <string name="wifi_cant_connect_to_ap">Не може да се установи връзка с/ъс %1$s</string>

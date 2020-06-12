@@ -136,7 +136,6 @@
     <string name="call_sim_menu_title_suffix">(Основен)</string>
     <string name="call_telex">Набери телекс</string>
     <string name="call_tty_tdd">Набери TTY/TDD</string>
-    <string name="call_type_and_date">%1$s %2$s</string>
     <string name="call_unit">CNY</string>
     <string name="call_work">Набери служебен</string>
     <string name="call_work_mobile">Набери сл. мобилен</string>
@@ -589,7 +588,6 @@
     <string name="friday">Петък</string>
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
-    <string name="from_account_format">%1$s</string>
     <string name="full_name">Име</string>
     <string name="gallery">Галерия</string>
     <string name="generic_no_account_prompt">Запазете своите контакти в безопасност дори ако загубите телефона си: синхронизирайте ги с онлайн услуга.</string>
@@ -774,7 +772,6 @@
     <string name="miprofile_contact_header">Контакти с контактни карти</string>
     <string name="miprofile_contact_meaasge">Локални контакти</string>
     <string name="miprofile_contact_verifying">Проверка</string>
-    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Редакция на профила</string>
     <string name="miprofile_error_accept_self">Не може да обмените вашата собствена контактна карта</string>
     <string name="miprofile_error_no_miaccount">Впишете се с вашия Mi профил</string>
@@ -978,10 +975,7 @@
     <string name="path_wipe_data">Системни приложения/Контакти/Подреждане на контакти/Изчисти данните</string>
     <string name="payphone">Обществен телефон</string>
     <string name="people">Контакти</string>
-    <string name="percent_sign">%1$s</string>
-    <string name="percentage">%1$s%2$s</string>
     <string name="phoneLabelsGroup">Телефон</string>
-    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Номерът е твърде дълъг</string>
     <string name="phone_primary">Основен</string>
     <string name="photoPickerNotFoundText">Няма налични изображения в устройството.</string>
@@ -1248,7 +1242,6 @@
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Няма членове на групата</string>
     <string name="six_letter">MNO</string>
-    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">По фирма</string>
     <string name="smart_group_company_unavailable">Неизвестна фирма</string>
     <string name="smart_group_frequency_1">В рамките на месец</string>
@@ -1294,7 +1287,6 @@
     <string name="starred_contacts">Любими</string>
     <string name="status_available">Достъпен</string>
     <string name="status_away">Отсъстващ</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Зает</string>
     <string name="strequentList">Любими</string>
     <string name="success_message_import_from_account">Успешно импортиране</string>
@@ -1447,7 +1439,6 @@
     <string name="wednesday">Сряда</string>
     <string name="wednesday_short">Ср.</string>
     <string name="wednesday_shortest">Ср.</string>
-    <string name="widget_name_and_phonetic">%1$s (%2$s)</string>
     <string name="wipe_data">Изчисти данни</string>
     <string name="yellowPageNavigationIconLabel">Директория</string>
     <string name="yellowPageNavigationLabel">Директория</string>
