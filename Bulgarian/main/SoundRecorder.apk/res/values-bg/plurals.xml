@@ -32,6 +32,10 @@
         <item quantity="other">Търси сред %d записа</item>
         <item quantity="one">Търси сред %d запис</item>
     </plurals>
+    <plurals name="search_app_records_hint">
+        <item quantity="other">Search among %d recordings</item>
+        <item quantity="one">Search among %d recording</item>
+    </plurals>
     <plurals name="search_call_records_hint">
         <item quantity="other">Търси сред %d записа на повикване</item>
         <item quantity="one">Търси сред %d запис на повикване</item>

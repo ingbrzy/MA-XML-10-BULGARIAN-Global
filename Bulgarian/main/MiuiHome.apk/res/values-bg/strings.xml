@@ -27,6 +27,13 @@
     <string name="abc_shareactionprovider_share_with">Споделяне със:</string>
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
+    <string name="accessibility_all_app_custom_category_finish">Done</string>
+    <string name="accessibility_all_app_custom_category_item_remove">Remove \"%1$s\" from categories</string>
+    <string name="accessibility_clear_search_bar_text">Clear search bar</string>
+    <string name="accessibility_enter_all_app_mode">Open App drawer</string>
+    <string name="accessibility_enter_all_app_settings">Open App drawer settings</string>
+    <string name="accessibility_menu_item_smallwindow_disable">Това приложение не поддържа плаващи прозорци</string>
+    <string name="accessibility_menu_item_smallwindow_enable">Това приложение поддържа плаващи прозорци</string>
     <string name="accessibility_menu_item_split_disable">Приложението не поддържа режим Разделен екран.</string>
     <string name="accessibility_menu_item_split_enable">Приложението поддържа режим Разделен екран</string>
     <string name="accessibility_recent_task_enter">Отваряне на Скорошни</string>
@@ -60,6 +67,7 @@
     <string name="all_apps_no_search_results">Не са открити резултати</string>
     <string name="all_apps_search_app">Търсене на приложения</string>
     <string name="all_apps_search_market_message">Търсене онлайн</string>
+    <string name="all_apps_setting_classic_title">Класически</string>
     <string name="all_apps_setting_desktop_desc">Покажете всички инсталирани приложения на началния екран. Натиснете и задръжте икона на приложение, за да видите наличните преки пътища, да управлявате или деинсталирате приложението.</string>
     <string name="all_apps_setting_desktop_title">Нормален</string>
     <string name="all_apps_setting_drawer_desc">Поставете всички инсталирани приложения в Чекмеджето, което може да бъде отворено чрез плъзгане по началния екран. В Чекмеджето все още ще можете да откривате приложенията, които сте преместили на началния екран.</string>
@@ -141,6 +149,7 @@
     <string name="auto_add_app_shortcut">Добавяне нови приложения на началния екран</string>
     <string name="auto_delete_category_dialog_content">Текущите приложения ще бъдат премахнати от тази категория и категорията ще бъде изтрита. Изтриване на категорията сега?</string>
     <string name="auto_delete_category_dialog_title">Изтриване на категория</string>
+    <string name="back">Back</string>
     <string name="backup_fail">Неуспешно архивиране на стартовия панел</string>
     <string name="bad_wallpaper_source_prompt">Тапетът не може да се зареди</string>
     <string name="buffering">Буфериране...</string>
@@ -165,6 +174,10 @@
     <string name="choose_wallpaper">Изберете тапет</string>
     <string name="chooser_wallpaper">Изберете тапет от</string>
     <string name="cloud_app_restore_title">Изчаква</string>
+    <string name="common_home_search_delete">Изтриване на лентата за търсене на Началния екран</string>
+    <string name="common_home_search_delete_cancle">Отказ</string>
+    <string name="common_home_search_delete_confirm">Изтрий</string>
+    <string name="common_home_search_delete_content">Няма да можете да търсите елементи чрез лентата за търсене на Началния екран след като я изтриете. Ще я изтриете ли въпреки това?</string>
     <string name="configure_wallpaper">Настройки</string>
     <string name="confirm_btn_label">OК</string>
     <string name="confirm_uninstall_dialog_contain_xspace_app_msg">Cloned apps will be uninstalled together with these ones.</string>
@@ -490,8 +503,11 @@
     <string name="sort_by_not_defined">Не сортирай</string>
     <string name="start_activity_failed">Приложението не успя да стартира.</string>
     <string name="starting_preset_app">Стартиране</string>
-    <string name="status_bar_recent_memory_info1">Свободни %1$sB от %2$sB</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="status_bar_recent_memory_giga">%1$s GB</string>
+    <string name="status_bar_recent_memory_info1">%1$s от %2$s са достъпни</string>
     <string name="status_bar_recent_memory_info2" />
+    <string name="status_bar_recent_memory_mega">%1$s MB</string>
     <string name="status_downloaded">изтеглено</string>
     <string name="status_downloading">изтегля се</string>
     <string name="status_installing">инсталира се</string>

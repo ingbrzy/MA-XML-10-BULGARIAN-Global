@@ -118,6 +118,7 @@ dd/MM"</string>
 прекрасно предстои"</string>
     <string name="standard_clock_panel">Стандартен</string>
     <string name="standard_style">Стандартен</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary">За да се намали консумацията на енергия, няма да бъдат показвани елементи, когато устройството Ви е на тъмно за дълго време.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="temporary_style">В продължение на 10 секунди след докосване</string>

@@ -140,8 +140,11 @@
     <string name="first_enter_custom_folder_hint">Тук можете да преименувате или изтривате папки</string>
     <string name="float_todo_guide_cancel">Отказ</string>
     <string name="float_todo_guide_message">Преки пътища на Началния екран ви позволяват да плъзвате до края на екрана, за да преглеждате и създавате задачи. Искате ли да създадете пряк път?</string>
+    <string name="float_todo_guide_message_v2">Пряк път с жест ви позволява да преглеждате и създавате задачи чрез плъзване от ръба на екрана. Можете да включите или изключите тази функция в Настройки.</string>
     <string name="float_todo_guide_ok">Създай</string>
+    <string name="float_todo_guide_ok_v2">Включване</string>
     <string name="float_todo_guide_title">Пряк път на Началния екран</string>
+    <string name="float_todo_guide_title_v2">Пряк път с жест</string>
     <string name="fmt_chinese_date">N e</string>
     <string name="fmt_date_day">dd</string>
     <string name="fmt_date_long_month">MMMM</string>
@@ -294,6 +297,7 @@
     <string name="note_sort_way">Изберете как да подредите бележките си</string>
     <string name="notealert_enter">Отвори бележката</string>
     <string name="notealert_ok">Затвори</string>
+    <string name="notelist_string_info">…</string>
     <string name="notification_content_add_todo_from_other_app">Добавихте нова задача. Натиснете, за да прегледате.</string>
     <string name="notify_alarm_title">Напомняне</string>
     <string name="permdesc_accessNote">Злонамерените приложения могат да използват това за достъп до личните ви данни.</string>
@@ -313,7 +317,9 @@
     <string name="pref_desc_skip_confirm_for_quick_delete">Плъзнете нагоре с 2 пръста, за да изтривате бележки без потвърждение</string>
     <string name="pref_desc_todo_float_mode">Плъзнете от ръба на екрана, за да отворите лентата с инструменти.</string>
     <string name="pref_remind_type_summary">Звукът на напомнянето ще се чува и в тих режим.</string>
+    <string name="pref_remind_type_summary_new">Игнориранне на Тих режим и възпроизвеждане на звук до изключване на алармата</string>
     <string name="pref_remind_type_title">Пренебрегване на Тихия режим</string>
+    <string name="pref_remind_type_title_new">Напомняния с висок приоритет</string>
     <string name="pref_title_cloud_trash_bin">Изтрити бележки в облака</string>
     <string name="pref_title_common">Общи настройки</string>
     <string name="pref_title_font_size">Размер на шрифта</string>
@@ -473,6 +479,7 @@
     <string name="toast_reach_text_limit_truncate">Съдържанието на бележката ще се намали автоматично, защото е много дълго.</string>
     <string name="toast_refuse_to_record_when_in_call">Тази функция не може да се използва по време на разговори</string>
     <string name="toast_refuse_to_record_when_in_multi_window">Не можете да използвате тази функция с разделен екран</string>
+    <string name="toast_refuse_to_record_when_in_multi_window_new">Тази функция не е налична в Разделен екран или плаващи прозорци</string>
     <string name="toast_refuse_to_use_contact">"Разрешенията за контакти са ограничени. 
 Разрешете на Бележки да чете контактите ви и да намира профили на устройството."</string>
     <string name="toast_refuse_to_use_external_storage">"Разрешенията за съхранение са ограничени. 
@@ -556,6 +563,7 @@
     <string name="toolbar_voice_description">Глас</string>
     <string name="trash_folder_name">Кошче</string>
     <string name="trash_folder_reminder">Бележките, които изтриете, ще се изтрият завинаги след 30 дни.</string>
+    <string name="trash_folder_reminder_new">Notes are kept in the trash for 30 days before being permanently deleted</string>
     <string name="tuesday">Вторник</string>
     <string name="tuesday_short">Вт.</string>
     <string name="tuesday_shortest">Вт.</string>

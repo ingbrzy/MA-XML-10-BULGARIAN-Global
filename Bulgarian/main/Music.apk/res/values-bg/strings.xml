@@ -128,6 +128,7 @@
     <string name="button_sort_by_date">Сортиране по дата</string>
     <string name="button_sort_by_size">Сортиране по размер</string>
     <string name="button_wait_for_wifi">Изчакайте</string>
+    <string name="buy_vip_skip_ad">Отстрани реклами</string>
     <string name="cancel">Отказ</string>
     <string name="cancel_running_download">Отмени</string>
     <string name="cannot_download_to_sdcard_hint">Не могат да се изтеглят елементи на SD карта поради ограничения от авторско право. Вместо това елементите ще бъдат изтеглени на вътрешната памет.</string>
@@ -271,7 +272,9 @@
     <string name="download_method">Изтегляне</string>
     <string name="download_no_application_title">Файлът не може да се отвори</string>
     <string name="download_paused_in_power_save_mode">Изтеглянето е спряно когато Икономия на батерията е включено</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Изтегля се…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Качество при изтегляне</string>
     <string name="download_quality_summary">Допълнителни настройки на песните, които сте изтеглили</string>
     <string name="download_queued">Чакащи</string>
@@ -352,7 +355,9 @@
     <string name="exo_download_notification_channel_name">Изтегляния</string>
     <string name="exo_download_removing">Изтеглянията се премахват</string>
     <string name="exo_item_list">%1$s – %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Автоматично</string>
     <string name="exo_track_selection_none">Нищо</string>
     <string name="exo_track_selection_title_audio">Аудиозапис</string>
@@ -456,6 +461,46 @@
     <string name="is_latest_version">Музиката е актуализирана.</string>
     <string name="is_scanning">Сканира се, моля изчакайте</string>
     <string name="is_scanning_support_online">Сканира се, моля изчакайте или изберете музика от таба онлайн.</string>
+    <string name="joox_account_bind_mi_account">Добави Mi профил</string>
+    <string name="joox_account_cancel_login">Отказ</string>
+    <string name="joox_account_continue_login">Вписване</string>
+    <string name="joox_account_fans_center">Фенски център</string>
+    <string name="joox_account_login_conflict_message">Изглежда сте вписан върху друго устройство. Ще се впишете ли тук?</string>
+    <string name="joox_account_login_exception">Влезте отново</string>
+    <string name="joox_account_multi_device_login">Множество устройства</string>
+    <string name="joox_area_check_failed">Изглежда се намирате в район където нашите услуги не са налични. Свържете се с друга мрежа и стартирайте приложението наново.</string>
+    <string name="joox_auth_button_acquire_vip_instantly">Купи VIP членство</string>
+    <string name="joox_auth_button_login_to_acquire_vip">Впишете се, за да купите VIP членство</string>
+    <string name="joox_auth_dialog_message">Избрахме няколко песни за вас. Купете VIP членство, за да отстраните ограниченията.</string>
+    <string name="joox_auth_message_connect_network">Не сте се свързвали със сървъра от известно време. Свържете се с мрежата, за да можете да възпроизвеждате изтеглените песни.</string>
+    <string name="joox_auth_message_content_for_vip_only">Този елемент е достъпен само за VIP членове</string>
+    <string name="joox_auth_message_content_offline">Онлайн услуги не са налични в момента. Ще подобрим някои неща и ще дадем достъп отново. Останете с нас!</string>
+    <string name="joox_auth_message_login_status_expired">Сесията ви е изтекла. Влезте отново.</string>
+    <string name="joox_auth_message_one_hour_limit_for_one_company">Можете да възпроизвеждате до шест песни от едно и също студио всеки час. За сега изслушайте някои препоръчвани песни.</string>
+    <string name="joox_auth_message_recommend_for_you">Препоръчвани</string>
+    <string name="joox_auth_message_update_vip_to_change_playlist">Купете VIP членство, за да редактирате плейлисти</string>
+    <string name="joox_auth_message_update_vip_to_download">Купете VIP членство, за да изтеглите</string>
+    <string name="joox_auth_message_update_vip_to_listen_offline">Вашето VIP членство изтече. Вече можете да слушате песни онлайн. Купете VIP членство, за да можете да изтегляте песни.</string>
+    <string name="joox_auth_message_update_vip_to_play_on_demand">Тази песен не може да бъде възпроизведена заради ограничения за авторски права. Пробвайте да разбъркате, за да чуете други песни или купете VIP членство, за да чуете тази песен.</string>
+    <string name="joox_auth_message_update_vip_to_seek_progress">Прогреса на възпроизвеждане не може да бъде настройван заради ограничения за авторски права. Купете VIP членство, за да отстраните ограниченията.</string>
+    <string name="joox_auth_message_update_vip_to_switch_songs">Купете VIP членство, за да сменяте песни</string>
+    <string name="joox_auth_message_update_vip_to_use_function">Купете VIP членство, за да използвате тази функция</string>
+    <string name="joox_auth_title_download_song">Изтегляне на песни</string>
+    <string name="joox_auth_title_login_again">Вписване</string>
+    <string name="joox_auth_title_long_time_no_network">Изглежда не сте се свързвали с мрежата от известно време</string>
+    <string name="joox_auth_title_shuffle_play">Разбъркване</string>
+    <string name="joox_auth_title_vip_content">VIP съдържание</string>
+    <string name="joox_auth_title_vip_expired">Членството изтече</string>
+    <string name="joox_auth_title_vip_function">VIP функции</string>
+    <string name="joox_download_title">JOOX изтегляния</string>
+    <string name="joox_privacy_desc">Правила за Поверителност на JOOX (незадължително)</string>
+    <string name="joox_privacy_tips_content">Прочетете и приемете <a href="/link/click">Правила за Поверителност на JOOX</a> преди да използвате онлайн услуги.</string>
+    <string name="joox_privacy_tips_title">Правила за Поверителност на JOOX</string>
+    <string name="joox_recommend_artist_title">Препоръчвани изпълнители</string>
+    <string name="joox_recommend_playlist_title">Препоръчвани плейлисти</string>
+    <string name="joox_search_result_more">Още</string>
+    <string name="joox_vip_check_to_pay">Купи</string>
+    <string name="joox_vip_expired_hint">Вашето VIP членство изтече. Песните изтеглени от JOOX ще бъдат показвани само във вашите изтегляния.</string>
     <string name="keep_queued_download">Запомни</string>
     <string name="ktv_playlist">Моят KTV</string>
     <string name="language_page_confirm">Потвърждаване</string>
@@ -672,6 +717,7 @@
     <string name="priority_storage_summary">При поставена SD карта, автоматично записване на файловете на SD картата</string>
     <string name="privacy_desc">Политика за поверителност (задължително)</string>
     <string name="privacy_policy">Политика за поверителност</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=bg_BG</string>
     <string name="pro_member">PRO член</string>
     <string name="project_device">Mi Телефон</string>
     <string name="prompt_grant_write_settings_permission">Позволи промяна на системните настройки</string>
@@ -800,12 +846,14 @@
     <string name="start_to_check_new_version">Проверява се за актуализации…</string>
     <string name="start_to_download">Старирайте изтегляне…</string>
     <string name="start_to_play">Пусни</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Хранилище за клонирани приложения</string>
     <string name="storage_internal">Вътрешна памет</string>
     <string name="storage_sd_card">SD карта</string>
     <string name="storage_usb">USB хранилище</string>
     <string name="streamloadingtext">Свързване към %s</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="supplementary_songs">Допълнителни песни</string>
     <string name="switch_success">Превключването е успешно.</string>
     <string name="tab_album">Албуми</string>
     <string name="tab_album_list">Албуми</string>
@@ -876,6 +924,7 @@
     <string name="upgrade_music_message">Обновяването приключи. Рестартирайте програмата.</string>
     <string name="upgrading_in_backstage">Актуализиране във фонов режим…</string>
     <string name="user_agreement">Потребителско споразумение</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=bg_BG</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
     <string name="version_info">Версия</string>
