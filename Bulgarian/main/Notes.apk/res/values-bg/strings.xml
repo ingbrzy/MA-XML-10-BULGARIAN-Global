@@ -355,7 +355,6 @@
     <string name="note_sort_way">Изберете как да подредите бележките си</string>
     <string name="notealert_enter">Отвори бележката</string>
     <string name="notealert_ok">Затвори</string>
-    <string name="notelist_string_info">…</string>
     <string name="notification_content_add_todo_from_other_app">Добавихте нова задача. Натиснете, за да прегледате.</string>
     <string name="notify_alarm_title">Напомняне</string>
     <string name="permdesc_accessNote">Злонамерените приложения могат да използват това за достъп до личните ви данни.</string>

@@ -489,7 +489,6 @@
     <string name="private_dns_mode_provider">Име на хоста на доставчика на частния DNS</string>
     <string name="private_dns_mode_provider_failure">Не можа да се установи връзка</string>
     <string name="private_dns_mode_provider_hostname_hint">Въведете име на хоста на DNS доставчика</string>
-    <string name="process_kernel_label">Android (ОС)</string>
     <string name="profile_connect_timeout_subtext">При свързването възникна проблем. Изключете устройството и го включете отново</string>
     <string name="profile_info_settings_title">Инф. за потр. профил</string>
     <string name="remaining_length_format">Оставащо време: %1$s</string>
