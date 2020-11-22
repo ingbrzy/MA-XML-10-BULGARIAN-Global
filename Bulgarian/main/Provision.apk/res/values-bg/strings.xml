@@ -19,6 +19,7 @@
     <string name="application_package_introduction">Това приложение Ви дава възможност да инсталирате приложения от трети страни, да ги сканирате преди инсталация и да ги оценявате след това.</string>
     <string name="application_permissions">Разрешения за приложения</string>
     <string name="back">Назад</string>
+    <string name="backup_introduction">Можете да използвате това приложение, за да правите резервни копия и да възстановявате елементи във вашето устройство.</string>
     <string name="calculator_introduction">Можете да използвате това приложение за изчисления, за преобразуване на мерни единици и на валути, както и за пресмятане на вноските по кредитите си.</string>
     <string name="camera_introduction">Можете да използвате камерата, за да правите снимки и да записвате видео.</string>
     <string name="carrier_introduction">За да може да Ви предоставя по-качествени услуги, Вашето устройство може периодично да изпраща информация за версията на устройството, идентификационни данни за него (включително IMEI/IMSI/MSISDN/MAC адрес, MEID/ICCID), както и данни за приблизителното му местоположение (включително номера на базовата станция) на оператора чрез Wi-Fi, мрежата за мобилни данни или безплатен SMS. Операторът обещава да анализира уместната информация само с цел подобряване качеството на услугите и технологиите и няма да разкрива тази информация на трети страни под каквато и да било форма, в която можете да бъдете идентифицирани лично. Преимущество ще има декларацията на конкретния оператор. Консултирайте се с оператора си, за да разберете цената на тази услуга.</string>
@@ -44,6 +45,7 @@
     <string name="disageement_abnormal_download">Ако не сте съгласни с даването на тези разрешения или със споделянето и качването на Вашата лична информация, няма да можете да използвате тази услуга.</string>
     <string name="disagree">Отказ</string>
     <string name="disagreement_abnormal_running">Ако не сте съгласни с даването на тези разрешения или със споделянето и качването на Вашата лична информация, няма да можете да използвате това приложение. В такъв случай можете да решите да не го използвате или да ограничите разрешенията от \"Настройки\".</string>
+    <string name="disagreement_abnormal_running_fast_pairing">Ако не сте съгласни с даването на тези разрешения, няма да можете да използвате това приложение. В такъв случай можете да ограничите разрешенията и да изключите тази услуга в Настройки.</string>
     <string name="disagreement_donnot_use_application">Ако не сте съгласни с даването на тези разрешения или със споделянето и качването на Вашата лична информация, няма да можете да използвате това приложение. В такъв случай можете да решите да не го използвате.</string>
     <string name="disagreement_donnot_use_product">Ако не сте съгласни с даването на тези разрешения или със споделянето и качването на Вашата лична информация, няма да можете да използвате този продукт. В такъв случай можете да решите да не го използвате.</string>
     <string name="disagreement_donnot_use_service">Ако не сте съгласни с даването на тези разрешения или със споделянето и качването на Вашата лична информация, няма да можете да използвате тази услуга. В такъв случай можете да решите да не я използвате.</string>
@@ -51,18 +53,22 @@
     <string name="disagreement_function">Ако не сте съгласни с даването на тези разрешения или със споделянето и качването на Вашата лична информация, няма да можете да използвате тази функционалност. В такъв случай можете да решите да не я използвате.</string>
     <string name="disagreement_location_service">Ако не сте съгласни с даването на тези разрешения или със споделянето и качването на Вашата лична информация, няма да можете да използвате тази услуга.</string>
     <string name="disagreement_terminate_service">Ако не сте съгласни с даването на тези разрешения или със споделянето и качването на Вашата лична информация, няма да можете да използвате това приложение. В такъв случай можете да решите да го деинсталирате, да излезете от профила си или да ограничите разрешенията от \"Настройки\".</string>
-    <string name="download_introduction">Това приложение управлява всичките Ви изтегляния, включително тези, които правите през GetApps, \"Mi видео\", \"Обновления\", \"Теми\" и \"Браузър\".</string>
+    <string name="download_introduction">\"Изтегляния\" използва Xunlei, за да изтегли елементи на вашето устройство. Този инструмент работи с GetApps, системни обновления, теми, видео и изтегляния от браузър.</string>
     <string name="enable_accessibility_canceled">Услугата Достъпност е изключена.</string>
     <string name="enable_accessibility_dialog_message">Включихте TalkBack, като натиснахте с два пръста екрана за повече от 10 секунди. TalkBack е разработен за слепи хора. Ако сте включили по случайност тази програма, натиснете бутона Отказ и после докоснете два пъти екрана.</string>
     <string name="enable_accessibility_dialog_negative_btn">Отказ</string>
     <string name="enable_accessibility_dialog_positive_btn">OК</string>
     <string name="fast_application_introduction">Фреймуъркът \"Бързи приложения\" Ви позволява да създавате и да предоставяте услуги в \"Бързи приложения\".</string>
+    <string name="fast_pairing_introduction">Mi Link позволява на устройството ви да се свърже с Bluetooth устройства наблизо чрез MIUI Bluetooth Услуги. За да може да открива устройства наблизо, разрешете на MIUI Bluetooth Услуги достъп до интернет.</string>
     <string name="font_hint_large">Размер на текста по подразбиране</string>
     <string name="font_hint_normal">Увеличи размера на текста</string>
     <string name="framework_introduction">Фреймуъркът \"Mi услуги\" Ви позволява да използвате \"Mi профил\", Mi Push, \"Mi статистика\" и MIUI BI.</string>
     <string name="framwork_base_service">За да може да Ви предоставя тези услуги, фреймуъркът \"Услуги Mi\" (\"Mi профил\", Mi Push, \"Mi статистика\", MIUI BI) се нуждае от връзка с интернет, достъп до Вашето местоположение и до телефонния Ви номер, до IMEI и IMSI, както и от разрешение устройството да получава push известия</string>
     <string name="game_introduction">Приставката за игри Ви дава възможност да влизате в профила си, да създавате поръчки, да извършвате плащания, да използвате купони и да участвате в промоционални събития.</string>
     <string name="google_service_introduction">За да може да работи нормално, Google Play се нуждае от връзка с интернет, от достъп до Вашето местоположение, да може да записва звук, да извършва обаждания, да има достъп до събитията в календара, до историята на обажданията, до сензорите, пространството за съхранение, камерата, информация за устройството и до профилите.</string>
+    <string name="home_settings_miui_home">Класика</string>
+    <string name="home_settings_poco_launcher">Чекмедже с приложения</string>
+    <string name="home_settings_title">Изберете работен стил по подразбиране</string>
     <string name="ime_privacy_policy">Правила за поверителност за избраната клавиатура</string>
     <string name="ime_privacy_policy_no_network">Вашият телефон не е свързан с интернет. Вижте информацията на адрес: %s</string>
     <string name="input_method_category">Избиране на метод за въвеждане по подразбиране, който ще използвате при въвеждане на текст в имейли, бележки и др. Запомнете, че можете да си инсталирате клавиатури от трети страни по-късно.</string>
@@ -70,16 +76,27 @@
     <string name="install_preinstall_app">Зареждат се приложенията…</string>
     <string name="item_fingerprint">Пръстов отпечатък</string>
     <string name="item_lock_screen_password">Само заключен екран</string>
+    <string name="ktlocation_U">(KT Service Agent)</string>
+    <string name="ktposition_header">Споделяне на информация за местоположението с агенции за спешно реагиране</string>
     <string name="language_picker_other_languages_title">Други езици</string>
     <string name="language_settings">Избор на език</string>
     <string name="locale_picker_other_locale_title">Още региони</string>
     <string name="locale_picker_title">Изберете регион</string>
+    <string name="location_U">U+ GPSnWPS</string>
+    <string name="location_content">В съответствие със закона, мобилни оператори могат да събират информация за местоположение от мобилни устройства, за да могат да изпълняват изискванията на агенции за спешни случаи (пожарна и полиция), които използват тази информация, за да поддържат сигурността и да разрешават спешни случаи.</string>
     <string name="location_introduction">Базираните на местоположението услуги намират продукти и услуги близо до Вас.</string>
+    <string name="location_location">При молба, агенции за спешни случаи могат да получат достъп до местоположението ви</string>
     <string name="lockscreen_introduction">Чрез сменящите се тапети всеки ден на заключения Ви екран се доставят нови изображения.</string>
     <string name="mint_keyboard_oobe_checkbox">Прочетох и съм съгласен с Правилата за поверителност на Mint клавиатурата</string>
     <string name="mint_keyboard_oobe_terms">Правила за поверителност на Mint клавиатура</string>
     <string name="miui_privacy_policy_no_network">Няма връзка с интернет. Вижте правилата за поверителност на %s</string>
     <string name="miui_terms_no_network">Нямате връзка с интернет. Вижте Потребителското споразумение на %s.</string>
+    <string name="mobile_network">Използване на мобилни данни</string>
+    <string name="move_data_dialog_box_le">Това позволява употребата на мобилни данни и GPS връзка въз основа на желанието на потребителя. Синхронизирането на профили и други елементи може да изисква употреба на мобилни данни в зависимост от спецификациите на вашия смартфон.</string>
+    <string name="move_data_dialog_box_title">Освен ако нямате тарифен план с неограничени мобилни данни, употребата на мобилни данни може да доведе до допълнителни такси. Ще използвате ли мобилни данни въпреки това?</string>
+    <string name="move_data_dialog_cancel">Отказ</string>
+    <string name="move_data_dialog_title">Можете да ограничите мобилните данни в Настройки по-късно</string>
+    <string name="move_data_dialog_use">Използване</string>
     <string name="multisim_settings_category">Предпочитани SIM настройки</string>
     <string name="multisim_settings_title">Открити са 2 SIM карти</string>
     <string name="navigation_picker_gesture_guide">Упътване за жестове</string>
@@ -111,6 +128,8 @@
     <string name="permission_account">Достъп до профилите на устройството:</string>
     <string name="permission_account_introduction">за влизане с Вашия Mi профил.</string>
     <string name="permission_application_package_introduction">за достъп до паметта за съхранение с цел прочитане и сканиране на инсталационните пакети;</string>
+    <string name="permission_backup">Достъп до паметта</string>
+    <string name="permission_backup_introduction">С цел достъп и запазване на рез. копия във вашето устройство</string>
     <string name="permission_call_records">Достъп до историята на обажданията:</string>
     <string name="permission_call_records_introduction">за достъп до история на обажданията с цел показване на блокираните номера.</string>
     <string name="permission_call_state_introduction">за достъп до статуса на телефона, за запис на обаждания и за паузиране на записа при входящо обаждане;</string>
@@ -152,6 +171,8 @@
     <string name="poco_agree_terms_other">(Включително Политика на поверителност и Потребителско споразумение на POCO Launcher)</string>
     <string name="poco_launcher_privacy_policy">Политика на поверителност на POCO Launcher</string>
     <string name="poco_launcher_user_agreement">Потребителско споразумение на POCO Launcher</string>
+    <string name="position_header">Споделяне на информация за местоположение</string>
+    <string name="position_subheading">Инф. за местоположение</string>
     <string name="pref_title_data_slot">Предпочитана SIM карта за данни</string>
     <string name="pref_title_voice_slot">Предпочитана SIM карта за глас</string>
     <string name="privacy_policy">Правила за поверителност</string>
@@ -168,6 +189,7 @@
     <string name="service_agreement">Прочетох и приемам правилата и условията за ползване.</string>
     <string name="service_name_album">Галерия</string>
     <string name="service_name_application_package">Инсталатор на пакети</string>
+    <string name="service_name_backup">Резервни копия</string>
     <string name="service_name_calculator">Калкулатор</string>
     <string name="service_name_camera">Камера</string>
     <string name="service_name_carrier">Декларация за услугите от оператора</string>
@@ -176,6 +198,7 @@
     <string name="service_name_content_center">Център за съдържание</string>
     <string name="service_name_download">Изтегляния</string>
     <string name="service_name_fast_application">Фреймуърк \"Бързи приложения\"</string>
+    <string name="service_name_fast_pairing">Mi Link</string>
     <string name="service_name_game">Приставка за игри</string>
     <string name="service_name_google_service">Декларация за услугите от Google</string>
     <string name="service_name_location">Базирани на местоположението услуги</string>
@@ -186,6 +209,7 @@
     <string name="service_name_security">Сигурност</string>
     <string name="service_name_service_framework">Фреймуърк за услугите Mi</string>
     <string name="service_policy">&lt;Data>Прочетете и се съгласете с нашата &lt;a href=%1$s>политика за поверителност&lt;/a >, преди да използвате тази функция.&lt;/Data></string>
+    <string name="service_policy_download">&lt;Data>Преди да използвате нашите услуги прочетете и приемете &lt;a href=%1$s>Правила за Поверителност на Xunlei&lt;/a >.&lt;/Data></string>
     <string name="service_privacy_index">Политика за поверителност</string>
     <string name="servicestate_title">Декларация за основни услуги</string>
     <string name="setting_locale">Задаване на регион…</string>
@@ -219,7 +243,7 @@
     <string name="terms_of_use_label_phrase">, \"Чести фрази\"</string>
     <string name="terms_of_use_label_systemhelper">, Саморегистриращи се услуги</string>
     <string name="terms_of_use_label_updater">, Актуализатор</string>
-    <string name="terms_of_use_lable_apps">\"Mi услуги\", \"Mi услуги за активация на SIM\", \"Xiaomi Cloud, \"Намери устройството\", \"Начален екран\", \"Игри\", MIUI Daemon, \"Системни компоненти MSA\", \"Преводачески услуги\", \"Бързи приложения\", \"Трезор за приложения\", \"Статистика\", \"Трезор за приложения\", Mi Link</string>
+    <string name="terms_of_use_lable_apps">Mi услуги, Mi услуги за активация на SIM карта, Xiaomi Облак, Открий устройство, Начален екран, Игри, MIUI Daemon, MSA системни компоненти, преводачески услуги, MIUI SDK, Бързи приложения, Трезор за приложения, статистики, Mi Link</string>
     <string name="terms_of_use_lable_default_input_method_facemoji">"
 
 Вие трябва да се съгласите с политиката за поверителност на Емоджи, преди да използвате тази услуга."</string>
@@ -236,7 +260,7 @@
     <string name="terms_privacy_policy_input_method_kika">Кика Политика на поверителност</string>
     <string name="title_fingerprint">Задай парола</string>
     <string name="user_agreement">Потребителско споразумение</string>
-    <string name="user_agreement_declare">Преди да използвате MIUI трябва да прочетете и да приемете нашето Потребителско споразумение и Правила за поверителност. Докато Вашето устройство се включва Mi SIM Услуга за активация, Xiaomi Облак, Намери устройството, Начален екран, Често използвани фрази, Преводачески услуги, MIUI Daemon, Преглед на HTML, AI Асистент, Батерия и производителност, Отчитане на мощност, Joyose, OS AI Настройка, Управление на разрешения и Актуализатор ще се свържат към мрежата. Умни услуги ще се свържат към мрежата и ще получат достъп до Вашето местоположение.</string>
+    <string name="user_agreement_declare">Преди да използвате MIUI трябва да прочетете и да приемете нашето Потребителско споразумение и Правила за поверителност. Докато вашето устройство се включва, Mi SIM Услуга за активация, Xiaomi Облак, Открий устройство, Начален екран, Често използвани фрази, Преводачески услуги, MIUI Daemon, Преглед на HTML, MIUI SDK, AI Асистент, Батерия и производителност, Отчитане на мощност, Joyose, OS AI Настройки, Управление на разрешения и Актуализатор ще се свържат към мрежата. Умни услуги ще се свържат към мрежата и ще получат достъп до вашето местоположение.</string>
     <string name="voice_assist_advice">Mi AI ви дава възможност да използвате гласови контроли, но така ще се увеличи консумацията на енергия (с около 1% на всеки час).</string>
     <string name="voice_assist_condition">"Няма да можете да използвате Mi AI в следните случаи:r
 1. Когато екранът е включен. r

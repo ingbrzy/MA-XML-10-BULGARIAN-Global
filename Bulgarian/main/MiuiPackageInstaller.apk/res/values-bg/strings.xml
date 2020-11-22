@@ -29,6 +29,14 @@
     <string name="abc_toolbar_collapse_description">Свиване</string>
     <string name="copy">Копиране</string>
     <string name="expand_button_title">Разширени</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Изтеглете надолу за обновяване</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно обновяване</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">Обновяване…</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Отпуснете за обновяване</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">Това е всичко за сега</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">Това е всичко за сега</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Един момент…</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Неуспешно зареждане</string>
     <string name="not_set">Не е зададено</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="search_menu_title">Търсене</string>

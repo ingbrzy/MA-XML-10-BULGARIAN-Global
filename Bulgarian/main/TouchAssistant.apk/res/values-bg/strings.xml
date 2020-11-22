@@ -35,6 +35,11 @@
     <string name="close_panel">Затвори Тъч асистент</string>
     <string name="copy">Копиране</string>
     <string name="customize_entries">Избор на преки пътища</string>
+    <string name="edge_distance_pref_summary">Натиснете в зоната за активация по ръба на екрана, за да активирате Тъч асистента</string>
+    <string name="edge_distance_pref_title">Зона за активация</string>
+    <string name="edge_mode_custom_summary">Настройте размера на зоната за активация по ръба на екрана</string>
+    <string name="edge_mode_custom_title">Персонализиране</string>
+    <string name="edge_mode_default_title">По подразбиране</string>
     <string name="enable_touch_assistant">Включете Тъч асистент</string>
     <string name="expand_button_title">Разширени</string>
     <string name="function_settings">Настройка на преки пътища</string>
@@ -55,7 +60,7 @@
     <string name="name_mi_wallet">Mi портфейл</string>
     <string name="name_music_next_song">Следваща песен</string>
     <string name="name_music_prev_song">Предишна песен</string>
-    <string name="name_music_toggle">Пусни/Пауза на песента</string>
+    <string name="name_music_toggle">Възпроизвеждане/Пауза на песен</string>
     <string name="name_payment_code">Бързо плащане</string>
     <string name="name_press_back_key">Назад</string>
     <string name="name_press_home_key">Начало</string>
@@ -67,6 +72,7 @@
     <string name="name_trans_cards">Карта за пътуване</string>
     <string name="name_wechat_payment_code">Wechat плащане</string>
     <string name="name_wechat_scan">Wechat скенер</string>
+    <string name="name_xiao_ai">Mi AI</string>
     <string name="nfc_all_mipay_card_not_in_use">Mi плащане не е активно</string>
     <string name="nfc_trans_card_not_in_use">Картата за пътуване не е активна</string>
     <string name="not_set">Не е зададено</string>

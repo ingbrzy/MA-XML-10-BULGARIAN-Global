@@ -83,6 +83,8 @@
     <string name="HIPS_Perm_get_tasks_Desc">достъп до задачите</string>
     <string name="HIPS_Perm_install_shortcut">Преки пътища на началния екран</string>
     <string name="HIPS_Perm_install_shortcut_Desc">добавяне на преки пътища на началния екран</string>
+    <string name="HIPS_Perm_mediaVolume">Промяна на сила на звук</string>
+    <string name="HIPS_Perm_mediaVolume_Desc">Разрешете на приложението да променя силата на звука</string>
     <string name="HIPS_Perm_process_nfc">NFC</string>
     <string name="HIPS_Perm_process_nfc_Desc">достъп до near field communication (NFC) хардуер</string>
     <string name="HIPS_Perm_process_outgoing_calls">Достъп до телефонните обаждания</string>
@@ -117,6 +119,10 @@
     <string name="location_warning">%1$s е доставчик на данни за местоположението. Достъпа до местоположението може да се промени от настройките.</string>
     <string name="never_ask_again">Не питай пак след ограничаването.</string>
     <string name="ok">ОК</string>
+    <string name="perm_action_allow">Разрешавам</string>
+    <string name="perm_action_deny">Не разрешавам никога</string>
+    <string name="perm_modem_location">Достъп до вашето местоположение</string>
+    <string name="perm_modem_location_desc">Вашия оператор се опитва да получи достъп до вашето местоположение. Желаете ли да споделите информация за местоположението с оператора?</string>
     <string name="permdesc_camera">Правене на снимки и записване на видео</string>
     <string name="permdesc_in_calls">Следене на входящите обаждания</string>
     <string name="permdesc_location">Достъп до данни за местоположението</string>

@@ -120,6 +120,10 @@
         <item quantity="other">След %1$d дни</item>
         <item quantity="one">След %1$d ден</item>
     </plurals>
+    <plurals name="todo_terms">
+        <item quantity="other">%1$s задачи</item>
+        <item quantity="one">%1$s задача</item>
+    </plurals>
     <plurals name="word_count">
         <item quantity="other">%d символа</item>
         <item quantity="one">%d символ</item>

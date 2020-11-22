@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
     <string name="app_name">Уведомления</string>
+    <string name="back">Назад</string>
     <string name="cancel">Отказ</string>
     <string name="category_other">Други</string>
     <string name="confirm">OК</string>
@@ -46,6 +47,7 @@
     <string name="feedback_tip_msg">За да можем да групираме известия с по-голяма точност, е нужно да събираме информация за имена на приложения, заглавия и описания на известия, и време на изпращане на съответното известие. Ще изпратите ли вашия отзиз?</string>
     <string name="feedback_tip_title">Отзив относно категориите на известия</string>
     <string name="float_notifications">Плаващи известия</string>
+    <string name="float_notifications_short">Плаващи</string>
     <string name="function_description">Относно тази функция</string>
     <string name="hint_search_all">Търсене на приложения</string>
     <string name="hint_search_in_disabled_apps">Търсене на приложения, които не показват известия</string>
@@ -56,20 +58,14 @@
     <string name="lock_screen_display_rules">Формат</string>
     <string name="lock_screen_tip_toast">Разрешаване на известията на закл. екран във \"Формат\"</string>
     <string name="lockscreen_notifications">Известия на заключен екран</string>
-    <string name="menu_setting_recommend_to_minus">Показване на по-малко известия</string>
-    <string name="menu_setting_recommend_to_normal">Не намалявай известия</string>
+    <string name="lockscreen_notifications_short">Заключен екран</string>
     <string name="menu_setting_show_in_home">Не групирай</string>
-    <string name="menu_setting_tip_recommend_minus">Ще получавате по-малко известия от %s</string>
-    <string name="menu_setting_tip_recommend_normal">Известия от %s няма да бъдат намалени</string>
     <string name="menu_setting_tip_show_in_home">Известия от %s няма да бъдат групирани</string>
     <string name="menu_setting_tip_unfold">Всички известия от това приложение ще се считат за важни</string>
-    <string name="menu_setting_toast_recommend_minus">Ще получавате по-малко известия от %s</string>
-    <string name="menu_setting_toast_recommend_normal">Известия от %s няма да бъдат намалени</string>
-    <string name="menu_setting_toast_show_in_home">Известия от %s няма да бъдат групирани</string>
     <string name="menu_setting_unfold">Важно</string>
     <string name="not_sent_recently">Не наскоро</string>
     <string name="not_set">Не е зададено</string>
-    <string name="notch_and_status_bar_setting">Прорез и лента на статуса</string>
+    <string name="notch_and_status_bar_setting">Контролен център и статус лента</string>
     <string name="notification_aggregate_description1">MIUI може автоматично да групира известия за напомняне и промоционални известия, по този начин правейки вашето Поле за известия по-малко препълнено.</string>
     <string name="notification_aggregate_description2">Нашите алгоритми анализират съдържанието на известия и не прилагат тази функция върху важните известия и напомняния от приложения за моментни съобщения. Ако откриете, че важни известия също са групирани по погрешка, докладвайте този проблем използвайки нашата функция \"Отзиви\".</string>
     <string name="notification_aggregate_summary">Позволи на MIUI автоматично да групира известия</string>
@@ -80,8 +76,6 @@
     <string name="notification_fold_summary">Автоматично групиране на незначителни известия</string>
     <string name="notification_fold_title">Групиране на известия</string>
     <string name="notification_manager">Известия за приложението</string>
-    <string name="notification_setting_menu_feedback_text">"Това известие не би трябвало да е тук?
-Докладвайте този проблем >"</string>
     <string name="notification_style_android">Android</string>
     <string name="notification_style_miui">MIUI</string>
     <string name="off">Изключване</string>
@@ -90,6 +84,8 @@
     <string name="search_menu_title">Търсене</string>
     <string name="settings_guide_title">Искате още настройки?</string>
     <string name="show_badge_notifications">Уведомителни значки</string>
+    <string name="show_badge_notifications_short">Значки</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Статус лента</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_disable_float_notification">Плаващите уведомления не са разрешени</string>
@@ -102,8 +98,6 @@
     <string name="summary_lock_screen_enable_notification_first">Позволете известията, за да можете да включите уведомленията за заключен екран</string>
     <string name="summary_show_badge_enable_notification_first">Позволете известията, за да включите уведомителните значки</string>
     <string name="swipe_to_delete">Плъзнете наляво или надясно, за да изтриете</string>
-    <string name="tip_feedback_success">Изпратено успешно</string>
-    <string name="tip_select_category">Изберете категория на известия</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
 </resources>

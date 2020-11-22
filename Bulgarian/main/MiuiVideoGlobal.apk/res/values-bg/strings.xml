@@ -4,11 +4,11 @@
     <string name="This_week">Тази седмица</string>
     <string name="Today">Днес</string>
     <string name="Yesterday">Вчера</string>
-    <string name="abc_action_bar_home_description">Придвижване към „Начало“</string>
-    <string name="abc_action_bar_up_description">Придвижване нагоре</string>
+    <string name="abc_action_bar_home_description">Навигиране към началния екран</string>
+    <string name="abc_action_bar_up_description">Навигиране нагоре</string>
     <string name="abc_action_menu_overflow_description">Още опции</string>
     <string name="abc_action_mode_done">Готово</string>
-    <string name="abc_activity_chooser_view_see_all">Вижте всички</string>
+    <string name="abc_activity_chooser_view_see_all">Преглед на всички</string>
     <string name="abc_activitychooserview_choose_application">Изберете приложение</string>
     <string name="abc_capital_off">ИЗКЛ.</string>
     <string name="abc_capital_on">ВКЛ.</string>
@@ -66,8 +66,17 @@
     <string name="action_update_phone">Промяна на телефонен номер</string>
     <string name="activate_email_notice">Необходимо е да активирате профила си в рамките на 24 часа</string>
     <string name="activity_not_found_notice">Приложението не може да се открие</string>
+    <string name="ad_buy">Купи</string>
+    <string name="ad_download">Изтегли</string>
+    <string name="ad_join">Присъедини се към общността</string>
+    <string name="ad_more">Още</string>
+    <string name="add_search_channel_link">URL</string>
+    <string name="add_search_channel_name">Име</string>
+    <string name="add_search_channel_tip">Потърсете \"%s\" в определения сайт, след това копирайте и преместете URL адреса тук.</string>
     <string name="add_to_trust_device">Това е доверено устройство</string>
+    <string name="add_website">Добавете уебсайт</string>
     <string name="agree">Приеми</string>
+    <string name="agree_and_continue">Приемам</string>
     <string name="ai_animation_music_text">AI саундтрак</string>
     <string name="ai_music_save_cancel">Отказ</string>
     <string name="ai_music_save_dialog_title">Запазване</string>
@@ -86,9 +95,11 @@
     <string name="alert_dialog_download_progress">"Изтегляне на приложение: "</string>
     <string name="all">Покажи всички</string>
     <string name="app_name">Mi Видео</string>
+    <string name="auth_again">Приемам</string>
     <string name="auth_fail_warning">Сесията изтече. Влезте отново.</string>
     <string name="auto_play_next_off">Автоматичното възпроизвеждане е изключено.</string>
     <string name="auto_play_next_on">Автоматичното възпроизвеждане е включено.</string>
+    <string name="back_to_mainpage">Открийте</string>
     <string name="before_yestoday">Преди 2 дни</string>
     <string name="bind_sign_in_title">Добавяне на Mi Профил</string>
     <string name="cancel">Отказ</string>
@@ -104,6 +115,7 @@
     <string name="cast_expanded_controller_ad_image_description">Изображението се показва, докато приемникът с Cast пуска реклама</string>
     <string name="cast_expanded_controller_ad_in_progress">Рекламата е в ход…</string>
     <string name="cast_expanded_controller_background_image">Обложка на албума</string>
+    <string name="cast_expanded_controller_live_head_description">Текущата позиция е в началото на потока на живо</string>
     <string name="cast_expanded_controller_live_stream_indicator">Предаване на живо</string>
     <string name="cast_expanded_controller_loading">Зарежда се…</string>
     <string name="cast_expanded_controller_skip_ad_label">Пропускане на рекламата</string>
@@ -111,6 +123,8 @@
     <string name="cast_forward">Превъртане напред</string>
     <string name="cast_forward_10">Превъртане напред с десет секунди</string>
     <string name="cast_forward_30">Превъртане напред с тридесет секунди</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
+    <string name="cast_live_label">НА ЖИВО</string>
     <string name="cast_mute">Спиране</string>
     <string name="cast_notification_connected_message">Установена е връзка с/ъс „%1$s“</string>
     <string name="cast_notification_connecting_message">Установява се връзка с/ъс „%1$s“</string>
@@ -142,6 +156,8 @@
     <string name="choose_to_signup">Не, ще си направя сега</string>
     <string name="click_to_reload_more">Докоснете за още</string>
     <string name="click_to_retry">Опитайте отново</string>
+    <string name="cloud_auto_pip_play_switch">Автоматично използване на картина-в-картината</string>
+    <string name="cloud_online_player">Плеър</string>
     <string name="cloud_online_switch">Персонализирани препоръки</string>
     <string name="cloud_online_switch_close_time">Можете да включите препоръки за персонализирано съдържание и реклами след %s</string>
     <string name="cloud_online_switch_open_time">Показване на препоръки за персонализирано съдържание и реклами</string>
@@ -195,19 +211,23 @@
     <string name="confirm_unbundled_phone_dialog_message">Този телефонен номер е асоцииран с Mi Профил %2$s на %1$s. Ако продължите, той вече няма да бъде асоцииран с Mi Профил %3$s. Продължаване?</string>
     <string name="content">Съдържание</string>
     <string name="content_can_not_null">Отзив без описание не може да бъде изпратен.</string>
+    <string name="continue_play">Продължи</string>
     <string name="data_empty">Няма елементи тук</string>
     <string name="description">Описание</string>
+    <string name="detail_select_source">Изберете източник за възпроизвеждане</string>
     <string name="diagnosis_log_send_failed">Неуспешно изпращане на регистри. Опитайте отново.</string>
     <string name="diagnosis_log_sent_format">"Регистрите са изпратени успешно.
 ID:%s
 Изпратете този код на супервизора."</string>
-    <string name="dialog_privacy_info_new2">За да можете да използвате услугите, трябва да дадете съгласието си на %1$s да събира, обработва и използва Вашата лична информация. Когато натиснете бутона \"Приемам\" по-долу, ще се счете, че сте прочели и че приемате нашата &lt;a href=\"%2$s\">политика за поверителност&lt;/a>.</string>
+    <string name="dialog_privacy_info_new2">За да можете да използвате услугите, трябва да дадете съгласието си на %1$s да събира, обработва и използва Вашата лична информация. Когато натиснете бутона \"Приемам\" по-долу, ще се счете, че сте прочели и че приемате нашата &lt;a href=%2$s>политика за поверителност&lt;/a>.</string>
+    <string name="dialog_privacy_info_new3">За да можете да използвате тази услуга, ще трябва да разрешите на %1$s да събира, обработва и използва вашите лични данни в съответствие с Правилата за поверителност. Натискайки Приемам по-долу, вие приемате &lt;a href=%2$s>Правилата за поверителност&lt;/a> и &lt;a href=%3$s>Потребителското споразумение&lt;/a> на Xiaomi. &lt;br/>&lt;br/>Натискането на Приемам също дава на Mi Видео достъп до списък с инсталираните приложения на вашето устройство. С това разрешение, Mi Видео ще може да споделя елементи, да проверява дали определено приложение е инсталирано на вашето устройство, да проверява коя версия на приложението е инсталирана и да проверява дали приложението е безопасно.</string>
     <string name="dialog_privacy_title">Упълномощаване</string>
     <string name="dialog_revoke_privacy_info_new2">След като анулирате разрешението, приложението ще спре събирането на данни и всички свързани с него данни ще бъдат изтрити от нашите сървъри. Това може да направи приложението практически неизползваемо. Наистина ли искате да отмените разрешението?</string>
     <string name="dialog_revoke_privacy_title">Отмяна на разрешението</string>
     <string name="diy_channels_tips">Можете да персонализирате списъка на каналите си сега.</string>
     <string name="do_not_show_again">\"Не показвай отново</string>
     <string name="download">Изтегли</string>
+    <string name="download_checking_tip">Подготовка за изтегляне…</string>
     <string name="download_complete">Изтеглено</string>
     <string name="download_delete_tip">Изтриване на избраните елементи?</string>
     <string name="download_delete_title">Изтрий</string>
@@ -216,6 +236,7 @@ ID:%s
     <string name="download_power_off_tips">Тази функция не е налична в момента</string>
     <string name="download_progress">%d%%</string>
     <string name="download_retry">Опитайте отново</string>
+    <string name="download_unable_tip">Този елемент не може да бъде изтеглен</string>
     <string name="download_video">Изтегляне на видео</string>
     <string name="downloading">Изтегляне…</string>
     <string name="empty_channels">Управление на канали</string>
@@ -256,6 +277,7 @@ ID:%s
     <string name="exo_track_surround_5_point_1">5,1-канален обемен звук</string>
     <string name="exo_track_surround_7_point_1">7,1-канален обемен звук</string>
     <string name="exo_track_unknown">Неизвестно</string>
+    <string name="explore">Открийте</string>
     <string name="explore_on_mi_video">Открийте още на Mi Video</string>
     <string name="failed_dup_secure_phone_number">Този телефонен номер вече е асоцииран с друг Mi Профил</string>
     <string name="failed_to_fetch_data">Информацията не можа да се зареди.</string>
@@ -268,6 +290,7 @@ ID:%s
     <string name="favorite_fail">Добавянето към \"Любими\" е неуспешно. Опитайте отново по-късно.</string>
     <string name="favorite_success">Успешно добавен към любими</string>
     <string name="fcm_fallback_notification_channel_label">Разни</string>
+    <string name="fcm_push_title">Популярни видеоклипове</string>
     <string name="feedback">Отзив</string>
     <string name="feedback_activity_title">Доклад за грешки</string>
     <string name="feedback_contact_empty">Въведете вашите данни за контакт</string>
@@ -283,12 +306,15 @@ ID:%s
     <string name="feedback_success_toast">Успешно изпратен. Благодарим Ви за обратната връзка!</string>
     <string name="feedback_tag_title">Категория</string>
     <string name="feedback_text_empty_toast">Първо въведете Вашия отзив.</string>
+    <string name="file_cant_rename">File with %1$s name already exists. Please rename</string>
+    <string name="file_space_not_enough_tip">Няма достатъчно памет. Освободете поне %d MB и стартирайте приложението наново.</string>
     <string name="find_psw">Забравена парола</string>
     <string name="finish">Завършено</string>
+    <string name="firework_privacy">Правила за поверителност на Firework</string>
     <string name="for_diagnosis_usage_only">Регистрите се използват само за диагностика.</string>
     <string name="for_you">ЗА ВАС</string>
     <string name="friday">Петък</string>
-    <string name="fw_loading">Един момент…</string>
+    <string name="fw_loading">Момент…</string>
     <string name="fw_reload_sub_title">Чукнете екрана за повторен опит</string>
     <string name="fw_reload_title">Неуспешно свързване с мрежа.</string>
     <string name="gallery_folder_alias_TAOBAO">Taobao</string>
@@ -309,11 +335,17 @@ ID:%s
     <string name="gallery_folder_alias_youku_video">Youku</string>
     <string name="gallery_tab_all">Всичко</string>
     <string name="gallery_tab_videos">Видеоклипове</string>
+    <string name="galleryplus_already_cloud_member">Using VIP membership to play</string>
+    <string name="galleryplus_check_network">Настройки</string>
     <string name="galleryplus_chose_play_speed">Възпроизвеждане на %1$.1fX скорост</string>
+    <string name="galleryplus_chose_play_speed_2">Възпроизвеждане на %1$.2fX скорост</string>
     <string name="galleryplus_chose_play_speed_failure">Неуспешно настройване на скоростта на възпроизвеждане</string>
     <string name="galleryplus_click_to_higher_definition">Двойно натискане за HD Преглед</string>
+    <string name="galleryplus_copyright_unsported_audio">Това аудио не може да бъде възпроизведено поради ограничения заради авторски права</string>
+    <string name="galleryplus_copyright_unsported_video">Това видео не може да бъде възпроизведено поради ограничения заради авторски права</string>
     <string name="galleryplus_cta_tips">Можете да ни помогнете да подобрим нашите услуги чрез записване към Програмата за потребителски опит и като позволите на Mi Видео да се свърже с интернет. Съгласен ли сте?</string>
     <string name="galleryplus_double_tap_to_higher_definition">Двойно натискане за HD Преглед</string>
+    <string name="galleryplus_fr_unsupport_restore_speed">Неподдържана скорост на кадрите. Превключване към нормална скорост.</string>
     <string name="galleryplus_gallery_fold_tags">Скриване на знаци</string>
     <string name="galleryplus_gallery_video_adjust_hint">Поддържат се само видеа с 960 кадъра в секунда</string>
     <string name="galleryplus_gallery_video_adjust_text">Коригиране</string>
@@ -330,7 +362,16 @@ ID:%s
     <string name="galleryplus_gallery_video_save_video">Създаване на видео…</string>
     <string name="galleryplus_gallery_video_slow_edit">Забавен кадър</string>
     <string name="galleryplus_gallery_view_tags">Показване на знаци</string>
-    <string name="galleryplus_is_higher_definition">Отворен е HD преглед</string>
+    <string name="galleryplus_is_higher_definition">HD преглед</string>
+    <string name="galleryplus_network_connect_check">Неуспешно свързване с мрежата</string>
+    <string name="galleryplus_network_connect_confirm">Свържете се с Wi-Fi или включете мобилните данни в настройки на мрежата.</string>
+    <string name="galleryplus_network_error">Неуспешно свързване с мрежата</string>
+    <string name="galleryplus_network_not_wifi">Използването на мобилни данни за гледане на клипове може да доведе до начисляването на допълнителни такси</string>
+    <string name="galleryplus_online_cta">Mi Видео се нуждае от достъп до интернет, за да оперира нормално. Приемате ли?</string>
+    <string name="galleryplus_online_cta_agree">Приемам</string>
+    <string name="galleryplus_online_cta_disagree">Не приемам</string>
+    <string name="galleryplus_online_cta_title">Правила и условия</string>
+    <string name="galleryplus_online_video_loading">Момент…</string>
     <string name="galleryplus_permission_content">Дайте необходимите разрешения на Mi Видео, за да можете да използвате тази услуга.</string>
     <string name="galleryplus_permission_content2">"За да можете да използвате тази услуга отидете на Настройки > Приложения > Mi Видео > Разрешения и позволете на Mi Видео следното:
 
@@ -352,6 +393,7 @@ ID:%s
     <string name="galleryplus_subtitle_edit_edit">Редактирай субтитри</string>
     <string name="galleryplus_subtitle_edit_hide">Скрий субтитри</string>
     <string name="galleryplus_subtitle_edit_literal_edit">Редактиране на текст</string>
+    <string name="galleryplus_subtitle_edit_reminder">Въведения текст е твърде дълъг</string>
     <string name="galleryplus_subtitle_recognized_empty_subtitles">Неуспешно разпознаване на речта по време на записа</string>
     <string name="galleryplus_v_agree">Приемам</string>
     <string name="galleryplus_v_cancel">Отказ</string>
@@ -374,6 +416,7 @@ ID:%s
     <string name="get_ph_ticket">Получи код</string>
     <string name="get_phone_bind_exceed_limit">Можете да асоциирате до 3 Mi Профила с един телефонен номер. Не може да се добавят нови профили.</string>
     <string name="get_phone_verifycode_exceed_limit">На този телефонен номер са изпратени прекалено много кодове за потвърждаване. Опитайте отново след 24 часа.</string>
+    <string name="got_it">Разбрах</string>
     <string name="goto_sign_up">Създайте профил</string>
     <string name="have_learned">Направено</string>
     <string name="hidden_channels">Следните канали няма да бъдат показвани на началната страница.</string>
@@ -381,6 +424,7 @@ ID:%s
     <string name="history">Хронология</string>
     <string name="history_local_video">На устройството</string>
     <string name="history_online_video">В интернет</string>
+    <string name="hot">Популярни</string>
     <string name="identity">Идентифициране</string>
     <string name="inconsistent_pwd">Паролите не съвпадат</string>
     <string name="init_channels">Възстанови по подразбиране</string>
@@ -389,6 +433,12 @@ ID:%s
     <string name="input_size_tips">Можете да въведете до 1000 знака</string>
     <string name="isornot_your_mi_account">Това вашият Mi профил ли е?</string>
     <string name="issue">Проблем</string>
+    <string name="item_card_all_replies">Всички отговори</string>
+    <string name="item_card_continue_play">Авт. възпроизвеждане</string>
+    <string name="item_card_more_trailers">Още трейлъри</string>
+    <string name="item_card_open_in">"Отвори с "</string>
+    <string name="item_card_related">Подобни</string>
+    <string name="item_setting_go_back">Оттегляне на съгласие</string>
     <string name="just_a_second">Момент…</string>
     <string name="language_later_setting_tips">Можете да смените езика от \"Профил\" > \"Език\".</string>
     <string name="language_select_tips">"Изберете предпочитания си език
@@ -509,7 +559,7 @@ ID:%s
     <string name="lv_subtitle_onlinesub_loading">Зареждане на субтитри…</string>
     <string name="lv_subtitle_onlinesub_loading_wait">Зареждане на субтитри…</string>
     <string name="lv_subtitle_onlinesub_right_declare">Отказване</string>
-    <string name="lv_subtitle_onlinesub_right_declare_content">Вземете субтитри &lt;br/>&lt;br/>от &lt;a href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>. &lt;br/>&lt;br/>Всички онлайн субтитри са предоставени от &lt;a href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>.</string>
+    <string name="lv_subtitle_onlinesub_right_declare_content">Вземете субтитри &lt;br/>&lt;br/>от &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>. &lt;br/>&lt;br/>Всички онлайн субтитри са предоставени от &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>.</string>
     <string name="lv_subtitle_onlinesub_save_failed">Не може да се добавят субтитри</string>
     <string name="lv_subtitle_onlinesub_save_success">Добавихте субтитрите успешно</string>
     <string name="lv_subtitle_onlinesub_search_keyword">Въведете ключови думи за търсене</string>
@@ -531,6 +581,7 @@ ID:%s
     <string name="lv_video_null">Няма видеоклипове</string>
     <string name="lv_volume">Сила на звук</string>
     <string name="manage">Управление</string>
+    <string name="mediation_ad_can_not_share">Видеото не може да бъде споделено</string>
     <string name="mi_video">Mi Видео</string>
     <string name="mnc_live_tv">TV на живо</string>
     <string name="moment_guide_desc">Използвайте жестове, за да увеличите и смалите</string>
@@ -572,7 +623,9 @@ ID:%s
     <string name="need_update_app">Актуализирайте Mi Видео, за да използвате всички негови функции</string>
     <string name="network_connect_info">Неуспешно свързване с мрежата. Проверете настройките на мрежата и опитайте отново.</string>
     <string name="network_failed">Не можах да се свържа с мрежа</string>
+    <string name="new_channel_tip">Вижте нови канали!</string>
     <string name="next">следващ</string>
+    <string name="next_step">Напред</string>
     <string name="nick_name">Псевдоним</string>
     <string name="no_account">Не сте вписани</string>
     <string name="no_longer_prompt">Не показвай отново</string>
@@ -591,9 +644,17 @@ ID:%s
     <string name="notice_message_title">Известия</string>
     <string name="notice_title">Съобщения</string>
     <string name="notification_bar">Лента с известия</string>
+    <string name="notification_bar_player_subtitle">Показване на минимизирания прейър в Лентата с известия</string>
+    <string name="notification_bar_player_title">Минимизирай плейъра</string>
     <string name="notification_open_tip">Включете, за да получавате известия</string>
+    <string name="notification_recall_action">Включване</string>
+    <string name="notification_recall_desc">Mi Видео може да ви праща известия относно популярни видеоклипове и ваши абонаменти.</string>
+    <string name="notification_recall_title">Включване на известия</string>
     <string name="notify_apk_installed">Изтеглянето е успешно</string>
+    <string name="off_tip_firework_recommend">Няма да получавате персонализирани препоръки за съдържание от Firework</string>
     <string name="ok">OК</string>
+    <string name="on_tip_firework_recommend">Ще получавате персонализирани препоръки за съдържание от Firework</string>
+    <string name="order_alphabet">А – Я</string>
     <string name="order_recently_subscribe">Скорошни абонаменти</string>
     <string name="order_recently_updated">Обновени наскоро</string>
     <string name="ovp_alert_dialog_download_install_task">Изтегля се HD плъгин…</string>
@@ -601,7 +662,7 @@ ID:%s
     <string name="ovp_category">Категории</string>
     <string name="ovp_confirm_delete_favor">Да се премахнат ли избраните елементи от любими?</string>
     <string name="ovp_default_plugin_name">HD плъгин</string>
-    <string name="ovp_detail_back_to_watch_more">Открийте още елементи на началния екран</string>
+    <string name="ovp_detail_back_to_watch_more">Discover more brilliant videos</string>
     <string name="ovp_detail_collapse_summary">Скриване</string>
     <string name="ovp_detail_collect">Добави в любими</string>
     <string name="ovp_detail_comment">Коментар</string>
@@ -762,8 +823,8 @@ ID:%s
     <string name="passport_unknow_error">Възникна неизвестна грешка</string>
     <string name="passport_unknow_host_network_error">Проверете мрежовите настройки и опитайте отново</string>
     <string name="passport_unknow_network_error">Възникна мрежова грешка</string>
-    <string name="passport_user_agreement_link">"&lt;Data>Прочетох и приемам's &lt;a href=\"%1$s\">Потребителското споразумение&lt;/a> и &lt;a href=\"%2$s\">Политиката на поверителност&lt;/a> на Xiaomi.&lt;/Data>"</string>
-    <string name="passport_user_agreement_link_more">"&lt;Data>Прочетох и приемам следните документи:'s &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%4$s\">Политика на поверителност&lt;/a>, &lt;a href=\"%2$s\">\"%3$s\"&lt;/a> на Xiaomi.&lt;/Data>"</string>
+    <string name="passport_user_agreement_link">"&lt;Data>Прочетох и приемам's &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Политиката на поверителност&lt;/a> на Xiaomi.&lt;/Data>"</string>
+    <string name="passport_user_agreement_link_more">"&lt;Data>Прочетох и приемам следните документи:'s &lt;a href=%1$s>Потребителско споразумение&lt;/a> и &lt;a href=%4$s>Политика на поверителност&lt;/a>, &lt;a href=%2$s>%3$s&lt;/a> на Xiaomi.&lt;/Data>"</string>
     <string name="passport_user_id_intro">Въведете парола за %1$s</string>
     <string name="passport_v_code_error">Кодът за потвърждение е невалиден</string>
     <string name="passport_vcode_notification_title">Потвърждаването на вписването Ви не е завършила</string>
@@ -789,19 +850,26 @@ ID:%s
     <string name="permission_storage">хранилище</string>
     <string name="permission_storage_desc">За достъп до елементи, записване на файлове, показване и възпроизвеждане на местни видео клипове</string>
     <string name="permission_title">Необходими са Разрешения</string>
+    <string name="pgc_push_title">Абонаменти</string>
     <string name="phone_bind_too_many">Този телефон бе свързан с няколко Mi профила за кратък период от време. Опитайте с използването на друг телефонен номер.</string>
     <string name="phone_hint">Телефонен номер</string>
     <string name="phone_num_use_for">Телефонният номер се използва за:</string>
     <string name="phone_number">Телефонен номер</string>
     <string name="photoPickerNotFoundText">Не са налични снимки.</string>
+    <string name="pip">Картина в картината</string>
+    <string name="playlist_create">Създаване</string>
     <string name="playlist_detail_recomm_title">Препоръчвани плейлисти</string>
+    <string name="playlist_finish">Готово</string>
     <string name="playlist_hot">Популярни</string>
+    <string name="playlist_name">Въведете име на плейлиста</string>
     <string name="playlist_new">Ново</string>
     <string name="playlist_no_more">Тук няма повече видеа</string>
+    <string name="playlist_no_videos">Тук няма видео</string>
     <string name="playlist_offline">Тази плейлиста вече не е налична.</string>
+    <string name="playlist_remove">Премахване</string>
     <string name="playlist_title">Плейлиста</string>
     <string name="playlist_view_more">Още плейлисти</string>
-    <string name="plus_add_shortcut">Създаване пряк път на Начален екран</string>
+    <string name="plus_add_shortcut">Създаване на пряк път на Началния екран</string>
     <string name="plus_change_poster">Смяна на корицата на албума</string>
     <string name="plus_continue_watching">Продължавайте да гледате</string>
     <string name="plus_deleting_wait">Изтрива се...</string>
@@ -866,8 +934,7 @@ ID:%s
     <string name="plus_player_subtitle_local_add_success">Добавихте субтитрите успешно</string>
     <string name="plus_player_subtitle_no_file">Тук няма файлове със субтитри.</string>
     <string name="plus_player_subtitle_online">Субтитри онлайн</string>
-    <string name="plus_player_subtitle_online_declare_content">"Вие ще търсите &lt;br/> субтитри в базата данни на &lt;a
-href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>. &lt;br/>Всички субтитри са предоставени от &lt;a href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>."</string>
+    <string name="plus_player_subtitle_online_declare_content">Вие ще търсите &lt;br/> субтитри в базата данни на &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>. &lt;br/>Всички субтитри са предоставени от &lt;a href=http://www.opensubtitles.org>opensubtitles.org&lt;/a>.</string>
     <string name="plus_player_subtitle_online_declare_title">Отказване</string>
     <string name="plus_player_subtitle_online_download_fail">Субтитрите не могат да бъдат изтеглени</string>
     <string name="plus_player_subtitle_online_download_start">Изтегляне на субтитри…</string>
@@ -913,7 +980,7 @@ href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>. &lt;br/>Всич
     <string name="plus_share_channel_wechat_moments">WeChat моменти</string>
     <string name="plus_share_channel_weibo">Weibo</string>
     <string name="plus_shortcut">Видеоклипове на устройството</string>
-    <string name="plus_shortcut_created_succ">Успешно създаден пряк път до Начален екран</string>
+    <string name="plus_shortcut_created_succ">Успешно създаден пряк път на Началния екран</string>
     <string name="plus_shortcut_existed">Този пряк път вече съществува</string>
     <string name="plus_sort_title">Сортиране</string>
     <string name="plus_sort_type_default">Подразбиране</string>
@@ -946,6 +1013,7 @@ href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>. &lt;br/>Всич
     <string name="remaining_space">Достъпни: %s</string>
     <string name="remaining_space_not_enough">Неуспешно изтегляне поради недостатъчно памет</string>
     <string name="reminder">Внимание</string>
+    <string name="rename">Преименуване</string>
     <string name="report">Рестартиране</string>
     <string name="report_content_dislike">Насилие или неприлично поведение</string>
     <string name="report_content_fakement">спам или измама</string>
@@ -967,6 +1035,8 @@ href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>. &lt;br/>Всич
     <string name="restart_phone_bind_title">Промяна на телефон за възстановяване</string>
     <string name="restore_channel_list">Възстанови по подразбиране сега?</string>
     <string name="retry">Опитайте отново</string>
+    <string name="reveal">Завъртане</string>
+    <string name="reveal_tip">Завъртете устройството си за по-добро изживяване от гледането</string>
     <string name="revoke">Отмяна</string>
     <string name="s1">Запазване на изображението</string>
     <string name="s2">Да се разреши ли на рекламата да съхрани изображение в галерията със снимки?</string>
@@ -987,6 +1057,8 @@ href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>. &lt;br/>Всич
     <string name="search_hot_words">Популярно</string>
     <string name="search_key_not_null">Заявката за търсене не може да бъде празна.</string>
     <string name="search_menu_title">Търсене</string>
+    <string name="search_result_download_error">Неуспешно изтегляне</string>
+    <string name="search_result_startdownload">Изтегляне…</string>
     <string name="selectall">Избор на всички</string>
     <string name="selectnull">Размаркиране на всички</string>
     <string name="send_diagnosis_log">Изпрати регистри</string>
@@ -1010,6 +1082,7 @@ href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>. &lt;br/>Всич
     <string name="sns_sign_in">Други начини за вписване</string>
     <string name="source">"Източник: "</string>
     <string name="start_download_tip">Добавено в списъка за изтегляне. Проверете напредъка в Профил > Изтегляния</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">Карта с памет</string>
     <string name="storage_internal_sdcard">Вътрешна памет</string>
     <string name="submit">Изпратено</string>
@@ -1058,11 +1131,19 @@ href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>. &lt;br/>Всич
     <string name="ticket_hint">Код за потвърждение</string>
     <string name="ticket_invalid">Кодът, който сте въвели, е невалиден</string>
     <string name="ticket_sign_in">Вписване със SMS</string>
+    <string name="tip_auth_again">След като не сте приемали преди правилата за ползване на съответните Правила за поверителност на третата страна доставчик на съдържание, не можем да ви показваме видео съдържание в Моменти. Натиснете бутона по-долу, за да приемете Правилата за поверителност и да получите достъп до тази функция.</string>
+    <string name="tip_author_click">Натиснете, за да прегледате повече клипове от този профил</string>
+    <string name="tip_pop">&lt;Data>Съдържанието в Моменти се предоставя от Firework. За да подобрите преживяването си и за да получавате повече значими препоръки за съдържание, разрешете на Firework да събира, обработва и използва вашите лични данни в съответствие с Правилата за поверителност. Прочетете и приемете &lt;a href=\"%1$s\">Правила за поверителност на Firework&lt;/a> преди да използвате неговите услуги.&lt;/Data></string>
+    <string name="tip_topic_click">Натиснете, за да откриете повече клипове по темата</string>
+    <string name="title_firework_recommend">Firework препоръки</string>
     <string name="title_publisher">Създатели</string>
     <string name="title_subscribe">Абонаменти</string>
+    <string name="toast_no_data">Този елемент не е наличен в момента. Върнете се отново по-късно.</string>
     <string name="toast_request_too_frequently">Не толкова бързо!</string>
     <string name="toast_share_failed">Неуспешен опит за споделяне. Изчакайте минута-две и опитайте отново.</string>
     <string name="today">Днес</string>
+    <string name="tool_bar_notification_setting_sub_title">Показване на инструментите в Лентата с известия</string>
+    <string name="tool_bar_notification_setting_title">Инструменти за Лента с известия</string>
     <string name="top_bar_game_desc">Открийте много свежи игри тук</string>
     <string name="top_bar_game_title">Канал за игри</string>
     <string name="tuesday">Вторник</string>
@@ -1118,10 +1199,13 @@ href=\"http://www.opensubtitles.org\">opensubtitles.org&lt;/a>. &lt;br/>Всич
     <string name="video_resolution_kb_size_suffix">%.2f KB</string>
     <string name="video_resolution_mb_size_suffix">%.2f MB</string>
     <string name="video_resolution_tag_suffix">%dP</string>
+    <string name="view">Преглед</string>
     <string name="vp_VideoView_error_button">OК</string>
     <string name="vp_VideoView_error_text_unknown">Настъпи грешка</string>
     <string name="vp_VideoView_error_title">Непозната грешка</string>
     <string name="vp_app_name">Видеоплеър</string>
+    <string name="vp_copyright_unsported_audio">Това аудио не може да бъде възпроизведено поради ограничения заради авторски права</string>
+    <string name="vp_copyright_unsported_video">Това видео не може да бъде възпроизведено поради ограничения заради авторски права</string>
     <string name="vp_hardware_unsported">Това видео не може да се възпроизведе на Вашето устройство.</string>
     <string name="vp_notify_apk_installed">Изтеглянето е успешно</string>
     <string name="vp_replay">Повторно пускане</string>

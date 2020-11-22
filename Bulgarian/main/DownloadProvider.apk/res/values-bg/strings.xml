@@ -10,6 +10,7 @@
     <string name="download_queued">Чакащи</string>
     <string name="download_remaining">%s остават</string>
     <string name="download_running">Изтегля се</string>
+    <string name="download_running_percent">Изтегля се %s</string>
     <string name="download_unknown_title">&lt;Без име></string>
     <string name="notif_title_file_size">Общо: %1$d</string>
     <string name="notif_title_single_downloading">Изтегляне: %1$s</string>
@@ -34,12 +35,12 @@
     <string name="permlab_downloadWithoutNotification">Изтегли файловете без известия</string>
     <string name="permlab_seeAllExternal">Преглед на всички изтегляния в USB хранилището</string>
     <string name="root_downloads">Изтегляния</string>
-    <string name="wifi_recommended_body" formatted="false">"Стартирането на това%sизтегляне сега може да скъси живота на батерията и/или да доведе до прекомерно използване на мобилната връзка за данни, което може да доведе до таксуване от мобилния ви оператор в зависимост от плана Ви за данни.
+    <string name="wifi_recommended_body">"Стартирането на това%1$sизтегляне сега може да скъси живота на батерията и/или да доведе до прекомерно използване на мобилната връзка за данни, което може да доведе до таксуване от мобилния ви оператор в зависимост от плана Ви за данни.
 
-Докоснете%sза да стартирате това изтегляне следващия път, когато сте свързани с Wi-Fi мрежа."</string>
+Докоснете%2$sза да стартирате това изтегляне следващия път, когато сте свързани с Wi-Fi мрежа."</string>
     <string name="wifi_recommended_title">На опашка за изтегляне по-късно?</string>
-    <string name="wifi_required_body" formatted="false">"Свържете се с Wi-Fi, за да завършите това%sизтегляне.
+    <string name="wifi_required_body">"Свържете се с Wi-Fi, за да завършите това%1$sизтегляне.
 
-Докоснете%sза да стартирате това изтегляне следващия път, когато сте свързани с Wi-Fi мрежа."</string>
+Докоснете%2$sза да стартирате това изтегляне следващия път, когато сте свързани с Wi-Fi мрежа."</string>
     <string name="wifi_required_title">Файлът е твърде голям за изтегляне през моб. данни</string>
 </resources>

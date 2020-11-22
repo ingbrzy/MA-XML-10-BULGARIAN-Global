@@ -97,6 +97,14 @@ ID:%s
     <string name="just_a_second">Момент…</string>
     <string name="loading">Момент…</string>
     <string name="logout_account">Отписване</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Изтеглете надолу за обновяване</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно обновяване</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">Обновяване…</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Отпуснете за обновяване</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">Това е всичко за сега</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">Това е всичко за сега</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Един момент…</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Неуспешно зареждане</string>
     <string name="nick_name">Псевдоним</string>
     <string name="no_account">Не сте вписани</string>
     <string name="no_phone">Няма телефонен номер</string>
@@ -218,6 +226,7 @@ ID:%s
     <string name="sns_access_token_expired_warning">Сесията е изтекла. Впишете се пак, за да свържете отново този профил.</string>
     <string name="sns_bind_limit">Твърде много опити. Опитайте други начини за вписване.</string>
     <string name="sns_sign_in">Други начини за вписване</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="temporary_not_available">Тази функция още не е налична</string>
     <string name="ticket_hint">Код за потвърждение</string>
     <string name="ticket_invalid">Кодът, който сте въвели, е невалиден</string>

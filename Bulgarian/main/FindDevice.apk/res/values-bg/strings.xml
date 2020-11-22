@@ -46,8 +46,8 @@
     <string name="passport_trust_device">Доверено утройство</string>
     <string name="passport_vcode_prompt_long">Въведете код за проверка</string>
     <string name="passport_verify">Проверка</string>
-    <string name="password">Парола</string>
-    <string name="phone_locked">Това устройство е свързано със съществуващ Mi Профил (%s). Влезте, за да го активирате.</string>
+    <string name="password">Въведете парола</string>
+    <string name="phone_locked">Това устройство е свързано с Mi Профил (%s). Въведете парола, за да активирате устройството.</string>
     <string name="phone_locked_account_email">, асоциирани имейли: %s</string>
     <string name="phone_locked_account_phone">, асоциирани телефонни номера: %s</string>
     <string name="return_to_call">Обратно към обаждането</string>
@@ -74,14 +74,14 @@
     <string name="unlock_error_unknown">Не може да се влезе</string>
     <string name="unlock_error_user_name">Невалидно потребителско име и парола</string>
     <string name="unlock_error_wrong_vcode">Кодът, който сте въвели, е грешен.</string>
-    <string name="unlock_help">"Останете свързан с мрежата.
- Бъдете сигурен, че сте поставили работеща SIM карта (ако вашето устройство поддържа това) и сте свързани към валидна Wi-Fi мрежа.
+    <string name="unlock_help">"Свържете се с мрежата.
+Сложете функционираща SIM карта и не се свързвайте с невалидни Wi-Fi мрежи.
 
 Забравена парола?
- Отидете на id.mi.com за нулиране на вашата парола.
+Влезте в id.mi.com, изберете \"Забравена парола?\", и следвайте инструкциите.
 
-Други причини
-Впишете се в i.mi.com и отключете вашето устройство от там."</string>
+Не можете да активирате устройството?
+Влезте в i.mi.com/ss и изпратете молба за отключване на устройство."</string>
     <string name="unlock_help_title">Помощ за отключване:</string>
     <string name="unlock_number">Код за отключване: %s</string>
     <string name="unlock_wrong_captcha">Кодът, който сте въвели, е невалиден.</string>

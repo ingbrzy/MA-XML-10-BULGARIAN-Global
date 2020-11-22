@@ -77,8 +77,6 @@
         <item>Аудио: aptX™ от Qualcomm®</item>
         <item>Аудио: aptX™ HD от Qualcomm®</item>
         <item>LDAC</item>
-        <item>Активиране на кодеците по избор</item>
-        <item>Деактивиране на кодеците по избор</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Използване на сист. избор (стандартно)</item>
@@ -87,8 +85,6 @@
         <item>Аудио: aptX™ от Qualcomm®</item>
         <item>Аудио: aptX™ HD от Qualcomm®</item>
         <item>LDAC</item>
-        <item>Активиране на кодеците по избор</item>
-        <item>Деактивиране на кодеците по избор</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -107,6 +103,16 @@
         <item>AVRCP 1.3</item>
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (по подразбиране)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
     </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Деактивирано</item>
@@ -198,19 +204,40 @@
         <item>720p, 1080p (двоен екран)</item>
     </string-array>
     <string-array name="preferred_network_mode_choices">
-        <item>LTE / WCDMA</item>
-        <item>LTE</item>
-        <item>Глобален</item>
-        <item>GSM/WCDMA/LTE</item>
-        <item>CDMA + LTE/EvDo</item>
-        <item>CDMA/EvDo/GSM/WCDMA</item>
-        <item>Само EvDo</item>
-        <item>CDMA без EvDo</item>
-        <item>CDMA/EvDo (автоматично)</item>
-        <item>GSM/WCDMA (автоматично)</item>
-        <item>Само WCDMA</item>
-        <item>Само GSM</item>
         <item>Предпочита се GSM/WCDMA</item>
+        <item>Само GSM</item>
+        <item>Само WCDMA</item>
+        <item>Авт. GSM/WCDMA</item>
+        <item>Авт. CDMA/EvDo</item>
+        <item>CDMA без EvDo</item>
+        <item>Само EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>Глобален</item>
+        <item>LTE</item>
+        <item>LTE/WCDMA</item>
+        <item>Само TDSCDMA</item>
+        <item>TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA</item>
+        <item>TDSCDMA/GSM</item>
+        <item>LTE/TDSCDMA/GSM</item>
+        <item>TDSCDMA/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/WCDMA</item>
+        <item>LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>TDSCDMA/CDMA/EvDo/GSM/WCDMA</item>
+        <item>LTE/TDSCDMA/CDMA/EVDO/GSM/WCDMA</item>
+        <item>Само NR</item>
+        <item>NR/LTE</item>
+        <item>NR/LTE/CDMA/EvDo</item>
+        <item>NR/LTE/GSM/WCDMA</item>
+        <item>NR/LTE/CDMA/EvDo/GSM/WCDMA</item>
+        <item>NR/LTE/WCDMA</item>
+        <item>NR/LTE/TDSCDMA</item>
+        <item>NR/LTE/TDSCDMA/GSM</item>
+        <item>NR/LTE/TDSCDMA/WCDMA</item>
+        <item>NR/LTE/TDSCDMA/GSM/WCDMA</item>
+        <item>NR/LTE/TDSCDMA/CDMA/EvDo/GSM/WCDMA</item>
     </string-array>
     <string-array name="preferred_network_mode_choices_world_mode">
         <item>Глобални</item>

@@ -40,6 +40,10 @@
         <item quantity="other">Отключено %d пъти</item>
         <item quantity="one">Отключено %d път</item>
     </plurals>
+    <plurals name="usage_new_home_total_unlocks_new">
+        <item quantity="other">Отключено %1$d пъти на %2$s</item>
+        <item quantity="one">Отключено %1$d път на %2$s</item>
+    </plurals>
     <plurals name="usage_new_home_total_week_unlocks">
         <item quantity="other">Отключено %d пъти</item>
         <item quantity="one">Отключено %d път</item>

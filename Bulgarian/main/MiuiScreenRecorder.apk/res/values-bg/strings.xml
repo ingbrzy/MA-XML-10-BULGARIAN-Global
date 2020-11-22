@@ -59,7 +59,7 @@
     <string name="fixed_frame_rate_summary">Записването на видео с фиксирана скорост на кадъра ще подобри възпроизвеждането в социалните мрежи и ще удължи живота на батерията.</string>
     <string name="frames">Скорост на кадър</string>
     <string name="frames_summary">По-високата скорост на кадрите намалява размазването при движение</string>
-    <string name="frequently_click_toast">Един момент…</string>
+    <string name="frequently_click_toast">Момент…</string>
     <string name="gleam_led_while_recording">Мигащ индикатор по време на запис</string>
     <string name="hint_back">Назад</string>
     <string name="hint_home">Начало</string>

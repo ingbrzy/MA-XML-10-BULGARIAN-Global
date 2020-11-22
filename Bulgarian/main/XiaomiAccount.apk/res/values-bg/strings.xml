@@ -77,7 +77,7 @@
     <string name="account_user_phone">Телефон за възстановяване</string>
     <string name="account_user_region">Регион</string>
     <string name="account_xiaomi_service">Услуги</string>
-    <string name="action_add_phone">Добави телефонен номер</string>
+    <string name="action_add_phone">Добавяне на телефонен номер</string>
     <string name="action_retry">Опитайте отново</string>
     <string name="action_update_phone">Промяна на телефонен номер</string>
     <string name="activate_email_notice">Уверете се, че сте активирали профила си в рамките на 24 часа.</string>
@@ -135,6 +135,7 @@
     <string name="confirm_unbundled_phone_dialog_message">Номерът %1$s е свързан с Mi Профил %2$s. Той няма повече да се отнася до Mi профил %3$s ако продължите. Продължаване?</string>
     <string name="continue_action">Продължи</string>
     <string name="copy">Копиране</string>
+    <string name="copy_to_clipboard_successful">Успешно копиране</string>
     <string name="delete_action">Изтриване</string>
     <string name="delete_bank_card_message">Картите за Mi Плащане и NFC картите ще бъдат изтрити, след като се отпишете.</string>
     <string name="delete_bank_card_title">Внимание</string>
@@ -335,6 +336,10 @@ ID:%s
     <string name="passport_get_verify_code">Вземи код</string>
     <string name="passport_getting_activator_phone">Получаване на инф. за SIM…</string>
     <string name="passport_getting_verify_code">Получаване</string>
+    <string name="passport_google_login">Вписване с преди използван Google акаунт?</string>
+    <string name="passport_google_login_agree">Google акаунт</string>
+    <string name="passport_google_login_disagree">Mi Профил</string>
+    <string name="passport_google_login_failed">Неупешно вписване с Google. Влезте директно с вашия Mi Профил.</string>
     <string name="passport_i_know">Разбрах</string>
     <string name="passport_identification_expired">Кодът за проверка е изтекъл, започнете отначало</string>
     <string name="passport_imei_permission_denied_message">Изисква се достъп до IMEI на устройството ви. Mi профил използва IMEI за идентифициране на устройството, от което влизате или се регистрирате, за да запази безопасността на вашия Mi профил.</string>

@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="doc_photo_adjust_section_title">Провлачете за регулиране</string>
+    <string name="doc_photo_cancel">Отказ</string>
+    <string name="doc_photo_confirm">Изход</string>
+    <string name="doc_photo_doc_photo_title">Редактиране на документа</string>
+    <string name="doc_photo_enhance_bin">Черно-бяла</string>
+    <string name="doc_photo_enhance_color">Подобрена</string>
+    <string name="doc_photo_enhance_none">Оригинал</string>
+    <string name="doc_photo_idcard_alert_msg">Захвърляне на всички промени и изход от редактора?</string>
+    <string name="doc_photo_idcard_emblem">Задна</string>
+    <string name="doc_photo_idcard_mode_title">Лична карта</string>
+    <string name="doc_photo_idcard_portrait">Лице</string>
+    <string name="doc_photo_not_support">Това изображение не може да бъде редактирано като документ.</string>
+    <string name="doc_photo_view_effect">Преглед</string>
     <string name="extra_photo_common_save_fail">Запазването е неуспешно.</string>
     <string name="extra_photo_common_saving">Записване……</string>
     <string name="motion_photo_cancel">Отказ</string>
@@ -25,6 +38,7 @@
     <string name="refocus_save_to_video">Запазване като видео</string>
     <string name="refocus_saving">Записване…</string>
     <string name="refocus_title">Замъглен</string>
+    <string name="refocus_type_movie_relighting">Синематично</string>
     <string name="refocus_type_relighting">Студийно осветление</string>
     <string name="refocus_type_relighting_no_face">Не може да се открие лице</string>
     <string name="refocus_type_relighting_small_face">Студийното осветление работи на снимки, където лицата са с повече място, отколкото тук.</string>

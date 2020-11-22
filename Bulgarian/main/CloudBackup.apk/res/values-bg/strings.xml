@@ -37,7 +37,6 @@
     <string name="back_up_task_in_process">архивира се</string>
     <string name="back_up_task_unfinished">Не може да се архивира</string>
     <string name="backing_up_to_micloud">Архивира се…</string>
-    <string name="backup_fail_wifi_needed">Не може да се направи резв. копие без Wi-Fi връзка.</string>
     <string name="backup_failed_reason_cloud_space_not_enough">В Xiaomi Облак няма достатъчно място. Надстройте Вашия абонамент или освободете място за съхранение.</string>
     <string name="backup_failed_reason_disk_space_not_enough">Няма достатъчно място в хранилището. Освободете място първо.</string>
     <string name="backup_failed_reason_network_error">Грешка в мрежата. Изчакайте минута-две и опитайте отново.</string>
@@ -58,6 +57,7 @@
     <string name="btn_restore_resume">Поднови</string>
     <string name="btn_restore_retry">Оптитайте отново</string>
     <string name="btn_restore_wait">Изчакване за Wi-Fi връзка</string>
+    <string name="btn_restore_wait_china">Wait for WLAN</string>
     <string name="btn_retry">Провери отново</string>
     <string name="btn_skip">Пропусни тази стъпка</string>
     <string name="button_cancel">Отказ</string>
@@ -87,10 +87,15 @@
 *  Настройки на известията 
 *  MIUI и системни настройки 
 Забележка: на данните за приложенията, които са инсталирани от Вас, няма да се прави рез. копие в Xiaomi Облак."</string>
+    <string name="cloud_back_up_detail_discription_china">"These items will be backed up to Xiaomi Cloud when your device is connected to WLAN: 
+*  Apps, Home screen layout, and wallpapers 
+*  Alarm, clock, and time settings 
+*  Notification settings 
+*  MIUI and system settings 
+Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</string>
     <string name="cloud_back_up_frequence_choice_title">Резервно копие по график</string>
     <string name="cloud_back_up_frequence_long">На всеки 7 дни</string>
     <string name="cloud_back_up_frequence_short">Всеки ден</string>
-    <string name="cloud_back_up_no_network_warn">Не мога да се свържа с Wi-Fi мрежа</string>
     <string name="cloud_back_up_ok_btn">OK</string>
     <string name="cloud_back_up_opening">Just a sec…</string>
     <string name="cloud_back_up_subscribe_vip_confirm">Надстройка</string>
@@ -103,6 +108,7 @@
     <string name="cloud_backup_detail_manage">Управление на рез. копия</string>
     <string name="cloud_backup_detail_state">Автоматични резервни копия</string>
     <string name="cloud_backup_detail_state_summary">Автоматично създаване на резервни копия в Xiaomi Облак, когато сте свързани с Wi-Fi.</string>
+    <string name="cloud_backup_detail_state_summary_china">Create Xiaomi Cloud backups automatically when connected to WLAN.</string>
     <string name="cloud_backup_detail_time">Последен архив на: %1$s</string>
     <string name="cloud_backup_detail_title">Начален екран, приложения и настройки.</string>
     <string name="cloud_backup_have_data">Открито е рез. копие в Xiaomi Облак</string>
@@ -138,7 +144,9 @@
     <string name="dialog_cancel_backup_title">Отмяна на изходящите резервни копия?</string>
     <string name="dialog_msg_overwrite_backup">Локалното рез. копие е различно от това в Xiaomi Облак. Ако продължите, текущото рез. копие ще замени предишното.</string>
     <string name="dialog_msg_restore_require_wlan">Възстановяването от архивни копия изисква връзка с Wi-Fi.</string>
+    <string name="dialog_msg_restore_require_wlan_china">Restoring backups requires connecting to WLAN.</string>
     <string name="dialog_title_require_wlan">Свържете се с Wi-Fi</string>
+    <string name="dialog_title_require_wlan_china">Connect to WLAN</string>
     <string name="dir_date_format">HHmmss_ddMMyyyy</string>
     <string name="doing_calc_backup_data_size">Изчисляване на размер…</string>
     <string name="doing_restore_home">Възстановяване на Начален екран и настройки…</string>
@@ -153,6 +161,7 @@
     <string name="error_unknown">Нещо се обърка</string>
     <string name="expand_button_title">Разширени</string>
     <string name="get_device_id_error">Не може да се получи ID на устройството</string>
+    <string name="help_and_feedback">Помощ и обратна връзка</string>
     <string name="hint_restore_cross_space">Елементите на Начален екран може да се показват погрешно, ако ги прехвърляте между двете работни пространства.</string>
     <string name="home_hint_global_launcher">POCO Launcher</string>
     <string name="home_hint_other_launcher">Други работни екрани</string>
@@ -179,11 +188,10 @@
     <string name="notification_channel_remind">Напомняне</string>
     <string name="notification_channel_service">Услуги</string>
     <string name="open_backup_switch">Превключи на Резервно копие</string>
-    <string name="open_wifi">Включване на Wi-Fi</string>
-    <string name="open_wifi_description">Свързване към Wi-Fi мрежа за възстановяване на прил.</string>
-    <string name="open_wifi_setting">Wi-Fi настройки</string>
     <string name="other_device_main_space">Основно работно място</string>
     <string name="other_device_second_space">Второ пространство</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="process_whole_recovery">Възстановяване \"%s\"</string>
     <string name="provision_background_restore_more_data">Възстановяване на повече елементи на заден план</string>
@@ -210,7 +218,6 @@
     <string name="restore_app_order_search_prior">Приложения с висок приоритет</string>
     <string name="restore_app_order_title">Приоритет на възстановените елементи</string>
     <string name="restore_cloud_backup_to_phone">Възстановяване на елементи облака</string>
-    <string name="restore_data_summary">Тази функция се нуждае от връзка с интернет.</string>
     <string name="restore_data_title">Възстановяване на данни</string>
     <string name="restore_detail_category_apps">Начален екран и приложения</string>
     <string name="restore_detail_category_settings">Настройки</string>

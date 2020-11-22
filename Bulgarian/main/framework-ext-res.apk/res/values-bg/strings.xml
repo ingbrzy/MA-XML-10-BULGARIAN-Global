@@ -47,6 +47,7 @@
     <string name="content_description_web_url">Преглеждане</string>
     <string name="copy">Копирай</string>
     <string name="cut">Изрежи</string>
+    <string name="data_usage_context">If Wi-Fi is not turned on, your device will connect to a mobile network, which may result in additional charges depending on your payment plan.Thank you!</string>
     <string name="default_device_name">Неизвестно устройство</string>
     <string name="default_name">Стандартно</string>
     <string name="description_title">Тих режим</string>
@@ -84,6 +85,10 @@
     <string name="global_actions_reboot">Рестарт</string>
     <string name="global_actions_shutdown">Изключване</string>
     <string name="global_actions_silent_mode">Тих режим</string>
+    <string name="handset_text_unsupported_handset_insert">Натиснете за детайли</string>
+    <string name="handset_text_usb_handset_insert">Натиснете за допълнителни настройки</string>
+    <string name="handset_title_unsupported_handset_insert">Адаптери за USB слушалки не се поддържат</string>
+    <string name="handset_title_usb_handset_insert">Възпроизвеждане на звук от USB</string>
     <string name="handy_mode_enter_dlg_msg">Влизане в режим Ползване с една ръка?</string>
     <string name="handy_mode_enter_dlg_title">Ползване с една ръка</string>
     <string name="handy_mode_summary">За да затворите, чукнете област на черния екран</string>
@@ -129,6 +134,8 @@
     <string name="mi_9t_pro">Mi 9T Pro</string>
     <string name="mi_a3">Mi A3</string>
     <string name="mi_drop">Mi Share</string>
+    <string name="miaudiovisual_notification_summary">Включете за показване на ефектите при Закл. екран</string>
+    <string name="miaudiovisual_notification_title">Аудио визуални ефекти</string>
     <string name="miui_forbid_poweroff_when_device_locked">Не може да се изключи, устройството е заключено.</string>
     <string name="miui_screen_ratio_hint">Проблеми с пропорциите на екрана</string>
     <string name="miui_screen_ratio_hint_dont_show_again">Не показвай отново</string>
@@ -227,6 +234,7 @@
     <string name="sim_added_reboot_title">SIM картата ще бъде активна след рестартиране на устройството ви.</string>
     <string name="sim_lock_non_ais_msg">Вашата SIM карта не е напълно съвместима с този телефон, защото не сте се съгласили с Условията за ползване на вашия абонамент. Ако имате въпроси или се нуждаете от информация, моля, свържете се с отдел обслужване на Xiaomi центъра, от който сте закупили Вашето устройство.</string>
     <string name="sim_lock_now_ais_title">SIM%1$d</string>
+    <string name="slatoast">Използването на мобилни данни за подобряване на скоростта може да доведе до начисляването на допълнителни такси.</string>
     <string name="slavewifi">Двулентова Wi-Fi мрежа</string>
     <string name="slavewifi_disconnect">Не е свързан</string>
     <string name="slavewifi_notification_title">С използване на двулентова Wi-Fi мрежа</string>

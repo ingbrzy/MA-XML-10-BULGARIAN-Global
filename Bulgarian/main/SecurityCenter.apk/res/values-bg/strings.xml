@@ -161,9 +161,9 @@
     <string name="antivirus_none_engine_dialog_ok">OK</string>
     <string name="antivirus_not_wlan">Не сте свързан с Wi-Fi мрежа. Използването на мобилни данни може да е причина за допълнително таксуване. Продължете?</string>
     <string name="antivirus_privacy_dialog_cloudscan">Качване на имена и детайли за прил.</string>
-    <string name="antivirus_privacy_dialog_cloudscan_description">Качване и сканиране на имената и детайлите с помощта на онлайн вирусни дефиниции.</string>
+    <string name="antivirus_privacy_dialog_cloudscan_description">За да можем да засичаме и неутрализираме вируси по-успешно, ние ще качваме имената и свойствата на пакетите от приложения, за да ги сканираме чрез облачните услуги.</string>
     <string name="antivirus_privacy_dialog_ok">OK</string>
-    <string name="antivirus_privacy_dialog_summary">Тази функция криптира и изпраща идентификатора на устройството Ви на сървърите на Avast, AVL и Tencent (%s).</string>
+    <string name="antivirus_privacy_dialog_summary"><Data>Тази услуга се предоставя от антивирусна програма от трета страна. За да научите повече прочетете &lt;a href=\"%1$s\">Споразумението за лиценз&lt;/a> предоставено от третата страна.</Data></string>
     <string name="antivirus_privacy_dialog_summary_link">Политика на поверителност</string>
     <string name="antivirus_privacy_dialog_title">Политика на поверителност</string>
     <string name="antivirus_sec_network_unavailable">Приложението \"Сигурност\" не може да се обнови, защото сте ограничили интернет връзката. Да се разреши ли на \"Сигурност\" да се свърже с интернет?</string>
@@ -288,6 +288,8 @@
     <string name="app_behavior_start_from_notification_single">Това приложение беше стартирано от известие</string>
     <string name="app_behavior_start_from_recent">%1s беше стартирано от Скорошни</string>
     <string name="app_behavior_start_from_recent_single">Това приложение беше стартирано от Скорошни</string>
+    <string name="app_behavior_start_from_widget">%1s was launched by a widget</string>
+    <string name="app_behavior_start_from_widget_single">This app was launched by a widget</string>
     <string name="app_behavior_storage">%1s получи достъп до или запази файлове</string>
     <string name="app_behavior_storage_bg">%1s получи достъп до или запази файлове във фонов режим</string>
     <string name="app_behavior_storage_bg_single">Това приложение получи достъп до или запази файлове във фонов режим</string>
@@ -310,7 +312,7 @@
     <string name="app_install_tips_install_success">%1$s успешно инсталирани</string>
     <string name="app_manager_advanced_setting">Разширени настройки</string>
     <string name="app_manager_allow">Да</string>
-    <string name="app_manager_anomaly_analysis">Analyze third party app problems</string>
+    <string name="app_manager_anomaly_analysis">Анализ на проблеми на приложения от трета страна</string>
     <string name="app_manager_app_ifno_version">Версия на приложението</string>
     <string name="app_manager_app_info_label">Информация за приложение</string>
     <string name="app_manager_app_info_name">Име на приложение</string>
@@ -764,6 +766,7 @@
     <string name="card_main_private_space_summary">Използвайте Второ пространство все едно имате 2 устройства</string>
     <string name="card_main_private_space_title">Второ пространство</string>
     <string name="card_main_sectool_title">Инструменти</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_xspace_action">Създаване</string>
     <string name="card_main_xspace_summary">Създайте два профила за всяко приложение</string>
     <string name="card_main_xspace_title">Клонирани приложения</string>
@@ -966,6 +969,7 @@
     <string name="doze_optimization_title">Оптимизиране контрол на докосване</string>
     <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
+    <string name="ellipsis">…</string>
     <string name="email">Имейл</string>
     <string name="empty_app">Няма приложения</string>
     <string name="empty_title_auto_start_list">Няма приложения</string>
@@ -1017,7 +1021,9 @@
     <string name="exo_download_notification_channel_name">Изтегляния</string>
     <string name="exo_download_removing">Изтеглянията се премахват</string>
     <string name="exo_item_list">%1$s – %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Автоматично</string>
     <string name="exo_track_selection_none">Нищо</string>
     <string name="exo_track_selection_title_audio">Аудиозапис</string>
@@ -1123,6 +1129,13 @@
     <string name="first_aid_scanning_item4">Проверка за проблеми с батерията…</string>
     <string name="first_aid_scanning_item5">Проверка за други проблеми…</string>
     <string name="first_aid_stop_scan">Спри сканирането</string>
+    <string name="first_settings_default_camera_title">Споделяне по подразбиране без метаданни</string>
+    <string name="first_settings_default_location_subtitle">Премахване на информация за местоположение от споделени снимки</string>
+    <string name="first_settings_default_location_title">Споделяне по подразбиране без информация за местоположение</string>
+    <string name="first_settings_share_enable">Добавяне на табелка \"Сигурно споделяне\"</string>
+    <string name="first_settings_share_enable_subtitle">Елементите, които споделяте в WeChat ще бъдат показвани с табелка на MIUI</string>
+    <string name="first_settings_subtitle">Това са наличните опции за сигурно споделяне:</string>
+    <string name="first_settings_title">Защитете личните си данни</string>
     <string name="five_percent_total_pkg">%s (5%% от месечния ви план за данни)</string>
     <string name="fod_authentication_shift_button">Отказ</string>
     <string name="fod_button_finger">Използвай пръстов отпечатък</string>
@@ -1148,11 +1161,10 @@
     <string name="free_time_traffic_title">Въведете лимит за данни при слаб трафик</string>
     <string name="free_traffic_settings">Настройки на лимит при слаб трафик</string>
     <string name="function_close">Изкл</string>
-    <string name="function_gwsd_detail">"За тази функционалност:
- 1. Входящите обаждания към SIM картата за данни няма да прекъсват връзката за мобилни данни. Връзката ще бъде прекъсната само когато отговорите на обаждането.
- 2. Когато тази функционалност бъде включена, обаждащият се няма да чува музика, докато чака да отговорите. Входящото обаждане ще бъде прекратено, ако не отговорите в рамките на 6 секунди.
- 3. Тази функционалност работи само за SIM карти за данни. Обажданията към основната SIM карта ще прекъсват връзката за мобилни данни. 
- 4. Тази функционалност се поддържа само от операторите China Mobile и China Unicom."</string>
+    <string name="function_gwsd_detail">"Относно тази функция:
+ 1. Когато използвате мобилни данни от SIM карта за мобилни данни или от стандартна SIM карта свързана към VoLTE мрежа, връзката няма да бъде прекъсвана от входящи повиквания докато не вдигнете.
+ 2. Когато тази функция е включена, другия човек няма да може да чува вашия рингтон, освен ако не използвате стандартна SIM карта. Входящи повиквания ще бъдат отхвърляни след 7-10 секунди неактивност.
+ 3. Поддържат се SIM карти за мобилни данни издадени от China Mobile и China Unicom. Поддържат се стандартни SIM карти издадени от China Mobile, China Unicom, и China Telecom."</string>
     <string name="function_gwsd_title">Не позволявай на входящите обаждания да прекъсват връзката на SIM картата за данни</string>
     <string name="function_shield_auto_bright">Изкл. на автоматичен контраст</string>
     <string name="function_shield_eye_shield">Изкл. на режим Четене</string>
@@ -1333,7 +1345,7 @@
     <string name="gb_xunyou_gift_type_one">Ускорител на Xunyou за един ден</string>
     <string name="gb_xunyou_gift_type_three">Ускорител на Xunyou за три дни</string>
     <string name="gb_xunyou_gift_type_two">Ускорител на Xunyou за два дни</string>
-    <string name="gdpr_msg">&lt;Data>За да използвате основните функции на \"Сигурност\", трябва да дадете съгласието си на Xiaomi да събира и използва Вашите лични данни, включително начина, по който използвате приложението и неговите функции (напр. използваните мобилни данни, информация за открити вредни приложения, основна информация за устройството), както и други видове информация, посочени в нашата &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">политика на поверителност&lt;/a>.&lt;/Data></string>
+    <string name="gdpr_msg"><Data>За да можем да засичаме рискове за сигурността и да защитаваме вашите данни трябва да събираме задължително количество информация за вашето устройство. Прочетете и приемете нашите &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">Правила за поверителност&lt;/a> преди да използвате нашите услуги. В случай, че решите, че не желаете да споделяте подобна информация с нас, все още ще можете да използвате това приложение, но някои от функциите му няма да са достъпни. </Data></string>
     <string name="get_sys_info">Заявка за информация…</string>
     <string name="gigabyteShort">ГБ</string>
     <string name="global_wa_setting_alert_dialog_content">Можете да освободите %s</string>
@@ -1392,8 +1404,15 @@
     <string name="gs_show_way_vertical">Вертикално</string>
     <string name="gs_sign_notification">Напомни ми да се регистрирам в 20.00ч всеки ден</string>
     <string name="gs_slip_gamebox_detail">Използвайте плъзгача или плъзнете пръст по екрана за да се появи панела за бързо избиране</string>
+    <string name="gtb_dialog_btn_close">Изключи</string>
+    <string name="gtb_dialog_btn_open">Включи</string>
+    <string name="gtb_dialog_hint_smart_5g">Можете да включвате и изключвате тази функция в Game Turbo > Настройки.</string>
+    <string name="gtb_dialog_summary_smart_5g">Когато Game Turbo открие 5G мрежа, ще може да свързва вашето устройство към най-силната налична мрежа, с цел намаляване на мрежовото забавяне. Желаете ли да включите тази функция сега?</string>
+    <string name="gtb_dialog_title_smart_5g">Оптимизация на 5G мрежата</string>
     <string name="gtb_exit_game_to_gtb">Отвори хранилището за игри</string>
     <string name="gtb_exit_game_to_home">Обратно към Начален екран</string>
+    <string name="gtb_setting_item_summary_smart_5g">Когато Game Turbo открие 5G мрежа, ще може да свързва вашето устройство към най-силната налична мрежа, с цел намаляване на мрежовото забавяне.</string>
+    <string name="gtb_setting_item_title_smart_5g">Оптимизация на 5G мрежата</string>
     <string name="guide_get_operator_error">"&lt;font color='#33b4ff'>&lt;U>Грешен оператор?&lt;/U>&lt;/font>"</string>
     <string name="guide_operator_text">"Вашият оператор: "</string>
     <string name="guide_quck_open">Включване</string>
@@ -1484,6 +1503,7 @@
     <string name="list_empty_text">Празно</string>
     <string name="load_only_under_wlan">Заредете използвайки Wi-Fi</string>
     <string name="loading">Един момент…</string>
+    <string name="loading_text_format" formatted="false">Премахване на лична информация от снимки (%d/%d)…</string>
     <string name="local_ip_exception_summary">Неуспешно получаване на IP адрес. За да докладвате този проблем до MIUI, отидете в приложението Отзиви и изпратете лог от устройството ви.</string>
     <string name="lock_all_title">Заключи всички приложения</string>
     <string name="lock_mode_title">Настройки за заключване</string>
@@ -1612,6 +1632,7 @@
     <string name="memory_check_content">Освободени %s</string>
     <string name="memory_clean_memory_size_tip">Кеш</string>
     <string name="memory_clean_no_need_clean">Изглежда всичко е наред</string>
+    <string name="memory_clean_no_need_clean_1" formatted="false">Освободени са %s. Вашето устройство е %d%% по-бързо сега.</string>
     <string name="memory_clear_unused">Изчисти кеша (%s)</string>
     <string name="memory_title">Свободно: %1$s\u0009\u0009Общо: %2$s</string>
     <string name="menu_add">Добави</string>
@@ -1652,11 +1673,14 @@
     <string name="menu_summary_antivirus">Tърсене на вируси в устройството</string>
     <string name="menu_summary_app_manager">Актуал. и деинстал. на прилож</string>
     <string name="menu_summary_garbage_cleanup">Няма открити отпадъци</string>
-    <string name="menu_summary_garbage_cleanup_ex">Почисти %s отпадъци.</string>
+    <string name="menu_summary_garbage_cleanup_ex">Освободете %s</string>
+    <string name="menu_summary_garbage_cleanup_new">%d%% от паметта</string>
     <string name="menu_summary_networkassistants">Управление на вашия план за данни</string>
     <string name="menu_summary_networkassistants_2">Надхвърлен е лимита за данни</string>
     <string name="menu_summary_networkassistants_3">От пакет за данни остава</string>
     <string name="menu_summary_networkassistants_4">Надхвърлен лимит за данни</string>
+    <string name="menu_summary_optimize_manage">Изчистване на памет</string>
+    <string name="menu_summary_optimize_manage_1">Направете устройството си %d%% по-бързо</string>
     <string name="menu_summary_power_manager">Икономия на батерия ви дава повече време за работа преди следващо зареждане</string>
     <string name="menu_summary_power_manager_1">Батерията е напълно заредена</string>
     <string name="menu_summary_power_manager_2">Остават: %s</string>
@@ -1665,16 +1689,20 @@
     <string name="menu_text_antispam">Антиспам</string>
     <string name="menu_text_antivirus">Сканиране на защитата</string>
     <string name="menu_text_garbage_cleanup">Почистване</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_license_manager">Разрешения</string>
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_unit_b">Б</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
     <string name="menu_text_networkassistants_unit_kb">КБ</string>
     <string name="menu_text_networkassistants_unit_mb">МБ</string>
     <string name="menu_text_optimize_manage">Подобрете скоростта</string>
+    <string name="menu_text_optimize_manage_1">Подобряване на скоростта</string>
     <string name="menu_text_power_manager">Батерия и производителност</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Премахни от изключения</string>
     <string name="menu_white">Добавяне към изключения</string>
     <string name="mi_service_app_detail">Детайли за употребата на данни</string>
@@ -1824,8 +1852,8 @@
     <string name="numeric_recording_intro_header">Въведете парола</string>
     <string name="numeric_retry_button_text">Отказ</string>
     <string name="numeric_settings_help_how_to_record">Как да зададете PIN</string>
-    <string name="oaid_reset_content_tip">If you turn off virtual ID now, some apps might stop working properly, a part of your app data might be lost or become unusable.</string>
-    <string name="oaid_reset_final_tip">Turn off virtual ID anyway?</string>
+    <string name="oaid_reset_content_tip">Ако изключите виртуалния идентификатор сега, някои приложения може да спрат да функционират правилно, а част от вашите данни за приложения може да бъдат изгубени или да станат неизползваеми.</string>
+    <string name="oaid_reset_final_tip">Желаете ли да спрете виртуалния идентификатор въпреки това?</string>
     <string name="ok">ОК</string>
     <string name="ok_button">ОК</string>
     <string name="old_sdk_deny_warning">Приложението не е съвместимо с последните разрешения. Забраната на разрешенията може да окаже ефект на работата му.</string>
@@ -1834,6 +1862,8 @@
     <string name="om_locked_apps_summary">Заключените приложения ще бъдат игнорирани при оптимизиране скоростта на устройството.</string>
     <string name="om_memory_clean_memory_info_text">%1$s / %2$s</string>
     <string name="om_not_finish_speedboost">Необходимо е Ускорение на скоростта</string>
+    <string name="om_optimzing_big_button_text">Подобряване на скоростта</string>
+    <string name="om_running_app_info_summary">Освободете %s</string>
     <string name="om_running_locked_apps">Заключени работещи приложения</string>
     <string name="om_running_system_apps">Работещи системни приложения</string>
     <string name="om_running_third_apps">Работещи приложения от трета страна</string>
@@ -1848,6 +1878,13 @@
     <string name="om_settings_notify_manage">Известия</string>
     <string name="om_settings_speed_up_auto">Автом. подобряване на скоростта</string>
     <string name="om_settings_title">Настройки</string>
+    <string name="om_shortcut_added_toast_text">Успешно добавено</string>
+    <string name="om_shortcut_dialog_summary">RAM Jet ви позволява да изчиствате място в паметта и да подобрявате скоростта на устройството с едно натискане. Желаете ли да добавите RAM Jet към Началния екран?</string>
+    <string name="om_shortcut_dialog_title">RAM Jet</string>
+    <string name="once_settings_camera_ttile">Споделяне без метаданни</string>
+    <string name="once_settings_location_title">Споделяне без информация за местоположение</string>
+    <string name="once_settings_subtitle">Как желаете да споделите избраните елементи?</string>
+    <string name="once_settings_title">Защита на личните данни</string>
     <string name="one_address_choose_hint">%s1</string>
     <string name="open_activity_err">Приложението не е открито</string>
     <string name="open_app">Отваряне</string>
@@ -2054,6 +2091,11 @@
     <string name="power_center_dialog_msg_top">Когато услугата Икономия на батерия е включена, MIUI ще предприеме следните оптимизации:</string>
     <string name="power_center_hints_scan_danger_result">Можете да коригирате този проблем сега</string>
     <string name="power_center_list_item_auto_brightness">Корекция на автоматичната яркост на екрана</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh (милиампер-час)</string>
+    <string name="power_center_list_item_battery_status_capacity">мАч</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">ч</string>
     <string name="power_center_list_item_close_bluetooth">Изключете Bluetooth</string>
     <string name="power_center_list_item_deep_save_title">Разширени настройки</string>
@@ -2226,10 +2268,11 @@
     <string name="pref_manual_adjust">Ръчна настройка на трафика</string>
     <string name="pref_mi_sim_settings">%s настройки на пакета</string>
     <string name="pref_more_settings">Други настройки</string>
-    <string name="pref_new_installed_preconfig_title">Стандартни настройки за нови прил.</string>
+    <string name="pref_new_installed_preconfig_title">Настройки за нови приложения</string>
     <string name="pref_normal_traffic_limit">Когато планът за данни е изразходван</string>
     <string name="pref_open_adjust_traffic">Синхронизиране статистиката за трафика с вашия оператор</string>
     <string name="pref_operator_not_set">Оператора не е зададен</string>
+    <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_over_traffic_limit">Когато сте надвишили вашия лимит за данни</string>
     <string name="pref_package_traffic_settings">План за данни</string>
     <string name="pref_pkg_begin_date">Дата за нулиране на сметката</string>
@@ -2393,6 +2436,7 @@
     <string name="privacy_using_record">Запис на аудио</string>
     <string name="privacyapp_number_masked_text">Съдържанието на известията е скрито</string>
     <string name="privacyapp_number_unmasked_text">Съдържанието на известията може да се скрие</string>
+    <string name="process_kernel_label">Android операционна система</string>
     <string name="process_mediaserver_label">Медиен сървър</string>
     <string name="process_vpnsdkmanager_label">Турбо режим за игри</string>
     <string name="promotion">Реклами</string>
@@ -2531,10 +2575,18 @@
     <string name="settings">Настройки на трафика</string>
     <string name="settings_battery_consume_abnormal_summary">Получаване на исвестие, ако бетерията се изразходва бързо</string>
     <string name="settings_battery_consume_abnormal_title">Известия при бързо изтощаване</string>
+    <string name="settings_camera_subtitle_no">Няма метаданни</string>
     <string name="settings_category_other">Други настройки</string>
     <string name="settings_category_overheat">Прегряване</string>
     <string name="settings_choice_no_notification">Изкл.</string>
+    <string name="settings_image_camera_summary">Модел на устройството, метаданни, и т.н.</string>
+    <string name="settings_location_subtitle_no">Няма информация за местоположение</string>
     <string name="settings_power_save_ontime_title">Планиране</string>
+    <string name="settings_share_enable_summary">Елементите, които споделяте в WeChat ще бъдат показвани с табелка на MIUI</string>
+    <string name="settings_share_info">Това са опциите за сигурно споделяне налични за елементи споделени от Галерия и Управление на файлове:</string>
+    <string name="settings_show_detail">Преглед на подробности</string>
+    <string name="settings_tip">Отидете в Галерия > Настройки за преглед на повече опции</string>
+    <string name="settings_title">Сигурно споделяне</string>
     <string name="shield_keyboard_detail">Двойно почукване на бутоните за повторното им включване</string>
     <string name="shield_keyboard_summary">Ограничаване на бутони и жестове на цял екран по време на игри</string>
     <string name="shield_keyboard_title">Ограничаване на бутони и жестове</string>
@@ -2994,6 +3046,8 @@
     <string name="text_button">Разбрах</string>
     <string name="text_cycle_day">%s</string>
     <string name="text_day" />
+    <string name="text_done">OK</string>
+    <string name="text_security">Поверителност</string>
     <string name="thermal_tips_message">Играенето в режим Производителност може да предизвика проблеми с прегряване на устройството.</string>
     <string name="thermal_tips_title">Внимание</string>
     <string name="third_application">Инсталирани приложения</string>

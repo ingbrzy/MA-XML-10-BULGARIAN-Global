@@ -30,7 +30,7 @@
     <string name="advanced_mode">Разширени настройки</string>
     <string name="anti_flicker_mode">Анти-трептене</string>
     <string name="anti_flicker_mode_categroy">Режими</string>
-    <string name="anti_flicker_mode_summary">Намалете трептенето с условия с ниско осветление, за да не напрягате очите си. Възможно е някои елементи да не бъдат показвани правилно.</string>
+    <string name="anti_flicker_mode_summary">Предотвратяване на прекаленото премигане и намаляване на напрежението за очите в условия със слабо осветление</string>
     <string name="anti_flicker_title">Режим Анти-трептене</string>
     <string name="app_name">Настройки</string>
     <string name="application_sound">Известия за приложението</string>
@@ -51,6 +51,10 @@
     <string name="created">Създадено</string>
     <string name="created_successfully">Успешно създадено</string>
     <string name="cu_confirm">Задай</string>
+    <string name="dc_light_hint_enable_title">Внимание</string>
+    <string name="dc_light_hint_normal">DC затъмняване може да афектира визуализацията на някои елементи.</string>
+    <string name="dc_light_hint_other">DC затъмняване може да афектира скоростта на презареждане и визуализацията на някои елементи.</string>
+    <string name="dc_lignt_enable_hint">Режима Анти-премигане ще настрои скоростта на презареждане на екрана на 60 Hz. Желаете ли да преминете към режим Анти-премигане?</string>
     <string name="display_description">По-големи елементи, по-голям шрифт, по-малко визуално претрупване</string>
     <string name="display_title">По-големи елементи</string>
     <string name="exit_easymode">Изкл Лек режим</string>
@@ -66,6 +70,7 @@
     <string name="follow_sim1">Прилагане на настройки на SIM 1</string>
     <string name="gamma">Гама</string>
     <string name="healthy_use_phone">Управление на екранното време</string>
+    <string name="high_fps_description">Висока скорост на презареждане на екрана. Засилена употреба на енергия.</string>
     <string name="hsv_space_color">HSV цветово пространство</string>
     <string name="hsv_space_color_hue">Оттенък</string>
     <string name="hsv_space_color_saturation">Наситеност</string>
@@ -74,6 +79,7 @@
     <string name="intelligent_recognition_item_title">Идентифициране на услуги</string>
     <string name="less_than_one">&lt; %d</string>
     <string name="lock_summary">Защитете личната си информация</string>
+    <string name="low_fps_description">Ниска скорост на презареждане на екрана. Занижена употреба на енергия.</string>
     <string name="low_light_preview">Преглед при ниско осветление</string>
     <string name="mms">Съобщения</string>
     <string name="more_ringtone">Всички мелодии</string>
@@ -119,6 +125,7 @@
     <string name="search_menu_title">Търсене</string>
     <string name="several_days_use_time">Екранно време: %2$s</string>
     <string name="shortcut_created">Този пряк път вече съществува</string>
+    <string name="silent_ringtone_hint">Аудиото е заглушено в момента. Усилете звука и опитайте отново.</string>
     <string name="sim_slot_1">" (SIM 1)"</string>
     <string name="sim_slot_2">" (SIM 2)"</string>
     <string name="sms_delivered_sound_title">Доставено съобщение</string>
@@ -158,7 +165,9 @@
     <string name="usage_app_limit_alter_title">Провери лимита за екранно време</string>
     <string name="usage_app_limit_prelong">Удължи времето</string>
     <string name="usage_app_limit_reach_summay">Остават %s</string>
+    <string name="usage_app_limit_reach_summay_new">Натиснете, за да добавите %d мин</string>
     <string name="usage_app_limit_reach_title">%s се доближава до лимита за екранно време</string>
+    <string name="usage_app_limit_reach_title_new" formatted="false">Оставащо екранно време за %1s: %2s</string>
     <string name="usage_app_limit_summary">Избрани приложения няма да са достъпни след като бъде достигнат лимита за екранно време</string>
     <string name="usage_app_limit_title">Лимит за екранно време</string>
     <string name="usage_app_other_settings">Допълнителни настройки</string>
@@ -210,8 +219,12 @@
     <string name="usage_home_premission_second_summary_double_link_prefix">Ние ще защитаваме личната Ви информация в съответствие с всички приложими закони, наредби и правила за поверителност. Ако не се съгласите да дадете тези разрешения или да споделяте и качвате личната си информация, няма да можете да използвате това приложение. Можете да оттеглите упълномощението си в Екранно време > Настройки > Изключване на Екранно време.</string>
     <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false">"&lt;Data>Преди да използвате това приложение, прочетете и приемете нашето &lt;a href='%1s'>Потребителско споразумение&lt;/a> и &lt;a href='%2s'>Правила за поверителност&lt;/a>.&lt;/Data>"</string>
     <string name="usage_home_premission_second_summary_new">Ние ще защитаваме личната Ви информация в съответствие с всички приложими закони, наредби и политики за поверителност. Ако не се съгласите да дадете тези разрешения или да споделяте и качвате личната си информация, няма да можете да използвате това приложение. Можете да оттеглите упълномощаването си в Екранно време > Настройки > Изключване на Екранно време. Ако имате допълнителни въпроси относно поверителността, можете да се свържете с нас на privacy@xiaomi.com.</string>
+    <string name="usage_new_home_app_limit_summary">Задайте дневен лимит на екранно време за това приложение</string>
+    <string name="usage_new_home_app_limit_title">Лимит на екранно време</string>
     <string name="usage_new_home_average">"Средно "</string>
+    <string name="usage_new_home_avg_usage_day">Средно %s на ден</string>
     <string name="usage_new_home_category">Категория</string>
+    <string name="usage_new_home_classify_manage">Управление на категории на приложения</string>
     <string name="usage_new_home_compare_text1">%.2f повече от предишния ден</string>
     <string name="usage_new_home_compare_text2">%.2f по-малко от предишния ден</string>
     <string name="usage_new_home_compare_text3">Също като предишния ден</string>
@@ -219,15 +232,19 @@
     <string name="usage_new_home_dashboard">Табло</string>
     <string name="usage_new_home_date_day_title">%s | Продължителност на използване</string>
     <string name="usage_new_home_day_category_title">Категории приложения</string>
+    <string name="usage_new_home_day_category_title_new">Екранно време за категории на приложения на %s</string>
     <string name="usage_new_home_day_title">Ден</string>
     <string name="usage_new_home_day_usage_title">Индивидуални приложения</string>
+    <string name="usage_new_home_day_usage_title_new">Екранно време на %s</string>
     <string name="usage_new_home_first_unlock">Първо отключване: %s</string>
     <string name="usage_new_home_name">Име</string>
     <string name="usage_new_home_show_more_data_summary">Можете също така да ограничите екранното време за индивидуални приложения</string>
     <string name="usage_new_home_show_more_data_title">Виж още статистики</string>
+    <string name="usage_new_home_sys_no_limit_summary">Не може да се ограничава екранното време на системни приложения</string>
     <string name="usage_new_home_unlock_equals_text">Също като предишния ден</string>
     <string name="usage_new_home_unused">Не е използвано</string>
     <string name="usage_new_home_update">Промени</string>
+    <string name="usage_new_home_usage_detail">Детайли за употреба</string>
     <string name="usage_new_home_week_category_title">Категории приложения</string>
     <string name="usage_new_home_week_compare_text1">%.2f повече от предишната седмица</string>
     <string name="usage_new_home_week_compare_text2">%.2f по-малко от предишната седмица</string>
@@ -249,7 +266,7 @@
     <string name="usage_reach_device_limit_warning_text">Достигнахте лимита си за екранно време за днес</string>
     <string name="usage_refresh">Опитайте отново</string>
     <string name="usage_remain_about_hour_miunte">≈%1$s %2$s</string>
-    <string name="usage_remain_hour_miunte">%1$s%2$s</string>
+    <string name="usage_remain_hour_miunte">%1$s %2$s</string>
     <string name="usage_request_error_summary">Възникна неизвестна грешка</string>
     <string name="usage_request_timeout_summary">Времето на заявката изтече</string>
     <string name="usage_runtime_per_des_summary">За запазване на вашата статистика за Екранно време</string>
@@ -363,6 +380,8 @@
     <string name="usage_stats_week_day">Почивни дни</string>
     <string name="usage_total_days">Общо дни</string>
     <string name="usage_total_times">Общо сесии</string>
+    <string name="usage_week_avg_usage_title">Средно тази седмица</string>
+    <string name="usage_week_avg_usage_title2">Средна продължителност</string>
     <string name="usage_weekly_report_summary">Разберете как прекарвате време с устройството си</string>
     <string name="usage_weekly_report_title">Седмичен отчет</string>
     <string name="usagestats_app_category_miui_education">Образование</string>

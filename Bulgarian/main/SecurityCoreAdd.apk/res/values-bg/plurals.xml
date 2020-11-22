@@ -13,7 +13,7 @@
         <item quantity="one">Търсене на %d приложение</item>
     </plurals>
     <plurals name="second_space_notification_format">
-        <item quantity="other">Второ пространство: %d известия</item>
-        <item quantity="one">Второ пространство: %d известие</item>
+        <item quantity="other">%d известия във Второ пространство</item>
+        <item quantity="one">%d известие във Второ пространство</item>
     </plurals>
 </resources>

@@ -8,6 +8,10 @@
         <item quantity="other">Връщане към началната страница след %1$d секунди…</item>
         <item quantity="one">Връщане към началната страница след %1$d секунда…</item>
     </plurals>
+    <plurals name="follower">
+        <item quantity="other">%d последователи</item>
+        <item quantity="one">%d последовател</item>
+    </plurals>
     <plurals name="lv_subtitle_offset_advance_times">
         <item quantity="other">Субтитрите ще бъдат показвани %.1f секунди по-рано</item>
         <item quantity="one">Субтитрите ще бъдат показвани %.1f секунда по-рано</item>
@@ -23,6 +27,10 @@
     <plurals name="lv_video_count">
         <item quantity="other">%d видеоклип</item>
         <item quantity="one">%d клип</item>
+    </plurals>
+    <plurals name="mediation_animate_close_after">
+        <item quantity="other">остават %s сек</item>
+        <item quantity="one">остават %s сек</item>
     </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">Вашето съдържание съдържа неща (%1$s), които нарушават стандартите на нашата общност. Профилът Ви е деактивиран за %2$d дни – до %3$s.</item>
@@ -63,6 +71,18 @@
     <plurals name="plus_serval_videos">
         <item quantity="other">%d видеоклип</item>
         <item quantity="one">%d видео</item>
+    </plurals>
+    <plurals name="s_double_tap_backward">
+        <item quantity="other">Двойно натискане за превъртане %d секунди назад</item>
+        <item quantity="one">Двойно натискане за превъртане %d секунда назад</item>
+    </plurals>
+    <plurals name="s_double_tap_forward">
+        <item quantity="other">Двойно натискане за превъртане %d секунди напред</item>
+        <item quantity="one">Двойно натискане за превъртане %d секунда напред</item>
+    </plurals>
+    <plurals name="s_forward_tip">
+        <item quantity="other">%1$s сек</item>
+        <item quantity="one">%1$s сек</item>
     </plurals>
     <plurals name="subscriber">
         <item quantity="other">%s абонати</item>

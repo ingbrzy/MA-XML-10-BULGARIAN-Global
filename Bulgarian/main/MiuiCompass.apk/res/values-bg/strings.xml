@@ -33,7 +33,7 @@
     <string name="altitude_title">Височина</string>
     <string name="altitude_uncalibrate_cancel">Отказ</string>
     <string name="altitude_uncalibrate_msg">Не може точно да се калибрира височината без GPS или връзка с мобилни данни.</string>
-    <string name="altitude_uncalibrate_refresh">Нов опит</string>
+    <string name="altitude_uncalibrate_refresh">Опитайте отново</string>
     <string name="altitude_uncalibrate_tip">Некалибрирани данни</string>
     <string name="altitude_unit">м</string>
     <string name="angle">%.0f</string>
@@ -79,6 +79,7 @@
     <string name="location_enabled">Услугата е активирана, можете да я деактивирате от Настройки > Местоположение</string>
     <string name="location_north">С.Ш.</string>
     <string name="location_not_enabled_summary">Приложението Компас се нуждае от достъп до вашето местоположение за да показва координати и други принадлежности.</string>
+    <string name="location_not_enabled_summary_no_pressure_sensor">Компаса се нуждае от достъп до местоположението ви, за да показва текущите ви координати.</string>
     <string name="location_not_enabled_title">Активиране на позиционирането</string>
     <string name="location_south">Ю.Ш.</string>
     <string name="location_west">З.Д.</string>

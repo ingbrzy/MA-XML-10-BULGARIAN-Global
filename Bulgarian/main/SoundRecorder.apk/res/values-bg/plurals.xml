@@ -28,13 +28,17 @@
         <item quantity="other">Изтеглени записи: %d</item>
         <item quantity="one">%d изтеглен запис</item>
     </plurals>
+    <plurals name="recovery_failed_dialog_message">
+        <item quantity="other">Неуспешно възстановяване на %d елемента поради неизвестна грешка.</item>
+        <item quantity="one">Неуспешно възстановяване на %d елемент поради неизвестна грешка.</item>
+    </plurals>
     <plurals name="search_alll_records_hint">
         <item quantity="other">Търси сред %d записа</item>
         <item quantity="one">Търси сред %d запис</item>
     </plurals>
     <plurals name="search_app_records_hint">
-        <item quantity="other">Search among %d recordings</item>
-        <item quantity="one">Search among %d recording</item>
+        <item quantity="other">Търси измежду %d записа</item>
+        <item quantity="one">Търси измежду %d запис</item>
     </plurals>
     <plurals name="search_call_records_hint">
         <item quantity="other">Търси сред %d записа на повикване</item>
@@ -43,6 +47,18 @@
     <plurals name="search_result">
         <item quantity="other">Открити са %d записа</item>
         <item quantity="one">Открит е %d запис</item>
+    </plurals>
+    <plurals name="time_left_for_clear_file">
+        <item quantity="other">Остават %d дни</item>
+        <item quantity="one">Остава %d ден</item>
+    </plurals>
+    <plurals name="trash_box_delete_items">
+        <item quantity="other">Изтриване на %d избрани записа завинаги?</item>
+        <item quantity="one">Изтриване на %d избран запис завинаги?</item>
+    </plurals>
+    <plurals name="trash_box_tip">
+        <item quantity="other">Изтрити елементи ще се съхраняват в кошчето до %d дни</item>
+        <item quantity="one">Изтрити елементи ще се съхраняват в кошчето до %d ден</item>
     </plurals>
     <plurals name="unsynced_records_count">
         <item quantity="other">%d несинхронизирани</item>

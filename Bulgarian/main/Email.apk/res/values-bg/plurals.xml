@@ -25,8 +25,8 @@
         <item quantity="one">Изтриване на %1$d чернова?</item>
     </plurals>
     <plurals name="contact_num_selected">
-        <item quantity="other">%d са избрани</item>
-        <item quantity="one">%d е избран</item>
+        <item quantity="other">Добавени%dконтакта</item>
+        <item quantity="one">Добавен%dконтакт</item>
     </plurals>
     <plurals name="conversation_archived">
         <item quantity="other">&lt;b>%1$d&lt;/b> са архивирани.</item>
@@ -115,6 +115,46 @@
     <plurals name="num_selected">
         <item quantity="other">%d са избрани</item>
         <item quantity="one">%d е избран</item>
+    </plurals>
+    <plurals name="number_of_day_after">
+        <item quantity="other">%1$d дни след</item>
+        <item quantity="one">%1$d ден след</item>
+    </plurals>
+    <plurals name="number_of_day_before">
+        <item quantity="other">%1$d дни преди</item>
+        <item quantity="one">%1$d ден преди</item>
+    </plurals>
+    <plurals name="number_of_hour_after">
+        <item quantity="other">%1$d часа след</item>
+        <item quantity="one">%1$d час след</item>
+    </plurals>
+    <plurals name="number_of_hour_before">
+        <item quantity="other">%1$d часа преди</item>
+        <item quantity="one">%1$d час преди</item>
+    </plurals>
+    <plurals name="number_of_minute_after">
+        <item quantity="other">%1$d минути след</item>
+        <item quantity="one">%1$d минута след</item>
+    </plurals>
+    <plurals name="number_of_minute_before">
+        <item quantity="other">%1$d минути преди</item>
+        <item quantity="one">%1$d минута преди</item>
+    </plurals>
+    <plurals name="number_of_second_after">
+        <item quantity="other">%1$d секунди след</item>
+        <item quantity="one">%1$d секунда след</item>
+    </plurals>
+    <plurals name="number_of_second_before">
+        <item quantity="other">%1$d секунди преди</item>
+        <item quantity="one">%1$d секунда преди</item>
+    </plurals>
+    <plurals name="number_of_week_after">
+        <item quantity="other">%1$d седмици след</item>
+        <item quantity="one">%1$d седмица след</item>
+    </plurals>
+    <plurals name="number_of_week_before">
+        <item quantity="other">%1$d седмици преди</item>
+        <item quantity="one">%1$d седмица преди</item>
     </plurals>
     <plurals name="quick_reply_hint">
         <item quantity="other">Отговор на %1$d лице</item>

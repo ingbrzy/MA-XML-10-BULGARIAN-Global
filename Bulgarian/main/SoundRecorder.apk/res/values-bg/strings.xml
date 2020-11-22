@@ -33,8 +33,8 @@
     <string name="alert_message_delete_record">Изтриването на записа от устройството ще го изтрие и от Xiaomi Cloud. Да се изтрие ли?</string>
     <string name="alert_message_delete_record_title">Изтриване на записа</string>
     <string name="app_name">Звукозапис</string>
-    <string name="app_record">App recordings</string>
-    <string name="app_record_preference_title">App recordings</string>
+    <string name="app_record">Записи от приложения</string>
+    <string name="app_record_preference_title">Записи от приложения</string>
     <string name="back">Назад</string>
     <string name="button_queue_for_wifi">Чрез Wi-Fi</string>
     <string name="button_start_now">Изтегляне</string>
@@ -108,7 +108,7 @@
     <string name="korea_permission_record_resc">За записване на звук</string>
     <string name="korea_permission_storage">Съхранение</string>
     <string name="korea_permission_storage_desc">За съхраняване на записи</string>
-    <string name="loading_more">Един момент…</string>
+    <string name="loading_more">Момент…</string>
     <string name="loading_order_list">Момент…</string>
     <string name="loading_order_list_empty">Тук няма поръчки.</string>
     <string name="low_battery_error">Остават по-малко от 5% батерия. Спрете и запазете записа си, за да не се изгуби.</string>
@@ -128,6 +128,7 @@
     <string name="network_unavailable_tip">Свържете се с мрежата и опитайте отново.</string>
     <string name="new_record_name">Нов звукозапис</string>
     <string name="no_file">Няма звукозаписи</string>
+    <string name="no_network">"Couldn't connect to the network"</string>
     <string name="not_set">Не е зададено</string>
     <string name="notification_message_all_paused">Възможно е повишаване на трафика на мобилни данни.</string>
     <string name="notification_playback">Пускане на звукозаписа...</string>
@@ -175,7 +176,7 @@
     <string name="preference_enable_earpiece_summary">Използване на изхода за слушалки за възпроизвеждане на външно устройство</string>
     <string name="preference_enable_earpiece_title">Външен изход</string>
     <string name="preference_led_indicator">Индикатор за записване при заключен екран</string>
-    <string name="preference_led_indicator_prompt">По време на звукозапис показвай кратък път до лентата на състоянието и индикирай с уведомителна светлина</string>
+    <string name="preference_led_indicator_prompt">По време на звукозапис да се показва пряк път до статус лентата, и примигащата светлина за известия да е активна</string>
     <string name="preference_online_orders">Онлайн поръчки</string>
     <string name="preference_recog_faqs">Онлайн разпознаване ЧЗВ</string>
     <string name="preference_recog_terms">Условия за използване</string>
@@ -184,7 +185,7 @@
     <string name="preference_record_scenes_dialog_title">Избор на сцена</string>
     <string name="preference_scenes">Настройки на сцените</string>
     <string name="preference_silent_mode">Тих звукозапис</string>
-    <string name="preference_status_bar_indicator_prompt">Покажи пряк път на лента за състоянието, докато записваш</string>
+    <string name="preference_status_bar_indicator_prompt">По време на звукозапис да се показва пряк път до статус лентата</string>
     <string name="preference_tip_rename">Показване на диалог за преименуване след край на записа</string>
     <string name="privacy_policy_title">Политика на поверителност</string>
     <string name="recognition_button_add_to_queue">Добавяне към чакащите</string>
@@ -240,7 +241,7 @@
     <string name="record_downloading_notification_count">Изтегляне: %d</string>
     <string name="record_format_preference_title">Формат на запис</string>
     <string name="record_list">Списък със звукозаписи</string>
-    <string name="record_list_app">App recordings</string>
+    <string name="record_list_app">Записи от приложения</string>
     <string name="record_list_call">Записи на обаждания</string>
     <string name="record_list_category_title_format">MMMM yyyy</string>
     <string name="record_list_cloud">Записи в облака</string>
@@ -258,6 +259,9 @@
     <string name="recording_quality_low">Ниско качество</string>
     <string name="recording_quality_standard">Стандартно качество</string>
     <string name="recording_stopped">Звукозаписът спря</string>
+    <string name="recovery">Възстановяване</string>
+    <string name="recovery_failed_dialog_button">Разбрах</string>
+    <string name="recovery_failed_dialog_title">Внимание</string>
     <string name="reg_error_audio_exist">Този файл вече съществува.</string>
     <string name="reg_error_audio_large">Аудио файловете не могат да са по-големи от 500MB.</string>
     <string name="reg_error_audio_short">Аудио файлът е твърде малък.</string>
@@ -276,12 +280,13 @@
     <string name="rename_no_more_tip">Без ново запитване</string>
     <string name="retry">Нов опит</string>
     <string name="runtime_permission_ungranted">Не може да използвате Звукозапис, поради нелегитимни права</string>
+    <string name="save_record_dialog_title">Запазване на запис</string>
     <string name="search_app">Звукозапис</string>
     <string name="search_empty">Не са открити резултати</string>
     <string name="search_enable_earpiece_title">Използвай слушалката за просвирване на аудио</string>
     <string name="search_hint">Търсене</string>
     <string name="search_led_indicator">Уведомления на заключен екран</string>
-    <string name="search_led_indicator_prompt">Когато се записва, да се покаже в лентата за уведомления с пулсираща светлина от лед-индикатора при заключен екран</string>
+    <string name="search_led_indicator_prompt">По време на звукозапис да се показва пряк път до статус лентата, и примигащата светлина за известия да е активна при Заключен екран</string>
     <string name="search_menu_title">Търсене</string>
     <string name="search_quliaty_title">Качество на звукозапис</string>
     <string name="search_scenes">Тип на звукозапис</string>
@@ -297,10 +302,10 @@
     <string name="speech_recognition_complete">Разпознато</string>
     <string name="speech_recognition_running_tip">"Обработка "</string>
     <string name="start">Възобновяване</string>
-    <string name="status_bar_back">За да се върнете назад, докоснете тук</string>
+    <string name="status_bar_back">Натиснете, за да се върнете към Звукозапис</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="status_bar_recording">Записване...</string>
-    <string name="status_bar_recording_pause">"Записването е сложено на пауза. "</string>
+    <string name="status_bar_recording">Записване…</string>
+    <string name="status_bar_recording_pause">Звукозаписа е на пауза</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="text_btn_backward_3_seconds">3 секунди назад</string>
     <string name="text_btn_complete">Завършени</string>
@@ -319,11 +324,14 @@
     <string name="text_play_speed_1_5">скорост на възпроизвеждане 1.5X</string>
     <string name="text_play_speed_2_0">скорост на възпроизвеждане 2X</string>
     <string name="timer_format" formatted="false">%02d:%02d</string>
-    <string name="timer_format_three_sections" formatted="false">%02d:%02d:%02d</string>
     <string name="title_activity_recinbox_sdk_browser">RecinboxSdkBrowser</string>
     <string name="toast_max_record_time">App: %1$s максимално време за запис %2$s</string>
     <string name="toast_uninstall_fileexplorer">Файлов мениджър не е инсталиран</string>
+    <string name="trash_box">Наскоро изтрити елементи</string>
+    <string name="trash_box_close_tip">Затваряне</string>
+    <string name="trash_box_delete_all">Изтриване на всички елементи от кошчето завинаги?</string>
     <string name="usage_description">Транскрибиране на аудио и синхронизиране на елементи с облака</string>
+    <string name="user_feedback">Отзиви</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
     <string name="webview_check_network">Мрежови настройки</string>

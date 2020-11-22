@@ -26,57 +26,58 @@
         <item></item>
         <item>Mi Fit</item>
         <item>Mi VR</item>
+        <item>Xiaomi Wear</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Използвай избора на системата (По подразбиране)</item>
+        <item>Използване на системни предпочитания (По подразбиране)</item>
         <item>16 битов/модел</item>
         <item>24 битов/модел</item>
         <item>32 битов/модел</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Използвай избора на системата (По подразбиране)</item>
+        <item>Използване на системни предпочитания (По подразбиране)</item>
         <item>16 битов/модел</item>
         <item>24 битов/модел</item>
         <item>32 битов/модел</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Използвай избора на системата (По подразбиране)</item>
+        <item>Използване на системни предпочитания (По подразбиране)</item>
         <item>Моно</item>
         <item>Стерео</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Използвай избора на системата (По подразбиране)</item>
+        <item>Използване на системни предпочитания (По подразбиране)</item>
         <item>Моно</item>
         <item>Стерео</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
-        <item>Оптимизирано за Аудио Качество</item>
-        <item>Балансирано за Аудио Качество и качество на Свързване</item>
-        <item>Оптимизирано за качество на Свързване</item>
-        <item>Най-добро усилие ( Адаптиран Битрейт)</item>
+        <item>Оптимизирано за качество на аудиото</item>
+        <item>Балансирано за качество на аудио и качество на връзка</item>
+        <item>Оптимизирано за качество на връзката</item>
+        <item>Най-добър резултат (Автоматичен битрейт)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>Оптимизирано за Аудио Качество (990kbps/909kbps)</item>
-        <item>Балансирано за Аудио Качество и Свързване (660kbps/606kbps)</item>
-        <item>Оптимизирано за качество на Свързване (330kbps/303kbps)</item>
-        <item>Най-добро усилие ( Адаптиран Битрейт)</item>
+        <item>Оптимизирано за качество на аудио (990kbps/909kbps)</item>
+        <item>Балансирано качество на аудио и качество на връзка (660kbps/606kbps)</item>
+        <item>Оптимизирано за качество на връзка (330kbps/303kbps)</item>
+        <item>Най-добър резултат (Автоматичен битрейт)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Използвай избора на системата (По подразбиране)</item>
+        <item>Използване на системни предпочитания (По подразбиране)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Използвай избора на системата (По подразбиране)</item>
+        <item>Използване на системни предпочитания (По подразбиране)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Използвай избора на системата (По подразбиране)</item>
+        <item>Използване на системни предпочитания (По подразбиране)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>Qualcomm® aptX™ аудио</item>
@@ -87,23 +88,21 @@
         <item>LHDC V3</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
-        <item>Активиране на опционалните кодеци</item>
-        <item>Деактивиране на опционалните кодеци</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Използвай избора на системата (По подразбиране)</item>
+        <item>Използване на системни предпочитания (По подразбиране)</item>
         <item>SBC</item>
         <item>AAC</item>
-        <item>Qualcomm® aptX™ audio</item>
-        <item>Qualcomm® aptX™ HD audio</item>
+        <item>Qualcomm® aptX™ аудио</item>
+        <item>Qualcomm® aptX™ HD аудио</item>
         <item>LDAC</item>
         <item>Qualcomm® aptX™ Адаптивно аудио</item>
         <item>Qualcomm® aptX™ TWS+ аудио</item>
         <item>LHDC V3</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
-        <item>Активиране на опционалните кодеци</item>
-        <item>Деактивиране на опционалните кодеци</item>
+        <item>Активиране на кодеци по избор</item>
+        <item>Деактивиране на кодеци по избор</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -123,12 +122,22 @@
         <item>AVRCP 1.5</item>
         <item>AVRCP 1.6</item>
     </string-array>
+    <string-array name="bluetooth_map_version_values">
+        <item>map12</item>
+        <item>map13</item>
+        <item>map14</item>
+    </string-array>
+    <string-array name="bluetooth_map_versions">
+        <item>MAP 1.2 (По подразбиране)</item>
+        <item>MAP 1.3</item>
+        <item>MAP 1.4</item>
+    </string-array>
     <string-array name="bt_hci_snoop_log_entries">
         <item>Деактивирано</item>
-        <item>Активирай Филтри</item>
+        <item>Филтрирани</item>
         <item>Включено</item>
-        <item>Опцията \"Филтрирани хедъри\" е включена.</item>
-        <item>Опцията \"Филтрирани медийни пакети\" е включена.</item>
+        <item>Филтрирани заглавия</item>
+        <item>Филтрирани медия пакети</item>
     </string-array>
     <string-array name="color_mode_descriptions">
         <item>Подобрени цветове</item>
@@ -177,31 +186,31 @@
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
         <item>Изкл</item>
-        <item>64KБ</item>
-        <item>256KБ</item>
-        <item>1МБ</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Изкл</item>
-        <item>64KБ за буфер регистър</item>
-        <item>256KБ за буфер регистър</item>
-        <item>1МБ за буфер регистър</item>
-        <item>4МБ за буфер регистър</item>
-        <item>16МБ за буфер регистър</item>
+        <item>64 KB за буфер регистър</item>
+        <item>256 KB за буфер регистър</item>
+        <item>1 MB за буфер регистър</item>
+        <item>4 MB за буфер регистър</item>
+        <item>16 MB за буфер регистър</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Изкл</item>
-        <item>64KБ</item>
-        <item>256KБ</item>
-        <item>1МБ</item>
-        <item>4МБ</item>
-        <item>16MБ</item>
+        <item>64 KB</item>
+        <item>256 KB</item>
+        <item>1 MB</item>
+        <item>4 MB</item>
+        <item>16 MB</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Изкл</item>
         <item>Всички регистри на буфери</item>
         <item>Всички, освен регистър на радиото</item>
-        <item>Само регистър на ядрото</item>
+        <item>Само буфер регистър на ядрото</item>
     </string-array>
     <string-array name="select_logpersist_titles">
         <item>Изкл</item>
@@ -217,7 +226,7 @@
     <string-array name="track_frame_time_entries">
         <item>Изкл</item>
         <item>Покажи екрана на блокчета</item>
-        <item>In adb shell dumpsys gfxinfo</item>
+        <item>В adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>Изключване на анимациите</item>
@@ -252,10 +261,10 @@
     </string-array>
     <string-array name="usb_configuration_titles">
         <item>Зареждане</item>
-        <item>MTP (Media Transfer Protocol)</item>
-        <item>PTP (Picture Transfer Protocol)</item>
+        <item>MTP (Протокол за Трансфер на Медия)</item>
+        <item>PTP (Протокол за Трансфер на Снимки)</item>
         <item>RNDIS (USB Ethernet)</item>
-        <item>Аудио източник</item>
+        <item>Източник на аудио</item>
         <item>MIDI</item>
     </string-array>
     <string-array name="wifi_status">

@@ -56,6 +56,10 @@
         <item quantity="other">%d Wi-Fi мрежи</item>
         <item quantity="one">%d Wi-Fi мрежа</item>
     </plurals>
+    <plurals name="dirty_wlan_count_china">
+        <item quantity="other">%d WLAN мрежи</item>
+        <item quantity="one">%d WLAN мрежа</item>
+    </plurals>
     <plurals name="items_unsynced">
         <item quantity="other">Изчакващи синхронизиране: %d</item>
         <item quantity="one">Изчакващи синхронизиране: %d</item>
@@ -75,5 +79,9 @@
     <plurals name="provision_sync_items_status_title">
         <item quantity="other">%s услуги ще бъдат синхр. с Xiaomi Облак</item>
         <item quantity="one">%s услуга ще бъде синхр. с Xiaomi Облак</item>
+    </plurals>
+    <plurals name="select_no_more_than">
+        <item quantity="other">Не може да се избират повече от %d елемента.</item>
+        <item quantity="one">Не може да се избира повече от %d елемент.</item>
     </plurals>
 </resources>
