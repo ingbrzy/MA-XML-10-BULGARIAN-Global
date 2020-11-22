@@ -467,6 +467,7 @@
     <string name="friday">Петък</string>
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Име</string>
     <string name="gallery">Галерия</string>
     <string name="ghostData_company">Фирма</string>
@@ -588,6 +589,7 @@
     <string name="menu_sync_remove">Премахни синхронизацията за групата</string>
     <string name="midnight">Нощ</string>
     <string name="miprofile_account_type">Mi профил</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Редакция на профила</string>
     <string name="miprofile_name">Моят профил</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -716,6 +718,7 @@
     <string name="payphone">Обществен телефон</string>
     <string name="people">Контакти</string>
     <string name="phoneLabelsGroup">Телефон</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Номерът е твърде дълъг</string>
     <string name="phone_primary">Основен</string>
     <string name="photoPickerNotFoundText">Няма налични изображения в устройството.</string>
@@ -913,6 +916,7 @@
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Няма членове на групата</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">По фирма</string>
     <string name="smart_group_company_unavailable">Неизвестна фирма</string>
     <string name="smart_group_frequency_1">В рамките на месец</string>
@@ -954,6 +958,7 @@
     <string name="starred_contacts">Любими</string>
     <string name="status_available">Достъпен</string>
     <string name="status_away">Отсъстващ</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Зает</string>
     <string name="strequentList">Любими</string>
     <string name="success_message_import_from_account">Успешно импортиране</string>

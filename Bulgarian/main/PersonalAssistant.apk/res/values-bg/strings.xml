@@ -148,6 +148,7 @@
     <string name="saturday_short">Сб.</string>
     <string name="saturday_shortest">Сб.</string>
     <string name="search_menu_title">Търсене</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>
