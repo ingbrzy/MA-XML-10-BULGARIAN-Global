@@ -86,6 +86,14 @@
         <item quantity="other">останаха %d безплатни тегления</item>
         <item quantity="one">остана %d безплатно теглене</item>
     </plurals>
+    <plurals name="list_header_fans_count">
+        <item quantity="other">%d последователи</item>
+        <item quantity="one">%d последовател</item>
+    </plurals>
+    <plurals name="list_header_follow_count">
+        <item quantity="other">Следване на %d души</item>
+        <item quantity="one">Следване на %d човек</item>
+    </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">Избрани: %d елементи</item>
         <item quantity="one">Избран %d елемент</item>

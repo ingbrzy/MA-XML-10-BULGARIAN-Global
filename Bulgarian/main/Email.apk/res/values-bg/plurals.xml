@@ -92,17 +92,9 @@
         <item quantity="other">"%s  резултати в синхронизирани съобщения"</item>
         <item quantity="one">"%s  резултат в синхронизирани съобщения"</item>
     </plurals>
-    <plurals name="month">
-        <item quantity="other">%d месеци</item>
-        <item quantity="one">%d месец</item>
-    </plurals>
     <plurals name="more_atts_remaining">
         <item quantity="other">%1$d прикачени файлове остават</item>
         <item quantity="one">%1$d прикачен файл остава</item>
-    </plurals>
-    <plurals name="move_conversation">
-        <item quantity="other">Премести %1$d разговорите</item>
-        <item quantity="one">Премести разговора</item>
     </plurals>
     <plurals name="new_incoming_messages_many">
         <item quantity="other">Показване на %1$d нови съобщения.</item>
@@ -155,10 +147,6 @@
     <plurals name="number_of_week_before">
         <item quantity="other">%1$d седмици преди</item>
         <item quantity="one">%1$d седмица преди</item>
-    </plurals>
-    <plurals name="quick_reply_hint">
-        <item quantity="other">Отговор на %1$d лице</item>
-        <item quantity="one">Отговор на %1$d лице</item>
     </plurals>
     <plurals name="remote_search_result">
         <item quantity="other">"%s  резултати във всички профили"</item>

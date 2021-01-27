@@ -65,6 +65,10 @@
     <string name="about">Относно</string>
     <string name="action_settings">Настройки</string>
     <string name="ad_install">Инсталиране</string>
+    <string name="add_download_download">Изтегляне</string>
+    <string name="add_download_error_not_support">Този линк не се поддържа</string>
+    <string name="add_download_text_hint">Въведете HTTP/HTTPS линк</string>
+    <string name="add_download_title">Добавяне на URL</string>
     <string name="all_downloads">Всички изтегляния</string>
     <string name="all_fileter">Всичко</string>
     <string name="all_share_files_content">Избраните файлове вече са изтрити.</string>
@@ -89,6 +93,8 @@
     <string name="dialog_btn_cancel">Отказ</string>
     <string name="dialog_btn_ok">OК</string>
     <string name="dialog_btn_ok_disabled_net">Мрежови настройки</string>
+    <string name="dialog_clipboard_permission_message">Желаете ли да разрешите на Изтегляния достъп до елементите в клипборда, за да е възможно автоматично добавяне на копирани URL адреси?</string>
+    <string name="dialog_clipboard_permission_title">Необходими са разрешения</string>
     <string name="dialog_confirm_delete_checkbox_message">Изтрий също и локалните файлове</string>
     <string name="dialog_confirm_delete_the_download_item_message">Изтрий тези задачи</string>
     <string name="dialog_file_missing_title">Не мога да отворя файла</string>
@@ -124,19 +130,13 @@
     <string name="download_when_network_connected">Изтегляне с помощта на мобилни данни</string>
     <string name="downloaded">Изтеглянето е завършено</string>
     <string name="downloaded_empty">Празно</string>
+    <string name="downloaded_tab_hint">Можете да прегледате изтеглените елементи в Управление на файлове</string>
     <string name="downloading">Изтегляне…</string>
     <string name="downloading_empty">Празно</string>
     <string name="downloads_operating">Обработка…</string>
-    <string name="durationDayHour">%1$d ден и %2$d ч</string>
-    <string name="durationDayHours">%1$d ден %2$d ч</string>
-    <string name="durationHourMinute">%1$d ч и %2$d мин</string>
-    <string name="durationHourMinutes">%1$d ч и %2$d мин</string>
-    <string name="durationMinute">%1$d мин</string>
-    <string name="durationMinuteSecond">%1$d мин и %2$d с</string>
-    <string name="durationMinuteSeconds">%1$d мин и %2$d с</string>
-    <string name="durationMinutes">%1$d мин</string>
-    <string name="durationSecond">%1$d сек</string>
-    <string name="durationSeconds">%1$d сек</string>
+    <string name="durationDayHours">%1$s %2$s</string>
+    <string name="durationHourMinutes">%1$s %2$s</string>
+    <string name="durationMinuteSeconds">%1$s %2$s</string>
     <string name="editmode_menu_delete">Изтриване</string>
     <string name="editmode_menu_share">Споделяне</string>
     <string name="extend">Още</string>
@@ -166,7 +166,7 @@
     <string name="korean_privacy_tv_summary">Прочетете внимателно следващия текст и изберете дали ще го приемете.</string>
     <string name="korean_user_agreement_item_title">Потребителско споразумение (задължително)</string>
     <string name="load_finish_hint">Това е всичко за сега.</string>
-    <string name="loading">Един момент…</string>
+    <string name="loading">Момент…</string>
     <string name="media_filter">Медия</string>
     <string name="megabyteShort_per_seconds">МБ/сек</string>
     <string name="menu_all_task_pause">Всички на пауза</string>
@@ -205,10 +205,20 @@
     <string name="pref_download_settings_title">Лимит на размера за изтегляне</string>
     <string name="pref_summary_any_bytes_popup">Винаги изчаквай Wi-Fi връзка за изтегляне на файлове</string>
     <string name="pref_summary_enable_max_bytes_popup">Показвай известие при използване на мобилни данни за изтегляне на съдържание</string>
-    <string name="pref_summary_max_bytes_limit_format">Изчакай Wi-Fi, ако размера на файла надвишава %s</string>
     <string name="pref_summary_no_limit_popup">Без лимит</string>
     <string name="pref_title_enable_max_bytes_popup">Предупреди за използване на мобилни данни</string>
     <string name="preferences_title">Настройки</string>
+    <string name="privacy_agree_dialog_msg">&lt;Data>Добре дошли в Изтегляния! Можете да използвате това приложение, за да изтегляте файлове.&lt;BR>За да ви предостави услугите, които генерират статистиките за изтегляния, Изтегляния се нуждае да събира задължителна лична информация. Можете да научите как обработваме събраната информация в &lt;a href=\"%1$s\">Правилата за поверителност&lt;/a>.&lt;BR>Прочетете и приемете нашето &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%1$s\">Правила за поверителност&lt;/a> преди да използвате Изтегляния.&lt;BR>Можете да оттеглите съгласието си за Правилата за поверителност на Съобщения в Настройки по всяко време. Ако не приемете нашите Правила за поверителност няма да имате достъп до някои от услугите на това приложение; но все още ще можете да използвате основните функции.&lt;/Data></string>
+    <string name="privacy_agree_dialog_title">Условия за ползване</string>
+    <string name="privacy_revoke_dialog_later">Отказ</string>
+    <string name="privacy_revoke_dialog_msg">Превключвайки бутона вие оттегляте съгласието си за Правилата за поверителност на Изтегляния. Ние ще спрем да събираме вашите лични данни. Вече събраните лични данни ще бъдат изтрити в рамките на специфичния период посочен в приложимото законодателство. Изтегляния събира вашите лични данни, за да ви предоставя услуги, които генерират статистики на изтегляне. Оттеглянето на вашето съгласие за Правилата за поверителност ще се счита за отказ от услугите, които се базират на вашите събрани лични данни.</string>
+    <string name="privacy_revoke_dialog_ok">Оттегляне</string>
+    <string name="privacy_revoke_dialog_title">Оттегляне на съгласие</string>
+    <string name="privacy_revoke_label">Оттегляне на съгласие</string>
+    <string name="privacy_revoke_msg">Превключвайки бутона Вие оттегляте съгласието си за Правилата за поверителност на Изтегляния.</string>
+    <string name="privacy_revoke_nonetwork_msg">Вашето устройство се нуждае от връзка с мрежата, за да можете да оттеглите съгласието си. Проверете мрежовите си настройки и опитайте отново.</string>
+    <string name="privacy_revoke_nonetwork_ok">Разбрах</string>
+    <string name="privacy_revoke_nonetwork_title">Неуспешно свързване с мрежата</string>
     <string name="privacy_tip_cancel">Отказ</string>
     <string name="privacy_tip_ok">OК</string>
     <string name="rank">Предпочитани</string>
@@ -249,5 +259,4 @@
     <string name="toast_only_wifi_download">Свържете се с Wi-Fi, за да изтеглите този елемент</string>
     <string name="total_speedup">Усилване на скоростта (Всичко)</string>
     <string name="version">Версия %s</string>
-    <string name="security_ui_title">Реклами за сигурност</string>
 </resources>

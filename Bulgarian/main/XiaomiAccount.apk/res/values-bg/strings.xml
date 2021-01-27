@@ -47,7 +47,7 @@
     <string name="account_has_been_set">Промени</string>
     <string name="account_invalid_user_avatar">Тази снимка е невалидна. Оптитайте с друга.</string>
     <string name="account_limit_update_birthday">Съжаляваме, но в момента е невъзможно да обработим вашата заявка.</string>
-    <string name="account_mibi_center">Mi Кредити</string>
+    <string name="account_mibi_center">Mi Монети</string>
     <string name="account_mibi_charge">Заредете</string>
     <string name="account_mipay_info">Mi плащане</string>
     <string name="account_no_set">Няма</string>
@@ -83,7 +83,7 @@
     <string name="activate_email_notice">Уверете се, че сте активирали профила си в рамките на 24 часа.</string>
     <string name="activity_not_found_notice">Не може да се намери приложението</string>
     <string name="add_account">Добавяне на профил</string>
-    <string name="agreement_and_privacy">Политика на поверителност и Потребителско споразумение</string>
+    <string name="agreement_and_privacy">Условия за ползване</string>
     <string name="app_name">Mi профил</string>
     <string name="auth_fail_warning">Сесията е изтекла, опитайте по-късно</string>
     <string name="authorize_title">Оторизация</string>
@@ -204,6 +204,7 @@ ID:%s
     <string name="health_state_not_activated">Не е активиран</string>
     <string name="health_state_not_installed">Не е инсталирано</string>
     <string name="health_state_not_support">Не се поддържа в тази версия</string>
+    <string name="help_center">Помощ</string>
     <string name="i_agree">OK</string>
     <string name="i_agree_continue">Съгласен</string>
     <string name="identity">Идентифициране</string>
@@ -287,7 +288,7 @@ ID:%s
     <string name="passport_checking_input">Проверка на данните…</string>
     <string name="passport_click_email_to_valid">За да активирате Вашият профил, последвайте линка, който изпратихме на пощата Ви.</string>
     <string name="passport_completed">Завършване</string>
-    <string name="passport_confirm_login">Продължи</string>
+    <string name="passport_confirm_login">Вписване</string>
     <string name="passport_confirm_recycle_account">Да</string>
     <string name="passport_confirm_recycle_account_msg">&lt;font color=Red>Изглежда че&lt;/font> номерът %s е бил променен от вашия оператор и няма Mi Профил, който да е свързан с него. Този профил вашият ли е?</string>
     <string name="passport_continue">Продължи</string>
@@ -325,7 +326,7 @@ ID:%s
     <string name="passport_error_verify_activator_phone_title">Телефонният номер не беше потвърден</string>
     <string name="passport_failed_to_send_activate_email">Не може да се изпрати имейл за активиране</string>
     <string name="passport_find_password_on_web_msg">Посетете account.mi.com за възстановяване на вашата парола.</string>
-    <string name="passport_first_login_prompt">Mi Профил ще бъде създаден автоматично, когато се регистрирате за пръв път.</string>
+    <string name="passport_first_login_prompt">Автоматично ще бъде създаден Mi Профил когато използвате телефонен номер за пръв път.</string>
     <string name="passport_forget_password"><u>Забравена парола</u></string>
     <string name="passport_forget_password_no_underline">Забравена парола</string>
     <string name="passport_get_back_pwd">Възстанови паролата</string>
@@ -440,8 +441,8 @@ ID:%s
     <string name="passport_setting">Настройва се…</string>
     <string name="passport_skip_login">Пропусни</string>
     <string name="passport_skip_register">Пропусни вписването</string>
-    <string name="passport_skip_setup_account_msg">Може да настроите вашият Mi профил по-късно от \"Настройки\".</string>
-    <string name="passport_skip_setup_account_title">Да не се ли използва Xiaomi Облак?</string>
+    <string name="passport_skip_setup_account_msg">Вписването в Mi Профил ви позволява да използвате услугите на Xiaomi Cloud. Желаете ли да пропуснете тази стъпка въпреки това?</string>
+    <string name="passport_skip_setup_account_title">Mi Профил и Xiaomi Cloud</string>
     <string name="passport_sms_send_success">Изпратено</string>
     <string name="passport_sms_verification_code_login">Вписване със SMS</string>
     <string name="passport_sms_verification_code_login_or_register">Впишете се или създайте профил чрез SMS</string>
@@ -567,7 +568,7 @@ ID:%s
     <string name="update_email_address_dialog_title">Обнови имейл</string>
     <string name="update_phone_notice">Промяна на настройките за сигурност</string>
     <string name="update_phone_number_notice_message">Необходимо е да потвърдите самоличността си, преди да обновите телефонния си номер.</string>
-    <string name="used_cloud_storage_info">Заето място в хранилището %s</string>
+    <string name="used_cloud_storage_info">Използвано %s</string>
     <string name="user_avatar_update_title">Промяна на профилната снимка</string>
     <string name="user_avatar_uploading">Качва се…</string>
     <string name="v7_preference_off">ИЗКЛ.</string>

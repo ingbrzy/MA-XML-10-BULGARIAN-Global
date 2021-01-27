@@ -28,6 +28,14 @@
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
     <string name="agree_desc">Дайте задължителните разрешения изброени по-горе.</string>
+    <string name="blackshark">Black Shark</string>
+    <string name="blackshark_1">Black Shark</string>
+    <string name="blackshark_2">Black Shark 2</string>
+    <string name="blackshark_2_pro">Black Shark 2 Pro</string>
+    <string name="blackshark_3">Black Shark 3</string>
+    <string name="blackshark_3_pro">Black Shark 3 Pro</string>
+    <string name="blackshark_helo">Black Shark Helo</string>
+    <string name="blackshark_phone">Black Shark</string>
     <string name="btn_cancel">Отмяна</string>
     <string name="btn_cancel_send">Отмени прехвърлянето</string>
     <string name="btn_exit_send">Изход</string>
@@ -50,6 +58,9 @@
     <string name="device_status_sending">Изпращане…</string>
     <string name="device_status_success">Успешно изпратено</string>
     <string name="device_status_waiting">Изчакване…</string>
+    <string name="device_type_blackshark_phone">Black Shark</string>
+    <string name="device_type_meizu_phone">Meizu</string>
+    <string name="device_type_oneplus_phone">OnePlus</string>
     <string name="device_type_oppo_phone">OPPO</string>
     <string name="device_type_pc">Компютри</string>
     <string name="device_type_realme_phone">realme</string>
@@ -100,6 +111,8 @@
     <string name="hide">Скрий</string>
     <string name="i_know">Разбрах</string>
     <string name="location_enabled">Mi Share включи услугите за местоположение, за да открие устройства наблизо</string>
+    <string name="meizu">Meizu</string>
+    <string name="meizu_phone">Meizu</string>
     <string name="mi_9_lite">Mi 9 Lite</string>
     <string name="mi_9t">Mi 9T</string>
     <string name="mi_9t_pro">Mi 9T Pro</string>
@@ -120,6 +133,8 @@ OPPO, vivo, realme и други марки скоро също ще бъдат 
     <string name="no_longer_receive">Блокиране на това устройство? Няма да можете да получавате файлове от него.</string>
     <string name="not_set">Не е зададено</string>
     <string name="notification_channel_name">Известия за прехвърляне</string>
+    <string name="oneplus">OnePlus</string>
+    <string name="oneplus_phone">OnePlus</string>
     <string name="operate_too_fast">Твърде бързо! Изчакайте, докато текущите операции завършат.</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
@@ -138,12 +153,16 @@ OPPO, vivo, realme и други марки скоро също ще бъдат 
     <string name="receive_file">Приеми</string>
     <string name="receive_only_from_contacts">Получавай файлове само от контакти</string>
     <string name="receiver_error">Неуспешно получаване. Изчакайте една-две минути и опитайте отново.</string>
+    <string name="redmi_10x">Redmi 10X</string>
+    <string name="redmi_10x_4g">Redmi 10X 4G</string>
+    <string name="redmi_10x_pro">Redmi 10X Pro</string>
     <string name="redmi_6">Redmi 6</string>
     <string name="redmi_6_pro">Redmi 6 Pro</string>
     <string name="redmi_6a">Redmi 6A</string>
     <string name="redmi_7a">Redmi 7A</string>
     <string name="redmi_8">Redmi 8</string>
     <string name="redmi_8a">Redmi 8A</string>
+    <string name="redmi_9">Redmi 9</string>
     <string name="redmi_k20">Redmi K20</string>
     <string name="redmi_k20_pro">Redmi K20 Pro</string>
     <string name="redmi_k30">Redmi K30</string>
@@ -154,10 +173,14 @@ OPPO, vivo, realme и други марки скоро също ще бъдат 
     <string name="redmi_note_7_pro">Redmi Note 7 Pro</string>
     <string name="redmi_note_8">Redmi Note 8</string>
     <string name="redmi_note_8_pro">Redmi Note 8 Pro</string>
+    <string name="redmi_note_9">Redmi Note 9</string>
+    <string name="redmi_note_9_pro">Redmi Note 9 Pro</string>
+    <string name="redmi_note_9_pro_max">Redmi Note 9 Pro Max</string>
+    <string name="redmi_note_9s">Redmi Note 9S</string>
     <string name="refuse_file">Откажи</string>
     <string name="retry_task">Изпрати отново</string>
     <string name="scanning_device_tips">Търсене на устройства наблизо… Уверете се, че другото устройство е в режим на видимост.</string>
-    <string name="scanning_only_xiaomi_device">Можете да изпратите този елемент само на устройство на Xiaomi</string>
+    <string name="scanning_only_xiaomi_device">This item can only be transferred to Xiaomi or Black Shark devices</string>
     <string name="search_menu_title">Търсене</string>
     <string name="send_files_to">Изпрати елементите към</string>
     <string name="send_files_to_remote_success">Успешно изпратени елементи на %1$s</string>
@@ -196,6 +219,8 @@ OPPO, vivo, realme и други марки скоро също ще бъдат 
     <string name="wifi_is_not_enabled_china">Първо включете WLAN</string>
     <string name="xiaomi">Mi</string>
     <string name="xiaomi_10">Mi 10</string>
+    <string name="xiaomi_10_lite">Mi 10 Lite</string>
+    <string name="xiaomi_10_lite_5g">Mi 10 Lite 5G</string>
     <string name="xiaomi_10_pro">Mi 10 Pro</string>
     <string name="xiaomi_6">Mi 6</string>
     <string name="xiaomi_6x">Mi 6X</string>
@@ -217,7 +242,9 @@ OPPO, vivo, realme и други марки скоро също ще бъдат 
     <string name="xiaomi_mix_3">Mi MIX 3</string>
     <string name="xiaomi_mix_3_5g">Mi MIX 3 5G</string>
     <string name="xiaomi_mix_alpha">Mi MIX Alpha</string>
+    <string name="xiaomi_note_10_lite">Mi Note 10 Lite</string>
     <string name="xiaomi_note_3">Mi Note 3</string>
     <string name="xiaomi_phone">Xiaomi</string>
     <string name="xiaomi_poco_f1">POCO F1</string>
+    <string name="xiaomi_poco_m2_pro">POCO M2 Pro</string>
 </resources>

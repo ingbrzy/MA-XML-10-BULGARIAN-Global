@@ -65,6 +65,7 @@
     <string name="ad_setting">Разширени настройки</string>
     <string name="add_music">Добавяне на песни</string>
     <string name="add_to_last_of_playlist">Добавете в края на списък за слушане.</string>
+    <string name="add_to_playlist">Добавяне към списъка</string>
     <string name="add_to_playlist_successful">Успешно добавено</string>
     <string name="added_next_play">Добавено към следващо изпълнение</string>
     <string name="agreement_desc">Потребителско споразумение (задължително)</string>
@@ -123,6 +124,7 @@
     <string name="back">Обратно</string>
     <string name="back_confirm">Чукнете още веднъж за изход</string>
     <string name="bluetooth_device">Bluetooth устройство</string>
+    <string name="btn_text_edit">Редактиране</string>
     <string name="buffering">Буфериране…</string>
     <string name="button_cancel_download">Отмени</string>
     <string name="button_download_now">Изтегляне сега</string>
@@ -135,7 +137,7 @@
     <string name="cancel_running_download">Отмени</string>
     <string name="cannot_download_to_sdcard_hint">Не могат да се изтеглят елементи на SD карта поради ограничения от авторско право. Вместо това елементите ще бъдат изтеглени на вътрешната памет.</string>
     <string name="change_download_quality">Променете качеството на изтегляне</string>
-    <string name="checking_new_version">Проверява се за актуализации…</string>
+    <string name="checking_new_version">Проверяване за обновления…</string>
     <string name="choose_download_quality">Изберете качество на изтегляне</string>
     <string name="choose_music_lang_pref">Предпочитани езици за песни</string>
     <string name="choose_stream_quality">Изберете качество на стрийма</string>
@@ -208,6 +210,7 @@
     <string name="dialog_insufficient_space_on_cache">Изтеглянето не може да бъде завършено. Няма достатъчно място на вътрешната памет.</string>
     <string name="dialog_insufficient_space_on_external">Изтеглянето не може да бъде завършено. Няма достатъчно място на SD картата.</string>
     <string name="dialog_media_not_found">Изтеглянето е невъзможно. Външния носител не е на разположение.</string>
+    <string name="dialog_message_unfollow">Прекратяване на следването на този човек?</string>
     <string name="dialog_my_playlist_online_changed_merge">Запази</string>
     <string name="dialog_my_playlist_online_changed_message">Изглежда тази плейлиста се е променила. Можете да я замените с новата версия или да запазите старата.</string>
     <string name="dialog_my_playlist_online_changed_replace">Замени</string>
@@ -235,6 +238,7 @@
     <string name="dialog_song_view_type_artist">По изпълнител</string>
     <string name="dialog_song_view_type_folder">По папка</string>
     <string name="dialog_song_view_type_song">По песен</string>
+    <string name="dialog_subtitle_make_playlist_public">Публичните плейлисти са видими за останалите. Личните плейлисти са видими само за вас на всички синхронизирани устройства.</string>
     <string name="dialog_title_clearlist_tracks">Премахни от опашката</string>
     <string name="dialog_title_delete_tracks">Изтриване</string>
     <string name="dialog_title_name_playlist">Име на плейлист</string>
@@ -280,7 +284,9 @@
     <string name="download_method">Изтегляне</string>
     <string name="download_no_application_title">Файлът не може да се отвори</string>
     <string name="download_paused_in_power_save_mode">Изтеглянето е спряно когато Икономия на батерията е включено</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Изтегля се…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Качество при изтегляне</string>
     <string name="download_quality_summary">Разширени настройки на песните, които сте изтеглили</string>
     <string name="download_queued">Чакащи</string>
@@ -368,7 +374,9 @@
     <string name="exo_media_action_repeat_all_description">Повтаряне на всички</string>
     <string name="exo_media_action_repeat_off_description">Без повтаряне</string>
     <string name="exo_media_action_repeat_one_description">Повтаряне на един елемент</string>
+    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Алтернативен запис</string>
     <string name="exo_track_role_closed_captions">Субтитри</string>
     <string name="exo_track_role_commentary">Коментар</string>
@@ -390,11 +398,13 @@
     <string name="fail_to_play">Неуспешно възпроизвеждане</string>
     <string name="failed_not_access_sd_card">Първо разрешете достъп до SD картата</string>
     <string name="failed_obtain_permissions">Не бяха получени разрешения.</string>
+    <string name="fans">Последователи</string>
     <string name="fav_login_msg">Влезте във вашия Mi Профил, за да изтеглите песни</string>
     <string name="favorite_canceled">Премахнато от любими</string>
     <string name="favorite_playlist">Моите любими</string>
     <string name="favorite_singer">Любими певци</string>
     <string name="favorite_succeed">Вече е в любими</string>
+    <string name="favorite_to_playlist">Добавяне към плейлист</string>
     <string name="favorite_tracks">Любими</string>
     <string name="favorites">Любими</string>
     <string name="fcm_fallback_notification_channel_label">Разни</string>
@@ -614,8 +624,10 @@
     <string name="no_album_info">Няма информация за албума</string>
     <string name="no_artist_info">Няма информация за изпълнителя</string>
     <string name="no_downloads">Няма изтегляния.</string>
+    <string name="no_fans_empty_title">Все още нямате последователи</string>
     <string name="no_favorites_songs">Празно</string>
     <string name="no_file_picker_find">Файлов мениджър не е инсталиран.</string>
+    <string name="no_follow_empty_title">Все още не следвате никого</string>
     <string name="no_local_songs">Празно</string>
     <string name="no_local_songs_selected">Песните не могат да се изпратят, защото не са изтеглени</string>
     <string name="no_local_source_find">Не са открити локални ресурси, неуспешно изпращане!</string>
@@ -739,6 +751,7 @@
     <string name="privacy_authorize_revoking">Отмяна на упълномощение…</string>
     <string name="privacy_desc">Политика за поверителност (задължително)</string>
     <string name="privacy_policy">Политика за поверителност</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=bg_BG</string>
     <string name="privacy_request_desc">"&lt;Data>Mi Музика се нуждае да събира задължителна лична информация, за да ви предоставя услуги за гледане онлайн. Можете да научите как обработваме събраната информация в нашите &lt;a href=\"%1$s\">Правила за поверителност&lt;/a>. Можете да оттеглите съгласието си за Правилата за поверителност на Mi Музика в Настройки по всяко време.
 Прочетете и приемете нашето &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%1$s\">Правила за поверителност&lt;/a> преди да използвате Mi Музика.
 Ако не приемете да използвате гореспоменатите услуги, няма да можете да използвате някои от функциите на това приложение; но все пак ще имате достъп до основните му функции.&lt;/Data>"</string>
@@ -847,6 +860,7 @@
     <string name="share_end_note">От Mi Музика</string>
     <string name="share_failed">Не може да се сподели</string>
     <string name="share_image_error">Изображението не беше споделено поради грешка при изтеглянето</string>
+    <string name="share_song">Споделяне</string>
     <string name="share_text_list">Намерих невероятен списък за слушане в Mi Музика:</string>
     <string name="share_text_song">Намерих невероятна песен в Mi Музика:</string>
     <string name="show_float_first_hint">Минимизирай плейъра</string>
@@ -880,10 +894,11 @@
     <string name="sort_by_name">Име</string>
     <string name="sort_by_time">Дата</string>
     <string name="sound_fade_in_and_out_when_change_song_automatically">Пробвайте преливане между песните по време на възпроизвеждане</string>
-    <string name="start_to_check_new_version">Проверява се за актуализации…</string>
+    <string name="start_to_check_new_version">Проверяване за обновления…</string>
     <string name="start_to_download">Старирайте изтегляне…</string>
     <string name="start_to_play">Пусни</string>
     <string name="start_update">Инсталиране на нова версия…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Хранилище за клонирани приложения</string>
     <string name="storage_internal">Вътрешна памет</string>
     <string name="storage_sd_card">SD карта</string>
@@ -927,16 +942,19 @@
     <string name="terms_of_service">Условия на ползване</string>
     <string name="ticket_summary">Купете билети за шоута, концерти, представления, и други събития</string>
     <string name="ticket_title">Покажи билети</string>
-    <string name="time_to_upgrade">Налична е нова версия</string>
+    <string name="time_to_upgrade">Налично е обновление</string>
     <string name="title_online_fm_recommend">Най-добри</string>
     <string name="title_online_recommend">Любими списъци с песни</string>
     <string name="title_search_history">История на търсенията</string>
     <string name="title_search_hot">Популярни</string>
+    <string name="toast_cant_collect_mine_playlist">Не можете да добавяте собствените си плейлисти към любими</string>
     <string name="toast_cant_commit_without_title">Въведете заглавие на песен</string>
     <string name="toast_download_error_by_count_limit">Достигнали сте месечния си лимит за изтегляне.</string>
     <string name="toast_download_error_by_not_login">Влезте в своя Mi Профил и опитайте отново.</string>
     <string name="toast_download_error_by_vip_required">Вземете Премиум абонамент,за да изтеглите тази песен.</string>
     <string name="toast_download_in_process">Изтегляне...</string>
+    <string name="toast_favorite_has_been_added">Успешно добавен в плейлиста</string>
+    <string name="toast_follow_success">Успешно последван</string>
     <string name="toast_is_pro">Вие сте вече ПРО член.</string>
     <string name="toast_my_playlist_illegal_name">Името на тази плейлиста е невалидно. Преименувайте я.</string>
     <string name="toast_my_playlist_set_to_private">Тази плейлиста вече е лична. Другите хора не могат да я виждат.</string>
@@ -947,6 +965,9 @@
     <string name="toast_normal_songs_for_download">Скоростта на изтеглене е настроена на стандартна.</string>
     <string name="toast_normal_songs_for_stream">Качеството на стриймване е настроено на стандартно.</string>
     <string name="toast_not_pro">Тази функция е достъпна само за ПРО членове.</string>
+    <string name="toast_playlist_has_been_added">Успешно добавен към списъка</string>
+    <string name="toast_playlist_has_been_private">Този плейлист е личен</string>
+    <string name="toast_playlist_has_been_public">Този плейлист е публичен</string>
     <string name="toast_playmode_loop_playback">Настоящия плейлист е зададен на повторение</string>
     <string name="toast_playmode_shuffle_play">Разбъркани песни</string>
     <string name="toast_playmode_single_cycle">Настоящата песен е зададена на повторение</string>
@@ -974,11 +995,16 @@
     <string name="upload_playlist_to_hungama_title">Синхронизирайте онлайн песни с Hungama, за да имате достъп до тях на други устройства, в които използвате вашия Mi Профил.</string>
     <string name="upload_playlist_to_hungama_toast">Онлайн песни ще бъдат синхронизирвани с Hungama</string>
     <string name="user_agreement">Потребителско споразумение</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=bg_BG</string>
+    <string name="user_playlist_plaza">Плейлисти</string>
     <string name="user_privacy_dialog_negative_text">Отказ</string>
     <string name="user_privacy_dialog_positive_count_down_text">Оттегляне (%sсек)</string>
     <string name="user_privacy_dialog_positive_text">Оттегляне</string>
     <string name="user_privacy_setting_group_title">Оттегляне на съгласие</string>
     <string name="user_privacy_setting_title">Превключвайки бутона Вие оттегляте съгласието си за Правилата за поверителност на Mi Музика.</string>
+    <string name="user_profile_created_playlist_title">Персонализирани плейлисти</string>
+    <string name="user_profile_fans_count">Последователи: %s</string>
+    <string name="user_profile_follow_count">Следвани: %s</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
     <string name="version_info">Версия</string>

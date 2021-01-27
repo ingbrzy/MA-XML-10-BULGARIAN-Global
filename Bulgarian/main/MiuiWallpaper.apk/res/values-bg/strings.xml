@@ -87,6 +87,9 @@
     <string name="friday">Петък</string>
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
+    <string name="geometry_summary">Форми, светлина и цветове</string>
+    <string name="geometry_super_wallpaper_label">Геометрия</string>
+    <string name="geometry_title">Геометрия</string>
     <string name="install_failed">Неуспешно изтегляне</string>
     <string name="mars_position_content_0">"This region contains cliffs, mesas, and wide flat valleys, which are believed to have been caused by debris-covered glaciers. Clay minerals have also been detected here, which are of great interest in the search for evidence of life on ancient Mars.
 
@@ -106,9 +109,25 @@ Mawrth Vallis"</string>
     <string name="mars_super_wallpaper_label">mars</string>
     <string name="mars_title">Червената планета</string>
     <string name="midnight">Нощ</string>
-    <string name="miuix_appcompat_cloud_state_disabled">Синхронизирането с облака е изключено</string>
-    <string name="miuix_appcompat_cloud_state_finished">Успешно синхронизиране с облака</string>
-    <string name="miuix_appcompat_cloud_state_syncing">Синхронизиране с облака…</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Размаркиране на всички</string>
+    <string name="miuix_appcompat_action_mode_select_all">Избиране на всички</string>
+    <string name="miuix_appcompat_action_mode_title_empty">Изберете елементи</string>
+    <string name="miuix_appcompat_actionbar_immersion_button_more_description">Повече</string>
+    <string name="miuix_appcompat_cancel_description">Отказ</string>
+    <string name="miuix_appcompat_confirm_description">Потвърди</string>
+    <string name="miuix_appcompat_delete_description">Изтрий</string>
+    <string name="miuix_appcompat_deselect_all_description">Размаркирай всички</string>
+    <string name="miuix_appcompat_search_action_mode_cancel">Отказ</string>
+    <string name="miuix_appcompat_search_input_description">Търси</string>
+    <string name="miuix_appcompat_select_all_description">Избери всички</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Изтеглете надолу за обновяване</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно обновяване</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">Обновяване…</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Отпуснете за обновяване</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">Това е всичко за сега</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">Това е всичко за сега</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Един момент…</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Неуспешно зареждане</string>
     <string name="monday">Понеделник</string>
     <string name="monday_short">Пон.</string>
     <string name="monday_shortest">Пон.</string>
@@ -222,6 +241,7 @@ Mawrth Vallis"</string>
     <string name="time_picker_dialog_title">Настройте време</string>
     <string name="time_picker_label_hour">Ч</string>
     <string name="time_picker_label_minute">M</string>
+    <string name="title_system_wallpaper_resource">Системни тапети</string>
     <string name="today">Днес</string>
     <string name="tomorrow">Утре</string>
     <string name="tuesday">Вторник</string>
@@ -240,6 +260,9 @@ Mawrth Vallis"</string>
     <string name="wallpaper_setting_super_wallpaper_banner_title">Супер тапети</string>
     <string name="wallpaper_setting_super_wallpaper_more_button_text">Още</string>
     <string name="wallpaper_setting_title">Тапет</string>
+    <string name="weather_summary">Информация за местната прогноза</string>
+    <string name="weather_super_wallpaper_label">Времето</string>
+    <string name="weather_title">Времето</string>
     <string name="wednesday">Сряда</string>
     <string name="wednesday_short">Ср.</string>
     <string name="wednesday_shortest">Ср.</string>

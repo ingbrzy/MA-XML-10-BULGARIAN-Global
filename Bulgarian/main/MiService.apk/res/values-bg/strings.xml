@@ -153,7 +153,7 @@
     <string name="miui_feedback_edit_submit_directly">Изпрати</string>
     <string name="miui_feedback_edit_title_occurrence_time">Изберете време</string>
     <string name="miui_feedback_edit_title_reproductivity">Изберете репродуктивност</string>
-    <string name="miui_feedback_edit_toast_description_required">Трябва да напишете описание</string>
+    <string name="miui_feedback_edit_toast_description_required">Първо опишете проблема</string>
     <string name="miui_feedback_edit_toast_module_required">Изберете елемент</string>
     <string name="miui_feedback_edit_toast_more_desc_required">Описанието трябва да е по-дълго</string>
     <string name="miui_feedback_edit_toast_problem_class_required">Изберете категория</string>
@@ -186,6 +186,7 @@
     <string name="miui_main_next_page">Напред</string>
     <string name="miui_main_pre_page">Назад</string>
     <string name="miui_main_shortcut_label_submit_feedback">Подаване на обратна връзка</string>
+    <string name="miui_main_update_back_to_home">Подготвяне на Начален екран…</string>
     <string name="miui_main_update_continue">Напред</string>
     <string name="miui_main_update_learn_more">Научете повече</string>
     <string name="miui_main_update_start">Обнови сега</string>

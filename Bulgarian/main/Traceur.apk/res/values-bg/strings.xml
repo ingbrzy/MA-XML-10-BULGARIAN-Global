@@ -377,7 +377,7 @@
     <string name="max_long_trace_duration">Максимално времетраене на продължителните трасирания</string>
     <string name="max_long_trace_size">Максимален размер за продължително трасиране</string>
     <string name="media_category">Мултимедия</string>
-    <string name="media_transfer_this_device_name">Високоговорител на телефона</string>
+    <string name="media_transfer_this_device_name">Високоговорител</string>
     <string name="media_transfer_wired_device_name">Аудиоустройство с кабел</string>
     <string name="media_transfer_wired_usb_device_name">Слушалки с кабел</string>
     <string name="mobile_data_always_on">Винаги активни мобилни данни</string>

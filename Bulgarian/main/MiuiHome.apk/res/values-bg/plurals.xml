@@ -16,6 +16,10 @@
         <item quantity="other">Избрани са %1$d елементи</item>
         <item quantity="one">Избран е %1$d елемент</item>
     </plurals>
+    <plurals name="remove_dialog_title_multi_format">
+        <item quantity="other">Премахване на %1$d приложения от Началния екран?</item>
+        <item quantity="one">Премахване на %1$d приложение от Началния екран?</item>
+    </plurals>
     <plurals name="scroll_tip_format_when_announce_accessibility">
         <item quantity="other">Страници %1$d, %2$d приложения.</item>
         <item quantity="one">Страница %1$d, %2$d приложение.</item>

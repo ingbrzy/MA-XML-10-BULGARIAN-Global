@@ -5,14 +5,29 @@
         <item>Тапет/Супер тапети/Вкъщи</item>
         <item>Земя;Супер тапети;Версия Земя;Тапет</item>
     </string-array>
+    <string-array name="settings_search_geometry">
+        <item>Геометрия</item>
+        <item>Тапет/Супер тапети/Геометрия</item>
+        <item>Геометрия;Абстрактно;Супер тапети;Тапет</item>
+    </string-array>
     <string-array name="settings_search_mars">
         <item>Червената планета</item>
         <item>Тапет/Супер тапети/Червената планета</item>
         <item>Марс;Марс Версия;Супер тапети;Тапет</item>
     </string-array>
+    <string-array name="settings_search_saturn">
+        <item>Rings of Saturn</item>
+        <item>Wallpaper/Super wallpapers/Rings of Saturn</item>
+        <item>Planet;Saturn;Super wallpaper;Wallpaper</item>
+    </string-array>
     <string-array name="settings_search_superwp">
         <item>Супер тапети</item>
         <item>Тапет/Супер тапети</item>
         <item>Супер тапети;Тапет;Динамичен тапет;3D тапет</item>
+    </string-array>
+    <string-array name="settings_search_weather">
+        <item>Времето</item>
+        <item>Тапет/Супер тапети/Времето</item>
+        <item>Времето;Информация за времето;Супер тапети;Тапет</item>
     </string-array>
 </resources>

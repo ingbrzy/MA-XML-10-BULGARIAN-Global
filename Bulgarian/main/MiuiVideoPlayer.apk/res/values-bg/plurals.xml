@@ -72,6 +72,18 @@
         <item quantity="other">%d видеоклип</item>
         <item quantity="one">%d видео</item>
     </plurals>
+    <plurals name="s_double_tap_backward">
+        <item quantity="other">Двойно натискане за превъртане %d секунди назад</item>
+        <item quantity="one">Двойно натискане за превъртане %d секунда назад</item>
+    </plurals>
+    <plurals name="s_double_tap_forward">
+        <item quantity="other">Двойно натискане за превъртане %d секунди напред</item>
+        <item quantity="one">Двойно натискане за превъртане %d секунда напред</item>
+    </plurals>
+    <plurals name="s_forward_tip">
+        <item quantity="other">%1$s сек</item>
+        <item quantity="one">%1$s сек</item>
+    </plurals>
     <plurals name="subscriber">
         <item quantity="other">%s абонати</item>
         <item quantity="one">%s абонат</item>

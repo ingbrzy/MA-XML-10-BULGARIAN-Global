@@ -27,7 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Споделяне със:</string>
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
-    <string name="about_to_recover">Един момент…</string>
+    <string name="about_to_recover">Момент…</string>
     <string name="app_is_running">Приложението стартира…</string>
     <string name="app_name">Рез. копие в Облак​</string>
     <string name="arrange_restore_order">Пренареждане на приложенията…</string>
@@ -37,18 +37,32 @@
     <string name="back_up_task_in_process">архивира се</string>
     <string name="back_up_task_unfinished">Не може да се архивира</string>
     <string name="backing_up_to_micloud">Архивира се…</string>
-    <string name="backup_failed_reason_cloud_space_not_enough">В Xiaomi Облак няма достатъчно място. Надстройте Вашия абонамент или освободете място за съхранение.</string>
+    <string name="backup_action_buy_cloud_space">Добавете повече пространство в облака</string>
+    <string name="backup_action_check_network">Преверете мрежовите настройки</string>
+    <string name="backup_action_clean_disk_space">Освободете пространство</string>
+    <string name="backup_action_retry_now">Опитайте отново</string>
+    <string name="backup_failed_reason_cloud_space_not_enough">Не е налично достатъчно пространство в облака за запазването на това резервно копие. За да добавите повече пространство в облака променете абонамента си.</string>
     <string name="backup_failed_reason_disk_space_not_enough">Няма достатъчно място в хранилището. Освободете място първо.</string>
-    <string name="backup_failed_reason_network_error">Грешка в мрежата. Изчакайте минута-две и опитайте отново.</string>
+    <string name="backup_failed_reason_network_error">Проверете мрежовите настройки и опитайте отново</string>
     <string name="backup_finished_notification_content">Архивирани бяха приложения на начален екран, системни настройки и т.н.</string>
     <string name="backup_now">Архивирай</string>
     <string name="backup_progress_percent_unit">%</string>
+    <string name="backup_remind_buy_cloud_space">Променете абонамента си за пространство в облака</string>
+    <string name="backup_remind_clean_disk_space">Освободете пространство</string>
+    <string name="backup_remind_cloud_space_cost">Размер на резервни копия: %s</string>
     <string name="backup_size">Размер: %s</string>
     <string name="backup_stopped_msg">Текущото архивиране ще замени предишното такова. Чукнете за преглед.</string>
     <string name="backup_stopped_title">Архивирането беше на пауза</string>
     <string name="backup_success">Успешен архив на прил. от нач. екран</string>
     <string name="backup_successfully">Успешно архивиране</string>
     <string name="backup_to_cloud">Архив на прил.</string>
+    <string name="backup_warning_reason_cloud_space_not_enough">Неуспешно създаване на резервно копие</string>
+    <string name="backup_warning_reason_disk_space_not_enough">"Недостатъчно свободно пространство
+Неуспешно създаване на резервно копие"</string>
+    <string name="backup_warning_reason_network_error">"Мрежова грешка
+Неуспешно създаване на резервно копие"</string>
+    <string name="backup_warning_reason_no_server_response">"Връзката беше прекъсната
+Опитайте отново"</string>
     <string name="btn_back">Назад</string>
     <string name="btn_continue">Продължи</string>
     <string name="btn_restore_abort">Отказ</string>
@@ -94,10 +108,10 @@
 *  MIUI and system settings 
 Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</string>
     <string name="cloud_back_up_frequence_choice_title">Резервно копие по график</string>
-    <string name="cloud_back_up_frequence_long">На всеки 7 дни</string>
+    <string name="cloud_back_up_frequence_long">На всеки %d дни</string>
     <string name="cloud_back_up_frequence_short">Всеки ден</string>
     <string name="cloud_back_up_ok_btn">OK</string>
-    <string name="cloud_back_up_opening">Just a sec…</string>
+    <string name="cloud_back_up_opening">Момент…</string>
     <string name="cloud_back_up_subscribe_vip_confirm">Надстройка</string>
     <string name="cloud_back_up_subscribe_vip_discription">Получете повече място за съхранение, ежедневни резервни копия и още много неща.</string>
     <string name="cloud_back_up_subscribe_vip_title">Надграждане на Mi Профил</string>
@@ -105,6 +119,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="cloud_backup">Рез. копия в Облак</string>
     <string name="cloud_backup_derail_size_summary">Размер: %s</string>
     <string name="cloud_backup_detail_frequence">Резервно копие по график</string>
+    <string name="cloud_backup_detail_frequence_every_7_day">Архивиране на всеки %d дни</string>
+    <string name="cloud_backup_detail_frequence_every_day">Архивиране всеки ден</string>
     <string name="cloud_backup_detail_manage">Управление на рез. копия</string>
     <string name="cloud_backup_detail_state">Автоматични резервни копия</string>
     <string name="cloud_backup_detail_state_summary">Автоматично създаване на резервни копия в Xiaomi Облак, когато сте свързани с Wi-Fi.</string>
@@ -190,6 +206,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="open_backup_switch">Превключи на Резервно копие</string>
     <string name="other_device_main_space">Основно работно място</string>
     <string name="other_device_second_space">Второ пространство</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="process_whole_recovery">Възстановяване \"%s\"</string>
     <string name="provision_background_restore_more_data">Възстановяване на повече елементи на заден план</string>
@@ -207,7 +225,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="remove_task_unfinished">Премахването не е завършило</string>
     <string name="remove_unfinished">Преместване, опитайте по-късно</string>
     <string name="restore_app_order_finish">Готово</string>
-    <string name="restore_app_order_loading">Един момент…</string>
+    <string name="restore_app_order_loading">Момент…</string>
     <string name="restore_app_order_retry">Оптитайте отново</string>
     <string name="restore_app_order_retry_desc">Не мога да се свържа с мрежата. Проверете настройките си и опитайте отново.</string>
     <string name="restore_app_order_search_hint">Търсене на елементи за задаване на приоритет</string>

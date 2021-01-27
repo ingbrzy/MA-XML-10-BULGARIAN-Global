@@ -68,6 +68,14 @@
         <item quantity="other">%1$d контакти</item>
         <item quantity="one">%1$d контакт</item>
     </plurals>
+    <plurals name="contacts_trash_delete_dialog_respond">
+        <item quantity="other">Перманентно изтрити са %d контакта</item>
+        <item quantity="one">Перманентно изтрит е %d контакт</item>
+    </plurals>
+    <plurals name="contacts_trash_restore_respond">
+        <item quantity="other">Успешно възстановени са %d контакта</item>
+        <item quantity="one">Успешно възстановен е %d контакт</item>
+    </plurals>
     <plurals name="device_import_done_toast">
         <item quantity="other">%1$d импортирани контакти</item>
         <item quantity="one">%1$d импортиран контакт</item>
@@ -107,6 +115,10 @@
     <plurals name="half_hour_ago">
         <item quantity="other">Преди половин час</item>
         <item quantity="one">Преди половин час</item>
+    </plurals>
+    <plurals name="hint_account_contacts">
+        <item quantity="other">%1$d елемента</item>
+        <item quantity="one">%1$d елемент</item>
     </plurals>
     <plurals name="hint_search_contacts">
         <item quantity="other">%1$d контакти</item>

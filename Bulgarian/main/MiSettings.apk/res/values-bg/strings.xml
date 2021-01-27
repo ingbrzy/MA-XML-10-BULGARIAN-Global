@@ -68,6 +68,13 @@
     <string name="focus_mode_timer_pick_dialog_title">Въведете интервал</string>
     <string name="focus_time_exception_tip">Изглежда системното време се е сменило. Режим Фокус е изключен.</string>
     <string name="follow_sim1">Прилагане на настройки на SIM 1</string>
+    <string name="fps_nature_summary">Високата скорост на обновяване поддържа всичко кристално ясно</string>
+    <string name="fps_nature_title">Високо</string>
+    <string name="fps_smooth_summary">Средната скорост на обновяване добавя повече яснота към детайлите</string>
+    <string name="fps_smooth_title">Средно</string>
+    <string name="fps_standard_summary">Стандартната скорост на обновяване спестява батерия</string>
+    <string name="fps_standard_title">Стандартно</string>
+    <string name="fps_user_tip">Тези демо анимации се възпроизвеждат със слаба скорост на обновяване, за справка. Истинското изпълнение може да изглежда различно, в зависимост от различни фактори.</string>
     <string name="gamma">Гама</string>
     <string name="healthy_use_phone">Управление на екранното време</string>
     <string name="high_fps_description">Висока скорост на презареждане на екрана. Засилена употреба на енергия.</string>
@@ -114,6 +121,7 @@
     <string name="screen_fps_summary_power_save">Използването на фиксирана скорост консумира по-малко батерия</string>
     <string name="screen_fps_summary_smooth">Някои приложения увеличават скоростта на опресняване автоматично, за за подобряват качеството на картината</string>
     <string name="screen_fps_title">Честота на обновяване</string>
+    <string name="screen_fps_unit">%d Hz</string>
     <string name="screen_fps_unit_power_save">%dHz (спестява батерия)</string>
     <string name="screen_fps_unit_smooth">%dHz (по-добро качество)</string>
     <string name="screen_original_gamut">Разширена</string>
@@ -186,6 +194,7 @@
     <string name="usage_device_limit_app_prolong_time2">Добави 40 минути</string>
     <string name="usage_device_limit_app_prolong_time3">Добави 60 минути</string>
     <string name="usage_device_limit_app_prolong_time4">Без лимит днес</string>
+    <string name="usage_device_limit_app_prolong_time5">Добавяне на време веднъж</string>
     <string name="usage_device_limit_notifation_summary_start">Ще достигнете лимита след %1$s</string>
     <string name="usage_device_limit_notifation_title">Оставащо време днес</string>
     <string name="usage_device_limit_time_over">Достигнахте дневния си лимит (%1$s)</string>

@@ -26,6 +26,24 @@
         <item>%1$s</item>
         <item>%1$s</item>
     </string-array>
+    <string-array name="aqi_title_append">
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+        <item>%1$s</item>
+    </string-array>
+    <string-array name="aqi_title_prefix">
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+        <item>ИКВ %1$s</item>
+    </string-array>
     <string-array name="battery_labels">
         <item>0%</item>
         <item>50%</item>
@@ -154,11 +172,11 @@
     </string-array>
     <string-array name="color_mode_descriptions">
         <item>Подобрени цветове</item>
-        <item>Естествени цетове, както се виждат</item>
+        <item>Естествени цветове видими с просто око</item>
         <item>Оптимизирани цветове за дигитално съдържание</item>
     </string-array>
     <string-array name="color_mode_names">
-        <item>Резониращ</item>
+        <item>Резониращ (по подразбиране)</item>
         <item>Естествен</item>
         <item>Стандартен</item>
     </string-array>
@@ -277,11 +295,11 @@
         <item>Бавна</item>
         <item>Нормална</item>
         <item>Бърза</item>
-        <item>Много бърза</item>
+        <item>По-бърза</item>
         <item>Много бърза</item>
         <item>Изключително бърза</item>
         <item>Екстремно бърза</item>
-        <item>Скорострелна</item>
+        <item>Най-бърза</item>
     </string-array>
     <string-array name="tts_rate_values">
         <item>60</item>

@@ -107,6 +107,7 @@
     <string name="currency_update_updating">Обновяване на курсовете…</string>
     <string name="current_rate_remind_commercial" />
     <string name="current_rate_remind_fund" />
+    <string name="date_format">dd MMM, yyyy</string>
     <string name="dateformat">dd/MM/yyyy</string>
     <string name="day">ден</string>
     <string name="degDesc">Ъгъл</string>
@@ -115,6 +116,9 @@
     <string name="description_title">За Калкулатор</string>
     <string name="devided_by_zero_reminder_message">Нулата не може да е интервал</string>
     <string name="dialog_privacy_content">&lt;Data>Освен основните функции на калкулатор, нашето приложение съдържа научен калкулатор и мултифункционален конвертор. Някои функции изискват връзка с интернет, за да работят нормално. Трябва да прочетете и приемете нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%2$s\">Правила за поверителност&lt;/a> преди да използвате Калкулатора.&lt;/Data></string>
+    <string name="dialog_privacy_disagree_msg">Превключвайки бутона вие оттегляте съгласието си за Правилата за поверителност на Калкулатор. Ние ще спрем да събираме вашите лични данни. Вече събраните лични данни ще бъдат изтрити в рамките на специфичния период посочен в приложимото законодателство. Калкулатор събира вашите лични данни, за да ви предоставя основни услуги. Оттеглянето на вашето съгласие за Правилата за поверителност ще се счита за отказ от услугите, които се базират на вашите събрани лични данни.</string>
+    <string name="dialog_privacy_revoke_btn_ok">Оттегляне</string>
+    <string name="dialog_privacy_revoke_title">Оттегляне на съгласие</string>
     <string name="dialog_privacy_title">Условия за ползване</string>
     <string name="dialog_rating_desc_ask">Какво е мнението Ви за калкулатор?</string>
     <string name="dialog_rating_desc_less">Можете ли да ни изпратите и Вашия отзив?</string>
@@ -164,6 +168,7 @@
     <string name="global_search_key_word_figure">Финансови знаци</string>
     <string name="golbal_search_calculator_setting">Калкулатор;Настройки на калкулатора;Настройки</string>
     <string name="golbal_search_path_calculator_setting">Системни приложения/Калкулатор/Настройки</string>
+    <string name="gst_percentage">%s</string>
     <string name="height_prompt">Височина</string>
     <string name="help_content_desc">Помощ</string>
     <string name="hint_annual_rate">Въведи годишна лихва</string>
@@ -208,6 +213,17 @@
     <string name="item_title_vel_conversion">Скорост</string>
     <string name="item_title_volume_conversion">Обем</string>
     <string name="item_title_weight_conversion">Маса</string>
+    <string name="l_digit0">%d</string>
+    <string name="l_digit1">%d</string>
+    <string name="l_digit2">%d</string>
+    <string name="l_digit3">%d</string>
+    <string name="l_digit4">%d</string>
+    <string name="l_digit5">%d</string>
+    <string name="l_digit6">%d</string>
+    <string name="l_digit7">%d</string>
+    <string name="l_digit8">%d</string>
+    <string name="l_digit9">%d</string>
+    <string name="l_name_discount">Отстъпка (%s)</string>
     <string name="label_about">Относно</string>
     <string name="label_clear_history">Изчисти всичко</string>
     <string name="label_date_difference">Разлика</string>
@@ -266,6 +282,7 @@
     <string name="loan_type_summary_lpr">ОЛП</string>
     <string name="loan_type_title">Стандарт за лихвен процент</string>
     <string name="loan_unit">(×10K)</string>
+    <string name="localised_number">%d</string>
     <string name="lpr_ok">Разбрах</string>
     <string name="lpr_tips_msg">"От 8 октомври 2019 лихвеният процент върху лични жилищни заеми ще бъде изчисляван въз основа на основния лихвен процент (ОЛП) вместо използвания преди базов лихвен процент от 4,9%. Сега окончателният процент ще бъде потвърждаван чрез добавяне на базисен пункт на ОЛП.
 
@@ -327,6 +344,7 @@
     <string name="network_confirm_content">Конверторът на валута, кредити и ипотеки има нужда от интернет връзка и местоположение, за да работи нормално.</string>
     <string name="network_confirm_title">Изисква потвърждение</string>
     <string name="network_purpose">Добре дошли в Калкулатор! Калкулатор Ви позволява да конвертирате валути, да изчислявате вноски за ипотеки и още много неща.</string>
+    <string name="new_privacy_string">&lt;Data>Добре дошли в Калкулатор!&lt;br/>Това приложение съдържа следните функции:&lt;br/>• Основен калкулатор&lt;br/>• Научен калкулатор&lt;br/>• Универсален корвертор (например валути, мерни единици и т.н.)&lt;br/>• Темплейти за калкулиране на заеми, инвестиции, EMI и още&lt;br/>За да ви предоставя основни услуги Калкулатор се нуждае да събира вашите лични данни. Можете да научите как обработваме събраните лични данни в нашите &lt;a href= \"%1$s\">Правила за поверителност&lt;/a>. Прочетете и приемете нашето &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%3$s\">Правила за поверителност&lt;/a> преди да използвате Калкулатор. Можете да оттеглите съгласието си за Правилата на поверителност на Калкулатор в Настройки по всяко време. Ако не приемете нашите Правила за поверителност може да нямате достъп до някои от функциите, но основните функции все още ще са достъпни за вас.&lt;/Data></string>
     <string name="none">Без</string>
     <string name="not_supported_due_to_language">Тази функция не е достъпна на китайски език</string>
     <string name="ok">OК</string>
@@ -341,7 +359,7 @@
     <string name="preference_alert_follow_wechat_button">Копиране</string>
     <string name="preference_check_update_summary_current_version">Текуща версия：%s</string>
     <string name="preference_check_update_summary_new_version">Налична е актуализация: %s</string>
-    <string name="preference_check_update_title">Проверка за актуализации</string>
+    <string name="preference_check_update_title">Проверка за обновления</string>
     <string name="preference_feedback_title">ЧЗВ</string>
     <string name="preference_follow_qq_group">Списък с Бързи въпроси:523274279</string>
     <string name="preference_follow_us">Следвайте ни</string>
@@ -359,7 +377,11 @@
     <string name="preference_use_voice_summary">Включете, за да използвате възпроизвеждане на реч по време на изчисленията.</string>
     <string name="preference_use_voice_title">Възпроизвеждане на реч</string>
     <string name="preference_user_feedback_title">Отзив</string>
+    <string name="privacy_dialog_title">Поверителност</string>
     <string name="privacy_policy">Правилата за поверителност</string>
+    <string name="privacy_revoke_error">Неуспешно оттегляне. Опитайте отново.</string>
+    <string name="privacy_revoke_progress">Оттегляне…</string>
+    <string name="privacy_switch">Оттегляне на съгласие</string>
     <string name="radDesc">Радиан</string>
     <string name="rate_data_provider">Лихвените проценти са предоставени от hexun.com</string>
     <string name="reciprocalDesc">Обратна величина</string>
@@ -489,6 +511,7 @@
     <string name="unit_data_display_currency_btn">Бутански нгултрум</string>
     <string name="unit_data_display_currency_bwp">Ботсванска пула</string>
     <string name="unit_data_display_currency_byn">Беларуска рубла</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Канадски долар</string>
     <string name="unit_data_display_currency_cdf">Конголийски франк</string>
     <string name="unit_data_display_currency_chf">Швейцарски франк</string>
@@ -797,12 +820,14 @@
     <string name="unit_yuan">CNY</string>
     <string name="updating">Актуализиране на калкулатор…</string>
     <string name="user_agreement">Потребителско споразумение</string>
+    <string name="user_experience_program_title">Програма за потребителски отзиви</string>
     <string name="view_float_window_move">Премести минимизиран калкулатор</string>
     <string name="voiceDesc">Гласови контроли</string>
     <string name="voice_guide_text">Тук можете да включите възпроизвеждането на реч.</string>
     <string name="warn_locale_unsupport_for_voice">Гласовото синтезиране за този език още не се поддържа.</string>
     <string name="weight_prompt">Тегло</string>
     <string name="wf_word_figure">Валута</string>
+    <string name="withdraw_network_error">Вашето устройство се нуждае от връзка с мрежата, за да можете да оттеглите съгласието си. Проверете мрежовите си настройки и опитайте отново.</string>
     <string name="word_figure_big_unit_fen">分</string>
     <string name="word_figure_big_unit_jiao">角</string>
     <string name="word_figure_big_unit_wan">"万 "</string>
@@ -824,8 +849,11 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sБ</string>
     <string name="xiaomi_connect_download_manager_fail">Няма връзка с Изтегляния. Проверете дали това приложение има всички необходими разрешения в Настройки > Инсталирани приложения.</string>
     <string name="xiaomi_external_storage_unavailable">Паметта не е достъпна. Проверете вашата SD карта.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sКБ</string>
+    <string name="xiaomi_megabytes_unit">%1$sМБ</string>
     <string name="xiaomi_update_dialog_message">"Представяне на версия%1$s
 Размер:%2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Представяне на версия%1$s

@@ -43,6 +43,8 @@
     <string name="call_record_list_group_connected">Свързани</string>
     <string name="call_record_list_group_unconnected">Не са свързани</string>
     <string name="cancel_rename">Отказ</string>
+    <string name="clear_data_dialog_content">Кеширани елементи, данни за приложение и персонализирани настройки ще бъдат изтрити, но вашите записи ще бъдат запазени.</string>
+    <string name="clear_data_dialog_title">Изчистване на данни сега?</string>
     <string name="clear_records">Изтрий синхронизираните записи</string>
     <string name="cloud_record_open">Синхр.на записи</string>
     <string name="cloud_record_tip">Синхронизирайте записите с Xiaomi Cloud.</string>
@@ -128,7 +130,7 @@
     <string name="network_unavailable_tip">Свържете се с мрежата и опитайте отново.</string>
     <string name="new_record_name">Нов звукозапис</string>
     <string name="no_file">Няма звукозаписи</string>
-    <string name="no_network">"Couldn't connect to the network"</string>
+    <string name="no_network">Неуспешно свързване с мрежата</string>
     <string name="not_set">Не е зададено</string>
     <string name="notification_message_all_paused">Възможно е повишаване на трафика на мобилни данни.</string>
     <string name="notification_playback">Пускане на звукозаписа...</string>
@@ -169,9 +171,10 @@
     <string name="pause">Пауза</string>
     <string name="pay_error_cancel">Плащането е отменено</string>
     <string name="pay_error_null">Плащането не може да се извърши. Проверете сметката си.</string>
-    <string name="pay_error_unknown">Непозната грешка</string>
+    <string name="pay_error_unknown">Неизвестна грешка</string>
     <string name="playback_delete_records">Изтриване на записа</string>
     <string name="playback_share_records">Споделяне на записа</string>
+    <string name="preference_clear_data">Изчистване на данните</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="preference_enable_earpiece_summary">Използване на изхода за слушалки за възпроизвеждане на външно устройство</string>
     <string name="preference_enable_earpiece_title">Външен изход</string>
@@ -206,7 +209,7 @@
     <string name="recognition_error_format">Неподдържан звуков формат</string>
     <string name="recognition_error_internal">Вътрешна грешка</string>
     <string name="recognition_error_stopped">Разпознаването е спряно</string>
-    <string name="recognition_error_unknown">Възникна непозната грешка. Докладвайте ни я и опитайте отново.</string>
+    <string name="recognition_error_unknown">Възникна неизвестна грешка. Докладвайте ни я и опитайте отново.</string>
     <string name="recognition_interrupt_current_dialog_body">Разпознаването може да отнеме малко време. Ще получите известие, когато задачата е изпълнена. В момента \"%s\" се разпознава. Добавяне на тази задача към чакащите за разпознаване?</string>
     <string name="recognition_notification_channel">Разпознаване</string>
     <string name="recognition_notification_complete_success">\"%s\" е успешно разпознато. Натиснете за преглед.</string>
@@ -330,12 +333,14 @@
     <string name="trash_box">Наскоро изтрити елементи</string>
     <string name="trash_box_close_tip">Затваряне</string>
     <string name="trash_box_delete_all">Изтриване на всички елементи от кошчето завинаги?</string>
+    <string name="uninstall_warning_content">Записвач е системно приложение. След като го деинсталирате няма да можете да записвате и транскрибирате аудио и гласови повиквания.</string>
+    <string name="uninstall_warning_title">Деинсталиране на Записвач?</string>
     <string name="usage_description">Транскрибиране на аудио и синхронизиране на елементи с облака</string>
     <string name="user_feedback">Отзиви</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
     <string name="webview_check_network">Мрежови настройки</string>
-    <string name="webview_data_error">Настъпи грешка</string>
+    <string name="webview_data_error">Възникна грешка</string>
     <string name="webview_locating_fail">Не може да се определи местоположението ви</string>
     <string name="webview_network_access_denied">Отказан достъп до мрежата</string>
     <string name="webview_network_unavaliable">Не може да се свърже с мрежата</string>

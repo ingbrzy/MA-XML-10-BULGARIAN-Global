@@ -31,6 +31,9 @@
     <string name="back">Назад</string>
     <string name="cancel">Отказ</string>
     <string name="category_other">Други</string>
+    <string name="channel_name_aggregation">Групирани известия</string>
+    <string name="channel_name_notification">Известия за приложения</string>
+    <string name="channel_name_recovered">Възстановени известия</string>
     <string name="confirm">OК</string>
     <string name="copy">Копиране</string>
     <string name="default_list_type">Сортирай по време на получаване</string>
@@ -59,10 +62,14 @@
     <string name="lock_screen_tip_toast">Разрешаване на известията на закл. екран във \"Формат\"</string>
     <string name="lockscreen_notifications">Известия на заключен екран</string>
     <string name="lockscreen_notifications_short">Заключен екран</string>
+    <string name="menu_setting_aggregatation_feedback">Опции за групиране</string>
+    <string name="menu_setting_feedback_donot_classify">Не групирай</string>
+    <string name="menu_setting_more_settings">Още настройки</string>
     <string name="menu_setting_show_in_home">Не групирай</string>
     <string name="menu_setting_tip_show_in_home">Известия от %s няма да бъдат групирани</string>
     <string name="menu_setting_tip_unfold">Всички известия от това приложение ще се считат за важни</string>
     <string name="menu_setting_unfold">Важно</string>
+    <string name="mune_setting_prefix_category">"Групиране с "</string>
     <string name="not_sent_recently">Не наскоро</string>
     <string name="not_set">Не е зададено</string>
     <string name="notch_and_status_bar_setting">Контролен център и статус лента</string>
@@ -82,9 +89,11 @@
     <string name="on">Включване</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="search_menu_title">Търсене</string>
+    <string name="setting_menu_success">Успешно настроено</string>
     <string name="settings_guide_title">Искате още настройки?</string>
     <string name="show_badge_notifications">Уведомителни значки</string>
     <string name="show_badge_notifications_short">Значки</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Статус лента</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_disable_float_notification">Плаващите уведомления не са разрешени</string>
@@ -97,6 +106,7 @@
     <string name="summary_lock_screen_enable_notification_first">Позволете известията, за да можете да включите уведомленията за заключен екран</string>
     <string name="summary_show_badge_enable_notification_first">Позволете известията, за да включите уведомителните значки</string>
     <string name="swipe_to_delete">Плъзнете наляво или надясно, за да изтриете</string>
+    <string name="tip_feedback_thanks">Благодарим ви за отзива!</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
 </resources>

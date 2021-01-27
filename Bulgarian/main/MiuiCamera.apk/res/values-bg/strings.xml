@@ -64,6 +64,7 @@
     <string name="accessibility_camera_video_960fps_960">960FPS</string>
     <string name="accessibility_camera_video_fps_120">120FPS</string>
     <string name="accessibility_camera_video_fps_30">30FPS</string>
+    <string name="accessibility_camera_video_slow_motion_fps">%dFPS</string>
     <string name="accessibility_closed">Изкл</string>
     <string name="accessibility_color">Цвят</string>
     <string name="accessibility_date">Дата</string>
@@ -79,6 +80,8 @@
     <string name="accessibility_document_strengthen_button">Сканиране на документи. Подобрени.</string>
     <string name="accessibility_dual_preview_change">Преглед на промени</string>
     <string name="accessibility_dual_preview_change_finish">Успешен преглед на промени</string>
+    <string name="accessibility_dual_video_merged">Комбинирано видео</string>
+    <string name="accessibility_dual_video_standalone">Отделни видео клипове</string>
     <string name="accessibility_eis_normal">Стабилно видео е включено</string>
     <string name="accessibility_eis_off">Стабилно видео е изключено</string>
     <string name="accessibility_eis_pro">Стабилно видео PRO е включено</string>
@@ -127,10 +130,10 @@
     <string name="accessibility_open">Вкл</string>
     <string name="accessibility_pano_moving_left">Преместете устройството наляво</string>
     <string name="accessibility_pano_moving_right">Преместете устройството надясно</string>
-    <string name="accessibility_picturesize_1_1_button">Съотношение на размера едно към едно</string>
-    <string name="accessibility_picturesize_3_4_button">Съотношение на размера три към четири</string>
-    <string name="accessibility_picturesize_9_16_button">Съотношение на размера девет към шестнайсет</string>
-    <string name="accessibility_picturesize_fullscreen_button">Съотношение на размера пълен екран</string>
+    <string name="accessibility_picturesize_1_1_button">Съотношение на страните едно към едно</string>
+    <string name="accessibility_picturesize_3_4_button">Съотношение на страните три към четири</string>
+    <string name="accessibility_picturesize_9_16_button">Съотношение на страните девет към шестнайсет</string>
+    <string name="accessibility_picturesize_fullscreen_button">Съотношение на страните пълен екран</string>
     <string name="accessibility_portrait_button">Режим Портрет</string>
     <string name="accessibility_portrait_depth_effect_panel_on">Панел портрет</string>
     <string name="accessibility_preview_button">Предварителен преглед</string>
@@ -269,6 +272,9 @@
     <string name="ai_west_lake">Западно езеро</string>
     <string name="ai_wuhan">Ухан</string>
     <string name="ai_zhang_jia_jie">Джандзядзие</string>
+    <string name="aiwatermark_location_absent_hint">Неуспешно получаване на инфо. за местоположение</string>
+    <string name="aiwatermark_location_list_title">Местоположение</string>
+    <string name="aiwatermark_location_tips">Разрешете на Камерата достъп до вашето местоположение, за да получите по-значими водни знаци</string>
     <string name="ambilight_description_title">Относно дълго изложение</string>
     <string name="ambilight_intro_crowd_moving_part1">Когато снимате претъпкана улица помолете обекта на снимката да не се движи. Другите хора ще изглеждат като замъглени следи.</string>
     <string name="ambilight_intro_crowd_moving_part2">Също така можете да правите снимки на натоварен трафик и движещи се тълпи. Дългото изложение ще запази цялостта на сградите, а всички движещи се обекти ще бъдат замъглени.</string>
@@ -290,6 +296,7 @@
     <string name="ambilight_tips_for_suggest_using_tripod">Използвайте трипод</string>
     <string name="ambilight_tips_for_using_tripod">Използвайте трипод</string>
     <string name="audio_focus_exit_button_text">Спри аудио фокуса</string>
+    <string name="auto_hibernation_enter_tip">Подготвяне на изключване на екрана…</string>
     <string name="autozoom_click_hint">Докоснете обекта за да започне проследяването му. Стойте на минимум 3 метра от обекта за най-добър ефект.</string>
     <string name="autozoom_disabled_hint">Спряно проследяване на движещ се обект</string>
     <string name="autozoom_hint">Проследяване на движещ се обект</string>
@@ -454,10 +461,20 @@
     <string name="document_mode_use_hint_text_title">Сканиране документи</string>
     <string name="document_origin">Оригинал</string>
     <string name="document_strengthen">Подобрен</string>
+    <string name="download_cancel_hint">Прекратяване на изтеглянето на %1$s?</string>
+    <string name="download_confirm">Изтегляне</string>
+    <string name="download_hint">За изтегляне на елементите ще бъдат използвани %1$s MB от мобилните данни. Желаете ли да изтеглите въпреки това?</string>
+    <string name="download_title">Предупреждение за употреба на данни</string>
     <string name="dual_camera_lens_covered_toast">Обективът е закрит.</string>
     <string name="dual_camera_lowlight_toast">Слабата осветеност може да навреди на ефектите на режим Двойна камера.</string>
     <string name="dual_camera_too_close_toast">Обектът е прекалено близо за режим Двойна камера.</string>
     <string name="dual_camera_use_hint">Уверете се, че обектът на заснемане не е по-далеч от 2 метра.</string>
+    <string name="dual_video_record_merged">Комбинирано</string>
+    <string name="dual_video_record_standalone">Отделно</string>
+    <string name="dual_video_user_guide_main_content">За да създадете мултикамерни видео клипове, изберете две камери от вашето устройство и заснемете едновременно. Записите могат да бъдат съхранявани отделно или комбинирано в режим разделена гледка или в режим картина-в-картината.</string>
+    <string name="dual_video_user_guide_main_title">Мултикамерно видео</string>
+    <string name="dual_video_user_guide_merge_content">Заснемайте с две камери едновременно и комбинирайте записите в режим разделена гледка или в режим картина-в-картината.</string>
+    <string name="dual_video_user_guide_standalone_content">Заснемайте с две камери едновременно и запазвайте двата записа като отделни видео клипове.</string>
     <string name="edit_blusher">Руж</string>
     <string name="edit_chin">Брадичка</string>
     <string name="edit_eye_large">Големи очи</string>
@@ -512,6 +529,10 @@
     <string name="face_beauty_intelligent_level_3">Висок режим за разкрасяване</string>
     <string name="face_beauty_smart">Смарт</string>
     <string name="face_score_info">Резултат: %.1f</string>
+    <string name="fastmotion_pro_adjust_name">Параметри</string>
+    <string name="fastmotion_pro_save_time_infinity">Неограничена продължителност</string>
+    <string name="fastmotion_pro_save_time_min_and_sec">Продължителност: %1$s %2$s</string>
+    <string name="fastmotion_pro_save_time_min_or_sec">Продължителност: %1$s</string>
     <string name="fps960_toast">Заснемането на забавен кадър ще започне в последната четвърт на записа</string>
     <string name="fragment_tab_name_bokeh">Боке</string>
     <string name="front_camera_hint_text_place">"Правенето на селфита ще бъде много лесно
@@ -569,8 +590,11 @@
     <string name="lighting_pattern_stage">Сцена</string>
     <string name="lighting_phantom">Фантом</string>
     <string name="lighting_rainbow">Дъга</string>
+    <string name="live_draft_continue">Продължи</string>
+    <string name="live_draft_empty">Тук няма елементи</string>
     <string name="live_edit_exit_confirm">Спри</string>
     <string name="live_edit_exit_message">Да се изключи ли режим снимки?</string>
+    <string name="live_edit_exit_message_draft">Запазване като чернова</string>
     <string name="live_edit_share_title">Споделяне</string>
     <string name="live_error_confirm">Коригиране</string>
     <string name="live_error_message">Някои функции може да не работят правилно, ако часа и датата са некоректни.</string>
@@ -595,6 +619,8 @@
     <string name="live_sticker_fragment_tab_name">Тик Ток ефекти</string>
     <string name="live_sticker_network_error_hint">Грешка в мрежата</string>
     <string name="live_sticker_updating">Актуализиране…</string>
+    <string name="live_workspace_title">Чернови</string>
+    <string name="live_workspace_title_edit">Изберете елементи за изтриване</string>
     <string name="location_access_allow">Разреши</string>
     <string name="location_permission_des">Запомняй местоположението на снимки и клипове</string>
     <string name="location_permission_not_ask_again">Разрешете на камерата да осъществява достъп до Вашето местоположение в Настройки.</string>
@@ -743,7 +769,7 @@
     <string name="module_name_fun_ar">Аватари стикери</string>
     <string name="module_name_manual">Ръчно</string>
     <string name="module_name_more">Още</string>
-    <string name="module_name_multi_camera">Предна и задна</string>
+    <string name="module_name_multi_camera">Мултикамера</string>
     <string name="module_name_new_slow_motion">Забавен кадър</string>
     <string name="module_name_panorama">Панорама</string>
     <string name="module_name_portrait">Портрет</string>
@@ -751,6 +777,7 @@
     <string name="module_name_square">Квадрат</string>
     <string name="module_name_super_moon">Супер луна</string>
     <string name="module_name_video">Видеозапис</string>
+    <string name="module_name_vlog">VLOG</string>
     <string name="moive_frame">Филмова рамка</string>
     <string name="more_mode_style">Изберете как да подредите режимите на камерата</string>
     <string name="more_mode_style_popup">Панел \"Още\"</string>
@@ -860,7 +887,7 @@
     <string name="portrait_mode_use_hint_for_bokeh">"Изпробвайте режим Портрет.
  Направете обекта ясен и замъглете фона."</string>
     <string name="pref_960_watermark_title">Воден знак 960 FPS</string>
-    <string name="pref_advance_settings">Допълнителни настройки</string>
+    <string name="pref_advance_settings">Разширени настройки</string>
     <string name="pref_ai_detect">AI откриване</string>
     <string name="pref_audio_denoise_title">Намаляване на аудио шум</string>
     <string name="pref_audio_focus_entry_front">Преден</string>
@@ -884,6 +911,8 @@
     <string name="pref_camera_auto_capture_when_stable_summary">За избор на обект, чукнете два пъти по диагоналните точки близо до очертанията му. Когато обектът застане неподвижно, камерата ще го заснеме автоматично.</string>
     <string name="pref_camera_auto_capture_when_stable_title">Авто-заснемане след стабилизиране</string>
     <string name="pref_camera_auto_chroma_flash_title">Цветна светкавица</string>
+    <string name="pref_camera_auto_hibernation">Заснемане с изключен екран</string>
+    <string name="pref_camera_auto_hibernation_description">Изключване на екрана %d минути след заснемането за спесняване на енергия</string>
     <string name="pref_camera_autoexposure_entry_centerweighted">Центрирана</string>
     <string name="pref_camera_autoexposure_entry_frameaverage">Средно по кадри</string>
     <string name="pref_camera_autoexposure_entry_spotmetering">Точка</string>
@@ -891,6 +920,7 @@
     <string name="pref_camera_auxiliary_close">Изкл.</string>
     <string name="pref_camera_auxiliary_exposure_feedback">Потвърждение на експозицията</string>
     <string name="pref_camera_auxiliary_focus_peak">Пиков фокус</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средно</string>
@@ -1111,7 +1141,7 @@
     <string name="pref_custom_tint_title">Цветове</string>
     <string name="pref_customization_title">Персонализирай</string>
     <string name="pref_document_mode">Документи</string>
-    <string name="pref_dual_camera_video">Предна и задна</string>
+    <string name="pref_dual_camera_video">Двойно видео</string>
     <string name="pref_face_beauty_title">Разкрасяване</string>
     <string name="pref_fingerprint_capture_title">Снимане с пръстов отпечатък</string>
     <string name="pref_front_denoise_summary">Намаляване на шума идващ из зад предната камера</string>
@@ -1324,6 +1354,8 @@
     <string name="unknow_error">Неизвестна грешка</string>
     <string name="unsupported_microphones_3d_record_tips">3D звука не поддържа външни микрофони</string>
     <string name="unsupported_microphones_audio_zoom_tips">Аудио увеличаването не поддържа външни микрофони</string>
+    <string name="update_loading">Изтеглени са %1$d%%</string>
+    <string name="update_start">Обновяване на %1$s</string>
     <string name="user_agree">Приемам</string>
     <string name="user_define_watermark_cancel">Отказ</string>
     <string name="user_define_watermark_save">Запази</string>
@@ -1369,7 +1401,7 @@
     <string name="vv_use_hint_text_body">"Режимът Vlog Ви позволява
 да записвате и редактирате клипове в движение"</string>
     <string name="vv_use_hint_text_title">VLOG</string>
-    <string name="wait">Един момент…</string>
+    <string name="wait">Момент…</string>
     <string name="watermark_tab_city">Град</string>
     <string name="watermark_tab_festival">Празник</string>
     <string name="watermark_tab_general">Общи</string>

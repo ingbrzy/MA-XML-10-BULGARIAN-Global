@@ -94,6 +94,7 @@
     <string name="auth_fail_warning">Сесията изтече. Влезте отново.</string>
     <string name="auto_play_next_off">Автоматичното възпроизвеждане е изключено.</string>
     <string name="auto_play_next_on">Автоматичното възпроизвеждане е включено.</string>
+    <string name="back_to_mainpage">Открийте</string>
     <string name="before_yestoday">Преди 2 дни</string>
     <string name="bind_sign_in_title">Добавяне на Mi Профил</string>
     <string name="cancel">Отказ</string>
@@ -117,6 +118,7 @@
     <string name="cast_forward">Превъртане напред</string>
     <string name="cast_forward_10">Превъртане напред с десет секунди</string>
     <string name="cast_forward_30">Превъртане напред с тридесет секунди</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_live_label">НА ЖИВО</string>
     <string name="cast_mute">Спиране</string>
     <string name="cast_notification_connected_message">Установена е връзка с/ъс „%1$s“</string>
@@ -210,7 +212,7 @@
 ID:%s
 Изпратете този код на супервизора."</string>
     <string name="dialog_privacy_info_new2">За да можете да използвате услугите, трябва да дадете съгласието си на %1$s да събира, обработва и използва Вашата лична информация. Когато натиснете бутона \"Приемам\" по-долу, ще се счете, че сте прочели и че приемате нашата &lt;a href=%2$s>политика за поверителност&lt;/a>.</string>
-    <string name="dialog_privacy_info_new3">За да можете да използвате тази услуга трябва да позволите на %1$s да събира, обработва и използва вашите лични данни в съответствие с Правилата за поверителност. Натискайки \"Приемам\" отдолу, вие се съгласявате с &lt;a href=%2$s>Правилата за поверителност&lt;/a> и &lt;a href=%3$s>Потребителското споразумение&lt;/a> на Xiaomi.</string>
+    <string name="dialog_privacy_info_new3">За да можете да използвате тази услуга, ще трябва да разрешите на %1$s да събира, обработва и използва вашите лични данни в съответствие с Правилата за поверителност. Натискайки Приемам по-долу, вие приемате &lt;a href=%2$s>Правилата за поверителност&lt;/a> и &lt;a href=%3$s>Потребителското споразумение&lt;/a> на Xiaomi. &lt;br/>&lt;br/>Натискането на Приемам също дава на Mi Видео достъп до списък с инсталираните приложения на вашето устройство. С това разрешение, Mi Видео ще може да споделя елементи, да проверява дали определено приложение е инсталирано на вашето устройство, да проверява коя версия на приложението е инсталирана и да проверява дали приложението е безопасно.</string>
     <string name="dialog_privacy_title">Упълномощаване</string>
     <string name="dialog_revoke_privacy_info_new2">След като анулирате разрешението, приложението ще спре събирането на данни и всички свързани с него данни ще бъдат изтрити от нашите сървъри. Това може да направи приложението практически неизползваемо. Наистина ли искате да отмените разрешението?</string>
     <string name="dialog_revoke_privacy_title">Отмяна на разрешението</string>
@@ -280,6 +282,7 @@ ID:%s
     <string name="favorite_fail">Добавянето към \"Любими\" е неуспешно. Опитайте отново по-късно.</string>
     <string name="favorite_success">Успешно добавен към любими</string>
     <string name="fcm_fallback_notification_channel_label">Разни</string>
+    <string name="fcm_push_title">Популярни видеоклипове</string>
     <string name="feedback">Отзив</string>
     <string name="feedback_activity_title">Доклад за грешки</string>
     <string name="feedback_contact_empty">Въведете вашите данни за контакт</string>
@@ -301,7 +304,7 @@ ID:%s
     <string name="for_diagnosis_usage_only">Регистрите се използват само за диагностика.</string>
     <string name="for_you">ЗА ВАС</string>
     <string name="friday">Петък</string>
-    <string name="fw_loading">Един момент…</string>
+    <string name="fw_loading">Момент…</string>
     <string name="fw_reload_sub_title">Чукнете екрана за повторен опит</string>
     <string name="fw_reload_title">Неуспешно свързване с мрежа.</string>
     <string name="gallery_folder_alias_TAOBAO">Taobao</string>
@@ -357,7 +360,7 @@ ID:%s
     <string name="galleryplus_online_cta_agree">Приемам</string>
     <string name="galleryplus_online_cta_disagree">Не приемам</string>
     <string name="galleryplus_online_cta_title">Правила и условия</string>
-    <string name="galleryplus_online_video_loading">Един момент…</string>
+    <string name="galleryplus_online_video_loading">Момент…</string>
     <string name="galleryplus_permission_content">Дайте необходимите разрешения на Mi Видео, за да можете да използвате тази услуга.</string>
     <string name="galleryplus_permission_content2">"За да можете да използвате тази услуга отидете на Настройки > Приложения > Mi Видео > Разрешения и позволете на Mi Видео следното:
 
@@ -626,6 +629,9 @@ ID:%s
     <string name="notification_bar_player_subtitle">Показване на минимизирания прейър в Лентата с известия</string>
     <string name="notification_bar_player_title">Минимизирай плейъра</string>
     <string name="notification_open_tip">Включете, за да получавате известия</string>
+    <string name="notification_recall_action">Включване</string>
+    <string name="notification_recall_desc">Mi Видео може да ви праща известия относно популярни видеоклипове и ваши абонаменти.</string>
+    <string name="notification_recall_title">Включване на известия</string>
     <string name="notify_apk_installed">Изтеглянето е успешно</string>
     <string name="ok">OК</string>
     <string name="order_alphabet">А – Я</string>
@@ -824,6 +830,7 @@ ID:%s
     <string name="permission_storage">хранилище</string>
     <string name="permission_storage_desc">За достъп до елементи, записване на файлове, показване и възпроизвеждане на местни видео клипове</string>
     <string name="permission_title">Необходими са Разрешения</string>
+    <string name="pgc_push_title">Абонаменти</string>
     <string name="phone_bind_too_many">Този телефон бе свързан с няколко Mi профила за кратък период от време. Опитайте с използването на друг телефонен номер.</string>
     <string name="phone_hint">Телефонен номер</string>
     <string name="phone_num_use_for">Телефонният номер се използва за:</string>

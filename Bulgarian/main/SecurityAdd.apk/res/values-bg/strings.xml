@@ -54,6 +54,7 @@
     <string name="dual_app_title">Клонирани приложения</string>
     <string name="dual_app_words">Всеки профил заслужава собствено приложение</string>
     <string name="early_morning">Сутрин</string>
+    <string name="empty">" "</string>
     <string name="eras_ad">н.е.</string>
     <string name="eras_bc">пр.Хр.</string>
     <string name="evening">Следобед</string>
@@ -161,8 +162,14 @@
     <string name="gb_advance_settings_vibration_4d_summary">Вибрация по време на изстрели в играта</string>
     <string name="gb_advance_settings_vibration_4d_summary2">Вибрация по време на убиване в играта</string>
     <string name="gb_alipays_can_not_complete">Плащането не можа да завърши. Инсталирайте за да продължите.</string>
+    <string name="gb_dialog_game_speed_close">Изключване на режим Светлинна скорост…</string>
+    <string name="gb_dialog_game_speed_exist">Можете да използвате само една игра в режим Светлинна скорост. Желаете ли да замените %s сега?</string>
     <string name="gb_game_control">GPU настройки</string>
     <string name="gb_game_settings">Разширени настройки</string>
+    <string name="gb_game_speed_closed">Изключен е режим Светлинна скорост</string>
+    <string name="gb_game_speed_closed_fail">Неуспешно изключване на режим Светлинна скорост</string>
+    <string name="gb_game_speed_open">Включен е режим Светлинна скорост</string>
+    <string name="gb_game_speed_open_fail">Неуспешно включване на режим Светлинна скорост</string>
     <string name="gb_gpu_control_anisotropic_filtering">Анизотропно филтриране</string>
     <string name="gb_gpu_control_anti_aliasing">Увеличаване на разделителната способност</string>
     <string name="gb_gpu_control_fps">Скорост на кадрите</string>
@@ -191,6 +198,7 @@
     <string name="gb_pannel_control_mode_power_saving">Икономия на енергия</string>
     <string name="gb_weixinpay_can_not_complete">Плащането не можа да завърши. Инсталирайте за да продължите.</string>
     <string name="gdpr_msg">&lt;Data>За да можете да използвате основните функционалности на Сигурност, трябва да дадете съгласието си на Xiaomi да събира, обработва и използва Вашите лични данни, включително информация за начините, по които използвате функциите на Сигурност (напр. статистика за изразходваните мобилни данни, информация за открит зловреден софтуер, както и основна информация за Вашето устройство) и други типове информация, посочени в нашата &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">политика за поверителност&lt;/a>.&lt;/Data></string>
+    <string name="install_success">%s Install Success</string>
     <string name="lucky_result_title">Червена обвивка</string>
     <string name="main_toolbar_purchase">Попълване</string>
     <string name="midnight">Нощ</string>
@@ -263,6 +271,7 @@
     <string name="saturday_shortest">Сб.</string>
     <string name="search_menu_title">Търсене</string>
     <string name="share">Споделяне</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>
     <string name="sunday_shortest">Нед.</string>
@@ -341,10 +350,13 @@
     <string name="title_share_link">Споделяне на URL</string>
     <string name="today">Днес</string>
     <string name="tomorrow">Утре</string>
+    <string name="tool_box_active_loading">Момент…</string>
+    <string name="tool_box_active_no_networ">Неуспешно свързване към мрежата</string>
+    <string name="tool_box_active_reload">Презареждане</string>
     <string name="tuesday">Вторник</string>
     <string name="tuesday_short">Вт.</string>
     <string name="tuesday_shortest">Вт.</string>
-    <string name="usage_sorted_loading_text">Момент</string>
+    <string name="usage_sorted_loading_text">Момент…</string>
     <string name="wednesday">Сряда</string>
     <string name="wednesday_short">Ср.</string>
     <string name="wednesday_shortest">Ср.</string>

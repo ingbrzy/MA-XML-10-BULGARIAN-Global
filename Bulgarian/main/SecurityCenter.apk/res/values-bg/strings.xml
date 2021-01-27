@@ -604,7 +604,7 @@
     <string name="banner_optimizemanage_summary">Освобождаване на памет</string>
     <string name="banner_red_money_assist_button">Включи</string>
     <string name="banner_red_money_assist_summary">По-бързо отваряне на червените пликове.</string>
-    <string name="battery_and_property">Батерия &amp; производителност</string>
+    <string name="battery_and_property">Батерия</string>
     <string name="battery_can_use_time">Остават %s</string>
     <string name="battery_capacity_title">Капацитет</string>
     <string name="battery_charge_estimating">Изчисляване</string>
@@ -766,6 +766,7 @@
     <string name="card_main_private_space_summary">Използвайте Второ пространство все едно имате 2 устройства</string>
     <string name="card_main_private_space_title">Второ пространство</string>
     <string name="card_main_sectool_title">Инструменти</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_xspace_action">Създаване</string>
     <string name="card_main_xspace_summary">Създайте два профила за всяко приложение</string>
     <string name="card_main_xspace_title">Клонирани приложения</string>
@@ -777,6 +778,15 @@
     <string name="choose">Изберете</string>
     <string name="choose_gs_show_way">Избор на ориентация на домашната страница</string>
     <string name="clean_immediately">Изчистване</string>
+    <string name="clean_master_icon_recall_button_text">Добавяне</string>
+    <string name="clean_master_icon_recall_dialog_button_negative">Не, благодаря</string>
+    <string name="clean_master_icon_recall_dialog_button_positive">Добавяне</string>
+    <string name="clean_master_icon_recall_dialog_summary">Добавете пряк път на Началния екран, за да можете да изчиствате кошчето по всяко време.</string>
+    <string name="clean_master_icon_recall_dialog_title">По-бързо изчистване на кошчето</string>
+    <string name="clean_master_icon_recall_hint">Добавяне на пряк път към Началния екран</string>
+    <string name="clean_master_icon_recall_summary">Добавете пряк път на Началния екран, за да можете да изчиствате файлове по всяко време.</string>
+    <string name="clean_master_icon_recall_title">По-бързо изчистване на файлове</string>
+    <string name="clean_master_icon_recall_toast_text">Успешно добавяне на пряк път за приложението Чистач на Началния екран</string>
     <string name="cleaned">Почистено</string>
     <string name="clear_garbage">Изтрийте кеша, за да освободите място</string>
     <string name="clear_immediately">Почисти сега</string>
@@ -968,6 +978,7 @@
     <string name="doze_optimization_title">Оптимизиране контрол на докосване</string>
     <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
+    <string name="ellipsis">…</string>
     <string name="email">Имейл</string>
     <string name="empty_app">Няма приложения</string>
     <string name="empty_title_auto_start_list">Няма приложения</string>
@@ -1019,7 +1030,9 @@
     <string name="exo_download_notification_channel_name">Изтегляния</string>
     <string name="exo_download_removing">Изтеглянията се премахват</string>
     <string name="exo_item_list">%1$s – %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Автоматично</string>
     <string name="exo_track_selection_none">Нищо</string>
     <string name="exo_track_selection_title_audio">Аудиозапис</string>
@@ -1156,6 +1169,11 @@
     <string name="free_time_traffic_settings">Настройки на лимит при слаб трафик</string>
     <string name="free_time_traffic_title">Въведете лимит за данни при слаб трафик</string>
     <string name="free_traffic_settings">Настройки на лимит при слаб трафик</string>
+    <string name="function_auto_reject_detail">"Относно тази функция:
+1. Докато играете игри всички входящи повиквания към SIM картата с неактивирани мобилни данни ще бъдат отхвърляни автоматично.
+2. Ще виждате известия за пропуснати повиквания, а другия човек ще чува аудио съобщение гласящо, че сте зает в момента.
+3. Тази функция се поддържа само от мобилни оператори в Китай."</string>
+    <string name="function_auto_reject_title">Отхвърляне на VoLTE повиквания към SIM карти без активирани мобилни данни</string>
     <string name="function_close">Изкл</string>
     <string name="function_gwsd_detail">"Относно тази функция:
  1. Когато използвате мобилни данни от SIM карта за мобилни данни или от стандартна SIM карта свързана към VoLTE мрежа, връзката няма да бъде прекъсвана от входящи повиквания докато не вдигнете.
@@ -1269,6 +1287,11 @@
     <string name="gb_description_image_button_answer">Отговор</string>
     <string name="gb_description_image_button_reject">Отхвърли</string>
     <string name="gb_description_image_button_video_answer">Видеообаждане</string>
+    <string name="gb_dialog_game_uninstall_deleting">Деинсталиране…</string>
+    <string name="gb_dialog_game_uninstall_loading">Зареждане на игри…</string>
+    <string name="gb_dialog_game_uninstall_tips_message">Всички данни за приложението ще бъдат изтрити.</string>
+    <string name="gb_dialog_game_uninstall_tips_message_xspace">Всички данни за приложението и съответващото двойно приложение ще бъдат изтрити.</string>
+    <string name="gb_dialog_game_uninstall_tips_title">Деинсталиране на %s</string>
     <string name="gb_dialog_record_way_ai">Записите с помощта на AI се запазват в хранилището за игри и се съхраняват там в продължение на 7 дни.</string>
     <string name="gb_dialog_record_way_finish">Готово</string>
     <string name="gb_dialog_record_way_manual">Записвайте ръчно видеа с продължителност до 30 секунди.</string>
@@ -1300,6 +1323,10 @@
     <string name="gb_game_video_type_manual">Ръчен</string>
     <string name="gb_get_gift_right_now">Регистриране</string>
     <string name="gb_global_settings">Основни настройки</string>
+    <string name="gb_gpu_driver_btn_update">Проверка за обновления</string>
+    <string name="gb_gpu_driver_update">GPU Driver Updater</string>
+    <string name="gb_gpu_driver_update_app">Обновяване</string>
+    <string name="gb_gpu_driver_update_app_tips">Текущата версия е актуална</string>
     <string name="gb_have_signed">Регистриране днес</string>
     <string name="gb_manual_record_dialog_del_video_message">Да се изтрият ли избраните видеа завинаги?</string>
     <string name="gb_msg_completely_shielded">Скрий съобщенията</string>
@@ -1321,6 +1348,9 @@
     <string name="gb_signed_gift_loading_summary">Момент…</string>
     <string name="gb_signed_title">Регистрирания през този месец</string>
     <string name="gb_sound_audition">Изпробвай</string>
+    <string name="gb_storage_game_uninstall">Деинсталиране на игри</string>
+    <string name="gb_storage_summary">Не показвай игрите, които са добавени към геймбокса на Началния екран</string>
+    <string name="gb_storage_title">Премахване на добавени игри от Начален екран</string>
     <string name="gb_voice_change_settinged">Промяната на гласа е включена</string>
     <string name="gb_voice_changer_cartoon">Анимационен герой</string>
     <string name="gb_voice_changer_dlg_button_agree">Позволи</string>
@@ -1685,9 +1715,11 @@
     <string name="menu_text_antispam">Антиспам</string>
     <string name="menu_text_antivirus">Сканиране на защитата</string>
     <string name="menu_text_garbage_cleanup">Почистване</string>
+    <string name="menu_text_garbage_cleanup_danger">%s</string>
     <string name="menu_text_license_manager">Разрешения</string>
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_unit_b">Б</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
@@ -1695,7 +1727,8 @@
     <string name="menu_text_networkassistants_unit_mb">МБ</string>
     <string name="menu_text_optimize_manage">Подобрете скоростта</string>
     <string name="menu_text_optimize_manage_1">Подобряване на скоростта</string>
-    <string name="menu_text_power_manager">Батерия и производителност</string>
+    <string name="menu_text_power_manager">Батерия</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Премахни от изключения</string>
     <string name="menu_white">Добавяне към изключения</string>
     <string name="mi_service_app_detail">Детайли за употребата на данни</string>
@@ -1810,6 +1843,9 @@
     <string name="notification_channel_battery">Батерия</string>
     <string name="notification_exit_power_save_mode">Икономия на батерия: изключено</string>
     <string name="notification_exit_power_save_mode_subtitle">Батерията е заредена на %s.</string>
+    <string name="notification_garbage_clean_botton_text">Освобождаване</string>
+    <string name="notification_garbage_clean_hint">Освободете място в паметта</string>
+    <string name="notification_garbage_clean_size">Освободете %s</string>
     <string name="notification_garbage_cleanup_summary">Изчисти боклука (%s), за да се ускори устройството.</string>
     <string name="notification_garbage_cleanup_title">Изчисти отпадъчните файлове.</string>
     <string name="notification_low_battery_action_btn">Включи</string>
@@ -1821,6 +1857,8 @@
     <string name="notification_masked_item">Как да скриете съдържанието на известия?</string>
     <string name="notification_masked_subtitle">Използвайте Заключване на приложения за скриване на съдържание на известия от избрани приложения</string>
     <string name="notification_summary_cmcc_app_check">Докоснете за подробности.</string>
+    <string name="notification_whatsapp_clean_button_text">Изчистване</string>
+    <string name="notification_whatsapp_clean_size">Кеша от WhatsApp достигна %s</string>
     <string name="notify_channel_mipush">Push известия за сигурност</string>
     <string name="notify_channel_name_behavior">Хронология на поведението</string>
     <string name="notify_channel_name_security">Защита на системата</string>
@@ -1985,7 +2023,7 @@
     <string name="pc_search_keywords_battery_use">Консумация на батерия</string>
     <string name="pc_search_keywords_capacity">Капацитет на батерия</string>
     <string name="pc_search_keywords_property">Ефективност</string>
-    <string name="pc_settings_title">Батерия&amp; настройки за производителност</string>
+    <string name="pc_settings_title">Батерия</string>
     <string name="pc_statistics_battery_last_hour_minute">Остават %1$d ч и %2$d мин</string>
     <string name="pc_statistics_battery_use_hour_minute">%1$d ч %2$d м от последното зареждане</string>
     <string name="pc_statistics_battery_use_summary">%s от последното зареждане</string>
@@ -2084,6 +2122,11 @@
     <string name="power_center_dialog_msg_top">Когато услугата Икономия на батерия е включена, MIUI ще предприеме следните оптимизации:</string>
     <string name="power_center_hints_scan_danger_result">Можете да коригирате този проблем сега</string>
     <string name="power_center_list_item_auto_brightness">Корекция на автоматичната яркост на екрана</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh (милиампер-час)</string>
+    <string name="power_center_list_item_battery_status_capacity">мАч</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">ч</string>
     <string name="power_center_list_item_close_bluetooth">Изключете Bluetooth</string>
     <string name="power_center_list_item_deep_save_title">Разширени настройки</string>
@@ -2118,7 +2161,7 @@
     <string name="power_center_super_save_title_text">Свръх икономия на батерията</string>
     <string name="power_center_time_to_boot">Време за включване</string>
     <string name="power_center_time_to_shutdown">Време за изключване</string>
-    <string name="power_center_title">Батерия &amp; производителност</string>
+    <string name="power_center_title">Батерия</string>
     <string name="power_consume_hardware_total_format">Хардуер: %s</string>
     <string name="power_consume_other">Други</string>
     <string name="power_consume_rank_hardware">Система</string>
@@ -2212,7 +2255,7 @@
     <string name="power_settings_number">Процентно</string>
     <string name="power_settings_saver_title">Икономия на батерия</string>
     <string name="power_settings_shape">Графично</string>
-    <string name="power_settings_title">Задаване</string>
+    <string name="power_settings_title">Настройки</string>
     <string name="power_settings_top">Горна лента</string>
     <string name="power_superpower_title_systemui_highpower">Оставащо време</string>
     <string name="power_superpower_title_systemui_lowpower">Свържете зарядно устройство</string>
@@ -2260,6 +2303,7 @@
     <string name="pref_normal_traffic_limit">Когато планът за данни е изразходван</string>
     <string name="pref_open_adjust_traffic">Синхронизиране статистиката за трафика с вашия оператор</string>
     <string name="pref_operator_not_set">Оператора не е зададен</string>
+    <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_over_traffic_limit">Когато сте надвишили вашия лимит за данни</string>
     <string name="pref_package_traffic_settings">План за данни</string>
     <string name="pref_pkg_begin_date">Дата за нулиране на сметката</string>
@@ -2423,6 +2467,7 @@
     <string name="privacy_using_record">Запис на аудио</string>
     <string name="privacyapp_number_masked_text">Съдържанието на известията е скрито</string>
     <string name="privacyapp_number_unmasked_text">Съдържанието на известията може да се скрие</string>
+    <string name="process_kernel_label">Android операционна система</string>
     <string name="process_mediaserver_label">Медиен сървър</string>
     <string name="process_vpnsdkmanager_label">Турбо режим за игри</string>
     <string name="promotion">Реклами</string>
@@ -3260,6 +3305,9 @@
     <string name="vb_advanced_settings_after_open">След</string>
     <string name="vb_advanced_settings_before_open">Преди</string>
     <string name="vb_advanced_settings_pic_stronger_desc">Прави движещите се обекти по-ясни, като подобрява анимациите. Тази функционалност повишава потреблението на енергия.</string>
+    <string name="vb_fps_settings">Скорост на автоматично обновяване</string>
+    <string name="vb_fps_settings_tips">Тази функция коригира скоростта на обновяване на екрана към скоростта на видео кадрите, което спестява батерия и прави възпроизвеждането по-плавно. Включването на плаващи коментари ще изключи скоростта на автоматично обновяване.</string>
+    <string name="vb_quick_func_auto_bgm">Разпознаване на фонова музика</string>
     <string name="vb_quick_func_hangup_listening">Възпроизвеждай видео при изключен екран</string>
     <string name="vb_quick_func_screen_capture">Снимка на екрана</string>
     <string name="vb_quick_func_screen_record">Запис</string>
@@ -3271,9 +3319,19 @@
     <string name="vb_video_effects_display_style">Стил</string>
     <string name="vb_video_effects_setting_black_white">Черно-бяло</string>
     <string name="vb_video_effects_setting_cinema">Кино</string>
+    <string name="vb_video_effects_setting_girl">Руменина</string>
+    <string name="vb_video_effects_setting_gorgeous">Живо</string>
+    <string name="vb_video_effects_setting_green_orange">Оранжево</string>
+    <string name="vb_video_effects_setting_grim">Студено</string>
+    <string name="vb_video_effects_setting_hdr">HDR</string>
+    <string name="vb_video_effects_setting_knight">Метално</string>
+    <string name="vb_video_effects_setting_mecha">Робот</string>
+    <string name="vb_video_effects_setting_nostalgia">Носталгично</string>
     <string name="vb_video_effects_setting_old_movie">Ретро</string>
     <string name="vb_video_effects_setting_outside">На открито</string>
     <string name="vb_video_effects_setting_raw">Оригинал</string>
+    <string name="vb_video_effects_setting_solar">Избледняващо</string>
+    <string name="vb_video_effects_setting_warmth">Топло</string>
     <string name="vb_video_effects_settings_liquid">Изчистване</string>
     <string name="vb_video_effects_settings_stereo">Сила на звука</string>
     <string name="vb_video_effects_srs_premium_sound">Звук</string>

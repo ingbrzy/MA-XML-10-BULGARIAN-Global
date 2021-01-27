@@ -41,6 +41,7 @@
     <string name="account_unactivated">Профилът не е активиран</string>
     <string name="ad_app_download_start">Стартиране на изтегляне…</string>
     <string name="ad_app_is_downloading">Изтегляне…</string>
+    <string name="ad_service">Показване на реклами</string>
     <string name="add_resource_detail_fail">Не могат да се добавят ресурси</string>
     <string name="agreement_desc">Потребителско споразумение (задължително)</string>
     <string name="alarm_sound">Будилник</string>
@@ -163,7 +164,9 @@
     <string name="exo_download_notification_channel_name">Изтегляния</string>
     <string name="exo_download_removing">Изтеглянията се премахват</string>
     <string name="exo_item_list">%1$s – %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Автоматично</string>
     <string name="exo_track_selection_none">Нищо</string>
     <string name="exo_track_selection_title_audio">Аудиозапис</string>
@@ -181,6 +184,7 @@
     <string name="fail_to_add_account">Неуспешно добавяне на профил</string>
     <string name="favorite_list">Любими</string>
     <string name="favorite_list_format">Любими %1$s</string>
+    <string name="fcm_fallback_notification_channel_label">Разни</string>
     <string name="find_more">Открийте повече</string>
     <string name="find_more_theme">Намери още</string>
     <string name="find_more_wallpapers">Намери още</string>
@@ -230,6 +234,7 @@
     <string name="incompatible_dialog_ok">Разбрах</string>
     <string name="incompatible_dialog_title">Грешка при съвместимостта</string>
     <string name="is_setting_wallpaper_message">Тапетът се задава…</string>
+    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Будилници</string>
     <string name="item_resource_audio_optional_color_ring">Тон на обратно позвъняване</string>
     <string name="item_resource_audio_optional_notification_ring">Известия</string>
@@ -252,7 +257,8 @@
     <string name="lockscreen_magazine_title">Закл. екрани за деня</string>
     <string name="lockscreen_wallpaper">Заключен екран</string>
     <string name="lockstyle_personal_settings">Персонализиране</string>
-    <string name="login_invalid">Сесията изтече</string>
+    <string name="login_invalid">Сесията Ви е изтекла. Влезте отново.</string>
+    <string name="match_theme">Съвпадащи теми</string>
     <string name="max_usable_themes">99+</string>
     <string name="message">Текстово съобщение</string>
     <string name="message_sim_one">Съобщение от SIM 1</string>
@@ -274,6 +280,7 @@
     <string name="my_gifts">Подаръци</string>
     <string name="my_gifts_purchased">Закупени</string>
     <string name="my_gifts_received">Получени</string>
+    <string name="need_permission">Задължителни разрешения (използвани за основните функции и услуги на това приложение)</string>
     <string name="no_data">Няма връзка с мрежа</string>
     <string name="no_related_font">Няма резултати</string>
     <string name="no_related_ringtone">Няма резултати</string>
@@ -296,13 +303,19 @@
     <string name="online_search_hint">Търсене на информация онлайн</string>
     <string name="online_themes">Онлайн теми</string>
     <string name="online_wallpapers">Онлайн тапети</string>
+    <string name="ota_theme_default_push_content">Пробвайте нещо ново</string>
+    <string name="ota_theme_default_push_title">Омръзна ли Ви темата по подразбиране?</string>
+    <string name="ota_theme_new_push_content">Дайте нов облик на устройството си</string>
+    <string name="ota_theme_new_push_title">Пробвайте изцяло новите MIUI 12 теми</string>
+    <string name="personal_recommend_desc">Получавайте препоръки за съдържание въз основа на вашите предпочитания</string>
+    <string name="personal_recommend_title">Персонализирани препоръки</string>
     <string name="phone_ringtone">Мелодия</string>
     <string name="popular_themes">Популярни теми</string>
     <string name="popular_wallpapers">Популярни тапети</string>
     <string name="pref_animation_preview">Анимиран преглед</string>
     <string name="pref_animation_preview_switch">Показвай прехода от заключения към началния екран в прегледа на темите.</string>
     <string name="pref_privacy_policy">Правилата за поверителност</string>
-    <string name="preference_authorization_summary">Плъзнете бутона, за да дадете или отмените Вашето пълномощно</string>
+    <string name="preference_authorization_summary">Сменете превключвателя, за да дадете или отмените вашето упълномощение</string>
     <string name="preference_authorization_title">Упълномощаване</string>
     <string name="premium">Премиум</string>
     <string name="present_local_themes">Моите теми</string>
@@ -322,6 +335,7 @@
     <string name="rank_one">1.%s</string>
     <string name="rank_three">3.%s</string>
     <string name="rank_two">2.%s</string>
+    <string name="read_write_file">Достъп до файловете на устройството и запазване на нови</string>
     <string name="recently_used">Последно използвани</string>
     <string name="refresh_footer_all_loaded">Това е всичко за сега.</string>
     <string name="refresh_footer_failed">Информацията не можа да се зареди</string>
@@ -473,6 +487,7 @@
     <string name="resource_pack_price_info">%1$s Нормално</string>
     <string name="resource_pack_warning">Внимание! Вече сте закупили %1$d елемента. Текущата им цена не е валидна за оставащите елементи, моля да ги купите поотделно.</string>
     <string name="resource_present">Подарък</string>
+    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Безплатни</string>
     <string name="resource_price_unit"> МiКредити</string>
     <string name="resource_purchase_common_error">Получи се грешка, опитайте отново</string>
@@ -573,6 +588,7 @@
     <string name="s5">Създаване на събитие в календара</string>
     <string name="s6">Да се разреши ли на рекламата да създаде събитие в календара?</string>
     <string name="s7">Тестова реклама</string>
+    <string name="scroll_switch">Плъзнете, за да превключите между елементите</string>
     <string name="sdcard_not_mounted_dialog_message">\"Поставете SD карта. \"</string>
     <string name="sdcard_not_mounted_dialog_title">Не е открита SD карта</string>
     <string name="search_color">Цвят</string>
@@ -593,6 +609,8 @@
     <string name="sim_one">SIM 1</string>
     <string name="sim_two">SIM 2</string>
     <string name="similar_theme">Подобни теми</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="storage_file">За запазване на изтеглени елементи</string>
     <string name="swipe_find_more">Плъзнете нагоре, за да видите още</string>
     <string name="system_phone">Обаждания</string>
     <string name="system_precust">Преинсталирани</string>
@@ -603,6 +621,7 @@
     <string name="theme_apply_audio_dialog_item_notification">Уведомления</string>
     <string name="theme_apply_audio_dialog_item_ringtone">Тон за повикване</string>
     <string name="theme_apply_failured">Не може да се приложи</string>
+    <string name="theme_apply_fully">Успешно приложени теми. Сменящи се тапети е изключено.</string>
     <string name="theme_apply_success">Успешно приложено</string>
     <string name="theme_applying">Прилага се…</string>
     <string name="theme_batch_update_all">Актуализирай всички</string>
@@ -656,6 +675,7 @@
     <string name="theme_is_external_priority_storage">Запази на картата с памет</string>
     <string name="theme_is_external_priority_storage_summary">Приложението Теми ще се рестартира за да се приложат промените</string>
     <string name="theme_multiple_button_title_customize">Редактиране</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Не</string>
     <string name="theme_select_others">Други</string>
     <string name="theme_setting">Настройки</string>
@@ -693,7 +713,7 @@
     <string name="uid_change_dialog_ok">Разбрах</string>
     <string name="uid_change_dialog_title">Рестартирай устройството</string>
     <string name="unsupport_tip">Този файлов формат не се поддържа. Пробвайте да изберете различен файл.</string>
-    <string name="up_to_the_end">Това е всичко засега. Върнете се пак по-късно.</string>
+    <string name="up_to_the_end">Няма повече елементи за показване</string>
     <string name="update_btn">АКТУАЛИЗИРАЙ СЕГА</string>
     <string name="update_check">Проверка за актуализации</string>
     <string name="update_checking">Проверява се за актуализации…</string>
@@ -708,7 +728,7 @@
     <string name="user_agree">Съгласявам се</string>
     <string name="user_authorization_dialog_agree">Приемам</string>
     <string name="user_authorization_dialog_disagree">Изход</string>
-    <string name="user_authorization_dialog_message">Преди да използвате Теми, прочетете и приемете нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и нашата &lt;a href=\"%2$s\">Политика за поверителност&lt;/a>.</string>
+    <string name="user_authorization_dialog_message">Прочетете и приемете нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%2$s\">Правила за поверителност&lt;/a> преди да продължите.</string>
     <string name="user_authorization_dialog_title">Упълномощаване</string>
     <string name="user_know">Разбрах</string>
     <string name="using_theme_has_update_tips">Налична е актуализация за тази тема.</string>

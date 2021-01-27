@@ -106,8 +106,9 @@
     <string name="next_fingerprint">Следващ</string>
     <string name="note_introduction">Това приложение Ви дава възможност да създавате, четете и редактирате бележки.</string>
     <string name="other_settings">Допълнителни настройки</string>
-    <string name="other_settings_ad_dialog_content">"Когато изключите тази функционалност, ще спрете да виждате персонализирани реклами. Реклами обаче ще продължавате да виждате реклами, но те няма да са свързани с нещата, които Ви интересуват. Можете да научите повече за персонализираните реклами в политиката за поверителност на Xiaomi.
-Да се изключат ли персонализираните реклами въпреки всичко?"</string>
+    <string name="other_settings_ad_dialog_agree">Включване</string>
+    <string name="other_settings_ad_dialog_content">Когато персонализираните препоръки за реклами са изключени все още ще виждате същото количество реклами когато тази функция е включена. Рекламите повече няма да се базират на вашите лични предпочитания.</string>
+    <string name="other_settings_ad_dialog_disagree">Изключване</string>
     <string name="other_settings_ad_disable_summary">Включете, за да се показват персонализирани реклами.</string>
     <string name="other_settings_ad_enable">Персонализирани реклами</string>
     <string name="other_settings_ad_enable_summary">Рекламите се персонализират според Вашите интереси.</string>

@@ -82,8 +82,8 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">Това е всичко за сега</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Един момент…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Неуспешно зареждане</string>
-    <string name="multi_music_coexistence_summary">При звука на известие, силата на медийния звук остава непроменена, множество мултимедийни звуци не си влияят един на друг</string>
-    <string name="multi_music_coexistence_title">Разрешете множество звуци</string>
+    <string name="multi_music_coexistence_summary">Не регулирай мултимедийния звук по време на входящи известия или когато се възпроизвежда аудио от друг източник</string>
+    <string name="multi_music_coexistence_title">Паралелни аудиоизточници</string>
     <string name="music_add_my_sound">Добавяне на лична настройка</string>
     <string name="music_app_unavailable">Уверете се, че приложението Mi Музика е достъпно.</string>
     <string name="music_audio_effect_optimize">Аудио настройки</string>
@@ -99,6 +99,8 @@
     <string name="music_delete">Изтриване</string>
     <string name="music_delete_sound_title">Настройките се изтриват</string>
     <string name="music_dirac_control">Оптимизиране качеството на звука</string>
+    <string name="music_dirac_mode_bluetooth_collar">Слушалки Mi Bluetooth Neckband</string>
+    <string name="music_dirac_mode_bluetooth_linefree">Слушалки Mi Bluetooth (Line Free Edition)</string>
     <string name="music_dirac_mode_cancelling">Mi шумопотискане 3.5mm</string>
     <string name="music_dirac_mode_capsule">Mi капсула</string>
     <string name="music_dirac_mode_earbuds">Mi слушалки</string>
@@ -193,6 +195,8 @@
     <string name="personal_sound">Възпроизведи с приложените настройки</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="retry_test">Започни отначало</string>
+    <string name="ringtone_output_device_summary">Разрешаване на звуци от входящи повиквания и известия когато аксесоарите (слушалки с кабел или Bluetooth устройства) са свързани</string>
+    <string name="ringtone_output_device_title">Разрешаване на звук от високоговорител</string>
     <string name="save_and_apply">Запази и приложи</string>
     <string name="search_menu_title">Търсене</string>
     <string name="second_note">Сложете си слушалките.</string>

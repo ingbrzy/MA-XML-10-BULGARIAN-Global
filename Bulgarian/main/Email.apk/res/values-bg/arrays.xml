@@ -22,11 +22,6 @@
         <item>Следващия месец</item>
         <item>Изберете дата</item>
     </string-array>
-    <string-array name="compose_modes">
-        <item>Отговор</item>
-        <item>Отговор до всички</item>
-        <item>Препращане</item>
-    </string-array>
     <string-array name="general_preference_text_zoom_summary_array">
         <item>Много малък шрифт</item>
         <item>Малък шрифт</item>

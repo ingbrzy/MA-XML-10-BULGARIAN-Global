@@ -105,7 +105,7 @@
     <string name="call_record_auto_title">Автоматично записване</string>
     <string name="call_record_auto_unknown_number">Неизвестен номер</string>
     <string name="call_record_auto_whitelist">Избрани телефонни номера</string>
-    <string name="call_record_content_search">Търсене на гласово повикване</string>
+    <string name="call_record_content_search">Търсене в гласово повикване</string>
     <string name="call_record_content_search_summary">Записвайте и транскрибирайте повиквания автоматично, за да можете да откривате повиквания, по време на които определени думи са били споменавани</string>
     <string name="call_record_content_summary">С цел защита на поверителността ви аудио записи на ваши повиквания с транскрибиран текст ще бъдат шифровани и съхранени локално върху устройството ви. Други приложения няма да имат достъп до тези елементи.</string>
     <string name="call_record_content_title">Транскрибиране на записи на повиквания</string>
@@ -123,6 +123,10 @@
     <string name="call_record_text_auto_delete_half_year">След %d месеца</string>
     <string name="call_record_text_auto_delete_never">Никога</string>
     <string name="call_record_text_auto_delete_one_month">След %d месец</string>
+    <string name="call_record_user_notice_all_purpose">Открийте повикванията, по време на които са споменати определени думи</string>
+    <string name="call_record_user_notice_permission_desc_microphone">За записване на повикванията</string>
+    <string name="call_record_user_notice_permission_desc_storage">За запазване на записите</string>
+    <string name="call_record_user_notice_title">Търсене в гласово повикване</string>
     <string name="call_record_whitelist_custom">Избрани повиквания</string>
     <string name="call_recording_notification_summary">Получете известие след като повикване бъде записано</string>
     <string name="call_recording_notification_title">Уведомяване за записани повиквания</string>
@@ -173,6 +177,7 @@
     <string name="callrecordview_menu_show_missed">Пропуснати повиквания</string>
     <string name="callrecordview_menu_show_sim">%s обаждания</string>
     <string name="callrecordview_menu_show_stranger">От непознати номера</string>
+    <string name="cancel">Отказ</string>
     <string name="cancel_confirmation_dialog_message">Ще отмените ли промените?</string>
     <string name="cancel_confirmation_dialog_title">Отказ</string>
     <string name="cancel_export_confirmation_message">Ще отмените ли експортирането на %s?</string>
@@ -251,6 +256,15 @@
     <string name="contactsList">Контакти</string>
     <string name="contacts_default_notification_channel">Известия</string>
     <string name="contacts_hybrid_activity_label">Възтанови конктакти</string>
+    <string name="contacts_trash_activity_hint">Изберете контакти за възстановяване</string>
+    <string name="contacts_trash_activity_title">Наскоро изтрити контакти</string>
+    <string name="contacts_trash_delete">Изтриване</string>
+    <string name="contacts_trash_delete_dialog_continue">Изтриване</string>
+    <string name="contacts_trash_delete_dialog_hint">Това действие е необратимо.</string>
+    <string name="contacts_trash_delete_dialog_loading">Изтриване…</string>
+    <string name="contacts_trash_delete_dialog_title">Изтриване на избраните контакти?</string>
+    <string name="contacts_trash_restore">Възстановяване</string>
+    <string name="contacts_trash_restore_loading">Възстановяване…</string>
     <string name="contacts_unavailable_add_account">Влезте в профила си</string>
     <string name="contacts_unavailable_create_contact">Създай нов контакт</string>
     <string name="contacts_unavailable_import_contacts">Вмъкване от файл</string>
@@ -342,7 +356,7 @@
 %2$d. Отворете настройките в приложението Контакти,  отидете в \"Внасяне/Изнасяне на контакти\" -- \"Внасяне от SIM карта\", задръжте контакт от SIM картата, за да го маркирате, маркирайте всички желани контакти и натиснете \"Внасяне\"."</string>
     <string name="device_version_header_bluetooth">Импортиране чрез Bluetooth</string>
     <string name="device_version_header_no_bluetooth">Импортиране чрез SIM картата</string>
-    <string name="dialerIconLabel">Телефон</string>
+    <string name="dialerIconLabel">Скорошни</string>
     <string name="dialer_copy_view_delete_description">Премахни копирания номер</string>
     <string name="dialer_digits_copy_number_label">Копиран номер</string>
     <string name="dialer_empty_text_no_call_log">Списъкът с повиквания е празен</string>
@@ -388,6 +402,7 @@
     <string name="email_work">Служебен Имейл</string>
     <string name="emergency_number_label">Спешен номер</string>
     <string name="empty" />
+    <string name="ensure">OK</string>
     <string name="eras_ad">н.е.</string>
     <string name="eras_bc">пр.Хр.</string>
     <string name="evening">Следобед</string>
@@ -415,7 +430,7 @@
     <string name="external_profile_title">Моят профил %1$s</string>
     <string name="fail_reason_could_not_initialize_exporter">Неуспешно стартиране на функция експорт. Причина: \"%s\".</string>
     <string name="fail_reason_could_not_open_file">Неуспешно отваряне на \"%1$s\": %2$s.</string>
-    <string name="fail_reason_error_occurred_during_export">Възникна грешка при експорт. Причина: \"%s\".</string>
+    <string name="fail_reason_error_occurred_during_export">Възникна грешка при изнасяне: \"%s\".</string>
     <string name="fail_reason_io_error">I/O грешка</string>
     <string name="fail_reason_low_memory_during_import">Недостатъчно памет. Вероятно файла е твърде голям.</string>
     <string name="fail_reason_no_exportable_contact">Няма контакти за експортиране.</string>
@@ -467,6 +482,7 @@
     <string name="friday">Петък</string>
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Име</string>
     <string name="gallery">Галерия</string>
     <string name="ghostData_company">Фирма</string>
@@ -487,6 +503,8 @@
     <string name="group_sms_progress_msg">Подготовка за групово изпращане на SMS…</string>
     <string name="groupsLabel">Групи</string>
     <string name="groups_list_empty">Няма групи</string>
+    <string name="hide_app_description_content">Контакти е системно приложение. След като премахнете прекия път на Началния екран, все още ще можете да го използвате чрез приложението Телефон.</string>
+    <string name="hide_app_description_title">Премахване на \"Контакти\" от Начален екран?</string>
     <string name="hint_distance" />
     <string name="hint_findContacts">Намери контакти</string>
     <string name="hint_more_contact">използвай обединяване на контакти, когато има дубликати</string>
@@ -588,6 +606,7 @@
     <string name="menu_sync_remove">Премахни синхронизацията за групата</string>
     <string name="midnight">Нощ</string>
     <string name="miprofile_account_type">Mi профил</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Редакция на профила</string>
     <string name="miprofile_name">Моят профил</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -716,6 +735,7 @@
     <string name="payphone">Обществен телефон</string>
     <string name="people">Контакти</string>
     <string name="phoneLabelsGroup">Телефон</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Номерът е твърде дълъг</string>
     <string name="phone_primary">Основен</string>
     <string name="photoPickerNotFoundText">Няма налични изображения в устройството.</string>
@@ -777,7 +797,7 @@
     <string name="preference_smart_group_company_summary">Групиране на контакти по информация за фирма</string>
     <string name="preference_smart_group_company_title">По фирма</string>
     <string name="preference_smart_group_frequency_summary">Групиране по последни повиквания или SMS-и</string>
-    <string name="preference_smart_group_frequency_title">По последни повиквания</string>
+    <string name="preference_smart_group_frequency_title">Скорошни</string>
     <string name="preference_smart_group_location_summary">Групиране по телефонен код</string>
     <string name="preference_smart_group_location_title">По местоположение</string>
     <string name="preference_smart_group_title">Смарт групиране</string>
@@ -816,7 +836,7 @@
     <string name="reading_vcard_failed_title">Разчитането на данни от визитка е неуспешно</string>
     <string name="rebuild_t9_index_dialog_message">Възстановяване…</string>
     <string name="recentCallsIconLabel">Списък с обаждания</string>
-    <string name="recent_contacts_label">Последни</string>
+    <string name="recent_contacts_label">Скорошни</string>
     <string name="recent_number">Последен</string>
     <string name="redirect_calls_to_vm_confirm_message">Ако не сте заявили услугата при оператора, моля не включвайте. В противен случай, може да не могат да получават обаждания от този контакт.</string>
     <string name="redirect_calls_to_vm_confirm_text">Включи</string>
@@ -826,6 +846,10 @@
     <string name="remove_blacklist_dialog_message">Деблокиране на този номер?</string>
     <string name="remove_blacklist_dialog_title">Премахване от блокирани</string>
     <string name="remove_duplicate">\"MIUI ще ви помогне да намерите и обедините дублиращи се контакти. За да започнете, натиснете иконата за обединяване в долната част на екрана.\"</string>
+    <string name="restore_app_btn_cancel">Отказ</string>
+    <string name="restore_app_btn_restore">OК</string>
+    <string name="restore_app_description_content">За по-бърз достъп до вашите контакти добавете пряк път на Началния екран.</string>
+    <string name="restore_app_description_title">Добавяне на \"Контакти\" на Началния екран?</string>
     <string name="restore_nickname">Възстанови</string>
     <string name="return_call">Натиснете, за да се върнете към обаждания</string>
     <string name="return_call_calling">Извършва се обаждане</string>
@@ -855,7 +879,7 @@
     <string name="search_new_funcation">Относно тази функция</string>
     <string name="search_open_new_funcation">Включване</string>
     <string name="search_open_new_funcation_tip">Когато тази функция е включена, вашите повиквания ще бъдат записвани автоматично, позволявайки ви да откривате повикванията, по време на които определени думи са споменати.</string>
-    <string name="search_open_new_funcation_title">Търсене на гласово повикване</string>
+    <string name="search_open_new_funcation_title">Търсене в гласово повикване</string>
     <string name="search_results_searching">Търсене…</string>
     <string name="search_settings_description">Имена от ваши контакти</string>
     <string name="searching_vcard_message">Търсене на визитки в устройството…</string>
@@ -863,8 +887,8 @@
     <string name="select_groups">Избери групи</string>
     <string name="select_vcard_title">Избери файл с визитка</string>
     <string name="send_contact_shortcut_todesktop_duplicate">Този пряк път вече съществува</string>
-    <string name="send_contact_shortcut_todesktop_failed">Неуспешно създаване на пряк път на Главния екран</string>
-    <string name="send_contact_shortcut_todesktop_overflow">Не могат да бъдат създадени още преки пътища на Главния екран</string>
+    <string name="send_contact_shortcut_todesktop_failed">Неуспешно създаване на пряк път на Началния екран</string>
+    <string name="send_contact_shortcut_todesktop_overflow">Не можете да създавате повече преки пътища на Началния екран</string>
     <string name="send_contact_shortcut_todesktop_success">На началния екран е създаден пряк път за контакта.</string>
     <string name="separatorJoinAggregateAll">Всички контакти</string>
     <string name="separatorJoinAggregateSuggestions">Предложени контакти</string>
@@ -894,12 +918,12 @@
     <string name="sim_card_no_free_space_title">SIM картата е пълна!</string>
     <string name="sim_contact_existing">Вече съществува такъв SIM контакт.</string>
     <string name="sim_contact_invalid">Невалиден SIM контакт</string>
-    <string name="sim_contact_search_error">Възникна грешка при търсене на контакти на SIM карта</string>
+    <string name="sim_contact_search_error">Възникна грешка</string>
     <string name="sim_contacts">SIM Контакти</string>
     <string name="sim_error_anr_full">Хранилището за номера е пълно!</string>
     <string name="sim_error_email_full">Хранилището за имейл адреси е пълно!</string>
     <string name="sim_error_email_too_long">Имейл адресът е прекалено дълъг.</string>
-    <string name="sim_error_generic_failure">Неуспех.</string>
+    <string name="sim_error_generic_failure">Възникна грешка</string>
     <string name="sim_error_not_ready">Зареждане на SIM контакти…</string>
     <string name="sim_error_number_too_long">Номерът е прекалено дълъг!</string>
     <string name="sim_error_password_error">Неправилна парола.</string>
@@ -913,13 +937,14 @@
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Няма членове на групата</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">По фирма</string>
     <string name="smart_group_company_unavailable">Неизвестна фирма</string>
     <string name="smart_group_frequency_1">В рамките на месец</string>
     <string name="smart_group_frequency_2">%1$d до %2$d месеца</string>
     <string name="smart_group_frequency_3">%1$d до %2$d месеца</string>
     <string name="smart_group_frequency_4">Преди повече от %d месеца</string>
-    <string name="smart_group_frequency_label">По последни повиквания</string>
+    <string name="smart_group_frequency_label">Скорошни</string>
     <string name="smart_group_label">Смарт групиране</string>
     <string name="smart_group_location_label">По местоположение</string>
     <string name="smart_group_location_unavailable">Без адрес</string>
@@ -954,6 +979,7 @@
     <string name="starred_contacts">Любими</string>
     <string name="status_available">Достъпен</string>
     <string name="status_away">Отсъстващ</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Зает</string>
     <string name="strequentList">Любими</string>
     <string name="success_message_import_from_account">Успешно импортиране</string>
@@ -1037,7 +1063,7 @@
     <string name="tuesday_short">Вт.</string>
     <string name="tuesday_shortest">Вт.</string>
     <string name="two_letter">ABC</string>
-    <string name="type_mx_msg">Облачно съобщения</string>
+    <string name="type_mx_msg">Mi Съобщение</string>
     <string name="unable_get_device_id">Неуспешно взимане на IMEI</string>
     <string name="undefined">Не е настроено</string>
     <string name="unknow_phone_number_call_failed">Не може да се обадите на неизвестни номера</string>

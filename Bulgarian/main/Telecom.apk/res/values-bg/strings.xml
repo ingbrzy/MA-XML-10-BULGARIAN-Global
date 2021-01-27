@@ -374,7 +374,7 @@
     <string name="local_backup_password_toast_validation_failure">Задаването на парола за резервно копие не бе успешно</string>
     <string name="managed_user_title">Вс. служебни приложения</string>
     <string name="media_category">Мултимедия</string>
-    <string name="media_transfer_this_device_name">Високоговорител на телефона</string>
+    <string name="media_transfer_this_device_name">Високоговорител</string>
     <string name="media_transfer_wired_device_name">Аудиоустройство с кабел</string>
     <string name="media_transfer_wired_usb_device_name">Слушалки с кабел</string>
     <string name="missedcall_notification_public_version_title">Телефон</string>
@@ -489,6 +489,7 @@
     <string name="private_dns_mode_provider">Име на хоста на доставчика на частния DNS</string>
     <string name="private_dns_mode_provider_failure">Не можа да се установи връзка</string>
     <string name="private_dns_mode_provider_hostname_hint">Въведете име на хоста на DNS доставчика</string>
+    <string name="process_kernel_label">Android (ОС)</string>
     <string name="profile_connect_timeout_subtext">При свързването възникна проблем. Изключете устройството и го включете отново</string>
     <string name="profile_info_settings_title">Инф. за потр. профил</string>
     <string name="remaining_length_format">Оставащо време: %1$s</string>

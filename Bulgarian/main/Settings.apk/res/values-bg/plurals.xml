@@ -145,7 +145,7 @@
         <item quantity="one">Ограничено свързване за %s прил</item>
     </plurals>
     <plurals name="free_wifi_connected_count">
-        <item quantity="other">%1$d свързани потребители</item>
+        <item quantity="other">%1$d свързани потребителя</item>
         <item quantity="one">%1$d свързан потребител</item>
     </plurals>
     <plurals name="hours">
@@ -341,8 +341,8 @@
         <item quantity="one">Показване на %d скрит елемент</item>
     </plurals>
     <plurals name="show_cit_countdown">
-        <item quantity="other">Вече сте на %1$d стъпки от това, да влезете в инженерно меню CIT.</item>
-        <item quantity="one">Вече сте на %1$d стъпка от това, да влезете в инженерно меню CIT.</item>
+        <item quantity="other">Вече сте на %1$d стъпки от това да влезете в CIT.</item>
+        <item quantity="one">Вече сте на %1$d стъпка от това да влезете в CIT.</item>
     </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">Вече сте на %1$d стъпки от това, да бъдете програмист.</item>
@@ -353,7 +353,7 @@
         <item quantity="one">Запазен е %1$d слухов апарат</item>
     </plurals>
     <plurals name="show_pho_countdown">
-        <item quantity="other">Вече сте на %1$d стъпка от отварянето на информация за устройството.</item>
+        <item quantity="other">Вече сте на %1$d стъпки от отварянето на информация за устройството.</item>
         <item quantity="one">Вече сте на %1$d стъпка от отварянето на информация за устройството.</item>
     </plurals>
     <plurals name="show_rep_countdown">
@@ -453,12 +453,12 @@
         <item quantity="one">%d път</item>
     </plurals>
     <plurals name="usage_state_week_day_hour">
-        <item quantity="other">Уикенди: %d часа</item>
-        <item quantity="one">Уикенди: %d час</item>
+        <item quantity="other">Почивни дни: %d часа</item>
+        <item quantity="one">Почивни дни: %d час</item>
     </plurals>
     <plurals name="usage_state_week_day_minute">
-        <item quantity="other">Уикенди: %d минути</item>
-        <item quantity="one">Уикенди: %d минута</item>
+        <item quantity="other">Почивни дни: %d минути</item>
+        <item quantity="one">Почивни дни: %d минута</item>
     </plurals>
     <plurals name="usage_state_work_day_hour">
         <item quantity="other">Делнични дни: %d часа</item>
@@ -473,12 +473,12 @@
         <item quantity="one">" час"</item>
     </plurals>
     <plurals name="usagestats_device_notification_des_min">
-        <item quantity="other">" минути"</item>
-        <item quantity="one">" минута"</item>
+        <item quantity="other">" мин"</item>
+        <item quantity="one">" мин"</item>
     </plurals>
     <plurals name="virus_scan_app_find_risk">
-        <item quantity="other">%d опасности са намерени</item>
-        <item quantity="one">%d опасност е намерена</item>
+        <item quantity="other">Намерени са %d опасности</item>
+        <item quantity="one">Намерена е %d опасност</item>
     </plurals>
     <plurals name="wifi_saved_access_points_summary">
         <item quantity="other">%d мрежи</item>

@@ -44,22 +44,17 @@
     <string name="account_security_title">Оптимизация на устройството</string>
     <string name="account_security_verification">Потвърждение на профил</string>
     <string name="account_set_up_change_type_note">Ако имате нужда да превключвате между настройките за POP3 и IMAP, изтрийте профила си и създайте нов с желаните от вас настройки.</string>
-    <string name="account_setting">Профили</string>
-    <string name="account_setting_keywords">Профили; профили за ел.поща</string>
     <string name="account_setting_message_body_load_complete">Пълно съобщение</string>
     <string name="account_setting_message_body_load_head_abstract">Резюме на пощата</string>
     <string name="account_setting_message_body_load_head_only">Само горен колонтитул</string>
     <string name="account_setting_message_body_load_text">Само основната част</string>
     <string name="account_settings_action">Настройки на профила</string>
-    <string name="account_settings_background_attachments_label">Изтегляне на прикачени файлове</string>
     <string name="account_settings_background_attachments_summary">Изтегляне на прикачени файлове с помощта на WLAN</string>
     <string name="account_settings_background_attachments_summary_inter">Изтегляне на прикачени файлове с помощта на WLAN</string>
     <string name="account_settings_data_usage">Настройки за синхронизиране</string>
     <string name="account_settings_description_label">Име на профила</string>
     <string name="account_settings_edit_quick_responses_label">Бърз отговор</string>
     <string name="account_settings_edit_quick_responses_summary">Редактиране на кратки съобщения за поставяне в имейли</string>
-    <string name="account_settings_enforced_label">Политики</string>
-    <string name="account_settings_enforced_summary">Няма</string>
     <string name="account_settings_incoming_summary">Потребителско име, парола и други настройки на сървъра</string>
     <string name="account_settings_login_dialog_content_fmt">"Потребителско име или парола за %s  са неправилни. Ще ги актуализирате ли сега?"</string>
     <string name="account_settings_login_dialog_reason_fmt">Неуспешно вписване в %1$s. Отговорът на сървъра е: %2$s. Ще актуализирате ли Вашето потребителско име или парола?</string>
@@ -73,12 +68,9 @@
     <string name="account_settings_notify_label">Известия по имейл</string>
     <string name="account_settings_notify_summary">Показване на уведомление при пристигане нова ел. поща</string>
     <string name="account_settings_param">Настройки на профила</string>
-    <string name="account_settings_policies">Правила за защита</string>
     <string name="account_settings_preference_att_save_path">Местоположение по подразбиране за прикачени файлове</string>
     <string name="account_settings_preference_head_icon">Профилни снимки</string>
     <string name="account_settings_preference_notify">Уведоми</string>
-    <string name="account_settings_retry_label">Опит за синхронизиране</string>
-    <string name="account_settings_retry_summary">Докосване за синхронизиране на профила</string>
     <string name="account_settings_ringtone">Звук за известията</string>
     <string name="account_settings_servers">Настройки на сървъра</string>
     <string name="account_settings_smime_title">S/MIME (Защитено многофункционално разширение за интернет поща)</string>
@@ -89,13 +81,9 @@
     <string name="account_settings_sync_contacts_summary">Синхронизиране на контакти за този профил</string>
     <string name="account_settings_sync_email_enable">Синхронизиране на ел. поща</string>
     <string name="account_settings_sync_email_summary">Синхронизиране на ел. поща за този акаунт</string>
-    <string name="account_settings_unsupported_label">Неподдържани политики</string>
-    <string name="account_settings_unsupported_summary">Няма</string>
     <string name="account_settings_user_usage">Настройки на профила</string>
     <string name="account_settings_using_ringtone">Тон на звънене</string>
     <string name="account_settings_vibrate_when_label">Вибрация</string>
-    <string name="account_setup_account_type_instructions">Какъв тип профил е това?</string>
-    <string name="account_setup_account_type_title">Настройка на профила</string>
     <string name="account_setup_address_label">Електронна поща</string>
     <string name="account_setup_autodiscover_dlg_authfail_message">Потвърдете потребителското име, паролата и настройките на профила.</string>
     <string name="account_setup_autodiscover_dlg_authfail_title">Не може да се настрои профила</string>
@@ -113,7 +101,6 @@
     <string name="account_setup_creating_account_msg">"    Създаване на профил…"</string>
     <string name="account_setup_deleting_account_msg">"    Премахване на профил…"</string>
     <string name="account_setup_exchange_certificate_title">Сертификат на клиент</string>
-    <string name="account_setup_exchange_device_id_label">Идентифициране на мобилно устройство</string>
     <string name="account_setup_exchange_no_certificate">Няма</string>
     <string name="account_setup_failed_auth_required">Този метод за удостоверяване не се поддържа от сървъра.</string>
     <string name="account_setup_failed_certificate_inaccessible">Сертификатът е невалиден или недостъпен.</string>
@@ -131,7 +118,6 @@
     <string name="account_setup_failed_dlg_server_message_fmt">"Не може да се свържете със сървъра. 
 (%s)"</string>
     <string name="account_setup_failed_dlg_title">Не може да се настрои профила</string>
-    <string name="account_setup_failed_dlg_todo1">Задайте профил или се опитайте да се впишете с EXCHANGE.</string>
     <string name="account_setup_failed_dlg_todo2">Задайте профил, както е показано по-долу</string>
     <string name="account_setup_failed_dlg_unknown_auth_message">Неизвестна грешка.</string>
     <string name="account_setup_failed_ioerror">Не можа да се осъществи връзка със сървъра.</string>
@@ -179,8 +165,6 @@
     <string name="account_setup_outgoing_port_label">Порт</string>
     <string name="account_setup_outgoing_require_login_label">Трябва да се впишете</string>
     <string name="account_setup_outgoing_smtp_server_label">SMTP сървър</string>
-    <string name="account_setup_security_policies_required_fmt">"Сървъра %s  иска разрешение за дистанционно управление на някои характеристики за сигурност на вашето устройство. Искате ли разрешите настройките за този профил?"</string>
-    <string name="account_setup_security_required_title">Дистанционно администриране на настройките по защитата</string>
     <string name="account_setup_server_acc_manager_title">Профили</string>
     <string name="account_setup_username_password_toast">Въведете валиден имейл адрес и парола.</string>
     <string name="account_smime">S/MIME</string>
@@ -192,17 +176,13 @@
     <string name="account_sync_settings_settings">Синхронизиране на контакти и календар</string>
     <string name="account_sync_settingstip_description">Синхр</string>
     <string name="account_waiting_for_folders_msg">Зареждане на папки…</string>
-    <string name="actionbar_more_option">Повече опции</string>
     <string name="activity_folder_selection">Изберете папка</string>
     <string name="activity_mailbox_selection">Изберете профил</string>
     <string name="ad_merge">Реклами &amp; уведомления</string>
     <string name="add_account">Добавяне на профил</string>
-    <string name="add_account_keywords">Добавяне на профил; добавяне на профил за ел.поща</string>
-    <string name="add_account_search">Добавяне на профил</string>
     <string name="add_attachment">Добавяне на прикачен файл</string>
     <string name="add_calendar">Напомняне</string>
     <string name="add_file_exception">Не можа да се добави. Опитайте да добавите този прикачен файл от друго място.</string>
-    <string name="add_label">Добавяне на папка</string>
     <string name="add_pre_message_attachments">Добавяне на прикачени файлове на предварителното съобщение?</string>
     <string name="add_pre_message_attachments_no">Не добавяйте</string>
     <string name="add_pre_message_attachments_yes">Добавяне</string>
@@ -210,7 +190,6 @@
     <string name="all_purpose">Добре дошли в Поща, персонализираната платформа за имейли създадена за Xiaomi от Kingsoft. Можете да използвате това приложение за писане, изпращане и получаване на имейли.</string>
     <string name="allread">Прочети всички</string>
     <string name="always_bcc_myself">Винаги поставяй копие самостоятелно</string>
-    <string name="always_show_images">Винаги показвай изображенията от този подател</string>
     <string name="app_name">Поща</string>
     <string name="appraise_des">Харесва ли ви това приложение?</string>
     <string name="appraise_good">Да</string>
@@ -219,7 +198,6 @@
     <string name="archive">Архивиране</string>
     <string name="archived">Архивирани</string>
     <string name="att_download_failed_content">Не може да изтеглите прикачения файл за това съобщение.</string>
-    <string name="att_download_failed_network_slow">Скоростта на връзката е твърде бавна, опитайте отново по-късно</string>
     <string name="att_download_failed_permission_denied">Нямате разрешения за достъп до външна памет</string>
     <string name="att_download_failed_title">Не може да се изтегли прикачения файл</string>
     <string name="att_file_not_exists">Не може да се открие %s</string>
@@ -270,9 +248,8 @@
     <string name="b_contacts_remove_tips">Желаете ли да премахнете този адрес от списъка на блокирани?</string>
     <string name="back">Назад</string>
     <string name="bank_card_detail">Кредитна карта</string>
-    <string name="battery_saver">Икономия на батерията</string>
-    <string name="battery_saver_keywords">икономия на батерията; енергия използвана от пощата</string>
     <string name="bcc">Bcc</string>
+    <string name="bcc_heading">"Препращане на: "</string>
     <string name="bill_center_setting">Настройки на сметките</string>
     <string name="bill_center_setting_head">Импортиране на информация от профила</string>
     <string name="bill_cycle_text">Цикъл на плащане</string>
@@ -294,6 +271,7 @@
     <string name="cancel_pop3_attchemt_downloading">Не може да отмените текущите изтегляния за прикачени файлове в POP3 профили</string>
     <string name="cant_move_or_change_labels">Не може да премествате елементи от много профили.</string>
     <string name="cc">Cc</string>
+    <string name="cc_attribution">Копие до %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Копие до: "</string>
     <string name="certificate_add_failed">Неуспешно добавяне на сертификата „% s“</string>
@@ -310,7 +288,6 @@
     <string name="change_sync_settings">Промяна на настройките за синхронизиране</string>
     <string name="changepw_dialog_auth_tips">Въведете кода от %s отново</string>
     <string name="changepw_dialog_tips">"Въведете отново парола за %s "</string>
-    <string name="changepw_dialog_tips_please_clikc_btn">Вижте кода за проверка на %s и влезте отново.</string>
     <string name="chat_item_msg_people_unit">хора</string>
     <string name="chat_item_msg_user_etc">и др.</string>
     <string name="check_setup_data">"    Проверка на настройките на сървъра…"</string>
@@ -322,8 +299,8 @@
     <string name="click_download_all_content">[Натиснете, за да изтеглите съдържание]</string>
     <string name="click_to_reload">Докоснете екрана, за да се обнови</string>
     <string name="collapse_recipient_details">Скриване на данни за получателя</string>
+    <string name="colon">:</string>
     <string name="compose">Съставяне на</string>
-    <string name="compose_attachment_number_limit">Не може да добавите повече от 10 прикачени файлове</string>
     <string name="compose_event">Покана</string>
     <string name="compose_paste_address_oob">Твърде много символи</string>
     <string name="compose_picturesexceedlimits">Можете да добавите повече изображения като прикачени файлове</string>
@@ -332,10 +309,6 @@
     <string name="confirm">OK</string>
     <string name="confirm_add_to_calendar">Добавяне към Календар…</string>
     <string name="confirm_age">Потвърдете възрастта</string>
-    <string name="confirm_before_delete">Потвърждение преди изтриване</string>
-    <string name="confirm_before_delete_keywords">потвърждение преди изтриване; потвърди изтриването</string>
-    <string name="confirm_before_send">Потвърдете преди изпращане</string>
-    <string name="confirm_before_send_keywords">потвърждение преди изпращане; потвърди изпращане</string>
     <string name="confirm_delete_attachment">Изтриване на прикачен файл?</string>
     <string name="confirm_delete_conversation_title">Изтриване</string>
     <string name="confirm_discard_text">Изтриване на тези съобщения?</string>
@@ -356,8 +329,6 @@
     <string name="contact_edit_set_phone_contact">Редактиране на телефонни контакти</string>
     <string name="contact_edit_title_phone_contact">Списък с телефонни контакти</string>
     <string name="contact_in_filter_title">Подател</string>
-    <string name="contact_info_string">"Покажи информация за контакт %1$s "</string>
-    <string name="contact_info_string_default">Покажи информация за контакт</string>
     <string name="contact_list_add_btn">Добавяне</string>
     <string name="contact_list_search_hint">Търсене в контакти</string>
     <string name="contact_list_title">Контакти</string>
@@ -393,21 +364,17 @@
     <string name="conversation_message_encrypt_tips">Това е криптиран имейл. Добавете сертификата, необходим за разшифроването му.</string>
     <string name="conversation_msg_header_collapsed_sent_to">"Изпратени до "</string>
     <string name="conversation_photo_welcome_text">Докоснете изображението на подателя, за да изберете тази кореспонденция.</string>
-    <string name="conversation_pull_ad_content">Управлявайте вашите имейли без усилие</string>
     <string name="conversation_quick_button_approve">OK</string>
     <string name="conversation_quick_button_disapprove">Отказ</string>
     <string name="conversation_quick_button_received">Получени</string>
     <string name="conversation_report_spam">Докладване на спам</string>
     <string name="conversation_spam_dig_msg">Желаете ли да маркирате съобщението като спам? Съобщението ще бъде преместено в папката \"Спам\", а изпращача ще бъде добавен в списъка на блокирани.</string>
     <string name="conversation_spam_tips">Желаете ли да маркирате съобщението като спам?</string>
-    <string name="conversation_view">Разговори</string>
-    <string name="conversation_view_keywords">преглед на кореспонденции; пощенски кореспонденции</string>
     <string name="copied">Копирани</string>
     <string name="copy">Копиране</string>
     <string name="copy_email">Копиране на имейл адрес</string>
     <string name="copy_number">Копиране на телефонен номер</string>
     <string name="create_action">Нов</string>
-    <string name="credit_limit_text">Кредитен лимит</string>
     <string name="cur_debt">Баланс по сметка</string>
     <string name="custom_from_account_label">Изпрати пощата като:</string>
     <string name="database_exception">Възникна грешка. Впишете се отново.</string>
@@ -426,8 +393,6 @@
     <string name="delete">Изтриване</string>
     <string name="delete_contact_content">Изтрий този контакт сега?</string>
     <string name="delete_message_event">Желаете ли да изтриете тази покана?</string>
-    <string name="delete_message_flow">Изтриване на потока от съобщения</string>
-    <string name="delete_message_flow_keywords">изтриване на потока от съобщения; изтриване на пренасочените</string>
     <string name="deleted">Изтрити</string>
     <string name="device_activity_btn_str">Активиране</string>
     <string name="device_activity_lint_str">Разрешете пълна актуализация на пощенската услуга и активирате настройките за защита</string>
@@ -435,7 +400,6 @@
     <string name="device_admin_label">Електронна поща</string>
     <string name="device_not_activiey_lint1">Диспечерът на устройствата не е активиран</string>
     <string name="device_not_activiey_lint2">Пощенската услуга не работи с Exchange</string>
-    <string name="dialog_account_auto_sync_setting_no_open">Вие избрахте да синхронизирате имейлите ръчно. Обновете за синхронизация.</string>
     <string name="dialog_agree">Приемам</string>
     <string name="dialog_change_sync_lookback">Пощата получена преди %s ще бъде изтрита автоматично. Натиснете, за да промените настройките.</string>
     <string name="dialog_disagree">Не приемам</string>
@@ -444,7 +408,6 @@
     <string name="dialog_system_auto_sync_account_no_open">Включване на синхронизация за автоматично получаване на имейли</string>
     <string name="dialog_system_auto_sync_master_no_open">Включване на синхронизация за автоматично получаване на имейли</string>
     <string name="disable_admin_warning">ПРЕДУПРЕЖДЕНИЕ: Деактивирането на разрешението на приложението за електронна поща да управлява вашето устройство ще изтрие всички имейл акаунти, които го изисква, с техните съобщения, контакти, събития от календара и други данни.</string>
-    <string name="discard">Отхвърляне</string>
     <string name="discard_drafts">Отхвърляне на чернова</string>
     <string name="dismiss_tip_hover_text">Отхвърляне на съвета</string>
     <string name="disturb_switch">Не безпокойте</string>
@@ -459,7 +422,6 @@
     <string name="downlaod_confirm_download">Изтегляне</string>
     <string name="downlaod_nonWifi_confirm_message">Използване на мобилна връзка за данни за изтегляне на този прикачен файл?</string>
     <string name="downlaod_nonWifi_confirm_title">Изтегляне на този прикачен файл?</string>
-    <string name="download_again">Изтегли отново</string>
     <string name="download_before_sharing">" не завърши изтеглянето."</string>
     <string name="download_cancel_confirm_message">Изтеглянето ще бъде спряно</string>
     <string name="download_cancel_confirm_title">Изтегляне на този прикачен файл?</string>
@@ -469,7 +431,6 @@
     <string name="download_message_failed_for_too_large">Съобщението е твърде голямо, за да го изтеглите.</string>
     <string name="draft_count_format"> (%1$s)</string>
     <string name="drawer_bank_bill">Банкови отчети</string>
-    <string name="drawer_classification">Категории</string>
     <string name="drawer_close">Затваряне на навигационната конзола</string>
     <string name="drawer_contacts">Контакти</string>
     <string name="drawer_open">Отваряне на навигационната конзола</string>
@@ -482,8 +443,6 @@
     <string name="editor_max_length_limit_hint">Съобщението, което въведохте е твърде дълго</string>
     <string name="email_netease">NetEase поща</string>
     <string name="email_qq">QQ поща</string>
-    <string name="email_setting">Поща</string>
-    <string name="email_setting_keywords">Профили;Добавяне на профил;профили за ел. поща;Добавяне на профили за ел. поща;Потвърдете преди изтриване;Потвърдете преди изпращане;изтриване на потока от съобщения;изтриване на пренасочените;преглед на разговорите;пощенски разговори;икономия на батерия;енергия ползвана от пощата;изпращане на отзив;качване на хронологията</string>
     <string name="email_sina">Sina поща</string>
     <string name="email_sync_failed">Неуспешно синхронизиране на пощата</string>
     <string name="eml_parse_message">Отваряне на EML файл…</string>
@@ -505,7 +464,6 @@
     <string name="fail_get_email_message">Неуспешно изтегляне на съобщението.</string>
     <string name="failed">Не можа да се зареди изображение</string>
     <string name="failed_parse_eml_file">Не можах да отворя EML файл, опитайте отново.</string>
-    <string name="failed_read_phone_state_permission">Разреши достъп до информацията за състоянието на устройството</string>
     <string name="failed_read_write_calendar_permission">Достъпът до Календар е ограничен</string>
     <string name="failed_read_write_contacts_permission">Достъпът до контактите е ограничен</string>
     <string name="feedback">Изпращане на отзив</string>
@@ -586,19 +544,16 @@
     <string name="gmail_login_confirm_to_use_proxy">Ще използвате ли прокси сървъра за Gmail профила?</string>
     <string name="gmail_login_failed_non_proxy_title">Няма достъп до Gmail сървъра</string>
     <string name="gmail_server_authorization_deleted">Не можа да се удостовери профила. Опитайте да добавите този профил отново.</string>
-    <string name="gmail_web_login_go">OK</string>
-    <string name="gmail_web_login_required_message">Влезте в Gmail</string>
     <string name="go_to_mail_content">Преглед на имейл</string>
     <string name="have_auth_code">Имам код</string>
     <string name="header_category_account">Профили</string>
-    <string name="header_category_other">Обратна връзка</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_label_general_preferences">Общи настройки</string>
     <string name="help_and_info">Помощ</string>
     <string name="help_me_get_qq_auth">Получете код</string>
     <string name="help_weixin_title">"Ако имате въпроси, може да отворите чат линия на WeChat Профил: "</string>
     <string name="hide_elided">▼ скриване на цитирания текст</string>
     <string name="hide_password">Скрий парола</string>
-    <string name="hint_quick_reply_all">Отговор до всички</string>
     <string name="imap_name">IMAP</string>
     <string name="imap_or_pop3_name">IMAP/POP3</string>
     <string name="imap_password_error">Паролата за сървъра за входяща поща е неправилна</string>
@@ -606,14 +561,13 @@
     <string name="import_from_other_account">Импортиране на информация от друг профил</string>
     <string name="info_actionbar_normal_detail">Промоция</string>
     <string name="info_item_hide">Изтриване</string>
-    <string name="info_switch_summary">Показване на промоции най-отпред във Входящи</string>
-    <string name="info_switch_title">Промоция</string>
     <string name="inline_picture_deleted">Изтегляне на липсващо изображение…</string>
     <string name="input_password_prompt">Въведете паролата си</string>
     <string name="interact_with_server_error">Неуспешен опит за свързване със сървъра</string>
     <string name="invalid_recipient">"Адресът %s  е невалиден."</string>
     <string name="invalid_recipient_title">Получателят не съществува</string>
     <string name="kilobytes">"%s  КБ"</string>
+    <string name="label_notification_ticker">%1$s: %2$s</string>
     <string name="list_empty_to_fresh">Все още няма имейли.</string>
     <string name="load_from_remote">Търсене на пощенска кутия на сървъра</string>
     <string name="load_more">Зареди още</string>
@@ -625,7 +579,6 @@
     <string name="log_save_path">Път на регистър</string>
     <string name="login">Вписване</string>
     <string name="login_des_126">Влезте в 126 Mail</string>
-    <string name="login_des_139">Влезте в 139 Mail</string>
     <string name="login_des_163">Влезте в 163 Mail</string>
     <string name="login_des_exchange">Влезте в Exchange</string>
     <string name="login_des_gmail">Влезте в Gmail</string>
@@ -645,7 +598,6 @@
     <string name="login_failed_title">Неуспешно вписване</string>
     <string name="login_mail">Вписване</string>
     <string name="login_qq_psw">Въведете кода ръчно</string>
-    <string name="login_support_tip_text">Поддържа всички основни имейл профили</string>
     <string name="long_press_to_select_tip">Докоснете &amp; задръжте, за да изберете кореспонденция, а след това докоснете други, за да изберете повече.</string>
     <string name="mail">Поща</string>
     <string name="mail_body_turncated">Този имейл е прекалено голям, за да се зареди на телефона, показване на част от него и преглед по-късно на компютър</string>
@@ -688,16 +640,6 @@
        Потвърдени срещи:
         %s
     "</string>
-    <string name="meeting_allday">"
-       Кога:
-        %s
-        (цял ден)
-    "</string>
-    <string name="meeting_allday_recurring">"
-        Кога:
-        %s
-        (цял ден, повтарящи се)
-    "</string>
     <string name="meeting_canceled">"
         Отменени срещи:
         %s
@@ -706,11 +648,6 @@
         Отказани срещи:
         %s
     "</string>
-    <string name="meeting_recurring">"
-        Кога:
-        %s
-        (повтарящи се)
-    "</string>
     <string name="meeting_responded_failed">Няма отговор</string>
     <string name="meeting_tentative">"
         Непотвърдени срещи:
@@ -718,14 +655,6 @@
     "</string>
     <string name="meeting_updated">"
         Обновени срещи:
-        %s
-    "</string>
-    <string name="meeting_when">"
-        Кога:
-        %s
-    "</string>
-    <string name="meeting_where">"
-        Къде:
         %s
     "</string>
     <string name="megabytes">"%s  МБ"</string>
@@ -742,9 +671,6 @@
     <string name="menu_folder_options">Опции за синхронизиране</string>
     <string name="menu_move_to">Преместване в</string>
     <string name="menu_move_to_inbox">Премести в папка \"Входящи\"</string>
-    <string name="menu_photo_save_all">Запиши всички</string>
-    <string name="menu_photo_share">Споделяне</string>
-    <string name="menu_photo_share_all">Споделяне на всички</string>
     <string name="menu_resend_all">Повторно изпращане на всички</string>
     <string name="menu_search">Търсене</string>
     <string name="menu_settings">Настройки</string>
@@ -752,7 +678,6 @@
     <string name="message_body_load_set_description">Зареждане на кореспонденциите, когато използвате мобилни данни</string>
     <string name="message_compose_insert_quick_response_list_title">Вмъкване на бърз отговор</string>
     <string name="message_decode_error">Не може да декодира съобщението</string>
-    <string name="message_details_title">Детайли за съобщение</string>
     <string name="message_discarded">Черновата е отхвърлена</string>
     <string name="message_invite_accept">Да</string>
     <string name="message_invite_calendar_view">Покажи в Календар</string>
@@ -763,7 +688,6 @@
     <string name="message_invite_state_decline">Отхвърлено</string>
     <string name="message_invite_state_tentative">Изчакване</string>
     <string name="message_invite_tentative">Може би</string>
-    <string name="message_invite_title">Календар на Поканите</string>
     <string name="message_saved">Съобщението е записано като чернова.</string>
     <string name="message_view_attachment_background_load">Прикачените файлове във вашите препратени съобщения ще бъдат изтеглени преди изпращане.</string>
     <string name="mi_sync_erroe_toast">"Възникна грешка в мрежата: "</string>
@@ -775,12 +699,10 @@
     <string name="mibill_privacy_policy_title">Автоматично управление на сметки</string>
     <string name="min_payment_text">Минимално плащане</string>
     <string name="modify_contact_address">Редактиране на имейл адрес на контакт</string>
-    <string name="more_context">Още</string>
     <string name="move_to_selection_dialog_title">Преместване в друга папка</string>
     <string name="multiple_new_message_notification_item"><b>%1$s</b>"   %2$s"</string>
     <string name="mute">Без звук</string>
     <string name="navigation_menu">Навигационно меню</string>
-    <string name="need_get_qq_mail">Изисква QQ Mail</string>
     <string name="network_error">Няма връзка</string>
     <string name="network_invaild">Не може да се свърже с мрежата</string>
     <string name="network_not_available">Не може да се свърже с мрежата</string>
@@ -797,15 +719,12 @@
     <string name="no_contacts">Няма контакти.</string>
     <string name="no_content_in_body">[No Body]</string>
     <string name="no_conversations">Няма съобщения</string>
-    <string name="no_filtrable_email_account">Няма профили за филтриране</string>
     <string name="no_img_application_found">Не са намерени приложения за отваряне на изображението</string>
     <string name="no_img_application_found_title">Неуспешно отваряне на изображението</string>
     <string name="no_mails">Няма поща.</string>
     <string name="no_matched_attachment">Няма резултати.</string>
     <string name="no_more_mail">Няма нови съобщения</string>
     <string name="no_open_smime_toast">Добави първо сертификата S/MIME</string>
-    <string name="no_recognize_describe">"Не можах да намеря имейли, съдържащи билети или резервации. 
-Пробвайте друга папка Входящи."</string>
     <string name="no_search_results">Търсене в сървър</string>
     <string name="not_set">Не е зададено</string>
     <string name="not_subject">(Няма тема)</string>
@@ -818,7 +737,6 @@
     <string name="notification_action_undo_archive">Архивирани</string>
     <string name="notification_action_undo_delete">Изтрити</string>
     <string name="notification_action_undo_remove_label">Етикета е премахнат</string>
-    <string name="notification_exchange_calendar_added">Добавен е календар на Exchange</string>
     <string name="notify_channel_new_mail">Уведоми за нови съобщения</string>
     <string name="notify_channel_no_disterb">Режим Не безпокойте</string>
     <string name="notify_channel_permission_notice">Необходими са разрешения</string>
@@ -839,7 +757,6 @@
     <string name="oauth_gmail_login_notify">Въведете име и парола на вашия Google профил на следната страница.</string>
     <string name="oauth_login_continue">Напред</string>
     <string name="oauth_login_continue_qq">Получаване на код и вписване ></string>
-    <string name="oauth_login_usr_proxy">Влезте с прокси сървър</string>
     <string name="obtain_new_auth_code">Получете нов код</string>
     <string name="ok">OK</string>
     <string name="okay_action">OK</string>
@@ -885,7 +802,6 @@
     <string name="over_sixteen">Аз съм на 16 години или повече.</string>
     <string name="parase_setup_data">Получаване на данните…</string>
     <string name="parse_bill_discribe">Завеждане на сметки с кредитна карта…</string>
-    <string name="parse_recognize_describe">Анализиране на имейл…</string>
     <string name="password_expire_warning_content_title">Паролата за заключване на екрана изтича</string>
     <string name="password_expire_warning_dialog_content_fmt">"Вие трябва да промените вашата парола или ПИН за заключване на екрана скоро, или данните за %s  ще бъдат изтрити. Искате ли да я смените сега?"</string>
     <string name="password_expire_warning_dialog_title">Паролата за заключване на екрана изтича</string>
@@ -894,16 +810,6 @@
     <string name="password_expired_dialog_content_fmt">"Данните за %s  са изтрити от вашето устройство. Можете да ги възстановите чрез промяна на ПИН или паролата за заключване на екрана. Ще ги промените ли сега?"</string>
     <string name="password_expired_dialog_title">Паролата за заключване на екрана изтича</string>
     <string name="password_expired_ticker">Вашата парола или ПИН за заключване на екрана са изтекли.</string>
-    <string name="path_about_account_setting">Поща/Настройки/Профили</string>
-    <string name="path_about_add_account">Поща/Настройки/Добавяне на профил</string>
-    <string name="path_about_battery_saver">Поща/Настройки/Икономия на батерия</string>
-    <string name="path_about_confirm_before_delete">Поща/Настройки/Потвърждение преди изтриване</string>
-    <string name="path_about_confirm_before_send">Поща/Настройки/Потвърждение преди изпращане</string>
-    <string name="path_about_conversation_view">Поща/Настройки/Преглед на кореспонденциите</string>
-    <string name="path_about_delete_message_flow">Поща/Настройки/Изтриване на потока от съобщения</string>
-    <string name="path_about_email_setting">Поща/Настройки</string>
-    <string name="path_about_send_feed_back">Поща/Настройки/Изпращане на отзив</string>
-    <string name="path_about_upload_logs">Поща/Настройки/Качване на хронологията</string>
     <string name="perference_change_pw_notnull_tips">Въведете паролата си</string>
     <string name="perference_change_pw_ok_tips">Парола е променена</string>
     <string name="perference_setup_pop_del">Изтриване на писмото от сървъра</string>
@@ -919,19 +825,15 @@
     <string name="personal_data_collection_summary">С включването на бутона приемате да събираме вашите лични данни. По всяко време можете да изключите бутона, да отмените упълномощението си и да изтриете данните си от нашите сървъри.</string>
     <string name="personal_data_collection_title">Позволете събирането на лични данни</string>
     <string name="phone">телефон</string>
-    <string name="photo_load_failed">Не можа да се зареди изображение</string>
     <string name="photo_view_count">%1$d/%2$d</string>
     <string name="pl_select_age">Изберете възраст</string>
-    <string name="please_fill_in_your_mailbox_information2">Въведете информацията за пощенска си кутия</string>
     <string name="pls_parse_bill_discribe">"Анализ на сметките и информацията за пътуванията в електронната ви поща
 , за да получавате известия за плащанията по разходите"</string>
     <string name="policy_app_blacklist">Забрана за определени приложения</string>
     <string name="policy_app_whitelist">Позволи само определени приложения</string>
     <string name="policy_bluetooth_restricted">Ограничаване на употребата на Bluetooth</string>
-    <string name="policy_calendar_age">Ограничаване на броя на синхронизирани събития в календара</string>
     <string name="policy_dont_allow_attachments">Не позволявай прикачени файлове</string>
     <string name="policy_dont_allow_browser">Не разрешавай браузъри</string>
-    <string name="policy_dont_allow_camera">Блокиране на използването на камерата от това устройство</string>
     <string name="policy_dont_allow_consumer_email">Не разрешавай на потребителите да изпращат поща</string>
     <string name="policy_dont_allow_html">Не позволявай HTML поща</string>
     <string name="policy_dont_allow_internet_sharing">Не разрешавай споделяне на интернет</string>
@@ -943,28 +845,19 @@
     <string name="policy_dont_allow_unsigned_installers">Не позволяват инсталирането на неподписани приложения</string>
     <string name="policy_dont_allow_wifi">Не позволявай WLAN връзки</string>
     <string name="policy_dont_allow_wifi_inter">Не позволявай WLAN връзки</string>
-    <string name="policy_email_age">Ограничаване на броя на синхронизирани събития в пощата</string>
     <string name="policy_html_truncation">Ограничи размера на текста на HTML пощата</string>
-    <string name="policy_password_expiration">Задайте срока за валидност на паролите</string>
-    <string name="policy_password_history">Ограничаване употребата на последните пароли</string>
     <string name="policy_require_encryption">Необходимо е шифроване на устройство</string>
     <string name="policy_require_manual_sync_roaming">Разрешете само ръчна синхронизация при роуминг</string>
-    <string name="policy_require_password">Изисквай паролата на устройството</string>
     <string name="policy_require_sd_encryption">Необходимо е шифроване на SD карта</string>
     <string name="policy_require_smime">Изискват се съобщения SMIME</string>
-    <string name="policy_screen_timeout">Необходимо е да изчакате устройството да заключи на екрана</string>
     <string name="policy_text_truncation">Ограничи размера на текста на пощата</string>
     <string name="pop3_name">POP3</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="preference_eas_tips">Натиснете \"Активиране\" за да настроите пощенски сървър.</string>
     <string name="preference_imap_tips" />
     <string name="preference_pop_tips">В POP3 прикачените файлове ще бъдат изтеглени автоматично с пощата. Това може да увеличи разхода на мобилни данни.</string>
-    <string name="preference_sender_image_description">Показване на профилни снимки до името на подателя във входящата поща</string>
-    <string name="preference_sender_image_title">Показване на профилни снимки в папка \"Входящи\"</string>
     <string name="preferences_signature_dialog_title">Подпис</string>
-    <string name="preferences_signature_summary_not_set">Не задавай</string>
     <string name="preferences_signature_title">Подпис</string>
-    <string name="preview_attachment">Предварителен преглед</string>
     <string name="previous_action">Назад</string>
     <string name="print">Печат</string>
     <string name="print_scheduler_title">Печат по график</string>
@@ -973,7 +866,6 @@
     <string name="privacy_setting_agree">Приемам</string>
     <string name="prompt_title">Питане</string>
     <string name="protocol_setting_toast">Докоснете горния десен ъгъл, за да отидете в Настройки след одобрение</string>
-    <string name="pull_load_more">Издърпайте нагоре, за да заредите повече</string>
     <string name="pull_to_refresh">Дръпнете надолу за обновяване</string>
     <string name="push_wps_better_confirm_download">Изтегляне</string>
     <string name="push_wps_better_confirm_exit">Други приложения</string>
@@ -994,26 +886,17 @@
     <string name="qq_bar_open_imap">Помощ</string>
     <string name="qq_bar_send_message">Изпращане на SMS</string>
     <string name="qq_changepw_dialog_tips">Получете нов код от %s, за да се впишете.</string>
-    <string name="qq_login_basecode">Вписване в уеб QQ поща. Въведете парола.</string>
-    <string name="qq_login_get_auth">Включете защита с парола, ако не можете да получите SMS</string>
     <string name="qq_login_help_bottom_tip">"Ако сте забравили Вашата парола или трябва да проверите статуса на Вашия акаунт, използвайте уеб версията на QQ Mail. Можете също да получите помощ в WeChat:  "</string>
     <string name="qq_login_help_details1">1. QQ паролата може да се използва, когато не е зададена самостоятелна парола или код за оторизация с протоколите IMAP/Exchange.</string>
     <string name="qq_login_help_details2">2. Самостоятелната парола може да се използва, когато не е зададен код за оторизация с протоколите IMAP/Exchange.</string>
     <string name="qq_login_help_details3">"3. Генерираните кодове за оторизация за имейл клиенти на трети страни също могат да се използват за вписване. Ако сте забравили кода, използвайте този линк:  "</string>
     <string name="qq_login_help_title">QQ/Собствена парола/Код за оторизация:</string>
     <string name="qq_login_notice">Забележка: Ако вече сте задали парола, ще трябва да я верифицирате, когато влезете.</string>
-    <string name="qq_login_open_imap">Докоснете Помощ за включване на IMAP/SMTP</string>
-    <string name="qq_login_origin_setting">Въведете потребител и парола за вписване ></string>
-    <string name="qq_login_send_message">Докоснете Изпрати SMS, за да получите код за потвърждение</string>
     <string name="qq_login_sent_setting">Синхронизиране на изпратени съобщения</string>
-    <string name="qq_login_webview">Влезте в уеб клиента на QQ, докоснете вход, като използвате паролата.</string>
-    <string name="qq_next_generation_auth_toast">Включете защита с парола на браузъра</string>
     <string name="qq_pwd_or_qq_auth_code">Въведете код</string>
     <string name="qq_sent_no_message">Не можете да откриете изпратени имейли? Натиснете тук, за да научите какво да направите.</string>
     <string name="qq_sent_no_message_setting">Синхронизиране на изпратени съобщения от QQ Mail</string>
     <string name="qq_uthentication_failed">Не може да се потвърди профила, впишете се отново</string>
-    <string name="qq_verify_code">(Изисква код за потвърждение от QQ)</string>
-    <string name="qq_webview_loading">Момент…</string>
     <string name="questionnair_body_invisibility">Съобщенията не са показани</string>
     <string name="questionnair_confirm_delete">Премахване на профил?</string>
     <string name="questionnair_instability">Чести сривове</string>
@@ -1029,9 +912,6 @@
     <string name="quick_4">Нека да направим сявещание да обсъдим това.</string>
     <string name="quick_reply_dialog_title">Изберете отговор</string>
     <string name="quick_reply_expend">Още</string>
-    <string name="quick_reply_hint_bcc">(В Скрито копие до)</string>
-    <string name="quick_reply_hint_cc">(В Копие до)</string>
-    <string name="quick_reply_hint_reply_only_from">Бърз отговор (само за подателя)</string>
     <string name="quick_responses_empty_view">Няма бързи отговори</string>
     <string name="quoted_text">Включване на цитирания текст</string>
     <string name="quoted_text_label">Цитиран текст</string>
@@ -1040,38 +920,11 @@
     <string name="read_string">прочетена кореспонденция</string>
     <string name="recipient_needed">Добавете поне един получател.</string>
     <string name="recipient_needed_title">Предупреждение</string>
-    <string name="recognize_hotel_check_in_date">Време на регистрация</string>
-    <string name="recognize_hotel_hotel_money">Цена %1$s</string>
-    <string name="recognize_hotel_notification_content">Насладете се на престоя си!</string>
-    <string name="recognize_hotel_notification_title">Резервирали сте стая за %1$s от %2$s/%3$s. Проверете пак вашата резервация, преди да пристигнете.</string>
-    <string name="recognize_hotel_order_money">Общо</string>
-    <string name="recognize_hotel_other_money">%1$s други разходи</string>
-    <string name="recognize_hotel_reverse_date">Регистрирай се преди %1$s:%2$s%3$s</string>
-    <string name="recognize_hotel_room_type">Стая</string>
-    <string name="recognize_hotel_room_type_value">%1$s × %2$s</string>
-    <string name="recognize_hotel_title">Резервиране на хотел</string>
-    <string name="recognize_hotel_user_names">Гост</string>
-    <string name="recognize_hotel_user_names_value">%1$s+%2$s</string>
-    <string name="recognize_setting_title">Настройки на пътуването</string>
-    <string name="recognize_ticket_air_notification_content">Насладете се на вашия полет!</string>
-    <string name="recognize_ticket_air_notification_title">Полет %3$s (%1$s/%2$s) ще бъде изведен за излитане скоро. Проверете пак информацията за вашия полет.</string>
-    <string name="recognize_ticket_air_state_stopover">Престой</string>
-    <string name="recognize_ticket_air_state_transfer">Прехвърляне</string>
-    <string name="recognize_ticket_air_user_name">Пътник: %1$s</string>
-    <string name="recognize_ticket_title">Самолетни &amp; влакови билети</string>
-    <string name="recognize_ticket_train_alter">Променени</string>
-    <string name="recognize_ticket_train_depart_date">Тръгва в %3$s:%4$s на %1$s/%2$s</string>
-    <string name="recognize_ticket_train_notification_content">Приятно пътуване!</string>
-    <string name="recognize_ticket_train_notification_title">Влак %3$s(%1$s/%2$s) ще потегли скоро. Проверете пак билета си.</string>
-    <string name="recognize_ticket_train_return">Върнати</string>
-    <string name="recognize_ticket_train_user_name">Пътник: %1$s</string>
-    <string name="recognize_title">Туристическа информация</string>
     <string name="recommend_protocal">Препоръки за използване на протокол</string>
     <string name="reduce_the_receiving_frequencye_summary">По-рядко синхронизиране на входящи имейли в режим Не безпокойте</string>
     <string name="reduce_the_receiving_frequencye_title">Синхронизиране по-рядко</string>
     <string name="refresh">Обновено</string>
     <string name="refreshing">Обновяване…</string>
-    <string name="refreshing_done">Готово</string>
     <string name="release_to_refresh">Освободете, за да се презареди…</string>
     <string name="remind_attachment_size_limit">Вашите писма трябва да бъдат по-малко от %sМБ</string>
     <string name="reminder">Напомняне</string>
@@ -1094,14 +947,10 @@
     <string name="respond_inline">"   Отговорете докато сте на линия"</string>
     <string name="retry_login">Вписване отново</string>
     <string name="save_action">Запиши</string>
-    <string name="save_attachment">Запиши</string>
     <string name="save_draft_failed">Записването на проекта е неуспешно</string>
     <string name="save_power_summary">Задайте време за енергоспестяване</string>
     <string name="save_power_title">Икономия на батерията</string>
-    <string name="save_this_new_signature">Запишете новия подпис?</string>
     <string name="saved">"Записано %s "</string>
-    <string name="saving">Записване…</string>
-    <string name="sdcard_cannot_use">Не може да използвате SD картата</string>
     <string name="search_bar_text">Търсене за податели или контакти</string>
     <string name="search_hint">Търсене на поща</string>
     <string name="search_menu_title">Търсене</string>
@@ -1112,9 +961,7 @@
     <string name="search_tabs_name_sender">Подател</string>
     <string name="search_tabs_name_subject">Тема</string>
     <string name="search_txt_size_limit_prompt">Думата за търсене трябва да бъде по-голяма от 3 символа</string>
-    <string name="security_changed_ticker_fmt">На профила \"%s \" са променени настройките за защита; не се изисква никакво действие на потребителя.</string>
     <string name="security_needed_ticker_fmt">Профила \"%s \" изисква актуализация на настройките за защитата.</string>
-    <string name="security_notification_content_change_title">Политиките за сигурност са променени</string>
     <string name="security_notification_content_unsupported_title">Изискванията за сигурност не могат да бъдат покрити</string>
     <string name="security_notification_content_update_title">Изисква актуализация на защитата</string>
     <string name="security_unsupported_ticker_fmt">Профила \"%s \" не може да се синхронизира поради изисквания за сигурност.</string>
@@ -1126,9 +973,6 @@
     <string name="send_encrypt_dialog_fail_content">Изглежда, че получателят няма надежден сертификат, необходим за криптирането на този имейл. Да изпратим ли обикновен имейл на негово място?</string>
     <string name="send_encrypt_dialog_fail_title">Не може да изпрати криптиран имейл</string>
     <string name="send_failed">Съобщението не е изпратено.</string>
-    <string name="send_feed_back">Изпрати отзив</string>
-    <string name="send_feed_back_keywords">изпращане на отзив</string>
-    <string name="send_mail">Изпрати</string>
     <string name="sender_whitelist_cleared">Изображенията няма да бъдат показвани автоматично.</string>
     <string name="senders_split_token">, </string>
     <string name="sending">Изпращане…</string>
@@ -1153,7 +997,6 @@
     <string name="server_cet_cert_issuer">"Издател на сертификат: "</string>
     <string name="server_cet_data">"Период на валидност: "</string>
     <string name="server_cet_data_exp">Валидността на сертификата на сървъра изтече.</string>
-    <string name="server_cet_data_to" formatted="false">%s - %s</string>
     <string name="server_cet_domain">"Име на домейн: "</string>
     <string name="server_cet_error_sug">"Пробвайте следното:
 1. Свържете се с друга мрежа или рестартирайте рутера си.
@@ -1186,11 +1029,12 @@
 
 
 %s"</string>
-    <string name="silent_ringtone">Без звук</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="smtp_password_error">Паролата за сървъра за изходяща поща е неправилна</string>
     <string name="sort_attachment">Сортиране по</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage">Хранилище</string>
     <string name="str_select_all">Избери всички</string>
     <string name="str_select_none">Откажи всички</string>
@@ -1203,23 +1047,14 @@
     <string name="sync_calendra_fail_permission">Неуспешно синхронизиране на събитията в календара. Първо разрешете достъп на Поща до Календара.</string>
     <string name="sync_contacts_fail_per_content">Докоснете, за да позволите достъп до контактите</string>
     <string name="sync_contacts_fail_per_title">Контактите не можаха да се синхронизират</string>
-    <string name="sync_contacts_fail_permission">Не можаха да се синхронизират контактите, позволете на Поща да има достъп до контактите ви в настройките</string>
     <string name="sync_contacts_req_per_ignored">Позволете на Поща достъп до вашите контакти за синхронизиране</string>
     <string name="sync_error">Не може да се синхронизира.</string>
     <string name="sync_error_message">Вашето устройство няма достатъчно свободно място за синхронизиране.</string>
-    <string name="sync_failed_mi_authority_view_detail">Преглед на подробни данни</string>
     <string name="sync_question_feed">Докладвайте проблеми със синхронизацията</string>
     <string name="sync_upload_question">Отзиви</string>
     <string name="syncing_wait_restart">Опитайте отново</string>
     <string name="syncing_wait_restart_title">Връзката със сървъра изтече</string>
     <string name="system_account_create_failed">Не можа да се създаде профил. Опитайте отново.</string>
-    <string name="system_folders_sent_dlg">Изберете папка за изпратени елементи на вашия сървър</string>
-    <string name="system_folders_sent_summary">Изберете папка за изпратени елементи на вашия сървър</string>
-    <string name="system_folders_sent_title">Папка Изпратени</string>
-    <string name="system_folders_title">Системни папки</string>
-    <string name="system_folders_trash_dlg">Изберете папка за изтритите елементи на вашия сървър</string>
-    <string name="system_folders_trash_summary">Изберете папка за изтритите елементи на вашия сървър</string>
-    <string name="system_folders_trash_title">Папка Изтрити</string>
     <string name="system_root_path">Вътрешна памет настройки</string>
     <string name="system_security_open_error">За да коригирате настройките за защита, дайте на Поща необходимите разрешения в \"Настройки\"</string>
     <string name="system_setup_open_error">Включване на синхронизация за поща в настройките</string>
@@ -1278,18 +1113,14 @@
     <string name="unknow">Неизвестен</string>
     <string name="unread_string">непрочетена кореспонденция</string>
     <string name="unzip_file_failed">Неуспешно разархивиране на файла</string>
-    <string name="update_date_format_templete">HH:mm aa, dd MMMM</string>
     <string name="update_domain_summary">Актуализация на списъка с налични домейни и конфигуриране</string>
     <string name="update_domain_title">Актуализация на настройките на домейна</string>
-    <string name="updated_at">Обновено в %1$s</string>
     <string name="upload_log">Изпрати</string>
     <string name="upload_log_failed">Не може да се изпрати писмото с хронологията</string>
     <string name="upload_log_no">Отказ</string>
     <string name="upload_log_success">Успешно изпратено, ние ще се свържем с вас скоро.</string>
     <string name="upload_log_title">Изпратете хронологията на грешките, за да ни помогне да подобрим пощата</string>
     <string name="upload_log_yes">Изпрати</string>
-    <string name="upload_logs">Качване на хронологията</string>
-    <string name="upload_logs_keywords">качване на хронологията</string>
     <string name="uploading_logs">Момент…</string>
     <string name="user_new_auth_code">Използвайте нов код за вписване</string>
     <string name="user_privacy_settings">Настройки за поверителност</string>
@@ -1299,14 +1130,12 @@
     <string name="user_privacy_settings_title">Изявление за поверителност на пощата</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
-    <string name="validation_failed_prompt">"Не може да потвърди профила, проверете настройките на сървъра за %s "</string>
     <string name="veiled_address" />
     <string name="veiled_alternate_text" />
     <string name="veiled_alternate_text_unknown_person" />
     <string name="veiled_summary_unknown_person" />
     <string name="verify_code">Код за потвърждение</string>
     <string name="version_string">Версия: %s</string>
-    <string name="via_domain">"чрез %1$s "</string>
     <string name="view_more_conversations">Преглед на още кореспонденции</string>
     <string name="wait_for_manual_sync_body">"Този профил не е настроен да се синхронизира автоматично. 
 Докоснете"<b>Синхронизиране сега</b> за да синхронизирате пощата веднъж, или <b>Промяна на настройките за синхронизиране</b>, за да настроите този профил да се синхронизира автоматично.</string>
@@ -1322,13 +1151,9 @@
     <string name="widget_large_unread_count">%d+</string>
     <string name="widget_other_views">Други</string>
     <string name="wipe_account_fail_description">Позволете</string>
-    <string name="wipe_account_fail_description_remind">Поради ограничения за използването на данни, може да има остатъчни данни в Календар и Контакти след като изтриете профила. Изтрийте тези елементи ръчно.</string>
     <string name="wipe_account_fail_title">Не може да изтриете лични данни</string>
-    <string name="wps_title">WPS Mail</string>
     <string name="wrong_password">Въведената от вас парола е неправилна</string>
-    <string name="xiaomi_auth_toastbar">Впишете се, за да упълномощите Вашето устройство</string>
     <string name="xiaomi_email">Поща</string>
-    <string name="xiaomi_under_certification">Упълномощаване…</string>
     <string name="yes">Да</string>
     <string name="you_are_in_mobile_network">Използване на мобилни данни, за да качвате регистрационни файлове?</string>
     <string name="youfuli">Промоция</string>

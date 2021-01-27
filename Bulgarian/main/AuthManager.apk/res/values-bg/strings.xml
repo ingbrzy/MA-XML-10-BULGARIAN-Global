@@ -91,6 +91,8 @@
     <string name="HIPS_Perm_process_outgoing_calls_Desc">следене на входящите обаждания</string>
     <string name="HIPS_Perm_read_notification_sms">Сервизни SMS</string>
     <string name="HIPS_Perm_read_notification_sms_Desc">четене на сервизни SMS</string>
+    <string name="HIPS_Perm_recognition">Достъп до информация за активност</string>
+    <string name="HIPS_Perm_recognition_Desc">Разрешете на приложението достъп до информация за активност</string>
     <string name="HIPS_Perm_service_foreground">Услуги на преден план</string>
     <string name="HIPS_Perm_service_foreground_Desc">услуги на преден план</string>
     <string name="HIPS_Perm_show_when_locked">Активирай на заключен екран</string>

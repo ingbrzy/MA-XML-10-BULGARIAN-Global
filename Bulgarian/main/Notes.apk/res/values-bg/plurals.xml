@@ -88,6 +88,14 @@
         <item quantity="other">Преди %d минути</item>
         <item quantity="one">Преди 1 минута</item>
     </plurals>
+    <plurals name="pc_notes_search_result">
+        <item quantity="other">Открити са %1$s бележки</item>
+        <item quantity="one">Открита е %1$s бележка</item>
+    </plurals>
+    <plurals name="pc_todo_search_result">
+        <item quantity="other">Открити са %1$s задачи</item>
+        <item quantity="one">Открита е %1$s задача</item>
+    </plurals>
     <plurals name="record_last_ten_seconds_reminder">
         <item quantity="other">остават %d секунди</item>
         <item quantity="one">остава %d секунда</item>
