@@ -394,7 +394,6 @@
     <string name="note_sort_way">Изберете как да подредите бележките си</string>
     <string name="notealert_enter">Отвори бележката</string>
     <string name="notealert_ok">Затвори</string>
-    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Бележки е системно приложение. След като го деинсталирате няма да можете да използвате приложението.</string>
     <string name="notes_description_title">Деинсталиране на Бележки?</string>
     <string name="notification_content_add_todo_from_other_app">Добавихте нова задача. Натиснете, за да прегледате.</string>
