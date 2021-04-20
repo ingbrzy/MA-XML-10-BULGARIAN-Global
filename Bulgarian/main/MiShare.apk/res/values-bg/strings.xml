@@ -71,6 +71,7 @@
     <string name="error_ap_or_screen_already_hosting">Не могат да се изпращат елементи на други устройства, докато се извършва проекция или се използва точка за достъп.</string>
     <string name="error_device_lost">Изглежда другото устройство е извън обхват. Изчакайте една-две минути и опитайте отново.</string>
     <string name="error_has_occurred">Възникна грешка</string>
+    <string name="error_mirror_working">Не можете да споделяте елементи когато споделяте екрана</string>
     <string name="error_msg_network_error">Възникна мрежова грешка. Опитайте отново.</string>
     <string name="error_receive_file_cannot_read">Неуспешно получаване на файла</string>
     <string name="error_receive_file_changed">Не може да се получи. Елементът е променен.</string>
@@ -81,6 +82,7 @@
     <string name="error_receive_user_interrupted">Отсрещната страна отмени прехвърлянето</string>
     <string name="error_refuse_receive">Отменено прехвърляне</string>
     <string name="error_remote_busy">Изглежда другото устройство е заето. Изчакайте една-две минути и опитайте отново.</string>
+    <string name="error_remote_mirror_working">Другото устройство не може да приема елементи докато споделя екрана</string>
     <string name="error_self_busy">Устройство е заето. Изчакайте една-две минути и опитайте отново.</string>
     <string name="error_send_file_cannot_read">Неуспешно изпращане на файла. Опитайте отново.</string>
     <string name="error_send_file_no_enough_space">Не може да се изпрати. На другото устройство няма достатъчно място.</string>
@@ -106,6 +108,10 @@
     <string name="file_transfer_progress_title">Напредък</string>
     <string name="functions_are_being_developed">Тази функция скоро ще бъде налична. Не пропускайте!</string>
     <string name="go_to_settings">Настройки</string>
+    <string name="guide_summary_1">Другия човек може да натисне превключвателя в Лентата с известия</string>
+    <string name="guide_summary_2">Изберете устройството, към което желаете да изпратите елементи и натиснете иконата му</string>
+    <string name="guide_title_1">Включете Mi Share и на двете устройства</string>
+    <string name="guide_title_2">Изберете устройство за споделяне</string>
     <string name="help">Не откривате устройства?</string>
     <string name="help_content">Ако не можете да откриете устройството, от което се нуждаете, помолете другото лице да включи Mi Споделяне.</string>
     <string name="hide">Скрий</string>
@@ -113,6 +119,7 @@
     <string name="location_enabled">Mi Share включи услугите за местоположение, за да открие устройства наблизо</string>
     <string name="meizu">Meizu</string>
     <string name="meizu_phone">Meizu</string>
+    <string name="menu_item_privacy_title">Правила за поверителност</string>
     <string name="mi_9_lite">Mi 9 Lite</string>
     <string name="mi_9t">Mi 9T</string>
     <string name="mi_9t_pro">Mi 9T Pro</string>
@@ -120,13 +127,20 @@
     <string name="mi_note_10">Mi Note 10</string>
     <string name="mishare_folder_in_file_explorer">Файлов мениджър > MiShare</string>
     <string name="mishare_service_channel_desc">Известия за процеси на Mi Трансфер</string>
-    <string name="mishare_settings_summary_international">"Можете да използвате Mi Споделяне, за да изпращате елементи до устройства в близост.
-Mi Споделяне е съвместимо с Mi и Redmi телефони.
-OPPO, vivo, realme и други марки скоро също ще бъдат съвместими с Mi Споделяне. Можете да проверите списъка със съвместими устройства на нашия уебсайт."</string>
+    <string name="mishare_settings_summary_international">"Mi Share ви позволява да изпращате елементи безжично до други устройства наблизо.
+Тази функция се поддържа от OPPO, vivo, realme и други производители на смартфони. Можете да проверите списъка на поддържани устройства в официалния сайт на всяка избрана марка."</string>
     <string name="mishare_state_protection">Включвай \"Mi споделяне\" автоматично</string>
     <string name="mishare_state_protection_summary">\"Mi споделяне\" ще се включва автоматично, когато бъде включен Bluetooth или Wi-Fi.</string>
     <string name="mishare_state_protection_summary_china">Автоматично включване на Mi Share при включване Bluetooth или WLAN</string>
     <string name="mishare_transefer_channel_desc">Известия за изпратени и получени елементи чрез Mi Трансфер</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Изтеглете надолу за обновяване</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно обновяване</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">Обновяване…</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Отпуснете за обновяване</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">Това е всичко за сега</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">Това е всичко за сега</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Един момент…</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Неуспешно зареждане</string>
     <string name="multi_file_name">%1$s, %2$s</string>
     <string name="name_with_ellipsize">%1$s … %2$s</string>
     <string name="no_longer_prompt">Блокиране</string>
@@ -180,8 +194,9 @@ OPPO, vivo, realme и други марки скоро също ще бъдат 
     <string name="refuse_file">Откажи</string>
     <string name="retry_task">Изпрати отново</string>
     <string name="scanning_device_tips">Търсене на устройства наблизо… Уверете се, че другото устройство е в режим на видимост.</string>
-    <string name="scanning_only_xiaomi_device">This item can only be transferred to Xiaomi or Black Shark devices</string>
+    <string name="scanning_only_xiaomi_device">Този елемент може да бъде преместен само към Xiaomi или Black Shark устройства</string>
     <string name="search_menu_title">Търсене</string>
+    <string name="send_files_by">Споделете файлове чрез</string>
     <string name="send_files_to">Изпрати елементите към</string>
     <string name="send_files_to_remote_success">Успешно изпратени елементи на %1$s</string>
     <string name="send_files_to_remote_success_title">Изпращането е успешно.</string>
@@ -197,7 +212,10 @@ OPPO, vivo, realme и други марки скоро също ще бъдат 
     <string name="support_device_type">Поддържани устройства</string>
     <string name="throwing_print">Печат</string>
     <string name="throwing_screen">Проекция</string>
-    <string name="tips_prompt_enable_midrop">Споделяне на файлове с устройства наблизо</string>
+    <string name="tile_state_active">Вкл</string>
+    <string name="tile_state_inactive">Изкл</string>
+    <string name="tile_state_unavailable">Недостъпен</string>
+    <string name="tips_prompt_enable_midrop">Mi Share</string>
     <string name="to_feedback">Доклад</string>
     <string name="transfer_intercept_to_remote">Неуспешно изпращане: %1$s</string>
     <string name="transfer_to_pc_summary">Най-новата версия на софтуера AIoT, който е инсталиран на лаптопите Mi, е съвместим с \"Mi споделяне\". Можете да видите списъка с поддържани модели лаптопи на сайта на MIUI. Ако Вашият лаптоп е в списъка, но AIoT не е инсталиран на него, обновете BIOS-а на лаптопа и драйвера за мрежовия адаптер и след това изтеглете AIoT.</string>

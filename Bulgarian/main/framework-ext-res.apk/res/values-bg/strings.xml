@@ -45,6 +45,7 @@
     <string name="bluetooth_enable_notification_content">%s включи Bluetooth</string>
     <string name="bluetooth_enable_notification_title">Bluetooth е включен</string>
     <string name="bluetooth_open">Това приложение включи Bluetooth</string>
+    <string name="bottom_bar_smallwindow_text">Отпуснете за закачане</string>
     <string name="btn_cancel">Отказ</string>
     <string name="btn_sure">OK</string>
     <string name="button_text_cancel">Отмяна</string>
@@ -78,10 +79,14 @@
     <string name="device_status_success">Успешно изпратено</string>
     <string name="device_status_waiting">Изчаква се…</string>
     <string name="device_type_pc">Компютър</string>
+    <string name="disable_nfc">Изключен е NFC за безжично зареждане</string>
+    <string name="disable_nfc_reverse">Изключен е NFC за обратно безжично зареждане</string>
     <string name="eighthours">8 часа</string>
     <string name="enable_livetalk_summary">Спести до 70% от цената за обаждане</string>
     <string name="enable_livetalk_title">Заредете сега</string>
     <string name="enable_midrop">Включи</string>
+    <string name="enable_nfc">Устройството вече не се зарежда. NFC е включен отново.</string>
+    <string name="enable_nfc_reverse">Вече не се извършва обратно зареждане. NFC е включен отново.</string>
     <string name="fc_dialog_body">Да се изпрати ли доклад за грешка до Mi за анализ? Този доклад може да съдържа лична информация. Вашият доклад ще се използва за премахване на грешката и никога няма да се споделя с комерсиална цел.</string>
     <string name="fc_dialog_jump_to_preview">Виж резюмето</string>
     <string name="file_cannot_print">Този елемент не може да се принтира.</string>

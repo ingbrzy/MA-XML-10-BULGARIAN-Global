@@ -40,9 +40,13 @@
         <item quantity="other">%d бележки</item>
         <item quantity="one">%d бележка</item>
     </plurals>
+    <plurals name="dirty_note_count_v2">
+        <item quantity="other">%d бележки</item>
+        <item quantity="one">%d бележка</item>
+    </plurals>
     <plurals name="dirty_personalAssistant_count">
-        <item quantity="other">%d записа на стойност за приложение</item>
-        <item quantity="one">%d запис на стойност за приложение</item>
+        <item quantity="other">%d записа в Трезор за приложения</item>
+        <item quantity="one">%d запис в Трезор за приложения</item>
     </plurals>
     <plurals name="dirty_phrase_count">
         <item quantity="other">%d чести фрази</item>
@@ -64,6 +68,10 @@
         <item quantity="other">%d WLAN мрежи</item>
         <item quantity="one">%d WLAN мрежа</item>
     </plurals>
+    <plurals name="error_screen_pwd_next_retry_time">
+        <item quantity="other">Опитайте отново след %d секунди</item>
+        <item quantity="one">Опитайте отново след %d секунда</item>
+    </plurals>
     <plurals name="items_unsynced">
         <item quantity="other">Изчакващи синхронизиране: %d</item>
         <item quantity="one">Изчакващи синхронизиране: %d</item>
@@ -81,11 +89,27 @@
         <item quantity="one">Продължи синхронизирането след %d минута</item>
     </plurals>
     <plurals name="provision_sync_items_status_title">
-        <item quantity="other">%s услуги ще бъдат синхр. с Xiaomi Облак</item>
-        <item quantity="one">%s услуга ще бъде синхр. с Xiaomi Облак</item>
+        <item quantity="other">%s услуги ще бъдат синхр. с Xiaomi Cloud</item>
+        <item quantity="one">%s услуга ще бъде синхр. с Xiaomi Cloud</item>
     </plurals>
     <plurals name="select_no_more_than">
         <item quantity="other">Не може да се избират повече от %d елемента.</item>
         <item quantity="one">Не може да се избира повече от %d елемент.</item>
+    </plurals>
+    <plurals name="share_sdk_invitation_some_people_accepted">
+        <item quantity="other">Поканата е приета от %d човека</item>
+        <item quantity="one">Поканата е приета от %d човек</item>
+    </plurals>
+    <plurals name="time_format_day">
+        <item quantity="other">%1$s дни</item>
+        <item quantity="one">%1$s ден</item>
+    </plurals>
+    <plurals name="time_format_hour">
+        <item quantity="other">%1$s часа</item>
+        <item quantity="one">%1$s час</item>
+    </plurals>
+    <plurals name="time_format_min">
+        <item quantity="other">%1$s мин</item>
+        <item quantity="one">%1$s мин</item>
     </plurals>
 </resources>

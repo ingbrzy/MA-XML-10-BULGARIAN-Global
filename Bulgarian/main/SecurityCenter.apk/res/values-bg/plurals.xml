@@ -80,9 +80,17 @@
         <item quantity="other">Използвано преди %d години</item>
         <item quantity="one">Използвано преди %d година</item>
     </plurals>
+    <plurals name="applock_app_suggest_lock">
+        <item quantity="other">Можете да използвате Заключване на приложения върху %1$s приложения</item>
+        <item quantity="one">Можете да използвате Заключване на приложения върху %1$s приложение</item>
+    </plurals>
     <plurals name="applock_guide_app_count_tips">
         <item quantity="other">Можете да защитите най-малко %s приложения.</item>
         <item quantity="one">Можете да защитите най-малко %s приложение.</item>
+    </plurals>
+    <plurals name="applock_one_key_lock">
+        <item quantity="other">%s приложения ще бъдат защитени с Заключване на приложения</item>
+        <item quantity="one">%s приложение ще бъде защитено с Заключване на приложения</item>
     </plurals>
     <plurals name="bg_network_allow_count">
         <item quantity="other">%d приложения могат да се свързват с интернет на заден план</item>
@@ -292,6 +300,14 @@
         <item quantity="other">%2$d приложения, включително %1$s, изтощават батерията</item>
         <item quantity="one">%2$d приложение, включително %1$s, изтощава батерията</item>
     </plurals>
+    <plurals name="notification_power_consume_issue">
+        <item quantity="other">%d проблема, които изразходват батерия</item>
+        <item quantity="one">%d проблем, който изразходва батерия</item>
+    </plurals>
+    <plurals name="notification_power_consume_suggest">
+        <item quantity="other">Оптимизирайте %d елемента, за да спестите батерия</item>
+        <item quantity="one">Оптимизирайте %d елемент, за да спестите батерия</item>
+    </plurals>
     <plurals name="notification_title_cmcc_app_check">
         <item quantity="other">%d дни от последната проверка</item>
         <item quantity="one">%d ден от последната проверка</item>
@@ -404,9 +420,29 @@
         <item quantity="other">Изтеглено от %1$d човека</item>
         <item quantity="one">Изтеглено от %1$d човек</item>
     </plurals>
+    <plurals name="power_center_battery_charge_number">
+        <item quantity="other">пъти</item>
+        <item quantity="one">път</item>
+    </plurals>
+    <plurals name="power_center_battery_consume_prolblem">
+        <item quantity="other">%d проблема, които изразходват батерия</item>
+        <item quantity="one">%d проблем, който изразходва батерия</item>
+    </plurals>
     <plurals name="power_center_battery_day">
         <item quantity="other">"%d дни "</item>
         <item quantity="one">"%d ден "</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_hour_time_format">
+        <item quantity="other">" часа"</item>
+        <item quantity="one">" час"</item>
+    </plurals>
+    <plurals name="power_center_battery_duration_min_time_format">
+        <item quantity="other">" мин"</item>
+        <item quantity="one">" мин"</item>
+    </plurals>
+    <plurals name="power_center_battery_health_summary">
+        <item quantity="other">Заредете устройството си напълно поне %2$d пъти, за да получите точна статистика</item>
+        <item quantity="one">Заредете устройството си напълно поне %2$d път, за да получите точна статистика</item>
     </plurals>
     <plurals name="power_center_battery_hour">
         <item quantity="other">"%d часа "</item>
@@ -415,6 +451,26 @@
     <plurals name="power_center_battery_minute">
         <item quantity="other">"%d мин. "</item>
         <item quantity="one">"%d мин. "</item>
+    </plurals>
+    <plurals name="power_center_battery_problem">
+        <item quantity="other">Разрешете %d проблема, които изразходват батерия</item>
+        <item quantity="one">Разрешете %d проблем, който изразходва батерия</item>
+    </plurals>
+    <plurals name="power_center_battery_problem_result">
+        <item quantity="other">Можете да разрешите %d проблема, които изразходват батерия</item>
+        <item quantity="one">Можете да разрешите %d проблем, който изразходва батерия</item>
+    </plurals>
+    <plurals name="power_center_battery_save_suggest">
+        <item quantity="other">" %d елемента могат да бъдат оптимизирани"</item>
+        <item quantity="one">" %d елемент може да бъде оптимизиран"</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest">
+        <item quantity="other">Оптимизирайте %d елемента, за да спестите батерия</item>
+        <item quantity="one">Оптимизирайте %d елемент, за да спестите батерия</item>
+    </plurals>
+    <plurals name="power_center_battery_suggest_result">
+        <item quantity="other">Можете да оптимизирате %d елемента, за да спестите батерия</item>
+        <item quantity="one">Можете да оптимизирате %d елемент, за да спестите батерия</item>
     </plurals>
     <plurals name="power_center_battery_temperature">
         <item quantity="other">%d ℃</item>
@@ -451,6 +507,14 @@
     <plurals name="power_off_warning_notification_message">
         <item quantity="other">Вашето устройство ще се изключи след %d секунди. Включете в зарядно.</item>
         <item quantity="one">Вашето устройство ще се изключи след %d секунда. Включете в зарядно.</item>
+    </plurals>
+    <plurals name="power_optimize_app_autostart_summary">
+        <item quantity="other">%d приложения автостартират често</item>
+        <item quantity="one">%d приложение автостартира често</item>
+    </plurals>
+    <plurals name="power_optimize_close_app_summary">
+        <item quantity="other">%d приложения изразходват батерия</item>
+        <item quantity="one">%d приложение изразходва батерия</item>
     </plurals>
     <plurals name="privacy_apps_disable_header_title">
         <item quantity="other">%d икони на приложения са скрити</item>

@@ -104,6 +104,10 @@
         <item quantity="other">%d пъти</item>
         <item quantity="one">%d път</item>
     </plurals>
+    <plurals name="usage_state_unlock_count_new">
+        <item quantity="other">Средно %.2f пъти</item>
+        <item quantity="one">Средно %.2f път</item>
+    </plurals>
     <plurals name="usage_state_week_day_hour">
         <item quantity="other">Почивни дни: %d часа</item>
         <item quantity="one">Почивни дни: %d час</item>

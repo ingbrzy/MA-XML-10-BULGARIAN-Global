@@ -423,6 +423,7 @@
     <string name="navigation_type_full_screen">Жестове</string>
     <string name="navigation_type_title">Навигиране в системата</string>
     <string name="navigation_type_virtual_key">Бутони</string>
+    <string name="network_error">Неуспешен опит за свързване към мрежата. Опитайте отново.</string>
     <string name="no_detail_page">Няма страница с подробности</string>
     <string name="no_space_toast">Няма достатъчно място</string>
     <string name="no_space_toast_when_click_widget">Няма достатъчно място на тази страница. Пробвайте да провлачите този елемент на друга страница.</string>
@@ -519,6 +520,8 @@
     <string name="remove_dialog_message">Избраните приложения включват основни системни функции. Можете единствено да премахнете техните преки пътища на Началния екран.</string>
     <string name="remove_dialog_title_format">Премахване на \"%s\" от Началния екран?</string>
     <string name="remove_invalidate_gadget_tips">Един от екранните елементи, който ползвате, вече не се предлага. Можете да добавите друг.</string>
+    <string name="remove_sys_app_content">Все още ще можете да добавяте пряк път на Началния екран в Настройки > Приложения > Управление на преки пътища на Началния екран. Премахване сега?</string>
+    <string name="remove_sys_app_title">Премахване на прекия път от Началния екран?</string>
     <string name="reset_cate_tip_content">Ако продължите, групите на приложенията по подразбиране ще бъдат възстановени. Продължаване?</string>
     <string name="reset_cate_tip_title">Възстанови групи по подразбиране</string>
     <string name="reset_description_first_time">Можете да възстановите оформлението от %1$s в рамките на 2 часа</string>
@@ -527,6 +530,7 @@
     <string name="reset_scene_prompt">Сцената ще бъде възстановена до състояние по подразбиране</string>
     <string name="reset_title">Възстанови</string>
     <string name="restore_icon_successful">Успешно добавено</string>
+    <string name="russia_preinstall_folder_name">Русия</string>
     <string name="screen_cells_config_title">Схема на Начален екран</string>
     <string name="screen_locked_toast">Оформлението за начален екран е заключено.</string>
     <string name="screen_number">Екран %d</string>
@@ -536,6 +540,7 @@
     <string name="select_all">Избери всички</string>
     <string name="select_frame">Рамка</string>
     <string name="select_photo">Снимка</string>
+    <string name="server_error">Възникна грешка в сървъра. Изчакайте минута-две и опитайте отново.</string>
     <string name="setting_wallpaper_tip">Преместване или уголемяване</string>
     <string name="settings">Настройки</string>
     <string name="settings_shortcut">Настройки</string>
@@ -563,6 +568,7 @@
     <string name="sort_by_not_defined">Не сортирай</string>
     <string name="start_activity_failed">Приложението не успя да стартира.</string>
     <string name="starting_preset_app">Стартиране</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%1$s от %2$s са достъпни</string>
     <string name="status_bar_recent_memory_info2" />

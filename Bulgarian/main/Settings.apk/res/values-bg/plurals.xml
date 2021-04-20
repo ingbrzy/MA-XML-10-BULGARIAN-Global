@@ -404,6 +404,10 @@
         <item quantity="other">%1$d предложения</item>
         <item quantity="one">1 предложение</item>
     </plurals>
+    <plurals name="switch_headset_anti_lost_summary">
+        <item quantity="other">Получавайте сигнал когато една от вашите слушалки е далече от ухото ви или от калъфчето за зареждане за повече от %d минути</item>
+        <item quantity="one">Получавайте сигнал когато една от вашите слушалки е далече от ухото ви или от калъфчето за зареждане за повече от %d минута</item>
+    </plurals>
     <plurals name="uri_permissions_text">
         <item quantity="other">%d елемента</item>
         <item quantity="one">1 елемент</item>

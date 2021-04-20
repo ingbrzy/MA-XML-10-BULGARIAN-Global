@@ -832,13 +832,20 @@
     <string name="fdn_summary">Горните опции са изключени, когато FDN е включен</string>
     <string name="fdn_with_label">Фиксирани номера за набиране (%s)</string>
     <string name="fire_type_description">Пожар</string>
-    <string name="fiveg_hosted_mode_summary">Автоматично превключване към най-добрата налична мрежа когато 5G сигнала е слаб</string>
+    <string name="fiveg_hosted_mode_summary">Автоматично избиране на най-добра мрежа, за да спестите батерия</string>
     <string name="fiveg_hosted_mode_title">Смарт Превключване към 5G</string>
+    <string name="fiveg_network_mode_default">Автоматично</string>
+    <string name="fiveg_network_mode_nsa">NSA</string>
+    <string name="fiveg_network_mode_sa_nsa">SA+NSA</string>
+    <string name="fiveg_network_mode_title">Изберете режим 5G мрежа</string>
     <string name="fiveg_network_title">5G networks</string>
     <string name="fiveg_sa_switch_open_dialog_content">В единичен режим 5G връзката може да е нестабилна, а това може да повлияе на телефонните услуги. Да се включи ли режим SA въпреки това?</string>
     <string name="fiveg_sa_switch_open_dialog_title">Внимание</string>
     <string name="fiveg_sa_switch_summary">Позволява свързването с 5G мрежи в единичен режим.</string>
     <string name="fiveg_sa_switch_title">Режим SA</string>
+    <string name="fiveg_sa_switch_title_slot0">SIM %d режим SA</string>
+    <string name="fiveg_sa_switch_title_slot1">SIM %d режим SA</string>
+    <string name="fiveg_sa_vice_switch_title">SA на втората SIM карта</string>
     <string name="fiveg_switch_title">5G мрежа</string>
     <string name="flash_when_ring_summary">Използвайте светкавица за уведомяване при входящи повиквания</string>
     <string name="flash_when_ring_title">Светкавица при звънене</string>
@@ -899,6 +906,7 @@
     <string name="incall_error_no_phone_number_supplied">За да извършите обаждане, въведете валиден номер.</string>
     <string name="incall_error_out_of_service">Няма мобилна мрежа.</string>
     <string name="incall_error_out_of_service_wfc">Няма мобилна мрежа. Свържете се с безжична, за да се обадите.</string>
+    <string name="incall_error_outgoing_call_failed">Неуспешно обаждане</string>
     <string name="incall_error_power_off">Изключете самолетния режим, за да осъществите обаждане.</string>
     <string name="incall_error_power_off_wfc">Изключете самолетния режим или се свържете с безжична мрежа, за да осъществите обаждане.</string>
     <string name="incall_error_promote_wfc">За да извършите обаждане, активирайте обажданията през Wi-Fi.</string>
@@ -1100,6 +1108,7 @@
     <string name="mobile_data_status_roaming_turned_on_subtext">Роумингът за данни е включен</string>
     <string name="mobile_data_status_roaming_with_plan_subtext">Понастоящем сте в роуминг, планът за данни е активен</string>
     <string name="mobile_data_status_roaming_without_plan_subtext">Понастоящем сте в роуминг, необходим е план за данни</string>
+    <string name="mobile_intelligent_connection_title">Смарт мобилна връзка</string>
     <string name="mobile_network_settings_not_available">Настройките за мобилната мрежа не са налице за този потребител</string>
     <string name="mobile_networks">Настройки на мобилната мрежа</string>
     <string name="mobile_property">Свойства на мобилната мрежа</string>
@@ -1395,12 +1404,14 @@
     <string name="pin2_error_exception">Грешка в мрежата или SIM картата</string>
     <string name="pin2_invalid">FDN не бе актуализирано, защото сте въвели неправилен ПИН.</string>
     <string name="pin2_invalid_or_name_is_too_long">ФНН не е актуализирано - въвели сте неправилен PIN или името е прекалено дълго.</string>
-    <string name="pin2_lock_warning">\" Функциите на PIN2 ще бъдат блокирани, ако отново зададете грешен PIN2 код!\"</string>
+    <string name="pin2_lock_warning">"
+Функциите на PIN2 ще бъдат блокирани, ако отново зададете грешен PIN2 код."</string>
     <string name="pin2_or_fdn_invalid">FDN не е актуализирано. PIN2 бе неправилен или телефонният номер бе отхвърлен.</string>
     <string name="pin2_unblocked">ПИН2 кодът вече не е блокиран</string>
     <string name="pin_changed">ПИН кодът е актуализиран</string>
     <string name="pin_failed">ПИН кодът е неправилен</string>
-    <string name="pin_lock_warning">\" Телефонът ви ще бъде блокиран, ако отново въведете грешен код!\"</string>
+    <string name="pin_lock_warning">"
+Телефонът ви ще бъде блокиран, ако отново въведете грешен код!"</string>
     <string name="pin_progress_change_pin">Промяна на PIN…</string>
     <string name="pin_progress_change_pin2">Промяна на PIN2…</string>
     <string name="pin_progress_set_fdn_lock">Настройка на състоянието на FDN заключване…</string>
@@ -1488,7 +1499,7 @@
     <string name="preferred_network_type_pref_entries_3g_preferred">Предпочита се 3G</string>
     <string name="preferred_network_type_pref_entries_3g_preferred_cdma">Предпочита се 3G (CDMA)</string>
     <string name="preferred_network_type_pref_entries_3g_preferred_lm_cr">WCDMA/GSM авто</string>
-    <string name="preferred_network_type_pref_entries_3g_preferred_mx_at">3G/2G (предпочитано 3G)</string>
+    <string name="preferred_network_type_pref_entries_3g_preferred_mx_at">3G/2G (3G е предпочитано)</string>
     <string name="preferred_network_type_pref_entries_4g_preferred">Предпочита се 4G</string>
     <string name="preferred_network_type_pref_entries_4g_preferred_cdma">Предпочита се 4G (CDMA)</string>
     <string name="preferred_network_type_pref_entries_4g_preferred_custom">Предпочита се 4G</string>
@@ -1514,6 +1525,7 @@
     <string name="private_dns_mode_provider_failure">Не можа да се установи връзка</string>
     <string name="private_dns_mode_provider_hostname_hint">Въведете име на хоста на DNS доставчика</string>
     <string name="private_num">Частен номер</string>
+    <string name="process_kernel_label">Android (ОС)</string>
     <string name="profile_connect_timeout_subtext">При свързването възникна проблем. Изключете устройството и го включете отново</string>
     <string name="profile_info_settings_title">Инф. за потр. профил</string>
     <string name="progress_dialog_exiting_ecm">Излиза се от режим на спешно обратно обаждане</string>
@@ -1528,7 +1540,8 @@
     <string name="puk2_label">Въведете PUK2</string>
     <string name="puk2_requested">Паролата е неправилна. SIM картата вече е заключена. Въведете PUK2 кода.</string>
     <string name="puk_label">Въведете PUK</string>
-    <string name="puk_lock_warning">\" Обърнете внимание, че SIM картата ви ще бъде блокирана, ако отново въведете грешен код!\"</string>
+    <string name="puk_lock_warning">"
+Обърнете внимание, че SIM картата ви ще бъде блокирана, ако отново въведете грешен код!"</string>
     <string name="puk_requested">Паролата е неправилна. ПИН кодът вече е блокиран. Изисква се PUK.</string>
     <string name="puk_unlocked">SIM картата ви е отблокирана. Телефонът ви се отключва…</string>
     <string name="quick_dial_setting_title">Бързо набиране</string>
@@ -1691,10 +1704,41 @@ Wi-Fi телефония: %3$s
     <string name="screen_zoom_summary_large">Голямо</string>
     <string name="screen_zoom_summary_small">Малко</string>
     <string name="screen_zoom_summary_very_large">По-голямо</string>
+    <string name="search_answer_state_setting_title">@string/answer_state_setting_title</string>
     <string name="search_antispam_setting">Списък на блокирани номера</string>
     <string name="search_app_name">Телефон;Запис на разговори;Пренасочване на разговори;пренасочване;Изчакване на обаждане;Списък за блокиране;Код на държавата;Код на областта;Кодове на държави;Кодове на области;Запис на обаждания;Запис на обаждане;Номератор;Обаждане;Обаждания;Телефония;VoIP;VoLTE;Пропуснато обаждане;Пропуснати обаждания;SIP;T9;IP телефония;FDN</string>
+    <string name="search_auto_answer_pref_title">@string/auto_answer_pref_title</string>
+    <string name="search_auto_retry_mode_title">@string/auto_retry_mode_title</string>
+    <string name="search_call_forwarding_settings">@string/call_forwarding_settings</string>
+    <string name="search_call_record_auto_title">@string/call_record_auto_title</string>
+    <string name="search_call_record_setting">@string/call_record_setting</string>
+    <string name="search_call_recording_notification_toggle_title">@string/call_recording_notification_toggle_title</string>
+    <string name="search_call_waiting_title">@string/call_waiting_title</string>
+    <string name="search_call_waiting_tone_title">@string/call_waiting_tone_title</string>
+    <string name="search_caller_id_title">@string/caller_id_title</string>
+    <string name="search_cloud_antispam_title">@string/cloud_antispam_title</string>
+    <string name="search_connect_disconnect_vibrate_title">@string/connect_disconnect_vibrate_title</string>
+    <string name="search_crescendo_ringer_title">@string/crescendo_ringer_title</string>
+    <string name="search_dtmf_tones_title">@string/dtmf_tones_title</string>
+    <string name="search_enable_antispam_strange_title">@string/enable_antispam_strange_title</string>
+    <string name="search_enable_proximity_title">@string/enable_proximity_title</string>
+    <string name="search_fdn">@string/fdn</string>
+    <string name="search_flash_when_ring_title">@string/flash_when_ring_title</string>
+    <string name="search_handon_ringer_title">@string/handon_ringer_title</string>
     <string name="search_menu">Настройки за търсене</string>
     <string name="search_menu_title">Търсене</string>
+    <string name="search_missed_call_notify_times_title">@string/missed_call_notify_times_title</string>
+    <string name="search_preference_dial_pad_touch_tone_title">@string/preference_dial_pad_touch_tone_title</string>
+    <string name="search_preference_telocation_title">@string/preference_telocation_title</string>
+    <string name="search_reject_via_sms">@string/reject_via_sms</string>
+    <string name="search_sip_settings">@string/sip_settings</string>
+    <string name="search_t9_indexing_method_title">@string/t9_indexing_method_title</string>
+    <string name="search_telocation_auto_country_code">@string/telocation_auto_country_code</string>
+    <string name="search_telocation_contacts_countrycode">@string/telocation_contacts_countrycode</string>
+    <string name="search_telocation_custom_location_title">@string/telocation_custom_location_title</string>
+    <string name="search_telocation_enable_title">@string/telocation_enable_title</string>
+    <string name="search_turnover_mute_title">@string/turnover_mute_title</string>
+    <string name="search_voicemail_settings">@string/voicemail_settings</string>
     <string name="selectContact">избиране на контакта</string>
     <string name="select_application">Избиране на приложение</string>
     <string name="select_automatically">Автоматично избиране на мрежа</string>
@@ -1954,6 +1998,8 @@ Wi-Fi телефония: %3$s
     <string name="title_cfu_enabled">Пренасочване на обаждания е вкл</string>
     <string name="title_convert_fbe">Преобразуване към шифроване на ниво файл</string>
     <string name="track_frame_time">Изобр. на HWUI: Профилир.</string>
+    <string name="traffic_mode_summary">Приоритизиране на мобилната връзка за приложения използвани в момента. Възможно е приложения във фонов режим да не могат да се свържат.</string>
+    <string name="traffic_mode_switch_title">Максимален режим</string>
     <string name="transition_animation_scale_title">Скала на преходната анимация</string>
     <string name="transport_title">Тип транспорт</string>
     <string name="trigger_carrier_provisioning">Задействане на обезпечаването от оператора</string>
@@ -2121,6 +2167,7 @@ Wi-Fi телефония: %3$s
     <string name="wait_prompt_str">"Да се изпратят ли следните мелодии? 
 "</string>
     <string name="wfc_provisioned_switch_string">Обажданията през Wi-Fi са обезпечени</string>
+    <string name="wfcmode_ims_preferred">Предпочита се IMS</string>
     <string name="wfcmode_mobile_preferred">Предпочитани мобилни мрежи</string>
     <string name="wfcmode_wifi_only">Само по Wi-Fi</string>
     <string name="wfcmode_wifi_preferred">Предпочитана Wi-Fi</string>

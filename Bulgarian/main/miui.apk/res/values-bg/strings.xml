@@ -7,7 +7,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_day" />
     <string name="copyright">Авторски права</string>
-    <string name="user_agreement">Правила за ползване</string>
+    <string name="user_agreement">Условия за ползване</string>
     <string name="privacy_policy">Правила за поверителност</string>
     <string name="user_manual">Упътване за употреба</string>
     <string name="no_sim">Няма SIM карта.</string>
@@ -19,10 +19,10 @@
     <string name="sync_one_time_sync">Докоснете, за да синхронизирате сега ( %1$s )</string>
     <string name="select_item">Изберете елементи</string>
     <string name="action_mode_title_empty">Изберете елементи</string>
-    <string name="action_mode_select_all">Избиране на всички</string>
-    <string name="action_mode_deselect_all">Размаркиране на всички</string>
-    <string name="select_all">Избиране на всички</string>
-    <string name="deselect_all">Размаркиране на всички</string>
+    <string name="action_mode_select_all">Избери всички</string>
+    <string name="action_mode_deselect_all">Отмаркиране</string>
+    <string name="select_all">Избери всички</string>
+    <string name="deselect_all">Отмаркиране</string>
     <string name="instruction">Важна информация за безопасността</string>
     <string name="sar">РФ Информация за експониране</string>
     <string name="user_experience_program">Програма за потребителски отзиви</string>
@@ -364,7 +364,7 @@
     <string name="date_time_done">Готово</string>
     <string name="date_time_picker_dialog_title">Задаване на дата и час</string>
     <string name="delete_description">Изтрий</string>
-    <string name="deselect_all_description">Размаркирай всички</string>
+    <string name="deselect_all_description">Откажи всички</string>
     <string name="do_not_restore_temporarily">Не сега</string>
     <string name="download_right_now">Изтегли</string>
     <string name="early_morning">AM</string>
@@ -381,6 +381,7 @@
     <string name="earthly_branches_you">酉</string>
     <string name="earthly_branches_zi">子</string>
     <string name="email">Имейл</string>
+    <string name="empty" />
     <string name="eras_ad">AD</string>
     <string name="eras_bc">BC</string>
     <string name="error_forbidden">Възникнаха проблеми с вашия профил: Синхр. е деактивирана.</string>
@@ -533,6 +534,7 @@
     <string name="size_kilo_byte">КБ</string>
     <string name="size_mega_byte">МБ</string>
     <string name="size_peta_byte">ПБ</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">ТБ</string>
     <string name="solar_term_autumn_begins">Есента започва</string>
     <string name="solar_term_autumn_equinox">Есенно равноденствие</string>

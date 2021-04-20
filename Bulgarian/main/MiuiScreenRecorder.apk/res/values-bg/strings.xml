@@ -31,7 +31,10 @@
     <string name="afternoon">Следобяд</string>
     <string name="am">AM</string>
     <string name="app_name">Запис на екрана</string>
+    <string name="app_notification_channel_record_complete">Notifications about finished recordings</string>
     <string name="app_notification_info">Запис на екрана работи във фонов режим</string>
+    <string name="app_notification_record_complete">"Saved screen recording to Gallery
+Tap to view"</string>
     <string name="app_notification_title">Запис на екрана</string>
     <string name="auto_stop_title">Видеото е успешно запазено</string>
     <string name="battery_not_allowed" formatted="false">Не може да се прави запис при батерия по-ниска от 3%. Бъдете сигурни, че сте заредили батерията си поне на 20%.</string>

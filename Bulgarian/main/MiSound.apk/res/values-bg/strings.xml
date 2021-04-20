@@ -31,6 +31,7 @@
     <string name="app_name">Слушалки</string>
     <string name="apply_sound">Приложи</string>
     <string name="can_you_here">Чувате ли звука?</string>
+    <string name="choose_bluetooth_device">Избор на устройство</string>
     <string name="complete_dialog_button">Разбрах</string>
     <string name="complete_dialog_message">Приключихте теста успешно.</string>
     <string name="complete_dialog_title">Резултати от теста</string>
@@ -39,6 +40,13 @@
     <string name="customization_continue">Продължи</string>
     <string name="customization_pause_tip">Прекратяване на теста сега? За да продължите, включите слушалките.</string>
     <string name="customization_quit">Изход</string>
+    <string name="dolby_atoms">Dolby Atmos</string>
+    <string name="dolby_dax_geq_select_title">Предварителни настройки</string>
+    <string name="dolby_dax_geq_title">Графичен еквалайзер</string>
+    <string name="dolby_dax_profile_dynamic">Динамично</string>
+    <string name="dolby_dax_setting">Dolby ефекти</string>
+    <string name="dolby_dax_title">Съраунд саунд</string>
+    <string name="end_wireless_transmission">Спиране</string>
     <string name="eq_auto">По избор</string>
     <string name="eq_blues">Блус</string>
     <string name="eq_cancel">Отказ</string>
@@ -74,6 +82,7 @@
     <string name="input_hint_prefix">Въведи %1$s</string>
     <string name="keep_sound">Запази настройката</string>
     <string name="low_pitch">Нисък основен тон</string>
+    <string name="misound_effect_setting">Mi Звук</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Изтеглете надолу за обновяване</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно обновяване</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Обновяване…</string>
@@ -117,6 +126,7 @@
     <string name="music_dirac_mode_in_ear_pro">Mi In-Ear Pro</string>
     <string name="music_dirac_mode_india_earphones">Mi Слушалки</string>
     <string name="music_dirac_mode_india_earphones_basic">Mi Слушалки</string>
+    <string name="music_dirac_mode_mi_dual_driver_in_ear_earphones">Mi Dual Driver In-ear Слушалки</string>
     <string name="music_dirac_mode_off">Изключено</string>
     <string name="music_dirac_mode_piston_1">Mi piston-1</string>
     <string name="music_dirac_mode_piston_100">Mi piston-1</string>
@@ -126,6 +136,7 @@
     <string name="music_dirac_mode_piston_standard">Стандартна версия</string>
     <string name="music_dirac_mode_piston_typec">Mi In-Ear Headphones (Type-C)</string>
     <string name="music_dirac_mode_piston_youth">Mi piston-youth</string>
+    <string name="music_dirac_mode_redmi_earphones">Redmi Слушалки</string>
     <string name="music_dirac_mode_reduction_noise">Mi шумопотискане Тип-C</string>
     <string name="music_dolby_mode_movie">Филм</string>
     <string name="music_dolby_mode_music">Музика</string>
@@ -152,6 +163,8 @@
     <string name="music_headset_calibrate_volume_up">Усилване на звука</string>
     <string name="music_headset_calibrate_wrong_key">Това е грешен бутон</string>
     <string name="music_headset_control_setting">Управление на слушалките</string>
+    <string name="music_headset_effect_harman_kardon">Harman Kardon</string>
+    <string name="music_headset_effect_harman_kardon_summary">Сертифицирано про аудио</string>
     <string name="music_headset_effect_settings">Звукови ефекти</string>
     <string name="music_headset_improve_sound">Регулиране на звука спрямо слушалките</string>
     <string name="music_headset_is_open">Включено</string>
@@ -203,7 +216,25 @@
     <string name="sound_assist_key_summary">Настройвайте звуци за индивидуални приложения докато множество приложения възпроизвеждат аудио едновременно</string>
     <string name="sound_assist_key_title">Настройвайте медийни звуци в множество приложения</string>
     <string name="sound_assist_title">Звуков асистент</string>
+    <string name="sound_effect_hall">Зала</string>
+    <string name="sound_effect_original">Оригинален</string>
+    <string name="sound_effect_room">Стая</string>
+    <string name="sound_effect_theater">Театър</string>
     <string name="sound_test_title">Тест на слуховото възприятие</string>
+    <string name="sound_transmission_cancel">Не, благодаря</string>
+    <string name="sound_transmission_confirm">Разрешаване</string>
+    <string name="sound_transmission_continue">Възобновяване</string>
+    <string name="sound_transmission_device">Устройство</string>
+    <string name="sound_transmission_dialog_message">Звуков асистент</string>
+    <string name="sound_transmission_dialog_title">Включване на Bluetooth</string>
+    <string name="sound_transmission_end">Стоп</string>
+    <string name="sound_transmission_function_generalize">Излъчвайте аудио от микрофона на вашия телефон върху външно Bluetooth устройство</string>
+    <string name="sound_transmission_processing">Микрофон</string>
+    <string name="sound_transmission_prompt">Разрешете на тази функция да включи Bluetooth, за да може да използва безжичен микрофон.</string>
+    <string name="sound_transmission_scenes">Сцена</string>
+    <string name="sound_transmission_start">Старт</string>
+    <string name="sound_transmission_stop">Пауза</string>
+    <string name="sound_transmission_title">Безжичен микрофон</string>
     <string name="start_test_sound">Начало на теста</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -212,7 +243,14 @@
     <string name="switch_audio_device_bt">Bluetooth</string>
     <string name="switch_audio_device_phone">Това устройство</string>
     <string name="switch_audio_dialog_title">Превключи аудио към</string>
+    <string name="switch_bluetooth_device">Превключване на устройства</string>
     <string name="third_note">Намерете тихо място.</string>
+    <string name="transmission_volume_option_title">Звук на микрофона</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
+    <string name="wireless_transmission">Безжичен високоговорител</string>
+    <string name="wireless_transmission_cancel">Отказ</string>
+    <string name="wireless_transmission_confirm">Включване</string>
+    <string name="wireless_transmission_definition">Излъчвайте звука от микрофона на телефона върху външно Bluetooth устройство</string>
+    <string name="wireless_transmission_prompt">За да излъчите аудио безжичния високоговорител трябва да включи Bluetooth. Желаете ли да го включите сега?</string>
 </resources>

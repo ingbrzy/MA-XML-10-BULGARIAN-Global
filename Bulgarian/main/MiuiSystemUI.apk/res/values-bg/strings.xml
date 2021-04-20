@@ -63,6 +63,7 @@
     <string name="accessibility_camera_button">Камера</string>
     <string name="accessibility_carrier_network_change_mode">Мрежата на оператора е променена.</string>
     <string name="accessibility_cast_name">Свързахте се с %s.</string>
+    <string name="accessibility_casting">@string/quick_settings_casting</string>
     <string name="accessibility_casting_turned_off">Запис на екрана е изключено.</string>
     <string name="accessibility_cell_data">Мобилни данни</string>
     <string name="accessibility_cell_data_off">Мобилните данни са изключени</string>
@@ -114,6 +115,7 @@
     <string name="accessibility_ethernet_connected">Връзката с устройството е прекъсната.</string>
     <string name="accessibility_ethernet_disconnected">Връзката с устройството е прекъсната.</string>
     <string name="accessibility_expand_button">Покажи повече</string>
+    <string name="accessibility_face_dialog_face_icon">Икона на лице</string>
     <string name="accessibility_fingerprint_dialog_app_icon">Икона на приложението</string>
     <string name="accessibility_fingerprint_dialog_fingerprint_icon">Икона на сензора за пръстов отпечатък</string>
     <string name="accessibility_fingerprint_dialog_help_area">Област на съобщението за помощ</string>
@@ -387,6 +389,38 @@
     <string name="battery_saver_notification_text">Ограничава производителността и мобилните данни на заден план</string>
     <string name="battery_saver_notification_title">Икономия на батерия е вкл</string>
     <string name="battery_saver_start_action">Включване на Икономия на батерията</string>
+    <string name="biometric_dialog_authenticated">Удостоверено</string>
+    <string name="biometric_dialog_confirm">Потвърждаване</string>
+    <string name="biometric_dialog_credential_attempts_before_wipe">Опитайте отново. Опит %1$d от %2$d.</string>
+    <string name="biometric_dialog_credential_too_many_attempts">"Твърде много неправилни опити.
+Опитайте отново след %d секунди."</string>
+    <string name="biometric_dialog_empty_space_description">Докоснете, за да анулирате удостоверяването</string>
+    <string name="biometric_dialog_face_icon_description_authenticated">Лицето е удостоверено</string>
+    <string name="biometric_dialog_face_icon_description_authenticating">Лицето ви се търси</string>
+    <string name="biometric_dialog_face_icon_description_confirmed">Потвърдено</string>
+    <string name="biometric_dialog_face_icon_description_idle">Моля, опитайте отново</string>
+    <string name="biometric_dialog_failed_attempts_now_wiping_device">Твърде много неправилни опити. Данните от това устройство ще бъдат изтрити.</string>
+    <string name="biometric_dialog_failed_attempts_now_wiping_profile">Твърде много неправилни опити. Този служебен потребителски профил и данните в него ще бъдат изтрити.</string>
+    <string name="biometric_dialog_failed_attempts_now_wiping_user">Твърде много неправилни опити. Този потребител ще бъде изтрит.</string>
+    <string name="biometric_dialog_last_attempt_before_wipe_dialog_title">Данните ви ще бъдат изтрити</string>
+    <string name="biometric_dialog_last_password_attempt_before_wipe_device">Ако въведете неправилна парола при следващия опит, данните от това устройство ще бъдат изтрити.</string>
+    <string name="biometric_dialog_last_password_attempt_before_wipe_profile">Ако въведете неправилна парола при следващия опит, служебният ви потребителски профил и данните в него ще бъдат изтрити.</string>
+    <string name="biometric_dialog_last_password_attempt_before_wipe_user">Ако въведете неправилна парола при следващия опит, този потребител ще бъде изтрит.</string>
+    <string name="biometric_dialog_last_pattern_attempt_before_wipe_device">Ако въведете неправилна фигура при следващия опит, данните от това устройство ще бъдат изтрити.</string>
+    <string name="biometric_dialog_last_pattern_attempt_before_wipe_profile">Ако въведете неправилна фигура при следващия опит, служебният ви потребителски профил и данните в него ще бъдат изтрити.</string>
+    <string name="biometric_dialog_last_pattern_attempt_before_wipe_user">Ако въведете неправилна фигура при следващия опит, този потребител ще бъде изтрит.</string>
+    <string name="biometric_dialog_last_pin_attempt_before_wipe_device">Ако въведете неправилен ПИН код при следващия опит, данните от това устройство ще бъдат изтрити.</string>
+    <string name="biometric_dialog_last_pin_attempt_before_wipe_profile">Ако въведете неправилен ПИН код при следващия опит, служебният ви потребителски профил и данните в него ще бъдат изтрити.</string>
+    <string name="biometric_dialog_last_pin_attempt_before_wipe_user">Ако въведете неправилен ПИН код при следващия опит, този потребител ще бъде изтрит.</string>
+    <string name="biometric_dialog_now_wiping_dialog_dismiss">Отхвърляне</string>
+    <string name="biometric_dialog_tap_confirm">Докоснете „Потвърждаване“ за завършване</string>
+    <string name="biometric_dialog_try_again">Нов опит</string>
+    <string name="biometric_dialog_use_password">Използване на парола</string>
+    <string name="biometric_dialog_use_pattern">Използване на фигура</string>
+    <string name="biometric_dialog_use_pin">Използване на ПИН</string>
+    <string name="biometric_dialog_wrong_password">Грешна парола</string>
+    <string name="biometric_dialog_wrong_pattern">Грешна фигура</string>
+    <string name="biometric_dialog_wrong_pin">Грешен ПИН</string>
     <string name="blob_expires_text">Изтича на %s</string>
     <string name="blob_id_text">ID на споделени данни: %d</string>
     <string name="block">Блокирай всички известия</string>
@@ -704,6 +738,7 @@
     <string name="ext_media_unmountable_notification_title">Повредено USB хранилище</string>
     <string name="external_source_trusted">Позволено</string>
     <string name="external_source_untrusted">Не е позволено</string>
+    <string name="face_dialog_looking_for_face">Търсим ви…</string>
     <string name="face_unlock_be_on_the_screen">Дръжте устройството изправено срещу вашето лице</string>
     <string name="face_unlock_check_failed">Не сте разпознат</string>
     <string name="face_unlock_fail">Неуспешно лицево разпознаване</string>
@@ -711,8 +746,11 @@
     <string name="face_unlock_fail_retry_global">Чукнете, за да използвате Откл. с лице</string>
     <string name="face_unlock_not_found">Не сте разпознат</string>
     <string name="face_unlock_open_eye">Отворете още малко очите си</string>
+    <string name="face_unlock_password_and_fingerprint">Въведете парола или използвайте пръстов отпечатък за отключване</string>
     <string name="face_unlock_passwork">Използвай парола</string>
     <string name="face_unlock_passwork_and_fingerprint">Използвайте парола или пръстов отпечатък</string>
+    <string name="face_unlock_pattern_and_fingerprint">Начертайте фигура или използвайте пръстов отпечатък за отключване</string>
+    <string name="face_unlock_pin_and_fingerprint">Въведете PIN код или използвайте пръстов отпечатък за отключване</string>
     <string name="face_unlock_reveal_eye">Очите ви трябва да се виждат</string>
     <string name="face_unlock_reveal_mouth">Устните ви трябва да се виждат</string>
     <string name="failed_to_open_app_settings_toast">Неуспешно отваряне на настройките за %1$s</string>
@@ -838,6 +876,9 @@
     <string name="inactive_apps_title">Неактивни приложения</string>
     <string name="incorrect_pincode">Неправилен PIN код</string>
     <string name="incorrect_pukcode">Неправилен PUK код</string>
+    <string name="input_lockscreen_password_hint_text">Въведете парола</string>
+    <string name="input_lockscreen_pattern_hint_text">Начертайте фигура</string>
+    <string name="input_lockscreen_pin_hint_text">Въведете PIN код</string>
     <string name="input_password_after_boot_msg">За да отключите вашето устройство, въведете паролата си</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Не може да се превключва между пространства по време на обаждане</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Не може да се превключи между работните места, когато услугата Родителски контрол е включена</string>
@@ -923,6 +964,10 @@
     <string name="keyguard_charging_back_to_lockscreen">Обратно към закл. екран</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
     <string name="keyguard_charging_info_battery_used_time_text">На батерия</string>
+    <string name="keyguard_charging_info_data_c">%s℃</string>
+    <string name="keyguard_charging_info_data_ma">%smA</string>
+    <string name="keyguard_charging_info_data_percent">%s%%</string>
+    <string name="keyguard_charging_info_data_v">%sV</string>
     <string name="keyguard_charging_info_drained_power_percent_text">Изразходени</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Днес%s</string>
@@ -950,6 +995,7 @@
     <string name="keyguard_missing_sim_instructions_long">SIM картата липсва или не се разпознава. Поставете SIM карта.</string>
     <string name="keyguard_missing_sim_message">В телефона няма SIM карта.</string>
     <string name="keyguard_missing_sim_message_short">Няма SIM карта</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Мрежата е заключена</string>
     <string name="keyguard_password_enter_password_code">Въведете парола за отключване</string>
     <string name="keyguard_password_enter_pin_code">Въведете PIN код</string>
@@ -966,6 +1012,7 @@
     <string name="keyguard_plugged_in_charging_fast">Бързо зареждане</string>
     <string name="keyguard_plugged_in_charging_slowly">Бавно зареждане</string>
     <string name="keyguard_quick_charging_info_click_to_detail">Бързо зареждане. Чукнете за подробности.</string>
+    <string name="keyguard_retry">Плъзнете бързо нагоре, за да опитате отново</string>
     <string name="keyguard_sim_locked_message">SIM картата е заключена.</string>
     <string name="keyguard_sim_puk_locked_message">SIM картата е заключена с PUK.</string>
     <string name="keyguard_sim_unlock_progress_dialog_message">Отключване на SIM карта…</string>
@@ -1034,6 +1081,7 @@
     <string name="left_keycode">Клавиатура за лява ръка</string>
     <string name="left_nav_bar_button_type">Опции за левия бутон</string>
     <string name="legacy_vpn_name">VPN</string>
+    <string name="list_delimeter">", "</string>
     <string name="loading_injected_setting_summary">Момент…</string>
     <string name="local_backup_password_summary_change">Натиснете, за да промените или премахнете паролата за архивите на Начален екран</string>
     <string name="local_backup_password_summary_none">Архивите на пълен Начален екран не са защитени в момента</string>
@@ -1113,6 +1161,7 @@ d MMMM"</string>
     <string name="miui_guide_dialog_message">Звуците и мелодиите от медийното съдържание ще продължат да се възпроизвеждат в Тих режим. Вие можете да промените това от меню Настройки.</string>
     <string name="miui_keyguard_ble_unlock_succeed_msg">Отключено с Bluetooth устройство</string>
     <string name="miui_ringer_count_down">Позиции надолу</string>
+    <string name="miui_ringer_count_down_time">%s</string>
     <string name="miui_ringer_standard">Без звук</string>
     <string name="miui_ringer_standard_description">Заглуши звука за входящи повиквания и известия</string>
     <string name="miui_ringer_total">Режим Не безпокойте</string>
@@ -1148,12 +1197,14 @@ d MMMM"</string>
 
 За повече информация се свържете с Вашия администратор."</string>
     <string name="monitoring_description_ca_cert_settings">Отвори доверени източници</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">Сертификатът за сигурност вече е инсталиран на това устройство. Мрежовият ви трафик може да бъде наблюдаван и променян.</string>
     <string name="monitoring_description_do_body">Вашият администратор може да наблюдава и променя настройките, корпоративния достъп, приложения и данни свързани с вашето устройство и информацията за местоположението му.</string>
     <string name="monitoring_description_do_body_vpn">Вие сте свързан с %1$s,с което се наблюдава мрежовата активност, включително имейли, приложения и уебсайтове.</string>
     <string name="monitoring_description_do_header_generic">Вашето устройство се управлява от %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s използва %2$s за да управлява вашето устройство.</string>
     <string name="monitoring_description_do_learn_more">Научете повече</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Вашата организация е инсталирала сертификат за достоверност във вашия служебен профил. Вашият защитен мрежов трафик може да бъде наблюдаван и променян.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Вашият служебен профил е свързан с %1$s, който може да наблюдава мрежовата активност, включително имейли, приложения и уебсайтове.</string>
     <string name="monitoring_description_management">"Вашето устройство се управлява от вашата организация. 
@@ -1185,6 +1236,7 @@ d MMMM"</string>
 
 Вие също така сте свързан и с VPN, при което се наблюдава мрежовата активност."</string>
     <string name="monitoring_description_vpn_settings">Отваряне на VPN Настройки</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">CA сертификати</string>
     <string name="monitoring_subtitle_network_logging">Логове на мрежата</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1223,6 +1275,7 @@ d MMMM"</string>
     <string name="nav_guide_message">Използвайте жестове за скриване и показване на софтуерните бутони.</string>
     <string name="nav_guide_ok">Настройки</string>
     <string name="nav_guide_title">Скрий софтуерните бутони</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Няма</string>
     <string name="no_multi_window_app">Няма приложения, които да поддържат Разделен екран</string>
     <string name="no_notification_tips">Няма известия</string>
@@ -1394,6 +1447,7 @@ d MMMM"</string>
     <string name="private_dns_mode_provider">Име на хоста на частния DNS доставчик</string>
     <string name="private_dns_mode_provider_failure">Неуспешно свързване</string>
     <string name="private_dns_mode_provider_hostname_hint">Въведете името на хоста на DNS доставчик</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="profile_connect_timeout_subtext">Проблем при свързването. Рестартирайте устройството</string>
     <string name="profile_info_settings_title">Информация за профил</string>
     <string name="profile_owned_footer">Профилът може да се наблюдава</string>
@@ -1540,7 +1594,6 @@ d MMMM"</string>
     <string name="quick_settings_wifi_not_connected">Не е свързан</string>
     <string name="quick_settings_wifi_off_label">Wifi е изкл</string>
     <string name="quick_settings_wifi_on_label">Wi-Fi е вкл</string>
-    <string name="quick_settings_wireless_label">Обратно безжично зареждане</string>
     <string name="quick_settings_work_mode_label">Режим работа</string>
     <string name="rapid_charge_mode_tip">Бързо зареждане</string>
     <string name="recent_cannot_dock">Не може да се използва Разделен екран във Второ пространство</string>
@@ -1996,6 +2049,7 @@ d MMM"</string>
     <string name="wapi_psk_type_ascii">ASCII</string>
     <string name="wapi_psk_type_hex">Хексадецимален</string>
     <string name="wapi_yes">Да</string>
+    <string name="weather_description_no_aqi">%1$s</string>
     <string name="weather_publish_time">Актуализирано %1$s</string>
     <string name="wifi_ap_unable_to_handle_new_sta">Капацитетът на точката за достъп временно е пълен</string>
     <string name="wifi_auto_sel_wapi_cert">Автоматичен избор</string>
@@ -2072,15 +2126,6 @@ Wi-Fi адрес (BSSID)
     <string name="wireless_charge_reset_device">Зареждането е бавно. Нагласете вашето устройство.</string>
     <string name="wireless_charge_reset_device_detail">Бъдете сигурни, че вашето устройство е поставено правилно в базата за зареждане</string>
     <string name="wireless_charge_stop">Безжичното зареждане е спряно</string>
-    <string name="wireless_charging_connected_message">Обратното безжично зареждане не може да се използва, когато устройството Ви се зарежда безжично.</string>
-    <string name="wireless_charging_low_battery_level_message">Обратното безжично зареждане не може да се използва, когато батерията е с по-малко от 30% заряд.</string>
-    <string name="wireless_charging_ok">Разбрах</string>
-    <string name="wireless_charging_saver_cancel">Изключи</string>
-    <string name="wireless_charging_saver_message">Пестенето на батерия е включено. Да остане ли налично обратното безжично зареждане?</string>
-    <string name="wireless_charging_saver_ok">Запази</string>
-    <string name="wireless_charging_tips_disable">Не показвай повече</string>
-    <string name="wireless_charging_tips_message">Поставяйте устройства, които поддържат Qi безжично зареждане (телефони, принадлежности и т.н.) на гърба на това устройство.</string>
-    <string name="wireless_charging_tips_title">Обратно безжично зареждане</string>
     <string name="wrong_password">Грешна парола</string>
     <string name="zen_alarm_warning">Вие нямате да чуете следващата аларма %1$s</string>
     <string name="zen_alarm_warning_indef">Вие нямате да чуете следващата аларма %1$s докато не изключите това</string>

@@ -36,6 +36,10 @@
         <item quantity="other">Преди %d мин</item>
         <item quantity="one">Преди 1 мин</item>
     </plurals>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">Добавени са %s контрола.</item>
+        <item quantity="one">Добавен е %s контрол.</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Преди половин час</item>
         <item quantity="one">Преди половин час</item>

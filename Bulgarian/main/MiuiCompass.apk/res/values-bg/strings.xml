@@ -125,6 +125,7 @@
     <string name="friday">Петък</string>
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
+    <string name="gradienter_title">Нивелир</string>
     <string name="guide_toast">За да калибрирате, преместете устройството си, както е показано по-долу.</string>
     <string name="latitude">Ширина</string>
     <string name="location_east">И.Д.</string>
@@ -218,6 +219,8 @@
     <string name="pressure">%.1f</string>
     <string name="pressure_title">Налягане</string>
     <string name="pressure_unit">hPa</string>
+    <string name="remove_icon_description_content">Компасът е системно приложение. Ако премахнете прекия път до него от началния екран, няма да можете да го използвате за установяване на посоките, на координатите, на атмосферното налягане и на текущата надморска височина.</string>
+    <string name="remove_icon_description_title">Премахване на компаса от началния екран?</string>
     <string name="saturday">Събота</string>
     <string name="saturday_short">Сб.</string>
     <string name="saturday_shortest">Сб.</string>

@@ -74,8 +74,11 @@
     <string name="input_method_category">Избиране на метод за въвеждане по подразбиране, който ще използвате при въвеждане на текст в имейли, бележки и др. Запомнете, че можете да си инсталирате клавиатури от трети страни по-късно.</string>
     <string name="input_method_setting">Метод на въвеждане</string>
     <string name="install_preinstall_app">Зареждат се приложенията…</string>
+    <string name="item_contents_wwarning">В случай, че устройството ви бъде изгубено, няма да можете да предпазите личните си данни от други лица, ако нямате зададена парола или шаблон за Заключване на екрана. Желаете ли да пропуснете тази стъпка въпреки това?</string>
     <string name="item_fingerprint">Пръстов отпечатък</string>
     <string name="item_lock_screen_password">Само заключен екран</string>
+    <string name="item_return">Задаване</string>
+    <string name="item_skip">Пропускане</string>
     <string name="ktlocation_U">(KT Service Agent)</string>
     <string name="ktposition_header">Споделяне на информация за местоположението с агенции за спешно реагиране</string>
     <string name="language_picker_other_languages_title">Други езици</string>
@@ -126,6 +129,7 @@
     <string name="other_settings_user_experience">Потребителски отзиви</string>
     <string name="other_settings_user_experience_summary">Помогнете ни да подобрим нашите продукти и услуги, като споделяте данни за използването им. Вижте подробности</string>
     <string name="other_settings_user_experience_summary_index">Покажи подробности</string>
+    <string name="permission_MIUIDaemon_introduction">MIUI Daemon allows you to transfer data from your device when its screen is damaged.</string>
     <string name="permission_account">Достъп до профилите на устройството:</string>
     <string name="permission_account_introduction">за влизане с Вашия Mi профил.</string>
     <string name="permission_application_package_introduction">за достъп до паметта за съхранение с цел прочитане и сканиране на инсталационните пакети;</string>
@@ -158,6 +162,10 @@
     <string name="permission_picture_introduction">за запазване, редактиране и синхронизиране на снимки и видеа;</string>
     <string name="permission_read_call_records">Редактиране историята на обажданията:</string>
     <string name="permission_read_call_records_introduction">за добавяне на елементи към историята на обажданията и за изтриване на блокирани обаждания;</string>
+    <string name="permission_read_contacts">Accessing contacts</string>
+    <string name="permission_read_contacts_introduction">For verifying your identity</string>
+    <string name="permission_read_message">Accessing text messages</string>
+    <string name="permission_read_message_introduction">For verifying the ownership of your device</string>
     <string name="permission_read_note_introduction">за достъп до бележките и прикачените файлове;</string>
     <string name="permission_read_write_file">Достъп до файловете и снимките на устройството и запазване на нови:</string>
     <string name="permission_read_write_file_introduction">за достъп до елементи, намиращи се устройството, както и за запазването и кеширането им.</string>
@@ -178,8 +186,7 @@
     <string name="pref_title_voice_slot">Предпочитана SIM карта за глас</string>
     <string name="privacy_policy">Правила за поверителност</string>
     <string name="protect_persoanl_info_statement">Ние ще пазим Вашата лична информация в съответствие с приложимите закони, разпоредби и политики за поверителност.</string>
-    <string name="provision_inputmethod_policy_description">"
-Вижте Политиката за сигурност на избраната клавиатура."</string>
+    <string name="provision_inputmethod_policy_description">&lt;Data>Прегледайте &lt;a href=%1$s>Правилата за поверителност&lt;/a > на избраната клавиатура.&lt;/Data></string>
     <string name="provision_inputmethod_policy_description1">Правила за поверителност</string>
     <string name="recorder_introduction">Можете да използвате това приложение, за да записвате звук и да правите резервни копия на записите в облака.</string>
     <string name="require_authority_statement">За да можем да Ви предоставяме основни услуги, трябва да дадете следните разрешения, за да можем да събираме Вашата лична информация:</string>
@@ -188,6 +195,7 @@
     <string name="security_introduction">Можете да използвате това приложение за почистване на боклука от устройството си, за откриване и неутрализиране на вируси, за оптимизиране на ефективността при игри, за пестене на батерията, управление на приложенията и други.</string>
     <string name="security_mobile_account_introduction">за влизане в системни профили и управляването им;</string>
     <string name="service_agreement">Прочетох и приемам правилата и условията за ползване.</string>
+    <string name="service_name_MIUIDaemon">MIUI Daemon</string>
     <string name="service_name_album">Галерия</string>
     <string name="service_name_application_package">Инсталатор на пакети</string>
     <string name="service_name_backup">Резервни копия</string>
@@ -260,6 +268,7 @@
     <string name="terms_privacy_policy_input_method_facemoji">Емоджи Политика на поверителност</string>
     <string name="terms_privacy_policy_input_method_kika">Кика Политика на поверителност</string>
     <string name="title_fingerprint">Задай парола</string>
+    <string name="title_set_fingerprint">Заключване на екран</string>
     <string name="user_agreement">Потребителско споразумение</string>
     <string name="user_agreement_declare">Преди да използвате MIUI трябва да прочетете и да приемете нашето Потребителско споразумение и Правила за поверителност. Докато вашето устройство се включва, Mi SIM Услуга за активация, Xiaomi Облак, Открий устройство, Начален екран, Често използвани фрази, Преводачески услуги, MIUI Daemon, Преглед на HTML, MIUI SDK, AI Асистент, Батерия и производителност, Отчитане на мощност, Joyose, OS AI Настройки, Управление на разрешения и Актуализатор ще се свържат към мрежата. Умни услуги ще се свържат към мрежата и ще получат достъп до вашето местоположение.</string>
     <string name="voice_assist_advice">Mi AI ви дава възможност да използвате гласови контроли, но така ще се увеличи консумацията на енергия (с около 1% на всеки час).</string>
@@ -268,6 +277,15 @@
 2. Когато слушате музика и екранът е изключен."</string>
     <string name="voice_assist_desp">Кажете \"Mi AI\" на смартфона си. Mi Асистент ще разпознае вашият глас и ще може да контролира вашето устройство.</string>
     <string name="voice_assist_title">Събуждане с глас</string>
+    <string name="wc_dialog_agree">Приемам</string>
+    <string name="wc_dialog_reject">Не приемам</string>
+    <string name="wc_dialog_summary">Сменящи се тапети ежедневно ви предоставя зашеметяващи изображения и вълнуващи истории на Заключен екран.</string>
+    <string name="wc_dialog_title">Преобразен Заключен екран</string>
+    <string name="wc_double_check_agree">Изпробване</string>
+    <string name="wc_double_check_reject">Не, благодаря</string>
+    <string name="wc_double_check_summary">Можете да активирате Сменящи се тапети, за да прецените дали ви харесва. Помнете, че винаги можете да активирате и деактивирате Сменящи се тапети в Настройки > Заключен екран.</string>
+    <string name="wc_double_check_title">Изпробвайте Сменящи се тапети</string>
+    <string name="wc_notice_link_announcement_summary">Прочетете и приемете &lt;a href=\"%1$s\">Правилата за поверителност&lt;/a> и &lt;a href=\"%2$s\">Потребителското споразумение&lt;/a> на третата страна преди да използвате тази фунция.</string>
     <string name="welcome">Добре дошли</string>
     <string name="zone_picker_title">Избор на часова зона</string>
 </resources>

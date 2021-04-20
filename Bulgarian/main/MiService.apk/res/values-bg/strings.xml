@@ -268,7 +268,7 @@
     <string name="permission_storage_introduce">За съхраняване на файлове на Вашето устройство</string>
     <string name="permission_user_protocol">Потребителско споразумение (задължително)</string>
     <string name="pm">PM</string>
-    <string name="public_loading_text">Един момент…</string>
+    <string name="public_loading_text">Момент…</string>
     <string name="public_net_error_retry">Опитайте отново</string>
     <string name="public_net_error_sub_title">Проверете мрежовите си настройки и опитайте отново</string>
     <string name="public_net_error_title">Неуспешно свързване с мрежата</string>

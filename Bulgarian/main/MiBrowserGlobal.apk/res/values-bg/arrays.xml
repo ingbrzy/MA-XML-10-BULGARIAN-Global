@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="account_user_gender_name">
+        <item>Мъж</item>
+        <item>Жена</item>
+    </string-array>
+    <string-array name="menu_theme_setting">
+        <item>Бяла</item>
+        <item>Жълта</item>
+        <item>Сива</item>
+        <item>Кафява</item>
+        <item>Зелена</item>
+        <item>Синя</item>
+    </string-array>
+    <string-array name="nf_feedback_reason">
+        <item>Нецензурно съдържание</item>
+        <item>Лъжа</item>
+        <item>Стари новини</item>
+        <item>Екстремистки възгледи</item>
+        <item>Скрита реклама</item>
+    </string-array>
+    <string-array name="pref_fling_on_border_gesture_entries">
+        <item>Назад/напред</item>
+        <item>Превключване между табове</item>
+        <item>Няма</item>
+    </string-array>
+    <string-array name="pref_homepage_choices">
+        <item>Начална страница по подразбиране</item>
+        <item>По избор</item>
+    </string-array>
+    <string-array name="pref_nav_mode_summary">
+        <item>Телефон</item>
+        <item>Таблет</item>
+    </string-array>
+    <string-array name="pref_navscreen_layoutstate_choices">
+        <item>Вертикален изглед</item>
+        <item>Хоризонтален изглед</item>
+    </string-array>
+    <string-array name="pref_security_do_not_track_keys">
+        <item>Вкл.</item>
+        <item>Само при режим инкогнито</item>
+        <item>Изк.</item>
+    </string-array>
+    <string-array name="pref_text_zoom_choices">
+        <item>Миниатюрен</item>
+        <item>Малък</item>
+        <item>Нормален</item>
+        <item>Голям</item>
+        <item>Огромен</item>
+    </string-array>
+    <string-array name="pref_ua_choices">
+        <item>Android</item>
+        <item>Настолна</item>
+        <item>iPhone</item>
+        <item>iPad</item>
+    </string-array>
+    <string-array name="shortcut_dialog_delete">
+        <item>Изтрий</item>
+        <item>Не, благодаря</item>
+    </string-array>
+    <string-array name="shortcut_dialog_keep">
+        <item>OK</item>
+        <item>Следвай</item>
+    </string-array>
+    <string-array name="shortcut_dialog_title">
+        <item>Съобщение от браузъра</item>
+        <item>Следвайте Олимпийските игри с Mi</item>
+    </string-array>
+    <string-array name="speed_result_tips">
+        <item>Настоящата мрежова връзка е много бавна. Изглежда се намирате в район със слабо мрежово покритие.</item>
+        <item>Настоящата мрежова връзка е бавна.</item>
+        <item>Не са открити проблеми с мрежовата връзка.</item>
+        <item>Настоящата мрежова връзка е бърза, достатъчно бърза за гледане на филми онлайн.</item>
+        <item>Настоящата мрежова връзка е невероятно бърза! Справяте се чудесно.</item>
+    </string-array>
+    <string-array name="user_guide_info_array">
+        <item>Изтегляне на видео клипове и снимки от социални медии</item>
+        <item>Съхранявайте изображения и клипове от WhatsApp състояния</item>
+        <item>Управлявайте файлове от Вашето устройство и ги превърнете в лични</item>
+    </string-array>
+    <string-array name="user_guide_title_array">
+        <item>Изтегляне на видео</item>
+        <item>Записвач на WhatsApp състояния</item>
+        <item>Лични файлове</item>
+    </string-array>
+</resources>

@@ -168,6 +168,10 @@
         <item quantity="other">%1$d mins ago</item>
         <item quantity="one">%1$d min ago</item>
     </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d избрани елементи</item>
+        <item quantity="one">%d избран елемент</item>
+    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">Преди %d минути</item>
         <item quantity="one">Преди 1 минута</item>

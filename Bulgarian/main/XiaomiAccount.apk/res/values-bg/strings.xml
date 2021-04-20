@@ -105,7 +105,7 @@
     <string name="change_phone_number">Промяна на телефонен номер</string>
     <string name="cloud_description_closed">Използвано | Синхронизирането е изключено</string>
     <string name="cloud_description_normal">Използвано</string>
-    <string name="cloud_service">Xiaomi Облак</string>
+    <string name="cloud_service">Xiaomi Cloud</string>
     <string name="collect_diagnosis_log">Създаване на лог с диагностика</string>
     <string name="common_google_play_services_enable_button">Активиране</string>
     <string name="common_google_play_services_enable_text">%1$s няма да работи, освен ако не активирате услугите за Google Play.</string>
@@ -160,13 +160,14 @@ ID:%s
     <string name="expand_button_title">Разширени</string>
     <string name="facebook">Facebook</string>
     <string name="facebook_app_id">2263965750590514</string>
+    <string name="facebook_login">Вписване с Facebook</string>
     <string name="failed_dup_secure_phone_number">Този телефонен номер вече е свързан към друг Mi профил</string>
     <string name="fb_login_protocol_scheme">fb2263965750590514</string>
     <string name="find_device">Намери устройство</string>
     <string name="find_device_access_denied">Не може да се получи информация за статус, достъпът е забранен.</string>
     <string name="find_device_account_error">Не може да се получи информация за статус поради грешка в Mi Account.</string>
     <string name="find_device_activate_account">Активиране на профил</string>
-    <string name="find_device_bad_response_error">Грешка в сървъра, изчакайте минута-две и опитайте отново</string>
+    <string name="find_device_bad_response_error">Възникна грешка в сървъра, изчакайте минута-две и опитайте отново</string>
     <string name="find_device_clear_data">Изтриване на данни</string>
     <string name="find_device_close">Изкл</string>
     <string name="find_device_error_password_not_confirmed">Не може да се изключи \"Открий устройството\". Въведете вашата Mi Account парола отново.</string>
@@ -179,13 +180,13 @@ ID:%s
     <string name="find_device_message">Устройството е заключено. Съобщение: %1$s. Обаждане %2$s.</string>
     <string name="find_device_null_credential_error">Не мога да получа информация за устройството, свържете се с Xiaomi-център за услуги.</string>
     <string name="find_device_open">Вкл</string>
-    <string name="find_device_operation_failed_error">Грешка в сървъра, изчакайте минута-две и опитайте отново</string>
-    <string name="find_device_operation_failed_error_unknown">Неочаквана грешка, опитайте по-късно.</string>
+    <string name="find_device_operation_failed_error">Възникна грешка в сървъра, изчакайте минута-две и опитайте отново</string>
+    <string name="find_device_operation_failed_error_unknown">Възникна грешка, опитайте отново по-късно</string>
     <string name="find_device_owner_phone">Устройството е заключено. Обаждане %1$s.</string>
     <string name="find_device_play_sound">Възпроизведи звук</string>
     <string name="find_device_prompt_message">Устройството е заключено. Съобщение: %1$s.</string>
     <string name="find_device_remote_exception">RPC грешка</string>
-    <string name="find_device_request_error">Грешка в сървъра, изчакайте минута-две и опитайте отново</string>
+    <string name="find_device_request_error">Възникна грешка в сървъра, изчакайте минута-две и опитайте отново</string>
     <string name="find_device_request_prepare_error">Не може да се получи информация за статус, моля, опитайте по-късно.</string>
     <string name="find_device_set_lost_model">Режим Изгубен</string>
     <string name="find_device_title">Намери устройство</string>
@@ -196,6 +197,7 @@ ID:%s
     <string name="get_phone_bind_exceed_limit">Вие сте свързали повече от 3 Mi профила с този телефонен номер. Не можете да добавяте нови профили.</string>
     <string name="get_phone_verifycode_exceed_limit">На този телефонен номер бяха изпратени прекалено много кодове за проверка. Опитайте отново след 24 часа.</string>
     <string name="google">Google</string>
+    <string name="google_login">Вписване с Google</string>
     <string name="guest_account_label">Mi профил за посетители</string>
     <string name="health_action_activate">Активирай</string>
     <string name="health_action_install">Инсталирай</string>
@@ -212,14 +214,14 @@ ID:%s
     <string name="input_email_address_notice">Ние ще използваме този имейл за да потвърдим вашия профил.</string>
     <string name="input_new_pwd">Въведете новата парола</string>
     <string name="io_error_title">Потвърдете вашата мрежа</string>
-    <string name="just_a_second">Един момент…</string>
-    <string name="kr_license_desc">Трябва да се съгласите с нашето Потребителско споразумение и Политика на поверителност преди да използвате Mi Профил и услугите на Xiaomi Облак.</string>
+    <string name="just_a_second">Момент…</string>
+    <string name="kr_license_desc">Трябва да се приемете нашето Потребителско споразумение и Правила за поверителност преди да използвате Mi Профил и услугите на Xiaomi Cloud.</string>
     <string name="kr_permission_contacts_desc">За достъп до информация за контакт</string>
     <string name="kr_permission_desc">Необходими са разрешения</string>
     <string name="kr_permission_phone_desc">За защита на вашия профил</string>
     <string name="kr_permission_sms_desc">За автоматично попълване на кодове за потвърждение</string>
     <string name="kr_permission_storage_desc">За съхраняване на диагностика</string>
-    <string name="loading_micloud_sync_data">Зарежда се…</string>
+    <string name="loading_micloud_sync_data">Момент…</string>
     <string name="login_check_find_device">Получаване на оптимизация по сигурността…</string>
     <string name="login_check_find_device_failed_title">Не може да се провери информацията за оптимизиране на устройството</string>
     <string name="login_find_device_bind">Това устройство е свързано със съществуващо ID на MI профил (%s).</string>
@@ -361,6 +363,7 @@ ID:%s
     <string name="passport_login_instead_reg">Използвай този номер</string>
     <string name="passport_login_instead_reg_with_email">Използвай този имейл</string>
     <string name="passport_login_other_account">Друг профил</string>
+    <string name="passport_login_other_way">Други начини за вписване</string>
     <string name="passport_login_prompt">Всички Mi услуги. Един Mi Профил.</string>
     <string name="passport_login_recycle_account_no">Не</string>
     <string name="passport_login_recycle_account_yes">Да</string>
@@ -378,6 +381,10 @@ ID:%s
     <string name="passport_prev">Назад</string>
     <string name="passport_privacy_policy">Политика за поверителност</string>
     <string name="passport_privacy_policy_required">Политика на поверителност (задължително)</string>
+    <string name="passport_provision_activator_phone_summary_sim1_prefix">SIM <xliff id="sim1" refersto="1">%1$d</xliff> %2$s</string>
+    <string name="passport_provision_activator_phone_summary_sim2_prefix">SIM <xliff id="sim2" refersto="2">%1$d</xliff> %2$s</string>
+    <string name="passport_provision_input_email_register_prompt">Вашите лични данни ще бъдат съхранявани в съответствие с законите и регулациите на избрания от Вас регион.</string>
+    <string name="passport_provision_password_req_notice"><xliff id="min_pwd_len" refersto="8">%1$d</xliff>-<xliff id="max_pwd_len" refersto="16">%2$d</xliff> символа от поне <xliff id="min_pwd_type" refersto="2">%3$d</xliff> от следните видове: букви, цифри, специални символи</string>
     <string name="passport_pwd_generate_failure">Не може да се генерира парола</string>
     <string name="passport_pwd_generating">Генериране…</string>
     <string name="passport_querying_phone_info">Заявка на инф. за профил…</string>
@@ -414,6 +421,7 @@ ID:%s
     <string name="passport_register_restricted_title">Този телефонен номер не може да се използва</string>
     <string name="passport_register_using_other_ways">Други начини за създаване на профил</string>
     <string name="passport_registered_phone_num">Телефон: %s</string>
+    <string name="passport_registered_phone_num_v2">Телефонен номер</string>
     <string name="passport_registered_phone_user_ID">ID на потребител:%s</string>
     <string name="passport_registered_phone_user_name">Потребителско име:%s</string>
     <string name="passport_reject_recycle_account">Не</string>
@@ -490,6 +498,9 @@ ID:%s
     <string name="phone_num_use_for">Телефонният номер се използва за:</string>
     <string name="photoPickerNotFoundText">Не са налични изображения.</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
+    <string name="provision_back">Назад</string>
+    <string name="provision_next">Напред</string>
+    <string name="provision_skip_underline">Пропускане</string>
     <string name="push_notification_content">Получава се код за проверка</string>
     <string name="push_notification_title">Регистрирали сте се с вашия Mi профил от непознато устройство</string>
     <string name="push_notify_dialog_message">Непознато устройство е използвано за вписване във вашия Mi профил. Въведете код за потвърждение от това устройство. Ако не сте били вие, веднага сменете паролата на профила си. Не предоставяйте кода за потвърждение на други хора.</string>
@@ -518,7 +529,7 @@ ID:%s
     <string name="search_menu_title">Търсене</string>
     <string name="search_mi_account">Mi Профил</string>
     <string name="search_mi_account_desc">Mi Профил</string>
-    <string name="search_mi_account_key_words">Xiaomi Облак,Настройки на профил,Mi Плащане, Отписване</string>
+    <string name="search_mi_account_key_words">Xiaomi Cloud,Настройки на профил,Mi Pay, Отписване</string>
     <string name="search_mi_account_path">Настройки/Mi профил</string>
     <string name="search_user_detail">Лична информация</string>
     <string name="search_user_detail_bottom_key_words">Промяна на доход, Промяна на образование, Промяна на местоположение, Промяна на регион</string>
@@ -540,7 +551,7 @@ ID:%s
     <string name="sms_send_success">Изпрати</string>
     <string name="sns_access_token_expired_warning">Вписването в профила е изтекло. Впишете се отново, за да добавите този профил.</string>
     <string name="state_data_error">Неуспешно получаване на данни</string>
-    <string name="state_loading">Един момент…</string>
+    <string name="state_loading">Момент…</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="system_ad">Реклами в системните приложения</string>
@@ -570,7 +581,7 @@ ID:%s
     <string name="update_phone_number_notice_message">Необходимо е да потвърдите самоличността си, преди да обновите телефонния си номер.</string>
     <string name="used_cloud_storage_info">Използвано %s</string>
     <string name="user_avatar_update_title">Промяна на профилната снимка</string>
-    <string name="user_avatar_uploading">Качва се…</string>
+    <string name="user_avatar_uploading">Момент…</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
     <string name="vip_account_settings">VIP Настройки</string>

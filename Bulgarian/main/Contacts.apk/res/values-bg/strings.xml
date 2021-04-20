@@ -27,7 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Споделяне със:</string>
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
-    <string name="accessibility_calllog_detail">Подробности</string>
+    <string name="accessibility_calllog_detail">Подробности за хронология на повикванията</string>
     <string name="accessibility_contact_detail">Детайли за контакт</string>
     <string name="account_container_title">От профила</string>
     <string name="account_default">Локално</string>
@@ -164,8 +164,8 @@
     <string name="callrecordview_menu_delete_accepted">Изтрий списъка с входящи повиквания</string>
     <string name="callrecordview_menu_delete_called">Изтрий списъка с изходящи повиквания</string>
     <string name="callrecordview_menu_delete_missed">Изтрий списъка с пропуснати повиквания</string>
-    <string name="callrecordview_menu_delete_one">Премахни от списъка</string>
-    <string name="callrecordview_menu_delete_sim">Изтрий историята на повикванията (%s)</string>
+    <string name="callrecordview_menu_delete_one">Премахни от хронология на повикванията</string>
+    <string name="callrecordview_menu_delete_sim">Изчистване на доклади за хронология на повикванията (%s)</string>
     <string name="callrecordview_menu_delete_stranger">Изтрий списъка с повиквания от непознати номера</string>
     <string name="callrecordview_menu_identify_numbers">Идентифициране на телефонни номера</string>
     <string name="callrecordview_menu_mobiledata">Информация за плащане</string>
@@ -211,8 +211,8 @@
     <string name="composer_has_no_exportable_contact">Не са намерени контакти за експортиране. Възможно е експортирането на контакти от телефона да не се поддържа от доставчика Ви на данни.</string>
     <string name="composer_not_initialized">Редактора на визитки не стартира правилно.</string>
     <string name="conference_call_disable_tip">Не могат да се осъществяват обаждания. Уверете се, че Вашето устройство е свързано с 4G мрежа с VoLTE поддръжка.</string>
-    <string name="confirm_delete_contact_all_call_logs">Изчистване на цялата история на %s?</string>
-    <string name="confirm_delete_selected_all_call_logs">Сигурни ли сте, че искате да изтриете всички записи на избраните контакти?</string>
+    <string name="confirm_delete_contact_all_call_logs">Изчистване на цялата хронология на %s?</string>
+    <string name="confirm_delete_selected_all_call_logs">Изчистване на хронология на повикванията?</string>
     <string name="confirm_delete_sim_entry_miui_title">Изтрий</string>
     <string name="confirm_export_message">Вашият списък с контакти ще бъде експортиран във файла: %s.</string>
     <string name="confirm_export_title">Ще експортирате ли контактите?</string>
@@ -222,7 +222,7 @@
     <string name="contactSavedToast">Контактът е запазен.</string>
     <string name="contact_clear_search_history">Изчистване на хронологията</string>
     <string name="contact_delete_toast">Контактът е успешно изтрит</string>
-    <string name="contact_detail_action_item_calllog">Хронология</string>
+    <string name="contact_detail_action_item_calllog">Хронология на повикванията</string>
     <string name="contact_detail_calllog_call_note_tips">Бележка към повикване</string>
     <string name="contact_detail_calllog_call_record_tips">Записани обаждания</string>
     <string name="contact_detail_calllog_correct_yellow_page">Коригирайте или докладвайте</string>
@@ -287,9 +287,9 @@
     <string name="deleteCloudConfirmationDetail">Изтриване на контактните данни на %s както от облака, така и от това устройство?</string>
     <string name="deleteConfirmationDetail">\"%s\" ще бъде изтрит.</string>
     <string name="deleteConfirmation_title">Да се изтрие ли контактът?</string>
-    <string name="delete_call_log_message">Изтриване на списък с повиквания?</string>
-    <string name="delete_call_log_selected_title">Ще премахнете ли избраните списъци с повиквания?</string>
-    <string name="delete_call_log_title">Изчисти списъка с обаждания</string>
+    <string name="delete_call_log_message">Изчистване на хронология на повикванията?</string>
+    <string name="delete_call_log_selected_title">Изчистване на избраната хронология на повикванията?</string>
+    <string name="delete_call_log_title">Изчистване на хронология на повикванията</string>
     <string name="delete_conference_call_log_message">Изтриване на всички свързани с този контакт конферентни разговори сега?</string>
     <string name="delete_conference_call_log_title">Изтрий записите от конферентни разговори</string>
     <string name="delete_duplicate">Обедини</string>
@@ -374,7 +374,7 @@
     <string name="dialog_sync_add">Добави група за синхронизация</string>
     <string name="directory_search_label">Директория</string>
     <string name="display_all_contacts">Всички контакти</string>
-    <string name="display_more_groups">Други групи...</string>
+    <string name="display_more_groups">Други групи…</string>
     <string name="display_only_phones">Само контакти с телефонен номер</string>
     <string name="display_options_sort_by_family_name">По фамилия</string>
     <string name="display_options_sort_by_given_name">По име</string>
@@ -396,10 +396,10 @@
     <string name="email">Имейл</string>
     <string name="emailLabelsGroup">Имейл</string>
     <string name="email_custom">Имейл %s</string>
-    <string name="email_home">Домашен Имейл</string>
-    <string name="email_mobile">Мобилен Имейл</string>
+    <string name="email_home">Домашен имейл</string>
+    <string name="email_mobile">Мобилен имейл</string>
     <string name="email_other">Имейл</string>
-    <string name="email_work">Служебен Имейл</string>
+    <string name="email_work">Служебен имейл</string>
     <string name="emergency_number_label">Спешен номер</string>
     <string name="empty" />
     <string name="ensure">OK</string>
@@ -482,6 +482,7 @@
     <string name="friday">Петък</string>
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Име</string>
     <string name="gallery">Галерия</string>
     <string name="ghostData_company">Фирма</string>
@@ -529,7 +530,7 @@
     <string name="import_from_sim1">Импорт от SIM карта 1</string>
     <string name="import_from_sim2">Импортиране от SIM карта 2</string>
     <string name="import_multiple_vcard_string">Импортиране на няколко визитки</string>
-    <string name="import_one_vcard_string">Импортирай %d vCard файл</string>
+    <string name="import_one_vcard_string">Внасяне на %d vCard файл</string>
     <string name="import_selected_sim_entries_miui">Импортиране на избраните контакти</string>
     <string name="import_sim_contacts_hint_title">Импортиране на контактите от SIM</string>
     <string name="import_sim_entries_finish">Контактите са успешно импортирани от SIM картата</string>
@@ -605,6 +606,7 @@
     <string name="menu_sync_remove">Премахни синхронизацията за групата</string>
     <string name="midnight">Нощ</string>
     <string name="miprofile_account_type">Mi профил</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Редакция на профила</string>
     <string name="miprofile_name">Моят профил</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -733,6 +735,7 @@
     <string name="payphone">Обществен телефон</string>
     <string name="people">Контакти</string>
     <string name="phoneLabelsGroup">Телефон</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Номерът е твърде дълъг</string>
     <string name="phone_primary">Основен</string>
     <string name="photoPickerNotFoundText">Няма налични изображения в устройството.</string>
@@ -741,7 +744,7 @@
     <string name="pickerNewContactHeader">Създай нов контакт</string>
     <string name="picker_all_list_empty">Няма контакти</string>
     <string name="picker_contact_title">Изберете контакт</string>
-    <string name="picker_email_title">Изберете контакт</string>
+    <string name="picker_email_title">Изберете имейл адрес</string>
     <string name="picker_groups_list_empty">Няма групи</string>
     <string name="picker_join_title">Избери контакт за обединяване с %s</string>
     <string name="picker_number_title">Изберете номер</string>
@@ -787,7 +790,7 @@
     <string name="preference_other">Друго</string>
     <string name="preference_privacy_policy_title">Политика на поверителност</string>
     <string name="preference_remove_duplicate">Обединяване на дубликати</string>
-    <string name="preference_show_firewall_calllog">Показвай блокирани повиквания в регистъра на обажданията</string>
+    <string name="preference_show_firewall_calllog">Показване на блокирани повиквания в хронология на повикванията</string>
     <string name="preference_show_yellowpage_tab_description">\"Жълти страници\" може да не работи правилно, когато тази услуга е изключена.</string>
     <string name="preference_show_yellowpage_tab_title">Покажи \"Жълти страници\"</string>
     <string name="preference_simple_mode_title">Показване на снимки и данни</string>
@@ -895,7 +898,7 @@
     <string name="seven_letter">PQRS</string>
     <string name="share_contact_as">Сподели контакт като</string>
     <string name="share_error">Този контакт не може да бъде споделен</string>
-    <string name="share_over_limit">Не може да се споделят над %d контакта</string>
+    <string name="share_over_limit">Не могат да се споделят над %d контакта</string>
     <string name="share_qrcode">Споделяне на QR код</string>
     <string name="share_via">Споделяне чрез</string>
     <string name="share_visible_contacts">Сподели контакти</string>
@@ -934,6 +937,7 @@
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Няма членове на групата</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">По фирма</string>
     <string name="smart_group_company_unavailable">Неизвестна фирма</string>
     <string name="smart_group_frequency_1">В рамките на месец</string>
@@ -975,6 +979,7 @@
     <string name="starred_contacts">Любими</string>
     <string name="status_available">Достъпен</string>
     <string name="status_away">Отсъстващ</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Зает</string>
     <string name="strequentList">Любими</string>
     <string name="success_message_import_from_account">Успешно импортиране</string>
@@ -1041,7 +1046,7 @@
     <string name="time_picker_label_hour">Ч</string>
     <string name="time_picker_label_minute">M</string>
     <string name="titleJoinContactDataWith">Обедини контакти</string>
-    <string name="toast_call_no_SoundRecorder">Приложението за записване не е достъпно</string>
+    <string name="toast_call_no_SoundRecorder">Звукозапис не е достъпен</string>
     <string name="toast_call_no_notes">Приложението \"Бележки\" не е достъпно</string>
     <string name="toast_copy_done">Копирането завърши успешно</string>
     <string name="toast_copying">Копиране, моля изчакайте...</string>

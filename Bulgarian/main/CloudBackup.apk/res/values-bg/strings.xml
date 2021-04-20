@@ -32,7 +32,7 @@
     <string name="app_name">Рез. копие в Облак​</string>
     <string name="arrange_restore_order">Пренареждане на приложенията…</string>
     <string name="as_new_device">Replace previous Home screen and settings</string>
-    <string name="as_new_device_summary">Изтриване на предишни рез. копия в Xiaomi Облак</string>
+    <string name="as_new_device_summary">Изтриване на предишни рез. копия в Xiaomi Cloud</string>
     <string name="authentication_failed">Не може да се провери вашият Mi Профил.</string>
     <string name="back_up_task_in_process">архивира се</string>
     <string name="back_up_task_unfinished">Не може да се архивира</string>
@@ -75,6 +75,7 @@
     <string name="btn_retry">Провери отново</string>
     <string name="btn_skip">Пропусни тази стъпка</string>
     <string name="button_cancel">Отказ</string>
+    <string name="button_confirm">Разбрах</string>
     <string name="button_delete">Изтрий</string>
     <string name="button_next">Напред</string>
     <string name="can_not_backup_in_lite_mode">Не може да се архивира в Лесен режим</string>
@@ -84,7 +85,7 @@
     <string name="cancel_restore_home">Отменя се…</string>
     <string name="click_try_to_restore_again">Чукнете за нов опит</string>
     <string name="cloud_app_backup_success">Приложенията са успешно архивирани</string>
-    <string name="cloud_app_check_data">Говорене на Xiaomi Облак…</string>
+    <string name="cloud_app_check_data">Говорене на Xiaomi Cloud…</string>
     <string name="cloud_app_current_device">Текущо устройство</string>
     <string name="cloud_app_dont_restore">Задай като ново устройство</string>
     <string name="cloud_app_no_data">Не са открити инсталирани по-рано приложения</string>
@@ -95,12 +96,12 @@
     <string name="cloud_app_restore_success">Приложенията са възстановени</string>
     <string name="cloud_app_restore_wifi_prompt">Възстановяване от рез. копие в облака.</string>
     <string name="cloud_back_up_date_format">HH:mm dd.MM.yyyy</string>
-    <string name="cloud_back_up_detail_discription">"На следните приложения ще бъдат направени рез. копия в Xiaomi Облак, когато устройството Ви е свързано с Wi-Fi: 
+    <string name="cloud_back_up_detail_discription">"На следните приложения ще бъдат направени рез. копия в Xiaomi Cloud, когато устройството Ви е свързано с Wi-Fi: 
 *  Приложения, оформление на начален екран и тапети 
 *  Аларма, часовник и настройки за време 
 *  Настройки на известията 
 *  MIUI и системни настройки 
-Забележка: на данните за приложенията, които са инсталирани от Вас, няма да се прави рез. копие в Xiaomi Облак."</string>
+Забележка: на данните за приложенията, които са инсталирани от Вас, няма да се прави рез. копие в Xiaomi Cloud."</string>
     <string name="cloud_back_up_detail_discription_china">"These items will be backed up to Xiaomi Cloud when your device is connected to WLAN: 
 *  Apps, Home screen layout, and wallpapers 
 *  Alarm, clock, and time settings 
@@ -123,14 +124,14 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="cloud_backup_detail_frequence_every_day">Архивиране всеки ден</string>
     <string name="cloud_backup_detail_manage">Управление на рез. копия</string>
     <string name="cloud_backup_detail_state">Автоматични резервни копия</string>
-    <string name="cloud_backup_detail_state_summary">Автоматично създаване на резервни копия в Xiaomi Облак, когато сте свързани с Wi-Fi.</string>
+    <string name="cloud_backup_detail_state_summary">Автоматично създаване на резервни копия в Xiaomi Cloud, когато сте свързани с Wi-Fi.</string>
     <string name="cloud_backup_detail_state_summary_china">Create Xiaomi Cloud backups automatically when connected to WLAN.</string>
     <string name="cloud_backup_detail_time">Последен архив на: %1$s</string>
     <string name="cloud_backup_detail_title">Начален екран, приложения и настройки.</string>
-    <string name="cloud_backup_have_data">Открито е рез. копие в Xiaomi Облак</string>
+    <string name="cloud_backup_have_data">Открито е рез. копие в Xiaomi Cloud</string>
     <string name="cloud_backup_in_cancel">Отказ</string>
     <string name="cloud_backup_in_process">Създават се резервни копия</string>
-    <string name="cloud_backup_select_recover">Изберете рез. копие от Xiaomi Облак</string>
+    <string name="cloud_backup_select_recover">Изберете рез. копие от Xiaomi Cloud</string>
     <string name="cloud_restore_from_other_device">Да спре ли възстановяването от %s и да се изтрие това рез. копие? Това действие е необратимо.</string>
     <string name="cloud_restore_task">Възстановява се</string>
     <string name="cloud_task_in_process">Да спре ли %s и да се изтрие това рез. копие? Това действие е необратимо.</string>
@@ -158,7 +159,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="dialog_cancel_backup_confirm">OK</string>
     <string name="dialog_cancel_backup_msg">Преминаването към размяна ще спре всички започнати резервни копия.</string>
     <string name="dialog_cancel_backup_title">Отмяна на изходящите резервни копия?</string>
-    <string name="dialog_msg_overwrite_backup">Локалното рез. копие е различно от това в Xiaomi Облак. Ако продължите, текущото рез. копие ще замени предишното.</string>
+    <string name="dialog_msg_overwrite_backup">Локалното рез. копие е различно от това в Xiaomi Cloud. Ако продължите, текущото рез. копие ще замени предишното.</string>
     <string name="dialog_msg_restore_require_wlan">Възстановяването от архивни копия изисква връзка с Wi-Fi.</string>
     <string name="dialog_msg_restore_require_wlan_china">Restoring backups requires connecting to WLAN.</string>
     <string name="dialog_title_require_wlan">Свържете се с Wi-Fi</string>
@@ -178,7 +179,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="expand_button_title">Разширени</string>
     <string name="get_device_id_error">Не може да се получи ID на устройството</string>
     <string name="help_and_feedback">Помощ и обратна връзка</string>
-    <string name="hint_restore_cross_space">Елементите на Начален екран може да се показват погрешно, ако ги прехвърляте между двете работни пространства.</string>
     <string name="home_hint_global_launcher">POCO Launcher</string>
     <string name="home_hint_other_launcher">Други работни екрани</string>
     <string name="home_restore_error">Неуспешно изтегляне на настройките на нач. екран</string>
@@ -192,28 +192,34 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="menu_item_sort">Сортиране по</string>
     <string name="menu_item_sort_name">Име</string>
     <string name="menu_item_sort_size">Размер</string>
-    <string name="msg_alert_cancel_restore">Възстановяване на елементи. Спиране сега?</string>
-    <string name="msg_alert_restore_error">Неуспешно възстановяване на елементи от Xiaomi Облак. Опитайте отново.</string>
+    <string name="msg_alert_cancel_restore">Възстановяват се елементи от Xiaomi Cloud. Прекратяване?</string>
+    <string name="msg_alert_restore_error">Неуспешно възстановяване на елементи от Xiaomi Cloud. Опитайте отново.</string>
     <string name="msg_restore_start_with_metered_network">"Вашият Начален екран ще бъде нулиран. Архивираните приложения ще се изтеглят отново автоматично. &lt;br />&lt;b>&lt;font color='red'>%s от файловете ще бъдат изтеглени.&lt;/font>&lt;/b>"</string>
     <string name="msg_restore_with_metered_network_hint">Ако продължите с възстановяването на тези елементи, ще бъдат използвани мобилни данни за изтеглянето им.</string>
     <string name="msg_restore_with_metered_network_pattern">"&lt;font color='red'>&lt;b>%s&lt;/b>&lt;/font> от файловете ще бъдат изтеглени."</string>
     <string name="network_error">Свържете се с мрежа</string>
     <string name="no_account">Не сте вписан в Mi Профил.</string>
-    <string name="no_backup">Няма рез. копия в Xiaomi Облак.</string>
+    <string name="no_backup">Няма рез. копия в Xiaomi Cloud.</string>
     <string name="not_set">Не е зададено</string>
     <string name="notification_channel_remind">Напомняне</string>
     <string name="notification_channel_service">Услуги</string>
     <string name="open_backup_switch">Превключи на Резервно копие</string>
     <string name="other_device_main_space">Основно работно място</string>
     <string name="other_device_second_space">Второ пространство</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
+    <string name="pc_mode_not_support_restore_warning">Не можете да възстановявате елементи в режим Компютър. Изключете режима Компютър и опитайте отново.</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="process_whole_recovery">Възстановяване \"%s\"</string>
+    <string name="provision_back">Назад</string>
     <string name="provision_background_restore_more_data">Възстановяване на повече елементи на заден план</string>
     <string name="provision_error_connect_msg">Тествайте мрежовата връзка и опитайте отново. Архивите не са достъпни, когато вашето устройство е офлайн.</string>
     <string name="provision_error_connect_title">Не може да се свърже</string>
+    <string name="provision_next">Напред</string>
     <string name="provision_restore_data">Възстановяване на елементи</string>
+    <string name="provision_skip_underline">Пропускане</string>
     <string name="query_restore_description">Възстановяване на приложенията на начален екран и настройките чрез това резервно копие. Това ще презапише всички данни на дублиращите се приложения. Приложенията, които не са включени в резервното копие ще бъдат преместени на последния начален екран.</string>
-    <string name="query_restore_summary">В Xiaomi Облак е открито рез. копие на това устройство. Да се възстановят ли приложенията на началния екран и настройките, или да се използва като ново устройство и да се изтрият предишните рез. копия за него в Xiaomi Облак?</string>
+    <string name="query_restore_summary">В Xiaomi Cloud е открито рез. копие на това устройство. Да се възстановят ли приложенията на началния екран и настройките, или да се използва като ново устройство и да се изтрият предишните рез. копия за него в Xiaomi Cloud?</string>
     <string name="recover_home_settings">Възстановяване на настройките на нач. екран</string>
     <string name="recover_miui_settings">Възстановяване системните настройки на MIUI</string>
     <string name="recover_settings_description">Задръжте устройството си включено</string>
@@ -247,14 +253,14 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="restore_home_failed">Неуспешно изтегляне на настройките на нач. екран.</string>
     <string name="restore_home_screen_apps">Възстановяване от рез. копие в облака</string>
     <string name="restore_init_description">Стартирай възстановяване</string>
-    <string name="restore_network_pause">%s (Чукнете за подновяване)</string>
+    <string name="restore_network_pause">Сложено на пауза за икономия на мобилните данни. Натиснете, за да възобновите.</string>
     <string name="restore_network_unconnect">%s (Изчаква се връзка)</string>
     <string name="restore_task_cancelling">Отменя се…</string>
     <string name="restore_task_in_process">Възстановява се…</string>
     <string name="restore_task_unfinished">Не може да се възстанови</string>
     <string name="restore_unfinished">Възстановяване, опитайте по-късно</string>
     <string name="restoring_data">Възстановяване на данни…</string>
-    <string name="restoring_file_title_no_progress">Възстановяване на файлове…</string>
+    <string name="restoring_file_title_no_progress">Възстановяване на приложения…</string>
     <string name="restoring_home_screen_apps">Възстановяване от Xiaomi Cloud…</string>
     <string name="restoring_settings">Настройки за възстановяване…</string>
     <string name="retry">Нов опит</string>
@@ -264,7 +270,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="self_device_second_space">Второ пространство в този телефон</string>
     <string name="settings_backup">Системни настройки</string>
     <string name="size_unknown">Неизвестен размер</string>
-    <string name="start_backup_to_micloud">Рез. копие на приложения в Xiaomi Облак</string>
+    <string name="start_backup_to_micloud">Рез. копие на приложения в Xiaomi Cloud</string>
     <string name="start_recover">Възстанови %s</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_unit_gb">%s GB</string>

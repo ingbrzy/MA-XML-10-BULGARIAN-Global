@@ -47,7 +47,7 @@
     <string name="config_mode_title">Настройки за работа на заден план</string>
     <string name="config_no_restrict_description">Икономия на батерия няма да влияе на работата на приложенито</string>
     <string name="config_no_restrict_title">Без ограничения</string>
-    <string name="config_restrict_function_description">Някои услуги (e.g., push уведомления) може да бъдат засегнати, но приложенията няма се затворят</string>
+    <string name="config_restrict_function_description">Затваряне на приложения след 10 минути активност във фонов режим</string>
     <string name="config_restrict_function_title">Ограничаване на процесите на заден план</string>
     <string name="config_restrict_running_description">Приложенията ще бъдат затворени за да се спести батерия</string>
     <string name="config_restrict_running_title">Ограничаване на активността на заден план</string>

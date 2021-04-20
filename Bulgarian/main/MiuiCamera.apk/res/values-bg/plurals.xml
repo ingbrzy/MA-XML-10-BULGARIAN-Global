@@ -36,6 +36,14 @@
         <item quantity="other">%1$s мин</item>
         <item quantity="one">%1$s мин</item>
     </plurals>
+    <plurals name="pref_live_duration_prompt">
+        <item quantity="other">Запис от %d секунди</item>
+        <item quantity="one">Запис от %d секунда</item>
+    </plurals>
+    <plurals name="timefreeze_guide_tip1">
+        <item quantity="other">Можете да заснемате видеоклипове със замразено време с до %d обекта.</item>
+        <item quantity="one">Можете да заснемате видеоклипове със замразено време само с %d обект.</item>
+    </plurals>
     <plurals name="timer_burst_setting_total_count">
         <item quantity="other">%1$s снимки</item>
         <item quantity="one">%1$s снимка</item>

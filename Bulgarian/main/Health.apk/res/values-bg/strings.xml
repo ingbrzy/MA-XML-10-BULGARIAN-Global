@@ -154,6 +154,7 @@ to add cards"</string>
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Традиционен Китайски Календар</string>
+    <string name="date_time_picker_dialog_title">Задаване на дата и час</string>
     <string name="date_week_index">"yyyy 'W'ww"</string>
     <string name="day">ден</string>
     <string name="deep_light_detection_open_prompt">Your sleep cycle will be analyzed next time you go to bed</string>
@@ -452,6 +453,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="light_sleep_time_normal_description">You have a sufficient amount of light sleep</string>
     <string name="load_failed">"Couldn't load items. Wait a minute or two and try again."</string>
     <string name="loading">Един момент…</string>
+    <string name="location_perm_description">За следене на тренировки на открито и записване на маршрути</string>
     <string name="low">Ниско</string>
     <string name="low_intensity">Ниска</string>
     <string name="low_intensity_description">Regular respiratory rate that allows you to maintain conversation</string>
@@ -545,10 +547,13 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="miuix_appcompat_cloud_state_syncing">Синхронизиране с облака…</string>
     <string name="miuix_appcompat_confirm_description">Потвърди</string>
     <string name="miuix_appcompat_delete_description">Изтрий</string>
+    <string name="miuix_appcompat_deselect_all">Отмаркиране</string>
     <string name="miuix_appcompat_deselect_all_description">Размаркирай всички</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Отказ</string>
     <string name="miuix_appcompat_search_input_description">Търси</string>
+    <string name="miuix_appcompat_select_all">Избери всички</string>
     <string name="miuix_appcompat_select_all_description">Избери всички</string>
+    <string name="miuix_appcompat_select_item">Изберете елементи</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Изтеглете надолу за обновяване</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно обновяване</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Обновяване…</string>
@@ -730,6 +735,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="select_null">Не е избрана</string>
     <string name="select_recog_question">Select action</string>
     <string name="select_swim_posture">Изберете стил</string>
+    <string name="send">Изпращане</string>
     <string name="setting">Настройки</string>
     <string name="setting_sedentary_off">ИЗКЛ.</string>
     <string name="setting_sedentary_on">ВКЛ.</string>

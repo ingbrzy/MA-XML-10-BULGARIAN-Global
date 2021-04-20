@@ -132,6 +132,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Традиционен Китайски Календар</string>
+    <string name="date_time_picker_dialog_title">Задаване на дата и час</string>
     <string name="day_concat">", "</string>
     <string name="default_alarm_alert">Тон аларма по подразбиране</string>
     <string name="default_alarm_title">Мелодия по подразбиране</string>
@@ -283,10 +284,13 @@
     <string name="miuix_appcompat_cancel_description">Отказ</string>
     <string name="miuix_appcompat_confirm_description">Потвърди</string>
     <string name="miuix_appcompat_delete_description">Изтрий</string>
+    <string name="miuix_appcompat_deselect_all">Отмаркиране</string>
     <string name="miuix_appcompat_deselect_all_description">Размаркирай всички</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Отказ</string>
     <string name="miuix_appcompat_search_input_description">Търси</string>
+    <string name="miuix_appcompat_select_all">Избери всички</string>
     <string name="miuix_appcompat_select_all_description">Избери всички</string>
+    <string name="miuix_appcompat_select_item">Изберете елементи</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Изтеглете надолу за обновяване</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно обновяване</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Обновяване…</string>
@@ -433,6 +437,7 @@
     <string name="search_stopwatch_keywords">Хронометър</string>
     <string name="search_timer_keywords">Таймер</string>
     <string name="search_worldclock_keywords">Време;Световен часовник;Часовник</string>
+    <string name="send">Изпращане</string>
     <string name="set_alarm">Изберете час</string>
     <string name="set_alarm_choose_ringtone">Изберете мелодия</string>
     <string name="set_alarm_done">Готово</string>
@@ -452,6 +457,7 @@
     <string name="shutdown_alarm_enable_summary">Алармата ще се включи, ако е настроена да се пусне най-малко 10 минути след изключване на устройството Ви</string>
     <string name="shutdown_alarm_title">Включване на телефона</string>
     <string name="silent_alarm_summary">Без звук</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Изключи еднократно на %s</string>
     <string name="sleep_analysis">Статистика</string>
     <string name="sleep_analysis_chart_date_format">dd/MM</string>
@@ -494,6 +500,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Няма обиколки</string>
     <string name="stopwatch_reset_notification">Хронометъра беше нулиран</string>
     <string name="stopwatch_running_notification">Хронометър</string>
@@ -502,6 +509,7 @@
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>
     <string name="sunday_shortest">Нед.</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Разрешете на това приложение достъп до интернет, за да използвате всичките му функции.</string>
     <string name="system_permission_main_purpose">Преглед да часа, настройване на аларми и таймери, използване на секундомер</string>
     <string name="system_permission_purpose">Създаване на аларми за работните дни от седмицата и задаване на персонализирани тонове на звънене</string>
@@ -617,8 +625,12 @@
     <string name="user_agreement">Потребителско споразумение</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
+    <string name="version_update_dialog_negative_desc">Не сега</string>
+    <string name="version_update_dialog_positive_desc">Обновяване</string>
+    <string name="version_update_dialog_title">Налично е обновление</string>
     <string name="vibrate_pref_summary">Вибриране при будилник</string>
     <string name="vibrate_when_ringing">Вибриране при звънене</string>
+    <string name="voice_add_alarm">Добавяйте аларми срез гласови команди</string>
     <string name="volume_button_setting_desc">Определяне на функции за бутоните за вкл./изкл. и звук +/-</string>
     <string name="volume_button_setting_summary">Задайте функция на бутоните при натискане по време на звънене на будилника</string>
     <string name="volume_button_setting_title">Бутони за сила на звука</string>

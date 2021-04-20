@@ -16,8 +16,4 @@
         <item quantity="other">Висок приоритет: %d приложения</item>
         <item quantity="one">Висок приоритет: %d приложение</item>
     </plurals>
-    <plurals name="restoring_file_tile">
-        <item quantity="other">Възстановяване на %d файла</item>
-        <item quantity="one">Възстановяване на %d файл</item>
-    </plurals>
 </resources>

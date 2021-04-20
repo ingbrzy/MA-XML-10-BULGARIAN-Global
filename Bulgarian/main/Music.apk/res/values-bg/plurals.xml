@@ -9,7 +9,7 @@
         <item quantity="one">Търсене на обложки и текстове на песни (%1$d/%2$d)</item>
     </plurals>
     <plurals name="Ndialog_renew_content">
-        <item quantity="other">"Вашият абонамент изтича след %dдни.
+        <item quantity="other">"Вашият абонамент изтича след %d дни.
 Желаете ли да Ви помогнем да го подновите?"</item>
         <item quantity="one">"Вашият абонамент изтича след %d ден.
 Желаете ли да Ви помогнем да го подновите?"</item>
