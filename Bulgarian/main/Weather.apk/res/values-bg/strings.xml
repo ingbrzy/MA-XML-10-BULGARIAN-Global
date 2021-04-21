@@ -148,7 +148,6 @@
     <string name="dynamic_weather">Времето</string>
     <string name="early_morning">Сутрин</string>
     <string name="edit_city">Редакция на градове</string>
-    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Актуализиране…</string>
     <string name="empty_view_net_unavailable">Няма връзка с мрежата</string>
     <string name="empty_view_refresh">Опитайте отново</string>
@@ -242,17 +241,13 @@
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
     <string name="hourly_forcast_now">Сега</string>
-    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">d/M</string>
     <string name="index_item_experience_now">Инсталирай сега</string>
     <string name="indices_title_chance_of_rain">Възможно преваляване</string>
     <string name="indices_title_feel">Усеща се</string>
     <string name="indices_title_pressure">Налягане</string>
     <string name="indices_title_wind_speed">Скорост на вятъра</string>
-    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">UV индекс</string>
-    <string name="item_city_list_region_no_data">-- / --</string>
-    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">Включване на услугите за местоположение</string>
     <string name="location_tag">Локализиране</string>
     <string name="manager_city_option_add_home">Добавяне към начална страница</string>
@@ -405,7 +400,6 @@
     <string name="share_menu_title">Споделяне</string>
     <string name="share_subject">Споделяне</string>
     <string name="share_weather_desc">\#MIUI Времето#Днес %1$s %2$s</string>
-    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Не може да се направи екр. снимка</string>
     <string name="shortcut_short_label_24_hour_forecast">24-часова прогноза</string>

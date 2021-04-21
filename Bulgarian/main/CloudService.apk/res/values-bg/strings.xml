@@ -112,8 +112,6 @@
     <string name="feedback_custom_hint">Опишете проблемите, които сте изпитали тук. Ако давате предложение, бихме оценили повече детайли!</string>
     <string name="find_device">\"Открий устройството\" е включено</string>
     <string name="find_device_dspt_provision">Ако загубите устройството си, можете да отидете на &lt;font color=#0097FF>%s&lt;/font>, за да го локализирате, заключите или нулирате. Можете винаги да включите или изключите тази функция от Настройки.</string>
-    <string name="find_device_dspt_provision_2">i.mi.com</string>
-    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_error_network">Проверете връзката ви за данни и опитайте отново.</string>
     <string name="find_device_error_server">Грешка на сървъра</string>
     <string name="find_device_gdpr_prompt">С използването на услугата Намери устройството Вие се съгласявате с нашите <a href="app://com.miui.cloudservice.gdpr.license"><u>Политика на поверителност</u></a>. Ако е необходимо да отмените оторизацията, трябва да изключите тази услуга.</string>
@@ -282,14 +280,11 @@
     <string name="micloud_find_device_open_fail">Открий устройството не може да се включи</string>
     <string name="micloud_find_device_opened">Открий устройството е вкл.</string>
     <string name="micloud_find_device_opened_content">Открийте вашето устройство на %s</string>
-    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
     <string name="micloud_find_device_sms_alert">Изходящ SMS може да бъде изпратен за активация на тази услуга. Вашият оператор ще ви таксува за това съобщение. Когато смените вашата SIM карта, съобщението ще бъде изпратено автоматично отново за активация.</string>
     <string name="micloud_find_device_verify_button">Активирай повторно Намери устройство</string>
     <string name="micloud_find_device_verify_close">Изключване на Намери устройство</string>
     <string name="micloud_find_device_verify_fail">Не може да се активира повторно Намери устройство</string>
     <string name="micloud_find_device_verify_progress">Повторно активиране на Намери устройство…</string>
-    <string name="micloud_footer_international_url">mi.com/micloud</string>
-    <string name="micloud_footer_normal_url">i.mi.com</string>
     <string name="micloud_last_sync_canceled">Синхр. беше отменено. Опитайте отново.</string>
     <string name="micloud_main_head_menu_cloud_backup">Архив на нач. екран</string>
     <string name="micloud_main_head_menu_cloud_backup_summary">Системни настройки и оформление на Начален екран</string>
