@@ -184,8 +184,7 @@
     <string name="bluetooth_select_a2dp_codec_channel_mode_dialog_title">"Активиране на Bluetooth аудио кодек
 Избор: Режим канал"</string>
     <string name="bluetooth_select_a2dp_codec_ldac_playback_quality">Bluetooth аудио LDAC кодек: Качество на възпроизвеждането</string>
-    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">"Изберете Bluetooth аудио LDAC кодек
-збор: Качество на възпроизвеждането"</string>
+    <string name="bluetooth_select_a2dp_codec_ldac_playback_quality_dialog_title">Изберете Bluetooth аудио LDAC кодекИзбор: Качество на възпроизвеждането</string>
     <string name="bluetooth_select_a2dp_codec_sample_rate">Bluetooth модел на аудио кодек</string>
     <string name="bluetooth_select_a2dp_codec_sample_rate_dialog_title">"Активиране на Bluetooth аудио кодек
 Избор: Модел"</string>
@@ -302,7 +301,7 @@
     <string name="fast_connect_anti_lost_content">"Задайте сигнал, който да изскача когато една от вашите слушалки липсва.
 Проверете в Настройки за подробности."</string>
     <string name="fast_connect_device_battery">Батерия</string>
-    <string name="fast_connect_device_box">Кутия</string>
+    <string name="fast_connect_device_box">Кутийка</string>
     <string name="fast_connect_device_box_name">%1$s Кутия</string>
     <string name="fast_connect_device_connect_cancel">Отказ</string>
     <string name="fast_connect_device_connect_ok">Свържи се</string>
@@ -311,7 +310,7 @@
     <string name="fast_connect_device_connect_success">Готово</string>
     <string name="fast_connect_device_headset_l">Ляво</string>
     <string name="fast_connect_device_headset_r">Дясно</string>
-    <string name="fast_connect_device_headset_reset">Натиснете и задръжте бутона на корпуса</string>
+    <string name="fast_connect_device_headset_reset">Натиснете и задръжте бутона на кутийката</string>
     <string name="fast_connect_device_title_connect_fail">Връзката с %1$s е неуспешна</string>
     <string name="fast_connect_device_title_connecting">Свързва се…</string>
     <string name="fast_connect_device_title_find_headset">Намери %1$s</string>
@@ -349,6 +348,7 @@
     <string name="headset_device_error_box_close">Кутийката за зареждане е изключена</string>
     <string name="headset_device_error_disconnect">И двете слушалки са прекъснати. Затворете и отворете кутийката за зареждане отново, за да започнете обновяването наново.</string>
     <string name="headset_device_error_failed">Не може да бъде обновено</string>
+    <string name="headset_device_error_multconnect">Не можете да обновите при включени множество устройства</string>
     <string name="headset_device_error_no_device">Поне една слушалка липсва от кутийката за зареждане</string>
     <string name="headset_device_error_single_device">Неуспешно обновяване на едната слушалка. Сдвоете отново.</string>
     <string name="headset_device_sync_donot_move_device">Синхронизиране… Изчакайте синхронизацията да приключи преди да използвате слушалките.</string>

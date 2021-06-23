@@ -101,14 +101,14 @@
         <item>LHDC V3</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
-        <item>Активиране на кодеци по избор</item>
-        <item>Деактивиране на кодеци по избор</item>
+        <item>Активиране на избирателни кодеци</item>
+        <item>Деактивиране на избирателни кодеци</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
         <item>" | Активно"</item>
-        <item>" | Активно(Медия)"</item>
-        <item>" | Активно(телефон)"</item>
+        <item>" | Активно (медия)"</item>
+        <item>" | Активно (телефон)"</item>
     </string-array>
     <string-array name="bluetooth_avrcp_version_values">
         <item>avrcp14</item>
@@ -155,23 +155,23 @@
         <item>Показване на далтоничните зони</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
-        <item>Без ефекти</item>
+        <item>Без</item>
         <item>Дневник на системните съобщения</item>
-        <item>Анализ на производителността на графиката</item>
-        <item>Изчистване на грешките на графиката</item>
+        <item>Systrace (Графика)</item>
+        <item>Натрупване на обаждания в glGetError</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
-        <item>Никога не използвай проверка за авторски права</item>
-        <item>Извършвай проверка за авторски права само в политиките за DRM</item>
-        <item>Винаги извършвай проверка за авторски права</item>
+        <item>Никога да не се използва HDCP проверка</item>
+        <item>Използване на HDCP проверка само за DRM съдържание</item>
+        <item>Винаги да се използва HDCP проверка</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
-        <item>Не извършвай проверка</item>
-        <item>Проверявай само DRM правата</item>
-        <item>Винаги проверявай</item>
+        <item>Без извършване на проверка</item>
+        <item>Проверяване само за DRM съдържание</item>
+        <item>Винаги да се проверява</item>
     </string-array>
     <string-array name="overlay_display_devices_entries">
-        <item>Без ефекти</item>
+        <item>Без</item>
         <item>480p</item>
         <item>480p (безопасно)</item>
         <item>720p</item>
@@ -220,12 +220,12 @@
     </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Изкл</item>
-        <item>Загради неправоъгълната област на клипа в синьо</item>
-        <item>Освети в зелено тестваните команди за изчертаване</item>
+        <item>Заградете неправоъгълната област на клипа в синьо</item>
+        <item>Осветете тестваните команди за изчертаване в зелено</item>
     </string-array>
     <string-array name="track_frame_time_entries">
         <item>Изкл</item>
-        <item>Покажи екрана на блокчета</item>
+        <item>Преглед на екрана на блокчета</item>
         <item>В adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
@@ -270,13 +270,13 @@
     <string-array name="wifi_status">
         <item></item>
         <item>Сканиране…</item>
-        <item>Свързва се…</item>
+        <item>Свързване…</item>
         <item>Удостоверяване…</item>
         <item>Получаване на IP адрес…</item>
         <item>Свързан</item>
         <item>Преустановено</item>
         <item>Прекъсване…</item>
-        <item>Не е свързан</item>
+        <item>Прекъснат</item>
         <item>Неуспешно</item>
         <item>Блокирано</item>
         <item>Временно е избегната лоша връзка</item>
@@ -289,8 +289,8 @@
         <item>Получаване на IP адрес от %1$s…</item>
         <item>Свързан с %1$s</item>
         <item>Преустановено</item>
-        <item>Прекъсната връзка с %1$s…</item>
-        <item>Не е свързан</item>
+        <item>Прекъсване на връзка с %1$s…</item>
+        <item>Прекъснат</item>
         <item>Неуспешно</item>
         <item>Блокирано</item>
         <item>Временно е избегната лоша връзка</item>

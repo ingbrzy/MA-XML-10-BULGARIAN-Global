@@ -92,8 +92,8 @@
     <string name="category_type_other">Други</string>
     <string name="category_video">Видео</string>
     <string name="category_zip">Архиви</string>
-    <string name="check_upgrade">Провери за актуализации</string>
-    <string name="checking_new_version">Проверява се за актуализации…</string>
+    <string name="check_upgrade">Проверка за обновления</string>
+    <string name="checking_new_version">Проверяване за обновления…</string>
     <string name="choose_connect_type">Тип на връзката</string>
     <string name="clean_found_trash">Намерени %1$s боклука</string>
     <string name="clean_marquee_text">Сканиране за повече нежелани файлове</string>
@@ -167,6 +167,7 @@
     <string name="display_name">Покажи името</string>
     <string name="domain">Домейн</string>
     <string name="download_success">Изтеглянето е успешно</string>
+    <string name="empty_by_forbid_access">Съдържанието на тази папка не може да бъде показано тук поради ограничения на Android 11.</string>
     <string name="enable_documentsui">Включване на %s в Настройки > Инсталирани приложения първо</string>
     <string name="enable_sd_card">SD картата е повредена или извадена</string>
     <string name="enable_usb">USB устройството е повредено или премахнато</string>
@@ -181,6 +182,7 @@
     <string name="error_create_dir">Не можа да създаде папка</string>
     <string name="error_create_file">Не можа да създаде файл</string>
     <string name="error_delete_failed">Не може да се изтрие този файл</string>
+    <string name="error_file_already_exists">Този файл вече съществува.</string>
     <string name="error_filename_too_long">Името на папката е твърде дълго.</string>
     <string name="error_folder_already_exists">Този файл вече съществува</string>
     <string name="error_info_cant_send_folder">Не може да се изпращат папки.</string>
@@ -230,7 +232,7 @@
     <string name="explicit">Пряко</string>
     <string name="extended_storage_file_can_not_open">Неуспешен опит за отваряне на файла. Копирайте го във вътрешната памет.</string>
     <string name="extract">Извлечи</string>
-    <string name="fail_to_create_folder_unknown">Не можа да се създаде папката поради непозната грешка.</string>
+    <string name="fail_to_create_folder_unknown">Неуспешно създаване на папка поради неизвестна грешка.</string>
     <string name="failed_not_access_sd_card">Разрешете достъп до SD картата първо</string>
     <string name="failed_obtain_permissions">Не може да се получат разрешения</string>
     <string name="favorite_notice_message">"Можете да добавяте папки към любими сега.
@@ -238,6 +240,7 @@
     <string name="favorite_photo">Снимки</string>
     <string name="favorite_ringtone">Тонове за звънене</string>
     <string name="favorite_screen_cap">Снимки на екрана</string>
+    <string name="fcm_fallback_notification_channel_label">Разни</string>
     <string name="feedback_desc">Опишете проблема, който сте срещнали</string>
     <string name="feedback_send_email_body_extra_info">Не изтривайте следната информация. Тя ще ни помогне да намерим проблема.</string>
     <string name="fileSizeSuffix">%1$s %2$s</string>
@@ -247,9 +250,9 @@
     <string name="file_info_location">Местоположение: </string>
     <string name="file_info_modified">Последна промяна: </string>
     <string name="file_info_size">Размер: </string>
-    <string name="file_loading">Един момент…</string>
+    <string name="file_loading">Момент…</string>
     <string name="file_name_invalid">Името на файла не може да съдържа знаците: /\\:*?&lt;></string>
-    <string name="find_new_version">Налична е нова версия: %1$s</string>
+    <string name="find_new_version">Налично е обновление: %1$s</string>
     <string name="folder_name_empty">Името на папката не може да остане празно</string>
     <string name="folder_name_illegal">Невалидно име на папката</string>
     <string name="found_usb">USB хранилище е свързано</string>
@@ -269,6 +272,8 @@
     <string name="homepage_tab_recent">Последни</string>
     <string name="host">Хост</string>
     <string name="hot_sticker">Стикери</string>
+    <string name="ic_remove_desc">Управление на файлове е системно приложение, което ви позволява да преглеждате и управлявате файлове на вашето устройство. Желаете ли да го премахнете въпреки това?</string>
+    <string name="ic_remove_title">Премахване на \"Управление на файлове\" от Начален екран?</string>
     <string name="if_cancel">Отменете това действие?</string>
     <string name="image_loading_error">Изображението не може да се зареди</string>
     <string name="implicit">Косвено</string>
@@ -280,7 +285,7 @@
     <string name="info_system">Система:</string>
     <string name="info_system_version">Версия на системата:</string>
     <string name="invalid_name_or_password">Невалидно потребителско име или парола</string>
-    <string name="just_now">току що</string>
+    <string name="just_now">Току-що</string>
     <string name="kilobyteShort">КБ</string>
     <string name="list_order">Изглед в списък</string>
     <string name="load_more">Вижте повече</string>
@@ -297,6 +302,7 @@
     <string name="menu_item_deep_clean">Дълбоко почистване</string>
     <string name="menu_item_ftp">Свързване към компютър</string>
     <string name="menu_item_midrop">Прехвърляне на файлове</string>
+    <string name="menu_item_midrop_desc">Още приложения</string>
     <string name="menu_item_router">Рутер</string>
     <string name="menu_item_sort">Сортирай по</string>
     <string name="menu_item_sort_add_time">"Добавяне към любими "</string>
@@ -310,7 +316,7 @@
     <string name="more">Още</string>
     <string name="more_option">Още опции</string>
     <string name="move_failed">Не може да премести</string>
-    <string name="move_icon_to_desktop_hint">Създайте пряк път до Файлов мениджър на началния екран за по-ефективно управление на файловете.</string>
+    <string name="move_icon_to_desktop_hint">Създайте пряк път на Началния екран за Управление на файлове за по-ефективно управление на файловете.</string>
     <string name="move_icon_to_desktop_success">Успешно създаден пряк път</string>
     <string name="move_to">Преместване в…</string>
     <string name="msg_auto_seven_day">Кешираните елементи се изчистват на всеки 24 часа. Разширяване на този интервал до 7 дни?</string>
@@ -339,6 +345,13 @@
     <string name="notif_server_starting">Стартиране на FTP сървър…</string>
     <string name="notif_title">FTP сървърът работи</string>
     <string name="notification_wechat_expired_empty">WeChat вече е изтрил тези клипове.</string>
+    <string name="offline_notification_text">Докоснете, за да отворите рекламата</string>
+    <string name="offline_notification_title">Прегледайте рекламата, която запазихте, докато бяхте офлайн</string>
+    <string name="offline_opt_in_confirm">ОК</string>
+    <string name="offline_opt_in_confirmation">Ще получите известие с връзката, когато отново сте онлайн</string>
+    <string name="offline_opt_in_decline">Не</string>
+    <string name="offline_opt_in_message">Ще ви изпратим известие с връзка към сайта на рекламодателя.</string>
+    <string name="offline_opt_in_title">Отворете рекламата, когато отново сте онлайн.</string>
     <string name="ok">OK</string>
     <string name="online_not_support">Не може да се прегледа този файл сега.</string>
     <string name="open">Отваряне</string>
@@ -417,7 +430,12 @@
     <string name="port_range">Номерът на порта трябва да е между 1024 – 65535</string>
     <string name="possible_permissions">Разрешения по избор</string>
     <string name="privacy_accept">Съгласявам се и продължавам</string>
-    <string name="privacy_message">Преди да използвате Файлов мениджър, трябва да се съгласите с нашето &lt;font color=\"#4086f5\">&lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%1$s&amp;lang=%2$s\" style=\"color:#4086f5;\">Потребителско споразумение&lt;/a>&lt;/font> и &lt;font color=\"#4086f5\">&lt;a href=\"https://privacy.mi.com/all/%2$s\" style=\"color:#4086f5;\">Политика за поверителност&lt;/a>&lt;/font>.</string>
+    <string name="privacy_cancel"><u>Не приемам</u></string>
+    <string name="privacy_desc">Добре дошли в Управление на файлове! Освен основните функции това приложение предоставя и следните услуги:</string>
+    <string name="privacy_experience_statement">Присъединете се към нашата Програма за потребителски отзиви, за да споделяте потребителски данни с нас, за да ни помогнете да подобрим нашите продукти и услуги.</string>
+    <string name="privacy_item1">Категоризиране на наскоро отваряни елементи</string>
+    <string name="privacy_item2">Преглед и редакция на файлове</string>
+    <string name="privacy_message">&lt;Data>Управление на файлове се нуждае да събира задължителни лични данни, за да ви предоставя основните услуги, които генерират статистика за употреба. Можете да научите как обработваме събраната информация в нашите &lt;a href=\"%1$s\">Правила за поверителност&lt;/a>. Прочетете и приемете нашето &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%1$s\">Правила за поверителност&lt;/a> преди да използвате Управление на файлове. Можете да оттеглите съгласието си за Правилата за поверителност на Управление на файлове в Настройки по всяко време. Ако не приемете да използвате гореспоменатите услуги няма да можете да използвате някои от функциите на това приложение; но все още ще имате достъп до основните му функции.&lt;/Data></string>
     <string name="privacy_title">Добре дошли във Файлов мениджър</string>
     <string name="private_files">Лични</string>
     <string name="private_folder">Лични файлове</string>
@@ -430,7 +448,7 @@
     <string name="recommended_content">Препоръчани</string>
     <string name="remind_no_notice">Запомни избора ми</string>
     <string name="rename_alert">Ако промените разширението на файла, може да не успеете да го отворите след като това.</string>
-    <string name="rename_alert2">Файлът ще бъде скрит след като промените неговото разширение.</string>
+    <string name="rename_alert2">Файлове с имена започващи с \".\" автоматично биват скривани от системата. Желаете ли да използвате това име въпреки това?</string>
     <string name="rename_failed">Не може да се преименува %1$s</string>
     <string name="repair_done">Успешно възстановено</string>
     <string name="repair_error">Неуспешно възстановяване. Опитайте отново.</string>
@@ -440,9 +458,16 @@
     <string name="restoring">Възстановяване…</string>
     <string name="revoke">Отмяна</string>
     <string name="revoke_authorization">Отмяна на упълномощение</string>
+    <string name="revoke_confirm_dialog_cancel">Отказ</string>
+    <string name="revoke_confirm_dialog_content">Превключвайки бутона вие оттегляте съгласието си за Правилата за поверителност на Управление на файлове. Ние ще спрем да събираме вашите лични данни. Вече събраните лични данни ще бъдат изтрити в рамките на специфичния период посочен в приложимото законодателство. Управление на файлове събира вашите лични данни, за да подобри предоставените услуги. Оттеглянето на вашето съгласие за Правилата за поверителност ще се счита за отказ от подобрените услуги, които се базират на вашите събрани лични данни.</string>
+    <string name="revoke_desc">Превключвайки бутона Вие оттегляте съгласието си за Правилата за поверителност на Управление на файлове.</string>
+    <string name="revoke_net_dialog_content">Вашето устройство се нуждае от връзка с мрежата, за да можете да оттеглите съгласието си. Проверете мрежовите си настройки и опитайте отново.</string>
+    <string name="revoke_net_dialog_ok">Разбрах</string>
+    <string name="revoke_net_dialog_title">Няма връзка с мрежата</string>
     <string name="revoke_success">Упълномощението е отменено успешно</string>
     <string name="revoke_timer">(%1$dсек)</string>
     <string name="revoke_tips">След като отмените упълномощението, Управление на файлове ще спре събирането на данни и всички свързани с него данни ще бъдат изтрити от сървърите. Това може да направи Управление на файлове практически неизползваем. Наистина ли желаете да отмените упълномощението?</string>
+    <string name="revoke_title">Оттегляне на съгласие</string>
     <string name="revoking">Отменяне на упълномощение…</string>
     <string name="rlv_last_refreshing_time">Актуализирано %1$s</string>
     <string name="rlv_loading_more">Момент…</string>
@@ -481,7 +506,7 @@
     <string name="select_video">Видео файлове</string>
     <string name="select_volume">Изберете силата на звука</string>
     <string name="send_success">Изпратено</string>
-    <string name="server_control_advanced_settings">Допълнителни настройки</string>
+    <string name="server_control_advanced_settings">Разширени настройки</string>
     <string name="server_control_charset">Кодиране на трансфер</string>
     <string name="server_control_settings">Настройки</string>
     <string name="set_pattern">Паролата е обновена</string>
@@ -496,7 +521,7 @@
     <string name="share_via_qr_code">Споделяне с помощта на QR код</string>
     <string name="show_hide_file_desc">Показване на файлове, които се използват в оперирането на Android и приложения</string>
     <string name="skip_file">Пропусни</string>
-    <string name="smb_loading">Един момент…</string>
+    <string name="smb_loading">Момент…</string>
     <string name="sort_size_asc">Малък към по-голям</string>
     <string name="sort_size_desc">По-голям към малък</string>
     <string name="start_server">Пусни</string>
@@ -520,8 +545,9 @@
     <string name="terms_conditions_desc">Внимателно прочетете всички точки по-долу и изберете дали да ги приемете.</string>
     <string name="time_am">сутрин</string>
     <string name="time_pm">PM</string>
-    <string name="time_to_upgrade">Налична е нова версия</string>
+    <string name="time_to_upgrade">Налично е обновление</string>
     <string name="tip">Предупреждение</string>
+    <string name="tips_by_forbid_access">Съдържанието на тази папка вече няма да бъде достъпно заради системни ограничения представени в Android R. Премахнете личните си файлове от тази папка възможно най-скоро.</string>
     <string name="title_app_tags">Прилож</string>
     <string name="title_enable_documentsui">Включване на DocumentsUI</string>
     <string name="title_expire_video">Предстои да изтече срока</string>
@@ -541,12 +567,15 @@
     <string name="update_use_mobile_data">Актуализирай автоматично, използвайки мобилни данни</string>
     <string name="usb_has_removed">USB устройството беше премахнато</string>
     <string name="used">Използвани</string>
+    <string name="user_experience_desc">Споделете потребителски данни с нас, за да ни помогнете да подобрим нашите продукти и услуги</string>
+    <string name="user_experience_title">Програма за потребителски отзиви</string>
     <string name="user_not_login">Впишете се първо</string>
     <string name="user_notice_privacy_policy">Политика на поверителност</string>
     <string name="user_notice_term_of_service">Споразумение с потребителя</string>
     <string name="utf8_summary">Кодиране на FTP по подразбиране</string>
     <string name="version_name">Версия</string>
     <string name="video_replay_btn">Повтори</string>
+    <string name="view_by_document">Преглед във Файлове</string>
     <string name="wechat_video">Видео в %s</string>
     <string name="wifi_state">Състояние на Wi-Fi</string>
     <string name="year_month_day_format">dd MMM yyyy</string>

@@ -17,24 +17,15 @@
         <item>Не повече от 3 процеса</item>
         <item>Не повече от 4 процеса</item>
     </string-array>
-    <string-array name="aqi_title">
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-        <item>%1$s</item>
-    </string-array>
     <string-array name="battery_labels">
         <item>0%</item>
         <item>50%</item>
         <item>100%</item>
     </string-array>
     <string-array name="battery_options">
-        <item>Винаги показвай проценти</item>
-        <item>Показвайпроценти само когато се зарежда телефона</item>
-        <item>Да не се ли показва тази икона</item>
+        <item>Процентът винаги да се показва</item>
+        <item>Процентът да се показва при зареждане (по подразбиране)</item>
+        <item>Тази икона да не се показва</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
         <item>Използване на системни предпочитания (По подразбиране)</item>
@@ -109,14 +100,14 @@
         <item>LHDC V3</item>
         <item>LHDC V2</item>
         <item>LHDC V1</item>
-        <item>Активиране на кодеци по избор</item>
-        <item>Деактивиране на кодеци по избор</item>
+        <item>Активиране на избирателни кодеци</item>
+        <item>Деактивиране на избирателни кодеци</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
         <item>" | Активно"</item>
-        <item>" | Активно(Медия)"</item>
-        <item>" | Активно(телефон)"</item>
+        <item>" | Активно (медия)"</item>
+        <item>" | Активно (телефон)"</item>
     </string-array>
     <string-array name="bluetooth_avrcp_version_values">
         <item>avrcp14</item>
@@ -148,9 +139,9 @@
         <item>Филтрирани медия пакети</item>
     </string-array>
     <string-array name="clock_options">
-        <item>Показване на час, минути и секунди</item>
-        <item>Показване на час и минути(по подразбиране)</item>
-        <item>Да не се ли показва тази икона</item>
+        <item>Показване на часовете, минутите и секундите</item>
+        <item>Показване на часовете и минутите (по подразбиране)</item>
+        <item>Тази икона да не се показва</item>
     </string-array>
     <string-array name="color_mode_descriptions">
         <item>Подобрени цветове</item>
@@ -162,50 +153,45 @@
         <item>Естествен</item>
         <item>Стандартен</item>
     </string-array>
-    <array name="data_type_name_mcc_mnc_key" />
-    <array name="data_type_name_mcc_mnc_value" />
     <string-array name="debug_hw_overdraw_entries">
         <item>Изкл</item>
         <item>Показване на опасните зони</item>
         <item>Показване на далтоничните зони</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
-        <item>Без ефекти</item>
+        <item>Без</item>
         <item>Дневник на системните съобщения</item>
-        <item>Анализ на производителността на графиката</item>
-        <item>Изчистване на грешките на графиката</item>
+        <item>Systrace (Графика)</item>
+        <item>Натрупване на обаждания в glGetError</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
-        <item>Никога не използвай проверка за авторски права</item>
-        <item>Извършвай проверка за авторски права само в политиките за DRM</item>
-        <item>Винаги извършвай проверка за авторски права</item>
+        <item>Никога да не се използва HDCP проверка</item>
+        <item>Използване на HDCP проверка само за DRM съдържание</item>
+        <item>Винаги да се използва HDCP проверка</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
-        <item>Не извършвай проверка</item>
-        <item>Проверявай само DRM правата</item>
-        <item>Винаги проверявай</item>
+        <item>Без извършване на проверка</item>
+        <item>Проверяване само за DRM съдържание</item>
+        <item>Винаги да се проверява</item>
     </string-array>
-    <string-array name="miui_volume_timer_segments_title">
-        <item>Изкл</item>
-        <item>30 минути</item>
-        <item>1 час</item>
-        <item>2 часа</item>
-        <item>8 часа</item>
+    <string-array name="miui_notification_aggregate_category">
+        <item>Това е препоръчано съдържание.</item>
+        <item>Това е реклама.</item>
     </string-array>
     <string-array name="nav_bar_buttons">
-        <item>Клипборд</item>
-        <item>Опции за клавиатурата</item>
-        <item>Превключване между различни клавиатурни подложки</item>
-        <item>Без ефекти</item>
+        <item>Буферна памет</item>
+        <item>Клавишен код</item>
+        <item>Потвърждаване на завъртането, превключвател за клавиатурата</item>
+        <item>Няма</item>
     </string-array>
     <string-array name="nav_bar_layouts">
         <item>Нормално</item>
         <item>Компактно</item>
-        <item>С лява ръка</item>
-        <item>С дясна ръка</item>
+        <item>Лява ориентация</item>
+        <item>Дясна ориентация</item>
     </string-array>
     <string-array name="overlay_display_devices_entries">
-        <item>Без ефекти</item>
+        <item>Без</item>
         <item>480p</item>
         <item>480p (безопасно)</item>
         <item>720p</item>
@@ -218,7 +204,6 @@
         <item>4K (по-голям мащаб, безопасно)</item>
         <item>720p, 1080p (двоен екран)</item>
     </string-array>
-    <array name="recents_blacklist_array" />
     <string-array name="select_logd_size_lowram_titles">
         <item>Изкл</item>
         <item>64 KB</item>
@@ -255,12 +240,12 @@
     </string-array>
     <string-array name="show_non_rect_clip_entries">
         <item>Изкл</item>
-        <item>Загради неправоъгълната област на клипа в синьо</item>
-        <item>Освети в зелено тестваните команди за изчертаване</item>
+        <item>Заградете неправоъгълната област на клипа в синьо</item>
+        <item>Осветете тестваните команди за изчертаване в зелено</item>
     </string-array>
     <string-array name="track_frame_time_entries">
         <item>Изкл</item>
-        <item>Покажи екрана на блокчета</item>
+        <item>Преглед на екрана на блокчета</item>
         <item>В adb shell dumpsys gfxinfo</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
@@ -302,45 +287,16 @@
         <item>Източник на аудио</item>
         <item>MIDI</item>
     </string-array>
-    <string-array name="weather_type">
-        <item>Ясно</item>
-        <item>Облачно</item>
-        <item>Облачно</item>
-        <item>Мъгливо</item>
-        <item>Силна дъждовна буря</item>
-        <item>Порой</item>
-        <item>Дъждовна буря</item>
-        <item>Гръмотевична буря</item>
-        <item>Преваляване</item>
-        <item>Силни валежи</item>
-        <item>Умерен дъжд</item>
-        <item>Слаб дъжд</item>
-        <item>Дъжд и сняг</item>
-        <item>Снежна виелица</item>
-        <item>Сняг</item>
-        <item>Силен снеговалеж</item>
-        <item>Умерен снеговалеж</item>
-        <item>Слаб сняг</item>
-        <item>Силна пясъчна буря</item>
-        <item>Пясъчна буря</item>
-        <item>Пясък</item>
-        <item>Ветровито</item>
-        <item>Градушка</item>
-        <item>Прах</item>
-        <item>Мараня</item>
-        <item>Леден дъжд</item>
-        <item></item>
-    </string-array>
     <string-array name="wifi_status">
         <item></item>
         <item>Сканиране…</item>
-        <item>Свързва се…</item>
+        <item>Свързване…</item>
         <item>Удостоверяване…</item>
         <item>Получаване на IP адрес…</item>
         <item>Свързан</item>
         <item>Преустановено</item>
         <item>Прекъсване…</item>
-        <item>Не е свързан</item>
+        <item>Прекъснат</item>
         <item>Неуспешно</item>
         <item>Блокирано</item>
         <item>Временно е избегната лоша връзка</item>
@@ -353,8 +309,8 @@
         <item>Получаване на IP адрес от %1$s…</item>
         <item>Свързан с %1$s</item>
         <item>Преустановено</item>
-        <item>Прекъсната връзка с %1$s…</item>
-        <item>Не е свързан</item>
+        <item>Прекъсване на връзка с %1$s…</item>
+        <item>Прекъснат</item>
         <item>Неуспешно</item>
         <item>Блокирано</item>
         <item>Временно е избегната лоша връзка</item>

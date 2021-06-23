@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="accessibility_recent_task_enter">
-        <item quantity="other">Последно използвани, налични приложения: %d.</item>
-        <item quantity="one">Последно използвани, налично приложение:%d.</item>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="other">Преди %d дни</item>
+        <item quantity="one">Преди %d ден</item>
     </plurals>
-    <plurals name="accessibility_recent_task_first_enter_tips">
-        <item quantity="other">Последно използвани, налични приложения: %d. Плъзнете нагоре за да ги премахнете или плъзнете надолу, за да ги заключите.</item>
-        <item quantity="one">Последно използвани, налично приложение: %d. Плъзнете нагоре за да го премахнете или плъзнете надолу, за да го заключите.</item>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="other">Преди %d мин</item>
+        <item quantity="one">Преди %d мин</item>
     </plurals>
-    <plurals name="auto_disconnect_timer_tip">
-        <item quantity="other">Затваряне след %1$d секунди</item>
-        <item quantity="one">Затваряне след %1$d секунда</item>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="other">Преди %d год</item>
+        <item quantity="one">Преди %d год</item>
     </plurals>
-    <plurals name="fold_tips_title">
-        <item quantity="other">%d маловажни известия</item>
-        <item quantity="one">%d маловажно известие</item>
+    <plurals name="controls_number_of_favorites">
+        <item quantity="other">Добавени са %s контроли.</item>
+        <item quantity="one">Добавена е %s контрола.</item>
     </plurals>
     <plurals name="incorrect_pincode_remaining_attempts">
         <item quantity="other">Невалиден PIN код, %d опита остават</item>
@@ -41,7 +41,7 @@
         <item quantity="one">Остава %d минута</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_time_text">
-        <item quantity="other">Остават %1$d часа %2$d мин</item>
+        <item quantity="other">Остава %1$d часа %2$d мин</item>
         <item quantity="one">Остава %1$d часа %2$d мин</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_hour_time_format">
@@ -53,7 +53,7 @@
         <item quantity="one">%d минута</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_time_format">
-        <item quantity="other">%1$d часа %2$d минути</item>
+        <item quantity="other">%1$d часа %2$d минута</item>
         <item quantity="one">%1$d часа %2$d минута</item>
     </plurals>
     <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">
@@ -66,55 +66,47 @@
     </plurals>
     <plurals name="keyguard_extreme_power_info_could_use_time_text">
         <item quantity="other">Остават %1$d ч %2$d м</item>
-        <item quantity="one">Остава %1$d ч %2$d м</item>
+        <item quantity="one">Остават %1$d ч %2$d м</item>
     </plurals>
     <plurals name="kg_password_default_pin_message">
-        <item quantity="other">Въведете SIM PIN код, имате още %d оставащи опита.</item>
-        <item quantity="one">Въведете SIM PIN код, имате още %d оставащ опит, преди да се наложи вашият оператор да отключи устройството ви.</item>
+        <item quantity="other">Въведете ПИН кода за SIM картата – остават ви %d опита.</item>
+        <item quantity="one">Въведете ПИН кода за SIM картата – остава ви %d опит, преди да се наложи да се свържете с оператора си, за да отключите устройството.</item>
     </plurals>
     <plurals name="kg_password_default_puk_message">
-        <item quantity="other">SIM картата е деактивирана. Въведете PUK код за да продължите. Вие имате още %d оставащи опита, преди SIM картата да стане неизползваема. Свържете се с вашия оператор за подробности.</item>
-        <item quantity="one">SIM картата е деактивирана. Въведете PUK код за да продължите. Вие имате още %d оставащ опит, преди SIM картата да стане неизползваема. Свържете се с вашия оператор за подробности.</item>
+        <item quantity="other">SIM картата вече е деактивирана. Въведете PUK кода, за да продължите. Остават ви %d опита, преди SIM картата да стане неизползваема завинаги. Свържете се с оператора за подробности.</item>
+        <item quantity="one">SIM картата вече е деактивирана. Въведете PUK кода, за да продължите. Остава ви %d опит, преди SIM картата да стане неизползваема завинаги. Свържете се с оператора за подробности.</item>
     </plurals>
     <plurals name="kg_password_wrong_pin_code">
-        <item quantity="other">Грешен SIM PIN код, имате още %d оставащи опита, преди да се наложи вашият оператор да отключи устройството ви.</item>
-        <item quantity="one">Грешен SIM PIN код, имате още %d оставащ опит, преди да се наложи вашият оператор да отключи устройството ви.</item>
+        <item quantity="other">Неправилен ПИН код за SIM картата – остават ви %d опита.</item>
+        <item quantity="one">Неправилен ПИН код за SIM картата – остава ви %d опит, преди да трябва да се свържете с оператора си, за да отключите устройството.</item>
     </plurals>
     <plurals name="kg_password_wrong_puk_code">
-        <item quantity="other">Грешен SIM PUK код, имате още %d оставащи опита, преди вашата SIM карта да стане неизползваема.</item>
-        <item quantity="one">Грешен SIM PUK код, имате още %d оставащ опит, преди вашата SIM карта да стане неизползваема.</item>
+        <item quantity="other">Неправилен PUK код за SIM картата – остават ви %d опита, преди тя да стане неизползваема завинаги.</item>
+        <item quantity="one">Неправилен PUK код за SIM картата – остава ви %d опит, преди тя да стане неизползваема завинаги.</item>
     </plurals>
     <plurals name="kg_prompt_reason_time_password">
-        <item quantity="other">Устройството не е отключвано от %d часа. Потвърдете с парола.</item>
-        <item quantity="one">Устройството не е отключвано от %d час. Потвърдете с парола.</item>
+        <item quantity="other">Устройството не е отключвано от %d часа. Потвърдете паролата.</item>
+        <item quantity="one">Устройството не е отключвано от %d час. Потвърдете паролата.</item>
     </plurals>
     <plurals name="kg_prompt_reason_time_pattern">
-        <item quantity="other">Устройството не е отключвано от %d часа. Потвърдете с шаблон.</item>
-        <item quantity="one">Устройството е не е отключвано от %d час. Потвърдете с шаблон.</item>
+        <item quantity="other">Устройството не е отключвано от %d часа. Потвърдете фигурата.</item>
+        <item quantity="one">Устройството не е отключвано от %d час. Потвърдете фигурата.</item>
     </plurals>
     <plurals name="kg_prompt_reason_time_pin">
-        <item quantity="other">Устройството не е отключвано от %d часа. Потвърдете с PIN код.</item>
-        <item quantity="one">Устройството не е отключвано от %d час. Потвърдете с PIN код.</item>
+        <item quantity="other">Устройството не е отключвано от %d часа. Потвърдете ПИН кода.</item>
+        <item quantity="one">Устройството не е отключвано от %d час. Потвърдете ПИН кода.</item>
+    </plurals>
+    <plurals name="kg_too_many_failed_attempts_countdown">
+        <item quantity="other">Опитайте отново след %d секунди.</item>
+        <item quantity="one">Опитайте отново след 1 секунда.</item>
     </plurals>
     <plurals name="new_notifications_msg">
         <item quantity="other">%d нови известия</item>
         <item quantity="one">%d ново известие</item>
     </plurals>
-    <plurals name="notification_channels_list_desc_2_and_others">
-        <item quantity="other">%1$s, %2$s, и %3$d други</item>
-        <item quantity="one">%1$s, %2$s, и %3$d друг</item>
-    </plurals>
     <plurals name="notification_group_overflow_description">
-        <item quantity="other">Още %s вътрешни известия.</item>
-        <item quantity="one">Още %s вътрешно известие.</item>
-    </plurals>
-    <plurals name="notification_num_channels">
-        <item quantity="other">%d категории известия</item>
-        <item quantity="one">%d категория известие</item>
-    </plurals>
-    <plurals name="notification_num_channels_desc">
-        <item quantity="other">1 от %d известия от това приложение</item>
-        <item quantity="one">1 от %d известия от това приложение</item>
+        <item quantity="other">Съдържа още %s известия.</item>
+        <item quantity="one">Съдържа още %s известие.</item>
     </plurals>
     <plurals name="phone_locked_timeout_minutes_string">
         <item quantity="other">Опитайте отново след %d минути</item>
@@ -124,17 +116,21 @@
         <item quantity="other">Опитайте отново след %d секунди</item>
         <item quantity="one">Опитайте отново след %d секунда</item>
     </plurals>
-    <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d превключватели над лентата са активни</item>
-        <item quantity="one">%1$d превключвател над лентата е активен</item>
+    <plurals name="quick_settings_hotspot_secondary_label_num_devices">
+        <item quantity="other">%d устройства</item>
+        <item quantity="one">%d устройство</item>
     </plurals>
-    <plurals name="status_bar_accessibility_recent_apps">
-        <item quantity="other">%d екрани в Преглед</item>
-        <item quantity="one">1 екран в Преглед</item>
+    <plurals name="snoozeHourOptions">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
     </plurals>
-    <plurals name="view_realtime_clear">
-        <item quantity="other">Ясно</item>
-        <item quantity="one">Ясно</item>
+    <plurals name="snoozeMinuteOptions">
+        <item quantity="other">%d минути</item>
+        <item quantity="one">%d минута</item>
+    </plurals>
+    <plurals name="user_limit_reached_message">
+        <item quantity="other">Можете да добавите до %d потребители.</item>
+        <item quantity="one">Може да бъде създаден само един потребител.</item>
     </plurals>
     <plurals name="wifi_tether_connected_summary">
         <item quantity="other">%1$d свързани устройства</item>

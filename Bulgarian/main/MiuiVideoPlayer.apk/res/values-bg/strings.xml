@@ -128,6 +128,7 @@
     <string name="cast_forward">Превъртане напред</string>
     <string name="cast_forward_10">Превъртане напред с десет секунди</string>
     <string name="cast_forward_30">Превъртане напред с тридесет секунди</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_live_label">НА ЖИВО</string>
     <string name="cast_mute">Спиране</string>
     <string name="cast_notification_connected_message">Установена е връзка с/ъс „%1$s“</string>
@@ -223,13 +224,13 @@
     <string name="diagnosis_log_sent_format">"Регистрите са изпратени успешно.
 ID:%s
 Изпратете този код на супервизора."</string>
-    <string name="dialog_disagree_privacychange_info">"You won't be able to use Mi Video online streaming services if you don't agree to our Privacy Policy. Tap \"Cancel\" to go back or \"Don't agree\" to continue and use Mi Video as a local player only."</string>
-    <string name="dialog_disagree_privacychange_title">"Don't agree?"</string>
-    <string name="dialog_privacy_change_info">"We've updated Mi Video Privacy Policy due to the adjustmets in the services we offer. To fully understand your rights as a user as well as the ways in which we use your data, read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> before using the app."</string>
-    <string name="dialog_privacy_change_title">Privacy Policy update</string>
+    <string name="dialog_disagree_privacychange_info">Няма да можете да използвате услугите за онлайн стринминг на Mi Видео ако не приемете нашите Правила за поверителност. Натиснете \"Отказ\", за да се върнете назад или \"Не приемам\", за да продължите и за да използвате Mi Видео само като местен видео плейър.</string>
+    <string name="dialog_disagree_privacychange_title">Не приемате?</string>
+    <string name="dialog_privacy_change_info">Обновихме Правилата за поверителност на Mi Видео заради настройки в услугите, които предлагаме. За да се информирате подробно за правата си като потребител и да научите повече за начините, по които използваме Вашите лични данни, прочетете и приемете нашето &lt;a href=%1$s>Потребителско споразумение&lt;/a> и &lt;a href=%2$s>Правила за поверителност&lt;/a> преди да използвате приложението.</string>
+    <string name="dialog_privacy_change_title">Обновление на Правилата за поверителност</string>
     <string name="dialog_privacy_info_new2">За да можете да използвате услугите, трябва да дадете съгласието си на %1$s да събира, обработва и използва Вашата лична информация. Когато натиснете бутона \"Приемам\" по-долу, ще се счете, че сте прочели и че приемате нашата &lt;a href=%2$s>политика за поверителност&lt;/a>.</string>
     <string name="dialog_privacy_info_new3">За да можете да използвате тази услуга, ще трябва да разрешите на %1$s да събира, обработва и използва вашите лични данни в съответствие с Правилата за поверителност. Натискайки Приемам по-долу, вие приемате &lt;a href=%2$s>Правилата за поверителност&lt;/a> и &lt;a href=%3$s>Потребителското споразумение&lt;/a> на Xiaomi. &lt;br/>&lt;br/>Натискането на Приемам също дава на Mi Видео достъп до списък с инсталираните приложения на вашето устройство. С това разрешение, Mi Видео ще може да споделя елементи, да проверява дали определено приложение е инсталирано на вашето устройство, да проверява коя версия на приложението е инсталирана и да проверява дали приложението е безопасно.</string>
-    <string name="dialog_privacy_info_new4">"Welcome to Mi Video! This app provides the following services:&lt;br>&lt;/br> - Online streaming services&lt;br>&lt;/br>- A local video player&lt;br>&lt;/br>Mi Video needs to collect necessary personal information to provide you with the basic services. You can learn how we handle the information we collect in our Privacy Policy. You'll be able change the related settings in Settings > Passwords &amp;amp; security.&lt;br>&lt;/br>Read and agree to our &lt;a href=%1$s>User Agreement&lt;/a> and &lt;a href=%2$s>Privacy Policy&lt;/a> before using Mi Video."</string>
+    <string name="dialog_privacy_info_new4">Добре дошли в Mi Видео! Това приложение предоставя следните услуги:&lt;br>&lt;/br> - Услуги за онлайн стрийминг&lt;br>&lt;/br>- Местен видео плейър&lt;br>&lt;/br>Mi Видео се нуждае да събира задължителни лични данни, за да Ви предоставя основни услуги. Можете да научите как обработваме информацията, която събираме в нашите Правила за поверителност. Ще можете да промените свързаните настройки в Настройки > Пароли и сигурност.&lt;br>&lt;/br>Прочетете и приемете нашето &lt;a href=%1$s>Потребителско споразумение&lt;/a> и &lt;a href=%2$s>Правила за поверителност&lt;/a> преди да използвате Mi Видео.</string>
     <string name="dialog_privacy_revoke_cancel">Отказ</string>
     <string name="dialog_privacy_revoke_count_down">Оттегляне (%1$dсек)</string>
     <string name="dialog_privacy_revoke_description">Превключвайки бутона вие оттегляте съгласието си за Правилата за поверителност на Mi Видео. Ние ще спрем да събираме вашите лични данни. Вече събраните лични данни ще бъдат изтрити в рамките на специфичния период посочен в приложимото законодателство. Оттеглянето на вашето съгласие за Правилата за поверителност ще се счита за отказ от услугите, които се базират на вашите събрани лични данни.</string>
@@ -237,10 +238,10 @@ ID:%s
     <string name="dialog_privacy_revoke_ok">Оттегляне</string>
     <string name="dialog_privacy_revoke_success">Успешно оттеглено</string>
     <string name="dialog_privacy_revoking">Оттегляне на съгласие…</string>
-    <string name="dialog_privacy_title">Terms and conditions</string>
+    <string name="dialog_privacy_title">Правила и условия</string>
     <string name="dialog_revoke_privacy_info_new2">След като анулирате разрешението, приложението ще спре събирането на данни и всички свързани с него данни ще бъдат изтрити от нашите сървъри. Това може да направи приложението практически неизползваемо. Наистина ли искате да отмените разрешението?</string>
     <string name="dialog_revoke_privacy_title">Отмяна на разрешението</string>
-    <string name="disagree">"Don't agree"</string>
+    <string name="disagree">Не приемам</string>
     <string name="diy_channels_tips">Можете да персонализирате списъка на каналите си сега.</string>
     <string name="do_not_show_again">\"Не показвай отново</string>
     <string name="download">Изтегли</string>

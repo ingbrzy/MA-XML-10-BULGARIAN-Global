@@ -31,10 +31,10 @@
     <string name="afternoon">Следобяд</string>
     <string name="am">AM</string>
     <string name="app_name">Запис на екрана</string>
-    <string name="app_notification_channel_record_complete">Notifications about finished recordings</string>
+    <string name="app_notification_channel_record_complete">Известия за завършени записи</string>
     <string name="app_notification_info">Запис на екрана работи във фонов режим</string>
-    <string name="app_notification_record_complete">"Saved screen recording to Gallery
-Tap to view"</string>
+    <string name="app_notification_record_complete">"Запазен е запис на екрана в Галерия
+Натиснете за преглед"</string>
     <string name="app_notification_title">Запис на екрана</string>
     <string name="auto_stop_title">Видеото е успешно запазено</string>
     <string name="battery_not_allowed" formatted="false">Не може да се прави запис при батерия по-ниска от 3%. Бъдете сигурни, че сте заредили батерията си поне на 20%.</string>
@@ -71,7 +71,7 @@ Tap to view"</string>
     <string name="error_open_file_failed_no_app_found">Не е открито приложение, което да отвори този файл</string>
     <string name="evening">Следобед</string>
     <string name="expand_button_title">Разширени</string>
-    <string name="first_using_mic_dialog_message">Рекордерът на екрана се нуждае от достъп до Вашия микрофон, за да записва звук. Позволи?</string>
+    <string name="first_using_mic_dialog_message">Запис на екран се нуждае от достъп до Вашия микрофон, за да записва звук. Позволи?</string>
     <string name="first_using_mic_dialog_title">Необходими разрешения</string>
     <string name="fixed_frame_rate">Фиксирана скорост на кадър</string>
     <string name="fixed_frame_rate_summary">Записването на видео с фиксирана скорост на кадъра ще подобри възпроизвеждането в социалните мрежи и ще удължи живота на батерията.</string>
@@ -217,7 +217,7 @@ Tap to view"</string>
     <string name="quit_recording">Изход от Записване на екран</string>
     <string name="recording_failure">Не може да се запише, започни отначало</string>
     <string name="recording_max_size">Записът бе спрян и запазен, защото видеофайлът достигна своя максимален размер. Започнете записването, откъдето сте спрели, ако все още не сте готови.</string>
-    <string name="recording_without_mic">Микрофонът е зает и не може да се записва звук сега.</string>
+    <string name="recording_without_mic">Микрофонът е зает и не може да записва звук в момента.</string>
     <string name="resolution">Резолюция</string>
     <string name="resolution_summary">Клиповете с висока резолюция притежават изострена картина</string>
     <string name="saturday">Събота</string>
@@ -316,6 +316,7 @@ Tap to view"</string>
     <string name="using_record_confirm_ok">Разреши</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
+    <string name="view_recorded_file">Натиснете, за да прегледате записан файл</string>
     <string name="warning_recording_when_a2dp_connect">Вашето устройство не поддържа запис на системни звуци при използването на Bluetooth слушалки.</string>
     <string name="wednesday">Сряда</string>
     <string name="wednesday_short">Ср.</string>

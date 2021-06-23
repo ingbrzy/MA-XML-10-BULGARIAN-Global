@@ -17,8 +17,8 @@
         <item quantity="one">%d запис на календара</item>
     </plurals>
     <plurals name="dirty_callog_count">
-        <item quantity="other">%d записани хронологии на обаждания</item>
-        <item quantity="one">%d записана история на обаждане</item>
+        <item quantity="other">%d записа на хронология на повикванията</item>
+        <item quantity="one">%d запис на хронология на повикванията</item>
     </plurals>
     <plurals name="dirty_contacts_count">
         <item quantity="other">%d контакти</item>

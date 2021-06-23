@@ -201,19 +201,19 @@
         <item quantity="one">Въведете поне %d знак</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
-        <item quantity="other">PIN кодът трябва да е %d цифри</item>
-        <item quantity="one">PIN кодът трябва да е %d цифра</item>
+        <item quantity="other">ПИН кодът трябва да е %d знака</item>
+        <item quantity="one">ПИН кодът трябва да е %d знак</item>
     </plurals>
     <plurals name="lockpassword_pin_too_long">
-        <item quantity="other">Може да въведете до %d цифри</item>
-        <item quantity="one">Може да въведете до %d цифра</item>
+        <item quantity="other">Може да въведете до %d знака</item>
+        <item quantity="one">Може да въведете до %d знак</item>
     </plurals>
     <plurals name="lockpassword_pin_too_short">
-        <item quantity="other">Въведете поне %d цифри</item>
-        <item quantity="one">Въведете поне %d цифра</item>
+        <item quantity="other">Въведете поне %d знака</item>
+        <item quantity="one">Въведете поне %d знак</item>
     </plurals>
     <plurals name="lockpattern_recording_incorrect_too_short">
-        <item quantity="other">Свържете поне %d точка. Опитайте отново.</item>
+        <item quantity="other">Свържете поне %d точки. Опитайте отново.</item>
         <item quantity="one">Свържете поне %d точка. Опитайте отново.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts">
@@ -243,6 +243,10 @@
     <plurals name="miui_sos_emergency_contacts_quantity">
         <item quantity="other">Добавени са %d</item>
         <item quantity="one">Добавен е %d</item>
+    </plurals>
+    <plurals name="miui_wifi_wakeup_summary">
+        <item quantity="other">Wi-Fi ще бъде включен автоматично когато устройството ви засече запазени мрежи наблизо и изключен след %d минути ако не бъде установена връзка</item>
+        <item quantity="one">Wi-Fi ще бъде включен автоматично когато устройството ви засече запазени мрежи наблизо и изключен след %d минута ако не бъде установена връзка</item>
     </plurals>
     <plurals name="mobile_network_summary_count">
         <item quantity="other">%1$d SIM карти</item>
@@ -389,12 +393,12 @@
         <item quantity="one">Проверка на сертификата</item>
     </plurals>
     <plurals name="status_bar_settings_disabled_header_title">
-        <item quantity="other">%d приложения не могат да показват известия</item>
-        <item quantity="one">%d приложение не може да показва известия</item>
+        <item quantity="other">%d прилж. не могат да показват известия</item>
+        <item quantity="one">%d прилж. не може да показва известия</item>
     </plurals>
     <plurals name="status_bar_settings_enabled_header_title">
-        <item quantity="other">%d приложения могат да показват известия</item>
-        <item quantity="one">%d приложение може да показва известия</item>
+        <item quantity="other">%d прилж могат да показват известия</item>
+        <item quantity="one">%d прилж може да показва известия</item>
     </plurals>
     <plurals name="suggestions_collapsed_summary">
         <item quantity="other">+ %1$d предложения</item>

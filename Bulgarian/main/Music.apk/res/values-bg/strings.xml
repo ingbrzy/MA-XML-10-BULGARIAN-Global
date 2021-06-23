@@ -95,7 +95,7 @@
     <string name="app_permission_require">Задължителни разрешения</string>
     <string name="app_permission_use_desc">Разрешения</string>
     <string name="app_permission_use_group_account">Профили</string>
-    <string name="app_permission_use_group_account_desc">За получаване на информация за Mi профил</string>
+    <string name="app_permission_use_group_account_desc">За получаване на информация за Mi Профил</string>
     <string name="app_permission_use_group_phone">Телефон</string>
     <string name="app_permission_use_group_phone_desc">Относно услугите на Google Push</string>
     <string name="app_permission_use_group_storage">Съхранение</string>
@@ -127,6 +127,7 @@
     <string name="back_confirm">Чукнете още веднъж за изход</string>
     <string name="bluetooth_device">Bluetooth устройство</string>
     <string name="btn_text_edit">Редактиране</string>
+    <string name="btn_text_view_all">Преглед на всички</string>
     <string name="buffering">Буфериране…</string>
     <string name="button_cancel_download">Отмени</string>
     <string name="button_download_now">Изтегляне сега</string>
@@ -193,10 +194,10 @@
     <string name="desktop_lyric_button_close">Затвори</string>
     <string name="desktop_lyric_button_lock">Заключи</string>
     <string name="desktop_lyric_color">Цвят</string>
-    <string name="desktop_lyric_dialog_msg">Отвори в моята музика-Настройки-Още разширени настройки.</string>
+    <string name="desktop_lyric_dialog_msg">Включете текст на песен на Начален екран и го изключете в Музика > Настройки > Още разширени настройки.</string>
     <string name="desktop_lyric_dialog_positive_button">Опитайте сега</string>
     <string name="desktop_lyric_dialog_title">Опитайте текстове на песни на вашия екран.</string>
-    <string name="desktop_lyric_lock_toast">Заключено. Използвайте Mini Player в лентат с известия, за да отключите</string>
+    <string name="desktop_lyric_lock_toast">Заключено. Можете да отключите Музика в Лентата с известия</string>
     <string name="desktop_lyric_setting_summary">Показване на плаващи текстове на вашия екран.</string>
     <string name="desktop_lyric_setting_title">Текстове на вашия екран</string>
     <string name="desktop_lyric_textsize">Текст</string>
@@ -228,7 +229,7 @@
     <string name="dialog_score_msg_score_perfect">Супер! Ще оцените ли нашето приложение и в Play Store?</string>
     <string name="dialog_score_prompt_bad">Благодарим Ви за мнението! Ще направим всичко възможно, за да подобряваме приложението и услугите ни.</string>
     <string name="dialog_score_prompt_good">Благодарим Ви за подкрепата! Ще оцените ли приложението ни и в Google Play?</string>
-    <string name="dialog_score_title">Оценете приложението ни</string>
+    <string name="dialog_score_title">Оценете нашето приложение</string>
     <string name="dialog_score_toast_rate">Първо оценете нашето приложение</string>
     <string name="dialog_score_toast_scroll_down_score_midrop">Превъртете надолу, за да оцените нашето приложение</string>
     <string name="dialog_song_sort_type">Сортиране на песни</string>
@@ -286,7 +287,9 @@
     <string name="download_method">Изтегляне</string>
     <string name="download_no_application_title">Файлът не може да се отвори</string>
     <string name="download_paused_in_power_save_mode">Изтеглянето е спряно когато Икономия на батерията е включено</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Изтегля се…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Качество при изтегляне</string>
     <string name="download_quality_summary">Разширени настройки на песните, които сте изтеглили</string>
     <string name="download_queued">Чакащи</string>
@@ -295,7 +298,7 @@
     <string name="download_share_dialog">Сподели чрез</string>
     <string name="download_song_quality_title">Качество на изтеглените песни</string>
     <string name="download_start">Стартиране на изтеглянето…</string>
-    <string name="download_start_apk">Начало на изтеглянето… Вижте състоянието на изтегляне в Лента с известия.</string>
+    <string name="download_start_apk">Начало на изтеглянето… Вижте състоянието на изтегляне в Лентата с известия.</string>
     <string name="download_start_btn">Изтегляне</string>
     <string name="download_success">Завършено</string>
     <string name="download_title_sorted_by_date">Изтегляния - сортирани по дата</string>
@@ -319,9 +322,9 @@
     <string name="download_while_playing_summary">Автоматично изтегляне на музиката, които слушате онлайн</string>
     <string name="download_while_playing_title">Слушайте докато изтегляте</string>
     <string name="downloaded_empty">Празно</string>
-    <string name="downloading_apk">Изтегляне… Вижте състоянието на изтегляне в Лента с известия.</string>
+    <string name="downloading_apk">Изтегляне… Вижте състоянието на изтегляне в Лентата с известия.</string>
     <string name="downloading_empty">Празно</string>
-    <string name="downloading_pause_apk">На пауза. Продължете изтеглянето в Лента с известия.</string>
+    <string name="downloading_pause_apk">На пауза. Продължете изтеглянето в Лентата с известия.</string>
     <string name="due_date">Дата на изтичане: %s</string>
     <string name="edit_playlist_info">Редактирай инфо списък за изпълнение</string>
     <string name="empty_page_no_album">Няма албуми.</string>
@@ -374,7 +377,9 @@
     <string name="exo_media_action_repeat_all_description">Повтаряне на всички</string>
     <string name="exo_media_action_repeat_off_description">Без повтаряне</string>
     <string name="exo_media_action_repeat_one_description">Повтаряне на един елемент</string>
+    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Алтернативен запис</string>
     <string name="exo_track_role_closed_captions">Субтитри</string>
     <string name="exo_track_role_commentary">Коментар</string>
@@ -396,8 +401,10 @@
     <string name="fail_to_play">Неуспешно възпроизвеждане</string>
     <string name="failed_not_access_sd_card">Първо разрешете достъп до SD картата</string>
     <string name="failed_obtain_permissions">Не бяха получени разрешения.</string>
+    <string name="failed_to_connect_hint">Проверете мрежовите си настройки и опитайте отново</string>
+    <string name="failed_to_connect_text">Неуспешно свързване с мрежата</string>
     <string name="fans">Последователи</string>
-    <string name="fav_login_msg">Влезте във вашия Mi Профил, за да изтеглите песни</string>
+    <string name="fav_login_msg">Влезте в своя Mi Профил, за да теглите песни</string>
     <string name="favorite_canceled">Премахнато от любими</string>
     <string name="favorite_playlist">Моите любими</string>
     <string name="favorite_singer">Любими певци</string>
@@ -446,6 +453,7 @@
     <string name="high_sound_quality">високо</string>
     <string name="higher_quality_music">Музика с високо качество</string>
     <string name="higher_quality_music_summary">Слушайте и изтегляйте музика с високо качество</string>
+    <string name="hint_search_songs_playlists_artists">Търсете песни, плейлисти и изпълнители</string>
     <string name="home_tab_home">Начало</string>
     <string name="home_tab_local">Моята музика</string>
     <string name="home_tab_more_music">Още музика</string>
@@ -484,9 +492,10 @@
     <string name="installing_apk">Инсталиране…</string>
     <string name="insufficient_space">Няма достатъчно свободно място във вътрешната памет.</string>
     <string name="is_latest_version">Музиката е актуализирана.</string>
-    <string name="is_scanning">Сканира се, моля изчакайте</string>
-    <string name="is_scanning_support_online">Сканира се, моля изчакайте или изберете музика от таба онлайн.</string>
-    <string name="joox_account_bind_mi_account">Добави Mi профил</string>
+    <string name="is_scanning">Сканира се, моля изчакайте…</string>
+    <string name="is_scanning_support_online">"Сканира се, моля изчакайте…
+или изберете музика от таба онлайн."</string>
+    <string name="joox_account_bind_mi_account">Добавяне на Mi Профил</string>
     <string name="joox_account_cancel_login">Отказ</string>
     <string name="joox_account_continue_login">Вписване</string>
     <string name="joox_account_fans_center">Фенски център</string>
@@ -539,6 +548,7 @@
     <string name="loadercontainer_loading">Момент…</string>
     <string name="loading_hint">Момент…</string>
     <string name="loading_reached_the_bottom">Това е всичко засега.</string>
+    <string name="loading_text">Един момент…</string>
     <string name="local_header_title">Локална музика</string>
     <string name="local_music">Свалени песни</string>
     <string name="local_music_is_not_available">Вие нямате песни на вашето устройство.</string>
@@ -547,7 +557,7 @@
     <string name="local_page_playlist">Плейлисти</string>
     <string name="local_page_song_download_history">Изтегляния</string>
     <string name="login_instantly">Вход</string>
-    <string name="login_mi_account_and_gain_more_rights">Влезте със своя Mi профил, за да имате достъп до повече функционалности.</string>
+    <string name="login_mi_account_and_gain_more_rights">Влезте със своя Mi Профил, за да имате достъп до повече функции.</string>
     <string name="long_press_to_select_lyric">Натиснете &amp; задръжте, за да изберете файл с текстове</string>
     <string name="low_sound_quality">ниско</string>
     <string name="lrc_search_failed">Текстът на песента не е намерен</string>
@@ -577,7 +587,7 @@
     <string name="middle_sound_quality">стандартно</string>
     <string name="milink_unavaliable_please_update">Mi връзката не е достъпна. Обновете MIUI.</string>
     <string name="missing_title">&lt;Неизвестно></string>
-    <string name="miuishare_account_login_ok">Регистрация</string>
+    <string name="miuishare_account_login_ok">Вписване</string>
     <string name="miuishare_no_network">Няма мрежа, за да споделите</string>
     <string name="miuishare_publish">Изпрати</string>
     <string name="miuishare_share_editor_title">Сподели</string>
@@ -605,13 +615,15 @@
     <string name="music_settings">Музика</string>
     <string name="mv_metered_play_summary">Не показвай предупреждение​ за използване на данни</string>
     <string name="mv_metered_play_title">Гледайте видео клипове онлайн, използвайки мобилни данни</string>
-    <string name="my_account">Моят профил</string>
+    <string name="my_account">Mi Профил</string>
     <string name="my_music_empty">Няма песни в \"Моята музика\". Изтеглете или означете като любима музика в \"Онлайн музика\"</string>
     <string name="my_music_empty_goto_online">Плейлистът ви е празен! Добавете песни от таба Онлайн</string>
     <string name="my_playlist_add_song">Добавяне на песни</string>
     <string name="my_playlist_create_self_playlist">Създавай плейлисти с любимите си песни</string>
     <string name="my_playlist_set_to_private">Направи лична</string>
     <string name="my_playlist_set_to_public">Направи публична</string>
+    <string name="nav_app_bar_navigate_up_description">Придвижване нагоре</string>
+    <string name="nav_app_bar_open_drawer_description">Отваряне на слоя за навигация</string>
     <string name="network_disable">Неуспешно свързване с мрежата</string>
     <string name="network_error_and_retry">Връзката неуспешна. Натисни, за да опиташ отново.</string>
     <string name="network_request_error">Няма връзка с мрежата</string>
@@ -649,7 +661,7 @@
     <string name="notification_download_success_more">%1$d изтеглени</string>
     <string name="notification_need_wifi_for_size">Размерът за изтегляне изисква Wi-Fi.</string>
     <string name="notification_play_summary">Показване на текуща и следваща песен, плюс текст на Начален екран</string>
-    <string name="notification_play_title">Джаджа в лентата с известия</string>
+    <string name="notification_play_title">Приспособление в Лентата с известия</string>
     <string name="notification_recommend_summary">Научете за новата музика и промоциите в приложението</string>
     <string name="notification_recommend_title">Важни известия</string>
     <string name="notification_setting">Настройка на известия</string>
@@ -749,13 +761,12 @@
     <string name="privacy_authorize_revoking">Отмяна на упълномощение…</string>
     <string name="privacy_desc">Политика за поверителност (задължително)</string>
     <string name="privacy_policy">Политика за поверителност</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=bg_BG</string>
     <string name="privacy_request_desc">"&lt;Data>Mi Музика се нуждае да събира задължителна лична информация, за да ви предоставя услуги за гледане онлайн. Можете да научите как обработваме събраната информация в нашите &lt;a href=\"%1$s\">Правила за поверителност&lt;/a>. Можете да оттеглите съгласието си за Правилата за поверителност на Mi Музика в Настройки по всяко време.
 Прочетете и приемете нашето &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%1$s\">Правила за поверителност&lt;/a> преди да използвате Mi Музика.
 Ако не приемете да използвате гореспоменатите услуги, няма да можете да използвате някои от функциите на това приложение; но все пак ще имате достъп до основните му функции.&lt;/Data>"</string>
     <string name="privacy_request_subtitle">"Добре дошли в Mi Музика! Това приложение предоставя следните услуги:
-
 - Местен аудио плейър
-
 - Услуги за гледане онлайн"</string>
     <string name="privacy_request_title">Условия за ползване</string>
     <string name="pro_member">PRO член</string>
@@ -842,8 +853,8 @@
     <string name="set_as_ring">Задай като мелодия</string>
     <string name="set_online_home_subtitle">Отваряй онлайн препоръките, когато приложението се стартира</string>
     <string name="set_online_home_title">Показвай онлайн препоръки при стартиране</string>
-    <string name="set_ringtones_failed">Неуспешно задаване като мелодия.</string>
-    <string name="set_ringtones_successful">%s е зададена като мелодия на звънене.</string>
+    <string name="set_ringtones_failed">Неуспешно задаване като мелодия</string>
+    <string name="set_ringtones_successful">%s е зададена като мелодия</string>
     <string name="setting_feature_setting">Настройки за услуги</string>
     <string name="settings">Настройки</string>
     <string name="settings_search_key_notification">Музикални известия; Музика; Известия;Песни</string>
@@ -858,8 +869,8 @@
     <string name="share_failed">Не може да се сподели</string>
     <string name="share_image_error">Изображението не беше споделено поради грешка при изтеглянето</string>
     <string name="share_song">Споделяне</string>
-    <string name="share_text_list">Намерих невероятен списък за слушане в Mi Музика:</string>
-    <string name="share_text_song">Намерих невероятна песен в Mi Музика:</string>
+    <string name="share_text_list">"Намерих невероятен списък за слушане в Mi Музика: "</string>
+    <string name="share_text_song">"Намерих невероятна песен в Mi Музика: "</string>
     <string name="show_float_first_hint">Минимизирай плейъра</string>
     <string name="show_more">Покажи %s повече</string>
     <string name="shuffle_music">Разбъркано прослушване</string>
@@ -895,6 +906,7 @@
     <string name="start_to_download">Старирайте изтегляне…</string>
     <string name="start_to_play">Пусни</string>
     <string name="start_update">Инсталиране на нова версия…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Хранилище за клонирани приложения</string>
     <string name="storage_internal">Вътрешна памет</string>
     <string name="storage_sd_card">SD карта</string>
@@ -992,6 +1004,7 @@
     <string name="upload_playlist_to_hungama_title">Синхронизирайте онлайн песни с Hungama, за да имате достъп до тях на други устройства, в които използвате вашия Mi Профил.</string>
     <string name="upload_playlist_to_hungama_toast">Онлайн песни ще бъдат синхронизирвани с Hungama</string>
     <string name="user_agreement">Потребителско споразумение</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=bg_BG</string>
     <string name="user_playlist_plaza">Плейлисти</string>
     <string name="user_privacy_dialog_negative_text">Отказ</string>
     <string name="user_privacy_dialog_positive_count_down_text">Оттегляне (%sсек)</string>

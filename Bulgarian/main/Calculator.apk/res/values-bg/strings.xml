@@ -122,7 +122,7 @@
     <string name="dialog_privacy_title">Условия за ползване</string>
     <string name="dialog_rating_desc_ask">Какво е мнението Ви за калкулатор?</string>
     <string name="dialog_rating_desc_less">Можете ли да ни изпратите и Вашия отзив?</string>
-    <string name="dialog_rating_desc_perfect">Супер! Оценете калкулатор и в Google Play Магазин?</string>
+    <string name="dialog_rating_desc_perfect">Супер! Ще оцените ли Калкулатор и в App Store?</string>
     <string name="dialog_rating_title">Оценете приложението ни</string>
     <string name="digit0">0</string>
     <string name="digit1">1</string>
@@ -234,8 +234,10 @@
     <string name="label_from_date">От</string>
     <string name="label_history">История</string>
     <string name="label_interest">Лихва (процент)</string>
+    <string name="label_investment_disclaimer">Ние използваме три месечен период на смесване за повтарящи се калкулации</string>
     <string name="label_investment_duration">Продължителност</string>
     <string name="label_loan_tenure">Срок на заема</string>
+    <string name="label_monthly_investment">Месечна инвестиция</string>
     <string name="label_months">Месеци</string>
     <string name="label_no_history">Тук още няма елементи</string>
     <string name="label_powered_by">Поддържан от Mi Калкулатор</string>
@@ -286,7 +288,7 @@
     <string name="lpr_ok">Разбрах</string>
     <string name="lpr_tips_msg">"От 8 октомври 2019 лихвеният процент върху лични жилищни заеми ще бъде изчисляван въз основа на основния лихвен процент (ОЛП) вместо използвания преди базов лихвен процент от 4,9%. Сега окончателният процент ще бъде потвърждаван чрез добавяне на базисен пункт на ОЛП.
 
-Едногодишните и петгодишни ОЛП ще бъдатопределяни въз основа на пазарната цена на всяко 20-то число от месеца (поради национални празници е възможно възникването на забавяния) на уебсайта на Китайската народна банка."</string>
+Едногодишните и петгодишни ОЛП ще бъдат определяни въз основа на пазарната цена на всяко 20-то число от месеца (поради национални празници е възможно възникването на забавяния) на уебсайта на Китайската народна банка."</string>
     <string name="lpr_tips_title">ОЛП (основен лихвен процент)</string>
     <string name="medical_treatment">Медицинско лечение</string>
     <string name="menuDesc">меню</string>
@@ -511,6 +513,7 @@
     <string name="unit_data_display_currency_btn">Бутански нгултрум</string>
     <string name="unit_data_display_currency_bwp">Ботсванска пула</string>
     <string name="unit_data_display_currency_byn">Беларуска рубла</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Канадски долар</string>
     <string name="unit_data_display_currency_cdf">Конголийски франк</string>
     <string name="unit_data_display_currency_chf">Швейцарски франк</string>
@@ -848,8 +851,15 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sБ</string>
+    <string name="xiaomi_calculator_delete_description">Калкулатор е системно приложение. Няма да можете да използвате множество конвертери и допълнителни функции след като деинсталирате приложението.</string>
+    <string name="xiaomi_calculator_delete_title">Деинсталиране на Калкулатор?</string>
+    <string name="xiaomi_calculator_remove_icon_description">Калкулатор е системно приложение. Няма да можете да използвате множество конвертери и допълнителни функции след като премахнете приложението от Началния екран.</string>
+    <string name="xiaomi_calculator_remove_icon_title">Премахване на \"Калкулатор\" от Началния екран?</string>
     <string name="xiaomi_connect_download_manager_fail">Няма връзка с Изтегляния. Проверете дали това приложение има всички необходими разрешения в Настройки > Инсталирани приложения.</string>
     <string name="xiaomi_external_storage_unavailable">Паметта не е достъпна. Проверете вашата SD карта.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sКБ</string>
+    <string name="xiaomi_megabytes_unit">%1$sМБ</string>
     <string name="xiaomi_update_dialog_message">"Представяне на версия%1$s
 Размер:%2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Представяне на версия%1$s

@@ -247,7 +247,7 @@
     <string name="save">Запазване</string>
     <string name="search_menu_title">Търсене</string>
     <string name="slider_view_content_description">Плъзнете нагоре за изключване или надолу за рестартиране</string>
-    <string name="smart_home_title">Smart devices</string>
+    <string name="smart_home_title">Умни устройства</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting_title">Контролен център и статус лента</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>

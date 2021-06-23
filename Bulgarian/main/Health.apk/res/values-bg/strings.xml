@@ -52,6 +52,8 @@
     <string name="activity_title_statistic">Stats</string>
     <string name="add_model_card">"Tap the button in the upper left corner
 to add cards"</string>
+    <string name="add_model_card2">"Tap the button above to add cards.
+You'll be able to track your workouts and activity."</string>
     <string name="add_record">Add</string>
     <string name="afternoon">Следобяд</string>
     <string name="all_records">Всички записи</string>
@@ -122,6 +124,7 @@ to add cards"</string>
     <string name="close_once">Turn off once</string>
     <string name="collapse">Hide</string>
     <string name="complete_preference_basic_info">Complete your profile</string>
+    <string name="complete_progress">Напредък</string>
     <string name="completed">"Completed "</string>
     <string name="copy">Копиране</string>
     <string name="copy_done">Копирането е успешно</string>
@@ -155,7 +158,7 @@ to add cards"</string>
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Традиционен Китайски Календар</string>
     <string name="date_time_picker_dialog_title">Задаване на дата и час</string>
-    <string name="date_week_index">"yyyy 'W'ww"</string>
+    <string name="date_week_index">"yyyy 'С'ww"</string>
     <string name="day">ден</string>
     <string name="deep_light_detection_open_prompt">Your sleep cycle will be analyzed next time you go to bed</string>
     <string name="deep_sleep">Дълбок сън</string>
@@ -180,7 +183,7 @@ to add cards"</string>
     <string name="dialog_abandon_sleep_edit">Отказ от промените?</string>
     <string name="dialog_account_perm_desc">За достъп и вписване в профила на системата</string>
     <string name="dialog_agree">Agree</string>
-    <string name="dialog_agree_and_continue">Съгласен съм</string>
+    <string name="dialog_agree_and_continue">Приемам</string>
     <string name="dialog_agree_permission">Allow</string>
     <string name="dialog_allow">Allow</string>
     <string name="dialog_auto_start_detail">"Разрешете на Xiaomi Здраве да стартира автоматично, за да можете да получавате известия.
@@ -197,6 +200,7 @@ Xiaomi Здраве ще ви уведомява единствено за ва�
     <string name="dialog_delete_record_confirm">Delete this record?</string>
     <string name="dialog_exercise_purpose">Добре дошли в Xiaomi Здраве! \"Брояч на стъпки\" ви позволява да виждате колко стъпки правите през деня, както и да задавате и управлявате целите си за активност. Всякакви свързани данни ще се съхраняват локално на вашето устройство, което ви позволява лесно да управлявате тези данни.</string>
     <string name="dialog_exit">Изход</string>
+    <string name="dialog_exit_use">Exit</string>
     <string name="dialog_feedback_content">"If you don't agree to grant such permissions, you won't be able to use some features of this app; however, its basic functionality will still be available to you. You can always restrict permissions or revoke your authorization in the Settings."</string>
     <string name="dialog_feedback_purpose">Xiaomi Здраве се нуждае от достъп до паметта, за да може да изпраща отзиви.</string>
     <string name="dialog_feedback_purpose2">For submitting feedback</string>
@@ -227,6 +231,8 @@ Xiaomi Здраве ще ви уведомява единствено за ва�
     <string name="dialog_user_agreement_purpose2">Welcome to Xiaomi Health! You can use this app to count your steps, analyze sleep, track periods, record weight, and more.</string>
     <string name="disable">Изкл.</string>
     <string name="discard_update">Не, благодаря</string>
+    <string name="download_apk">Downloading %s…</string>
+    <string name="download_background">Download</string>
     <string name="dream_talk">Talking %1$s</string>
     <string name="dream_talk_record">You were recorded when you talked during in your sleep</string>
     <string name="dream_talk_title">Talking</string>
@@ -911,11 +917,11 @@ If this problem occurs frequently, check your device for scheduled shutdown task
     <string name="snore_write_description">For saving audio recordings to your device</string>
     <string name="sport_type">Workout type</string>
     <string name="standard_format">(standard: %1s)</string>
-    <string name="state_agree">Съгласен съм</string>
+    <string name="state_agree">Приемам</string>
     <string name="state_auto_run_disenable">изкл.</string>
     <string name="state_auto_run_enable">вкл.</string>
     <string name="state_disagree">Забранено</string>
-    <string name="state_disagree2">Не съм съгласен</string>
+    <string name="state_disagree2">Не приемам</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="subtitle_be_ready">Бъдете готова</string>
     <string name="subtitle_exercise_and_sleep">Бъдете физически активни и спете достатъчно.</string>
@@ -944,6 +950,7 @@ If this problem occurs frequently, check your device for scheduled shutdown task
     <string name="tb_mens_mark_success">Marked successfully</string>
     <string name="tb_mens_select_column">Cycle starts on%1$s.%2$s.%3$s.</string>
     <string name="tb_mens_unmark_success">Canceled successfully</string>
+    <string name="tb_step_widget" formatted="false">Днес. %1$s. Напредък: %2$d%</string>
     <string name="text_edit_exercise_goal">Променете целта</string>
     <string name="text_save_exercise_goal">Готово</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишнина от прекратяването на военно положение</string>
@@ -1060,6 +1067,7 @@ If this problem occurs frequently, check your device for scheduled shutdown task
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
     <string name="value_error_correct">Edit record</string>
+    <string name="view_step_and_progress">Прегледайте настоящия си брой стъпки</string>
     <string name="voice_remind">Увеличихме звука, за да можете да чувате инструкциите по-ясно.</string>
     <string name="walk">Ходене</string>
     <string name="wednesday">Сряда</string>

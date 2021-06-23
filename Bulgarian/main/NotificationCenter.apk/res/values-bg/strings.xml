@@ -53,6 +53,8 @@
     <string name="feedback_tip_cancel">Няма да бъдат събирани данни за известия.</string>
     <string name="feedback_tip_msg">За да можем да групираме известия с по-голяма точност, е нужно да събираме информация за имена на приложения, заглавия и описания на известия, и време на изпращане на съответното известие. Ще изпратите ли вашия отзиз?</string>
     <string name="feedback_tip_title">Отзив относно категориите на известия</string>
+    <string name="float_notification_snooze_strategy">Временно скриване</string>
+    <string name="float_notification_snooze_summary">Плъзнете нагоре плаващо известие, за да скриете временно входящите известия</string>
     <string name="float_notifications">Плаващи известия</string>
     <string name="float_notifications_short">Плаващи</string>
     <string name="fold_importance_default">Препоръчвани</string>
@@ -77,6 +79,10 @@
     <string name="menu_setting_tip_show_in_home">Известия от %s няма да бъдат групирани</string>
     <string name="menu_setting_tip_unfold">Всички известия от това приложение ще се считат за важни</string>
     <string name="menu_setting_unfold">Важно</string>
+    <string name="miui_snooze_always_float">Не скривай</string>
+    <string name="miui_snooze_cancel">Отказ</string>
+    <string name="miui_snooze_default_time">За %d минута</string>
+    <string name="miui_snooze_until_unlock_screen">Докато е заключен</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Изтеглете надолу за обновяване</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно обновяване</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Обновяване…</string>
@@ -96,6 +102,11 @@
     <string name="notification_aggregate_title">Групиране на известия</string>
     <string name="notification_display_setting">Лента с известия</string>
     <string name="notification_display_style">Стил на известията</string>
+    <string name="notification_fold_description1">Папката с известия бе представена в MIUI 9. Тази услуга разпределя маловажните известия и ги слага в отделна папка.</string>
+    <string name="notification_fold_description2">MIUI ще запомня известията, които сте докоснали и ще използва всеобхватен критерий, за да определи кое от тях е важно.</string>
+    <string name="notification_fold_description3">Ако все пак смятате, че важни за вас известия продължават да изчезват от лентата с известия, моля да ни изпратите доклад с обратна връзка. Вашата информация е ценна за нас.</string>
+    <string name="notification_fold_footer_icon_summary">Покажи иконите на приложенията, когато несъдържателни известия са групирани</string>
+    <string name="notification_fold_footer_icon_title">Покажи иконите на приложенията</string>
     <string name="notification_fold_summary">Автоматично групиране на незначителни известия</string>
     <string name="notification_fold_title">Групиране на известия</string>
     <string name="notification_keyguard_hide_content">Покажи известията, но скрий тяхното съдържание</string>
@@ -113,6 +124,7 @@
     <string name="settings_guide_title">Искате още настройки?</string>
     <string name="show_badge_notifications">Уведомителни значки</string>
     <string name="show_badge_notifications_short">Значки</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Статус лента</string>
     <string name="summary_aggregate_default">Промоционални пуш известия и пуш известия свързани с определено съдържание ще бъдат групирвани</string>
     <string name="summary_aggregate_home">Пуш известия няма да бъдат групирвани</string>

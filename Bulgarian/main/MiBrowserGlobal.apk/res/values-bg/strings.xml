@@ -1278,15 +1278,13 @@ ID:%s
     <string name="passport_wrong_vcode">Въведеният от Вас код е неправилен</string>
     <string name="passport_wrong_voice">Въведеният от Вас код е неправилен</string>
     <string name="password">Парола</string>
-    <string name="pay_failed_toast">Неуспешно плащане</string>
-    <string name="pay_success_toast">Успешно плащане</string>
     <string name="per_month">Месечно</string>
     <string name="permission_agree_service">Прочетох и съм съгласен с всички правила и условия по-долу.</string>
     <string name="permission_alert_window">За да можете да използвате тази функция, разрешете показване на изскачащи прозорци в Настройки.</string>
     <string name="permission_contacts">Контакти</string>
     <string name="permission_dialog_msg_camera">%s желае да използва вашата камера</string>
-    <string name="permission_dialog_msg_camera_mic">%s желае да използва вашата камера и микрофон</string>
-    <string name="permission_dialog_msg_mic">%s желае да използва вашия микрофон</string>
+    <string name="permission_dialog_msg_camera_mic">%s желае да използва Вашата камера и микрофон</string>
+    <string name="permission_dialog_msg_mic">%s желае да използва Вашия микрофон</string>
     <string name="permission_dialog_msg_midi_sysex">%s желае да контролира вашето MIDI устройство</string>
     <string name="permission_dialog_msg_protected_content">%s желае да възпроизведе защитено съдържание</string>
     <string name="permission_finish">Готово</string>
@@ -1302,7 +1300,7 @@ ID:%s
     <string name="permission_notification_prompt">Можете да ограничите уведомленията за този уебсайт в Настройки.</string>
     <string name="permission_open_camera">Първо разрешете на Mi Браузър да осъществява достъп до камерата в Настройки</string>
     <string name="permission_open_location">Първо разрешете на Mi Браузър да осъществява достъп до вашето местоположение в Настройки</string>
-    <string name="permission_open_mic">Първо разрешете на Mi Браузър да осъществява достъп до микрофона в Настройки</string>
+    <string name="permission_open_mic">Първо разрешете на Mi Браузър да получава достъп до микрофона в Настройки</string>
     <string name="permission_open_storage">Първо разрешете на Mi Браузър да осъществява достъп до вашата вътрешна памет в Настройки</string>
     <string name="permission_service">Правила и условия</string>
     <string name="permission_storage">Съхранение</string>
@@ -1481,7 +1479,7 @@ ID:%s
     <string name="pref_site_settings_location_ask">Сайтовете трябва да питат и да получат вашето разрешение, за да могат да получат достъп до вашето местоположение (препоръчвано)</string>
     <string name="pref_site_settings_location_permission">Включете разрешението за местоположение в &lt;font color=\"#247BFF\">Настройки на Android&lt;/font>.</string>
     <string name="pref_site_settings_mic">Микрофон</string>
-    <string name="pref_site_settings_mic_ask">Сайтовете трябва да питат и да получат вашето разрешение, за да могат да получат достъп до вашия микрофон (препоръчвано)</string>
+    <string name="pref_site_settings_mic_ask">Сайтовете трябва да питат за и да получат Вашето разрешение, за да могат да получат достъп до Вашия микрофон (препоръчвано)</string>
     <string name="pref_site_settings_mic_ask_permission">Включете разрешението за микрофон в &lt;font color=\"#247BFF\">Настройки на Android&lt;/font>.</string>
     <string name="pref_site_settings_midi_sysex_permission">Пълен контрол над MIDI устройство</string>
     <string name="pref_site_settings_notificaion">Известия</string>
@@ -1528,7 +1526,7 @@ ID:%s
     <string name="privacy_sub_title">Правила и условия</string>
     <string name="privacy_title">Добре дошли в Mi Браузър</string>
     <string name="private_title">Скрити файлове</string>
-    <string name="progress_dialog_setting_wallpaper">Тапетът се задава ...</string>
+    <string name="progress_dialog_setting_wallpaper">Тапетът се задава…</string>
     <string name="psw_hint">Парола</string>
     <string name="psw_sign_in">Впишете се с парола</string>
     <string name="pull_to_refresh">Изтеглете надолу за обновяване</string>
@@ -1919,10 +1917,10 @@ ID:%s
     <string name="v7_preference_on">ВКЛ.</string>
     <string name="v_code_title">Въведете код за проверка</string>
     <string name="verify_subscription">Обновяване на абонамента…</string>
-    <string name="version_check_button_checking">Проверка</string>
+    <string name="version_check_button_checking">Проверка…</string>
     <string name="version_check_button_default">Проверка за обновления</string>
     <string name="version_check_button_download_failed">Продължи изтеглянето</string>
-    <string name="version_check_button_downloading">Изтегля се</string>
+    <string name="version_check_button_downloading">Изтегля се…</string>
     <string name="version_check_button_install">Инсталирай</string>
     <string name="version_check_button_newest">Няма налични обновления</string>
     <string name="version_check_button_no_network">Няма връзка с мрежата</string>

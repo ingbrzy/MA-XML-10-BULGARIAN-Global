@@ -60,6 +60,10 @@
         <item quantity="other">Току що</item>
         <item quantity="one">Току що</item>
     </plurals>
+    <plurals name="miuix_appcompat_items_selected">
+        <item quantity="other">%d избрани елементи</item>
+        <item quantity="one">%d избран елемент</item>
+    </plurals>
     <plurals name="net_booster_expire_notification_tip">
         <item quantity="other">Остават %d дни преди сесията на Мрежов ускорител да приключи. Подновете я сега, за да се предпазите от проблеми със скоростта.</item>
         <item quantity="one">Остава %d ден преди сесията на Мрежов ускорител да приключи. Подновете я сега, за да се предпазите от проблеми със скоростта.</item>

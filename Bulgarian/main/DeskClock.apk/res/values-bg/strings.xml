@@ -53,7 +53,7 @@
     <string name="alarm_notify_snooze_label">%s отложено</string>
     <string name="alarm_notify_text">Отложи или изключи будилника.</string>
     <string name="alarm_repeat">Повторение</string>
-    <string name="alarm_ringtone">Мелодии за звънене на алармата</string>
+    <string name="alarm_ringtone">Мелодии на алармата</string>
     <string name="alarm_ringtone_picker">Будилници</string>
     <string name="alarm_settings">Настройки на аларма</string>
     <string name="alarm_settings_category_title">Настройки на аларма</string>
@@ -117,6 +117,7 @@
     <string name="clock_bg_button_setting_title">Цвят на фона</string>
     <string name="close">Затвори</string>
     <string name="close_alarm">Изключване</string>
+    <string name="close_alarm_new">Стоп</string>
     <string name="common_settings">Общи настройки</string>
     <string name="common_timer_selector">Избери таймер</string>
     <string name="confirm">Потвърди</string>
@@ -150,9 +151,9 @@
     <string name="dialog_legal_workday_and_off_day">&lt;Data>Изглежда използвате аларми за работни и почивни дни. За да работи нормално, тази функция има нужда от връзка с интернет. Преди да използвате тази функция, трябва да приемете нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%2$s\">Политика за поверителност&lt;/a>. Приемате ли?&lt;/Data></string>
     <string name="dialog_legal_workday_and_off_day_desc">На Часовник не е разрешено да се свързва с интернет, за да обновява информацията за почивните дни. Алармите за работни дни ще се пускат от понеделник до петък. Алармите за почивни дни ще се пускат в събота и неделя.</string>
     <string name="dialog_legal_workday_desc">На Часовник не е разрешено да се свързва с интернет, за да обновява информацията за работните дни. Алармите за работни дни ще се пускат от понеделник до петък.</string>
-    <string name="dialog_message_agree">Съгласен съм</string>
+    <string name="dialog_message_agree">Приемам</string>
     <string name="dialog_message_for_contact_permission">За да са налични аларми за рождени дни, Часовникът трябва да има достъп до контактите Ви. Съгласен ли сте?</string>
-    <string name="dialog_message_negative">Не съм съгласен</string>
+    <string name="dialog_message_negative">Не приемам</string>
     <string name="dialog_message_not_remind">Не показвай отново</string>
     <string name="dialog_net_permission_in_repeat_type">&lt;Data>За да работи нормално, тази функция има нужда от връзка с интернет. Преди да използвате тази функция, трябва да приемете нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%2$s\">Политика за поверителност&lt;/a>. Приемате ли?&lt;/Data></string>
     <string name="dialog_privacy_content">За да получавате данни за местните официални празници, да настройвате аларми и за да Ви предоставяме персонални услуги, \"Часовник\" се нуждае от връзка с интернет. Преди да използвате \"Часовник\", трябва също така да прочетете и да се съгласите с нашето %1$s и с %2$s. Съгласни ли сте?</string>
@@ -175,42 +176,58 @@
     <string name="every_day">Ежедневно</string>
     <string name="expand_button_title">Разширени</string>
     <string name="expired_timers_dismissed">Таймерът е успешно отхвърлен</string>
-    <string name="fmt_date_day">dd</string>
+    <string name="fmt_chinese_date">N月e</string>
+    <string name="fmt_date">D</string>
+    <string name="fmt_date_day">d</string>
     <string name="fmt_date_long_month">MMMM</string>
-    <string name="fmt_date_long_month_day">dd MMMM</string>
+    <string name="fmt_date_long_month_day">d MMMM</string>
     <string name="fmt_date_long_year_month">MMMM yyyy</string>
-    <string name="fmt_date_long_year_month_day">dd MMMM, yyyy</string>
-    <string name="fmt_date_numeric_day">dd</string>
-    <string name="fmt_date_numeric_month">MM</string>
-    <string name="fmt_date_numeric_month_day">dd/MM</string>
+    <string name="fmt_date_long_year_month_day">d MMMM yyyy</string>
+    <string name="fmt_date_numeric_day">d</string>
+    <string name="fmt_date_numeric_month">М</string>
+    <string name="fmt_date_numeric_month_day">d-M</string>
     <string name="fmt_date_numeric_year">yyyy</string>
-    <string name="fmt_date_numeric_year_month">MM/yyyy</string>
-    <string name="fmt_date_numeric_year_month_day">dd/MM/yyyy</string>
-    <string name="fmt_date_short_month">MM</string>
-    <string name="fmt_date_short_month_day">dd/MM</string>
+    <string name="fmt_date_numeric_year_month">M-yyyy</string>
+    <string name="fmt_date_numeric_year_month_day">d-M-yyyy</string>
+    <string name="fmt_date_short_month">MMM</string>
+    <string name="fmt_date_short_month_day">d MMM</string>
     <string name="fmt_date_short_year_month">MMM yyyy</string>
-    <string name="fmt_date_short_year_month_day">dd/MM/yyyy</string>
+    <string name="fmt_date_short_year_month_day">d MMM yyyy</string>
+    <string name="fmt_date_time">D T</string>
+    <string name="fmt_date_time_timezone">D T z</string>
+    <string name="fmt_date_timezone">D z</string>
     <string name="fmt_date_year">yyyy</string>
-    <string name="fmt_time_12hour">hh</string>
-    <string name="fmt_time_12hour_minute">hh:mm</string>
-    <string name="fmt_time_12hour_minute_pm">hh:mm aa</string>
-    <string name="fmt_time_12hour_minute_second">hh:mm:ss</string>
-    <string name="fmt_time_12hour_minute_second_millis">hh:mm:ss.S</string>
-    <string name="fmt_time_12hour_minute_second_millis_pm">hh:mm:ss.S aa</string>
-    <string name="fmt_time_12hour_minute_second_pm">hh:mm:ss aa</string>
-    <string name="fmt_time_12hour_pm">hh aa</string>
-    <string name="fmt_time_24hour">H</string>
-    <string name="fmt_time_24hour_minute">HH:mm</string>
-    <string name="fmt_time_24hour_minute_second">HH:mm:s</string>
-    <string name="fmt_time_24hour_minute_second_millis">HH:mm:ss.S</string>
-    <string name="fmt_time_millis">S</string>
-    <string name="fmt_time_minute">m</string>
-    <string name="fmt_time_minute_second">m:s</string>
-    <string name="fmt_time_minute_second_millis">m:s.S</string>
-    <string name="fmt_time_second">s</string>
-    <string name="fmt_time_second_millis">s.S</string>
+    <string name="fmt_time">T</string>
+    <string name="fmt_time_12hour">"h 'o''clock'"</string>
+    <string name="fmt_time_12hour_minute">h:mm</string>
+    <string name="fmt_time_12hour_minute_pm">h:mma</string>
+    <string name="fmt_time_12hour_minute_second">h:mm:ms</string>
+    <string name="fmt_time_12hour_minute_second_millis">h:mm:ss.S</string>
+    <string name="fmt_time_12hour_minute_second_millis_pm">h:mm:ss.S a</string>
+    <string name="fmt_time_12hour_minute_second_pm">h:mm:ss a</string>
+    <string name="fmt_time_12hour_pm">ha</string>
+    <string name="fmt_time_24hour">"H 'o''clock'"</string>
+    <string name="fmt_time_24hour_minute">H:mm</string>
+    <string name="fmt_time_24hour_minute_second">H:mm:ss</string>
+    <string name="fmt_time_24hour_minute_second_millis">H:mm:ss.S</string>
+    <string name="fmt_time_millis">"S'ms'"</string>
+    <string name="fmt_time_minute">"m'min'"</string>
+    <string name="fmt_time_minute_second">"m'min' s's'"</string>
+    <string name="fmt_time_minute_second_millis">"m'min' s.S's'"</string>
+    <string name="fmt_time_second">"s's'"</string>
+    <string name="fmt_time_second_millis">"s.S's'"</string>
+    <string name="fmt_time_timezone">T z</string>
+    <string name="fmt_timezone">z</string>
+    <string name="fmt_weekday">W</string>
+    <string name="fmt_weekday_date">W, D</string>
+    <string name="fmt_weekday_date_time">W, D T</string>
+    <string name="fmt_weekday_date_time_timezone">W, D T z</string>
+    <string name="fmt_weekday_date_timezone">W, D z</string>
     <string name="fmt_weekday_long">EEEE</string>
     <string name="fmt_weekday_short">E</string>
+    <string name="fmt_weekday_time">W T</string>
+    <string name="fmt_weekday_time_timezone">W T z</string>
+    <string name="fmt_weekday_timezone">W z</string>
     <string name="force_touch_add_alarm">Добави будилник</string>
     <string name="force_touch_enter_stopwatch">Хронометър</string>
     <string name="force_touch_enter_timer">Таймер</string>
@@ -269,7 +286,7 @@
     <string name="life_post_weather_no_network">Свържете се с мрежата за актуализиране на инф. за времето</string>
     <string name="life_post_weather_temperature_centigrade">°</string>
     <string name="listen_news_privacy">&lt;Data>За да Ви предоставим персонализирани услуги и за да включим сутрешни новини към алармите Ви, Часовник трябва да се свърже с интернет. Преди да използвате Часовник, трябва също да прочетете и да се съгласите с нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%2$s\">Политика за поверителност&lt;/a>. Съгласни ли сте?&lt;/Data></string>
-    <string name="loading_ringtone">Зареждане на мелодии...</string>
+    <string name="loading_ringtone">Зареждане на мелодии…</string>
     <string name="menu_add_worldclock">Часова зона</string>
     <string name="menu_desk_clock">Часовник</string>
     <string name="menu_edit_timer_item">Редактиране на задачата на таймера</string>
@@ -299,9 +316,9 @@
     <string name="miuix_sbl_tracking_progress_labe_up_none">Това е всичко за сега</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Един момент…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Неуспешно зареждане</string>
-    <string name="module_dialog_negative">Не съм съгласен</string>
+    <string name="module_dialog_negative">Не приемам</string>
     <string name="module_dialog_neutral">Разбрах</string>
-    <string name="module_dialog_positive">Съгласен съм</string>
+    <string name="module_dialog_positive">Приемам</string>
     <string name="module_download_cancel">Не, благодаря</string>
     <string name="module_download_data_msg">За да използвате умни аларми на MIUI, Часовник трябва да изтегли аудиофайлове. Умните аларми съдържат аудиофункции, които позволяват включването на информация за времето в момента в алармите. За това изтегляне ще са необходими ≈20 MB от мобилните Ви данни. Изтегляне сега?</string>
     <string name="module_download_data_msg_golbal">Часовникът трябва да изтегли аудио файлове за интелигентните аларми MIUI. За това изтегляне са необходими ≈ 20 MB от мобилните ви данни. Да изтегля ли сега?</string>
@@ -321,12 +338,12 @@
     <string name="module_unzipping">Разпакетиране на аудио…</string>
     <string name="module_update_success">Успешно е изтеглено обновено аудио за умните аларми на MIUI. Можете да настроите умните аларми на MIUI в настройките на Часовник.</string>
     <string name="module_update_success_control">Разбрах</string>
-    <string name="module_weather_ringtone_download_data">Алармата за времето избира различни мелодии на звънене според времето в момента. \"Часовник\" трябва да изтегли ок. 30 MB аудио, за да работи това. Изтегляне сега?</string>
-    <string name="module_weather_ringtone_download_data_privacy">&lt;Data>Алармата за времето избира различни тонове на звънене, според времето в момента. Часовник трябва да се свърже с интернет, за да изтегли ≈30 MB аудио. Преди да използвате Часовник, трябва също да прочетете и да се съгласите с нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%2$s\">Политика за поверителност&lt;/a>. Съгласни ли сте?&lt;/Data></string>
+    <string name="module_weather_ringtone_download_data">Алармата за времето избира различни мелодии на звънене според времето в момента. Часовник трябва да изтегли ок. 30 MB аудио, за да работи това. Изтегляне сега?</string>
+    <string name="module_weather_ringtone_download_data_privacy">&lt;Data>Алармата за времето избира различни тонове на звънене, според времето в момента. Часовник трябва да се свърже с интернет, за да изтегли ≈30 MB аудио. Преди да използвате Часовник, трябва също да прочетете и да приемете нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%2$s\">Правила за поверителност&lt;/a>. Приемате ли?&lt;/Data></string>
     <string name="module_weather_ringtone_download_wifi">Алармата за времето избира различни тонове на звънене според времето в момента. Часовник трябва да изтегли аудио, за да работи това. Изтегляне сега?</string>
-    <string name="module_weather_ringtone_download_wifi_privacy">&lt;Data>Алармата за времето избира различни тонове на звънене, според времето в момента. Часовник трябва да се свърже с интернет, за да изтегли аудио. Преди да използвате Часовник, трябва също да прочетете и да се съгласите с нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%2$s\">Политика за поверителност&lt;/a>. Съгласни ли сте?&lt;/Data></string>
+    <string name="module_weather_ringtone_download_wifi_privacy">&lt;Data>Алармата за времето избира различни тонове на звънене, според времето в момента. Часовник трябва да се свърже с интернет, за да изтегли аудио. Преди да използвате Часовник, трябва също да прочетете и да приемете нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%2$s\">Правила за поверителност&lt;/a>. Приемате ли?&lt;/Data></string>
     <string name="module_weather_ringtone_introduce">Алармата за времето избира различни мелодии на звънене според времето в момента. Освен това можете да чуете актуална информация за времето сутринта.</string>
-    <string name="module_weather_ringtone_introduce_global">Алармата за времето избира различни тонове на звънене според времето в момента.</string>
+    <string name="module_weather_ringtone_introduce_global">Алармата за времето избира различни мелодии според времето в момента.</string>
     <string name="module_weather_ringtone_update_data">Алармата за времето вече има фонова музика и по-добри гласови известия. Часовник трябва да изтегли ≈30 MB аудио, за да работи това. Изтегляне сега?</string>
     <string name="module_weather_ringtone_update_success">Алармата за времето вече има фонова музика и по-добри гласови известия. За да изпробвате тази функционалност, можете да настроите нова аларма.</string>
     <string name="module_week_ringtone_download_data">Природната аларма възпроизвежда различни звуци в зависимост от датата. Часовник трябва да изтегли ≈30 MB аудио, за да работи това. Изтегляне сега?</string>
@@ -397,6 +414,7 @@
     <string name="noon">Обед</string>
     <string name="normal_settings">Основни настройки</string>
     <string name="not_set">Не е зададено</string>
+    <string name="not_set_temporarily">Не, благодаря</string>
     <string name="not_update">Не сега</string>
     <string name="oneshot_alarm">Изтрий след включване</string>
     <string name="open_keep_screen">Екранът ще се съхранява</string>
@@ -426,7 +444,7 @@
     <string name="ringtone_dream">Блян</string>
     <string name="ringtone_firefly">Светулки</string>
     <string name="ringtone_more">Други</string>
-    <string name="ringtone_other">Още тонове на звънене</string>
+    <string name="ringtone_other">Още мелодии</string>
     <string name="ringtone_weather">Предупреждение за времето</string>
     <string name="ringtone_week">Природна аларма</string>
     <string name="saturday">Събота</string>
@@ -437,11 +455,13 @@
     <string name="search_stopwatch_keywords">Хронометър</string>
     <string name="search_timer_keywords">Таймер</string>
     <string name="search_worldclock_keywords">Време;Световен часовник;Часовник</string>
+    <string name="select_operation">Избор</string>
     <string name="send">Изпращане</string>
     <string name="set_alarm">Изберете час</string>
     <string name="set_alarm_choose_ringtone">Изберете мелодия</string>
     <string name="set_alarm_done">Готово</string>
     <string name="set_alarm_other">Друго</string>
+    <string name="set_now">Настройване</string>
     <string name="setting_alarm_arriving_subtitle">Показване на известия преди спиране на алармите</string>
     <string name="setting_alarm_arriving_summary">Изпращане на известие преди аларма</string>
     <string name="setting_alarm_arriving_title">Известие преди аларма</string>
@@ -452,11 +472,13 @@
     <string name="shortcut_stop_watch">Стартиране на хронометър</string>
     <string name="shut_down_keep_screen">Екранът няма да се съхранява</string>
     <string name="shutdown_alarm_alert_enable_summary">Алармите за изключване ще спират поне 10 минути, след като изключите устройството си</string>
+    <string name="shutdown_alarm_alert_enable_summary_new">Включете, за да разрешите на нагласени аларми да звънят при изключено устройство. Само аларми зададени за %d минути след изключване на устройството ще звъннат.</string>
     <string name="shutdown_alarm_alert_title">Аларма за изключване</string>
     <string name="shutdown_alarm_disable_summary">Алармата няма да се включва, когато устройствотото е изключено</string>
     <string name="shutdown_alarm_enable_summary">Алармата ще се включи, ако е настроена да се пусне най-малко 10 минути след изключване на устройството Ви</string>
     <string name="shutdown_alarm_title">Включване на телефона</string>
     <string name="silent_alarm_summary">Без звук</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Изключи еднократно на %s</string>
     <string name="sleep_analysis">Статистика</string>
     <string name="sleep_analysis_chart_date_format">dd/MM</string>
@@ -481,6 +503,7 @@
     <string name="sleep_time">Заспивай</string>
     <string name="sleep_wake_time">%1$s-%2$s</string>
     <string name="slider_text">Плъзнете нагоре за да изключите</string>
+    <string name="slider_text_new">Плъзнете нагоре за затваряне</string>
     <string name="snooze_confirm_cancel">Спри аларма</string>
     <string name="snooze_duration">Отлагане</string>
     <string name="snooze_duration_text">%1$s | %2$s</string>
@@ -499,6 +522,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Няма обиколки</string>
     <string name="stopwatch_reset_notification">Хронометъра беше нулиран</string>
     <string name="stopwatch_running_notification">Хронометър</string>
@@ -507,6 +531,7 @@
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>
     <string name="sunday_shortest">Нед.</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Разрешете на това приложение достъп до интернет, за да използвате всичките му функции.</string>
     <string name="system_permission_main_purpose">Преглед да часа, настройване на аларми и таймери, използване на секундомер</string>
     <string name="system_permission_purpose">Създаване на аларми за работните дни от седмицата и задаване на персонализирани тонове на звънене</string>
@@ -589,6 +614,7 @@
     <string name="timer_end_time_format">HH:mm dd MMM</string>
     <string name="timer_end_time_format_today">HH:mm</string>
     <string name="timer_got_it">ОК</string>
+    <string name="timer_got_it_new">Тишина</string>
     <string name="timer_is_paused">Таймерът е на пауза</string>
     <string name="timer_item_delete">Изтрий</string>
     <string name="timer_item_duration_display">%1$d мин. %2$d сек.</string>
@@ -638,6 +664,7 @@
     <string name="wednesday">Сряда</string>
     <string name="wednesday_short">Ср.</string>
     <string name="wednesday_shortest">Ср.</string>
+    <string name="week_ringtone_recommend_desc">Природната аларма възпроизвежда различни звуци в зависимост от датата. Желаете ли да ги настроите като аларма по подразбиране?</string>
     <string name="white_noise_selector">Избери аудио</string>
     <string name="workday_alarm_clock">През делничните дни</string>
     <string name="worldclock_empty_text">Няма часовници</string>
@@ -647,6 +674,7 @@
     <string name="worldclock_resident_city_text_detail">Двойният часовник е включен</string>
     <string name="worldclock_search_city">Избери град</string>
     <string name="worldclock_second_time">Часът в %s</string>
+    <string name="worldclock_second_time_desc">"%s: "</string>
     <string name="worldclock_title">Часовници</string>
     <string name="worldclock_world_time">Часови зони</string>
     <string name="worldcolock_date_display_prefix">В момента: </string>

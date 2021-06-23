@@ -79,12 +79,12 @@
     <string-array name="settings_search_contacts">
         <item>Синхронизиране на контактите с Xiaomi Cloud</item>
         <item>Включете/настройте синхронизирането</item>
-        <item>Контакти;История на обажданията;Облак;Синхронизация;Облачни услуги;Xiaomi Cloud</item>
+        <item>Контакти;Хронология на повикванията;Облак;Синхронизация;Облачни услуги;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_dial">
-        <item>Синхронизиране на историята на обажданията с Xiaomi Cloud</item>
+        <item>Синхронизиране на хронология на повикванията с Xiaomi Cloud</item>
         <item>Включете/настройте синхронизирането</item>
-        <item>История на обажданията;Облак;Синхронизация;Облачни услуги;Xiaomi Cloud</item>
+        <item>Хронология на повикванията;Облак;Синхронизация;Облачни услуги;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_find_pad">
         <item>Открий устройството</item>

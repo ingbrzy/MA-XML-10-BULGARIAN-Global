@@ -113,6 +113,7 @@
     <string name="clearable_edittext_clear_description">Почисти</string>
     <string name="click_to_restore">Възстановявайте системни елементи, за да можете да използвате MIUI нормално след връщане към фабрични настройки. Натиснете за начало.</string>
     <string name="com_android_email">Поща</string>
+    <string name="com_android_soundrecorder">Звукозапис</string>
     <string name="com_mi_liveassistant">Асистент за гледане на живо</string>
     <string name="com_miui_calculator">Калкулатор</string>
     <string name="com_miui_cleanmaster">Чистач</string>
@@ -121,12 +122,14 @@
     <string name="com_miui_huanji">Mi Mover</string>
     <string name="com_miui_notes">Бележки</string>
     <string name="com_miui_screenrecorder">Запис на екрана</string>
+    <string name="com_miui_virtualsim">Mi Роуминг</string>
     <string name="com_miui_weather2">Времето</string>
     <string name="com_xiaomi_drivemode">Режим Шофиране</string>
     <string name="com_xiaomi_gamecenter">Игри</string>
     <string name="com_xiaomi_jr">Mi Финанси</string>
     <string name="com_xiaomi_scanner">Скенер</string>
     <string name="com_xiaomi_shop">Mi Магазин</string>
+    <string name="com_xiaomi_vipaccount">Mi Общност</string>
     <string name="com_xiaomi_youpin">Youpin</string>
     <string name="confirm_description">Потвърди</string>
     <string name="country_name_ac">AC</string>
@@ -381,6 +384,7 @@
     <string name="earthly_branches_you">酉</string>
     <string name="earthly_branches_zi">子</string>
     <string name="email">Имейл</string>
+    <string name="empty" />
     <string name="eras_ad">AD</string>
     <string name="eras_bc">BC</string>
     <string name="error_forbidden">Възникнаха проблеми с вашия профил: Синхр. е деактивирана.</string>
@@ -388,6 +392,7 @@
     <string name="error_title">Грешка при синхр.</string>
     <string name="error_unauthorized">Твърде много опити за влизане: Синхр. е деактивирана.</string>
     <string name="evening">PM</string>
+    <string name="experience_new_system_app">Вижте новите функции!</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -533,6 +538,7 @@
     <string name="size_kilo_byte">КБ</string>
     <string name="size_mega_byte">МБ</string>
     <string name="size_peta_byte">ПБ</string>
+    <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">ТБ</string>
     <string name="solar_term_autumn_begins">Есента започва</string>
     <string name="solar_term_autumn_equinox">Есенно равноденствие</string>
@@ -567,6 +573,7 @@
     <string name="system_app_restore_failed">Възникна грешка</string>
     <string name="system_app_restore_failed_detail">Неуспешно възстановяване на системни елементи. Проверете вашите мрежови настройки и не рестартирайте или изключвайте вашето устройство докато елементите не са напълно възстановени. Натиснете бутона по-долу за повторен опит.</string>
     <string name="system_restore">Възстановяване на елементи</string>
+    <string name="tap_to_update_system_app">Натиснете, за да обновите системните приложения</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишнина от въвеждане на военно положение</string>
     <string name="the_anti_aggression_day">Ден за борба с агресията</string>
     <string name="the_arbor_day">Ден на дървото</string>
@@ -618,6 +625,7 @@
     <string name="tuesday">Вторник</string>
     <string name="tuesday_short">Вто</string>
     <string name="tuesday_shortest">В</string>
+    <string name="wait_for_wlan_china">Изчакване за WLAN</string>
     <string name="web_sso_login_fail">Трябва да се впишете отново</string>
     <string name="web_sso_login_message">Вписване…</string>
     <string name="website">Уебсайт</string>

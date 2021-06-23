@@ -235,9 +235,9 @@
     <string name="kid_mode_label">Режим Дете</string>
     <string name="list_empty_text">Празно</string>
     <string name="list_empty_text_xspace">Създайте още клонирани приложения и опитайте отново.</string>
-    <string name="loading">Един момент…</string>
+    <string name="loading">Момент…</string>
     <string name="loading_apps">Зареждане на приложения…</string>
-    <string name="loading_space">Един момент…</string>
+    <string name="loading_space">Момент…</string>
     <string name="loading_success">Зареждането е успешно.</string>
     <string name="lock_screen_open_second_space">Влез във второто работно място от заключен екран</string>
     <string name="master_clear_apply_step_1">Отмяната на разрешението изисква възстановяването на фабричните настройки на Вашето устройство. То ще изтрие перманентно всички файлове и данни, включително профили, контакти, снимки и приложения. Преди да отмените разрешението, архивирайте всички важни елементи в компютъра си.</string>
@@ -279,7 +279,6 @@
     <string name="notificationTitle">Пряк път в лентата с известия</string>
     <string name="notification_from_owner_user">Показване на известия от Основно работно място</string>
     <string name="notification_from_second_user">Показване на известия от Второ пространство</string>
-    <string name="notification_recommend_title">Топ 12 приложения за Второ пространство</string>
     <string name="notification_setting_second_space">Настройте Второ пространство</string>
     <string name="notification_setting_second_space_desc">Добавете парола за Второ пространство и преместете данни</string>
     <string name="ok_button">OК</string>
@@ -466,7 +465,7 @@
     <string name="use_xiaoai_open">Събуждане с Mi AI</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
-    <string name="wating">Един момент…</string>
+    <string name="wating">Момент…</string>
     <string name="weibo_send">Изпрати към Weibo</string>
     <string name="weixin_pay">WeChat Pay</string>
     <string name="weixin_share_sign">Впишете се и споделете</string>
@@ -488,10 +487,14 @@
     <string name="xspace_disable">Не е създаден</string>
     <string name="xspace_enable">Създаден</string>
     <string name="xspace_facebook_title">Facebook</string>
-    <string name="xspace_guide_des">Използване на два профила без превключване</string>
-    <string name="xspace_guide_title">Създайте клонирано приложение</string>
+    <string name="xspace_guide_content_bound">Достъпни приложения</string>
+    <string name="xspace_guide_des">Клонираните приложения ви позволяват да използвате два профила едновременно без да излизате от единия, за да влезете в другия</string>
+    <string name="xspace_guide_description">"Всеки профил
+заслужава собствено приложение"</string>
+    <string name="xspace_guide_title">Изпробване на Клонирани приложения</string>
     <string name="xspace_header">Клонирани приложения</string>
     <string name="xspace_instagram_title">Instagram</string>
+    <string name="xspace_install_complete">&lt;font>Успешно създаване на клонирано приложение. &lt;/font>&lt;font color=#0D84FF>Отвори сега&lt;/font>.</string>
     <string name="xspace_install_completed">Иконата е добавена на начален екран</string>
     <string name="xspace_install_completed_global">Иконката е добавена към лаунчъра</string>
     <string name="xspace_install_failed">Не може да се създаде</string>
@@ -500,11 +503,13 @@
     <string name="xspace_label">Клонирани приложения</string>
     <string name="xspace_loading_msg">Зареждане на приложения…</string>
     <string name="xspace_notification">Известия от приложения с два профила</string>
+    <string name="xspace_notification_button">Изпробване</string>
     <string name="xspace_notification_error">Влез в двойния WeChat профил и опитай отново</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="xspace_remove">Изтриване на профилите в Клонирани приложения</string>
     <string name="xspace_setting_label">Настройки за клонирани приложения</string>
     <string name="xspace_settins">Задай</string>
+    <string name="xspace_start">Създаване</string>
     <string name="xspace_uninstall_completed">Клонираните приложения бяха премахнати успешно.</string>
     <string name="xspace_uninstall_dialog_content">Деинсталирането на клонираните приложения ще изтрие и данните им.</string>
     <string name="xspace_uninstall_dialog_title">Деинсталиране на клонирани прил.</string>
