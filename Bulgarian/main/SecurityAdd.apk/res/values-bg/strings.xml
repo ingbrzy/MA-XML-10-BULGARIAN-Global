@@ -57,7 +57,6 @@
     <string name="dual_app_title">Клонирани приложения</string>
     <string name="dual_app_words">Всеки профил заслужава собствено приложение</string>
     <string name="early_morning">Сутрин</string>
-    <string name="empty">" "</string>
     <string name="eras_ad">н.е.</string>
     <string name="eras_bc">пр.Хр.</string>
     <string name="evening">Следобед</string>
@@ -311,7 +310,6 @@
     <string name="search_menu_title">Търсене</string>
     <string name="send">Изпращане</string>
     <string name="share">Споделяне</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>
     <string name="sunday_shortest">Нед.</string>
