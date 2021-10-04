@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Freeform</string>
+    <string name="app_name">Плаващи прозорци</string>
+    <string name="bottom_bar_smallwindow_text">Отпуснете за закачане</string>
     <string name="contentDescription">Преместване на прозореца</string>
     <string name="freeform_demo_back">Назад</string>
     <string name="freeform_demo_final_over">Готово</string>
@@ -9,6 +10,10 @@
     <string name="freeform_demo_go_on">Напред</string>
     <string name="freeform_demo_title_finish">Супер!</string>
     <string name="freeform_demo_title_skip">Пропусни</string>
+    <string name="freeform_slide_to_small_freeform">Минимизиране на плаващ прозорец</string>
+    <string name="freeform_slide_to_small_freeform_summary">Натиснете и задръжте лентата за действие и довлачете до някой ъгъл</string>
+    <string name="fullscreen_slide_to_small_freeform">Минимизиране на приложение</string>
+    <string name="fullscreen_slide_to_small_freeform_summary">Плъзнете от дъното на екрата до горния десен ъгъл</string>
     <string name="how_to_close_or_fullscreen_freeform">Затваряне на плаващи прозорци или превключване към режим пълен екран</string>
     <string name="how_to_drop_down_to_fullscreen">Преминаване към режим пълен екран</string>
     <string name="how_to_drop_down_to_fullscreen_summary">Натиснете и задръжте, после дръпнете надолу прозореца за действие на плаващия прозорец</string>

@@ -36,18 +36,21 @@
     <string name="app_ver_name">1.0</string>
     <string name="casting_tips">Проектиране…</string>
     <string name="clearable_edittext_clear_description">Изчисти</string>
+    <string name="close">Затваряне</string>
     <string name="close_hotspot_hint">Изключете мобилния хотспот преди прожекция</string>
     <string name="close_slave_wifi_hint">Прекъснете връзката с помощни Wi-Fi мрежи, преди прожекция</string>
     <string name="close_slave_wifi_hint_china">Disconnect from auxiliary WLAN networks before casting</string>
+    <string name="common_google_play_services_unknown_issue">%1$s има проблеми с услугите за Google Play. Моля, опитайте отново.</string>
     <string name="console_guide_btn_got_it">Разбрах</string>
     <string name="console_guide_subtitle_hang_up">Можете да продължавате да проектирате и при изключен екран на устройството. Тази функция намалява консумацията на батерия.</string>
-    <string name="console_guide_subtitle_private">Не показвай плаващи известия, входящи обаждания и други лични неща на външни монитори</string>
+    <string name="console_guide_subtitle_private">Не показвай плаващи известия, входящи повиквания и други лични неща на външни монитори</string>
     <string name="console_guide_subtitle_small_window">Минимизирайте прозореца, който се проектира, за да можете да използвате други функции на телефона си</string>
     <string name="copy">Копиране</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Традиционен Китайски Календар</string>
+    <string name="date_time_picker_dialog_title">Задаване на дата и час</string>
     <string name="device_desc_trust">Доверени устройства</string>
     <string name="dialog_can_not_find_device">Не са открити устройства в близост</string>
     <string name="dialog_cancle">Отказ</string>
@@ -57,6 +60,8 @@
     <string name="dialog_connect_verify_perssion_fail">Неуспешно одобряване на проектиране на Вашия телевизор. Изчакайте една-две минути и опитайте отново.</string>
     <string name="dialog_connected">Установена е връзка</string>
     <string name="dialog_connecting">Свързване…</string>
+    <string name="dialog_location_permission_message">Това приложение се нуждае от достъп до Вашето местоположение, за да може да открива външни монитори наблизо. Когато давате разрешение, изберете \"Винаги позволявай\", за да избегнете възможни грешки.</string>
+    <string name="dialog_location_permission_title">Изискват се разрешения</string>
     <string name="dialog_miplay_permission_message">За да можете да използвате тази функция нормално, разрешете на Прожекция да записва аудио, да получава достъп до файлове във вътрешната памет и достъп до местоположението ви. Натиснете \"Настройки\" и изберете \"Разрешения за приложения\", за да продължите.</string>
     <string name="dialog_miplay_permission_positive">Настройки</string>
     <string name="dialog_miplay_permission_title">Необходими са разрешения</string>
@@ -78,6 +83,8 @@
 2. В телевизора тази функция е налична само когато функцията Огледален екран е включена. Натиснете \"Преглед\", за да научите повече."</string>
     <string name="dialog_scanning_device">Търсене на устройства в близост…</string>
     <string name="dialog_scanning_precondition">Включете Wi-Fi и Bluetooth на телефона си, за да използвате Безжичен дисплей.</string>
+    <string name="dialog_scanning_precondition_new_china">Turn on WLAN, Bluetooth, and location services to be able to use casting. Turn on now?</string>
+    <string name="dialog_scanning_precondition_new_global">За да можете да ползвате излъчването, трябва да включите Wi-Fi, Bluetooth и услугите за местоположение. Да се включат ли сега?</string>
     <string name="dialog_select_tv">Изберете устройство (%d)</string>
     <string name="dialog_show_help">Помощ</string>
     <string name="disconnect">Спиране на проекцията</string>
@@ -127,6 +134,14 @@
     <string name="friday">Петък</string>
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
+    <string name="global_privacy">Правила и условия</string>
+    <string name="global_privacy_detail">&lt;Data>Прочетете и приемете нашето &lt;a href=%1$s>Потребителско споразумение&lt;/a> и &lt;a href=%2$s>Правила за поверителност&lt;/a> преди да използвате това приложение.&lt;br>Ако не приемате да използвате гореспоменатите услуги, няма да можете да използвате някои от функциите на това приложение, но все още ще имате достъп до основните му функции.&lt;/Data></string>
+    <string name="global_privacy_explain">Добре дошли в Прожекция! Това приложение предоставя следните услуги:</string>
+    <string name="global_privacy_feature">Употреба на минимизирани прозорци, прожектиране с изключен екран и скриване на лични елементи.</string>
+    <string name="global_privacy_main">Прожектиране на елементите от екрана на вашия телефон върху по-голям външен монитор.</string>
+    <string name="global_privacy_negative">Не приемам</string>
+    <string name="global_privacy_positive">Приемам</string>
+    <string name="global_privacy_tip">&lt;Data>За да ви предоставим основните услуги и да оптимизираме процеса на прожектиране, се нуждаем да събираме необходими лични данни. Можете да научите как обработваме събраната информация в нашите &lt;a href=%1$s>Правила за поверителност&lt;/a>. Можете да оттеглите съгласието си за Правилата за поверителност по всяко време в Настройки.&lt;/Data></string>
     <string name="hang_up">Проектиране с изключен екран</string>
     <string name="hang_up_alert_dialog_content">Продължавайте да проектирате и при изключен екран на устройството. Тази функция намалява консумацията на батерия. Натиснете бутона за включване, за да се покаже отново екрана.</string>
     <string name="hang_up_alert_dialog_neg">Отказ</string>
@@ -208,9 +223,28 @@
     <string name="help_page_text_end">Ако марката на Вашето устройство не е изброена тук, свържете се с производителя, за да разберете повече за функционалността на проектирането.</string>
     <string name="keyguard_security_setting_privacy_policy">Правила за поверителност</string>
     <string name="midnight">Нощ</string>
-    <string name="miuix_appcompat_cloud_state_disabled">Синхронизирането с облака е изключено</string>
-    <string name="miuix_appcompat_cloud_state_finished">Успешно синхронизиране с облака</string>
-    <string name="miuix_appcompat_cloud_state_syncing">Синхронизиране с облака…</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Размаркиране на всички</string>
+    <string name="miuix_appcompat_action_mode_select_all">Избиране на всички</string>
+    <string name="miuix_appcompat_action_mode_title_empty">Изберете елементи</string>
+    <string name="miuix_appcompat_actionbar_immersion_button_more_description">Повече</string>
+    <string name="miuix_appcompat_cancel_description">Отказ</string>
+    <string name="miuix_appcompat_confirm_description">Потвърди</string>
+    <string name="miuix_appcompat_delete_description">Изтрий</string>
+    <string name="miuix_appcompat_deselect_all">Отмаркиране</string>
+    <string name="miuix_appcompat_deselect_all_description">Размаркирай всички</string>
+    <string name="miuix_appcompat_search_action_mode_cancel">Отказ</string>
+    <string name="miuix_appcompat_search_input_description">Търси</string>
+    <string name="miuix_appcompat_select_all">Избери всички</string>
+    <string name="miuix_appcompat_select_all_description">Избери всички</string>
+    <string name="miuix_appcompat_select_item">Изберете елементи</string>
+    <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Изтеглете надолу за обновяване</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно обновяване</string>
+    <string name="miuix_sbl_tracking_progress_labe_refreshing">Обновяване…</string>
+    <string name="miuix_sbl_tracking_progress_labe_release_to_refresh">Отпуснете за обновяване</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_nodata">Това е всичко за сега</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_none">Това е всичко за сега</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh">Един момент…</string>
+    <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Неуспешно зареждане</string>
     <string name="monday">Понеделник</string>
     <string name="monday_short">Пон.</string>
     <string name="monday_shortest">Пон.</string>
@@ -331,6 +365,7 @@
     <string name="screen_projection_sample_title">Демо</string>
     <string name="screen_projection_title">Прожекция</string>
     <string name="search_menu_title">Търсене</string>
+    <string name="send">Изпращане</string>
     <string name="small_window">Минимизиране на прозореца</string>
     <string name="small_window_not_supported">Приложението не може да бъде минимизирано докато се извършва излъчване</string>
     <string name="status_bar_in_casting">Прожектиране…</string>

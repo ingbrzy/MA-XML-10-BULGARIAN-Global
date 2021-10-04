@@ -76,6 +76,14 @@
         <item quantity="other">%d папки</item>
         <item quantity="one">%d папка</item>
     </plurals>
+    <plurals name="long_video_minute">
+        <item quantity="other">%d мин</item>
+        <item quantity="one">%d мин</item>
+    </plurals>
+    <plurals name="long_video_season">
+        <item quantity="other">%d сезона</item>
+        <item quantity="one">%d сезон</item>
+    </plurals>
     <plurals name="lv_subtitle_offset_advance_times">
         <item quantity="other">Субтитрите ще бъдат показвани %.1f секунди по-рано</item>
         <item quantity="one">Субтитрите ще бъдат показвани %.1f секунда по-рано</item>

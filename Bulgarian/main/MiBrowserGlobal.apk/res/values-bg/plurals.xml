@@ -176,41 +176,13 @@
         <item quantity="other">%d популярни песни</item>
         <item quantity="one">%d популярнa песeн</item>
     </plurals>
-    <plurals name="transfer_prompt">
-        <item quantity="other">Възпроизвеждане на видеото за %1$d секунди</item>
-        <item quantity="one">Възпроизвеждане на видеото за %1$d секунда</item>
-    </plurals>
     <plurals name="v5_edit_mode_title">
-        <item quantity="other">%1$d избрани</item>
-        <item quantity="one">%1$d избран</item>
+        <item quantity="other">Избрани са %1$d елемента</item>
+        <item quantity="one">Избран е %1$d елемент</item>
     </plurals>
     <plurals name="video_collection_reminder_view">
         <item quantity="other">От дълго време не сте гледали %d любими клипове.</item>
         <item quantity="one">От дълго време не сте гледали %d любим клип.</item>
-    </plurals>
-    <plurals name="video_download_clear_info">
-        <item quantity="other">Премахнахте успешно %1$d видеота.</item>
-        <item quantity="one">Премахнахте успешно %1$d видео.</item>
-    </plurals>
-    <plurals name="video_download_clear_prompt">
-        <item quantity="other">Да се изтрият ли %1$d видеота?</item>
-        <item quantity="one">Да се изтрие ли %1$d видео?</item>
-    </plurals>
-    <plurals name="video_history_clear_info">
-        <item quantity="other">%1$d елемента са изтрити от историята.</item>
-        <item quantity="one">%1$d елемент е изтрит от историята.</item>
-    </plurals>
-    <plurals name="video_history_clear_prompt">
-        <item quantity="other">Да се изтрият ли %1$d елементи от историята?</item>
-        <item quantity="one">Да се изтрие ли %1$d елемент от историята?</item>
-    </plurals>
-    <plurals name="video_push_multi_message">
-        <item quantity="other">Налични %1$d обновления.</item>
-        <item quantity="one">Налично %1$d обновление.</item>
-    </plurals>
-    <plurals name="video_subtitle_last_message">
-        <item quantity="other">%d минути остават</item>
-        <item quantity="one">%d минута остава</item>
     </plurals>
     <plurals name="videos_updated_amount">
         <item quantity="other">Вижте %1$d нови видео клипове</item>

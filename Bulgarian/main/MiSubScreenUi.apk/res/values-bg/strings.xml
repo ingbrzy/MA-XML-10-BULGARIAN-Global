@@ -28,13 +28,19 @@
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
     <string name="actionbar_button_up_description">Назад</string>
+    <string name="add_emergency_contact">Добавете спешен контакт</string>
     <string name="afternoon">Следобяд</string>
     <string name="alarm_close">Плъзнете нагоре и изключете</string>
     <string name="alarm_later">Отлагане</string>
     <string name="align_type">Подредба</string>
     <string name="am">AM</string>
     <string name="aod_component">Постоянно включен дисплей</string>
+    <string name="aod_lock_screen_date">EEE dd/MM</string>
+    <string name="aod_lock_screen_date_signature">dd/MM</string>
+    <string name="aod_lock_screen_date_v">"EEE
+dd/MM"</string>
     <string name="aod_show_date_and_time">Дата и час</string>
+    <string name="app_name">Заден екран</string>
     <string name="apply">Приложи</string>
     <string name="apply_succeed">Настройката е приложена</string>
     <string name="background_icon">Фон</string>
@@ -105,6 +111,7 @@
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
     <string name="gallery_page_name">From Gallery</string>
+    <string name="has_add_contact">Добавен</string>
     <string name="icon_content_description">Икона за диалогов прозорец</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
     <string name="letter_space">Разстояние между символите</string>
@@ -191,6 +198,7 @@
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -219,6 +227,7 @@
     <string name="mtrl_picker_toggle_to_year_selection">Докоснете, за да превключите към избиране на година</string>
     <string name="night">Вечер</string>
     <string name="noon">Обед</string>
+    <string name="not_add_contact">Не е добавен</string>
     <string name="not_set">Не е зададено</string>
     <string name="notification_new_message">Ново съобщение</string>
     <string name="page_detail_preview_tip">Обърнете телефона за предварителен преглед</string>
@@ -236,18 +245,19 @@
     <string name="saturday_shortest">Сб.</string>
     <string name="search_menu_title">Търсене</string>
     <string name="send">Изпращане</string>
-    <string name="small_display_style">Тема на Заден дисплей</string>
+    <string name="small_display_style">Заден дисплей</string>
+    <string name="sps_cancel">Натиснете и задръжте, за да излезете</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_to_image_community">Открийте още в Mi Общност</string>
-    <string name="sub_screen_app_name">Заден дисплей</string>
+    <string name="subscreen_could_edit_pic">Плъзнете изображение, за да го мащабирате, натиснете и задръжте, за да изтриете</string>
     <string name="subscreen_other">Други</string>
     <string name="subscreen_other_dialog_cancel">Отказ</string>
-    <string name="subscreen_other_dialog_confirm">ОК</string>
+    <string name="subscreen_other_dialog_confirm">Включване</string>
     <string name="subscreen_other_dialog_goto">Добавяне</string>
-    <string name="subscreen_other_dialog_message">Супер икономия на батерията деактивира главния екран. Ще можете единствено да проверявате времето, да приемате повиквания и да звъните на вашия спешен контакт използвайки Задния дисплей. Вашето устройство ще работи до %d дни на едно зареждане когато е активирана Супер икономия на батерията. Желаете ли да активирате Супер икономия на батерията сега?</string>
+    <string name="subscreen_other_dialog_message">Супер икономия на батерия деактивира главния екран. Ще можете единствено да проверявате времето, да приемате повиквания и да звъните на Вашия предварително зададен спешен контакт. Нашите тестове показват, че Вашето устройство може да работи до %d дни с едно зареждане когато е включена Супер икономия на батерия. Но е възможно този период от време да е по-кратък в зависимост от различни фактори. Желаете ли да включите Супер икономия на батерия сега?</string>
     <string name="subscreen_other_dialog_title">Супер икономия на батерията</string>
     <string name="subscreen_other_next_dialog_message">Трябва да добавите спешен контакт преди да използвате Супер икономия на батерията. Добавяне сега?</string>
-    <string name="subscreen_other_wilderness_summary">Супер икономия на батерията деактивира главния екран. Ще можете единствено да проверявате времето, да приемате повиквания и да звъните на вашия спешен контакт използвайки Задния дисплей. Вашето устройство ще работи до %d дни на едно зареждане когато е активирана Супер икономия на батерията.</string>
+    <string name="subscreen_other_wilderness_summary">Супер икономия на батерия деактивира главния екран. Ще можете единствено да проверявате времето, да приемате повиквания и да звъните на Вашия предварително зададен спешен контакт. Нашите тестове показват, че Вашето устройство може да работи до %d дни с едно зареждане когато е включена Супер икономия на батерия. Но е възможно този период от време да е по-кратък в зависимост от различни фактори.</string>
     <string name="subscreen_other_wilderness_title">Супер икономия на батерията</string>
     <string name="subscreen_settings_fail">Неуспешно извършване на действието</string>
     <string name="subscreen_settings_mode">Изключване след</string>
@@ -328,6 +338,9 @@
     <string name="wednesday">Сряда</string>
     <string name="wednesday_short">Ср.</string>
     <string name="wednesday_shortest">Ср.</string>
+    <string name="wilderness_dcalling">Свързан</string>
+    <string name="wilderness_dialing">Набиране</string>
+    <string name="wilderness_is_starting">Включване на Супер икономия на батерията…</string>
     <string name="wireless_change_to_ac_charging">Превключване към зареждане от кабел</string>
     <string name="yesterday">Вчера</string>
 </resources>

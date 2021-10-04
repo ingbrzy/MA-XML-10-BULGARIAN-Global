@@ -131,6 +131,7 @@
     <string name="accessibility_keyguard_face_unlock_view">Отключване с лице</string>
     <string name="accessibility_left_control_center_button">Пряк път</string>
     <string name="accessibility_left_lock_screen_magazine_button">Сменящи се тапети</string>
+    <string name="accessibility_left_xmyzl_button">Xiaomi Magic Control</string>
     <string name="accessibility_location_active">Активни заявки за местоположение</string>
     <string name="accessibility_long_click_tile">Отваряне на настройките</string>
     <string name="accessibility_manage_notification">Управление на известията</string>
@@ -522,7 +523,7 @@
     <string name="broadcast_tile">Плочка за излъчване</string>
     <string name="bt_hci_snoop_log">Активиране на регистрационния файл за анализ на пакетите в команден ред за Bluetooth с протокола HCI</string>
     <string name="bt_hci_snoop_log_summary">Хващане на Bluetooth пакети (Превключете Bluetooth след като промените тази настройка).</string>
-    <string name="bt_is_off">Функцията за Bluetooth е изключена</string>
+    <string name="bt_is_off">Bluetooth е изкл</string>
     <string name="bubble_accessibility_action_add_back">Добавяне обратно към стека</string>
     <string name="bubble_accessibility_action_move">Преместване</string>
     <string name="bubble_accessibility_action_move_bottom_left">Преместване долу вляво</string>
@@ -559,6 +560,7 @@
     <string name="cell_data_off">Изключени</string>
     <string name="cell_data_off_content_description">Мобилните данни са изключени</string>
     <string name="charge_length_format">Преди %1$s</string>
+    <string name="choose_clock_dual_clock_hint_text">Не можете да сменяте формата когато е включен Двоен часовник</string>
     <string name="choose_clock_panel_title">Оформление на Заключен екран</string>
     <string name="choose_clock_third_theme_hint_text">Заключен екран с изображение от избраната в момента тема</string>
     <string name="choose_clock_title_left_top">Подравнено наляво</string>
@@ -702,6 +704,9 @@
     <string name="development_settings_not_available">Настройките за програмиране не са достъпни за този потребител</string>
     <string name="development_settings_summary">Задаване на настройки за разработка на приложения</string>
     <string name="development_settings_title">Опции на програмиста</string>
+    <string name="device_locked_without_biometric">Не можете да отключите това устройство с пръстов отпечатък или лицеви данни когато използвате заключване на екрана от трета страна</string>
+    <string name="device_locked_without_biometric_face">Не можете да отключите това устройство с лицеви данни когато използвате заключване на екрана от трета страна</string>
+    <string name="device_locked_without_biometric_finger">Не можете да отключите това устройство с пръстов отпечатък когато използвате заключване на екрана от трета страна</string>
     <string name="device_services">Услуги за устройството</string>
     <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Забележка: След рестартиране, това приложение няма да стартира докато не отключите устройството си.</string>
@@ -777,6 +782,7 @@
     <string name="face_unlock_pin_and_fingerprint">Въведете PIN код или използвайте пръстов отпечатък за отключване</string>
     <string name="face_unlock_reveal_eye">Очите ви трябва да се виждат</string>
     <string name="face_unlock_reveal_mouth">Устните ви трябва да се виждат</string>
+    <string name="face_unlock_success">Успешно отключен</string>
     <string name="failed_to_open_app_settings_toast">Неуспешно отваряне на настройките за %1$s</string>
     <string name="fingerprint_add_text">Скенерът за пръстовите отпечатъци е актуализиран. Добавете пръстовите си отпечатъци отново.</string>
     <string name="fingerprint_add_title">Добавяне на пръстов отпечатък</string>
@@ -805,6 +811,7 @@
     <string name="fs_gesture_back_ready_title">Назад</string>
     <string name="fs_gesture_final_over">Готово</string>
     <string name="fs_gesture_final_restart">Още веднъж</string>
+    <string name="fs_gesture_final_see_more">Вижте още демота в Настройки > Начален екран > Системна навигация</string>
     <string name="fs_gesture_final_summary">Вие можете да се върнете обратно към използване на бутоните в Настройки > Показване на цял екран</string>
     <string name="fs_gesture_final_title">Готови сте да започнете!</string>
     <string name="fs_gesture_finish">Отлично!</string>
@@ -925,13 +932,15 @@
     <string name="input_lockscreen_password_hint_text">Въведете парола</string>
     <string name="input_lockscreen_pattern_hint_text">Начертайте фигура</string>
     <string name="input_lockscreen_pin_hint_text">Въведете PIN код</string>
-    <string name="input_password_after_boot_msg">За да отключите вашето устройство, въведете паролата си</string>
+    <string name="input_password_after_boot_msg">При рестартиране на устройството се изисква въвеждане на парола</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_calling">Не може да се превключва между пространства по време на обаждане</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">Не може да се превключи между работните места, когато услугата Родителски контрол е включена</string>
     <string name="input_password_after_boot_msg_can_not_switch_when_superpower_active">Не може да се превключва между пространства, когато Свръх икономия на батерия е вкл</string>
     <string name="input_password_after_boot_msg_must_enter_owner_space">Трябва да влезете в Основно работно място след рестарт на устройството</string>
     <string name="input_password_hint_text">Въведете парола</string>
+    <string name="input_pattern_after_boot_msg">При рестартиране на устройството се изисква начертаване на шаблон</string>
     <string name="input_pattern_hint_text">Начертайте фигурата си за отключване</string>
+    <string name="input_pin_after_boot_msg">При рестартиране на устройството се изисква въвеждане на PIN код</string>
     <string name="input_pin_code">Въведи PIN-код</string>
     <string name="input_puk_code">Въведете PUK код</string>
     <string name="install_other_apps">Инсталиране на непознати приложения</string>
@@ -1010,6 +1019,7 @@
     <string name="keyguard_charged">Заредена</string>
     <string name="keyguard_charging_back_to_lockscreen">Обратно към закл. екран</string>
     <string name="keyguard_charging_battery_level">%s%%</string>
+    <string name="keyguard_charging_double_fast_and_level_tip">Ускоряване на скоростта на зареждане %s</string>
     <string name="keyguard_charging_info_last_charge_time">d/M H:mm</string>
     <string name="keyguard_charging_info_last_charge_today_time">Днес%s</string>
     <string name="keyguard_charging_info_last_charge_yesterday_time">Вчера %s</string>
@@ -1036,6 +1046,7 @@
     <string name="keyguard_missing_sim_instructions_long">SIM картата липсва или е нечетлива. Поставете SIM карта.</string>
     <string name="keyguard_missing_sim_message">В телефона няма SIM карта.</string>
     <string name="keyguard_missing_sim_message_short">Няма SIM карта</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Мрежата е заключена</string>
     <string name="keyguard_password_enter_password_code">Въведете парола, за да отключите</string>
     <string name="keyguard_password_enter_pin_code">Въведете ПИН кода</string>
@@ -1077,7 +1088,7 @@
     <string name="kg_invalid_confirm_pin_hint">ПИН кодовете не съвпадат</string>
     <string name="kg_invalid_puk">Въведете отново правилния PUK код. Многократните опити ще деактивират за постоянно SIM картата.</string>
     <string name="kg_invalid_sim_pin_hint">Въведете ПИН код с четири до осем цифри.</string>
-    <string name="kg_invalid_sim_puk_hint">PUK кодът трябва да е с осем или повече цифри.</string>
+    <string name="kg_invalid_sim_puk_hint">PUK кодът трябва да е поне с 8 цифри.</string>
     <string name="kg_login_too_many_attempts">Опитите за фигурата са твърде много</string>
     <string name="kg_password_instructions">Въведете паролата</string>
     <string name="kg_password_pin_failed">Операцията с ПИН кода за SIM картата не бе успешна!</string>
@@ -1232,6 +1243,7 @@ d MMMM"</string>
     <string name="miui_notification_menu_setting_success">Готово</string>
     <string name="miui_notification_menu_snooze">Отлагане</string>
     <string name="miui_notification_menu_title_not_allow">Ограничаване</string>
+    <string name="miui_screen_rotation_freeze_message">Ориентация на заключване на екрана в режим пейзаж</string>
     <string name="miui_snooze_always_float">Не скривай</string>
     <string name="miui_snooze_cancel">Отказ</string>
     <string name="miui_snooze_default_time">За %d минута</string>
@@ -1270,12 +1282,14 @@ d MMMM"</string>
 
 За още информация се свържете с администратора си."</string>
     <string name="monitoring_description_ca_cert_settings">Отваряне на надеждните идентификационни данни</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">На това устройство е инсталиран сертифициращ орган. Трафикът в защитената ви мрежа може да бъде наблюдаван или променян.</string>
     <string name="monitoring_description_do_body">Администраторът ви може да набл. и управл. настройките, корпор. достъп, прилож., данните, свързани с у-вото, както и информ. за местоп. му.</string>
     <string name="monitoring_description_do_body_vpn">Установена е връзка с приложението %1$s, което може да наблюдава активността ви в мрежата, вкл. имейли, приложения и уебсайтове.</string>
     <string name="monitoring_description_do_header_generic">Устройството ви се управлява от %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s използва %2$s, за да управлява устройството ви.</string>
     <string name="monitoring_description_do_learn_more">Научете повече</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Организацията ви е инсталирала сертифициращ орган в служебния ви потребителски профил. Трафикът в защитената ви мрежа може да бъде наблюдаван или променян.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Служебният ви потребителски профил е свързан с приложението %1$s, което може да наблюдава активността ви в мрежата, включително имейли, приложения и уебсайтове.</string>
     <string name="monitoring_description_management">"Това устройство принадлежи на организацията ви.
@@ -1307,6 +1321,7 @@ d MMMM"</string>
 
 Също така е установена връзка с виртуална частна мрежа (VPN) и активността ви в нея може да се наблюдава."</string>
     <string name="monitoring_description_vpn_settings">Отваряне на настройките за VPN</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_subtitle_ca_certificate">Сертификати от сертифициращи органи</string>
     <string name="monitoring_subtitle_network_logging">Регистриране на мрежовата активност</string>
     <string name="monitoring_subtitle_vpn">VPN</string>
@@ -1337,10 +1352,12 @@ d MMMM"</string>
     <string name="mr_dialog_transferable_header">Възпроизвеждане в група</string>
     <string name="mr_system_route_name">Система</string>
     <string name="mr_user_route_category_name">Устройства</string>
+    <string name="msim_set_sub_not_supported_phone_in_call">По време на обаждане не може да настройвате</string>
     <string name="music_controls_no_title">Няма заглавие</string>
     <string name="nav_bar">Лента за навигация</string>
     <string name="nav_bar_default">(по подразбиране)</string>
     <string name="nav_bar_layout">Оформление</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="no_application">Няма</string>
     <string name="no_auto_saver_action">Не, благодаря</string>
     <string name="no_shortcut">%1$s не поддържа функциите за разговор</string>
@@ -1412,6 +1429,7 @@ d MMMM"</string>
     <string name="open_lock_screen_magazine_hint_text">Плъзнете надясно за повече опции</string>
     <string name="open_remote_center_hint_text">Плъзнете надясно за да видите настройките</string>
     <string name="open_saver_setting_action">Настройки</string>
+    <string name="open_xmyzl_hint_text">Плъзнете надясно, за да отворите Xiaomi Magic Control</string>
     <string name="orb_search_action">Действие за търсене</string>
     <string name="osu_completing_sign_up">Завършване на регистрацията…</string>
     <string name="osu_connect_failed">Неуспешно свързване</string>
@@ -1437,7 +1455,7 @@ d MMMM"</string>
     <string name="phone_locked_foget_password_method_content">&lt;Data>Трябва да &lt;font color=#a5220e>изтриете всички данни&lt;/font> на Вашето устройство, включително снимки и контакти, след което да зададете нова парола за Заключен екран.&lt;/Data></string>
     <string name="phone_locked_foget_password_method_next">Следващо</string>
     <string name="phone_locked_foget_password_ok">Разбрах</string>
-    <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data>Изключете устройството, натиснете и задръжте &lt;font color=#a5220e>бутон Захранване &lt;/font> и бутон &lt;font color=#a5220e>Усилване на звука&lt;/font> едновременно, докато не видите логото на Mi.&lt;/Data></string>
+    <string name="phone_locked_forget_password_suggesstion_one_content"><Data>Изключете устройството си, след това натиснете и задръжте бутоните за &lt;font color=#e6e6e6>[Захранване]&lt;/font> и &lt;font color=#e6e6e6>[Усилване на звука]&lt;/font> докато не видите &lt;img src=\"\">.</Data></string>
     <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data>Изберете &lt;font color=#a5220e>\"Wipe &amp;amp; Reset\"&lt;/font> и изчакайте, докато устройството се рестартира.;&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstions_title">Как да изтрия данните?</string>
     <string name="phone_locked_string">Това устройство е заключено</string>
@@ -1523,6 +1541,7 @@ d MMMM"</string>
     <string name="private_dns_mode_provider">Име на хоста на частния DNS доставчик</string>
     <string name="private_dns_mode_provider_failure">Неуспешно свързване</string>
     <string name="private_dns_mode_provider_hostname_hint">Въведете името на хоста на DNS доставчик</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="profile_connect_timeout_subtext">Проблем при свързването. Рестартирайте устройството</string>
     <string name="profile_info_settings_title">Информация за профил</string>
     <string name="profile_owned_footer">Възможно е потребителският профил да се наблюдава</string>
@@ -1627,7 +1646,7 @@ d MMMM"</string>
     <string name="quick_settings_flashlight_camera_in_use">Камерата се използва</string>
     <string name="quick_settings_flashlight_label">Фенерче</string>
     <string name="quick_settings_header_onboarding_text">За още опции докоснете и задръжте иконите</string>
-    <string name="quick_settings_hotspot_label">Точка за достъп</string>
+    <string name="quick_settings_hotspot_label">Гореща точка</string>
     <string name="quick_settings_hotspot_secondary_label_data_saver_enabled">Икономия на данни е вкл.</string>
     <string name="quick_settings_hotspot_secondary_label_transient">Включва се...</string>
     <string name="quick_settings_ime_label">Метод на въвеждане</string>
@@ -1656,7 +1675,7 @@ d MMMM"</string>
     <string name="quick_settings_rotation_locked_landscape_label">Хоризонтален режим</string>
     <string name="quick_settings_rotation_locked_portrait_label">Вертикален режим</string>
     <string name="quick_settings_rotation_unlocked_label">Автоматична ориентация</string>
-    <string name="quick_settings_rotationlock_label">Ротация</string>
+    <string name="quick_settings_rotationlock_label">Заключване на ориентация</string>
     <string name="quick_settings_rssi_emergency_only">Само спешни обаждания</string>
     <string name="quick_settings_rssi_label">Индикатор за силата на получения сигнал (RSSI)</string>
     <string name="quick_settings_screen_record_label">Записване на екрана</string>
@@ -1814,6 +1833,8 @@ d MMMM"</string>
     <string name="show_silently">Показване на известията без звуков сигнал</string>
     <string name="show_touches">Показване на докосванията</string>
     <string name="show_touches_summary">Показване на визуална обратна връзка за докосванията</string>
+    <string name="shut_down_password_forget_password_suggesstion_one_content"><Data>Press and hold the &lt;font color=#e6e6e6>[Power]&lt;/font> and &lt;font color=#e6e6e6>[Volume +]&lt;/font> buttons until you see &lt;img src=\"\">.</Data></string>
+    <string name="shut_down_password_forget_password_suggesstion_two_content"><Data>Select &lt;font color=#e6e6e6>[Wipe data]&lt;/font> and tap &lt;font color=#e6e6e6>[Reboot]&lt;/font> after that.</Data></string>
     <string name="sim_state_locked_dialog_title">Невалидна SIM карта</string>
     <string name="sim_state_locked_puk_dialog_message">Въведохте грешен PUK код поне %d пъти. Вашата SIM карта вече е невалидна. Сменете тази SIM карта с друга.</string>
     <string name="simulate_color_space">Симулиране на цветно пространство</string>
@@ -2120,7 +2141,7 @@ d MMM"</string>
     <string name="wifi_enhanced_mac_randomization_summary">Когато този режим е активиран, MAC адреса на това устройство може да се променя всеки път когато се свързва с мрежа, която има активиран случаен MAC.</string>
     <string name="wifi_fail_to_scan">Не може да се сканира за мрежи</string>
     <string name="wifi_hand_sel_wapi_cert">WAPI сертификат</string>
-    <string name="wifi_is_off">Функцията за Wi‑Fi е изключена</string>
+    <string name="wifi_is_off">Wi-Fi е изкл</string>
     <string name="wifi_limited_connection">Ограничена връзка</string>
     <string name="wifi_metered_label">Измерено потребление</string>
     <string name="wifi_no_internet">Неуспешно свързване с интернет</string>

@@ -51,7 +51,7 @@
     <string name="action_item_download">Изтегляне</string>
     <string name="action_item_favorite">Любими</string>
     <string name="action_item_hide">Скриване</string>
-    <string name="action_item_hifi">Слушалки и аудио ефекти</string>
+    <string name="action_item_hifi">Слушалки</string>
     <string name="action_item_play_all">Разбъркване на всички</string>
     <string name="action_item_play_next">Възпроизв. по-късно</string>
     <string name="action_item_play_video">Пусни музикално видео</string>
@@ -63,6 +63,7 @@
     <string name="ad_data_exception">Грешка в данни</string>
     <string name="ad_recommend">Показване на реклами</string>
     <string name="ad_setting">Разширени настройки</string>
+    <string name="add">Добави</string>
     <string name="add_music">Добавяне на песни</string>
     <string name="add_to_last_of_playlist">Добавете в края на списък за слушане.</string>
     <string name="add_to_playlist">Добавяне към списъка</string>
@@ -125,7 +126,7 @@
     <string name="avoid_to_use_traffic_title">Питай, когато се използват мобилни данни за прослушване на песни</string>
     <string name="back">Обратно</string>
     <string name="back_confirm">Чукнете още веднъж за изход</string>
-    <string name="bluetooth_device">Bluetooth устройство</string>
+    <string name="bluetooth_device">Bluetooth аудио устройство</string>
     <string name="btn_text_edit">Редактиране</string>
     <string name="btn_text_view_all">Преглед на всички</string>
     <string name="buffering">Буфериране…</string>
@@ -206,6 +207,7 @@
     <string name="dialog_cannot_resume">Изтеглянето прекъсна и не може да продължи.</string>
     <string name="dialog_clear_history">Изчистване на списъка с наскоро възпроизведени песни?</string>
     <string name="dialog_confirm_delete_checkbox_message">Изтрий също и локалните файлове</string>
+    <string name="dialog_continue">OК</string>
     <string name="dialog_failed_body">Ще опитате ли да изтеглите файла по-късно или ще го премахнете от списъка?</string>
     <string name="dialog_file_already_exists">Изтеглянето е невъзможно, целевият файл вече съществува.</string>
     <string name="dialog_file_missing_body">Изтегления файл не е намерен.</string>
@@ -241,6 +243,7 @@
     <string name="dialog_song_view_type_artist">По изпълнител</string>
     <string name="dialog_song_view_type_folder">По папка</string>
     <string name="dialog_song_view_type_song">По песен</string>
+    <string name="dialog_stop_audio_in">Таймер възпроизвеждане</string>
     <string name="dialog_subtitle_make_playlist_public">Публичните плейлисти са видими за останалите. Личните плейлисти са видими само за вас на всички синхронизирани устройства.</string>
     <string name="dialog_title_clearlist_tracks">Премахни от опашката</string>
     <string name="dialog_title_delete_tracks">Изтриване</string>
@@ -287,7 +290,9 @@
     <string name="download_method">Изтегляне</string>
     <string name="download_no_application_title">Файлът не може да се отвори</string>
     <string name="download_paused_in_power_save_mode">Изтеглянето е спряно когато Икономия на батерията е включено</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Изтегля се…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Качество при изтегляне</string>
     <string name="download_quality_summary">Разширени настройки на песните, които сте изтеглили</string>
     <string name="download_queued">Чакащи</string>
@@ -375,7 +380,9 @@
     <string name="exo_media_action_repeat_all_description">Повтаряне на всички</string>
     <string name="exo_media_action_repeat_off_description">Без повтаряне</string>
     <string name="exo_media_action_repeat_one_description">Повтаряне на един елемент</string>
+    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Алтернативен запис</string>
     <string name="exo_track_role_closed_captions">Субтитри</string>
     <string name="exo_track_role_commentary">Коментар</string>
@@ -606,6 +613,7 @@
     <string name="mulit_choice_management">Управлявайте няколко елемента</string>
     <string name="music_browser_label">Музика</string>
     <string name="music_filter">Филтриране на файловете</string>
+    <string name="music_quality">Качество на аудиото</string>
     <string name="music_recommendation">Препоръчвани песни</string>
     <string name="music_service">Услуги за музика</string>
     <string name="music_settings">Музика</string>
@@ -638,6 +646,7 @@
     <string name="no_local_songs_selected">Песните не могат да се изпратят, защото не са изтеглени</string>
     <string name="no_local_source_find">Не са открити локални ресурси, неуспешно изпращане!</string>
     <string name="no_longer_prompt">Не показвай отново</string>
+    <string name="no_lyrics">Няма текст</string>
     <string name="no_results_return">Няма резултати</string>
     <string name="no_scanned_songs">Празно</string>
     <string name="no_song_downloaded">Не са открити песни за изтегляне</string>
@@ -744,7 +753,7 @@
     <string name="playlist_type_fm">FM</string>
     <string name="playlist_type_my">Моите списъци с песни</string>
     <string name="playlist_type_recommend">Любими списъци с песни</string>
-    <string name="please_download_first">Моля, първо изтеглете.</string>
+    <string name="please_download_first">Трябва първо да изтеглите песента, за да можете да я използвате като мелодия</string>
     <string name="please_select_song">Моля, изберете първо една песен.</string>
     <string name="power_save_mode_dialog_msg">Устройството е в режим пестене на захранването. Стартирайте изтеглянето сега?</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
@@ -757,12 +766,14 @@
     <string name="privacy_authorize_revoking">Отмяна на упълномощение…</string>
     <string name="privacy_desc">Политика за поверителност (задължително)</string>
     <string name="privacy_policy">Политика за поверителност</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=bg_BG</string>
     <string name="privacy_request_desc">"&lt;Data>Mi Музика се нуждае да събира задължителна лична информация, за да ви предоставя услуги за гледане онлайн. Можете да научите как обработваме събраната информация в нашите &lt;a href=\"%1$s\">Правила за поверителност&lt;/a>. Можете да оттеглите съгласието си за Правилата за поверителност на Mi Музика в Настройки по всяко време.
 Прочетете и приемете нашето &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%1$s\">Правила за поверителност&lt;/a> преди да използвате Mi Музика.
 Ако не приемете да използвате гореспоменатите услуги, няма да можете да използвате някои от функциите на това приложение; но все пак ще имате достъп до основните му функции.&lt;/Data>"</string>
     <string name="privacy_request_subtitle">"Добре дошли в Mi Музика! Това приложение предоставя следните услуги:
 - Местен аудио плейър
 - Услуги за гледане онлайн"</string>
+    <string name="privacy_request_subtitle_offline">Добре дошли в Mi Музика! Това приложение предоставя локален плейър за аудио файлове.</string>
     <string name="privacy_request_title">Условия за ползване</string>
     <string name="pro_member">PRO член</string>
     <string name="project_device">Mi Телефон</string>
@@ -796,8 +807,8 @@
     <string name="ringtone_editing">Редактор на мелодии</string>
     <string name="ringtone_not_support">Форматът на песента не се поддържа</string>
     <string name="ringtone_selected">Избранa</string>
-    <string name="ringtones_play">Прослушване</string>
-    <string name="ringtones_stop">Спиране</string>
+    <string name="ringtones_play">Пусни</string>
+    <string name="ringtones_stop">Стоп</string>
     <string name="ringtones_successful">Мелодията е зададена успешно</string>
     <string name="root_downloads">Изтегляния</string>
     <string name="s1">Запазване на изображението</string>
@@ -901,6 +912,7 @@
     <string name="start_to_download">Старирайте изтегляне…</string>
     <string name="start_to_play">Пусни</string>
     <string name="start_update">Инсталиране на нова версия…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Хранилище за клонирани приложения</string>
     <string name="storage_internal">Вътрешна памет</string>
     <string name="storage_sd_card">SD карта</string>
@@ -958,6 +970,7 @@
     <string name="toast_download_in_process">Изтегляне...</string>
     <string name="toast_favorite_has_been_added">Успешно добавен в плейлиста</string>
     <string name="toast_follow_success">Успешно последван</string>
+    <string name="toast_hungama_vip_song">Тази песен е достъпна само за PRO членове. Купете абонамент и изтеглете тази песен.</string>
     <string name="toast_is_pro">Вие сте вече ПРО член.</string>
     <string name="toast_my_playlist_illegal_name">Името на тази плейлиста е невалидно. Преименувайте я.</string>
     <string name="toast_my_playlist_set_to_private">Тази плейлиста вече е лична. Другите хора не могат да я виждат.</string>
@@ -998,6 +1011,7 @@
     <string name="upload_playlist_to_hungama_title">Синхронизирайте онлайн песни с Hungama, за да имате достъп до тях на други устройства, в които използвате вашия Mi Профил.</string>
     <string name="upload_playlist_to_hungama_toast">Онлайн песни ще бъдат синхронизирвани с Hungama</string>
     <string name="user_agreement">Потребителско споразумение</string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=bg_BG</string>
     <string name="user_playlist_plaza">Плейлисти</string>
     <string name="user_privacy_dialog_negative_text">Отказ</string>
     <string name="user_privacy_dialog_positive_count_down_text">Оттегляне (%sсек)</string>

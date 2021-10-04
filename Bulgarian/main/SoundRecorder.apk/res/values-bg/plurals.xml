@@ -84,6 +84,10 @@
         <item quantity="other">%d избрани елементи</item>
         <item quantity="one">%d избран елемент</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нови известия</item>
+        <item quantity="one">%d ново известие</item>
+    </plurals>
     <plurals name="notification_warning">
         <item quantity="other">Малко място (по-малко от %d минути)</item>
         <item quantity="one">Малко място (по-малко от %d минута)</item>

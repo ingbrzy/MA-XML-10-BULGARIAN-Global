@@ -165,6 +165,7 @@
     <string name="clipboard_read_ai_deny_once">Достъпа на %1$s до клипборда е ограничен</string>
     <string name="clipboard_read_allow_once">%1$s получи достъп до елементи в клипборда</string>
     <string name="clipboard_read_deny_dialog_title">Достъпа на %1$s до клипборда е ограничен</string>
+    <string name="close">Затваряне</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -357,6 +358,14 @@
     <string name="screen_overlay_message">За да промените това разрешение, трябва да изключите екранното наслагване в Настройки > Приложения.</string>
     <string name="screen_overlay_title">Засечено е наслагване на екрана</string>
     <string name="search_menu_title">Търсене</string>
+    <string name="send">Изпращане</string>
+    <string name="size_byte">Б</string>
+    <string name="size_giga_byte">ГБ</string>
+    <string name="size_kilo_byte">КБ</string>
+    <string name="size_mega_byte">МБ</string>
+    <string name="size_peta_byte">ПБ</string>
+    <string name="size_suffix">%1$s%2$s</string>
+    <string name="size_tera_byte">ТБ</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_blur_location">Turn off</string>
     <string name="storage_policy_notify_both_title">%1$s няма достъп до Галерията и съобщения в приложения за социални медии</string>

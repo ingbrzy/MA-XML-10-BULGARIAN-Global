@@ -48,7 +48,7 @@
     <string name="au">Чистач</string>
     <string name="av">Локални файлове</string>
     <string name="aw">Обновете приложенията</string>
-    <string name="ax">Mi Трансфер</string>
+    <string name="ax">Mi Mover</string>
     <string name="app_name">ShareMe</string>
     <string name="ay">Това приложение може да не е съвместимо с устройството на получателя</string>
     <string name="b0">Поискайте от другото лице да покаже QR кода</string>
@@ -146,7 +146,7 @@
     <string name="dm">Налично е обновление</string>
     <string name="dn">Импортирай</string>
     <string name="do">Готово</string>
-    <string name="dq">Андроид 7.1 и по-късните версии забраняват включване на Wi-Fi hotspot автоматично. Включване на ръчно.</string>
+    <string name="dq">Android 7.1 и по-късните версии забраняват автоматично включване на Wi-Fi хотспот. Включете ръчно.</string>
     <string name="dr">Изход</string>
     <string name="ds">Задай</string>
     <string name="dt">Включен Wi-Fi hotspot успешно</string>
@@ -189,14 +189,14 @@
     <string name="er">Местоположение на папка</string>
     <string name="es">Избрано</string>
     <string name="et">Избраните файлове: %1$d | Общо: %2$s</string>
-    <string name="eu">4-16 знака, букви и цифри, различават се главни от малки букви</string>
+    <string name="eu">Потребителското име и паролата са чувствителни за малки и големи букви и трябва да съдържат %1$d-%2$d знака. Можете да комбинирате латински букви, специални символи и числа.</string>
     <string name="ev">Впишете се анонимно</string>
     <string name="ew">Потребителско име или парола са неправилни</string>
     <string name="ex">Не можа да отвори порт. Проверете мрежовата си връзка или рестартирайте номера на порта.</string>
     <string name="ey">Парола</string>
     <string name="ez">Номер на порта</string>
     <string name="f0">Сигурност</string>
-    <string name="f1">Вписване</string>
+    <string name="f1">Задайте потребителско име и парола</string>
     <string name="f2">Потр. име</string>
     <string name="f3">Опростен китайски по подразбиране за прозорец</string>
     <string name="f4">GBK</string>
@@ -238,7 +238,7 @@
     <string name="g5">Език</string>
     <string name="g6">%1$s наляво</string>
     <string name="g7">Налично е обновление. Получихте този пакет за обновление от ваш приятел по време на прехвърлянето.</string>
-    <string name="g8">В Android Marshmallow и по-късни версии, ShareMe се нуждае от достъп до вашето местоположение, за да може да изпраща и получава файлове чрез Wi-Fi.</string>
+    <string name="g8">В Android Marshmallow и по-късни версии, ShareMe се нуждае от достъп до Вашето местоположение, за да може да изпраща и получава файлове чрез Wi-Fi.</string>
     <string name="g9">"Услугите за местоположение са изключени, може да не успеете да намерите други хора.
 
 In Android 6.0 и нагоре трябва да включите услугите за да изпращате и получавате файлове."</string>
@@ -333,7 +333,7 @@ In Android 6.0 и нагоре трябва да включите услугит
     <string name="is">Мрежа:</string>
     <string name="it">Парола:</string>
     <string name="iu">Поискайте от другото лице да включи ShareMe (Mi Drop) и натиснете \"Изпрати\".</string>
-    <string name="iv">Поискайте от получателя да включи ShareMe (Mi Drop) в скритата лента с известия.</string>
+    <string name="iv">Поискайте от получателя да включи ShareMe (Mi Drop) в Лентата с известия.</string>
     <string name="iw">Включи откриване на устройството и изпрати файловете.</string>
     <string name="ix">Преди да получите елементи</string>
     <string name="iy">Подготовка за получаване на елементи…</string>

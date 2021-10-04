@@ -176,6 +176,10 @@
         <item quantity="other">Търсене сред %d прил.</item>
         <item quantity="one">Търсене сред %d прил.</item>
     </plurals>
+    <plurals name="find_leak_risk">
+        <item quantity="other">Засечени са %d риска свързани с поверителноста</item>
+        <item quantity="one">Засечен е %d риск свързан с поверителноста</item>
+    </plurals>
     <plurals name="first_aid_result_summary_exception">
         <item quantity="other">%1$d проблеми изискват корекция</item>
         <item quantity="one">%1$d проблем изисква корекция</item>
@@ -231,6 +235,10 @@
     <plurals name="gb_signed_days_sum">
         <item quantity="other">Регистриран %d дни подред</item>
         <item quantity="one">Регистриран %d път</item>
+    </plurals>
+    <plurals name="gb_toolbox_guide_known">
+        <item quantity="other">Разбрах (%dсек)</item>
+        <item quantity="one">Разбрах (%dсек)</item>
     </plurals>
     <plurals name="gb_voice_changer_toast_tips_window_bubble">
         <item quantity="other">"Изпробвайте Промяна на гласа сега,

@@ -92,6 +92,10 @@
         <item quantity="other">%d налични устройства</item>
         <item quantity="one">%d налично устройство</item>
     </plurals>
+    <plurals name="color_game_led_freq_entries">
+        <item quantity="other">На всеки %d секунди</item>
+        <item quantity="one">На всяка %d секунда</item>
+    </plurals>
     <plurals name="connected_devices_number">
         <item quantity="other">%d устройства</item>
         <item quantity="one">%d устройство</item>

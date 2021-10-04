@@ -32,6 +32,10 @@
         <item>Back up important settings, including WLAN and display</item>
         <item>"Lock your device remotely if it's lost"</item>
     </string-array>
+    <string-array name="micloud_entrance_subtitleArray_pad">
+        <item>Синхронизирайте своите снимки, бележки, записи и още</item>
+        <item>Заключете устройството си от разстояние, ако е изгубено</item>
+    </string-array>
     <string-array name="micloud_entrance_subtitleArray_v2">
         <item>Синхронизирайте вашите контакти, съобщения, бележки, календар и още</item>
         <item>Резервни копия на приложения, оформление на Начален екран и тапет</item>
@@ -44,9 +48,13 @@
         <item>Архив на системните настройки</item>
         <item>Намери устройство</item>
     </string-array>
+    <string-array name="micloud_entrance_titleArray_pad">
+        <item>Синхронизиране на данните на приложението</item>
+        <item>Открий устройството</item>
+    </string-array>
     <string-array name="privacy_dialog_finddevice_runtime_perm_desc">
         <item>за идентифициране на устройството;</item>
-        <item>за установяване местоположението на устройството и превключване към режим \"Изгубено\".</item>
+        <item>За установяване местоположението на устройството и превключване към режим Изгубен.</item>
     </string-array>
     <string-array name="privacy_dialog_sync_runtime_perm_desc">
         <item>за синхронизиране на събития;</item>
@@ -63,7 +71,7 @@
     </string-array>
     <string-array name="settings_search_backup_setting">
         <item>Резервно копие на Начален екран в Xiaomi Cloud</item>
-        <item>Резервно копие на оформлението на начален екран, списъка с инсталираните приложения и системните настройки</item>
+        <item>Направете резервни копия на оформлението на Начален екран, списъка с инсталираните приложения и системните настройки</item>
         <item>Облак;Резервно копие;Архивиране;Облачни услуги;Xiaomi Cloud;Начален екран;Оформление;Приложения;Настройки;Честота на архивиране;Управление на архивите;Възстановяване</item>
     </string-array>
     <string-array name="settings_search_browser">
@@ -136,6 +144,11 @@
         <item>Възстанови контактите, снимките, съобщенията и др.</item>
         <item>Кошче;Изтрити елементи;Кошче за отпадъци;Възстанови;Облачни услуги;Xiaomi Cloud</item>
     </string-array>
+    <string-array name="settings_search_recycle_bin_pad">
+        <item>Изтрити елементи в Xiaomi Cloud</item>
+        <item>Възстановяване на снимки, бележки и още</item>
+        <item>Кошче;Изтрити елементи;Кошче за отпадъци;Възстанови;Облачни услуги;Xiaomi Cloud</item>
+    </string-array>
     <string-array name="settings_search_restore_device">
         <item>Възстановяване на елементи от Xiaomi Cloud</item>
         <item>Изтеглете резервните елементи на устройството си</item>
@@ -144,6 +157,11 @@
     <string-array name="settings_search_security">
         <item>Синхронизиране на облак за сигурност</item>
         <item>Включете синхронизацията</item>
+        <item>Сигурност;Облак;Xiaomi Cloud;Синхронизиране;Облачни услуги</item>
+    </string-array>
+    <string-array name="settings_search_security_pad">
+        <item>Сигурно синхронизиране на облака</item>
+        <item>Включване на синхронизацията</item>
         <item>Сигурност;Облак;Xiaomi Cloud;Синхронизиране;Облачни услуги</item>
     </string-array>
     <string-array name="settings_search_sms">
@@ -159,6 +177,11 @@
     <string-array name="settings_search_sync_manage">
         <item>Xiaomi Cloud. Всички Mi услуги на едно място.</item>
         <item>Получете достъп до вашите снимки, контакти, съобщения и устройства от всяко място</item>
+        <item>Недостатъчно пространство;Членство;Хранилище;Място за съхранение;Облак;Синхронизиране;Облачни услуги;Xiaomi Cloud;Кошче;Изтрити елементи;Сигурност</item>
+    </string-array>
+    <string-array name="settings_search_sync_manage_pad">
+        <item>Xiaomi Cloud. Всички Mi услуги на едно място.</item>
+        <item>Получете достъп до вашите снимки, бележки и устройства от всяко място</item>
         <item>Недостатъчно пространство;Членство;Хранилище;Място за съхранение;Облак;Синхронизиране;Облачни услуги;Xiaomi Cloud;Кошче;Изтрити елементи;Сигурност</item>
     </string-array>
     <string-array name="settings_search_wlan">

@@ -44,7 +44,7 @@
     </string-array>
     <string-array name="note_sort_way">
         <item>По дата на създаване</item>
-        <item>По дата на посл. промяна</item>
+        <item>По дата на промяна</item>
     </string-array>
     <string-array name="second_guide_contents">
         <item>Гласови бележки</item>

@@ -55,7 +55,7 @@
     <string name="age_label_today_date">Днес</string>
     <string name="age_label_total_summary">Обобщение</string>
     <string name="age_label_weeks">Седмици</string>
-    <string name="allow">Съгласен</string>
+    <string name="allow">Приемам</string>
     <string name="app_name">Калкулатор</string>
     <string name="app_notification_info">Калкулаторът работи във фонов режим</string>
     <string name="base_rate">Основен лихвен процент</string>
@@ -107,7 +107,7 @@
     <string name="currency_update_updating">Обновяване на курсовете…</string>
     <string name="current_rate_remind_commercial" />
     <string name="current_rate_remind_fund" />
-    <string name="date_format">dd MMM, yyyy</string>
+    <string name="date_format">dd MMM yyyy</string>
     <string name="dateformat">dd/MM/yyyy</string>
     <string name="day">ден</string>
     <string name="degDesc">Ъгъл</string>
@@ -123,7 +123,7 @@
     <string name="dialog_rating_desc_ask">Какво е мнението Ви за калкулатор?</string>
     <string name="dialog_rating_desc_less">Можете ли да ни изпратите и Вашия отзив?</string>
     <string name="dialog_rating_desc_perfect">Супер! Ще оцените ли Калкулатор и в App Store?</string>
-    <string name="dialog_rating_title">Оценете приложението ни</string>
+    <string name="dialog_rating_title">Оценете нашето приложение</string>
     <string name="digit0">0</string>
     <string name="digit1">1</string>
     <string name="digit2">2</string>
@@ -371,7 +371,7 @@
     <string name="preference_help">Помощ &amp; отзиви</string>
     <string name="preference_other">Други</string>
     <string name="preference_privacy_title">Правила за поверителност</string>
-    <string name="preference_rating_title">Оценете приложението ни</string>
+    <string name="preference_rating_title">Оценете нашето приложение</string>
     <string name="preference_settings">Настройки</string>
     <string name="preference_use_degress_summary">Заместване на радиани с ъгли в тригонометрични функции</string>
     <string name="preference_use_degress_title">Използване на ъгли</string>
@@ -513,6 +513,7 @@
     <string name="unit_data_display_currency_btn">Бутански нгултрум</string>
     <string name="unit_data_display_currency_bwp">Ботсванска пула</string>
     <string name="unit_data_display_currency_byn">Беларуска рубла</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Канадски долар</string>
     <string name="unit_data_display_currency_cdf">Конголийски франк</string>
     <string name="unit_data_display_currency_chf">Швейцарски франк</string>
@@ -850,12 +851,15 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sБ</string>
     <string name="xiaomi_calculator_delete_description">Калкулатор е системно приложение. Няма да можете да използвате множество конвертери и допълнителни функции след като деинсталирате приложението.</string>
     <string name="xiaomi_calculator_delete_title">Деинсталиране на Калкулатор?</string>
     <string name="xiaomi_calculator_remove_icon_description">Калкулатор е системно приложение. Няма да можете да използвате множество конвертери и допълнителни функции след като премахнете приложението от Началния екран.</string>
     <string name="xiaomi_calculator_remove_icon_title">Премахване на \"Калкулатор\" от Началния екран?</string>
     <string name="xiaomi_connect_download_manager_fail">Няма връзка с Изтегляния. Проверете дали това приложение има всички необходими разрешения в Настройки > Инсталирани приложения.</string>
     <string name="xiaomi_external_storage_unavailable">Паметта не е достъпна. Проверете вашата SD карта.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sКБ</string>
+    <string name="xiaomi_megabytes_unit">%1$sМБ</string>
     <string name="xiaomi_update_dialog_message">"Представяне на версия%1$s
 Размер:%2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Представяне на версия%1$s

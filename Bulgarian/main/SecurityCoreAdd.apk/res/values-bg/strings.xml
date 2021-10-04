@@ -69,6 +69,7 @@
     <string name="close_second_space">Изтрито е Второ пространство</string>
     <string name="close_second_space_success">Изтрито е Второ пространство</string>
     <string name="closed">Изключено</string>
+    <string name="common_google_play_services_unknown_issue">%1$s има проблеми с услугите за Google Play. Моля, опитайте отново.</string>
     <string name="complete_setting">Завършване</string>
     <string name="complete_setting_sub_title">Можете да се върнете по-късно, за да регулирате настройките.</string>
     <string name="complete_setting_title">Всичко е настроено!</string>

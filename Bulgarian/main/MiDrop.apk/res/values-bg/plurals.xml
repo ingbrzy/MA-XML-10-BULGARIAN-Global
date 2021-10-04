@@ -41,8 +41,8 @@
         <item quantity="one">Избран е %d елемент</item>
     </plurals>
     <plurals name="k">
-        <item quantity="other">Изчакване за %1$d файла…</item>
-        <item quantity="one">Изчакване за %1$d файл…</item>
+        <item quantity="other">Изчакване за %1$d файла</item>
+        <item quantity="one">Изчакване за %1$d файл</item>
     </plurals>
     <plurals name="l">
         <item quantity="other">Получаване на %1$d файла (%2$s)</item>

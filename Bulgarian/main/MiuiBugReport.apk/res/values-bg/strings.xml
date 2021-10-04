@@ -85,27 +85,30 @@
     <string name="bugreport_tool_log_dumping_title">Създаване на доклад за грешка</string>
     <string name="catch_full_log_action_cancel">Отказ</string>
     <string name="catch_full_log_action_complete">Завърши и изпрати</string>
-    <string name="catch_full_log_action_start">Създай регистър</string>
+    <string name="catch_full_log_action_start">Старт</string>
     <string name="catch_full_log_add_original_photo">Добавете оригинално изображение или кратко видео</string>
     <string name="catch_full_log_add_photo">Добави снимка</string>
     <string name="catch_full_log_add_photo_dialog_content">Ако проблемът, който докладвате, е свързан с качеството на камерата, добавете оригинална обикновена снимка, която да не е изрязана, за да ни помогнете да определим проблема. Добавяне на снимка сега?</string>
+    <string name="catch_full_log_category">Видове доклади</string>
     <string name="catch_full_log_dialog_confirm_text">Отиди на Начален екран</string>
-    <string name="catch_full_log_dialog_content">MIUI създава регистър. Това може да се отрази на ефективността на Вашето устройство. Ако не можете да включите отново услугата, която искате да докладвате, върнете се обратно в менюто на регистрите и натиснете \"Отказ\".</string>
+    <string name="catch_full_log_dialog_content">Това може да се отрази на цялостната производителност на устройството Ви. Ако не можете да възпроизведете проблема, който желаете да докладвате, върнете се обратно в докладите и натиснете \"Отказ\".</string>
+    <string name="catch_full_log_dialog_title">Създаване на доклади…</string>
     <string name="catch_full_log_dump_hprof_failed">Не може да се създаде регистър</string>
     <string name="catch_full_log_item_content_catch_direct">"1. Върнете се на услугата, която искате да докладвате и я стартирайте отново. 
 2. Върнете се обратно в менюто за регистри и натиснете \"Завърши и изпрати\"."</string>
-    <string name="catch_full_log_item_content_need_open">"1. Натиснете \"Създай регистър\". 
-2. Върнете се на услугата, която искате да докладвате и я стартирайте отново. 
-3. Върнете се обратно в менюто за регистри и натиснете \"Завърши и изпрати\"."</string>
-    <string name="catch_full_log_item_content_title">Стъпки</string>
-    <string name="catch_full_log_item_title_audio">Звук, запис на звук и звук при обаждане</string>
+    <string name="catch_full_log_item_content_catching">Създаване на доклади…</string>
+    <string name="catch_full_log_item_content_need_open">"%1$d. Натиснете \"Стартиране\", за да започнете да създавате доклади.
+%2$d. Възпроизведете проблема, с който сте се сблъскали.
+%3$d. Върнете се на тази страница и натиснете \"Прекрати и качи\"."</string>
+    <string name="catch_full_log_item_content_title">Как да създам доклад</string>
+    <string name="catch_full_log_item_title_audio">Аудио, звук от повикване и аудио запис</string>
     <string name="catch_full_log_item_title_bt">Bluetooth</string>
     <string name="catch_full_log_item_title_dump_heap">Регистриране</string>
     <string name="catch_full_log_item_title_gps">Услуги за местоположението</string>
     <string name="catch_full_log_item_title_sensor">Сензори</string>
     <string name="catch_full_log_item_title_signal">Телефон, сигнал и мобилни мрежи</string>
-    <string name="catch_full_log_item_title_wifi">Wi-Fi и ShareMe</string>
-    <string name="catch_full_log_item_title_wifi_china">WLAN and ShareMe</string>
+    <string name="catch_full_log_item_title_wifi">Wi-Fi</string>
+    <string name="catch_full_log_item_title_wifi_china">WLAN</string>
     <string name="catch_full_log_notification_content">Докоснете, за връщане към регистри</string>
     <string name="catch_full_log_notification_title">Създава се регистър…</string>
     <string name="catch_full_log_privacy_content_audio">Вие генерирате регистри и ги съхранявате на устройството си. Регистрите може да съдържат информация за аудиото на вашето устройство, включително история на възпроизвеждането и история на записите. Бъдете внимателни и не разкривайте тези регистри на други хора. Като натиснете \"Съгласявам се\" по-долу, вие се съгласявате, че ще събираме горните данни, докато генерираме регистри и след това ще качваме регистрите на нашите сървъри, за да локализираме и решим проблемите, които съобщавате.</string>
@@ -226,13 +229,13 @@ ID:%s
     <string name="feedback_edit_popup_window_related_title">Това може да е важно</string>
     <string name="feedback_empty_report_list">Няма доклади</string>
     <string name="feedback_guess">Вашето мнение:</string>
-    <string name="feedback_history_remind_login_desc">Влезте с вашия Mi акаунт за детайли по репортите Ви</string>
+    <string name="feedback_history_remind_login_desc">Влезте с вашия Mi Профил за детайли по вашия доклад</string>
     <string name="feedback_id">ID: %d</string>
     <string name="feedback_jira_key">JIRA Key: %s</string>
     <string name="feedback_jira_key_place_holder">Създаване на Джира…</string>
     <string name="feedback_package_log_failed">Не може да се компресират логовете</string>
     <string name="feedback_remind_login_btn">Вход</string>
-    <string name="feedback_report_remind_login_desc">Влезте с вашия Mi профил, за да може нашите инженери да се свържат с Вас.</string>
+    <string name="feedback_report_remind_login_desc">Влезте със своя Mi Профил, за да може нашите инженери да се свържат с Вас.</string>
     <string name="feedback_report_remind_login_desc2">Може да прегледате прогреса на доклада в раздела \"Моите доклади\".</string>
     <string name="feedback_reproductivity_everytime">Всеки път</string>
     <string name="feedback_reproductivity_occasionally">От време на време</string>
@@ -351,7 +354,7 @@ ID:%s
     <string name="just_a_second">Момент…</string>
     <string name="kr_authorization_agree">Приемам</string>
     <string name="kr_authorization_contact">Профили</string>
-    <string name="kr_authorization_contact_desc">За достъп до информацията от Mi профила с цел идентифициране на устройството</string>
+    <string name="kr_authorization_contact_desc">За достъп до информацията от Mi Профила с цел идентифициране на устройството</string>
     <string name="kr_authorization_exit">Изход</string>
     <string name="kr_authorization_function">Изпращане на коментари, генериране на данни, разглеждане на често задавани въпроси</string>
     <string name="kr_authorization_log_protocol">Протокол за регистрация (по избор)</string>

@@ -165,6 +165,7 @@
     <string name="open_close_tip_content">За да затворите плаващ прозорец, натиснете и задръжте бутона за действие и плъзнете нагоре.</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
+    <string name="other_ime">Други клавиатури</string>
     <string name="package_delete_confirm_step_1">Деинсталиране на %s?</string>
     <string name="package_delete_confirm_step_2">Деинсталирането на това приложение може да направи системата Ви нестабилна.</string>
     <string name="package_delete_confirm_step_3">Няма да можете да отворите приложението, след като го деинсталирате.</string>

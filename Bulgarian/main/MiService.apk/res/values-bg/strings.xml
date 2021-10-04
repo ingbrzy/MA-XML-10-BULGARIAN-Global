@@ -91,7 +91,7 @@
     <string name="midnight">Нощ</string>
     <string name="miservice_channel_update_notification_info">\"Услуги и обратна връзка\" изисква данни онлайн…</string>
     <string name="miservice_notification_boot_content">Научете повече за това какво може да прави MIUI</string>
-    <string name="miservice_notification_huanji_content">Прехвърлете ги с Mi Трансфер</string>
+    <string name="miservice_notification_huanji_content">Прехвърлете ги с Mi Mover</string>
     <string name="miservice_notification_huanji_title">Имате важни неща на стария си телефон?</string>
     <string name="miservice_notification_open_feedback_content">Всички функции за обратна връзка са преместени в новото приложение</string>
     <string name="miservice_notification_open_feedback_title">Представяме Ви \"Услуги и обратна връзка\"</string>

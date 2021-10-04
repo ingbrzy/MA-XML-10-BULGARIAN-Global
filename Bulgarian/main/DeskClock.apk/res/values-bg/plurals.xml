@@ -137,7 +137,7 @@
         <item quantity="one">Всяка %1$s мин</item>
     </plurals>
     <plurals name="snooze_duration_summary">
-        <item quantity="other">Алармата ще се включи %2$s пъти (%1$s мин. всеки)</item>
+        <item quantity="other">Алармата ще се включи %2$s пъти (всяка за %1$s мин.)</item>
         <item quantity="one">Алармата ще се включи %2$s път (%1$s мин.)</item>
     </plurals>
     <plurals name="snooze_message">
