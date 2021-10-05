@@ -92,12 +92,6 @@
         <item>Висока</item>
         <item>Най-висока</item>
     </string-array>
-    <string-array name="key_app_info">
-        <item>източник на инсталиране</item>
-        <item>час на инсталиране</item>
-        <item>източник на актуализиране</item>
-        <item>час на актуализиране</item>
-    </string-array>
     <string-array name="lock_mode">
         <item>При заключено устройство</item>
         <item>След изход от приложението</item>
@@ -116,20 +110,10 @@
         <item>Важно: Възможно е множество системни приложения да спрат да функционират.</item>
         <item>Възможно е текстово оформление, профили и съдържание да не бъдат показвани правилно.</item>
     </string-array>
-    <string-array name="operate_entries">
-        <item>@string/auto_task_operation_open</item>
-        <item>@string/auto_task_operation_close</item>
-        <item>@string/auto_task_operation_no_op</item>
-    </string-array>
     <string-array name="operate_entryValues">
         <item>0</item>
         <item>1</item>
         <item>2</item>
-    </string-array>
-    <string-array name="operate_memory_entries">
-        <item>@string/auto_task_operation_open</item>
-        <item>@string/auto_task_operation_close</item>
-        <item>@string/auto_task_operation_no_op</item>
     </string-array>
     <string-array name="operate_memory_entryValues">
         <item>0</item>
@@ -139,20 +123,6 @@
     <string-array name="over_limit_traffic_waring_style">
         <item>Показване на предупреждение</item>
         <item>Предупреждение и изкл. на моб. данни</item>
-    </string-array>
-    <string-array name="pc_battery_history_spinner_choice">
-        <item>@string/pc_battery_history_consume_rank_menu_item</item>
-        <item>@string/pc_battery_history_consume_all_menu_item</item>
-        <item>@string/power_center_battery_software</item>
-        <item>@string/power_center_battery_hardware</item>
-        <item>@string/pc_battery_history_battery_detail_menu_item</item>
-    </string-array>
-    <string-array name="pc_battery_history_spinner_choice_new">
-        <item>@string/pc_battery_history_consume_rank_menu_item</item>
-        <item>@string/pc_battery_history_consume_all_menu_item</item>
-        <item>@string/power_center_battery_software</item>
-        <item>@string/power_center_battery_hardware</item>
-        <item>@string/pc_battery_history_battery_detail_menu_item</item>
     </string-array>
     <string-array name="pc_settings_thermal_entries">
         <item>По подразбиране</item>

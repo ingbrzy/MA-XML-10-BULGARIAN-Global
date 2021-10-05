@@ -1065,7 +1065,6 @@
     <string name="pref_camera_auxiliary_close">Изкл.</string>
     <string name="pref_camera_auxiliary_exposure_feedback">Потвърждение на експозицията</string>
     <string name="pref_camera_auxiliary_focus_peak">Избор на фокуса</string>
-    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средно</string>
