@@ -31,6 +31,7 @@
     <string name="access_token_expired_warning">Weibo профилът е с изтекъл срок: свържете го отново</string>
     <string name="access_token_invalid_warning">Weibo профилът е невалиден: свържете го отново</string>
     <string name="account">Профил</string>
+    <string name="account_and_password">Парола</string>
     <string name="account_bind_devices">Устройства</string>
     <string name="account_bind_secure_email_title">Добавяне на имейл за възстановяване</string>
     <string name="account_bind_secure_phone_title">Добавяне на тел. за възстановяване</string>
@@ -62,7 +63,7 @@
  Вашия профил ИД: %s"</string>
     <string name="account_token_expired_title">Грешка при удостоверяване</string>
     <string name="account_user_avatar">Профилна снимка</string>
-    <string name="account_user_avatar_from_album">Select photo</string>
+    <string name="account_user_avatar_from_album">Изберете снимка</string>
     <string name="account_user_avatar_from_camera">Направете снимка</string>
     <string name="account_user_base_info">Потребителски данни</string>
     <string name="account_user_birthday">Рожден ден</string>
@@ -75,7 +76,11 @@
     <string name="account_user_name_dialog_title">Въведете потр. име</string>
     <string name="account_user_other_info">Други източници</string>
     <string name="account_user_phone">Телефон за възстановяване</string>
+    <string name="account_user_phone_show">Телефон: %s</string>
     <string name="account_user_region">Регион</string>
+    <string name="account_verify_guide_bind_mail_desc">Добавяне на имейл за възстановяване</string>
+    <string name="account_verify_guide_bind_phone_desc">Добавяне на телефон за възстановяване</string>
+    <string name="account_verify_guide_set_password_desc">Задаване на парола</string>
     <string name="account_xiaomi_service">Услуги</string>
     <string name="action_add_phone">Добавяне на телефонен номер</string>
     <string name="action_retry">Опитайте отново</string>
@@ -178,16 +183,17 @@ ID:%s
     <string name="facebook_app_id">2263965750590514</string>
     <string name="facebook_login">Вписване с Facebook</string>
     <string name="failed_dup_secure_phone_number">Този телефонен номер вече е свързан с друг Mi Профил</string>
+    <string name="family_share">Семейно споделяне</string>
     <string name="fb_login_protocol_scheme">fb2263965750590514</string>
     <string name="find_device">Намери устройство</string>
     <string name="find_device_access_denied">Не може да се получи информация за статус, достъпът е забранен.</string>
     <string name="find_device_account_error">Неуспешно получаване на статус поради грешка в профила</string>
     <string name="find_device_activate_account">Активиране на профил</string>
-    <string name="find_device_bad_response_error">A server error occurred. Wait a minute or two and try again.</string>
+    <string name="find_device_bad_response_error">Възникна грешка в сървъра. Изчакайте минута-две и опитайте отново.</string>
     <string name="find_device_clear_data">Изтриване на данни</string>
     <string name="find_device_close">Изкл</string>
     <string name="find_device_error_password_not_confirmed">Неуспешно изключване на Открий устройството. Въведете отново вашата парола за Mi Профил.</string>
-    <string name="find_device_error_password_recently_changed">"You've changed your password within last %d days. Can't turn off Find device now due to security reasons."</string>
+    <string name="find_device_error_password_recently_changed">Променихте паролата си в рамките на последните %d дни. Поради причини свързани със сигурността, Открий устройството не може да бъде изключено.</string>
     <string name="find_device_interrupted">Действието се обърка, изчакайте минута-две и опитайте отново</string>
     <string name="find_device_io_error">Няма връзка с мрежата</string>
     <string name="find_device_location">Определи местоположение</string>
@@ -206,7 +212,8 @@ ID:%s
     <string name="find_device_request_prepare_error">Не може да се получи информация за статус, моля, опитайте по-късно.</string>
     <string name="find_device_set_lost_model">Режим Изгубен</string>
     <string name="find_device_title">Намери устройство</string>
-    <string name="find_device_unknown_error">"Can't get device status. Wait a minute or two and try again."</string>
+    <string name="find_device_unknown_error">Не може да се провери състоянието на устройството. Изчакайте минута-две и опитайте отново.</string>
+    <string name="find_equipment">Открий устройството</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -263,6 +270,7 @@ ID:%s
     <string name="friday">Петък</string>
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
+    <string name="get_back_password">Възстанови паролата</string>
     <string name="get_back_pwd">Нулиране на паролата</string>
     <string name="get_device_list_failed">Устройствата не може да се заредят</string>
     <string name="get_identity_auth_url_failed">Неуспешно потвърждаване на идентификационен номер</string>
@@ -296,13 +304,14 @@ ID:%s
     <string name="loading_micloud_sync_data">Момент…</string>
     <string name="login_check_find_device">Получаване на оптимизация по сигурността…</string>
     <string name="login_check_find_device_failed_title">Не може да се провери информацията за оптимизиране на устройството</string>
-    <string name="login_find_device_bind">This device is associated with an existing Mi Account ID (%s).</string>
+    <string name="login_find_device_bind">Това устройство е свързано с вече съществуващ номер на Mi Профил (%s).</string>
     <string name="logout_account">Отписване</string>
     <string name="logout_failed">Неуспешно отписване</string>
     <string name="mi_account_identity_title">Проверка на идентичността ви</string>
     <string name="mi_finance">Моите финанси</string>
     <string name="mi_finance_info">Бонуси за нови потребители</string>
     <string name="mi_health">Xiaomi Здраве</string>
+    <string name="mi_member">Mi Общност</string>
     <string name="mi_vip_info">Покажи предимствата</string>
     <string name="midnight">Нощ</string>
     <string name="mipay">Плащане</string>
@@ -313,6 +322,7 @@ ID:%s
     <string name="mipay_indentity_done">Потвърден</string>
     <string name="mipay_others">Друго</string>
     <string name="mipay_transit_card">Карта за транспорт</string>
+    <string name="miuix_access_state_desc">Избрани</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Размаркиране на всички</string>
     <string name="miuix_appcompat_action_mode_select_all">Избиране на всички</string>
     <string name="miuix_appcompat_action_mode_title_empty">Изберете елементи</string>
@@ -382,14 +392,18 @@ ID:%s
     <string name="my_device_title">Текущо устройство</string>
     <string name="need_install_wechat">Инсталирайте WeChat първо</string>
     <string name="night">Вечер</string>
+    <string name="no_install">Не е инсталирано</string>
     <string name="no_network_btn">Опресни</string>
     <string name="no_network_title">Няма врузка с мрежата.</string>
+    <string name="no_password_set">Не е настроено</string>
     <string name="no_phone">Няма телефонен номер</string>
     <string name="no_response_retry">Няма отговор, опитайте отново.</string>
     <string name="no_sim_card_or_unactivated">SIM картата не е инсталирана или активирана</string>
     <string name="nobind">Не свързвай</string>
     <string name="noon">Обед</string>
     <string name="not_set">Не е зададено</string>
+    <string name="notify_bind_security_phone">Добавяне на телефон за възстановяване</string>
+    <string name="notify_complete_security_info">Добавяне на информация за възстановяване</string>
     <string name="notify_network_restricted_content_bg_network">Достъпа на Mi Профила до интернет е ограничен. Натиснете, за да разрешите.</string>
     <string name="notify_network_restricted_content_hidden_state">Дейността на Mi Профила на заден план е ограничена. Натиснете, за да разрешите.</string>
     <string name="notify_network_restricted_content_mobile_network">Достъпа на Mi Профила до интернет е ограничен. Натиснете, за да разрешите.</string>
@@ -422,6 +436,7 @@ ID:%s
     <string name="passport_activing_account">Активира се…</string>
     <string name="passport_adding_account">Добавяне на профил…</string>
     <string name="passport_area_code_hot">ЧЕСТО ИЗПОЛЗВАНИ</string>
+    <string name="passport_area_code_others">Използвайте различен префикс</string>
     <string name="passport_area_code_title">Код на държава</string>
     <string name="passport_auto_generate_pwd">Генериране на надеждна парола</string>
     <string name="passport_back">Назад</string>
@@ -614,6 +629,7 @@ ID:%s
     <string name="passport_title_reg">Създаване на профил</string>
     <string name="passport_trust_device">Добави това устройство към потвърдените</string>
     <string name="passport_trying_read_verify_code_sms">Кодът за проверка се получава…</string>
+    <string name="passport_tz_invalid">Откит е риск за сигурността. Възможно е това устройство да е било рутирано или флашнато. Пробвайте други опции за вписване.</string>
     <string name="passport_uplink_reg">С телефонен номер</string>
     <string name="passport_uplink_send_sms_hint">Натиснете \"Изпращане\" след като бъдете пренасочени към страницата със съставено съобщение.</string>
     <string name="passport_uplink_slot1_reg">Чрез SIM 1</string>
@@ -627,7 +643,7 @@ ID:%s
     <string name="passport_use_generated_pwd_message">Уверете се, че сте запомнили паролата. Може да я използвате за вход в други Mi услуги.</string>
     <string name="passport_use_generated_pwd_title">Запомнете вашата парола!</string>
     <string name="passport_user_agreement">Потребителско споразумение</string>
-    <string name="passport_user_agreement_link">&lt;Data>Прочетох и приемам &lt;a href=%1$s>потребителското споразумение&lt;/a> и &lt;a href=%2$s>политиката за поверителност&lt;/a> на Xiaomi.&lt;/Data></string>
+    <string name="passport_user_agreement_link">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Xiaomi.&lt;/Data></string>
     <string name="passport_user_agreement_required">Потребителско споразумение (задължително)</string>
     <string name="passport_user_id_notice">Номера на вашия Mi Профил е %s.</string>
     <string name="passport_user_reg_region">Държава/Регион</string>
@@ -651,6 +667,7 @@ ID:%s
     <string name="permission_group_phone">Телефон</string>
     <string name="permission_group_sms">SMS</string>
     <string name="permission_group_storage">Хранилище</string>
+    <string name="personal_info_desc">Снимка, прякор и още</string>
     <string name="phone_num_use_for">Телефонният номер се използва за:</string>
     <string name="photoPickerNotFoundText">Не са налични изображения.</string>
     <string name="pm">PM</string>
@@ -697,6 +714,7 @@ ID:%s
     <string name="search_user_detail_path">Настройки/Mi Профил/Лична информация</string>
     <string name="search_user_detail_top_key_words">Лична информация, Промяна на профилната снимка, Промяна на потребителското име, Промяна на псевдоним, Промяна на дата на раждане, Промяна на пол</string>
     <string name="select_all">Избери всички</string>
+    <string name="self_account_info">Лична информация</string>
     <string name="send">Изпращане</string>
     <string name="send_diagnosis_log">Изпрати регистър с диагностика</string>
     <string name="send_email_activate_message">Имейлът за потвърждение е изпратен.</string>
@@ -766,6 +784,7 @@ ID:%s
     <string name="the_united_nations_day">Ден на обединените нации</string>
     <string name="the_valentines_day">Свети Валентин</string>
     <string name="the_water_lantern_festival">Фестивал на водните фенери</string>
+    <string name="third_party_login">Профили от трета страна</string>
     <string name="thursday">Четвъртък</string>
     <string name="thursday_short">Четв.</string>
     <string name="thursday_shortest">Четв.</string>

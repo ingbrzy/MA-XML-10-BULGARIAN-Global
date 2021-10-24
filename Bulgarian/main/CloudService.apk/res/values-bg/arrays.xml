@@ -23,14 +23,14 @@
     <string-array name="micloud_entrance_subtitleArray_china">
         <item>Синхронизирайте вашите контакти, съобщения, бележки, календар и още</item>
         <item>Архивирайте приложения, оформление на Начален екран и тапет</item>
-        <item>Архивирайте важни настройки, включително WLAN и дисплей</item>
+        <item>Back up important settings, including WLAN and display</item>
         <item>Заключете устройството си от разстояние ако е изгубено</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray_china_v2">
-        <item>Sync your contacts, messages, notes, calendar, and more</item>
-        <item>Back up apps, Home screen layout, and wallpaper</item>
+        <item>Синхронизиране на Вашите контакти, съобщения, бележки, календар и още</item>
+        <item>Резервно копие на приложения, оформление на Начален екран и тапет</item>
         <item>Back up important settings, including WLAN and display</item>
-        <item>"Lock your device remotely if it's lost"</item>
+        <item>Заключете вашето устройство отдалечено, ако е изгубено</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray_pad">
         <item>Синхронизирайте своите снимки, бележки, записи и още</item>
@@ -43,13 +43,13 @@
         <item>Заключете устройството си от разстояние ако е изгубено</item>
     </string-array>
     <string-array name="micloud_entrance_titleArray">
-        <item>Синхронизиране на данните на приложението</item>
-        <item>Резервно копие на оформлението на начален екран</item>
+        <item>Синхронизиране на данни</item>
+        <item>Резервно копие на оформлението на Началния екран</item>
         <item>Архив на системните настройки</item>
-        <item>Намери устройство</item>
+        <item>Открий устройството</item>
     </string-array>
     <string-array name="micloud_entrance_titleArray_pad">
-        <item>Синхронизиране на данните на приложението</item>
+        <item>Синхронизиране на данни</item>
         <item>Открий устройството</item>
     </string-array>
     <string-array name="privacy_dialog_finddevice_runtime_perm_desc">

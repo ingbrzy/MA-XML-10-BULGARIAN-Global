@@ -437,6 +437,7 @@
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -483,6 +484,7 @@
     <string name="note_gesture_guide_step3">Натиснете и задръжте бележка и я плъзнете върху папка, за да преместите бележката там</string>
     <string name="note_header_first_enter_guide">Дръпнете надолу, за да видите повече</string>
     <string name="note_invalid_mindnote_hint">Не са налични мислени карти в тази версия. Обновете приложението, за да използвате тази функция.</string>
+    <string name="note_item_default_title">Изпразване на бележка</string>
     <string name="note_link_email">Състави имейл</string>
     <string name="note_link_other">Преглед с приложение за карти</string>
     <string name="note_link_select">Маркирай текста</string>
@@ -496,6 +498,7 @@
     <string name="note_sort_way">Сортиране</string>
     <string name="notealert_enter">Отвори бележката</string>
     <string name="notealert_ok">Затвори</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Бележки е системно приложение. След като го деинсталирате няма да можете да използвате приложението.</string>
     <string name="notes_description_title">Деинсталиране на Бележки?</string>
     <string name="notification_content_add_todo_from_other_app">Добавихте нова задача. Натиснете, за да прегледате.</string>
@@ -554,6 +557,12 @@
     <string name="pref_desc_skip_confirm_for_quick_delete">Плъзнете нагоре с 2 пръста, за да изтривате бележки без потвърждение</string>
     <string name="pref_desc_todo_float_mode">Плъзнете от ръба на екрана, за да отворите лентата с инструменти.</string>
     <string name="pref_excerpt_link_float">Получаване на напомняне за създаване на извадка когато е копиран URL адрес</string>
+    <string name="pref_permission_allowed">Позволено</string>
+    <string name="pref_permission_manage">Подробности за разрешения</string>
+    <string name="pref_permission_manage_key_contact">Достъп до контакти</string>
+    <string name="pref_permission_manage_key_recording">Записване на аудио</string>
+    <string name="pref_permission_manage_key_storage">Достъп до паметта</string>
+    <string name="pref_permission_not_allowed">Не е позволено</string>
     <string name="pref_quick_note_desc">Използвайте прекия път в края на екрана, за да създавате бележки и задачи и да запазвате копирани URL адреси, текст и изображения в Бележки.</string>
     <string name="pref_remind_type_summary">Звукът на напомнянето ще се чува и в тих режим.</string>
     <string name="pref_remind_type_summary_new">Игнориранне на Тих режим и възпроизвеждане на звук до изключване на алармата</string>
@@ -870,6 +879,9 @@
     <string name="widget_size_item_2x2">%1$d×%2$d</string>
     <string name="widget_size_item_4x2">%1$d×%2$d</string>
     <string name="widget_size_item_4x4">%1$d×%2$d</string>
+    <string name="widget_size_item_big">Голямо</string>
+    <string name="widget_size_item_medium">Средно</string>
+    <string name="widget_size_item_small">Малко</string>
     <string name="widget_take_notes_title">Бележки</string>
     <string name="yesterday">Вчера</string>
 </resources>

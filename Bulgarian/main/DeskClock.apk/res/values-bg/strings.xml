@@ -423,12 +423,20 @@
     <string name="other_settings">Разширени настройки</string>
     <string name="pause">Пауза</string>
     <string name="percentage_sign">%</string>
+    <string name="permission_desc">Permissions details</string>
+    <string name="permission_granted">Granted</string>
+    <string name="permission_rejected">Not granted</string>
+    <string name="permission_related">Permissions</string>
     <string name="personal_recommend">Персонализирани препоръки за съдържание</string>
     <string name="pm">PM</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="privacy_policy">Политика на поверителност</string>
     <string name="privacy_policy_title">Политика на поверителност</string>
+    <string name="privacy_settings_title">Privacy</string>
+    <string name="query_privacy_policy">View Privacy Policy</string>
     <string name="reach_upper_limit">Не можете да добавяте повече таймери</string>
+    <string name="read_external_storage_permission_desc">For setting custom ringtones</string>
+    <string name="read_internal_storage">Access storage</string>
     <string name="remind_ringtone">Мелодия</string>
     <string name="repeat_count">Пъти</string>
     <string name="repeat_count_value_five">5</string>
@@ -478,6 +486,7 @@
     <string name="shutdown_alarm_enable_summary">Алармата ще се включи, ако е настроена да се пусне най-малко 10 минути след изключване на устройството Ви</string>
     <string name="shutdown_alarm_title">Включване на телефона</string>
     <string name="silent_alarm_summary">Без звук</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Изключи еднократно на %s</string>
     <string name="sleep_analysis">Статистика</string>
     <string name="sleep_analysis_chart_date_format">dd/MM</string>
@@ -521,6 +530,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Няма обиколки</string>
     <string name="stopwatch_reset_notification">Хронометъра беше нулиран</string>
     <string name="stopwatch_running_notification">Хронометър</string>
@@ -529,6 +539,7 @@
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>
     <string name="sunday_shortest">Нед.</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Разрешете на това приложение достъп до интернет, за да използвате всичките му функции.</string>
     <string name="system_permission_main_purpose">Преглед да часа, настройване на аларми и таймери, използване на секундомер</string>
     <string name="system_permission_purpose">Създаване на аларми за работните дни от седмицата и задаване на персонализирани мелодии</string>

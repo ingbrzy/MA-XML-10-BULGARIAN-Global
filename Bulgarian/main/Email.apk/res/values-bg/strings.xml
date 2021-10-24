@@ -252,6 +252,7 @@
     <string name="back">Назад</string>
     <string name="bank_card_detail">Кредитна карта</string>
     <string name="bcc">Bcc</string>
+    <string name="bcc_heading">"Препращане на: "</string>
     <string name="bill_center_setting">Настройки на сметките</string>
     <string name="bill_center_setting_head">Импортиране на информация от профила</string>
     <string name="bill_cycle_text">Цикъл на плащане</string>
@@ -273,6 +274,7 @@
     <string name="cancel_pop3_attchemt_downloading">Не може да отмените текущите изтегляния за прикачени файлове в POP3 профили</string>
     <string name="cant_move_or_change_labels">Не може да премествате елементи от много профили.</string>
     <string name="cc">Cc</string>
+    <string name="cc_attribution">Копие до %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Копие до: "</string>
     <string name="certificate_add_failed">Неуспешно добавяне на сертификата „% s“</string>
@@ -302,6 +304,7 @@
     <string name="click_to_reload">Докоснете екрана, за да се обнови</string>
     <string name="close">Затваряне</string>
     <string name="collapse_recipient_details">Скриване на данни за получателя</string>
+    <string name="colon">:</string>
     <string name="compose">Съставяне на</string>
     <string name="compose_event">Покана</string>
     <string name="compose_paste_address_oob">Твърде много символи</string>
@@ -376,6 +379,7 @@
     <string name="copy">Копиране</string>
     <string name="copy_email">Копиране на имейл адрес</string>
     <string name="copy_number">Копиране на телефонен номер</string>
+    <string name="copy_toast_msg">Връзката е копирана в буферната памет</string>
     <string name="create_action">Нов</string>
     <string name="cur_debt">Баланс по сметка</string>
     <string name="custom_from_account_label">Изпрати пощата като:</string>
@@ -477,6 +481,9 @@
     <string name="failed_parse_eml_file">Не можах да отворя EML файл, опитайте отново.</string>
     <string name="failed_read_write_calendar_permission">Достъпът до Календар е ограничен</string>
     <string name="failed_read_write_contacts_permission">Достъпът до контактите е ограничен</string>
+    <string name="fallback_menu_item_copy_link">Копиране на връзката</string>
+    <string name="fallback_menu_item_open_in_browser">Отваряне в браузър</string>
+    <string name="fallback_menu_item_share_link">Споделяне на връзката</string>
     <string name="feedback">Изпращане на отзив</string>
     <string name="feedback_body">Съобщение</string>
     <string name="feedback_sent">Благодаря ви за вашето мнение</string>
@@ -613,6 +620,7 @@
     <string name="go_to_mail_content">Преглед на имейл</string>
     <string name="have_auth_code">Имам код</string>
     <string name="header_category_account">Профили</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_label_general_preferences">Общи настройки</string>
     <string name="help_and_info">Помощ</string>
     <string name="help_me_get_qq_auth">Получете код</string>
@@ -635,6 +643,7 @@
     <string name="invalid_recipient">"Адресът %s  е невалиден."</string>
     <string name="invalid_recipient_title">Получателят не съществува</string>
     <string name="kilobytes">"%s  КБ"</string>
+    <string name="label_notification_ticker">%1$s: %2$s</string>
     <string name="list_empty_to_fresh">Все още няма имейли.</string>
     <string name="load_from_remote">Търсене на пощенска кутия на сървъра</string>
     <string name="load_more">Зареди още</string>
@@ -1156,6 +1165,7 @@
 %s"</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="size_byte">Б</string>
     <string name="size_giga_byte">ГБ</string>
     <string name="size_kilo_byte">КБ</string>
@@ -1165,6 +1175,7 @@
     <string name="size_tera_byte">ТБ</string>
     <string name="smtp_password_error">Паролата за сървъра за изходяща поща е неправилна</string>
     <string name="sort_attachment">Сортиране по</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="str_select_all">Избери всички</string>
     <string name="str_select_none">Откажи всички</string>
     <string name="subject_and_snippet">%1$s - %2$s</string>

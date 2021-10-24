@@ -228,11 +228,13 @@
     <string name="not_set">Не е зададено</string>
     <string name="operation_delete">Изтрий</string>
     <string name="operation_send">Изпрати</string>
+    <string name="permission_desc">Permissions details</string>
     <string name="permission_intro_microphone">За запис на звук, когато звуков източник е поставен до микрофон</string>
     <string name="permission_intro_storage">За съхраняване на записи от екрана</string>
     <string name="permission_microphone_desc">Използване на микрофона като аудиоизточник за екранни записи</string>
     <string name="pm">PM</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
+    <string name="privacy_settings">Privacy</string>
     <string name="quit_recording">Изход от Записване на екран</string>
     <string name="recording_failure">Не може да се запише, започни отначало</string>
     <string name="recording_max_size">Записът бе спрян и запазен, защото видеофайлът достигна своя максимален размер. Започнете записването, откъдето сте спрели, ако все още не сте готови.</string>
@@ -337,6 +339,7 @@
     <string name="using_record_confirm_ok">Разреши</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
+    <string name="view_privacy">View Privacy Policy</string>
     <string name="view_recorded_file">Натиснете, за да прегледате записан файл</string>
     <string name="view_recorded_videos">Преглед на записите</string>
     <string name="warning_recording_when_a2dp_connect">Вашето устройство не поддържа запис на системни звуци при използването на Bluetooth слушалки.</string>

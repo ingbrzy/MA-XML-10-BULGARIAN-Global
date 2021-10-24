@@ -28,6 +28,8 @@
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
     <string name="actionbar_button_up_description">Назад</string>
+    <string name="add_remark_hint">Въведете коментара си тук</string>
+    <string name="add_remark_tip">Натиснете, за да добавите коментар</string>
     <string name="afternoon">Следобяд</string>
     <string name="agree_description">Разрешете на това приложение достъп до интернет, за да можете да използвате всичките му функции.</string>
     <string name="alert_message_clear_records">Желаете ли да изтриете избрания звукозапис?</string>
@@ -89,6 +91,7 @@
     <string name="early_morning">Сутрин</string>
     <string name="empty" />
     <string name="empty_recognition_tip">Празно</string>
+    <string name="empty_tips">Натиснете бутона за стартиране на запис</string>
     <string name="eras_ad">н.е.</string>
     <string name="eras_bc">пр.Хр.</string>
     <string name="err_msg_abandon">Поръчката беше отменена</string>
@@ -114,6 +117,7 @@
     <string name="error_filename_illegal_char">Името на файла съдържа невалидни символи.</string>
     <string name="error_filename_too_long">Името на файла е твърде дълго</string>
     <string name="error_icon_content_description">Грешка</string>
+    <string name="error_remark_too_long">Вашия коментар е твърде дълъг</string>
     <string name="error_sdcard_access">Няма достъп до SD картата</string>
     <string name="error_sdcard_unmounted">SD картата е демонтирана, моля поставете SD карта</string>
     <string name="evening">Следобед</string>
@@ -290,6 +294,7 @@
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -327,6 +332,7 @@
     <string name="no_file">Няма звукозаписи</string>
     <string name="no_network">Неуспешно свързване с мрежата</string>
     <string name="no_playback_file">Изберете запис, за да прегледате подробностите</string>
+    <string name="no_records">Тук все още няма записи</string>
     <string name="noon">Обед</string>
     <string name="normal_settings_pref_title">Основни настройки</string>
     <string name="not_set">Не е зададено</string>
@@ -447,6 +453,9 @@
     <string name="record_downloading_notification_complete">Изтеглянето завърши</string>
     <string name="record_downloading_notification_count">Изтегляне: %d</string>
     <string name="record_format_preference_title">Формат на запис</string>
+    <string name="record_item_title_multi_choice">Избери</string>
+    <string name="record_item_title_remark">Добавяне на бележка</string>
+    <string name="record_item_title_send">Сподели</string>
     <string name="record_list">Списък със звукозаписи</string>
     <string name="record_list_app">Записи от приложения</string>
     <string name="record_list_call">Записи на обаждания</string>
@@ -533,6 +542,10 @@
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>
     <string name="sunday_shortest">Нед.</string>
+    <string name="tab_all">Всички</string>
+    <string name="tab_apps">Приложения</string>
+    <string name="tab_call">Повиквания</string>
+    <string name="tab_fm">FM</string>
     <string name="tap_to_record">Натиснете бутона за стартиране на запис</string>
     <string name="text_btn_backward_3_seconds">3 секунди назад</string>
     <string name="text_btn_complete">Завършени</string>

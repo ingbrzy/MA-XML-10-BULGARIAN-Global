@@ -145,7 +145,7 @@
     <string name="app_name_miuimusic">Музика</string>
     <string name="app_name_miuiringtone">Мелодия</string>
     <string name="app_name_miuiwallpaper">Тапети</string>
-    <string name="app_name_screenshot">Снимки на екрана</string>
+    <string name="app_name_screenshot">Екранни снимки</string>
     <string name="app_new_version">Вие вече сте инсталирали най-новата версия на програмата</string>
     <string name="app_uninstall_description_content">Браузър е системно приложение. След като деинсталирате приложението няма да можете да използвате търсачката, както и услугите са сърфиране, които то предоставя.</string>
     <string name="app_uninstall_description_title">Деинсталиране на Браузър?</string>
@@ -285,6 +285,8 @@
     <string name="collect_diagnosis_log">Събиране на регистри</string>
     <string name="collection_articles">Артикули</string>
     <string name="collection_videos">Видеоклипове</string>
+    <string name="columbus_ad_flag_text">Реклама</string>
+    <string name="columbus_skip_ad">Пропусни</string>
     <string name="comment_app_menu">Коментар</string>
     <string name="comment_description">Коментар</string>
     <string name="comment_hint">Коментар</string>
@@ -342,7 +344,7 @@
     <string name="contextmenu_share_image">Сподели изображението</string>
     <string name="contextmenu_sharelink">Сподели връзка</string>
     <string name="contextmenu_view_image">Преглед на изображение</string>
-    <string name="contextmenu_webpage_capture">Запиши като екр. снимка</string>
+    <string name="contextmenu_webpage_capture">Запиши като екранна снимка</string>
     <string name="contextmenu_webpage_html">Запис като HTML файл</string>
     <string name="contextmenu_webpage_pdf">Запази като PDF</string>
     <string name="contextmenu_webpage_snapshot">Запиши страницата</string>
@@ -1152,6 +1154,13 @@ ID:%s
     <string name="notification_download_completed">Изтеглянето е успешно</string>
     <string name="notification_download_failed">Изтеглянето е неуспешно.</string>
     <string name="notification_wechat_expired_empty">WeChat вече изтри тези видеоклипове.</string>
+    <string name="offline_notification_text">Докоснете, за да отворите рекламата</string>
+    <string name="offline_notification_title">Прегледайте рекламата, която запазихте, докато бяхте офлайн</string>
+    <string name="offline_opt_in_confirm">ОК</string>
+    <string name="offline_opt_in_confirmation">Ще получите известие с връзката, когато отново сте онлайн</string>
+    <string name="offline_opt_in_decline">Не</string>
+    <string name="offline_opt_in_message">Ще ви изпратим известие с връзка към сайта на рекламодателя.</string>
+    <string name="offline_opt_in_title">Отворете рекламата, когато отново сте онлайн.</string>
     <string name="ok">ОК</string>
     <string name="open_app_confirm_message">Разрешаване на тази страница да отвори %s?</string>
     <string name="open_private_folder">Пуснете за преглед на скрити папки</string>
@@ -1575,6 +1584,15 @@ ID:%s
     <string name="restart_phone_bind_message">Получаването на SMS може да отнеме известно време. Започване отначало?</string>
     <string name="restart_phone_bind_title">Промяна на телефон за възстановяване</string>
     <string name="return_to_homepage">Към началната страница</string>
+    <string name="risk_continue">Продължи</string>
+    <string name="risk_detail">Подробности</string>
+    <string name="risk_malicious_url">Този уебсайт може да представлява риск за сигурността.</string>
+    <string name="risk_protect_browsing">Mi Браузър проверява уебсайтове за проблеми със сигурността</string>
+    <string name="risk_safe_url">Този уебсайт е сигурен</string>
+    <string name="risk_setting_des">Разрешете на Mi Браузър да проверява уебсайтове за проблеми със сигурността</string>
+    <string name="risk_setting_title">Сигурно сърфиране</string>
+    <string name="risk_stop">Стоп</string>
+    <string name="risk_unspecified_url">Има проблем със сертификата за сигурност на този уебсайт.</string>
     <string name="rlv_last_refreshing_time">Обновено %1$s</string>
     <string name="rlv_loading_more">Момент…</string>
     <string name="rlv_pull_to_refresh">Издърпайте надолу за обновяване</string>

@@ -30,6 +30,7 @@
     <string name="actionbar_button_up_description">Назад</string>
     <string name="afternoon">Следобяд</string>
     <string name="allow">Разреши</string>
+    <string name="allowed">Позволено</string>
     <string name="altitude">%.1f</string>
     <string name="altitude_longitude_Degree_format" formatted="false">"%d°%d'%d\""</string>
     <string name="altitude_title">Височина</string>
@@ -142,6 +143,7 @@
     <string name="friday">Петък</string>
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
+    <string name="get_location">Достъп до местоположението</string>
     <string name="gradienter_title">Нивелир</string>
     <string name="guide_toast">За да калибрирате, преместете устройството си, както е показано по-долу.</string>
     <string name="latitude">Ширина</string>
@@ -157,6 +159,7 @@
     <string name="location_west">З.Д.</string>
     <string name="longitude">Дължина</string>
     <string name="midnight">Нощ</string>
+    <string name="miuix_access_state_desc">Избрани</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Размаркиране на всички</string>
     <string name="miuix_appcompat_action_mode_select_all">Избиране на всички</string>
     <string name="miuix_appcompat_action_mode_title_empty">Изберете елементи</string>
@@ -222,17 +225,25 @@
     <string name="month_september_shortest">Септ.</string>
     <string name="more">Още</string>
     <string name="morning">Сутрин</string>
+    <string name="new_cta_v2_app_purpose">Показване на посоки, координати, атмосферно налягане и надморска височина в момента</string>
+    <string name="new_permission_camera_desc">За калибрация</string>
+    <string name="new_permission_location_desc">За показване на координати</string>
     <string name="night">Вечер</string>
     <string name="noon">Обед</string>
+    <string name="not_allowed">Не е позволено</string>
     <string name="not_set">Не е зададено</string>
+    <string name="open_camera">Използване на камерата</string>
     <string name="open_perm_msg">Приложението Компас се нуждае от достъп до информация за Вашето местоположение и камера, за да определи координати и да предостави преглед наживо. Разреши?</string>
     <string name="open_perm_msg_no_camera">Компас се нуждае от достъп до информация за местоположението, за да може да определи координатите. Разрешавате ли?</string>
     <string name="open_perm_title">Необходими разрешения</string>
     <string name="permission_camera_desc">За показване на азимута в преглед наживо</string>
+    <string name="permission_description">Подробности за разрешения</string>
     <string name="permission_location_desc">За показване на координати</string>
     <string name="pm">PM</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="preference_other">Друг</string>
+    <string name="preference_privacy_policy">Преглед на Правилата за поверителност</string>
+    <string name="preference_privacy_setting">Поверителност</string>
     <string name="preference_privacy_title">Правилата за поверителност</string>
     <string name="pressure">%.1f</string>
     <string name="pressure_title">Налягане</string>
