@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
     <string name="about_device_info">Детайли на устройството</string>
+    <string name="accept">Разреши</string>
     <string name="access_token_expired_warning">Weibo профилът е с изтекъл срок: свържете го отново</string>
     <string name="access_token_invalid_warning">Weibo профилът е невалиден: свържете го отново</string>
     <string name="account">Профил</string>
@@ -107,6 +108,7 @@
     <string name="binded_description" formatted="false">"%s беше свързан към вашия Mi Профил.
 Вече можете да влезете във вашия Mi Профил чрез %s."</string>
     <string name="button_unbind">Прекратяване на връзката</string>
+    <string name="cancel">Отказ</string>
     <string name="change_activate_email">Промяна на имейл адрес</string>
     <string name="change_email_address">Промяна на имейл адрес</string>
     <string name="change_password">Промени паролата</string>
@@ -157,6 +159,7 @@
     <string name="delete_device_btn">Изтрий</string>
     <string name="delete_device_failed">Устройството не може да се премахне</string>
     <string name="delete_device_notice">След като устройството бъде премахнато, то ще отпише автоматично вашия Mi Профил. Няма да можете да използвате това устройство за достъп до снимките, съобщенията и другата информация, съхранена във вашия профил.</string>
+    <string name="deny">Откажи</string>
     <string name="device_delete_success_message">Ако не сте се вписвали на това устройство, незабавно променете паролата си.</string>
     <string name="device_delete_success_title">Отписано</string>
     <string name="device_list__header">Устройства</string>
@@ -170,6 +173,7 @@ ID:%s
     <string name="early_morning">Сутрин</string>
     <string name="empty" />
     <string name="empty_device_list_notice">Няма устройства</string>
+    <string name="enable">Настройки</string>
     <string name="ep_unsupported">Неуспешно вписване в Mi Профил в устройството ви</string>
     <string name="eras_ad">н.е.</string>
     <string name="eras_bc">пр.Хр.</string>
@@ -278,6 +282,7 @@ ID:%s
     <string name="get_phone_verifycode_exceed_limit">На този телефонен номер бяха изпратени прекалено много кодове за проверка. Опитайте отново след 24 часа.</string>
     <string name="google">Google</string>
     <string name="google_login">Вписване с Google</string>
+    <string name="goto_accept">OК</string>
     <string name="guest_account_label">Mi Профил за посетители</string>
     <string name="health_action_activate">Активирай</string>
     <string name="health_action_install">Инсталирай</string>
@@ -302,9 +307,11 @@ ID:%s
     <string name="kr_permission_sms_desc">За автоматично попълване на кодове за потвърждение</string>
     <string name="kr_permission_storage_desc">За съхраняване на диагностика</string>
     <string name="loading_micloud_sync_data">Момент…</string>
+    <string name="login_3rd_app_with_system_account">Вписване в %s</string>
     <string name="login_check_find_device">Получаване на оптимизация по сигурността…</string>
     <string name="login_check_find_device_failed_title">Не може да се провери информацията за оптимизиране на устройството</string>
     <string name="login_find_device_bind">Това устройство е свързано с вече съществуващ номер на Mi Профил (%s).</string>
+    <string name="login_with_other">Допълнителни опции</string>
     <string name="logout_account">Отписване</string>
     <string name="logout_failed">Неуспешно отписване</string>
     <string name="mi_account_identity_title">Проверка на идентичността ви</string>
@@ -436,7 +443,6 @@ ID:%s
     <string name="passport_activing_account">Активира се…</string>
     <string name="passport_adding_account">Добавяне на профил…</string>
     <string name="passport_area_code_hot">ЧЕСТО ИЗПОЛЗВАНИ</string>
-    <string name="passport_area_code_others">Използвайте различен префикс</string>
     <string name="passport_area_code_title">Код на държава</string>
     <string name="passport_auto_generate_pwd">Генериране на надеждна парола</string>
     <string name="passport_back">Назад</string>
@@ -663,10 +669,14 @@ ID:%s
     <string name="passport_yes">Да</string>
     <string name="password_view_hide_password">Скриване на паролата</string>
     <string name="password_view_show_password">Показване на паролата</string>
+    <string name="permission_desc_read_sms">За автоматично попълване на кодове за потвърждение</string>
+    <string name="permission_desc_write_external_storage">За качване на доклади за отзиви</string>
     <string name="permission_group_contacts">Контакти</string>
     <string name="permission_group_phone">Телефон</string>
     <string name="permission_group_sms">SMS</string>
     <string name="permission_group_storage">Хранилище</string>
+    <string name="permission_read_sms">Достъп до съобщения</string>
+    <string name="permission_write_external_storage">Достъп и добавяне на информация в хранилището</string>
     <string name="personal_info_desc">Снимка, прякор и още</string>
     <string name="phone_num_use_for">Телефонният номер се използва за:</string>
     <string name="photoPickerNotFoundText">Не са налични изображения.</string>
@@ -685,6 +695,12 @@ ID:%s
     <string name="recycle_phone_notification_title">Рискове в сигурността на Mi Профил</string>
     <string name="removing_account">Отписване…</string>
     <string name="replace_binded_phone">Промени телефона</string>
+    <string name="request_open_permission">Необходими са разрешения</string>
+    <string name="request_use_camera_message">Разрешавате ли на Mi Профил да получава достъп до камерата на телефона?</string>
+    <string name="request_use_camera_title">Достъп до камерата</string>
+    <string name="request_use_gallery_message">Разрешавате ли на Mi Профил да получава достъп до Галерията?</string>
+    <string name="request_use_gallery_title">Достъп до Галерия</string>
+    <string name="request_use_writing_clipboard_message">За да копирате своя номер на Mi Профил, разрешете на Mi Профил да запазва елементи в клипборда.</string>
     <string name="resend_active_email">Повторен опит</string>
     <string name="resend_email_reach_limit_message">Изпратихте твръде много имейли за потвърждение. Бъдете сигурен, че обратният имейл не е във вашата входяща кутия за спам.</string>
     <string name="resend_email_reach_limit_title">Не може да се изпрати имейл.</string>
@@ -817,6 +833,10 @@ ID:%s
     <string name="used_cloud_storage_info">Използвано %s</string>
     <string name="user_avatar_update_title">Промяна на профилната снимка</string>
     <string name="user_avatar_uploading">Момент…</string>
+    <string name="user_instruction_all_purpose">Добре дошли в Mi Профил! Можете да използвате профила си, за да получите достъп до услуги предоставени от Xiaomi и нейните дъщерни дружества, като Mi.com, Xiaomi Cloud и GetApps. Можете да получавате Mi Монети, да купувате виртуални стоки и да се наслаждавате на ценни услуги като игри, теми и електронни книги.</string>
+    <string name="user_instruction_tip">За да можете да се вписвате, прочетете и приемете правилата и условията.</string>
+    <string name="user_license_with_3rd_app">&lt;Data>Вписвайки се в своя Mi Профил, аз потвърждавам, че съм прочел/а и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, както и &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил.&lt;/Data></string>
+    <string name="user_license_without_3rd_app">&lt;Data>Прочетох и приех &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил.&lt;/Data></string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
     <string name="vip_account_settings">VIP Настройки</string>

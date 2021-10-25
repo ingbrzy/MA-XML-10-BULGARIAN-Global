@@ -37,11 +37,11 @@
         <item quantity="one">Преди 1 мин</item>
     </plurals>
     <plurals name="backup_items_app_tailer">
-        <item quantity="other">%d файла с данни за приложения</item>
+        <item quantity="other">%d файлове с данни за приложения</item>
         <item quantity="one">%d файл с данни за приложения</item>
     </plurals>
     <plurals name="backup_items_sysdata_tailer">
-        <item quantity="other">%d системни файла с данни</item>
+        <item quantity="other">%d системни файлове с данни</item>
         <item quantity="one">%d системен файл с данни</item>
     </plurals>
     <plurals name="custom_progress">
@@ -129,8 +129,8 @@
         <item quantity="one">%d елемент,</item>
     </plurals>
     <plurals name="trans_failed_summary">
-        <item quantity="other">Неуспешно прехвърляне на %d елемента. Натиснете за подробности.</item>
-        <item quantity="one">Неуспешно прехвърляне на %d елемент. Натиснете за подробности</item>
+        <item quantity="other">Не можаха да се прехвърлят %d елементи. Чукнете за подробности.</item>
+        <item quantity="one">Не можа да се прехвърли %d елемент. Чукнете за подробности.</item>
     </plurals>
     <plurals name="trans_item_failed_summary">
         <item quantity="other">%d елемента не могат да се прехвърлят.</item>

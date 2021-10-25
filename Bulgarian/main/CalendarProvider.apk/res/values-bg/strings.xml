@@ -19,10 +19,10 @@
     <string name="holiday_data_no_network">Няма мрежа, опитайте отново</string>
     <string name="holiday_data_update_failed">Грешка при обновяване, опитайте отново по-късно.</string>
     <string name="holiday_data_update_succeed">Обновяването завърши</string>
-    <string name="holiday_data_updating">Обновяване…</string>
+    <string name="holiday_data_updating">Обновяване...</string>
     <string name="holiday_update_summary">Натиснете за проверка</string>
     <string name="holiday_update_title">Обновяване на данните за работни дни</string>
     <string name="provider_label">Календар</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="upgrade_msg">Надстройка на базата от данни на календара…</string>
+    <string name="upgrade_msg">Надстройка на базата от данни на календара.</string>
 </resources>

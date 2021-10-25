@@ -4,13 +4,13 @@
         <item>Веднъж</item>
         <item>Ежедневно</item>
         <item>Работни дни (в Китай)</item>
-        <item>Делнични дни</item>
+        <item>Понеделник-Петък</item>
         <item>По избор</item>
     </string-array>
     <string-array name="alarm_repeat_type_no_workdays">
         <item>Веднъж</item>
         <item>Ежедневно</item>
-        <item>Делнични дни</item>
+        <item>Понеделник-Петък</item>
         <item>По избор</item>
     </string-array>
     <string-array name="app_behavior_type_menu">
@@ -50,7 +50,7 @@
     <string-array name="date_of_app_all">
         <item>"Вчера (мобилни данни) "</item>
         <item>"Днес (мобилни данни) "</item>
-        <item>"Миналия месец (мобилни данни) "</item>
+        <item>"Последния месец (мобилни данни) "</item>
         <item>"Този месец (мобилни данни) "</item>
         <item>"Вчера (Wi-Fi) "</item>
         <item>"Днес (Wi-Fi) "</item>
@@ -86,16 +86,17 @@
         <item>Ще бъде възможен достъп до подробна информация относно вашето устройство.</item>
     </string-array>
     <string-array name="gb_adv_touch_custom_level">
-        <item>Най-ниско</item>
-        <item>Ниско</item>
-        <item>Нормално</item>
-        <item>Високо</item>
-        <item>Най-високо</item>
+        <item>Най-ниска</item>
+        <item>Ниска</item>
+        <item>Нормална</item>
+        <item>Висока</item>
+        <item>Най-висока</item>
     </string-array>
-    <string-array name="input_package_names">
-        <item>com.baidu.input_mi</item>
-        <item>com.iflytek.inputmethod.miui</item>
-        <item>com.sohu.inputmethod.sogou.xiaomi</item>
+    <string-array name="key_app_info">
+        <item>източник на инсталиране</item>
+        <item>час на инсталиране</item>
+        <item>източник на актуализиране</item>
+        <item>час на актуализиране</item>
     </string-array>
     <string-array name="lock_mode">
         <item>При заключено устройство</item>
@@ -115,10 +116,20 @@
         <item>Важно: Възможно е множество системни приложения да спрат да функционират.</item>
         <item>Възможно е текстово оформление, профили и съдържание да не бъдат показвани правилно.</item>
     </string-array>
+    <string-array name="operate_entries">
+        <item>@string/auto_task_operation_open</item>
+        <item>@string/auto_task_operation_close</item>
+        <item>@string/auto_task_operation_no_op</item>
+    </string-array>
     <string-array name="operate_entryValues">
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
+    <string-array name="operate_memory_entries">
+        <item>@string/auto_task_operation_open</item>
+        <item>@string/auto_task_operation_close</item>
+        <item>@string/auto_task_operation_no_op</item>
     </string-array>
     <string-array name="operate_memory_entryValues">
         <item>0</item>
@@ -129,19 +140,19 @@
         <item>Показване на предупреждение</item>
         <item>Предупреждение и изкл. на моб. данни</item>
     </string-array>
-    <string-array name="pc_fast_charge_entry">
-        <item>10%</item>
-        <item>20%</item>
-        <item>30%</item>
-        <item>40%</item>
-        <item>50%</item>
+    <string-array name="pc_battery_history_spinner_choice">
+        <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/pc_battery_history_consume_all_menu_item</item>
+        <item>@string/power_center_battery_software</item>
+        <item>@string/power_center_battery_hardware</item>
+        <item>@string/pc_battery_history_battery_detail_menu_item</item>
     </string-array>
-    <string-array name="pc_fast_charge_entry_value">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
+    <string-array name="pc_battery_history_spinner_choice_new">
+        <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/pc_battery_history_consume_all_menu_item</item>
+        <item>@string/power_center_battery_software</item>
+        <item>@string/power_center_battery_hardware</item>
+        <item>@string/pc_battery_history_battery_detail_menu_item</item>
     </string-array>
     <string-array name="pc_settings_thermal_entries">
         <item>По подразбиране</item>

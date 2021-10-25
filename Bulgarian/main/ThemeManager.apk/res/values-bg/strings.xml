@@ -186,7 +186,9 @@
     <string name="exo_download_notification_channel_name">Изтегляния</string>
     <string name="exo_download_removing">Изтеглянията се премахват</string>
     <string name="exo_item_list">%1$s – %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_selection_auto">Автоматично</string>
     <string name="exo_track_selection_none">Нищо</string>
     <string name="exo_track_selection_title_audio">Аудиозапис</string>
@@ -310,6 +312,7 @@
     <string name="incompatible_dialog_ok">Разбрах</string>
     <string name="incompatible_dialog_title">Грешка при съвместимостта</string>
     <string name="is_setting_wallpaper_message">Тапетът се задава…</string>
+    <string name="item_resource_audio_divider">│</string>
     <string name="item_resource_audio_optional_alarm_ring">Будилници</string>
     <string name="item_resource_audio_optional_color_ring">Тон на обратно позвъняване</string>
     <string name="item_resource_audio_optional_notification_ring">Известия</string>
@@ -469,9 +472,6 @@
     <string name="payment_coins_balance">(Баланс: %1s)</string>
     <string name="payment_coins_insufficient_balance">(Недостатъчен баланс)</string>
     <string name="payment_method">Метод на плащане</string>
-    <string name="permission_desc">За съхраняване на запазени теми и други теми</string>
-    <string name="permission_summary">Задължителни разрешения (за основни услуги и функции на приложението)</string>
-    <string name="permission_title">Достъп до снимки и файлове на устройството</string>
     <string name="personal_recommend_desc">Получавайте препоръки за съдържание въз основа на вашите предпочитания</string>
     <string name="personal_recommend_title">Персонализирани препоръки</string>
     <string name="peyment_pay_now_btn">Плащане</string>
@@ -530,7 +530,6 @@
     <string name="related_theme">Теми</string>
     <string name="related_wallpaper">Тапети</string>
     <string name="reload">Опитайте отново</string>
-    <string name="res_migrate_tip">За да направим приложението Теми съвместимо с предстоящи версии на Android преместихме вашите изтеглени елементи на ново място. Рестартирайте приложението, за да приложите промените и да прегледате изтегленото съдържание.</string>
     <string name="resource_account_abnormal_state">Грешка в профила. Опитайте отново по-късно.</string>
     <string name="resource_account_fail_to_add">Неуспешно добавяне на профил!</string>
     <string name="resource_account_login">Вход</string>
@@ -669,6 +668,7 @@
     <string name="resource_pack_price_info">%1$s Нормално</string>
     <string name="resource_pack_warning">Внимание! Вече сте закупили %1$d елемента. Текущата им цена не е валидна за оставащите елементи, моля да ги купите поотделно.</string>
     <string name="resource_present">Подарък</string>
+    <string name="resource_price_format">(%1$s)</string>
     <string name="resource_price_free">Безплатни</string>
     <string name="resource_price_unit"> МiКредити</string>
     <string name="resource_purchase_common_error">Възникна грешка, опитайте отново</string>
@@ -680,7 +680,6 @@
     <string name="resource_ranking">Популярни</string>
     <string name="resource_ranking_free">Безплатни</string>
     <string name="resource_ranking_purchase">Платени</string>
-    <string name="resource_right_ack_check_error">Този код изтече</string>
     <string name="resource_ringtone_default">Мелодии</string>
     <string name="resource_ringtone_playing_error">Грешка</string>
     <string name="resource_ringtone_volume_mute">Звъненето е заглушено</string>
@@ -797,6 +796,7 @@
     <string name="sim_one">SIM 1</string>
     <string name="sim_two">SIM 2</string>
     <string name="similar_theme">Подобни теми</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_file">За запазване на изтеглени елементи</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Неделя</string>
@@ -907,6 +907,7 @@
     <string name="theme_is_external_priority_storage">Запази на картата с памет</string>
     <string name="theme_is_external_priority_storage_summary">Приложението Теми ще се рестартира за да се приложат промените</string>
     <string name="theme_multiple_button_title_customize">Редактиране</string>
+    <string name="theme_name">%1$s</string>
     <string name="theme_no">Не</string>
     <string name="theme_on_the_phone_alert">Не може да бъде възпроизведено по време на повикване</string>
     <string name="theme_select_others">Други</string>
@@ -916,12 +917,12 @@
     <string name="theme_user_agreement_content2">" Потребителско споразумение"</string>
     <string name="theme_user_agreement_content3">" и "</string>
     <string name="theme_user_agreement_content4">Правила за поверителност</string>
-    <string name="theme_user_agreement_content5">". Приложението се нуждае от интернет връзка, за да работи нормално. "</string>
+    <string name="theme_user_agreement_content5">.</string>
     <string name="theme_user_agreement_exit">Отхвърли</string>
-    <string name="theme_user_agreement_remind_again">Показване на Правила за ползване</string>
+    <string name="theme_user_agreement_remind_again">Показване на известие за усл. на ползване</string>
     <string name="theme_user_agreement_remind_never">Не показвай отново</string>
     <string name="theme_user_agreement_remind_summary">Показване на известие за условията на ползване. Настройката се активира след рестартиране на устройството.</string>
-    <string name="theme_user_agreement_title">Правила за ползване</string>
+    <string name="theme_user_agreement_title">Декларация</string>
     <string name="theme_yes">Да</string>
     <string name="themes_might_like">Теми, които може да Ви харесат</string>
     <string name="third_party_pickers_activity_title">Добави %1$s</string>
@@ -985,7 +986,7 @@
     <string name="video_data_tips_message">Използването на мобилни данни може да генерира допълнително разходи. Продължи въпреки това?</string>
     <string name="video_data_tips_title">Предупреждение за използв. на данни</string>
     <string name="video_silence_apply_success">Видеото без звук е конфигурирано успешно</string>
-    <string name="wallpaper_agreement_message">Преди да използвате тапети от Теми, прочетете и приемете нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%2$s\">Правила за поверителност&lt;/a>.</string>
+    <string name="wallpaper_agreement_message">Преди да използвате тапети от Теми, прочетете и приемете нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и нашата &lt;a href=\"%2$s\">Политика за поверителност&lt;/a>.</string>
     <string name="wallpaper_apply">Приложи</string>
     <string name="wallpaper_crop">Подрежи</string>
     <string name="wallpaper_decoded_error">Тапетът не може да се зареди</string>

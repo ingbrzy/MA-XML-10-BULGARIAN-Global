@@ -96,17 +96,7 @@
     <string name="accessibility_flash_back_soft_light">Светкавицата работи в режим \"Мека светлина\"</string>
     <string name="accessibility_flash_off">Светкавицата е изкл</string>
     <string name="accessibility_flash_on">Светкавицата е вкл</string>
-    <string name="accessibility_flash_screen_halo">Включена е кръговата светлина</string>
     <string name="accessibility_flash_torch">Светкавицата е включена в режим Фенерче</string>
-    <string name="accessibility_focus_face_pos_bottom">Намира се близо до долния ляв край на рамката</string>
-    <string name="accessibility_focus_face_pos_left">Намира се близо до левия край на рамката</string>
-    <string name="accessibility_focus_face_pos_left_bottom">Намира се близо до горния ляв ъгъл на рамката</string>
-    <string name="accessibility_focus_face_pos_left_top">Намира се близо до горния ляв ъгъл на рамката</string>
-    <string name="accessibility_focus_face_pos_mid">Намира се близо до центъра на рамката</string>
-    <string name="accessibility_focus_face_pos_right">Намира се близо до десния край на рамката</string>
-    <string name="accessibility_focus_face_pos_right_bottom">Намира се близо до долния десен ъгъл на рамката</string>
-    <string name="accessibility_focus_face_pos_right_top">Намира се близо до горния десен ъгъл на рамката</string>
-    <string name="accessibility_focus_face_pos_top">Намира се близо до горния ляв край на рамката</string>
     <string name="accessibility_focus_status">Приближение %1$sX</string>
     <string name="accessibility_foucs_peak">Peak cтойност</string>
     <string name="accessibility_front_preview_status">Преглед на предна камера</string>
@@ -628,6 +618,7 @@
     <string name="edit_smile">Усмивка</string>
     <string name="edit_solid">Контур</string>
     <string name="emoticon">Пакет със стикери</string>
+    <string name="empty" />
     <string name="eras_ad">н.е.</string>
     <string name="eras_bc">пр.Хр.</string>
     <string name="error_fail_to_start_audio_capture">Няма възможност за звукозапис</string>
@@ -755,7 +746,7 @@
     <string name="hint_groupshot">"Камерата ще направи няколко снимки
 и после ще създаде кадър, на който всички изглеждате най-добре."</string>
     <string name="hint_groupshot_beauty">Не може да се използва ефект Разкрасяване при групови снимки</string>
-    <string name="hint_mimovie">За най-добър ефект снимайте в режим Пейзаж</string>
+    <string name="hint_mimovie">За най-добър ефект снимайте в режим \"Пейзаж\".</string>
     <string name="hint_slow_motion">Видеоклипът, който заснемате, ще се възпроизвежда по-бавно.</string>
     <string name="hint_subtitle">Диктувайте субтитри, докато записвате видео</string>
     <string name="hint_subtitle_prompt">Можете да диктувате субтитри сега</string>
@@ -1014,7 +1005,7 @@
     <string name="module_name_square">Квадрат</string>
     <string name="module_name_super_moon">Супер луна</string>
     <string name="module_name_video">Видеозапис</string>
-    <string name="module_name_vlog">ВЛОГ</string>
+    <string name="module_name_vlog">VLOG</string>
     <string name="moive_frame">Филмова рамка</string>
     <string name="monday">Понеделник</string>
     <string name="monday_short">Пон.</string>
@@ -1140,17 +1131,13 @@
     <string name="portait_effect_entry_cool">Мента</string>
     <string name="portait_effect_entry_dusk">Здрач</string>
     <string name="portait_effect_entry_fairytale">Детство</string>
-    <string name="portait_effect_entry_holiday">Празник</string>
     <string name="portait_effect_entry_japanese">Синьо небе</string>
     <string name="portait_effect_entry_lilt">Реализъм</string>
     <string name="portait_effect_entry_maze">Бъркотия</string>
     <string name="portait_effect_entry_mood">Настроения</string>
     <string name="portait_effect_entry_movie">Филм</string>
     <string name="portait_effect_entry_nature">Природа</string>
-    <string name="portait_effect_entry_original">Оригинал</string>
-    <string name="portait_effect_entry_oxygen">Кислород</string>
     <string name="portait_effect_entry_pink">Руменина</string>
-    <string name="portait_effect_entry_pink_orange">Цитрус</string>
     <string name="portait_effect_entry_riddle">Бонбон</string>
     <string name="portait_effect_entry_romance">Романтика</string>
     <string name="portait_effect_entry_sepia">Сепия</string>
@@ -1214,6 +1201,7 @@
     <string name="pref_camera_auxiliary_close">Изкл.</string>
     <string name="pref_camera_auxiliary_exposure_feedback">Потвърждение на експозицията</string>
     <string name="pref_camera_auxiliary_focus_peak">Избор на фокуса</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средно</string>
@@ -1268,7 +1256,6 @@
     <string name="pref_camera_flashmode_entry_back_soft_light">Мека светлина</string>
     <string name="pref_camera_flashmode_entry_off">Изкл.</string>
     <string name="pref_camera_flashmode_entry_on">Вкл.</string>
-    <string name="pref_camera_flashmode_entry_screen_halo">Кръгова светлина</string>
     <string name="pref_camera_flashmode_entry_torch">Фенерче</string>
     <string name="pref_camera_flashmode_title">Режим на светкавицата</string>
     <string name="pref_camera_focus_shoot_summary">Чукнете за фокусиране и после още веднъж за да направите снимка.</string>
@@ -1395,8 +1382,6 @@
     <string name="pref_camera_square_mode_title">Квадрат</string>
     <string name="pref_camera_stereo_mode_title">Регулиране на фокуса</string>
     <string name="pref_camera_super_resolution_title">Включи SR</string>
-    <string name="pref_camera_tap_shoot_summary">Натиснете екрана за предварителен преглед, за да направите снимка</string>
-    <string name="pref_camera_tap_shoot_title">Натиснете, за да направите снимка</string>
     <string name="pref_camera_tilt_shift_entry_circle">Кръг</string>
     <string name="pref_camera_tilt_shift_entry_parallel">Паралелно</string>
     <string name="pref_camera_tilt_shift_title">Тилт-шифт</string>
@@ -1446,8 +1431,6 @@
     <string name="pref_camera_zsl_entry_off">Изкл</string>
     <string name="pref_camera_zsl_entry_on">Вкл.</string>
     <string name="pref_capture_settings">Камера</string>
-    <string name="pref_cup_camera_position_summary">Показване на позицията на предната камера когато тя се използва</string>
-    <string name="pref_cup_camera_position_title">Показване на предна камера</string>
     <string name="pref_custom_feature_layout_title">Оформление на функциите</string>
     <string name="pref_custom_shutter_sound_title">Звук</string>
     <string name="pref_custom_tint_title">Цветове</string>
@@ -1519,10 +1502,6 @@
     <string name="pref_super_night_se_summary">Засича условия на ниско осветление и автоматично подобрява качеството на картината</string>
     <string name="pref_super_night_se_title">Автоматичен нощен режим</string>
     <string name="pref_userdefine_watermark_title">Потребителски маркер на снимките</string>
-    <string name="pref_video_ai_audio_effect_comparation_3d">3D</string>
-    <string name="pref_video_ai_audio_effect_comparation_3d_i">3D звук</string>
-    <string name="pref_video_ai_audio_effect_comparation_3d_ii">Демо</string>
-    <string name="pref_video_ai_audio_effect_comparation_3d_original">Оригинален</string>
     <string name="pref_video_ai_audio_single">Преден звук</string>
     <string name="pref_video_captrue_ability_title">Снимка по време на запис</string>
     <string name="pref_video_cast_setting_summary">Включете, за да можете да заснемате едно видео с множество устройства</string>
@@ -1866,9 +1845,9 @@
     <string name="vv_hint">Можете да заснемате влогове само в режим пейзаж</string>
     <string name="vv_stability_hint">Дръжте устройството си стабилно</string>
     <string name="vv_start">Снимай влог</string>
-    <string name="vv_use_hint_text_body">"Влог режимът Ви позволява да
-записвате и редактирате клипове в движение"</string>
-    <string name="vv_use_hint_text_title">ВЛОГ</string>
+    <string name="vv_use_hint_text_body">"Режимът Vlog Ви позволява
+да записвате и редактирате клипове в движение"</string>
+    <string name="vv_use_hint_text_title">VLOG</string>
     <string name="wait">Момент…</string>
     <string name="watermark_tab_city">Град</string>
     <string name="watermark_tab_festival">Празник</string>

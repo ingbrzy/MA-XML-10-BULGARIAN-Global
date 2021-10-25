@@ -58,6 +58,7 @@
     <string name="dual_app_title">Клонирани приложения</string>
     <string name="dual_app_words">Всеки профил заслужава собствено приложение</string>
     <string name="early_morning">Сутрин</string>
+    <string name="empty">" "</string>
     <string name="eras_ad">н.е.</string>
     <string name="eras_bc">пр.Хр.</string>
     <string name="evening">Следобед</string>
@@ -236,7 +237,6 @@
     <string name="gb_pannel_control_mode_power_saving">Икономия на енергия</string>
     <string name="gb_weixinpay_can_not_complete">Плащането не можа да завърши. Инсталирайте за да продължите.</string>
     <string name="gdpr_msg">&lt;Data>За да можете да използвате основните функционалности на Сигурност, трябва да дадете съгласието си на Xiaomi да събира, обработва и използва Вашите лични данни, включително информация за начините, по които използвате функциите на Сигурност (напр. статистика за изразходваните мобилни данни, информация за открит зловреден софтуер, както и основна информация за Вашето устройство) и други типове информация, посочени в нашата &lt;a href=\"https://privacy.mi.com/all/%1$s_%2$s\">политика за поверителност&lt;/a>.&lt;/Data></string>
-    <string name="hybrid_provider">Уеб страницата е осигурена от %1$s.</string>
     <string name="install_success">%s Install Success</string>
     <string name="lucky_result_title">Червена обвивка</string>
     <string name="main_toolbar_purchase">Попълване</string>
@@ -313,7 +313,6 @@
     <string name="net_booster_overdue_notification_tip">Сесията на Мрежовия ускорител ще приключи скоро. Да се поднови ли?</string>
     <string name="network_not_available">Не мога да се свържа с мрежата</string>
     <string name="night">Вечер</string>
-    <string name="no_network">Няма връзка с мрежата</string>
     <string name="no_network_btn">Опитайте отново</string>
     <string name="noon">Обед</string>
     <string name="not_set">Не е зададено</string>
@@ -339,6 +338,7 @@
     <string name="size_peta_byte">ПБ</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">ТБ</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>
@@ -427,9 +427,6 @@
     <string name="usage_sorted_loading_text">Момент…</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
-    <string name="web_sso_login_fail">Трябва да се впишете отново</string>
-    <string name="web_sso_login_message">Вписване…</string>
-    <string name="webview_reload">Нов опит</string>
     <string name="wednesday">Сряда</string>
     <string name="wednesday_short">Ср.</string>
     <string name="wednesday_shortest">Ср.</string>

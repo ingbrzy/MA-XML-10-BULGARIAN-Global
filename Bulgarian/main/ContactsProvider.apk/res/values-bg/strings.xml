@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">Хранилище с контакти</string>
-    <string name="call_log_provider_label">Хронология на повикванията</string>
+    <string name="call_log_provider_label">Списък с повиквания</string>
     <string name="debug_dump_database_message">Предстои ви да 1) направите копие на всичките си контакти и списъци с повиквания, както и информацията свързана с тях на вътрешната памет на телефона 2) да ги изпратите по Имейл. Не забравяйте да изтриете копието, веднага след като сте го копирали извън устройството или сте го получили като Имейл.</string>
     <string name="debug_dump_delete_button">Изтрий сега</string>
     <string name="debug_dump_email_body">Прикаченото съдържа база данни за всички мои контакти и информацията за тях.</string>

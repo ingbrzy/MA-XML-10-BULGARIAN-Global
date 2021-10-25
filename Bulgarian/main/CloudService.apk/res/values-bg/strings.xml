@@ -138,6 +138,8 @@
     <string name="feedback_custom_hint">Опишете проблемите, които сте изпитали тук. Ако давате предложение, бихме оценили повече детайли!</string>
     <string name="find_device">\"Открий устройството\" е включено</string>
     <string name="find_device_dspt_provision">Ако загубите устройството си, можете да отидете на &lt;font color=#0097FF>%s&lt;/font>, за да го локализирате, заключите или нулирате. Можете винаги да включите или изключите тази функция от Настройки.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_gdpr_prompt">Включвайки Открий устройството Вие приемата нашите <a href="app://com.miui.cloudservice.gdpr.license"><u>Правила за поверителност</u></a>. Ако желаете да оттеглите съгласието си, изключете тази функция.</string>
     <string name="find_device_operation_failure_rpc">Невъзможно е да се изпълни операцията поради грешка в RPC.</string>
     <string name="find_device_send_sms_alert">Когато смените SIM картата, е необходимо да бъде изпратено ново регистрационно SMS съобщение.</string>
@@ -360,10 +362,13 @@
     <string name="micloud_find_device_open_fail">Открий устройството не може да се включи</string>
     <string name="micloud_find_device_opened">Включено е Открий устройството</string>
     <string name="micloud_find_device_opened_content">Открийте вашето устройство на %s</string>
+    <string name="micloud_find_device_opened_content_url">i.mi.com</string>
     <string name="micloud_find_device_verify_button">Активирай повторно Намери устройство</string>
     <string name="micloud_find_device_verify_close">Изключване на Намери устройство</string>
     <string name="micloud_find_device_verify_fail">Неуспешно включване на Открий устройството</string>
     <string name="micloud_find_device_verify_progress">Повторно активиране на Намери устройство…</string>
+    <string name="micloud_footer_international_url">mi.com/micloud</string>
+    <string name="micloud_footer_normal_url">i.mi.com</string>
     <string name="micloud_last_sync_canceled">Синхр. беше отменено. Опитайте отново.</string>
     <string name="micloud_main_head_menu_cloud_backup">Резервни копия</string>
     <string name="micloud_main_head_menu_cloud_backup_summary">Системни настройки и оформление на Начален екран</string>
@@ -520,6 +525,10 @@
     <string name="micloud_upgrade_member">Добави място за съхр</string>
     <string name="micloud_upgrade_storage">Обновяване на плана за памет</string>
     <string name="micloud_user_space_title">Място в хранилището</string>
+    <string name="micloud_warn_full_sum">Нови елементи няма да бъдат синхронизирани с Xiaomi Cloud.</string>
+    <string name="micloud_warn_full_title">Няма място</string>
+    <string name="micloud_warn_low_sum">Вашият Xiaomi Cloud е на 90% пълен.</string>
+    <string name="micloud_warn_low_title">Свободното място е на свършване</string>
     <string name="micloud_web_discription_place_holder">Посетете %1$s от вашия компютър за да управлявате данните си.</string>
     <string name="micloud_wipe_data_confirm_label">Изтриване на синхронизирани елементи от това устройство?</string>
     <string name="micloud_wipe_data_confirm_title">Някои елементи от следните приложения са синхронизирани с Xiaomi Cloud. Можете да ги изтриете от това устройство и все пак да ги запазите в облака.</string>
