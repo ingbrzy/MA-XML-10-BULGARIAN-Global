@@ -137,7 +137,6 @@
     <string name="cast_forward">Превъртане напред</string>
     <string name="cast_forward_10">Превъртане напред с десет секунди</string>
     <string name="cast_forward_30">Превъртане напред с тридесет секунди</string>
-    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_live_label">НА ЖИВО</string>
     <string name="cast_mute">Спиране</string>
     <string name="cast_notification_connected_message">Установена е връзка с/ъс „%1$s“</string>
@@ -931,7 +930,6 @@ ID:%s
     <string name="on_tip_firework_recommend">Ще получавате персонализирани препоръки за съдържание от Firework</string>
     <string name="online_play_hint">Например: http://www.example.com/video.mp4</string>
     <string name="online_play_title">Въведете URL</string>
-    <string name="order_alphabet">А – Я</string>
     <string name="order_recently_subscribe">Скорошни абонаменти</string>
     <string name="order_recently_updated">Обновени наскоро</string>
     <string name="out_of_memory_background_playback_is_suspended">Поради недостатъчно памет съдържанието на заден план беше спряно на пауза</string>
@@ -1398,7 +1396,6 @@ ID:%s
     <string name="sns_sign_in">Други начини за вписване</string>
     <string name="source">"Източник: "</string>
     <string name="start_download_tip">Добавено в списъка за изтегляне. Проверете напредъка в Профил > Изтегляния</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">Карта с памет</string>
     <string name="storage_internal_sdcard">Вътрешна памет</string>
     <string name="submit">Изпратено</string>

@@ -256,7 +256,6 @@
     <string name="settings_guide_title">Искате още настройки?</string>
     <string name="show_badge_notifications">Уведомителни значки</string>
     <string name="show_badge_notifications_short">Значки</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_setting">Статус лента</string>
     <string name="summary_aggregate_default">Промоционални пуш известия и пуш известия свързани с определено съдържание ще бъдат групирвани</string>
     <string name="summary_aggregate_home">Пуш известия няма да бъдат групирвани</string>
