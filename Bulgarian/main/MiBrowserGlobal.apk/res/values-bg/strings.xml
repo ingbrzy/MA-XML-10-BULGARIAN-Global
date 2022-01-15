@@ -235,7 +235,7 @@
     <string name="category_folder">Папки</string>
     <string name="category_installed_app">Инсталирани приложения</string>
     <string name="category_midrive">Mi Drive</string>
-    <string name="category_move_limit_notice">Можете да премествате от 3 до 7 елемента към горната част на екрана</string>
+    <string name="category_move_limit_notice">Можете да премествате от %1$d до %2$d елемента към горната част на екрана</string>
     <string name="category_music">Музика</string>
     <string name="category_other">Други</string>
     <string name="category_photo">Снимки</string>
@@ -351,6 +351,9 @@
     <string name="copy">Копиране</string>
     <string name="copy_url">Копирай URL</string>
     <string name="could_not_load_data">Не може да се зареди информация, обновете и опитайте отново</string>
+    <string name="crash_page_button">Повторен опит</string>
+    <string name="crash_page_description">Нещо се обърка, докато страницата се зареждаше.</string>
+    <string name="crash_page_title">Упс, грешка!</string>
     <string name="create_qr_code">QR код</string>
     <string name="current_version_pad">Таблет</string>
     <string name="current_version_pc">Настолна</string>
@@ -409,7 +412,7 @@ ID:%s
     <string name="download_btn_select_none">Отмаркирай всичко</string>
     <string name="download_business_app_new_version">Най-новата версия на това приложение вече е инсталирана.</string>
     <string name="download_business_app_update_install">Обновлението е готово за инсталиране.</string>
-    <string name="download_business_v5_edit_mode_title_empty">0 избрани</string>
+    <string name="download_business_v5_edit_mode_title_empty">Нищо не е избрано</string>
     <string name="download_change_dir">Промени папката</string>
     <string name="download_complete">Изтеглянето е успешно</string>
     <string name="download_completed">Изтеглено</string>
@@ -430,7 +433,7 @@ ID:%s
     <string name="download_dialog_failed_body">Да се направи ли повторен опит по-късно или да се премахне файлът от списъка за изтегляне?</string>
     <string name="download_dialog_file_already_exists">Вече сте изтеглили този файл</string>
     <string name="download_dialog_file_length_hint_txt">"Размер на файла: "</string>
-    <string name="download_dialog_file_length_lessthan1kb">По-малко от 1КБ</string>
+    <string name="download_dialog_file_length_lessthan1kb">По-малко от %1$dKB</string>
     <string name="download_dialog_file_length_nolength_error_txt">Неуспешно изчисляване на размера на файла</string>
     <string name="download_dialog_file_length_nolength_txt">Момент…</string>
     <string name="download_dialog_file_missing_body">Файлът не е открит. Може би сте го преместили или изтрили?</string>
@@ -671,6 +674,8 @@ ID:%s
     <string name="friday">Петък</string>
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
+    <string name="game_center_recommend_play">Прослушване</string>
+    <string name="game_center_recommend_title">Препоръчано за Вас</string>
     <string name="game_played">Скорошни</string>
     <string name="gcm_fallback_notification_channel_label">Разни</string>
     <string name="geolocation_permissions_prompt_dont_share">Откажи</string>
@@ -782,9 +787,9 @@ ID:%s
     <string name="lockpattern_need_to_unlock_wrong">Опитайте отново</string>
     <string name="lockpattern_pattern_confirmed_header">Това е Вашата фигура за отключване:</string>
     <string name="lockpattern_pattern_entered_header">Готово!</string>
-    <string name="lockpattern_recording_incorrect_too_short">Опитайте отново. Свържете поне 4 точки.</string>
+    <string name="lockpattern_recording_incorrect_too_short">Опитайте отново. Свържете поне %1$d точки.</string>
     <string name="lockpattern_recording_inprogress">Вдигнете пръста си след завършване на фигурата</string>
-    <string name="lockpattern_recording_intro_header">Свържете поне 4 точки</string>
+    <string name="lockpattern_recording_intro_header">Свържете поне %1$d точки</string>
     <string name="lockpattern_retry_button_text">Задаване наново</string>
     <string name="login_failed_toast">Неуспешно вписване, опреснете и опитайте отново</string>
     <string name="login_or_register">или</string>
@@ -795,7 +800,7 @@ ID:%s
     <string name="make_private_msg_1">Скриване на файла?</string>
     <string name="make_private_msg_2">Скриване на тези файлове?</string>
     <string name="max_tabs_warning">Не могат да бъдат отворени повече табове</string>
-    <string name="maximum_input_alert">Максимум въведете 2048 символа</string>
+    <string name="maximum_input_alert">Не можете да въвеждате повече от %1$d символа</string>
     <string name="menu_addtodesk">На началния екран</string>
     <string name="menu_exit_nightmode">Изход</string>
     <string name="menu_hv_swap">Пейзажен режим</string>
@@ -1307,7 +1312,7 @@ ID:%s
     <string name="pf_guide_msg_if_has_downloading">Текущи изтегляния не могат да бъдат добавени към лични папки</string>
     <string name="pf_move_out">Премахване от лична папка</string>
     <string name="pf_move_out_dialog_btn_confirm">Премахни</string>
-    <string name="pf_move_out_dialog_content">Премахнатите елементи ще бъдат запазени в първоначалното си място.</string>
+    <string name="pf_move_out_dialog_content">Премахнатите елементи ще бъдат показвани сред скорошните файлове.</string>
     <string name="pf_move_out_dialog_title">Премахване от лична папка</string>
     <string name="pf_toast_add_success">Успешно преместване в лична папка</string>
     <string name="phone">Памет</string>
@@ -1406,7 +1411,7 @@ ID:%s
     <string name="pref_privacy_enable_geolocation">Местоположение</string>
     <string name="pref_privacy_enable_geolocation_summary">Разрешаване на страниците да искат достъп до вашето местоположение</string>
     <string name="pref_privacy_formdata_title">Автоматично попълване на форми</string>
-    <string name="pref_privacy_location_title">Достъп до местоположения</string>
+    <string name="pref_privacy_location_title">Достъп до местоположение</string>
     <string name="pref_privacy_performance_id_instead_by_random_id">Ние ще заменим текущия ви Идентификатор на производителност със случайно генериран нов идентификатор.</string>
     <string name="pref_privacy_performance_id_is">"Текущ Идентификатор на производителност: "</string>
     <string name="pref_privacy_performance_id_reset">Нулирайте вашия Идентификатор на производителност</string>
@@ -1441,7 +1446,7 @@ ID:%s
     <string name="pref_set_default_browser_toast">Браузърът по подразбиране е успешно настроен</string>
     <string name="pref_set_homepage_to">Задай като</string>
     <string name="pref_setting_title">Настройки на страница</string>
-    <string name="pref_show_ads">Показвай реклами</string>
+    <string name="pref_show_ads">Показване на реклами</string>
     <string name="pref_site_settings_all_sites">Всички сайтове</string>
     <string name="pref_site_settings_camera">Камера</string>
     <string name="pref_site_settings_camera_ask">Сайтовете трябва да питат и да получат вашето разрешение, за да могат да получат достъп до вашата камера (препоръчвано)</string>
@@ -1598,7 +1603,7 @@ ID:%s
     <string name="rlv_pull_to_refresh">Издърпайте надолу за обновяване</string>
     <string name="rlv_refreshing">Обновяване…</string>
     <string name="rlv_release_to_refresh">Пуснете за обновяване</string>
-    <string name="rlz_access_point">Y1</string>
+    <string name="rlz_access_point">Y%1$d</string>
     <string name="root_folder_lable">Няма</string>
     <string name="router_download_exist">Този файл вече съществува</string>
     <string name="router_download_failed">Изтеглянето не е успешно</string>
@@ -1656,7 +1661,7 @@ ID:%s
     <string name="search_google">Google</string>
     <string name="search_hint">Търси или въведи URL адрес</string>
     <string name="search_menu_title">Търсене</string>
-    <string name="search_s139">139</string>
+    <string name="search_s139">%1$d</string>
     <string name="search_settings_description">Отметки и хронология на търсенето</string>
     <string name="search_shipin">Видео</string>
     <string name="search_sm">SM</string>
@@ -1955,8 +1960,8 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="vpn_data_used_info">Използвани са %2$s от %1$s</string>
     <string name="vpn_detail_guide1">Отключване на всички сървъри за засилване на връзката</string>
     <string name="vpn_detail_guide2">Абонирайте се за VPN услуги, за да получите достъп до повече сайтове</string>
-    <string name="vpn_detail_guide3">Почти изразходихте данните си. Изпробвайте нашия 12-месечен план! Натиснете тук, за да научите повече за вариантите.</string>
-    <string name="vpn_detail_guide4">Изразходихте данните си. Изпробвайте нашия 12-месечен план! Натиснете тук, за да научите повече за вариантите.</string>
+    <string name="vpn_detail_guide3">Данните ви почти свършиха. Изпробвайте нашия %1$d-месечен план! Натиснете, за да научите повече.</string>
+    <string name="vpn_detail_guide4">Данните ви свършиха. Изпробвайте нашия %1$d-месечен план! Натиснете, за да научите повече.</string>
     <string name="vpn_detail_guide5">Почти изразходихте данните си.</string>
     <string name="vpn_detail_guide6">Изразходихте данните си.</string>
     <string name="vpn_detail_subscribe">Абониране</string>
@@ -1987,7 +1992,7 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="whatsapp_how_it_works">Как работи</string>
     <string name="whatsapp_intro_dialog_title">Нова функция</string>
     <string name="whatsapp_no_status_tips">Тук все още няма изображения или видеоклипове. Прегледайте обновления на статуса в WhatsApp и се върнете тук отново.</string>
-    <string name="whatsapp_principle_page_message">WhatsApp запазва снимките и видеоклиповете, които преглеждате, в скрита папка. Тези елементи изчезват след 24 часа. Сега можете да използвате Mi Браузър, за да ги съхранявате.</string>
+    <string name="whatsapp_principle_page_message">WhatsApp запазва снимките и видеоклиповете, които преглеждате, в скрита папка. Тези елементи изчезват след %1$d часа. Сега можете да използвате Mi Браузър, за да ги съхранявате.</string>
     <string name="whatsapp_principle_page_title">Можете да съхранявате изображения и видео клипове от WhatsApp статуси чрез Mi Браузър</string>
     <string name="whatsapp_principle_step_1">Преглеждайте изображения и видеоклипове от раздел \"Статус\" в WhatsApp.</string>
     <string name="whatsapp_principle_step_2">Върнете се тук, за да ги съхраните.</string>

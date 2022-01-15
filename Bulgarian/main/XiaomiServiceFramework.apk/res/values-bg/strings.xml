@@ -10,6 +10,7 @@ ID на устройството трябва да бъде валиден IMEI 
     <string name="explain_send_sms_permission_title">Потвърждаване на телефонния ви номер</string>
     <string name="pop_up_allow_notify_dialog">Позволи</string>
     <string name="pop_up_deny_notify_dialog">Откажи</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sync_notification_title_format">Синхронизира се: %1$s</string>
     <string name="xiaomi_cloud_service">Xiaomi Облак</string>
     <string name="xmsf_activate_info">XMSF информация за активиране</string>

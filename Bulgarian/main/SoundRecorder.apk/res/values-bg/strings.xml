@@ -37,6 +37,7 @@
     <string name="alert_message_delete_record">Изтриването на записа от устройството ще го изтрие и от Xiaomi Cloud. Да се изтрие ли?</string>
     <string name="alert_message_delete_record_title">Изтриване на записа</string>
     <string name="all_record">Всички записи</string>
+    <string name="allowed">Позволено</string>
     <string name="am">AM</string>
     <string name="app_name">Звукозапис</string>
     <string name="app_record">Записи от приложения</string>
@@ -185,6 +186,7 @@
     <string name="head_set_tip_dialog_title">Използвай вградения микрофон</string>
     <string name="icon_content_description">Икона за диалогов прозорец</string>
     <string name="invalid_argument">Невалидно съдържание</string>
+    <string name="invisible_mode_error_tip">Изключете режим Инкогнито от Настройките, за да можете да използвате микрофона</string>
     <string name="item_view_role_description">Раздел</string>
     <string name="keywords_search_call_record">Запис на обаждания;Запис на обаждане;Записване на обаждане;Записване на обаждания</string>
     <string name="keywords_search_record">Нов запис;Добави запис;Запис;Записи;Копие;Препис;Записване;Запис на реч;Запис на звук;Приложение Звукозапис;Как да направя запис;Как да запиша звук;Къде е Звукозапис;MIUI Звукозапис</string>
@@ -222,6 +224,7 @@
     <string name="mi_account_ok">Вписване</string>
     <string name="mi_account_title">Синхронизация с Mi Профил</string>
     <string name="midnight">Нощ</string>
+    <string name="miuix_access_state_desc">Избрани</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Размаркиране на всички</string>
     <string name="miuix_appcompat_action_mode_select_all">Избиране на всички</string>
     <string name="miuix_appcompat_action_mode_title_empty">Изберете елементи</string>
@@ -294,6 +297,7 @@
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -334,6 +338,7 @@
     <string name="no_records">Тук все още няма записи</string>
     <string name="noon">Обед</string>
     <string name="normal_settings_pref_title">Основни настройки</string>
+    <string name="not_allowed">Не е позволено</string>
     <string name="not_set">Не е зададено</string>
     <string name="notification_message_all_paused">Възможно е повишаване на трафика на мобилни данни.</string>
     <string name="notification_playback">Възпроизвеждане…</string>
@@ -379,6 +384,15 @@
     <string name="pay_error_cancel">Плащането е отменено</string>
     <string name="pay_error_null">Плащането не може да се извърши. Проверете сметката си.</string>
     <string name="pay_error_unknown">Неизвестна грешка</string>
+    <string name="permission_desc">Подробности за разрешения</string>
+    <string name="permission_dialog_cancel">Отказ</string>
+    <string name="permission_dialog_ok">Настройки</string>
+    <string name="permission_record">Записване на аудио</string>
+    <string name="permission_record_description">За предоставяне на услуги за записване на аудио</string>
+    <string name="permission_storage">Достъп до паметта</string>
+    <string name="permission_storage_description">За управление на записи и изтеглянето им от облака</string>
+    <string name="permission_storage_description_for_download">За изтегляне на записи от облака</string>
+    <string name="permission_storage_description_for_manage_files">За управление на записи</string>
     <string name="play_speed">%1$.1fX скорост</string>
     <string name="playback_delete_records">Изтриване на записа</string>
     <string name="playback_share_records">Споделяне на записа</string>
@@ -391,7 +405,7 @@
     <string name="preference_led_indicator_prompt">Показване на син индикатор на Заключен екран и присветване на LED светлина при записване</string>
     <string name="preference_online_orders">Онлайн поръчки</string>
     <string name="preference_recog_faqs">Онлайн разпознаване ЧЗВ</string>
-    <string name="preference_recog_terms">Условия за използване</string>
+    <string name="preference_recog_terms">Правила за ползване</string>
     <string name="preference_record_desktop_indicator_summary">Показване на син индикатор на Началния екран при записване</string>
     <string name="preference_record_desktop_indicator_title">Индикатор на начален екран</string>
     <string name="preference_record_scenes_dialog_title">Избор на сцена</string>
@@ -399,7 +413,9 @@
     <string name="preference_silent_mode">Тих звукозапис</string>
     <string name="preference_status_bar_indicator_prompt">Показване на син индикатор на Заключен екран при записване</string>
     <string name="preference_tip_rename">Показване на диалог за преименуване след край на записа</string>
-    <string name="privacy_policy_title">Политика на поверителност</string>
+    <string name="privacy_policy_title">Правила за поверителност</string>
+    <string name="privacy_settings">Поверителност</string>
+    <string name="progress">Лента за прогрес на възпроизвеждане</string>
     <string name="recognition_button_add_to_queue">Добавяне към чакащите</string>
     <string name="recognition_button_cancel">Не сега</string>
     <string name="recognition_button_start">Разпознаване</string>
@@ -439,7 +455,7 @@
     <string name="recognize_choose_dialog_online_free_duration">Получете първите 60 минути безплатно</string>
     <string name="recognize_choose_dialog_online_price">%s CNY/час</string>
     <string name="recognize_choose_dialog_service_desp">Услугите по разпознаване са осигурени от iflyrec.com</string>
-    <string name="recognize_choose_dialog_service_intruction">Условия за ползване</string>
+    <string name="recognize_choose_dialog_service_intruction">Правила за ползване</string>
     <string name="recognize_choose_dialog_title">Изберете метод за разпознаване</string>
     <string name="recognize_extra_price_desp">(Ексклузивна оферта за потребители на Mi)</string>
     <string name="record">Запис</string>
@@ -467,6 +483,7 @@
     <string name="record_mark_point">%sмарка</string>
     <string name="record_name_hour">.</string>
     <string name="record_name_minute">​</string>
+    <string name="record_permission_dialog_title">Изисква се разрешение за микрофона</string>
     <string name="record_quliaty_preference_title">Качество на записа</string>
     <string name="record_resotre">Възтанови конктакти</string>
     <string name="recorder_record">Аудио</string>
@@ -499,6 +516,11 @@
     <string name="rename_no_more_tip">Без ново запитване</string>
     <string name="retry">Нов опит</string>
     <string name="runtime_permission_ungranted">Не може да използвате Звукозапис, поради нелегитимни права</string>
+    <string name="saf_permission_dialog_content">Поради ограничения от Android, Звукозапис се нуждае от разрешение, за да получава достъп до записи направени в други приложения. Разрешете на Записвач да получава достъп до тези записи, за да можете да ги преглеждате.</string>
+    <string name="saf_permission_dialog_grant_permission_immediately">Настройки</string>
+    <string name="saf_permission_dialog_later">Не, благодаря</string>
+    <string name="saf_permission_dialog_no_more_tip">Не показвай отново</string>
+    <string name="saf_permission_dialog_title">Необходими са разрешения</string>
     <string name="saturday">Събота</string>
     <string name="saturday_short">Сб.</string>
     <string name="saturday_shortest">Сб.</string>
@@ -517,6 +539,7 @@
     <string name="search_tip_rename">Ръчно задаване на име за запис</string>
     <string name="send">Изпращане</string>
     <string name="service_instructions">За iflyrec.com</string>
+    <string name="settings_saf_permission">Разрешения за управление на файлове</string>
     <string name="share">Сподели</string>
     <string name="share_dialog_title">Сподели с</string>
     <string name="shortcut_records">Записи</string>
@@ -537,6 +560,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recording">Записване…</string>
     <string name="status_bar_recording_pause">Звукозаписа е на пауза</string>
+    <string name="storage_permission_dialog_title">Изисква се разрешение за паметта</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>
@@ -626,6 +650,7 @@
     <string name="user_feedback">Отзиви</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
+    <string name="view_privacy">Преглед на Правилата за поверителност</string>
     <string name="webview_check_network">Мрежови настройки</string>
     <string name="webview_data_error">Възникна грешка</string>
     <string name="webview_locating_fail">Не може да се определи местоположението ви</string>

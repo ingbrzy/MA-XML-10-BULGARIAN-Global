@@ -56,6 +56,11 @@
         <item>за идентифициране на устройството;</item>
         <item>За установяване местоположението на устройството и превключване към режим Изгубен.</item>
     </string-array>
+    <string-array name="privacy_dialog_finddevice_runtime_perm_desc_new">
+        <item>For locating your device and switching to the lost mode</item>
+        <item>"For locating this device when it isn't connected to the internet"</item>
+        <item>"For accessing phone number in order to locate this device when it isn't connected to the internet"</item>
+    </string-array>
     <string-array name="privacy_dialog_sync_runtime_perm_desc">
         <item>за синхронизиране на събития;</item>
         <item>за синхронизиране на съобщения;</item>
@@ -63,6 +68,14 @@
         <item>за синхронизиране на контакти;</item>
         <item>за синхронизиране на контакти;</item>
         <item>за запазване на неща в устройството Ви (напр. изображения, видеа, песни);</item>
+    </string-array>
+    <string-array name="privacy_dialog_sync_runtime_perm_title">
+        <item>Access calendar events</item>
+        <item>Send SMS</item>
+        <item>Read MMS</item>
+        <item>Access contacts</item>
+        <item>Edit and delete contacts</item>
+        <item>Access photos and files on device</item>
     </string-array>
     <string-array name="settings_search_backup_manage">
         <item>Архивиране</item>

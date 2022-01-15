@@ -79,10 +79,14 @@
     <string name="device_status_success">Успешно изпратено</string>
     <string name="device_status_waiting">Изчаква се…</string>
     <string name="device_type_pc">Компютър</string>
+    <string name="disable_nfc">Изключен е NFC за безжично зареждане</string>
+    <string name="disable_nfc_reverse">Изключен е NFC за обратно безжично зареждане</string>
     <string name="eighthours">8 часа</string>
     <string name="enable_livetalk_summary">Спести до 70% от цената за обаждане</string>
     <string name="enable_livetalk_title">Заредете сега</string>
     <string name="enable_midrop">Включи</string>
+    <string name="enable_nfc">Устройството вече не се зарежда. NFC е включен отново.</string>
+    <string name="enable_nfc_reverse">Вече не се извършва обратно зареждане. NFC е включен отново.</string>
     <string name="fc_dialog_body">Да се изпрати ли доклад за грешка до Mi за анализ? Този доклад може да съдържа лична информация. Вашият доклад ще се използва за премахване на грешката и никога няма да се споделя с комерсиална цел.</string>
     <string name="fc_dialog_jump_to_preview">Виж резюмето</string>
     <string name="file_cannot_print">Този елемент не може да се принтира.</string>
@@ -161,7 +165,6 @@
     <string name="open_close_tip_content">За да затворите плаващ прозорец, натиснете и задръжте бутона за действие и плъзнете нагоре.</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
-    <string name="other_ime">Други клавиатури</string>
     <string name="package_delete_confirm_step_1">Деинсталиране на %s?</string>
     <string name="package_delete_confirm_step_2">Деинсталирането на това приложение може да направи системата Ви нестабилна.</string>
     <string name="package_delete_confirm_step_3">Няма да можете да отворите приложението, след като го деинсталирате.</string>

@@ -397,7 +397,6 @@
     <string name="adjust_3d_depth_title">Коригиране на дълбочината за 3D игри</string>
     <string name="adjust_font_size_answer_cn">Настройте шрифта и размера на текста използвайки следните слайдери!</string>
     <string name="adjust_font_size_answer_global">Настройте размера на текста използвайки следния слайдер!</string>
-    <string name="adjust_ligth">Настройки на яркостта</string>
     <string name="adjust_temperature_title">Температура на цветовете</string>
     <string name="admin_device_owner_message">Администраторът ви може да наблюдава и управлява приложенията и данните, свързани с това устройство, включително настройките, разрешенията, корпоративния достъп, мрежовата активност и информацията за местоположението на устройството.</string>
     <string name="admin_disabled_other_options">Другите опции са деактивирани от администратора ви</string>
@@ -615,7 +614,6 @@
     <string name="app_sees_restricted_accounts_and_controlled_by">Това приложение може да осъществява достъп до профилите ви. Контролирано от %1$s</string>
     <string name="app_settings_link">Допълнителни настройки в приложението</string>
     <string name="app_switch_key">Скорошни</string>
-    <string name="app_uninstall_sounds_enable_title">Възпроизвеждане на звук при деинсталиране на приложения</string>
     <string name="app_usage_cycle">Цикъл на преноса на мобилни данни</string>
     <string name="app_usage_preference">Предпочитания за използване на приложенията</string>
     <string name="app_version">Версия</string>
@@ -1067,6 +1065,14 @@
     <string name="bluetooth_blacklist_remove_device">Отблокиране</string>
     <string name="bluetooth_broadcasting">Излъчване</string>
     <string name="bluetooth_confirm_passkey_msg">За сдвояване със::&lt;br>&lt;b>%1$s&lt;/b>&lt;br>&lt;br>Уверете се, че показва този код за достъп:&lt;br>&lt;b>%2$s&lt;/b></string>
+    <string name="bluetooth_connect_access_dialog_content">"%1$s иска да се свърже с този телефон.
+
+Досега не сте се свързвали с(ъс) %2$s."</string>
+    <string name="bluetooth_connect_access_dialog_negative">Отказ</string>
+    <string name="bluetooth_connect_access_dialog_positive">Свързване</string>
+    <string name="bluetooth_connect_access_dialog_title">Да се установи ли връзка с устройството с Bluetooth?</string>
+    <string name="bluetooth_connect_access_notification_content">Устройство иска да се свърже. Докоснете за подробности.</string>
+    <string name="bluetooth_connect_access_notification_title">Има налично устройство с Bluetooth</string>
     <string name="bluetooth_connect_failed">Не можа да се установи връзка. Опитайте отново.</string>
     <string name="bluetooth_connect_settings">Настройки за Bluetooth свързване</string>
     <string name="bluetooth_connect_specific_profiles_title">Свързване с/ъс...</string>
@@ -1319,6 +1325,12 @@ aptX адаптивен: режим Кодек"</string>
     <string name="bluetooth_show_devices_without_names_summary">Ще се показват Bluetooth устройства без име (само MAC адрес)</string>
     <string name="bluetooth_show_files_received_via_bluetooth">Получени през Bluetooth файлове</string>
     <string name="bluetooth_show_received_files">Получени файлове</string>
+    <string name="bluetooth_sim_card_access_dialog_content">"Устройство с Bluetooth (%1$s) иска да осъществи достъп до данните на SIM картата ви. Това включва контактите ви.
+
+Докато е свързано, устройството „%2$s“ ще получава всички обаждания до %3$s."</string>
+    <string name="bluetooth_sim_card_access_dialog_title">Да се разреши ли достъпът до SIM картата?</string>
+    <string name="bluetooth_sim_card_access_notification_content">Устройство иска да осъществи достъп до SIM картата ви. Докоснете за подробности.</string>
+    <string name="bluetooth_sim_card_access_notification_title">Заявка за достъп до SIM картата</string>
     <string name="bluetooth_talkback_bluetooth">Bluetooth</string>
     <string name="bluetooth_talkback_computer">Компютър</string>
     <string name="bluetooth_talkback_headphone">Слушалки</string>
@@ -1352,7 +1364,6 @@ aptX адаптивен: режим Кодек"</string>
     <string name="bluetooth_unlock_settings_devices_title">Устройство</string>
     <string name="bluetooth_unlock_settings_toggle_title">Приложи към</string>
     <string name="bluetooth_unlock_settings_unlock_device">Отключване на устройството</string>
-    <string name="bluetooth_unlock_settings_unlock_summary">Тази функция работи с избрани носими устройства създадени от Xiaomi</string>
     <string name="bluetooth_unlock_state_disconnected">Не е свързан</string>
     <string name="bluetooth_unlock_state_key_error">Грешна парола</string>
     <string name="bluetooth_unlock_state_label">"Статус: "</string>
@@ -1417,6 +1428,7 @@ aptX адаптивен: режим Кодек"</string>
 Ако вече сте направили горното, впишете се във Вашия Mi Профил отново. В противен случай няма да можете да използвате Вашето устройство."</string>
     <string name="bootloader_tips_ok">Разбрах</string>
     <string name="bootloader_tips_warning">Не прекъсвайте връзката си с мрежата, излезте от Вашия Mi Профил, направете връщане на фабрични настройки или изтрийте системна информация.</string>
+    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="bottom_function_settings">Функции на допълнителни бутони</string>
     <string name="breathing_light_color_menu_title">Цвят на светлина</string>
     <string name="breathing_light_color_summary">Цвят на светлината при получаване на нови известия</string>
@@ -1500,7 +1512,9 @@ aptX адаптивен: режим Кодек"</string>
     <string name="button_confirm_convert_fbe">Изтриване на данните и преобразуване</string>
     <string name="button_convert_fbe">Изтриване и конвертиране…</string>
     <string name="button_disconnect_network">Прекъсване на мрежата</string>
+    <string name="button_height_text">Общ бутон за потвърждение (например \"OK\", \"Готово\")</string>
     <string name="button_light_timeout">Постоянно включена светлина на бутоните</string>
+    <string name="button_normal_text">Нормален бутон</string>
     <string name="button_text_accept">Разрешаване</string>
     <string name="button_text_accept_timer">Разрешаване (%d)</string>
     <string name="button_text_cancel">Отказ</string>
@@ -1647,6 +1661,7 @@ aptX адаптивен: режим Кодек"</string>
     <string name="check_find_device_status_failure_confirm">OK</string>
     <string name="check_update">Проверка за обновления</string>
     <string name="checkbox_notification_same_as_incoming_call">Използване на силата на звука при вх. обаждане за известия</string>
+    <string name="checkbox_text">Превключване</string>
     <string name="checking_decryption">Извършва се проверка…</string>
     <string name="checking_find_device_status">Проверява се статуса на услугата Открий устройството…</string>
     <string name="checking_for_updates">Проверка за обновления…</string>
@@ -1709,11 +1724,7 @@ aptX адаптивен: режим Кодек"</string>
     <string name="color_game_led_applications_title_summary">Изберете индивидуални приложения, които ще работят с LED светлина</string>
     <string name="color_game_led_battery_title">Продължително светене по време на зареждане</string>
     <string name="color_game_led_charging_summary">LED светлината ще се изключи когато батерията е напълно заредена</string>
-    <string name="color_game_led_color_title">Цвят</string>
     <string name="color_game_led_end_time">Край</string>
-    <string name="color_game_led_feature_off">Изкл</string>
-    <string name="color_game_led_feature_on">Вкл</string>
-    <string name="color_game_led_freq_title">Честота</string>
     <string name="color_game_led_game_mode_summary">Показване на ефектите на игрите когато е включено Game Turbo</string>
     <string name="color_game_led_game_mode_title">Използване за Game Turbo</string>
     <string name="color_game_led_incall_pulse_title">Използване при входящи повиквания</string>
@@ -2001,7 +2012,7 @@ aptX адаптивен: режим Кодек"</string>
     <string name="custom_color">Персонализиран</string>
     <string name="custom_gesture_title">Персонализирани жестове</string>
     <string name="custom_wifi_name_title">Редактирай името на Wi-Fi</string>
-    <string name="customize_knock_gesture" />
+    <string name="customize_knock_gesture">Персонализирани жестове с кокълчета</string>
     <string name="cutout_mode_always">Винаги показвай прореза</string>
     <string name="cutout_mode_default">Авто</string>
     <string name="cutout_mode_settings_title">Може да има грешка във визуализацията на някои приложения, ако зададете потребителски настройки за показването на прореза.</string>
@@ -2029,14 +2040,9 @@ aptX адаптивен: режим Кодек"</string>
     <string name="dark_color_summary_lcd">Използвайте палитра с тъмни цветове за системните фонове и съвместими приложения. Тъмния режим намалява умората на очите при използване на устройството Ви.</string>
     <string name="dark_color_summary_oled">Използвайте палитра в тъмни цветове за системните фонове и съвместими приложения. Тъмния режим намалява разхода на енергия и умората на очите.</string>
     <string name="dark_mode_apps_header">Индивидуални приложения</string>
-    <string name="dark_mode_auto_time_summary">Включвайте и изключвайте Тъмен режим в планиран час</string>
-    <string name="dark_mode_auto_time_title">Персонализиран</string>
     <string name="dark_mode_contrast">Автоматично настройване на контраста</string>
     <string name="dark_mode_contrast_hint">Автоматично настройване на цветовете и намаляване на контраста когато яркостта е намалена</string>
-    <string name="dark_mode_day_night_mode_summary">Преминаване към Тъмен режим при залез и изключване при изгрев</string>
-    <string name="dark_mode_day_night_mode_title">Залез до изгрев</string>
     <string name="dark_mode_font_background_title">Автоматично настройване на текст и фон</string>
-    <string name="dark_mode_time_settings">Планиране на Тъмен режим</string>
     <string name="dark_theme_slice_subtitle">Удължава живота на батерията</string>
     <string name="dark_theme_slice_title">Изпробвайте тъмната тема</string>
     <string name="dark_ui_activation_off_auto">Изключване до залез</string>
@@ -2270,7 +2276,7 @@ aptX адаптивен: режим Кодек"</string>
     <string name="delete_or_keep_legacy_passwords_confirm_msg">Да изтрия ли този пръстов отпечатък?</string>
     <string name="delete_rule">Изтриване на правила</string>
     <string name="delete_saved_network">Изтриване на запазените мрежи</string>
-    <string name="delete_sound_effect">Възпроизвеждане на звук при изтриване на елементи</string>
+    <string name="delete_sound_effect">Звук за \"Изтриване\"</string>
     <string name="deleted_apps">Изтрити прил</string>
     <string name="deletion_helper_automatic_title">Автоматично</string>
     <string name="deletion_helper_manual_title">Ръчни</string>
@@ -2301,7 +2307,7 @@ aptX адаптивен: режим Кодек"</string>
     <string name="device_admin_status">Това приложение за администриране е активно и разрешава на %1$s да изпълнява следните действия:</string>
     <string name="device_admin_warning">Активирането на това приложение за администриране ще разреши на %1$s да изпълнява следните действия:</string>
     <string name="device_admin_warning_simplified">Това устройство ще се управлява и наблюдава от %1$s.</string>
-    <string name="device_available_memory">"Достъпна памет "</string>
+    <string name="device_available_memory">Достъпна памет</string>
     <string name="device_battery">Батерия</string>
     <string name="device_build_id">Номер на версията</string>
     <string name="device_camera">Камера</string>
@@ -2350,7 +2356,7 @@ aptX адаптивен: режим Кодек"</string>
     <string name="device_status_activity_title">Състояние</string>
     <string name="device_status_summary">Телефонен номер, сигнал и т.н.</string>
     <string name="device_theme">Тема на устройството</string>
-    <string name="device_total_memory">"Обща памет "</string>
+    <string name="device_total_memory">Обща памет</string>
     <string name="device_usage_list_summary">Използване на устройството след пълно зареждане</string>
     <string name="devices_title">Устройства</string>
     <string name="dial_application_title">Набиране</string>
@@ -2394,6 +2400,7 @@ aptX адаптивен: режим Кодек"</string>
     <string name="dialog_title_hdmi_color_calibration">Корекция на цветовете</string>
     <string name="dialog_title_login">Впишете се във вашия Mi Профил</string>
     <string name="dialog_yes">Да</string>
+    <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Забележка: След рестартиране, това приложение няма да стартира докато не отключите устройството си.</string>
     <string name="disable_overlays">Изключване на хардуерно преизчертаване</string>
     <string name="disable_overlays_summary">Винаги да се използва GPU за композиране на екрана</string>
@@ -2479,6 +2486,7 @@ aptX адаптивен: режим Кодек"</string>
     <string name="dndm_auto_button_title">Повтаряне на времето за Режим Не безпокойте</string>
     <string name="dndm_auto_setting_group">Планирано</string>
     <string name="dndm_auto_time_setting">Задаване на време</string>
+    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_off">До</string>
     <string name="dndm_auto_time_turn_off_title">Автоматично изключване на Режим Не безпокойте</string>
     <string name="dndm_auto_time_turn_on">От</string>
@@ -2543,7 +2551,7 @@ aptX адаптивен: режим Кодек"</string>
     <string name="done_button">Готово</string>
     <string name="double_click_power_key">Двойно натискане на бутона за захранване</string>
     <string name="double_click_volume_down_when_lock">Двойно натискане на бутона за намаляне на звука при заключен екран</string>
-    <string name="double_knock" />
+    <string name="double_knock">Двойно почукване с кокълчетата</string>
     <string name="double_tap_power_for_camera_suggestion_title">Бързо отваряне на камерата</string>
     <string name="double_tap_power_for_camera_summary">За да отворите бързо камерата, натиснете два пъти бутона за захранване – това работи от всеки екран.</string>
     <string name="double_tap_power_for_camera_title">Бързо отваряне на камерата</string>
@@ -2643,11 +2651,6 @@ aptX адаптивен: режим Кодек"</string>
     <string name="enable_gnss_raw_meas_full_tracking_summary">Проследяване на всички констелации и честоти на GNSS без използване на коефициент на запълване</string>
     <string name="enable_gpu_debug_layers">Включване на GPU дебъг слоеве</string>
     <string name="enable_gpu_debug_layers_summary">Разрешаване на зареждане на GPU дебъг слоевете за отстраняване на грешки от приложения</string>
-    <string name="enable_local_backup">Включване</string>
-    <string name="enable_local_backup_cancel">Отказ</string>
-    <string name="enable_local_backup_message">Включете тази функция, за да можете да запазвате резервни копия в това устройство и да ги копирате на компютъра си или върху USB устройство с памет. Включване сега?</string>
-    <string name="enable_local_backup_ok">OК</string>
-    <string name="enable_local_backup_title">Локални резервни копия</string>
     <string name="enable_mms_notification_channel_title">MMS съобщение</string>
     <string name="enable_mms_notification_summary">Докоснете, за да разрешите MMS съобщенията за %1$s, когато мобилните данни са изключени</string>
     <string name="enable_mobile_data_when_opening_hotspot">Желаете ли също да активирате и мобилните данни?</string>
@@ -2823,6 +2826,7 @@ aptX адаптивен: режим Кодек"</string>
     <string name="face_data_input_ok_title">Успешно добавени</string>
     <string name="face_data_input_structure_title">3D лицеви данни</string>
     <string name="face_data_input_title">Добавете данни за лице</string>
+    <string name="face_data_introduction_add">Начало</string>
     <string name="face_data_introduction_msg">Данните за лице могат да бъдат използвани за отключване на устройството или за потвърждаване на самоличността Ви. Добавете парола за заключване на екрана преди да добавите данни за лице.</string>
     <string name="face_data_introduction_next">Напред</string>
     <string name="face_data_introduction_title">Разпознаване на лице</string>
@@ -2836,11 +2840,10 @@ aptX адаптивен: режим Кодек"</string>
     <string name="face_data_siggesstion_next">Напред</string>
     <string name="face_data_siggesstion_next_time">Напред (%dс)</string>
     <string name="face_data_suggesstion_first">Отключване чрез разпознаване на лице не е толкова безопасно колкото PIN код, парола или фигура. Вашето устройство може да бъде отключено използвайки Ваша снимка, както и от хора или предмети със сходни черти.</string>
-    <string name="face_data_suggesstion_second">Уверете се, че всички части на лицето ви са видими ясно. Не носете аксесоари, които закриват лицето ви. Лицето трябва да е равномерно осветено и да се избягва директна светлина.</string>
+    <string name="face_data_suggesstion_second">Постарайте се всички части на лицето Ви да са видими и да не са покрити от предмети. Лицето Ви трябва да е добре осветено.</string>
     <string name="face_intro_error_max">Добавихте максималния брой лица</string>
     <string name="face_intro_error_unknown">Не могат да се добавят още лица</string>
     <string name="face_lock_screen_setup_skip_dialog_text">Като защитите телефона си с опция за заключване на екрана, никой няма да може да го използва, ако бъде изгубен или откраднат. Такава опция е нужна и за настройване на отключването с лице. За да се върнете назад, докоснете „Отказ“.</string>
-    <string name="face_password_unlock">Лицеви данни и заключване на екрана</string>
     <string name="face_unlock">Отключване с лице</string>
     <string name="face_unlock_be_on_the_screen">Задръжте устройството срещу лицето си</string>
     <string name="face_unlock_by_notification_screen_on_msg">Можете да отключвате устройството използвайки лицеви данни всеки път, когато екранът светне за входящи известия. Това може да изразходи батерията по-бързо.</string>
@@ -2932,7 +2935,6 @@ aptX адаптивен: режим Кодек"</string>
     <string name="fingerprint_enable_keyguard_toggle_title">заключване на екрана</string>
     <string name="fingerprint_enroll_button_add">Добавяне на друг</string>
     <string name="fingerprint_enroll_button_next">Напред</string>
-    <string name="fingerprint_face_password_unlock">Пръстови отпечатъци, лицеви данни и заключване на екрана</string>
     <string name="fingerprint_first_open_screen_password_face_tittle">Лице (първо задайте парола за закл екран)</string>
     <string name="fingerprint_first_open_screen_password_tittle">Пръстов отпечатък (първо задайте парола за закл. екран)</string>
     <string name="fingerprint_for_keyguard_disabled">Пръстовия отпечатък беше деактивиран от настройките за сигурност.</string>
@@ -2957,7 +2959,6 @@ aptX адаптивен: режим Кодек"</string>
     <string name="fingerprint_not_identified_msg">Пръстовият отпечатък не може да бъде прочетен. Въведете паролата си</string>
     <string name="fingerprint_not_recognized">Не е разпознат отпечатък</string>
     <string name="fingerprint_others_title">Друго</string>
-    <string name="fingerprint_password_unlock">Пръстови отпечатъци и заключване на екрана</string>
     <string name="fingerprint_payment">Плащане с Пръстов отпечатък</string>
     <string name="fingerprint_removal_failed">Отпечатъкът не може да се премахне, опитайте по-късно</string>
     <string name="fingerprint_swipe_for_notifications_suggestion_title">Бърз преглед на известията</string>
@@ -3146,6 +3147,8 @@ aptX адаптивен: режим Кодек"</string>
     <string name="game_booster_title">Game Turbo</string>
     <string name="game_controller_settings_category">Контролер за игри</string>
     <string name="game_storage_settings">Игри</string>
+    <string name="general_text">Поле за текст</string>
+    <string name="general_time">Време: %1$d:%2$d. Дългите вибрации представляват часове, късите вибрации представляват минути. Между часовете и минутите ще има кратка пауза. Натиснете два пъти, за да опитате.</string>
     <string name="gentle_notifications_also_display">Показване и във:</string>
     <string name="gentle_notifications_display_lock">Заключен екран</string>
     <string name="gentle_notifications_display_status">Лента на състоянието</string>
@@ -3222,7 +3225,6 @@ aptX адаптивен: режим Кодек"</string>
     <string name="gxzw_anim_rhythm">Ритъм</string>
     <string name="gxzw_anim_star">Звезда</string>
     <string name="gxzw_anim_title">Анимация на пръстов отпечатък</string>
-    <string name="gxzw_anim_unlock_effect">%s анимация за пръстов отпечатък</string>
     <string name="gxzw_aod_show_summary">Включете устройството и екрана, за да зададете иконата за пръстов отпечатък върху началния екран. Това може да повиши разхода на енергия.</string>
     <string name="gxzw_aod_show_tittle">Показвай икона за пръстов отпечатък, когато екранът е заключен</string>
     <string name="gxzw_dialog_message">За да използвате вградения в екрана пръстов отпечатък, не използвайте защитни проектори. Ако мислите че са необходими, изберете препоръчан за модела от Xiaomi.</string>
@@ -3232,7 +3234,13 @@ aptX адаптивен: режим Кодек"</string>
     <string name="gxzw_enroll_again">Повдигнете пръста си и отново натиснете скенера за пръстов отпечатък</string>
     <string name="gxzw_lowlight_open_summary">Намалете яркостта на иконата за пръстов отпечатък в условия на ниско осветление. Възможно е устройството Ви да се отключва по-бавно когато тази функция е включена.</string>
     <string name="gxzw_lowlight_open_title">Отключване с пръстов отпечатък при ниско осветление</string>
-    <string name="gxzw_quick_open_title" />
+    <string name="gxzw_quick_open_enable_summary">Използвайте преки пътища за жестове или функции на приложението, когато устройството е отключено</string>
+    <string name="gxzw_quick_open_enable_title">Пряк път за пръстов отпечатък</string>
+    <string name="gxzw_quick_open_fast_summary">Плъзване за използване на пряк път, при отключено устройство.</string>
+    <string name="gxzw_quick_open_fast_title">Бързо плъзване (разширени настройки)</string>
+    <string name="gxzw_quick_open_slow_summary">Натиснете и задръжте иконата за пръстов отпечатък за да направите пряк път. Плъзнете за използването му.</string>
+    <string name="gxzw_quick_open_slow_title">Натиснете и задръжте</string>
+    <string name="gxzw_quick_open_title">Преки пътища</string>
     <string name="handy_mode">Режим с една ръка</string>
     <string name="handy_mode_enable">Режим с една ръка</string>
     <string name="handy_mode_size">Размер на екрана</string>
@@ -3240,6 +3248,8 @@ aptX адаптивен: режим Кодек"</string>
     <string name="handy_mode_tips_full_screen">Когато използвате жестове на цял екран можете да включите режим Ползване с една ръка чрез Топче асистента. Също така можете да го включите използвайки бутони вместо жестове.</string>
     <string name="haptic_agent_completion_01_content_description">Завършена задача</string>
     <string name="haptic_cursor_movement_07_content_description">Регулиране на яркостта</string>
+    <string name="haptic_experience">Демонстрация</string>
+    <string name="haptic_experience_details">Тактилна обратна връзка и достъпност</string>
     <string name="haptic_feedback_enable_title">Вибрация при докосване</string>
     <string name="haptic_feedback_level">Вибрация</string>
     <string name="haptic_feedback_progress">Ниво на хаптичен отговор</string>
@@ -3257,14 +3267,17 @@ aptX адаптивен: режим Кодек"</string>
     <string name="haptic_return_gesture_05_content_description">Връщане назад</string>
     <string name="haptic_shutdown_menu_06_content_description">Меню за изключване</string>
     <string name="haptic_single_selection_02_content_description">Избран елемент</string>
+    <string name="haptic_switch_summary">Получавайте тактилна обратна връзка за избрани елементи когато Четеца на екрана е включен</string>
+    <string name="haptic_switch_title">Тактилна обратна връзка</string>
     <string name="haptic_text_edit_popup_13_content_description">Изскачащо меню</string>
     <string name="haptic_upper_right_menu_15_content_description">Падащо меню</string>
+    <string name="haptic_video_content_description">Демо видео за Тактилна обратна връзка</string>
     <string name="haptic_volume_adjustment_14_content_description">Регулиране на звука</string>
     <string name="hardkeyboard_category">Настройки за физическа клавиатура</string>
     <string name="hardware_info">Модел и хардуер</string>
     <string name="hardware_revision">Версия на хардуера</string>
     <string name="hardware_version">Версия на хардуера</string>
-    <string name="has_screenshot_sound">Възпроизвеждане на звук при правене на екранна снимка</string>
+    <string name="has_screenshot_sound">Звук за снимка на екрана</string>
     <string name="hdcp_checking_dialog_title">Задаване на модел на поведение HDCP проверка</string>
     <string name="hdcp_checking_title">HDCP проверка</string>
     <string name="hdmi_3d_display_enable_summary">Поддръжка на 3D игри</string>
@@ -3284,8 +3297,6 @@ aptX адаптивен: режим Кодек"</string>
     <string name="header_category_system">Системни</string>
     <string name="header_category_wireless_networks">Безжични мрежи</string>
     <string name="header_data_and_synchronization">Данни и синхронизиране</string>
-    <string name="headphone_assisted_summary">Излъчвайте информацията от микрофона на телефона върху свързани Bluetooth слушалки</string>
-    <string name="headphone_assisted_title">Вътреушни минислушалки</string>
     <string name="headset_connectiong">Свързване…</string>
     <string name="headset_find_both">И двете</string>
     <string name="headset_find_cancel">Отказ</string>
@@ -3314,6 +3325,7 @@ aptX адаптивен: режим Кодек"</string>
     <string name="headset_unsaved_devices">Използвани на други устройства</string>
     <string name="hearing_aids_category">Инструменти за слухова помощ</string>
     <string name="heavy_weight_stop_description">Това приложение не може да се спре безопасно. Ако го направите, може да загубите част от текущата си работа.</string>
+    <string name="height_light_list_text">Списък с важни елементи</string>
     <string name="help_and_feedback_title">Помощ и отзиви</string>
     <string name="help_feedback_label">Помощ и отзиви</string>
     <string name="help_label">Помощ и отзиви</string>
@@ -3467,6 +3479,7 @@ Xiaomi Cloud
     <string name="input_methods_settings_title">Въвеждане на текст</string>
     <string name="input_pattern_hint_text">Начертайте фигурата си за отключване</string>
     <string name="input_settings">Настройки за въвеждане</string>
+    <string name="input_text">Лента за въвеждане на текст</string>
     <string name="install_all_warning">Телефонът и личните ви данни са по-уязвими към атаки от неизвестни приложения. С инсталирането на приложения от този източник приемате, че вие носите отговорност в случай на повреда на устройството ви или при загуба на данни вследствие използването на такива приложения.</string>
     <string name="install_applications">Неизвестни източници</string>
     <string name="install_applications_title">Всички източници: Разрешаване</string>
@@ -3675,17 +3688,17 @@ Xiaomi Cloud
     <string name="kid_space_settings">Детско пространство</string>
     <string name="kilobyteShort">КБ</string>
     <string name="kilobyte_per_second">КБ/сек</string>
-    <string name="knock_edge_area_invalid" />
-    <string name="knock_guide_dialog_title" />
-    <string name="knock_guide_drive_desc" />
-    <string name="knock_guide_launch_desc" />
-    <string name="knock_guide_set_screenshot" />
-    <string name="knock_guide_set_voiceassist" />
-    <string name="knock_guide_sub_title" />
-    <string name="knock_guide_title" />
-    <string name="knock_long_press_horizontal_slid" />
-    <string name="knock_slide_shape" />
-    <string name="knock_slide_v" />
+    <string name="knock_edge_area_invalid">Този жест не работи близо до ръбовете на екрана</string>
+    <string name="knock_guide_dialog_title">Изберете действие за този жест. Можете да го промените по-късно в Настройки > Разширени настройки > Преки пътища до бутони.</string>
+    <string name="knock_guide_drive_desc">Правене на екраннна снимка по време на шофиране</string>
+    <string name="knock_guide_launch_desc">Активиране на Mi AI когато телефона ви лежи на маса</string>
+    <string name="knock_guide_set_screenshot">Екранна снимка</string>
+    <string name="knock_guide_set_voiceassist">Mi AI</string>
+    <string name="knock_guide_sub_title">Можете да активирате Mi AI или да направите екранна снимка чрез почукване на екрана с кокълче</string>
+    <string name="knock_guide_title">Двойно почукване с кокълчетата</string>
+    <string name="knock_long_press_horizontal_slid">Натиснете и плъзнете хоризонтално с кокълче</string>
+    <string name="knock_slide_shape">Очертайте кръг с кокълче</string>
+    <string name="knock_slide_v">Рисуване на V с кокълче</string>
     <string name="label_available">Налични мрежи</string>
     <string name="label_mi_stats">Mi анализ</string>
     <string name="language_and_input_for_work_category_title">Клавиатури и инструменти за служебния потр. профил</string>
@@ -3717,7 +3730,6 @@ Xiaomi Cloud
     <string name="launch_noapp_dialog_replace">Настройки</string>
     <string name="launch_notification_center">Лента с известия</string>
     <string name="launch_recents">Стартиране на Скорошни</string>
-    <string name="launch_smarthome">Xiaomi Quick Connect</string>
     <string name="launch_voice_assistant">Стартирай гласов асистент</string>
     <string name="launch_wechat_payment_code">Wechat код за плащане</string>
     <string name="launch_wechat_scanner">Wechat скенер</string>
@@ -3766,6 +3778,7 @@ Xiaomi Cloud
     <string name="lights_title">ЛЕД индикатор</string>
     <string name="line_breaking_summary">Оптимизиране на линия за прекъсване на параграф</string>
     <string name="line_breaking_title">Оптимизиране на текст</string>
+    <string name="link_speed">%1$d Мб/сек</string>
     <string name="link_turbo_prompt">Статистиката на тази страница показва единствено количеството мобилни данни, което е използвано за подобряване скоростта на Wi-Fi. Тя не отразява реално използваното количество мобилни данни.</string>
     <string name="link_turbo_settings_all_app_display_loading">Момент…</string>
     <string name="link_turbo_settings_all_app_reach_max">Можете да изберете до 15 приложения</string>
@@ -3794,7 +3807,6 @@ Xiaomi Cloud
     <string name="local_backup_section_summary_new">Архивиране на профили, данни за приложения, системни настройки и други</string>
     <string name="local_backup_section_title">Локални резервни копия</string>
     <string name="local_backup_section_title_new">На това устройство</string>
-    <string name="local_backup_usestatus_title">Локалните резервни копия са изключени</string>
     <string name="locale_default">По подразбиране</string>
     <string name="locale_not_translated">Може да не е налице в някои приложения</string>
     <string name="locale_remove_menu">Премахване</string>
@@ -3934,7 +3946,6 @@ Xiaomi Cloud
     <string name="lock_settings_title">Защита на устройството</string>
     <string name="lock_settings_with_fingerprint">Заключен екран и парола</string>
     <string name="lock_setup">Настройката завърши.</string>
-    <string name="lock_sound_effect_enable_title">Възпроизвеждане на звук при заключване на екрана</string>
     <string name="lock_sounds_enable_title">Звуци за заключване на екрана</string>
     <string name="lockdown_settings_summary">Показване на опция за бутона за захранване, която изключва Smart Lock, биометричното отключване и известията на заключения екран</string>
     <string name="lockdown_settings_title">Показване на опция за заключване</string>
@@ -3968,7 +3979,6 @@ Xiaomi Cloud
     <string name="lockpassword_confirm_workspace_password">Потвърдете паролата за работно място</string>
     <string name="lockpassword_confirm_your_lock_password_header">Потвърдете вашата парола</string>
     <string name="lockpassword_confirm_your_lock_pattern_header">Потвърдете вашата фигура</string>
-    <string name="lockpassword_confirm_your_lock_pin_header">Потвърдете PIN кода си</string>
     <string name="lockpassword_confirm_your_password_details_frp">Фабр. настройки на телефона са били възстановени. За да го ползвате, въведете предишната си парола.</string>
     <string name="lockpassword_confirm_your_password_generic">Въведете паролата за устройството си, за да продължите.</string>
     <string name="lockpassword_confirm_your_password_generic_profile">Въведете служебната си парола, за да продължите</string>
@@ -4072,7 +4082,6 @@ Xiaomi Cloud
     <string name="login_account_dialog_message">Влезте със своя Mi Профил и включете синхронизация с облака.</string>
     <string name="login_account_dialog_title">Влезте с Mi Профил</string>
     <string name="login_account_summary">Управление на профили, облачни услуги, плащания и други</string>
-    <string name="login_account_summary_temp">Управление на профили, облачни услуги и други</string>
     <string name="login_action">Вписване</string>
     <string name="long_press_back_key">Дълго натискане на бутон Назад</string>
     <string name="long_press_buttom_key">Дълго натискане на бутон Начало при Заключен екран</string>
@@ -4249,6 +4258,7 @@ Xiaomi Cloud
     <string name="memory_title">Свободни: %1$s\u0009\u0009Общо: %2$s</string>
     <string name="memory_usage">Използване на паметта</string>
     <string name="memory_usage_apps">Използвана от приложенията памет</string>
+    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">Средно %1$s използвана памет през последните 3 часа</string>
     <string name="menu_cancel">Отхвърляне</string>
     <string name="menu_check">Опит</string>
@@ -4427,7 +4437,6 @@ Xiaomi Cloud
     <string name="miui_lab_install_drive_mode_title">Инсталиране на режим Шофиране</string>
     <string name="miui_lab_settings">MIUI лаборатория</string>
     <string name="miui_lab_slogan">Учете. Изследвайте. Откривайте.</string>
-    <string name="miui_master_clear_prompt_battery_low">Не е възможно връщане към фабрични настройки когато остават по-малко от %1$s батерия. Първо заредете устройството си.</string>
     <string name="miui_master_clear_summary">Изтрива всички данни от устройството</string>
     <string name="miui_more_special_feature">Открийте нови функции</string>
     <string name="miui_optimization_disabled">Изкл. на MIUI оптимизация</string>
@@ -4755,6 +4764,7 @@ Xiaomi Cloud
     <string name="nfc_how_it_works_got_it">Разбрах</string>
     <string name="nfc_how_it_works_title">Плащане на терминал</string>
     <string name="nfc_more_title">Още...</string>
+    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Задаване като основно</string>
     <string name="nfc_payment_btn_text_update">Актуализиране</string>
     <string name="nfc_payment_default">Основно приложение за плащане</string>
@@ -4862,6 +4872,7 @@ Xiaomi Cloud
     <string name="none">Няма</string>
     <string name="normal">Изкл</string>
     <string name="normal_info">Всички звуци ще работят нормално</string>
+    <string name="normal_list_text">Списък</string>
     <string name="normal_smartcover_title">Непрозрачно предно покритие</string>
     <string name="not_allowed">SIM картата ви не позволява връзка с тази мрежа.</string>
     <string name="not_battery_optimizing">Оптимизирането на батерията не се използва</string>
@@ -5112,6 +5123,7 @@ OTG се изключва автоматично след 10 минути неа
     <string name="overlay_settings_title">Разрешаване на екранни наслагвания в/у „Настройки“</string>
     <string name="overlay_toast_failed_to_apply">Прилагането на наслагване не бе успешно</string>
     <string name="owner_info_settings_edit_text_hint">Напр. „Устройството с Android на Иван“.</string>
+    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Няма</string>
     <string name="owner_info_settings_title">Подпис на Заключен екран</string>
     <string name="owner_space">Първо пространство</string>
@@ -5207,7 +5219,6 @@ OTG се изключва автоматично след 10 минути неа
     <string name="password_security_settings_title">Пароли и сигурност</string>
     <string name="password_turned_off_text">Паролата е отменена</string>
     <string name="password_turned_on_text">Паролата е зададена</string>
-    <string name="password_unlock">Заключване на екрана</string>
     <string name="password_unlock_title">Заключване на екрана</string>
     <string name="payment_summary">%1$s е стандартното приложение</string>
     <string name="peak_refresh_rate_summary">Автоматично увеличава честотата на опресняване от 60 на 90 Hz за част от съдържанието. По-интензивно използване на батерията.</string>
@@ -5247,6 +5258,7 @@ OTG се изключва автоматично след 10 минути неа
     <string name="photo_data">Снимки и видеоклипове</string>
     <string name="physical_keyboard_title">Физическа клавиатура</string>
     <string name="pick_up_gesture_wakeup_title">Вдигнете за активиране</string>
+    <string name="picker_text">Избор на време</string>
     <string name="picture_color_mode">Режим Цветно изображение</string>
     <string name="picture_color_mode_desc">Използване на sRGB</string>
     <string name="picture_in_picture_app_detail_summary">Разрешаване на това приложение да създава прозорец в режима „Картина в картината“, докато е отворено или след като излезете от него (например за да продължите да гледате видеоклип). Съответният прозорец ще се показва върху другите приложения, които използвате.</string>
@@ -5339,6 +5351,7 @@ OTG се изключва автоматично след 10 минути неа
     <string name="power_remaining_less_than_duration_only">Остават по-малко от %1$s</string>
     <string name="power_remaining_more_than_subtext">Остават повече от %1$s (%2$s)</string>
     <string name="power_remaining_only_more_than_subtext">Остават повече от %1$s</string>
+    <string name="power_remaining_settings_home_page">%1$s - %2$s</string>
     <string name="power_screen">Екран</string>
     <string name="power_settings_title">Системна производителност</string>
     <string name="power_suggestion_battery_run_out">Батерията ще бъде изразходена в около %1$s</string>
@@ -5577,6 +5590,8 @@ OTG се изключва автоматично след 10 минути неа
     <string name="private_sms_recording_intro_header">Начертайте фигура за отключване</string>
     <string name="private_sms_reset_by_account">За да нулирате паролата си, влезте в Mi Профила си.</string>
     <string name="process_dex2oat_label">Оптимизиране на приложенията</string>
+    <string name="process_format">%1$s (%2$d)</string>
+    <string name="process_kernel_label">Android OS</string>
     <string name="process_mediaserver_label">Медиен сървър</string>
     <string name="process_provider_in_use_description">Доставчикът %1$s се използва.</string>
     <string name="process_service_in_use_description">Услугата %1$s се използва</string>
@@ -5694,6 +5709,7 @@ OTG се изключва автоматично след 10 минути неа
     <string name="repeat_days_in_week">Повторение</string>
     <string name="repeat_never">Никога</string>
     <string name="repeat_title">Повтаряне</string>
+    <string name="request_manage_bluetooth_permission_dont_allow">Забраняване</string>
     <string name="requires_modern_control_center">Работи с новата версия на Контролен център</string>
     <string name="reset_aaid">Нулиране на идентификатора на реклами</string>
     <string name="reset_app_preferences">Нулиране на предпочитанията за приложенията</string>
@@ -5880,8 +5896,7 @@ OTG се изключва автоматично след 10 минути неа
     <string name="screen_enhance_engine_ai_pic_summary">"Идентифицирайте предмети (например растения, животни, сгради) и динамично настройвайте ефектите на дисплея. "</string>
     <string name="screen_enhance_engine_ai_title">Подобряване на изображения с AI</string>
     <string name="screen_enhance_engine_memc_note">Не е възможно подобряване на видеоклипове когато е включена супер резолюция. Включвайки подобрени видеоклипове ще изключите супер резолюцията.</string>
-    <string name="screen_enhance_engine_memc_note_1">%d. Тази функция леко повишава консумацията на енергия.</string>
-    <string name="screen_enhance_engine_memc_note_2">%d. Тази функция работи само когато кутията с инструменти за видео е активирана.</string>
+    <string name="screen_enhance_engine_memc_note_1">Тази функция леко повишава консумацията на енергия.</string>
     <string name="screen_enhance_engine_memc_open">MEMC</string>
     <string name="screen_enhance_engine_memc_pic_summary">"Добавяйте допълнителни рамки към видеоклипове, за да правите съдържанието по-живо и преходите по-плавни. "</string>
     <string name="screen_enhance_engine_memc_title">MEMC</string>
@@ -6292,7 +6307,6 @@ OTG се изключва автоматично след 10 минути неа
     <string name="secspace_fod_use_password">Въведете парола</string>
     <string name="secure_keyguard_business_title">Настройване заключен екран</string>
     <string name="secure_lock_encryption_warning">Тъй като сте включили услуга за достъпност, устройството ви няма да използва заключването на екрана ви за подобряване на шифроването на данни.</string>
-    <string name="security_center_title">Сигурност</string>
     <string name="security_dashboard_summary">Опция за заключване на екрана, отпечатък</string>
     <string name="security_dashboard_summary_face">Заключване на екрана, отключване с лице</string>
     <string name="security_dashboard_summary_no_fingerprint">Опция за заключване на екрана</string>
@@ -6305,6 +6319,7 @@ OTG се изключва автоматично след 10 минути неа
     <string name="security_encryption_attention_3">Ще трябва да настроите нова парола за отключване на екрана.</string>
     <string name="security_encryption_attention_4">Уверете се, че сте запомнили вашата парола за отключване на екрана, иначе ще се наложи да извършите пълно нулиране и изтриване на цялата информация във вашето устройство.</string>
     <string name="security_encryption_attention_info">Можете да шифровате профили, настройки, инсталирани приложения и тяхната информация, медия и други файлове.</string>
+    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">Важно</string>
     <string name="security_encryption_close_dialog_info">Липсата на шифроване на устройството чрез парола за отключване на екрана може да направи недостъпни някои услуги от Google.</string>
     <string name="security_encryption_close_dialog_title">Връщане към системно шифроване по подразбиране</string>
@@ -6449,6 +6464,7 @@ OTG се изключва автоматично след 10 минути неа
     <string name="see_less">Преглед на по-малко</string>
     <string name="see_more">Вижте още</string>
     <string name="seek_bar_info">Промяна на размера</string>
+    <string name="seekbar_text">Слайдер</string>
     <string name="select_all">Избиране на всички</string>
     <string name="select_application">Изберете приложение</string>
     <string name="select_automatically">Автоматично избиране на мрежа</string>
@@ -6494,11 +6510,6 @@ OTG се изключва автоматично след 10 минути неа
     <string name="settings_backup">Създаване на резервно копие на настройките</string>
     <string name="settings_backup_summary">Създаване на резервно копие на настройките ми</string>
     <string name="settings_button">Настройки</string>
-    <string name="settings_charging_at_fast_speed">Бързо зареждане</string>
-    <string name="settings_charging_at_normal_speed">Зареждане</string>
-    <string name="settings_charging_at_top_speed">Зареждане на пълна скорост</string>
-    <string name="settings_charging_fully_charged">Напълно заредена</string>
-    <string name="settings_charging_not_charging">Не се зарежда</string>
     <string name="settings_forbidden_message">Тази настройка е забранена</string>
     <string name="settings_label">Настройки</string>
     <string name="settings_label_launcher">Настройки</string>
@@ -6551,17 +6562,6 @@ OTG се изключва автоматично след 10 минути неа
     <string name="shared_data_title">Споделени данни</string>
     <string name="sharing_remote_bugreport_dialog_message">Този сигнал за програмна грешка се споделя със системния ви администратор. Свържете се с него за повече подробности.</string>
     <string name="short_summary_font_size">Уголемяване или намаляване на текст</string>
-    <string name="shoulder_key_game_light_settings">Анимации</string>
-    <string name="shoulder_key_settings">Горни бутони</string>
-    <string name="shoulder_key_settings_title">Горни бутони</string>
-    <string name="shoulder_key_sound_settings">Звукови ефекти</string>
-    <string name="shoulder_key_sound_switch_title">Звукови ефекти</string>
-    <string name="shoulder_key_sound_text_bullet">Куршум</string>
-    <string name="shoulder_key_sound_text_current">Бъдеще</string>
-    <string name="shoulder_key_sound_text_sword">Меч</string>
-    <string name="shoulder_key_sound_text_wind">Двигател</string>
-    <string name="shoulder_key_switch_status_close">Изкл</string>
-    <string name="shoulder_key_switch_status_open">Вкл</string>
     <string name="show_all_anrs">Показване на ANR във фонов режим</string>
     <string name="show_all_anrs_summary">Показване на диалогов прозорец \"Приложението не реагира\" за приложения във фонов режим</string>
     <string name="show_all_apps">Инф. за използване на у-вото</string>
@@ -6687,6 +6687,7 @@ OTG се изключва автоматично след 10 минути неа
     <string name="sim_select_card">Изберете SIM карта</string>
     <string name="sim_selection_channel_title">Избиране на SIM карта</string>
     <string name="sim_selection_required_pref">Изборът е задължителен</string>
+    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM карти</string>
     <string name="sim_setup_wizard_title">SIM карти</string>
     <string name="sim_signal_strength">%1$d dBm, %2$d asu</string>
@@ -6703,6 +6704,7 @@ OTG се изключва автоматично след 10 минути неа
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
     <string name="size_peta_byte">PB</string>
+    <string name="size_suffix">%1$s %2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip_anyway_button_label">Пропускане въпреки това</string>
     <string name="skip_label">Пропускане</string>
@@ -6751,7 +6753,6 @@ OTG се изключва автоматично след 10 минути неа
     <string name="smart_battery_manager_title">Мениджър на батерията</string>
     <string name="smart_battery_summary">Ограничение за батерията за приложения, които не използвате често</string>
     <string name="smart_battery_title">Автоматично управление на приложенията</string>
-    <string name="smart_home_select_smart_device">Приложение за управление на умни устройства за дома</string>
     <string name="smart_home_title">Умен дом</string>
     <string name="smart_home_value_none">Няма</string>
     <string name="smart_home_value_unknown">Неизвестни</string>
@@ -6759,8 +6760,6 @@ OTG се изключва автоматично след 10 минути неа
     <string name="smartcover_lock_or_unlock_screen_tittle">Режим Умен калъф</string>
     <string name="smartcover_sensitive_summary">Автоматично заключване и отключване на телефона с режим Умен калъф</string>
     <string name="smartcover_sensitive_title">Умен калъф</string>
-    <string name="smooth_adjust_ligth">Умекотяване на преходите</string>
-    <string name="smooth_adjust_ligth_summary">Направете преходите по-меки като ръчно настройвате яркостта. Когато тази функция е включена е възможно в някои случаи да се появят леки цветови несъответствия.</string>
     <string name="sms_application_title">Съобщения</string>
     <string name="sms_change_default_dialog_text">Да се използва ли %1$s вместо %2$s като приложение за SMS?</string>
     <string name="sms_change_default_dialog_title">Да се промени ли приложението за SMS?</string>
@@ -6810,7 +6809,7 @@ OTG се изключва автоматично след 10 минути неа
     <string name="sound_dashboard_summary">Сила на звука, вибриране, „Не безпокойте“</string>
     <string name="sound_effects_enable_title">Звуци на натискане</string>
     <string name="sound_haptic_settings">Звук и допир</string>
-    <string name="sound_mode">Тих режим</string>
+    <string name="sound_mode">Тих режим и режим Не безпокойте</string>
     <string name="sound_settings">Звук</string>
     <string name="sound_settings_example_summary">Силата на звука за звъненето и известията е зададена на 80%</string>
     <string name="sound_settings_summary">Силата на звука за звъненето и известията е зададена на %1$s</string>
@@ -6860,8 +6859,10 @@ OTG се изключва автоматично след 10 минути неа
     <string name="status_bar_app_enable_keyguard">Заключен екран</string>
     <string name="status_bar_app_enable_message">Значки</string>
     <string name="status_bar_carrier_settings_no_sim_card">Няма SIM карта</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_settings">Известия &amp; лента на състоянието</string>
     <string name="status_bar_settings_all_app_display_loading">Момент…</string>
+    <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
     <string name="status_bar_settings_manage_notification">Известия от приложения</string>
     <string name="status_bar_settings_notification_bar">Лента с известия</string>
     <string name="status_bar_settings_status_bar">Статус лента</string>
@@ -7158,6 +7159,7 @@ OTG се изключва автоматично след 10 минути неа
     <string name="sum_carrier_select">Избиране на мрежов оператор</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_divider_text">", "</string>
+    <string name="summary_range_symbol_combination">от %1$s до %2$s</string>
     <string name="summary_range_verbal_combination">от %1$s до %2$s</string>
     <string name="summary_separator">" / "</string>
     <string name="sunlight_mode">Режим Слънчева светлина</string>
@@ -7178,12 +7180,10 @@ OTG се изключва автоматично след 10 минути неа
     <string name="swipe_up_to_switch_apps_title">Навигиране с 2 бутона</string>
     <string name="switchNetworkToast">Свързването към мобилни мрежи може да начисли допълнителни такси</string>
     <string name="switch_access_service_on">Промяна на достъп</string>
-    <string name="switch_bootup_sound">Възпроизвеждане на звук при включване</string>
     <string name="switch_headset_anti_lost">Сигнал за липсваща слушалка</string>
     <string name="switch_headset_anti_lost_title">Сигнал за липсваща слушалка</string>
     <string name="switch_off_text">Изключено</string>
     <string name="switch_on_text">Вкл</string>
-    <string name="switch_power_sound">Възпроизвеждане на звук при свързване със зарядно</string>
     <string name="switch_screen_button_order">Огледални бутони</string>
     <string name="switch_screen_button_order_desc">"Огледално разположение на бутоните \"Меню\" и 'Назад\""</string>
     <string name="switch_select_to_speak_on">Изберете за Говор</string>
@@ -7235,6 +7235,7 @@ OTG се изключва автоматично след 10 минути неа
     <string name="system_ui_settings">Показване на тунера на системния ПИ</string>
     <string name="system_update_settings_list_item_summary" />
     <string name="system_update_settings_list_item_title">Актуализации на системата</string>
+    <string name="tab_text">Прозорец</string>
     <string name="take_call_on_title">Устройство за приемане на обаждането</string>
     <string name="talkback_summary">Екранен четец, предимно за хора със слепота и слабо зрение</string>
     <string name="talkback_title">TalkBack</string>
@@ -7307,8 +7308,6 @@ OTG се изключва автоматично след 10 минути неа
     <string name="thememanager_not_found">Неуспешно отваряне на Теми. Уверете се, че приложението е инсталирано.</string>
     <string name="three_gesture_down">Плъзнете надолу с три пръста</string>
     <string name="three_gesture_long_press">Натиснете и задръжте с %d пръста</string>
-    <string name="time_floating_window">Плаващ часовник</string>
-    <string name="time_floating_window_summary">Показване на часовника в плаващия прозорец над други приложения</string>
     <string name="time_format_category_title">Формат за часа</string>
     <string name="time_picker_title">Час</string>
     <string name="time_spent_in_app_pref_title">Време на ползване</string>
@@ -7364,8 +7363,6 @@ OTG се изключва автоматично след 10 минути неа
     <string name="traffic_none">Няма</string>
     <string name="transition_animation_scale_title">Скала на анимацията на преход</string>
     <string name="trigger_carrier_provisioning">Задействане на обезпечаването от оператора</string>
-    <string name="truetone_summary">Настройвайте цветове към околната светлина</string>
-    <string name="truetone_title">Адаптивни цветове</string>
     <string name="trust_lost_locks_screen_summary">Ако функцията е активирана, устройството ще се заключи, когато бъде изгубено доверието в последния надежден агент</string>
     <string name="trust_lost_locks_screen_title">Заключ. на екрана при изгубено доверие</string>
     <string name="trusted_credentials">Надеждни идент. данни</string>
@@ -7538,7 +7535,6 @@ OTG се изключва автоматично след 10 минути неа
     <string name="unlock_set_unlock_pin_title">PIN код</string>
     <string name="unlock_set_unlock_summary">Настройване на заключване на екран</string>
     <string name="unlock_setup_wizard_fingerprint_details">След като сте настроили заключване на екрана, можете да настроите и отпечатъка си от „Настройки“ > „Сигурност“.</string>
-    <string name="unlock_sound_effect_enable_title">Възпроизвеждане на звук при отключване на екрана</string>
     <string name="unlock_type_category_title">Метод на разпознаване</string>
     <string name="unlogin_account_summary">Всички Mi услуги. Един Mi Профил.</string>
     <string name="unlogin_account_title">Впишете се в Mi Профил</string>
@@ -7550,11 +7546,8 @@ OTG се изключва автоматично след 10 минути неа
     <string name="unsupported_setting_summary">Настройката не се поддържа на този телефон</string>
     <string name="update_new_version">Налично е обновление</string>
     <string name="update_progress_for_updates">Обновяване (%s)</string>
-    <string name="upload_debug_log_detail">"Помогнете за подобряването на Вашето преживяване с MIUI устройство като автоматично изпращате на Xiaomi данни за диагностика, данни за устройството, както и данни за употреба на приложението. Това ще помогне за подобряването на живота на батерията, MIUI системата, стабилността на приложението и още.
-Данните, които ще изпратите ще съдържат обща информация относно Вашето устройство и как го използвате (например ниво на батерията, дейност на системата и приложенията, и грешки). Данните ще бъдат използвани за подобряването на MIUI устройства.
-Изключването на тази функция не влияе върху способността на устройството Ви да изпраща информация необходима за основни услуги като системни обновления и сигурност."</string>
-    <string name="upload_debug_log_summary">Споделяйте данни, за да спомогнете за подобряването на MIUI</string>
-    <string name="upload_debug_log_title">Употреба и диагностика</string>
+    <string name="upload_debug_log_summary">Информацията за начина на използване, която ни изпращате, може да съдържа лични данни</string>
+    <string name="upload_debug_log_title">Изпращай диагностични данни автоматично</string>
     <string name="usage">Пренос на данни</string>
     <string name="usage_access">Достъп до данни за ползването</string>
     <string name="usage_access_description">Достъпът до данните за ползването разрешава на приложението да проследява какви други приложения използвате и колко често, както и оператора ви, настройките ви за езика и други подробности.</string>
@@ -7872,7 +7865,7 @@ OTG се изключва автоматично след 10 минути неа
     <string name="vibrate_when_ringing_option_always_vibrate">Вибриране</string>
     <string name="vibrate_when_ringing_option_never_vibrate">Без вибриране</string>
     <string name="vibrate_when_ringing_option_ramping_ringer">Вибриране, след което постепенно звънене</string>
-    <string name="vibrate_when_ringing_title">Вибрация при звънене</string>
+    <string name="vibrate_when_ringing_title">Вибриране при обаждания</string>
     <string name="video_calling_settings_title">Видеообаждания от оператора</string>
     <string name="video_tool_box_title">Инструменти за видео</string>
     <string name="view_saved_network">За преглед изберете запазена мрежа</string>
@@ -7923,6 +7916,7 @@ OTG се изключва автоматично след 10 минути неа
     <string name="vision_settings_title">Настройки при зрителни проблеми</string>
     <string name="voice_access">Гласови контроли</string>
     <string name="voice_assist">Mi AI</string>
+    <string name="voice_assist_volume_option_title">@string/voice_assist</string>
     <string name="voice_category">Говор</string>
     <string name="voice_helper_title">Гласов асистент</string>
     <string name="voice_input_output_settings">Въвеждане и синтезиране на глас</string>
@@ -8178,14 +8172,9 @@ OTG се изключва автоматично след 10 минути неа
     <string name="wifi_assistant_explicitly_confirm_disconnect">Неуспешно свързване с Wi-Fi. Желаете ли да прекратите връзката?</string>
     <string name="wifi_assistant_explicitly_confirm_wifi_message">Неуспешно свързване с интернет чрез Wi-Fi. Желаете ли да опитате с друга Wi-Fi мрежа?</string>
     <string name="wifi_assistant_keep_connection">Не, благодаря</string>
-    <string name="wifi_assistant_keep_wifi_connection">Не, благодаря</string>
     <string name="wifi_assistant_off">Изкл</string>
     <string name="wifi_assistant_ok">OК</string>
     <string name="wifi_assistant_on">Вкл</string>
-    <string name="wifi_assistant_prompt">Останете свързани</string>
-    <string name="wifi_assistant_prompt_button">Разбрах</string>
-    <string name="wifi_assistant_prompt_checkbox">Искане на разрешение за употреба на мобилни данни</string>
-    <string name="wifi_assistant_prompt_summary">Вашето устройство ще се свърже с други налични Wi-Fi мрежи или ще използва мобилни данни когато вашата текуща Wi-Fi мрежа не се свързва с интернет.</string>
     <string name="wifi_assistant_setup_wifi_assistant">Настройки</string>
     <string name="wifi_assistant_summary">Автоматично избиране на Wi-Fi или мобилна мрежа когато Wi-Fi връзката е слаба</string>
     <string name="wifi_assistant_switch_data">Използване на мобилни данни</string>
@@ -9015,8 +9004,10 @@ OTG се изключва автоматично след 10 минути неа
     <string name="zone_auto_summaryOn">Използване на времето, предоставено от мрежовия оператор</string>
     <string name="zone_auto_title">Използване на часовата зона, предоставена от мрежата</string>
     <string name="zone_change_to_from_dst">%1$s започва на %2$s.</string>
+    <string name="zone_info_exemplar_location_and_offset">%1$s (%2$s)</string>
     <string name="zone_info_footer">Използва %1$s. %2$s: започва на %3$s.</string>
     <string name="zone_info_footer_no_dst">Използва %1$s. Няма лятно часово време.</string>
+    <string name="zone_info_offset_and_name">%2$s (%1$s)</string>
     <string name="zone_list_menu_sort_alphabetically">Сортиране по азбучен ред</string>
     <string name="zone_list_menu_sort_by_timezone">Сортиране по часова зона</string>
     <string name="zone_menu_by_offset">Избиране по отместване от UTC</string>

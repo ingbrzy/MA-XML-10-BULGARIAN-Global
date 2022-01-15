@@ -30,7 +30,6 @@
     <string name="actionbar_button_up_description">Назад</string>
     <string name="afternoon">Следобяд</string>
     <string name="am">AM</string>
-    <string name="app_all_purpose_pad">Добре дошли в Управление на файлове! Можете да използвате това приложение, за да управлявате файлове съхранявани във Вашето устройство.</string>
     <string name="clearable_edittext_clear_description">Изчисти</string>
     <string name="close">Затваряне</string>
     <string name="copy">Копиране</string>
@@ -101,6 +100,7 @@
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
     <string name="midnight">Нощ</string>
+    <string name="miuix_access_state_desc">Избрани</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Размаркиране на всички</string>
     <string name="miuix_appcompat_action_mode_select_all">Избиране на всички</string>
     <string name="miuix_appcompat_action_mode_title_empty">Изберете елементи</string>
@@ -174,7 +174,6 @@
     <string name="saturday_shortest">Сб.</string>
     <string name="search_menu_title">Търсене</string>
     <string name="send">Изпращане</string>
-    <string name="start_all">Преглед на всички</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Неделя</string>

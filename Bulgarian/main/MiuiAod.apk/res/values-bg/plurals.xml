@@ -40,6 +40,20 @@
         <item quantity="other">" %1$sчаса %2$s"</item>
         <item quantity="one">" %1$sчас %2$s"</item>
     </plurals>
+    <plurals name="character_pitch_minus">
+        <item quantity="other">Намалено е разстоянието между символите. Разстоянието е %s.</item>
+        <item quantity="one">Намалено е разстоянието между символите. Разстоянието е %s.</item>
+    </plurals>
+    <plurals name="character_pitch_plus">
+        <item quantity="other">Увеличено е разстоянието между символите. Разстоянието е %s.</item>
+        <item quantity="one">Увеличено е разстоянието между символите. Разстоянието е %s.</item>
+    </plurals>
+    <plurals name="choose_long_gif_limit_toast_tip">
+        <item quantity="other">"Продължителността на анимациите не може да надвишава %d секунди.
+По-дълги от това анимации ще спрат до тук."</item>
+        <item quantity="one">"Продължителността на анимациите не може да надвишава %d секунда.
+По-дълги от това анимации ще спрат до тук."</item>
+    </plurals>
     <plurals name="count_selected">
         <item quantity="other">Избрани %d елементи</item>
         <item quantity="one">Избран %d елемент</item>
@@ -67,6 +81,14 @@
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Току що</item>
         <item quantity="one">Току що</item>
+    </plurals>
+    <plurals name="line_spacing_puls">
+        <item quantity="other">Увеличена е разредката между редовете. Разредката е %s.</item>
+        <item quantity="one">Увеличена е разредката между редовете. Разредката е %s.</item>
+    </plurals>
+    <plurals name="lines_pacing_minus">
+        <item quantity="other">Намалена е разредката между редовете. Разредката е %s.</item>
+        <item quantity="one">Намалена е разредката между редовете. Разредката е %s.</item>
     </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d избрани елементи</item>

@@ -107,6 +107,9 @@
     <string name="binded">Свързан</string>
     <string name="binded_description" formatted="false">"%s беше свързан към вашия Mi Профил.
 Вече можете да влезете във вашия Mi Профил чрез %s."</string>
+    <string name="button_agree">Приемам</string>
+    <string name="button_close">Затвори</string>
+    <string name="button_refuse">Не приемам</string>
     <string name="button_unbind">Прекратяване на връзката</string>
     <string name="cancel">Отказ</string>
     <string name="change_activate_email">Промяна на имейл адрес</string>
@@ -443,6 +446,7 @@ ID:%s
     <string name="passport_activing_account">Активира се…</string>
     <string name="passport_adding_account">Добавяне на профил…</string>
     <string name="passport_area_code_hot">ЧЕСТО ИЗПОЛЗВАНИ</string>
+    <string name="passport_area_code_others">Използвайте различен префикс</string>
     <string name="passport_area_code_title">Код на държава</string>
     <string name="passport_auto_generate_pwd">Генериране на надеждна парола</string>
     <string name="passport_back">Назад</string>
@@ -675,13 +679,19 @@ ID:%s
     <string name="permission_group_phone">Телефон</string>
     <string name="permission_group_sms">SMS</string>
     <string name="permission_group_storage">Хранилище</string>
+    <string name="permission_instructions">Употреба на разрешения</string>
     <string name="permission_read_sms">Достъп до съобщения</string>
+    <string name="permission_withdraw">Оттегляне</string>
     <string name="permission_write_external_storage">Достъп и добавяне на информация в хранилището</string>
     <string name="personal_info_desc">Снимка, прякор и още</string>
     <string name="phone_num_use_for">Телефонният номер се използва за:</string>
     <string name="photoPickerNotFoundText">Не са налични изображения.</string>
     <string name="pm">PM</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
+    <string name="privacy_policy_reject_confirm_msg">Ако не приемете новата версия на Правилата за поверителност на Mi Account няма да можете да използвате профила си повече. Приемате ли обновените &lt;a href=%1$s>Правила за поверителност&lt;/a> на Mi Профил сега?</string>
+    <string name="privacy_policy_reject_confirm_title">Не можете да използвате Mi Профил</string>
+    <string name="privacy_policy_update_msg">Правилата за поверителност на Mi Профил бяха обновени:&lt;br/>%1$s&lt;br/>Прочетете и приемете новата версия на &lt;a href=%2$s>&lt;u>Правилата за поверителност&lt;/u>&lt;/a> преди да продължите.</string>
+    <string name="privacy_policy_update_title">Обновени Правила за Поверителност</string>
     <string name="provision_back">Назад</string>
     <string name="provision_next">Напред</string>
     <string name="provision_skip_underline">Пропускане</string>
@@ -708,6 +718,9 @@ ID:%s
     <string name="restart_action">Рестарт</string>
     <string name="restart_phone_bind_message">Получаването на съобщението отнема известно време, искате ли да промените телефонният номер?</string>
     <string name="restart_phone_bind_title">Промяна на телефонен номер</string>
+    <string name="revoke_privacy_policy">Оттегляне на съгласие</string>
+    <string name="revoke_privacy_policy_instructions">Ако продължите, вие ще оттеглите съгласието си за Правилата за поверителност на Mi Профил. Ние ще спрем да събираме вашите лични данни. Вече събраните лични данни ще бъдат изтрити в рамките на специфичния период посочен в приложимото законодателство. Mi Профил предоставя услуги въз основа на събирането на необходимите лични данни. Вашето оттегляне на съгласие ще се смята за отказ от услугите предоставени от Mi Профил. Желаете ли да оттеглите съгласието си?</string>
+    <string name="revoke_privacy_policy_title">Оттегляне на съгласие</string>
     <string name="risky_pwd_not_allow">Новата парола не е сигурна. Задайте друга.</string>
     <string name="same_new_and_old_pwd">Новата парола трябва да е различна от старата</string>
     <string name="saturday">Събота</string>
@@ -836,7 +849,15 @@ ID:%s
     <string name="user_instruction_all_purpose">Добре дошли в Mi Профил! Можете да използвате профила си, за да получите достъп до услуги предоставени от Xiaomi и нейните дъщерни дружества, като Mi.com, Xiaomi Cloud и GetApps. Можете да получавате Mi Монети, да купувате виртуални стоки и да се наслаждавате на ценни услуги като игри, теми и електронни книги.</string>
     <string name="user_instruction_tip">За да можете да се вписвате, прочетете и приемете правилата и условията.</string>
     <string name="user_license_with_3rd_app">&lt;Data>Вписвайки се в своя Mi Профил, аз потвърждавам, че съм прочел/а и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, както и &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил.&lt;/Data></string>
+    <string name="user_license_with_3rd_app_mobile">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%5$s>Правилата и условията на услугите за верификация на China Mobile&lt;/a>.&lt;/Data></string>
+    <string name="user_license_with_3rd_app_no_operator">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> както и &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил.&lt;/Data></string>
+    <string name="user_license_with_3rd_app_telcom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%5$s>Правилата и условията на услугите за верификация на профил на eSurfing&lt;/a>.&lt;/Data></string>
+    <string name="user_license_with_3rd_app_unicom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%5$s>Правилата и условията на услугите за верификация на China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="user_license_with_out_3rd_app_no_operator">&lt;Data>Прочетох и приех &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил.&lt;/Data></string>
     <string name="user_license_without_3rd_app">&lt;Data>Прочетох и приех &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил.&lt;/Data></string>
+    <string name="user_license_without_3rd_mobile">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на China Mobile&lt;/a>.&lt;/Data></string>
+    <string name="user_license_without_3rd_telcom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на профил на eSurfing&lt;/a>.&lt;/Data></string>
+    <string name="user_license_without_3rd_unicom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на China Unicom&lt;/a>.&lt;/Data></string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
     <string name="vip_account_settings">VIP Настройки</string>

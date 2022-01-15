@@ -77,6 +77,8 @@
         <item>Аудио: aptX™ от Qualcomm®</item>
         <item>Аудио: aptX™ HD от Qualcomm®</item>
         <item>LDAC</item>
+        <item>Аудио: Qualcomm® aptX™ Adaptive</item>
+        <item>Аудио: Qualcomm® aptX™ TWS+</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Използване на сист. избор (стандартно)</item>
@@ -85,6 +87,8 @@
         <item>Аудио: aptX™ от Qualcomm®</item>
         <item>Аудио: aptX™ HD от Qualcomm®</item>
         <item>LDAC</item>
+        <item>Аудио: Qualcomm® aptX™ Adaptive</item>
+        <item>Аудио: Qualcomm® aptX™ TWS+</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>

@@ -175,6 +175,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Традиционен Китайски Календар</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_time_picker_dialog_title">Задаване на дата и час</string>
     <string name="date_today">" (днес)"</string>
     <string name="day">Ден</string>
@@ -433,6 +434,7 @@
     <string name="midnight">Нощ</string>
     <string name="missing_name">(без име)</string>
     <string name="missing_required_permission">Отказали сте разрешение, което се изисква.</string>
+    <string name="miuix_access_state_desc">Избрани</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Размаркиране на всички</string>
     <string name="miuix_appcompat_action_mode_select_all">Избиране на всички</string>
     <string name="miuix_appcompat_action_mode_title_empty">Изберете елементи</string>
@@ -622,7 +624,7 @@
     <string name="privacy_policy_dialog_agree">Приемам</string>
     <string name="privacy_policy_dialog_dont_agree">Не приемам</string>
     <string name="privacy_policy_dialog_message">&lt;Data>Добре дошли в Календар!&lt;br/>Можете да използвате това приложение, за да създавате и управлявате събития, да настройвате напомняния и да получавате допълнителна информация специфична за вашето местоположение.&lt;br/>Календар се нуждае да събира вашите лични данни, за да ви предоставя основни услуги. Можете да научите как обработваме събраната информация в нашите &lt;a href=\"%1$s\">Правила за поверителност&lt;/a>.&lt;br/>Прочетете и приемете нашето &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%3$s\">Правила за поверителност&lt;/a> преди да използвате Календар. Можете да оттеглите съгласието си за Правилата за поверителност на Календар в Настройки по всяко време.&lt;br/> Ако не приемете нашите Правила за поверителност няма да имате достъп до някои от функциите, но основните функции все още ще са достъпни за вас.&lt;/Data></string>
-    <string name="privacy_policy_dialog_title">Условия за ползване</string>
+    <string name="privacy_policy_dialog_title">Правила и условия</string>
     <string name="privacy_revoke_switch_text">Оттегляне на съгласие</string>
     <string name="pull_to_refresh_hint">Издърпайте, за да заредите събитията от%1$d</string>
     <string name="recorded_menstruation">Записан цикъл</string>
@@ -762,6 +764,7 @@
     <string name="talk_back_read_date">%1$s (%2$s според лунния календар).</string>
     <string name="talk_back_setting">Настройки</string>
     <string name="talk_back_tab_switch">Превключване между прегледите</string>
+    <string name="talk_back_tab_switch_language">Избор на език за Календар</string>
     <string name="talkback_bengali">бенгалски</string>
     <string name="talkback_english">английски</string>
     <string name="talkback_gujarati">гуджарати</string>

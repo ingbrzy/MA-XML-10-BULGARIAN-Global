@@ -176,4 +176,12 @@
         <item quantity="other">Субтитрите се забавят с %.1f секунди</item>
         <item quantity="one">Субтитрите се забавят с %.1f секунда</item>
     </plurals>
+    <plurals name="toast_bookmark_max_size">
+        <item quantity="other">Добавете до %d отметки</item>
+        <item quantity="one">Добавете до %d отметка</item>
+    </plurals>
+    <plurals name="video_view_count">
+        <item quantity="other">%d гледания</item>
+        <item quantity="one">%d гледане</item>
+    </plurals>
 </resources>

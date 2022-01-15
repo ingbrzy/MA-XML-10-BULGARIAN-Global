@@ -63,6 +63,8 @@ You'll be able to track your workouts and activity."</string>
     <string name="am">AM</string>
     <string name="audio_permission_dialog_desc">To analyze your sleep cycle and record talking and snoring, Xiaomi Health needs permission to record audio.</string>
     <string name="audio_permission_dialog_title">Allow recording audio</string>
+    <string name="audio_permission_subtitle">For detecting snoring and talking</string>
+    <string name="audio_permission_title">Record audio</string>
     <string name="audio_record_perm_description">For recording snoring and talking while analyzing sleep cycle</string>
     <string name="audio_record_permission_description">For recording talking and snoring while analyzing your sleep cycle</string>
     <string name="auto_start_fail">Неуспешно даване на разрешение</string>
@@ -103,9 +105,13 @@ You'll be able to track your workouts and activity."</string>
     <string name="bg_control_dialog_go_set">Настройки</string>
     <string name="bg_control_dialog_msg">Пестенето на батерията ще ограничи фоновата дейност на Xiaomi Здраве. Разрешете на Xiaomi Здраве винаги да работи във фонов режим, за да получавате точна статистика.</string>
     <string name="bg_control_dialog_title">Фонови ограничения</string>
+    <string name="body_sport_permission_subtitle">For tracking your steps</string>
+    <string name="body_sport_permission_title">Access health and activity data</string>
     <string name="breaststroke">Бруст</string>
     <string name="butterfly_stroke">Бътерфлай</string>
     <string name="button_record_menstruation">Record</string>
+    <string name="camera_permission_subtitle">For obtaining blood flow changes for heart rate detection and setting profile photos</string>
+    <string name="camera_permission_title">Use camera</string>
     <string name="cancel">Отмени</string>
     <string name="cancel_edit">Discard changes</string>
     <string name="cancel_mark_end">Периодът не е свършил</string>
@@ -126,9 +132,11 @@ You'll be able to track your workouts and activity."</string>
     <string name="complete_preference_basic_info">Complete your profile</string>
     <string name="complete_progress">Напредък</string>
     <string name="completed">"Completed "</string>
+    <string name="contact_permission_subtitle">For setting emergency contacts</string>
+    <string name="contact_permission_title">Access contacts</string>
     <string name="copy">Копиране</string>
     <string name="copy_done">Копирането е успешно</string>
-    <string name="copyright_statement">Авторско право © Xiaomi Inc. Всички права запазени.</string>
+    <string name="copyright_statement">Авторски права © Xiaomi Inc. Всички права запазени.</string>
     <string name="cousume_unit_float_format">%1$.2f Cal</string>
     <string name="cross_hiking">Hiking</string>
     <string name="cumulative_decline">Намаляване на височина</string>
@@ -206,8 +214,8 @@ Xiaomi Здраве ще ви уведомява единствено за ва�
     <string name="dialog_feedback_purpose2">For submitting feedback</string>
     <string name="dialog_feedback_title">Feedback</string>
     <string name="dialog_health_applicator">Xiaomi Здраве в момента предоставя услуги единствено за възрастни.</string>
-    <string name="dialog_juveniles_details">Съгласно нашата политика за поверителност минималната възраст за ползване на този продукт е 18 години.</string>
-    <string name="dialog_juveniles_link">Съгласно нашата &lt;font color=\"#FE6D67\">&lt;a href=%1$s>политика за поверителност&lt;/a>&lt;/font> минималната възраст, на която трябва да бъде потребителят, за да може да ползва този продукт, е 18 години.</string>
+    <string name="dialog_juveniles_details">Съгласно нашите Правила за поверителност минималната възраст за ползване на този продукт е 18 години.</string>
+    <string name="dialog_juveniles_link">Съгласно нашите &lt;font color=\"#FE6D67\">&lt;a href=%1$s>Правила за поверителност&lt;/a>&lt;/font> минималната възраст, на която трябва да бъде потребителят, за да може да ползва този продукт, е 18 години.</string>
     <string name="dialog_keep">Keep</string>
     <string name="dialog_known">Разбрах</string>
     <string name="dialog_menstruation_purpose">Добре дошли в Xiaomi Здраве! \"Менстуация\" ви позволява да документирате цикъла си, да изчислявате дата на предстоящ цикъл, и да получавате напомняния. Всякакви свързани данни ще се съхраняват локално на вашето устройство, което ще ви позволява лесно да управлявате тези данни.</string>
@@ -217,8 +225,8 @@ Xiaomi Здраве ще ви уведомява единствено за ва�
     <string name="dialog_open">Разреши</string>
     <string name="dialog_permission_loading_msg">Проверява се…</string>
     <string name="dialog_permission_title">Permissions required</string>
-    <string name="dialog_privacy_policy_statement">Изложение на политиката за поверителност</string>
-    <string name="dialog_privacy_title">Условия за ползване</string>
+    <string name="dialog_privacy_policy_statement">Изложение на Правилата за поверителност</string>
+    <string name="dialog_privacy_title">Правила и условия</string>
     <string name="dialog_read_phone_perm_desc">За разпознаване на функции на устройството, като се използва OAID или идентификатор на Android</string>
     <string name="dialog_reject">Restrict</string>
     <string name="dialog_request_network">Allow this app to connect to the internet.</string>
@@ -323,6 +331,8 @@ You can select a different data source in More > Data sources."</string>
     <string name="exit_running_tips_title">Finish workout</string>
     <string name="expand_all">Show all</string>
     <string name="expand_button_title">Разширени</string>
+    <string name="external_storage_permission_subtitle">For setting profile photos</string>
+    <string name="external_storage_permission_title">Access and save items to storage</string>
     <string name="fall_sleep_hard">Trouble falling asleep</string>
     <string name="falling_duration">Falling asleep</string>
     <string name="falling_duration_hard_description">"Falling asleep is the period between the start of your sleep and falling asleep completely. If it takes you longer than 30 minutes to fall asleep, this might be a sign of insomnia.
@@ -476,6 +486,8 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="load_failed">"Couldn't load items. Wait a minute or two and try again."</string>
     <string name="loading">Един момент…</string>
     <string name="location_perm_description">За следене на тренировки на открито и записване на маршрути</string>
+    <string name="location_permission_subtitle">For tracking outdoor workouts and recording routes</string>
+    <string name="location_permission_title">Access location</string>
     <string name="low">Ниско</string>
     <string name="low_intensity">Ниска</string>
     <string name="low_intensity_description">Regular respiratory rate that allows you to maintain conversation</string>
@@ -703,7 +715,7 @@ If it's still difficult for you to fall asleep after 30 minutes in bed, reduce t
     <string name="preference_update_default_title">Версия</string>
     <string name="preference_update_find_new_version">Проверка за обновления</string>
     <string name="preference_update_find_newer_version">Налично е обновление: %1$s</string>
-    <string name="privacy_policy">Политика на поверителност</string>
+    <string name="privacy_policy">Правила за поверителност</string>
     <string name="prompt_more_than_3h">Повече от 3 часа</string>
     <string name="prompt_sleep_time_night">Сън през нощта</string>
     <string name="prompt_sleep_time_noon">Дрямка през деня</string>
@@ -932,6 +944,9 @@ If this problem occurs frequently, check your device for scheduled shutdown task
     <string name="snore_record_audio_delete_title">Delete recording?</string>
     <string name="snore_section">Snoring %1$s</string>
     <string name="snore_write_description">For saving audio recordings to your device</string>
+    <string name="sport_data_use_subtitle">To track your workouts and fitness progress, we collect and process your information including workout routes, sleep data, heart rate, and weight.</string>
+    <string name="sport_data_use_tip">"Read and agree to our &lt;font color=\"#0D84FF\">&lt;a href=%1$s>Health and Activity Data Use Policy&lt;/a>&lt;/font> to better understand how we collect and process your information. You won't be able to use this service if you don't consent to our collection and processing."</string>
+    <string name="sport_data_use_title">Data permissions</string>
     <string name="sport_type">Workout type</string>
     <string name="standard_format">(standard: %1s)</string>
     <string name="state_agree">Приемам</string>
@@ -964,6 +979,7 @@ If this problem occurs frequently, check your device for scheduled shutdown task
     <string name="swim_type">Стил</string>
     <string name="swipe_right_to_end">Плъзнете надясно за прекратяване</string>
     <string name="swipe_up_to_end">Плъзнете нагоре за прекратяване</string>
+    <string name="system_permission">Permissions details</string>
     <string name="tb_mens_mark_success">Marked successfully</string>
     <string name="tb_mens_select_column">Cycle starts on%1$s.%2$s.%3$s.</string>
     <string name="tb_mens_unmark_success">Canceled successfully</string>

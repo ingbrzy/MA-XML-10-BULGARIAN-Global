@@ -27,10 +27,11 @@
     <string name="abc_shareactionprovider_share_with">Споделяне със:</string>
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
+    <string name="access_denied_info">Направихте твърде много опити. Изчакайте малко и опитайте отново.</string>
     <string name="account_bind_secure_email_title">Добавете имейл за възстановяване</string>
     <string name="account_bind_secure_phone_title">Добавете телефонен номер за възстановяване</string>
     <string name="account_crop_user_avatar">Изрязване на снимка</string>
-    <string name="account_empty_user_name">Въведете потр. има на Вашия Mi Профил</string>
+    <string name="account_empty_user_name">Въведете потребителското име на Mi Профила си</string>
     <string name="account_error_all_space_user_name">Потребителското име не може да съдържа само интервали</string>
     <string name="account_error_invalid_user_name">Името не може да съдържа &lt;, > или /</string>
     <string name="account_error_longer_user_name">Името не може да е по-дълго от 20 символа</string>
@@ -52,7 +53,7 @@
     <string name="account_user_details">Лична информация</string>
     <string name="account_user_email">Имейл за възстановяване</string>
     <string name="account_user_gender">Пол</string>
-    <string name="account_user_id">ИН на Mi Профил</string>
+    <string name="account_user_id">Номер на Mi Профил</string>
     <string name="account_user_name">Псевдоним</string>
     <string name="account_user_name_dialog_title">Въведете потребителско име</string>
     <string name="account_user_other_info">Детайли</string>
@@ -68,7 +69,7 @@
     <string name="am">AM</string>
     <string name="auth_fail_warning">Сесията изтече. Влезте отново.</string>
     <string name="bind_sign_in_title">Добавяне на Mi Профил</string>
-    <string name="change_activate_email">Промяна на имейл адреса</string>
+    <string name="change_activate_email">Промяна на имейл адрес</string>
     <string name="change_password">Промяна на паролата</string>
     <string name="choose_to_signin">Да</string>
     <string name="choose_to_signup">Не, ще си направя сега</string>
@@ -78,7 +79,8 @@
     <string name="confirm_activate_email">Потвърдено</string>
     <string name="confirm_bundled_phone_dialog_title">Потвърждаване на асоцииран тел. номер</string>
     <string name="confirm_new_pwd">Потвърдете новата парола</string>
-    <string name="confirm_unbundled_phone_dialog_message">Този телефонен номер е асоцииран с Mi Профил %2$s на %1$s. Ако продължите, той вече няма да бъде асоцииран с Mi Профил %3$s. Продължаване?</string>
+    <string name="confirm_unbundled_phone_dialog_message">Този телефонен номер беше свързан с Mi Профил %2$s на %1$s. Ако продължите, той вече няма да бъде свързан с Mi Профил %3$s. Продължаване?</string>
+    <string name="copy">Копиране</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -88,15 +90,19 @@
     <string name="diagnosis_log_sent_format">"Регистрите са изпратени успешно.
 ID:%s
 Изпратете този код на супервизора."</string>
+    <string name="doing_login">Вписване…</string>
+    <string name="doing_query_account">Проверка на информация за профил…</string>
+    <string name="doing_register">Създаване на профил…</string>
     <string name="early_morning">Сутрин</string>
     <string name="empty" />
     <string name="eras_ad">н.е.</string>
     <string name="eras_bc">пр.Хр.</string>
     <string name="error_dup_binded_email">Този имейл адрес вече е свързан с друг Mi Профил.</string>
-    <string name="error_invalid_bind_address">Въведеният от Вас имейл адрес е невалиден.</string>
+    <string name="error_invalid_bind_address">Въведеният от вас имейл адрес е невалиден.</string>
     <string name="evening">Следобед</string>
-    <string name="exceed_binded_phone_times_notice">Този телефонен номер вече е асоцииран с друг Mi Профил.</string>
-    <string name="failed_dup_secure_phone_number">Този телефонен номер вече е асоцииран с друг Mi Профил</string>
+    <string name="exceed_binded_phone_times_notice">Този телефонен номер вече е свързан с друг Mi Профил.</string>
+    <string name="expand_button_title">Разширени</string>
+    <string name="failed_dup_secure_phone_number">Този телефонен номер вече е свързан с друг Mi Профил</string>
     <string name="find_psw">Забравена парола</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -156,16 +162,23 @@ ID:%s
     <string name="friday_shortest">Пт.</string>
     <string name="get_back_pwd">Нулиране на паролата</string>
     <string name="get_ph_ticket">Получи код</string>
-    <string name="get_phone_bind_exceed_limit">Можете да асоциирате до 3 Mi Профила с един телефонен номер. Не може да се добавят нови профили.</string>
+    <string name="get_phone_bind_exceed_limit">Можете да свържете до 3 Mi Профила с един телефонен номер. Не можете да добавяте нови профили.</string>
     <string name="get_phone_verifycode_exceed_limit">На този телефонен номер са изпратени прекалено много кодове за потвърждаване. Опитайте отново след 24 часа.</string>
     <string name="goto_sign_up">Създайте профил</string>
+    <string name="i_know">Разбрах</string>
     <string name="identity">Идентифициране</string>
     <string name="inconsistent_pwd">Паролите не съвпадат</string>
-    <string name="input_email_address_notice">Ще използваме този имейл за потвърждаване на профила Ви</string>
+    <string name="input_email_address_notice">Ние ще използваме този имейл, за да потвърдим вашия профил</string>
+    <string name="input_length_exceeds_limit">Въведения текст е твърде дълъг</string>
     <string name="input_new_pwd">Въведете новата парола</string>
-    <string name="isornot_your_mi_account">Това вашият Mi профил ли е?</string>
+    <string name="isornot_your_mi_account">Това вашия Mi Профил ли е?</string>
     <string name="just_a_second">Момент…</string>
     <string name="loading">Момент…</string>
+    <string name="login_by_local_phone_long_text">Влезте сега</string>
+    <string name="login_by_local_phone_short_text">Вписване</string>
+    <string name="login_other">Друг Mi Профил</string>
+    <string name="login_register_by_local_phone_long_text">Създайте профил</string>
+    <string name="login_with_sns">Други начини за вписване</string>
     <string name="logout_account">Отписване</string>
     <string name="midnight">Нощ</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Размаркиране на всички</string>
@@ -231,12 +244,16 @@ ID:%s
     <string name="month_september_shortest">Септ.</string>
     <string name="more">Още</string>
     <string name="morning">Сутрин</string>
+    <string name="network_error_info">Възникна мрежова грешка. Проверете мрежовите си настройки и опитайте отново.</string>
+    <string name="network_timeout_info">Не може да се осъществи връзка с мрежата. Опитайте отново.</string>
     <string name="nick_name">Псевдоним</string>
     <string name="night">Вечер</string>
     <string name="no_account">Не сте вписани</string>
     <string name="no_phone">Няма телефонен номер</string>
     <string name="noon">Обед</string>
+    <string name="not_set">Не е зададено</string>
     <string name="ok">OК</string>
+    <string name="open_settings">Настройки</string>
     <string name="passport_access_denied">Достъпът е отказан</string>
     <string name="passport_account_label">Mi Профил</string>
     <string name="passport_account_name">"Профил: %1$s "</string>
@@ -244,6 +261,7 @@ ID:%s
     <string name="passport_area_code_title">Код на държава</string>
     <string name="passport_bad_authentication">Невалидно потребителско име или парола</string>
     <string name="passport_barcode_add_account_prompt">За да добавите профил, сканирайте отново QR кода, след като се впишете.</string>
+    <string name="passport_can_not_receive_verification_code">Не получавате кода за потвърждение?</string>
     <string name="passport_captcha_title">Полета</string>
     <string name="passport_checking_account">Проверка на паролата…</string>
     <string name="passport_close">Затвори</string>
@@ -253,9 +271,9 @@ ID:%s
     <string name="passport_empty_user_name">Полето с име на потребител не може да е празно</string>
     <string name="passport_error_auth_fail">Сесията е изтекла. Влезте отново.</string>
     <string name="passport_error_device_id">Не може да се получи ID на устройството</string>
-    <string name="passport_error_email">Въведеният от Вас имейл адрес е невалиден</string>
+    <string name="passport_error_email">Въведеният от вас имейл адрес е невалиден</string>
     <string name="passport_error_empty_captcha_code">Въведете кода за проверка</string>
-    <string name="passport_error_empty_email">Въведете Вашия имейл адрес</string>
+    <string name="passport_error_empty_email">Въведете вашия имейл адрес</string>
     <string name="passport_error_empty_phone_num">Въведете телефонен номер</string>
     <string name="passport_error_empty_pwd">Полето за парола не може да е празно</string>
     <string name="passport_error_empty_vcode">Въведете код за потвърждаване</string>
@@ -265,7 +283,7 @@ ID:%s
     <string name="passport_error_no_password_user">Все още не сте задали паролата. Впишете се с SMS.</string>
     <string name="passport_error_phone_error">Невалиден телефонен номер</string>
     <string name="passport_error_server">Грешка в сървъра</string>
-    <string name="passport_error_unknown">Непозната грешка</string>
+    <string name="passport_error_unknown">Неизвестна грешка</string>
     <string name="passport_error_user_agreement_error">Първо се съгласете с общите условия</string>
     <string name="passport_error_user_name">Въведеното от Вас потребителско име е невалидно</string>
     <string name="passport_forget_password"><u>Забравена парола</u></string>
@@ -312,8 +330,8 @@ ID:%s
     <string name="passport_unknow_error">Възникна неизвестна грешка</string>
     <string name="passport_unknow_host_network_error">Проверете мрежовите настройки и опитайте отново</string>
     <string name="passport_unknow_network_error">Възникна мрежова грешка</string>
-    <string name="passport_user_agreement_link">"&lt;Data>Прочетох и приемам's &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Политиката на поверителност&lt;/a> на Xiaomi.&lt;/Data>"</string>
-    <string name="passport_user_agreement_link_more">"&lt;Data>Прочетох и приемам следните документи:'s &lt;a href=%1$s>Потребителско споразумение&lt;/a> и &lt;a href=%4$s>Политика на поверителност&lt;/a>, &lt;a href=%2$s>%3$s&lt;/a> на Xiaomi.&lt;/Data>"</string>
+    <string name="passport_user_agreement_link">"&lt;Data>Прочетох и приемам's &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата на поверителност&lt;/a> на Xiaomi.&lt;/Data>"</string>
+    <string name="passport_user_agreement_link_more">"&lt;Data>Прочетох и приемам следните документи:'s &lt;a href=%1$s>Потребителско споразумение&lt;/a> и &lt;a href=%4$s>Правила на поверителност&lt;/a>, &lt;a href=%2$s>%3$s&lt;/a> на Xiaomi.&lt;/Data>"</string>
     <string name="passport_user_id_intro">Въведете парола за %1$s</string>
     <string name="passport_v_code_error">Кодът за потвърждение е невалиден</string>
     <string name="passport_vcode_notification_title">Потвърждаването на вписването Ви не е завършила</string>
@@ -326,14 +344,25 @@ ID:%s
     <string name="passport_wrong_phone_number_format">Форматът на въведения от Вас телефонен номер е невалиден</string>
     <string name="passport_wrong_vcode">Въведеният от Вас код е неправилен</string>
     <string name="passport_wrong_voice">Въведеният от Вас код е неправилен</string>
-    <string name="phone_bind_too_many">Този телефон бе свързан с няколко Mi профила за кратък период от време. Опитайте с използването на друг телефонен номер.</string>
+    <string name="phone_bind_too_many">Този телефон бе свързан с няколко Mi Профила за кратък период от време. Опитайте да използвате друг телефонен номер.</string>
     <string name="phone_hint">Телефонен номер</string>
     <string name="phone_num_use_for">Телефонният номер се използва за:</string>
     <string name="phone_number">Телефонен номер</string>
     <string name="photoPickerNotFoundText">Не са налични снимки.</string>
     <string name="pm">PM</string>
+    <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
+    <string name="progressbar_title">Проверява се за проблеми със сигурността…</string>
     <string name="psw_hint">Парола</string>
     <string name="psw_sign_in">Впишете се с парола</string>
+    <string name="register_by_local_phone_long_text">Създайте профил</string>
+    <string name="register_by_local_phone_short_text">Създайте профил</string>
+    <string name="request_agree">Разреши</string>
+    <string name="request_camera_permission_message">Ние ще защитаваме Вашите лични данни в съответствие с местното законодателство. Това приложение се нуждае от следните разрешения, за да функционира нормално:&lt;br>&lt;br>&lt;b>Достъп до камера (за задаване на профилна снимка)&lt;/b>&lt;br>&lt;br>Ако не приемете да дадете подобни разрешения няма да можете да използвате някои от функциите на това приложение; въпреки това ще разполагате с достъп до неговите основни функции. Винаги можете да ограничите разрешенията или да отмените упълномощението си в Настройки.</string>
+    <string name="request_cancel">Отказ</string>
+    <string name="request_error_invalid_token">Неуспешно потвърждаване</string>
+    <string name="request_error_network">Възникна мрежова грешка. Проверете мрежовите си настройки и опитайте отново.</string>
+    <string name="request_error_unknown">Възникна системна грешка. Върнете се назад и опитайте отново.</string>
+    <string name="request_gallery_permission_message">Разрешете достъп до Галерия:&lt;br />За настройване на профилни снимки</string>
     <string name="resend_active_email">Повторно изпращане</string>
     <string name="resend_email_reach_limit_message">Поискахте твръде много имейли за потвърждение. Уверете се, че имейлът за потвърждаване не е в спам кутията Ви.</string>
     <string name="resend_email_reach_limit_title">Твърде много опити</string>
@@ -354,14 +383,18 @@ ID:%s
     <string name="set_success">Промяната е успешна</string>
     <string name="sign_in">Вписване</string>
     <string name="sign_in_progress">Вписване…</string>
-    <string name="sign_in_title">Впишете се във вашия Mi Профил</string>
+    <string name="sign_in_title">Влезте с Mi Профила си</string>
+    <string name="skip_query_account">Пропускане</string>
     <string name="sms_send_success">Успешно изпратено</string>
     <string name="sns_access_token_expired_warning">Сесията е изтекла. Впишете се пак, за да свържете отново този профил.</string>
     <string name="sns_bind_limit">Твърде много опити. Опитайте други начини за вписване.</string>
     <string name="sns_sign_in">Други начини за вписване</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>
     <string name="sunday_shortest">Нед.</string>
+    <string name="system_error_info">Системата е заета. Изчакайте минута-две и опитайте отново.</string>
     <string name="temporary_not_available">Тази функция още не е налична</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишнина от прекратяването на военно положение</string>
     <string name="the_anti_aggression_day">Ден на борба с агресията</string>
@@ -417,13 +450,26 @@ ID:%s
     <string name="tuesday">Вторник</string>
     <string name="tuesday_short">Вт.</string>
     <string name="tuesday_shortest">Вт.</string>
-    <string name="update_email_address_dialog_message">Необходимо е да потвърдите самоличността си, преди да обновите имейла за възстановяване.</string>
+    <string name="unknown_error_info">Неизвестна грешка</string>
+    <string name="update_email_address_dialog_message">Преди да обновите имейла за възстановяване трябва да потвърдите самоличността си.</string>
     <string name="update_email_address_dialog_title">Обновяване на имейла за възстановяване</string>
     <string name="update_phone_notice">Променете настройките за сигурност</string>
     <string name="upload_error_log">Качване на регистъра</string>
+    <string name="user_agreement_hint_3rd_app">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> както и &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_mobile">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%5$s>Правилата и условията на услугите за верификация на China Mobile&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_with_telecom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%5$s>Правилата и условията на услугите за верификация на профил на eSurfing&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_with_unicom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%5$s>Правилата и условията на услугите за верификация на China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_default">&lt;Data>Прочетох и приех &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил.&lt;/Data></string>
+    <string name="user_agreement_hint_first_login">Ако използвате телефонния си номер за пръв път ние ще създадем профил автоматично.</string>
+    <string name="user_agreement_hint_with_mobile">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на China Mobile&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_with_telecom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на профил на eSurfing&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_with_unicom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на China Unicom&lt;/a>.&lt;/Data></string>
     <string name="user_avatar_update_title">Промяна на профилната снимка</string>
     <string name="user_avatar_uploading">Момент…</string>
-    <string name="user_id_hint">Имейл/Телефон/ИН на Mi профил</string>
+    <string name="user_id_hint">Имейл/Телефон/Номер на Mi Профил</string>
+    <string name="user_name_phone_number">Телефонен номер</string>
+    <string name="v7_preference_off">ИЗКЛ.</string>
+    <string name="v7_preference_on">ВКЛ.</string>
     <string name="v_code_title">Въведете код за проверка</string>
     <string name="wednesday">Сряда</string>
     <string name="wednesday_short">Ср.</string>

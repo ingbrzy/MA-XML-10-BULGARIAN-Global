@@ -128,6 +128,10 @@
         <item quantity="other">Открити са %d записа</item>
         <item quantity="one">Открит е %d запис</item>
     </plurals>
+    <plurals name="text_btn_list_with_message">
+        <item quantity="other">%d нови записа</item>
+        <item quantity="one">%d нов запис</item>
+    </plurals>
     <plurals name="time_left_for_clear_file">
         <item quantity="other">Остават %d дни</item>
         <item quantity="one">Остава %d ден</item>

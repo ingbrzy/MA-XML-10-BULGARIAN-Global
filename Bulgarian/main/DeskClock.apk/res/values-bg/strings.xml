@@ -67,6 +67,7 @@
     <string name="alert_vibrate_enable_summary">Вибриране при включване на алармата</string>
     <string name="alert_volume">Сила на звука на мелодията</string>
     <string name="alert_volume_summary">Задайте сила на звука на мелодията за аларми и таймери</string>
+    <string name="alert_xiaoai_ringtone_desc">Mi AI говори…</string>
     <string name="already_exist">Този таймер вече съществува</string>
     <string name="am">AM</string>
     <string name="analog_gadget">Аналогов часовник</string>
@@ -110,6 +111,7 @@
     <string name="channel_name_timer">Таймер</string>
     <string name="check_theme_app_install">Уверете се, че приложението Теми е инсталирано на вашето устройство.</string>
     <string name="check_voice_assist_app_version">Актуализирайте Mi AI до последната версия.</string>
+    <string name="cities_show_limit_desc">Не могат да бъдат показвани повече часовници</string>
     <string name="city_time_contrast_desc">Натиснете, за да сравните часа в различни градове</string>
     <string name="clearable_edittext_clear_description">Изчисти</string>
     <string name="clock_bg_button_setting_summary_common">Изберете фонов цвят за приложението Часовник</string>
@@ -356,7 +358,7 @@
     <string name="module_white_noise_download_data">Часовник трябва да изтегли аудиофайлове за таймери за шум на околната среда. За това изтегляне ще са нужни ≈30 MB от Вашите мобилни данни. Изтегляне сега?</string>
     <string name="module_white_noise_download_data_privacy">&lt;Data>За да изтегляте аудиофайлове за таймери за шум на околната среда (≈30 MB) и за да Ви предоставим персонализирани услуги, Часовник трябва да се свърже с интернет. Преди да използвате Часовник, трябва също да прочетете и да се съгласите с нашето &lt;a href=\"%1$s\">Потребителско споразумениеt&lt;/a> и &lt;a href=\"%2$s\">Политика за поверителност&lt;/a>. В момента използвате мобилни данни. Съгласни ли сте?&lt;/Data></string>
     <string name="module_white_noise_download_wifi">Часовник трябва да изтегли аудиофайлове за таймери за шум на околната среда. Изтегляне сега?</string>
-    <string name="module_white_noise_download_wifi_privacy">&lt;Data>За да изтегляте аудио файлове за таймери за шум на околната среда и за да Ви предоставим персонализирани услуги, Часовник трябва да се свърже с интернет. Преди да използвате Часовник, трябва също да прочетете и да се съгласите с нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%2$s\">Политика за поверителност&lt;/a>. Съгласни ли сте?&lt;/Data></string>
+    <string name="module_white_noise_download_wifi_privacy">&lt;Data>За да изтегляте аудио файлове за таймери за шум на околната среда и за да Ви предоставим персонализирани услуги, Часовник трябва да се свърже с интернет. Преди да използвате Часовник, трябва също да прочетете и да се съгласите с нашето &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%2$s\">Правила за поверителност&lt;/a>. Съгласни ли сте?&lt;/Data></string>
     <string name="monday">Понеделник</string>
     <string name="monday_short">Пон.</string>
     <string name="monday_shortest">Пон.</string>
@@ -423,20 +425,20 @@
     <string name="other_settings">Разширени настройки</string>
     <string name="pause">Пауза</string>
     <string name="percentage_sign">%</string>
-    <string name="permission_desc">Permissions details</string>
-    <string name="permission_granted">Granted</string>
-    <string name="permission_rejected">Not granted</string>
-    <string name="permission_related">Permissions</string>
+    <string name="permission_desc">Подробности за разрешения</string>
+    <string name="permission_granted">Позволено</string>
+    <string name="permission_rejected">Не е позволено</string>
+    <string name="permission_related">Разрешения</string>
     <string name="personal_recommend">Персонализирани препоръки за съдържание</string>
     <string name="pm">PM</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
-    <string name="privacy_policy">Политика на поверителност</string>
-    <string name="privacy_policy_title">Политика на поверителност</string>
-    <string name="privacy_settings_title">Privacy</string>
-    <string name="query_privacy_policy">View Privacy Policy</string>
+    <string name="privacy_policy">Правила за поверителност</string>
+    <string name="privacy_policy_title">Правила за поверителност</string>
+    <string name="privacy_settings_title">Поверителност</string>
+    <string name="query_privacy_policy">Преглед на Правилата за поверителност</string>
     <string name="reach_upper_limit">Не можете да добавяте повече таймери</string>
-    <string name="read_external_storage_permission_desc">For setting custom ringtones</string>
-    <string name="read_internal_storage">Access storage</string>
+    <string name="read_external_storage_permission_desc">За настройване на персонализирани мелодии</string>
+    <string name="read_internal_storage">Достъп до паметта</string>
     <string name="remind_ringtone">Мелодия</string>
     <string name="repeat_count">Пъти</string>
     <string name="repeat_count_value_five">5</string>
@@ -444,6 +446,7 @@
     <string name="repeat_count_value_ten">10</string>
     <string name="repeat_count_value_three">3</string>
     <string name="repeat_count_value_two">2</string>
+    <string name="repeat_type">Повторение</string>
     <string name="reset">Нулиране</string>
     <string name="revert">Върни се обратно</string>
     <string name="ringtone_all">Всички мелодии</string>
@@ -463,7 +466,9 @@
     <string name="search_stopwatch_keywords">Хронометър</string>
     <string name="search_timer_keywords">Таймер</string>
     <string name="search_worldclock_keywords">Време;Световен часовник;Часовник</string>
+    <string name="select_all">Маркирай всички</string>
     <string name="select_operation">Избор</string>
+    <string name="selected">Избрани</string>
     <string name="send">Изпращане</string>
     <string name="set_alarm">Изберете час</string>
     <string name="set_alarm_choose_ringtone">Изберете мелодия</string>
@@ -486,6 +491,7 @@
     <string name="shutdown_alarm_enable_summary">Алармата ще се включи, ако е настроена да се пусне най-малко 10 минути след изключване на устройството Ви</string>
     <string name="shutdown_alarm_title">Включване на телефона</string>
     <string name="silent_alarm_summary">Без звук</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Изключи еднократно на %s</string>
     <string name="sleep_analysis">Статистика</string>
     <string name="sleep_analysis_chart_date_format">dd/MM</string>
@@ -529,6 +535,7 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Няма обиколки</string>
     <string name="stopwatch_reset_notification">Хронометъра беше нулиран</string>
     <string name="stopwatch_running_notification">Хронометър</string>
@@ -537,6 +544,7 @@
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>
     <string name="sunday_shortest">Нед.</string>
+    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Разрешете на това приложение достъп до интернет, за да използвате всичките му функции.</string>
     <string name="system_permission_main_purpose">Преглед да часа, настройване на аларми и таймери, използване на секундомер</string>
     <string name="system_permission_purpose">Създаване на аларми за работните дни от седмицата и задаване на персонализирани мелодии</string>
@@ -643,6 +651,11 @@
     <string name="tuesday_shortest">Вт.</string>
     <string name="turn_off_a_repeat_alarm">Изключи повтарянето на будилника</string>
     <string name="turn_off_this_repeat_alarm">Изключи повтарянето на този будилник</string>
+    <string name="tv_blank_list_other_text">Тук няма нищо</string>
+    <string name="tv_blank_list_show_text">Тук все още няма нищо. Потърсете локация, за да я добавите в световния часовник.</string>
+    <string name="tv_world_clock_edit_title1">Локации представени на Началния екран</string>
+    <string name="tv_world_clock_edit_title2">Други запазени локации</string>
+    <string name="unselect_all">Отмаркирай всички</string>
     <string name="upcoming_alarm">Предстояща аларма: %s</string>
     <string name="upcoming_alarm_hint">Сега можете да изключите тази аларма.</string>
     <string name="update_health_app">Обновете Xiaomi Здраве</string>
@@ -670,8 +683,10 @@
     <string name="wednesday_short">Ср.</string>
     <string name="wednesday_shortest">Ср.</string>
     <string name="week_ringtone_recommend_desc">Природната аларма възпроизвежда различни звуци в зависимост от датата. Желаете ли да ги настроите като аларма по подразбиране?</string>
+    <string name="white_noise">Околен шум</string>
     <string name="white_noise_selector">Избери аудио</string>
     <string name="workday_alarm_clock">През делничните дни</string>
+    <string name="worldclock_edit_label">Световен часовник</string>
     <string name="worldclock_empty_text">Няма часовници</string>
     <string name="worldclock_input_hint_text">Търсене на държава или град</string>
     <string name="worldclock_local_time">Местно време</string>
@@ -689,5 +704,6 @@
     <string name="worldcolock_timezone_date">dd MMM</string>
     <string name="worldcolock_timezone_gap">%s Час</string>
     <string name="worldcolock_timezone_local">Същото като местното време</string>
+    <string name="xiaoai_ringtone_title">Mi AI мелодии</string>
     <string name="yesterday">Вчера</string>
 </resources>

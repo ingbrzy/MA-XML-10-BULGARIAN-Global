@@ -206,6 +206,13 @@
     <string name="copy">Копиране</string>
     <string name="current_preview">Преглед</string>
     <string name="current_wallpaper">Текущ</string>
+    <string name="custom_define_permission_desc_android.permission.CALL_PHONE">За провеждане на повиквания до спешни контакти в Лайт режим</string>
+    <string name="custom_define_permission_desc_android.permission.READ_CONTACTS">За показване на спешни контакти в Лайт режим</string>
+    <string name="custom_define_permission_desc_android.permission.READ_PHONE_STATE">За показване на състояние на устройството</string>
+    <string name="custom_define_permission_desc_android.permission_group.CALENDAR">За показване на приспособления на Календара</string>
+    <string name="custom_define_permission_desc_android.permission_group.CAMERA">За показване на приспособления на Галерията</string>
+    <string name="custom_define_permission_desc_android.permission_group.LOCATION">For accessing WLAN widget name in Android Q</string>
+    <string name="custom_define_permission_desc_android.permission_group.STORAGE">За получаване на достъп и запазване на данни на Началния екран</string>
     <string name="custom_wallpaper_picker">Преглеждане</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -386,7 +393,7 @@
     <string name="group_shortcuts">Преки пътища</string>
     <string name="guide_install_app_msg">Приложението не е инсталирано. Искате ли да го потърсите в Google Play?</string>
     <string name="guide_install_app_title">Инсталиране на приложение</string>
-    <string name="guide_tips_editing_mode">Натиснете &amp; задръжте за да преместите джаджата</string>
+    <string name="guide_tips_editing_mode">Натиснете и задръжте, за да вземете приспособление</string>
     <string name="home_gesture_content_center">Център за съдържание</string>
     <string name="home_gesture_global_search">Търсене</string>
     <string name="home_gesture_no_action">Няма действие</string>
@@ -429,7 +436,7 @@
     <string name="lock_screen_wallpaper">Тапет на заключен екран</string>
     <string name="maml_download_dialog_cancel_text">Изчакване за Wi-Fi</string>
     <string name="maml_download_dialog_cancel_text_china">Изчакване за WLAN</string>
-    <string name="maml_download_dialog_checkbox_text">Не показвай отново</string>
+    <string name="maml_download_dialog_checkbox_text">Не показвай отново за %d минути</string>
     <string name="maml_download_dialog_confirm_text">Изтегляне</string>
     <string name="maml_download_dialog_message">За изтеглянето на този елемент ще бъдат използвани %s MB. Желаете ли да изтеглите въпреки това?</string>
     <string name="maml_download_dialog_title">Предупреждение за употреба на данни</string>
@@ -581,7 +588,7 @@
     <string name="online_wallpaper">Онлайн</string>
     <string name="open_personal_assistant_dialog_btn_cancel">Отмени</string>
     <string name="open_personal_assistant_dialog_btn_confirm">Изключи</string>
-    <string name="open_personal_assistant_dialog_desc">Няма да можете да използвате Трезор за приложения и да получавате негови обновления. Желаете ли да го изключите сега?</string>
+    <string name="open_personal_assistant_dialog_desc">След като изключите Трезор за приложения няма да можете да виждате или използвате приспособленията от Трезора за приложения. Техните обновените версии няма да бъдат налични за Вас. Желаете ли да го изключите въпреки това?</string>
     <string name="open_personal_assistant_dialog_desc_international">След като изключите тази функция няма да можете да използвате Трезор за приложения (акции, преки пътища и др.) и да получавате обновления.</string>
     <string name="open_personal_assistant_dialog_title">Изключване на Трезор за приложения</string>
     <string name="open_personal_assistant_settings">Настройки за Трезор за приложения</string>
@@ -724,6 +731,7 @@
     <string name="sort_by_not_defined">Не сортирай</string>
     <string name="start_activity_failed">Приложението не успя да стартира.</string>
     <string name="starting_preset_app">Стартиране…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%1$s от %2$s са достъпни</string>
     <string name="status_bar_recent_memory_info2" />

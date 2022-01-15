@@ -141,6 +141,8 @@
     <string name="created_successfully">Успешно създадено</string>
     <string name="crowned_hornbill">Crowned hornbill</string>
     <string name="cu_confirm">Задай</string>
+    <string name="customize_radio_btn_summary">Предпочитане на избраната скорост на опресняване</string>
+    <string name="customize_radio_btn_title">По избор</string>
     <string name="dall_sheep">Dall sheep</string>
     <string name="dart_frog_info">Its bright blue skin and poisonous glands are defense mechanisms to potential predators.</string>
     <string name="date_picker_label_day" />
@@ -150,7 +152,11 @@
     <string name="date_time_picker_dialog_title">Задаване на дата и час</string>
     <string name="dc_light_hint_enable_title">Внимание</string>
     <string name="dc_light_hint_normal">DC затъмняване може да афектира визуализацията на някои елементи.</string>
+    <string name="dc_light_hint_normal_anit">Режим анти-трептене може да афектира начина, по който изглеждат някои елементи.</string>
+    <string name="dc_light_hint_normal_other">Режим анти-трептене може да афектира скоростта на опресняване и начина, по който изглеждат някои елементи.</string>
     <string name="dc_light_hint_other">DC затъмнение може да афектира скоростта на опресняване и визуализацията на някои елементи.</string>
+    <string name="dc_light_hint_unnormal_low">Режим слабо осветление анти-трептене може да афектира начина, по който изглеждат някои елементи.</string>
+    <string name="dc_light_hint_unnormal_other">Режим слабо осветление анти-трептене може да афектира скоростта на опресняване и начина, по който изглеждат някои елементи.</string>
     <string name="dc_lignt_enable_hint">Режима анти-трептене ще настрои скоростта на опресняване на екрана на 60 Hz. Желаете ли да преминете към Режим анти-трептене?</string>
     <string name="delete_first_to_add_animal">To add a new item, delete one first.</string>
     <string name="desktop_widget_authorization">Натиснете, за да дадете разрешения, за да можете да преглеждате статистиката</string>
@@ -288,13 +294,19 @@
     <string name="focus_mode_timer_pick_dialog_title">Въведете интервал</string>
     <string name="focus_time_exception_tip">Изглежда системното време се е сменило. Режим Фокус е изключен.</string>
     <string name="follow_sim1">Прилагане на настройки на SIM 1</string>
+    <string name="fps_high">Висока</string>
     <string name="fps_nature_summary">Максималната скорост на опресняване поддържа всичко кристално ясно</string>
     <string name="fps_nature_title">Максимално</string>
+    <string name="fps_normal">Стандартна</string>
+    <string name="fps_radio_btn_title">Скорост на опресняване</string>
+    <string name="fps_save_battery_tips">Активирана е Икономия на батерия. Скоростта на опресняване е настроена на %d Hz.</string>
     <string name="fps_smooth_summary">Високата скорост на опресняване добавя повече яснота към детайлите</string>
     <string name="fps_smooth_title">Високо</string>
     <string name="fps_standard_summary">Стандартната скорост на опресняване спестява батерия</string>
     <string name="fps_standard_title">Стандартно</string>
     <string name="fps_user_tip">- Тези демо анимации се възпроизвеждат със слаба скорост на обновяване, за справка. Истинското изпълнение може да изглежда различно, в зависимост от различни фактори.</string>
+    <string name="fps_user_tip_footer">"%1$d. За да можете да различавате между ниска и висока скорост на опресняване, тук ви показваме демо със забавена скорост. По време на стандартна употреба е възможно по-трудно да откриете разликата.
+%2$d. В някои случаи е възможно скоростта на опресняване да бъде регулирана динамично в зависимост от това какви елементи биват показвани."</string>
     <string name="friday">Петък</string>
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
@@ -320,11 +332,14 @@
     <string name="healthy_use_phone">Управление на екранното време</string>
     <string name="helmeted_guineafowl">Guineafowl</string>
     <string name="high_fps_description">Висока скорост на опресняване на екрана. Засилена употреба на енергия.</string>
+    <string name="high_fps_tip_footer">Употребата на по-висока скорост на опресняване повишава качеството на визуалното преживяване, но и консумира повече енергия.</string>
     <string name="hippopotamus">Hippo</string>
     <string name="hsv_space_color">HSV цветово пространство</string>
     <string name="hsv_space_color_hue">Оттенък</string>
     <string name="hsv_space_color_saturation">Наситеност</string>
     <string name="hsv_space_color_value">Стойност</string>
+    <string name="intelligent_radio_btn_summary">Регулирайте динамично скоростта на опресняване в зависимост от различните начини за балансиране на производителността с консумация на енергия</string>
+    <string name="intelligent_radio_btn_title">Автоматично (препоръчително)</string>
     <string name="intelligent_recognition_item_summary">Използвайте индивидуален тон на звънене за обаждания от таксиметрови услуги и доставчици. Тази функция ще работи, когато %s е зададен като тон по подразбиране.</string>
     <string name="intelligent_recognition_item_title">Идентифициране на услуги</string>
     <string name="item_anura">Anura</string>
@@ -365,6 +380,8 @@
     <string name="lion_info">Лъвовете са свирепи и мощни хищници. Те често живеят на групи и притежават силно развито чувство за териториалност.</string>
     <string name="lock_summary">Защитете личната си информация</string>
     <string name="long_tai1ed_iaeger">Long-tailed jaeger</string>
+    <string name="low_flicker_mode">Слабо осветление</string>
+    <string name="low_flicker_mode_summary">Предотвратете премигане при слабо осветление, за да намалите напрежението на очите</string>
     <string name="low_fps_description">Ниска скорост на опресняване на екрана. Занижена употреба на енергия.</string>
     <string name="low_light_preview">Преглед при ниско осветление</string>
     <string name="lynx">Lynx</string>
@@ -374,6 +391,7 @@
     <string name="masked_palm_civet">Masked palm civet</string>
     <string name="medium_tree_finch">Medium tree finch</string>
     <string name="midnight">Нощ</string>
+    <string name="miuix_access_state_desc">Избрани</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Размаркиране на всички</string>
     <string name="miuix_appcompat_action_mode_select_all">Избиране на всички</string>
     <string name="miuix_appcompat_action_mode_title_empty">Изберете елементи</string>
@@ -466,6 +484,7 @@
     <string name="noon">Обед</string>
     <string name="normal_mode">Нормален</string>
     <string name="normal_mode_summary">Намалете трептенето в условия с ниско осветление</string>
+    <string name="normal_mode_summary_new">Разрешете премигане при слабо осветление</string>
     <string name="north_white_rhinoceros">Бял носорог</string>
     <string name="norway_lemmings">Norway lemmings</string>
     <string name="norway_lemmings_info">The Norway lemming dwells in tundra and fells, and prefers to live near water.</string>
@@ -545,7 +564,7 @@
     <string name="several_days_use_time">Екранно време: %2$s</string>
     <string name="short_eared_owl">Short-eared owl</string>
     <string name="shortcut_created">Този пряк път вече съществува</string>
-    <string name="silent_ringtone_hint">Аудиото е заглушено в момента. Усилете звука и опитайте отново.</string>
+    <string name="silent_ringtone_hint">Първо изключете Тихия режим</string>
     <string name="silver_pheasant">Silver pheasant</string>
     <string name="sim_slot_1">" (SIM 1)"</string>
     <string name="sim_slot_2">" (SIM 2)"</string>
@@ -557,6 +576,8 @@
     <string name="snowy_owl">Snowy owl</string>
     <string name="southern_elephant_seal">Southern elephant seal</string>
     <string name="southern_ground_hornbill">Ground hornbill</string>
+    <string name="split_page_authorization">Добре дошли в Екранно време! Тук можете да настроите лимити за екранното време и да прегледате статистиката. Натиснете \"Начало\", за да включите тази функция.</string>
+    <string name="split_page_start">Начало</string>
     <string name="spotted_hyaena">Петниста хиена</string>
     <string name="spotted_hyaena_info">Хиените са нощни хищници с най-сложните социални навици.</string>
     <string name="spur_winged_plover">Spur-winged lapwing</string>
@@ -673,12 +694,15 @@
     <string name="usage_app_over_content">Днес вече сте използвали това приложение в продължение на %s.</string>
     <string name="usage_app_over_summary">Достигнахте лимита си. Времето изтече!</string>
     <string name="usage_app_set_limit_time">Задайте лимит</string>
+    <string name="usage_app_stop_desc">All Screen time data and permissions, including individual settings, as well as the related items stored locally, will be deleted after you turn this feature off.​</string>
     <string name="usage_app_system_app_summary">Не може да се ограничава екранното време за системни приложения.</string>
     <string name="usage_app_weekday_limit">Делнични дни</string>
     <string name="usage_app_weekend_limit">Почивни дни</string>
     <string name="usage_beat_fans">По-добре от %s Mi Фенове</string>
     <string name="usage_continuous_days">Период</string>
     <string name="usage_creating_weekly_report">Създаване на седмичен отчет…</string>
+    <string name="usage_cta_desc">"Welcome to Settings! To provide Screen time and Focus mode stats to you, this app needs to collect the following data: the number of times you unlock the device, the list of your apps along with the corresponding usage duration, the number of times your screen lights up, and Focus mode settings. The collected data will only be stored locally on this device.
+"</string>
     <string name="usage_current_week_usage">Средно %s през последните 7 дни</string>
     <string name="usage_device_limit_app_prolong">Добави време</string>
     <string name="usage_device_limit_app_prolong_time1">Добави 20 минути</string>
@@ -811,7 +835,7 @@
     <string name="usage_state_focus_level1">Изгряваща звезда</string>
     <string name="usage_state_focus_level_summary">Текущо ниво: %s</string>
     <string name="usage_state_focus_mode_experience_warning_message">Режим Фокус позволява единствено използването на камерата и извършването на спешни обаждания. Няма да можете да изключите режим Фокус преждевременно.</string>
-    <string name="usage_state_focus_mode_experience_warning_message_pad">"Focus mode only allows using Camera. You won't be able to turn off Focus mode prematurely."</string>
+    <string name="usage_state_focus_mode_experience_warning_message_pad">Режим Фокус позволява единствено използването на камерата. Няма да можете да изключите режим Фокус преждевременно.</string>
     <string name="usage_state_focus_mode_experience_warning_message_sim_pad">"Focus mode only allows using Camera and making emergency calls. You won't be able to turn off Focus mode prematurely."</string>
     <string name="usage_state_focus_mode_summary">Ограничете всички функции освен спешните обаждания и камерата</string>
     <string name="usage_state_focus_mode_summary1">Добро начало, наполовина е готово</string>
@@ -819,14 +843,14 @@
     <string name="usage_state_focus_mode_summary3">Отнема време човек да остане фокусиран</string>
     <string name="usage_state_focus_mode_title">Режим Фокус</string>
     <string name="usage_state_focus_mode_warning_message">Режим Фокус позволява единствено използването на камерата и извършването на спешни обаждания. Няма да можете да изключите режим Фокус преждевременно.</string>
-    <string name="usage_state_focus_mode_warning_message_pad">"Focus mode only allows using Camera. You won't be able to turn off Focus mode prematurely."</string>
+    <string name="usage_state_focus_mode_warning_message_pad">Режим Фокус позволява единствено използването на камерата. Няма да можете да изключите режим Фокус преждевременно.</string>
     <string name="usage_state_focus_mode_warning_message_sim_pad">"Focus mode only allows using Camera and making emergency calls. You won't be able to turn off Focus mode prematurely."</string>
     <string name="usage_state_focus_mode_warning_title">Внимание</string>
     <string name="usage_state_focus_success">Предизвикателството е изпълнено</string>
     <string name="usage_state_focus_take_photo">Камера</string>
     <string name="usage_state_focus_warning_text">Фокусирайте върху нещо важно</string>
     <string name="usage_state_focus_weak_summary">Оставете телефона си настрана</string>
-    <string name="usage_state_focus_weak_summary_pad">Put your device away</string>
+    <string name="usage_state_focus_weak_summary_pad">Оставете устройството си настрана</string>
     <string name="usage_state_friday">пет.</string>
     <string name="usage_state_go_more">Още приложения</string>
     <string name="usage_state_holiday_day_hour_minute">Почивни дни: %1$s %2$s</string>

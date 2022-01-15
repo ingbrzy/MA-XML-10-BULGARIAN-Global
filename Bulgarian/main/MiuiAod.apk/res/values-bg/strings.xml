@@ -236,8 +236,8 @@ dd/MM"</string>
     <string name="night">Вечер</string>
     <string name="noon">Обед</string>
     <string name="not_set">Не е зададено</string>
-    <string name="notification_anim_pulse">Пулсиране</string>
-    <string name="notification_anim_rhythm">Ритъм</string>
+    <string name="notification_anim_pulse">Пулсиране (Червено)</string>
+    <string name="notification_anim_rhythm">Пулсиране (Синьо)</string>
     <string name="notification_anim_star">Звездна светлина</string>
     <string name="notification_nothing">Без ефект</string>
     <string name="notification_screen_on">Светване на екрана</string>
@@ -283,6 +283,7 @@ dd/MM"</string>
 прекрасно предстои"</string>
     <string name="standard_clock_panel">Стандартен</string>
     <string name="standard_style">Стандартен</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">Брояча на стъпки е предоставен от Xiaomi Здраве. За да можете да продължите, приемете правилата и условията за ползване на Xiaomi Здраве.</string>
     <string name="step_component_info_desc">Брояча на стъпки ще се превърне в трофей при достигане на целта. Брояча на стъпки е предоставен от Xiaomi Здраве.</string>
     <string name="step_component_info_tip">Брояча на стъпки е предоставен от Xiaomi Здраве. За да можете да продължите, инсталирайте или обновете Xiaomi Здраве и приемете правилата и условията за ползване.</string>
@@ -293,6 +294,7 @@ dd/MM"</string>
     <string name="sunday_short">Нед.</string>
     <string name="sunday_shortest">Нед.</string>
     <string name="temporary_style">В продължение на 10 секунди след докосване</string>
+    <string name="temporary_style_5">За 5 секунди след натискане</string>
     <string name="temporary_style_summary">Препоръчано</string>
     <string name="text_color">Цвят на текста</string>
     <string name="text_length_exceed_limit_alert">*Въведеният от Вас текст е твърде дълъг</string>

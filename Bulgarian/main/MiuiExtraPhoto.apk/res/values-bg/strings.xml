@@ -81,6 +81,5 @@
     <string name="refocus_type_relighting_small_face">Студийното осветление работи на снимки, където лицата са с повече място, отколкото тук.</string>
     <string name="refocus_type_static">Замъгляване</string>
     <string name="refocus_type_video">Светлинен лъч</string>
-    <string name="save">Запази</string>
     <string name="status_bar_notification_info_overflow">999+</string>
 </resources>

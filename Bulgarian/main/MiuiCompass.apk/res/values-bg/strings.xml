@@ -51,6 +51,7 @@
     <string name="calibrate_success">Калибрирането е изпълнено</string>
     <string name="calibrate_tip">Наклонете устройството, за да позиционирате топката в кръга</string>
     <string name="calibrate_title">Калибриране на компаса</string>
+    <string name="calibrating">Калибриране на компаса</string>
     <string name="cancel">Отказ</string>
     <string name="cannot_get_location">--</string>
     <string name="clearable_edittext_clear_description">Изчисти</string>
@@ -154,7 +155,7 @@
     <string name="location_north">С.Ш.</string>
     <string name="location_not_enabled_summary">Приложението Компас се нуждае от достъп до вашето местоположение за да показва координати и други принадлежности.</string>
     <string name="location_not_enabled_summary_no_pressure_sensor">Компаса се нуждае от достъп до местоположението ви, за да показва текущите ви координати.</string>
-    <string name="location_not_enabled_title">Активиране на позиционирането</string>
+    <string name="location_not_enabled_title">Услуги за местоположение</string>
     <string name="location_south">Ю.Ш.</string>
     <string name="location_west">З.Д.</string>
     <string name="longitude">Дължина</string>
@@ -225,6 +226,7 @@
     <string name="month_september_shortest">Септ.</string>
     <string name="more">Още</string>
     <string name="morning">Сутрин</string>
+    <string name="new_cta_app_purpose">преглед на посоки и координати</string>
     <string name="new_cta_v2_app_purpose">Показване на посоки, координати, атмосферно налягане и надморска височина в момента</string>
     <string name="new_permission_camera_desc">За калибрация</string>
     <string name="new_permission_location_desc">За показване на координати</string>
@@ -235,7 +237,8 @@
     <string name="open_camera">Използване на камерата</string>
     <string name="open_perm_msg">Приложението Компас се нуждае от достъп до информация за Вашето местоположение и камера, за да определи координати и да предостави преглед наживо. Разреши?</string>
     <string name="open_perm_msg_no_camera">Компас се нуждае от достъп до информация за местоположението, за да може да определи координатите. Разрешавате ли?</string>
-    <string name="open_perm_title">Необходими разрешения</string>
+    <string name="open_perm_title">Необходими са разрешения</string>
+    <string name="pageIndicator">%1$s. %2$s.</string>
     <string name="permission_camera_desc">За показване на азимута в преглед наживо</string>
     <string name="permission_description">Подробности за разрешения</string>
     <string name="permission_location_desc">За показване на координати</string>
@@ -244,7 +247,7 @@
     <string name="preference_other">Друг</string>
     <string name="preference_privacy_policy">Преглед на Правилата за поверителност</string>
     <string name="preference_privacy_setting">Поверителност</string>
-    <string name="preference_privacy_title">Правилата за поверителност</string>
+    <string name="preference_privacy_title">Правила за поверителност</string>
     <string name="pressure">%.1f</string>
     <string name="pressure_title">Налягане</string>
     <string name="pressure_unit">hPa</string>
