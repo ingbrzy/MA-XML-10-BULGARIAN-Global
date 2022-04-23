@@ -498,7 +498,6 @@
     <string name="shutdown_alarm_enable_summary">Алармата ще се включи, ако е настроена да се пусне най-малко 10 минути след изключване на устройството Ви</string>
     <string name="shutdown_alarm_title">Включване на телефона</string>
     <string name="silent_alarm_summary">Без звук</string>
-    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Изключи еднократно на %s</string>
     <string name="sleep_analysis">Статистика</string>
     <string name="sleep_analysis_chart_date_format">dd.MM</string>
@@ -544,7 +543,6 @@
     <string name="status_bar_clock_date_time_format">H:mm:ss</string>
     <string name="status_bar_clock_date_time_format_12">h:mm:ss aa</string>
     <string name="status_bar_clock_date_time_format_seconds_12">h:mm:ss</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_lap_empty_text">Няма обиколки</string>
     <string name="stopwatch_reset_notification">Хронометъра беше нулиран</string>
     <string name="stopwatch_running_notification">Хронометър</string>
@@ -553,7 +551,6 @@
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>
     <string name="sunday_shortest">Нед.</string>
-    <string name="symbol_colon">:</string>
     <string name="system_permission_agree_desc">Разрешете на това приложение достъп до интернет, за да използвате всичките му функции.</string>
     <string name="system_permission_main_purpose">Преглед да часа, настройване на аларми и таймери, използване на секундомер</string>
     <string name="system_permission_purpose">Създаване на аларми за работните дни от седмицата и задаване на персонализирани мелодии</string>

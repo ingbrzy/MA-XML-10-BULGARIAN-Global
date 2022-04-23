@@ -143,8 +143,6 @@
     <string name="feedback_custom_hint">Опишете проблемите, които сте изпитали тук. Ако давате предложение, бихме оценили повече детайли!</string>
     <string name="find_device">\"Открий устройството\" е включено</string>
     <string name="find_device_dspt_provision">Ако загубите устройството си, можете да отидете на &lt;font color=#0097FF>%s&lt;/font>, за да го локализирате, заключите или нулирате. Можете винаги да включите или изключите тази функция от Настройки.</string>
-    <string name="find_device_dspt_provision_2">i.mi.com</string>
-    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_gdpr_prompt">Включвайки Открий устройството Вие приемате нашите <a href="app://com.miui.cloudservice.gdpr.license"><u>Правила за поверителност</u></a>. Ако желаете да оттеглите съгласието си, изключете тази функция.</string>
     <string name="find_device_operation_failure_rpc">Невъзможно е да се изпълни операцията поради грешка в RPC.</string>
     <string name="find_device_permissions_footer">Натиснете \"Разрешаване\", за да дадете избраните разрешения.</string>
