@@ -160,6 +160,7 @@
     <string name="dc_lignt_enable_hint">Режима анти-трептене ще настрои скоростта на опресняване на екрана на 60 Hz. Желаете ли да преминете към Режим анти-трептене?</string>
     <string name="delete_first_to_add_animal">To add a new item, delete one first.</string>
     <string name="desktop_widget_authorization">Натиснете, за да дадете разрешения, за да можете да преглеждате статистиката</string>
+    <string name="desktop_widget_authorization_new">Натиснете, за да прегледате статистиката за екранно време</string>
     <string name="desktop_widget_not_support">"Статистика за екранно време
 не се генерира във Второ пространство"</string>
     <string name="desktop_widget_screen_use_time">Екранно време</string>
@@ -339,7 +340,7 @@
     <string name="hsv_space_color_saturation">Наситеност</string>
     <string name="hsv_space_color_value">Стойност</string>
     <string name="intelligent_radio_btn_summary">Регулирайте динамично скоростта на опресняване в зависимост от различните начини за балансиране на производителността с консумация на енергия</string>
-    <string name="intelligent_radio_btn_title">Автоматично (препоръчително)</string>
+    <string name="intelligent_radio_btn_title">По подразбиране (препоръчително)</string>
     <string name="intelligent_recognition_item_summary">Използвайте индивидуален тон на звънене за обаждания от таксиметрови услуги и доставчици. Тази функция ще работи, когато %s е зададен като тон по подразбиране.</string>
     <string name="intelligent_recognition_item_title">Идентифициране на услуги</string>
     <string name="item_anura">Anura</string>
@@ -694,14 +695,14 @@
     <string name="usage_app_over_content">Днес вече сте използвали това приложение в продължение на %s.</string>
     <string name="usage_app_over_summary">Достигнахте лимита си. Времето изтече!</string>
     <string name="usage_app_set_limit_time">Задайте лимит</string>
-    <string name="usage_app_stop_desc">All Screen time data and permissions, including individual settings, as well as the related items stored locally, will be deleted after you turn this feature off.​</string>
+    <string name="usage_app_stop_desc">Всички данни и разрешения от Екранно време, включително индивидуални настройки, както и съответните съхранявани локално елементи, ще бъдат изтрити след като изключите тази функция.​</string>
     <string name="usage_app_system_app_summary">Не може да се ограничава екранното време за системни приложения.</string>
     <string name="usage_app_weekday_limit">Делнични дни</string>
     <string name="usage_app_weekend_limit">Почивни дни</string>
     <string name="usage_beat_fans">По-добре от %s Mi Фенове</string>
     <string name="usage_continuous_days">Период</string>
     <string name="usage_creating_weekly_report">Създаване на седмичен отчет…</string>
-    <string name="usage_cta_desc">"Welcome to Settings! To provide Screen time and Focus mode stats to you, this app needs to collect the following data: the number of times you unlock the device, the list of your apps along with the corresponding usage duration, the number of times your screen lights up, and Focus mode settings. The collected data will only be stored locally on this device.
+    <string name="usage_cta_desc">"Добре дошли в Настройки! За да може да ви предоставя статистика за Екранно време и режим Фокусиране, това приложение трябва да събира следната информация: броя пъти отключване на устройството, вашия списък с приложения, както и съответното продължение на използване на приложенията, броя пъти светване на екрана и настройки за режим Фокусиране. Събраните данни ще се съхраняват само местно, в това устройство.
 "</string>
     <string name="usage_current_week_usage">Средно %s през последните 7 дни</string>
     <string name="usage_device_limit_app_prolong">Добави време</string>
@@ -929,12 +930,12 @@
     <string name="usagestats_app_category_miui_life">Начин на живот</string>
     <string name="usagestats_app_category_miui_medicine">Здраве</string>
     <string name="usagestats_app_category_miui_news">Новини</string>
-    <string name="usagestats_app_category_miui_photo">Фотография &amp; видео</string>
+    <string name="usagestats_app_category_miui_photo">Фотография и видео</string>
     <string name="usagestats_app_category_miui_productivity">Производителност</string>
     <string name="usagestats_app_category_miui_reading">Четене</string>
     <string name="usagestats_app_category_miui_shopping">Пазаруване</string>
     <string name="usagestats_app_category_miui_social">Социални мрежи</string>
-    <string name="usagestats_app_category_miui_sport">Спорт &amp; фитнес</string>
+    <string name="usagestats_app_category_miui_sport">Спорт и фитнес</string>
     <string name="usagestats_app_category_miui_system">Системни приложения</string>
     <string name="usagestats_app_category_miui_tools">Инструменти</string>
     <string name="usagestats_app_category_miui_travel">Пътуване</string>

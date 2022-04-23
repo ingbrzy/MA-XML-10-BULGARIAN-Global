@@ -3,7 +3,7 @@
     <string name="accept">ОК</string>
     <string name="app_name">Рамка на услугите на Xiaomi</string>
     <string name="error_device_id_message">"Невалидно ID на устройството: %s
-ID на устройството трябва да бъде валиден IMEI или MAC адрес. Без ID на устройството някои от функциите на Mi профил и Xiaomi Облак няма да са налични."</string>
+ID на устройството трябва да бъде валиден IMEI или MAC адрес. Без ID на устройството някои от функциите на Mi Профил и Xiaomi Cloud няма да са налични."</string>
     <string name="error_device_id_title">Не може да се получи ID на устройството</string>
     <string name="explain_send_sms_permission_button">Потвърждаване</string>
     <string name="explain_send_sms_permission_msg">За да включи %s, Рамка на услугите на Xiaomi ще изпрати SMS, за да потвърди вашия телефонен номер. Ще бъдете таксувани по стандартната тарифа за SMS.</string>

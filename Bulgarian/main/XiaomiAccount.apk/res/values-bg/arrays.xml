@@ -46,7 +46,7 @@
     </string-array>
     <string-array name="settings_search_privacy_policy">
         <item>Правила за поверителност</item>
-        <item>Преглед на Правила за поверителност на Mi Профил</item>
+        <item>Преглед на Правилата за поверителност на Mi Профил</item>
         <item>Mi Профил;Профил;Правила за поверителност</item>
     </string-array>
     <string-array name="settings_search_security_email_address">

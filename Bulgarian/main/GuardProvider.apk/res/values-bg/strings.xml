@@ -37,6 +37,13 @@
     <string name="avl_dialog_url">http://api.sec.miui.com/policy/proxy?p=antiy&amp;l=en_US</string>
     <string name="hello_world">Здравей свят!</string>
     <string name="menu_settings">Настройки</string>
+    <string name="size_byte">Б</string>
+    <string name="size_giga_byte">ГБ</string>
+    <string name="size_kilo_byte">КБ</string>
+    <string name="size_mega_byte">МБ</string>
+    <string name="size_peta_byte">ПБ</string>
+    <string name="size_suffix">%1$s%2$s</string>
+    <string name="size_tera_byte">ТБ</string>
     <string name="tencent_dialog_cloudscan">Качване и сканиране на имената и детайлите с помощта на онлайн вирусни дефиниции.</string>
     <string name="tencent_dialog_dbupdate">Автоматично актуализиране на вирусните дефиниции</string>
     <string name="tencent_dialog_header">Тази функция криптира и изпраща ID на устройството ви до сървърите на Tencent (%s).</string>

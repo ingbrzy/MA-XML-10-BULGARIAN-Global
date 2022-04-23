@@ -5,20 +5,20 @@
         <item>За синхр. на съобщения</item>
         <item>За синхр. на контакти</item>
         <item>За синхр. на събития от календара</item>
-        <item>За синхр. на елементи и услуги, използващи хранилището</item>
+        <item>За синхронизиране на елементи и услуги, използващи паметта</item>
     </string-array>
     <string-array name="korea_permission_groups_names">
         <item>Телефон</item>
         <item>Съобщения</item>
         <item>Контакти</item>
         <item>Календар</item>
-        <item>Хранилище</item>
+        <item>Памет</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray">
         <item>Синхронизиране на Вашите контакти, съобщения, бележки, календар и още</item>
         <item>Резервно копие на приложения, оформление на начален екран и тапет</item>
         <item>Резервно копие на важни настройки, включително Wi-Fi и дисплей</item>
-        <item>Заключете вашето устройство отдалечено, ако е изгубено</item>
+        <item>Заключете устройството си от разстояние ако е изгубено</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray_china">
         <item>Синхронизирайте вашите контакти, съобщения, бележки, календар и още</item>
@@ -30,7 +30,7 @@
         <item>Синхронизиране на Вашите контакти, съобщения, бележки, календар и още</item>
         <item>Резервно копие на приложения, оформление на Начален екран и тапет</item>
         <item>Back up important settings, including WLAN and display</item>
-        <item>Заключете вашето устройство отдалечено, ако е изгубено</item>
+        <item>Заключете устройството си от разстояние ако е изгубено</item>
     </string-array>
     <string-array name="micloud_entrance_subtitleArray_pad">
         <item>Синхронизирайте своите снимки, бележки, записи и още</item>
@@ -52,30 +52,10 @@
         <item>Синхронизиране на данни</item>
         <item>Открий устройството</item>
     </string-array>
-    <string-array name="privacy_dialog_finddevice_runtime_perm_desc">
-        <item>за идентифициране на устройството;</item>
-        <item>За установяване местоположението на устройството и превключване към режим Изгубен.</item>
-    </string-array>
     <string-array name="privacy_dialog_finddevice_runtime_perm_desc_new">
-        <item>For locating your device and switching to the lost mode</item>
-        <item>"For locating this device when it isn't connected to the internet"</item>
-        <item>"For accessing phone number in order to locate this device when it isn't connected to the internet"</item>
-    </string-array>
-    <string-array name="privacy_dialog_sync_runtime_perm_desc">
-        <item>за синхронизиране на събития;</item>
-        <item>за синхронизиране на съобщения;</item>
-        <item>за синхронизиране на съобщения;</item>
-        <item>за синхронизиране на контакти;</item>
-        <item>за синхронизиране на контакти;</item>
-        <item>за запазване на неща в устройството Ви (напр. изображения, видеа, песни);</item>
-    </string-array>
-    <string-array name="privacy_dialog_sync_runtime_perm_title">
-        <item>Access calendar events</item>
-        <item>Send SMS</item>
-        <item>Read MMS</item>
-        <item>Access contacts</item>
-        <item>Edit and delete contacts</item>
-        <item>Access photos and files on device</item>
+        <item>За установяване местоположението на устройството и превключване към режим Изгубен.</item>
+        <item>За откриване на това устройство когато не е свързано с интернет</item>
+        <item>За получаване на достъп до телефонния номер с цел откриване на това мобилно устройство когато не е свързано с интернет</item>
     </string-array>
     <string-array name="settings_search_backup_manage">
         <item>Архивиране</item>
@@ -121,11 +101,6 @@
         <item>Синхронизиране на Галерия с Xiaomi Cloud</item>
         <item>Включете/настройте синхронизирането</item>
         <item>Галерия;Снимки;Облак;Синхронизиране;Облачни услуги;Xiaomi Cloud</item>
-    </string-array>
-    <string-array name="settings_search_music">
-        <item>Синхронизиране на музиката с Xiaomi Cloud</item>
-        <item>Включете синхронизацията</item>
-        <item>Музика;Облак;Синхронизация;Облачни услуги;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_notes">
         <item>Синхронизиране на бележките с Xiaomi Cloud</item>
@@ -206,9 +181,5 @@
         <item>Синхронизирайте настройките за WLAN с Xiaomi Облак</item>
         <item>Включи синхронизация</item>
         <item>WLAN;wifi;Wi-Fi;Облак;Синхронизация;услуги в Облака;Xiaomi Облак</item>
-    </string-array>
-    <string-array name="user_detail_fixed_items">
-        <item>Вижте синхронизираните елементи</item>
-        <item>Детайли за хранилището</item>
     </string-array>
 </resources>

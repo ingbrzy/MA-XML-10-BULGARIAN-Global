@@ -43,7 +43,7 @@
     <string name="action_text_card_manager">Канал</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="add_anniversary">Добави годишнина</string>
-    <string name="add_countdown">Добави обратно броене</string>
+    <string name="add_countdown">Добави отброяване</string>
     <string name="add_event">Ново събитие</string>
     <string name="add_holiday_desc">Добавете празници тук</string>
     <string name="add_holiday_title">Добавете празник</string>
@@ -60,6 +60,7 @@
     <string name="alert_title">Известия за календар</string>
     <string name="all_events">Всички събития</string>
     <string name="all_records">Всички записи</string>
+    <string name="already_num">Време от %s</string>
     <string name="am">AM</string>
     <string name="anniversary_event_title">Годишнина: %1$s</string>
     <string name="anniversary_secondary_tag">Годишнина</string>
@@ -138,10 +139,11 @@
     <string name="copy">Копиране</string>
     <string name="copy_email">Копиране на имейл адреса</string>
     <string name="copy_number">Копиране на телефонния номер</string>
-    <string name="countdown_event_title">Обратно броене: %1$s</string>
+    <string name="count_down_date_view">Отброяване</string>
+    <string name="countdown_event_title">Отброяване: %1$s</string>
     <string name="countdown_notify_before_3_day_title">Отброяване: %1$s след %2$d дни</string>
-    <string name="countdown_notify_title">Обратно броене: %1$s</string>
-    <string name="countdown_secondary_tag">Обратно отброяване</string>
+    <string name="countdown_notify_title">Отброяване: %1$s</string>
+    <string name="countdown_secondary_tag">Отброяване</string>
     <string name="countdown_today">Днес</string>
     <string name="create_an_account_desc">"Календарът работи най-добре с Mi Профил.
 
@@ -175,8 +177,10 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Традиционен Китайски Календар</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_time_picker_dialog_title">Задаване на дата и час</string>
     <string name="date_today">" (днес)"</string>
+    <string name="date_view">Дата</string>
     <string name="day">Ден</string>
     <string name="day_view_new_event_hint">Ново събитие</string>
     <string name="default_reminder_mode">Напомняне</string>
@@ -217,12 +221,12 @@
     <string name="edit_event_show_all">Покажи всички</string>
     <string name="edit_event_tab_anniversary">Годишнина</string>
     <string name="edit_event_tab_birthday">Рожден ден</string>
-    <string name="edit_event_tab_countdown">Обратно броене</string>
+    <string name="edit_event_tab_countdown">Отброяване</string>
     <string name="edit_event_tab_event">Събитие</string>
     <string name="edit_event_to_label">До</string>
     <string name="edit_your_long_holidays">Редактиране на празници</string>
     <string name="ee_dd_short_month">EEE, dd MMM</string>
-    <string name="eee_dd_long_month">EEEE, dd MMMM</string>
+    <string name="eee_dd_long_month">EEEE, d MMMM</string>
     <string name="email_guests_label">Изпрати имейл на гостите</string>
     <string name="email_install_hint">Приложението Имейл беше деинсталирано. Инсталирайте го отново за да възстановите профилите за календара или да добавите нов.</string>
     <string name="email_picker_label">Имейл до</string>
@@ -374,6 +378,7 @@
     <string name="import_action">Импортирай</string>
     <string name="import_birthday">Вмъкни рожден ден</string>
     <string name="imported">Импортирането е успешно</string>
+    <string name="in_progress">В момента</string>
     <string name="insert_event_dialog_btn_negative">Не</string>
     <string name="insert_event_dialog_btn_positive">Да</string>
     <string name="insert_event_dialog_message">Добавяне на събитието към календара?</string>
@@ -390,13 +395,13 @@
     <string name="loading">Момент…</string>
     <string name="local_calendar_display_name">Локален календар</string>
     <string name="local_owner_account_name">Локален профил</string>
-    <string name="long_date_format">EEEE, dd MMMM yyyy</string>
+    <string name="long_date_format">EEEE, d MMMM yyyy</string>
     <string name="long_holiday_date_place_holder">dd MMMM</string>
     <string name="long_holiday_dates">Започват от %1$s</string>
     <string name="long_holiday_month_off">Почивни дни от месеца</string>
     <string name="long_holiday_title_length_warning">Името на празника е твърде дълго</string>
     <string name="long_holiday_week_off">Почивни дни от седмицата</string>
-    <string name="long_month_date_format">dd MMMM yyyy</string>
+    <string name="long_month_date_format">d MMMM yyyy</string>
     <string name="lunar_date">Лунна дата</string>
     <string name="manage_holidays">Управление на празници</string>
     <string name="manage_title">Управление</string>
@@ -405,9 +410,9 @@
     <string name="match_finished">Не може да задавате напомняния за текущи и завършени игри</string>
     <string name="match_select_activity_label">Лиги</string>
     <string name="match_zodiac">Съчетай зодия</string>
-    <string name="medium_date_format">EEE, dd MMMM yyyy</string>
-    <string name="mens_date_format_m_d">dd MMM</string>
-    <string name="mens_date_format_y_m_d">dd MMM yyyy</string>
+    <string name="medium_date_format">EEE, d MMMM yyyy</string>
+    <string name="mens_date_format_m_d">d MMM</string>
+    <string name="mens_date_format_y_m_d">d MMM yyyy</string>
     <string name="menstrual_assistant">Менструация</string>
     <string name="menstruation_alert_auth_message">Позволете на Менструалния асистент да стартира автоматично, за да можете да получавате известия. Ще получавате само важни известия.</string>
     <string name="menstruation_auto_start_message">Позволете на Менструалния асистент да стартира автоматично</string>
@@ -525,6 +530,7 @@
     <string name="movie_card_title">Филми</string>
     <string name="movie_card_trailer">Трейлър</string>
     <string name="name_title_menstruation_today_end">Очаква се цикълът да свърши днес</string>
+    <string name="near_agenda_view">Предстоящи събития</string>
     <string name="network_not_available">Няма връзка с мрежата</string>
     <string name="never">Никога</string>
     <string name="new_event_description">Ново</string>
@@ -713,11 +719,11 @@
     <string name="share_image">Споделяне</string>
     <string name="share_image_label">Споделете чрез</string>
     <string name="share_title">Споделяне</string>
-    <string name="short_date_format">dd MMM</string>
+    <string name="short_date_format">d MMM</string>
     <string name="show_day_view">Покажи ден</string>
     <string name="show_indic_date_summary">Индийският календар е наличен, когато един от езиците на Индия е заложен като системен език</string>
     <string name="show_menstruation_info">Показване на данни за менструацията</string>
-    <string name="simple_date_format">dd/MM/yyyy</string>
+    <string name="simple_date_format">dd.MM.yyyy</string>
     <string name="single_selected_holiday">%1$s е почивен ден</string>
     <string name="size_byte">Б</string>
     <string name="size_giga_byte">ГБ</string>
@@ -727,11 +733,14 @@
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">ТБ</string>
     <string name="skip">Пропускане</string>
-    <string name="small_week_date_format">EEE dd/MM/yyyy</string>
+    <string name="small_week_date_format">EEE dd.MM.yyyy</string>
+    <string name="spec_agenda_day_and_month">%1$s/%2$s</string>
+    <string name="spec_agenda_view">Специални събития</string>
     <string name="start_date_calculate">Пресметни</string>
     <string name="stats_title">Статистика</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="storage_permission_denied">Първо позволете достъп до хранилището</string>
+    <string name="still_num">Време до %s</string>
+    <string name="storage_permission_denied">Първо позволете достъп до паметта</string>
     <string name="subscribe_card">Абонирайте се сега</string>
     <string name="subscribe_card_success">Абонаментът е успешен! Проверете детайлите на началната страница.</string>
     <string name="subscribe_card_success_for_homepage">Абонирането за “%1$s” е успешно</string>
@@ -855,6 +864,7 @@
     <string name="today">Днес</string>
     <string name="today_at_time_fmt">Днес в %s</string>
     <string name="today_icon_voice_contentdescription">Обратно към днес</string>
+    <string name="today_no_event">Няма събития за днес.</string>
     <string name="today_no_events">Няма събития</string>
     <string name="todays_panchang_title">Panchang за деня</string>
     <string name="todo_audio_event">"[Гласова задача] "</string>
@@ -920,7 +930,13 @@
     <string name="widget_events">Предстоящи събития</string>
     <string name="widget_get_weather_info">Получаване на инф. за времето</string>
     <string name="widget_no_events">Няма предстоящи събития</string>
+    <string name="widget_normal_agenda_tip_empty">Няма събития за днес.</string>
+    <string name="widget_normal_agenda_today_done">Всички събития са завършени за днес.</string>
+    <string name="widget_normal_more_event">Още събития</string>
+    <string name="widget_normal_new_event">Ново събитие</string>
+    <string name="widget_normal_weekN">Седмица %d</string>
     <string name="widget_select_style">Избери джаджа</string>
+    <string name="widget_spec_agenda_birth_today">Днес</string>
     <string name="work_day_indication">: (</string>
     <string name="xiaomi_calendar_delete_description">Календар е системно приложение, което ви позволява да създавате и управлявате събития. Някои от неговите функции все още ще бъдат достъпни за вас след като премахнете прекия път на Началния екран.</string>
     <string name="xiaomi_calendar_delete_title">Премахване на \"Календар\" от Началния екран?</string>

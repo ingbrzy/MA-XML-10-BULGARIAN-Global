@@ -147,6 +147,7 @@
     <string name="calllog_menu_blacklist">Добави към черния списък</string>
     <string name="calllog_menu_edit_before_call">Редактирай преди повикване</string>
     <string name="calllog_menu_send_sms">Изпрати съобщение</string>
+    <string name="calllog_record_none_toast">Няма записи на повиквания</string>
     <string name="callrecordview_item_op_time_minutes_seconds">%1$d мин. %2$d сек.</string>
     <string name="callrecordview_item_op_time_missed">Няма връзка</string>
     <string name="callrecordview_item_op_time_only_minutes">%d мин.</string>
@@ -296,7 +297,7 @@
     <string name="delete_conference_call_log_message">Изтриване на всички свързани с този контакт конферентни разговори сега?</string>
     <string name="delete_conference_call_log_title">Изтрий записите от конферентни разговори</string>
     <string name="delete_duplicate">Обедини</string>
-    <string name="delete_duplicate_message">Обединяване на контакти…</string>
+    <string name="delete_duplicate_message">"Обединяване на контакти… "</string>
     <string name="delete_group_dialog_message">Желаете да изтриете \"%1$s\"? Контактите в нея ще се запазят.</string>
     <string name="delete_group_dialog_title">Изтрий група</string>
     <string name="delete_selected_sim_entry_miui">Ще изтриете ли избраните контакти?</string>
@@ -335,7 +336,8 @@
     <string name="description_send_message">Изпрати съобщение до %1$s</string>
     <string name="deselect_all">Размаркирай всички</string>
     <string name="device_import_account_dialog_title">Изберете профил за импортиране</string>
-    <string name="device_import_account_dialog_title_suffix">(открити контакти: %1$s)</string>
+    <string name="device_import_account_dialog_title_suffix">"
+(открити контакти: %1$s)"</string>
     <string name="device_import_local_account">Локален профил</string>
     <string name="device_import_message">Импортиране</string>
     <string name="device_import_progress_begin_message">Подготовка за импортиране…</string>
@@ -417,7 +419,7 @@
     <string name="expand_button_title">Разширени</string>
     <string name="export_sim_contact_finish">Експортирането към SIM картата завърши</string>
     <string name="export_sim_contact_finish_msg">Прехвърлени %1$d | Пропуснати %2$d | %3$d остават %4$s</string>
-    <string name="export_to_sdcard">Експортиране в хранилището</string>
+    <string name="export_to_sdcard">Изнасяне към паметта</string>
     <string name="export_to_sim">Изнасяне към SIM карта</string>
     <string name="export_to_sim1">Изнасяне към SIM карта 1</string>
     <string name="export_to_sim2">Изнасяне към SIM карта 2</string>
@@ -439,7 +441,7 @@
     <string name="fail_reason_no_exportable_contact">Няма контакти за експортиране.</string>
     <string name="fail_reason_not_supported">Форматът не се поддържа.</string>
     <string name="fail_reason_too_long_filename">Името на файла е твърде дълго (\"%s\").</string>
-    <string name="fail_reason_too_many_vcard">Прекалено много файлове с визитки в хранилището.</string>
+    <string name="fail_reason_too_many_vcard">Прекалено много файлове с визитки в паметта.</string>
     <string name="fail_reason_unknown">Неизвестна грешка.</string>
     <string name="favorites_list_empty">Няма любими</string>
     <string name="firewall_setting">Блокирани</string>
@@ -501,6 +503,7 @@
     <string name="friday">Петък</string>
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Име</string>
     <string name="gallery">Галерия</string>
     <string name="ghostData_company">Фирма</string>
@@ -544,7 +547,7 @@
     <string name="import_contact_card_button">Импортиране</string>
     <string name="import_failure_no_vcard_file">Не са открити файлове с визитки в хранилището.</string>
     <string name="import_from_other_device">Импортиране от друго устройство</string>
-    <string name="import_from_sdcard">Импортиране от SD карта</string>
+    <string name="import_from_sdcard">Внасяне от паметта</string>
     <string name="import_from_sim">Внасяне от SIM карта</string>
     <string name="import_from_sim1">Внасяне от SIM карта 1</string>
     <string name="import_from_sim2">Внасяне от SIM карта 2</string>
@@ -568,7 +571,7 @@
     <string name="invalidContactMessage">Контактът не съществува.</string>
     <string name="item_offical">Официален</string>
     <string name="keep_local">Съхрани локално</string>
-    <string name="keep_local_btn">Използвай вътрешното хранилище на устройството</string>
+    <string name="keep_local_btn">Използване на вътрешната памет на устройството</string>
     <string name="label_custom_type">Потребителски</string>
     <string name="label_no_duplicate_contacts">Отлично! Няма дублиращи се контакти за момента!</string>
     <string name="label_notes">Бележки</string>
@@ -626,6 +629,7 @@
     <string name="menu_sync_remove">Премахни синхронизацията за групата</string>
     <string name="midnight">Нощ</string>
     <string name="miprofile_account_type">Карти на Контакти</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Редакция на профила</string>
     <string name="miprofile_name">Моят профил</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -663,40 +667,40 @@
     <string name="monday">Понеделник</string>
     <string name="monday_short">Пон.</string>
     <string name="monday_shortest">Пон.</string>
-    <string name="month_april">Април</string>
+    <string name="month_april">април</string>
     <string name="month_april_short">Апр.</string>
     <string name="month_april_shortest">Апр.</string>
-    <string name="month_august">Август</string>
+    <string name="month_august">август</string>
     <string name="month_august_short">Авг.</string>
     <string name="month_august_shortest">Авг.</string>
-    <string name="month_december">Декември</string>
+    <string name="month_december">декември</string>
     <string name="month_december_short">Дек.</string>
     <string name="month_december_shortest">Дек.</string>
-    <string name="month_february">Февруари</string>
+    <string name="month_february">февруари</string>
     <string name="month_february_short">Фев.</string>
     <string name="month_february_shortest">Фев.</string>
-    <string name="month_january">Януари</string>
+    <string name="month_january">януари</string>
     <string name="month_january_short">Ян.</string>
     <string name="month_january_shortest">Ян.</string>
-    <string name="month_july">Юли</string>
+    <string name="month_july">юли</string>
     <string name="month_july_short">Юли</string>
     <string name="month_july_shortest">Юли</string>
-    <string name="month_june">Юни</string>
+    <string name="month_june">юни</string>
     <string name="month_june_short">Юни</string>
     <string name="month_june_shortest">Юни</string>
-    <string name="month_march">Март</string>
+    <string name="month_march">март</string>
     <string name="month_march_short">Март</string>
     <string name="month_march_shortest">Март</string>
-    <string name="month_may">Май</string>
+    <string name="month_may">май</string>
     <string name="month_may_short">Май</string>
     <string name="month_may_shortest">Май</string>
-    <string name="month_november">Ноември</string>
+    <string name="month_november">ноември</string>
     <string name="month_november_short">Ноем.</string>
     <string name="month_november_shortest">Ноем.</string>
-    <string name="month_october">Октомври</string>
+    <string name="month_october">октомври</string>
     <string name="month_october_short">Окт.</string>
     <string name="month_october_shortest">Окт.</string>
-    <string name="month_september">Септември</string>
+    <string name="month_september">септември</string>
     <string name="month_september_short">Септ.</string>
     <string name="month_september_shortest">Септ.</string>
     <string name="more">Още</string>
@@ -719,6 +723,12 @@
     <string name="name_phonetic_middle">Презиме (транскрипция)</string>
     <string name="name_prefix">Обръщение</string>
     <string name="name_suffix">Звание/титла</string>
+    <string name="new_saf_permission_dialog_content">"Разрешенията за Контакти бяха обновени. Разрешете на Контакти да получава достъп до записи от повиквания.
+
+Как се дава разрешение
+Натиснете \"%1$s\", след това изберете \"%2$s\"."</string>
+    <string name="new_saf_permission_dialog_grant_permission_immediately">Напред</string>
+    <string name="new_saf_permission_dialog_title"><b>Необходими са разрешения</b></string>
     <string name="next">следващ</string>
     <string name="next_birthday">Следващ рожден ден: %s</string>
     <string name="nfc_vcard_file_name">Получено по NFC</string>
@@ -776,6 +786,7 @@
     <string name="permission_retry_dialog_msg_pad">За да можете да използвате SIM картата си с това приложение и да управлявате контактите си, разрешете на приложението да получава достъп и да редактира контактите ви, както и да получава достъп до информация за устройството.</string>
     <string name="permission_retry_setting">Настройки</string>
     <string name="phoneLabelsGroup">Телефон</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Номерът е твърде дълъг</string>
     <string name="phone_primary">Основен</string>
     <string name="photoPickerNotFoundText">Няма налични изображения в устройството.</string>
@@ -833,7 +844,7 @@
     <string name="preference_privacy_settings_title">Поверителност</string>
     <string name="preference_remove_duplicate">Обединяване на дубликати</string>
     <string name="preference_show_firewall_calllog">Показване на блокирани повиквания в хронология на повикванията</string>
-    <string name="preference_show_yellowpage_tab_description">\"Жълти страници\" може да не работи правилно, когато тази услуга е изключена.</string>
+    <string name="preference_show_yellowpage_tab_description">Жълти страници и нейните услуги няма да бъдат показвани ако изключите тази функция</string>
     <string name="preference_show_yellowpage_tab_title">Покажи \"Жълти страници\"</string>
     <string name="preference_simple_mode_title">Показване на снимки и данни</string>
     <string name="preference_smart_group_company_summary">Групиране на контакти по информация за фирма</string>
@@ -844,6 +855,7 @@
     <string name="preference_smart_group_location_title">По местоположение</string>
     <string name="preference_smart_group_title">Смарт групиране</string>
     <string name="preference_tone_title">Звук</string>
+    <string name="preference_yellowpage_function_setting">Настройки за Жълти страници</string>
     <string name="previous">Назад</string>
     <string name="privacy_password_message1">Паролата за защита на личните данни защитава снимки, бележки и скрити папки.</string>
     <string name="privacy_password_message2">Използване на Парола за защита на личните данни. Тя защитава снимки, бележки и скрити папки.</string>
@@ -853,6 +865,7 @@
     <string name="privacy_password_title2">Използване на Парола за защита на личните данни</string>
     <string name="privacy_password_title3">Подсилете паролата си</string>
     <string name="privacy_password_title4">Паролата е подсилена</string>
+    <string name="privacy_settings_blue_scan_connect">Свързване към устройства наблизо</string>
     <string name="privacy_settings_call_phone">Провеждане на повиквания</string>
     <string name="privacy_settings_call_phone_description">За провеждане на телефонни повиквания чрез Преки пътища на Началния екран</string>
     <string name="privacy_settings_call_phone_description_for_pad">За провеждане на повиквания в приложения от трета страна</string>
@@ -916,7 +929,9 @@
     <string name="remove_blacklist">Премахни от черния списък</string>
     <string name="remove_blacklist_dialog_message">Деблокиране на този номер?</string>
     <string name="remove_blacklist_dialog_title">Премахване от блокирани</string>
-    <string name="remove_duplicate">\"MIUI ще ви помогне да намерите и обедините дублиращи се контакти. За да започнете, натиснете иконата за обединяване в долната част на екрана.\"</string>
+    <string name="remove_duplicate">"MIUI ще ви помогне да намерите и обедините дублиращи се контакти.
+
+ За да започнете, натиснете иконата за обединяване в долната част на екрана."</string>
     <string name="required_permissions">android.permission.WRITE_CONTACTS;android.permission.READ_CONTACTS;android.permission.WRITE_CALL_LOG;android.permission.READ_CALL_LOG;android.permission.READ_PHONE_STATE;android.permission.CALL_PHONE</string>
     <string name="restore_app_btn_cancel">Отказ</string>
     <string name="restore_app_btn_restore">OК</string>
@@ -944,7 +959,7 @@
     <string name="scan_qrcode_card_hint1">Сканирайте QR кода</string>
     <string name="scan_qrcode_card_hint2" />
     <string name="scanning_sdcard_failed_message">Причина: %s.</string>
-    <string name="scanning_sdcard_failed_title">Неуспешно сканиране на хранилището</string>
+    <string name="scanning_sdcard_failed_title">Неуспешно сканиране на паметта</string>
     <string name="sdnContacts_empty">Няма SDN</string>
     <string name="sdnContacts_emptyLoading">Зарежда се SDN…</string>
     <string name="searchHint">Търсене на контакти</string>
@@ -981,7 +996,7 @@
     <string name="share_visible_contacts">Сподели контакти</string>
     <string name="shortcutActivityTitle">Функция пряк път на десктопа</string>
     <string name="shortcutContact">Контакт</string>
-    <string name="shortcutDialContact">Бързо набиране</string>
+    <string name="shortcutDialContact">"Бързо набиране "</string>
     <string name="shortcut_new_contact_label">Нов контакт</string>
     <string name="shortcut_scan_label">Сканирайте визитна картичка</string>
     <string name="simContacts_airplaneMode">За внасяне на контакти от Вашата SIM карта, моля изключете Самолетния режим.</string>
@@ -1014,6 +1029,7 @@
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Няма членове на групата</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">По фирма</string>
     <string name="smart_group_company_unavailable">Неизвестна фирма</string>
     <string name="smart_group_frequency_1">В рамките на месец</string>
@@ -1055,6 +1071,7 @@
     <string name="starred_contacts">Любими</string>
     <string name="status_available">Достъпен</string>
     <string name="status_away">Отсъстващ</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Зает</string>
     <string name="strequentList">Любими</string>
     <string name="success_message_import_from_account">Успешно импортиране</string>
@@ -1113,6 +1130,7 @@
     <string name="the_united_nations_day">Ден на обединените нации</string>
     <string name="the_valentines_day">Свети Валентин</string>
     <string name="the_water_lantern_festival">Фестивал на водните фенери</string>
+    <string name="this_folder">Използване на тази папка</string>
     <string name="three_letter">DEF</string>
     <string name="thursday">Четвъртък</string>
     <string name="thursday_short">Четв.</string>
@@ -1130,6 +1148,7 @@
     <string name="toast_for_failed_saving_nickname">Грешка при запазване на псевдоним!</string>
     <string name="toast_for_saving_nickname">Псевдонимът е запазен</string>
     <string name="toast_join_with_empty_contact">Именувайте контакта, преди обединяването му с друг.</string>
+    <string name="toast_not_show_blue_scan_connect_perm_req">Разрешете на тази функция да се свързва с устройства наблизо чрез Bluetooth, за да можете да внасяте контакти от други устройства.</string>
     <string name="toast_not_show_camera_perm_req">За да можете да използвате камерата за заснемане на профилни снимки, първо разрешете на приложението да заснема снимки и видео.</string>
     <string name="toast_not_show_location_perm_req">За да можете да внасяте контакти от други устройства чрез Bluetooth, първо разрешете на приложението да получава достъп до местоположението ви.</string>
     <string name="toast_not_show_read_calllogs_perm_req">За да можете да преглеждате хронологията на повикванията, първо разрешете на приложението да получава достъп до хронологията на повикванията.</string>

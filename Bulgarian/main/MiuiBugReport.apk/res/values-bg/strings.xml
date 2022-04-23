@@ -27,10 +27,11 @@
     <string name="abc_shareactionprovider_share_with">Споделяне със:</string>
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
+    <string name="access_denied_info">Направихте твърде много опити. Изчакайте малко и опитайте отново.</string>
     <string name="account_bind_secure_email_title">Добавете имейл за възстановяване</string>
     <string name="account_bind_secure_phone_title">Добавете телефонен номер за възстановяване</string>
     <string name="account_crop_user_avatar">Изрязване на снимка</string>
-    <string name="account_empty_user_name">Въведете потр. има на Вашия Mi Профил</string>
+    <string name="account_empty_user_name">Въведете потребителското име на Mi Профила си</string>
     <string name="account_error_all_space_user_name">Потребителското име не може да съдържа само интервали</string>
     <string name="account_error_invalid_user_name">Името не може да съдържа &lt;, > или /</string>
     <string name="account_error_longer_user_name">Името не може да е по-дълго от 20 символа</string>
@@ -52,7 +53,7 @@
     <string name="account_user_details">Лична информация</string>
     <string name="account_user_email">Имейл за възстановяване</string>
     <string name="account_user_gender">Пол</string>
-    <string name="account_user_id">ИН на Mi Профил</string>
+    <string name="account_user_id">Номер на Mi Профил</string>
     <string name="account_user_name">Псевдоним</string>
     <string name="account_user_name_dialog_title">Въведете потребителско име</string>
     <string name="account_user_other_info">Детайли</string>
@@ -109,7 +110,7 @@
     <string name="catch_full_log_item_title_gps">Услуги за местоположението</string>
     <string name="catch_full_log_item_title_sensor">Сензори</string>
     <string name="catch_full_log_item_title_signal">Телефон, сигнал и мобилни мрежи</string>
-    <string name="catch_full_log_item_title_trace">Jank</string>
+    <string name="catch_full_log_item_title_trace">Засичане</string>
     <string name="catch_full_log_item_title_wifi">Wi-Fi</string>
     <string name="catch_full_log_item_title_wifi_china">WLAN</string>
     <string name="catch_full_log_notification_content">Докоснете, за връщане към регистри</string>
@@ -117,16 +118,16 @@
     <string name="catch_full_log_privacy_content_audio">Вие генерирате регистри и ги съхранявате на устройството си. Регистрите може да съдържат информация за аудиото на вашето устройство, включително история на възпроизвеждането и история на записите. Бъдете внимателни и не разкривайте тези регистри на други хора. Като натиснете \"Съгласявам се\" по-долу, вие се съгласявате, че ще събираме горните данни, докато генерираме регистри и след това ще качваме регистрите на нашите сървъри, за да локализираме и решим проблемите, които съобщавате.</string>
     <string name="catch_full_log_privacy_content_bt">Вие генерирате регистри и ги съхранявате на устройството си. Регистрите може да съдържат информация за използването на Bluetooth (включително хронология на повикванията, съобщения, прехвърлени файлове и др.). Бъдете внимателни и не разкривайте тези регистри на други хора. С натискането на бутона \"Приемам\" по-долу, Вие приемате, че ще събираме горепосочените данни, докато генерираме регистри, и след това ще качваме регистрите на нашите сървъри, за да локализираме и разрешим проблемите, които докладвате.</string>
     <string name="catch_full_log_privacy_content_camera">Вие генерирате регистри и ги съхранявате на устройството си. Регистрите може да съдържат информация за употребата на Камера (включително честота на CPU, системни повиквания, употреба на памет и др.). Бъдете внимателни и не разкривайте тези регистри на други хора. С натискането на бутона \"Приемам\" по-долу, Вие приемате, че ще събираме горепосочените данни, докато генерираме регистри, и след това ще качваме регистрите на нашите сървъри, за да локализираме и разрешим проблемите, които докладвате.</string>
-    <string name="catch_full_log_privacy_content_charge">Вие генерирате регистри и ги съхранявате на устройството си. Регистрите може да съдържат информация за Зареждане. Бъдете внимателни и не разкривайте тези регистри на други хора. Като натиснете \"Приемам\" по-долу, вие се съгласявате, че ще събираме горните данни, докато генерираме регистри и след това ще качваме регистрите на нашите сървъри, за да локализираме и решим проблемите, които съобщавате.</string>
+    <string name="catch_full_log_privacy_content_charge">Вие генерирате регистри и ги съхранявате на устройството си. Регистрите може да съдържат статистика за зареждане. Бъдете внимателни и не разкривайте тези регистри на други хора. Като натиснете \"Приемам\" по-долу, вие се съгласявате, че ще събираме горните данни, докато генерираме регистри и след това ще качваме регистрите на нашите сървъри, за да локализираме и решим проблемите, които съобщавате.</string>
     <string name="catch_full_log_privacy_content_gps">Вие генерирате регистри и ги съхранявате на устройството си. Регистрите може да съдържат ваша лична информация и информация за местоположението. Бъдете внимателни и не разкривайте тези регистри на други хора. Като натиснете \"Съгласявам се\" по-долу, вие се съгласявате, че ще събираме горните данни, докато генерираме регистри и след това ще качваме регистрите на нашите сървъри, за да локализираме и решим проблемите, които съобщавате.</string>
     <string name="catch_full_log_privacy_content_sensor">Вие генерирате регистри и ги съхранявате в устройството си. Регистрите могат да съдържат информация, събрана от сензорите на Вашето устройство (включително сензора за околна светлина, барометър, крачкомер, магнитометър и др.). Бъдете внимателни и не разкривайте тези регистри на други хора. Като натиснете \"Приемам\" по-долу, Вие се съгласявате, че ще събираме горните данни, докато генерираме регистри и след това ще качваме регистрите на нашите сървъри, за да локализираме и решим проблемите, които съобщавате.</string>
     <string name="catch_full_log_privacy_content_signal">Вие генерирате регистри и ги съхранявате на устройството си. Регистрите може да съдържат Вашите съобщения, хронология на повикванията, информация за мрежата и комуникационни данни. Бъдете внимателни и не разкривайте тези регистри на други хора. Натискайки \"Приемам\" по-долу, Вие приемате, че ще събираме горепосочените данни, докато генерираме регистри и след това ще качваме регистрите на нашите сървъри, за да локализираме и разрешим проблемите, които докладвате.</string>
-    <string name="catch_full_log_privacy_content_trace">Вие генерирате регистри и ги съхранявате на устройството си. Регистрите може да съдържат информация за производителността на Програма (включително честота на CPU, системни повиквания, употреба на памет и др.). Бъдете внимателни и не разкривайте тези регистри на други хора. С натискането на бутона \"Приемам\" по-долу, Вие приемате, че ще събираме горепосочените данни, докато генерираме регистри, и след това ще качваме регистрите на нашите сървъри, за да локализираме и разрешим проблемите, които докладвате.</string>
+    <string name="catch_full_log_privacy_content_trace">Вие генерирате регистри и ги съхранявате на устройството си. Регистрите може да съдържат статистика за употребата на приложения (включително честота на CPU, системни повиквания, употреба на памет и др.). Бъдете внимателни и не разкривайте тези регистри на други хора. С натискането на бутона \"Приемам\" по-долу, Вие приемате, че ще събираме горепосочените данни, докато генерираме регистри, и след това ще качваме регистрите на нашите сървъри, за да локализираме и разрешим проблемите, които докладвате.</string>
     <string name="catch_full_log_privacy_content_wifi">Вие генерирате регистри и ги съхранявате на устройството си. Регистрите може да съдържат ваша лична информация, информация за местоположението, както и IP и MAC адресите на вашето устройство. Ако сте свързан с некриптирана безжична мрежа ние също бихме могли да имаме достъп до части от вашите комуникационни данни. Бъдете внимателни и не разкривайте тези регистри на други хора. Като натиснете \"Съгласявам се\" по-долу вие се съгласявате, че ще събираме горните данни, докато генерираме регистри и след това ще качваме регистрите на нашите сървъри, за да локализираме и решим проблемите, които съобщавате.</string>
     <string name="catch_full_log_privacy_content_wifi_china">"You're generating logs and saving them on your device. The logs may contain your personal info, location info, as well as the IP and MAC addresses of your device. If you're connected to an unencrypted WLAN network, we might also be able to access parts of your communication data. Be careful and don't disclose these logs to other people. By tapping \"Agree\" below, you're agreeing that we'll collect the above data while generating logs, and then upload the logs to our servers in order to locate and solve the issues you report."</string>
     <string name="catch_full_log_start_dump_hprof">Създава се регистър</string>
     <string name="catch_full_log_submit_directly">Приеми</string>
-    <string name="change_activate_email">Промяна на имейл адреса</string>
+    <string name="change_activate_email">Промяна на имейл адрес</string>
     <string name="change_password">Промяна на паролата</string>
     <string name="choose_to_signin">Да</string>
     <string name="choose_to_signup">Не, ще си направя сега</string>
@@ -137,7 +138,7 @@
     <string name="confirm_activate_email">Потвърдено</string>
     <string name="confirm_bundled_phone_dialog_title">Потвърждаване на асоцииран тел. номер</string>
     <string name="confirm_new_pwd">Потвърдете новата парола</string>
-    <string name="confirm_unbundled_phone_dialog_message">Този телефонен номер е асоцииран с Mi Профил %2$s на %1$s. Ако продължите, той вече няма да бъде асоцииран с Mi Профил %3$s. Продължаване?</string>
+    <string name="confirm_unbundled_phone_dialog_message">Този телефонен номер беше свързан с Mi Профил %2$s на %1$s. Ако продължите, той вече няма да бъде свързан с Mi Профил %3$s. Продължаване?</string>
     <string name="copy">Копиране</string>
     <string name="cta_cancel">Отказ</string>
     <string name="cta_confirm">ОК</string>
@@ -161,6 +162,9 @@ ID:%s
     <string name="discard_draft_dialog_button_discard">OK</string>
     <string name="discard_draft_dialog_content">Всички промени, които сте правили по този доклад, ще бъдат отменени.</string>
     <string name="discard_draft_dialog_title">Отхвърляте ли черновата?</string>
+    <string name="doing_login">Вписване…</string>
+    <string name="doing_query_account">Проверка на информация за профил…</string>
+    <string name="doing_register">Създаване на профил…</string>
     <string name="early_morning">Сутрин</string>
     <string name="empty" />
     <string name="eras_ad">н.е.</string>
@@ -185,11 +189,11 @@ ID:%s
     <string name="err_type_xiaomi_family">Xiaomi Home</string>
     <string name="err_type_xiaomi_service">Обслужване на клиенти</string>
     <string name="error_dup_binded_email">Този имейл адрес вече е свързан с друг Mi Профил.</string>
-    <string name="error_invalid_bind_address">Въведеният от Вас имейл адрес е невалиден.</string>
+    <string name="error_invalid_bind_address">Въведеният от вас имейл адрес е невалиден.</string>
     <string name="evening">Следобед</string>
-    <string name="exceed_binded_phone_times_notice">Този телефонен номер вече е асоцииран с друг Mi Профил.</string>
+    <string name="exceed_binded_phone_times_notice">Този телефонен номер вече е свързан с друг Mi Профил.</string>
     <string name="expand_button_title">Разширени</string>
-    <string name="failed_dup_secure_phone_number">Този телефонен номер вече е асоцииран с друг Mi Профил</string>
+    <string name="failed_dup_secure_phone_number">Този телефонен номер вече е свързан с друг Mi Профил</string>
     <string name="failed_to_fetch_fql">Не могат да се заредят данни от ЧЗВ, проверете мрежовата връзка</string>
     <string name="feedback_answer_detail_feedback_resolved">Да</string>
     <string name="feedback_answer_detail_feedback_result">Благодарим ви за отзива!</string>
@@ -203,7 +207,7 @@ ID:%s
     <string name="feedback_choose_app_tag">Изберете проблем</string>
     <string name="feedback_choose_module">Избери елемент</string>
     <string name="feedback_choose_module_hint">Необходимо</string>
-    <string name="feedback_choose_occurrence_time">Време</string>
+    <string name="feedback_choose_occurrence_time">Час</string>
     <string name="feedback_choose_reproductivity">Репродуктивност</string>
     <string name="feedback_choose_third_app_name">Посочете името на приложението</string>
     <string name="feedback_collect_log_failed">Не може да се получат логовете</string>
@@ -358,17 +362,19 @@ ID:%s
     <string name="friday_shortest">Пт.</string>
     <string name="get_back_pwd">Нулиране на паролата</string>
     <string name="get_ph_ticket">Получи код</string>
-    <string name="get_phone_bind_exceed_limit">Можете да асоциирате до 3 Mi Профила с един телефонен номер. Не може да се добавят нови профили.</string>
+    <string name="get_phone_bind_exceed_limit">Можете да свържете до 3 Mi Профила с един телефонен номер. Не можете да добавяте нови профили.</string>
     <string name="get_phone_verifycode_exceed_limit">На този телефонен номер са изпратени прекалено много кодове за потвърждаване. Опитайте отново след 24 часа.</string>
     <string name="goon_feedback_main">Напред</string>
     <string name="goto_sign_up">Създайте профил</string>
     <string name="hint_feedback_main">Опишете вашия проблем</string>
-    <string name="i_get_it">Got it</string>
+    <string name="i_get_it">Разбрах</string>
+    <string name="i_know">Разбрах</string>
     <string name="identity">Идентифициране</string>
     <string name="inconsistent_pwd">Паролите не съвпадат</string>
-    <string name="input_email_address_notice">Ще използваме този имейл за потвърждаване на профила Ви</string>
+    <string name="input_email_address_notice">Ние ще използваме този имейл, за да потвърдим вашия профил</string>
+    <string name="input_length_exceeds_limit">Въведения текст е твърде дълъг</string>
     <string name="input_new_pwd">Въведете новата парола</string>
-    <string name="isornot_your_mi_account">Това вашият Mi профил ли е?</string>
+    <string name="isornot_your_mi_account">Това вашия Mi Профил ли е?</string>
     <string name="issue_search">Търси</string>
     <string name="jump_full_log_dialog_cancel">Отмяна</string>
     <string name="jump_full_log_dialog_confirm">Генерирай</string>
@@ -384,14 +390,19 @@ ID:%s
     <string name="kr_authorization_log_protocol_desc">С цел подобряване на услугите, които ви предоставяме, ще качим статистика за ползването и системните логове на нашите сървъри. Тези елементи могат да включват ваша лична информация, както и информация за вашето устройство и мрежи. Ще използваме качените елементи, за да локализираме и анализираме проблеми в системата.</string>
     <string name="kr_authorization_phone">Телефон</string>
     <string name="kr_authorization_phone_desc">За достъп до модела, IMEI и ИН на устройството с цел установяване и разрешаване на проблеми</string>
-    <string name="kr_authorization_privacy_policy">Политика за поверителност (задължително)</string>
+    <string name="kr_authorization_privacy_policy">Правила за поверителност (задължително)</string>
     <string name="kr_authorization_select_all">Избор на всички</string>
-    <string name="kr_authorization_storage">Хранилище</string>
+    <string name="kr_authorization_storage">Памет</string>
     <string name="kr_authorization_storage_desc">За достъп до хранилището и запазване на елементи, включително регистрационни файлове, изображения и видео</string>
     <string name="kr_authorization_summary">Правни документи</string>
     <string name="kr_authorization_user_protocol">Потребителско споразумение (задължително)</string>
     <string name="loading">Момент…</string>
     <string name="loading_apps">Създава се списък…</string>
+    <string name="login_by_local_phone_long_text">Влезте сега</string>
+    <string name="login_by_local_phone_short_text">Вписване</string>
+    <string name="login_other">Друг Mi Профил</string>
+    <string name="login_register_by_local_phone_long_text">Създайте профил</string>
+    <string name="login_with_sns">Други начини за вписване</string>
     <string name="logo_title">Обратна връзка</string>
     <string name="logout_account">Отписване</string>
     <string name="menu_copy">Копиране</string>
@@ -493,6 +504,8 @@ ID:%s
     <string name="morning">Сутрин</string>
     <string name="net_error_info">Няма мрежова връзка, натиснете тук, за да отидете в Настройки</string>
     <string name="network_err">Не може да се свърже с мрежата. Проверете вашата връзка за данни и опитайте да опресните.</string>
+    <string name="network_error_info">Възникна мрежова грешка. Проверете мрежовите си настройки и опитайте отново.</string>
+    <string name="network_timeout_info">Не може да се осъществи връзка с мрежата. Опитайте отново.</string>
     <string name="network_unavailable_dialog_button_ok">OК</string>
     <string name="network_unavailable_dialog_content">Не може да се свърже с мрежата. Отзивът ще бъде изпратен, когато е достъпна мобилна мрежа.</string>
     <string name="network_unavailable_dialog_title">Не може да се свърже с мрежата</string>
@@ -506,6 +519,7 @@ ID:%s
     <string name="nothing">--</string>
     <string name="ok">OК</string>
     <string name="open_feedback_main">Повече</string>
+    <string name="open_settings">Настройки</string>
     <string name="passport_access_denied">Достъпът е отказан</string>
     <string name="passport_account_label">Mi Профил</string>
     <string name="passport_account_name">"Профил: %1$s "</string>
@@ -513,6 +527,7 @@ ID:%s
     <string name="passport_area_code_title">Код на държава</string>
     <string name="passport_bad_authentication">Невалидно потребителско име или парола</string>
     <string name="passport_barcode_add_account_prompt">За да добавите профил, сканирайте отново QR кода, след като се впишете.</string>
+    <string name="passport_can_not_receive_verification_code">Не получавате кода за потвърждение?</string>
     <string name="passport_captcha_title">Полета</string>
     <string name="passport_checking_account">Проверка на паролата…</string>
     <string name="passport_close">Затвори</string>
@@ -522,9 +537,9 @@ ID:%s
     <string name="passport_empty_user_name">Полето с име на потребител не може да е празно</string>
     <string name="passport_error_auth_fail">Сесията е изтекла. Влезте отново.</string>
     <string name="passport_error_device_id">Не може да се получи ID на устройството</string>
-    <string name="passport_error_email">Въведеният от Вас имейл адрес е невалиден</string>
+    <string name="passport_error_email">Въведеният от вас имейл адрес е невалиден</string>
     <string name="passport_error_empty_captcha_code">Въведете кода за проверка</string>
-    <string name="passport_error_empty_email">Въведете Вашия имейл адрес</string>
+    <string name="passport_error_empty_email">Въведете вашия имейл адрес</string>
     <string name="passport_error_empty_phone_num">Въведете телефонен номер</string>
     <string name="passport_error_empty_pwd">Полето за парола не може да е празно</string>
     <string name="passport_error_empty_vcode">Въведете код за потвърждаване</string>
@@ -534,7 +549,7 @@ ID:%s
     <string name="passport_error_no_password_user">Все още не сте задали паролата. Впишете се с SMS.</string>
     <string name="passport_error_phone_error">Невалиден телефонен номер</string>
     <string name="passport_error_server">Грешка в сървъра</string>
-    <string name="passport_error_unknown">Непозната грешка</string>
+    <string name="passport_error_unknown">Неизвестна грешка</string>
     <string name="passport_error_user_agreement_error">Първо се съгласете с общите условия</string>
     <string name="passport_error_user_name">Въведеното от Вас потребителско име е невалидно</string>
     <string name="passport_forget_password"><u>Забравена парола</u></string>
@@ -581,8 +596,8 @@ ID:%s
     <string name="passport_unknow_error">Възникна неизвестна грешка</string>
     <string name="passport_unknow_host_network_error">Проверете мрежовите настройки и опитайте отново</string>
     <string name="passport_unknow_network_error">Възникна мрежова грешка</string>
-    <string name="passport_user_agreement_link">"&lt;Data>Прочетох и приемам's &lt;a href=\"%1$s\">Потребителското споразумение&lt;/a> и &lt;a href=\"%2$s\">Политиката на поверителност&lt;/a> на Xiaomi.&lt;/Data>"</string>
-    <string name="passport_user_agreement_link_more">"&lt;Data>Прочетох и приемам следните документи:'s &lt;a href=\"%1$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%4$s\">Политика на поверителност&lt;/a>, &lt;a href=\"%2$s\">\"%3$s\"&lt;/a> на Xiaomi.&lt;/Data>"</string>
+    <string name="passport_user_agreement_link">"&lt;Data>Прочетох и приемам's &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата на поверителност&lt;/a> на Xiaomi.&lt;/Data>"</string>
+    <string name="passport_user_agreement_link_more">"&lt;Data>Прочетох и приемам следните документи:'s &lt;a href=%1$s>Потребителско споразумение&lt;/a> и &lt;a href=%4$s>Правила на поверителност&lt;/a>, &lt;a href=%2$s>%3$s&lt;/a> на Xiaomi.&lt;/Data>"</string>
     <string name="passport_user_id_intro">Въведете парола за %1$s</string>
     <string name="passport_v_code_error">Кодът за потвърждение е невалиден</string>
     <string name="passport_vcode_notification_title">Потвърждаването на вписването Ви не е завършила</string>
@@ -595,7 +610,7 @@ ID:%s
     <string name="passport_wrong_phone_number_format">Форматът на въведения от Вас телефонен номер е невалиден</string>
     <string name="passport_wrong_vcode">Въведеният от Вас код е неправилен</string>
     <string name="passport_wrong_voice">Въведеният от Вас код е неправилен</string>
-    <string name="phone_bind_too_many">Този телефон бе свързан с няколко Mi профила за кратък период от време. Опитайте с използването на друг телефонен номер.</string>
+    <string name="phone_bind_too_many">Този телефон бе свързан с няколко Mi Профила за кратък период от време. Опитайте да използвате друг телефонен номер.</string>
     <string name="phone_hint">Телефонен номер</string>
     <string name="phone_num_use_for">Телефонният номер се използва за:</string>
     <string name="phone_number">Телефонен номер</string>
@@ -604,20 +619,30 @@ ID:%s
     <string name="post_miui_bbs_failed">Неуспешно публикуване във форума</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="privacy_category_title">Поверителност</string>
-    <string name="privacy_policy_title">Политика на поверителност</string>
+    <string name="privacy_policy_title">Правила за поверителност</string>
     <string name="privacy_policy_update_hint">"%1$s Privacy Policy was updated:
 %2$s
 Read and agree to the new version of %3$s before you continue."</string>
-    <string name="privacy_policy_update_title">Updated Privacy Policy</string>
+    <string name="privacy_policy_update_title">Обновени Правила за Поверителност</string>
+    <string name="progressbar_title">Проверява се за проблеми със сигурността…</string>
     <string name="psw_hint">Парола</string>
     <string name="psw_sign_in">Впишете се с парола</string>
     <string name="refresh">Опресняване</string>
+    <string name="register_by_local_phone_long_text">Създайте профил</string>
+    <string name="register_by_local_phone_short_text">Създайте профил</string>
     <string name="related_question_answer_details">Подобни проблеми</string>
     <string name="reply_failed">Не може да се изпрати мнение</string>
     <string name="reply_option_log_hint">По желание</string>
     <string name="reply_select_log_hint">Избери регистър</string>
     <string name="reply_successful">Обратната връзка е успешна</string>
     <string name="report_miui">Докладвай грешка</string>
+    <string name="request_agree">Разреши</string>
+    <string name="request_camera_permission_message">Ние ще защитаваме Вашите лични данни в съответствие с местното законодателство. Това приложение се нуждае от следните разрешения, за да функционира нормално:&lt;br>&lt;br>&lt;b>Достъп до камера (за задаване на профилна снимка)&lt;/b>&lt;br>&lt;br>Ако не приемете да дадете подобни разрешения няма да можете да използвате някои от функциите на това приложение; въпреки това ще разполагате с достъп до неговите основни функции. Винаги можете да ограничите разрешенията или да отмените упълномощението си в Настройки.</string>
+    <string name="request_cancel">Отказ</string>
+    <string name="request_error_invalid_token">Неуспешно потвърждаване</string>
+    <string name="request_error_network">Възникна мрежова грешка. Проверете мрежовите си настройки и опитайте отново.</string>
+    <string name="request_error_unknown">Възникна системна грешка. Върнете се назад и опитайте отново.</string>
+    <string name="request_gallery_permission_message">Разрешете достъп до Галерия:&lt;br />За настройване на профилни снимки</string>
     <string name="resend_active_email">Повторно изпращане</string>
     <string name="resend_email_reach_limit_message">Поискахте твръде много имейли за потвърждение. Уверете се, че имейлът за потвърждаване не е в спам кутията Ви.</string>
     <string name="resend_email_reach_limit_title">Твърде много опити</string>
@@ -641,7 +666,8 @@ Read and agree to the new version of %3$s before you continue."</string>
     <string name="set_success">Промяната е успешна</string>
     <string name="sign_in">Вписване</string>
     <string name="sign_in_progress">Вписване…</string>
-    <string name="sign_in_title">Впишете се във вашия Mi Профил</string>
+    <string name="sign_in_title">Влезте с Mi Профила си</string>
+    <string name="skip_query_account">Пропускане</string>
     <string name="sms_send_success">Успешно изпратено</string>
     <string name="sns_access_token_expired_warning">Сесията е изтекла. Впишете се пак, за да свържете отново този профил.</string>
     <string name="sns_bind_limit">Твърде много опити. Опитайте други начини за вписване.</string>
@@ -655,6 +681,7 @@ Read and agree to the new version of %3$s before you continue."</string>
     <string name="submit_dialog_confirm">Приемам</string>
     <string name="submit_dialog_content">&lt;Data>Прочетете и приемете нашите &lt;a href=\"%1$s\">Правила за поверителност&lt;/a> и &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> преди да изпратите отзив. Проблемите, за които докладвате, както и елементите, които прикачвате (включително докладите, които може да съдържат лична информация, както и информацията относно Вашето устройство и мрежа) ще бъдат качени в сървърите на MIUI. Това ще ни помогне да намерим и разрешим проблема, който докладвате. Ако докладвате за проблеми свързани с множество устройства, докладите от други устройства, където се използва Вашия Mi Профил, също ще бъдат качени.&lt;/Data></string>
     <string name="submit_dialog_content_global">&lt;Data>Вашата обратна връзка, заедно с прикачените файлове (ако има такива) и регистри (можете да премахнете отметките на съответните кутии за елементите, които не искате да качвате), ще бъде изпратена до сървърите на MIUI. Регистрите може да съдържат лична информация и данни за местоположението Ви. Избирането на \"Съгласявам се\" означава, че сте прочели и сте съгласни с нашите &lt;a href=\"%1$s\">Правила за поверителност&lt;/a> и &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a>.&lt;/Data></string>
+    <string name="submit_dialog_content_global_with_contactinfo">&lt;Data>Вашите отзиви, заедно с прикачените файлове (ако има такива) и регистри (можете да премахнете отметките на съответните кутии за елементите, които не желаете да качвате), ще бъде изпратена до сървърите на MIUI. Регистрите може да съдържат лична информация и данни за местоположението Ви. Избирането на \"Приемам\" означава, че сте прочели и сте съгласни с нашите &lt;a href=\"%1$s\">Правила за поверителност&lt;/a> и &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a>.&lt;/Data></string>
     <string name="submit_dialog_not_show_again">Не показвай отново</string>
     <string name="submit_dialog_title">Изпращане на доклад до Mi</string>
     <string name="submit_feedback_info_failed">Не може да се изпрати доклад</string>
@@ -668,6 +695,7 @@ Read and agree to the new version of %3$s before you continue."</string>
     <string name="sunday_short">Нед.</string>
     <string name="sunday_shortest">Нед.</string>
     <string name="system_app_select">Системни приложения</string>
+    <string name="system_error_info">Системата е заета. Изчакайте минута-две и опитайте отново.</string>
     <string name="tab_title_chat">ЧЗВ</string>
     <string name="tab_title_my_reports">Моите доклади</string>
     <string name="tab_title_preferences">Настройки</string>
@@ -759,6 +787,7 @@ Read and agree to the new version of %3$s before you continue."</string>
     <string name="tuesday">Вторник</string>
     <string name="tuesday_short">Вт.</string>
     <string name="tuesday_shortest">Вт.</string>
+    <string name="unknown_error_info">Неизвестна грешка</string>
     <string name="update_dialog_cancel">Отказ</string>
     <string name="update_dialog_confirm">Обнови</string>
     <string name="update_dialog_content_log">"Какво ново:
@@ -766,28 +795,38 @@ Read and agree to the new version of %3$s before you continue."</string>
 Размер: %2$s"</string>
     <string name="update_dialog_content_version">Можете да обновите до версия %1$s сега.</string>
     <string name="update_dialog_title">Налично е обновление</string>
-    <string name="update_email_address_dialog_message">Необходимо е да потвърдите самоличността си, преди да обновите имейла за възстановяване.</string>
+    <string name="update_email_address_dialog_message">Преди да обновите имейла за възстановяване трябва да потвърдите самоличността си.</string>
     <string name="update_email_address_dialog_title">Обновяване на имейла за възстановяване</string>
     <string name="update_phone_notice">Променете настройките за сигурност</string>
     <string name="upload_error_log">Качване на регистъра</string>
     <string name="upload_log_failed">Не мога да изпратя историята</string>
+    <string name="user_agreement_hint_3rd_app">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> както и &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_mobile">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%5$s>Правилата и условията на услугите за верификация на China Mobile&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_with_telecom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%5$s>Правилата и условията на услугите за верификация на профил на eSurfing&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_with_unicom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%5$s>Правилата и условията на услугите за верификация на China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_default">&lt;Data>Прочетох и приех &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил.&lt;/Data></string>
+    <string name="user_agreement_hint_first_login">Ако използвате телефонния си номер за пръв път ние ще създадем профил автоматично.</string>
+    <string name="user_agreement_hint_with_mobile">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на China Mobile&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_with_telecom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на профил на eSurfing&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_with_unicom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на China Unicom&lt;/a>.&lt;/Data></string>
     <string name="user_avatar_update_title">Промяна на профилната снимка</string>
     <string name="user_avatar_uploading">Момент…</string>
-    <string name="user_id_hint">Имейл/Телефон/ИН на Mi профил</string>
-    <string name="user_must_known">Attention</string>
-    <string name="user_must_known_content">"You won't be able to keep using our services unless you agree to the new version of our %s. Agree to the updated Privacy Policy now?"</string>
+    <string name="user_id_hint">Имейл/Телефон/Номер на Mi Профил</string>
+    <string name="user_must_known">Внимание</string>
+    <string name="user_must_known_content">Няма да можете да продължите да използвате нашите услуги ако не приемете новата версия на нашите %s. Приемате ли обновените Правила за поверителност?</string>
+    <string name="user_name_phone_number">Телефонен номер</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
     <string name="v_code_title">Въведете код за проверка</string>
     <string name="wednesday">Сряда</string>
     <string name="wednesday_short">Ср.</string>
     <string name="wednesday_shortest">Ср.</string>
-    <string name="withdraw">Withdraw</string>
-    <string name="withdraw_consent">Withdrawal of consent</string>
-    <string name="withdraw_consent_failed">"Couldn't withdraw consent"</string>
-    <string name="withdraw_consent_failed_hint">A server error occurred. Wait a minute or two and try again.</string>
-    <string name="withdraw_consent_failed_hint_connect_net">Your device needs to connect to the network for you to be able to withdraw consent. Check your network settings and try again.</string>
-    <string name="withdraw_consent_hint">"If you continue, you'll withdraw your consent to the Privacy Policy of %1$s. The personal information already collected and retained will be deleted within the specific period in accordance with applicable laws and regulations unless required otherwise. As %2$s provides its services based on the collection of the necessary personal information, your withdrawal of consent will be held as refusing to accept %3$s services. Withdraw consent now?"</string>
-    <string name="withdrawing">Withdrawing consent…</string>
+    <string name="withdraw">Оттегляне</string>
+    <string name="withdraw_consent">Оттегляне на съгласие</string>
+    <string name="withdraw_consent_failed">Неуспешно оттегляне на съгласие</string>
+    <string name="withdraw_consent_failed_hint">Възникна грешка в сървъра. Изчакайте минута-две и опитайте отново.</string>
+    <string name="withdraw_consent_failed_hint_connect_net">Вашето устройство се нуждае от връзка с мрежата, за да можете да оттеглите съгласието си. Проверете мрежовите си настройки и опитайте отново.</string>
+    <string name="withdraw_consent_hint">Ако продължите, вие ще оттеглите съгласието си за Правилата за поверителност на %1$s. Вече събраните лични данни ще бъдат изтрити в рамките на специфичния период посочен в приложимото законодателство.%2$s предоставя услуги въз основа на събирането на необходимите лични данни. Вашето оттегляне на съгласие ще се смята за отказ от услугите предоставени от %3$s. Желаете ли да оттеглите съгласието си?</string>
+    <string name="withdrawing">Оттегляне на съгласие…</string>
     <string name="yesterday">Вчера</string>
 </resources>

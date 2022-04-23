@@ -276,10 +276,10 @@ Mawrth Vallis"</string>
     <string name="update">Обновление</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
-    <string name="wallpaper_setting_aod_wallpaper_banner_button_text">Винаги-Наличен</string>
+    <string name="wallpaper_setting_aod_wallpaper_banner_button_text">Винаги включен дисплей</string>
     <string name="wallpaper_setting_find_more_text">Още онлайн тапети</string>
     <string name="wallpaper_setting_home_wallpaper_banner_button_text">Начален екран</string>
-    <string name="wallpaper_setting_lock_screen_wallpaper_banner_button_text">Заключен екран</string>
+    <string name="wallpaper_setting_lock_screen_wallpaper_banner_button_text">Заключване на екрана</string>
     <string name="wallpaper_setting_online_wallpaper_actionbar_title">Онлайн тапети</string>
     <string name="wallpaper_setting_online_wallpaper_none_title">Открий тапети</string>
     <string name="wallpaper_setting_online_wallpaper_title">Онлайн тапети</string>

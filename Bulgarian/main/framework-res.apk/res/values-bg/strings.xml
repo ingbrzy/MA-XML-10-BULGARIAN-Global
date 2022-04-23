@@ -23,6 +23,7 @@
     <string name="dialog_alert_title">Внимание</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Този видеоклип не е валиден за поточно предаване към това устройство.</string>
     <string name="selectTextMode">Избор на текст</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Икона за отпечатък</string>
     <string name="paste_as_plain_text">Поставяне като неформатиран текст</string>
     <string name="autofill">Автоматично попълване</string>
@@ -626,6 +627,7 @@
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Кодът за функцията се изпълни.</string>
     <string name="fcError">Има проблем с връзката или кодът за функцията е невалиден.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="find">Намиране</string>
     <string name="find_next">Търсене на следващото</string>
     <string name="find_on_page">Намиране в страницата</string>
@@ -833,6 +835,7 @@
     <string name="kg_reordering_delete_drop_target_text">Премахване</string>
     <string name="kg_sim_pin_instructions">Въведете ПИН кода за SIM картата</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM картата се отключва…</string>
+    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Въведохте неправилно паролата си %1$d пъти. 
 
 Опитайте отново след %2$d секунди."</string>
@@ -874,7 +877,7 @@
     <string name="lockscreen_access_pattern_detected">Фигурата е завършена</string>
     <string name="lockscreen_access_pattern_start">Фигурата е започната</string>
     <string name="lockscreen_carrier_default">Няма покритие</string>
-    <string name="lockscreen_emergency_call">Спешни случаи</string>
+    <string name="lockscreen_emergency_call">Спешно обаждане</string>
     <string name="lockscreen_failed_attempts_almost_at_wipe">Направихте опит да отключите телефона неправилно %1$d пъти. След още %2$d неуспешни опита ще бъдат възстановени стандартните му фабрични настройки и всички потребителски данни ще бъдат заличени.</string>
     <string name="lockscreen_failed_attempts_almost_glogin">"Начертахте неправилно фигурата си за отключване %1$d пъти. След още %2$d неуспешни опита ще бъдете помолени да отключите телефона посредством данните си за вход в Google.
 
@@ -1148,6 +1151,7 @@
     <string name="notification_hidden_text">Ново известие</string>
     <string name="notification_history_title_placeholder">Персонализирано известие за приложение</string>
     <string name="notification_listener_binding_label">Слушател на известия</string>
+    <string name="notification_messaging_title_template">„%1$s“: %2$s</string>
     <string name="notification_ranker_binding_label">Услуга за класифициране на известията</string>
     <string name="notification_reply_button_accessibility">Отговор</string>
     <string name="notification_title">Грешка при влизането за %1$s</string>
@@ -1167,7 +1171,7 @@
     <string name="org_name">Организация:</string>
     <string name="org_unit">Организационна единица:</string>
     <string name="other_networks_no_internet">Мрежата няма достъп до интернет</string>
-    <string name="owner_name">собственик</string>
+    <string name="owner_name">Собственик</string>
     <string name="package_deleted_device_owner">Изтрито от администратора ви</string>
     <string name="package_installed_device_owner">Инсталирано от администратора ви</string>
     <string name="package_updated_device_owner">Актуализирано от администратора ви</string>
@@ -1747,6 +1751,7 @@
     <string name="terabyteShort">ТБ</string>
     <string name="test_harness_mode_notification_message">Възстановете фабричните настройки, за да деактивирате режима за тестова среда.</string>
     <string name="test_harness_mode_notification_title">Режимът за тестова среда е активиран</string>
+    <string name="tethered_notification_message">Чукнете за настройка.</string>
     <string name="tethered_notification_multi_device_message">%1$s свързани устройства</string>
     <string name="tethered_notification_no_device_message">Няма свързано устройство</string>
     <string name="tethered_notification_one_device_message">%1$s свързано устройство</string>
@@ -1811,7 +1816,7 @@
     <string name="user_logging_out_message">%1$s излиза…</string>
     <string name="user_owner_label">Превключване към личния потребителски профил</string>
     <string name="user_switched">Текущ потребител %1$s.</string>
-    <string name="user_switching_message">Превключва се към %1$s…</string>
+    <string name="user_switching_message">Превключва се към: %1$s…</string>
     <string name="validity_period">Валидност:</string>
     <string name="volume_alarm">Сила на звука на будилника</string>
     <string name="volume_bluetooth_call">Сила на звука при обаждане през Bluetooth</string>
@@ -1913,6 +1918,7 @@
     <string name="zen_mode_feature_name">Не безпокойте</string>
     <string name="zen_mode_forever">До изключване</string>
     <string name="zen_mode_forever_dnd">Докато не изключите „Не безпокойте“</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">До %1$s</string>
     <string name="zen_upgrade_notification_content">Докоснете, за да проверите какво е блокирано.</string>
     <string name="zen_upgrade_notification_title">Настройките за „Не безпокойте“ са променени</string>

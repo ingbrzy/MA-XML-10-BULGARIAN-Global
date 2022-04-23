@@ -100,6 +100,18 @@
         <item quantity="other">%d видеоклип</item>
         <item quantity="one">%d клип</item>
     </plurals>
+    <plurals name="mangotv_feature_list_title1">
+        <item quantity="other">Достъпни са %1$1d от %2$2d епизода</item>
+        <item quantity="one">Достъпен е %1$1d от %2$2d епизода</item>
+    </plurals>
+    <plurals name="mangotv_feature_list_title2">
+        <item quantity="other">Достъпни са %1$1d от %2$2d епизода</item>
+        <item quantity="one">Достъпен е %1$1d от %2$2d епизода</item>
+    </plurals>
+    <plurals name="mangotv_feature_list_title_all">
+        <item quantity="other">Общо %d епизода</item>
+        <item quantity="one">Общо %d епизод</item>
+    </plurals>
     <plurals name="mediation_animate_close_after">
         <item quantity="other">остават %s сек</item>
         <item quantity="one">остават %s сек</item>
@@ -107,6 +119,10 @@
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d избрани елементи</item>
         <item quantity="one">%d избран елемент</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нови известия</item>
+        <item quantity="one">%d ново известие</item>
     </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">Вашето съдържание съдържа неща (%1$s), които нарушават стандартите на нашата общност. Профилът Ви е деактивиран за %2$d дни – до %3$s.</item>

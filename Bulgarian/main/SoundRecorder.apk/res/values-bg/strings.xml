@@ -84,7 +84,7 @@
     <string name="details">Детайли</string>
     <string name="dialog_content_storage_full">Поради липса на място за съхранение звукозаписът беше спрян.</string>
     <string name="dialog_privacy_revoke_tips">След като отмените разрешението, приложението ще спре да събира данни и всички свързани данни ще бъдат изтрити от сървърите. Това може да направи приложението практически неизползваемо. Наистина ли искате да отмените разрешението? За да гарантирате сигурността на профила си, влезте в i.mi.com преди да отмените разрешението за услугите на Xiaomi Cloud.</string>
-    <string name="dialog_title_storage_full">Малко място</string>
+    <string name="dialog_title_storage_full">Няма достатъчно място</string>
     <string name="download">Изтегляне</string>
     <string name="duration_format_hour">%s ч</string>
     <string name="duration_format_minute">%s мин</string>
@@ -195,7 +195,7 @@
     <string name="korea_permission_phone_resc">За достъп до състоянието на устройството и управление на записите по време на обаждания</string>
     <string name="korea_permission_record">Микрофон</string>
     <string name="korea_permission_record_resc">За записване на звук</string>
-    <string name="korea_permission_storage">Съхранение</string>
+    <string name="korea_permission_storage">Памет</string>
     <string name="korea_permission_storage_desc">За съхраняване на записи</string>
     <string name="loading_more">Момент…</string>
     <string name="loading_order_list">Момент…</string>
@@ -297,6 +297,7 @@
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -329,6 +330,11 @@
     <string name="network_tip_dialog_title">Необходима е връзка с интернет</string>
     <string name="network_unavailable_tip">Свържете се с мрежата и опитайте отново.</string>
     <string name="new_record_name">Нов звукозапис</string>
+    <string name="new_saf_permission_dialog_content">"Разрешенията за Звукозапис бяха обновени. Разрешете на Звукозапис да получава достъп до записи от повиквания.
+
+Как се дава разрешение
+Натиснете \"%1$s\", след това изберете \"%2$s\"."</string>
+    <string name="new_saf_permission_dialog_grant_permission_immediately">Напред</string>
     <string name="night">Вечер</string>
     <string name="no_content">Тук още няма елементи</string>
     <string name="no_file">Няма звукозаписи</string>
@@ -386,6 +392,8 @@
     <string name="permission_desc">Подробности за разрешения</string>
     <string name="permission_dialog_cancel">Отказ</string>
     <string name="permission_dialog_ok">Настройки</string>
+    <string name="permission_read_phone_state">Достъп до информация за устройството</string>
+    <string name="permission_read_phone_state_description">За получаване на достъп до състояние на повикване с цел автоматично прекратяване на записа при получаване на повикване</string>
     <string name="permission_record">Записване на аудио</string>
     <string name="permission_record_description">За предоставяне на услуги за записване на аудио</string>
     <string name="permission_storage">Достъп до паметта</string>
@@ -625,6 +633,7 @@
     <string name="the_united_nations_day">Ден на обединените нации</string>
     <string name="the_valentines_day">Свети Валентин</string>
     <string name="the_water_lantern_festival">Фестивал на водните фенери</string>
+    <string name="this_folder">Използване на тази папка</string>
     <string name="thursday">Четвъртък</string>
     <string name="thursday_short">Четв.</string>
     <string name="thursday_shortest">Четв.</string>
@@ -634,7 +643,7 @@
     <string name="timer_format" formatted="false">%02d:%02d</string>
     <string name="title_activity_recinbox_sdk_browser">RecinboxSdkBrowser</string>
     <string name="toast_max_record_time">App: %1$s максимално време за запис %2$s</string>
-    <string name="toast_uninstall_fileexplorer">Файлов мениджър не е инсталиран</string>
+    <string name="toast_uninstall_fileexplorer">Управление на файлове не е инсталиран</string>
     <string name="today">Днес</string>
     <string name="tomorrow">Утре</string>
     <string name="trash_box">Наскоро изтрити елементи</string>

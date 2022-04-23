@@ -77,6 +77,8 @@
         <item>Аудио: aptX™ от Qualcomm®</item>
         <item>Аудио: aptX™ HD от Qualcomm®</item>
         <item>LDAC</item>
+        <item>Аудио: Qualcomm® aptX™ Adaptive</item>
+        <item>Аудио: Qualcomm® aptX™ TWS+</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Използване на сист. избор (стандартно)</item>
@@ -85,6 +87,8 @@
         <item>Аудио: aptX™ от Qualcomm®</item>
         <item>Аудио: aptX™ HD от Qualcomm®</item>
         <item>LDAC</item>
+        <item>Аудио: Qualcomm® aptX™ Adaptive</item>
+        <item>Аудио: Qualcomm® aptX™ TWS+</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -176,7 +180,7 @@
         <item>Рег. буфер – 256 КБ</item>
         <item>Рег. буфер – 1 МБ</item>
         <item>Рег. буфер – 4 МБ</item>
-        <item>Регистрационен буфер – 8 МБ</item>
+        <item>Рег. буфер – 16 МБ</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Изключено</item>
@@ -184,7 +188,7 @@
         <item>256 КБ</item>
         <item>1 МБ</item>
         <item>4 МБ</item>
-        <item>8 МБ</item>
+        <item>16 МБ</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Изкл.</item>
@@ -260,20 +264,6 @@
         <item>Прекъсната</item>
         <item>Изключва се от %1$s...</item>
         <item>Изкл.</item>
-        <item>Неуспешно</item>
-        <item>Блокирано</item>
-        <item>Временно се избягва лоша връзка</item>
-    </string-array>
-    <string-array name="wifitrackerlib_wifi_status">
-        <item></item>
-        <item>Сканира се…</item>
-        <item>Установява се връзка…</item>
-        <item>Удостоверява се…</item>
-        <item>IP адресът се извлича…</item>
-        <item>Установена е връзка</item>
-        <item>Спряно</item>
-        <item>Връзката се прекратява…</item>
-        <item>Няма връзка</item>
         <item>Неуспешно</item>
         <item>Блокирано</item>
         <item>Временно се избягва лоша връзка</item>

@@ -15,11 +15,11 @@
     <string name="device_xiaomi">Mi Телефон</string>
     <string name="notice_audition">Природни звуци</string>
     <string name="acousticguitar">Акустична китара</string>
+    <string name="africaanimals_preview">Савана</string>
     <string name="alarmclock">Будилник</string>
+    <string name="amazonanimals_preview">Джунгла</string>
     <string name="android_ringtone_default_with_actual">Мелодия по подразбиране (%1$s)</string>
     <string name="anniversary_of_lifting_martial_law">Годишнина от геройски загиналите</string>
-    <string name="anti_aggression_day">Световен ден против насилието</string>
-    <string name="arbor_day">Ден на залесяването</string>
     <string name="miui_lock_screen_date">EEEE dd/MM</string>
     <string name="miui_lock_screen_date_12">EEEE dd/MM</string>
     <string name="miui_lock_screen_large_date">"EEE
@@ -35,15 +35,19 @@ mm"</string>
     <string name="miui_vertical_time_format_12">"hh
 mm"</string>
     <string name="miui_clock_city_name_local">Местно</string>
+    <string name="anti_aggression_day">Световен ден против насилието</string>
+    <string name="arbor_day">Ден на залесяването</string>
+    <string name="arcticanimals_preview">Арктика</string>
     <string name="armed_forces_day">Ден на въоръжените сили</string>
     <string name="asend">Изпращане</string>
     <string name="atlantis">Атлантида (стерео)</string>
+    <string name="miui_clock_city_name_second">Втори часовник</string>
+    <string name="australiaanimals_preview">Австралия</string>
     <string name="autumn_begins">Първа пролет</string>
     <string name="autumn_equinox">Есенно равноденствие</string>
     <string name="beep">Сигнал</string>
-    <string name="miui_clock_city_name_second">Втори часовник</string>
     <string name="bells">Камбани</string>
-    <string name="birdcicada_preview">Природа – Птици и светулки</string>
+    <string name="birdcicada_preview">Птици и светулки</string>
     <string name="blues">Блус</string>
     <string name="bottle">Бутилка</string>
     <string name="breeze">Бриз</string>
@@ -188,9 +192,11 @@ mm"</string>
     <string name="slight_cold">Осаму</string>
     <string name="slight_heat">лек</string>
     <string name="solar_calendar">Григориански календар</string>
+    <string name="southwestmountain_preview">Планини</string>
     <string name="spaceage">Космос</string>
     <string name="spring">Пружина</string>
     <string name="spring_begins">Първа пролет</string>
+    <string name="stoneskimming_preview">Леки стъпки</string>
     <string name="stopping_the_heat">Края на лятото</string>
     <string name="summer_begins">Начало на лятото</string>
     <string name="summer_solstice">Лятно слънцестоене</string>
@@ -229,7 +235,7 @@ mm"</string>
     <string name="wallpaper_group_natural_texture_title">Природни мотиви</string>
     <string name="wallpaper_group_red_mars_subtitle">NASA, JPL, Университета на Аризона</string>
     <string name="wallpaper_group_red_mars_title">Марс</string>
-    <string name="waterdrop_preview">Природа – Капки</string>
+    <string name="waterdrop_preview">Капки</string>
     <string name="white_dews">Бай Лу</string>
     <string name="windchime">Вятърни тонове</string>
     <string name="winter_begins">Начало на зимата</string>

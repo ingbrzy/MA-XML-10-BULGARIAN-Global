@@ -252,6 +252,7 @@
     <string name="back">Назад</string>
     <string name="bank_card_detail">Кредитна карта</string>
     <string name="bcc">Bcc</string>
+    <string name="bcc_heading">"Препращане на: "</string>
     <string name="bill_center_setting">Настройки на сметките</string>
     <string name="bill_center_setting_head">Импортиране на информация от профила</string>
     <string name="bill_cycle_text">Цикъл на плащане</string>
@@ -273,6 +274,7 @@
     <string name="cancel_pop3_attchemt_downloading">Не може да отмените текущите изтегляния за прикачени файлове в POP3 профили</string>
     <string name="cant_move_or_change_labels">Не може да премествате елементи от много профили.</string>
     <string name="cc">Cc</string>
+    <string name="cc_attribution">Копие до %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Копие до: "</string>
     <string name="certificate_add_failed">Неуспешно добавяне на сертификата „% s“</string>
@@ -302,6 +304,7 @@
     <string name="click_to_reload">Докоснете екрана, за да се обнови</string>
     <string name="close">Затваряне</string>
     <string name="collapse_recipient_details">Скриване на данни за получателя</string>
+    <string name="colon">:</string>
     <string name="compose">Съставяне на</string>
     <string name="compose_event">Покана</string>
     <string name="compose_paste_address_oob">Твърде много символи</string>
@@ -617,6 +620,7 @@
     <string name="go_to_mail_content">Преглед на имейл</string>
     <string name="have_auth_code">Имам код</string>
     <string name="header_category_account">Профили</string>
+    <string name="header_category_general">@string/header_label_general_preferences</string>
     <string name="header_label_general_preferences">Общи настройки</string>
     <string name="help_and_info">Помощ</string>
     <string name="help_me_get_qq_auth">Получете код</string>
@@ -636,9 +640,9 @@
     <string name="installation_failed">Инсталирането не бе успешно.</string>
     <string name="installing_module">Модулът се инсталира:</string>
     <string name="interact_with_server_error">Неуспешен опит за свързване със сървъра</string>
-    <string name="invalid_recipient">"Адресът %s  е невалиден."</string>
     <string name="invalid_recipient_title">Получателят не съществува</string>
     <string name="kilobytes">"%s  КБ"</string>
+    <string name="label_notification_ticker">%1$s: %2$s</string>
     <string name="list_empty_to_fresh">Все още няма имейли.</string>
     <string name="load_from_remote">Търсене на пощенска кутия на сървъра</string>
     <string name="load_more">Зареди още</string>
@@ -1161,6 +1165,7 @@
 %s"</string>
     <string name="single_new_message_notification_big_text">"%1$s
 %2$s"</string>
+    <string name="single_new_message_notification_title">%1$s: %2$s</string>
     <string name="size_byte">Б</string>
     <string name="size_giga_byte">ГБ</string>
     <string name="size_kilo_byte">КБ</string>
@@ -1170,6 +1175,7 @@
     <string name="size_tera_byte">ТБ</string>
     <string name="smtp_password_error">Паролата за сървъра за изходяща поща е неправилна</string>
     <string name="sort_attachment">Сортиране по</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="str_select_all">Избери всички</string>
     <string name="str_select_none">Откажи всички</string>
     <string name="subject_and_snippet">%1$s - %2$s</string>

@@ -27,11 +27,12 @@
     <string name="abc_shareactionprovider_share_with">Споделяне със:</string>
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
-    <string name="app_name">Услуги за FM Радио</string>
-    <string name="frequency_mhz_fomart">%sMHZ</string>
-    <string name="notification_rec_title">Чукнете за преглед на записа</string>
-    <string name="record_completed">Записът завърши</string>
+    <string name="accessing_notification_title">От %1$s се осъществява достъп до файловете</string>
+    <string name="app_label">MTP хост</string>
+    <string name="downloads_app_label">Изтегляния</string>
+    <string name="error_busy_device">Другото устройство е заето. Не можете да прехвърляте файлове, докато то не се освободи.</string>
+    <string name="error_locked_device">Няма намерени файлове. Другото устройство може да е заключено. Ако е така, отключете го и опитайте отново.</string>
+    <string name="root_name">%2$s на %1$s</string>
     <string name="search_menu_title">Търсене</string>
-    <string name="station_freq_format">%sMHz</string>
     <string name="status_bar_notification_info_overflow">999+</string>
 </resources>

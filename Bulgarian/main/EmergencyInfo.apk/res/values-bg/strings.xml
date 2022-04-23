@@ -302,7 +302,6 @@
     <string name="enable_verbose_vendor_logging">Подр. рег. файлове за доставчиците: Актив.</string>
     <string name="enable_verbose_vendor_logging_summary">Включване на допълнителни регистрационни файлове за доставчиците на конкретни устройства в сигналите за програмни грешки, които може да съдържат поверителна информация, да изразходват батерията в по-голяма степен и/или да използват повече място в хранилището.</string>
     <string name="enabled_by_admin">Активирано от администратора</string>
-    <string name="enhanced_connectivity">Подобрена свързаност</string>
     <string name="enhanced_connectivity_summary">Активира функцията за подобрена свързаност.</string>
     <string name="expand_button_title">Разширени</string>
     <string name="external_source_trusted">Има разрешение</string>
@@ -335,7 +334,7 @@
     <string name="ims_reg_status_not_registered">Не е регистрирано</string>
     <string name="ims_reg_status_registered">Регистрирано</string>
     <string name="ims_reg_title">Състояние на регистрацията за незабавни съобщения</string>
-    <string name="imsi_protection_warning">Тази мрежа получава уникален идентификатор, който може да се използва за проследяване на местоположението на устройството. <annotation id="url">Научете повече</annotation></string>
+    <string name="imsi_protection_warning">Тази мрежа получава идентификатор за SIM карта, който може да се използва за проследяване на местоположението на устройството. <annotation id="url">Научете повече</annotation></string>
     <string name="inactive_app_active_summary">Активно. Докоснете, за да превключите.</string>
     <string name="inactive_app_inactive_summary">Неактивно. Докоснете, за да превключите.</string>
     <string name="inactive_apps_title">Приложения в готовност</string>
@@ -609,6 +608,7 @@
     <string name="wifi_cant_connect">Не може да се установи връзка</string>
     <string name="wifi_cant_connect_to_ap">Не може да се установи връзка с/ъс %1$s</string>
     <string name="wifi_check_password_try_again">Проверете паролата и опитайте отново</string>
+    <string name="wifi_connected_low_quality">Ниско качество</string>
     <string name="wifi_connected_no_internet">Няма интернет</string>
     <string name="wifi_disabled_by_recommendation_provider">Не е установена връзка поради ниското качество на мрежата</string>
     <string name="wifi_disabled_generic">Деактивирани</string>

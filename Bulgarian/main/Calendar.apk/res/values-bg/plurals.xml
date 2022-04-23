@@ -60,6 +60,10 @@
         <item quantity="other">Преди %d мин</item>
         <item quantity="one">Преди 1 мин</item>
     </plurals>
+    <plurals name="after_num_minutes">
+        <item quantity="other">След %d мин</item>
+        <item quantity="one">След %d мин</item>
+    </plurals>
     <plurals name="anniversary_day">
         <item quantity="other">%1$s дни</item>
         <item quantity="one">%1$s ден</item>
@@ -188,6 +192,10 @@
         <item quantity="other">" дни"</item>
         <item quantity="one">" ден"</item>
     </plurals>
+    <plurals name="other_num_events">
+        <item quantity="other">Още %d събития</item>
+        <item quantity="one">Още %d събитие</item>
+    </plurals>
     <plurals name="repeat_custom_prompt">
         <item quantity="other">всеки%1$s на %2$s</item>
         <item quantity="one">всеки%1$s на %2$s</item>
@@ -236,6 +244,10 @@
         <item quantity="other">Очакван ден %1$d от цикъла</item>
         <item quantity="one">Очакван ден %1$d от цикъла</item>
     </plurals>
+    <plurals name="today_has_num_event">
+        <item quantity="other">%d събития днес</item>
+        <item quantity="one">%d събитие днес</item>
+    </plurals>
     <plurals name="travel_eta_advice">
         <item quantity="other">%2$s минути шофиране до %1$s.</item>
         <item quantity="one">%2$s минута шофиране до %1$s.</item>
@@ -243,6 +255,30 @@
     <plurals name="weekN">
         <item quantity="other">СЕДМИЦИ %d</item>
         <item quantity="one">СЕДМИЦА %d</item>
+    </plurals>
+    <plurals name="widget_countdown_day">
+        <item quantity="other">%1$s дни</item>
+        <item quantity="one">%1$s ден</item>
+    </plurals>
+    <plurals name="widget_custom_unit_day">
+        <item quantity="other">%d дни</item>
+        <item quantity="one">%d ден</item>
+    </plurals>
+    <plurals name="widget_normal_agenda_going_counts">
+        <item quantity="other">%d събития в момента</item>
+        <item quantity="one">%d събитие в момента</item>
+    </plurals>
+    <plurals name="widget_normal_agenda_next_minutes">
+        <item quantity="other">Следващото събитие започва след %d мин</item>
+        <item quantity="one">Следващото събитие започва след %d мин</item>
+    </plurals>
+    <plurals name="widget_normal_agenda_tomorrow_total">
+        <item quantity="other">%d събития утре</item>
+        <item quantity="one">%d събитие утре</item>
+    </plurals>
+    <plurals name="widget_weekN">
+        <item quantity="other">Седмица %d</item>
+        <item quantity="one">Седмица %d</item>
     </plurals>
     <plurals name="work_days">
         <item quantity="other">%d работни дни</item>

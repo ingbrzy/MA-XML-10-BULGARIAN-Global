@@ -82,6 +82,7 @@
     <string name="account_verify_guide_bind_mail_desc">Добавяне на имейл за възстановяване</string>
     <string name="account_verify_guide_bind_phone_desc">Добавяне на телефон за възстановяване</string>
     <string name="account_verify_guide_set_password_desc">Задаване на парола</string>
+    <string name="account_verify_guide_verify_phone_desc">Потвърждаване на телефон за възстановяване</string>
     <string name="account_xiaomi_service">Услуги</string>
     <string name="action_add_phone">Добавяне на телефонен номер</string>
     <string name="action_retry">Опитайте отново</string>
@@ -91,7 +92,7 @@
     <string name="activity_not_found_notice">Не може да се намери приложението</string>
     <string name="add_account">Добавяне на профил</string>
     <string name="afternoon">Следобяд</string>
-    <string name="agreement_and_privacy">Условия за ползване</string>
+    <string name="agreement_and_privacy">Правила и условия</string>
     <string name="am">AM</string>
     <string name="app_name">Mi Профил</string>
     <string name="auth_fail_warning">Сесията е изтекла, опитайте по-късно</string>
@@ -121,6 +122,10 @@
     <string name="cloud_description_closed">Използвано | Синхронизирането е изключено</string>
     <string name="cloud_description_normal">Използвано</string>
     <string name="cloud_service">Xiaomi Cloud</string>
+    <string name="cloud_service_status_backup_not_open">Изключено е Резервно копие</string>
+    <string name="cloud_service_status_cloud_not_open">Изкл</string>
+    <string name="cloud_service_status_storage_full">Паметта е пълна</string>
+    <string name="cloud_service_status_storage_not_enough">Недостатъчно място</string>
     <string name="collect_diagnosis_log">Създаване на лог с диагностика</string>
     <string name="common_google_play_services_enable_button">Активиране</string>
     <string name="common_google_play_services_enable_text">%1$s няма да работи, освен ако не активирате услугите за Google Play.</string>
@@ -418,6 +423,8 @@ ID:%s
     <string name="notify_network_restricted_content_hidden_state">Дейността на Mi Профила на заден план е ограничена. Натиснете, за да разрешите.</string>
     <string name="notify_network_restricted_content_mobile_network">Достъпа на Mi Профила до интернет е ограничен. Натиснете, за да разрешите.</string>
     <string name="notify_network_restricted_title">Mi Профилът не може да се свърже с мрежата</string>
+    <string name="notify_verify_again_security_phone">Потвърди</string>
+    <string name="notify_verify_security_phone">Телефон</string>
     <string name="oauth_get_scopes_failed">Не може да се получи информация за профила</string>
     <string name="oauth_getting_scopes">Потвърждаване на профила…</string>
     <string name="oauth_scopes_intro">&lt;font color=#%1$s>%2$s&lt;/font> ще получи следните разрешения:&lt;br> &lt;br> %3$s</string>
@@ -493,7 +500,7 @@ ID:%s
     <string name="passport_error_sim_not_ready">Не е открита SIM карта</string>
     <string name="passport_error_ssl_hand_shake">Неуспешно свързване със сървъра</string>
     <string name="passport_error_unknown">Неуспешно вписване</string>
-    <string name="passport_error_user_agreement_error">Първо се съгласете с общите условия</string>
+    <string name="passport_error_user_agreement_error">Първо приемете правилата и условията</string>
     <string name="passport_error_user_name">Невалидно потребителско име</string>
     <string name="passport_error_verify_activator_phone_message">Уверете се, че вашата SIM карта е активна и телефонът ви е свързан с интернет.</string>
     <string name="passport_error_verify_activator_phone_title">Телефонният номер не беше потвърден</string>
@@ -551,8 +558,8 @@ ID:%s
     <string name="passport_phone_num_hint_text">Телефонен номер</string>
     <string name="passport_phone_ticket_login">Вписване със SMS</string>
     <string name="passport_prev">Назад</string>
-    <string name="passport_privacy_policy">Политика за поверителност</string>
-    <string name="passport_privacy_policy_required">Политика на поверителност (задължително)</string>
+    <string name="passport_privacy_policy">Правила за поверителност</string>
+    <string name="passport_privacy_policy_required">Правила за поверителност (задължително)</string>
     <string name="passport_provision_activator_phone_summary_sim1_prefix">SIM <xliff id="sim1" refersto="1">%1$d</xliff> %2$s</string>
     <string name="passport_provision_activator_phone_summary_sim2_prefix">SIM <xliff id="sim2" refersto="2">%1$d</xliff> %2$s</string>
     <string name="passport_provision_input_email_register_prompt">Вашите лични данни ще бъдат съхранявани в съответствие с законите и регулациите на избрания от Вас регион.</string>
@@ -678,7 +685,7 @@ ID:%s
     <string name="permission_group_contacts">Контакти</string>
     <string name="permission_group_phone">Телефон</string>
     <string name="permission_group_sms">SMS</string>
-    <string name="permission_group_storage">Хранилище</string>
+    <string name="permission_group_storage">Памет</string>
     <string name="permission_instructions">Употреба на разрешения</string>
     <string name="permission_read_sms">Достъп до съобщения</string>
     <string name="permission_withdraw">Оттегляне</string>

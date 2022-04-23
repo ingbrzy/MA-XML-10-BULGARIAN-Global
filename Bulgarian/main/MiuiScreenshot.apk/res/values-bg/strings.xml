@@ -35,8 +35,10 @@
     <string name="afternoon">Следобяд</string>
     <string name="am">AM</string>
     <string name="app_name">Екранна снимка</string>
+    <string name="can_drag">Плъзнете, за да внесете или изпратите</string>
     <string name="clearable_edittext_clear_description">Изчисти</string>
-    <string name="close">Затваряне</string>
+    <string name="close">Затвори</string>
+    <string name="custom_define_permission_desc_android.permission_group.STORAGE">За запазване на екранни снимки</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -102,12 +104,16 @@
     <string name="friday">Петък</string>
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
+    <string name="long_screenshot_error">Възникна грешка. Опитайте отново.</string>
     <string name="long_screenshot_guide_text">"Натиснете, за да направите
 дълга екранна снимка"</string>
+    <string name="long_screenshot_intercepted_error">Неуспешна екранна снимка. Опитайте отново.</string>
     <string name="long_screenshot_out_of_memory_error">Изображението е твърде голямо</string>
     <string name="long_screenshot_processing">Обработване…</string>
+    <string name="long_screenshot_processing_description_accessibility">Обработване</string>
     <string name="long_screenshot_stop">Готово</string>
     <string name="long_screenshot_top_msg">Създаване на екранна снимка…</string>
+    <string name="long_screenshot_top_msg_description_accessibility">Създаване на екранна снимка</string>
     <string name="long_screenshot_top_msg_manual">Изрежете снимката на екрана и натиснете бутона, за да завършите</string>
     <string name="midnight">Нощ</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Размаркиране на всички</string>
@@ -177,7 +183,7 @@
     <string name="noon">Обед</string>
     <string name="partial_screenshot_edit">Редактиране</string>
     <string name="partial_screenshot_failed_to_capture_title">Това приложение не позволява правене на екранни снимки</string>
-    <string name="partial_screenshot_failed_to_save_title">Неуспешно запазване. Недостатъчно място в паметта</string>
+    <string name="partial_screenshot_failed_to_save_title">Неуспешно запазване. Недостатъчно място в паметта.</string>
     <string name="partial_screenshot_insert_failed">Неуспешно запазване</string>
     <string name="partial_screenshot_repaint">Започни наново</string>
     <string name="partial_screenshot_save">Запази</string>
@@ -187,11 +193,13 @@
     <string name="saturday">Събота</string>
     <string name="saturday_short">Сб.</string>
     <string name="saturday_shortest">Сб.</string>
+    <string name="save_success">Успешно запазена</string>
     <string name="screenshot_edit">Редактиране</string>
     <string name="screenshot_failed_in_landscape_mode">Дългите снимки на екрана не са налични в режим Пейзаж</string>
     <string name="screenshot_feedback_txt">Обратна връзка</string>
     <string name="screenshot_insert_failed">Неуспешно зареждане на екранната снимка. Направете нова или вижте изображението в Галерия.</string>
     <string name="screenshot_long_screenshot">Дълга</string>
+    <string name="screenshot_save">Запази</string>
     <string name="screenshot_send">Изпращане</string>
     <string name="screenshot_thumbnail">Тъмнейл на екранната снимка</string>
     <string name="search_menu_title">Търсене</string>

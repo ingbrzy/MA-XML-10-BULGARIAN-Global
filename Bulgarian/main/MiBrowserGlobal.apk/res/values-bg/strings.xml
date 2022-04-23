@@ -730,6 +730,7 @@ ID:%s
     <string name="homepage_search_hint">Търсене</string>
     <string name="homepage_top_card_menu">Топ</string>
     <string name="hot_games">Популярни</string>
+    <string name="i_know">Стоп</string>
     <string name="identity">Идентифициране</string>
     <string name="if_cancel">Отмяна на действието?</string>
     <string name="ignore_add_game_center_dialog_this_week">Не показвай тази седмица</string>
@@ -1496,11 +1497,11 @@ ID:%s
     <string name="privacy_authorize_network_error">Вашето устройство се нуждае от връзка с мрежата, за да можете да оттеглите съгласието си. Проверете мрежовите си настройки и опитайте отново.</string>
     <string name="privacy_authorize_revoke">Отмяна</string>
     <string name="privacy_authorize_revoke_dialog_msg">След като отмените разрешението, Mi браузър ще спре събирането на данни и всички свързани с него данни ще бъдат изтрити от сървърите. Това може да направи Mi браузър практически неизползваем. Наистина ли искате да отмените разрешението?</string>
-    <string name="privacy_authorize_revoke_dialog_title">Отмяна на разрешението</string>
+    <string name="privacy_authorize_revoke_dialog_title">Отмяна на упълномощение</string>
     <string name="privacy_authorize_revoke_failed">Не може да се отмени разрешението</string>
     <string name="privacy_authorize_revoke_success">Разрешението е успешно отменено</string>
     <string name="privacy_authorize_revoke_time">Отменете (%1$ds)</string>
-    <string name="privacy_authorize_revoking">Отмяна на разрешението…</string>
+    <string name="privacy_authorize_revoking">Отмяна на упълномощение…</string>
     <string name="privacy_authorize_summary">Сменете превключвателя, за да потвърдите или отмените вашето упълномощение</string>
     <string name="privacy_authorize_title">Упълномощаване</string>
     <string name="privacy_btn_more">Още</string>

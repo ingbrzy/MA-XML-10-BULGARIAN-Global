@@ -99,7 +99,7 @@
     <string name="friday">Петък</string>
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
-    <string name="i_get_it">Got it</string>
+    <string name="i_get_it">Разбрах</string>
     <string name="icon_add_description">Добавяне на пряк път на Началния екран</string>
     <string name="icon_remove_confirm">Премахване</string>
     <string name="icon_remove_description_content">\"Услуги и обратна връзка\" е системно приложение. След като премахнете прекия път на Началния екран, все още ще можете да го използвате чрез Настройки.</string>
@@ -185,6 +185,9 @@
     <string name="miui_feedback_edit_toast_screenshot_too_large">Не може да се качват изображения или видео, по-големи от 100 MB</string>
     <string name="miui_feedback_edit_toast_third_packagename_required">Въведете име на приложението</string>
     <string name="miui_feedback_main_answer_title">Съществува отговор на този въпрос</string>
+    <string name="miui_feedback_main_customer_service_onfo_for_jp">"Служебна гореща връзка: 0120-300-521
+Работни часове: 9:00 - 18:00 (с изключение на банкови и календарни празници)
+Имейл: service.jp@xiaomi.com"</string>
     <string name="miui_feedback_main_frequent_question_title">ЧЗВ</string>
     <string name="miui_feedback_main_item_catch_full_log">Получаване на доклади</string>
     <string name="miui_feedback_main_item_customer_service">Следпродажбени услуги</string>
@@ -327,12 +330,12 @@
     <string name="permission_device_introduce">За определяне на период на ограничена гаранция</string>
     <string name="permission_exit">Изход</string>
     <string name="permission_external_storage_introduce">За записване и качване на вашия отзив</string>
-    <string name="permission_first_start_network_title">Общи условия</string>
+    <string name="permission_first_start_network_title">Правила и условия</string>
     <string name="permission_imei_disable_desc">Разрешете на това приложение достъп до интернет.</string>
     <string name="permission_imei_enable_desc">Разрешете на това приложение достъп до интернет и дайте задължителните разрешения изброени по-горе.</string>
     <string name="permission_location_introduce">За показване на сервизни пунктове наблизо</string>
     <string name="permission_main_purpose">Показване на демо функции на MIUI, изпращане на мнения и кандидатстване за следпродажбени услуги.</string>
-    <string name="permission_privacy">Политика за поверителност (задължително)</string>
+    <string name="permission_privacy">Правила за поверителност (задължително)</string>
     <string name="permission_region_version_msg">&lt;Data>Преди да използвате \"Услуги и обратна връзка\", трябва да прочетете и да се съгласите с нашето &lt;a href=%1$s>Потребителско споразумение&lt;/a> и &lt;a href=%2$s>Правила за поверителност&lt;/a>.&lt;/Data></string>
     <string name="permission_select_all">Изберете всички</string>
     <string name="permission_storage">Хранилище</string>
@@ -343,7 +346,7 @@
     <string name="privacy_policy_update_hint">"%1$s Privacy Policy was updated:
 %2$s
 Read and agree to the new version of %3$s before you continue."</string>
-    <string name="privacy_policy_update_title">Updated Privacy Policy</string>
+    <string name="privacy_policy_update_title">Обновени Правила за Поверителност</string>
     <string name="public_authorize_now">Настройки</string>
     <string name="public_loading_text">Момент…</string>
     <string name="public_net_error_retry">Опитайте отново</string>
@@ -413,16 +416,16 @@ Read and agree to the new version of %3$s before you continue."</string>
     <string name="tuesday">Вторник</string>
     <string name="tuesday_short">Вт.</string>
     <string name="tuesday_shortest">Вт.</string>
-    <string name="user_must_known">Attention</string>
-    <string name="user_must_known_content">"You won't be able to keep using our services unless you agree to the new version of our %s. Agree to the updated Privacy Policy now?"</string>
+    <string name="user_must_known">Внимание</string>
+    <string name="user_must_known_content">Няма да можете да продължите да използвате нашите услуги освен ако не приемете новата версия на нашите %s. Приемате ли обновените Правила за поверителност сега?</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
     <string name="wednesday">Сряда</string>
     <string name="wednesday_short">Ср.</string>
     <string name="wednesday_shortest">Ср.</string>
-    <string name="withdraw_consent_failed">"Couldn't withdraw consent"</string>
-    <string name="withdraw_consent_failed_hint">A server error occurred. Wait a minute or two and try again.</string>
-    <string name="withdraw_consent_failed_hint_connect_net">Your device needs to connect to the network for you to be able to withdraw consent. Check your network settings and try again.</string>
-    <string name="withdrawing">Withdrawing consent…</string>
+    <string name="withdraw_consent_failed">Неуспешно оттегляне на съгласие</string>
+    <string name="withdraw_consent_failed_hint">Възникна грешка в сървъра. Изчакайте минута-две и опитайте отново.</string>
+    <string name="withdraw_consent_failed_hint_connect_net">Вашето устройство се нуждае от връзка с мрежата, за да можете да оттеглите съгласието си. Проверете мрежовите си настройки и опитайте отново.</string>
+    <string name="withdrawing">Оттегляне на съгласие…</string>
     <string name="yesterday">Вчера</string>
 </resources>

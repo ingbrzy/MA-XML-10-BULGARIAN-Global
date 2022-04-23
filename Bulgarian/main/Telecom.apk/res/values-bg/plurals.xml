@@ -64,10 +64,6 @@
         <item quantity="other">%d избрани елементи</item>
         <item quantity="one">%d избран елемент</item>
     </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d нови известия</item>
-        <item quantity="one">%d ново известие</item>
-    </plurals>
     <plurals name="notification_missedCallTitle_miui">
         <item quantity="other">Пропуснати обаждания</item>
         <item quantity="one">Пропуснато обаждане</item>
