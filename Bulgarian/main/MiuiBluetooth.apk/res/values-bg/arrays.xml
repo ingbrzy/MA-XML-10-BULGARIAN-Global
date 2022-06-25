@@ -83,11 +83,6 @@
         <item>Qualcomm® aptX™ аудио</item>
         <item>Qualcomm® aptX™ HD аудио</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Адаптивно аудио</item>
-        <item>Qualcomm® aptX™ TWS+ аудио</item>
-        <item>LHDC V3/V4</item>
-        <item>LHDC V2</item>
-        <item>LHDC V1</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Използване на системни предпочитания (По подразбиране)</item>
@@ -96,13 +91,6 @@
         <item>Qualcomm® aptX™ аудио</item>
         <item>Qualcomm® aptX™ HD аудио</item>
         <item>LDAC</item>
-        <item>Qualcomm® aptX™ Адаптивно аудио</item>
-        <item>Qualcomm® aptX™ TWS+ аудио</item>
-        <item>LHDC V3/V4</item>
-        <item>LHDC V2</item>
-        <item>LHDC V1</item>
-        <item>Активиране на избирателни кодеци</item>
-        <item>Деактивиране на избирателни кодеци</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -136,8 +124,6 @@
         <item>Деактивирано</item>
         <item>Филтрирани</item>
         <item>Включено</item>
-        <item>Филтрирани заглавия</item>
-        <item>Филтрирани медия пакети</item>
     </string-array>
     <string-array name="color_mode_descriptions">
         <item>Подобрени цветове</item>
@@ -180,8 +166,8 @@
         <item>1080p (безопасно)</item>
         <item>4K</item>
         <item>4К (безопасно)</item>
-        <item>4K (по-голям мащаб)</item>
-        <item>4K (по-голям мащаб, безопасно)</item>
+        <item>4K (увеличена)</item>
+        <item>4K (увеличена, безопасно)</item>
         <item>720p, 1080p (двоен екран)</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
@@ -263,7 +249,7 @@
         <item>Зареждане</item>
         <item>MTP (Протокол за Трансфер на Медия)</item>
         <item>PTP (Протокол за Трансфер на Снимки)</item>
-        <item>RNDIS (USB Ethernet)</item>
+        <item>RNDIS (USB Вътрешна мрежа)</item>
         <item>Източник на аудио</item>
         <item>MIDI</item>
     </string-array>
@@ -294,6 +280,20 @@
         <item>Неуспешно</item>
         <item>Блокирано</item>
         <item>Временно е избегната лоша връзка</item>
+    </string-array>
+    <string-array name="wifitrackerlib_wifi_status">
+        <item></item>
+        <item>Сканира се…</item>
+        <item>Установява се връзка…</item>
+        <item>Удостоверява се…</item>
+        <item>IP адресът се извлича…</item>
+        <item>Установена е връзка</item>
+        <item>Спряно</item>
+        <item>Връзката се прекратява…</item>
+        <item>Няма връзка</item>
+        <item>Неуспешно</item>
+        <item>Блокирано</item>
+        <item>Временно се избягва лоша връзка</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Изключване на анимациите</item>

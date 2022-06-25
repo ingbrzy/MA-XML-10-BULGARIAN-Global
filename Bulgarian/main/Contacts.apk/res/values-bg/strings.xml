@@ -48,8 +48,8 @@
     <string name="add_field">Добави ново поле</string>
     <string name="add_field_toast">Няма повече полета за добавяне.</string>
     <string name="add_new_account">Добави нов профил</string>
-    <string name="add_xiaomi_account_dialog_btn">Използвайте Mi Профил</string>
-    <string name="add_xiaomi_account_dialog_msg">Архивирайте вашите контакти в своя Mi Профил, за да получавате достъп до тях навсякъде!</string>
+    <string name="add_xiaomi_account_dialog_btn">С Xiaomi Профил</string>
+    <string name="add_xiaomi_account_dialog_msg">Архивирайте Вашите контакти в своя Xiaomi Профил, за да получавате достъп до тях навсякъде!</string>
     <string name="add_xiaomi_account_dialog_title">Изберете профил</string>
     <string name="afternoon">Следобяд</string>
     <string name="aggregation_suggestion_edit_dialog_message">Да превключа ли ли на редактиране на дублиращи се контакти? Информацията, съдържаща се до момента ще бъде копирана.</string>
@@ -148,6 +148,7 @@
     <string name="calllog_menu_edit_before_call">Редактирай преди повикване</string>
     <string name="calllog_menu_send_sms">Изпрати съобщение</string>
     <string name="calllog_record_none_toast">Няма записи на повиквания</string>
+    <string name="calllog_record_searching_toast">Търсене на записи на повиквания…</string>
     <string name="callrecordview_item_op_time_minutes_seconds">%1$d мин. %2$d сек.</string>
     <string name="callrecordview_item_op_time_missed">Няма връзка</string>
     <string name="callrecordview_item_op_time_only_minutes">%d мин.</string>
@@ -503,6 +504,7 @@
     <string name="friday">Петък</string>
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Име</string>
     <string name="gallery">Галерия</string>
     <string name="ghostData_company">Фирма</string>
@@ -559,7 +561,7 @@
     <string name="import_to_xiaomi_account_confirm">Трансфер</string>
     <string name="import_to_xiaomi_account_progress_finish">Успешно прехвърляне!</string>
     <string name="import_to_xiaomi_account_progress_message">Прехвърляне…</string>
-    <string name="import_to_xiaomi_account_title">Внасяне в Mi Профил</string>
+    <string name="import_to_xiaomi_account_title">Внасяне в Xiaomi Профил</string>
     <string name="import_vcard_dialog_message">Импортиране на vCard?</string>
     <string name="importing_sim_contacts_miui">Внасяне на контакти от SIM карта…</string>
     <string name="importing_sim_contacts_miui_prepare">Подготовка за импот…</string>
@@ -568,6 +570,11 @@
     <string name="importing_vcard_finished_title">Импортирането на визитката %s завърши</string>
     <string name="insertContactDescription">Създай контакт</string>
     <string name="invalidContactMessage">Контактът не съществува.</string>
+    <string name="invisible_mode_dialog_cancel">Отказ</string>
+    <string name="invisible_mode_dialog_to_close">Изключване</string>
+    <string name="invisible_mode_title">Вече сте инкогнито</string>
+    <string name="invisible_mode_unable_connect_camera">Изключете Режим инкогнито, за да можете да използвате камерата. Желаете ли да го изключите?</string>
+    <string name="invisible_mode_unable_get_location">Изключете Режим инкогнито, за да можете да използвате услугите за местоположение и да внасяте контакти от други устройства чрез Bluetooth. Желаете ли да го изключите?</string>
     <string name="item_offical">Официален</string>
     <string name="keep_local">Съхрани локално</string>
     <string name="keep_local_btn">Използване на вътрешната памет на устройството</string>
@@ -594,6 +601,9 @@
     <string name="low_memory_toast">Не може да се използва услугата поради малко памет.</string>
     <string name="lunarBirthdayLabelsGroup">Лунен рожден ден</string>
     <string name="make_primary">Запомни този избор</string>
+    <string name="manage_external_storage_dialog_message">За да управлявате записите на повиквания разрешете на приложението да получава достъп до всички файлове.</string>
+    <string name="manage_external_storage_dialog_positive">Настройки</string>
+    <string name="manage_external_storage_dialog_title">Необходими са разрешения</string>
     <string name="map_custom">Покажи адрес %s</string>
     <string name="map_home">Покажи домашен адрес</string>
     <string name="map_other">Покажи адрес</string>
@@ -628,6 +638,7 @@
     <string name="menu_sync_remove">Премахни синхронизацията за групата</string>
     <string name="midnight">Нощ</string>
     <string name="miprofile_account_type">Карти на Контакти</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Редакция на профила</string>
     <string name="miprofile_name">Моят профил</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -784,6 +795,7 @@
     <string name="permission_retry_dialog_msg_pad">За да можете да използвате SIM картата си с това приложение и да управлявате контактите си, разрешете на приложението да получава достъп и да редактира контактите ви, както и да получава достъп до информация за устройството.</string>
     <string name="permission_retry_setting">Настройки</string>
     <string name="phoneLabelsGroup">Телефон</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Номерът е твърде дълъг</string>
     <string name="phone_primary">Основен</string>
     <string name="photoPickerNotFoundText">Няма налични изображения в устройството.</string>
@@ -817,9 +829,9 @@
     <string name="pref_key_sim_manage">SIM карти</string>
     <string name="pref_key_sim_manage1">Задаване на SIM карта 1</string>
     <string name="pref_key_sim_manage2">Задаване на SIM карта 2</string>
-    <string name="pref_summary_import_from_account">Прехвърляне на контакти от профилите в Google и Exchange към моя Mi Профил</string>
+    <string name="pref_summary_import_from_account">Прехвърляне на контакти от профилите в Google и Exchange към моя Xiaomi Профил</string>
     <string name="pref_title_account_import">Импортиране от профил</string>
-    <string name="pref_title_import_from_account">Внасяне в Mi Профил</string>
+    <string name="pref_title_import_from_account">Внасяне в Xiaomi Профил</string>
     <string name="preference_contacts">Контакт</string>
     <string name="preference_contacts_filter">Контакти за показване</string>
     <string name="preference_contacts_more">Други настройки</string>
@@ -952,7 +964,7 @@
     <string name="scan_business_card">Сканирайте визитна картичка</string>
     <string name="scan_bussiness_card_merge_tip">Конфликтната информация е заменена</string>
     <string name="scan_merge">\"Търсене за дублиращи се контакти…\"</string>
-    <string name="scan_not_installed">Първо инсталирайте \"Скенер\".</string>
+    <string name="scan_not_installed">Първо инсталирайте Скенер</string>
     <string name="scan_qrcode_card_hint1">Сканирайте QR кода</string>
     <string name="scan_qrcode_card_hint2" />
     <string name="scanning_sdcard_failed_message">Причина: %s.</string>
@@ -1026,6 +1038,7 @@
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Няма членове на групата</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">По фирма</string>
     <string name="smart_group_company_unavailable">Неизвестна фирма</string>
     <string name="smart_group_frequency_1">В рамките на месец</string>
@@ -1067,6 +1080,7 @@
     <string name="starred_contacts">Любими</string>
     <string name="status_available">Достъпен</string>
     <string name="status_away">Отсъстващ</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Зает</string>
     <string name="strequentList">Любими</string>
     <string name="success_message_import_from_account">Успешно импортиране</string>
@@ -1170,6 +1184,7 @@
     <string name="unknown_contact_name">Неизвестен контакт</string>
     <string name="unknown_details_add_to_contact">Съществуващ</string>
     <string name="unknown_details_new_contact">Нов</string>
+    <string name="unshow_qr_code_in_narrow_screen_split">QR кодове не могат да бъдат показвани на Разделен екран</string>
     <string name="update_sim_contact_photo_toast">Не може да се задават профилни снимки на контакти от SIM-картата</string>
     <string name="upgrade_in_progress">Списъкът с контакти се обновява...</string>
     <string name="upgrade_out_of_memory">"Контактите са в процес на обновяване. 

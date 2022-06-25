@@ -29,6 +29,7 @@
     <string name="abc_toolbar_collapse_description">Свиване</string>
     <string name="about_device_info">Детайли на устройството</string>
     <string name="accept">Разреши</string>
+    <string name="access_denied_info">Направихте твърде много опити. Изчакайте малко и опитайте отново.</string>
     <string name="access_token_expired_warning">Weibo профилът е с изтекъл срок: свържете го отново</string>
     <string name="access_token_invalid_warning">Weibo профилът е невалиден: свържете го отново</string>
     <string name="account">Профил</string>
@@ -95,6 +96,8 @@
     <string name="agreement_and_privacy">Правила и условия</string>
     <string name="am">AM</string>
     <string name="app_name">Mi Профил</string>
+    <string name="area_code_no_search_result">Не са открити резултати</string>
+    <string name="area_code_search_hint">Търсене на държава или регион</string>
     <string name="auth_fail_warning">Сесията е изтекла, опитайте по-късно</string>
     <string name="authorize_title">Оторизация</string>
     <string name="bind_facebook">Добавяне на Facebook профил</string>
@@ -406,7 +409,10 @@ ID:%s
     <string name="multi_user_not_show_sync_activity_title">Не включвайте синхронизация с Облака</string>
     <string name="my_device_title">Текущо устройство</string>
     <string name="need_install_wechat">Инсталирайте WeChat първо</string>
+    <string name="network_error_info">Възникна мрежова грешка. Проверете мрежовите си настройки и опитайте отново.</string>
+    <string name="network_timeout_info">Не може да се осъществи връзка с мрежата. Опитайте отново.</string>
     <string name="night">Вечер</string>
+    <string name="no_account_or_forget_password">Създаване на профил или забравена парола?</string>
     <string name="no_install">Не е инсталирано</string>
     <string name="no_network_btn">Опресни</string>
     <string name="no_network_title">Няма врузка с мрежата.</string>
@@ -641,7 +647,9 @@ ID:%s
     <string name="passport_talkback_voice_captcha">Пусни гласов код за потвърждение</string>
     <string name="passport_ticket_login_select_sim_card">Изберете SIM карта</string>
     <string name="passport_ticket_login_select_sim_card_1">SIM карта 1</string>
+    <string name="passport_ticket_login_select_sim_card_1_with_phone_number">SIM %1$d: %2$s</string>
     <string name="passport_ticket_login_select_sim_card_2">SIM карта 2</string>
+    <string name="passport_ticket_login_select_sim_card_2_with_phone_number">SIM %1$d: %2$s</string>
     <string name="passport_ticket_login_select_sim_card_cancel">Отказ</string>
     <string name="passport_title_reg">Създаване на профил</string>
     <string name="passport_trust_device">Добави това устройство към потвърдените</string>
@@ -689,7 +697,7 @@ ID:%s
     <string name="permission_instructions">Употреба на разрешения</string>
     <string name="permission_read_sms">Достъп до съобщения</string>
     <string name="permission_withdraw">Оттегляне</string>
-    <string name="permission_write_external_storage">Достъп и добавяне на информация в хранилището</string>
+    <string name="permission_write_external_storage">Достъп и добавяне на информация в паметта</string>
     <string name="personal_info_desc">Снимка, прякор и още</string>
     <string name="phone_num_use_for">Телефонният номер се използва за:</string>
     <string name="photoPickerNotFoundText">Не са налични изображения.</string>
@@ -699,6 +707,7 @@ ID:%s
     <string name="privacy_policy_reject_confirm_title">Не можете да използвате Mi Профил</string>
     <string name="privacy_policy_update_msg">Правилата за поверителност на Mi Профил бяха обновени:&lt;br/>%1$s&lt;br/>Прочетете и приемете новата версия на &lt;a href=%2$s>&lt;u>Правилата за поверителност&lt;/u>&lt;/a> преди да продължите.</string>
     <string name="privacy_policy_update_title">Обновени Правила за Поверителност</string>
+    <string name="progressbar_title">Проверява се за проблеми със сигурността…</string>
     <string name="provision_back">Назад</string>
     <string name="provision_next">Напред</string>
     <string name="provision_skip_underline">Пропускане</string>
@@ -778,6 +787,7 @@ ID:%s
     <string name="system_ad_summary">"Включете тази функционалност, за да позволите показването на малък брой реклами в системните приложения. Тези реклами ни помагат да развиваме и подобряваме нашите продукти и услуги. Можете да изключите тази функционалност по всяко време. Благодарим Ви за подкрепата! "</string>
     <string name="system_ad_switch">Реклами в системните приложения</string>
     <string name="system_ad_switch_failed">Настройката не беше приложена</string>
+    <string name="system_error_info">Системата е заета. Изчакайте минута-две и опитайте отново.</string>
     <string name="talkback_scan_barcode">Сканиране на QR код</string>
     <string name="temporary_not_available">Тази услуга още не е налична.</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишнина от прекратяването на военно положение</string>
@@ -842,6 +852,7 @@ ID:%s
     <string name="two_factor_auth_need_code_summary">Ще видите код на други свързани Mi устройства. Въведете този код на ново устройство, за да се впишете.</string>
     <string name="two_factor_auth_summary">Когато се опитвате да се впишете на ново устройство или на ново местоположение, ще бъдете уведомени за това на другите свързани устройства. Ще трябва да потвърдите дали тези опити за вписване са упълномощени от Вас.</string>
     <string name="unbind_sns_description">След като премахнете този профил, няма да можете да влизате в Mi Профил чрез профила си в %s.</string>
+    <string name="unknown_error_info">Неизвестна грешка</string>
     <string name="unlock_help_notice">"Помощ:
 1. Ако забравите вашата парола, отидете на id.mi.com за да я нулирате.
 2. Ако не можете да нулирате вашата парола или някой друг е заключил устройството ви, отидете на i.mi.com за да го отключите.

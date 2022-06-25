@@ -141,6 +141,7 @@
     <string name="hint_volume_down">Намаляване на звука</string>
     <string name="hint_volume_up">Увеличаване на звука</string>
     <string name="home_title_none">Изберете елементи</string>
+    <string name="invisible_mode_error_tip">Вече сте инкогнито. Не можете да записвате аудио.</string>
     <string name="is_checked">Избрани</string>
     <string name="is_go_home">Обратно към Запис на екрана</string>
     <string name="is_go_home_summary">Отворете началната страница на Запис на екрана след като спрете да записвате</string>

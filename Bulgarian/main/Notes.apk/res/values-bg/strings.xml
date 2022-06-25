@@ -496,6 +496,7 @@
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -557,6 +558,7 @@
     <string name="note_sort_way">Сортиране</string>
     <string name="notealert_enter">Отвори бележката</string>
     <string name="notealert_ok">Затвори</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Бележки е системно приложение. След като го деинсталирате няма да можете да използвате приложението.</string>
     <string name="notes_description_title">Деинсталиране на Бележки?</string>
     <string name="notification_content_add_todo_from_other_app">Добавихте нова задача. Натиснете, за да прегледате.</string>
@@ -946,6 +948,7 @@
     <string name="view_all_notes">Преглед на всички</string>
     <string name="warn_cannot_add_new_bullet">Не можете да добавяте нови списъци с подточки, защото бележката е твърде дълга</string>
     <string name="warn_cannot_add_new_checkbox">Не можете да добавяте нови полета за отметка, защото бележката е твърде дълга</string>
+    <string name="warn_cannot_add_new_content">Не можете да добавяте ново съдържание, защото бележката е твърде дълга</string>
     <string name="warn_cannot_add_new_doodle">Не можете да добавяте нови драсканици, защото бележката е твърде дълга</string>
     <string name="warn_cannot_add_new_element">Не можете да добавяте нови елементи, защото бележката е твърде дълга</string>
     <string name="warn_cannot_add_new_link_card">Не можете да добавяте нови линкове, защото бележката е твърде дълга</string>
@@ -972,6 +975,8 @@
     <string name="widget_size_item_big">Голямо</string>
     <string name="widget_size_item_medium">Средно</string>
     <string name="widget_size_item_small">Малко</string>
+    <string name="widget_size_item_super_big">Огромно</string>
+    <string name="widget_size_not_support">Огромни приспособления не се поддържат от това устройство</string>
     <string name="widget_take_notes_title">Бележки</string>
     <string name="yesterday">Вчера</string>
 </resources>

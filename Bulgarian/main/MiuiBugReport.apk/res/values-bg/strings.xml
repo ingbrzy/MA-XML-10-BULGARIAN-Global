@@ -446,7 +446,7 @@ ID:%s
     <string name="modem_tool_log_finish_desc">Логът е запазен като %s</string>
     <string name="modem_tool_log_finish_title">Логът на модема е заснет</string>
     <string name="module_communication">Връзка</string>
-    <string name="module_data">Хранилище и Дублирани приложения</string>
+    <string name="module_data">Памет и Дублирани приложения</string>
     <string name="module_default_json">[{\"packageName\":\"com.miui.device.reboot\",\"problemType\":12,\"isForceShow\":1,\"parentType\":0,\"title\":\"Сривове и рестарти\",\"categoryId\":1,\"order\":1},{\"packageName\":\"com.miui.Theraml\",\"problemType\":274,\"isForceShow\":1,\"parentType\":0,\"title\":\"Нагряване\",\"categoryId\":1,\"order\":2},{\"packageName\":\"com.miui.device.signal\",\"problemType\":14,\"isForceShow\":1,\"parentType\":0,\"title\":\"Мобилни мрежи\",\"categoryId\":2,\"order\":1},{\"packageName\":\"com.miui.device.wifi\",\"problemType\":15,\"isForceShow\":1,\"parentType\":0,\"title\":\"Wi-Fi\",\"categoryId\":2,\"order\":2},{\"packageName\":\"com.miui.device.other\",\"problemType\":17,\"isForceShow\":1,\"parentType\":0,\"title\":\"Други грешки\",\"categoryId\":10,\"order\":2}]</string>
     <string name="module_desktop">Начален екран и настройки</string>
     <string name="module_finance">Финанси и Mi Портфейл</string>
@@ -697,7 +697,7 @@ Read and agree to the new version of %3$s before you continue."</string>
     <string name="system_app_select">Системни приложения</string>
     <string name="system_error_info">Системата е заета. Изчакайте минута-две и опитайте отново.</string>
     <string name="tab_title_chat">ЧЗВ</string>
-    <string name="tab_title_my_reports">Моите доклади</string>
+    <string name="tab_title_my_reports">Моят отзив</string>
     <string name="tab_title_preferences">Настройки</string>
     <string name="tab_title_report">Отзив</string>
     <string name="temporary_not_available">Тази функция още не е налична</string>

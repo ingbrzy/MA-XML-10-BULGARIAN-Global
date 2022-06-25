@@ -37,11 +37,12 @@
     <string name="add_private_files">Добави файлове</string>
     <string name="add_remote">Добавете устройства за отдалечен достъп</string>
     <string name="agree_all">Прочетох и съм съгласен с всички правила и условия по-долу.</string>
+    <string name="agree_privacy_policy">Приемете Правилата за поверителност</string>
     <string name="all">Всички</string>
     <string name="already_latest_version">Текущата версия е актуална.</string>
     <string name="anonymous">Анонимно</string>
     <string name="anonymous_type">Преносим (незащитен)</string>
-    <string name="app_name">Файлов мениджър</string>
+    <string name="app_name">Управление на файлове</string>
     <string name="app_name_bluetooth">Bluetooth</string>
     <string name="app_name_camera">Камера</string>
     <string name="app_name_downloadedrom">Пакети</string>
@@ -55,7 +56,7 @@
     <string name="app_name_screenshot">Екранни снимки</string>
     <string name="app_name_transport">Bluetooth и Изтегляния</string>
     <string name="app_permissions">Разрешения за приложения</string>
-    <string name="app_permissions_desc">Файловият мениджър се нуждае от някои разрешения, за да работи нормално.</string>
+    <string name="app_permissions_desc">Управление на файлове се нуждае от някои разрешения, за да работи нормално.</string>
     <string name="authorization_item_desc">Сменете превключвателя, за да дадете или отмените вашето упълномощение</string>
     <string name="authorization_item_title">Упълномощаване</string>
     <string name="auto">Система</string>
@@ -99,8 +100,8 @@
     <string name="choose_connect_type">Тип на връзката</string>
     <string name="clean_found_trash">Намерени %1$s боклука</string>
     <string name="clean_marquee_text">Сканиране за повече нежелани файлове</string>
-    <string name="click_to_switch_volume">Докоснете, за да превключите между вътрешното хранилище и SD картата</string>
-    <string name="click_to_switch_volume_pad">Докоснете, за да превключите между вътрешното хранилище и SD картата</string>
+    <string name="click_to_switch_volume">Натиснете, за да превключите между вътрешна памет и SD карта</string>
+    <string name="click_to_switch_volume_pad">Натиснете, за да превключите между вътрешна памет и SD карта</string>
     <string name="columbus_ad_flag_text">Реклама</string>
     <string name="columbus_skip_ad">Пропусни</string>
     <string name="common_google_play_services_enable_button">Активиране</string>
@@ -132,7 +133,7 @@
     <string name="connection_lost">Изключен</string>
     <string name="copy_failed">Неуспешно копиране</string>
     <string name="copy_to">Копиране в…</string>
-    <string name="copy_to_internal_storage_first">Първо копирайте елементите във вътрешното хранилище.</string>
+    <string name="copy_to_internal_storage_first">Първо копирайте елементите във вътрешната памет.</string>
     <string name="dark_mode">Режим На тъмно</string>
     <string name="dark_mode_notice_message">Сега е налична тъмна тема!</string>
     <string name="decompress_cancel">Отказ</string>
@@ -158,11 +159,11 @@
     <string name="delete_file_error">Не може да се изтрие този файл</string>
     <string name="delete_file_folder_confirm">Да изтрия ли %1$s и %2$s?</string>
     <string name="delete_folder">Изтриване сега?</string>
-    <string name="dialog_msg_score_explorer">Какво е мнението Ви за Файлов мениджър?</string>
+    <string name="dialog_msg_score_explorer">Какво е мнението Ви за Управление на файлове?</string>
     <string name="dialog_msg_score_not_good">Можете ли да ни дадете и отзивите ви?</string>
     <string name="dialog_msg_score_perfect">Супер! Ще оцените ли Управление на файлове и в Play Store?</string>
     <string name="dialog_select_type">Изберете тип</string>
-    <string name="dialog_title_score">Оценете Файлов мениджър</string>
+    <string name="dialog_title_score">Оценете Управление на файлове</string>
     <string name="dialog_type_audio">Аудио</string>
     <string name="dialog_type_image">Изображения</string>
     <string name="dialog_type_text">Документи</string>
@@ -207,6 +208,7 @@
     <string name="fcm_fallback_notification_channel_label">Разни</string>
     <string name="feedback_desc">Опишете проблема, който сте срещнали</string>
     <string name="feedback_send_email_body_extra_info">Не изтривайте следната информация. Тя ще ни помогне да намерим проблема.</string>
+    <string name="feeling_ok">Неутрално</string>
     <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">Само за четене: </string>
     <string name="file_info_canwrite">Записващи: </string>
@@ -219,7 +221,7 @@
     <string name="find_new_version">Налично е обновление: %1$s</string>
     <string name="folder_name_empty">Името на папката не може да остане празно</string>
     <string name="folder_name_illegal">Невалидно име на папката</string>
-    <string name="found_usb">USB хранилище е свързано</string>
+    <string name="found_usb">USB паметта е свързана</string>
     <string name="ftp_account_req_notice">Потребителското име и паролата са чувствителни за малки и големи букви и трябва да съдържат %1$d-%2$d знака. Можете да комбинирате латински букви, специални символи и числа.</string>
     <string name="ftp_anonymous_login">Впишете се анонимно</string>
     <string name="ftp_invalid_username_or_password">Потребителското име или паролата, която въведохте са невалидни.</string>
@@ -232,6 +234,7 @@
     <string name="ftp_username_hint">Потребителско име</string>
     <string name="gbk_summary">Опростен китайски по подразбиране за прозорец</string>
     <string name="gigabyteShort">ГБ</string>
+    <string name="great">Много доволен</string>
     <string name="grid_order">Изглед Решетка</string>
     <string name="homepage_tab_recent">Последни</string>
     <string name="host">Хост</string>
@@ -277,7 +280,7 @@
     <string name="menu_item_usb">USB</string>
     <string name="mi_router_label">Рутер</string>
     <string name="mode">Режим</string>
-    <string name="month_day_format">dd MMM</string>
+    <string name="month_day_format">d MMM</string>
     <string name="more">Още</string>
     <string name="more_option">Още опции</string>
     <string name="move_failed">Не може да премести</string>
@@ -288,7 +291,7 @@
     <string name="msg_set_password">Първо задайте парола</string>
     <string name="mtp_device">Медиен носител (MTP)</string>
     <string name="must_permissions">Задължителни разрешения</string>
-    <string name="must_privacy_policy">Политика за поверителност (задължително)</string>
+    <string name="must_privacy_policy">Правила за поверителност (задължително)</string>
     <string name="must_user_service">Потребителско споразумение (задължително)</string>
     <string name="name_empty">Трябва да въведете име.</string>
     <string name="network_settings_error">Неуспешен опит за свързване с мрежата</string>
@@ -296,8 +299,8 @@
     <string name="new_folder_name">Нова папка</string>
     <string name="no">Не</string>
     <string name="no_apk">Докоснете за да вземете прилож</string>
-    <string name="no_enough_storage_indication">Мястото в хранилището е пълно.</string>
-    <string name="no_enough_storage_title">Няма достатъчно място в хранилището</string>
+    <string name="no_enough_storage_indication">Паметта е пълна.</string>
+    <string name="no_enough_storage_title">Няма достатъчно памет</string>
     <string name="no_file">Празно</string>
     <string name="no_host">Въведете хост адрес</string>
     <string name="no_recent_files">Няма скорошни файлове</string>
@@ -307,6 +310,7 @@
     <string name="not_connect_user">Неуспешно свързване: %1$s и %2$s</string>
     <string name="not_installed_documentsui">DocumentsUI не е инсталиран</string>
     <string name="not_support_documentui">Документи не се поддържа от това устройство</string>
+    <string name="not_very_dissatisfied">Недоволен</string>
     <string name="notif_server_starting">Стартиране на FTP сървър…</string>
     <string name="notif_title">FTP сървърът работи</string>
     <string name="notification_wechat_expired_empty">WeChat вече е изтрил тези клипове.</string>
@@ -361,16 +365,16 @@
     <string name="partial_encrypt_success">Неуспешно превръщане на някои файлове в лични. Опитайте отново.</string>
     <string name="passive">Пасивно</string>
     <string name="perm_manage_external_storage">Разрешете на Управление на файлове да получава достъп до снимки и видео, за да можете да използвате тази функция. Можете да дадете разрешение в Настройки.</string>
-    <string name="permission_denial">Няма достъп до файловете. Разрешете на Файлов мениджър достъп до тях в Настройки.</string>
+    <string name="permission_denial">Няма достъп до файловете. Разрешете на Управление на файлове достъп до тях в Настройки.</string>
     <string name="permission_phone">Телефон</string>
     <string name="permission_phone_desc">Влезте в IMEI, за да идентифицирате, съхранявате и обработвате лични файлове</string>
-    <string name="permission_required">Няма достъп до файловете. Разрешете на Файлов мениджър достъп до тях в Настройки.​</string>
-    <string name="permission_storage">Хранилище</string>
+    <string name="permission_required">Няма достъп до файловете. Разрешете на Управление на файлове достъп до тях в Настройки.​</string>
+    <string name="permission_storage">Памет</string>
     <string name="permission_storage_desc">Достъп и създаване на файлове, достъп до съхранение и записване на файлове</string>
     <string name="petabyteShort">ПБ</string>
-    <string name="phone">Хранилище</string>
-    <string name="phone_storage">Хранилище</string>
-    <string name="phone_storage_apk_title">APKs: </string>
+    <string name="phone">Памет</string>
+    <string name="phone_storage">Памет</string>
+    <string name="phone_storage_apk_title">APK: </string>
     <string name="phone_storage_audio_title">Музика: </string>
     <string name="phone_storage_cal">Проверка…</string>
     <string name="phone_storage_clean">Почисти</string>
@@ -379,7 +383,7 @@
     <string name="phone_storage_image_title">Изображения: </string>
     <string name="phone_storage_info_str">%1$s от %2$s са достъпни</string>
     <string name="phone_storage_other_title">Други: </string>
-    <string name="phone_storage_size_tip">Хранилището във Файлов мениджър може да се различава от това в други приложения</string>
+    <string name="phone_storage_size_tip">Хранилището в Управление на файлове може да се различава от това в други приложения</string>
     <string name="phone_storage_video_title">Видео: </string>
     <string name="phone_storage_zip_title">Архиви: </string>
     <string name="pick_file">Изберете файлове</string>
@@ -394,7 +398,7 @@
     <string name="privacy_item1">Категоризиране на наскоро отваряни елементи</string>
     <string name="privacy_item2">Преглед и редакция на файлове</string>
     <string name="privacy_message">&lt;Data>Управление на файлове се нуждае да събира задължителни лични данни, за да ви предоставя основните услуги, които генерират статистика за употреба. Можете да научите как обработваме събраната информация в нашите &lt;a href=\"%1$s\">Правила за поверителност&lt;/a>. Прочетете и приемете нашето &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%1$s\">Правила за поверителност&lt;/a> преди да използвате Управление на файлове. Можете да оттеглите съгласието си за Правилата за поверителност на Управление на файлове в Настройки по всяко време. Ако не приемете да използвате гореспоменатите услуги няма да можете да използвате някои от функциите на това приложение; но все още ще имате достъп до основните му функции.&lt;/Data></string>
-    <string name="privacy_title">Добре дошли във Файлов мениджър</string>
+    <string name="privacy_title">Добре дошли в Управление на файлове</string>
     <string name="private_files">Лични</string>
     <string name="private_folder">Лични файлове</string>
     <string name="private_folder_no_file_hints">Натиснете и задръжте файл или папка, за да го направите личен</string>
@@ -426,7 +430,7 @@
     <string name="revoke_timer">(%1$dсек)</string>
     <string name="revoke_tips">След като отмените упълномощението, Управление на файлове ще спре събирането на данни и всички свързани с него данни ще бъдат изтрити от сървърите. Това може да направи Управление на файлове практически неизползваем. Наистина ли желаете да отмените упълномощението?</string>
     <string name="revoke_title">Оттегляне на съгласие</string>
-    <string name="revoking">Отменяне на упълномощение…</string>
+    <string name="revoking">Отмяна на упълномощение…</string>
     <string name="rlv_last_refreshing_time">Актуализирано %1$s</string>
     <string name="rlv_loading_more">Момент…</string>
     <string name="rlv_pull_to_refresh">Издърпайте надолу за обновяване</string>
@@ -439,6 +443,7 @@
     <string name="s5">Създаване на събитие в календара</string>
     <string name="s6">Да се разреши ли на рекламата да създаде събитие в календара?</string>
     <string name="s7">Тестова реклама</string>
+    <string name="satisfied">Доволен</string>
     <string name="save_seven_day">Почиствай веднъж седмично</string>
     <string name="scan_code_download_from_play">Сканирайте този код, за да изтеглите от Play Store</string>
     <string name="search_description">Търсене във всички файлове на устройството</string>
@@ -471,9 +476,9 @@
     <string name="setting">Настройки</string>
     <string name="settings_about">Относно</string>
     <string name="settings_feedback">Отзив</string>
-    <string name="settings_score">Оценете Файлов мениджър</string>
+    <string name="settings_score">Оценете Управление на файлове</string>
     <string name="share_facebook">Facebook</string>
-    <string name="share_file_manger">Споделете Файлов мениджър</string>
+    <string name="share_file_manger">Споделете Управление на файлове</string>
     <string name="share_via_qr_code">Споделяне с помощта на QR код</string>
     <string name="show_hide_file_desc">Показване на файлове, които се използват в оперирането на Android и приложения</string>
     <string name="skip_file">Пропусни</string>
@@ -494,6 +499,8 @@
     <string name="storage_usb">USB памет</string>
     <string name="storage_warning">Не може да използва външната памет</string>
     <string name="str_clean">Почисти</string>
+    <string name="switch_to_grid_mode">Преминаване към Изглед Решетка</string>
+    <string name="switch_to_list_mode">Преминаване към Изглед Списък</string>
     <string name="tab_common_app">Приложения и папки</string>
     <string name="tab_more">Още</string>
     <string name="terabyteShort">ТБ</string>
@@ -509,7 +516,7 @@
     <string name="title_remote">Отдалечен достъп</string>
     <string name="title_select_volume">Изберете папка</string>
     <string name="toast_file_not_can_read">Няма намерени приложения, които да изпълнят това действие.</string>
-    <string name="toast_scroll_down_score_midrop">Превъртете надолу, за да оцените Файлов мениджър</string>
+    <string name="toast_scroll_down_score_midrop">Превъртете надолу, за да оцените Управление на файлове</string>
     <string name="transfer_private_data">Преместване на лични файлове от SD картата…</string>
     <string name="try_now">Опитайте</string>
     <string name="type_not_support">Този файлов формат не се поддържа. Разопаковайте този файл и опитайте отново.</string>
@@ -524,17 +531,18 @@
     <string name="user_experience_desc">Споделете потребителски данни с нас, за да ни помогнете да подобрим нашите продукти и услуги</string>
     <string name="user_experience_title">Програма за потребителски отзиви</string>
     <string name="user_not_login">Впишете се първо</string>
-    <string name="user_notice_privacy_policy">Политика на поверителност</string>
+    <string name="user_notice_privacy_policy">Правила за поверителност</string>
     <string name="user_notice_term_of_service">Потребителско споразумение</string>
     <string name="utf8_summary">Кодиране на FTP по подразбиране</string>
     <string name="version_name">Версия</string>
+    <string name="very_dissatisfied">Много недоволен</string>
     <string name="view_by_document">Преглед във Файлове</string>
     <string name="wechat_video">Видео в %s</string>
     <string name="whatsapp_cache_garbage">Кеш</string>
     <string name="whatsapp_cache_garbage_cleanup">Изчистване</string>
     <string name="whatsapp_cache_garbage_tip">Изчистването на кеша не премахва нищо важно. След изчистването ще можете да използвате приложението нормално, както преди.</string>
     <string name="wifi_state">Състояние на Wi-Fi</string>
-    <string name="year_month_day_format">dd MMM yyyy</string>
+    <string name="year_month_day_format">d MMM yyyy</string>
     <string name="yes">Да</string>
     <string name="yesterday">Вчера</string>
 </resources>

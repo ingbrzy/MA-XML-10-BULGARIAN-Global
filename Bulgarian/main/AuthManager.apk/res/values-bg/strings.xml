@@ -166,6 +166,7 @@
     <string name="clipboard_read_allow_once">%1$s получи достъп до елементи в клипборда</string>
     <string name="clipboard_read_deny_dialog_title">Достъпа на %1$s до клипборда е ограничен</string>
     <string name="close">Затваряне</string>
+    <string name="copy">Копиране</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -177,6 +178,7 @@
     <string name="eras_ad">н.е.</string>
     <string name="eras_bc">пр.Хр.</string>
     <string name="evening">Следобед</string>
+    <string name="expand_button_title">Разширени</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -323,6 +325,7 @@
     <string name="night">Вечер</string>
     <string name="no">Не</string>
     <string name="noon">Обед</string>
+    <string name="not_set">Не е зададено</string>
     <string name="notification_click_tip">Натиснете за подробности</string>
     <string name="ok">ОК</string>
     <string name="perm_action_allow">Разрешавам</string>
@@ -366,6 +369,7 @@
     <string name="permission_warning_template_ask">Разрешавате ли на %1$s следните права?</string>
     <string name="permisson_reject_notice_toast_text2">няма права за %1$s.</string>
     <string name="pm">PM</string>
+    <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="real_location_off">Включена е приблизителна локация</string>
     <string name="real_location_on">Изключена е приблизителна локация</string>
     <string name="saturday">Събота</string>
@@ -390,6 +394,7 @@
     <string name="storage_policy_notify_gallery_title">%1$s няма достъп до Галерията</string>
     <string name="storage_policy_notify_sociality_title">%1$s няма достъп до съобщения в приложения за социални медии</string>
     <string name="storage_policy_notify_title">%1$s няма достъп до Галерията</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>
     <string name="sunday_shortest">Нед.</string>
@@ -444,6 +449,8 @@
     <string name="tuesday">Вторник</string>
     <string name="tuesday_short">Вт.</string>
     <string name="tuesday_shortest">Вт.</string>
+    <string name="v7_preference_off">ИЗКЛ.</string>
+    <string name="v7_preference_on">ВКЛ.</string>
     <string name="virtual_reject_notice_content">Празен отговор беше изпратен до приложението, за да бъде защитена вашата лична информация</string>
     <string name="virtual_reject_notice_title_calendar">Получаване на достъп до календар чрез %1$s</string>
     <string name="virtual_reject_notice_title_calllog">Получаване на достъп до списък с повиквания чрез %1$s</string>

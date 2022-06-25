@@ -39,7 +39,7 @@
     <string name="accessibility_back_preview_status">Преглед на задна камера</string>
     <string name="accessibility_beauty_function_button">Разкрасяване</string>
     <string name="accessibility_beauty_function_panel_on">Панел Разкрасяване</string>
-    <string name="accessibility_beauty_panel_closed">Режим Разкрасяване е спрян</string>
+    <string name="accessibility_beauty_panel_closed">Режим Разкрасяване е скрит</string>
     <string name="accessibility_beauty_panel_open">Режим Разкрасяване е пуснат</string>
     <string name="accessibility_beauty_switch_closed">Разкрасяване е изкл</string>
     <string name="accessibility_beauty_switch_open">Разкрасяване е вкл</string>
@@ -492,7 +492,7 @@
     <string name="color_effect_entry_sibopenk">Киберпънк</string>
     <string name="color_effect_entry_soda">Сода</string>
     <string name="color_effect_entry_travel">Пътуване</string>
-    <string name="color_effect_entry_vivid">Живо</string>
+    <string name="color_effect_entry_vivid">Ярко</string>
     <string name="color_effect_entry_warm">Слънце</string>
     <string name="color_effect_live_blue">Орхидея</string>
     <string name="color_effect_live_contrast">Xpro</string>
@@ -587,7 +587,7 @@
     <string name="dirty_tip_toast">Лещите да замърсени. Почистете ги.</string>
     <string name="do_not_remind_me">Не показвай отново</string>
     <string name="doc_shortcut_short">Документи</string>
-    <string name="document_blackwhite">Черно-бял</string>
+    <string name="document_blackwhite">Ч/Б</string>
     <string name="document_mode_use_hint_text_body">"Автоматично подрявняване и усилване
 на сканирани документи"</string>
     <string name="document_mode_use_hint_text_title">Сканиране документи</string>
@@ -666,6 +666,7 @@
     <string name="edit_smile">Усмивка</string>
     <string name="edit_solid">Контур</string>
     <string name="emoticon">Пакет със стикери</string>
+    <string name="empty" />
     <string name="eras_ad">н.е.</string>
     <string name="eras_bc">пр.Хр.</string>
     <string name="error_fail_to_start_audio_capture">Няма възможност за звукозапис</string>
@@ -815,7 +816,7 @@
     <string name="lens_dirty_detected_title_back">Лещите на задната камера са замърсени</string>
     <string name="lens_dirty_detected_title_front">Лещите на предната камера са замърсени</string>
     <string name="lighting_bright_red">Алено</string>
-    <string name="lighting_dazzling">Лъчове</string>
+    <string name="lighting_dazzling">Излъчване</string>
     <string name="lighting_dreamland">Земята на сънищата</string>
     <string name="lighting_gorgeous">Разноцветно</string>
     <string name="lighting_hint_needed">Поставете обекта в рамката</string>
@@ -872,6 +873,9 @@
     <string name="live_sticker_updating">Актуализиране…</string>
     <string name="live_workspace_title">Чернови</string>
     <string name="live_workspace_title_edit">Изберете елементи за изтриване</string>
+    <string name="live_workspace_title_pause">Стоп</string>
+    <string name="live_workspace_title_play">Възпроизвеждане</string>
+    <string name="live_workspace_title_pre_edit">Изберете елементи за изтриване</string>
     <string name="location_access_allow">Приемам</string>
     <string name="location_fromkeyguard_not_permission">Камерата няма достъп до вашето местоположение в момента. Първо отключете устройството си.</string>
     <string name="location_permission_des">Запомняй местоположението на снимки и клипове</string>
@@ -1067,6 +1071,10 @@
     <string name="module_name_multi_camera">Мултикамера</string>
     <string name="module_name_new_slow_motion">Забавен кадър</string>
     <string name="module_name_panorama">Панорама</string>
+    <string name="module_name_pixel_108m">108MP</string>
+    <string name="module_name_pixel_48m">48MP</string>
+    <string name="module_name_pixel_50m">50MP</string>
+    <string name="module_name_pixel_64m">64MP</string>
     <string name="module_name_portrait">Портрет</string>
     <string name="module_name_professional">Проф. Камера</string>
     <string name="module_name_scanner">Скенер</string>
@@ -1204,6 +1212,7 @@
     <string name="popup_tips_near_range_mode">Фокусиране</string>
     <string name="popup_tips_privacy_watermark_edit">Редактиране на воден знак</string>
     <string name="portait_effect_entry_blackwhite">Ч/Б</string>
+    <string name="portait_effect_entry_cold_white">Звездна светлина</string>
     <string name="portait_effect_entry_cool">Мента</string>
     <string name="portait_effect_entry_dusk">Здрач</string>
     <string name="portait_effect_entry_fairytale">Детство</string>
@@ -1221,6 +1230,7 @@
     <string name="portait_effect_entry_riddle">Бонбон</string>
     <string name="portait_effect_entry_romance">Романтика</string>
     <string name="portait_effect_entry_sepia">Сепия</string>
+    <string name="portait_effect_entry_shallots">Слънчев лъч</string>
     <string name="portait_effect_entry_story">Разказ</string>
     <string name="portait_effect_entry_tea">Чай</string>
     <string name="portrait_bokeh_first_tips">"Използвайте режим Портрет за да замъглите
@@ -1283,10 +1293,11 @@
     <string name="pref_camera_auxiliary_close">Изкл.</string>
     <string name="pref_camera_auxiliary_exposure_feedback">Потвърждение на експозицията</string>
     <string name="pref_camera_auxiliary_focus_peak">Избор на фокуса</string>
+    <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
     <string name="pref_camera_beautify_entry_high">Високо</string>
     <string name="pref_camera_beautify_entry_low">Ниско</string>
     <string name="pref_camera_beautify_entry_normal">Средно</string>
-    <string name="pref_camera_beauty">Разкраси</string>
+    <string name="pref_camera_beauty">Разкрасяване</string>
     <string name="pref_camera_beauty_deep">Разкрасяване</string>
     <string name="pref_camera_coloreffect_entry_big_face">Пространство</string>
     <string name="pref_camera_coloreffect_entry_blackwhite">Ч/Б</string>
@@ -1303,7 +1314,7 @@
     <string name="pref_camera_coloreffect_entry_none">Стандартно</string>
     <string name="pref_camera_coloreffect_entry_sketch">Скица</string>
     <string name="pref_camera_coloreffect_entry_small_face">Свиване</string>
-    <string name="pref_camera_coloreffect_entry_vivid">Ефект на ленти</string>
+    <string name="pref_camera_coloreffect_entry_vivid">Ярко</string>
     <string name="pref_camera_coloreffect_entry_vsco_a4">Аналогов</string>
     <string name="pref_camera_coloreffect_entry_vsco_f2">Матирани ефекти</string>
     <string name="pref_camera_coloreffect_title">Филтри</string>
@@ -1475,10 +1486,12 @@
     <string name="pref_camera_tip_id_card">ID скенер</string>
     <string name="pref_camera_touchafaec_entry_off">Изкл</string>
     <string name="pref_camera_touchafaec_entry_on">Вкл</string>
-    <string name="pref_camera_track_focus_intro_description">When you take photos or shoot videos with moving subjects, this feature detects people, cats, and dogs, and keeps them in focus automatically. Additionally, you can also double tap any subject to track movement.</string>
-    <string name="pref_camera_track_focus_intro_goto">Turn on</string>
+    <string name="pref_camera_track_eye_preferred_description">Следене на движението на очите, за да бъдат фокусирани когато един човек е в рамката</string>
+    <string name="pref_camera_track_eye_preferred_title">Фокусиране със следене на погледа</string>
+    <string name="pref_camera_track_focus_intro_description">Когато заснемате клипове с движещи се обекти, тази функция ще засича хора, котки и кучета, и ще фокусира върху тях автоматично. Отделно, можете да натиснете два пъти върху всякакъв обект, за да проследите движението му.</string>
+    <string name="pref_camera_track_focus_intro_goto">Включване</string>
     <string name="pref_camera_track_focus_preferred_description">Автоматично движете хора, котки и кучета, върху които се фокусирате или натиснете два пъти някой обект, за да го следите</string>
-    <string name="pref_camera_track_focus_preferred_title">Следене на фокуса</string>
+    <string name="pref_camera_track_focus_preferred_title">Фокусиране със следене на движение</string>
     <string name="pref_camera_ubifocus_title">Фокусиране отново</string>
     <string name="pref_camera_ultra_wide_ldc_description">Корекция на изкривените обекти автоматично</string>
     <string name="pref_camera_ultra_wide_ldc_title">Корекция на изкривяването при ултра широките снимки</string>
@@ -1494,6 +1507,7 @@
     <string name="pref_camera_video_tag_description">Натиснете \"Етикет\", докато снимате видео, за да можете да се връщате към маркираните моменти по време на възпроизвеждане</string>
     <string name="pref_camera_volumekey_function_entry_shutter">Снимач</string>
     <string name="pref_camera_volumekey_function_entry_timer">Таймер</string>
+    <string name="pref_camera_volumekey_function_entry_timer_new">Timer (%ds)</string>
     <string name="pref_camera_volumekey_function_entry_volume">Звук</string>
     <string name="pref_camera_volumekey_function_entry_zoom">Мащабиране</string>
     <string name="pref_camera_volumekey_function_title">Функция на бутоните за звук</string>
@@ -1547,6 +1561,7 @@
     <string name="pref_hdr10_hdr10plus_video_mode_description">Записвайте клипове с висока резолюция с HDR10+/HDR10, за да оптимизирате цветовете и динамичния обхват. Записаните клипове могат да бъдат възпроизвеждани само от устройства съвместими с HDR10+/HDR10.</string>
     <string name="pref_hdr10_video_mode_description">Автоматично оптимизиране на цветове и контраст за 4K и 8K видео. Оптимизираните клипове могат да бъдат възпроизвеждани само върху HDR10 съвместими устройства.</string>
     <string name="pref_hdr10plus_video_mode_description">Оптимизирайте цветове и регулирайте контраста за 4K и 8K видеоклипове. Тази функция работи само за устройства съвместими с HDR10+.</string>
+    <string name="pref_hybrid_video_mode_description">Използвайте HLG технология, за да подобрите цветовете и динамичния обхват на видеоклипове записани с висока резолюция</string>
     <string name="pref_i_n_r_b">Умно намаляване на шума</string>
     <string name="pref_k_h">Вътреушни минислушалки</string>
     <string name="pref_k_s_i">Следене на записан звук със слушалки с кабел когато са включени</string>
@@ -1598,7 +1613,7 @@
     <string name="pref_scan_qrcode_title">Сканиране на QR код</string>
     <string name="pref_simple_hdr_entry_off">Изключен</string>
     <string name="pref_simple_hdr_entry_on">Включен</string>
-    <string name="pref_skin_beautify_color_title">Тонове</string>
+    <string name="pref_skin_beautify_color_title">Цвят</string>
     <string name="pref_skin_beautify_eye_title">Очи</string>
     <string name="pref_skin_beautify_intelligent_title">Смарт</string>
     <string name="pref_skin_beautify_slim_title">Изтъняване</string>
@@ -1757,8 +1772,8 @@
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>
     <string name="sunday_shortest">Нед.</string>
-    <string name="super_eis">Стабилизиране на видеото</string>
-    <string name="super_eis_disabled_hint">Стабилизиране на видеото е изключено</string>
+    <string name="super_eis">Стабилно видео</string>
+    <string name="super_eis_disabled_hint">Стабилно видео е изключено</string>
     <string name="super_eis_pro">Стабилно видео PRO</string>
     <string name="super_eis_pro_disabled_hint">Стабилно видео PRO е изключено</string>
     <string name="super_macro_mode">Супер макро</string>
@@ -1904,7 +1919,7 @@
     <string name="user_notice_title">Правила и условия</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
-    <string name="video_beauty_tip">Подобряване за видео</string>
+    <string name="video_beauty_tip">Разкрасяване за видео</string>
     <string name="video_beauty_tip_beautification">Филтри</string>
     <string name="video_beauty_tip_filter">Филтри</string>
     <string name="video_beauty_tip_portrait_bokeh">Боке</string>

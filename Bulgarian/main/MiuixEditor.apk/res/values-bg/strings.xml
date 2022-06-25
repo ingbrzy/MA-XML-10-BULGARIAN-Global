@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_frequent_phrases">Добавяне на чести фрази</string>
+    <string name="edit_frequent_phrases">Редактиране на чести фрази</string>
+    <string name="frequent_phrases">Чести фрази</string>
+    <string name="query">Търсене</string>
+    <string name="select">Избор</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+</resources>

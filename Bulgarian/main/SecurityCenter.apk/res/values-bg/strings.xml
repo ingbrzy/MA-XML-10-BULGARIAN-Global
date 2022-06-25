@@ -919,6 +919,7 @@
     <string name="card_main_private_space_summary">Използвайте Второ пространство все едно имате 2 устройства</string>
     <string name="card_main_private_space_title">Второ пространство</string>
     <string name="card_main_sectool_title">Инструменти</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_xspace_action">Създаване</string>
     <string name="card_main_xspace_summary">Създайте два профила за всяко приложение</string>
     <string name="card_main_xspace_title">Клонирани приложения</string>
@@ -971,6 +972,8 @@
     <string name="cmcc_app_check_dialog_negative">По-късно</string>
     <string name="cmcc_app_check_dialog_positive">Рестарт сега</string>
     <string name="cmcc_app_check_dialog_title">Системата е поправена</string>
+    <string name="columbus_ad_flag_text">Реклама</string>
+    <string name="columbus_skip_ad">Пропусни</string>
     <string name="common_google_play_services_unknown_issue">%1$s има проблеми с услугите за Google Play. Моля, опитайте отново.</string>
     <string name="confirmSecondSpacePassword">Потвърдете вашата парола за Второ пространство</string>
     <string name="confirm_allow_all_permission">Allow all apps from using this feature?</string>
@@ -1179,6 +1182,7 @@
     <string name="dual_setting_simcard1">SIM 1</string>
     <string name="dual_setting_simcard2">SIM 2</string>
     <string name="early_morning">Сутрин</string>
+    <string name="ellipsis">…</string>
     <string name="email">Имейл</string>
     <string name="empty" />
     <string name="empty_app">Няма приложения</string>
@@ -1253,7 +1257,9 @@
     <string name="exo_download_notification_channel_name">Изтегляния</string>
     <string name="exo_download_removing">Изтеглянията се премахват</string>
     <string name="exo_item_list">%1$s – %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Алтернативен запис</string>
     <string name="exo_track_role_closed_captions">Субтитри</string>
     <string name="exo_track_role_commentary">Коментар</string>
@@ -1507,6 +1513,7 @@
     <string name="gamebox_app_not_find">Инсталирайте приложението първо.</string>
     <string name="gamebox_brightness">Яркост</string>
     <string name="gamebox_browser_not_find">Инсталирайте първо Mi Браузър</string>
+    <string name="gamebox_bullet_chat">Коментари на екрана</string>
     <string name="gamebox_collimator">Мерник</string>
     <string name="gamebox_display_1">Няма</string>
     <string name="gamebox_display_2">Наситено</string>
@@ -1608,6 +1615,10 @@
     <string name="gb_dialog_record_way_ai">Записите с помощта на AI се запазват в хранилището за игри и се съхраняват там в продължение на 7 дни.</string>
     <string name="gb_dialog_record_way_finish">Готово</string>
     <string name="gb_dialog_record_way_manual">Записвайте ръчно видеа с продължителност до 30 секунди.</string>
+    <string name="gb_dialog_record_way_manual_desc" formatted="false">Записвайте ръчно %d-%d секундни клипове по време на игри.</string>
+    <string name="gb_dialog_record_way_setting_tip_one">Повишена консумация на енергия и забавяне</string>
+    <string name="gb_dialog_record_way_setting_tip_title">Тази функция може да предизвика следните проблеми:</string>
+    <string name="gb_dialog_record_way_setting_tip_two">Конфликт с друго пренареждане на екрана</string>
     <string name="gb_dialog_record_way_setting_tips">Забележка: Записът на игралните сесии изисква повече мощност, а това може да причини забавяне.</string>
     <string name="gb_dialog_record_way_title">Изберете начин на запис</string>
     <string name="gb_first_guide_function_shiled_title">Изключи системните услуги, докато е включен Турбо режим</string>
@@ -1636,6 +1647,7 @@
     <string name="gb_game_video_page_null">Записвайте ключовите моменти от игралните си сесии.</string>
     <string name="gb_game_video_record_finish_tips">Ръчния запис е запазен в Game Turbo</string>
     <string name="gb_game_video_save">Запази</string>
+    <string name="gb_game_video_save_tip">Успешно запазено</string>
     <string name="gb_game_video_type_ai">AI</string>
     <string name="gb_game_video_type_ai_record">Запис с помощта на AI</string>
     <string name="gb_game_video_type_manual">Ръчен</string>
@@ -1648,6 +1660,7 @@
     <string name="gb_gpu_driver_update_app_tips">Текущата версия е актуална</string>
     <string name="gb_have_signed">Регистриране днес</string>
     <string name="gb_manual_record_dialog_del_video_message">Да се изтрият ли избраните видеа завинаги?</string>
+    <string name="gb_manual_video_record_title">Записи</string>
     <string name="gb_msg_completely_shielded">Скрий съобщенията</string>
     <string name="gb_msg_completely_shielded_summary">Скриване</string>
     <string name="gb_msg_not_shielded_summary">Покажи</string>
@@ -1667,26 +1680,39 @@
     <string name="gb_performance_tips">"Режим Производителност подобрява графичната прозводителност,
 но също така повишава консумацията на енергия и разрешава на устройството Ви да прегрява"</string>
     <string name="gb_shortcut_pref_title">Пряк път на Началния екран</string>
-    <string name="gb_shoulder_key">Горни бутони</string>
+    <string name="gb_shoulder_guide_message1">Движете [L] към която и да е функционална позиция, за да го използвате чрез изскачащия бутон</string>
+    <string name="gb_shoulder_guide_message2">Действие [1] се активира при натискането на бутона. Действие [2] се активира при отпускането на бутона.</string>
+    <string name="gb_shoulder_guide_tips1">Отворете кутията с инструменти и конфигурирайте изскачащите бутони</string>
+    <string name="gb_shoulder_guide_title1">Действие</string>
+    <string name="gb_shoulder_guide_title2">Последователност</string>
+    <string name="gb_shoulder_key">Изскачащи бутони</string>
     <string name="gb_shoulder_key_add_show_btn">Показване на виртуални бутони по време на игри</string>
-    <string name="gb_shoulder_key_add_tips">Движете [L] и [R] бутоните в която и да е функционална позиция и ги използвайте чрез горните бутони</string>
+    <string name="gb_shoulder_key_add_tips">Движете [L] и [R] към която и да е функционална позиция и ги използвайте чрез изскачащите бутони</string>
     <string name="gb_shoulder_key_btn_cancel">Отказ</string>
     <string name="gb_shoulder_key_btn_save_exit">Запази</string>
-    <string name="gb_shoulder_key_dialog_message">Можете да използвате и двата горни бутона, за да стартирате Game Turbo когато не играете игри.</string>
-    <string name="gb_shoulder_key_dialog_txt">Можете да включите Game Turbo използвайки горните бутони.</string>
+    <string name="gb_shoulder_key_dialog_message">Можете да използвате и двата изскачащи бутона едновременно, за да стартирате Game Turbo когато не играете игри.</string>
+    <string name="gb_shoulder_key_dialog_txt">Можете да включите Game Turbo използвайки изскачащите бутони.</string>
     <string name="gb_shoulder_key_guide_btn_done">Разбрах</string>
     <string name="gb_shoulder_key_guide_btn_next">Напред</string>
-    <string name="gb_shoulder_key_guide_tips">Конфигурирайте горните бутони, за да играете като професионалист!</string>
-    <string name="gb_shoulder_key_guide_tips1">Отворете кутията с инструменти и конфигурирайте горните бутони</string>
+    <string name="gb_shoulder_key_guide_tips">Конфигурирайте изскачащите бутони, за да играете като най-добрите!</string>
+    <string name="gb_shoulder_key_guide_tips1">Отворете кутията с инструменти и конфигурирайте изскачащите бутони</string>
     <string name="gb_shoulder_key_light_effect">Цветни анимации</string>
     <string name="gb_shoulder_key_light_effect_color">Цвят</string>
-    <string name="gb_shoulder_key_light_effect_subtitle">Цветни анимации ще бъдат показвани когато горните бутони са включени и играете игри</string>
+    <string name="gb_shoulder_key_light_effect_subtitle">Цветни анимации ще бъдат показвани когато изскачащите бутони са включени и играете игри</string>
     <string name="gb_shoulder_key_light_effect_title">Анимации</string>
     <string name="gb_shoulder_key_settings_guide_tips1">Движете [L] и [R] бутоните в която и да е функционална позиция, за да завършите конфигурацията</string>
-    <string name="gb_shoulder_key_settings_guide_tips2">Използвайте горните бутони за функциите, които сте им предназначили по време на игрите</string>
-    <string name="gb_shoulder_key_settings_summary">Използвайте и двата горни бутона, за да стартирате Game Turbo когато не играете игри</string>
-    <string name="gb_shoulder_key_settings_title">Използвайте горните бутони за Game Turbo</string>
+    <string name="gb_shoulder_key_settings_guide_tips2">Използвайте изскачащите бутони за функциите, които сте им предназначили по време на игрите</string>
+    <string name="gb_shoulder_key_settings_summary">Използвайте и двата изскачащи бутона, за да стартирате Game Turbo когато не играете игри</string>
+    <string name="gb_shoulder_key_settings_title">Използвайте изскачащите бутони в Game Turbo</string>
     <string name="gb_shoulder_key_settings_title_new">Бързо стартиране на Game Turbo</string>
+    <string name="gb_shoulder_set_left_right">Настройване на [%s]</string>
+    <string name="gb_shoulder_set_title">Активирайте изскачащите бутони, за да ги конфигурирате</string>
+    <string name="gb_shoulder_set_title2">Движете [%s] към която и да е функционална позиция и го използвайте чрез изскачащите бутони</string>
+    <string name="gb_shoulder_single_trigger">Действие</string>
+    <string name="gb_shoulder_subsection_down">Натиснете</string>
+    <string name="gb_shoulder_subsection_trigger">Последователност</string>
+    <string name="gb_shoulder_subsection_up">Отпуснете</string>
+    <string name="gb_shoulder_update_left_right">Редактиране на %s</string>
     <string name="gb_sign_gift">Регистрирайте се, за да получите награда</string>
     <string name="gb_sign_gift_button_text">Получаване</string>
     <string name="gb_sign_notification_summary">Играйте игри без мрежово закъснение</string>
@@ -2182,6 +2208,7 @@ to join our egg hunt!"</string>
     <string name="menu_text_license_manager">Разрешения</string>
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_unit_b">Б</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
@@ -2190,6 +2217,7 @@ to join our egg hunt!"</string>
     <string name="menu_text_optimize_manage">Подобрете скоростта</string>
     <string name="menu_text_optimize_manage_1">Подобряване на скоростта</string>
     <string name="menu_text_power_manager">Батерия</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Премахни от изключения</string>
     <string name="menu_white">Добавяне към изключения</string>
     <string name="mi_ime_not_used">Използвайте клавиатура одобрена от Xiaomi</string>
@@ -2606,7 +2634,7 @@ to join our egg hunt!"</string>
     <string name="pc_fast_charge_notifi_action_text_on">Ускоряване</string>
     <string name="pc_fast_charge_notifi_power_threshold_title">Задаване на ниво на батерия за напомняния</string>
     <string name="pc_fast_charge_notifi_summary">По-бързо зареждане до %s от обикновено…</string>
-    <string name="pc_fast_charge_notifi_summary_on">Тази функция може да нагрее устройството ви</string>
+    <string name="pc_fast_charge_notifi_summary_on">Скоростта на зареждане се ускорява при изключен екран. Устройството Ви ще се нагрее.</string>
     <string name="pc_fast_charge_notifi_switch_summary">Известяване за ускоряване на зареждането когато предоставения %dW заряд е свързан и батерията е под зададеното ниво</string>
     <string name="pc_fast_charge_notifi_switch_title">Известяване за ускоряване</string>
     <string name="pc_fast_charge_notifi_title">%dW зареждане</string>
@@ -2820,6 +2848,11 @@ to join our egg hunt!"</string>
     <string name="power_center_dialog_msg_top">Когато услугата Икономия на батерия е включена, MIUI ще предприеме следните оптимизации:</string>
     <string name="power_center_hints_scan_danger_result">Можете да коригирате този проблем сега</string>
     <string name="power_center_list_item_auto_brightness">Автоматично настройване на яркостта на екрана</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh (милиампер-час)</string>
+    <string name="power_center_list_item_battery_status_capacity">мАч</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">ч</string>
     <string name="power_center_list_item_close_bluetooth">Изключете Bluetooth</string>
     <string name="power_center_list_item_deep_save_title">Разширени настройки</string>
@@ -3078,6 +3111,7 @@ to join our egg hunt!"</string>
     <string name="pref_normal_traffic_limit">Когато планът за данни е изразходван</string>
     <string name="pref_open_adjust_traffic">Синхронизиране статистиката за трафика с вашия оператор</string>
     <string name="pref_operator_not_set">Оператора не е зададен</string>
+    <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_over_traffic_limit">Когато сте надвишили вашия лимит за данни</string>
     <string name="pref_package_traffic_settings">План за данни</string>
     <string name="pref_pkg_begin_date">Дата за нулиране на сметката</string>
@@ -3328,6 +3362,7 @@ to join our egg hunt!"</string>
     <string name="privacy_using_record">Запис на аудио</string>
     <string name="privacyapp_number_masked_text">Съдържанието на известията е скрито</string>
     <string name="privacyapp_number_unmasked_text">Съдържанието на известията може да се скрие</string>
+    <string name="process_kernel_label">Android операционна система</string>
     <string name="process_mediaserver_label">Медиен сървър</string>
     <string name="process_vpnsdkmanager_label">Турбо режим за игри</string>
     <string name="promotion">Реклами</string>
@@ -3403,6 +3438,7 @@ to join our egg hunt!"</string>
     <string name="result_sms_title_antispam">Злонамерени URL адреси в SMS</string>
     <string name="result_sms_title_auth">Риск при SMS от банкови институции</string>
     <string name="result_wifi_header">Открити са Wi-Fi рискове</string>
+    <string name="resume">Възстановяване</string>
     <string name="right_precent">100%</string>
     <string name="risk_app_install_agree_button">Доверявам се на това приложение</string>
     <string name="risk_app_install_agree_checkbox">Приемам всички възможни рискове.</string>
@@ -4425,7 +4461,7 @@ to join our egg hunt!"</string>
     <string name="vb_video_effects_3d">Съраунд саунд</string>
     <string name="vb_video_effects_3d_summary">Усилване на дълбочината на възпроизвеждане на звука за слушалки и високоговорители</string>
     <string name="vb_video_effects_3d_summary_headset">Повишете чувството за потапяне и обгръщане при слушане на аудио със слушалки</string>
-    <string name="vb_video_effects_3d_surround">Съраунд саунд</string>
+    <string name="vb_video_effects_3d_surround">Виртуален завладяващ звук</string>
     <string name="vb_video_effects_display_style">Стил</string>
     <string name="vb_video_effects_dolby">Dolby Atmos</string>
     <string name="vb_video_effects_dolby_dialog_enhancer">Подобрен диалог</string>
@@ -4453,7 +4489,7 @@ to join our egg hunt!"</string>
     <string name="vb_video_effects_settings_stereo">Сила на звука</string>
     <string name="vb_video_effects_some_headphone">Поддържано от избрани модели слушалки</string>
     <string name="vb_video_effects_spatial">Следене на движенията на главата</string>
-    <string name="vb_video_effects_spatial_summary">"Настройване на съраунд саунд в зависимост от движенията на главата
+    <string name="vb_video_effects_spatial_summary">"Настройване на завладяващия звук в зависимост от движенията на главата
 *Поддържа се само модели слушалки за игри"</string>
     <string name="vb_video_effects_srs_premium_sound">Звук</string>
     <string name="vb_video_super_division">Увеличаване</string>

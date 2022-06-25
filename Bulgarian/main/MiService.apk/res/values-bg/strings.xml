@@ -168,7 +168,7 @@
     <string name="miui_feedback_edit_select_upload_log">Добави регистри</string>
     <string name="miui_feedback_edit_select_upload_log_not_select_desc">Не е избрано \"Добави регистри\"</string>
     <string name="miui_feedback_edit_select_upload_log_select_desc">Избрано е \"Добави регистри\"</string>
-    <string name="miui_feedback_edit_storage_permission_name">Достъп до хранилището на устройството</string>
+    <string name="miui_feedback_edit_storage_permission_name">Достъп до паметта на устройството</string>
     <string name="miui_feedback_edit_submit_dialog_cancel">Не приемам</string>
     <string name="miui_feedback_edit_submit_dialog_confirm">Приемам</string>
     <string name="miui_feedback_edit_submit_dialog_content">&lt;Data>Трябва да се съгласите с нашите &lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;lang=%2$s\">Правила за поверителност&lt;/a> и &lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;lang=%4$s\">Потребителско споразумение&lt;/a>, за да можете да използвате Обратна връзка. Проблемите, които докладвате, заедно с прикачените файлове (може да съдържат лична информация, например информация за Вашето устройство и мрежа) ще бъдат качени на сървърите на MIUI. Това ще ни помогне да установим и разрешим проблемите, които докладвате.&lt;/Data></string>
@@ -189,7 +189,7 @@
 Работни часове: 9:00 - 18:00 (с изключение на банкови и календарни празници)
 Имейл: service.jp@xiaomi.com"</string>
     <string name="miui_feedback_main_frequent_question_title">ЧЗВ</string>
-    <string name="miui_feedback_main_item_catch_full_log">Получаване на доклади</string>
+    <string name="miui_feedback_main_item_catch_full_log">Регистри</string>
     <string name="miui_feedback_main_item_customer_service">Следпродажбени услуги</string>
     <string name="miui_feedback_main_item_feedback_list">Моят отзив</string>
     <string name="miui_feedback_main_menu_view_privacy">Правила за поверителност</string>
@@ -338,7 +338,7 @@
     <string name="permission_privacy">Правила за поверителност (задължително)</string>
     <string name="permission_region_version_msg">&lt;Data>Преди да използвате \"Услуги и обратна връзка\", трябва да прочетете и да се съгласите с нашето &lt;a href=%1$s>Потребителско споразумение&lt;/a> и &lt;a href=%2$s>Правила за поверителност&lt;/a>.&lt;/Data></string>
     <string name="permission_select_all">Изберете всички</string>
-    <string name="permission_storage">Хранилище</string>
+    <string name="permission_storage">Памет</string>
     <string name="permission_storage_introduce">За съхраняване на файлове на Вашето устройство</string>
     <string name="permission_user_protocol">Потребителско споразумение (задължително)</string>
     <string name="pm">PM</string>

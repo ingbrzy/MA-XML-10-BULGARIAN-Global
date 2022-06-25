@@ -102,6 +102,10 @@
         <item quantity="other">%d избрани елементи</item>
         <item quantity="one">%d избран елемент</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нови известия</item>
+        <item quantity="one">%d ново известие</item>
+    </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">Преди %d минути</item>
         <item quantity="one">Преди 1 минута</item>
@@ -111,5 +115,9 @@
 Имате още %d оставащи опита."</item>
         <item quantity="one">"
 Имате още %d оставащ опит."</item>
+    </plurals>
+    <plurals name="wifi_tether_connected_summary">
+        <item quantity="other">%1$d устройства са свързани</item>
+        <item quantity="one">%1$d устройство е свързано</item>
     </plurals>
 </resources>

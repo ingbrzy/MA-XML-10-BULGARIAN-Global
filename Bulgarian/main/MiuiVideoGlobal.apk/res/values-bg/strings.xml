@@ -69,10 +69,6 @@
     <string name="activity_not_found_notice">Приложението не може да се открие</string>
     <string name="ad_bar_notification_setting_sub_title">Показване на събития в Лентата с известия</string>
     <string name="ad_bar_notification_setting_title">Събития</string>
-    <string name="ad_buy">Купи</string>
-    <string name="ad_download">Изтегли</string>
-    <string name="ad_join">Присъедини се към общността</string>
-    <string name="ad_more">Още</string>
     <string name="add_local_shortcut_add">Добави</string>
     <string name="add_local_shortcut_des">Добавете \"Моите видеа\" към Началния екран, за да получите достъп до локални видео файлове с едно натискане.</string>
     <string name="add_search_channel_link">URL</string>
@@ -104,7 +100,6 @@
     <string name="app_description_content">Mi Видео е системно приложение, което съдържа локален видео плейър. Все още ще можете да възпроизвеждате видео файлове след като премахнете прекия път на Началния екран.</string>
     <string name="app_description_title">Премахване на \"Mi Видео\" от Начален екран?</string>
     <string name="app_name">Mi Видео</string>
-    <string name="auth_again">Приемам</string>
     <string name="auth_fail_warning">Сесията изтече. Влезте отново.</string>
     <string name="auto_play_next_off">Автоматичното възпроизвеждане е изключено.</string>
     <string name="auto_play_next_on">Автоматичното възпроизвеждане е включено.</string>
@@ -139,6 +134,7 @@
     <string name="cast_forward">Превъртане напред</string>
     <string name="cast_forward_10">Превъртане напред с десет секунди</string>
     <string name="cast_forward_30">Превъртане напред с тридесет секунди</string>
+    <string name="cast_intro_overlay_button_text">\@android:string/ok</string>
     <string name="cast_live_label">НА ЖИВО</string>
     <string name="cast_mute">Спиране</string>
     <string name="cast_notification_connected_message">Установена е връзка с/ъс „%1$s“</string>
@@ -226,6 +222,7 @@
     <string name="common_google_play_services_updating_text">%1$s няма да се изпълнява без услугите за Google Play. Понастоящем те се актуализират.</string>
     <string name="common_google_play_services_wear_update_text">Необходима е нова версия на услугите за Google Play. Скоро тя ще се актуализира автоматично.</string>
     <string name="common_open_on_phone">Отваряне на телефона</string>
+    <string name="common_retry_late_hint">Изчакайте минута-две и опитайте отново</string>
     <string name="common_signin_button_text">Вход</string>
     <string name="common_signin_button_text_long">Вход с Google</string>
     <string name="confirm_activate_email">Потвърдено</string>
@@ -273,12 +270,16 @@ ID:%s
     <string name="dialog_edit_hint_bookmarks_url">URL</string>
     <string name="dialog_edit_hint_name">Име</string>
     <string name="dialog_edit_hint_url">URL</string>
+    <string name="dialog_item_add_video">Добави видео</string>
     <string name="dialog_jumpto_choose">Не показвай отново</string>
     <string name="dialog_jumpto_content">Преминаване към Mi Видео за получаване на достъп до допълнителни функции за възпроизвеждане?</string>
     <string name="dialog_jumpto_title">Mi Видео</string>
+    <string name="dialog_look_offline_btn">View offline content</string>
+    <string name="dialog_no_internet_des">"You're not connected to the network. View offline content instead?"</string>
     <string name="dialog_no_video_confirm">Разбрах</string>
     <string name="dialog_no_video_tip">Първо се опитайте да отворите детайлите на видеото. Бутона за изтегляне ще бъде наличен след като видеото бъде открито.</string>
     <string name="dialog_no_video_title">Не е открито видео</string>
+    <string name="dialog_open_internet_btn">Connect to the network</string>
     <string name="dialog_privacy_change_info">Обновихме Правилата за поверителност на Mi Видео заради настройки в услугите, които предлагаме. За да се информирате подробно за правата си като потребител и да научите повече за начините, по които използваме Вашите лични данни, прочетете и приемете нашето &lt;a href=%1$s>Потребителско споразумение&lt;/a> и &lt;a href=%2$s>Правила за поверителност&lt;/a> преди да използвате приложението.</string>
     <string name="dialog_privacy_change_title">Обновление на Правилата за поверителност</string>
     <string name="dialog_privacy_experience_plan">Присъединете се към нашата Програма за потребителски отзиви, за да споделяте потребителски данни с нас, за да ни помогнете да подобрим нашите продукти и услуги.</string>
@@ -376,7 +377,6 @@ ID:%s
     <string name="exo_track_surround_7_point_1">7,1-канален обемен звук</string>
     <string name="exo_track_unknown">Неизвестно</string>
     <string name="expand_button_title">Разширени</string>
-    <string name="explore">Открийте</string>
     <string name="explore_on_mi_video">Открийте още на Mi Video</string>
     <string name="exposed_dropdown_menu_content_description">Показване на падащото меню</string>
     <string name="failed_dup_secure_phone_number">Този телефонен номер вече е асоцииран с друг Mi Профил</string>
@@ -390,10 +390,9 @@ ID:%s
     <string name="favorite_cancel_success">Премахването от любими е успешно.</string>
     <string name="favorite_fail">Неуспешно добавяне в любими. Опитайте отново по-късно.</string>
     <string name="favorite_success">Успешно добавен към любими</string>
-    <string name="fcm_fallback_notification_channel_label">Разни</string>
     <string name="fcm_push_title">Популярни видеоклипове</string>
     <string name="feedback">Отзив</string>
-    <string name="feedback_activity_title">Доклад за грешки</string>
+    <string name="feedback_activity_title">Отзиви</string>
     <string name="feedback_contact_empty">Въведете вашите данни за контакт</string>
     <string name="feedback_contact_title">Информация за контакт</string>
     <string name="feedback_detail_input_hint">Въведете вашето съобщение</string>
@@ -411,7 +410,6 @@ ID:%s
     <string name="file_space_not_enough_tip">Няма достатъчно памет. Освободете поне %d MB и стартирайте приложението наново.</string>
     <string name="find_psw">Забравена парола</string>
     <string name="finish">Завършено</string>
-    <string name="firework_privacy">Правила за поверителност на Firework</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -517,6 +515,9 @@ ID:%s
     <string name="galleryplus_gallery_video_save_video">Създаване на видео…</string>
     <string name="galleryplus_gallery_video_slow_edit">Забавен кадър</string>
     <string name="galleryplus_gallery_view_tags">Показване на знаци</string>
+    <string name="galleryplus_globalvideo_controller_go">Напред</string>
+    <string name="galleryplus_globalvideo_controller_hint">Прегледайте подобрената версия на Mi Видео</string>
+    <string name="galleryplus_globalvideo_controller_tip">Преглед на допълнителни функции</string>
     <string name="galleryplus_is_higher_definition">HD преглед</string>
     <string name="galleryplus_network_connect_check">Неуспешно свързване с мрежата</string>
     <string name="galleryplus_network_connect_confirm">Свържете се с Wi-Fi или включете мобилните данни в настройки на мрежата.</string>
@@ -524,11 +525,20 @@ ID:%s
     <string name="galleryplus_network_not_wifi">Използването на мобилни данни за гледане на клипове може да доведе до начисляването на допълнителни такси</string>
     <string name="galleryplus_next_step">Напред</string>
     <string name="galleryplus_notification_linkvideo_subtitle1" formatted="false">Управлявайте файлове %$s Добавяйте субтитри %$s Прожектирайте клипове %$s</string>
+    <string name="galleryplus_notification_linkvideo_subtitle1_new">Използвайте картина в картината, възпроизвеждане във фонов режим, увеличаване, прожектиране и още %$s</string>
     <string name="galleryplus_notification_linkvideo_subtitle2">Защитете личните си клипове с парола %$s</string>
+    <string name="galleryplus_notification_linkvideo_subtitle2_new">Защитете лични клипове с парола и управлявайте файловете си %$s</string>
     <string name="galleryplus_notification_linkvideo_subtitle3">Теглете клипове от TikTok, Instagram и Twitter %$s</string>
+    <string name="galleryplus_notification_linkvideo_subtitle3_new">Филми, музикални клипове и кратки клипове от любимите Ви платформи %$s</string>
+    <string name="galleryplus_notification_linkvideo_subtitle4">Гледайте популярни сериали, комедии и още</string>
+    <string name="galleryplus_notification_linkvideo_subtitle5">Гледайте и се абонирайте за спорт, анимации, филми и още</string>
     <string name="galleryplus_notification_linkvideo_title1">%$s Разгледайте най-готините функции на Mi Видео!</string>
     <string name="galleryplus_notification_linkvideo_title2">%$s Натиснете, за да управлявате клиповете си</string>
     <string name="galleryplus_notification_linkvideo_title3">%1$s Теглете клипове безплатно %2$s Управлявайте файлове</string>
+    <string name="galleryplus_notification_linkvideo_title3_new">%$s Бързо, безплатни изтегляния</string>
+    <string name="galleryplus_notification_linkvideo_title4">Стотици клипове, безплатни за определено време</string>
+    <string name="galleryplus_notification_linkvideo_title5">Гледайте безплатно любимите си предавания онлайн</string>
+    <string name="galleryplus_notification_try_now_btn">Опитайте сега</string>
     <string name="galleryplus_online_cta">Mi Видео се нуждае от достъп до интернет, за да оперира нормално. Приемате ли?</string>
     <string name="galleryplus_online_cta_agree">Приемам</string>
     <string name="galleryplus_online_cta_disagree">Не приемам</string>
@@ -608,7 +618,6 @@ ID:%s
     <string name="get_ph_ticket">Получи код</string>
     <string name="get_phone_bind_exceed_limit">Можете да асоциирате до 3 Mi Профила с един телефонен номер. Не може да се добавят нови профили.</string>
     <string name="get_phone_verifycode_exceed_limit">На този телефонен номер са изпратени прекалено много кодове за потвърждаване. Опитайте отново след 24 часа.</string>
-    <string name="got_it">Разбрах</string>
     <string name="goto_sign_up">Създайте профил</string>
     <string name="have_learned">Направено</string>
     <string name="hidden_channels">Следните канали няма да бъдат показвани на началната страница.</string>
@@ -618,9 +627,48 @@ ID:%s
     <string name="history">Хронология</string>
     <string name="history_local_video">На устройството</string>
     <string name="history_online_video">В интернет</string>
-    <string name="hot">Популярни</string>
     <string name="icon_content_description">Икона за диалогов прозорец</string>
     <string name="identity">Идентифициране</string>
+    <string name="incentive_details">Подробности</string>
+    <string name="incentive_dialog_cancel_not_interested">Не, благодаря</string>
+    <string name="incentive_dialog_continue_to_watch">Продължи</string>
+    <string name="incentive_dialog_default_message">Гледайте още %1$s, за да получите %2$s!</string>
+    <string name="incentive_dialog_default_title">Продължавайте да гледате?</string>
+    <string name="incentive_dialog_exit">Изход</string>
+    <string name="incentive_dialog_negative_give_up">Не, благодаря</string>
+    <string name="incentive_dialog_negative_play_next_video">Пускане на следващо видео</string>
+    <string name="incentive_dialog_ok_receive_task">Изпълни</string>
+    <string name="incentive_dialog_positive_get_credits">Получавайте точки</string>
+    <string name="incentive_dialog_positive_login_and_get_credits">Вписване</string>
+    <string name="incentive_exchange">Обмени</string>
+    <string name="incentive_exchange_code">Код</string>
+    <string name="incentive_exchange_code_copy">Копиране</string>
+    <string name="incentive_exchange_details">Подробности</string>
+    <string name="incentive_exchange_details_current">Обща поръчка</string>
+    <string name="incentive_exchange_details_total">Баланс</string>
+    <string name="incentive_exchange_empty_tip">Nothing here yet. Redeem points to get started.</string>
+    <string name="incentive_exchange_expire_tip">Невзетите точки ще изчезнат на втория ден</string>
+    <string name="incentive_exchange_lack">Недостъпно</string>
+    <string name="incentive_exchange_successful">Успешно обменено</string>
+    <string name="incentive_exchange_tip">Тези точки да налични само днес</string>
+    <string name="incentive_login_for_claim">Впишете се в своя Google Профил, за да спечелите точки</string>
+    <string name="incentive_login_tip">Sign in to earn points and get rewards</string>
+    <string name="incentive_my_points">Моите точки</string>
+    <string name="incentive_popup_window_share">Споделяйте, за да спечелите точки</string>
+    <string name="incentive_popup_window_subscribe">Абонирайте се, за да спечелите точки</string>
+    <string name="incentive_rules_title_bar">Правила</string>
+    <string name="incentive_tab_exchange_recore">Награди</string>
+    <string name="incentive_tab_integral_task">Задачи</string>
+    <string name="incentive_tab_points_details">Хронология</string>
+    <string name="incentive_tab_prize_redemption">Награди</string>
+    <string name="incentive_task_login_receive">Вписване</string>
+    <string name="incentive_task_receive">Вземи</string>
+    <string name="incentive_task_title_daily">Ежедневни задачи</string>
+    <string name="incentive_task_title_novice">За новодошли</string>
+    <string name="incentive_task_to_get">Начало</string>
+    <string name="incentive_task_to_login">Вписване</string>
+    <string name="incentive_view_all_prizes">Преглед на всички награди</string>
+    <string name="incentive_view_details">Подробности</string>
     <string name="inconsistent_pwd">Паролите не съвпадат</string>
     <string name="init_channels">Възстанови по подразбиране</string>
     <string name="input_email_address_notice">Ще използваме този имейл за потвърждаване на профила Ви</string>
@@ -650,11 +698,13 @@ ID:%s
     <string name="live_title">TV на живо</string>
     <string name="live_tv_title">TV на живо</string>
     <string name="loading">Момент…</string>
+    <string name="local_diversion_all_local_videos">Всички клипове в това устройство</string>
     <string name="local_diversion_close_recommend">Затваряне</string>
     <string name="local_diversion_download_more_video">Още видеоклипове</string>
     <string name="local_diversion_manage_local_video">Управление на файлове</string>
     <string name="local_diversion_open_mivideo">*Превключете към Mi Видео, мощен мултифункционален видео плейър</string>
     <string name="local_diversion_recommend_title">Популярни</string>
+    <string name="local_diversion_view_more">Преглед</string>
     <string name="local_empty_guide">Клиповете, които заснемате ще излизат тук</string>
     <string name="local_folder_select_count">Маркирани %s</string>
     <string name="local_hide_folder_dialog_content">Скритите видеоклипове няма да бъдат показвани във Вашите плейлисти</string>
@@ -678,7 +728,7 @@ ID:%s
     <string name="local_video_from_small_to_big">Малък към голям</string>
     <string name="local_video_from_z_to_a">От Я до А</string>
     <string name="local_video_name">Име</string>
-    <string name="local_video_notification_btn">Гледайте с Mi Video</string>
+    <string name="local_video_notification_btn">Гледайте с Mi Видео</string>
     <string name="local_video_notification_title">Открит е нов локален видеоклип</string>
     <string name="local_video_number_of_selected">Избрани %1$d/%2$d</string>
     <string name="local_video_shortcut_name">Моите видеа</string>
@@ -727,7 +777,6 @@ ID:%s
     <string name="lv_brightness">Яркост</string>
     <string name="lv_cast">Прожекция</string>
     <string name="lv_check_delete_file">Изберете елементи за изтриване</string>
-    <string name="lv_check_send_file">Можете да изпращате само по 1 файл</string>
     <string name="lv_check_send_file_new">Можете да изпращате само %d файл всеки път</string>
     <string name="lv_confirm_delete_history">Ще изтриете ли избраните елементи?</string>
     <string name="lv_confirm_delete_videos">Изтрий избраните?</string>
@@ -839,6 +888,7 @@ ID:%s
     <string name="material_timepicker_text_input_mode_description">Превключете към режима за въвеждане на текст, за да въведете часа.</string>
     <string name="mediation_ad_can_not_share">Видеото не може да бъде споделено</string>
     <string name="mi_video">Mi Видео</string>
+    <string name="mi_video_pip_mode">Картина в картината</string>
     <string name="midnight">Нощ</string>
     <string name="miuix_access_state_desc">Избрани</string>
     <string name="miuix_appcompat_action_mode_deselect_all">Размаркиране на всички</string>
@@ -947,6 +997,7 @@ ID:%s
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -980,11 +1031,9 @@ ID:%s
     <string name="need_update_app">Актуализирайте Mi Видео, за да използвате всички негови функции</string>
     <string name="network_connect_info">Неуспешно свързване с мрежата.</string>
     <string name="network_failed">Не можах да се свържа с мрежа</string>
-    <string name="new_channel_tip">Вижте нови канали!</string>
     <string name="newyearfestival_go_to_draw_prizes">Към Томболата</string>
     <string name="newyearfestival_watch_the_video_to_draw_prizes">Гледайте клипове, за да участвате в Томболата</string>
     <string name="next">следващ</string>
-    <string name="next_step">Напред</string>
     <string name="nick_name">Псевдоним</string>
     <string name="night">Вечер</string>
     <string name="no_account">Не сте вписани</string>
@@ -1017,7 +1066,6 @@ ID:%s
     <string name="notification_recall_title">Включване на известия</string>
     <string name="notification_tool">Кутия с инструменти</string>
     <string name="notify_apk_installed">Изтеглянето е успешно</string>
-    <string name="off_tip_firework_recommend">Няма да получавате персонализирани препоръки за съдържание от Firework</string>
     <string name="offline_notification_text">Докоснете, за да отворите рекламата</string>
     <string name="offline_notification_title">Прегледайте рекламата, която запазихте, докато бяхте офлайн</string>
     <string name="offline_opt_in_confirm">ОК</string>
@@ -1026,9 +1074,9 @@ ID:%s
     <string name="offline_opt_in_message">Ще ви изпратим известие с връзка към сайта на рекламодателя.</string>
     <string name="offline_opt_in_title">Отворете рекламата, когато отново сте онлайн.</string>
     <string name="ok">OК</string>
-    <string name="on_tip_firework_recommend">Ще получавате персонализирани препоръки за съдържание от Firework</string>
     <string name="online_play_hint">Например: http://www.example.com/video.mp4</string>
     <string name="online_play_title">Въведете URL</string>
+    <string name="order_alphabet">А – Я</string>
     <string name="order_recently_subscribe">Скорошни абонаменти</string>
     <string name="order_recently_updated">Обновени наскоро</string>
     <string name="out_of_memory_background_playback_is_suspended">Поради недостатъчно памет съдържанието на заден план беше спряно на пауза</string>
@@ -1101,9 +1149,9 @@ ID:%s
     <string name="ovp_player_plugin_dlg_neg_btn">Затвори</string>
     <string name="ovp_player_plugin_dlg_no_content">Няма инсталирани плъгини за видеоплейър.</string>
     <string name="ovp_player_plugin_dlg_title">Плъгини за видеоплеър</string>
-    <string name="ovp_player_update_dialog_info">Актуализирайте Mi Video добавка до последната версия, за да можете да пуснете този видео клип. Актуализиране сега?</string>
+    <string name="ovp_player_update_dialog_info">Актуализирайте Mi Видео добавка до последната версия, за да можете да пуснете този видео клип. Актуализиране сега?</string>
     <string name="ovp_player_update_info">"Неуспешно възпроизвеждане на този видео клип.
-Първо актуализирайте Mi Video до последната версия."</string>
+Първо актуализирайте Mi Видео до последната версия."</string>
     <string name="ovp_playlist">Списъци за изпълнение</string>
     <string name="ovp_plugin_install_failure">Не може да се инсталира плъгина</string>
     <string name="ovp_resolution_auto">Автоматично</string>
@@ -1220,11 +1268,11 @@ ID:%s
     <string name="passport_wrong_voice">Въведеният от Вас код е неправилен</string>
     <string name="password_toggle_content_description">Показване на паролата</string>
     <string name="permission_continue">Продължи</string>
-    <string name="permission_info">"Mi Video се нуждае от достъп до IMEI номера на вашето устройство, за да направи следното:
+    <string name="permission_info">"Mi Видео се нуждае от достъп до IMEI номера на вашето устройство, за да направи следното:
  
 По-добре да персонализира услугите си за вашето устройство;
 Да увеличи сигурността на вашия профил"</string>
-    <string name="permission_info1">Mi видео се нуждае от достъп до IMEI номера на вашето устройство, за да направи следното:</string>
+    <string name="permission_info1">Mi Видео се нуждае от достъп до IMEI номера на вашето устройство, за да направи следното:</string>
     <string name="permission_info2">По-добре да персонализира услугите си за вашето устройство;</string>
     <string name="permission_info3">Да увеличи сигурността на вашия профил.</string>
     <string name="permission_phone">Настройки на обаждане</string>
@@ -1267,14 +1315,14 @@ ID:%s
     <string name="plus_change_poster">Смяна на корицата на албума</string>
     <string name="plus_continue_watching">Продължавайте да гледате</string>
     <string name="plus_deleting_wait">Изтрива се...</string>
-    <string name="plus_fallback">Доклад за грешки</string>
+    <string name="plus_fallback">Отзиви</string>
     <string name="plus_gallery_allvideos">Всички видеота</string>
     <string name="plus_gallery_files">Файлове</string>
     <string name="plus_gallery_folder_switch_guid">Натиснете, за да смените с изглед тип списък</string>
     <string name="plus_gallery_mediatype_aimusic">Саундтракoве</string>
     <string name="plus_gallery_mediatype_changtu">Дълги снимки</string>
     <string name="plus_gallery_mediatype_fangtu">Квадратни снимки</string>
-    <string name="plus_gallery_mediatype_fastslowvideo">Забързано и забавено видео</string>
+    <string name="plus_gallery_mediatype_fastslowvideo">Таймлапс и забавен кадър</string>
     <string name="plus_gallery_mediatype_gif">GIF-ове</string>
     <string name="plus_gallery_mediatype_hidded">Скрити елементи</string>
     <string name="plus_gallery_mediatype_longvideo">Дълги видеоклипове</string>
@@ -1424,7 +1472,7 @@ ID:%s
     <string name="recommend_online_switch">Онлайн препоръки</string>
     <string name="recommend_online_tips">Включи, за да получаваш онлайн видео препоръки</string>
     <string name="recommend_page_replay">ПОВТОРЕНИЕ</string>
-    <string name="recommend_switch_alert">За да премахнете този раздел, отидете в настройките на \"Mi видео\".</string>
+    <string name="recommend_switch_alert">За да премахнете този раздел, отидете в настройките на Mi Видео</string>
     <string name="recommend_to_you">Препоръчано за вас</string>
     <string name="reload_sub_title">Чукнете за да опитате отново.</string>
     <string name="reload_title">Не можах да се свържа с мрежа.</string>
@@ -1454,8 +1502,6 @@ ID:%s
     <string name="restart_phone_bind_title">Промяна на телефон за възстановяване</string>
     <string name="restore_channel_list">Възстанови по подразбиране сега?</string>
     <string name="retry">Опитайте отново</string>
-    <string name="reveal">Завъртане</string>
-    <string name="reveal_tip">Завъртете устройството си за по-добро изживяване от гледането</string>
     <string name="revoke">Отмяна</string>
     <string name="s1">Запазване на изображението</string>
     <string name="s2">Да се разреши ли на рекламата да съхрани изображение в галерията със снимки?</string>
@@ -1501,21 +1547,24 @@ ID:%s
     <string name="sign_in">Вписване</string>
     <string name="sign_in_google_account">Вписване с Google</string>
     <string name="sign_in_google_account_hint">Впишете се в своя Google Профил, за да виждате повече видеоклипове, които харесвате</string>
-    <string name="sign_in_mi_account">Вписване с Mi Профил</string>
+    <string name="sign_in_mi_account">Вписване с Xiaomi Профил</string>
     <string name="sign_in_progress">Вписване…</string>
     <string name="sign_in_title">Впишете се във вашия Mi Профил</string>
     <string name="slid_fail_message">Запазването неуспешно</string>
     <string name="slide_save_message">Генериране на видео…</string>
     <string name="small_video_cancel_button">Отказ</string>
     <string name="small_video_download_button">Изтегляне</string>
+    <string name="small_video_load_more_hint">Плъзнете нагоре за още клипове</string>
     <string name="small_video_snack_download_description">Изтеглете SnackVideo, за да гледате най-новите клипове на любимите си създатели.</string>
     <string name="small_video_snack_download_title">SnackVideo</string>
+    <string name="small_video_tab_expose_hint">Tap for more short videos</string>
     <string name="sms_send_success">Успешно изпратено</string>
     <string name="sns_access_token_expired_warning">Сесията е изтекла. Впишете се пак, за да свържете отново този профил.</string>
     <string name="sns_bind_limit">Твърде много опити. Опитайте други начини за вписване.</string>
     <string name="sns_sign_in">Други начини за вписване</string>
     <string name="source">"Източник: "</string>
     <string name="start_download_tip">Добавено в списъка за изтегляне. Проверете напредъка в Профил > Изтегляния</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD карта</string>
     <string name="storage_internal_sdcard">Вътрешна памет</string>
     <string name="submit">Изпратено</string>
@@ -1555,7 +1604,7 @@ ID:%s
     <string name="t_lv_check_hide_file">Изберете видеоклипове за скриване</string>
     <string name="t_lv_check_unhide_file">Избери видеоклипове за показване</string>
     <string name="t_lv_downloading_new_version">Изтеглят се актуализации…</string>
-    <string name="t_lv_no_new_version">Ми Видео е последна версия.</string>
+    <string name="t_lv_no_new_version">Mi Видео е актуализирано.</string>
     <string name="t_lv_password_limit_new">Паролата трябва да съдържа поне %d символа</string>
     <string name="t_lv_password_null">Полето за парола не може да е празно</string>
     <string name="t_lv_password_wrong">Грешна парола. Опитайте отново.</string>
@@ -1574,10 +1623,13 @@ ID:%s
     <string name="tab_name_movies">Филми</string>
     <string name="tab_name_trending">Предпочитани</string>
     <string name="tab_name_video">Видеоклипове</string>
+    <string name="tab_name_vk">VK Видео</string>
     <string name="tab_playlist_local">Локални</string>
     <string name="tab_playlist_online">Онлайн</string>
     <string name="talkback_ad_clicked">Реклама</string>
     <string name="talkback_background_playback">Възпроизвеждане във фонов режим</string>
+    <string name="talkback_music_play">Възпроизвеждане на музика</string>
+    <string name="talkback_video_play">Възпроизвеждане на видео</string>
     <string name="talkback_voice_search">Гласово търсене</string>
     <string name="target_sdk_version_30_upgrade_tips">Възможно е някои клипове да не тръгнат поради ограничния от Android. Натиснете \"Файлове\", за да откриете други клипове.</string>
     <string name="temporary_not_available">Тази функция още не е налична</string>
@@ -1631,24 +1683,26 @@ ID:%s
     <string name="time_picker_dialog_title">Настройте време</string>
     <string name="time_picker_label_hour">Ч</string>
     <string name="time_picker_label_minute">M</string>
-    <string name="tip_auth_again">След като не сте приемали преди правилата за ползване на съответните Правила за поверителност на третата страна доставчик на съдържание, не можем да ви показваме видео съдържание в Моменти. Натиснете бутона по-долу, за да приемете Правилата за поверителност и да получите достъп до тази функция.</string>
-    <string name="tip_author_click">Натиснете, за да прегледате повече клипове от този профил</string>
     <string name="tip_content_or">ИЛИ</string>
     <string name="tip_download_video_to_save_here">%d. Видеото ще бъде запазено във Вашите изтегляния</string>
     <string name="tip_enter_the_website">%d. Отваряне на уебсайт или приложение</string>
     <string name="tip_local_long_press_for_manager">Натиснете и задръжте, за да управлявате клипове</string>
+    <string name="tip_local_long_press_for_manager_folder">Натиснете и задръжте, за да управлявате папки</string>
     <string name="tip_local_manager_here">Управлявайте файловете си тук</string>
     <string name="tip_login_for_your_online_playlist">Впишете се, за да прегледате плейлистите си.</string>
     <string name="tip_play_a_video">%d. Пускане на видео</string>
-    <string name="tip_pop">&lt;com.miui.video.biz.livetv.data.mnc.information.Data>Съдържанието в Моменти се предоставя от Firework. За да подобрите преживяването си и за да получавате повече значими препоръки за съдържание, разрешете на Firework да събира, обработва и използва вашите лични данни в съответствие с Правилата за поверителност. Прочетете и приемете &lt;a href=\"%1$s\">Правила за поверителност на Firework&lt;/a> преди да използвате неговите услуги.&lt;/com.miui.video.biz.livetv.data.mnc.information.Data></string>
+    <string name="tip_playlist_guide_hint_a">Гледайте клипове от своите Google плейлисти</string>
+    <string name="tip_playlist_guide_hint_b">Гледайте клипове от своите YouTube плейлисти без реклами</string>
     <string name="tip_storage_used_space" formatted="false">Използвани са %.2f GB/%.2f GB</string>
+    <string name="tip_subscribe_guide_hint_a">Преглеждайте съдържание от своите Google абонаменти</string>
+    <string name="tip_subscribe_guide_hint_b">Гледайте съдържание от своите YouTube абонаменти без реклами</string>
     <string name="tip_tap_download_button">%d. Натиснете \"Изтегляне\"</string>
-    <string name="tip_topic_click">Натиснете, за да откриете повече клипове по темата</string>
     <string name="title_bookmarks">Отметки</string>
     <string name="title_continue_to_borwser">Отваряне в браузъра</string>
     <string name="title_download_setting">Настройки на Изтегляния</string>
-    <string name="title_firework_recommend">Firework препоръки</string>
     <string name="title_history">Хронология</string>
+    <string name="title_mangotv_history_sub" formatted="false">%s (Епизод %d)</string>
+    <string name="title_mangotv_subtitle_language">Език на субтитрите</string>
     <string name="title_publisher">Създатели</string>
     <string name="title_select_directory">Избери папка</string>
     <string name="title_selected">Избрани</string>
@@ -1663,8 +1717,14 @@ ID:%s
     <string name="toast_bookmark_url_error">Въведете валиден URL адрес</string>
     <string name="toast_fail_to_delete">Неуспешно изтриване. Опитайте отново.</string>
     <string name="toast_fail_to_rename">Неуспешно преименуване. Опитайте отново.</string>
+    <string name="toast_incentive_claim_fail_11">Неуспешно получаване на точки. Изчакайте минута-две и опитайте отново.</string>
+    <string name="toast_incentive_claim_out_of_limit_2004">Не можете да получите повече точки днес. Ако имате някакви въпроси, моля свържете се с нас.</string>
+    <string name="toast_incentive_redeem_fail_not_enough_points_2003">Нямате достатъчно точки</string>
+    <string name="toast_incentive_redeem_fail_out_of_limit_2004">Не можете да обмените тази награда отново днес</string>
+    <string name="toast_incentive_redeem_fail_prize_expired_2005">Тази награда не е налична</string>
+    <string name="toast_incentive_redeem_fail_prize_expired_error">Неуспешно взимане. Изчакайте една-две минути и опитайте отново.</string>
+    <string name="toast_incentive_redeem_fail_short_of_storage_2002">Тази награда не е налична в момента. Опитайте отново по-късно.</string>
     <string name="toast_m3u8_download_path_tip">Не можете да променяте пътя на изтегляне на съдържание във формат m3u8</string>
-    <string name="toast_no_data">Този елемент не е наличен в момента. Върнете се отново по-късно.</string>
     <string name="toast_play_error_tip">Този файл не може да бъде възпроизведен</string>
     <string name="toast_request_too_frequently">Не толкова бързо!</string>
     <string name="toast_share_failed">Неуспешен опит за споделяне. Изчакайте минута-две и опитайте отново.</string>
@@ -1674,6 +1734,7 @@ ID:%s
     <string name="tool_bar_notification_setting_title">Инструменти за Лента с известия</string>
     <string name="top_bar_game_desc">Открийте много свежи игри тук</string>
     <string name="top_bar_game_title">Канал за игри</string>
+    <string name="trending_history_continue_watching">Продължавайте да гледате</string>
     <string name="tuesday">Вторник</string>
     <string name="tuesday_short">Вт.</string>
     <string name="tuesday_shortest">Вт.</string>
@@ -1752,6 +1813,7 @@ ID:%s
     <string name="video_resolution_mb_size_suffix">%.2f MB</string>
     <string name="video_resolution_tag_suffix">%dP</string>
     <string name="view">Преглед</string>
+    <string name="vk_video_tab">За теб</string>
     <string name="vp_VideoView_error_button">OК</string>
     <string name="vp_VideoView_error_text_unknown">Възникна грешка</string>
     <string name="vp_VideoView_error_title">Неизвестна грешка</string>
@@ -1774,6 +1836,7 @@ ID:%s
     <string name="welcome_tip_skip">Пропусни</string>
     <string name="welcome_tip_title">Добре дошли в Mi Видео</string>
     <string name="yesterday">Вчера</string>
+    <string name="yt_subscription_notification_setting_title">Известия от абонаменти</string>
     <string name="ytb_account">Профили</string>
     <string name="ytb_author_video">Видеоклипове</string>
     <string name="ytb_login">Вписване</string>

@@ -36,9 +36,127 @@
         <item quantity="other">Преди %d мин</item>
         <item quantity="one">Преди 1 мин</item>
     </plurals>
+    <plurals name="app_usage_day">
+        <item quantity="other">Не са използвани от %d дни</item>
+        <item quantity="one">Не е използвано от %d ден</item>
+    </plurals>
+    <plurals name="app_usage_month">
+        <item quantity="other">Не са използвани от %d месеца</item>
+        <item quantity="one">Не е използвано от %d месец</item>
+    </plurals>
+    <plurals name="app_usage_year">
+        <item quantity="other">Не са използвани от %d години</item>
+        <item quantity="one">Не е използвано от %d година</item>
+    </plurals>
+    <plurals name="clean_long_msg_p1">
+        <item quantity="other">"Изчистване на %1$d файла (%2$d%%)
+"</item>
+        <item quantity="one">"Изчистване на %1$d файл (%2$d%%)
+"</item>
+    </plurals>
+    <plurals name="clean_long_msg_p2">
+        <item quantity="other">%1$d елемента в секунда | Оставащо време: %2$s</item>
+        <item quantity="one">%1$d елемент в секунда | Оставащо време: %2$s</item>
+    </plurals>
+    <plurals name="dc_group_title_normal">
+        <item quantity="other">Направете %1$d стъпки, за да освободите %2$s</item>
+        <item quantity="one">Направете %1$d стъпка, за да освободите %2$s</item>
+    </plurals>
+    <plurals name="dc_item_summary_apk">
+        <item quantity="other">&lt;Data>Можете да изтриете &lt;font color=#0097FF>%d&lt;/font> инсталационни пакети&lt;/Data></item>
+        <item quantity="one">&lt;Data>Можете да изтриете &lt;font color=#0097FF>%d&lt;/font> инсталационен пакет&lt;/Data></item>
+    </plurals>
+    <plurals name="dc_item_summary_app_data">
+        <item quantity="other">&lt;Data>Можете да изтриете данните за &lt;font color=#0097FF>%d&lt;/font> приложения&lt;/Data></item>
+        <item quantity="one">&lt;Data>Можете да изтриете данните за &lt;font color=#0097FF>%d&lt;/font> приложение&lt;/Data></item>
+    </plurals>
+    <plurals name="dc_item_summary_image">
+        <item quantity="other">&lt;Data>Можете да изтриете &lt;font color=#0097FF>%d&lt;/font> ненужни снимки&lt;/Data></item>
+        <item quantity="one">&lt;Data>Можете да изтриете &lt;font color=#0097FF>%d&lt;/font> ненужна снимка&lt;/Data></item>
+    </plurals>
+    <plurals name="dc_item_summary_large_file">
+        <item quantity="other">&lt;Data>Можете да изтриете &lt;font color=#0097FF>%d&lt;/font> големи файла&lt;/Data></item>
+        <item quantity="one">&lt;Data>Можете да изтриете &lt;font color=#0097FF>%d&lt;/font> голям файл&lt;/Data></item>
+    </plurals>
+    <plurals name="dc_item_summary_uninstall_app">
+        <item quantity="other">&lt;Data>Можете да деинсталирате &lt;font color=#0097FF>%d&lt;/font> рядко използвани приложения&lt;/Data></item>
+        <item quantity="one">&lt;Data>Можете да деинсталирате &lt;font color=#0097FF>%d&lt;/font> рядко използвано приложение&lt;/Data></item>
+    </plurals>
+    <plurals name="dc_item_summary_video">
+        <item quantity="other">&lt;Data>Можете да изтриете &lt;font color=#0097FF>%d&lt;/font> видеоклипа&lt;/Data></item>
+        <item quantity="one">&lt;Data>Можете да изтриете &lt;font color=#0097FF>%d&lt;/font> видеоклип&lt;/Data></item>
+    </plurals>
+    <plurals name="deepclean_apk_summary">
+        <item quantity="other">Открити са %d APK, изтрийте ненужните.</item>
+        <item quantity="one">Открито е %d APK, може да го изтриете.</item>
+    </plurals>
+    <plurals name="deepclean_app_summary">
+        <item quantity="other">Инсталирани %d приложения, можете да изтриете рядко използваните приложения</item>
+        <item quantity="one">Инсталирано %d приложение, можете да го изтриете</item>
+    </plurals>
+    <plurals name="deepclean_cache_summary">
+        <item quantity="other">Можете да изчистите маловажните данни за %d приложения</item>
+        <item quantity="one">Можете да изчистите маловажните данни за %d приложение</item>
+    </plurals>
+    <plurals name="deepclean_install_info_desc1">
+        <item quantity="other">%d приложения са инсталирани</item>
+        <item quantity="one">%d приложение е инсталирано</item>
+    </plurals>
+    <plurals name="deepclean_large_summary">
+        <item quantity="other">Открити са %d големи файлове, можете да изтриете маловажните от тях</item>
+        <item quantity="one">Открит е %d голям файл, можете да го изтриете</item>
+    </plurals>
+    <plurals name="deepclean_similar_summary">
+        <item quantity="other">Открити са %d снимки, можете да изтриете дубликати и ненужни снимки</item>
+        <item quantity="one">Открита е %d снимка, можете да изтриете дубликати и ненужни снимки</item>
+    </plurals>
+    <plurals name="deepclean_video_summary">
+        <item quantity="other">Открити са %d видеота, изтрийте ненужните.​</item>
+        <item quantity="one">Открито е %d видео, може да го изтриете.</item>
+    </plurals>
+    <plurals name="dialog_content_delete_image_confirm">
+        <item quantity="other">Изтриване на %d снимки?</item>
+        <item quantity="one">Изтриване на %d снимка?</item>
+    </plurals>
+    <plurals name="dialog_content_delete_image_from_all_devices_confirm">
+        <item quantity="other">Премахване на %1$s снимки от всички устройства?</item>
+        <item quantity="one">Премахване на %1$s снимка от всички устройства?</item>
+    </plurals>
+    <plurals name="every_x_day">
+        <item quantity="other">На всеки %d дни</item>
+        <item quantity="one">На всеки %d ден</item>
+    </plurals>
+    <plurals name="global_wa_clean_finish_audio">
+        <item quantity="other">&lt;Data>Освободени &lt;big>&lt;big>&lt;font color=#01BB00 >%1$s&lt;/font>&lt;/big>&lt;/big> (достатъчно за &lt;big>&lt;big>&lt;font color=#01BB00 >%2$d&lt;/font>&lt;/big>&lt;/big> песни)&lt;/Data></item>
+        <item quantity="one">&lt;Data>Освободени &lt;big>&lt;big>&lt;font color=#01BB00 >%1$s&lt;/font>&lt;/big>&lt;/big> (достатъчно за &lt;big>&lt;big>&lt;font color=#01BB00 >%2$d&lt;/font>&lt;/big>&lt;/big> песен)&lt;/Data></item>
+    </plurals>
+    <plurals name="global_wa_clean_finish_picture">
+        <item quantity="other">&lt;Data>Освободени &lt;big>&lt;big>&lt;font color=#01BB00 >%1$s&lt;/font>&lt;/big>&lt;/big> (достатъчно за &lt;big>&lt;big>&lt;font color=#01BB00 >%2$d&lt;/font>&lt;/big>&lt;/big> снимки)&lt;/Data></item>
+        <item quantity="one">&lt;Data>Освободени &lt;big>&lt;big>&lt;font color=#01BB00 >%1$s&lt;/font>&lt;/big>&lt;/big> (достатъчно за &lt;big>&lt;big>&lt;font color=#01BB00 >%2$d&lt;/font>&lt;/big>&lt;/big> снимка)&lt;/Data></item>
+    </plurals>
+    <plurals name="global_wa_image">
+        <item quantity="other">%1$d елемента</item>
+        <item quantity="one">%1$d елемент</item>
+    </plurals>
+    <plurals name="global_wa_video">
+        <item quantity="other">%1$d елемента</item>
+        <item quantity="one">%1$d елемент</item>
+    </plurals>
+    <plurals name="global_wa_voice">
+        <item quantity="other">&lt;Data>Открити са &lt;big>&lt;big>&lt;font size=20 color=#FF9000 >%1$d&lt;/font>&lt;/big>&lt;/big> гласови съобщения&lt;/Data></item>
+        <item quantity="one">&lt;Data>Открито е &lt;big>&lt;big>&lt;font size=20 color=#FF9000 >%1$d&lt;/font>&lt;/big>&lt;/big> гласово съобщение&lt;/Data></item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Преди половин час</item>
         <item quantity="one">Преди половин час</item>
+    </plurals>
+    <plurals name="hint_similar_image_header_left">
+        <item quantity="other">%d групи</item>
+        <item quantity="one">%d група</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="other">%1$d часа</item>
+        <item quantity="one">%1$d час</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">След 1 час</item>
@@ -56,9 +174,25 @@
         <item quantity="other">след %d минути</item>
         <item quantity="one">след 1 минута</item>
     </plurals>
+    <plurals name="install_find_application">
+        <item quantity="other">Търсене сред %d приложения</item>
+        <item quantity="one">Търсене сред %d приложение</item>
+    </plurals>
+    <plurals name="install_find_application_num">
+        <item quantity="other">Открити са %d приложения</item>
+        <item quantity="one">Открито е %d приложение</item>
+    </plurals>
+    <plurals name="last_x_day">
+        <item quantity="other">В последните %d дни</item>
+        <item quantity="one">В последния %d ден</item>
+    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Току що</item>
         <item quantity="one">Току що</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="other">%1$d минути</item>
+        <item quantity="one">%1$d минута</item>
     </plurals>
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d избрани елементи</item>
@@ -67,5 +201,49 @@
     <plurals name="num_minutes_ago">
         <item quantity="other">Преди %d минути</item>
         <item quantity="one">Преди 1 минута</item>
+    </plurals>
+    <plurals name="people">
+        <item quantity="other">Изтеглено от %1$d души</item>
+        <item quantity="one">Изтеглено от %1$d човек</item>
+    </plurals>
+    <plurals name="people_million">
+        <item quantity="other">Изтеглено от %1$d души</item>
+        <item quantity="one">Изтеглено от %1$d човек</item>
+    </plurals>
+    <plurals name="resutl_function_install_app_summary">
+        <item quantity="other">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> приложения не са използвани от много време. Вижте кои са.;&lt;/Data></item>
+        <item quantity="one">&lt;Data>&lt;font color=#ff0000 >%d&lt;/font> приложение не е използвано от много време. Вижте кое е.&lt;/Data></item>
+    </plurals>
+    <plurals name="second">
+        <item quantity="other">%1$d секунди</item>
+        <item quantity="one">%1$d секунда</item>
+    </plurals>
+    <plurals name="view_num">
+        <item quantity="other">%1$s прегледа</item>
+        <item quantity="one">%1$s преглед</item>
+    </plurals>
+    <plurals name="wechat_copy_video_failed_dialog_msg">
+        <item quantity="other">Неуспешно експортиране на %d видеота. Освободете място за съхранение и опитайте пак</item>
+        <item quantity="one">Неуспешно експортиране на %d видео. Освободете място за съхранение и опитайте пак.</item>
+    </plurals>
+    <plurals name="wechat_empty_files">
+        <item quantity="other">(%1$d празни файлове)</item>
+        <item quantity="one">(%1$d празен файл)</item>
+    </plurals>
+    <plurals name="wechat_video_time_p1">
+        <item quantity="other">%1$s:</item>
+        <item quantity="one">%1$s:</item>
+    </plurals>
+    <plurals name="wechat_video_time_p2">
+        <item quantity="other">%1$s</item>
+        <item quantity="one">%1$s</item>
+    </plurals>
+    <plurals name="whatsapp_delete_files">
+        <item quantity="other">Изтрий %1$d елементи?</item>
+        <item quantity="one">Изтрий %1$d елемент?</item>
+    </plurals>
+    <plurals name="whatsapp_file_audio_dec">
+        <item quantity="other">%1$s аудио файла</item>
+        <item quantity="one">%1$s аудио файл</item>
     </plurals>
 </resources>

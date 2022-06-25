@@ -73,32 +73,32 @@
         <item quantity="one">след 1 минута</item>
     </plurals>
     <plurals name="incorrect_pincode_remaining_attempts">
-        <item quantity="other">Невалиден PIN код, %d опита остават</item>
-        <item quantity="one">Невалиден PIN код, %d опит остава</item>
+        <item quantity="other">Невалиден PIN код, остават %d опита</item>
+        <item quantity="one">Невалиден PIN код, остава %d опит</item>
     </plurals>
     <plurals name="incorrect_pukcode_remaining_attempts">
-        <item quantity="other">Невалиден PUK код, %d опита остават</item>
-        <item quantity="one">Невалиден PUK код, %d опит остава</item>
+        <item quantity="other">Невалиден PUK код, остават %d опита</item>
+        <item quantity="one">Невалиден PUK код, остава %d опит</item>
     </plurals>
     <plurals name="input_password_after_timeout_msg">
-        <item quantity="other">Въведете Вашата парола поне един път на всеки %d часа за да бъде запазена за постоянно</item>
-        <item quantity="one">Въведете Вашата парола поне един път на всеки %d час за да бъде запазена за постоянно</item>
+        <item quantity="other">Въведете Вашата парола поне един път на всеки %d часа, за да бъде запазена за постоянно</item>
+        <item quantity="one">Въведете Вашата парола поне един път на всеки %d час, за да бъде запазена за постоянно</item>
     </plurals>
     <plurals name="input_pattern_after_timeout_msg">
-        <item quantity="other">Въведете Вашата парола поне един път на всеки %d часа за да бъде запазена за постоянно</item>
-        <item quantity="one">Въведете Вашата парола поне един път на всеки %d час за да бъде запазена за постоянно</item>
+        <item quantity="other">Въведете Вашата парола поне един път на всеки %d часа, за да бъде запазена за постоянно</item>
+        <item quantity="one">Въведете Вашата парола поне един път на всеки %d час, за да бъде запазена за постоянно</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_hour_time_text">
-        <item quantity="other">Остават %d часа</item>
-        <item quantity="one">Остава %d час</item>
+        <item quantity="other">Остават около %d часа</item>
+        <item quantity="one">Остава около %d час</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_min_time_text">
-        <item quantity="other">Остават %d минути</item>
-        <item quantity="one">Остава %d минута</item>
+        <item quantity="other">Остават около %d минути</item>
+        <item quantity="one">Остава около %d минута</item>
     </plurals>
     <plurals name="keyguard_charging_info_could_use_time_text">
-        <item quantity="other">Остава %1$d часа %2$d мин</item>
-        <item quantity="one">Остава %1$d часа %2$d мин</item>
+        <item quantity="other">Остават около %1$d часа %2$d мин</item>
+        <item quantity="one">Остава около %1$d часа %2$d мин</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_hour_time_format">
         <item quantity="other">%d часа</item>
@@ -109,7 +109,7 @@
         <item quantity="one">%d минута</item>
     </plurals>
     <plurals name="keyguard_charging_info_drained_time_format">
-        <item quantity="other">%1$d часа %2$d минута</item>
+        <item quantity="other">%1$d часа %2$d минути</item>
         <item quantity="one">%1$d часа %2$d минута</item>
     </plurals>
     <plurals name="keyguard_extreme_power_info_could_use_hour_time_text">
@@ -121,8 +121,8 @@
         <item quantity="one">Остава %d минута</item>
     </plurals>
     <plurals name="keyguard_extreme_power_info_could_use_time_text">
-        <item quantity="other">Остават %1$d ч %2$d м</item>
-        <item quantity="one">Остават %1$d ч %2$d м</item>
+        <item quantity="other">Остават %1$d ч %2$d мин</item>
+        <item quantity="one">Остава %1$d ч %2$d мин</item>
     </plurals>
     <plurals name="kg_password_default_pin_message">
         <item quantity="other">Въведете ПИН кода за SIM картата – остават ви %d опита.</item>
@@ -164,6 +164,10 @@
         <item quantity="other">%d избрани елементи</item>
         <item quantity="one">%d избран елемент</item>
     </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нови известия</item>
+        <item quantity="one">%d ново известие</item>
+    </plurals>
     <plurals name="new_notifications_msg">
         <item quantity="other">%d нови известия</item>
         <item quantity="one">%d ново известие</item>
@@ -201,7 +205,7 @@
         <item quantity="one">Може да бъде създаден само един потребител.</item>
     </plurals>
     <plurals name="wifi_tether_connected_summary">
-        <item quantity="other">%1$d свързани устройства</item>
-        <item quantity="one">%1$d свързано устройство</item>
+        <item quantity="other">%1$d устройства са свързани</item>
+        <item quantity="one">%1$d устройство е свързано</item>
     </plurals>
 </resources>

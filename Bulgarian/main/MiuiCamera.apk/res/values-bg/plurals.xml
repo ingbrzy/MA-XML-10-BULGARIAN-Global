@@ -129,7 +129,7 @@
         <item quantity="one">%1$s снимка</item>
     </plurals>
     <plurals name="toast_burst_snap_finished_summary">
-        <item quantity="other">Бързото заснемане приключи, %1$s снимки са направени</item>
-        <item quantity="one">Бързото заснемане приключи, %1$s снимка е направена</item>
+        <item quantity="other">Серийното заснемане приключи, направени са %1$s снимки</item>
+        <item quantity="one">Серийното заснемане приключи, направена е %1$s снимка</item>
     </plurals>
 </resources>

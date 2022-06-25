@@ -235,6 +235,11 @@ Xiaomi Здраве ще ви уведомява единствено за ва�
     <string name="dialog_sleep_goal_title">Sleep duration goal</string>
     <string name="dialog_sleep_record_auto_start">За да може да събира по-точни данни за съня ви, позволете на Xiaomi Здраве да стартира автоматично.</string>
     <string name="dialog_sure">OК</string>
+    <string name="dialog_upgrade_description">"1. Нов дизайн.
+2. Синхронизиране на данни във всички устройства.
+3. Преглед на здравни данни от Здраве, Xiaomi Wear и други приложения в едно място."</string>
+    <string name="dialog_upgrade_positive_btn">Обнови</string>
+    <string name="dialog_upgrade_title">Mi Fitness</string>
     <string name="dialog_user_agreement_purpose">Добре дошли в Xiaomi Здраве! Можете да използвате това приложение, за да броите стъпки, да следите съня си, цикъла си и теглото си, както и да синхронизирате данните си в облака.</string>
     <string name="dialog_user_agreement_purpose2">Welcome to Xiaomi Health! You can use this app to count your steps, analyze sleep, track periods, record weight, and more.</string>
     <string name="disable">Изкл.</string>

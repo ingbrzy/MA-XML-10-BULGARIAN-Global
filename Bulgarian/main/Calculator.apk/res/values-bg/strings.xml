@@ -93,13 +93,13 @@
     <string name="currency_update_updating">Обновяване на курсовете…</string>
     <string name="current_rate_remind_commercial" />
     <string name="current_rate_remind_fund" />
-    <string name="date_format">dd MMM yyyy</string>
+    <string name="date_format">d MMM yyyy</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Традиционен Китайски Календар</string>
     <string name="date_time_picker_dialog_title">Задаване на дата и час</string>
-    <string name="dateformat">dd/MM/yyyy</string>
+    <string name="dateformat">dd.MM.yyyy</string>
     <string name="day">ден</string>
     <string name="degDesc">Ъгъл</string>
     <string name="deleteDesc">изтрий</string>
@@ -232,7 +232,7 @@
     <string name="house_rent">Наем</string>
     <string name="income_type" />
     <string name="install">Инсталирай</string>
-    <string name="install_scanner_to_continued_use">Баркод-скенерът е деинсталиран. Инсталиране отново?</string>
+    <string name="install_scanner_to_continued_use">Скенера е деинсталиран. Повторно инсталиране?</string>
     <string name="interest_rate_hint">Въведете лихвен процент</string>
     <string name="investment_invalid_duration">Продължителността на инвестицията трябва да е число над нулата</string>
     <string name="investment_type_once">Еднократно</string>
@@ -463,7 +463,7 @@
     <string name="network_confirm_content">Конверторът на валута, кредити и ипотеки има нужда от интернет връзка и местоположение, за да работи нормално.</string>
     <string name="network_confirm_title">Необходими са разрешения</string>
     <string name="network_purpose">Добре дошли в Калкулатор! Калкулатор Ви позволява да конвертирате валути, да изчислявате вноски за ипотеки и още много неща.</string>
-    <string name="new_privacy_string">&lt;Data>Добре дошли в Калкулатор!&lt;br/>Това приложение съдържа следните функции:&lt;br/>• Основен калкулатор&lt;br/>• Научен калкулатор&lt;br/>• Универсален корвертор (например валути, мерни единици и т.н.)&lt;br/>• Темплейти за калкулиране на заеми, инвестиции, EMI и още&lt;br/>За да ви предоставя основни услуги Калкулатор се нуждае да събира вашите лични данни. Можете да научите как обработваме събраните лични данни в нашите &lt;a href= \"%1$s\">Правила за поверителност&lt;/a>. Прочетете и приемете нашето &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%3$s\">Правила за поверителност&lt;/a> преди да използвате Калкулатор. Можете да оттеглите съгласието си за Правилата на поверителност на Калкулатор в Настройки по всяко време. Ако не приемете нашите Правила за поверителност може да нямате достъп до някои от функциите, но основните функции все още ще са достъпни за вас.&lt;/Data></string>
+    <string name="new_privacy_string">&lt;Data>Добре дошли в Калкулатор!&lt;br/>Това приложение съдържа следните функции:&lt;br/>• Основен калкулатор&lt;br/>• Научен калкулатор&lt;br/>• Универсален конвертер (тоест за обръщане на валути, единици за измерване и др.)&lt;br/>• Шаблони за измерване на заеми, инвестиции, EMI и др.&lt;br/>Можете да научите как обработваме събраните лични данни в нашите &lt;a href=\"%1$s\">Правила за поверителност&lt;/a>. Прочетете и приемете нашето &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%3$s\">Правила за поверителност&lt;/a> преди да използвате Калкулатор. Можете да оттеглите съгласието за Правилата на поверителност на Калкулатор в Настройки по всяко време. Ако не приемете нашите Правила за поверителност, няма да можете да използвате някои от функциите на приложението, но основните функции все още ще бъдат достъпни за Вас.&lt;/Data></string>
     <string name="night">Вечер</string>
     <string name="none">Без</string>
     <string name="noon">Обед</string>
@@ -516,7 +516,7 @@
     <string name="saturday_short">Сб.</string>
     <string name="saturday_shortest">Сб.</string>
     <string name="scannerDesc">Скенер</string>
-    <string name="scanner_had_been_uninstalled">Баркод-скенерът е деинсталиран</string>
+    <string name="scanner_had_been_uninstalled">Скенера е деинсталиран</string>
     <string name="search_menu_title">Търсене</string>
     <string name="secondFunctionDesc">Превключи на втората функция</string>
     <string name="send">Изпращане</string>
@@ -602,6 +602,7 @@
     <string name="tax_total_insurance_provident_fund">Застраховка и жилищен фонд</string>
     <string name="tax_unemployment">такса Безработен</string>
     <string name="tax_update_time_format">Информацията е предоставена от HeXun (%s)</string>
+    <string name="tenure_year_month">%1$s и %2$s</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишнина от прекратяването на военно положение</string>
     <string name="the_anti_aggression_day">Ден на борба с агресията</string>
     <string name="the_arbor_day">Ден на дървото</string>
@@ -695,6 +696,7 @@
     <string name="unit_data_display_currency_btn">Бутански нгултрум</string>
     <string name="unit_data_display_currency_bwp">Ботсванска пула</string>
     <string name="unit_data_display_currency_byn">Беларуска рубла</string>
+    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Канадски долар</string>
     <string name="unit_data_display_currency_cdf">Конголийски франк</string>
     <string name="unit_data_display_currency_chf">Швейцарски франк</string>
@@ -1037,12 +1039,15 @@
     <string name="word_figure_unit_shi">拾</string>
     <string name="word_figure_yuan">元</string>
     <string name="word_figure_zheng">整</string>
+    <string name="xiaomi_bytes_unit">%1$sБ</string>
     <string name="xiaomi_calculator_delete_description">Калкулатор е системно приложение. Няма да можете да използвате множество конвертери и допълнителни функции след като деинсталирате приложението.</string>
     <string name="xiaomi_calculator_delete_title">Деинсталиране на Калкулатор?</string>
     <string name="xiaomi_calculator_remove_icon_description">Калкулатор е системно приложение. Няма да можете да използвате множество конвертери и допълнителни функции след като премахнете приложението от Началния екран.</string>
     <string name="xiaomi_calculator_remove_icon_title">Премахване на \"Калкулатор\" от Началния екран?</string>
     <string name="xiaomi_connect_download_manager_fail">Няма връзка с Изтегляния. Проверете дали това приложение има всички необходими разрешения в Настройки > Инсталирани приложения.</string>
     <string name="xiaomi_external_storage_unavailable">Паметта не е достъпна. Проверете вашата SD карта.</string>
+    <string name="xiaomi_kilobytes_unit">%1$sКБ</string>
+    <string name="xiaomi_megabytes_unit">%1$sМБ</string>
     <string name="xiaomi_update_dialog_message">"Представяне на версия%1$s
 Размер:%2$s"</string>
     <string name="xiaomi_update_dialog_message_diff">"Представяне на версия%1$s

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="Icon_name_classic_mode">Настройки за Начален екран</string>
     <string name="abc_action_bar_home_description">Навигиране към началния екран</string>
     <string name="abc_action_bar_up_description">Навигиране нагоре</string>
     <string name="abc_action_menu_overflow_description">Още опции</string>
@@ -40,7 +41,9 @@
     <string name="accessibility_recent_task_exit">Затворени са Скорошни</string>
     <string name="accessibility_recent_task_locked_state">Заключено</string>
     <string name="accessibility_recent_task_memory_info">Обща RАМ памет: %2$s | Налична RАМ памет: %1$s. Натиснете два пъти за изчистване.</string>
+    <string name="accessibility_recent_task_show_menu">Допълнителни опции</string>
     <string name="accessibility_recent_task_unlocked_state">Отключено</string>
+    <string name="accessibility_recents_item_dismissed">%1$s е почистен</string>
     <string name="accessibility_recents_item_open_app_info">Отваряне на инф. за приложението %s.</string>
     <string name="accessibility_splite_screen_primary">Добавено като основно приложение в Разделен екран</string>
     <string name="accessibility_splite_screen_secondary">Добавено като второ приложение в Разделен екран</string>
@@ -50,8 +53,10 @@
     <string name="activity_not_unlocked">Изчакайте устройството ви да се рестартира напълно, преди да отваряте приложения</string>
     <string name="add_custom_category">По избор</string>
     <string name="add_screen">Добави бутон за екрани</string>
+    <string name="add_to_workspace">Добави към Начален екран</string>
     <string name="added_all_category">Всички приложения са добавени успешно</string>
     <string name="afternoon">Следобяд</string>
+    <string name="agree_button">Приемам</string>
     <string name="alexa_notification_add">Добавяне</string>
     <string name="alexa_notification_cancel">Не сега</string>
     <string name="alexa_notification_content">Желаете ли да добавите пряк пък до Alexa в Контролния център?</string>
@@ -90,6 +95,7 @@
     <string name="all_apps_slide_up_tips">Плъзгането е резервирано за Чекмедже за приложения. Превключете към нормалния Начален екран и опитайте отново.</string>
     <string name="all_apps_suggestions">Предложения за приложения</string>
     <string name="am">AM</string>
+    <string name="animation_rate_title">Скорост на анимацията</string>
     <string name="announce_for_app_move_in_folder">Преместено на позиция %1$d в папката</string>
     <string name="announce_for_checked">%1$s, проверени</string>
     <string name="announce_for_choose_default_screen">Задайте екран %1$d за Начален екран по подразбиране</string>
@@ -142,6 +148,13 @@
     <string name="app_category_tools">Инструменти</string>
     <string name="app_category_travel">Пътуване</string>
     <string name="app_category_vr">VR</string>
+    <string name="app_drawer_double_confirm_description">Това ще промени оформлението на вашия Начален екран. Ще можете да отмените промените в Настройки по-късно.</string>
+    <string name="app_drawer_double_confirm_title">Внимание</string>
+    <string name="app_drawer_feature_description">Чекмедже за приложения е идеалния инструмент за подреждане на приложения. То категоризира приложенията автоматично и ви помага да откриете всичко, което желаете, за секунди!</string>
+    <string name="app_drawer_guide_description">Открийте това, което търсите в любимите си приложения</string>
+    <string name="app_drawer_guide_title">Чекмедже за приложения</string>
+    <string name="app_drawer_tip_title">Заменихме Начална страница със съдържание с Чекмедже за приложения.</string>
+    <string name="app_install_state">Инсталирано</string>
     <string name="app_name">smallWindow</string>
     <string name="application_name">Системен стартер</string>
     <string name="apply">Приложи</string>
@@ -164,8 +177,35 @@
     <string name="back">Назад</string>
     <string name="backup_fail">Неуспешно архивиране на стартовия панел</string>
     <string name="bad_wallpaper_source_prompt">Тапетът не може да се зареди</string>
+    <string name="branch_feature_description">Освен приложения, Бързо Откриване може да открие съдържание в приложение и онлайн елементи.</string>
+    <string name="branch_guide_attention">Употребата на напреднало търсене изисква споделянето на хронологията на търсенията ви, ID на Google Реклами и IP адреса ви с Branch Metrics Inc. Прочетете и приемете <font color="#B3000000"><a href="http://url1">Правила за краен потребител на Discovery &amp; Условия</a></font> и <font color="#B3000000"><a href="http://url2">Правила за поверителност на Branch Discovery</a></font> преди да използвате тази функция.</string>
+    <string name="branch_guide_description_one">Ще сложим всички ваши приложения в Чекмеджето за приложения. Вашия Начален екран ще изглежда изчистен и организиран.</string>
+    <string name="branch_guide_description_three">С вградената търсачка ще можете да откривате всичко, което търсите, на момента!</string>
+    <string name="branch_guide_description_two">Чекмедже за приложения автоматично категоризира приложенията.</string>
+    <string name="branch_guide_tip_title">Всяко приложение със собствено място</string>
+    <string name="branch_guide_title">Запознайте се с Чекмедже за приложения</string>
+    <string name="branch_guide_type_four_desc">Можете да върнете към оригиналното оформление в две лесни стъпки</string>
+    <string name="branch_guide_type_four_main">В Настройките отидете на Начален екран > Начален екран и изберете \"Класически\".</string>
+    <string name="branch_guide_type_four_step_one">Отваряне на Настройки</string>
+    <string name="branch_guide_type_four_step_two">Изберете Начален екран</string>
+    <string name="branch_guide_type_one_desc">Управлявайте приложенията си с Чекмедже за приложения</string>
+    <string name="branch_guide_type_one_main">Дръжте приложенията си в Чекмедже за приложения, за да можете да изчистите и организирате Началния си екран.</string>
+    <string name="branch_new_feature">Нова функция</string>
+    <string name="branch_privacy_policy">Правила за поверителност</string>
+    <string name="branch_search_guide_description">Нашите резултати от търсения вече са много по-обстойни</string>
+    <string name="branch_search_guide_privacy">Тази услуга се предоставя от Branch Metrics Inc. Информация за вашето местоположение, хронология на търсения и ID за Google Реклами ще бъдат споделени с Branch. Прочетете и приемете <font color="#B3000000"><a href="http://url1">Условия за ползване</a></font> и <font color="#B3000000"><a href="http://url2">Правила за Поверителност</a></font> на Branch преди да използвате тази услуга.</string>
+    <string name="branch_search_guide_title">Открийте това, което търсите в любимите си приложения</string>
+    <string name="branch_terms_condition">Условия за ползване</string>
+    <string name="branch_tip_title">С Бързо Откриване можете да откриете всичко, от което се нуждаете, за секунди.</string>
+    <string name="btn_agree">Приемам</string>
+    <string name="btn_cancel">Отказ</string>
+    <string name="btn_close">Изключване</string>
+    <string name="btn_open">Включване</string>
+    <string name="btn_request_permission">Давам разрешение</string>
+    <string name="btn_set_right_now">Давам разрешение</string>
     <string name="buffering">Буфериране…</string>
     <string name="cancel_action">Отмяна</string>
+    <string name="cancel_botton">Отказ</string>
     <string name="cancel_btn_label">Отмени</string>
     <string name="cant_edit_lock_screen">Не може да се промени типа на закл. на екрана</string>
     <string name="cant_remove_folder">Не можете да изтривате папки, които не са празни</string>
@@ -187,7 +227,10 @@
     <string name="chooser_wallpaper">Изберете тапет от</string>
     <string name="clearable_edittext_clear_description">Изчисти</string>
     <string name="close">Затваряне</string>
+    <string name="close_multi_finger_slide_summary">Тези жестове ще бъдат игнорирани в някои случаи (напр. при игри и пускане на видео)</string>
+    <string name="close_multi_finger_slide_title">Без реакция към жестове с три и четири пръста</string>
     <string name="cloud_app_restore_title">Изчаква</string>
+    <string name="common_google_play_services_unknown_issue">%1$s има проблеми с услугите за Google Play. Моля, опитайте отново.</string>
     <string name="common_home_search_delete">Премахване на лента за търсене</string>
     <string name="common_home_search_delete_cancle">Отказ</string>
     <string name="common_home_search_delete_confirm">Премахване</string>
@@ -242,6 +285,7 @@
     <string name="deselect_all">Размаркирай всички</string>
     <string name="disable_wallpaper_scroll">Изкл. превъртането на тапета</string>
     <string name="download_action">Изтегляне</string>
+    <string name="drag_icon_to_homescreen_guide">Натиснете и задръжте иконата на приложението, след което я плъзнете, за да добавите пряк път на Началния екран</string>
     <string name="drag_multiple_item_name" />
     <string name="drag_single_item_name" />
     <string name="drawer_background">Фонoве</string>
@@ -273,9 +317,11 @@
     <string name="emptyplaylist">Плейлистата е празна</string>
     <string name="enable_wallpaper_scroll">Вкл. превъртането на тапета</string>
     <string name="encryption">Кодиране</string>
+    <string name="enter_search_setting_title">Отваряне на търсачката след отваряне на Чекмедже за приложения</string>
     <string name="eras_ad">н.е.</string>
     <string name="eras_bc">пр.Хр.</string>
     <string name="evening">Следобед</string>
+    <string name="exit_overview_because_task_stack_changed">Скорошни беше затворено поради промени във фонов режим</string>
     <string name="expand_button_title">Разширени</string>
     <string name="failed_to_delete_temporary">Изтриването неуспeшно. Моля, опитайте отново.</string>
     <string name="failed_to_drop">Неуспешно преместване!</string>
@@ -333,6 +379,8 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
+    <string name="fold_pair_install_shortcut_long_click">Натиснете и задръжте, за да добавите към Начален екран</string>
+    <string name="fold_pair_installed_shortcut_launcher">Този пряк път вече съществува</string>
     <string name="folder_name">Папка</string>
     <string name="frame_load_failed">Зареждането на фоторамката не успя!</string>
     <string name="free_style_apps_title">Изберете приложение</string>
@@ -388,11 +436,14 @@
     <string name="gadget_weather_title_14">Времето</string>
     <string name="gadget_weather_title_24">Времето</string>
     <string name="global_search_hint">Въведете дума за търсене</string>
+    <string name="got_it_botton">Разбрах</string>
     <string name="group_folder">Нова папка</string>
     <string name="group_live_folders">Папки</string>
     <string name="group_shortcuts">Преки пътища</string>
     <string name="guide_install_app_msg">Приложението не е инсталирано. Искате ли да го потърсите в Google Play?</string>
     <string name="guide_install_app_title">Инсталиране на приложение</string>
+    <string name="guide_permission_title">Необходими са разрешения</string>
+    <string name="guide_privacy_dialog_title">Условия за използване</string>
     <string name="guide_tips_editing_mode">Натиснете и задръжте, за да вземете приспособление</string>
     <string name="home_gesture_content_center">Център за съдържание</string>
     <string name="home_gesture_global_search">Търсене</string>
@@ -423,6 +474,9 @@
     <string name="launcher_slide_up_title">Плъзнете с пръст нагоре по Началния екран</string>
     <string name="launcher_sliding_up_gesture">Плъзнете нагоре по Началния екран, за да отворите търсене</string>
     <string name="launcher_title">Начален екран и Скорошни</string>
+    <string name="layout_guide_description">Ако не харесвате Чекмедже за приложения, винаги можете да се върнете към старото класическото оформление на Началния екран. Просто използвайте краткия път към \"Настройки за Начален екран\" и превключете към другия режим.</string>
+    <string name="layout_guide_tip_title">Можете да се върнете към старото оформление с едно единствено докосване</string>
+    <string name="layout_guide_title">Как да премахна Чекмедже за приложения</string>
     <string name="like">Добави в любими</string>
     <string name="liked">Добавено в любими</string>
     <string name="loading_desktop">Момент…</string>
@@ -540,8 +594,12 @@
     <string name="mtzgadget_missing_text">Вече не се поддържа, добавете отново</string>
     <string name="multi_selecting_tips">За да преместите някое приложение задръжте пръст върху иконата му и го завлачете.</string>
     <string name="navigation_guide_app_quick_switch_hide_line_summary">Плъзнете нагоре от долната част на екрана, след това плъзнете наляво или надясно</string>
+    <string name="navigation_guide_app_quick_switch_hide_line_summary_pad">Плъзнете наляво или надясно в долната част на екрана</string>
     <string name="navigation_guide_app_quick_switch_summary">Плъзнете наляво или надясно от индикатора за цял екран или от долната част на екрана</string>
+    <string name="navigation_guide_app_quick_switch_summary_pad">Плъзнете наляво или надясно от индикатора за цял екран или от долната част на екрана</string>
+    <string name="navigation_guide_app_quick_switch_summary_spec_pad">Плъзнете наляво или надясно в долната част на екрана</string>
     <string name="navigation_guide_app_quick_switch_title">Смяна между приложения</string>
+    <string name="navigation_guide_app_quick_switch_title_spec_with_quotation_pad">Превключване между приложения</string>
     <string name="navigation_guide_app_summary">Плъзнете наляво или надясно от горната част на екрана</string>
     <string name="navigation_guide_app_title">Активиране на действие от приложение</string>
     <string name="navigation_guide_appswitch_anim_summary">Плъзнете по екрана започвайки от ъгъла за да се върнете към предишното приложение</string>
@@ -550,24 +608,46 @@
     <string name="navigation_guide_appswitch_summary">Плъзнете наляво или надясно от ъгъла на екрана и задръжте за малко</string>
     <string name="navigation_guide_appswitch_title">Смяна с предишно приложение</string>
     <string name="navigation_guide_back_summary">Плъзнете наляво или надясно от ъглите на екрана</string>
+    <string name="navigation_guide_back_summary_pad">Плъзнете от края към центъра на екрана</string>
+    <string name="navigation_guide_back_summary_spec_pad">Плъзнете от края към центъра на екрана</string>
     <string name="navigation_guide_back_title">Назад</string>
+    <string name="navigation_guide_back_title_spec_with_quotation_pad">Назад</string>
     <string name="navigation_guide_dialog_dont_show_again">Не показвай отново</string>
     <string name="navigation_guide_dialog_ok">Запомняне</string>
     <string name="navigation_guide_dialog_skip">Не сега</string>
     <string name="navigation_guide_dialog_summary">Научете какви жестове можете да използвате за навигиране в системата.</string>
     <string name="navigation_guide_dialog_title">Научете жестове</string>
+    <string name="navigation_guide_dock_summary_pad">Плъзнете нагоре от долната част на екрана</string>
+    <string name="navigation_guide_dock_summary_spec_pad">Плъзнете нагоре от долната част на екрана</string>
+    <string name="navigation_guide_dock_title_pad">Показване на лентата с приложения</string>
+    <string name="navigation_guide_dock_title_spec_pad">Показване на лентата с приложения вътре в приложенията</string>
+    <string name="navigation_guide_dock_title_spec_with_quotation_pad">Показване на лентата с приложения вътре в приложенията</string>
     <string name="navigation_guide_finish_text">Разбрах</string>
     <string name="navigation_guide_gesture_line_dialog_summary">След като скриете индикатора за пълен екран ще бъде използван нов жест за смяна между приложенията. Желаете ли да запомните този жест сега?</string>
     <string name="navigation_guide_gesture_line_dialog_title">Запомняне на нов жест</string>
     <string name="navigation_guide_hide_gesture_line_summary">Не показвай индикатора за цял екран когато се използват жестове на цял екран</string>
     <string name="navigation_guide_hide_gesture_line_title">Скрий индикатора за цял екран</string>
     <string name="navigation_guide_home_summary">Плъзнете нагоре от долната част на екрана</string>
+    <string name="navigation_guide_home_summary_spec_pad">Плъзнете нагоре от долната част на екрана</string>
     <string name="navigation_guide_home_title">Към Начален екран</string>
+    <string name="navigation_guide_home_title_spec_with_quotation_pad">Към Начален екран</string>
+    <string name="navigation_guide_next_spec_pad">Напред</string>
+    <string name="navigation_guide_prev_spec_pad">Назад</string>
     <string name="navigation_guide_prohibit_gesture_hint">Не можете да използвате жестове на цял екран по време на демо</string>
+    <string name="navigation_guide_provision_see_more_pad">Вижте още демота в Настройки > Начален екран > Жестове на цял екран</string>
     <string name="navigation_guide_provision_see_more_pad_with_virtual_key">Вижте още демота в Настройки > Начален екран > Системна навигация</string>
+    <string name="navigation_guide_provision_title_pad">Жестове на цял екран</string>
     <string name="navigation_guide_recent_summary">Плъзнете нагоре от долната част на екрана и спрете</string>
+    <string name="navigation_guide_recent_summary_pad">Плъзнете нагоре от долната част на екрана и спрете</string>
+    <string name="navigation_guide_recent_summary_spec_pad">Плъзнете нагоре от долната част на екрана, спрете и повдигнете пръста си</string>
     <string name="navigation_guide_recent_title">Отвори Скорошни</string>
+    <string name="navigation_guide_recent_title_spec_with_quotation_pad">Отвори Скорошни</string>
     <string name="navigation_guide_settings">Демонстрация на жестове</string>
+    <string name="navigation_position_center">Централно</string>
+    <string name="navigation_position_left">Вляво</string>
+    <string name="navigation_position_right">Вдясно</string>
+    <string name="navigation_position_summary">Персонализирани позиции на Навигационните бутони могат да бъдат приложени само към Началния екран</string>
+    <string name="navigation_position_title">Позиция на Навигационните бутони</string>
     <string name="navigation_set_miui_home_as_default_dialog_cancel">Отказ</string>
     <string name="navigation_set_miui_home_as_default_dialog_message">Не можете да използвате жестове на цял екран с лаунчери от трета страна. Желаете ли да преминете към системен лаунчер и да включите жестовете на цял екран?</string>
     <string name="navigation_set_miui_home_as_default_dialog_ok">OК</string>
@@ -576,9 +656,11 @@
     <string name="navigation_type_title">Системна навигация</string>
     <string name="navigation_type_virtual_key">Бутони</string>
     <string name="network_error">Неуспешен опит за свързване към мрежата. Опитайте отново.</string>
+    <string name="new_feature_title">Какво ново</string>
     <string name="night">Вечер</string>
     <string name="no_detail_page">Няма страница с подробности</string>
     <string name="no_space_toast">Няма достатъчно място</string>
+    <string name="no_space_toast_fold">Недостатъчно място</string>
     <string name="no_space_toast_when_click_widget">Няма достатъчно място на тази страница. Пробвайте да провлачите този елемент на друга страница.</string>
     <string name="noon">Обед</string>
     <string name="normal_wallpaper">Тапет</string>
@@ -599,6 +681,7 @@
     <string name="ota_layout_adjustment_content">Вътрешните и външните оформления на Началния екран са синхронизирани в новата версия.</string>
     <string name="ota_layout_adjustment_title">Оформления на Начален екран</string>
     <string name="out_of_space">На този екран няма свободно място.</string>
+    <string name="pair_icon_name">%1$s | %2$s</string>
     <string name="perfect_icons_switch_summary">Създава анимации върху иконки на приложения от трета страна</string>
     <string name="perfect_icons_switch_title">Анимации за глобална иконка</string>
     <string name="permdesc_install_shortcut">Позволява на приложението да добавя преки пътища без намеса от потребителя.</string>
@@ -618,6 +701,7 @@
     <string name="photo_load_failed">Неуспешно зареждане на снимка!</string>
     <string name="please_slide_agian">Плъзнете отново</string>
     <string name="pm">PM</string>
+    <string name="popular_search">Популярни</string>
     <string name="pref_cell_layout_size">Разпределение на иконите</string>
     <string name="pref_enable_drawing_cache_summary">Изключете за да освободите памет. Възможен е лаг на системата</string>
     <string name="pref_enable_drawing_cache_title">Кеш на графиката</string>
@@ -638,6 +722,14 @@
     <string name="privacy_thumbnail_blur_summary">Замъгляване прегледите на приложения в Скорошни</string>
     <string name="privacy_thumbnail_blur_title">Прегледи на приложението за замъгляване</string>
     <string name="quick_app">Бързи приложения</string>
+    <string name="quick_finder_feature_description">Бързо Откриване ви позволява да откривате по-бързо приложения, съдържание в приложения и онлайн елементи. Можете да изключите тази функция в Настройки.</string>
+    <string name="quick_finder_tip_title">Открийте по-бързо всичко, от което се нуждаете</string>
+    <string name="quick_search_all_app_desc">Показване на всички приложения в Чекмедже за приложения</string>
+    <string name="quick_search_desc">Отваряне на търсачката след отваряне на Чекмедже за приложения</string>
+    <string name="quick_search_guide_all_apps">Всички приложения</string>
+    <string name="quick_search_guide_ok_btn">OK</string>
+    <string name="quick_search_guide_quick_search">Бързо търсене</string>
+    <string name="quick_search_guide_title">Изберете режим по подразбиране</string>
     <string name="recent_apps">Скорошни</string>
     <string name="recent_menu_item_info">Инфо</string>
     <string name="recent_menu_item_lock">Заключи</string>
@@ -667,6 +759,7 @@
     <string name="recents_title_security_scan">Сканиране на защитата</string>
     <string name="recents_tv_small_window_text">Плаващи прозорци</string>
     <string name="recents_worldcirculate_text">Отпуснете, за да изберете</string>
+    <string name="recnets_relay_device_info">От %s</string>
     <string name="recnets_worldcirculate_button_text">Mi Smart Hub</string>
     <string name="recnets_worldcirculate_display_computer_info">Приложението работи в %s.</string>
     <string name="recnets_worldcirculate_display_default_info">Натиснете, за да го върнете.</string>
@@ -688,6 +781,8 @@
     <string name="remove_invalidate_gadget_tips">Едно от приспособленията, които ползвате, вече не се предлага. Можете да добавите друго.</string>
     <string name="remove_sys_app_content">Все още ще можете да добавяте пряк път на Началния екран в Настройки > Приложения > Управление на преки пътища на Началния екран. Премахване сега?</string>
     <string name="remove_sys_app_title">Премахване на прекия път от Началния екран?</string>
+    <string name="request_permission_msg">POCO Launcher се нуждае от няколко разрешения, за да можете да се възползвате от пълната му функционалност.</string>
+    <string name="request_permission_title">Необходими са разрешения</string>
     <string name="reset_cate_tip_content">Ако продължите, групите на приложенията по подразбиране ще бъдат възстановени. Продължаване?</string>
     <string name="reset_cate_tip_title">Възстанови групи по подразбиране</string>
     <string name="reset_description_first_time">Можете да възстановите оформлението от %1$s в рамките на 2 часа</string>
@@ -703,6 +798,8 @@
     <string name="screen_cells_config_title">Схема на Начален екран</string>
     <string name="screen_locked_toast">Оформлението за начален екран е заключено.</string>
     <string name="screen_number">Екран %d</string>
+    <string name="search_bar_hint_content">Търсете приложения и съдържание</string>
+    <string name="search_guide_btn">Разбрах</string>
     <string name="search_in_apps_store">Търси за \"%1$s\" в %2$s</string>
     <string name="search_menu_title">Търсене</string>
     <string name="search_no_result">Не бяха открити резултати</string>
@@ -711,6 +808,7 @@
     <string name="select_photo">Снимка</string>
     <string name="send">Изпращане</string>
     <string name="server_error">Възникна грешка в сървъра. Изчакайте минута-две и опитайте отново.</string>
+    <string name="service_double_attention">Функцията за напреднало търсене се предоставя от Branch Metrics Inc. За да се уверим, че функцията работи, хронология на търсенията ви, ID на Google Реклами и IP адреса ви ще бъдат споделени с Branch Metrics Inc. Прочетете и приемете <font color="#B3000000"><a href="http://url1">Правила за краен потребител на Discovery &amp; Условия</a></font> и <font color="#B3000000"><a href="http://url2">Правила за поверителност на Branch Discovery</a></font> преди да използвате тази функция.</string>
     <string name="setting_wallpaper_tip">Преместване или уголемяване</string>
     <string name="settings">Настройки</string>
     <string name="settings_shortcut">Настройки</string>
@@ -726,6 +824,7 @@
     <string name="show_most_popular_apps_you_used">Покажи най-често използваните приложения в чекмеджето</string>
     <string name="show_recents_recommend_title">Покажи предложения</string>
     <string name="slide_to_open_newhome">Плъзнете нагоре за отваряне на Център за Съдържание</string>
+    <string name="small_window">Плаващ прозорец</string>
     <string name="small_window_button_complete">Готово</string>
     <string name="small_window_edit_content">Можете да добавите до %d приложения</string>
     <string name="small_window_edit_title">Текущи приложения</string>
@@ -738,6 +837,7 @@
     <string name="sort_by_not_defined">Не сортирай</string>
     <string name="start_activity_failed">Приложението не успя да стартира.</string>
     <string name="starting_preset_app">Стартиране…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%1$s от %2$s са достъпни</string>
     <string name="status_bar_recent_memory_info2" />
@@ -747,12 +847,14 @@
     <string name="status_installing">инсталира се</string>
     <string name="status_paused">на пауза</string>
     <string name="status_pending">Изчакване</string>
+    <string name="suggestions">Предложения</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>
     <string name="sunday_shortest">Нед.</string>
     <string name="swipe_the_desktop_to_the_left">Плъзнете наляво на Началния екран</string>
     <string name="swipe_the_desktop_to_the_right">Плъзнете надясно на Началния екран</string>
+    <string name="switch_on_button">Включване</string>
     <string name="switch_personal_assistant_app_vault">Трезор за приложения</string>
     <string name="switch_personal_assistant_google">Google Discover</string>
     <string name="switch_personal_assistant_none">Няма</string>
@@ -763,6 +865,10 @@
     <string name="system_shortcuts_remove">Премахни</string>
     <string name="system_text">Автоматично</string>
     <string name="task_access_locked_app_msg">Включено е заключване на приложения</string>
+    <string name="term_of_service">Условия за ползване</string>
+    <string name="terms_of_services_one">Добре дошли в Чекмедже за приложения и Бързо търсене. Бързо търсене ви позволява да откривате приложения, съдържание от приложения, както и елементи онлайн по-бързо. Прочетете и приемете <font color="#B3000000"><a href="http://url1">Правилата за поверителност</a></font> на Xiaomi преди да използвате тези функции.</string>
+    <string name="terms_of_services_three">Можете да изключите тази функция в Настройки.</string>
+    <string name="terms_of_services_two">Употребата на подобрено търсене изисква споделяне на необходима лична информация, включително вашите запитвания в търсачката, ID за Google Реклами и IP адрес с Branch Metrics Inc. Branch ще обработи вашата лична информация в съответствие с <font color="#B3000000"><a href="http://url1">Правилата за поверителност на Branch Discovery</a></font>. Прочетете и приемете <font color="#B3000000"><a href="http://url2">Правилата за краен потребител на Discovery &amp; Условията</a></font> и <font color="#B3000000"><a href="http://url3">Правилата за поверителност на Branch Discovery</a></font> преди да използвате тази услуга.</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишнина от прекратяването на военно положение</string>
     <string name="the_anti_aggression_day">Ден на борба с агресията</string>
     <string name="the_arbor_day">Ден на дървото</string>
@@ -829,6 +935,11 @@
     <string name="tuesday">Вторник</string>
     <string name="tuesday_short">Вт.</string>
     <string name="tuesday_shortest">Вт.</string>
+    <string name="uni_search_permission_content">Включете функциите за онлайн търсене. (Услугите за търсене са предоставени от Branch.)</string>
+    <string name="uni_search_permission_msg">За по-добри резултати от търсенето, разрешете на POCO Launcher достъп до вашето местоположение и контакти.</string>
+    <string name="uni_search_permission_title">Подобрено търсене</string>
+    <string name="uni_search_setting_summary">Директно откривайте съдържание вътре в приложението</string>
+    <string name="uni_search_setting_title">Режим Запитване в приложението</string>
     <string name="uninstall">Деинсталиране</string>
     <string name="uninstall_dialog_message">Деинсталирането ще премахне всички данни на приложението.</string>
     <string name="uninstall_dialog_title_format">Премахване на %s?</string>
@@ -839,6 +950,7 @@
     <string name="uninstall_xspace_dialog_title_format">Деинсталиране на клонирано \"%s\"?</string>
     <string name="unknown_artist_name">Неизвестен артист</string>
     <string name="unnamed_folder_name">Папка</string>
+    <string name="upgrade_remove_small_window_in_recents">Можете да използвате страничната лента, за да отваряте приложения в плаващи прозорци</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
     <string name="wallpaper">Тапет</string>

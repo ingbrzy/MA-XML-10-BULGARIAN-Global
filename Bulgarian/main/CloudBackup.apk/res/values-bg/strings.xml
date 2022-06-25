@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
     <string name="about_to_recover">Момент…</string>
+    <string name="access_denied_info">Направихте твърде много опити. Изчакайте малко и опитайте отново.</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="afternoon">Следобяд</string>
     <string name="am">AM</string>
@@ -364,6 +365,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="msg_restore_with_metered_network_hint">Ако продължите с възстановяването на тези елементи, ще бъдат използвани мобилни данни за изтеглянето им.</string>
     <string name="msg_restore_with_metered_network_pattern">"&lt;font color='red'>&lt;b>%s&lt;/b>&lt;/font> от файловете ще бъдат изтеглени."</string>
     <string name="network_error">Свържете се с мрежа</string>
+    <string name="network_error_info">Възникна мрежова грешка. Проверете мрежовите си настройки и опитайте отново.</string>
+    <string name="network_timeout_info">Не може да се осъществи връзка с мрежата. Опитайте отново.</string>
     <string name="night">Вечер</string>
     <string name="no_account">Не сте вписан в Mi Профил.</string>
     <string name="no_backup">Няма рез. копия в Xiaomi Cloud.</string>
@@ -374,10 +377,13 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="open_backup_switch">Превключи на Резервно копие</string>
     <string name="other_device_main_space">Основно работно място</string>
     <string name="other_device_second_space">Второ пространство</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="pc_mode_not_support_restore_warning">Не можете да възстановявате елементи в режим Компютър. Изключете режима Компютър и опитайте отново.</string>
     <string name="pm">PM</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="process_whole_recovery">Възстановяване \"%s\"</string>
+    <string name="progressbar_title">Проверява се за проблеми със сигурността…</string>
     <string name="provision_back">Назад</string>
     <string name="provision_background_restore_more_data">Възстановяване на повече елементи на заден план</string>
     <string name="provision_error_connect_msg">Тествайте мрежовата връзка и опитайте отново. Архивите не са достъпни, когато вашето устройство е офлайн.</string>
@@ -456,6 +462,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>
     <string name="sunday_shortest">Нед.</string>
+    <string name="system_error_info">Системата е заета. Изчакайте минута-две и опитайте отново.</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишнина от прекратяването на военно положение</string>
     <string name="the_anti_aggression_day">Ден на борба с агресията</string>
     <string name="the_arbor_day">Ден на дървото</string>
@@ -513,6 +520,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="tuesday">Вторник</string>
     <string name="tuesday_short">Вт.</string>
     <string name="tuesday_shortest">Вт.</string>
+    <string name="unknown_error_info">Неизвестна грешка</string>
     <string name="unselected">Не е избрано</string>
     <string name="unsupported_home">Обновете MIUI до най-новата версия.</string>
     <string name="v7_preference_off">ИЗКЛ.</string>

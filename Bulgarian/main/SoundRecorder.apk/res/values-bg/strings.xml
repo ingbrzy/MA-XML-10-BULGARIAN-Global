@@ -205,6 +205,7 @@
     <string name="low_battery_error_for_pad">Остават по-малко от %s батерия. Спрете и запазете записа си, за да не се изгуби.</string>
     <string name="low_battery_error_title">Изтощена батерия</string>
     <string name="lyric_item_point_count">%1$d към %2$d</string>
+    <string name="manage_external_storage">Достъп до всички файлове</string>
     <string name="mark_point_list_title">Списък с маркирани</string>
     <string name="material_clock_toggle_content_description">Изберете AM или PM</string>
     <string name="material_hour_selection">Изберете час</string>
@@ -297,6 +298,7 @@
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -571,6 +573,7 @@
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>
     <string name="sunday_shortest">Нед.</string>
+    <string name="sync_desc_state_complete">Синхронизирано с облака: %1$s</string>
     <string name="tab_all">Всички</string>
     <string name="tab_apps">Приложения</string>
     <string name="tab_call">Повиквания</string>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="auto_process_mode">
+        <item>Запитване</item>
+        <item>Изчисти</item>
+        <item>Изчисти и уведоми</item>
+    </string-array>
+    <string-array name="cache_sort_type">
+        <item>Размер</item>
+        <item>Име</item>
+    </string-array>
+    <string-array name="installed_app_sort_type">
+        <item>Често използвани</item>
+        <item>Размер</item>
+    </string-array>
+    <string-array name="large_file_sort_type">
+        <item>Размер</item>
+        <item>Име</item>
+    </string-array>
+    <string-array name="uninstalled_app_sort_type">
+        <item>Размер</item>
+        <item>Честота на използване</item>
+        <item>Време за инсталиране</item>
+    </string-array>
+    <string-array name="wechat_sort">
+        <item>Дата</item>
+        <item>Размер</item>
+    </string-array>
+</resources>
