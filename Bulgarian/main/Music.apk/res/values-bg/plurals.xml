@@ -122,6 +122,14 @@
         <item quantity="other">Изтеглят се &lt;font color==\"red\">%d песни&lt;/font></item>
         <item quantity="one">Изтегля се &lt;font color==\"red\">%d песен&lt;/font></item>
     </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Превъртане с(ъс) %d секунди напред</item>
+        <item quantity="one">Превъртане с %d секунда напред</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Превъртане с(ъс) %d секунди назад</item>
+        <item quantity="one">Превъртане с %d секунда назад</item>
+    </plurals>
     <plurals name="free_downloads_num_hint">
         <item quantity="other">останаха %d безплатни тегления</item>
         <item quantity="one">остана %d безплатно теглене</item>
@@ -205,6 +213,10 @@
     <plurals name="sound_fade_duration_in_seconds">
         <item quantity="other">Преливане между песните: %d секунди</item>
         <item quantity="one">Преливане между песните: %d секунда</item>
+    </plurals>
+    <plurals name="task_guide">
+        <item quantity="other">Грабнете %1$d монети днес</item>
+        <item quantity="one">Грабнете %1$d монета днес</item>
     </plurals>
     <plurals name="video_count">
         <item quantity="other">Видеоклипове</item>

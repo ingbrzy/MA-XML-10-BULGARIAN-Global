@@ -40,8 +40,35 @@
     <string name="abc_shareactionprovider_share_with">Споделяне със:</string>
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
+    <string name="access_denied_info">Направихте твърде много опити. Изчакайте малко и опитайте отново.</string>
     <string name="account_and_cloud">Профил</string>
+    <string name="account_crop_user_avatar">Изрязване на снимка</string>
+    <string name="account_empty_user_name">Въведете потребителското име на Mi Профила си</string>
+    <string name="account_error_all_space_user_name">Потребителското име не може да съдържа само интервали</string>
+    <string name="account_error_invalid_user_name">Името не може да съдържа &lt;, > или /</string>
+    <string name="account_error_longer_user_name">Името не може да е по-дълго от 20 символа</string>
+    <string name="account_error_shorter_user_name">Името трябва да е по-дълго от 2 символа</string>
+    <string name="account_error_user_birthday">Въведеният от Вас рожден ден е невалиден</string>
+    <string name="account_error_user_name">Този псевдоним е невалиден. Опитайте с друг.</string>
+    <string name="account_invalid_user_avatar">Тази снимка е невалидна. Опитайте с друга.</string>
+    <string name="account_limit_update_birthday">В момента рожданият ден не може да се обнови</string>
     <string name="account_logout">Изход</string>
+    <string name="account_no_set">Няма</string>
+    <string name="account_none_bind_info">Няма</string>
+    <string name="account_none_user_name">Няма</string>
+    <string name="account_secure_info_pref_title">Информация за профила</string>
+    <string name="account_security_info_pref_title">Информация за сигурност</string>
+    <string name="account_user_avatar">Профилна снимка</string>
+    <string name="account_user_avatar_from_album">Галерия</string>
+    <string name="account_user_avatar_from_camera">Камера</string>
+    <string name="account_user_base_info">Основна информация</string>
+    <string name="account_user_details">Лична информация</string>
+    <string name="account_user_email">Имейл за възстановяване</string>
+    <string name="account_user_gender">Пол</string>
+    <string name="account_user_id">Номер на Mi Профил</string>
+    <string name="account_user_name">Псевдоним</string>
+    <string name="account_user_name_dialog_title">Въведете потребителско име</string>
+    <string name="account_user_phone">Телефон за възстановяване</string>
     <string name="action_item_add">Добави към</string>
     <string name="action_item_add_song">Добави</string>
     <string name="action_item_add_to_current_playlist">Опашка</string>
@@ -60,6 +87,8 @@
     <string name="action_item_share">Споделяне</string>
     <string name="action_settings">Настройки</string>
     <string name="actionbar_button_up_description">Назад</string>
+    <string name="activate_email_notice">Необходимо е да активирате профила си в рамките на 24 часа</string>
+    <string name="activity_not_found_notice">Приложението не може да се открие</string>
     <string name="ad_close">Затваряне</string>
     <string name="ad_data_exception">Грешка в данни</string>
     <string name="ad_recommend">Показване на реклами</string>
@@ -69,6 +98,7 @@
     <string name="add_to_last_of_playlist">Добавете в края на списък за слушане.</string>
     <string name="add_to_playlist">Добавяне към списъка</string>
     <string name="add_to_playlist_successful">Успешно добавено</string>
+    <string name="add_to_trust_device">Това е доверено устройство</string>
     <string name="added_next_play">Добавено към следващо изпълнение</string>
     <string name="afternoon">Следобяд</string>
     <string name="agreement_desc">Потребителско споразумение (задължително)</string>
@@ -93,17 +123,23 @@
     <string name="am">AM</string>
     <string name="app_description_content">Музика е системно приложение, което съдържа аудио плейър и ви позволява да управлявате аудио файлове. Все още ще можете да възпроизвеждате аудио файлове след като премахнете прекия път на Началния екран.</string>
     <string name="app_description_title">Премахване на \"Музика\" от Началния екран?</string>
+    <string name="app_disable_description_content">Mi Музика е системно приложение. Ако го деактивирате това може да повлияе на други приложения. Желаете ли да го деактивирате?</string>
+    <string name="app_disable_description_title">Изкл на системно приложение?</string>
     <string name="app_label">Изтегляния</string>
     <string name="app_permission_confirm">Разбрах</string>
     <string name="app_permission_optional">Разрешения по избор</string>
     <string name="app_permission_require">Задължителни разрешения</string>
     <string name="app_permission_use_desc">Разрешения</string>
     <string name="app_permission_use_group_account">Профили</string>
-    <string name="app_permission_use_group_account_desc">За получаване на информация за Mi Профил</string>
+    <string name="app_permission_use_group_account_desc">За получаване на информация за Xiaomi Профил</string>
     <string name="app_permission_use_group_phone">Телефон</string>
     <string name="app_permission_use_group_phone_desc">Относно услугите на Google Push</string>
     <string name="app_permission_use_group_storage">Памет</string>
     <string name="app_permission_use_group_storage_desc">За намиране и възпроизвеждане на песни, съхранени на устройството</string>
+    <string name="apply_for_the_following_permissions">Това приложение се нуждае от следните разрешения:</string>
+    <string name="apply_permissions_greater_than_pie">Можете да дадете това разрешение в Настройки > Приложения > Разрешения > Разрешения > Файлове и Медия > Музика.</string>
+    <string name="apply_permissions_less_than_pie">Можете да дадете това разрешение в Настройки > Приложения > Разрешения > Разрешения > Достъп и запазване на файлове във вътрешната памет > Музика.</string>
+    <string name="apply_permissions_tips_content">Разрешете на това приложение да получава достъп до файлове, за да открива музика в устройството Ви.</string>
     <string name="artist">Изпълнители</string>
     <string name="artist_area_all">Всички</string>
     <string name="artist_area_china">Китай</string>
@@ -120,6 +156,7 @@
     <string name="audio_ad_countdown">Пропусни рекламата след %sс</string>
     <string name="audio_ad_pass">Пропусни рекламата</string>
     <string name="audio_picker_title">Изберете песен</string>
+    <string name="auth_fail_warning">Сесията изтече. Влезте отново.</string>
     <string name="auto_recommend">Автоматично (препоръчително)</string>
     <string name="auto_sound_quality">Автоматично</string>
     <string name="auto_update">Автоматично актуализиране</string>
@@ -147,13 +184,18 @@
     <string name="cancel">Отказ</string>
     <string name="cancel_running_download">Отмени</string>
     <string name="cannot_download_to_sdcard_hint">Не могат да бъдат изтеглени елементи в SD карта поради ограничения свързани с авторски права. Вместо това елементите ще бъдат изтеглени във вътрешната памет.</string>
+    <string name="change_activate_email">Промяна на имейл адрес</string>
     <string name="change_download_quality">Променете качеството на изтегляне</string>
+    <string name="change_password">Промяна на паролата</string>
     <string name="character_counter_content_description">Въведени знаци: %1$d от %2$d</string>
     <string name="character_counter_overflowed_content_description">Максималният брой знаци е надхвърлен с(ъс) %1$d от %2$d</string>
     <string name="checking_new_version">Проверяване за обновления…</string>
     <string name="choose_download_quality">Изберете качество на изтегляне</string>
     <string name="choose_music_lang_pref">Предпочитани езици за песни</string>
     <string name="choose_stream_quality">Изберете качество на стрийма</string>
+    <string name="clause_content_first">Въз основа на законни изисквания, Mi Музика се нуждае от Вашето съгласие, за да Ви предостави съответните услуги.</string>
+    <string name="clause_content_second">Ние ще защитим Вашите лични данни в съответствие със стандартите за сигурност в индустрията.</string>
+    <string name="clause_content_third">Можете да оттеглите съгласието си по всяко време в Настройките.</string>
     <string name="clear_text_end_icon_content_description">Изчистване на текста</string>
     <string name="clearable_edittext_clear_description">Изчисти</string>
     <string name="click_and_watch_video_tip">Натисни за пускане на музикално видео</string>
@@ -161,6 +203,7 @@
     <string name="click_to_shuffle">Докоснете, за да разбъркате всички</string>
     <string name="close">Затваряне</string>
     <string name="close_music_time">"Минути: "</string>
+    <string name="collect_diagnosis_log">Събиране на регистри</string>
     <string name="columbus_ad_flag_text">Реклама</string>
     <string name="columbus_skip_ad">Пропусни</string>
     <string name="comment_format" formatted="false">%s: %s</string>
@@ -183,6 +226,7 @@
     <string name="common_signin_button_text">Вход</string>
     <string name="common_signin_button_text_long">Вход с Google</string>
     <string name="confirm">OК</string>
+    <string name="confirm_activate_email">Потвърдено</string>
     <string name="confirm_exit">Запази промените?</string>
     <string name="connect_now">Свържи се</string>
     <string name="connecting_apk">Свързване…</string>
@@ -224,6 +268,10 @@
     <string name="desktop_lyric_textsize">Текст</string>
     <string name="device_connected">Свързано</string>
     <string name="device_not_connected">Не е свързано</string>
+    <string name="diagnosis_log_send_failed">Неуспешно изпращане на регистри. Опитайте отново.</string>
+    <string name="diagnosis_log_sent_format">"Регистрите са изпратени успешно.
+ID:%s
+Изпратете този код на супервизора."</string>
     <string name="dialog_cannot_resume">Изтеглянето прекъсна и не може да продължи.</string>
     <string name="dialog_clear_history">Изчистване на списъка с наскоро възпроизведени песни?</string>
     <string name="dialog_confirm_delete_checkbox_message">Изтрий също и локалните файлове</string>
@@ -275,6 +323,7 @@
     <string name="discover_more_music">Открийте още песни</string>
     <string name="do_not_remind_this_version">Не ми напомняй за тази версия</string>
     <string name="do_not_support_google_voice_search">Google Гласово търсене не е поддържано на устройството Ви.</string>
+    <string name="doing_query_account">Проверка на информация за профил…</string>
     <string name="download">Изтегляне</string>
     <string name="download_added_to_list">Добавено към опашката за сваляне</string>
     <string name="download_apk_desktop_installing">Инсталиране</string>
@@ -311,7 +360,9 @@
     <string name="download_method">Изтегляне</string>
     <string name="download_no_application_title">Файлът не може да се отвори</string>
     <string name="download_paused_in_power_save_mode">Изтеглянето е спряно когато Икономия на батерията е включено</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Изтегля се…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Качество при изтегляне</string>
     <string name="download_quality_summary">Разширени настройки на песните, които сте изтеглили</string>
     <string name="download_queued">Чакащи</string>
@@ -379,20 +430,32 @@
     <string name="equalizer">Еквалайзер</string>
     <string name="eras_ad">н.е.</string>
     <string name="eras_bc">пр.Хр.</string>
+    <string name="error_dup_binded_email">Този имейл адрес вече е свързан с друг Mi Профил.</string>
     <string name="error_icon_content_description">Грешка</string>
+    <string name="error_invalid_bind_address">Въведеният от вас имейл адрес е невалиден.</string>
     <string name="error_not_support">Не се поддържа.</string>
     <string name="evening">Следобед</string>
+    <string name="exceed_binded_phone_times_notice">Този телефонен номер вече е свързан с друг Mi Профил.</string>
+    <string name="exo_controls_cc_disabled_description">Активиране на субтитрите</string>
+    <string name="exo_controls_cc_enabled_description">Деактивиране на субтитрите</string>
     <string name="exo_controls_fastforward_description">Превъртане напред</string>
-    <string name="exo_controls_fullscreen_description">Режим на цял екран</string>
+    <string name="exo_controls_fullscreen_enter_description">Вход в цял екран</string>
+    <string name="exo_controls_fullscreen_exit_description">Изход от цял екран</string>
     <string name="exo_controls_hide">Скриване на контролите на плейъра</string>
-    <string name="exo_controls_next_description">Следващ запис</string>
+    <string name="exo_controls_next_description">Напред</string>
+    <string name="exo_controls_overflow_hide_description">Скриване на допълнителните настройки</string>
+    <string name="exo_controls_overflow_show_description">Показване на допълнителните настройки</string>
     <string name="exo_controls_pause_description">Поставяне на пауза</string>
     <string name="exo_controls_play_description">Възпроизвеждане</string>
-    <string name="exo_controls_previous_description">Предишен запис</string>
+    <string name="exo_controls_playback_speed">Скорост</string>
+    <string name="exo_controls_playback_speed_normal">Нормално</string>
+    <string name="exo_controls_previous_description">Назад</string>
     <string name="exo_controls_repeat_all_description">Повтаряне на всички</string>
     <string name="exo_controls_repeat_off_description">Без повтаряне</string>
     <string name="exo_controls_repeat_one_description">Повтаряне на един елемент</string>
     <string name="exo_controls_rewind_description">Превъртане назад</string>
+    <string name="exo_controls_seek_bar_description">Напредък на възпроизвеждането</string>
+    <string name="exo_controls_settings_description">Настройки</string>
     <string name="exo_controls_show">Показване на контролите на плейъра</string>
     <string name="exo_controls_shuffle_off_description">Разбъркването е изключено</string>
     <string name="exo_controls_shuffle_on_description">Разбъркването е включено</string>
@@ -408,7 +471,9 @@
     <string name="exo_media_action_repeat_all_description">Повтаряне на всички</string>
     <string name="exo_media_action_repeat_off_description">Без повтаряне</string>
     <string name="exo_media_action_repeat_one_description">Повтаряне на един елемент</string>
+    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Алтернативен запис</string>
     <string name="exo_track_role_closed_captions">Субтитри</string>
     <string name="exo_track_role_commentary">Коментар</string>
@@ -426,6 +491,7 @@
     <string name="expand_button_title">Разширени</string>
     <string name="expired">Изтекъл</string>
     <string name="exposed_dropdown_menu_content_description">Показване на падащото меню</string>
+    <string name="facebook_login_btn_content_description">Вписване с Facebook</string>
     <string name="facebook_not_installed">Първо инсталирайте Facebook.</string>
     <string name="fail_to_fetch_payment_page_url">Не може да се получи информация за плащане</string>
     <string name="fail_to_play">Неуспешно възпроизвеждане</string>
@@ -434,7 +500,7 @@
     <string name="failed_to_connect_hint">Проверете мрежовите си настройки и опитайте отново</string>
     <string name="failed_to_connect_text">Неуспешно свързване с мрежата</string>
     <string name="fans">Последователи</string>
-    <string name="fav_login_msg">Влезте в своя Mi Профил, за да теглите песни</string>
+    <string name="fav_login_msg">Влезте в своя Xiaomi Профил, за да теглите песни</string>
     <string name="favorite_canceled">Премахнато от любими</string>
     <string name="favorite_playlist">Моите любими</string>
     <string name="favorite_singer">Любими певци</string>
@@ -444,6 +510,7 @@
     <string name="favorites">Любими</string>
     <string name="fcm_fallback_notification_channel_label">Разни</string>
     <string name="feed_back">Отзив</string>
+    <string name="file_and_media_permissions_for_display">Достъп до файлове: за сканиране, показване, и възпроизвеждане на локални файлове</string>
     <string name="file_not_found">Файлът не съществува</string>
     <string name="filter_by_MP4">Покажи папки с MP4 файлове</string>
     <string name="filter_by_duration">Филтриране по продължителност</string>
@@ -518,6 +585,7 @@
     <string name="fmt_weekday_timezone">W z</string>
     <string name="follow">Следвай</string>
     <string name="followed">Продължение</string>
+    <string name="for_diagnosis_usage_only">Регистрите се използват само за диагностика.</string>
     <string name="format_not_support">Форматът не се поддържа</string>
     <string name="format_unsupported_or_corrupted">Този формат не се поддържа или файла е повреден</string>
     <string name="fragment_title_artist_album">Албум</string>
@@ -529,12 +597,16 @@
     <string name="get_more_favorite_content_after_login">Влезете, за да откриете повече песни и видеа.</string>
     <string name="get_one_day_vip">Станахте VIP за %d ден!</string>
     <string name="get_one_hour_vip">Станахте VIP за %d час!</string>
+    <string name="get_phone_verifycode_exceed_limit">На този телефонен номер са изпратени прекалено много кодове за потвърждаване. Опитайте отново след 24 часа.</string>
     <string name="get_vip">Стани VIP</string>
+    <string name="go_agree">OК</string>
     <string name="google_account_login">Влезте с Google</string>
+    <string name="google_login_btn_content_description">Вписване с Google</string>
     <string name="goto_local_search">Търсене в устройството</string>
     <string name="goto_online_search">Търсене онлайн</string>
     <string name="handle_later">Не сега</string>
     <string name="hd_quality_audio">Музика с високо качество</string>
+    <string name="header_help">Помощ</string>
     <string name="headset_and_audio_effect_category">Слушалки и аудио ефекти</string>
     <string name="headset_and_audio_effect_summary">Слушалки и еквалайзер</string>
     <string name="headset_and_audio_effect_title">Слушалки и аудио ефекти</string>
@@ -582,6 +654,7 @@
     <string name="individuation_recommend_title">Препоръки</string>
     <string name="individuation_setting_summary">Получавайте препоръки за съдържание въз основа на вашите интереси</string>
     <string name="individuation_setting_title">Персонализирани препоръки</string>
+    <string name="input_email_address_notice">Ние ще използваме този имейл, за да потвърдим вашия профил</string>
     <string name="input_hint_prefix">Въведи %1$s</string>
     <string name="installing_apk">Инсталиране…</string>
     <string name="insufficient_space">Няма достатъчно свободно място във вътрешната памет.</string>
@@ -590,7 +663,7 @@
     <string name="is_scanning_support_online">"Сканира се, моля изчакайте…
 или изберете музика от таба онлайн."</string>
     <string name="item_view_role_description">Раздел</string>
-    <string name="joox_account_bind_mi_account">Добавяне на Mi Профил</string>
+    <string name="joox_account_bind_mi_account">Добавяне на Xiaomi Профил</string>
     <string name="joox_account_cancel_login">Отказ</string>
     <string name="joox_account_continue_login">Вписване</string>
     <string name="joox_account_fans_center">Фенски център</string>
@@ -643,6 +716,7 @@
     <string name="listen_anywhere">Слушайте навсякъде</string>
     <string name="load_shuffle">Зарежда се…</string>
     <string name="loadercontainer_loading">Момент…</string>
+    <string name="loading">Момент…</string>
     <string name="loading_hint">Момент…</string>
     <string name="loading_reached_the_bottom">Това е всичко засега.</string>
     <string name="loading_text">Един момент…</string>
@@ -653,9 +727,17 @@
     <string name="local_page_artist_more">Още песни от %s</string>
     <string name="local_page_playlist">Плейлисти</string>
     <string name="local_page_song_download_history">Изтегляния</string>
+    <string name="login_by_local_phone_long_text">Влезте сега</string>
+    <string name="login_by_local_phone_short_text">Вписване</string>
     <string name="login_instantly">Вход</string>
-    <string name="login_mi_account_and_gain_more_rights">Влезте със своя Mi Профил, за да имате достъп до повече функции.</string>
+    <string name="login_mi_account_and_gain_more_rights">Влезте със своя Xiaomi Профил, за да имате достъп до повече функции.</string>
+    <string name="login_other">Друг Mi Профил</string>
+    <string name="login_out_tip">"Can't sign out for now. You can clear all app data instead."</string>
+    <string name="login_register_by_local_phone_long_text">Създайте профил</string>
+    <string name="login_with_sns">Други начини за вписване</string>
+    <string name="logout_account">Отписване</string>
     <string name="long_press_to_select_lyric">Натиснете и задръжте, за да изберете файл с текстове</string>
+    <string name="lots_of_songs_for_free">Слушайте милиони песни безплатно</string>
     <string name="low_sound_quality">ниско</string>
     <string name="lrc_search_failed">Текстът на песента не е намерен</string>
     <string name="lrc_searching">Търсене…</string>
@@ -788,6 +870,7 @@
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -823,7 +906,7 @@
     <string name="music_settings">Музика</string>
     <string name="mv_metered_play_summary">Не показвай предупреждение​ за използване на данни</string>
     <string name="mv_metered_play_title">Гледайте видео клипове онлайн, използвайки мобилни данни</string>
-    <string name="my_account">Mi Профил</string>
+    <string name="my_account">Xiaomi Профил</string>
     <string name="my_music_empty">Няма песни в \"Моята музика\". Изтеглете или означете като любима музика в \"Онлайн музика\"</string>
     <string name="my_music_empty_goto_online">Плейлистът ви е празен! Добавете песни от таба Онлайн</string>
     <string name="my_playlist_add_song">Добавяне на песни</string>
@@ -834,12 +917,15 @@
     <string name="nav_app_bar_open_drawer_description">Отваряне на слоя за навигация</string>
     <string name="network_disable">Неуспешно свързване с мрежата</string>
     <string name="network_error_and_retry">Връзката неуспешна. Натисни, за да опиташ отново.</string>
+    <string name="network_error_info">Възникна мрежова грешка. Проверете мрежовите си настройки и опитайте отново.</string>
     <string name="network_request_error">Няма връзка с мрежата</string>
     <string name="network_settings_error">Няма връзка с мрежата</string>
+    <string name="network_timeout_info">Не може да се осъществи връзка с мрежата. Опитайте отново.</string>
     <string name="network_traffic">Мрежов трафик</string>
     <string name="next_time">По-късно</string>
     <string name="next_to_play">Следва</string>
     <string name="night">Вечер</string>
+    <string name="no_account">Не сте вписани</string>
     <string name="no_album_info">Няма информация за албума</string>
     <string name="no_artist_info">Няма информация за изпълнителя</string>
     <string name="no_downloads">Няма изтегляния.</string>
@@ -925,9 +1011,102 @@
     <string name="only_pro_can_choose_hd_sound_quality">HD аудио е достъпно само за PRO членове.</string>
     <string name="open_online_service">Необходимо е да включите онлайн услугите, за да работи тази функция. Да се стартират ли сега?</string>
     <string name="open_service">Включи</string>
+    <string name="open_settings">Настройки</string>
     <string name="operation_done_close">Затваряне</string>
     <string name="other_song_in_album">Други песни в същия албум</string>
     <string name="party">Парти Стая</string>
+    <string name="passport_access_denied">Достъпът е отказан</string>
+    <string name="passport_account_name">"Профил: %1$s "</string>
+    <string name="passport_area_code_title">Код на държава</string>
+    <string name="passport_bad_authentication">Невалидно потребителско име или парола</string>
+    <string name="passport_can_not_recevie_verify_code">Не получихте код?</string>
+    <string name="passport_checking_account">Проверка на паролата…</string>
+    <string name="passport_clear_input">Clear entered content</string>
+    <string name="passport_copy_link">Копирай URL</string>
+    <string name="passport_copy_to_clipboard_successful">Успешно копиране</string>
+    <string name="passport_dialog_captcha_title">Код</string>
+    <string name="passport_dialog_doing_login">Вписване…</string>
+    <string name="passport_dialog_doing_register">Създаване на профил…</string>
+    <string name="passport_dialog_is_my_account">Да</string>
+    <string name="passport_dialog_is_your_mi_account">Това Вашият Xiaomi Профил ли е?</string>
+    <string name="passport_dialog_loading">Един момент…</string>
+    <string name="passport_dialog_nick_name_prefix">Прякор: %s</string>
+    <string name="passport_dialog_phone_number_prefix">Телефонен номер: %s</string>
+    <string name="passport_dialog_register_other">Не, ще си направя сега</string>
+    <string name="passport_email">Имейл адрес</string>
+    <string name="passport_empty_password">Полето за парола не може да е празно</string>
+    <string name="passport_error_auth_fail">Сесията е изтекла. Влезте отново.</string>
+    <string name="passport_error_device_id">Не може да се получи ID на устройството</string>
+    <string name="passport_error_dynamic_token_error">Кодът за потвърждение е невалиден</string>
+    <string name="passport_error_email">Въведеният от вас имейл адрес е невалиден</string>
+    <string name="passport_error_empty_email">Въведете вашия имейл адрес</string>
+    <string name="passport_error_empty_password">Въведете паролата си</string>
+    <string name="passport_error_empty_pwd">Полето за парола не може да е празно</string>
+    <string name="passport_error_empty_user_id">Въведете потребителското си име</string>
+    <string name="passport_error_length_limit">Въведения текст е твърде дълъг</string>
+    <string name="passport_error_network">Не може да се направи връзка с мрежата</string>
+    <string name="passport_error_no_password_user">Все още не сте задали паролата. Впишете се с SMS.</string>
+    <string name="passport_error_phone">Невалиден телефонен номер</string>
+    <string name="passport_error_server">Грешка в сървъра</string>
+    <string name="passport_error_sms_limit">На този телефонен номер бяха изпратени прекалено много кодове за проверка. Опитайте отново по-късно.</string>
+    <string name="passport_error_ticket_invalid">Кодът е грешен</string>
+    <string name="passport_error_timeout_network_error">Заявката изтече</string>
+    <string name="passport_error_token_expired">Кодът изтече. Опитайте отново.</string>
+    <string name="passport_error_unknow_error">Възникна грешка</string>
+    <string name="passport_error_unknow_host_network_error">Неуспешно свързване с мрежата</string>
+    <string name="passport_error_unknow_network_error">Възникна грешка в мрежата</string>
+    <string name="passport_error_unknown">Неизвестна грешка</string>
+    <string name="passport_error_user_agreement">Първо приемете нашето Потребителско споразумение</string>
+    <string name="passport_error_user_name">Въведеното от Вас потребителско име е невалидно</string>
+    <string name="passport_error_user_password">Паролите не съвпадат</string>
+    <string name="passport_get_login_type_next">Напред</string>
+    <string name="passport_header_back">Back</string>
+    <string name="passport_identification_expired">Кодът за потвърждаване е изтекъл. Започнете отначало.</string>
+    <string name="passport_input_captcha_hint">Въведете код</string>
+    <string name="passport_input_password_hint">Въведете парола</string>
+    <string name="passport_input_phone_number_hint">Въведете телефонен номер</string>
+    <string name="passport_input_verify_code">Въведете код за проверка</string>
+    <string name="passport_input_voice_captcha_hint">Въведете гласов код за потвърждаване</string>
+    <string name="passport_input_voice_hint">Въведете гласов код</string>
+    <string name="passport_mi_account_first_title">Ако използвате телефонния си номер за пръв път ние ще създадем профил автоматично.</string>
+    <string name="passport_mi_account_title">Вписване с Xiaomi Профил</string>
+    <string name="passport_network_error">Възникна грешка в мрежата.</string>
+    <string name="passport_network_error_hint">Проверете URL адреса и опитайте отново, или копирайте URL адреса и го отворете в браузъра си.</string>
+    <string name="passport_next">Напред</string>
+    <string name="passport_page_load_failed">Страницата не може да бъде отворена</string>
+    <string name="passport_password_login_btn">Вписване</string>
+    <string name="passport_password_not_show">"Don't show password"</string>
+    <string name="passport_password_req_notice">Паролата трябва да е с дължина 8 – 16 символа и да включва поне две от следните: цифри, букви и специални символи (напр. 123abc@# или 123abc, или abc@#).</string>
+    <string name="passport_password_show">Show password</string>
+    <string name="passport_querying_phone_info">Заявка на инф. за профил…</string>
+    <string name="passport_quick_login_title">Въведете паролата си</string>
+    <string name="passport_reging">Създаване на профил…</string>
+    <string name="passport_register_restricted">Твърде много профили са асоциирани с този номер. Опитайте с друг.</string>
+    <string name="passport_relogin_notice">Трябва да се впишете отново</string>
+    <string name="passport_resend_ticket">Повторно изпращане</string>
+    <string name="passport_retry">Опитайте отново</string>
+    <string name="passport_send_sms_to">Беше изпратен код до %1$s</string>
+    <string name="passport_send_too_many_code">На този телефонен номер са изпратени прекалено много кодове за потвърждаване. Опитайте отново след 24 часа.</string>
+    <string name="passport_sending_vcode">Изпращане на код…</string>
+    <string name="passport_set_password">Задайте парола</string>
+    <string name="passport_set_password_no_phone_msg">Добавете телефонния си номер, за да защитите профила си.</string>
+    <string name="passport_talkback_image_captcha">Код за потвърждаване с изображение</string>
+    <string name="passport_talkback_switch_image_captcha">Превключи на код за потвърждаване с изображение</string>
+    <string name="passport_talkback_switch_voice_captcha">Превключи на гласов код за потвърждаване</string>
+    <string name="passport_talkback_voice_captcha">Пуснете гласов код за потвърждаване</string>
+    <string name="passport_ticket_send_by_second">Изпращане след %d</string>
+    <string name="passport_to_forget_password">Забравена парола?</string>
+    <string name="passport_to_password_login">Впишете се с парола</string>
+    <string name="passport_to_verify_code_login">Вписване със SMS</string>
+    <string name="passport_unknow_host_network_error">Проверете мрежовите настройки и опитайте отново</string>
+    <string name="passport_user_id_hint">Имейл/телефонен номер/Номер на Xiaomi Профил</string>
+    <string name="passport_user_id_intro">Въведете парола за %1$s</string>
+    <string name="passport_user_password_hint">Парола</string>
+    <string name="passport_wechat_not_install">Първо инсталирайте WeChat</string>
+    <string name="passport_wrong_captcha">Въведеният от Вас код е неправилен</string>
+    <string name="passport_wrong_phone_number_format">Форматът на въведения от Вас телефонен номер е невалиден</string>
+    <string name="passport_wrong_vcode">Въведеният от Вас код е неправилен</string>
+    <string name="passport_wrong_voice">Въведеният от Вас код е неправилен</string>
     <string name="password_toggle_content_description">Показване на паролата</string>
     <string name="paused_by_app">На пауза</string>
     <string name="paused_in_power_save_mode">На пауза в режим пестене на захранването.</string>
@@ -946,6 +1125,8 @@
     <string name="permission_declaration_title">Даване на достъп</string>
     <string name="permission_open">Разреши</string>
     <string name="permission_required">Необходими са разрешения</string>
+    <string name="phone_auto_login_register_with_local_number">Създайте профил</string>
+    <string name="photoPickerNotFoundText">Не са налични снимки.</string>
     <string name="pick_favorite_song">Любими</string>
     <string name="pick_local_song">Свалени песни</string>
     <string name="pick_recent_song">Скоро прослушани</string>
@@ -984,6 +1165,7 @@
     <string name="privacy_authorize_revoking">Отмяна на упълномощение…</string>
     <string name="privacy_desc">Правила за поверителност (задължително)</string>
     <string name="privacy_policy">Правила за поверителност</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=bg_BG</string>
     <string name="privacy_request_desc">"&lt;Data>Mi Музика се нуждае да събира задължителна лична информация, за да ви предоставя услуги за гледане онлайн. Можете да научите как обработваме събраната информация в нашите &lt;a href=\"%1$s\">Правила за поверителност&lt;/a>. Можете да оттеглите съгласието си за Правилата за поверителност на Mi Музика в Настройки по всяко време.
 Прочетете и приемете нашето &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%1$s\">Правила за поверителност&lt;/a> преди да използвате Mi Музика.
 Ако не приемете да използвате гореспоменатите услуги, няма да можете да използвате някои от функциите на това приложение; но все пак ще имате достъп до основните му функции.&lt;/Data>"</string>
@@ -993,18 +1175,28 @@
     <string name="privacy_request_subtitle_offline">Добре дошли в Mi Музика! Това приложение предоставя локален плейър за аудио файлове.</string>
     <string name="privacy_request_title">Правила и условия</string>
     <string name="pro_member">PRO член</string>
+    <string name="progressbar_title">Проверява се за проблеми със сигурността…</string>
     <string name="project_device">Mi Телефон</string>
     <string name="prompt_grant_write_settings_permission">Позволи промяна на системните настройки</string>
+    <string name="protocal_dialog_confirm">Приемам</string>
+    <string name="protocal_dialog_title">Внимание</string>
     <string name="pulluprefreshrecyclerview_loading_error">Неуспешно зареждане</string>
     <string name="pulluprefreshrecyclerview_loading_finished">Зареждането е успешно</string>
     <string name="pulluprefreshrecyclerview_loading_running">Зареждане…</string>
+    <string name="qq_login_btn_content_description">Вписване с QQ</string>
     <string name="queue_is_empty">Опашката за възпроизвеждане е празна.</string>
+    <string name="read_and_agree_hungama_protocol">&lt;Data>Прочетох и приемам &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">Правилата за поверителност на Hungama&lt;/a>&lt;/font>&lt;/Data></string>
+    <string name="read_and_agree_joox_protocol">&lt;Data>Прочетох и приемам &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">Правилата за поверителност на JOOX&lt;/a>&lt;/font>&lt;/Data></string>
+    <string name="read_and_agree_mi_protocol">&lt;Data>Прочетох и приемам &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">Потребителското споразумение&lt;/a>&lt;/font> и &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%2$s\">Правилата за поверителност&lt;/a>&lt;/font>&lt;/Data></string>
+    <string name="read_and_agree_protocol">Прочетете и приемете нашето Потребителско споразумение и Правила за поверителност преди да продължите.</string>
     <string name="ready_to_play">Към следващото</string>
     <string name="recently_played">Скоро прослушани</string>
     <string name="recently_played_songs">Последни</string>
     <string name="recommend_songs_when_playing_audio_files">Получавайте препоръки за песни, докато слушате музика.</string>
     <string name="recommended_file_size_download_in_mobile">Използване %s от мобилни данни за изтегляне на файла?</string>
     <string name="recommended_no_file_size_download_in_mobile">Да се използва ли връзка мобилни данни за изтегляне на файла?</string>
+    <string name="register_by_local_phone_long_text">Създайте профил</string>
+    <string name="register_by_local_phone_short_text">Създайте профил</string>
     <string name="remove">Премахни</string>
     <string name="remove_download">Премахни</string>
     <string name="remove_user_privacy_dialog_message">Превключвайки бутона вие оттегляте съгласието си за Правилата за поверителност на Mi Музика. Ние ще спрем да събираме вашите лични данни. Вече събраните лични данни ще бъдат изтрити в рамките на специфичния период посочен в приложимото законодателство. Mi Музика събира вашите лични данни, за да ви предоставя основни услуги. Оттеглянето на вашето съгласие за Правилата за поверителност ще се счита за отказ от услугите, които се базират на вашите събрани лични данни.</string>
@@ -1012,10 +1204,21 @@
     <string name="remove_user_privacy_dialog_title">Оттегляне на съгласие</string>
     <string name="repeat_all_notif">Повторение на всички песни.</string>
     <string name="repeat_current_notif">Повторение на текущата песен.</string>
+    <string name="request_agree">Разреши</string>
+    <string name="request_camera_permission_message">Ние ще защитаваме Вашите лични данни в съответствие с местното законодателство. Това приложение се нуждае от следните разрешения, за да функционира нормално:&lt;br>&lt;br>&lt;b>Достъп до камера (за задаване на профилна снимка)&lt;/b>&lt;br>&lt;br>Ако не приемете да дадете подобни разрешения няма да можете да използвате някои от функциите на това приложение; въпреки това ще разполагате с достъп до неговите основни функции. Винаги можете да ограничите разрешенията или да отмените упълномощението си в Настройки.</string>
+    <string name="request_cancel">Отказ</string>
+    <string name="request_error_invalid_token">Неуспешно потвърждаване</string>
+    <string name="request_error_network">Възникна мрежова грешка. Проверете мрежовите си настройки и опитайте отново.</string>
+    <string name="request_error_unknown">Възникна системна грешка. Върнете се назад и опитайте отново.</string>
+    <string name="request_gallery_permission_message">Разрешете достъп до Галерия:&lt;br />За настройване на профилни снимки</string>
     <string name="request_overlay_permission_desc">Разрешете на Mi Музика да показва плаващи прозорци, за да можете да използвате тази функция.</string>
     <string name="request_privacy_permission_title">Прочетете и приемете условията за ползване по-долу, за да получите достъп до всички наши услуги.</string>
     <string name="request_share_info">Момент…</string>
     <string name="request_subscription_status">Един момент…</string>
+    <string name="resend_active_email">Повторно изпращане</string>
+    <string name="resend_email_reach_limit_message">Поискахте твръде много имейли за потвърждение. Уверете се, че имейлът за потвърждаване не е в спам кутията Ви.</string>
+    <string name="resend_email_reach_limit_title">Твърде много опити</string>
+    <string name="resend_email_success">Успешно изпратено</string>
     <string name="restart_immediate">Рестартирайте сега</string>
     <string name="retry">Оптитайте отново</string>
     <string name="retry_after_network_available">Няма мрежа. Проверете вашата връзка с мобилни данни и опитайте отново</string>
@@ -1035,6 +1238,7 @@
     <string name="s5">Създаване на събитие в календара</string>
     <string name="s6">Да се разреши ли на рекламата да създаде събитие в календара?</string>
     <string name="s7">Тестова реклама</string>
+    <string name="same_new_and_old_pwd">Не може да е същата като текущата парола</string>
     <string name="saturday">Събота</string>
     <string name="saturday_short">Сб.</string>
     <string name="saturday_shortest">Сб.</string>
@@ -1074,8 +1278,11 @@
     <string name="select_three_languages">Можете да изберете до to %d езика</string>
     <string name="selected_count">Избрани %1$d от %2$d</string>
     <string name="send">Изпращане</string>
+    <string name="send_diagnosis_log">Изпрати регистри</string>
+    <string name="send_email_activate_message">Успешно изпратен имейл за потвърждение</string>
     <string name="send_to_title">Изпращане до (%1$s)</string>
     <string name="service_and_settings">Обслужване и настройки</string>
+    <string name="service_error">Грешка в сървъра</string>
     <string name="set_as_alarm_clock_ringtone">Будилник</string>
     <string name="set_as_ring">Задай като мелодия</string>
     <string name="set_online_home_subtitle">Отваряй онлайн препоръките, когато приложението се стартира</string>
@@ -1109,11 +1316,15 @@
     <string name="similar_songs">Подобни песни</string>
     <string name="similar_videos">Подобни видеоклипове</string>
     <string name="skip">Пропускане</string>
+    <string name="skip_query_account">Пропускане</string>
     <string name="sleep_mode">Таймер за заспиване</string>
     <string name="sleep_mode_canceled">Таймерът за заспиване е отменен</string>
     <string name="sleep_mode_summary">Използвайте плъзгача по-долу, за да зададете време</string>
     <string name="sleep_mode_title">Спри плейъра след изтичане на времето</string>
     <string name="sliding_pro_center">PRO център</string>
+    <string name="sns_access_token_expired_warning">Сесията е изтекла. Впишете се пак, за да свържете отново този профил.</string>
+    <string name="sns_bind_limit">Твърде много опити. Опитайте други начини за вписване.</string>
+    <string name="sns_sign_in">Други начини за вписване</string>
     <string name="song_already_in_playlist">Песента вече е в плейлист</string>
     <string name="song_exist_in_playlist">Тази песен вече е на опашката</string>
     <string name="song_info">Детайли за песента</string>
@@ -1133,9 +1344,11 @@
     <string name="start_to_download">Старирайте изтегляне…</string>
     <string name="start_to_play">Подготвяне…</string>
     <string name="start_update">Инсталиране на нова версия…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Хранилище за клонирани приложения</string>
     <string name="storage_internal">Вътрешна памет</string>
     <string name="storage_sd_card">SD карта</string>
+    <string name="storage_space_permissions_for_display">Достъп до памет на устройството: за сканиране, показване, и възпроизвеждане на локални файлове</string>
     <string name="storage_usb">USB памет</string>
     <string name="streamloadingtext">Свързване към %s</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
@@ -1144,6 +1357,7 @@
     <string name="sunday_shortest">Нед.</string>
     <string name="supplementary_songs">Допълнителни песни</string>
     <string name="switch_success">Превключването е успешно.</string>
+    <string name="system_error_info">Системата е заета. Изчакайте минута-две и опитайте отново.</string>
     <string name="tab_album">Албуми</string>
     <string name="tab_album_list">Албуми</string>
     <string name="tab_artist">Певци</string>
@@ -1177,6 +1391,11 @@
     <string name="talkback_pre">Предишна песен</string>
     <string name="talkback_search">Търси</string>
     <string name="talkback_show_navigation_draw">Покажи чекмеджето</string>
+    <string name="task_card_button_exchange">Обмени</string>
+    <string name="task_card_message_received_successfully">Изпълнихте всички задачи за днес. Вземете монетите си сега!</string>
+    <string name="task_card_title_received_successfully">Успешно взети</string>
+    <string name="telephone_permissions_for_push">Разрешения за повиквания: за предоставяне на услуги за Google пуш известия</string>
+    <string name="temporary_not_available">Тази функция още не е налична</string>
     <string name="terms_of_service">Правила за ползване</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишнина от прекратяването на военно положение</string>
     <string name="the_anti_aggression_day">Ден на борба с агресията</string>
@@ -1234,7 +1453,7 @@
     <string name="toast_cant_collect_mine_playlist">Не можете да добавяте собствените си плейлисти към любими</string>
     <string name="toast_cant_commit_without_title">Въведете заглавие на песен</string>
     <string name="toast_download_error_by_count_limit">Достигнали сте месечния си лимит за изтегляне.</string>
-    <string name="toast_download_error_by_not_login">Влезте в своя Mi Профил и опитайте отново.</string>
+    <string name="toast_download_error_by_not_login">Впишете се в Xiaomi Профила си и опитайте отново.</string>
     <string name="toast_download_error_by_vip_required">Вземете Премиум абонамент,за да изтеглите тази песен.</string>
     <string name="toast_download_in_process">Изтегляне...</string>
     <string name="toast_favorite_has_been_added">Успешно добавен в плейлиста</string>
@@ -1270,9 +1489,12 @@
     <string name="ultra_high_quality">Най-високо</string>
     <string name="unknown_album_name">Неизвестен албум</string>
     <string name="unknown_artist_name">Неизвестен изпълнител</string>
+    <string name="unknown_error_info">Неизвестна грешка</string>
     <string name="unlimited_downloads">Неограничени изтегляния</string>
     <string name="unlimited_offline_songs">Неограничени офлайн песни</string>
     <string name="unlimited_skips">Неограничени пропускания</string>
+    <string name="update_email_address_dialog_message">Преди да обновите имейла за възстановяване трябва да потвърдите самоличността си.</string>
+    <string name="update_email_address_dialog_title">Обновяване на имейла за възстановяване</string>
     <string name="update_now">АКТУАЛИЗИРАЙ СЕГА</string>
     <string name="upgrade_music">Обновете приложението Музика</string>
     <string name="upgrade_music_message">Обновяването приключи. Рестартирайте програмата.</string>
@@ -1282,10 +1504,23 @@
     <string name="upload_favorite_setting_title">Синхронизиране на песни</string>
     <string name="upload_playlist_to_hungama_negative_text">Без синхронизация</string>
     <string name="upload_playlist_to_hungama_positive_text">Синхронизация</string>
-    <string name="upload_playlist_to_hungama_title">Синхронизирайте онлайн песни с Hungama, за да имате достъп до тях на други устройства, в които използвате вашия Mi Профил.</string>
+    <string name="upload_playlist_to_hungama_title">Синхронизирайте онлайн песни с Hungama, за да имате достъп до тях на други устройства, в които използвате своя Xiaomi Профил.</string>
     <string name="upload_playlist_to_hungama_toast">Онлайн песни ще бъдат синхронизирвани с Hungama</string>
     <string name="user_agreement">Потребителско споразумение</string>
+    <string name="user_agreement_hint_3rd_app">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> както и &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_mobile">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%5$s>Правилата и условията на услугите за верификация на China Mobile&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_with_telecom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%5$s>Правилата и условията на услугите за верификация на профил на eSurfing&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_3rd_app_with_unicom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%5$s>Правилата и условията на услугите за верификация на China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_default">&lt;Data>Прочетох и приех &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил.&lt;/Data></string>
+    <string name="user_agreement_hint_first_login">Ако използвате телефонния си номер за пръв път ние ще създадем профил автоматично.</string>
+    <string name="user_agreement_hint_with_mobile">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на China Mobile&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_with_telecom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на профил на eSurfing&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_hint_with_unicom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=bg_BG</string>
+    <string name="user_avatar_update_title">Промяна на профилната снимка</string>
+    <string name="user_avatar_uploading">Момент…</string>
     <string name="user_experience_program_open">Поради ограничения за авторски права, трябва да се регистрирате в Програмата за потребителски отзиви, за да можете да възпроизвеждате изтеглени песни. Можете да направите това в Настройки > Пароли и сигурност > Поверителност > Запишете се в Програмата за потребителски отзиви.</string>
+    <string name="user_name_phone_number">Телефонен номер</string>
     <string name="user_playlist_plaza">Плейлисти</string>
     <string name="user_privacy_dialog_negative_text">Отказ</string>
     <string name="user_privacy_dialog_positive_count_down_text">Оттегляне (%sсек)</string>
@@ -1309,6 +1544,8 @@
     <string name="wednesday">Сряда</string>
     <string name="wednesday_short">Ср.</string>
     <string name="wednesday_shortest">Ср.</string>
+    <string name="weibo_login_btn_content_description">Вписване с Weibo</string>
+    <string name="weixin_login_btn_content_description">Вписване с WeChat</string>
     <string name="welcome_to_entertainment">Разгледайте новата ни функция Забавление за музикални игри и още</string>
     <string name="wifi_required_body" formatted="false">"Свържете се с Wi-Fi, за да завършите това%sизтегляне.
 

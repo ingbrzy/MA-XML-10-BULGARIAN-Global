@@ -160,7 +160,7 @@
     <string name="callrecordview_menu_add_call_note">Добави бележка</string>
     <string name="callrecordview_menu_aiphone">AI повиквания</string>
     <string name="callrecordview_menu_batch_delete">Пакетно изтриване</string>
-    <string name="callrecordview_menu_blocklist">Блокирани</string>
+    <string name="callrecordview_menu_blocklist">Списък на блокирани</string>
     <string name="callrecordview_menu_conference">Конферентно обаждане</string>
     <string name="callrecordview_menu_delete">Изтрий</string>
     <string name="callrecordview_menu_delete_accepted">Изтрий списъка с входящи повиквания</string>
@@ -179,6 +179,7 @@
     <string name="callrecordview_menu_show_missed">Пропуснати повиквания</string>
     <string name="callrecordview_menu_show_sim">%s обаждания</string>
     <string name="callrecordview_menu_show_stranger">От непознати номера</string>
+    <string name="callrecordview_menu_xiaoaiphone">Mi AI Асистент за повиквания</string>
     <string name="cancel">Отказ</string>
     <string name="cancel_confirmation_dialog_message">Ще отмените ли промените?</string>
     <string name="cancel_confirmation_dialog_title">Отказ</string>
@@ -445,7 +446,7 @@
     <string name="fail_reason_too_many_vcard">Прекалено много файлове с визитки в паметта.</string>
     <string name="fail_reason_unknown">Неизвестна грешка.</string>
     <string name="favorites_list_empty">Няма любими</string>
-    <string name="firewall_setting">Блокирани</string>
+    <string name="firewall_setting">Списък на блокирани</string>
     <string name="five_letter">JKL</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -504,6 +505,7 @@
     <string name="friday">Петък</string>
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
+    <string name="from_account_format">%1$s</string>
     <string name="full_name">Име</string>
     <string name="gallery">Галерия</string>
     <string name="ghostData_company">Фирма</string>
@@ -637,6 +639,7 @@
     <string name="menu_sync_remove">Премахни синхронизацията за групата</string>
     <string name="midnight">Нощ</string>
     <string name="miprofile_account_type">Карти на Контакти</string>
+    <string name="miprofile_delete_alertdialog_message">@string/miprofile_switch_off_alertdialog_message</string>
     <string name="miprofile_edit_title">Редакция на профила</string>
     <string name="miprofile_name">Моят профил</string>
     <string name="miprofile_nick_name_divider">"  |  "</string>
@@ -793,6 +796,7 @@
     <string name="permission_retry_dialog_msg_pad">За да можете да използвате SIM картата си с това приложение и да управлявате контактите си, разрешете на приложението да получава достъп и да редактира контактите ви, както и да получава достъп до информация за устройството.</string>
     <string name="permission_retry_setting">Настройки</string>
     <string name="phoneLabelsGroup">Телефон</string>
+    <string name="phone_info_divider">" ｜ "</string>
     <string name="phone_number_too_long_toast">Номерът е твърде дълъг</string>
     <string name="phone_primary">Основен</string>
     <string name="photoPickerNotFoundText">Няма налични изображения в устройството.</string>
@@ -862,6 +866,9 @@
     <string name="preference_smart_group_title">Смарт групиране</string>
     <string name="preference_tone_title">Звук</string>
     <string name="preference_yellowpage_function_setting">Настройки за Жълти страници</string>
+    <string name="presentation_payphone">Уличен телефон</string>
+    <string name="presentation_private">Частен номер</string>
+    <string name="presentation_unknown">Непознат номер</string>
     <string name="previous">Назад</string>
     <string name="privacy_password_message1">Паролата за защита на личните данни защитава снимки, бележки и скрити папки.</string>
     <string name="privacy_password_message2">Използване на Парола за защита на личните данни. Тя защитава снимки, бележки и скрити папки.</string>
@@ -938,7 +945,7 @@
     <string name="remove_duplicate">"MIUI ще ви помогне да намерите и обедините дублиращи се контакти.
 
  За да започнете, натиснете иконата за обединяване в долната част на екрана."</string>
-    <string name="required_permissions">android.permission.WRITE_CONTACTS;android.permission.READ_CONTACTS;android.permission.WRITE_CALL_LOG;android.permission.READ_CALL_LOG;android.permission.READ_PHONE_STATE;android.permission.CALL_PHONE</string>
+    <string name="required_permissions">android.permission.WRITE_CONTACTS;android.permission.READ_CONTACTS;android.permission.WRITE_CALL_LOG;android.permission.READ_CALL_LOG;android.permission.READ_PHONE_STATE;android.permission.CALL_PHONE;android.permission.POST_NOTIFICATIONS</string>
     <string name="restore_app_btn_cancel">Отказ</string>
     <string name="restore_app_btn_restore">OК</string>
     <string name="restore_app_description_content">За по-бърз достъп до вашите контакти добавете пряк път на Началния екран.</string>
@@ -1035,6 +1042,7 @@
     <string name="sina_weibo">Sina Weibo</string>
     <string name="single_group_list_empty">Няма членове на групата</string>
     <string name="six_letter">MNO</string>
+    <string name="smart_group_action_bar_title">%1$s: %2$s (%3$s)</string>
     <string name="smart_group_company_label">По фирма</string>
     <string name="smart_group_company_unavailable">Неизвестна фирма</string>
     <string name="smart_group_frequency_1">В рамките на месец</string>
@@ -1076,6 +1084,7 @@
     <string name="starred_contacts">Любими</string>
     <string name="status_available">Достъпен</string>
     <string name="status_away">Отсъстващ</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_busy">Зает</string>
     <string name="strequentList">Любими</string>
     <string name="success_message_import_from_account">Успешно импортиране</string>
@@ -1200,6 +1209,7 @@
     <string name="video_chat">Видео чат</string>
     <string name="viewContactDesription">Покажи контакт</string>
     <string name="viewContactTitle">Детайли на контакт</string>
+    <string name="view_more_call_logs">Виж повече</string>
     <string name="view_updates_from_group">Покажи обновявания</string>
     <string name="voicemail">Гласова поща</string>
     <string name="websiteLabelsGroup">Уеб сайт</string>

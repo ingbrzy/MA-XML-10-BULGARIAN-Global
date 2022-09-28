@@ -27,6 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Споделяне със:</string>
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
+    <string name="access_denied_info">Направихте твърде много опити. Изчакайте малко и опитайте отново.</string>
     <string name="action_collapse">Скрий</string>
     <string name="action_expand">Покажи повече</string>
     <string name="action_folder_description">Преглед на папки</string>
@@ -137,6 +138,7 @@
     <string name="dlg_hide_message">Скриване…</string>
     <string name="dlg_info_creating_message">Създаване на изображение…</string>
     <string name="dlg_info_save_to_gallery_message">Запазване на изображението в Галерия…</string>
+    <string name="dlg_info_save_to_local_message">Запазване…</string>
     <string name="dlg_message_password_reset">Паролата за скритите бележки ще бъде заменена от паролата за защита на личните данни, която защитава съобщенията, снимките и скритите папки</string>
     <string name="dlg_message_set_password">Паролата за защита на личните данни защитава съобщенията, снимките и скритите папки</string>
     <string name="dlg_message_use_privacy_password">Използвай парола за защита на личните данни. Тя защитава съобщения, снимки и скрити папки.</string>
@@ -496,6 +498,7 @@
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -522,6 +525,8 @@
     <string name="mtrl_picker_toggle_to_day_selection">Докоснете, за да превключите към избиране на ден</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Превключване към режим за въвеждане на текст</string>
     <string name="mtrl_picker_toggle_to_year_selection">Докоснете, за да превключите към избиране на година</string>
+    <string name="network_error_info">Възникна мрежова грешка. Проверете мрежовите си настройки и опитайте отново.</string>
+    <string name="network_timeout_info">Не може да се осъществи връзка с мрежата. Опитайте отново.</string>
     <string name="new_app_name">Mi Бележки</string>
     <string name="new_audio_create_cancel_talkback_des">Отменена</string>
     <string name="new_audio_create_done_talkback_des">Готово</string>
@@ -552,11 +557,14 @@
     <string name="note_mindnote_entrance_hint_newversion">"Започнете да пишете "</string>
     <string name="note_mindnote_entrance_icon_text">Създайте мислена карта</string>
     <string name="note_mindnote_entrance_icon_text_newversion">Създайте мислена карта</string>
+    <string name="note_mindnote_not_support_in_phone_model">Не можете да редактирате мислени карти на това устройство</string>
     <string name="note_module_name">Бележки</string>
     <string name="note_not_text_stub">Без текст</string>
     <string name="note_sort_way">Сортиране</string>
+    <string name="note_write_hint">Напишете бележка</string>
     <string name="notealert_enter">Отвори бележката</string>
     <string name="notealert_ok">Затвори</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Бележки е системно приложение. След като го деинсталирате няма да можете да използвате приложението.</string>
     <string name="notes_description_title">Деинсталиране на Бележки?</string>
     <string name="notification_content_add_todo_from_other_app">Добавихте нова задача. Натиснете, за да прегледате.</string>
@@ -619,6 +627,8 @@
     <string name="permission_phone_state_desc">За прекъсване на запис на аудио бележка повреме на повикване</string>
     <string name="permission_read_contact_desc">Асоцииране на направените по време на обаждания бележки с контакти</string>
     <string name="permission_storage_desc">За съхранение на бележки като изображения</string>
+    <string name="permission_storage_desc_new_v12">За добавяне на изображения към бележки и запазване на бележки като изображения</string>
+    <string name="permission_storage_desc_pad_new_v12">За добавяне на изображения към бележки и запазване на бележки като изображения</string>
     <string name="permission_storage_desc_pad_v12">За добавяне на изображения към бележки и запазване на бележки като изображения</string>
     <string name="permission_storage_desc_v12">За добавяне на изображения към бележки и запазване на бележки като изображения</string>
     <string name="permission_xiaoai_desc">&lt;Data>Mi AI ще събира Вашите гласови записи и идентификационен номер на устройството, за да транскрибира аудио и да създава гласови бележки. Научете повече в Mi AI &lt;a href=\"%1$s\">Правила за поверителност&lt;/a>.&lt;/Data></string>
@@ -656,6 +666,7 @@
     <string name="privacy_note_content_empty">Тук все още няма елементи.</string>
     <string name="private_entry_available">Отпуснете, за да отворите лична папка</string>
     <string name="private_entry_default">Плъзнете надолу, за да отворите лична папка</string>
+    <string name="progressbar_title">Проверява се за проблеми със сигурността…</string>
     <string name="quick_note_link_default_text">URL</string>
     <string name="quick_note_new_user_guide">Бързи бележки ви позволява да създавате бележки и извадки</string>
     <string name="recover_notes_hint">Възникна грешка, отидете в i.mi.com, за да възстановите бележките.</string>
@@ -704,6 +715,9 @@
     <string name="save_to_gallery_failure_message">Запазването неуспешно</string>
     <string name="save_to_gallery_icon_name">Съхрани в Галерията</string>
     <string name="save_to_gallery_success_message">Успешно съхранено</string>
+    <string name="save_to_local_failure_message">Неуспешно запазване</string>
+    <string name="save_to_local_icon_name">Запазване</string>
+    <string name="save_to_local_success_message">Успешно запазено</string>
     <string name="search">Бележки</string>
     <string name="search_hint">Намери бележки</string>
     <string name="search_keyword_notes">Бележки;Напомняне</string>
@@ -765,6 +779,7 @@
     <string name="sync_note_folder">%1$s и %2$s</string>
     <string name="sync_note_todo">%1$s и %2$s</string>
     <string name="sync_tips">Натиснете за синхронизиране на бележките с облака.</string>
+    <string name="system_error_info">Системата е заета. Изчакайте минута-две и опитайте отново.</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишнина от прекратяването на военно положение</string>
     <string name="the_anti_aggression_day">Ден на борба с агресията</string>
     <string name="the_arbor_day">Ден на дървото</string>
@@ -940,6 +955,7 @@
     <string name="tuesday_shortest">Вт.</string>
     <string name="unclassfied_folder_name">Некатегоризирани</string>
     <string name="undo">Отмени</string>
+    <string name="unknown_error_info">Неизвестна грешка</string>
     <string name="unknown_source">Неизвестен източник</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>

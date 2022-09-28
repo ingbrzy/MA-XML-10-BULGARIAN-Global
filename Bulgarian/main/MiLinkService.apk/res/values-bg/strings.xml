@@ -35,13 +35,13 @@
     <string name="app_pkg_name">com.milink.service</string>
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
+    <string name="cast_image_des">Инструкции за Прожекция</string>
     <string name="casting_tips">Прожектиране…</string>
     <string name="clearable_edittext_clear_description">Изчисти</string>
     <string name="close">Затваряне</string>
     <string name="close_hotspot_hint">Изключете мобилния хотспот преди прожекция</string>
     <string name="close_slave_wifi_hint">Прекъснете връзката с помощни Wi-Fi мрежи, преди прожекция</string>
     <string name="close_slave_wifi_hint_china">Disconnect from auxiliary WLAN networks before casting</string>
-    <string name="common_google_play_services_unknown_issue">%1$s има проблеми с услугите за Google Play. Моля, опитайте отново.</string>
     <string name="config_wifi_label_china">Xiaomi Conference Tapcast WLAN</string>
     <string name="config_wifi_label_global">Xiaomi Conference Tapcast Wi-Fi</string>
     <string name="connect_device_fail">Неуспешно свързване с устройството</string>
@@ -65,7 +65,7 @@
     <string name="dialog_connect_verify_perssion_fail">Неуспешно одобряване на проектиране на Вашия телевизор. Изчакайте една-две минути и опитайте отново.</string>
     <string name="dialog_connected">Установена е връзка</string>
     <string name="dialog_connecting">Свързване…</string>
-    <string name="dialog_location_permission_message">Това приложение се нуждае от достъп до Вашето местоположение, за да може да открива външни монитори наблизо. Когато давате разрешение, изберете \"Винаги позволявай\", за да избегнете възможни грешки.</string>
+    <string name="dialog_location_permission_message">Това приложение се нуждае от достъп до Вашето местоположение, за да може да открива външни монитори наблизо. Когато давате разрешение, изберете \"Разреши винаги\", за да избегнете възможни грешки.</string>
     <string name="dialog_location_permission_title">Изискват се разрешения</string>
     <string name="dialog_miplay_permission_message">За да можете да използвате тази функция нормално, разрешете на Прожекция да записва аудио, да получава достъп до файлове във вътрешната памет и достъп до местоположението ви. Натиснете \"Настройки\" и изберете \"Разрешения за приложения\", за да продължите.</string>
     <string name="dialog_miplay_permission_positive">Настройки</string>
@@ -89,7 +89,7 @@
     <string name="dialog_scanning_device">Търсене на устройства в близост…</string>
     <string name="dialog_scanning_precondition">Включете Wi-Fi и Bluetooth на телефона си, за да използвате Безжичен дисплей.</string>
     <string name="dialog_scanning_precondition_new_china">Turn on WLAN, Bluetooth, and location services to be able to use casting. Turn on now?</string>
-    <string name="dialog_scanning_precondition_new_global">За да можете да ползвате прожекция, трябва да включите Wi-Fi, Bluetooth и услугите за местоположение. Да се включат ли сега?</string>
+    <string name="dialog_scanning_precondition_new_global">За да можете да ползвате прожекция, трябва да включите Wi-Fi и услугите за местоположение. Да се включат ли сега?</string>
     <string name="dialog_select_tv">Изберете устройство (%1$d)</string>
     <string name="dialog_show_help">Помощ</string>
     <string name="disconnect">Спиране на прожекцията</string>
@@ -164,6 +164,7 @@
     <string name="global_privacy_main">Прожектиране на елементите от екрана на вашия телефон върху по-голям външен монитор.</string>
     <string name="global_privacy_negative">Не приемам</string>
     <string name="global_privacy_positive">Приемам</string>
+    <string name="global_privacy_screencast">Докато записвате или предавате, услугата, предоставяща тази функция, може да улови всяка чувствителна информация, която се показва на Вашия екран или се възпроизвежда от Вашето устройство, включително чувствителна информация като аудио, пароли, информация за плащане, снимки и съобщения.</string>
     <string name="global_privacy_tip">&lt;Data>За да ви предоставим основните услуги и да оптимизираме процеса на прожектиране, се нуждаем да събираме необходими лични данни. Можете да научите как обработваме събраната информация в нашите &lt;a href=%1$s>Правила за поверителност&lt;/a>. Можете да оттеглите съгласието си за Правилата за поверителност по всяко време в Настройки.&lt;/Data></string>
     <string name="hang_up">Прожектиране с изключен екран</string>
     <string name="hang_up_alert_dialog_content">Продължавайте да прожектирате и при изключен екран на устройството. Тази функция намалява консумацията на батерия. Натиснете бутона за включване, за да се покаже отново екрана.</string>
@@ -367,6 +368,8 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="privacy_permission_nfc_desc">За сдвояване на устройства чрез NFC</string>
     <string name="privacy_permission_optional">Второстепенни разрешения</string>
     <string name="privacy_permission_optional_desc">За допълнителни функции докато ги използвате</string>
+    <string name="privacy_permission_screencast">Получаване на достъп до информация на екрана</string>
+    <string name="privacy_permission_screencast_desc">Докато записвате или предавате, услугата, предоставяща тази функция, може да улови всяка чувствителна информация, която се показва на Вашия екран или се възпроизвежда от Вашето устройство, включително чувствителна информация като аудио, пароли, информация за плащане, снимки и съобщения</string>
     <string name="privacy_permission_wlan">Включване и изключване на Wi-Fi</string>
     <string name="privacy_permission_wlan_china">Turning WLAN on and off</string>
     <string name="privacy_permission_wlan_desc">За откриване на устройства наблизо</string>

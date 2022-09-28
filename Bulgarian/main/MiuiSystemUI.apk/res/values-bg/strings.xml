@@ -1219,6 +1219,7 @@
     <string name="keyguard_missing_sim_instructions_long">SIM картата липсва или е нечетлива. Поставете SIM карта.</string>
     <string name="keyguard_missing_sim_message">В телефона няма SIM карта.</string>
     <string name="keyguard_missing_sim_message_short">Няма SIM карта</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
     <string name="keyguard_network_locked_message">Мрежата е заключена</string>
     <string name="keyguard_password_enter_password_code">Въведете парола, за да отключите</string>
     <string name="keyguard_password_enter_pin_code">Въведете ПИН кода</string>
@@ -1528,12 +1529,14 @@ mm"</string>
 
 За още информация се свържете с администратора си."</string>
     <string name="monitoring_description_ca_cert_settings">Отваряне на надеждните идентификационни данни</string>
+    <string name="monitoring_description_ca_cert_settings_separator">" "</string>
     <string name="monitoring_description_ca_certificate">На това устройство е инсталиран сертифициращ орган. Трафикът в защитената ви мрежа може да бъде наблюдаван или променян.</string>
     <string name="monitoring_description_do_body">Администраторът ви може да набл. и управл. настройките, корпор. достъп, прилож., данните, свързани с у-вото, както и информ. за местоп. му.</string>
     <string name="monitoring_description_do_body_vpn">Установена е връзка с приложението %1$s, което може да наблюдава активността ви в мрежата, вкл. имейли, приложения и уебсайтове.</string>
     <string name="monitoring_description_do_header_generic">Устройството ви се управлява от %1$s.</string>
     <string name="monitoring_description_do_header_with_name">%1$s използва %2$s, за да управлява устройството ви.</string>
     <string name="monitoring_description_do_learn_more">Научете повече</string>
+    <string name="monitoring_description_do_learn_more_separator">" "</string>
     <string name="monitoring_description_managed_profile_ca_certificate">Организацията ви е инсталирала сертифициращ орган в служебния ви потребителски профил. Трафикът в защитената ви мрежа може да бъде наблюдаван или променян.</string>
     <string name="monitoring_description_managed_profile_named_vpn">Служебният ви потребителски профил е свързан с приложението %1$s, което може да наблюдава активността ви в мрежата, включително имейли, приложения и уебсайтове.</string>
     <string name="monitoring_description_managed_profile_network_logging">Администраторът ви е включил функцията за регистриране на мрежовата активност, която следи трафика в служебния ви потребителски профил, но не и в личния.</string>
@@ -1567,6 +1570,7 @@ mm"</string>
 
 Също така е установена връзка с виртуална частна мрежа (VPN) и активността ви в нея може да се наблюдава."</string>
     <string name="monitoring_description_vpn_settings">Отваряне на настройките за VPN</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"%1$s може да има достъп до свързаните с това устройство данни, да управлява приложенията и да променя настройките му.
 
 Обърнете се към %2$s, ако имате въпроси."</string>
@@ -1647,6 +1651,7 @@ mm"</string>
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -1677,6 +1682,7 @@ mm"</string>
     <string name="nav_bar">Лента за навигация</string>
     <string name="nav_bar_default">(по подразбиране)</string>
     <string name="nav_bar_layout">Оформление</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="new_notification_image_content_description">%1$s изпрати изображение</string>
     <string name="new_notification_text_content_description">%1$s изпрати съобщение: %2$s</string>
     <string name="new_status_content_description">%1$s има актуализация на състоянието: %2$s</string>
@@ -1900,6 +1906,7 @@ mm"</string>
     <string name="private_dns_mode_provider">Име на хоста на доставчика на частния DNS</string>
     <string name="private_dns_mode_provider_failure">Не можа да се установи връзка</string>
     <string name="private_dns_mode_provider_hostname_hint">Въведете име на хоста на DNS доставчика</string>
+    <string name="process_kernel_label">Android (ОС)</string>
     <string name="profile_connect_timeout_subtext">При свързването възникна проблем. Изключете устройството и го включете отново</string>
     <string name="profile_info_settings_title">Инф. за потр. профил</string>
     <string name="profile_owned_footer">Възможно е потребителският профил да се наблюдава</string>
@@ -2269,6 +2276,8 @@ mm"</string>
     <string name="status_bar_clock_date_time_format_12">h:mm a, d MMM</string>
     <string name="status_bar_clock_date_weekday_format">EEEE, d MMMM</string>
     <string name="status_bar_clock_date_weekday_format_12">EEEE, d MMMM</string>
+    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
+    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_date_format">"E
 d MMM"</string>
     <string name="status_bar_date_format_12">"E

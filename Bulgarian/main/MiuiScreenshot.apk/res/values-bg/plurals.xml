@@ -36,6 +36,10 @@
         <item quantity="other">Преди %d мин</item>
         <item quantity="one">Преди 1 мин</item>
     </plurals>
+    <plurals name="file_type_detail_count">
+        <item quantity="other">%1$d файла</item>
+        <item quantity="one">%1$d файл</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Преди половин час</item>
         <item quantity="one">Преди половин час</item>
@@ -67,5 +71,101 @@
     <plurals name="num_minutes_ago">
         <item quantity="other">Преди %d минути</item>
         <item quantity="one">Преди 1 минута</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc">
+        <item quantity="other">%2$d инсталационни пакета (%3$s) от %1$s</item>
+        <item quantity="one">%2$d инсталационен пакет (%3$s) от %1$s</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_received">
+        <item quantity="other">Получени са %2$d инсталационни пакета (%3$s) от %1$s</item>
+        <item quantity="one">Получен е %2$d инсталационен пакет (%3$s) от %1$s</item>
+    </plurals>
+    <plurals name="send_apk_dialog_desc_receiving">
+        <item quantity="other">Получаване на %2$d инсталационни пакета (%3$s) от %1$s…</item>
+        <item quantity="one">Получаване на %2$d инсталационен пакет (%3$s) от %1$s…</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc">
+        <item quantity="other">%2$d аудио файла (%3$s) от %1$s</item>
+        <item quantity="one">%2$d аудио файл (%3$s) от %1$s</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_received">
+        <item quantity="other">Получени са %2$d аудио файла (%3$s) от %1$s</item>
+        <item quantity="one">Получен е %2$d аудио файл (%3$s) от %1$s</item>
+    </plurals>
+    <plurals name="send_audio_dialog_desc_receiving">
+        <item quantity="other">Получаване на %2$d аудио файла (%3$s) от %1$s…</item>
+        <item quantity="one">Получаване на %2$d аудио файл (%3$s) от %1$s…</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc">
+        <item quantity="other">%2$d %3$s файла (%4$s) от %1$s</item>
+        <item quantity="one">%2$d %3$s файл (%4$s) от %1$s</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_received">
+        <item quantity="other">Получени са %2$d %3$s файла (%4$s) от %1$s</item>
+        <item quantity="one">Получен е %2$d %3$s файл (%4$s) от %1$s</item>
+    </plurals>
+    <plurals name="send_file_dialog_desc_receiving">
+        <item quantity="other">Получаване на %2$d %3$s файла (%4$s) от %1$s…</item>
+        <item quantity="one">Получаване на %2$d %3$s файл (%4$s) от %1$s…</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc">
+        <item quantity="other">%2$d изображения от %1$s</item>
+        <item quantity="one">%2$d изображение от %1$s</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_received">
+        <item quantity="other">Получени са %2$d изображения от %1$s</item>
+        <item quantity="one">Получено е %2$d изображение от %1$s</item>
+    </plurals>
+    <plurals name="send_image_dialog_desc_receiving">
+        <item quantity="other">Получаване на %2$d изображения от %1$s…</item>
+        <item quantity="one">Получаване на %2$d изображение от %1$s…</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc">
+        <item quantity="other">%2$d изображения или видеоклипове от %1$s</item>
+        <item quantity="one">%2$d изображение или видеоклип от %1$s</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_received">
+        <item quantity="other">Получени са %2$d изображения или видеоклипове от %1$s</item>
+        <item quantity="one">Получено е %2$d изображение или видеоклип от %1$s</item>
+    </plurals>
+    <plurals name="send_image_video_dialog_desc_receiving">
+        <item quantity="other">Получаване на %2$d изображения или видеоклипове от %1$s…</item>
+        <item quantity="one">Получаване на %2$d изображение или видеоклип от %1$s…</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc">
+        <item quantity="other">%2$d файла от %1$s</item>
+        <item quantity="one">%2$d файл от %1$s</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_received">
+        <item quantity="other">Получени са %2$d файла от %1$s</item>
+        <item quantity="one">Получен е %2$d файл от %1$s</item>
+    </plurals>
+    <plurals name="send_more_type_file_dialog_desc_receiving">
+        <item quantity="other">Получаване на %2$d файла от %1$s…</item>
+        <item quantity="one">Получаване на %2$d файл от %1$s…</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc">
+        <item quantity="other">%2$d видеоклипа от %1$s</item>
+        <item quantity="one">%2$d видеоклип от %1$s</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_received">
+        <item quantity="other">Получени са %2$d видеоклипа от %1$s</item>
+        <item quantity="one">Получен е %2$d видеоклип от %1$s</item>
+    </plurals>
+    <plurals name="send_video_dialog_desc_receiving">
+        <item quantity="other">Получаване на %2$d видеоклипа от %1$s…</item>
+        <item quantity="one">Получаване на %2$d видеоклип от %1$s…</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc">
+        <item quantity="other">%2$d рез. копия (%3$s) от %1$s</item>
+        <item quantity="one">%2$d рез. копие (%3$s) от %1$s</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_received">
+        <item quantity="other">Получени са %2$d рез. копия (%3$s) от %1$s</item>
+        <item quantity="one">Получено е %2$d рез. копие (%3$s) от %1$s</item>
+    </plurals>
+    <plurals name="send_zip_dialog_desc_receiving">
+        <item quantity="other">Получаване на %2$d рез. копия (%3$s) от %1$s…</item>
+        <item quantity="one">Получаване на %2$d рез. копие (%3$s) от %1$s…</item>
     </plurals>
 </resources>

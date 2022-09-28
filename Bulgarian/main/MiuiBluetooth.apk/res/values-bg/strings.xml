@@ -466,7 +466,9 @@
     <string name="hdcp_checking_dialog_title">Задаване на модел на поведение HDCP проверка</string>
     <string name="hdcp_checking_title">HDCP проверка</string>
     <string name="headset_battery_fw_failed">Първо заредете устройството си</string>
+    <string name="headset_battery_low">Ниска батерия. Заредете слушалките.</string>
     <string name="headset_connect_device">Свързване на устройство</string>
+    <string name="headset_connect_timeout">Сесията на свързване изтече. Започнете наново.</string>
     <string name="headset_device_check_failed">Неуспешна проверка за обновления</string>
     <string name="headset_device_donot_move">Дръжте устройството наблизо</string>
     <string name="headset_device_enter_upgrade_failed">Неуспешно стартиране на обновление</string>
@@ -492,6 +494,7 @@
     <string name="headset_loss_notify_summary">Изглежда, че поне една от вашите слушалки не е в калъфчето за зареждане. Огледайте се наоколо!</string>
     <string name="headset_loss_notify_summary1">Изглежда, че слушалките ви не са в кутийката. Приберете ги обратно, за да се заредят.</string>
     <string name="headset_loss_notify_title">Сигнал за липсваща слушалка</string>
+    <string name="headset_not_in_case">Приберете и двете слушалки в кутийката и започнете наново</string>
     <string name="headset_read_fw_state">Неуспешно получаване на информация за обновление</string>
     <string name="headset_update_failed">Неуспешно обновяване</string>
     <string name="headset_update_ok">Готово</string>
@@ -683,6 +686,7 @@
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>

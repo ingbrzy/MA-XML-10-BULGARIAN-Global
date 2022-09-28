@@ -62,6 +62,19 @@
         <item>iPhone</item>
         <item>iPad</item>
     </string-array>
+    <string-array name="pref_web_permissions">
+        <item>Ограничаване</item>
+        <item>Питане</item>
+        <item>Разрешаване</item>
+    </string-array>
+    <string-array name="pref_web_permissions_sub_one">
+        <item>Ограничаване</item>
+        <item>Питане</item>
+    </string-array>
+    <string-array name="pref_web_permissions_sub_two">
+        <item>Ограничаване</item>
+        <item>Разрешаване</item>
+    </string-array>
     <string-array name="setting_swipe_up_target">
         <item>Търсене</item>
         <item>Новини</item>

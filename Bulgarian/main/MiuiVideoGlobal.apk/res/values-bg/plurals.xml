@@ -98,6 +98,14 @@
         <item quantity="other">Днес гледахте %d минути</item>
         <item quantity="one">Днес гледахте %d минута</item>
     </plurals>
+    <plurals name="incentive_popup_window_share_success">
+        <item quantity="other">Успешно споделено. Спечелихте %d точки.</item>
+        <item quantity="one">Успешно споделено. Спечелихте %d точка.</item>
+    </plurals>
+    <plurals name="incentive_popup_window_subscribe_success">
+        <item quantity="other">Успешно абониране. Спечелихте %d точки.</item>
+        <item quantity="one">Успешно абониране. Спечелихте %d точка.</item>
+    </plurals>
     <plurals name="incentive_task_watchvideo_begin">
         <item quantity="other">Получете %d точки!</item>
         <item quantity="one">Получете %d точка!</item>

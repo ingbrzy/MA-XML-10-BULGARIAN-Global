@@ -61,12 +61,20 @@
         <item quantity="one">Преди %1$d ден</item>
     </plurals>
     <plurals name="download_business_v5_edit_mode_title">
-        <item quantity="other">%1$d избрани</item>
-        <item quantity="one">%1$d избрано</item>
+        <item quantity="other">Избрани са %1$d елемента</item>
+        <item quantity="one">Избран е %1$d елемент</item>
     </plurals>
     <plurals name="download_dialog_confirm_delete_downloads_message">
         <item quantity="other">Да се изтрият ли %d задачи?</item>
         <item quantity="one">Да се изтрие ли %d задача?</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Превъртане с(ъс) %d секунди напред</item>
+        <item quantity="one">Превъртане с %d секунда напред</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Превъртане с(ъс) %d секунди назад</item>
+        <item quantity="one">Превъртане с %d секунда назад</item>
     </plurals>
     <plurals name="file_count">
         <item quantity="other">%1$d елемента</item>
@@ -108,9 +116,17 @@
         <item quantity="other">след %d минути</item>
         <item quantity="one">след 1 минута</item>
     </plurals>
+    <plurals name="intercept_panel_img_text">
+        <item quantity="other">%d</item>
+        <item quantity="one">%d</item>
+    </plurals>
+    <plurals name="intercept_panel_protection_total">
+        <item quantity="other">Защитен %d пъти</item>
+        <item quantity="one">Защитен %d път</item>
+    </plurals>
     <plurals name="le_notification_download_completed">
-        <item quantity="other">%d файла са изтеглени успешно</item>
-        <item quantity="one">%d файл е изтеглен успешно</item>
+        <item quantity="other">%1$s елемента са изтеглени успешно</item>
+        <item quantity="one">%1$s елемент е изтеглен успешно</item>
     </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Току що</item>
@@ -148,6 +164,10 @@
         <item quantity="other">Преди %d минути</item>
         <item quantity="one">Преди 1 минута</item>
     </plurals>
+    <plurals name="person_menu_protect_count">
+        <item quantity="other">Защитен %s пъти</item>
+        <item quantity="one">Защитен %s път</item>
+    </plurals>
     <plurals name="players">
         <item quantity="other">%d играчи</item>
         <item quantity="one">%d играч</item>
@@ -155,6 +175,10 @@
     <plurals name="pref_adblock_counts">
         <item quantity="other">Блокирани са %d реклами</item>
         <item quantity="one">Блокирана е %d реклама</item>
+    </plurals>
+    <plurals name="reading__search_resultful">
+        <item quantity="other">Открити са %1$d резултата</item>
+        <item quantity="one">Открит е %1$d резултат</item>
     </plurals>
     <plurals name="search_trending_views">
         <item quantity="other">%s заявки за търсене</item>
@@ -176,6 +200,10 @@
         <item quantity="other">%d популярни песни</item>
         <item quantity="one">%d популярнa песeн</item>
     </plurals>
+    <plurals name="tag_count">
+        <item quantity="other">%d таба</item>
+        <item quantity="one">%d таб</item>
+    </plurals>
     <plurals name="v5_edit_mode_title">
         <item quantity="other">Избрани са %1$d елемента</item>
         <item quantity="one">Избран е %1$d елемент</item>
@@ -183,6 +211,10 @@
     <plurals name="video_collection_reminder_view">
         <item quantity="other">От дълго време не сте гледали %d любими клипове.</item>
         <item quantity="one">От дълго време не сте гледали %d любим клип.</item>
+    </plurals>
+    <plurals name="video_views">
+        <item quantity="other">%s прегледа</item>
+        <item quantity="one">%s преглед</item>
     </plurals>
     <plurals name="videos_updated_amount">
         <item quantity="other">Вижте %1$d нови видео клипове</item>
@@ -199,5 +231,45 @@
     <plurals name="vote_all_people">
         <item quantity="other">%d човека са гласували</item>
         <item quantity="one">%d човек е гласувал</item>
+    </plurals>
+    <plurals name="web_intercept_record_behavior_hint_ad">
+        <item quantity="other">Блокирани са %d реклами</item>
+        <item quantity="one">Блокирана е %d реклама</item>
+    </plurals>
+    <plurals name="web_intercept_record_behavior_hint_allow_times">
+        <item quantity="other">Разрешено %d пъти</item>
+        <item quantity="one">Разрешено %d път</item>
+    </plurals>
+    <plurals name="web_intercept_record_behavior_hint_disallow_times">
+        <item quantity="other">Ограничен %d пъти</item>
+        <item quantity="one">Ограничен %d път</item>
+    </plurals>
+    <plurals name="web_intercept_record_behavior_hint_privacy">
+        <item quantity="other">Спрян %d пъти</item>
+        <item quantity="one">Спрян %d път</item>
+    </plurals>
+    <plurals name="web_permission_ad_subtitle">
+        <item quantity="other">Блокирани са %s реклами</item>
+        <item quantity="one">Блокирана е %s реклама</item>
+    </plurals>
+    <plurals name="web_permission_allow_default_subtitle">
+        <item quantity="other">Разрешено %s пъти</item>
+        <item quantity="one">Разрешено %s път</item>
+    </plurals>
+    <plurals name="web_permission_deny_default_subtitle">
+        <item quantity="other">Ограничено %s пъти</item>
+        <item quantity="one">Ограничено %s път</item>
+    </plurals>
+    <plurals name="web_permission_privacy_subtitle">
+        <item quantity="other">Спрян %s пъти</item>
+        <item quantity="one">Спрян %s път</item>
+    </plurals>
+    <plurals name="web_permission_protect_subtitle_day">
+        <item quantity="other">%s дни</item>
+        <item quantity="one">%s ден</item>
+    </plurals>
+    <plurals name="web_permission_protect_subtitle_time">
+        <item quantity="other">%s пъти</item>
+        <item quantity="one">%s път</item>
     </plurals>
 </resources>
