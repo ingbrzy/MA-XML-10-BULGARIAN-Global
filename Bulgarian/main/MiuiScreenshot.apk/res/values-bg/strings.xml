@@ -330,17 +330,12 @@
     <string name="screen_editor_btn_save">Запази</string>
     <string name="screen_editor_btn_shell_off">Премахване на рамка на устройство</string>
     <string name="screen_editor_btn_shell_on">Добавяне на рамка на устройство</string>
-    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
     <string name="screen_editor_delete_dialog_msg">Изтриване на екранната снимка?</string>
     <string name="screen_editor_delete_dialog_picture_msg">Желаете ли да изтриете изображението?</string>
-    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
     <string name="screen_editor_finish">Готово</string>
-    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
-    <string name="screen_editor_send">@string/operation_send</string>
     <string name="screen_editor_shell_disallowed_with_crop">Не е възможно добавяне на рамка на устройството към изрязана екранна снимка</string>
     <string name="screen_editor_shell_net_error">Свържете се с мрежата, за да можете да изтеглите рамка на устройството</string>
     <string name="screen_editor_shell_res_downloading">Изтегляне на рамка на устройство…</string>
-    <string name="screen_editor_text">@string/photo_editor_text</string>
     <string name="screen_save_dialog_btn_cancel">Отказ</string>
     <string name="screen_save_dialog_btn_delete">Изтриване на екранната снимка</string>
     <string name="screen_save_dialog_btn_save">Запази в Галерията</string>

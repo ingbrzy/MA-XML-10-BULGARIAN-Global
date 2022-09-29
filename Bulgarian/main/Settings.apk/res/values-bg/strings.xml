@@ -1622,7 +1622,6 @@ aptX адаптивен: режим Кодек"</string>
 Ако вече сте направили горното, впишете се във Вашия Mi Профил отново. В противен случай няма да можете да използвате Вашето устройство."</string>
     <string name="bootloader_tips_ok">Разбрах</string>
     <string name="bootloader_tips_warning">Не прекъсвайте връзката си с мрежата, излезте от Вашия Mi Профил, направете връщане на фабрични настройки или изтрийте системна информация.</string>
-    <string name="bootloader_unlock_webhome">https://unlock.update.miui.com</string>
     <string name="bottom_function_settings">Функции на допълнителни бутони</string>
     <string name="bottomsheet_action_expand_halfway">Разгъване наполовина</string>
     <string name="breathing_light_color_menu_title">Цвят на светлина</string>
@@ -2700,7 +2699,6 @@ aptX адаптивен: режим Кодек"</string>
     <string name="dialog_wifi_context">За да настроите вашето устройство се нуждаете от достъп до интернет. Ако не сте свързани с Wi-Fi ще бъдат използвани мобилни данни. Използването на мобилни данни може да начисли допълнителни такси от оператора. Желаете ли да използвате мобилни данни въпреки това?</string>
     <string name="dialog_wifi_title">Използване на мобилни данни</string>
     <string name="dialog_yes">Да</string>
-    <string name="digital_clock_dot">:</string>
     <string name="direct_boot_unaware_dialog_message">Забележка: След рестартиране, това приложение няма да стартира докато не отключите устройството си.</string>
     <string name="disable_overlays">Изключване на хардуерно преизчертаване</string>
     <string name="disable_overlays_summary">Винаги да се използва GPU за композиране на екрана</string>
@@ -2787,7 +2785,6 @@ aptX адаптивен: режим Кодек"</string>
     <string name="dndm_auto_button_title">Повтаряне на времето за Режим Не безпокойте</string>
     <string name="dndm_auto_setting_group">Планирано</string>
     <string name="dndm_auto_time_setting">Задаване на време</string>
-    <string name="dndm_auto_time_setting_summary">%1$s-%2$s</string>
     <string name="dndm_auto_time_turn_off">До</string>
     <string name="dndm_auto_time_turn_off_title">Автоматично изключване на Режим Не безпокойте</string>
     <string name="dndm_auto_time_turn_on">От</string>
@@ -4291,7 +4288,6 @@ Xiaomi Cloud
     <string name="lights_title">LED светлина</string>
     <string name="line_breaking_summary">Оптимизиране на линия за прекъсване на параграф</string>
     <string name="line_breaking_title">Оптимизиране на текст</string>
-    <string name="link_speed">%1$d Мб/сек</string>
     <string name="link_turbo_prompt">Статистиката на тази страница показва единствено количеството мобилни данни, което е използвано за подобряване скоростта на Wi-Fi. Тя не отразява реално използваното количество мобилни данни.</string>
     <string name="link_turbo_settings_all_app_display_loading">Момент…</string>
     <string name="link_turbo_settings_all_app_reach_max">Можете да изберете до 15 приложения</string>
@@ -4881,7 +4877,6 @@ Xiaomi Cloud
     <string name="memory_title">Свободни: %1$s\u0009\u0009Общо: %2$s</string>
     <string name="memory_usage">Използване на паметта</string>
     <string name="memory_usage_apps">Използвана от приложенията памет</string>
-    <string name="memory_use_running_format">%1$s/%2$s</string>
     <string name="memory_use_summary">Средно %1$s използвана памет през последните 3 часа</string>
     <string name="memorycard_calculating">Изчисляване…</string>
     <string name="menu_cancel">Отказ</string>
@@ -5353,7 +5348,6 @@ Xiaomi Cloud
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -5525,7 +5519,6 @@ Xiaomi Cloud
     <string name="nfc_how_it_works_title">Плащане на терминал</string>
     <string name="nfc_main_switch_title">Използване на NFC</string>
     <string name="nfc_more_title">Още…</string>
-    <string name="nfc_payment_app_and_desc">%1$s – %2$s</string>
     <string name="nfc_payment_btn_text_set_deault">Задаване като основно</string>
     <string name="nfc_payment_btn_text_update">Актуализиране</string>
     <string name="nfc_payment_default">Основно приложение за плащане</string>
@@ -5915,7 +5908,6 @@ OTG се изключва автоматично след 10 минути неа
     <string name="overlay_settings_title">Разрешаване на екранни наслагвания в/у „Настройки“</string>
     <string name="overlay_toast_failed_to_apply">Прилагането на наслагване не бе успешно</string>
     <string name="owner_info_settings_edit_text_hint">Напр. „Устройството с Android на Иван“.</string>
-    <string name="owner_info_settings_status">%1$d/%2$d</string>
     <string name="owner_info_settings_summary">Няма</string>
     <string name="owner_info_settings_title">Подпис на Заключен екран</string>
     <string name="owner_space">Първо пространство</string>
@@ -6153,7 +6145,6 @@ OTG се изключва автоматично след 10 минути неа
     <string name="power_remaining_less_than_duration_only">Остават по-малко от %1$s</string>
     <string name="power_remaining_more_than_subtext">Остават повече от %1$s (%2$s)</string>
     <string name="power_remaining_only_more_than_subtext">Остават повече от %1$s</string>
-    <string name="power_remaining_settings_home_page">%1$s - %2$s</string>
     <string name="power_screen">Екран</string>
     <string name="power_settings_title">Системна производителност</string>
     <string name="power_suggestion_battery_run_out">Батерията ще бъде изразходена в около %1$s</string>
@@ -6399,8 +6390,6 @@ OTG се изключва автоматично след 10 минути неа
     <string name="privileged_action_disable_sub_dialog_title">Да се изключи ли %1$s?</string>
     <string name="privileged_action_disable_sub_dialog_title_without_carrier">Да се изключи ли SIM картата?</string>
     <string name="process_dex2oat_label">Оптимизиране на приложенията</string>
-    <string name="process_format">%1$s (%2$d)</string>
-    <string name="process_kernel_label">Android OS</string>
     <string name="process_mediaserver_label">Медиен сървър</string>
     <string name="process_provider_in_use_description">Доставчикът %1$s се използва.</string>
     <string name="process_service_in_use_description">Услугата %1$s се използва</string>
@@ -7166,7 +7155,6 @@ OTG се изключва автоматично след 10 минути неа
     <string name="security_encryption_attention_3">Ще трябва да настроите нова парола за отключване на екрана.</string>
     <string name="security_encryption_attention_4">Уверете се, че сте запомнили вашата парола за отключване на екрана, иначе ще се наложи да извършите пълно нулиране и изтриване на цялата информация във вашето устройство.</string>
     <string name="security_encryption_attention_info">Можете да шифровате профили, настройки, инсталирани приложения и тяхната информация, медия и други файлове.</string>
-    <string name="security_encryption_attention_symbol">•</string>
     <string name="security_encryption_attention_title">Важно</string>
     <string name="security_encryption_close_dialog_info">Липсата на шифроване на устройството чрез парола за отключване на екрана може да направи недостъпни някои услуги от Google.</string>
     <string name="security_encryption_close_dialog_title">Връщане към системно шифроване по подразбиране</string>
@@ -7665,7 +7653,6 @@ OTG се изключва автоматично след 10 минути неа
     <string name="sim_select_card">Изберете SIM карта</string>
     <string name="sim_selection_channel_title">Избиране на SIM карта</string>
     <string name="sim_selection_required_pref">Изборът е задължителен</string>
-    <string name="sim_settings_summary">%1$s – %2$s</string>
     <string name="sim_settings_title">SIM карти</string>
     <string name="sim_setup_channel_id">Активиране на мрежа</string>
     <string name="sim_setup_wizard_title">SIM карти</string>
@@ -7685,7 +7672,6 @@ OTG се изключва автоматично след 10 минути неа
     <string name="size_kilo_byte">KB</string>
     <string name="size_mega_byte">MB</string>
     <string name="size_peta_byte">PB</string>
-    <string name="size_suffix">%1$s %2$s</string>
     <string name="size_tera_byte">TB</string>
     <string name="skip_anyway_button_label">Пропускане въпреки това</string>
     <string name="skip_label">Пропускане</string>
@@ -7878,10 +7864,8 @@ OTG се изключва автоматично след 10 минути неа
     <string name="status_bar_app_enable_keyguard">Заключен екран</string>
     <string name="status_bar_app_enable_message">Значки</string>
     <string name="status_bar_carrier_settings_no_sim_card">Няма SIM карта</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_settings">Известия и статус лента</string>
     <string name="status_bar_settings_all_app_display_loading">Момент…</string>
-    <string name="status_bar_settings_carrier_sim">"SIM %1$s: "</string>
     <string name="status_bar_settings_manage_notification">Известия от приложения</string>
     <string name="status_bar_settings_notification_bar">Лента с известия</string>
     <string name="status_bar_settings_status_bar">Статус лента</string>
@@ -8174,7 +8158,6 @@ OTG се изключва автоматично след 10 минути неа
     <string name="sum_carrier_select">Избиране на мрежов оператор</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="summary_divider_text">", "</string>
-    <string name="summary_range_symbol_combination">от %1$s до %2$s</string>
     <string name="summary_range_verbal_combination">от %1$s до %2$s</string>
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>
@@ -9030,7 +9013,6 @@ OTG се изключва автоматично след 10 минути неа
     <string name="vision_settings_title">Настройки при зрителни проблеми</string>
     <string name="voice_access">Гласови контроли</string>
     <string name="voice_assist">Mi AI</string>
-    <string name="voice_assist_volume_option_title">@string/voice_assist</string>
     <string name="voice_category">Говор</string>
     <string name="voice_helper_title">Гласов асистент</string>
     <string name="voice_input_output_settings">Въвеждане и синтезиране на глас</string>
@@ -10217,10 +10199,8 @@ OTG се изключва автоматично след 10 минути неа
     <string name="zone_auto_summaryOn">Използване на времето, предоставено от мрежовия оператор</string>
     <string name="zone_auto_title">Автоматично задаване на часовата зона</string>
     <string name="zone_change_to_from_dst">%1$s започва на %2$s.</string>
-    <string name="zone_info_exemplar_location_and_offset">%1$s (%2$s)</string>
     <string name="zone_info_footer">Използва %1$s. %2$s: започва на %3$s.</string>
     <string name="zone_info_footer_no_dst">Използва %1$s. Няма лятно часово време.</string>
-    <string name="zone_info_offset_and_name">%2$s (%1$s)</string>
     <string name="zone_list_menu_sort_alphabetically">Сортиране по азбучен ред</string>
     <string name="zone_list_menu_sort_by_timezone">Сортиране по часова зона</string>
     <string name="zone_menu_by_offset">Избиране по отместване от UTC</string>
