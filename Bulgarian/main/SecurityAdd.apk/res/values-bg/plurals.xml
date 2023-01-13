@@ -65,11 +65,23 @@
         <item quantity="one">%d избран елемент</item>
     </plurals>
     <plurals name="net_booster_expire_notification_tip">
-        <item quantity="other">Остават %d дни преди сесията на Мрежов ускорител да приключи. Подновете я сега, за да се предпазите от проблеми със скоростта.</item>
-        <item quantity="one">Остава %d ден преди сесията на Мрежов ускорител да приключи. Подновете я сега, за да се предпазите от проблеми със скоростта.</item>
+        <item quantity="other">Вашата сесия за повишаване на скоростта на мрежата ще приключи след %d дни. Възможно е да започнете да изпитвате забавяне на мрежата. Желаете ли да подновите сесията сега?</item>
+        <item quantity="one">Вашата сесия за повишаване на скоростта на мрежата ще приключи след %d ден. Възможно е да започнете да изпитвате забавяне на мрежата. Желаете ли да подновите сесията сега?</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">Преди %d минути</item>
         <item quantity="one">Преди 1 минута</item>
+    </plurals>
+    <plurals name="power_battery_hour">
+        <item quantity="other">%s часа</item>
+        <item quantity="one">%s час</item>
+    </plurals>
+    <plurals name="power_battery_minute">
+        <item quantity="other">%s мин</item>
+        <item quantity="one">%s мин</item>
+    </plurals>
+    <plurals name="power_main_battery_last_minute_screen_on">
+        <item quantity="other">Оставащо екранно време: %s мин</item>
+        <item quantity="one">Оставащо екранно време: %s мин</item>
     </plurals>
 </resources>

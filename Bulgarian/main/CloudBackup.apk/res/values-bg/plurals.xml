@@ -36,6 +36,10 @@
         <item quantity="other">Преди %d мин</item>
         <item quantity="one">Преди 1 мин</item>
     </plurals>
+    <plurals name="backup_action_long_time_not_backup_content">
+        <item quantity="other">Изглежда не сте архивирали елементи %s седмици. Създайте резервни копия, за да избегнете загуба на важни неща.</item>
+        <item quantity="one">Изглежда не сте архивирали елементи %s седмица. Създайте резервни копия, за да избегнете загуба на важни неща.</item>
+    </plurals>
     <plurals name="cloud_backup_detail_manage_summary">
         <item quantity="other">%1$s архиви (%2$s)</item>
         <item quantity="one">%1$s архив (%2$s)</item>
@@ -72,16 +76,16 @@
         <item quantity="other">Преди %d минути</item>
         <item quantity="one">Преди 1 минута</item>
     </plurals>
-    <plurals name="restore_app_order_installed">
-        <item quantity="other">%d прилож на това устройство</item>
-        <item quantity="one">%d прилож на това устройство</item>
+    <plurals name="session_starting_app_count_backup_text">
+        <item quantity="other">Архивирани са %d приложения</item>
+        <item quantity="one">Архивирано е %d приложение</item>
     </plurals>
-    <plurals name="restore_app_order_normal">
-        <item quantity="other">Нормален приоритет: %d приложения</item>
-        <item quantity="one">Нормален приоритет: %d приложение</item>
+    <plurals name="session_starting_app_count_restore_text">
+        <item quantity="other">Възстановени са %d приложения</item>
+        <item quantity="one">Възстановено е %d приложение</item>
     </plurals>
-    <plurals name="restore_app_order_prior">
-        <item quantity="other">Висок приоритет: %d приложения</item>
-        <item quantity="one">Висок приоритет: %d приложение</item>
+    <plurals name="session_time_remain">
+        <item quantity="other">Остават около %s минути</item>
+        <item quantity="one">Остава около %s минута</item>
     </plurals>
 </resources>

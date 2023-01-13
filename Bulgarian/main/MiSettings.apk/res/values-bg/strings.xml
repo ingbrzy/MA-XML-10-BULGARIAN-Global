@@ -65,6 +65,7 @@
     <string name="australian_magpie">Australian magpie</string>
     <string name="authorization_btn_text">Стартиране</string>
     <string name="authorization_tips">Необходими са разрешения</string>
+    <string name="avalible_per_day">Продължителност на сесията</string>
     <string name="baboon_info">The olive baboon lives in groups with developed social ranking depending on the dominance of each individual.</string>
     <string name="back">Назад</string>
     <string name="bear_info">Bears are the largest land carnivores. They live in cold regions and are known for their keen sense of smell.</string>
@@ -114,6 +115,9 @@
     <string name="canada_goose">Canada goose</string>
     <string name="capybara">Capybara</string>
     <string name="capybara_info">Capybaras are semiaquatic herbivore rodents who can hold their breath underwater for up to five minutes at a time.</string>
+    <string name="category_limit_notify_title">Предупреждение за екранно време</string>
+    <string name="category_list_expand">Още</string>
+    <string name="category_list_packup">Скрий</string>
     <string name="category_other">Друго</string>
     <string name="chacma_baboon">Chacma baboon</string>
     <string name="cheetah">Cheetah</string>
@@ -125,11 +129,14 @@
     <string name="clearable_edittext_clear_description">Изчисти</string>
     <string name="click_to_save">Tap \"Done\" to set a general ringtone.</string>
     <string name="close">Затваряне</string>
+    <string name="closed_high_refresh_options">Приложения, които не използват висока скорост на опресняване</string>
     <string name="color_gamut">Цветова гама</string>
     <string name="common_brushtail">Brushtail possum</string>
     <string name="common_ostrich">Ostrich</string>
+    <string name="compulsor_tip">Начален екран</string>
     <string name="contact_description">Натискайте преки пътища на Началния екран, за да правите повиквания</string>
     <string name="contact_title">Пряк път за контакт</string>
+    <string name="continue_time">Продължителност на сесията</string>
     <string name="contrast_ratio">Контраст</string>
     <string name="control_center_title">Екранно време днес</string>
     <string name="control_center_title_new">Използвани днес</string>
@@ -141,6 +148,8 @@
     <string name="created_successfully">Успешно създадено</string>
     <string name="crowned_hornbill">Crowned hornbill</string>
     <string name="cu_confirm">Задай</string>
+    <string name="customize_high_refresh_summary">Тази функция поддържа скорост на опресняване до %d Hz. Подходящата скорост на опресняване може да бъде избрана автоматично въз основа на предпочитанията на устройството.</string>
+    <string name="customize_high_refresh_title">Приложения, които използват висока скорост на опресняване</string>
     <string name="customize_radio_btn_summary">Предпочитане на избраната скорост на опресняване</string>
     <string name="customize_radio_btn_title">По избор</string>
     <string name="dall_sheep">Dall sheep</string>
@@ -164,6 +173,8 @@
     <string name="desktop_widget_not_support">"Статистика за екранно време
 не се генерира във Второ пространство"</string>
     <string name="desktop_widget_screen_use_time">Екранно време</string>
+    <string name="device_limit_enable">Вкл</string>
+    <string name="device_limit_un_enable">Изкл</string>
     <string name="display_description">По-големи елементи, по-голям шрифт, по-малко визуално претрупване</string>
     <string name="display_title">По-големи елементи</string>
     <string name="dynamic_ringtone_desc">Проучихме различни екосистеми и пресъздадохме техните отличителни звуци. Изследвайте звуците на природата с нас!</string>
@@ -294,7 +305,11 @@
     <string name="focus_mode_timer_pick_dialog_summary" formatted="false">%d до %d минути</string>
     <string name="focus_mode_timer_pick_dialog_title">Въведете интервал</string>
     <string name="focus_time_exception_tip">Изглежда системното време се е сменило. Режим Фокус е изключен.</string>
+    <string name="follow_apps_settings">Въз основа на настройките на приложението</string>
     <string name="follow_sim1">Прилагане на настройки на SIM 1</string>
+    <string name="force_rest">Използвайте почивки между сесиите</string>
+    <string name="force_rest_summary">Правете задължителни почивки между сесиите при достигане на лимита</string>
+    <string name="force_rest_time">Продължителност на почивката</string>
     <string name="fps_high">Висока</string>
     <string name="fps_nature_summary">Максималната скорост на опресняване поддържа всичко кристално ясно</string>
     <string name="fps_nature_title">Максимално</string>
@@ -327,6 +342,16 @@
     <string name="green_peafowl">Green peafowl</string>
     <string name="green_warbler_finch">Green warbler-finch</string>
     <string name="grey_headed_flying_fox">Grey-headed flying fox</string>
+    <string name="guard_item_app_summary">Деинсталирайте приложения от разстояние</string>
+    <string name="guard_item_app_title">Управление на приложения</string>
+    <string name="guard_item_browser_summary">Контролирайте достъпа до приложения и съдържание</string>
+    <string name="guard_item_browser_title">Ограничения</string>
+    <string name="guard_item_call_summary">Разрешете на определени контакти да правят повиквания</string>
+    <string name="guard_item_call_title">Комуникация</string>
+    <string name="guard_item_eye_protect_summary">Следене на позата</string>
+    <string name="guard_item_eye_protect_title">Комфорт на очите</string>
+    <string name="guard_range_from">От</string>
+    <string name="guard_range_to">До</string>
     <string name="harp_seal">Harp seal</string>
     <string name="harpy_eagle">Harpy eagle</string>
     <string name="has_applied">Applied</string>
@@ -334,11 +359,14 @@
     <string name="helmeted_guineafowl">Guineafowl</string>
     <string name="high_fps_description">Висока скорост на опресняване на екрана. Засилена употреба на енергия.</string>
     <string name="high_fps_tip_footer">Употребата на по-висока скорост на опресняване повишава качеството на визуалното преживяване, но и консумира повече енергия.</string>
+    <string name="high_refresh_options_title">Поддържани приложения</string>
     <string name="hippopotamus">Hippo</string>
+    <string name="holiday_limit">Почивни дни</string>
     <string name="hsv_space_color">HSV цветово пространство</string>
     <string name="hsv_space_color_hue">Оттенък</string>
     <string name="hsv_space_color_saturation">Наситеност</string>
     <string name="hsv_space_color_value">Стойност</string>
+    <string name="in_forbidden_period">Употребата е ограничена</string>
     <string name="intelligent_radio_btn_summary">Регулирайте динамично скоростта на опресняване в зависимост от различните начини за балансиране на производителността с консумация на енергия</string>
     <string name="intelligent_radio_btn_title">По подразбиране (препоръчително)</string>
     <string name="intelligent_recognition_item_summary">Използвайте индивидуален тон на звънене за обаждания от таксиметрови услуги и доставчици. Тази функция ще работи, когато %s е зададен като тон по подразбиране.</string>
@@ -379,6 +407,7 @@
     <string name="less_than_one">&lt; %d</string>
     <string name="lion">Lion</string>
     <string name="lion_info">Лъвовете са свирепи и мощни хищници. Те често живеят на групи и притежават силно развито чувство за териториалност.</string>
+    <string name="loading_error">Неуспешно зареждане на елементи</string>
     <string name="lock_summary">Защитете личната си информация</string>
     <string name="long_tai1ed_iaeger">Long-tailed jaeger</string>
     <string name="low_flicker_mode">Слабо осветление</string>
@@ -477,7 +506,9 @@
     <string name="nature_mix">Природен микс</string>
     <string name="nature_mix_summary">Създайте персонализиран микс</string>
     <string name="nazca_booby">Nazca booby</string>
-    <string name="network_error">Възникна мрежова грешка. Опитайте отново.</string>
+    <string name="network_error">Възникна грешка в мрежата. Опитайте отново.</string>
+    <string name="new_customize_high_refresh_title">Висока скорост на опресняване</string>
+    <string name="next_day">"(Следващия ден) "</string>
     <string name="night">Вечер</string>
     <string name="nine_banded_armadillo">Armadillo</string>
     <string name="no_matching">Не е открито приложение за отваряне на този линк</string>
@@ -493,6 +524,7 @@
     <string name="notification_sound">Звуци за известията</string>
     <string name="ocelot">Ocelot</string>
     <string name="olive_baboon">Olive baboon</string>
+    <string name="opened_high_refresh_options">Приложения, които използват висока скорост на опресняване</string>
     <string name="orange_winged_amazon">Orange-winged amazon</string>
     <string name="orca">Killer whale</string>
     <string name="ostrich_info">Ostriches are large flightless birds of Africa who lay the largest eggs of any living land animal.</string>
@@ -558,6 +590,7 @@
     <string name="sea_otter">Sea otter</string>
     <string name="seal_info">Seals are marine mammals that can move quickly in deep waters, feeding on fish and shrimps.</string>
     <string name="search_app_name">Търси приложения</string>
+    <string name="search_app_tips">Търсене в приложенията</string>
     <string name="search_empty">Не са открити приложения</string>
     <string name="search_menu_title">Търсене</string>
     <string name="send">Изпращане</string>
@@ -569,6 +602,13 @@
     <string name="silver_pheasant">Silver pheasant</string>
     <string name="sim_slot_1">" (SIM 1)"</string>
     <string name="sim_slot_2">" (SIM 2)"</string>
+    <string name="size_byte">Б</string>
+    <string name="size_giga_byte">ГБ</string>
+    <string name="size_kilo_byte">КБ</string>
+    <string name="size_mega_byte">МБ</string>
+    <string name="size_peta_byte">ПБ</string>
+    <string name="size_suffix">%1$s%2$s</string>
+    <string name="size_tera_byte">ТБ</string>
     <string name="skywalker_hoolock_gibbon">Skywalker hoolock gibbon</string>
     <string name="small_ground_finch">Small ground finch</string>
     <string name="sms_delivered_sound_title">Доставено съобщение</string>
@@ -589,6 +629,8 @@
     <string name="steady_on_screen_notification_title">Оставете телефона и си починете</string>
     <string name="steady_on_screen_notification_title_pad">Оставете устройството и си починете</string>
     <string name="steady_on_screen_notify">Изпращане на известия за непрекъсната употреба</string>
+    <string name="steady_on_screen_notify_new">Починете си</string>
+    <string name="steady_on_screen_ntf_msg">Всички функции ще са достъпни отново след %1$s</string>
     <string name="steady_on_screen_setting">Лимит на време за непрекъсната употреба</string>
     <string name="steady_on_screen_summary">Лимит на време за непрекъсната употреба</string>
     <string name="stop_app_timer">Изключете Екранно време</string>
@@ -649,6 +691,12 @@
     <string name="thursday">Четвъртък</string>
     <string name="thursday_short">Четв.</string>
     <string name="thursday_shortest">Четв.</string>
+    <string name="time_over_back_home">Начален екран</string>
+    <string name="time_over_delayed_use">Игнорирайте</string>
+    <string name="time_over_not_delayed_use">Разбрах</string>
+    <string name="time_over_today">"Не Ви остава повече време
+за днес"</string>
+    <string name="time_over_today_use">"Сесии за днес: "</string>
     <string name="time_picker_dialog_title">Настройте време</string>
     <string name="time_picker_label_hour">Ч</string>
     <string name="time_picker_label_minute">M</string>
@@ -677,6 +725,7 @@
     <string name="tuesday_shortest">Вт.</string>
     <string name="two_toed_sloths">Двупръст ленивец</string>
     <string name="two_toed_sloths_info">Двупръстите ленивци могат лесно да се предвижват от дърво на дърво през покрова на джунглите.</string>
+    <string name="unavailable_per_day">Почивки</string>
     <string name="unlock_times_per_day">"Средно за деня: "</string>
     <string name="unlock_times_per_hour">"Отключвания на час: "</string>
     <string name="usage_agree">Приемам</string>
@@ -712,8 +761,10 @@
     <string name="usage_device_limit_app_prolong_time3">Добави 60 минути</string>
     <string name="usage_device_limit_app_prolong_time4">Без лимит днес</string>
     <string name="usage_device_limit_app_prolong_time5">Добавяне на време веднъж</string>
+    <string name="usage_device_limit_forbidden_period">Употребата е ограничена между %1$s и %2$s</string>
     <string name="usage_device_limit_notifation_summary_start">Ще достигнете лимита след %1$s</string>
     <string name="usage_device_limit_notifation_title">Оставащо време днес</string>
+    <string name="usage_device_limit_start_forbidden_period">Употребата е ограничена между %1$s и %2$s (остават %3$s)</string>
     <string name="usage_device_limit_time_over">Достигнахте дневния си лимит (%1$s)</string>
     <string name="usage_exit">Изход</string>
     <string name="usage_focus_focus_premission_main_summary">Това приложение има нужда от достъп до информацията за профила Ви, за да записва статистиката от използването на Вашия режим Фокус.</string>
@@ -745,6 +796,8 @@
     <string name="usage_home_premission_second_summary_double_link_prefix">Ние ще защитаваме личната Ви информация в съответствие с всички приложими закони, наредби и правила за поверителност. Ако не се съгласите да дадете тези разрешения или да споделяте и качвате личната си информация, няма да можете да използвате това приложение. Можете да оттеглите упълномощението си в Екранно време > Настройки > Изключване на Екранно време.</string>
     <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false">"&lt;Data>Преди да използвате това приложение, прочетете и приемете нашето &lt;a href='%1s'>Потребителско споразумение&lt;/a> и &lt;a href='%2s'>Правила за поверителност&lt;/a>.&lt;/Data>"</string>
     <string name="usage_home_premission_second_summary_new">Ние ще защитаваме личната Ви информация в съответствие с всички приложими закони, наредби и политики за поверителност. Ако не се съгласите да дадете тези разрешения или да споделяте и качвате личната си информация, няма да можете да използвате това приложение. Можете да оттеглите упълномощаването си в Екранно време > Настройки > Изключване на Екранно време. Ако имате допълнителни въпроси относно поверителността, можете да се свържете с нас на privacy@xiaomi.com.</string>
+    <string name="usage_new_category_limit_summary">Задаване на дневен лимит и ограничение за всички приложения в тази категория</string>
+    <string name="usage_new_category_limit_title">Ограничаване на употреба за категории на приложения</string>
     <string name="usage_new_home_app_limit_summary">Задайте дневен лимит на екранно време за това приложение</string>
     <string name="usage_new_home_app_limit_title">Лимит на екранно време</string>
     <string name="usage_new_home_average">"Средно "</string>
@@ -969,6 +1022,7 @@
     <string name="willow_grouse_info">The willow ptarmigan is herbivorous for most of its life and primarily occupies subalpine and subarctic habitats.</string>
     <string name="wolf">Wolf</string>
     <string name="wombat">Wombat</string>
+    <string name="workday_limit">Работни дни</string>
     <string name="yellow_necked_spurfowl">Yellow-necked spurfowl</string>
     <string name="yellow_throated_marten">Yellow-throated marten</string>
     <string name="yesterday">Вчера</string>

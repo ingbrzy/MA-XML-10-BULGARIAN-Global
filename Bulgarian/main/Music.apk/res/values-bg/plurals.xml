@@ -130,6 +130,10 @@
         <item quantity="other">Превъртане с(ъс) %d секунди назад</item>
         <item quantity="one">Превъртане с %d секунда назад</item>
     </plurals>
+    <plurals name="feed_play_times">
+        <item quantity="other">%s прегледа</item>
+        <item quantity="one">%s преглед</item>
+    </plurals>
     <plurals name="free_downloads_num_hint">
         <item quantity="other">останаха %d безплатни тегления</item>
         <item quantity="one">остана %d безплатно теглене</item>

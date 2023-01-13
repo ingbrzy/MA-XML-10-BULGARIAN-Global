@@ -222,6 +222,8 @@
         <item>По-стари от 60 дни</item>
         <item>По-стари от 90 дни</item>
     </string-array>
+    <array name="avatar_image_descriptions" />
+    <array name="avatar_images" />
     <string-array name="battery_indicator_style_entries">
         <item>Графично</item>
         <item>Процентно (в иконката)</item>
@@ -261,13 +263,13 @@
         <item>Режим Задържане на ниски тонове</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Използване на системни предпочитания (По подразбиране)</item>
+        <item>Използвай избора на системата (По подразбиране)</item>
         <item>16 битов/модел</item>
         <item>24 битов/модел</item>
         <item>32 битов/модел</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Използване на системни предпочитания (По подразбиране)</item>
+        <item>Използвай избора на системата (По подразбиране)</item>
         <item>16 битов/модел</item>
         <item>24 битов/модел</item>
         <item>32 битов/модел</item>
@@ -319,14 +321,14 @@
         <item>Най-добър резултат (Авт. битрейт)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Използване на системни предпочитания (По подразбиране)</item>
+        <item>Използвай избора на системата (По подразбиране)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Използване на системни предпочитания (По подразбиране)</item>
+        <item>Използвай избора на системата (По подразбиране)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
@@ -369,9 +371,9 @@
         <item>" | Активно (телефон)"</item>
     </string-array>
     <string-array name="bluetooth_avrcp_version_values">
-        <item>avrcp14</item>
-        <item>avrcp13</item>
         <item>avrcp15</item>
+        <item>avrcp13</item>
+        <item>avrcp14</item>
         <item>avrcp16</item>
     </string-array>
     <string-array name="bluetooth_avrcp_versions">
@@ -408,6 +410,8 @@
         <item>Деактивирано</item>
         <item>Филтрирани</item>
         <item>Включено</item>
+        <item>Филтрирани заглавия</item>
+        <item>Филтрирани медия пакети</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
         <item>1 секунда</item>
@@ -435,7 +439,7 @@
     <string-array name="captioning_font_size_selector_titles">
         <item>Много малък</item>
         <item>Малък</item>
-        <item>По подразбиране</item>
+        <item>Среден</item>
         <item>Голям</item>
         <item>Много голям</item>
     </string-array>
@@ -520,8 +524,8 @@
         <item>Каймански острови</item>
         <item>Чикаго</item>
         <item>Коста Рика</item>
-        <item>Курачо</item>
-        <item>Даунсън Крийк</item>
+        <item>Кюрасао</item>
+        <item>Доусън Крийк</item>
         <item>Денвър</item>
         <item>Детройт</item>
         <item>Доминика</item>
@@ -563,7 +567,7 @@
         <item>Порт о Пренс</item>
         <item>Пуерто Рико</item>
         <item>Санто Доминго</item>
-        <item>Сау Пауло</item>
+        <item>Сао Пауло</item>
         <item>Сейнт Джоунс</item>
         <item>Сейнт Китс</item>
         <item>Санта Лусия</item>
@@ -769,6 +773,31 @@
         <item>Парамарибо</item>
         <item>Кито</item>
     </string-array>
+    <array name="click_bottom">
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom04</item>
+        <item>@drawable/clickbottom05</item>
+        <item>@drawable/clickbottom06</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom08</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+    </array>
     <string-array name="color_mode_descriptions">
         <item>Подобрени цветове</item>
         <item>Естествени цветове видими с просто око</item>
@@ -782,10 +811,10 @@
     <string-array name="color_picker">
         <item>синьо-зелено</item>
         <item>синьо</item>
-        <item>индиго</item>
+        <item>зелено</item>
         <item>лилаво</item>
         <item>розово</item>
-        <item>червено</item>
+        <item>оранжево</item>
     </string-array>
     <string-array name="common_password_business_names">
         <item>Заключен екран</item>
@@ -880,9 +909,9 @@
     </string-array>
     <string-array name="haptic_feedback_level_texts">
         <item>Изкл</item>
-        <item>Слабо</item>
-        <item>Средно</item>
-        <item>Силно</item>
+        <item>Слаба</item>
+        <item>Средна</item>
+        <item>Силна</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
         <item>Никога да не се използва HDCP проверка</item>
@@ -897,6 +926,15 @@
     <string-array name="hide_account_list">
         <item>com.android.localphone</item>
         <item>com.android.sim</item>
+    </string-array>
+    <string-array name="key_and_gesture_shortcut_action">
+        <item>long_press_home_key</item>
+        <item>long_press_menu_key</item>
+        <item>long_press_back_key</item>
+        <item>key_combination_power_home</item>
+        <item>key_combination_power_menu</item>
+        <item>key_combination_power_back</item>
+        <item>key_none</item>
     </string-array>
     <string-array name="keyguard_notification_status_entries">
         <item>Не активирай екрана</item>
@@ -941,6 +979,43 @@
         <item>След 5 минути</item>
         <item>Никога</item>
     </string-array>
+    <array name="long_press">
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom04</item>
+        <item>@drawable/clickbottom05</item>
+        <item>@drawable/clickbottom06</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+    </array>
     <string-array name="long_press_timeout_selector_list_titles">
         <item>Кратко</item>
         <item>Средно</item>
@@ -1014,6 +1089,14 @@
         <item>"Деинсталиране на устройство: fusermount -u /media/mtp
 Бележка: Само за Ubuntu 8.04!"</item>
     </string-array>
+    <string-array name="msd_pc_system_retry_mac">
+        <item>@string/msd_install_retry_reinstall_mac</item>
+        <item>@string/msd_install_retry_connect</item>
+        <item>@string/msd_install_retry_reinstall</item>
+    </string-array>
+    <string-array name="msd_pc_system_retry_vista">
+        <item>@string/msd_install_retry_connect</item>
+    </string-array>
     <string-array name="msd_pc_system_retry_xp">
         <item>@string/msd_install_retry_connect</item>
         <item>Преинсталирайте Mi PC Suite</item>
@@ -1023,11 +1106,20 @@
         <item>SPN</item>
         <item>IMSI</item>
         <item>GID</item>
+        <item>ICCID</item>
     </string-array>
     <string-array name="network_speed_slow_summary">
         <item>Връзката е бавна поради засилен трафик</item>
         <item>Връзката е бавна поради слаб сигнал</item>
         <item>Преместване…</item>
+    </string-array>
+    <string-array name="nfc_payment_favor">
+        <item>Винаги</item>
+        <item>Освен при отворено друго приложение за плащане</item>
+    </string-array>
+    <string-array name="nfc_payment_favor_values">
+        <item>0</item>
+        <item>1</item>
     </string-array>
     <string-array name="notch_battery_indicator_style_entries">
         <item>Графично</item>
@@ -1100,8 +1192,8 @@
         <item>1080p (безопасно)</item>
         <item>4K</item>
         <item>4К (безопасно)</item>
-        <item>4K (увеличена)</item>
-        <item>4K (увеличена, безопасно)</item>
+        <item>4K (по-голям мащаб)</item>
+        <item>4K (по-голям мащаб, безопасно)</item>
         <item>720p, 1080p (двоен екран)</item>
     </string-array>
     <string-array name="paper_color_values">
@@ -1118,6 +1210,97 @@
         <item>Подтискане на шума от един микрофон</item>
         <item>Подтискане на шума от двата микрофона</item>
     </string-array>
+    <array name="power_click">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
+    <array name="power_double_click">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
+    <array name="power_long_press">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
     <string-array name="power_mode_entries">
         <item>Производителност</item>
         <item>Балансирано</item>
@@ -1209,7 +1392,7 @@
         <item>\?</item>
     </string-array>
     <string-array name="screen_button_style">
-        <item>За левичари</item>
+        <item>За лява ръка</item>
         <item>За дясна ръка</item>
     </string-array>
     <string-array name="screen_color_title">
@@ -1241,6 +1424,11 @@
         <item>Наситен</item>
         <item>Стандартен</item>
     </string-array>
+    <string-array name="screen_resolution_format">
+        <item>@string/screen_resolution_ultrahigh_format</item>
+        <item>@string/screen_resolution_high_format</item>
+        <item>@string/screen_resolution_normal_format</item>
+    </string-array>
     <string-array name="screen_resolution_text">
         <item>2K</item>
         <item>1080p</item>
@@ -1248,7 +1436,7 @@
     </string-array>
     <string-array name="screen_saturation_title">
         <item>Ярък</item>
-        <item>Стандартно</item>
+        <item>Стандартен</item>
     </string-array>
     <string-array name="screen_timeout_entries">
         <item>15 секунди</item>
@@ -1271,25 +1459,25 @@
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
         <item>Изкл</item>
-        <item>64 KB</item>
-        <item>256 KB</item>
-        <item>1 MB</item>
+        <item>64KБ</item>
+        <item>256KБ</item>
+        <item>1МБ</item>
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Изкл</item>
-        <item>64 KB за буфер регистър</item>
-        <item>256 KB за буфер регистър</item>
-        <item>1 MB за буфер регистър</item>
-        <item>4 MB за буфер регистър</item>
-        <item>16 MB за буфер регистър</item>
+        <item>64KБ за буфер регистър</item>
+        <item>256KБ за буфер регистър</item>
+        <item>1МБ за буфер регистър</item>
+        <item>4МБ за буфер регистър</item>
+        <item>8M per log buffer</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Изкл</item>
-        <item>64 KB</item>
-        <item>256 KB</item>
-        <item>1 MB</item>
-        <item>4 MB</item>
-        <item>16 MB</item>
+        <item>64KБ</item>
+        <item>256KБ</item>
+        <item>1МБ</item>
+        <item>4МБ</item>
+        <item>8M</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Изкл</item>
@@ -1307,6 +1495,10 @@
         <item>Изкл</item>
         <item>Заградете неправоъгълната област на клипа в синьо</item>
         <item>Осветете тестваните команди за изчертаване в зелено</item>
+    </string-array>
+    <string-array name="silent_entries">
+        <item>@string/standard</item>
+        <item>@string/total</item>
     </string-array>
     <string-array name="silent_mode_duration_text">
         <item>Винаги</item>
@@ -1334,11 +1526,47 @@
         <item>1</item>
         <item>0</item>
     </string-array>
-    <string-array name="tabs_taptic_detail">
-        <item>Ясно</item>
-        <item>Основа</item>
-        <item>Изскачане</item>
+    <string-array name="switch_to_user_zero_when_docked_timeout_entries">
+        <item>Никога</item>
+        <item>След 1 минута</item>
+        <item>След 5 минути</item>
     </string-array>
+    <string-array name="tabs_taptic_detail">
+        <item>Ясна</item>
+        <item>Основна</item>
+        <item>Изскачаща</item>
+    </string-array>
+    <string-array name="tare_modifiers_subfactors">
+        <item>Зареждане</item>
+        <item>Режим на дрямка</item>
+        <item>Режим за пестене на захранване</item>
+        <item>Състояние на обработване</item>
+    </string-array>
+    <array name="three_drop">
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop02</item>
+        <item>@drawable/threedrop03</item>
+        <item>@drawable/threedrop04</item>
+        <item>@drawable/threedrop05</item>
+        <item>@drawable/threedrop06</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+    </array>
     <string-array name="time_format_entries">
         <item>12-часов 1:00 PM</item>
         <item>24-часов 13:00</item>
@@ -1388,7 +1616,7 @@
     </string-array>
     <string-array name="true_color_screen_optimize_title">
         <item>Ярък (препоръчително)</item>
-        <item>Наситено</item>
+        <item>Наситен</item>
         <item>Оригинален цвят</item>
     </string-array>
     <string-array name="tts_rate_entries">
@@ -1442,7 +1670,7 @@
         <item>От всички</item>
         <item>Само от контакти</item>
         <item>Само от контакти със звезда</item>
-        <item>Няма</item>
+        <item>Без</item>
     </string-array>
     <string-array name="vip_mode_value">
         <item>0</item>
@@ -1473,6 +1701,10 @@
         <item>VPN с IKEv2/IPSec с предварително споделени ключове</item>
         <item>VPN с IKEv2/IPSec със сертификати</item>
     </string-array>
+    <string-array name="wapi_psk_type">
+        <item>@string/wapi_psk_type_ascii</item>
+        <item>@string/wapi_psk_type_hex</item>
+    </string-array>
     <string-array name="wfd_status">
         <item>Създава се сесия…</item>
         <item>Сесията е създадена</item>
@@ -1491,6 +1723,14 @@
         <item>Графично</item>
         <item>Процентно (в иконката)</item>
         <item>Процентно (до иконката в Лентата с известия)</item>
+    </string-array>
+    <string-array name="wifi_ap_band_config_2G_5G">
+        <item>@string/wifi_ap_choose_2G</item>
+        <item>@string/wifi_ap_choose_5G</item>
+    </string-array>
+    <string-array name="wifi_ap_hidden_ssid_config">
+        <item>@string/wifi_ap_ssid_off</item>
+        <item>@string/wifi_ap_ssid_on</item>
     </string-array>
     <string-array name="wifi_ap_security">
         <item>@string/wifi_security_none</item>

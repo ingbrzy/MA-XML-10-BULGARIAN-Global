@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
     <string name="about_device_info">Детайли на устройството</string>
+    <string name="about_mi_account">Относно Xiaomi Профил</string>
     <string name="accept">Разреши</string>
     <string name="access_denied_info">Направихте твърде много опити. Изчакайте малко и опитайте отново.</string>
     <string name="access_token_expired_warning">Weibo профилът е с изтекъл срок: свържете го отново</string>
@@ -39,7 +40,7 @@
     <string name="account_bind_secure_phone_title">Добавяне на тел. за възстановяване</string>
     <string name="account_bind_settings">Профили</string>
     <string name="account_crop_user_avatar">Подрежи снимката</string>
-    <string name="account_empty_user_name">Въведете потребителското име на Mi Профила си</string>
+    <string name="account_empty_user_name">Въведете потребителското име на Xiaomi Профила си</string>
     <string name="account_error_all_space_user_name">Невалидно име</string>
     <string name="account_error_invalid_user_name">Името не може да съдържа &lt;, >, /</string>
     <string name="account_error_longer_user_name">Името не може да надвишава 20 символа</string>
@@ -65,6 +66,7 @@
  Вашия профил ИД: %s"</string>
     <string name="account_token_expired_title">Грешка при удостоверяване</string>
     <string name="account_user_avatar">Профилна снимка</string>
+    <string name="account_user_avatar_activity_not_found">Неуспешно отваряне на Галерията</string>
     <string name="account_user_avatar_from_album">Изберете снимка</string>
     <string name="account_user_avatar_from_camera">Направете снимка</string>
     <string name="account_user_base_info">Потребителски данни</string>
@@ -72,8 +74,8 @@
     <string name="account_user_details">Потребителски данни</string>
     <string name="account_user_email">Имейл за възстановяване</string>
     <string name="account_user_gender">Пол</string>
-    <string name="account_user_id">Номер на Mi Профил</string>
-    <string name="account_user_id_show">Mi Профил: %s</string>
+    <string name="account_user_id">Номер на Xiaomi Профил</string>
+    <string name="account_user_id_show">Xiaomi Профил: %s</string>
     <string name="account_user_name">Име</string>
     <string name="account_user_name_dialog_title">Въведете потр. име</string>
     <string name="account_user_other_info">Други източници</string>
@@ -95,22 +97,23 @@
     <string name="afternoon">Следобяд</string>
     <string name="agreement_and_privacy">Правила и условия</string>
     <string name="am">AM</string>
-    <string name="app_name">Mi Профил</string>
+    <string name="app_name">Xiaomi Профил</string>
     <string name="area_code_no_search_result">Не са открити резултати</string>
     <string name="area_code_search_hint">Търсене на държава или регион</string>
     <string name="auth_fail_warning">Сесията е изтекла, опитайте по-късно</string>
     <string name="authorize_title">Оторизация</string>
+    <string name="auto_fill_not_sport_on_water_mark_version">"Autofill sign-in isn't supported on watermarked versions"</string>
     <string name="bind_facebook">Добавяне на Facebook профил</string>
     <string name="bind_google">Добавяне на Google профил</string>
     <string name="bind_qq">QQ</string>
-    <string name="bind_safe_phone_msg">Добавете телефонния си номер, за да можете да се впишете в Mi Профила си следващия път.</string>
+    <string name="bind_safe_phone_msg">Добавете телефонния си номер, за да можете да се впишете в Xiaomi Профила си следващия път.</string>
     <string name="bind_sina_weibo">Свързан със Sina Weibo</string>
     <string name="bind_sns_description">Попълване на профила ви използвайки личната си информация в %s.</string>
     <string name="bind_weibo_description">Намери и синхронизирай приятелите си от Sina Weibo.</string>
     <string name="bind_weixin">Добавяне на WeChat профил</string>
     <string name="binded">Свързан</string>
-    <string name="binded_description" formatted="false">"%s беше свързан към вашия Mi Профил.
-Вече можете да влезете във вашия Mi Профил чрез %s."</string>
+    <string name="binded_description" formatted="false">"%s беше свързан към Вашия Xiaomi Профил.
+Вече можете да влезете във Вашия Xiaomi Профил чрез %s."</string>
     <string name="button_agree">Приемам</string>
     <string name="button_close">Затвори</string>
     <string name="button_refuse">Не приемам</string>
@@ -120,11 +123,26 @@
     <string name="change_email_address">Промяна на имейл адрес</string>
     <string name="change_password">Промени паролата</string>
     <string name="change_phone_number">Промяна на телефонен номер</string>
+    <string name="check_apk_update">Проверка за обновления</string>
+    <string name="child_account_system_ad_disable_hint">Тази функция не е достъпна за детски профили</string>
     <string name="clearable_edittext_clear_description">Изчисти</string>
     <string name="close">Затваряне</string>
     <string name="cloud_description_closed">Използвано | Синхронизирането е изключено</string>
     <string name="cloud_description_normal">Използвано</string>
+    <string name="cloud_member">Членство</string>
+    <string name="cloud_member_status_expired">Изтекъл срок</string>
+    <string name="cloud_member_status_expired_soon">Изтича скоро</string>
+    <string name="cloud_member_status_non_vip">Подобряване</string>
+    <string name="cloud_member_vipname_free">Безплатно</string>
+    <string name="cloud_member_vipname_mega">Мега</string>
+    <string name="cloud_member_vipname_premium">Премиум</string>
+    <string name="cloud_member_vipname_ultra">Ултра</string>
     <string name="cloud_service">Xiaomi Cloud</string>
+    <string name="cloud_service_cloud_open">Включване</string>
+    <string name="cloud_service_space_full">Паметта е пълна</string>
+    <string name="cloud_service_space_not_enough">Няма достатъчно памет</string>
+    <string name="cloud_service_space_used">Заето</string>
+    <string name="cloud_service_state_error">Неуспешно зареждане</string>
     <string name="cloud_service_status_backup_not_open">Изключено е Резервно копие</string>
     <string name="cloud_service_status_cloud_not_open">Изкл</string>
     <string name="cloud_service_status_storage_full">Паметта е пълна</string>
@@ -155,9 +173,10 @@
     <string name="confirm_phone_number_dialog_message">Ще бъде изпратен код за проверка до: %s.</string>
     <string name="confirm_phone_number_dialog_title">Потвърждаване на тел. номер</string>
     <string name="confirm_unbind">Премахване на профила?</string>
-    <string name="confirm_unbundled_phone_dialog_message">Телефонен номер %1$s е свързан с Mi Профил %2$s. Ако продължите, той няма повече да се отнася до Mi Профил %3$s. Желаете ли да продължите?</string>
+    <string name="confirm_unbundled_phone_dialog_message">Телефонен номер %1$s е свързан с Xiaomi Профил %2$s. Ако продължите, той няма повече да се отнася до Xiaomi Профил %3$s. Желаете ли да продължите?</string>
     <string name="continue_action">Продължи</string>
     <string name="copy">Копиране</string>
+    <string name="copy_link">Копирай URL</string>
     <string name="copy_to_clipboard_successful">Успешно копиране</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
@@ -169,7 +188,7 @@
     <string name="delete_bank_card_title">Внимание</string>
     <string name="delete_device_btn">Изтрий</string>
     <string name="delete_device_failed">Устройството не може да се премахне</string>
-    <string name="delete_device_notice">След като устройството бъде премахнато, то ще отпише автоматично вашия Mi Профил. Няма да можете да използвате това устройство за достъп до снимките, съобщенията и другата информация, съхранена във вашия профил.</string>
+    <string name="delete_device_notice">След като устройството бъде премахнато, то ще отпише автоматично Вашия Xiaomi Профил. Няма да можете да използвате това устройство за достъп до снимките, съобщенията и другата информация, съхранена във Вашия профил.</string>
     <string name="deny">Откажи</string>
     <string name="device_delete_success_message">Ако не сте се вписвали на това устройство, незабавно променете паролата си.</string>
     <string name="device_delete_success_title">Отписано</string>
@@ -180,34 +199,36 @@
     <string name="diagnosis_log_sent_format">"Логът е изпратен успешно.
 ID:%s
 Изпратете този код на вашия доставчик."</string>
+    <string name="dind_device_service_not_open">Изкл</string>
+    <string name="dind_device_service_opened">Вкл</string>
     <string name="download_file">Изтегляне %s…</string>
     <string name="early_morning">Сутрин</string>
     <string name="empty" />
     <string name="empty_device_list_notice">Няма устройства</string>
     <string name="enable">Настройки</string>
-    <string name="ep_unsupported">Неуспешно вписване в Mi Профил в устройството ви</string>
+    <string name="ep_unsupported">Неуспешно вписване в Xiaomi Профил в устройството Ви</string>
     <string name="eras_ad">н.е.</string>
     <string name="eras_bc">пр.Хр.</string>
-    <string name="error_dup_binded_email">Този имейл адрес вече е свързан с друг Mi Профил.</string>
+    <string name="error_dup_binded_email">Този имейл адрес вече е свързан с друг Xiaomi Профил.</string>
     <string name="error_invalid_bind_address">Въведеният от вас имейл адрес е невалиден.</string>
     <string name="evening">Следобед</string>
-    <string name="exceed_binded_phone_times_notice">Този телефонен номер вече е свързан с друг Mi Профил.</string>
+    <string name="exceed_binded_phone_times_notice">Този телефонен номер вече е свързан с друг Xiaomi Профил.</string>
     <string name="exit">Изход</string>
     <string name="expand_button_title">Разширени</string>
     <string name="facebook">Facebook</string>
-    <string name="facebook_app_id">2263965750590514</string>
     <string name="facebook_login">Вписване с Facebook</string>
-    <string name="failed_dup_secure_phone_number">Този телефонен номер вече е свързан с друг Mi Профил</string>
+    <string name="failed_dup_secure_phone_number">Този телефонен номер вече е свързан с друг Xiaomi Профил</string>
+    <string name="family_service">Семейни услуги</string>
+    <string name="family_service_not_open">Поканете членове</string>
     <string name="family_share">Семейно споделяне</string>
-    <string name="fb_login_protocol_scheme">fb2263965750590514</string>
-    <string name="find_device">Намери устройство</string>
+    <string name="find_device">Открий устройството</string>
     <string name="find_device_access_denied">Не може да се получи информация за статус, достъпът е забранен.</string>
     <string name="find_device_account_error">Неуспешно получаване на статус поради грешка в профила</string>
     <string name="find_device_activate_account">Активиране на профил</string>
     <string name="find_device_bad_response_error">Възникна грешка в сървъра. Изчакайте минута-две и опитайте отново.</string>
     <string name="find_device_clear_data">Изтриване на данни</string>
     <string name="find_device_close">Изкл</string>
-    <string name="find_device_error_password_not_confirmed">Неуспешно изключване на Открий устройството. Въведете отново вашата парола за Mi Профил.</string>
+    <string name="find_device_error_password_not_confirmed">Неуспешно изключване на Открий устройството. Въведете отново Вашата парола за Xiaomi Профил.</string>
     <string name="find_device_error_password_recently_changed">Променихте паролата си в рамките на последните %d дни. Поради причини свързани със сигурността, Открий устройството не може да бъде изключено.</string>
     <string name="find_device_interrupted">Действието се обърка, изчакайте минута-две и опитайте отново</string>
     <string name="find_device_io_error">Няма връзка с мрежата</string>
@@ -226,9 +247,10 @@ ID:%s
     <string name="find_device_request_error">Възникна грешка в сървъра, изчакайте минута-две и опитайте отново</string>
     <string name="find_device_request_prepare_error">Не може да се получи информация за статус, моля, опитайте по-късно.</string>
     <string name="find_device_set_lost_model">Режим Изгубен</string>
-    <string name="find_device_title">Намери устройство</string>
+    <string name="find_device_title">Открий устройството</string>
     <string name="find_device_unknown_error">Не може да се провери състоянието на устройството. Изчакайте минута-две и опитайте отново.</string>
     <string name="find_equipment">Открий устройството</string>
+    <string name="find_new_apk_version">Налично е обновление</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
     <string name="fmt_date_day">d</string>
@@ -289,12 +311,13 @@ ID:%s
     <string name="get_back_pwd">Нулиране на паролата</string>
     <string name="get_device_list_failed">Устройствата не може да се заредят</string>
     <string name="get_identity_auth_url_failed">Неуспешно потвърждаване на идентификационен номер</string>
-    <string name="get_phone_bind_exceed_limit">Можете да свържете до 3 Mi Профила с един телефонен номер. Не можете да добавяте нови профили.</string>
+    <string name="get_phone_bind_exceed_limit">Можете да свържете до 3 Xiaomi Профила с един телефонен номер. Не можете да добавяте нови профили.</string>
     <string name="get_phone_verifycode_exceed_limit">На този телефонен номер бяха изпратени прекалено много кодове за проверка. Опитайте отново след 24 часа.</string>
     <string name="google">Google</string>
     <string name="google_login">Вписване с Google</string>
     <string name="goto_accept">OК</string>
-    <string name="guest_account_label">Mi Профил за посетители</string>
+    <string name="guest_account_label">Xiaomi Профил за посетители</string>
+    <string name="has_no_new_version">Актуална</string>
     <string name="health_action_activate">Активирай</string>
     <string name="health_action_install">Инсталирай</string>
     <string name="health_action_update">Обнови</string>
@@ -311,7 +334,7 @@ ID:%s
     <string name="input_new_pwd">Въведете новата парола</string>
     <string name="io_error_title">Потвърдете вашата мрежа</string>
     <string name="just_a_second">Момент…</string>
-    <string name="kr_license_desc">Трябва да се приемете нашето Потребителско споразумение и Правила за поверителност преди да използвате Mi Профил и услугите на Xiaomi Cloud.</string>
+    <string name="kr_license_desc">Трябва да се приемете нашето Потребителско споразумение и Правила за поверителност преди да използвате Xiaomi Профил и услугите на Xiaomi Cloud.</string>
     <string name="kr_permission_contacts_desc">За достъп до информация за контакт</string>
     <string name="kr_permission_desc">Необходими са разрешения</string>
     <string name="kr_permission_phone_desc">За защита на вашия профил</string>
@@ -321,15 +344,19 @@ ID:%s
     <string name="login_3rd_app_with_system_account">Вписване в %s</string>
     <string name="login_check_find_device">Получаване на оптимизация по сигурността…</string>
     <string name="login_check_find_device_failed_title">Не може да се провери информацията за оптимизиране на устройството</string>
-    <string name="login_find_device_bind">Това устройство е свързано с вече съществуващ номер на Mi Профил (%s).</string>
+    <string name="login_find_device_bind">Това устройство е свързано с вече съществуващ номер на Xiaomi Профил (%s).</string>
+    <string name="login_notification_button_text">Вписване</string>
+    <string name="login_notification_desc">Наслаждавайте се на облачни услуги, семейно пространство и още</string>
+    <string name="login_notification_title">Влезте в Xiaomi Профил си</string>
     <string name="login_with_other">Допълнителни опции</string>
     <string name="logout_account">Отписване</string>
     <string name="logout_failed">Неуспешно отписване</string>
+    <string name="mi_account">Моят профил</string>
     <string name="mi_account_identity_title">Проверка на идентичността ви</string>
     <string name="mi_finance">Моите финанси</string>
     <string name="mi_finance_info">Бонуси за нови потребители</string>
     <string name="mi_health">Xiaomi Здраве</string>
-    <string name="mi_member">Mi Общност</string>
+    <string name="mi_member">Xiaomi Community</string>
     <string name="mi_vip_info">Покажи предимствата</string>
     <string name="midnight">Нощ</string>
     <string name="mipay">Плащане</string>
@@ -366,51 +393,54 @@ ID:%s
     <string name="monday">Понеделник</string>
     <string name="monday_short">Пон.</string>
     <string name="monday_shortest">Пон.</string>
-    <string name="month_april">Април</string>
+    <string name="month_april">април</string>
     <string name="month_april_short">Апр.</string>
     <string name="month_april_shortest">Апр.</string>
-    <string name="month_august">Август</string>
+    <string name="month_august">август</string>
     <string name="month_august_short">Авг.</string>
     <string name="month_august_shortest">Авг.</string>
-    <string name="month_december">Декември</string>
+    <string name="month_december">декември</string>
     <string name="month_december_short">Дек.</string>
     <string name="month_december_shortest">Дек.</string>
-    <string name="month_february">Февруари</string>
+    <string name="month_february">февруари</string>
     <string name="month_february_short">Фев.</string>
     <string name="month_february_shortest">Фев.</string>
-    <string name="month_january">Януари</string>
+    <string name="month_january">януари</string>
     <string name="month_january_short">Ян.</string>
     <string name="month_january_shortest">Ян.</string>
-    <string name="month_july">Юли</string>
+    <string name="month_july">юли</string>
     <string name="month_july_short">Юли</string>
     <string name="month_july_shortest">Юли</string>
-    <string name="month_june">Юни</string>
+    <string name="month_june">юни</string>
     <string name="month_june_short">Юни</string>
     <string name="month_june_shortest">Юни</string>
-    <string name="month_march">Март</string>
+    <string name="month_march">март</string>
     <string name="month_march_short">Март</string>
     <string name="month_march_shortest">Март</string>
-    <string name="month_may">Май</string>
+    <string name="month_may">май</string>
     <string name="month_may_short">Май</string>
     <string name="month_may_shortest">Май</string>
-    <string name="month_november">Ноември</string>
+    <string name="month_november">ноември</string>
     <string name="month_november_short">Ноем.</string>
     <string name="month_november_shortest">Ноем.</string>
-    <string name="month_october">Октомври</string>
+    <string name="month_october">октомври</string>
     <string name="month_october_short">Окт.</string>
     <string name="month_october_shortest">Окт.</string>
-    <string name="month_september">Септември</string>
+    <string name="month_september">септември</string>
     <string name="month_september_short">Септ.</string>
     <string name="month_september_shortest">Септ.</string>
     <string name="more">Още</string>
     <string name="morning">Сутрин</string>
-    <string name="multi_user_not_show_sync_activity_message_1">Използвате Mi Профила си от Първо пространство.</string>
+    <string name="multi_user_not_show_sync_activity_message_1">Използвате Xiaomi Профила си от Първо пространство.</string>
     <string name="multi_user_not_show_sync_activity_message_2">В такъв случай цялата налична информация ще бъде синхронизирана с вашето Второ пространство. За да избегнете това, не включвайте синхронизация с Облака.</string>
     <string name="multi_user_not_show_sync_activity_title">Не включвайте синхронизация с Облака</string>
     <string name="my_device_title">Текущо устройство</string>
     <string name="need_install_wechat">Инсталирайте WeChat първо</string>
+    <string name="network_error">Възникна грешка в мрежата.</string>
+    <string name="network_error_hint">Проверете URL адреса и опитайте отново, или копирайте URL адреса и го отворете в браузъра си.</string>
     <string name="network_error_info">Възникна мрежова грешка. Проверете мрежовите си настройки и опитайте отново.</string>
     <string name="network_timeout_info">Не може да се осъществи връзка с мрежата. Опитайте отново.</string>
+    <string name="new_version">Нова версия</string>
     <string name="night">Вечер</string>
     <string name="no_account_or_forget_password">Създаване на профил или забравена парола?</string>
     <string name="no_install">Не е инсталирано</string>
@@ -425,17 +455,18 @@ ID:%s
     <string name="not_set">Не е зададено</string>
     <string name="notify_bind_security_phone">Добавяне на телефон за възстановяване</string>
     <string name="notify_complete_security_info">Добавяне на информация за възстановяване</string>
-    <string name="notify_network_restricted_content_bg_network">Достъпа на Mi Профила до интернет е ограничен. Натиснете, за да разрешите.</string>
-    <string name="notify_network_restricted_content_hidden_state">Дейността на Mi Профила на заден план е ограничена. Натиснете, за да разрешите.</string>
-    <string name="notify_network_restricted_content_mobile_network">Достъпа на Mi Профила до интернет е ограничен. Натиснете, за да разрешите.</string>
-    <string name="notify_network_restricted_title">Mi Профилът не може да се свърже с мрежата</string>
+    <string name="notify_network_restricted_content_bg_network">Достъпа на Xiaomi Профила до интернет е ограничен. Натиснете, за да разрешите.</string>
+    <string name="notify_network_restricted_content_hidden_state">Дейността на Xiaomi Профила на заден план е ограничена. Натиснете, за да разрешите.</string>
+    <string name="notify_network_restricted_content_mobile_network">Достъпа на Xiaomi Профила до интернет е ограничен. Натиснете, за да разрешите.</string>
+    <string name="notify_network_restricted_title">Xiaomi Профилът не може да се свърже с мрежата</string>
     <string name="notify_verify_again_security_phone">Потвърди</string>
     <string name="notify_verify_security_phone">Телефон</string>
     <string name="oauth_get_scopes_failed">Не може да се получи информация за профила</string>
     <string name="oauth_getting_scopes">Потвърждаване на профила…</string>
     <string name="oauth_scopes_intro">&lt;font color=#%1$s>%2$s&lt;/font> ще получи следните разрешения:&lt;br> &lt;br> %3$s</string>
-    <string name="oauth_title">Влезте с Mi Профил</string>
+    <string name="oauth_title">Вписване с Xiaomi Профил</string>
     <string name="ok">OK</string>
+    <string name="operator_broadnet">China Broadnet</string>
     <string name="operator_mobile">China Mobile</string>
     <string name="operator_mobile_agreement">Услуги за потвърждение предоставени от China Mobile</string>
     <string name="operator_other">Телефонен номер</string>
@@ -444,11 +475,12 @@ ID:%s
     <string name="operator_unicom">China Unicom</string>
     <string name="operator_unicom_agreement">Услуги за потвърждение предоставени от China Unicom</string>
     <string name="optional_permissions">Допълнителни Разрешения</string>
+    <string name="page_load_failed">Страницата не може да бъде отворена</string>
     <string name="passport_Resend">Повторен опит</string>
     <string name="passport_access_denied">Достъпът е отказан</string>
-    <string name="passport_account_hint_text">Имейл/Телефонен номер/Номер на Mi Профил</string>
+    <string name="passport_account_hint_text">Имейл/Телефонен номер/Номер на Xiaomi Профил</string>
     <string name="passport_account_identity_title">Проверка на идентичността</string>
-    <string name="passport_account_label">Mi Профил</string>
+    <string name="passport_account_label">Xiaomi Профил</string>
     <string name="passport_account_name">"Профил: %1$s "</string>
     <string name="passport_account_not_activated">Профилът не бе активиран</string>
     <string name="passport_account_not_actived">Профилът ви не беше активиран</string>
@@ -475,19 +507,19 @@ ID:%s
     <string name="passport_completed">Завършване</string>
     <string name="passport_confirm_login">Вписване</string>
     <string name="passport_confirm_recycle_account">Да</string>
-    <string name="passport_confirm_recycle_account_msg">&lt;font color=Red>Изглежда че&lt;/font> номерът %s е бил променен от вашия оператор и няма Mi Профил, който да е свързан с него. Този профил вашият ли е?</string>
+    <string name="passport_confirm_recycle_account_msg">&lt;font color=Red>Изглежда че&lt;/font> номерът %s е бил променен от Вашия оператор и няма Xiaomi Профил, който да е свързан с него. Този профил Вашият ли е?</string>
     <string name="passport_continue">Продължи</string>
     <string name="passport_copy_message_text_success">Копирането е успешно</string>
     <string name="passport_copy_message_vcode">Копирай кода</string>
     <string name="passport_delete_account">Отписване</string>
     <string name="passport_downlink_reg">Телефонен номер</string>
     <string name="passport_email">Имейл адрес</string>
-    <string name="passport_email_or_id_hint_text">Имейл/Номер на Mi Профил</string>
+    <string name="passport_email_or_id_hint_text">Имейл/Номер на Xiaomi Профил</string>
     <string name="passport_email_reg_success_summary">%1$s е свързан с Вашия профил. Можете да го използвате, за да влизате или за да смените паролата си.</string>
     <string name="passport_error_auth_fail">Сесията е изтекла, впишете се по-късно</string>
     <string name="passport_error_device_id">Не може да се получи ID на устройството</string>
     <string name="passport_error_dup_email">Този имейл вече е свързан с друг профил</string>
-    <string name="passport_error_email">Въведеният от вас имейл адрес е невалиден</string>
+    <string name="passport_error_email">Въведеният от Вас имейл адрес е невалиден</string>
     <string name="passport_error_empty_captcha_code">Главни букви</string>
     <string name="passport_error_empty_email">Въведете вашият имейл адрес</string>
     <string name="passport_error_empty_phone_num">Въведете телефонен номер</string>
@@ -512,7 +544,7 @@ ID:%s
     <string name="passport_error_verify_activator_phone_title">Телефонният номер не беше потвърден</string>
     <string name="passport_failed_to_send_activate_email">Не може да се изпрати имейл за активиране</string>
     <string name="passport_find_password_on_web_msg">Посетете account.mi.com за възстановяване на вашата парола.</string>
-    <string name="passport_first_login_prompt">Автоматично ще бъде създаден Mi Профил когато използвате телефонен номер за пръв път.</string>
+    <string name="passport_first_login_prompt">Автоматично ще бъде създаден Xiaomi Профил когато използвате телефонен номер за пръв път.</string>
     <string name="passport_forget_password"><u>Забравена парола</u></string>
     <string name="passport_forget_password_no_underline">Забравена парола</string>
     <string name="passport_get_back_pwd">Възстанови паролата</string>
@@ -525,11 +557,11 @@ ID:%s
     <string name="passport_getting_verify_code">Получаване</string>
     <string name="passport_google_login">Вписване с преди използван Google акаунт?</string>
     <string name="passport_google_login_agree">Google акаунт</string>
-    <string name="passport_google_login_disagree">Mi Профил</string>
-    <string name="passport_google_login_failed">Неупешно вписване с Google. Влезте директно с вашия Mi Профил.</string>
+    <string name="passport_google_login_disagree">Xiaomi Профил</string>
+    <string name="passport_google_login_failed">Неупешно вписване с Google. Влезте директно с Вашия Xiaomi Профил.</string>
     <string name="passport_i_know">Разбрах</string>
     <string name="passport_identification_expired">Кодът за проверка е изтекъл, започнете отначало</string>
-    <string name="passport_imei_permission_denied_message">Изисква се достъп до IMEI на устройството ви. Mi Профил използва IMEI за идентифициране на устройството, от което влизате или се регистрирате, за да запази безопасността на вашия Mi Профил.</string>
+    <string name="passport_imei_permission_denied_message">Изисква се достъп до IMEI на устройството Ви. Xiaomi Профил използва IMEI за идентифициране на устройството, от което влизате или се регистрирате, за да запази безопасността на Вашия Xiaomi Профил.</string>
     <string name="passport_imei_permission_denied_title">Изисква се достъп до IMEI.</string>
     <string name="passport_input_captcha_hint">Въведете код</string>
     <string name="passport_input_password_for_login">Този номер е свързан със съществуващ профил, въведете вашата парола</string>
@@ -549,17 +581,17 @@ ID:%s
     <string name="passport_login_other_account">Друг профил</string>
     <string name="passport_login_other_phone">Използвайте друг профил</string>
     <string name="passport_login_other_way">Други начини за вписване</string>
-    <string name="passport_login_prompt">Всички Mi услуги. Един Mi Профил.</string>
+    <string name="passport_login_prompt">Всички Xiaomi услуги. Един Xiaomi Профил.</string>
     <string name="passport_login_recycle_account_no">Не</string>
     <string name="passport_login_recycle_account_yes">Да</string>
-    <string name="passport_login_title">Вписване във вашия Mi профил</string>
+    <string name="passport_login_title">Влезте в Xiaomi Профил си</string>
     <string name="passport_login_using_other_ways">Други начини за вписване</string>
     <string name="passport_message_dialog_title">SMS с кодове за потвърждаване</string>
     <string name="passport_new_user_register">Създайте профил</string>
     <string name="passport_next">Напред</string>
     <string name="passport_no">Не</string>
     <string name="passport_notification_title">Грешка при вписване за %1$s</string>
-    <string name="passport_password_phone_login">Вписване с Mi Профил</string>
+    <string name="passport_password_phone_login">Вписване с Xiaomi Профил</string>
     <string name="passport_password_req_notice">Паролата трябва да е дълга 8-16 символа и да комбинира цифри и букви.</string>
     <string name="passport_phone_num_hint_text">Телефонен номер</string>
     <string name="passport_phone_ticket_login">Вписване със SMS</string>
@@ -579,15 +611,15 @@ ID:%s
     <string name="passport_quick_login_step2_title">Потвърждаване в 2 стъпки</string>
     <string name="passport_quick_login_title">Въведете вашата парола</string>
     <string name="passport_quick_register">Регистриране</string>
-    <string name="passport_quick_register_notice"><u>Нямате Mi профил? Направете си сега.</u></string>
+    <string name="passport_quick_register_notice"><u>Нямате Xiaomi Профил? Направете си сега.</u></string>
     <string name="passport_re_get_verify_code">Изискай нов код</string>
     <string name="passport_re_register">Ново вписване</string>
-    <string name="passport_recycle_account_prompt">Това вашият Mi Профил ли е?</string>
+    <string name="passport_recycle_account_prompt">Това Вашият Xiaomi Профил ли е?</string>
     <string name="passport_recycle_login_other_account">Тези не са мои. Ще използвам друг профил.</string>
     <string name="passport_reg_btn_using_other_phone">Използване на алтернативен номер</string>
     <string name="passport_reg_failed">Профилът не може да се създаде</string>
     <string name="passport_reg_new_account">Създайте профил</string>
-    <string name="passport_reg_prompt">Нямате Mi Профил? Създайте такъв безплатно.</string>
+    <string name="passport_reg_prompt">Нямате Xiaomi Профил? Създайте такъв безплатно.</string>
     <string name="passport_reg_recycle_account_no">Не</string>
     <string name="passport_reg_recycle_account_yes">Да</string>
     <string name="passport_reg_success">Профилът е създаден</string>
@@ -620,7 +652,7 @@ ID:%s
     <string name="passport_reset_password_title">Възстанови паролата</string>
     <string name="passport_restart">Започнете отначало</string>
     <string name="passport_restart_register_prompt">Може да е необходимо друго верификационно съобщение за създаване на вашия профил.</string>
-    <string name="passport_restart_register_title">Създаване на Mi Профил</string>
+    <string name="passport_restart_register_title">Създаване на Xiaomi Профил</string>
     <string name="passport_retry">Нов опит</string>
     <string name="passport_select_reg_ways_title">Други начини за регистрация</string>
     <string name="passport_select_the_login_account">Изберете профил за вписване</string>
@@ -634,22 +666,20 @@ ID:%s
     <string name="passport_setting">Настройва се…</string>
     <string name="passport_skip_login">Пропусни</string>
     <string name="passport_skip_register">Пропусни вписването</string>
-    <string name="passport_skip_setup_account_msg">Вписването в Mi Профил ви позволява да използвате услугите на Xiaomi Cloud. Желаете ли да пропуснете тази стъпка въпреки това?</string>
-    <string name="passport_skip_setup_account_title">Mi Профил и Xiaomi Cloud</string>
+    <string name="passport_skip_setup_account_msg">Вписването в Xiaomi Профил ви позволява да използвате услугите на Xiaomi Cloud. Желаете ли да пропуснете тази стъпка въпреки това?</string>
+    <string name="passport_skip_setup_account_title">Xiaomi Профил и Xiaomi Cloud</string>
     <string name="passport_sms_send_success">Изпратено</string>
     <string name="passport_sms_verification_code_login">Вписване със SMS</string>
     <string name="passport_sms_verification_code_login_or_register">Впишете се или създайте профил чрез SMS</string>
     <string name="passport_sync_account_data">Синхронизира се информация за профила…</string>
-    <string name="passport_sync_account_data_failed_warning">Информацията за вашият профил се синхронизира в момента, можете да се впишете чрез номер на Mi Профил. Ако желаете да се впишете в профила си чрез телефонен номер или имейл, изчакайте докато информацията се синхронизира напълно.</string>
+    <string name="passport_sync_account_data_failed_warning">Информацията за вашият профил се синхронизира в момента, можете да се впишете чрез номер на Xiaomi Профил. Ако желаете да се впишете в профила си чрез телефонен номер или имейл, изчакайте докато информацията се синхронизира напълно.</string>
     <string name="passport_talkback_image_captcha">Изображение с код за потвърждение</string>
     <string name="passport_talkback_switch_image_captcha">Превключи на гласов код за потвърждение</string>
     <string name="passport_talkback_switch_voice_captcha">Превключи на гласов код за потвърждение</string>
     <string name="passport_talkback_voice_captcha">Пусни гласов код за потвърждение</string>
     <string name="passport_ticket_login_select_sim_card">Изберете SIM карта</string>
     <string name="passport_ticket_login_select_sim_card_1">SIM карта 1</string>
-    <string name="passport_ticket_login_select_sim_card_1_with_phone_number">SIM %1$d: %2$s</string>
     <string name="passport_ticket_login_select_sim_card_2">SIM карта 2</string>
-    <string name="passport_ticket_login_select_sim_card_2_with_phone_number">SIM %1$d: %2$s</string>
     <string name="passport_ticket_login_select_sim_card_cancel">Отказ</string>
     <string name="passport_title_reg">Създаване на профил</string>
     <string name="passport_trust_device">Добави това устройство към потвърдените</string>
@@ -665,18 +695,19 @@ ID:%s
     <string name="passport_uplink_sms_sending">Изпращане на платено съобщение…</string>
     <string name="passport_uplink_suggest_dialog_msg">Не е получен код. Желаете ли вместо това да използвате платен SMS?</string>
     <string name="passport_uplink_suggest_dialog_title">Внимание</string>
-    <string name="passport_use_generated_pwd_message">Уверете се, че сте запомнили паролата. Може да я използвате за вход в други Mi услуги.</string>
+    <string name="passport_use_generated_pwd_message">Уверете се, че сте запомнили паролата. Може да я използвате за вход в други Xiaomi услуги.</string>
     <string name="passport_use_generated_pwd_title">Запомнете вашата парола!</string>
     <string name="passport_user_agreement">Потребителско споразумение</string>
     <string name="passport_user_agreement_link">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Xiaomi.&lt;/Data></string>
     <string name="passport_user_agreement_required">Потребителско споразумение (задължително)</string>
-    <string name="passport_user_id_notice">Номера на вашия Mi Профил е %s.</string>
+    <string name="passport_user_id_notice">Номера на Вашия Xiaomi Профил е %s.</string>
     <string name="passport_user_reg_region">Държава/Регион</string>
     <string name="passport_user_reg_region_warning">Няма да можете да променяте вашите страна/регион, след като веднъж сте създали профила си.</string>
     <string name="passport_vcode_notification_title">Проверката при вписването ви не е завършила</string>
     <string name="passport_vcode_prompt_long">Въведете кода за потвърждение</string>
     <string name="passport_vcode_sms_send_prompt">Изпрати код за потвърждаване на %s</string>
-    <string name="passport_verification_failed">Неуспешна проверка на вашия профил</string>
+    <string name="passport_vcode_what_app_send_prompt">Вашия WhatsApp код за потвърждение ще бъде изпратен до Вашия телефон за възстановяване &lt;font color=#1F93FF>%s&lt;/font></string>
+    <string name="passport_verification_failed">Неуспешна проверка на Вашия профил</string>
     <string name="passport_verify">Проверка</string>
     <string name="passport_verifying_activator_phone">Потвърждава се сигурността на телефона…</string>
     <string name="passport_wait_for_sms_prompt">Да започнете ли отначало? Верификационните събщения може да отнемат до 10 минути, докато бъдат доставени.</string>
@@ -700,33 +731,39 @@ ID:%s
     <string name="permission_write_external_storage">Достъп и добавяне на информация в паметта</string>
     <string name="personal_info_desc">Снимка, прякор и още</string>
     <string name="phone_num_use_for">Телефонният номер се използва за:</string>
+    <string name="phone_register">С телефонен номер</string>
     <string name="photoPickerNotFoundText">Не са налични изображения.</string>
     <string name="pm">PM</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
-    <string name="privacy_policy_reject_confirm_msg">Ако не приемете новата версия на Правилата за поверителност на Mi Account няма да можете да използвате профила си повече. Приемате ли обновените &lt;a href=%1$s>Правила за поверителност&lt;/a> на Mi Профил сега?</string>
-    <string name="privacy_policy_reject_confirm_title">Не можете да използвате Mi Профил</string>
-    <string name="privacy_policy_update_msg">Правилата за поверителност на Mi Профил бяха обновени:&lt;br/>%1$s&lt;br/>Прочетете и приемете новата версия на &lt;a href=%2$s>&lt;u>Правилата за поверителност&lt;/u>&lt;/a> преди да продължите.</string>
+    <string name="privacy_policy_reject_confirm_msg">Ако не приемете новата версия на Правилата за поверителност на Xiaomi Профил няма да можете да използвате профила си повече. Приемате ли обновените &lt;a href=%1$s>Правила за поверителност&lt;/a> на Xiaomi Профил сега?</string>
+    <string name="privacy_policy_reject_confirm_title">Не можете да използвате Xiaomi Профил</string>
+    <string name="privacy_policy_update_msg">Правилата за поверителност на Xiaomi Профил бяха обновени:&lt;br/>%1$s&lt;br/>Прочетете и приемете новата версия на &lt;a href=%2$s>&lt;u>Правилата за поверителност&lt;/u>&lt;/a> преди да продължите.</string>
     <string name="privacy_policy_update_title">Обновени Правила за Поверителност</string>
     <string name="progressbar_title">Проверява се за проблеми със сигурността…</string>
     <string name="provision_back">Назад</string>
     <string name="provision_next">Напред</string>
     <string name="provision_skip_underline">Пропускане</string>
     <string name="push_notification_content">Получава се код за проверка</string>
-    <string name="push_notification_title">Влязохте във вашия Mi Профил от непознато устройство</string>
-    <string name="push_notify_dialog_message">Непознато устройство е използвано за вписване във вашия Mi Профил. Въведете код за потвърждение от това устройство. Ако не сте били вие, веднага сменете паролата на профила си. Не предоставяйте кода за потвърждение на други хора.</string>
+    <string name="push_notification_title">Влязохте във вашия Xiaomi Профил от непознато устройство</string>
+    <string name="push_notify_dialog_message">Непознато устройство е използвано за вписване във Вашия Xiaomi Профил. Въведете код за потвърждение от това устройство. Ако не сте били Вие, веднага сменете паролата на профила си. Не предоставяйте кода за потвърждение на други хора.</string>
     <string name="push_notify_dialog_title">Потвърждение на профила</string>
-    <string name="pwd_width_phone_number_or_mail_num">Паролата не може да съдържа телефонния ви номер, имейл или номер на Mi Профил</string>
+    <string name="pwd_width_phone_number_or_mail_num">Паролата не може да съдържа телефонния Ви номер, имейл или номер на Xiaomi Профил</string>
     <string name="qq">QQ</string>
+    <string name="qrcode_login_entry_text">&lt;Data>Вписани сте в друго устройство? Използвайте &lt;a href=>бързо вписване&lt;/a>&lt;/Data></string>
+    <string name="qrcode_login_load_refresh">&lt;Data>Този QR код изтече. Натиснете, за да &lt;a href=>обновите&lt;/a>.&lt;/Data></string>
+    <string name="qrcode_login_load_retry">&lt;Data>Неуспешно зареждане. &lt;a href=>Опитайте отново&lt;/a>.&lt;/Data></string>
+    <string name="qrcode_login_message">За да се впишете сканирайте със своя Xiaomi телефон или таблет чрез приложението Скенер, Xiaomi Home, или друго Xiaomi приложение</string>
+    <string name="qrcode_login_title">Сканирайте, за да се впишете</string>
     <string name="recycle_phone_notification_msg">Изглежда, че вашият телефонен номер е бил сменен. Чукнете за актуализиране.</string>
-    <string name="recycle_phone_notification_title">Рискове в сигурността на Mi Профил</string>
+    <string name="recycle_phone_notification_title">Рискове в сигурността на Xiaomi Профил</string>
     <string name="removing_account">Отписване…</string>
     <string name="replace_binded_phone">Промени телефона</string>
     <string name="request_open_permission">Необходими са разрешения</string>
-    <string name="request_use_camera_message">Разрешавате ли на Mi Профил да получава достъп до камерата на телефона?</string>
+    <string name="request_use_camera_message">Разрешавате ли на Xiaomi Профил да получава достъп до камерата на телефона?</string>
     <string name="request_use_camera_title">Достъп до камерата</string>
-    <string name="request_use_gallery_message">Разрешавате ли на Mi Профил да получава достъп до Галерията?</string>
+    <string name="request_use_gallery_message">Разрешавате ли на Xiaomi Профил да получава достъп до Галерията?</string>
     <string name="request_use_gallery_title">Достъп до Галерия</string>
-    <string name="request_use_writing_clipboard_message">За да копирате своя номер на Mi Профил, разрешете на Mi Профил да запазва елементи в клипборда.</string>
+    <string name="request_use_writing_clipboard_message">За да копирате своя номер на Xiaomi Профил, разрешете на Xiaomi Профил да запазва елементи в клипборда.</string>
     <string name="resend_active_email">Повторен опит</string>
     <string name="resend_email_reach_limit_message">Изпратихте твръде много имейли за потвърждение. Бъдете сигурен, че обратният имейл не е във вашата входяща кутия за спам.</string>
     <string name="resend_email_reach_limit_title">Не може да се изпрати имейл.</string>
@@ -735,28 +772,28 @@ ID:%s
     <string name="restart_phone_bind_message">Получаването на съобщението отнема известно време, искате ли да промените телефонният номер?</string>
     <string name="restart_phone_bind_title">Промяна на телефонен номер</string>
     <string name="revoke_privacy_policy">Оттегляне на съгласие</string>
-    <string name="revoke_privacy_policy_instructions">Ако продължите, вие ще оттеглите съгласието си за Правилата за поверителност на Mi Профил. Ние ще спрем да събираме вашите лични данни. Вече събраните лични данни ще бъдат изтрити в рамките на специфичния период посочен в приложимото законодателство. Mi Профил предоставя услуги въз основа на събирането на необходимите лични данни. Вашето оттегляне на съгласие ще се смята за отказ от услугите предоставени от Mi Профил. Желаете ли да оттеглите съгласието си?</string>
+    <string name="revoke_privacy_policy_instructions">Ако продължите, Вие ще оттеглите съгласието си за Правилата за поверителност на Xiaomi Профил. Ние ще спрем да събираме Вашите лични данни. Вече събраните лични данни ще бъдат изтрити в рамките на специфичния период посочен в приложимото законодателство. Xiaomi Профил предоставя услуги въз основа на събирането на необходимите лични данни. Вашето оттегляне на съгласие ще се смята за отказ от услугите предоставени от Xiaomi Профил. Желаете ли да оттеглите съгласието си?</string>
     <string name="revoke_privacy_policy_title">Оттегляне на съгласие</string>
     <string name="risky_pwd_not_allow">Новата парола не е сигурна. Задайте друга.</string>
     <string name="same_new_and_old_pwd">Новата парола трябва да е различна от старата</string>
     <string name="saturday">Събота</string>
     <string name="saturday_short">Сб.</string>
     <string name="saturday_shortest">Сб.</string>
-    <string name="scan_barcode_title">За да се впишете в Mi Профила си, сканирайте QR кода</string>
+    <string name="scan_barcode_title">За да се впишете в Xiaomi Профила си, сканирайте QR кода</string>
     <string name="search_account_security">Сигурност на профила</string>
     <string name="search_account_security_desc">Настройки на профила</string>
     <string name="search_account_security_key_words">Промяна на телефонен номер, Промяна на имейл, Защита на Профила, Профили, Sina Weibo, QQ, Оторизация, Устройства</string>
-    <string name="search_account_security_path">Настройки/Mi Профил/Сигурност на профила</string>
-    <string name="search_app_name">Mi Профил</string>
+    <string name="search_account_security_path">Настройки/Xiaomi Профил/Сигурност на профила</string>
+    <string name="search_app_name">Xiaomi Профил</string>
     <string name="search_menu_title">Търсене</string>
-    <string name="search_mi_account">Mi Профил</string>
-    <string name="search_mi_account_desc">Mi Профил</string>
+    <string name="search_mi_account">Xiaomi Профил</string>
+    <string name="search_mi_account_desc">Xiaomi Профил</string>
     <string name="search_mi_account_key_words">Xiaomi Cloud,Настройки на профил,Mi Pay, Отписване</string>
-    <string name="search_mi_account_path">Настройки/Mi Профил</string>
+    <string name="search_mi_account_path">Настройки/Xiaomi Профил</string>
     <string name="search_user_detail">Лична информация</string>
     <string name="search_user_detail_bottom_key_words">Промяна на доход, Промяна на образование, Промяна на местоположение, Промяна на регион</string>
     <string name="search_user_detail_desc">Лична информация</string>
-    <string name="search_user_detail_path">Настройки/Mi Профил/Лична информация</string>
+    <string name="search_user_detail_path">Настройки/Xiaomi Профил/Лична информация</string>
     <string name="search_user_detail_top_key_words">Лична информация, Промяна на профилната снимка, Промяна на потребителското име, Промяна на псевдоним, Промяна на дата на раждане, Промяна на пол</string>
     <string name="select_all">Избери всички</string>
     <string name="self_account_info">Лична информация</string>
@@ -764,7 +801,6 @@ ID:%s
     <string name="send_diagnosis_log">Изпрати регистър с диагностика</string>
     <string name="send_email_activate_message">Имейлът за потвърждение е изпратен.</string>
     <string name="sending">Изпращане…</string>
-    <string name="server_client_id">29336734752-hkhmuft60qa4qn1ual7etmp6pfo0ib54.apps.googleusercontent.com</string>
     <string name="service_error">Грешка в услугата</string>
     <string name="set_success">Промяната е успешна</string>
     <string name="sign_in">Вписване</string>
@@ -842,8 +878,8 @@ ID:%s
     <string name="tuesday">Вторник</string>
     <string name="tuesday_short">Вт.</string>
     <string name="tuesday_shortest">Вт.</string>
-    <string name="turn_off_find_device_failed_title">Не може да се изключи Открий устройството</string>
-    <string name="turning_off_find_device">\"Открий устройство\" се изключва…</string>
+    <string name="turn_off_find_device_failed_title">Открий устройството не може да се изключи</string>
+    <string name="turning_off_find_device">Изключване на Открий устройство…</string>
     <string name="two_factor_auth">Двустепенно удостоверяване</string>
     <string name="two_factor_auth_click_confirm">Потвърдете, за да влезете</string>
     <string name="two_factor_auth_click_confirm_summary">Ще видите известие на други свързани Mi устройства. Натиснете известието, за да позволите вписването на ново устройство.</string>
@@ -851,31 +887,52 @@ ID:%s
     <string name="two_factor_auth_need_code">Въведете код</string>
     <string name="two_factor_auth_need_code_summary">Ще видите код на други свързани Mi устройства. Въведете този код на ново устройство, за да се впишете.</string>
     <string name="two_factor_auth_summary">Когато се опитвате да се впишете на ново устройство или на ново местоположение, ще бъдете уведомени за това на другите свързани устройства. Ще трябва да потвърдите дали тези опити за вписване са упълномощени от Вас.</string>
-    <string name="unbind_sns_description">След като премахнете този профил, няма да можете да влизате в Mi Профил чрез профила си в %s.</string>
+    <string name="unbind_sns_description">След като премахнете този профил, няма да можете да влизате в Xiaomi Профил чрез профила си в %s.</string>
+    <string name="unit_gb">" GB"</string>
+    <string name="unit_mb">" MB"</string>
     <string name="unknown_error_info">Неизвестна грешка</string>
     <string name="unlock_help_notice">"Помощ:
 1. Ако забравите вашата парола, отидете на id.mi.com за да я нулирате.
 2. Ако не можете да нулирате вашата парола или някой друг е заключил устройството ви, отидете на i.mi.com за да го отключите.
 3 Вашият номер за отключване е: %s"</string>
+    <string name="update_apk_version_later">Не сега</string>
+    <string name="update_apk_version_now">Обнови</string>
     <string name="update_email_address_dialog_message">Необходимо е да потвърдите самоличността си преди да обновите имейла.</string>
     <string name="update_email_address_dialog_title">Обновяване на имейл</string>
     <string name="update_phone_notice">Промяна на настройките за сигурност</string>
     <string name="update_phone_number_notice_message">Необходимо е да потвърдите самоличността си, преди да обновите телефонния си номер.</string>
     <string name="used_cloud_storage_info">Използвано %s</string>
+    <string name="user_agreement_device_permission_desc">За осигуряване на сигурността при вписване</string>
+    <string name="user_agreement_device_permission_title">Достъп до информация за устройството</string>
+    <string name="user_agreement_must_permission_msg">Задължителни разрешения (използвани за основните функции и услуги на това приложение)</string>
+    <string name="user_agreement_network_permission_msg">Това приложение се нуждае от достъп до интернет и изисква следните разрешения, за да функционира нормално:</string>
+    <string name="user_agreement_permission_summary_msg">Xiaomi Профила Ви дава достъп до всички услуги, предоставяни от Xiaomi. Това приложение трябва да се свърже с интернет и изисква следните разрешения, за да може да работи нормално:</string>
+    <string name="user_agreement_use_account_msg">Xiaomi Профила Ви позволява да получавате достъп до всички услуги предоставени от Xiaomi.</string>
+    <string name="user_agreement_wifi_permission_title">Включване и изключване на Wi-Fi</string>
+    <string name="user_agreement_wlan_permission_desc">За проверка на средата за влизане за проблеми със сигурността</string>
+    <string name="user_agreement_wlan_permission_title_china">Включване и изключване на WLAN</string>
     <string name="user_avatar_update_title">Промяна на профилната снимка</string>
     <string name="user_avatar_uploading">Момент…</string>
-    <string name="user_instruction_all_purpose">Добре дошли в Mi Профил! Можете да използвате профила си, за да получите достъп до услуги предоставени от Xiaomi и нейните дъщерни дружества, като Mi.com, Xiaomi Cloud и GetApps. Можете да получавате Mi Монети, да купувате виртуални стоки и да се наслаждавате на ценни услуги като игри, теми и електронни книги.</string>
+    <string name="user_instruction_all_purpose">Добре дошли в Xiaomi Профил! Можете да използвате профила си, за да получите достъп до услуги предоставени от Xiaomi и нейните дъщерни дружества, като Mi.com, Xiaomi Cloud и GetApps. Можете да получавате Mi Монети, да купувате виртуални стоки и да се наслаждавате на ценни услуги като игри, теми и електронни книги.</string>
     <string name="user_instruction_tip">За да можете да се вписвате, прочетете и приемете правилата и условията.</string>
-    <string name="user_license_with_3rd_app">&lt;Data>Вписвайки се в своя Mi Профил, аз потвърждавам, че съм прочел/а и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, както и &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил.&lt;/Data></string>
-    <string name="user_license_with_3rd_app_mobile">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%5$s>Правилата и условията на услугите за верификация на China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="user_license_with_3rd_app_no_operator">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> както и &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил.&lt;/Data></string>
-    <string name="user_license_with_3rd_app_telcom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%5$s>Правилата и условията на услугите за верификация на профил на eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="user_license_with_3rd_app_unicom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%5$s>Правилата и условията на услугите за верификация на China Unicom&lt;/a>.&lt;/Data></string>
-    <string name="user_license_with_out_3rd_app_no_operator">&lt;Data>Прочетох и приех &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил.&lt;/Data></string>
-    <string name="user_license_without_3rd_app">&lt;Data>Прочетох и приех &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил.&lt;/Data></string>
-    <string name="user_license_without_3rd_mobile">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на China Mobile&lt;/a>.&lt;/Data></string>
-    <string name="user_license_without_3rd_telcom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на профил на eSurfing&lt;/a>.&lt;/Data></string>
-    <string name="user_license_without_3rd_unicom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="user_license_with_3rd_app">&lt;Data>Вписвайки се в своя Xiaomi Профил, аз потвърждавам, че съм прочел/а и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, както и &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Xiaomi Профил.&lt;/Data></string>
+    <string name="user_license_with_3rd_app_mobile">"&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на това приложение, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Xiaomi Профил, както и &lt;a href=%5$s>Правилата за ползване на China Mobile Authentication&lt;/a>.
+&lt;/Data>"</string>
+    <string name="user_license_with_3rd_app_no_operator">"&lt;Data>Прочетох и приех &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на това приложение, както и &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Xiaomi Профил.
+&lt;/Data>"</string>
+    <string name="user_license_with_3rd_app_telcom">"&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на това приложение, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Xiaomi Профил, както и &lt;a href=%5$s>Правилата за ползване на China Telecom Authentication&lt;/a>.
+&lt;/Data>"</string>
+    <string name="user_license_with_3rd_app_unicom">"&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на това приложение, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Xiaomi Профил, както и &lt;a href=%5$s>Правилата за ползване на China Unicom Authentication&lt;/a>.
+&lt;/Data>"</string>
+    <string name="user_license_with_out_3rd_app_no_operator">"&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Xiaomi Профил.
+&lt;/Data>"</string>
+    <string name="user_license_without_3rd_app">&lt;Data>Прочетох и приех &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Xiaomi Профил.&lt;/Data></string>
+    <string name="user_license_without_3rd_mobile">"&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Xiaomi Профил, както и &lt;a href=%3$s>Правилата за ползване на China Mobile Authentication&lt;/a>.
+&lt;/Data>"</string>
+    <string name="user_license_without_3rd_telcom">"&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Xiaomi Профил, както и &lt;a href=%3$s>Правилата за ползване на China Telecom Authentication&lt;/a>.
+&lt;/Data>"</string>
+    <string name="user_license_without_3rd_unicom">"&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Xiaomi Профил, както и &lt;a href=%3$s>Правилата за ползване на China Unicom Authentication&lt;/a>.
+&lt;/Data>"</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
     <string name="vip_account_settings">VIP Настройки</string>
@@ -886,5 +943,6 @@ ID:%s
     <string name="weixin">WeChat</string>
     <string name="weixin_login">Вписване с WeChat</string>
     <string name="xiao_mi_vip">Mi VIP</string>
+    <string name="xiaomi_cloud_service">Xiaomi Cloud</string>
     <string name="yesterday">Вчера</string>
 </resources>

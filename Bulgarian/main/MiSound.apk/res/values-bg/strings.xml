@@ -150,7 +150,7 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
-    <string name="four_note">Тестът ще отнеме около 3 минути.</string>
+    <string name="four_note">Тестът ще отнеме около %d минути.</string>
     <string name="friday">Петък</string>
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
@@ -270,6 +270,7 @@
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -307,7 +308,7 @@
     <string name="music_audio_effect_settings">Настройка на ефектите</string>
     <string name="music_audio_visual_wake_lock">Дръж екрана буден</string>
     <string name="music_audio_visual_wake_lock_summary">Не изключвай екрана, когато се показват визуални ефекти</string>
-    <string name="music_below_thirty_years">До 30-годишна възраст</string>
+    <string name="music_below_thirty_years">До %d годишни</string>
     <string name="music_customized_sound_summary">Настройте силата на звука според начина си на чуване</string>
     <string name="music_customized_sound_title">Регулиране силата на звука</string>
     <string name="music_delete">Изтриване</string>
@@ -404,10 +405,10 @@
     <string name="music_sound_num">Лична настройка %s</string>
     <string name="music_sound_sample">Фабрично зададени настройки</string>
     <string name="music_sure_to_delete_sound_msg">Желаете ли да изтриете избраните настройки?</string>
-    <string name="music_thirty_to_sixty_years">Между 30 и 60-годишна възраст</string>
+    <string name="music_thirty_to_sixty_years" formatted="false">%d-%d годишни</string>
     <string name="music_title_dolby_control">Dobly digital plus</string>
     <string name="music_unsupport_effect_summary">USB слушалките не се поддържат</string>
-    <string name="music_upper_sixty_years">Над 60-годишна възраст</string>
+    <string name="music_upper_sixty_years">Повече от %d годишни</string>
     <string name="name">Име</string>
     <string name="night">Вечер</string>
     <string name="noon">Обед</string>
@@ -512,7 +513,8 @@
     <string name="sound_transmission_start">Старт</string>
     <string name="sound_transmission_stop">Пауза</string>
     <string name="sound_transmission_title">Безжичен микрофон</string>
-    <string name="spatial_audio_summary">Настройване на завладяващия звук въз основа на движенията на главата</string>
+    <string name="spatial_audio">Завладяващ звук</string>
+    <string name="spatial_audio_summary">Изпитайте потапяне и усещане за пространство, когато аудиото се възпроизвежда през слушалки</string>
     <string name="speaker_scenario_resume">Възстановяване на първоначалните ефекти</string>
     <string name="start_test_sound">Начало на теста</string>
     <string name="status_bar_notification_info_overflow">999+</string>

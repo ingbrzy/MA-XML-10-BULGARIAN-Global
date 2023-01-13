@@ -29,8 +29,10 @@
     <string name="abc_toolbar_collapse_description">Свиване</string>
     <string name="access_limit">Ограничения за достъп</string>
     <string name="access_tips">Неуспешен достъп до елементи. Опитайте вместо това да използвате Рамката за Достъп до Паметта на Android.</string>
+    <string name="action_cache_to_local">Изтегляне в устройството</string>
     <string name="action_mode_deselect_all">Отмаркирай всички</string>
     <string name="action_mode_select_all">Маркирай всички</string>
+    <string name="action_release_file_cache">Изчистване на кеша</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="ad_download">Изтегли</string>
     <string name="add_private">Превръщане на файлове в лични</string>
@@ -66,6 +68,16 @@
     <string name="can_not_send_with_too_many">Не е възможно изпращане на толкова много елементи наведнъж</string>
     <string name="cancel">Отказ</string>
     <string name="cancel_error">Неуспешно премахване. Опитайте отново.</string>
+    <string name="cancel_mi_drive">Прекратяване на услугите на Mi Drive</string>
+    <string name="cancel_mi_drive_alert_description" formatted="false">Изчистете всички елементи от Mi Drive, за да можете да анулирате услугите. Следвайте тези стъпки, за да изчистите елементите:&lt;br />&lt;xliff:g id=cancel_mi_drive_alert_description_list_1 refersto=1>%1d&lt;/xliff:g>. На началната страница на Mi Drive натиснете и задръжте елемент, за да се появи бутонът \"Избери всички\". Използвайте този бутон, за да изберете до 200 файла наведнъж и да ги изтриете.&lt;br />&lt;xliff:g id=cancel_mi_drive_alert_description_list_2 refersto=2>%2d&lt;/xliff:g>. След това изчистете наскоро изтритите елементи.</string>
+    <string name="cancel_mi_drive_alert_reminder_card_summary" formatted="false">&lt;xliff:g id=cancel_mi_drive_alert_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. Препоръчваме Ви да архивирате елементите си преди да ги изтриете. За да го направите посетете visit i.mi.com, натиснете Mi Drive и изтеглете елементите си на компютъра.&lt;br />&lt;xliff:g id=cancel_mi_drive_alert_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g>. Наскоро изтрити елементи не могат да бъдат възстановявани.</string>
+    <string name="cancel_mi_drive_confirm_button">Прекратяване на услуги</string>
+    <string name="cancel_mi_drive_confirm_description">Ако продължите ще прекратите услугите на Mi Drive. Ние ще спрем да събираме Вашата лична информация, а вече събраната лична информация ще бъде изтрита в рамките на специфичния период от време в съответствие с приложимите правила и закони, освен ако не е посочено нещо друго.</string>
+    <string name="cancel_mi_drive_confirm_hint">Анулирането на услугите на Mi Drive няма да засегне използването на други продукти и услуги на Xiaomi. Ако желаете да изтриете Xiaomi Профила си, можете да го направите &lt;font color=#0097FF>&lt;a href=%1$s>тук&lt;/a>&lt;/font>.</string>
+    <string name="cancel_mi_drive_confirm_reminder_card_summary" formatted="false">&lt;font color=#F22424>Следните елементи ще бъдат изтрити завинаги след като прекратите услугите:&lt;/font>&lt;br />&lt;xliff:g id=cancel_mi_drive_confirm_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. Всички елементи в Mi Drive, включително, но не само, документи, лични файлове, и изтрити елементи.&lt;br />&lt;xliff:g id=cancel_mi_drive_confirm_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g>. Разрешения за устройството, настройки, и друго кеширано съдържание.&lt;br />&lt;xliff:g id=cancel_mi_drive_confirm_reminder_card_summary_list_3 refersto=3>%3d&lt;/xliff:g>. Хронология на изтеглянията и качванията в Mi Drive.</string>
+    <string name="cancel_mi_drive_privacy_revoked_retry">Активирайте Mi Drive и опитайте отново</string>
+    <string name="cancel_mi_drive_success">Успешно прекратяване на услугата</string>
+    <string name="cancel_mi_drive_title">Прекратяване на услуги</string>
     <string name="cancel_msg">Откажи всички?</string>
     <string name="cancel_operation">Отмяна на действие</string>
     <string name="cancel_success">Успешно преместване на файлове в %s</string>
@@ -75,6 +87,7 @@
     <string name="category_all">Всички файлове</string>
     <string name="category_apk">APK</string>
     <string name="category_bluetooth">Bluetooth</string>
+    <string name="category_cloud_drive">Mi Drive</string>
     <string name="category_document">Документи</string>
     <string name="category_download">Изтегляния</string>
     <string name="category_editor_mode">Редактиране</string>
@@ -110,6 +123,26 @@
     <string name="click_to_switch_volume_pad">Натиснете, за да превключите между вътрешна памет и SD карта</string>
     <string name="clock_in">Проверяване…</string>
     <string name="close">Затваряне</string>
+    <string name="cloud_copy_to_local_title">Запазване в…</string>
+    <string name="cloud_drive_files">Mi Drive файлове</string>
+    <string name="cloud_drive_not_login_summary">Не сте вписани</string>
+    <string name="cloud_drive_settings">Настройки за Mi Drive</string>
+    <string name="cloud_empty_hint_text">"Тук все още няма нищо.
+Опитайте да преместите файлове от устройството си в Mi Drive."</string>
+    <string name="cloud_guide_summary_text">Автоматично синхронизирайте елементите си с всичките си устройства</string>
+    <string name="cloud_guide_title_text">Синхронизиране с Mi Drive</string>
+    <string name="cloud_permission_storage_desc">За запазване на снимки и документи в устройството Ви</string>
+    <string name="cloud_recycle_bin">Наскоро изтрити елементи</string>
+    <string name="cloud_space_full">Паметта в облака е пълна. Надстройте своя план за съхранение, за да можете да качвате повече елементи.</string>
+    <string name="cloud_transfer_download_error">Неуспешно изтегляне</string>
+    <string name="cloud_transfer_download_loading">Изтегляне</string>
+    <string name="cloud_transfer_downloading">Изтегляне</string>
+    <string name="cloud_transfer_pause">На пауза</string>
+    <string name="cloud_transfer_upload_error">Неуспешно качване на файл</string>
+    <string name="cloud_transfer_uploading">Качване</string>
+    <string name="cloud_transfer_wait_download">Изчакване за изтегляне</string>
+    <string name="cloud_transfer_wait_network">Изчакване на интернет</string>
+    <string name="cloud_transfer_wait_upload">Изчакване на качване</string>
     <string name="compress_fail">Неуспешно компресиране. Вече съществува файл със същото име.</string>
     <string name="compress_fail_unknown">Неуспешно компресиране. Няма място в хранилището или поради неизвестна грешка.</string>
     <string name="compress_message">Компресиране в…</string>
@@ -124,6 +157,10 @@
     <string name="copy_to">Копиране в…</string>
     <string name="create_folder">Създаване</string>
     <string name="create_shortcut_success">Прекия път е добавен успешно</string>
+    <string name="cta_function_account_operation">За бързо вписване във Вашия Xiaomi Профил</string>
+    <string name="data_consume_dialog_message">В момента използвате мобилни данни. Ако продължите, това ще изразходи %s данни.</string>
+    <string name="data_consume_dialog_title">Използване на мобилни данни?</string>
+    <string name="data_consume_dialog_upload_title">Качване чрез мобилни данни</string>
     <string name="data_consumption_cancel">Не приемам</string>
     <string name="data_consumption_checkbox_hint">Не показвай отново</string>
     <string name="data_consumption_confirm">OK</string>
@@ -157,7 +194,14 @@
     <string name="delete_folder">Изтриване на тази папка?</string>
     <string name="des_hide_pwd">Скрий паролата</string>
     <string name="des_show_pwd">Покажи паролата</string>
+    <string name="dialog_account_permission_denied_msg">Разрешете на това приложение да получава достъп до профили в устройството, за да можете да се вписвате в Mi Drive. Можете да дадете това разрешение в Настройките.</string>
+    <string name="dialog_account_permission_denied_negative_button">Отказ</string>
+    <string name="dialog_account_permission_denied_positive_button">Настройки</string>
+    <string name="dialog_account_permission_denied_title">Необходими са разрешения</string>
     <string name="dialog_keep_choice">Запомни избора ми</string>
+    <string name="dialog_open_mi_drive_button">Разбрах</string>
+    <string name="dialog_open_mi_drive_err">Рестартирайте Mi Drive и опитайте отново.</string>
+    <string name="dialog_open_mi_drive_title">Грешка в сървъра</string>
     <string name="dialog_select_type">Изберете тип</string>
     <string name="dialog_type_audio">Аудио</string>
     <string name="dialog_type_image">Изображения</string>
@@ -199,6 +243,7 @@
     <string name="error_not_support">Не се поддържа.</string>
     <string name="error_open_file_failed_no_app_found">Не са намерени приложения, които да могат да отворят този файл.</string>
     <string name="evening">Следобед</string>
+    <string name="exception_net_not_available">Проверете мрежовите си настройки и опитайте отново</string>
     <string name="exit">Изход</string>
     <string name="expand_button_title">Разширени</string>
     <string name="extended_storage_file_can_not_open">Неуспешен опит за отваряне на файла. Копирайте го във вътрешната памет.</string>
@@ -211,6 +256,7 @@
     <string name="favorite_photo">Снимки</string>
     <string name="favorite_ringtone">Мелодии</string>
     <string name="favorite_screen_cap">Екранни снимки</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">Достъпни за четене: </string>
     <string name="file_info_canwrite">Достъпни за писане: </string>
     <string name="file_info_ishidden">Скрити: </string>
@@ -307,6 +353,7 @@
     <string name="guide_three_title">Пренареждане на преките пътища</string>
     <string name="guide_two_summary">Снимките и екранните снимки от Галерията са скрити по подразбиране.</string>
     <string name="guide_two_title">Показване само на съществени елементи</string>
+    <string name="h5_ppt_to_pdf_introduce_title">Относно създаване на PDF</string>
     <string name="hint_switch_to_grid_mode">Преминато е към преглед Решетка</string>
     <string name="hint_switch_to_list_mode">Преминато е към преглед Списък</string>
     <string name="home_action_up">Назад</string>
@@ -315,10 +362,14 @@
     <string name="homepage_tab_file_view_phone">Памет</string>
     <string name="homepage_tab_recent">Скорошни</string>
     <string name="hot_sticker">Стикери</string>
+    <string name="hybrid_provider">Уеб страницата е осигурена от %1$s.</string>
     <string name="if_cancel">Отмяна на действието?</string>
     <string name="image_loading_error">Изображението не може да се зареди</string>
     <string name="imm_str_storage">Памет</string>
     <string name="import_files_from_old_phones">Внасяне от старо устройство</string>
+    <string name="install_media_editor_button_text">Изтегляне</string>
+    <string name="install_media_editor_message">За да можете да редактирате елементи, първо изтеглете плъгина. Изтегляне сега?</string>
+    <string name="install_media_editor_title">Изисква се плъгин</string>
     <string name="instruction">Въведете следния адрес в FTP клиента: </string>
     <string name="instruction_pre_pad">Управлявайте файлове в това устройство чрез компютър</string>
     <string name="instruction_pre_phone">Управлявайте файлове в това устройство чрез компютър</string>
@@ -343,6 +394,7 @@
     <string name="make_private_msg_1">Желаете ли да направите файла личен?</string>
     <string name="make_private_msg_2">Желаете ли да направите файловете лични?</string>
     <string name="make_private_msg_3">Всички файлове в тази папка ще станат лични.</string>
+    <string name="manage_cloud_space">Управление на паметта в облака</string>
     <string name="menu_item_cleanup">Почистване</string>
     <string name="menu_item_ftp">Свързване към компютър</string>
     <string name="menu_item_router">Рутер</string>
@@ -359,6 +411,12 @@
     <string name="mi_router_label">Рутер</string>
     <string name="mi_share">Mi Share</string>
     <string name="midnight">Нощ</string>
+    <string name="midrive_display_related">Показване</string>
+    <string name="midrive_get_cloudvideo_file">Един момент…</string>
+    <string name="midrive_hide_recent_cloud_files">Не показвайте Mi Drive файлове в Скорошни</string>
+    <string name="midrive_not_found">Неуспешно отваряне на елемента</string>
+    <string name="midrive_overseas_unavailable">Тази функция е достъпна само в континентален Китай.</string>
+    <string name="midrive_reset_privacy_and_check_availability_retry">Неуспешно активиране на Mi Drive. Опитайте отново.</string>
     <string name="midriver_install_button_text">Инсталиране</string>
     <string name="midriver_not_install_title">Деинсталиран е Mi Drive</string>
     <string name="mirror_can_not_drag_mask">Провлачете, за да използвате Mi Share</string>
@@ -464,6 +522,7 @@
     <string name="need_read_storage_permission">Управление на файлове се нуждае от достъп до паметта на устройството, за да работи нормално.</string>
     <string name="network_not_available">Неуспешно свързване с мрежата</string>
     <string name="new_folder_name">Нова папка</string>
+    <string name="new_storage_info_detail">Свободна: %1$s | Общо: %2$s</string>
     <string name="next">Напред</string>
     <string name="night">Вечер</string>
     <string name="no">Не</string>
@@ -472,6 +531,9 @@
     <string name="no_enough_storage_indication">Мястото в паметта е пълно.</string>
     <string name="no_enough_storage_title">Няма достатъчно памет</string>
     <string name="no_file">Празно</string>
+    <string name="no_network">Няма връзка с мрежата</string>
+    <string name="no_network_error_message">Проверете мрежовите си настройки и опитайте отново.</string>
+    <string name="no_network_error_title">Неуспешно свързване с мрежата</string>
     <string name="no_permission">За да използвате тази функция дайте необходимите разрешения</string>
     <string name="no_wifi">Няма Wi-Fi мрежи</string>
     <string name="noon">Обед</string>
@@ -481,16 +543,29 @@
     <string name="not_use">Не сега</string>
     <string name="notif_server_starting">Стартиране на FTP сървър…</string>
     <string name="notif_title">FTP сървърът работи</string>
+    <string name="notification_title_sync_result">Синхронизирането завърши</string>
+    <string name="notification_title_syncing">Синхронизиране…</string>
+    <string name="notification_title_syncing_with_count">Синхронизиране на елементи. Оставащи файлове: %1$s</string>
     <string name="online_not_support">Не можете да прегледате този файл в момента.</string>
+    <string name="open_cloud_drive">Включване на Mi Drive</string>
     <string name="open_or_close_wlan">Включване и изключване на Wi-Fi</string>
     <string name="open_private_folder">Отпуснете, за да отворите лични файлове</string>
     <string name="operation_add_fav">Добавяне в любими…</string>
+    <string name="operation_batch_failed_err">Действието не беше изпълнено за множество файлове.</string>
+    <string name="operation_cache_use_data">Изтегляне</string>
+    <string name="operation_cache_use_free_network">Изчакване за Wi-Fi</string>
     <string name="operation_cancel">Отказ</string>
+    <string name="operation_cloud_copy_to_local">Запазване в…</string>
     <string name="operation_compress">Компресиране</string>
     <string name="operation_compressing">Компресиране…</string>
     <string name="operation_copy">Копирай</string>
     <string name="operation_create_folder">Създай папка</string>
     <string name="operation_create_folder_message">Въведете име на папка</string>
+    <string name="operation_create_folder_name_conflict">Неуспешно създаване на папка. Папка с това име вече съществува.</string>
+    <string name="operation_create_folder_name_illegal_char">Неуспешно създаване на папка. Името на папката съдържа неподдържани символи.</string>
+    <string name="operation_create_folder_network_not_available">Неуспешно създаване на папка. Проверете мрежовите си настройки и опитайте отново.</string>
+    <string name="operation_create_folder_not_support_for_overseas">Неуспешно създаване на папка. Тази функция е налична само в континентален Китай.</string>
+    <string name="operation_create_folder_other">Неуспешно създаване на папка</string>
     <string name="operation_decompressing">Извличане…</string>
     <string name="operation_del_fav">Премахване от любими…</string>
     <string name="operation_delete">Изтрий</string>
@@ -498,28 +573,59 @@
     <string name="operation_delete_confirm_message_folder">"Цялото съдържание в папката ще бъде изтрито.
 "</string>
     <string name="operation_deleting">Изтриване…</string>
+    <string name="operation_download">Изтегляне</string>
+    <string name="operation_download_error_no_space">Няма достатъчно памет</string>
+    <string name="operation_download_error_other">Възникна грешка в системата. Изчакайте минута-две и опитайте отново.</string>
+    <string name="operation_download_error_title">Неуспешно изтегляне</string>
+    <string name="operation_editor">Редактиране</string>
     <string name="operation_encrypt_summary">Шифровайте файлове в личната папка. Разшифроването на големи файлове може да отнеме по-дълго от очакваното.</string>
     <string name="operation_encrypt_title">Шифровайте лични файлове</string>
     <string name="operation_favorite">Добави в любими</string>
+    <string name="operation_file_downloading_err">Действието не беше изпълнено. Изчакайте файла да се изтегли и опитайте отново.</string>
+    <string name="operation_file_exist_err">Действието не беше изпълнено. Този файл вече съществува.</string>
+    <string name="operation_file_not_found_err">Действието не беше изпълнено. Не е открит оригиналния файл.</string>
+    <string name="operation_gallary">Преглед в Галерията</string>
     <string name="operation_hide_sys">Не показвай скритите файлове</string>
     <string name="operation_info">Подробности</string>
     <string name="operation_move">Премести</string>
     <string name="operation_moving">Преместване…</string>
     <string name="operation_new_folder">Създай папка</string>
+    <string name="operation_no_network_err">Неуспешно свързване с мрежата. Проверете мрежовите си настройки и опитайте отново.</string>
+    <string name="operation_not_support_directory_rename">Папката не може да бъде преименувана.</string>
+    <string name="operation_not_support_err">Действието не беше изпълнено.</string>
     <string name="operation_open">Отвори</string>
     <string name="operation_open_mode">Отваряне с</string>
     <string name="operation_other_apps">Отвори в друго приложение</string>
     <string name="operation_paste">Постави</string>
     <string name="operation_paste_to_folder">Поставяне в папка</string>
     <string name="operation_pasting">Копиране…</string>
+    <string name="operation_pic_to_pdf">Създаване на PDF</string>
     <string name="operation_refresh">Опресни</string>
     <string name="operation_rename">Преименувай</string>
+    <string name="operation_rename_err">Неуспешно преименуване</string>
     <string name="operation_rename_message">Въведете ново име</string>
+    <string name="operation_retry">Опитайте отново</string>
     <string name="operation_send">Изпрати</string>
     <string name="operation_send_to_pc">Преместване върху компютър</string>
+    <string name="operation_set_pic_wallpaper">Задай като тапет</string>
     <string name="operation_show_privacy_policy">Показване на Правила за поверителност</string>
     <string name="operation_show_sys">Покажи скритите файлове</string>
+    <string name="operation_sync_cloud_data_error">Възникна грешка в сървъра. Изчакайте минута-две и опитайте отново.</string>
     <string name="operation_unfavorite">Премахни от любими</string>
+    <string name="operation_unknown_err">Действието не беше изпълнено.</string>
+    <string name="operation_upload_buy_space">Подобряване</string>
+    <string name="operation_upload_delete">Изтриване</string>
+    <string name="operation_upload_err_file_not_found">Този файл не съществува.</string>
+    <string name="operation_upload_err_file_size_zero">Неуспешно качване на прази файлове.</string>
+    <string name="operation_upload_err_full_space">Паметта в облака е пълна. Надстройте своя план за съхранение, за да можете да качвате повече елементи.</string>
+    <string name="operation_upload_err_illegal_char">Името на файла съдържа неподдържани символи.</string>
+    <string name="operation_upload_err_larger_than_4g">Не можете да качите файл по-голям от %d GB.</string>
+    <string name="operation_upload_err_not_support_overseas">В момента само потребители от континентален Китай могат да качват елементи.</string>
+    <string name="operation_upload_err_other">Възникна грешка в системата. Изчакайте минута-две и опитайте отново.</string>
+    <string name="operation_upload_error_title">Неуспешно качване</string>
+    <string name="operation_upload_retry">Опитайте отново</string>
+    <string name="operation_upload_save_to_local">Запазване в…</string>
+    <string name="operation_upload_use_data">Качване</string>
     <string name="otg_data_transfer_success">Успешно прехвърляне</string>
     <string name="otg_data_transferring">Прехвърляне на файлове… Не прекъсвайте връзката с външната памет.</string>
     <string name="otg_file_security_note">OGTСигурност</string>
@@ -529,9 +635,16 @@
     <string name="partial_encrypt_success">Неуспешно превръщане на някои файлове в лични. Опитайте отново.</string>
     <string name="path_name_email">Имейл</string>
     <string name="perm_manage_external_storage">Достъп до всички файлове</string>
+    <string name="permission_account_desc">За получаване на достъп до информация за профили съхранявани в устройството Ви</string>
+    <string name="permission_account_desc_pad">За получаване на достъп до информация за профили съхранявани в устройството Ви</string>
+    <string name="permission_account_title">Достъп до профили в устройството</string>
+    <string name="permission_account_title_pad">Достъп до профили в устройството</string>
     <string name="permission_denial">Няма достъп до файловете. Разрешете на Управление на файлове достъп до тях в Настройки.</string>
     <string name="permission_description">Подробности за разрешения</string>
     <string name="permission_required">Няма достъп до файловете. Разрешете на Управление на файлове достъп до тях в Настройки.​</string>
+    <string name="permission_storage_desc_pad">За запазване на снимки и документи в устройството Ви</string>
+    <string name="permission_storage_title">Достъп до паметта на устройството</string>
+    <string name="permission_storage_title_pad">Достъп до паметта на устройството</string>
     <string name="phone">Вътрешна памет</string>
     <string name="phone_storage">Памет</string>
     <string name="phone_storage_apk_title">APK: </string>
@@ -550,6 +663,7 @@
     <string name="pick_folder">Избери папка</string>
     <string name="pm">PM</string>
     <string name="port_range">Порта трябва да е между 1024 – 65535</string>
+    <string name="pre_privacy_recall">Оттегляне на съгласие</string>
     <string name="pref_permission_allowed">Позволено</string>
     <string name="pref_permission_manage_key_storage">Достъп до снимки и файлове на устройството</string>
     <string name="pref_permission_not_allowed">Не е позволено</string>
@@ -557,6 +671,14 @@
     <string name="privacy_policy">Правила за поверителност</string>
     <string name="privacy_policy_renew">Обновени Правила за Поверителност</string>
     <string name="privacy_policy_renew_content">&lt;Data>&lt;a href=\"%1$s\">Правилата за поверителност&lt;/a> на Управление на файлове бяха обновени. За да научите повече за потребителските си права, както и как използваме Вашите данни, прочетете и приемете новата версия на Правилата за поверителност преди да продължите.&lt;/Data></string>
+    <string name="privacy_recall_alert_description" formatted="false">Изчистете всички елементи от Mi Drive, за да можете да оттеглите съгласие. Следвайте тези стъпки, за да изчистите елементите:&lt;br />&lt;xliff:g id=privacy_recall_alert_description_list_1 refersto=1>%1d&lt;/xliff:g>. На началната страница на Mi Drive натиснете и задръжте елемент, за да се появи бутонът \"Избери всички\". Използвайте този бутон, за да изберете до 200 файла наведнъж и да ги изтриете.&lt;br />&lt;xliff:g id=privacy_recall_alert_description_list_2 refersto=2>%2d&lt;/xliff:g>. След това изчистете наскоро изтритите елементи.</string>
+    <string name="privacy_recall_alert_reminder_card_summary" formatted="false">&lt;xliff:g id=privacy_recall_alert_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. Препоръчваме Ви да архивирате елементите си преди да ги изтриете. За да го направите посетете visit i.mi.com, натиснете Mi Drive и изтеглете елементите си на компютъра.&lt;br />&lt;xliff:g id=privacy_recall_alert_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g>. Наскоро изтрити елементи не могат да бъдат възстановявани.</string>
+    <string name="privacy_recall_confirm_button">Оттегляне</string>
+    <string name="privacy_recall_confirm_description">Ако продължите, ще оттеглите съгласието си за Правилата за поверителност на Управление на файлове. Ние ще спрем да събираме Вашата лична информация. Вече събраната и запазена лична информация ще бъде изтрита в рамките на конкретния период в съответствие с приложимите закони и разпоредби, освен ако не се изисква друго.</string>
+    <string name="privacy_recall_confirm_reminder_card_summary" formatted="false">&lt;font color=#F22424>След оттегляне на съгласието следните елементи ще бъдат изтрити завинаги:&lt;/font>&lt;br />&lt;xliff:g id=privacy_recall_confirm_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. Всички елементи в Mi Drive, включително, но не само, документи, лични файлове и изтрити елементи.&lt;br />&lt;xliff:g id=privacy_recall_confirm_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g>. Разрешения в устройството, настройки и друго кеширано съдържание.&lt;br />&lt;xliff:g id=privacy_recall_confirm_reminder_card_summary_list_3 refersto=3>%3d&lt;/xliff:g>. Хронология на теглене и качване в Mi Drive.</string>
+    <string name="privacy_recall_success">Успешно оттеглено съгласие</string>
+    <string name="privacy_recall_title">Оттегляне на съгласие</string>
+    <string name="privacy_recalling">Оттегляне на съгласие…</string>
     <string name="private_files">Лични</string>
     <string name="private_folder">Лични файлове</string>
     <string name="private_folder_no_file_hints">Натиснете и задръжте файл или папка, за да го направите личен</string>
@@ -568,11 +690,15 @@
     <string name="pull_to_enter_private">Плъзнете надолу, за да отворите лична папка</string>
     <string name="qq_msg">Поради ограничения в Android 11, Управление на файлове няма достъп и не може да показва QQ документи.</string>
     <string name="qq_title">Неуспешен достъп до WeChat документи</string>
+    <string name="query_quota_exception">Възникна грешка в сървъра. Изчакайте минута-две и опитайте отново.</string>
+    <string name="query_quota_searching">Един момент…</string>
     <string name="recent_hide_camera_and_screenshots">Не показвай елементи от Галерия и екранни снимки сред скорошни файлове</string>
+    <string name="recent_hide_cloud_drive_files">Не показвайте Mi Drive файлове в Скорошни</string>
     <string name="refresh_success">Успешно опресняване</string>
     <string name="reinstall_midriver_message">Повторно инсталиране сега?</string>
     <string name="release_enter_private">Отпуснете, за да отворите лична папка</string>
     <string name="remainder_size">Остават: %s</string>
+    <string name="reminder_card_title">Внимание</string>
     <string name="rename_alert">Ако промените разширението на файла, може да не успеете да го отворите след това.</string>
     <string name="rename_alert2">Файлове с имена започващи с \".\" автоматично биват скривани от системата. Желаете ли да използвате това име въпреки това?</string>
     <string name="rename_failed">Неуспешно преименуване на %1$s</string>
@@ -629,6 +755,7 @@
     <string name="set_pattern">Подсилете паролата си</string>
     <string name="set_pattern_btn">Задай</string>
     <string name="set_pattern_msg">Задайте паролата си отново. Паролата за сигурност също работи за снимки, съобщения и бележки.</string>
+    <string name="settings">@string/server_control_settings</string>
     <string name="size_lv1">По-малък от %d KB</string>
     <string name="size_lv2" formatted="false">%1d KB - %2d MB</string>
     <string name="size_lv3" formatted="false">%1d MB - %2d MB</string>
@@ -746,9 +873,12 @@
     <string name="unknown_error">Възникна неизвестна грешка. Изчакайте минута-две и опитайте отново.</string>
     <string name="unlock_pattern_msg">Паролата за сигурност също работи за снимки, съобщения и бележки.</string>
     <string name="unlock_pattern_title">Нова парола</string>
+    <string name="update_no_network">Неуспешно свързване с мрежата. Проверете мрежовите си настройки и опитайте отново.</string>
     <string name="upload_user_photo">Качване</string>
     <string name="usb_label">USB</string>
     <string name="use">Използване</string>
+    <string name="use_mobile_data_update_summary">Използвайте мобилни данни за автоматично синхронизиране на промените във файловете, изтеглени от Mi Drive</string>
+    <string name="use_mobile_data_update_title">Използване на мобилни данни за синхронизиране</string>
     <string name="use_to_all">Приложи на всички</string>
     <string name="used">Използвани</string>
     <string name="user_guide_continue_use">OK</string>
@@ -757,7 +887,12 @@
     <string name="utf8_title">UTF-8</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
+    <string name="video_data_consume_dialog_confirm">Продължи</string>
+    <string name="video_data_consume_dialog_title">Използване на мобилни данни?</string>
     <string name="view_type">Преглед</string>
+    <string name="web_sso_login_fail">Трябва да се впишете отново</string>
+    <string name="web_sso_login_message">Вписване…</string>
+    <string name="webview_reload">Нов опит</string>
     <string name="wechat_msg">Поради ограничения в Android 11, Управление на файлове няма достъп и не може да показва документите, които са предварително прегледани в WeChat. Отворете и запазете документите в WeChat, за да могат да бъдат показвани тук.</string>
     <string name="wechat_title">Неуспешен достъп до WeChat документи</string>
     <string name="wechat_video">Видео в %s</string>

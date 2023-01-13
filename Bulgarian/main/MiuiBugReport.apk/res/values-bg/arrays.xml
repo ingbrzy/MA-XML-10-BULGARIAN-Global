@@ -4,4 +4,69 @@
         <item>Мъж</item>
         <item>Жена</item>
     </string-array>
+    <string-array name="customer_service">
+        <item>@string/customer_service_apply</item>
+        <item>@string/customer_service_complain</item>
+        <item>@string/customer_service_station</item>
+    </string-array>
+    <string-array name="net_diag_err_link_quality">
+        <item>Лоша Wi-Fi връзка. Превключете безжичните ленти или рестартирайте рутера.</item>
+        <item>Няма достъп до мрежата. Свържете се отново с Wi-Fi или рестартирайте рутера.</item>
+    </string-array>
+    <string-array name="net_diag_err_link_quality_china">
+        <item>Poor WLAN connection. Switch wireless bands or reboot the router.</item>
+        <item>"Can't access network. Reconnect to WLAN or reboot the router."</item>
+    </string-array>
+    <string-array name="net_diag_err_network_connectivity">
+        <item>Изисква се удостоверяване за достъп до мрежата</item>
+        <item>Достъпът до мрежата е ограничен. Регулирайте часа на това устройство и проверете мрежовите настройки на рутера.</item>
+        <item>Грешка в мрежата. Проверете настройките за HTTP прокси.</item>
+        <item>Грешка в мрежата. Проверете дали рутера има достъп до интернет.</item>
+        <item>Неуспешно свързване с мрежата. Свържете се отново с Wi-Fi или рестартирайте рутера.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_connectivity_china">
+        <item>Изисква се удостоверяване за достъп до мрежата</item>
+        <item>Достъпът до мрежата е ограничен. Регулирайте часа на това устройство и проверете мрежовите настройки на рутера.</item>
+        <item>Грешка в мрежата. Проверете настройките за HTTP прокси.</item>
+        <item>Грешка в мрежата. Проверете дали рутера има достъп до интернет.</item>
+        <item>"Can't connect to the network. Reconnect to WLAN or reboot the router."</item>
+    </string-array>
+    <string-array name="net_diag_err_network_dns">
+        <item>Грешка в DNS сървъра. Проверете DNS конфигурацията на рутера.</item>
+        <item>Големи забавяния от DNS сървъра. Проверете DNS конфигурацията на рутера.</item>
+        <item>Няма достъп до шлюза. Свържете се отново с Wi-Fi или рестартирайте рутера.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_dns_china">
+        <item>Грешка в DNS сървъра. Проверете DNS конфигурацията на рутера.</item>
+        <item>Големи забавяния от DNS сървъра. Проверете DNS конфигурацията на рутера.</item>
+        <item>"Can't access gateway. Reconnect to WLAN or reboot the router."</item>
+    </string-array>
+    <string-array name="net_diag_err_network_latency">
+        <item>Големи закъснения от локалната мрежа. Рестартирайте рутера или се свържете с друга мрежа.</item>
+        <item>Големи забавяния от интернет. Проверете мрежовите настройки на оператора или се свържете с друга мрежа.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_parameters">
+        <item>Превключете от статичен IP към DHCP</item>
+    </string-array>
+    <string-array name="net_diag_err_network_protocol">
+        <item>Грешка в мрежовия протокол. Свържете се отново с Wi-Fi или рестартирайте устройството.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_protocol_china">
+        <item>Network protocol error. Reconnect to WLAN or reboot the device.</item>
+    </string-array>
+    <string-array name="net_diag_err_network_rssi">
+        <item>Преместете се в зона с по-добро Wi-Fi покритие</item>
+    </string-array>
+    <string-array name="net_diag_err_network_rssi_china">
+        <item>Move to an area with better WLAN coverage</item>
+    </string-array>
+    <string-array name="net_diag_err_network_topology">
+        <item>Проверете DHCP настройките на рутера и кабелната връзка</item>
+    </string-array>
+    <string-array name="reproductivity">
+        <item>@string/feedback_reproductivity_everytime</item>
+        <item>@string/feedback_reproductivity_often</item>
+        <item>@string/feedback_reproductivity_occasionally</item>
+        <item>@string/feedback_reproductivity_once</item>
+    </string-array>
 </resources>

@@ -43,6 +43,7 @@
     <string name="air_space_exit">Изход</string>
     <string name="air_space_setting">Настройки на мястото</string>
     <string name="airspace_users_full">Не може да се създадат повече Работни места</string>
+    <string name="alwaysUsePrompt">Запомни този избор</string>
     <string name="am">AM</string>
     <string name="appData">Инсталирани прил.</string>
     <string name="app_name">Сигурност на компонентите на ядрото</string>
@@ -63,7 +64,7 @@
     <string name="chooseFile">Избор на други файлове</string>
     <string name="clearable_edittext_clear_description">Изчисти</string>
     <string name="click_to_back_first_space">Чукнете, за да се върнете в Първо пространство.</string>
-    <string name="click_to_switch">Чукнете за преглед</string>
+    <string name="click_to_switch">Натиснете за преглед</string>
     <string name="close">Затваряне</string>
     <string name="closePassword">Деактивиране на паролата</string>
     <string name="closePasswordGuide">Няма да можете да влизате във Второ пространство от Заключен екран след като деактивирате паролата</string>
@@ -146,7 +147,7 @@
     <string name="ent_agency_code">Корпоративен код</string>
     <string name="ent_agency_code_hint">Въведете корпоративен код</string>
     <string name="ent_agency_code_invalid">Корпоративният код, който сте въвели е невалиден.</string>
-    <string name="ent_agree_privacy_policy">Прочетох и се съгласявам с Политиката на поверителност</string>
+    <string name="ent_agree_privacy_policy">Прочетох и приемам Правилата за поверителност</string>
     <string name="ent_app_verified">Изглежда, че тези приложения са инсталирани на вашето устройство. Да се активира ли режим Инициатива?</string>
     <string name="ent_confirm_dialog_content">Вие няма да можете да се върнете обратно към предишното ниво на вашата система след активацията на режим Инициатива. Все пак цялата ваша информация ще бъде запаметявана на това устройство. Ще трябва да рестартирате вашето устройство за да активирате режим Инициатива. Активиране сега?</string>
     <string name="ent_disallow_running">Това приложение е забранено</string>
@@ -165,7 +166,7 @@
     <string name="ent_mode_activated">Режим Инициатива е активиран</string>
     <string name="ent_network_error">Не мога да се свържа с мрежата. Проверете настройките си и опитайте отново.</string>
     <string name="ent_next_step">Следващо</string>
-    <string name="ent_privacy_policy_notice">* Личните данни в този режим се събират съгласно Политиката на поверителност, приета от вашата компания. Xiaomi не събира лични данни в този режим.</string>
+    <string name="ent_privacy_policy_notice">* Личните данни в този режим се събират съгласно Правилата за поверителност, приета от вашата компания. Xiaomi не събира лични данни в този режим.</string>
     <string name="enter_air_space">Влезте в Работното място</string>
     <string name="enterprise_mode">Режим Инициатива</string>
     <string name="entrance_reopen_toast_msg">Показване на прекият път за Второ пространство поради различни видове пароли</string>
@@ -260,12 +261,11 @@
     <string name="green_guard_des1">Добавете устройства, за да ги управлявате дистанционно</string>
     <string name="green_guard_des2">Бъдете информиран за местоположението на всички управлявани устройства</string>
     <string name="green_guard_des3">Контролиране на инсталираните приложения и ограничаване на използването им</string>
-    <string name="green_guard_title2">Вижте информация за местоположение</string>
+    <string name="green_guard_title2">Преглед на информация за местоположението</string>
     <string name="green_guard_title3">Управление на приложенията</string>
     <string name="greenguard_child_des">Управлявайте устройствата на вашите приятели или семейство</string>
     <string name="greenguard_child_des_title">Сканирайте QR кода, за да добавите устройство</string>
-    <string name="greenguard_functional_description">"Управлявайте устройствата дистанционно, вижте информацията за местоположението,
- контролирайте инсталираните приложения и задавайте ограничения за използването им"</string>
+    <string name="greenguard_functional_description">Управлявайте устройства дистанционно, преглеждайте информация за местоположението, контролирайте инсталирани приложения</string>
     <string name="greenguard_install_cancle">Не, благодаря</string>
     <string name="greenguard_install_confirm">Инсталирай</string>
     <string name="greenguard_install_message">\"Родителски контрол\" е системно приложение. Нямате нужда от интернет, за да го инсталирате.</string>
@@ -315,7 +315,7 @@
     <string name="master_clear_apply_title">Внимание</string>
     <string name="master_clear_not_available">Фабричните настройки са ограничени от вашата компания.</string>
     <string name="master_clear_not_available_ep">Нямате разрешение да възстановявате към фабричните настройки или да отменяте достъпа си в момента. Свържете се с вашия ръководител.</string>
-    <string name="menu_item_about_privacy_title">Политика на поверителност</string>
+    <string name="menu_item_about_privacy_title">Правила за поверителност</string>
     <string name="messageData">Съобщения</string>
     <string name="midnight">Нощ</string>
     <string name="miuix_access_state_desc">Избрани</string>
@@ -344,40 +344,40 @@
     <string name="monday">Понеделник</string>
     <string name="monday_short">Пон.</string>
     <string name="monday_shortest">Пон.</string>
-    <string name="month_april">Април</string>
+    <string name="month_april">април</string>
     <string name="month_april_short">Апр.</string>
     <string name="month_april_shortest">Апр.</string>
-    <string name="month_august">Август</string>
+    <string name="month_august">август</string>
     <string name="month_august_short">Авг.</string>
     <string name="month_august_shortest">Авг.</string>
-    <string name="month_december">Декември</string>
+    <string name="month_december">декември</string>
     <string name="month_december_short">Дек.</string>
     <string name="month_december_shortest">Дек.</string>
-    <string name="month_february">Февруари</string>
+    <string name="month_february">февруари</string>
     <string name="month_february_short">Фев.</string>
     <string name="month_february_shortest">Фев.</string>
-    <string name="month_january">Януари</string>
+    <string name="month_january">януари</string>
     <string name="month_january_short">Ян.</string>
     <string name="month_january_shortest">Ян.</string>
-    <string name="month_july">Юли</string>
+    <string name="month_july">юли</string>
     <string name="month_july_short">Юли</string>
     <string name="month_july_shortest">Юли</string>
-    <string name="month_june">Юни</string>
+    <string name="month_june">юни</string>
     <string name="month_june_short">Юни</string>
     <string name="month_june_shortest">Юни</string>
-    <string name="month_march">Март</string>
+    <string name="month_march">март</string>
     <string name="month_march_short">Март</string>
     <string name="month_march_shortest">Март</string>
-    <string name="month_may">Май</string>
+    <string name="month_may">май</string>
     <string name="month_may_short">Май</string>
     <string name="month_may_shortest">Май</string>
-    <string name="month_november">Ноември</string>
+    <string name="month_november">ноември</string>
     <string name="month_november_short">Ноем.</string>
     <string name="month_november_shortest">Ноем.</string>
-    <string name="month_october">Октомври</string>
+    <string name="month_october">октомври</string>
     <string name="month_october_short">Окт.</string>
     <string name="month_october_shortest">Окт.</string>
-    <string name="month_september">Септември</string>
+    <string name="month_september">септември</string>
     <string name="month_september_short">Септ.</string>
     <string name="month_september_shortest">Септ.</string>
     <string name="more">Още</string>
@@ -692,6 +692,7 @@
     <string name="xspace_guide_description">"Всеки профил
 заслужава собствено приложение"</string>
     <string name="xspace_guide_title">Изпробвайте Клонирани приложения</string>
+    <string name="xspace_head">Клонирани прилож</string>
     <string name="xspace_header">Клонирани приложения</string>
     <string name="xspace_instagram_title">Instagram</string>
     <string name="xspace_install_complete">&lt;font>Успешно създаване на клонирано приложение. &lt;/font>&lt;font color=#0D84FF>Отвори сега&lt;/font>.</string>
@@ -707,6 +708,7 @@
     <string name="xspace_notification_error">Влез в двойния WeChat профил и опитай отново</string>
     <string name="xspace_qq_title">QQ</string>
     <string name="xspace_remove">Изтриване на профили в клонирани приложения</string>
+    <string name="xspace_resolver_activity_title">Изберете приложение</string>
     <string name="xspace_setting_label">Настройки за клонирани приложения</string>
     <string name="xspace_settins">Задай</string>
     <string name="xspace_start">Създаване</string>

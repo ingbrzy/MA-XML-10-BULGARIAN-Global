@@ -63,6 +63,10 @@
     <string name="account_user_phone">Телефон за възстановяване</string>
     <string name="account_user_region">Регион</string>
     <string name="action_add_phone">Добавяне на телефонен номер</string>
+    <string name="action_setting_ab_playing">Извършване…</string>
+    <string name="action_setting_ab_reset">Нулиране</string>
+    <string name="action_setting_ab_set_end">Задайте крайна точка</string>
+    <string name="action_setting_ab_set_start">Задайте начална точка</string>
     <string name="action_update_phone">Промяна на телефонен номер</string>
     <string name="actionbar_button_up_description">Назад</string>
     <string name="activate_email_notice">Необходимо е да активирате профила си в рамките на 24 часа</string>
@@ -135,6 +139,7 @@
     <string name="cast_forward">Превъртане напред</string>
     <string name="cast_forward_10">Превъртане напред с десет секунди</string>
     <string name="cast_forward_30">Превъртане напред с тридесет секунди</string>
+    <string name="cast_intro_overlay_button_text">@android:string/ok</string>
     <string name="cast_live_label">НА ЖИВО</string>
     <string name="cast_mute">Спиране</string>
     <string name="cast_notification_connected_message">Установена е връзка с/ъс „%1$s“</string>
@@ -180,6 +185,7 @@
     <string name="cloud_online_player">Плеър</string>
     <string name="cloud_online_switch">Персонализирани препоръки</string>
     <string name="cloud_online_switch_open_time">Показване на препоръки за персонализирано съдържание и реклами</string>
+    <string name="cmp_tier_privacy_policy">Правила на поверителност на трети страни</string>
     <string name="collect_diagnosis_log">Събиране на регистри</string>
     <string name="columbus_ad_flag_text">Реклама</string>
     <string name="columbus_skip_ad">Пропусни</string>
@@ -268,8 +274,11 @@ ID:%s
     <string name="dialog_clearn_title">Изчистване на хронологията</string>
     <string name="dialog_confirm">OК</string>
     <string name="dialog_delete_bookmarks_content">Изтриване на отметката?</string>
+    <string name="dialog_disagree_continue">Продължи</string>
+    <string name="dialog_disagree_info">Ако не приемете Правилата за поверителност на Mi Видео няма да можете да използвате нашите онлайн услуги, и ще можете да гледате само клипчета съхранени в устройството Ви. Желаете ли да продължите?</string>
     <string name="dialog_disagree_privacychange_info">Няма да можете да използвате услугите за онлайн стринминг на Mi Видео ако не приемете нашите Правила за поверителност. Натиснете \"Отказ\", за да се върнете назад или \"Не приемам\", за да продължите и за да използвате Mi Видео само като местен видео плейър.</string>
     <string name="dialog_disagree_privacychange_title">Не приемате?</string>
+    <string name="dialog_disagree_title">Правила за поверителност</string>
     <string name="dialog_edit_bookmarks">Редактиране на отметката</string>
     <string name="dialog_edit_hint_bookmarks_name">Име на отметката</string>
     <string name="dialog_edit_hint_bookmarks_url">URL</string>
@@ -329,7 +338,6 @@ ID:%s
     <string name="download_paused">На пауза</string>
     <string name="download_pending">Изчакване…</string>
     <string name="download_power_off_tips">Тази функция не е налична в момента</string>
-    <string name="download_progress">%d%%</string>
     <string name="download_retry">Опитайте отново</string>
     <string name="download_unable_tip">Този елемент не може да бъде изтеглен</string>
     <string name="download_video">Изтегляне на видео</string>
@@ -346,23 +354,39 @@ ID:%s
     <string name="evening">Следобед</string>
     <string name="exceed_binded_phone_times_notice">Този телефонен номер вече е асоцииран с друг Mi Профил.</string>
     <string name="exit">Изход</string>
+    <string name="exo_controls_cc_disabled_description">Активиране на субтитрите</string>
+    <string name="exo_controls_cc_enabled_description">Деактивиране на субтитрите</string>
     <string name="exo_controls_fastforward_description">Превъртане напред</string>
-    <string name="exo_controls_fullscreen_description">Режим на цял екран</string>
-    <string name="exo_controls_next_description">Следващ запис</string>
+    <string name="exo_controls_fullscreen_enter_description">Вход в цял екран</string>
+    <string name="exo_controls_fullscreen_exit_description">Изход от цял екран</string>
+    <string name="exo_controls_hide">Скриване на контролите на плейъра</string>
+    <string name="exo_controls_next_description">Напред</string>
+    <string name="exo_controls_overflow_hide_description">Скриване на допълнителните настройки</string>
+    <string name="exo_controls_overflow_show_description">Показване на допълнителните настройки</string>
     <string name="exo_controls_pause_description">Поставяне на пауза</string>
     <string name="exo_controls_play_description">Възпроизвеждане</string>
-    <string name="exo_controls_previous_description">Предишен запис</string>
+    <string name="exo_controls_playback_speed">Скорост</string>
+    <string name="exo_controls_playback_speed_normal">Нормално</string>
+    <string name="exo_controls_previous_description">Назад</string>
     <string name="exo_controls_repeat_all_description">Повтаряне на всички</string>
     <string name="exo_controls_repeat_off_description">Без повтаряне</string>
     <string name="exo_controls_repeat_one_description">Повтаряне на един елемент</string>
     <string name="exo_controls_rewind_description">Превъртане назад</string>
-    <string name="exo_controls_shuffle_description">Разбъркване</string>
+    <string name="exo_controls_seek_bar_description">Напредък на възпроизвеждането</string>
+    <string name="exo_controls_settings_description">Настройки</string>
+    <string name="exo_controls_show">Показване на контролите на плейъра</string>
+    <string name="exo_controls_shuffle_off_description">Разбъркването е изключено</string>
+    <string name="exo_controls_shuffle_on_description">Разбъркването е включено</string>
     <string name="exo_controls_stop_description">Спиране</string>
+    <string name="exo_controls_vr_description">режим за VR</string>
     <string name="exo_download_completed">Изтеглянето завърши</string>
     <string name="exo_download_description">Изтегляне</string>
     <string name="exo_download_downloading">Изтегля се</string>
     <string name="exo_download_failed">Изтеглянето не бе успешно</string>
     <string name="exo_download_notification_channel_name">Изтегляния</string>
+    <string name="exo_download_paused">Изтеглянията са на пауза</string>
+    <string name="exo_download_paused_for_network">Изтеглянията чакат връзка с интернет</string>
+    <string name="exo_download_paused_for_wifi">Изтеглянията чакат връзка с Wi-Fi</string>
     <string name="exo_download_removing">Изтеглянията се премахват</string>
     <string name="exo_item_list">%1$s – %2$s</string>
     <string name="exo_media_action_repeat_all_description">Повтаряне на всички</string>
@@ -371,6 +395,10 @@ ID:%s
     <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
     <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_role_alternate">Алтернативен запис</string>
+    <string name="exo_track_role_closed_captions">Субтитри</string>
+    <string name="exo_track_role_commentary">Коментар</string>
+    <string name="exo_track_role_supplementary">Допълнителен запис</string>
     <string name="exo_track_selection_auto">Автоматично</string>
     <string name="exo_track_selection_none">Нищо</string>
     <string name="exo_track_selection_title_audio">Аудиозапис</string>
@@ -390,6 +418,7 @@ ID:%s
     <string name="fallback_menu_item_copy_link">Копиране на връзката</string>
     <string name="fallback_menu_item_open_in_browser">Отваряне в браузър</string>
     <string name="fallback_menu_item_share_link">Споделяне на връзката</string>
+    <string name="fast_channel_popular">Популярни канали</string>
     <string name="favor_movie">Филми</string>
     <string name="favor_online_video">Видеоклипове</string>
     <string name="favor_playlist">Плейлисти</string>
@@ -399,6 +428,18 @@ ID:%s
     <string name="favorite_fail">Неуспешно добавяне в любими. Опитайте отново по-късно.</string>
     <string name="favorite_success">Успешно добавен към любими</string>
     <string name="fcm_push_title">Популярни видеоклипове</string>
+    <string name="fcmpts_dialog_continue">Гледайте</string>
+    <string name="fcmpts_dialog_not_interested">Не, благодаря</string>
+    <string name="fcmpts_dialog_two" formatted="false">Гледайте още %d секунди от още %d клипче, за да спечелите купон за Mi Store</string>
+    <string name="fcmpts_popup_final">Грабнахте успешно! Натиснете, за да обновите награда.</string>
+    <string name="fcmpts_popup_final_redeem">Обмени</string>
+    <string name="fcmpts_popup_four" formatted="false">Грабнахте успешно! Гледайте %d секунди от още %d клипче, за да спечелите купон за Mi Store.</string>
+    <string name="fcmpts_popup_one" formatted="false">Гледайте %d клипа днес, за да спечелите %d-точков купон за Mi Store</string>
+    <string name="fcmpts_popup_one_cts">Гледайте</string>
+    <string name="fcmpts_popup_three" formatted="false">Гледахте %d секунди. Спечелихте %d точки!</string>
+    <string name="fcmpts_popup_three_claim">Грабни</string>
+    <string name="fcmpts_popup_three_login_claim">Вписване</string>
+    <string name="fcmpts_popup_two" formatted="false">Гледайте %d секунди от това клипче, за да спечелите %d точки</string>
     <string name="feedback">Отзив</string>
     <string name="feedback_activity_title">Отзиви</string>
     <string name="feedback_contact_empty">Въведете вашите данни за контакт</string>
@@ -1029,6 +1070,7 @@ ID:%s
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -1112,6 +1154,7 @@ ID:%s
     <string name="online_play_start_ready_loading_tip_kb">Зареждане %.2f KB/s</string>
     <string name="online_play_start_ready_loading_tip_mb">Зареждане %.2f MB/s</string>
     <string name="online_play_title">Въведете URL</string>
+    <string name="order_alphabet">А – Я</string>
     <string name="order_recently_subscribe">Скорошни абонаменти</string>
     <string name="order_recently_updated">Обновени наскоро</string>
     <string name="out_of_memory_background_playback_is_suspended">Поради недостатъчно памет съдържанието на заден план беше спряно на пауза</string>
@@ -1463,6 +1506,7 @@ ID:%s
     <string name="plus_shortcut_existed">Този пряк път вече съществува</string>
     <string name="plus_sort_title">Сортиране</string>
     <string name="plus_sort_type_default">Подразбиране</string>
+    <string name="plus_sort_type_duration">Дължина</string>
     <string name="plus_sort_type_name">Име.</string>
     <string name="plus_sort_type_size">Размер</string>
     <string name="plus_sort_type_time">Време</string>
@@ -1508,6 +1552,7 @@ ID:%s
     <string name="recommend_online_switch">Онлайн препоръки</string>
     <string name="recommend_online_tips">Включи, за да получаваш онлайн видео препоръки</string>
     <string name="recommend_page_replay">ПОВТОРЕНИЕ</string>
+    <string name="recommend_slide_to_more">Плъзнете за още</string>
     <string name="recommend_switch_alert">За да премахнете този раздел, отидете в настройките на Mi Видео</string>
     <string name="recommend_to_you">Препоръчано за вас</string>
     <string name="reload_sub_title">Чукнете за да опитате отново.</string>
@@ -1609,6 +1654,7 @@ ID:%s
     <string name="sns_sign_in">Други начини за вписване</string>
     <string name="source">"Източник: "</string>
     <string name="start_download_tip">Добавено в списъка за изтегляне. Проверете напредъка в Профил > Изтегляния</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD карта</string>
     <string name="storage_internal_sdcard">Вътрешна памет</string>
     <string name="submit">Изпратено</string>
@@ -1741,12 +1787,14 @@ ID:%s
     <string name="tip_subscribe_guide_hint_a">Преглеждайте съдържание от своите Google абонаменти</string>
     <string name="tip_subscribe_guide_hint_b">Гледайте съдържание от своите YouTube абонаменти без реклами</string>
     <string name="tip_tap_download_button">%d. Натиснете \"Изтегляне\"</string>
+    <string name="title_ab_loop">A-B цикъл</string>
     <string name="title_bookmarks">Отметки</string>
     <string name="title_continue_to_borwser">Отваряне в браузъра</string>
     <string name="title_download_setting">Настройки на Изтегляния</string>
     <string name="title_history">Хронология</string>
     <string name="title_mangotv_history_sub" formatted="false">%s (Епизод %d)</string>
     <string name="title_mangotv_subtitle_language">Език на субтитрите</string>
+    <string name="title_more_wonderful_smallvideo">Още кратки клипчета</string>
     <string name="title_publisher">Създатели</string>
     <string name="title_select_directory">Избери папка</string>
     <string name="title_selected">Избрани</string>
@@ -1879,6 +1927,11 @@ ID:%s
     <string name="welcome_tip_into_mivideo">Да започваме</string>
     <string name="welcome_tip_skip">Пропусни</string>
     <string name="welcome_tip_title">Добре дошли в Mi Видео</string>
+    <string name="widget_add_dialog_button_add">Добавяне</string>
+    <string name="widget_add_dialog_button_cancel">Отказ</string>
+    <string name="widget_add_dialog_desc_local">С това приспособление ще можете да възпроизвеждате аудио и видео файлове съхранявани в устройството Ви с едно натискане на Началния екран. Добавяне сега?</string>
+    <string name="widget_add_dialog_desc_online">С това приспособление ще можете да гледате днешните най-популярни клипчета с едно натискане на Началния екран. Добавяне сега?</string>
+    <string name="widget_add_dialog_title">Добави приспособление</string>
     <string name="widget_local_video">Локални видеоклипове</string>
     <string name="widget_local_video_click">Натиснете, за да гледате клипове съхранявани в устройството Ви</string>
     <string name="widget_more_channel">Още канали</string>

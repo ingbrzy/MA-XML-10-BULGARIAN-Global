@@ -16,10 +16,6 @@
         <item>Овен</item>
         <item>21/3 - 19/4</item>
     </string-array>
-    <string-array name="bundesliga">
-        <item>2</item>
-        <item>Национална лига</item>
-    </string-array>
     <string-array name="cancer_info">
         <item>cancer</item>
         <item>Рак</item>
@@ -37,39 +33,6 @@
     <string-array name="date_calculate_spinner">
         <item>Препращане</item>
         <item>Препращане обратно</item>
-    </string-array>
-    <string-array name="dates">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-        <item>13</item>
-        <item>14</item>
-        <item>15</item>
-        <item>16</item>
-        <item>17</item>
-        <item>18</item>
-        <item>19</item>
-        <item>20</item>
-        <item>21</item>
-        <item>22</item>
-        <item>23</item>
-        <item>24</item>
-        <item>25</item>
-        <item>26</item>
-        <item>27</item>
-        <item>28</item>
-        <item>29</item>
-        <item>30</item>
-        <item>31</item>
     </string-array>
     <string-array name="default_reminder_labels">
         <item>В часа на събитието</item>
@@ -106,10 +69,6 @@
         <item>Дул-Када</item>
         <item>Дул-Хиджа</item>
     </string-array>
-    <string-array name="la_liga">
-        <item>3</item>
-        <item>Лига</item>
-    </string-array>
     <string-array name="leo_info">
         <item>leo</item>
         <item>Лъв</item>
@@ -119,10 +78,6 @@
         <item>libra</item>
         <item>Везни</item>
         <item>23/9 - 23/10</item>
-    </string-array>
-    <string-array name="ligue_1">
-        <item>5</item>
-        <item>Лига 1</item>
     </string-array>
     <string-array name="panchang_weeks">
         <item>Неделя</item>
@@ -291,10 +246,6 @@
         <item>Скорпион</item>
         <item>24/10 - 22/11</item>
     </string-array>
-    <string-array name="serie_a">
-        <item>1</item>
-        <item>Серия А</item>
-    </string-array>
     <string-array name="taurus_info">
         <item>taurus</item>
         <item>Телец</item>
@@ -387,13 +338,6 @@
         <item>Оукланд</item>
         <item>Фиджи</item>
         <item>Тонга</item>
-    </string-array>
-    <string-array name="travel_reminder_minutes_labels">
-        <item>Преди 3 часа</item>
-        <item>Преди 4 часа</item>
-        <item>Преди 5 часа</item>
-        <item>Преди 6 часа</item>
-        <item>Преди 1 ден</item>
     </string-array>
     <string-array name="vikrami_samvat_month_names">
         <item>Чайтра</item>

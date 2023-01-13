@@ -215,6 +215,7 @@
     <string name="conn_of_function_safe">Връзка с мрежата за Оптимизация</string>
     <string name="connecting">Установява се връзка…</string>
     <string name="copy">Копиране</string>
+    <string name="copy_toast_msg">Връзката е копирана в буферната памет</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -301,6 +302,7 @@
     <string name="download">Изтегляне</string>
     <string name="downloading">Изтегля се</string>
     <string name="early_morning">Сутрин</string>
+    <string name="empty">" "</string>
     <string name="empty_content_no_ignore_image">Празно</string>
     <string name="empty_content_no_privacy">Празно</string>
     <string name="empty_content_no_similar_image">Няма дубликати</string>
@@ -318,6 +320,15 @@
     <string name="eras_ad">н.е.</string>
     <string name="eras_bc">пр.Хр.</string>
     <string name="evening">Следобед</string>
+    <string name="exo_download_completed">Изтеглянето завърши</string>
+    <string name="exo_download_description">Изтегляне</string>
+    <string name="exo_download_downloading">Изтегля се</string>
+    <string name="exo_download_failed">Изтеглянето не бе успешно</string>
+    <string name="exo_download_notification_channel_name">Изтегляния</string>
+    <string name="exo_download_paused">Изтеглянията са на пауза</string>
+    <string name="exo_download_paused_for_network">Изтеглянията чакат връзка с интернет</string>
+    <string name="exo_download_paused_for_wifi">Изтеглянията чакат връзка с Wi-Fi</string>
+    <string name="exo_download_removing">Изтеглянията се премахват</string>
     <string name="expand_button_title">Разширени</string>
     <string name="facebook_clean_exit_confirm_cancel">Продължи сканирането</string>
     <string name="facebook_clean_exit_confirm_msg">Сканирането на Фейсбук не е завършено. Спиране сега?</string>
@@ -328,6 +339,9 @@
     <string name="facebook_group_gif">GIF-ове</string>
     <string name="facebook_group_image">Изображения</string>
     <string name="facebook_group_video">Видеоклипове</string>
+    <string name="fallback_menu_item_copy_link">Копиране на връзката</string>
+    <string name="fallback_menu_item_open_in_browser">Отваряне в браузър</string>
+    <string name="fallback_menu_item_share_link">Споделяне на връзката</string>
     <string name="file">Файлове</string>
     <string name="file_not_found">Файлът не е открит</string>
     <string name="flow_rank_title">Използване на данни</string>
@@ -477,6 +491,7 @@
     <string name="hints_garbage_cleanup_result_safe">Изглежда всичко е наред</string>
     <string name="hints_garbage_handle_item_content">%1$d елементи, %2$s</string>
     <string name="hints_garbage_handle_item_empty_content">Празно</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_installed_app_fewer">Рядко</string>
     <string name="hints_installed_app_near">Скоро</string>
     <string name="hints_installed_app_never">Никога</string>

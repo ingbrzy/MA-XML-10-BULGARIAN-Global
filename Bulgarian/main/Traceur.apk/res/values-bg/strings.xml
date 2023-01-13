@@ -32,7 +32,7 @@
     <string name="accessibility_data_signal_full">Сигналът за данни е пълен.</string>
     <string name="accessibility_data_three_bars">Данните са с три чертички.</string>
     <string name="accessibility_data_two_bars">Данните са с две чертички.</string>
-    <string name="accessibility_display_daltonizer_preference_subtitle">Коригирайте как цветовете се показват на устройството ви. Това може да бъде полезно, когато искате:&lt;br/>&lt;br/> &lt;ol> &lt;li>&amp;nbsp;да видите цветовете по-ясно;&lt;/li> &lt;li>&amp;nbsp;да премахнете цветовете, за да се фокусирате.&lt;/li> &lt;/ol></string>
+    <string name="accessibility_display_daltonizer_preference_subtitle">Функцията за корекция на цветовете може да бъде полезна, когато искате:&lt;br/> &lt;ol> &lt;li>&amp;nbsp;да виждате по-точни цветове;&lt;/li> &lt;li>&amp;nbsp;да премахнете цветовете, за да се съсредоточите.&lt;/li> &lt;/ol></string>
     <string name="accessibility_display_daltonizer_preference_title">Корекция на цветове</string>
     <string name="accessibility_ethernet_connected">Ethernet.</string>
     <string name="accessibility_ethernet_disconnected">Връзката с Ethernet е прекратена.</string>
@@ -87,6 +87,7 @@
     <string name="adb_wireless_verifying_qrcode_text">Устройството се сдвоява…</string>
     <string name="adbwifi_warning_message">Безжичното отстраняване на грешки е предназначено само за програмни цели. Използвайте го за копиране на данни между компютъра и устройството си, за инсталиране на приложения на устройството си без известяване и за четене на регистрационни данни.</string>
     <string name="adbwifi_warning_title">Да се разреши ли безжичното отстраняване на грешки?</string>
+    <string name="add_guest_failed">Създаването на нов гост не бе успешно</string>
     <string name="add_user_failed">Неуспешно създаване на нов потребител</string>
     <string name="alarm_template">в %1$s</string>
     <string name="alarm_template_far">в/ъв %1$s</string>
@@ -99,6 +100,8 @@
     <string name="all_traces_will_be_deleted">Всички трасирания ще бъдат изтрити от /data/local/traces</string>
     <string name="allow_mock_location">Разрешаване на измислени местоположения</string>
     <string name="allow_mock_location_summary">Разрешаване на измислени местоположения</string>
+    <string name="allow_turn_screen_on">Разрешаване на включването на екрана</string>
+    <string name="allow_turn_screen_on_description">Разрешете на дадено приложение да включва екрана. Ако го направите, то може да включва екрана по всяко време без явното ви намерение.</string>
     <string name="animator_duration_scale_title">Скала за Animator</string>
     <string name="apn_settings_not_available">Настройките за име на точка за достъп не са налице за този потребител</string>
     <string name="app_process_limit_title">Лимит за фонови процеси</string>
@@ -110,12 +113,17 @@
     <string name="attaching_to_report">Трасирането се прикачва към сигнала за програмна грешка</string>
     <string name="available_via_carrier">Мрежата е достъпна през %1$s</string>
     <string name="available_via_passpoint">Мрежата е достъпна през „%1$s“</string>
+    <string name="avatar_picker_title">Изберете снимка на потребителския профил</string>
+    <string name="back_navigation_animation">Анимации за предвиждащия жест за връщане назад</string>
+    <string name="back_navigation_animation_dialog">Тази настройка активира системните анимации за предвиждащите жестове. За целта във файла на манифеста трябва да зададете enableOnBackInvokedCallback на true за отделните приложения.</string>
+    <string name="back_navigation_animation_summary">Активиране на системните анимации за предвиждащия жест за връщане назад.</string>
     <string name="battery_info_status_charging">Зарежда се</string>
     <string name="battery_info_status_charging_fast">Зарежда се бързо</string>
     <string name="battery_info_status_charging_slow">Зарежда се бавно</string>
     <string name="battery_info_status_charging_wireless">Зарежда се безжично</string>
     <string name="battery_info_status_discharging">Не се зарежда</string>
     <string name="battery_info_status_full">Заредена</string>
+    <string name="battery_info_status_full_charged">Напълно заредено</string>
     <string name="battery_info_status_not_charging">Свързано, не се зарежда</string>
     <string name="battery_info_status_unknown">Неизвестно</string>
     <string name="blob_expires_text">Изтича на %s</string>
@@ -145,14 +153,15 @@
     <string name="bluetooth_enable_gabeldorsche_summary">Активира стека на функциите на Bluetooth Gabeldorsche.</string>
     <string name="bluetooth_headset_profile_summary_connected">Връзка със звука на телефона</string>
     <string name="bluetooth_headset_profile_summary_use_for">Използване на телефон за аудио</string>
+    <string name="bluetooth_hearing_aid_left_active">Активно – само лявото</string>
+    <string name="bluetooth_hearing_aid_left_and_right_active">Активно – лявото и дясното</string>
     <string name="bluetooth_hearing_aid_profile_summary_connected">Установена е връзка със слухов апарат</string>
     <string name="bluetooth_hearing_aid_profile_summary_use_for">Използване за слухови апарати</string>
-    <string name="bluetooth_hearingaid_left_battery_level">За ляво ухо. Батерия: %1$s</string>
-    <string name="bluetooth_hearingaid_left_pairing_message">Слуховият апарат за ляво ухо се сдвоява…</string>
-    <string name="bluetooth_hearingaid_right_battery_level">За дясно ухо. Батерия: %1$s</string>
-    <string name="bluetooth_hearingaid_right_pairing_message">Слуховият апарат за дясно ухо се сдвоява…</string>
+    <string name="bluetooth_hearing_aid_right_active">Активно – само дясното</string>
     <string name="bluetooth_hid_profile_summary_connected">Има връзка с устройството за въвеждане</string>
     <string name="bluetooth_hid_profile_summary_use_for">Да се използва за въвеждане</string>
+    <string name="bluetooth_le_audio_profile_summary_connected">Свързано с(ъс) LE_AUDIO</string>
+    <string name="bluetooth_le_audio_profile_summary_use_for">Използване за LE_AUDIO</string>
     <string name="bluetooth_map_profile_summary_connected">Има връзка с MAP</string>
     <string name="bluetooth_map_profile_summary_use_for">Да се използва за MAP</string>
     <string name="bluetooth_opp_profile_summary_connected">Установена е връзка със сървър за трансфер на файлове</string>
@@ -176,6 +185,7 @@
     <string name="bluetooth_profile_headset">Телефонни обаждания</string>
     <string name="bluetooth_profile_hearing_aid">Слухови апарати</string>
     <string name="bluetooth_profile_hid">Входно устройство</string>
+    <string name="bluetooth_profile_le_audio">LE_AUDIO</string>
     <string name="bluetooth_profile_map">Текстови съобщения</string>
     <string name="bluetooth_profile_opp">Прехвърляне на файл</string>
     <string name="bluetooth_profile_pan">Достъп до интернет</string>
@@ -218,10 +228,13 @@
     <string name="bottomsheet_action_expand_halfway">Разгъване наполовина</string>
     <string name="bt_hci_snoop_log">Активиране на рег. файл за анализ за Bluetooth с протокола HCI</string>
     <string name="bt_hci_snoop_log_summary">Запис на Bluetooth пакетите. (Превключване на Bluetooth след промяна на тази настройка)</string>
+    <string name="bt_le_audio_broadcast_dialog_different_output">Промяна на изхода</string>
+    <string name="bt_le_audio_broadcast_dialog_sub_title">Ако предавате %1$s или промените изхода, текущото ви предаване ще бъде прекратено</string>
+    <string name="bt_le_audio_broadcast_dialog_switch_app">Предаване на %1$s</string>
+    <string name="bt_le_audio_broadcast_dialog_title">Да се спре ли предаването на %1$s?</string>
     <string name="buffer_size">Размер на буферната памет според процесора</string>
     <string name="bugreport_in_power">Пряк път за сигнал за програмна грешка</string>
     <string name="bugreport_in_power_summary">В менюто за захранване да се показва бутон за подаване на сигнал за програмна грешка</string>
-    <string name="button_convert_fbe">Изтриване и преобразуване…</string>
     <string name="cached_apps_freezer_device_default">Стандартна настройка за у-вото</string>
     <string name="cached_apps_freezer_disabled">Деактивирано</string>
     <string name="cached_apps_freezer_enabled">Активирано</string>
@@ -251,14 +264,8 @@
     <string name="connected_via_network_scorer_default">Автоматично е установена връзка чрез доставчик на услуги за оценяване на мрежите</string>
     <string name="connected_via_passpoint">Установена е връзка през „%1$s“</string>
     <string name="content_description_menu_button">Меню</string>
-    <string name="convert_to_fbe_warning">"Делът с данни ще се преобразува към шифроване на ниво файл.
- Предупреждение: Всичките ви данни ще се изтрият!
- Тази функция е в алфа версия и може да не работи правилно.
- Натиснете „Изтриване и преобразуване…“, за да продължите."</string>
-    <string name="convert_to_file_encryption">Преобразуване към шифроване на ниво файл</string>
-    <string name="convert_to_file_encryption_done">Данните вече са шифровани на ниво файл</string>
-    <string name="convert_to_file_encryption_enabled">Преобразуване…</string>
     <string name="copy">Копиране</string>
+    <string name="creating_new_guest_dialog_message">Новият гост се създава…</string>
     <string name="creating_new_user_dialog_message">Създава се нов потребител…</string>
     <string name="daltonizer_mode_deuteranomaly">Деутераномалия (червено – зелено)</string>
     <string name="daltonizer_mode_disabled">Деактивирано</string>
@@ -296,6 +303,7 @@
     <string name="debug_view_attributes">Актив. на инспектирането на атрибутите за преглед</string>
     <string name="default_categories">Стандартни</string>
     <string name="default_categories_restored">Стандартните категории са възстановени</string>
+    <string name="default_user_icon_description">Икона за основния потребител</string>
     <string name="delete_blob_confirmation_text">Наистина ли искате да изтриете тези споделени данни?</string>
     <string name="delete_blob_text">Изтриване на споделените данни</string>
     <string name="dev_logpersist_clear_warning_message">Когато спрем да извършваме наблюдения посредством програмата за трайно записване в регистрационни файлове, трябва да изтрием съхраняваните на устройството ви данни от нея.</string>
@@ -305,14 +313,21 @@
     <string name="development_settings_enable">Активиране на опциите за програмисти</string>
     <string name="development_settings_not_available">Опциите за програмисти не са налице за този потребител</string>
     <string name="development_settings_summary">Задаване на опции за програмиране на приложения</string>
-    <string name="development_settings_title">Опции на програмиста</string>
+    <string name="development_settings_title">Опции за програмисти</string>
     <string name="direct_boot_unaware_dialog_message">Забележка: След рестартиране това приложение не може да се стартира, докато не отключите телефона си</string>
     <string name="disable_overlays">Хардуерни наслагв.: Деактив.</string>
     <string name="disable_overlays_summary">Винаги да се използва GPU за изграждане на екрана</string>
     <string name="disabled">Деактивирано</string>
     <string name="disabled_by_admin">Деактивирано от администратора</string>
     <string name="disabled_by_admin_summary_text">Контролира се от администратор</string>
+    <string name="disabled_by_app_ops_text">Управлява се чрез ограничена настройка</string>
+    <string name="done">Готово</string>
     <string name="dont_show_again">Да не се показва отново</string>
+    <string name="dream_complication_title_aqi">Качество на въздуха</string>
+    <string name="dream_complication_title_cast_info">Предаване: Инф.</string>
+    <string name="dream_complication_title_date">Дата</string>
+    <string name="dream_complication_title_time">Час</string>
+    <string name="dream_complication_title_weather">Времето</string>
     <string name="eight_hours">8 часа</string>
     <string name="eight_thousand_kb">8192 КБ</string>
     <string name="enable_adb">През USB</string>
@@ -335,6 +350,10 @@
     <string name="exposed_dropdown_menu_content_description">Показване на падащото меню</string>
     <string name="external_source_trusted">Има разрешение</string>
     <string name="external_source_untrusted">Няма разрешение</string>
+    <string name="failed_attempts_now_wiping_device">Твърде много неправилни опити. Данните от това устройство ще бъдат изтрити.</string>
+    <string name="failed_attempts_now_wiping_dialog_dismiss">Отхвърляне</string>
+    <string name="failed_attempts_now_wiping_profile">Твърде много неправилни опити. Този служебен потребителски профил и данните в него ще бъдат изтрити.</string>
+    <string name="failed_attempts_now_wiping_user">Твърде много неправилни опити. Този потребител ще бъде изтрит.</string>
     <string name="failed_to_open_app_settings_toast">Отварянето на настройките за %1$s не бе успешно</string>
     <string name="five_gb">5 ГБ</string>
     <string name="force_allow_on_external">Външно хран.: принуд. разрешаване на приложенията</string>
@@ -348,7 +367,8 @@
     <string name="four_thousand_kb">4096 КБ</string>
     <string name="guest_exit_guest">Премахване на госта</string>
     <string name="guest_new_guest">Добавяне на гост</string>
-    <string name="guest_nickname">Гост</string>
+    <string name="guest_remove_guest_confirm_button">Премахване</string>
+    <string name="guest_remove_guest_dialog_title">Да се премахне ли гостът?</string>
     <string name="guest_reset_guest">Нулиране на сесията като гост</string>
     <string name="guest_reset_guest_confirm_button">Нулиране</string>
     <string name="guest_reset_guest_dialog_title">Да се нулира ли сесията като гост?</string>
@@ -372,6 +392,8 @@
     <string name="item_view_role_description">Раздел</string>
     <string name="keep_screen_on">Да остане активен</string>
     <string name="keep_screen_on_summary">Екранът никога няма да е в спящ режим при зареждане</string>
+    <string name="keyboard_layout_default_label">По подразбиране</string>
+    <string name="keyboard_layout_dialog_title">Избор на клавиатурна подредба</string>
     <string name="keywords">системно трасиране, трасиране, ефективност</string>
     <string name="keywords_adb_wireless">adb, отстраняване на грешки, програмиране</string>
     <string name="keywords_alarms_and_reminders">график, будилник, напомняне, часовник</string>
@@ -425,6 +447,7 @@
     <string name="local_backup_password_toast_validation_failure">Задаването на парола за резервно копие не бе успешно</string>
     <string name="long_traces">Продължителни трасирания</string>
     <string name="long_traces_summary">Запазвано непрекъснато в хранилището на устройството</string>
+    <string name="long_traces_summary_betterbug">Запазва се непрекъснато в хранилището на устройството (няма да се добавя автоматично към сигналите за програмни грешки)</string>
     <string name="managed_user_title">Вс. служебни приложения</string>
     <string name="material_clock_toggle_content_description">Изберете AM или PM</string>
     <string name="material_hour_selection">Изберете час</string>
@@ -441,7 +464,7 @@
     <string name="max_long_trace_duration">Максимално времетраене на продължителните трасирания</string>
     <string name="max_long_trace_size">Максимален размер за продължително трасиране</string>
     <string name="media_category">Мултимедия</string>
-    <string name="media_transfer_this_device_name">Високоговорител</string>
+    <string name="media_transfer_this_device_name">Този телефон</string>
     <string name="media_transfer_this_phone">Този телефон</string>
     <string name="media_transfer_wired_device_name">Аудиоустройство с кабел</string>
     <string name="media_transfer_wired_usb_device_name">Слушалки с кабел</string>
@@ -481,6 +504,7 @@
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -511,6 +535,7 @@
     <string name="no_debuggable_apps">Няма налични приложения с възможност за отстраняване на грешки</string>
     <string name="not_default_data_content_description">Не е зададено да използва данни</string>
     <string name="not_set">Не е зададено</string>
+    <string name="num_categories_selected">{count,plural, =1{Избрахте #}other{Избрахте #}}</string>
     <string name="oem_unlock_enable">Отключване от OEM</string>
     <string name="oem_unlock_enable_summary">Разрешаване на първонач. зареждащата прогр. да се откл.</string>
     <string name="okay">ОK</string>
@@ -524,6 +549,7 @@
     <string name="osu_sign_up_failed">Регистрацията не можа да бъде завършена. Докоснете, за да опитате отново.</string>
     <string name="overlay_display_devices_title">Симулиране на алтерн. дисплеи</string>
     <string name="password_toggle_content_description">Показване на паролата</string>
+    <string name="physical_keyboard_title">Физическа клавиатура</string>
     <string name="picture_color_mode">Цветови режим за снимките</string>
     <string name="picture_color_mode_desc">Използване на sRGB</string>
     <string name="pointer_location">Mестопол. на показалеца</string>
@@ -587,6 +613,7 @@
     <string name="select_webview_provider_dialog_title">Задаване на внедряването на WebView</string>
     <string name="select_webview_provider_title">Внедряване на WebView</string>
     <string name="select_webview_provider_toast_text">Този избор вече не е валиден. Опитайте отново.</string>
+    <string name="settings_label">Настройки</string>
     <string name="settingslib_learn_more_text">Научете повече</string>
     <string name="share">Споделяне</string>
     <string name="share_trace">Да се сподели ли трасирането?</string>
@@ -606,7 +633,7 @@
     <string name="show_notification_channel_warnings">Предупрежд. за канала за известия</string>
     <string name="show_notification_channel_warnings_summary">Показва се предупреждение, когато приложение публикува известие без валиден канал</string>
     <string name="show_quick_settings_tile">Показване на плочката за бързи настройки</string>
-    <string name="show_screen_updates">Актуал. на повърхн: Показв.</string>
+    <string name="show_screen_updates">Актуализации на повърхн.</string>
     <string name="show_screen_updates_summary">Примигв. на целите повърхности на прозорците при актуализирането им</string>
     <string name="show_touches">Показване на докосванията</string>
     <string name="show_touches_summary">Показване на визуална обр. връзка за докосванията</string>
@@ -620,6 +647,7 @@
     <string name="speed_label_very_fast">Много бърза</string>
     <string name="speed_label_very_slow">Много бавна</string>
     <string name="standby_bucket_summary">"Състояние на готовност на приложението:  %s"</string>
+    <string name="start_new_trace">Стартиране на ново трасиране</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_unavailable">Няма данни</string>
     <string name="stop_on_bugreport">Спиране на трасирането за сигналите за програмна грешка</string>
@@ -648,7 +676,6 @@
     <string name="thirty_minutes">30 минути</string>
     <string name="thirtytwo_thousand_kb">32 768 КБ</string>
     <string name="time_unit_just_now">Току-що</string>
-    <string name="title_convert_fbe">Преобразуване към шифроване на ниво файл</string>
     <string name="trace_debuggable_applications">Трасиране на приложенията с възможност за отстраняване на грешки</string>
     <string name="trace_is_being_recorded">Трасирането се записва</string>
     <string name="trace_saved">Трасирането бе запазено</string>
@@ -689,6 +716,7 @@
     <string name="tts_status_ok">%1$s се поддържа напълно</string>
     <string name="tts_status_requires_network">За %1$s се изисква връзка с мрежа</string>
     <string name="tts_status_title">Състояние на основния език</string>
+    <string name="turn_screen_on_title">Включване на екрана</string>
     <string name="twelve_hours">12 часа</string>
     <string name="twenty_gb">20 ГБ</string>
     <string name="twentyfour_hours">24 часа</string>
@@ -700,6 +728,7 @@
     <string name="use_system_language_to_select_input_method_subtypes">Използване на системните езици</string>
     <string name="user_add_profile_item_summary">Можете да ограничите достъпа до приложенията и съдържанието от профила си</string>
     <string name="user_add_profile_item_title">Ограничен потр. профил</string>
+    <string name="user_add_user">Добавяне на потреби­тел</string>
     <string name="user_add_user_item_summary">Потребителите имат свои собствени приложения и съдържание</string>
     <string name="user_add_user_item_title">Потребител</string>
     <string name="user_add_user_message_long">"Можете да споделите това устройство с други хора, като създадете допълнителни потребители. Всеки от тях има собствено работно пространство, което може да персонализира с приложения, тапет и др. Потребителите могат също да коригират настройки на устройството, които засягат всички – например за Wi‑Fi.
@@ -710,9 +739,8 @@
     <string name="user_add_user_message_short">"Когато добавите нов потребител, той трябва да настрои работното си пространство.
 
 Всеки потребител може да актуализира приложенията за всички останали потребители."</string>
-    <string name="user_add_user_title">Да се добави ли нов потреб.?</string>
+    <string name="user_add_user_title">Добавяне на нов потребител?</string>
     <string name="user_add_user_type_title">Добавяне</string>
-    <string name="user_guest">Гост</string>
     <string name="user_image_choose_photo">Избиране на изображение</string>
     <string name="user_image_photo_selector">Избиране на снимката</string>
     <string name="user_image_take_photo">Правене на снимка</string>
@@ -749,8 +777,6 @@
     <string name="wifi_disconnected">Няма връзка</string>
     <string name="wifi_display_certification">Безжичен дисплей</string>
     <string name="wifi_display_certification_summary">Показване на опциите за сертифициране на безжичния дисплей</string>
-    <string name="wifi_enhanced_mac_randomization">Рандомизиране на временните MAC адреси за Wi‑Fi</string>
-    <string name="wifi_enhanced_mac_randomization_summary">Когато този режим е включен, MAC адресът на устройството може да се променя при всяко свързване с мрежа, за която е активирана функцията за рандомизиране на MAC адреса.</string>
     <string name="wifi_fail_to_scan">Не може да се сканира за мрежи</string>
     <string name="wifi_hotspot_switch_off_text">Изключване</string>
     <string name="wifi_hotspot_switch_on_text">Включване</string>
@@ -758,23 +784,52 @@
     <string name="wifi_metered_label">С отчитане</string>
     <string name="wifi_no_internet">Няма достъп до интернет</string>
     <string name="wifi_no_internet_no_reconnect">Няма да се свърже автоматично</string>
+    <string name="wifi_non_persistent_mac_randomization">Рандомизиране на временните MAC адреси за Wi‑Fi</string>
+    <string name="wifi_non_persistent_mac_randomization_summary">Когато този режим е включен, MAC адресът на устройството може да се променя при всяко свързване с мрежа, за която е активирана функцията за рандомизиране на MAC адреса.</string>
     <string name="wifi_not_in_range">Извън обхват</string>
     <string name="wifi_passpoint_expired">Изтекло</string>
     <string name="wifi_remembered">Запазено</string>
     <string name="wifi_scan_throttling">Ограничаване на сканирането за Wi-Fi</string>
     <string name="wifi_scan_throttling_summary">Намалява изразходването на батерията и подобрява ефективността на мрежата</string>
+    <string name="wifi_security_eap">WPA/WPA2/WPA3-Enterprise</string>
+    <string name="wifi_security_eap_suiteb">WPA3-Enterprise, 192-битова защита</string>
+    <string name="wifi_security_eap_wpa">WPA-Enterprise</string>
+    <string name="wifi_security_eap_wpa2_wpa3">WPA2/WPA3-Enterprise</string>
+    <string name="wifi_security_eap_wpa3">WPA3-Enterprise</string>
+    <string name="wifi_security_eap_wpa_wpa2">WPA/WPA2-Enterprise</string>
     <string name="wifi_security_none">Няма</string>
+    <string name="wifi_security_none_owe">Няма/Enhanced Open</string>
+    <string name="wifi_security_owe">Стандарт за сигурност Enhanced Open</string>
+    <string name="wifi_security_passpoint">Passpoint</string>
+    <string name="wifi_security_psk_sae">WPA2/WPA3-Personal</string>
+    <string name="wifi_security_sae">WPA3-Personal</string>
+    <string name="wifi_security_short_eap">802.1x</string>
+    <string name="wifi_security_short_eap_suiteb">Suite-B-192</string>
+    <string name="wifi_security_short_eap_wpa">WPA-EAP</string>
+    <string name="wifi_security_short_eap_wpa2_wpa3">RSN-EAP</string>
+    <string name="wifi_security_short_none_owe">Няма/OWE</string>
+    <string name="wifi_security_short_owe">OWE</string>
+    <string name="wifi_security_short_psk_sae">WPA2/WPA3</string>
+    <string name="wifi_security_short_sae">WPA3</string>
+    <string name="wifi_security_short_wep">WEP</string>
+    <string name="wifi_security_short_wpa">WPA</string>
+    <string name="wifi_security_short_wpa2">WPA2</string>
+    <string name="wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifi_security_wep">WEP</string>
+    <string name="wifi_security_wpa">WPA-Personal</string>
+    <string name="wifi_security_wpa2">WPA2-Personal</string>
+    <string name="wifi_security_wpa_wpa2">WPA/WPA2-Personal</string>
     <string name="wifi_status_mac_randomized">MAC адресът е рандомизиран</string>
     <string name="wifi_status_no_internet">Няма връзка с интернет</string>
     <string name="wifi_status_sign_in_required">Изисква се вход в профила</string>
+    <string name="wifi_tether_connected_summary">{count,plural, =0{Няма свързани устройства}=1{1 устройството е свързано}other{# устройства са свързани}}</string>
     <string name="wifi_unmetered_label">Без отчитане</string>
     <string name="wifi_verbose_logging">Активиране на „многословно“ регистр. на Wi‑Fi</string>
     <string name="wifi_verbose_logging_summary">По-подробно регистр. на Wi‑Fi – данни за RSSI на SSID в инстр. за избор на Wi‑Fi</string>
+    <string name="wifitrackerlib_admin_restricted_network">Не се разрешава от организацията ви</string>
     <string name="wifitrackerlib_auto_connect_disable">Автом. свързване е изкл.</string>
     <string name="wifitrackerlib_available_via_app">Достъпно през %1$s</string>
     <string name="wifitrackerlib_connected_via_app">Установена е връзка през %1$s</string>
-    <string name="wifitrackerlib_connected_via_network_scorer">Автоматично бе установена връзка през %1$s</string>
-    <string name="wifitrackerlib_connected_via_network_scorer_default">Автоматично е установена връзка чрез доставчик на услуги за оценяване на мрежите</string>
     <string name="wifitrackerlib_imsi_protection_warning">Тази мрежа получава идентификатор за SIM карта, който може да се използва за проследяване на местоположението на устройството. <annotation id="url">Научете повече</annotation></string>
     <string name="wifitrackerlib_osu_completing_sign_up">Регистрацията се завършва…</string>
     <string name="wifitrackerlib_osu_connect_failed">Не се установи връзка</string>
@@ -783,12 +838,6 @@
     <string name="wifitrackerlib_osu_sign_up_failed">Регистрацията не можа да бъде завършена. Докоснете, за да опитате отново.</string>
     <string name="wifitrackerlib_private_dns_broken">Не може да се осъществи достъп до частния DNS сървър</string>
     <string name="wifitrackerlib_saved_network">Запазено от %1$s</string>
-    <string name="wifitrackerlib_speed_label_fast">Бърза</string>
-    <string name="wifitrackerlib_speed_label_medium">Средна</string>
-    <string name="wifitrackerlib_speed_label_okay">Добра</string>
-    <string name="wifitrackerlib_speed_label_slow">Бавна</string>
-    <string name="wifitrackerlib_speed_label_very_fast">Много бърза</string>
-    <string name="wifitrackerlib_speed_label_very_slow">Много бавна</string>
     <string name="wifitrackerlib_summary_separator">" / "</string>
     <string name="wifitrackerlib_tap_to_renew_subscription_and_connect">Докоснете, за да подновите абонамента и да установите връзка</string>
     <string name="wifitrackerlib_tap_to_sign_up">Докоснете, за да се регистрирате</string>
@@ -810,7 +859,32 @@
     <string name="wifitrackerlib_wifi_passpoint_expired">Изтекло</string>
     <string name="wifitrackerlib_wifi_poor_channel_conditions">Временно лоши мрежови условия</string>
     <string name="wifitrackerlib_wifi_remembered">Запазено</string>
+    <string name="wifitrackerlib_wifi_security_eap_suiteb">WPA3-Enterprise, 192-битова защита</string>
+    <string name="wifitrackerlib_wifi_security_eap_wpa3">WPA3-Enterprise</string>
+    <string name="wifitrackerlib_wifi_security_eap_wpa_wpa2">WPA/WPA2-Enterprise</string>
+    <string name="wifitrackerlib_wifi_security_eap_wpa_wpa2_wpa3">WPA/WPA2/WPA3-Enterprise</string>
     <string name="wifitrackerlib_wifi_security_none">Няма</string>
+    <string name="wifitrackerlib_wifi_security_owe">Стандарт за сигурност Enhanced Open</string>
+    <string name="wifitrackerlib_wifi_security_passpoint">Passpoint</string>
+    <string name="wifitrackerlib_wifi_security_sae">WPA3-Personal</string>
+    <string name="wifitrackerlib_wifi_security_short_eap_suiteb">Suite-B-192</string>
+    <string name="wifitrackerlib_wifi_security_short_eap_wpa3">WPA3-EAP</string>
+    <string name="wifitrackerlib_wifi_security_short_eap_wpa_wpa2">WPA/WPA2-EAP</string>
+    <string name="wifitrackerlib_wifi_security_short_eap_wpa_wpa2_wpa3">WPA/WPA2/WPA3-EAP</string>
+    <string name="wifitrackerlib_wifi_security_short_owe">OWE</string>
+    <string name="wifitrackerlib_wifi_security_short_sae">WPA3</string>
+    <string name="wifitrackerlib_wifi_security_short_wpa_wpa2">WPA/WPA2</string>
+    <string name="wifitrackerlib_wifi_security_short_wpa_wpa2_wpa3">WPA/WPA2/WPA3</string>
+    <string name="wifitrackerlib_wifi_security_wep">WEP</string>
+    <string name="wifitrackerlib_wifi_security_wpa_wpa2">WPA/WPA2-Personal</string>
+    <string name="wifitrackerlib_wifi_security_wpa_wpa2_wpa3">WPA/WPA2/WPA3-Personal</string>
+    <string name="wifitrackerlib_wifi_standard_11ac">Wi‑Fi 5</string>
+    <string name="wifitrackerlib_wifi_standard_11ad">WiGig</string>
+    <string name="wifitrackerlib_wifi_standard_11ax">Wi‑Fi 6</string>
+    <string name="wifitrackerlib_wifi_standard_11be">Wi-Fi 7</string>
+    <string name="wifitrackerlib_wifi_standard_11n">Wi‑Fi 4</string>
+    <string name="wifitrackerlib_wifi_standard_legacy">Предишни версии</string>
+    <string name="wifitrackerlib_wifi_standard_unknown">Неизвестно</string>
     <string name="wifitrackerlib_wifi_unmetered_label">Без отчитане</string>
     <string name="wifitrackerlib_wifi_wont_autoconnect_for_now">Засега Wi-Fi няма да се свързва автоматично</string>
     <string name="window_animation_scale_title">Скала на прозореца на аним.</string>

@@ -70,8 +70,8 @@
     <string name="aqi_alert_channel_name">AQI известия</string>
     <string name="aqi_data_source">Предоставено от Colorful Clouds</string>
     <string name="aqi_desc">Индекс за качество на въздуха</string>
-    <string name="aqi_detail_24_hours">24-часова прогноза</string>
-    <string name="aqi_detail_5_days">5-дневна прогноза</string>
+    <string name="aqi_detail_24_hours">%d-часова прогноза</string>
+    <string name="aqi_detail_5_days">%d-дневна прогноза</string>
     <string name="aqi_detail_co_unit">Единица: мг/м³</string>
     <string name="aqi_detail_title">Индекс за качество на въздуха</string>
     <string name="aqi_detail_unit">Еденица мярка: µg/m³</string>
@@ -163,6 +163,7 @@
     <string name="dynamic_weather">Времето</string>
     <string name="early_morning">Сутрин</string>
     <string name="edit_city">Редакция на градове</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Актуализиране…</string>
     <string name="empty_view_net_unavailable">Няма връзка с мрежата</string>
     <string name="empty_view_refresh">Опитайте отново</string>
@@ -272,6 +273,7 @@
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
     <string name="hourly_forcast_now">Сега</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">dd.MM</string>
     <string name="index_item_experience_now">Инсталирай сега</string>
     <string name="indices_title_chance_of_rain">Възможно преваляване</string>
@@ -283,15 +285,16 @@
     <string name="indices_wind_direction_north">С</string>
     <string name="indices_wind_direction_south">Ю</string>
     <string name="indices_wind_direction_west">З</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">UV индекс</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">Включване на услугите за местоположение</string>
     <string name="location_tag">Локализиране</string>
     <string name="manager_city_option_add_home">Добавяне към начална страница</string>
     <string name="manager_city_option_view_on_home">Преглед на началната страница</string>
     <string name="midnight">Нощ</string>
     <string name="minute_rain">Прогноза за валежите</string>
-    <string name="minute_rain_after_an_hour">В рамките на 1 час</string>
-    <string name="minute_rain_after_two_hour">В рамките на 2 часа</string>
     <string name="minute_rain_feedback_subtitle">Кажете ни какво е времето сега.</string>
     <string name="minute_rain_feedback_title">Информацията за времето е неправилна.</string>
     <string name="minute_rain_now">Сега</string>
@@ -364,7 +367,6 @@
     <string name="morning">Сутрин</string>
     <string name="network_unavailable">Няма връзка с мрежата.</string>
     <string name="night">Вечер</string>
-    <string name="night_not_disturb_settings_summary">Блокирай предупрежденията между 23:00 ч и 7:00 ч</string>
     <string name="night_not_disturb_settings_title">Не ме безпокой през нощта</string>
     <string name="no_data">Няма данни</string>
     <string name="no_internet_message">Вашето устройство се нуждае от връзка с мрежата, за да можете да оттеглите съгласието си. Проверете мрежовите си настройки и опитайте отново.</string>
@@ -445,9 +447,10 @@
     <string name="share_menu_title">Споделяне</string>
     <string name="share_subject">Споделяне</string>
     <string name="share_weather_desc">\#MIUI Времето#Днес %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Не може да бъде направена екранна снимка</string>
-    <string name="shortcut_short_label_24_hour_forecast">24-часова прогноза</string>
+    <string name="shortcut_short_label_24_hour_forecast">%d-часова прогноза</string>
     <string name="shortcut_short_label_recent_forecast">Проверете времето</string>
     <string name="size_byte">Б</string>
     <string name="size_giga_byte">ГБ</string>
@@ -564,7 +567,7 @@
     <string name="unit">Мерни еденици</string>
     <string name="unit_temperature">Температура</string>
     <string name="unit_wind">Сила на вятъра</string>
-    <string name="update_night_setting_summary_text">Обновяване на инф. за времето между 23:00ч и 07:00ч</string>
+    <string name="update_night_setting_summary_text">Обновяване на прогнозата между %1$s и %2$s</string>
     <string name="update_night_setting_title_text">Актуализирай автом. през нощта</string>
     <string name="update_notification_info">Актуализиране на данни във фонов режим…</string>
     <string name="updated_a_moment_ago">Обновено преди малко</string>
@@ -575,10 +578,8 @@
     <string name="video_banner_weather_forecast">Прогноза за времето</string>
     <string name="video_banner_weather_update">Най-новата информация за времето</string>
     <string name="view_forecast_item_yesterday">Вчера</string>
-    <string name="view_indexes_item_day_after_tommorrow">След 2 дни</string>
     <string name="view_indexes_item_today">Днес</string>
     <string name="view_indexes_item_tommorrow">Утре</string>
-    <string name="warning_weather_day_and_night_settings_summary">Получавай дневни обобщения, съдържащи инф. за времето, в 7:00 ч и 19:00 ч</string>
     <string name="warning_weather_day_and_night_settings_title">Дневни обобщения</string>
     <string name="weather_alert_channel_name">Предупреждения</string>
     <string name="weather_aqi_full_air_quality_forcast">Пълна прогноза за качество на въздуха</string>
@@ -593,6 +594,7 @@
     <string name="wednesday_shortest">Ср.</string>
     <string name="welcome_app_title">Добре дошли във Времето!</string>
     <string name="wind_direction_no_data">Вятър</string>
+    <string name="wind_power">%d</string>
     <string name="wind_unit">%1$sкм/ч</string>
     <string name="xiaomi_weather_description_content">Времето е системно приложение. След като деинсталирате приложението няма да можете да преглеждате информация за прогнозата или да използвате съответните приспособления.</string>
     <string name="xiaomi_weather_description_content_remove">Времето е системно приложение. След като премахнете прекия път на Началния екран няма да можете да преглеждате информация за прогнозата или да използвате съответните приспособления.</string>

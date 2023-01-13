@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_bar_home_description">Придвижване към „Начало“</string>
-    <string name="abc_action_bar_up_description">Придвижване нагоре</string>
+    <string name="abc_action_bar_home_description">Навигиране към началния екран</string>
+    <string name="abc_action_bar_up_description">Навигиране нагоре</string>
     <string name="abc_action_menu_overflow_description">Още опции</string>
     <string name="abc_action_mode_done">Готово</string>
-    <string name="abc_activity_chooser_view_see_all">Вижте всички</string>
+    <string name="abc_activity_chooser_view_see_all">Преглед на всички</string>
     <string name="abc_activitychooserview_choose_application">Изберете приложение</string>
     <string name="abc_capital_off">ИЗКЛ.</string>
     <string name="abc_capital_on">ВКЛ.</string>
@@ -131,10 +131,12 @@
     <string name="confirm_know">OK</string>
     <string name="connection_error">Не може да се свърже</string>
     <string name="connection_lost">Изключен</string>
+    <string name="copy">Копиране</string>
     <string name="copy_failed">Неуспешно копиране</string>
     <string name="copy_to">Копиране в…</string>
     <string name="copy_to_internal_storage_first">Първо копирайте елементите във вътрешната памет.</string>
-    <string name="dark_mode">Режим На тъмно</string>
+    <string name="copy_toast_msg">Връзката е копирана в буферната памет</string>
+    <string name="dark_mode">Тъмен режим</string>
     <string name="dark_mode_notice_message">Сега е налична тъмна тема!</string>
     <string name="decompress_cancel">Отказ</string>
     <string name="decompress_confirm">Извлечи</string>
@@ -172,6 +174,7 @@
     <string name="display_name">Покажи името</string>
     <string name="domain">Домейн</string>
     <string name="download_success">Изтеглянето е успешно</string>
+    <string name="drag_not_support_with_dir">Не можете да плъзгате и изпращате папки</string>
     <string name="empty_by_forbid_access">Съдържанието на тази папка не може да бъде показано тук поради ограничения на Android.</string>
     <string name="enable_documentsui">Включване на %s в Настройки > Инсталирани приложения първо</string>
     <string name="enable_sd_card">SD картата е повредена или извадена</string>
@@ -194,12 +197,16 @@
     <string name="error_invalid_path">Неправилен път</string>
     <string name="error_not_support">Не се поддържа</string>
     <string name="error_open_file_failed_no_app_found">Няма приложения, които да отворят този файл.</string>
+    <string name="expand_button_title">Разширени</string>
     <string name="explicit">Пряко</string>
     <string name="extended_storage_file_can_not_open">Неуспешен опит за отваряне на файла. Копирайте го във вътрешната памет.</string>
     <string name="extract">Извлечи</string>
     <string name="fail_to_create_folder_unknown">Неуспешно създаване на папка поради неизвестна грешка.</string>
     <string name="failed_not_access_sd_card">Разрешете достъп до SD картата първо</string>
     <string name="failed_obtain_permissions">Не може да се получат разрешения</string>
+    <string name="fallback_menu_item_copy_link">Копиране на връзката</string>
+    <string name="fallback_menu_item_open_in_browser">Отваряне в браузър</string>
+    <string name="fallback_menu_item_share_link">Споделяне на връзката</string>
     <string name="favorite_notice_message">"Можете да добавяте папки към любими сега.
 Натиснете и задръжте папка и натиснете \"Повече\", за да добавите."</string>
     <string name="favorite_photo">Снимки</string>
@@ -253,7 +260,7 @@
     <string name="info_system_version">Версия на системата:</string>
     <string name="invalid_name_or_password">Невалидно потребителско име или парола</string>
     <string name="just_now">Току-що</string>
-    <string name="kilobyteShort">КБ</string>
+    <string name="kilobyteShort">KB</string>
     <string name="lack_perm_dialog_title">Необходими са разрешения</string>
     <string name="list_order">Изглед Списък</string>
     <string name="load_more">Вижте повече</string>
@@ -262,11 +269,11 @@
     <string name="local_music">Аудио файлове</string>
     <string name="local_network">LAN</string>
     <string name="local_video">Видео файлове</string>
-    <string name="make_private">Направи личен</string>
+    <string name="make_private">Направи лични</string>
     <string name="make_private_msg_1">Желаете ли да направите файла личен?</string>
     <string name="make_private_msg_2">Желаете ли да направите файловете лични?</string>
     <string name="make_private_msg_3">Всички файлове в тази папка ще станат лични.</string>
-    <string name="megabyteShort">МБ</string>
+    <string name="megabyteShort">MB</string>
     <string name="menu_item_deep_clean">Дълбоко почистване</string>
     <string name="menu_item_ftp">Свързване към компютър</string>
     <string name="menu_item_midrop">Прехвърляне на файлове</string>
@@ -309,6 +316,7 @@
     <string name="not_connect">Неуспешно свързване</string>
     <string name="not_connect_user">Неуспешно свързване: %1$s и %2$s</string>
     <string name="not_installed_documentsui">DocumentsUI не е инсталиран</string>
+    <string name="not_set">Не е зададено</string>
     <string name="not_support_documentui">Документи не се поддържа от това устройство</string>
     <string name="not_very_dissatisfied">Недоволен</string>
     <string name="notif_server_starting">Стартиране на FTP сървър…</string>
@@ -391,6 +399,7 @@
     <string name="port">Порт</string>
     <string name="port_range">Номерът на порта трябва да е между 1024 – 65535</string>
     <string name="possible_permissions">Разрешения по избор</string>
+    <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="privacy_accept">Приемам и продължавам</string>
     <string name="privacy_cancel"><u>Не приемам</u></string>
     <string name="privacy_desc">Добре дошли в Управление на файлове! Освен основните функции това приложение предоставя и следните услуги:</string>
@@ -499,6 +508,7 @@
     <string name="storage_usb">USB памет</string>
     <string name="storage_warning">Не може да използва външната памет</string>
     <string name="str_clean">Почисти</string>
+    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="switch_to_grid_mode">Преминаване към Изглед Решетка</string>
     <string name="switch_to_list_mode">Преминаване към Изглед Списък</string>
     <string name="tab_common_app">Приложения и папки</string>
@@ -534,6 +544,8 @@
     <string name="user_notice_privacy_policy">Правила за поверителност</string>
     <string name="user_notice_term_of_service">Потребителско споразумение</string>
     <string name="utf8_summary">Кодиране на FTP по подразбиране</string>
+    <string name="v7_preference_off">ИЗКЛ.</string>
+    <string name="v7_preference_on">ВКЛ.</string>
     <string name="version_name">Версия</string>
     <string name="very_dissatisfied">Много недоволен</string>
     <string name="view_by_document">Преглед във Файлове</string>

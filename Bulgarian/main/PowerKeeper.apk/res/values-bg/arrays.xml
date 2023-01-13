@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="emode_app_groups">
-        <item>Системни приложения</item>
-        <item>Други приложения</item>
-        <item>Избрани приложения</item>
-    </string-array>
     <string-array name="hmode_app_classify1">
         <item>По избор</item>
         <item>MIUI Икономия на батерия</item>
@@ -16,18 +11,5 @@
     <string-array name="pc_manage_active_app_items">
         <item>Поставете приложението в спящ режим</item>
         <item>Съхранение на енергия</item>
-    </string-array>
-    <string-array name="power_mode_entries">
-        <item>Производителност</item>
-        <item>Балансиран</item>
-    </string-array>
-    <string-array name="thermal_entries">
-        <item>Контрол на температурата по подразбиране</item>
-        <item>Режим \"Производителност\"</item>
-    </string-array>
-    <string-array name="thermal_summaries">
-        <item>Приоритет за температурен контрол</item>
-        <item>Приоритет за производителност</item>
-        <item>Не се поддържа от Свръх икономия на батерия</item>
     </string-array>
 </resources>

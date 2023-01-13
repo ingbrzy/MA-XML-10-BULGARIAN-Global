@@ -47,6 +47,7 @@
     <string name="calibrate_failed">Неуспешно калибриране на височината</string>
     <string name="calibrate_failed_no_location">Калибрирането се провали: Географската ширина и дължина не може да бъде определена</string>
     <string name="calibrate_failed_timeout">Калибрирането се провали: Изтече времето за връзка със сървъра</string>
+    <string name="calibrate_new_tip">Наклонете устройството рязко, за да позиционирате топката в кръга</string>
     <string name="calibrate_rotate_again">Опитайте отново</string>
     <string name="calibrate_success">Калибрирането е изпълнено</string>
     <string name="calibrate_tip">Наклонете устройството, за да позиционирате топката в кръга</string>
@@ -228,7 +229,7 @@
     <string name="morning">Сутрин</string>
     <string name="new_cta_app_purpose">преглед на посоки и координати</string>
     <string name="new_cta_v2_app_purpose">Показване на посоки, координати, атмосферно налягане и надморска височина в момента</string>
-    <string name="new_permission_camera_desc">За калибрация</string>
+    <string name="new_permission_camera_desc">За показване на предварителен преглед на живо</string>
     <string name="new_permission_location_desc">За показване на координати</string>
     <string name="night">Вечер</string>
     <string name="noon">Обед</string>

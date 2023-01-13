@@ -28,6 +28,7 @@
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
     <string name="access_denied_info">Направихте твърде много опити. Изчакайте малко и опитайте отново.</string>
+    <string name="access_photos_and_videos">Достъп до снимки и клипове</string>
     <string name="action_collapse">Скрий</string>
     <string name="action_expand">Покажи повече</string>
     <string name="action_folder_description">Преглед на папки</string>
@@ -41,7 +42,7 @@
     <string name="actionbar_button_up_description">Назад</string>
     <string name="actionbar_close_description">Затвори</string>
     <string name="actionbar_home_description">Обратно</string>
-    <string name="add_account_desc">Ще синхронизирате ли вашите бележки с Mi Профила си?</string>
+    <string name="add_account_desc">Ще синхронизирате ли бележките си с Xiaomi Профила?</string>
     <string name="afternoon">Следобяд</string>
     <string name="alarm_bar_title">Напомняне</string>
     <string name="alert_action_edit_anyway">Продължи</string>
@@ -61,6 +62,9 @@
     <string name="app_name">Бележки</string>
     <string name="app_notification_info">Приложението Бележки работи във фонов режим.</string>
     <string name="app_widget">Бележки</string>
+    <string name="app_widget_name_create_note">Създаване на бележки</string>
+    <string name="app_widget_name_create_todo">Създаване на задачи</string>
+    <string name="app_widget_name_fast_entry">Преки пътища</string>
     <string name="app_widget_name_new">Бележки</string>
     <string name="application_icon">Икона на приложение</string>
     <string name="audio_btn_mode_meeting">Среща</string>
@@ -193,7 +197,7 @@
     <string name="empty_folder_import_notes">Внасяне на бележки</string>
     <string name="empty_folder_no_notes">Тук няма бележки</string>
     <string name="enable_sync">Синхронизация</string>
-    <string name="enable_sync_desc">Да се синхронизират ли бележките с Mi Профила ви (%1$s)?</string>
+    <string name="enable_sync_desc">Да се синхронизират ли бележките с Xiaomi Профила Ви (%1$s)?</string>
     <string name="eras_ad">н.е.</string>
     <string name="eras_bc">пр.Хр.</string>
     <string name="error_contact_not_exist">Контактът не съществува</string>
@@ -498,6 +502,7 @@
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -532,6 +537,7 @@
     <string name="new_audio_create_guide_tip">За да създадете гласова бележка, натиснете и задръжте.</string>
     <string name="new_audio_create_talkback_des">За да създадете текстова бележка, натиснете. За да създадете гласова бележка, натиснете и задръжте. За да спрете записа и да създадете бележката, пуснете бутона или плъзнете нагоре за отказ.</string>
     <string name="new_data_empty_note">Тук още няма елементи</string>
+    <string name="new_lite_audio_create_talkback_des">Натиснете, за да създадете бележка</string>
     <string name="night">Вечер</string>
     <string name="no_network">Няма връзка с мрежата</string>
     <string name="noon">Обед</string>
@@ -563,6 +569,7 @@
     <string name="note_write_hint">Напишете бележка</string>
     <string name="notealert_enter">Отвори бележката</string>
     <string name="notealert_ok">Затвори</string>
+    <string name="notelist_string_info">…</string>
     <string name="notes_description_content">Бележки е системно приложение. След като го деинсталирате няма да можете да използвате приложението.</string>
     <string name="notes_description_title">Деинсталиране на Бележки?</string>
     <string name="notification_content_add_todo_from_other_app">Добавихте нова задача. Натиснете, за да прегледате.</string>
@@ -623,6 +630,8 @@
     <string name="permission_microphone_desc">За запис на гласови бележки</string>
     <string name="permission_network_for_cloud_desc">За да синхронизирате бележки с облака, трябва да се свържете с интернет. За синхронизирането на елементите е възможно да бъдат използвани мобилни данни. Свързване сега?</string>
     <string name="permission_phone_state_desc">За прекъсване на запис на аудио бележка повреме на повикване</string>
+    <string name="permission_photos_desc">За добавяне на изображения към бележките</string>
+    <string name="permission_photos_desc_pad">За добавяне на изображения към бележките</string>
     <string name="permission_read_contact_desc">Асоцииране на направените по време на обаждания бележки с контакти</string>
     <string name="permission_storage_desc">За съхранение на бележки като изображения</string>
     <string name="permission_storage_desc_new_v12">За добавяне на изображения към бележки и запазване на бележки като изображения</string>
@@ -725,6 +734,7 @@
     <string name="search_setting_description">Търсене на текст в бележки</string>
     <string name="select_account_prompt">Синхронизиране на бележки</string>
     <string name="send">Изпращане</string>
+    <string name="send_notifications_for_reminder">За изпращане на напомняния</string>
     <string name="set_alarm_description">Настрой будилник</string>
     <string name="setting_big_screen_layout_columns">Странична лента</string>
     <string name="setting_big_screen_layout_flat">Плочки</string>
@@ -868,6 +878,7 @@
 Разрешете на Бележки да чете съдържанието на вашата SD карта."</string>
     <string name="toast_refuse_to_use_phone_state">"Разрешенията за телефон са ограничени.
 Разрешете на Бележки да чете статуса на телефона ви и да го идентифицира."</string>
+    <string name="toast_refuse_to_use_photos_in_excerpt">Разрешете на това приложение да получава достъп до Вашите снимки, за да можете да добавяте изображения в бележките</string>
     <string name="toast_refuse_to_use_record_audio">"Разрешенията за микрофон са ограничени.
 Разрешете на Бележки да записва аудио."</string>
     <string name="toast_refuse_to_use_storage_in_excerpt">Разрешете на Бележки достъп до паметта, за да може да добавя изображения към вашите бележки</string>
@@ -974,6 +985,9 @@
     <string name="wednesday">Сряда</string>
     <string name="wednesday_short">Ср.</string>
     <string name="wednesday_shortest">Ср.</string>
+    <string name="widget_all_notes_name">Всички бележки</string>
+    <string name="widget_all_todo_name">Всички задачи</string>
+    <string name="widget_click_check">Натиснете за преглед</string>
     <string name="widget_content_loading">Един момент…</string>
     <string name="widget_create_select_size">Избор на размер</string>
     <string name="widget_empty_content">Натиснете, за да изберете бележка</string>
@@ -990,5 +1004,7 @@
     <string name="widget_size_item_super_big">Огромно</string>
     <string name="widget_size_not_support">Огромни приспособления не се поддържат от това устройство</string>
     <string name="widget_take_notes_title">Бележки</string>
+    <string name="widget_total_notes">%1$d</string>
+    <string name="widget_total_todo">%1$d</string>
     <string name="yesterday">Вчера</string>
 </resources>

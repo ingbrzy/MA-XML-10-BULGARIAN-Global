@@ -83,7 +83,7 @@
     <string name="find_device_notice_sms_alert_with_common_charge_hint">За да бъде обновен статуса на SIM картата и за да бъде потвърдено, че всички услуги работят нормално, едно &lt;font color=#0097FF>&lt;b>платено текстово съобщение&lt;/b>&lt;/font> ще бъде изпратено след като смените SIM картите. Операторът ще Ви таксува за това съобщение.</string>
     <string name="find_device_notice_sms_alert_with_domestic_charge_hint">За да бъде обновен статуса на SIM картата и за да бъде потвърдено, че всички услуги работят нормално, едно &lt;font color=#0097FF>&lt;b>вътрешно платено съобщение&lt;/b>&lt;/font> ще бъде изпратено след като смените SIM картите. Операторът ще Ви таксува за това съобщение.</string>
     <string name="find_device_notice_sms_alert_with_internal_charge_hint">За да бъде обновен статуса на SIM картата и за да бъде потвърдено, че всички услуги работят нормално, едно &lt;font color=#0097FF>&lt;b>международно платено съобщение&lt;/b>&lt;/font> ще бъде изпратено след като смените SIM картите. Операторът ще Ви таксува за това съобщение.</string>
-    <string name="find_device_stop_noise">Чукнете OK за без звук</string>
+    <string name="find_device_stop_noise">Натиснете OK за без звук</string>
     <string name="find_device_storage_corrupted">Паметта на Открий устройството е повредена. Вашето устройство не е защитено.</string>
     <string name="find_device_success_title">Включено е Открий устройството</string>
     <string name="find_device_telephony_fault">Открий устройството: Пропадна връзката (%s).</string>
@@ -241,9 +241,9 @@
     <string name="sunday_short">Нед.</string>
     <string name="sunday_shortest">Нед.</string>
     <string name="sys_notification_async_open_failed_content">Чукнете, за да опитате отново или за отказ.</string>
-    <string name="sys_notification_async_open_failed_title">Открий устройството не може да се включи</string>
-    <string name="sys_notification_async_verify_content">Вашите обновени правила за сигурност изискват услугата Намери устройство да бъде повторно активирана.</string>
-    <string name="sys_notification_async_verify_title">Активирай повторно Намери устройство</string>
+    <string name="sys_notification_async_open_failed_title">Неуспешно включване на Открий устройството</string>
+    <string name="sys_notification_async_verify_content">Вашите обновени Правила за Сигурност изискват услугата Открий устройството да бъде активирано повторно.</string>
+    <string name="sys_notification_async_verify_title">Повторно активиране на Открий устройството</string>
     <string name="talkback_back">Назад</string>
     <string name="talkback_hide_pwd">Скриване на паролата</string>
     <string name="talkback_show_pwd">Показване на паролата</string>

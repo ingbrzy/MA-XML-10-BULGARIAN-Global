@@ -41,12 +41,12 @@
         <item quantity="one">Преди %d ден</item>
     </plurals>
     <plurals name="abc_slice_duration_min">
-        <item quantity="other">Преди %d мин</item>
-        <item quantity="one">Преди %d мин</item>
+        <item quantity="other">Преди %d мин</item>
+        <item quantity="one">Преди %d мин</item>
     </plurals>
     <plurals name="abc_slice_duration_years">
-        <item quantity="other">Преди %d год</item>
-        <item quantity="one">Преди %d год</item>
+        <item quantity="other">Преди %d год.</item>
+        <item quantity="one">Преди %d год.</item>
     </plurals>
     <plurals name="accessibility_usage_summary">
         <item quantity="other">%1$d приложения имат пълен достъп до устройството ви</item>
@@ -143,6 +143,10 @@
     <plurals name="bt_usable_device_title">
         <item quantity="other">%d налични устройства</item>
         <item quantity="one">%d налично устройство</item>
+    </plurals>
+    <plurals name="clean_time">
+        <item quantity="other">%d секунди</item>
+        <item quantity="one">%d секунда</item>
     </plurals>
     <plurals name="color_game_led_freq_entries">
         <item quantity="other">На всеки %d секунди</item>
@@ -312,6 +316,10 @@
         <item quantity="other">%d надеждни агента са активни</item>
         <item quantity="one">1 надежден агент е активен</item>
     </plurals>
+    <plurals name="max_number_of_processes">
+        <item quantity="other">Не повече от %d процеса</item>
+        <item quantity="one">Не повече от %d процес</item>
+    </plurals>
     <plurals name="memory_usage_apps_summary">
         <item quantity="other">%1$d приложения са използвали памет през последния период от %2$s</item>
         <item quantity="one">1 приложение е използвало памет през последния период от %2$s</item>
@@ -468,22 +476,6 @@
         <item quantity="other">Доверете се на тези сертификати или ги премахнете</item>
         <item quantity="one">Доверете се на този сертификат или го премахнете</item>
     </plurals>
-    <plurals name="ssl_ca_cert_info_message">
-        <item quantity="other">"Домейнът %s е инсталирал сертифициращи органи за служебния ви потребителски профил. Това може да му позволи да следи служебната ви активност в мрежата, включително имейли, приложения и защитени уебсайтове.
-
-За повече информация относно тези сертификати се свържете с администратора си."</item>
-        <item quantity="one">"Домейнът %s е инсталирал сертифициращ орган за служебния ви потребителски профил. Това може да му позволи да следи служебната ви активност в мрежата, включително имейли, приложения и защитени уебсайтове.
-
-За повече информация относно този сертификат се свържете с администратора си."</item>
-    </plurals>
-    <plurals name="ssl_ca_cert_info_message_device_owner">
-        <item quantity="other">"Домейнът %s е инсталирал сертифициращи органи на устройството ви. Това може да му позволи да следи мрежовата активност на устройството, включително имейли, приложения и защитени уебсайтове.
-
-За повече информация относно тези сертификати се свържете с администратора си."</item>
-        <item quantity="one">"Домейнът %s е инсталирал сертифициращ орган на устройството ви. Това може да му позволи да следи мрежовата активност на устройството, включително имейли, приложения и защитени уебсайтове.
-
-За повече информация относно този сертификат се свържете с администратора си."</item>
-    </plurals>
     <plurals name="ssl_ca_cert_settings_button">
         <item quantity="other">Проверка на сертификатите</item>
         <item quantity="one">Проверка на сертификата</item>
@@ -495,6 +487,26 @@
     <plurals name="status_bar_settings_enabled_header_title">
         <item quantity="other">%d приложения могат да показват известия</item>
         <item quantity="one">%d приложение може да показва известия</item>
+    </plurals>
+    <plurals name="string_after_int_minute">
+        <item quantity="other">След %d минути</item>
+        <item quantity="one">След %d минута</item>
+    </plurals>
+    <plurals name="string_bits_per_sample">
+        <item quantity="other">%d битов/модел</item>
+        <item quantity="one">%d битов/модел</item>
+    </plurals>
+    <plurals name="string_int_hour">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
+    </plurals>
+    <plurals name="string_int_minute">
+        <item quantity="other">%d минути</item>
+        <item quantity="one">%d минута</item>
+    </plurals>
+    <plurals name="string_int_second">
+        <item quantity="other">%d секунди</item>
+        <item quantity="one">%d секунда</item>
     </plurals>
     <plurals name="suggestions_collapsed_summary">
         <item quantity="other">+ %1$d предложения</item>

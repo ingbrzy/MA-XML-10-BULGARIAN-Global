@@ -17,6 +17,7 @@
         <item>Най-много 3 процеса</item>
         <item>Най-много 4 процеса</item>
     </string-array>
+    <array name="avatar_image_descriptions" />
     <string-array name="battery_labels">
         <item>0%</item>
         <item>50%</item>
@@ -82,6 +83,8 @@
         <item>Аудио: aptX™ от Qualcomm®</item>
         <item>Аудио: aptX™ HD от Qualcomm®</item>
         <item>LDAC</item>
+        <item>Аудио: Qualcomm® aptX™ Adaptive</item>
+        <item>Аудио: Qualcomm® aptX™ TWS+</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Използване на сист. избор (стандартно)</item>
@@ -90,6 +93,8 @@
         <item>Аудио: aptX™ от Qualcomm®</item>
         <item>Аудио: aptX™ HD от Qualcomm®</item>
         <item>LDAC</item>
+        <item>Аудио: Qualcomm® aptX™ Adaptive</item>
+        <item>Аудио: Qualcomm® aptX™ TWS+</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -140,7 +145,7 @@
         <item>Стандартен</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>Изключено</item>
+        <item>Изкл.</item>
         <item>Области за преизчертаване: Показв.</item>
         <item>Показване на областите за деутеранопия</item>
     </string-array>
@@ -264,6 +269,11 @@
         <item>Изкл.</item>
         <item>Вкл.</item>
     </string-array>
+    <string-array name="tile_states_color_correction">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
     <string-array name="tile_states_controls">
         <item>Не е налице</item>
         <item>Изкл.</item>
@@ -313,6 +323,16 @@
         <item>Не е налице</item>
         <item>Изкл.</item>
         <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_onehanded">
+        <item>Не е налице</item>
+        <item>Изкл.</item>
+        <item>Вкл.</item>
+    </string-array>
+    <string-array name="tile_states_qr_code_scanner">
+        <item>Не е налице</item>
+        <item>Изключено</item>
+        <item>Включено</item>
     </string-array>
     <string-array name="tile_states_reduce_brightness">
         <item>Не е налице</item>
@@ -378,6 +398,12 @@
         <item>Изключително бърза</item>
         <item>Свръхбърза</item>
         <item>Най-бърза</item>
+    </string-array>
+    <string-array name="udfps_accessibility_touch_hints">
+        <item>Преместване наляво</item>
+        <item>Преместване надолу</item>
+        <item>Преместване надясно</item>
+        <item>Преместване нагоре</item>
     </string-array>
     <string-array name="usb_configuration_titles">
         <item>Зареждане</item>

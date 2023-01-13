@@ -37,6 +37,12 @@
         <item>Микрофон</item>
         <item>Системни звуци</item>
     </string-array>
+    <string-array name="screenrecorder_settings_sound_native">
+        <item>Без</item>
+        <item>Микрофон</item>
+        <item>Система</item>
+        <item>И двете</item>
+    </string-array>
     <string-array name="screenrecorder_settings_storage_location">
         <item>Вътрешна памет</item>
         <item>Външна памет</item>

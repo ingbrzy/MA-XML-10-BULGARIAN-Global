@@ -23,6 +23,7 @@
     <string name="dialog_alert_title">Внимание</string>
     <string name="VideoView_error_text_invalid_progressive_playback">Този видеоклип не е валиден за поточно предаване към това устройство.</string>
     <string name="selectTextMode">Избор на текст</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="fingerprint_icon_content_description">Икона за отпечатък</string>
     <string name="paste_as_plain_text">Поставяне като неформатиран текст</string>
     <string name="autofill">Автоматично попълване</string>
@@ -175,14 +176,13 @@
     <string name="accessibility_dialog_button_deny">Отказ</string>
     <string name="accessibility_edit_shortcut_menu_button_title">Избиране на функции, които да използвате с бутона за достъпност</string>
     <string name="accessibility_edit_shortcut_menu_volume_title">Избиране на функции, които да използвате с прекия път чрез бутона за силата на звука</string>
-    <string name="accessibility_enable_service_encryption_warning">Ако включите %1$s, устройството ви няма да подобрява шифроването на данни посредством опцията ви за заключване на екрана.</string>
     <string name="accessibility_enable_service_title">Искате ли да разрешите на %1$s да има пълен контрол над устройството ви?</string>
     <string name="accessibility_freeform_caption">Лента за надписи на %1$s.</string>
     <string name="accessibility_gesture_3finger_instructional_text">За превключване между функциите прекарайте три пръста нагоре и задръжте.</string>
     <string name="accessibility_gesture_3finger_prompt_text">Изберете коя функция да се използва с жеста за достъпност (прекарване на три пръста нагоре от долната част на екрана):</string>
     <string name="accessibility_gesture_instructional_text">За превключване между функциите прекарайте два пръста нагоре и задръжте.</string>
     <string name="accessibility_gesture_prompt_text">Изберете коя функция да се използва с жеста за достъпност (прекарване на два пръста нагоре от долната част на екрана):</string>
-    <string name="accessibility_magnification_chooser_text">Ниво на мащаба</string>
+    <string name="accessibility_magnification_chooser_text">Увеличение</string>
     <string name="accessibility_select_shortcut_menu_title">Докоснете дадена функция, за да започнете да я използвате:</string>
     <string name="accessibility_service_action_perform_description">Услугата може да проследява взаимодействията ви с дадено приложение или хардуерен сензор, както и да взаимодейства с приложенията от ваше име.</string>
     <string name="accessibility_service_action_perform_title">Преглед и извършване на действия</string>
@@ -193,7 +193,7 @@
     <string name="accessibility_shortcut_enabling_service">Задържахте бутоните за силата на звука. Услугата %1$s е включена.</string>
     <string name="accessibility_shortcut_menu_item_status_off">ИЗКЛ.</string>
     <string name="accessibility_shortcut_menu_item_status_on">ВКЛ.</string>
-    <string name="accessibility_shortcut_multiple_service_list">"\u0009• %1$s
+    <string name="accessibility_shortcut_multiple_service_list">" • %1$s
 "</string>
     <string name="accessibility_shortcut_multiple_service_warning">"Натиснете двата бутона за силата на звука и ги задръжте за няколко секунди, за да включите функциите за достъпност. Това може да промени начина, по който работи устройството ви.
 
@@ -212,7 +212,13 @@
     <string name="accessibility_shortcut_warning_dialog_title">Искате ли да използвате пряк път към функцията за достъпност?</string>
     <string name="accessibility_system_action_back_label">Назад</string>
     <string name="accessibility_system_action_dismiss_notification_shade">Отхвърляне на падащия панел с известия</string>
+    <string name="accessibility_system_action_dpad_center_label">Контролен пад – център</string>
+    <string name="accessibility_system_action_dpad_down_label">Контролен пад – долу</string>
+    <string name="accessibility_system_action_dpad_left_label">Контролен пад – ляво</string>
+    <string name="accessibility_system_action_dpad_right_label">Контролен пад – дясно</string>
+    <string name="accessibility_system_action_dpad_up_label">Контролен пад – горе</string>
     <string name="accessibility_system_action_hardware_a11y_shortcut_label">Пряк път за достъпност</string>
+    <string name="accessibility_system_action_headset_hook_label">Кукичка на слушалките</string>
     <string name="accessibility_system_action_home_label">Начало</string>
     <string name="accessibility_system_action_lock_screen_label">Заключен екран</string>
     <string name="accessibility_system_action_notifications_label">Известия</string>
@@ -291,6 +297,15 @@
     <string name="app_not_found">Няма намерено приложение за извършване на това действие</string>
     <string name="app_running_notification_text">Докоснете за още информация или за да спрете приложението.</string>
     <string name="app_running_notification_title">%1$s се изпълнява</string>
+    <string name="app_streaming_blocked_message">Не може да се осъществи достъп от устройството ви %1$s. Вместо това опитайте от телефона си.</string>
+    <string name="app_streaming_blocked_message_for_fingerprint_dialog">Това приложение изисква допълнителна стъпка за сигурност. Вместо това опитайте от телефона си.</string>
+    <string name="app_streaming_blocked_message_for_permission_dialog">Понастоящем не може да се осъществи достъп от устройството ви %1$s. Вместо това опитайте от телефона си.</string>
+    <string name="app_streaming_blocked_title">%1$s не е налице</string>
+    <string name="app_streaming_blocked_title_for_camera_dialog">Няма достъп до камерата</string>
+    <string name="app_streaming_blocked_title_for_fingerprint_dialog">Продължете на телефона</string>
+    <string name="app_streaming_blocked_title_for_microphone_dialog">Микрофонът не е достъпен</string>
+    <string name="app_streaming_blocked_title_for_permission_dialog">Необходимо е разрешение</string>
+    <string name="app_streaming_blocked_title_for_settings_dialog">Настройките за телефона не са достъпни</string>
     <string name="app_suspended_default_message">В момента няма достъп до %1$s. Това се управлява от %2$s.</string>
     <string name="app_suspended_more_details">Научете повече</string>
     <string name="app_suspended_title">Няма достъп до приложението</string>
@@ -312,6 +327,7 @@
     <string name="autofill_parish">Община</string>
     <string name="autofill_picker_accessibility_title">Опции за автоматично попълване</string>
     <string name="autofill_picker_no_suggestions">Няма предложения за автоматично попълване</string>
+    <string name="autofill_picker_some_suggestions">{count,plural, =1{Едно предложение за автоматично попълване}other{# предложения за автоматично попълване}}</string>
     <string name="autofill_postal_code">Пощенски код</string>
     <string name="autofill_prefecture">Префектура</string>
     <string name="autofill_province">Провинция</string>
@@ -363,6 +379,7 @@
     <string name="biometric_or_screen_lock_dialog_default_subtitle">Използвайте биометричните си данни или опцията за заключване на екрана, за да продължите</string>
     <string name="bluetooth_a2dp_audio_route_name">Звук през Bluetooth</string>
     <string name="bluetooth_airplane_mode_toast">Функцията за Bluetooth ще остане включена по време на самолетния режим</string>
+    <string name="bugreport_countdown">{count,plural, =1{Екранната снимка за сигнала за програмна грешка ще бъде направена след # секунда.}other{Екранната снимка за сигнала за програмна грешка ще бъде направена след # секунди.}}</string>
     <string name="bugreport_message">По този начин ще се събере информация за текущото състояние на устройството ви, която да се изпрати като имейл съобщение. След стартирането на процеса ще мине известно време, докато сигналът за програмна грешка бъде готов за подаване. Моля, имайте търпение.</string>
     <string name="bugreport_option_full_summary">Използвайте тази опция, за да възпрепятствате минимално работата на системата, когато устройството не реагира, функционира твърде бавно или са ви нужни всички секции за подаване на сигнал. Не можете да въвеждате други подробности, нито да правите допълнителни екранни снимки.</string>
     <string name="bugreport_option_full_title">Пълен сигнал</string>
@@ -434,7 +451,6 @@
     <string name="conversation_single_line_name_display">%1$s:</string>
     <string name="conversation_title_fallback_group_chat">Групов разговор</string>
     <string name="conversation_title_fallback_one_to_one">Разговор</string>
-    <string name="copied">Копирано</string>
     <string name="country_detector">Инструмент за установяване на държавата</string>
     <string name="country_selection_title">Предпочитание за региона</string>
     <string name="create_contact_using">"Създаване на контакт
@@ -490,6 +506,7 @@
     <string name="deprecated_target_sdk_message">Това приложение бе създадено за по-стара версия на Android и може да не работи правилно. Опитайте да проверите за актуализации или се свържете с програмиста.</string>
     <string name="description_target_unlock_tablet">Прокарайте пръст, за да отключите.</string>
     <string name="device_ownership_relinquished">Администраторът предостави устройствотото за лична употреба</string>
+    <string name="device_policy_manager_service">Услуга за управление на правилата за устройствата</string>
     <string name="device_storage_monitor_notification_channel">Хранилище на устройството</string>
     <string name="dial_number_using">"Набиране
 с използване на %s"</string>
@@ -511,6 +528,22 @@
     <string name="dump_heap_system_text">Процесът %1$s надхвърли ограничението си от %2$s. Налице е моментна снимка на паметта, която можете да споделите. Внимавайте, защото тя може да съдържа поверителни лични данни, до които процесът има достъп, като например въведени от вас неща.</string>
     <string name="dump_heap_text">Процесът %1$s надхвърли ограничението си от %2$s. Налице е моментна снимка на паметта, която да споделите със съответния програмист. Внимавайте, защото тя може да съдържа ваши лични данни, до които приложението има достъп.</string>
     <string name="dump_heap_title">Да се сподели ли моментната снимка на паметта?</string>
+    <string name="duration_days_relative">{count,plural, =1{преди # ден}other{преди # дни}}</string>
+    <string name="duration_days_relative_future">{count,plural, =1{# ден}other{# дни}}</string>
+    <string name="duration_days_shortest">%d д</string>
+    <string name="duration_days_shortest_future">след %d д</string>
+    <string name="duration_hours_relative">{count,plural, =1{преди # час}other{преди # часа}}</string>
+    <string name="duration_hours_relative_future">{count,plural, =1{# час}other{# часа}}</string>
+    <string name="duration_hours_shortest">%d ч</string>
+    <string name="duration_hours_shortest_future">след %d ч</string>
+    <string name="duration_minutes_relative">{count,plural, =1{преди # минута}other{преди # минути}}</string>
+    <string name="duration_minutes_relative_future">{count,plural, =1{# минута}other{# минути}}</string>
+    <string name="duration_minutes_shortest">%d мин</string>
+    <string name="duration_minutes_shortest_future">след %d мин</string>
+    <string name="duration_years_relative">{count,plural, =1{преди # година}other{преди # години}}</string>
+    <string name="duration_years_relative_future">{count,plural, =1{# година}other{# години}}</string>
+    <string name="duration_years_shortest">%d г.</string>
+    <string name="duration_years_shortest_future">след %d г.</string>
     <string name="dynamic_mode_notification_channel_name">Известие с информация за режима на поредица</string>
     <string name="dynamic_mode_notification_summary">Режимът за запазване на батерията е активиран с цел удължаване на живота на батерията</string>
     <string name="dynamic_mode_notification_title">Батерията може да се изтощи преди обичайното зареждане</string>
@@ -618,6 +651,7 @@
     <string name="face_error_timeout">Опитайте отново да отключите с лице</string>
     <string name="face_error_unable_to_process">Лицето не може да се потвърди. Опитайте отново.</string>
     <string name="face_error_user_canceled">Отключването с лице е анулирано от потребителя</string>
+    <string name="face_error_vendor_unknown">Нещо се обърка. Опитайте отново.</string>
     <string name="face_icon_content_description">Икона на лице</string>
     <string name="face_name_template">Лице %d</string>
     <string name="face_or_screen_lock_app_setting_name">Използване на отключването с лице или опцията за заключване на екрана</string>
@@ -625,6 +659,7 @@
     <string name="face_recalibrate_notification_content">Докоснете, за да изтриете модела на лицето си, след което добавете лицето си отново</string>
     <string name="face_recalibrate_notification_name">Отключване с лице</string>
     <string name="face_recalibrate_notification_title">Проблем с отключването с лице</string>
+    <string name="face_sensor_privacy_enabled">За да използвате функцията „Отключване с лице“, включете <b>достъпа до камерата</b> от „Настройки > Поверителност“</string>
     <string name="face_setup_notification_content">Отключвайте телефона си, като го погледнете</string>
     <string name="face_setup_notification_title">Настройване на отключването с лице</string>
     <string name="faceunlock_multiple_failures">Максималният брой опити за отключване с лице е надвишен</string>
@@ -641,17 +676,20 @@
     <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fcComplete">Кодът за функцията се изпълни.</string>
     <string name="fcError">Има проблем с връзката или кодът за функцията е невалиден.</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
+    <string name="file_count">{count,plural, =1{{file_name} + # файл}other{{file_name} + # файла}}</string>
     <string name="find">Намиране</string>
     <string name="find_next">Търсене на следващото</string>
     <string name="find_on_page">Намиране в страницата</string>
     <string name="find_previous">Търсене на предишното</string>
     <string name="fingerprint_acquired_already_enrolled">Опитайте с друг отпечатък</string>
-    <string name="fingerprint_acquired_imager_dirty">Почистете сензора</string>
+    <string name="fingerprint_acquired_imager_dirty">Почистете сензора за отпечатъци и опитайте отново</string>
+    <string name="fingerprint_acquired_imager_dirty_alt">Почистете сензора и опитайте отново</string>
     <string name="fingerprint_acquired_immobile">Всеки път променяйте леко позицията на пръста си</string>
     <string name="fingerprint_acquired_insufficient">Отпечатъкът не бе обработен. Моля, опитайте отново.</string>
-    <string name="fingerprint_acquired_partial">Установен е частичен отпечатък</string>
+    <string name="fingerprint_acquired_partial">Натиснете добре върху сензора</string>
     <string name="fingerprint_acquired_too_bright">Твърде светло е</string>
-    <string name="fingerprint_acquired_too_fast">Задръжте пръста си малко по-дълго</string>
+    <string name="fingerprint_acquired_too_fast">Натиснете добре върху сензора</string>
     <string name="fingerprint_acquired_too_slow">Преместихте пръста си твърде бавно. Моля, опитайте отново.</string>
     <string name="fingerprint_acquired_try_adjusting">Опитайте да коригирате</string>
     <string name="fingerprint_app_setting_name">Използване на отпечатък</string>
@@ -665,10 +703,12 @@
     <string name="fingerprint_error_lockout_permanent">Твърде много опити. Сензорът за отпечатъци е деактивиран.</string>
     <string name="fingerprint_error_no_fingerprints">Няма регистрирани отпечатъци.</string>
     <string name="fingerprint_error_no_space">Не може да се настрои отпечатък</string>
+    <string name="fingerprint_error_not_match">Отпечатъкът не е разпознат</string>
     <string name="fingerprint_error_security_update_required">Сензорът е временно деактивиран.</string>
     <string name="fingerprint_error_timeout">Времето за изчакване за отпечатък изтече. Опитайте отново.</string>
     <string name="fingerprint_error_unable_to_process">Опитайте отново.</string>
     <string name="fingerprint_error_user_canceled">Операцията за удостоверяване чрез отпечатък бе анулирана от потребителя.</string>
+    <string name="fingerprint_error_vendor_unknown">Нещо се обърка. Опитайте отново.</string>
     <string name="fingerprint_name_template">Пръст %d</string>
     <string name="fingerprint_or_screen_lock_app_setting_name">Използване на отпечатък или опцията за заключване на екрана</string>
     <string name="fingerprint_or_screen_lock_dialog_default_subtitle">Използвайте отпечатъка си или опцията за заключване на екрана, за да продължите</string>
@@ -677,6 +717,7 @@
     <string name="fingerprint_recalibrate_notification_title">Сензорът за отпечатъци не може да се използва</string>
     <string name="fingerprint_setup_notification_content">Докоснете, за да добавите отпечатък</string>
     <string name="fingerprint_setup_notification_title">Настройване на още начини за отключване на телефона</string>
+    <string name="fingerprint_udfps_error_not_match">Отпечатъкът не е разпознат</string>
     <string name="fingerprints">Пръстови отпечатъци:</string>
     <string name="floating_toolbar_close_overflow_description">Затваряне на менюто при препълване</string>
     <string name="floating_toolbar_open_overflow_description">Още опции</string>
@@ -687,12 +728,18 @@
     <string name="foreground_service_tap_for_details">Докоснете за информация относно използването на батерията и преноса на данни</string>
     <string name="forward_intent_to_owner">Използвате това приложение извън служебния си потребителски профил</string>
     <string name="forward_intent_to_work">Използвате това приложение в служебния си потребителски профил</string>
-    <string name="fp_enrollment_powerbutton_intent_message">"При настройването на отпечатъка си натиснахте бутона за захранване.
+    <string name="fp_power_button_bp_message">"Натиснахте бутона за включване/изключване – това обикновено изключва екрана.
 
-Това действие обикновено изключва екрана."</string>
-    <string name="fp_enrollment_powerbutton_intent_negative_button">Отказ</string>
-    <string name="fp_enrollment_powerbutton_intent_positive_button">Изключване</string>
-    <string name="fp_enrollment_powerbutton_intent_title">Да се изключи ли екранът?</string>
+Опитайте да докоснете леко, за да потвърдите отпечатъка си."</string>
+    <string name="fp_power_button_bp_negative_button">Напред</string>
+    <string name="fp_power_button_bp_positive_button">Изключване на екрана</string>
+    <string name="fp_power_button_bp_title">Напред с потвърждаването на отпечатъка?</string>
+    <string name="fp_power_button_enrollment_message">"Натиснахте бутона за включване/изключване – това обикновено изключва екрана.
+
+Опитайте да докоснете леко, докато настройвате отпечатъка си."</string>
+    <string name="fp_power_button_enrollment_negative_button">Напред с настройв.</string>
+    <string name="fp_power_button_enrollment_positive_button">Изключване на екрана</string>
+    <string name="fp_power_button_enrollment_title">Искате ли да продължите с настройването?</string>
     <string name="gadget_host_error_inflating">Приспособлението не можа да бъде добавено.</string>
     <string name="geofencing_service">Услуга за геозониране</string>
     <string name="gigabyteShort">ГБ</string>
@@ -729,6 +776,7 @@
     <string name="granularity_label_line">ред</string>
     <string name="granularity_label_link">връзка</string>
     <string name="granularity_label_word">дума</string>
+    <string name="guest_name">Гост</string>
     <string name="hardware">Показване на вирт. клавиатура</string>
     <string name="harmful_app_warning_open_anyway">ОТВАРЯНЕ</string>
     <string name="harmful_app_warning_title">Открито е опасно приложение</string>
@@ -781,8 +829,11 @@
     <string name="immersive_cling_title">Изглед на цял екран</string>
     <string name="importance_from_person">Това е важно заради участващите хора.</string>
     <string name="importance_from_user">Зададохте важността на тези известия.</string>
+    <string name="in_progress">в ход</string>
     <string name="inputMethod">Метод на въвеждане</string>
     <string name="input_method_binding_label">Метод на въвеждане</string>
+    <string name="input_method_ime_switch_button_desc">Превключване на метода на въвеждане</string>
+    <string name="input_method_nav_back_button_desc">Назад</string>
     <string name="install_carrier_app_notification_button">Изтегляне на приложението</string>
     <string name="install_carrier_app_notification_text">Изтеглете приложението на оператора, за да активирате новата си SIM карта</string>
     <string name="install_carrier_app_notification_text_app_name">Изтеглете приложението %1$s, за да активирате новата си SIM карта</string>
@@ -868,6 +919,7 @@
     <string name="kg_reordering_delete_drop_target_text">Премахване</string>
     <string name="kg_sim_pin_instructions">Въведете ПИН кода за SIM картата</string>
     <string name="kg_sim_unlock_progress_dialog_message">SIM картата се отключва…</string>
+    <string name="kg_text_message_separator">" – "</string>
     <string name="kg_too_many_failed_password_attempts_dialog_message">"Въведохте неправилно паролата си %1$d пъти. 
 
 Опитайте отново след %2$d секунди."</string>
@@ -885,6 +937,7 @@
     <string name="language_picker_section_suggested">Предложени</string>
     <string name="language_selection_title">Добавяне на език</string>
     <string name="last_month">Последният месец</string>
+    <string name="last_num_days">{count,plural, =1{Последният # ден}other{Последните # дни}}</string>
     <string name="launchBrowserDefault">Да се стартира ли браузърът?</string>
     <string name="launch_warning_original">Първоначално бе стартирано: %1$s.</string>
     <string name="launch_warning_replace">%1$s се изпълнява.</string>
@@ -909,7 +962,7 @@
     <string name="lockscreen_access_pattern_detected">Фигурата е завършена</string>
     <string name="lockscreen_access_pattern_start">Фигурата е започната</string>
     <string name="lockscreen_carrier_default">Няма покритие</string>
-    <string name="lockscreen_emergency_call">Спешно обаждане</string>
+    <string name="lockscreen_emergency_call">Спешни случаи</string>
     <string name="lockscreen_failed_attempts_almost_at_wipe">Направихте опит да отключите телефона неправилно %1$d пъти. След още %2$d неуспешни опита ще бъдат възстановени стандартните му фабрични настройки и всички потребителски данни ще бъдат заличени.</string>
     <string name="lockscreen_failed_attempts_almost_glogin">"Начертахте неправилно фигурата си за отключване %1$d пъти. След още %2$d неуспешни опита ще бъдете помолени да отключите телефона посредством данните си за вход в Google.
 
@@ -967,6 +1020,15 @@
     <string name="lockscreen_transport_rew_description">Превъртане назад</string>
     <string name="lockscreen_transport_stop_description">Спиране</string>
     <string name="lockscreen_unlock_label">Отключване</string>
+    <string name="log_access_confirmation_allow">Разрешаване на еднократен достъп</string>
+    <string name="log_access_confirmation_body">"В регистрационните файлове за устройството се записва какво се извършва на него. Приложенията могат да използват тези регистрационни файлове, за да откриват и отстраняват проблеми.
+
+Някои регистрационни файлове за устройството може да съдържат поверителна информация, затова разрешавайте достъп до всички тях само на приложения, на които имате доверие. 
+
+Ако не разрешите на това приложение достъп до всички регистрационни файлове за устройството, то пак може да осъществява достъп до собствените си регистрационни файлове. Производителят на устройството пак може да има достъп до някои регистрационни файлове или информация на устройството ви. Научете повече"</string>
+    <string name="log_access_confirmation_deny">Забраняване</string>
+    <string name="log_access_confirmation_title">Да се разреши ли на %s достъп до всички регистрационни файлове за устройството?</string>
+    <string name="log_access_do_not_show_again">Да не се показва пак</string>
     <string name="low_internal_storage_view_text">Възможно е някои функции на системата да не работят</string>
     <string name="low_internal_storage_view_text_no_boot">За системата няма достатъчно място в хранилището. Уверете се, че имате свободни 250 МБ, и рестартирайте.</string>
     <string name="low_internal_storage_view_title">Мястото в хранилището е на изчерпване</string>
@@ -975,13 +1037,14 @@
     <string name="managed_profile_label_badge">%1$s за работа</string>
     <string name="managed_profile_label_badge_2">Втори служебен профил (%1$s)</string>
     <string name="managed_profile_label_badge_3">Трети служебен профил (%1$s)</string>
+    <string name="matches_found">{count,plural, =1{# съответствие}other{# от {total} съответствия}}</string>
     <string name="maximize_button_text">Увеличаване</string>
     <string name="me">Аз</string>
     <string name="media_route_button_content_description">Предаване</string>
     <string name="media_route_chooser_extended_settings">Настройки</string>
     <string name="media_route_chooser_searching">Търсят се устройства…</string>
     <string name="media_route_chooser_title">Свързване с устройство</string>
-    <string name="media_route_chooser_title_for_remote_display">Екран за предаване към устройството</string>
+    <string name="media_route_chooser_title_for_remote_display">Предаване на екран към устройство</string>
     <string name="media_route_controller_disconnect">Прекратяване на връзката</string>
     <string name="media_route_status_available">Налице</string>
     <string name="media_route_status_connecting">Установява се връзка...</string>
@@ -1113,8 +1176,8 @@
     <string name="mime_type_spreadsheet_ext">Електронна таблица във формат %1$s</string>
     <string name="mime_type_video">Видеоклип</string>
     <string name="mime_type_video_ext">Видеоклип във формат %1$s</string>
-    <string name="miniresolver_open_in_personal">Да се отвори ли в личния потребителски профил чрез %s?</string>
-    <string name="miniresolver_open_in_work">Да се отвори ли в служебния потребителски профил чрез %s?</string>
+    <string name="miniresolver_open_in_personal">Искате ли да отворите %s в личния си потребителски профил?</string>
+    <string name="miniresolver_open_in_work">Искате ли да отворите %s в служебния си потребителски профил?</string>
     <string name="miniresolver_use_personal_browser">Използване на личния браузър</string>
     <string name="miniresolver_use_work_browser">Използване на служебния браузър</string>
     <string name="minute">мин</string>
@@ -1136,9 +1199,11 @@
     <string name="mobile_no_internet">Мобилната мрежа няма достъп до интернет</string>
     <string name="month_day_year" formatted="false">%d %B %Y</string>
     <string name="more_item_label">Още</string>
+    <string name="mte_override_notification_message">Ефективността и стабилността могат да бъдат засегнати. Рестартирайте, за да деактивирате. Ако активирате посредством arm64.memtag.bootctl, преди това задайте none за свойството.</string>
+    <string name="mte_override_notification_title">Експерименталното разширение MTE е активирано</string>
     <string name="music_recognition_manager_service">Услуга за управление на разпознаването на музика</string>
     <string name="muted_by">%1$s заглушава някои звуци</string>
-    <string name="nas_upgrade_notification_content">Предложените действия и отговори вече се предоставят от функцията за подобрени известия. Адаптивните известия за Android вече не се поддържат.</string>
+    <string name="nas_upgrade_notification_content">Предложените действия и отговори вече се предоставят от функцията за подо­брени известия. Адаптивните известия за Android вече не се поддържат.</string>
     <string name="nas_upgrade_notification_disable_action">Изключване</string>
     <string name="nas_upgrade_notification_enable_action">OK</string>
     <string name="nas_upgrade_notification_learn_more_action">Научете повече</string>
@@ -1171,12 +1236,14 @@
     <string name="noon">12:00 ч.</string>
     <string name="not_checked">без отметка</string>
     <string name="not_selected">не е избрано</string>
+    <string name="notification_action_check_bg_apps">Проверете активните приложения</string>
     <string name="notification_alerted_content_description">Сигналът е изпратен</string>
     <string name="notification_app_name_settings">Настройки</string>
     <string name="notification_app_name_system">Система</string>
     <string name="notification_appops_camera_active">Камера</string>
     <string name="notification_appops_microphone_active">Микрофон</string>
     <string name="notification_appops_overlay_active">се показва върху други приложения на екрана</string>
+    <string name="notification_channel_abusive_bg_apps">Активност на заден план</string>
     <string name="notification_channel_accessibility_magnification">Увеличение</string>
     <string name="notification_channel_accessibility_security_policy">Използване на услугите за достъпност</string>
     <string name="notification_channel_account">Състояние на профила</string>
@@ -1208,6 +1275,8 @@
     <string name="notification_channel_voice_mail">Съобщения в гласовата поща</string>
     <string name="notification_channel_vpn">Състояние на VPN</string>
     <string name="notification_channel_wfc">Обаждания през Wi-Fi</string>
+    <string name="notification_content_abusive_bg_apps">%1$s работи на заден план. Докоснете, за да управлявате използването на батерията.</string>
+    <string name="notification_content_long_running_fgs">%1$s може да засегне живота на батерията. Докоснете за преглед на активните приложения.</string>
     <string name="notification_feedback_indicator">Предоставяне на отзиви</string>
     <string name="notification_feedback_indicator_alerted">Това известие бе повишено до основно. Докоснете, за да изпратите отзиви.</string>
     <string name="notification_feedback_indicator_demoted">Това известие бе класирано по-ниско. Докоснете, за да изпратите отзиви.</string>
@@ -1216,10 +1285,13 @@
     <string name="notification_hidden_text">Ново известие</string>
     <string name="notification_history_title_placeholder">Персонализирано известие за приложение</string>
     <string name="notification_listener_binding_label">Слушател на известия</string>
+    <string name="notification_messaging_title_template">„%1$s“: %2$s</string>
     <string name="notification_phishing_alert_content_description">Сигнал за фишинг</string>
     <string name="notification_ranker_binding_label">Услуга за класифициране на известията</string>
     <string name="notification_reply_button_accessibility">Отговор</string>
     <string name="notification_title">Грешка при влизането за %1$s</string>
+    <string name="notification_title_abusive_bg_apps">Приложение изтощава батерията</string>
+    <string name="notification_title_long_running_fgs">Приложение е все още активно</string>
     <string name="notification_verified_content_description">Потвърдено</string>
     <string name="notification_work_profile_content_description">Служебен потребителски профил</string>
     <string name="now_string_shortest">сега</string>
@@ -1287,7 +1359,8 @@
     <string name="permdesc_bluetooth_advertise">Разрешава на приложението да рекламира на устройства с Bluetooth в близост</string>
     <string name="permdesc_bluetooth_connect">Дава възможност на приложението да се свързва със сдвоените устройства с Bluetooth</string>
     <string name="permdesc_bluetooth_scan">Дава възможност на приложението да открива устройства с Bluetooth в близост и да се сдвоява с тях</string>
-    <string name="permdesc_bodySensors">Разрешава на приложението да осъществява достъп до данните от сензорите, които следят физическото ви състояние, като например сърдечния ви ритъм.</string>
+    <string name="permdesc_bodySensors">Разрешава на приложението да осъществява достъп до данните от сензорите за тяло, като например тези за сърдечен ритъм, температура и процент на кислорода в кръвта, докато то се използва.</string>
+    <string name="permdesc_bodySensors_background">Разрешава на приложението да осъществява достъп до данните от сензорите за тяло, като например тези за сърдечен ритъм, температура и процент на кислорода в кръвта, докато то се изпълнява на заден план.</string>
     <string name="permdesc_broadcastSticky">Разрешава на приложението да изпраща оставащи излъчвания, които се запазват след края на излъчването. Прекалената употреба може да причини бавна или нестабилна работа на телефона, като го накара да използва твърде много памет.</string>
     <string name="permdesc_callCompanionApp">Разрешава на приложението да вижда и управлява текущите обаждания на устройството. Това включва различна информация, като например номерата и състоянието на обажданията.</string>
     <string name="permdesc_callPhone">Разрешава на приложението да се обажда без ваша намеса до телефонни номера, което може да доведе до неочаквано таксуване или обаждания. Обърнете внимание, че това не му позволява да извършва обаждания до спешните служби. Злонамерените приложения могат да ви въвлекат в разходи, като извършват обаждания без потвърждение от ваша страна.</string>
@@ -1324,17 +1397,23 @@
     <string name="permdesc_mediaLocation">Разрешава на приложението да чете местоположенията от мултимедийната ви колекция.</string>
     <string name="permdesc_modifyAudioSettings">Разрешава на приложението да променя глобалните настройки за звука, като например силата и това, кой високоговорител се използва за изход.</string>
     <string name="permdesc_modifyNetworkAccounting">Разрешава на приложението да променя това как употребата на мрежа се отчита спрямо приложенията. Не е предназначено за нормални приложения.</string>
+    <string name="permdesc_nearby_wifi_devices">Разрешава на приложението да рекламира, да се свързва и да определя относителната позиция на устройствата с Wi-Fi в близост</string>
     <string name="permdesc_nfc">Разрешава на приложението да комуникира с маркери, карти и четци, ползващи комуникация в близкото поле (NFC).</string>
     <string name="permdesc_persistentActivity">Разрешава на приложението да прави части от себе си постоянни в паметта. Това може да ограничи наличната за другите приложения, забавяйки телефона.</string>
+    <string name="permdesc_postNotification">Разрешава на приложението да показва известия</string>
     <string name="permdesc_preferredPaymentInfo">Дава възможност на приложението да получава информация за предпочитаната услуга за плащане чрез NFC, като например регистрирани помощни средства и местоназначение.</string>
     <string name="permdesc_processOutgoingCalls">Разрешава на приложението да вижда набирания номер по време на изходящо обаждане и му дава възможност да пренасочи обаждането към друг номер или да го прекрати изцяло.</string>
     <string name="permdesc_queryAllPackages">Разрешава на приложението да вижда всички инсталирани пакети.</string>
+    <string name="permdesc_readBasicPhoneState">Разрешава на приложението да осъществява достъп до основните телефонни функции на устройството.</string>
     <string name="permdesc_readCalendar">Това приложение може да чете всички съхранявани на телефона ви събития в календара и да споделя или запазва данни в календара ви.</string>
     <string name="permdesc_readCallLog">Това приложение може да чете историята на обажданията ви.</string>
     <string name="permdesc_readCellBroadcasts">Разрешава на приложението да чете съобщения с клетъчно излъчване, получени от устройството ви. Сигналите с клетъчно излъчване се получават на някои местоположения, за да ви предупредят за спешни ситуации. Злонамерените приложения могат да възпрепятстват изпълнението или работата на устройството ви при получаване на такова спешно излъчване.</string>
     <string name="permdesc_readContacts">Разрешава на приложението да чете данните за съхраняваните в телефона ви контакти. Приложенията ще имат достъп и до профилите на телефона ви, в които са създадени контакти. Това може да включва и профилите, създадени от инсталирани от вас приложения. Така приложенията могат да запазват данните за контактите ви, а злонамерените приложения – да ги споделят без ваше знание.</string>
     <string name="permdesc_readHistoryBookmarks">Разрешава на приложението да чете историята на всички посетени от браузъра URL адреси и всички негови отметки. Забележка: Възможно е браузъри на трети страни или други приложения с възможности за сърфиране в мрежата да не могат да наложат ограниченията на това разрешение.</string>
     <string name="permdesc_readInstallSessions">Разрешава на приложението да чете сесии за инсталиране. Това му позволява да вижда подробности за активните инсталирания на пакети.</string>
+    <string name="permdesc_readMediaAudio">Разрешава на приложението да чете аудиофайлове от споделеното ви хранилище.</string>
+    <string name="permdesc_readMediaImages">Разрешава на приложението да чете графични файлове от споделеното ви хранилище.</string>
+    <string name="permdesc_readMediaVideo">Разрешава на приложението да чете видеофайлове от споделеното ви хранилище.</string>
     <string name="permdesc_readNetworkUsageHistory">Разрешава на приложението да чете употребата на данни за конкретни мрежи и приложения до момента.</string>
     <string name="permdesc_readPhoneNumbers">Разрешава на приложението да осъществява достъп до телефонните номера на устройството.</string>
     <string name="permdesc_readPhoneState">Разрешава на приложението достъп до телефонните функции на устройството. Това разрешение позволява на приложението да определя телефонния номер и идентификационния номер на устройството, дали се води разговор и отдалечения номер, до който е установена връзка с обаждането.</string>
@@ -1366,6 +1445,8 @@
     <string name="permdesc_setWallpaper">Разрешава на приложението да задава системния тапет.</string>
     <string name="permdesc_setWallpaperHints">Разрешава на приложението да задава подсказките за размерите на системния тапет.</string>
     <string name="permdesc_sim_communication">Разрешава на приложението да изпраща команди до SIM картата. Това е много опасно.</string>
+    <string name="permdesc_startReviewPermissionDecisions">Дава възможност на притежателя да стартира екрана с цел преглед на решенията за разрешенията. Нормалните приложения би трябвало никога да не се нуждаят от това.</string>
+    <string name="permdesc_startViewAppFeatures">Разрешава на притежателя да стартира прегледа на информацията за функциите на дадено приложение.</string>
     <string name="permdesc_startViewPermissionUsage">Разрешава на притежателя да стартира прегледа на използваните разрешения за дадено приложение. Нормалните приложения би трябвало никога да не се нуждаят от това.</string>
     <string name="permdesc_statusBar">Разрешава на приложението да деактивира лентата на състоянието или да добавя и премахва системни икони.</string>
     <string name="permdesc_statusBarService">Разрешава на приложението да бъде лентата на състоянието.</string>
@@ -1398,10 +1479,13 @@
     <string name="permgroupdesc_location">получи достъп до местоположението на това устройство</string>
     <string name="permgroupdesc_microphone">записва звук</string>
     <string name="permgroupdesc_nearby_devices">откриване на устройства в близост и свързване с тях</string>
+    <string name="permgroupdesc_notifications">показване на известията</string>
     <string name="permgroupdesc_phone">да извършва телефонни обаждания и да ги управлява</string>
+    <string name="permgroupdesc_readMediaAural">достъп до музиката и аудиото на устройството ви</string>
+    <string name="permgroupdesc_readMediaVisual">достъп до снимките и видеоклиповете на устройството ви</string>
     <string name="permgroupdesc_sensors">достъп до сензорните данни за жизнените ви показатели</string>
     <string name="permgroupdesc_sms">да изпраща и преглежда SMS съобщения</string>
-    <string name="permgroupdesc_storage">да има достъп до снимките, мултимедията и файловете на устройството ви</string>
+    <string name="permgroupdesc_storage">достъп до файловете на устройството ви</string>
     <string name="permgrouplab_activityRecognition">Физическа активност</string>
     <string name="permgrouplab_calendar">Календар</string>
     <string name="permgrouplab_calllog">Списъци с обажданията</string>
@@ -1410,10 +1494,13 @@
     <string name="permgrouplab_location">Местоположение</string>
     <string name="permgrouplab_microphone">Микрофон</string>
     <string name="permgrouplab_nearby_devices">Устройства в близост</string>
+    <string name="permgrouplab_notifications">Известия</string>
     <string name="permgrouplab_phone">Телефон</string>
+    <string name="permgrouplab_readMediaAural">Музика и аудио</string>
+    <string name="permgrouplab_readMediaVisual">Снимки и видеоклипове</string>
     <string name="permgrouplab_sensors">Сензори за тяло</string>
     <string name="permgrouplab_sms">SMS</string>
-    <string name="permgrouplab_storage">Файлове и мултимедия</string>
+    <string name="permgrouplab_storage">Файлове</string>
     <string name="permission_request_notification_for_app_with_subtitle">"Поискано е разрешение от %1$s
 за профила %2$s."</string>
     <string name="permission_request_notification_title">Иска се разрешение</string>
@@ -1450,7 +1537,8 @@
     <string name="permlab_bluetooth_advertise">рекламиране на устройства с Bluetooth в близост</string>
     <string name="permlab_bluetooth_connect">свързване със сдвоените устройства с Bluetooth</string>
     <string name="permlab_bluetooth_scan">откриване и сдвояване с у-ва с Bluetooth в близост</string>
-    <string name="permlab_bodySensors">достъп до телесните сензори (напр. пулсомери)</string>
+    <string name="permlab_bodySensors">Достъп до данните от сензорите за тяло (напр. за сърдечен ритъм) при използване</string>
+    <string name="permlab_bodySensors_background">Достъп до данните от сензорите за тяло (напр. за сърдечен ритъм) на заден план</string>
     <string name="permlab_broadcastSticky">изпращане на оставащи излъчвания</string>
     <string name="permlab_callCompanionApp">вижда и управлява обажданията чрез системата.</string>
     <string name="permlab_callPhone">директно обаждане до телефонни номера</string>
@@ -1487,17 +1575,23 @@
     <string name="permlab_mediaLocation">да чете местоположенията от мултимедийната ви колекция</string>
     <string name="permlab_modifyAudioSettings">промяна на настройките ви за звука</string>
     <string name="permlab_modifyNetworkAccounting">промяна на отчетността на употребата на мрежа</string>
+    <string name="permlab_nearby_wifi_devices">взаимодействие с устройствата с Wi-Fi в близост</string>
     <string name="permlab_nfc">контролиране на комуникацията в близкото поле</string>
     <string name="permlab_persistentActivity">задаване на постоянно изпълнение на приложението</string>
+    <string name="permlab_postNotification">показване на известията</string>
     <string name="permlab_preferredPaymentInfo">Информация за предпочитаната услуга за плащане чрез NFC</string>
     <string name="permlab_processOutgoingCalls">пренасочване на изходящите обаждания</string>
     <string name="permlab_queryAllPackages">заявка за всички пакети</string>
+    <string name="permlab_readBasicPhoneState">четене на основното телефонно състояние и идентичност</string>
     <string name="permlab_readCalendar">Четене на събития и подробности от календара</string>
     <string name="permlab_readCallLog">четене на списъка с обаждания</string>
     <string name="permlab_readCellBroadcasts">четене на съобщения с клетъчно излъчване</string>
     <string name="permlab_readContacts">четене на контактите ви</string>
     <string name="permlab_readHistoryBookmarks">четене на вашите отметки и история в мрежата</string>
     <string name="permlab_readInstallSessions">четене на сесии за инсталиране</string>
+    <string name="permlab_readMediaAudio">да чете аудиофайлове от споделеното хранилище</string>
+    <string name="permlab_readMediaImages">да чете графични файлове от споделеното хранилище</string>
+    <string name="permlab_readMediaVideo">да чете видеофайлове от споделеното хранилище</string>
     <string name="permlab_readNetworkUsageHistory">четене на употребата на мрежата до момента</string>
     <string name="permlab_readPhoneNumbers">четене на телефонните номера</string>
     <string name="permlab_readPhoneState">четене на състоянието и идентификационните данни на телефона</string>
@@ -1529,6 +1623,8 @@
     <string name="permlab_setWallpaper">задаване на тапет</string>
     <string name="permlab_setWallpaperHints">коригиране на размера на тапета ви</string>
     <string name="permlab_sim_communication">изпращане на команди до SIM картата</string>
+    <string name="permlab_startReviewPermissionDecisions">стартиране на прегледа на решенията за разрешенията</string>
+    <string name="permlab_startViewAppFeatures">стартиране на прегледа на функциите на приложението</string>
     <string name="permlab_startViewPermissionUsage">стартиране на прегледа на използваните разрешения</string>
     <string name="permlab_statusBar">деактивиране или промяна на лентата на състоянието</string>
     <string name="permlab_statusBarService">изпълняване на ролята на лента на състоянието</string>
@@ -1653,7 +1749,7 @@
     <string name="relationTypeReferredBy">Препоръчан/а от</string>
     <string name="relationTypeRelative">Роднина</string>
     <string name="relationTypeSister">Сестра</string>
-    <string name="relationTypeSpouse">Съпруг/а</string>
+    <string name="relationTypeSpouse">Съпруг(а)</string>
     <string name="relative_time">%1$s, %2$s</string>
     <string name="replace">Замяна...</string>
     <string name="report">Подаване на сигнал</string>
@@ -1681,6 +1777,10 @@
     <string name="restr_pin_error_too_short">ПИН кодът е твърде кратък. Трябва да е поне 4 цифри.</string>
     <string name="restr_pin_incorrect">Неправилно</string>
     <string name="restr_pin_try_later">Опитайте отново по-късно</string>
+    <string name="review_notification_settings_dismiss">Отхвърляне</string>
+    <string name="review_notification_settings_remind_me_action">Напомняне по-късно</string>
+    <string name="review_notification_settings_text">От Android 13 инсталираните от вас приложения трябва да получат разрешението ви, за да изпращат известия. Докоснете, за да промените това разрешение за съществуващите приложения.</string>
+    <string name="review_notification_settings_title">Преглед на настройките за известия</string>
     <string name="revoke">Отмяна</string>
     <string name="ringtone_default">Стандартна мелодия</string>
     <string name="ringtone_default_with_actual">По подразбиране (%1$s)</string>
@@ -1817,6 +1917,7 @@
     <string name="ssl_ca_cert_noti_by_administrator">От администратора на служебния ви потребителски профил</string>
     <string name="ssl_ca_cert_noti_by_unknown">От неизвестна трета страна</string>
     <string name="ssl_ca_cert_noti_managed">От %s</string>
+    <string name="ssl_ca_cert_warning">{count,plural, =1{Сертифициращият орган е инсталиран}other{Сертифициращите органи са инсталирани}}</string>
     <string name="ssl_certificate">Сертификат за сигурност</string>
     <string name="ssl_certificate_is_valid">Този сертификат е валиден.</string>
     <string name="stk_cc_ss_to_dial">SS заявката е променена на обикновено обаждане</string>
@@ -1834,6 +1935,7 @@
     <string name="storage_usb_drive">USB устройство</string>
     <string name="storage_usb_drive_label">USB устройство от %s</string>
     <string name="submit">Изпращане</string>
+    <string name="supervised_user_creation_label">Добавяне на контролиран потребител</string>
     <string name="suspended_widget_accessibility">%1$s: Деактивирано</string>
     <string name="sync_binding_label">Синхронизиране</string>
     <string name="sync_do_nothing">Да не се прави нищо засега</string>
@@ -1843,6 +1945,7 @@
     <string name="sync_undo_deletes">Отмяна на изтриванията</string>
     <string name="system_error_manufacturer">Възникна вътрешен проблем с устройството ви. За подробности се свържете с производителя.</string>
     <string name="system_error_wipe_data">Възникна вътрешен проблем с устройството ви. То може да е нестабилно, докато не възстановите фабричните настройки.</string>
+    <string name="system_locale_title">Стандартно за системата</string>
     <string name="taking_remote_bugreport_notification_title">Сигналът за програмна грешка се извлича…</string>
     <string name="terabyteShort">ТБ</string>
     <string name="test_harness_mode_notification_message">Възстановете фабричните настройки, за да деактивирате режима за тестова среда.</string>
@@ -1917,6 +2020,7 @@
     <string name="user_switched">Текущ потребител %1$s.</string>
     <string name="user_switching_message">Превключва се към: %1$s…</string>
     <string name="validity_period">Валидност:</string>
+    <string name="vdm_camera_access_denied">Няма достъп до камерата на телефона от вашия %1$s</string>
     <string name="view_and_control_notification_content">%s може да преглежда и управлява съдържанието на екрана ви. Докоснете за преглед.</string>
     <string name="view_and_control_notification_title">Проверете настройките за достъп</string>
     <string name="volume_alarm">Сила на звука на будилника</string>
@@ -2018,9 +2122,18 @@
     <string name="zen_mode_default_weekends_name">Събота и неделя</string>
     <string name="zen_mode_default_weeknights_name">Делнична нощ</string>
     <string name="zen_mode_downtime_feature_name">Почивка</string>
+    <string name="zen_mode_duration_hours">{count,plural, =1{За 1 час}other{За # часа}}</string>
+    <string name="zen_mode_duration_hours_short">{count,plural, =1{За 1 ч}other{За # ч}}</string>
+    <string name="zen_mode_duration_hours_summary">{count,plural, =1{За 1 час (до {formattedTime})}other{За # часа (до {formattedTime})}}</string>
+    <string name="zen_mode_duration_hours_summary_short">{count,plural, =1{За 1 ч (до {formattedTime})}other{За # ч (до {formattedTime})}}</string>
+    <string name="zen_mode_duration_minutes">{count,plural, =1{За една минута}other{За # минути}}</string>
+    <string name="zen_mode_duration_minutes_short">{count,plural, =1{За 1 мин}other{За # мин}}</string>
+    <string name="zen_mode_duration_minutes_summary">{count,plural, =1{За една минута (до {formattedTime})}other{За # минути (до {formattedTime})}}</string>
+    <string name="zen_mode_duration_minutes_summary_short">{count,plural, =1{За 1 мин (до {formattedTime})}other{За # мин (до {formattedTime})}}</string>
     <string name="zen_mode_feature_name">Не безпокойте</string>
     <string name="zen_mode_forever">До изключване</string>
     <string name="zen_mode_forever_dnd">Докато не изключите „Не безпокойте“</string>
+    <string name="zen_mode_rule_name_combination">%1$s/%2$s</string>
     <string name="zen_mode_until">До %1$s</string>
     <string name="zen_mode_until_next_day">До %1$s</string>
     <string name="zen_upgrade_notification_content">Докоснете, за да проверите какво е блокирано.</string>

@@ -259,6 +259,8 @@ dd/MM"</string>
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_cancel">Отказ</string>
+    <string name="mtrl_picker_confirm">OK</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -285,6 +287,8 @@ dd/MM"</string>
     <string name="mtrl_picker_toggle_to_day_selection">Докоснете, за да превключите към избиране на ден</string>
     <string name="mtrl_picker_toggle_to_text_input_mode">Превключване към режим за въвеждане на текст</string>
     <string name="mtrl_picker_toggle_to_year_selection">Докоснете, за да превключите към избиране на година</string>
+    <string name="mtrl_timepicker_cancel">Отказ</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
     <string name="my_style_title">Моята тема</string>
     <string name="night">Вечер</string>
     <string name="noon">Обед</string>
@@ -323,6 +327,8 @@ dd/MM"</string>
     <string name="select_notification_animation_style">Изберете специален ефект</string>
     <string name="select_notification_notify_style">Изберете ефект за известието</string>
     <string name="send">Изпращане</string>
+    <string name="settings_view_btn_check_off">Изкл</string>
+    <string name="settings_view_btn_check_on">Вкл</string>
     <string name="share">Споделяне</string>
     <string name="share_to_community">Споделяне в Xiaomi Community</string>
     <string name="show_battery">Показвай състоянието на батерията</string>
@@ -337,6 +343,7 @@ dd/MM"</string>
 прекрасно предстои"</string>
     <string name="standard_clock_panel">Стандартен</string>
     <string name="standard_style">Стандартен</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">Брояча на стъпки е предоставен от Xiaomi Здраве. За да можете да продължите, приемете правилата и условията за ползване на Xiaomi Здраве.</string>
     <string name="step_component_info_desc">Брояча на стъпки ще се превърне в трофей при достигане на целта. Брояча на стъпки е предоставен от Xiaomi Здраве.</string>
     <string name="step_component_info_tip">Брояча на стъпки е предоставен от Xiaomi Здраве. За да можете да продължите, инсталирайте или обновете Xiaomi Здраве и приемете правилата и условията за ползване.</string>

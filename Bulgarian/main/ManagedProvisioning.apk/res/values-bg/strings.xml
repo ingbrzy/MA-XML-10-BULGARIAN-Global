@@ -27,7 +27,7 @@
     <string name="abc_shareactionprovider_share_with">Споделяне със:</string>
     <string name="abc_shareactionprovider_share_with_application">Споделяне със: %s</string>
     <string name="abc_toolbar_collapse_description">Свиване</string>
-    <string name="accept_and_continue">Приемам и продълж.</string>
+    <string name="accept_and_continue">Приемам и продължавам</string>
     <string name="access_links">Достъп до връзки</string>
     <string name="access_list_of_links">Достъп до списък с връзки</string>
     <string name="access_terms">Общи условия: Достъп</string>
@@ -36,9 +36,7 @@
     <string name="admin_has_ability_to_monitor_device">"Системният ви администратор може да наблюдава и управлява настройките, корпоративния достъп, приложенията, разрешенията и данните, свързани с това устройство, включително активността ви в мрежата, както и информацията за местоположението на устройството ви, историята на обажданията и тази на търсенията на контакти.
 
 Обърнете се към системния си администратор за повече информация, включително относно правилата за поверителност на организацията ви."</string>
-    <string name="admin_has_ability_to_monitor_profile">"Системният ви администратор може да наблюдава и управлява настройките, корпоративния достъп, приложенията, разрешенията и данните, свързани с този потребителски профил, включително активността ви в мрежата, както и информацията за местоположението на устройството ви, историята на обажданията и тази на търсенията на контакти.
-
-Обърнете се към системния си администратор за повече информация, включително относно правилата за поверителност на организацията ви."</string>
+    <string name="admin_has_ability_to_monitor_profile">Системният ви администратор може да наблюдава и управлява настройките, корпоративния достъп, приложенията, разрешенията, данните и активността в мрежата, свързана с този потребителски профил, както и историята на обажданията и тази на търсенията на контакти. Обърнете се към системния си администратор за повече информация, включително относно правилата за поверителност на организацията ви.</string>
     <string name="app_label">Настройване на служебен потребителски профил</string>
     <string name="back">Назад</string>
     <string name="bottomsheet_action_expand_halfway">Разгъване наполовина</string>
@@ -55,18 +53,6 @@
     <string name="cant_replace_or_remove_work_profile">Служебният потребителски профил не може да бъде заменен или премахнат</string>
     <string name="cant_set_up_device">Устройството не може да се настрои</string>
     <string name="cant_set_up_profile">Потребителският профил не може да се настрои</string>
-    <string name="car_ui_alert_dialog_default_button">Затваряне</string>
-    <string name="car_ui_preference_switch_off">Изкл.</string>
-    <string name="car_ui_preference_switch_on">Вкл.</string>
-    <string name="car_ui_restricted_while_driving">Функцията не е налице по време на шофиране</string>
-    <string name="car_ui_scrollbar_page_down_button">Превъртане надолу</string>
-    <string name="car_ui_scrollbar_page_up_button">Превъртане нагоре</string>
-    <string name="car_ui_scrolling_limited_message">Превъртането е ограничено при шофиране</string>
-    <string name="car_ui_toolbar_default_search_hint">Търсете…</string>
-    <string name="car_ui_toolbar_menu_item_overflow_title">Препълване</string>
-    <string name="car_ui_toolbar_menu_item_search_title">Търсене</string>
-    <string name="car_ui_toolbar_menu_item_settings_title">Настройки</string>
-    <string name="car_ui_toolbar_nav_icon_content_description">Назад</string>
     <string name="change_device_launcher">Промяна на стартовия панел на устройството</string>
     <string name="character_counter_content_description">Въведени знаци: %1$d от %2$d</string>
     <string name="character_counter_overflowed_content_description">Максималният брой знаци е надхвърлен с(ъс) %1$d от %2$d</string>
@@ -86,7 +72,6 @@
     <string name="cope_provisioning_step_2_header">Личните приложения се съхраняват отделно и са скрити от служебните</string>
     <string name="cope_provisioning_step_3_header">Системният администратор може да управлява устройството и да блокира определени приложения</string>
     <string name="cope_provisioning_summary">Служебните приложения се съхраняват в служебния ви потребителски профил и се управляват от системния администратор. Личните приложения се съхраняват отделно и са скрити от служебните. Системният ви администратор може да управлява това устройство и да блокира определени приложения.</string>
-    <string name="copy">Копиране</string>
     <string name="copying_certs">Сертификатите от сертиф. органи се настройват</string>
     <string name="couldnt_set_up_device">Устройството не можа да се настрои. За помощ се обърнете към системния си администратор.</string>
     <string name="default_managed_profile_name">Служебен потребителски профил</string>
@@ -113,9 +98,11 @@
     <string name="error_icon_content_description">Грешка</string>
     <string name="error_installation_failed">Приложението за администриране не можа да се инсталира</string>
     <string name="error_package_invalid">Приложението за администриране не може да се използва. В него липсват компоненти или то е повредено. За помощ се обърнете към системния си администратор.</string>
+    <string name="error_role_holder_download_install_failed">Опитайте отново по-късно или помолете системния си администратор за помощ</string>
+    <string name="error_role_holder_hash_mismatch">Устройството не може да бъде настроено. Свържете се със системния си администратор и съобщете за „Невалидна контролна сума“.</string>
+    <string name="error_role_holder_package_invalid">Устройството не може да бъде настроено. Свържете се със системния си администратор и съобщете за „Липсващи или повредени компоненти“.</string>
     <string name="error_wifi">Не можа да се установи връзка с Wi-Fi мрежата</string>
     <string name="expand">Разгъване</string>
-    <string name="expand_button_title">Разширени</string>
     <string name="exposed_dropdown_menu_content_description">Показване на падащото меню</string>
     <string name="financed_device_screen_header">Това устройство е предоставено от %s</string>
     <string name="financed_make_payments_subheader_description">%1$s може да инсталира приложението %2$s, за да можете да плащате вноските за това устройство.</string>
@@ -177,6 +164,7 @@
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -205,14 +193,12 @@
     <string name="mtrl_picker_toggle_to_year_selection">Докоснете, за да превключите към избиране на година</string>
     <string name="navigation_button_description">Придвижване нагоре</string>
     <string name="next">Напред</string>
-    <string name="not_set">Не е зададено</string>
     <string name="ok_setup">OK</string>
     <string name="one_place_for_work_apps">Едно място за служебните приложения</string>
     <string name="opening_paragraph_delete_profile">Вече имате служебен потребителски профил. Той се управлява посредством следното приложение:</string>
     <string name="organization_admin">Системен администратор</string>
     <string name="password_toggle_content_description">Показване на паролата</string>
     <string name="pick_launcher">OK</string>
-    <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="profile_benefits_description">С използването на служебен потребителски профил можете да отделите служебните от личните данни</string>
     <string name="profile_owner_cancel_cancel">Не</string>
     <string name="profile_owner_cancel_message">Да се спре ли настройването?</string>
@@ -232,6 +218,7 @@
     <string name="section_content">Съдържание на секцията „%1$s“: %2$s</string>
     <string name="section_heading">Заглавие на секцията „%1$s“.</string>
     <string name="set_up_your_device">Настройване на устройството ви</string>
+    <string name="setting_up">Настройва се…</string>
     <string name="setting_up_workspace">Служебният потребителски профил се настройва…</string>
     <string name="setup_device">Настройване на устройството ви</string>
     <string name="setup_device_encryption">Настройване на устройството ви. Шифроване</string>
@@ -247,7 +234,6 @@
     <string name="something_went_wrong">Нещо се обърка</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_setup_reset_device_question">Искате ли да спрете настройването и да възстановите фабричните настройки на устройството?</string>
-    <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sure_you_want_to_delete_profile">Ако продължите, всички приложения и данни в този потребителски профил ще бъдат изтрити.</string>
     <string name="take_a_few_minutes">Това може да отнеме няколко минути</string>
     <string name="terms">Условия</string>
@@ -258,8 +244,6 @@
     <string name="url_error">Тази връзка не може да се покаже.</string>
     <string name="user_consent_msg">Приемам</string>
     <string name="user_setup_incomplete">Настройването на потребителя не е завършено</string>
-    <string name="v7_preference_off">ИЗКЛ.</string>
-    <string name="v7_preference_on">ВКЛ.</string>
     <string name="view_terms">Преглед на условията</string>
     <string name="work_profile_cant_be_added_contact_admin">Не можете да добавите служебен потребителски профил към това устройство. Ако имате въпроси, обърнете се към системния си администратор.</string>
     <string name="work_profile_description">Служебните ви приложения ще бъдат съхранявани в този потребителски профил и ще бъдат управлявани от организацията ви</string>

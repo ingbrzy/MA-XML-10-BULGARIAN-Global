@@ -168,6 +168,10 @@
         <item quantity="other">%d избрани елементи</item>
         <item quantity="one">%d избран елемент</item>
     </plurals>
+    <plurals name="notification_missedCallsMsg">
+        <item quantity="other">%d пропуснати повиквания</item>
+        <item quantity="one">%d пропуснато повикване</item>
+    </plurals>
     <plurals name="numSelectedSimContacts">
         <item quantity="other">%1$d избрани</item>
         <item quantity="one">%1$d избран</item>

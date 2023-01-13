@@ -58,6 +58,7 @@
     <string name="dual_app_title">Клонирани приложения</string>
     <string name="dual_app_words">Всеки профил заслужава собствено приложение</string>
     <string name="early_morning">Сутрин</string>
+    <string name="empty">" "</string>
     <string name="eras_ad">н.е.</string>
     <string name="eras_bc">пр.Хр.</string>
     <string name="evening">Следобед</string>
@@ -148,14 +149,16 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
-    <string name="free_send_net_booster">Безплатен Мрежов ускорител</string>
-    <string name="free_send_net_booster_busniess">Вземете безплатно Xunlei ускорител</string>
-    <string name="free_send_net_booster_busniess_tip">Натиснете за получаване</string>
-    <string name="free_send_net_booster_tip">Насладете се на гладка игра с безплатния мрежов ускорител.</string>
+    <string name="free_send_net_booster">Изпробвайте Game Turbo безплатно</string>
+    <string name="free_send_net_booster_busniess">Изпробвайте Game Turbo безплатно</string>
+    <string name="free_send_net_booster_busniess_tip">Подсилете преживяването си по време на игра и спечелете тапет за играта. Офертата е валидна само днес!</string>
+    <string name="free_send_net_booster_tip">Подобрете преживяването си по време на игра и спечелете Xiaomi устройство!</string>
     <string name="friday">Петък</string>
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
     <string name="game_booster">Подобряване бързината при игри</string>
+    <string name="gamebooster_dialog_recover">Подновяване</string>
+    <string name="gamebooster_dialog_start_booster">Начало</string>
     <string name="gamebooster_network_dialog_message">Позволявате ли на \"Сигурност\" да се свърже с интернет, за да използвате всички функционалности на \"Турбо за игри\"?</string>
     <string name="gamebooster_network_dialog_message_pad">Позволявате ли на Сигурност да се свърже с интернет, за да можете да използвате всички функции на Game Turbo?</string>
     <string name="gamebooster_network_dialog_title">Някои функционалности не са достъпни.</string>
@@ -319,7 +322,7 @@
     <string name="morning">Сутрин</string>
     <string name="net_booster_expire_notification">Сесията на Мрежовия ускорител е към края си</string>
     <string name="net_booster_overdue_notification">Сесията на Мрежовия ускорител е към края си</string>
-    <string name="net_booster_overdue_notification_tip">Сесията на Мрежовия ускорител ще приключи скоро. Да се поднови ли?</string>
+    <string name="net_booster_overdue_notification_tip">Сесията за повишаване на скоростта на мрежата приключи. Възможно е да започнете да изпитвате забавяне на мрежата. Желаете ли да подновите сесията сега?</string>
     <string name="network_not_available">Не мога да се свържа с мрежата</string>
     <string name="night">Вечер</string>
     <string name="no_network">Няма връзка с мрежата</string>
@@ -330,7 +333,9 @@
     <string name="open_browser">Отваряне в браузъра</string>
     <string name="pc_activity_title">Оптимизирайте батерията</string>
     <string name="pm">PM</string>
-    <string name="pm_lable_name">За административния достъп</string>
+    <string name="pm_lable_name">За root достъпа</string>
+    <string name="power_center_battery_duration_screen_on">Оставащо екранно време</string>
+    <string name="power_main_battery_last_hour_minute_screen_on">Оставащо екранно време: %1$s %2$s</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="privacy_declare_dialog_title">Правила за ползване</string>
     <string name="privacy_prompt_traffic_purchase_message">Вашия телефонен номер и данни за оператора ще бъдат изпратени до сървърите на Xiaomi за получаване на възможните опции за поръчка на мобилни данни.</string>
@@ -348,6 +353,7 @@
     <string name="size_peta_byte">ПБ</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">ТБ</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>

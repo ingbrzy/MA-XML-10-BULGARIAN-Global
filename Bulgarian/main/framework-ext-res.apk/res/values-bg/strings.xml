@@ -13,6 +13,7 @@
     <string name="android_ringtone_default_with_actual">Мелодия по подразбиране (%1$s)</string>
     <string name="android_ringtone_silent">Няма</string>
     <string name="android_ringtone_unknown">Неизвестна мелодия</string>
+    <string name="app_continuity_channel_name">Настройки за оформление на приложения</string>
     <string name="application_cannot_open_alipay_health_code">"Couldn't open Alipay health code"</string>
     <string name="application_cannot_open_alipay_payment_code">Неуспешно отваряне на Alipay код за плащане</string>
     <string name="application_cannot_open_alipay_scanner">Неуспешно отваряне на Alipay скенер</string>
@@ -111,6 +112,10 @@
     <string name="crystal">Кристал</string>
     <string name="cut">Изрежи</string>
     <string name="dance">Танц</string>
+    <string name="dark_mode_enable">Включване</string>
+    <string name="dark_mode_suggest_message">Можете автоматично да преминете към Тъмен режим при залез слънце, за да Ви е по-комфортно и приятно</string>
+    <string name="dark_mode_suggest_title">Стъмва се</string>
+    <string name="dark_mode_suggest_toast">Отсега нататък Тъмния режим ще се включва автоматично при залез и изключва автоматично при изгрев</string>
     <string name="data_usage_context">If Wi-Fi is not turned on, your device will connect to a mobile network, which may result in additional charges depending on your payment plan.Thank you!</string>
     <string name="daydream">Блян</string>
     <string name="default_device_name">Неизвестно устройство</string>
@@ -130,6 +135,7 @@
     <string name="dewdrops">Утринна роса</string>
     <string name="digitaluniverse">Дигитална вселена (стерео)</string>
     <string name="disable_nfc">Изключен е NFC за безжично зареждане</string>
+    <string name="disable_nfc_haptic_reverse">Изключени са NFC и вибрация за обратно безжично зареждане</string>
     <string name="disable_nfc_reverse">Изключен е NFC за обратно безжично зареждане</string>
     <string name="echo">Ехо</string>
     <string name="eighthours">8 часа</string>
@@ -137,6 +143,7 @@
     <string name="enable_livetalk_title">Заредете сега</string>
     <string name="enable_midrop">Включи</string>
     <string name="enable_nfc">Устройството вече не се зарежда. NFC е включен отново.</string>
+    <string name="enable_nfc_haptic_reverse">Прекратено е обратното зареждане. NFC и вибрацията отново са включени.</string>
     <string name="enable_nfc_reverse">Вече не се извършва обратно зареждане. NFC е включен отново.</string>
     <string name="expect">Вълнение</string>
     <string name="fadein">Избледняване</string>
@@ -147,7 +154,7 @@
     <string name="fc_dialog_jump_to_preview">Виж резюмето</string>
     <string name="fieldtrip">Екскурзия</string>
     <string name="file_cannot_print">Този елемент не може да се принтира.</string>
-    <string name="file_cannot_screen_throw">Този елемент не може да се проектира.</string>
+    <string name="file_cannot_screen_throw">Този елемент не може да се прожектира.</string>
     <string name="file_sending">Изпращат се файлове…</string>
     <string name="fireflies">Светулки</string>
     <string name="first_back_long_press_message">"\"Продължителното натискане на бутон Назад да затваря процесите и фоновите услуги на текущото приложение.
@@ -156,6 +163,7 @@
     <string name="flip_screen_camera_tip">За да използвате камерата, завъртете устройството.</string>
     <string name="flute">Флейта</string>
     <string name="fm_record_smaple_prefix_miui">FM запис</string>
+    <string name="fold_small_not_split">Разделен екран не се поддържа при външен екран</string>
     <string name="force_exit_message">Приложението \"%1$s\" е затворено</string>
     <string name="force_exit_skip_message">%1$s не може да се затвори,тъй като се използва от системата.</string>
     <string name="fourhours">2 часа</string>
@@ -165,6 +173,7 @@
     <string name="fp_nav_center_action_choose_dlg_title">Включи Тъч асистент</string>
     <string name="freeform_exchange_tip">Отпуснете, за да отворите приложението</string>
     <string name="freeform_exchange_tip2">Плъзнете до ъгъла, за да отмените</string>
+    <string name="freeform_exchange_tip3">Отворете плаващ прозорец в режим цял екран</string>
     <string name="frenchchic">Шик</string>
     <string name="frequent_email">Често използван имейл</string>
     <string name="frequent_phrases">Чести фрази</string>
@@ -206,6 +215,13 @@
     <string name="international_livetalk_enable">Use top-up packages for international calls</string>
     <string name="key_btn_ok">ОК</string>
     <string name="key_btn_space">Интервал</string>
+    <string name="keyboard_connect_failed">Неуспешно свързване с клавиатурата. Свържете отново.</string>
+    <string name="keyboard_identity_reject_confirm">Разбрах</string>
+    <string name="keyboard_identity_reject_message">Изглежда, че вашата клавиатура не е съвместима с това устройство.</string>
+    <string name="keyboard_identity_transfer_error_message">Неуспешно свързване с клавиатурата. Опитайте отново.</string>
+    <string name="keyboard_upgrade_failed">Неуспешно обновяване на клавиатурата</string>
+    <string name="keyboard_upgrade_start">Обновяване на клавиатурата…</string>
+    <string name="keyboard_upgrade_success">Успешно обновяване на клавиатурата</string>
     <string name="kungfu">Кунг-фу</string>
     <string name="leisure">Отдих</string>
     <string name="livetalk_not_enable">Попълнете пакетите</string>
@@ -237,6 +253,8 @@
     <string name="miremix">Mi (Ремикс)</string>
     <string name="miui_forbid_poweroff_when_device_locked">Не може да се изключи, устройството е заключено.</string>
     <string name="miui_multiwindow_not_support_cvw">Не е възможно регулиране на размера на прозореца за това приложение</string>
+    <string name="miui_multiwindow_not_support_small_window">%1$s не поддържа плаващи прозорци</string>
+    <string name="miui_multiwindow_not_support_split">%1$s не поддържа Разделен екран</string>
     <string name="miui_screen_ratio_hint">Проблеми с пропорциите на екрана</string>
     <string name="miui_screen_ratio_hint_dont_show_again">Не показвай отново</string>
     <string name="miui_screen_ratio_hint_go_to_settings">Отидете в Настройки</string>
@@ -264,6 +282,7 @@
     <string name="oneplus_phone">OnePlus</string>
     <string name="open_close_tip_action">Разбрах</string>
     <string name="open_close_tip_content">За да затворите плаващ прозорец, натиснете и задръжте бутона за действие и плъзнете нагоре.</string>
+    <string name="open_miui_optimization">Първо включете MIUI оптимизацията</string>
     <string name="oppo">OPPO</string>
     <string name="oppo_phone">OPPO</string>
     <string name="orange">Портокал</string>
@@ -278,7 +297,7 @@
     <string name="perm_send_push_dspt">Разрешаване на Mi push съобщения</string>
     <string name="perm_send_push_lab">Изпращане на push съобщение</string>
     <string name="permdesc_manageLocationPolicy">Позволява на приложението да управлява политиките за местоположение и да дефинира специфични за него правила.</string>
-    <string name="permlab_manageLocationPolicy">управление на местоположения</string>
+    <string name="permlab_manageLocationPolicy">Достъп до местоположение</string>
     <string name="popup_camera_calibrate_failed">Не може да се калибрира</string>
     <string name="popup_camera_calibrate_now">Калибриране</string>
     <string name="popup_camera_calibrate_success">Калибрирането е успешно. Може да отворите камерата сега.</string>
@@ -311,8 +330,19 @@
     <string name="redmi_note_5">Redmi Note 5</string>
     <string name="redmi_note_7">Redmi Note 7</string>
     <string name="redmi_note_7_pro">Redmi Note 7 Pro</string>
+    <string name="relaunch_action">Рестартиране</string>
+    <string name="relaunch_dialog_alwaysUsePrompt">Запомни избора ми</string>
+    <string name="relaunch_dialog_button_cancel">Отказ</string>
+    <string name="relaunch_dialog_button_confirm">Рестартиране</string>
+    <string name="relaunch_dialog_message">Смяната на размера на приложението изисква рестартиране. Ако рестартирате сега, всички незапазени промени ще бъдат изгубени. Желаете ли да рестартирате?</string>
+    <string name="relaunch_dialog_title">Рестартиране на \"%s\"?</string>
+    <string name="relaunch_fold_notification_content">Приложението може да не се показва правилно на този екран. Рестартирайте приложението, за да пренастроите оформлението.</string>
+    <string name="relaunch_notification_title">Рестартиране на \"%s\"</string>
+    <string name="relaunch_unfold_notification_content">Приложението може да не се показва правилно на този екран. Рестартирайте приложението, за да пренастроите оформлението.</string>
     <string name="remain">Остават: %s</string>
     <string name="replace">Замени</string>
+    <string name="rescuepartyplus_config_reset_context">Възможно е някои данни да са изчистени. Натиснете за подробности.</string>
+    <string name="rescuepartyplus_config_reset_title">Завършена е системната поправка</string>
     <string name="resolver_app_recommend_flag">Препоръчани</string>
     <string name="resolver_checkbox_always">Винаги</string>
     <string name="resolver_checkbox_once">Веднъж</string>
@@ -327,6 +357,11 @@
     <string name="rog_phone">ROG</string>
     <string name="samsung">Samsung</string>
     <string name="samsung_phone">Samsung телефон</string>
+    <string name="sc_notification_warning_content">Ако приложението не се показва правилно можете да възстановите първоначалното оформление, или да промените предпочитанията си за оформление на приложението в Настройките.</string>
+    <string name="sc_notification_warning_restore">Възстановяване</string>
+    <string name="sc_notification_warning_settings">Настройки</string>
+    <string name="sc_notification_warning_title">Предпочитания за оформление на приложение</string>
+    <string name="sc_relaunch_dialog_message">Приложението може да не се показва правилно на този екран. Рестартирайте приложението, за да пренастроите оформлението.</string>
     <string name="scanning_device_tips">Търсене на близките около Вас устройства… Уверете се, че другите устройства са с включен Режим Откриваем.</string>
     <string name="screen_button_notification_text">"Натиснете 'Начало'+'Захр.' за включване."</string>
     <string name="screen_button_notification_title">Бутоните на дисплея са деактивирани</string>
@@ -359,6 +394,7 @@
     <string name="set_password_action">Задай парола</string>
     <string name="set_password_message">Задаване на нова парола?</string>
     <string name="set_password_title">Задаване на парола</string>
+    <string name="shortcut_no_support_on_pc_mode">Този жест не се поддържа в режим Компютър</string>
     <string name="shutdown_confirm_title">Вашият телефон ще се изключи.</string>
     <string name="shutdown_progress">Изключва се…</string>
     <string name="silence_mode">Тих режим</string>
@@ -415,6 +451,8 @@
     <string name="status_bar_toggle_wifi_ap">Wi-Fi VPN</string>
     <string name="stoneskimming_preview">Леки стъпки</string>
     <string name="stop_operate_camera_frequently">Вие стартирате предната камера твърде често.</string>
+    <string name="stylus_pen_mask_screenshot">Натиснете екрана, за да направите екранна снимка</string>
+    <string name="stylus_pen_mask_text">Натиснете екрана, за да започнете да пишете</string>
     <string name="subinfo_default_name">SIM %d</string>
     <string name="sunlight_notification_content">Автоматично настройване на яркостта при силна околна светлина</string>
     <string name="sunlight_notification_title">Включване на Режим Слънчева светлина</string>
@@ -429,7 +467,7 @@
     <string name="talk_back_water_mark_string1">TalkBack е вкл</string>
     <string name="talk_back_water_mark_string2">Натиснете и задръжте бутоните за увеличаване и намаляване на звука за 3 секунди за да изключите</string>
     <string name="throwing_print">Принтиране</string>
-    <string name="throwing_screen">Проекция</string>
+    <string name="throwing_screen">Прожекция</string>
     <string name="tips_prompt_enable_midrop">Mi Share</string>
     <string name="total">Режим Не безпокойте</string>
     <string name="total_description">Заглушаване на звуците и изключване на вибрацията за всички, освен Будилника</string>
@@ -443,6 +481,7 @@
     <string name="unknown_caller">Неизвестен</string>
     <string name="unrecognized_manufacture">Неизвестно</string>
     <string name="unrecognized_model">Неизвестно устройство</string>
+    <string name="unreplace_freeform_count_max">Не можете да отворите повече плаващи прозорци</string>
     <string name="user_authentication_failed">НЕУСПЕШНО УДОСТОВЕРЯВАНЕ -29-</string>
     <string name="user_switching_dialog_switch_into_kid_space">Превключване към Пространство за деца…</string>
     <string name="user_switching_dialog_switch_out_kid_space">Напускане на Пространство за деца…</string>

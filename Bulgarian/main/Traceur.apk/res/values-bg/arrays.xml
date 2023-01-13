@@ -17,6 +17,7 @@
         <item>Най-много 3 процеса</item>
         <item>Най-много 4 процеса</item>
     </string-array>
+    <array name="avatar_image_descriptions" />
     <string-array name="battery_labels">
         <item>0%</item>
         <item>50%</item>
@@ -77,6 +78,8 @@
         <item>Аудио: aptX™ от Qualcomm®</item>
         <item>Аудио: aptX™ HD от Qualcomm®</item>
         <item>LDAC</item>
+        <item>Аудио: Qualcomm® aptX™ Adaptive</item>
+        <item>Аудио: Qualcomm® aptX™ TWS+</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
         <item>Използване на сист. избор (стандартно)</item>
@@ -85,6 +88,8 @@
         <item>Аудио: aptX™ от Qualcomm®</item>
         <item>Аудио: aptX™ HD от Qualcomm®</item>
         <item>LDAC</item>
+        <item>Аудио: Qualcomm® aptX™ Adaptive</item>
+        <item>Аудио: Qualcomm® aptX™ TWS+</item>
     </string-array>
     <string-array name="bluetooth_audio_active_device_summaries">
         <item></item>
@@ -130,7 +135,7 @@
         <item>Стандартен</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>Изключено</item>
+        <item>Изкл.</item>
         <item>Области за преизчертаване: Показв.</item>
         <item>Показване на областите за деутеранопия</item>
     </string-array>

@@ -157,6 +157,8 @@
     <string name="audio_ad_pass">Пропусни рекламата</string>
     <string name="audio_picker_title">Изберете песен</string>
     <string name="auth_fail_warning">Сесията изтече. Влезте отново.</string>
+    <string name="auto_play_switch">Автоматично възпроизвеждане на клипове</string>
+    <string name="auto_play_toast">Вкл. е автоматично възпроизвеждане. Можете да го изключите в Настройките.</string>
     <string name="auto_recommend">Автоматично (препоръчително)</string>
     <string name="auto_sound_quality">Автоматично</string>
     <string name="auto_update">Автоматично актуализиране</string>
@@ -169,6 +171,7 @@
     <string name="back">Обратно</string>
     <string name="back_confirm">Чукнете още веднъж за изход</string>
     <string name="best_experience">Най-доброто преживяване</string>
+    <string name="billion_char">%s млрд</string>
     <string name="bluetooth_device">Bluetooth аудио устройство</string>
     <string name="bottomsheet_action_expand_halfway">Разгъване наполовина</string>
     <string name="btn_text_edit">Редактиране</string>
@@ -232,6 +235,7 @@
     <string name="connecting_apk">Свързване…</string>
     <string name="content_failed_to_load">Неуспешно зареждане на съдържание</string>
     <string name="copy">Копиране</string>
+    <string name="copy_toast_msg">Връзката е копирана в буферната памет</string>
     <string name="create_playlist">Създаване на плейлист</string>
     <string name="create_playlist_failure">Не може да се създаде плейлист</string>
     <string name="create_playlist_input_hint">Въведете име на плейлиста</string>
@@ -287,11 +291,11 @@ ID:%s
     <string name="dialog_my_playlist_online_changed_merge">Запази</string>
     <string name="dialog_my_playlist_online_changed_message">Изглежда тази плейлиста се е променила. Можете да я замените с новата версия или да запазите старата.</string>
     <string name="dialog_my_playlist_online_changed_replace">Замени</string>
-    <string name="dialog_my_playlist_set_to_public">Споделете тази плейлиста с всички потребители на Mi Music и Hungama Music</string>
+    <string name="dialog_my_playlist_set_to_public">Споделете този плейлист с всички потребители на Mi Music и hungama Music</string>
     <string name="dialog_queued_body">Този файл е в списъка за бъдещо изтегляне.</string>
     <string name="dialog_renew_failure">Съжалявам, действието е неуспешно</string>
-    <string name="dialog_renew_free_end">Вашият пробен период приключи. Ще се абонирайте ли за Hungama PRO</string>
-    <string name="dialog_renew_positive_text">ДА, ИСКАМ ДА КУПОНЯСВАМ КАТО PRO</string>
+    <string name="dialog_renew_free_end">Безплатният период изтече. Абониране за hungama Gold?​</string>
+    <string name="dialog_renew_positive_text">Подновяване на Gold членството ми!</string>
     <string name="dialog_renew_success">Благодаря за Вашето потвърждение</string>
     <string name="dialog_score_btn_good">Оценете</string>
     <string name="dialog_score_msg_score_explorer">Харесвате ли Mi Музика?</string>
@@ -360,7 +364,9 @@ ID:%s
     <string name="download_method">Изтегляне</string>
     <string name="download_no_application_title">Файлът не може да се отвори</string>
     <string name="download_paused_in_power_save_mode">Изтеглянето е спряно когато Икономия на батерията е включено</string>
+    <string name="download_percent">%d%%</string>
     <string name="download_processing">Изтегля се…</string>
+    <string name="download_progress">%d%%</string>
     <string name="download_quality">Качество при изтегляне</string>
     <string name="download_quality_summary">Разширени настройки на песните, които сте изтеглили</string>
     <string name="download_queued">Чакащи</string>
@@ -404,7 +410,7 @@ ID:%s
     <string name="empty_page_no_album">Няма албуми.</string>
     <string name="empty_page_no_artist">Няма изпълнители.</string>
     <string name="enabled">Активирано</string>
-    <string name="enjoy_hungama_pro">Насладете се на Hungama PRO</string>
+    <string name="enjoy_hungama_pro">Насладете се на hungama Gold</string>
     <string name="enroll_in">Записване</string>
     <string name="enter_garbage_clean">Почисти вътрешната памет.</string>
     <string name="entertainment">Забавление</string>
@@ -469,7 +475,9 @@ ID:%s
     <string name="exo_media_action_repeat_all_description">Повтаряне на всички</string>
     <string name="exo_media_action_repeat_off_description">Без повтаряне</string>
     <string name="exo_media_action_repeat_one_description">Повтаряне на един елемент</string>
+    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Алтернативен запис</string>
     <string name="exo_track_role_closed_captions">Субтитри</string>
     <string name="exo_track_role_commentary">Коментар</string>
@@ -495,6 +503,9 @@ ID:%s
     <string name="failed_obtain_permissions">Не бяха получени разрешения.</string>
     <string name="failed_to_connect_hint">Проверете мрежовите си настройки и опитайте отново</string>
     <string name="failed_to_connect_text">Неуспешно свързване с мрежата</string>
+    <string name="fallback_menu_item_copy_link">Копиране на връзката</string>
+    <string name="fallback_menu_item_open_in_browser">Отваряне в браузър</string>
+    <string name="fallback_menu_item_share_link">Споделяне на връзката</string>
     <string name="fans">Последователи</string>
     <string name="fav_login_msg">Влезте в своя Xiaomi Профил, за да теглите песни</string>
     <string name="favorite_canceled">Премахнато от любими</string>
@@ -504,7 +515,6 @@ ID:%s
     <string name="favorite_to_playlist">Добавяне към плейлист</string>
     <string name="favorite_tracks">Любими</string>
     <string name="favorites">Любими</string>
-    <string name="fcm_fallback_notification_channel_label">Разни</string>
     <string name="feed_back">Отзив</string>
     <string name="file_and_media_permissions_for_display">Достъп до файлове: за сканиране, показване, и възпроизвеждане на локални файлове</string>
     <string name="file_not_found">Файлът не съществува</string>
@@ -518,10 +528,10 @@ ID:%s
     <string name="filter_by_folder_summary">Изберете папки за показване</string>
     <string name="filter_by_size">Филтриране по размер</string>
     <string name="filter_by_size_max">%dМБ</string>
-    <string name="filter_by_size_min">%dКБ</string>
+    <string name="filter_by_size_min">%dКB</string>
     <string name="filter_by_size_prefix">"Мин. размер: "</string>
     <string name="filter_by_size_summary">Не показвай малките аудио файлове</string>
-    <string name="filter_size_unit">%dКБ</string>
+    <string name="filter_size_unit">%dКB</string>
     <string name="find_you_tunes">Открийте своите звуци</string>
     <string name="floating_view_dialog_desc">Ако напуснете тази страница, музиката ще спре. Продължаване?</string>
     <string name="floating_view_dialog_leave">Напускам</string>
@@ -620,17 +630,17 @@ ID:%s
     <string name="home_tab_recommend">Онлайн</string>
     <string name="home_tab_search">Търсене</string>
     <string name="hot_icon_in_fast_indexer">H</string>
-    <string name="hungama_batch_download_alert_summary">Само PRO потребители могат да теглят няколко песни. Вземете PRO членство сега?</string>
+    <string name="hungama_batch_download_alert_summary">Само Gold членове могат да теглят множество песни. Желаете ли да вземете Gold членство сега?</string>
     <string name="hungama_batch_download_alert_summary_toast">Абонирайте се, за да изтеглите целия плейлист.</string>
-    <string name="hungama_download_subscription_toast">Абонирайте се за Hungama Music, за да изтеглите тази песен</string>
-    <string name="hungama_free_download_out_summary">Не можете да изтеглите повече безплатни песни. Вземете PRO членство, за да теглите неограничено песни?</string>
+    <string name="hungama_download_subscription_toast">Абонирайте се за hungama Music, за да изтеглите тази песен</string>
+    <string name="hungama_free_download_out_summary">Не можете да изтеглите повече безплатни песни. Желаете ли да вземете Gold членство, за да теглите неограничено песни?</string>
     <string name="hungama_free_download_out_summary_toast">Вече сте изтеглили %d песни. За да изтеглите повече, е необходимо да се абонирате.</string>
-    <string name="hungama_privacy_desc">Правила за поверителност на Hungama</string>
-    <string name="hungama_privacy_tips_content">За да получите достъп до онлайн съдържание, трябва да приемете <a href="/link/click">Правилата за поверителност на Hungama</a>.</string>
-    <string name="hungama_privacy_tips_title">Правила за поверителност на Hungama</string>
-    <string name="hungama_subscribe_message">Купи ПРО членство за изтегляне на музика с високо качество.</string>
-    <string name="hungama_subscribe_positive_button">Купи PRO членство</string>
-    <string name="hungama_subscribe_title">ПРО членство</string>
+    <string name="hungama_privacy_desc">Правила за поверителност на hungama (незадължително)</string>
+    <string name="hungama_privacy_tips_content">За да получите достъп до онлайн съдържание, трябва да приемете <a href="/link/click">Правилата за поверителност на hungama</a>.</string>
+    <string name="hungama_privacy_tips_title">Правила за поверителност на hungama</string>
+    <string name="hungama_subscribe_message">Купете Gold членство, за да теглите музика с високо качество.</string>
+    <string name="hungama_subscribe_positive_button">Купи Gold членство</string>
+    <string name="hungama_subscribe_title">Gold членство</string>
     <string name="i_know">Знам това</string>
     <string name="icon_content_description">Икона за диалогов прозорец</string>
     <string name="imported">Внесени</string>
@@ -775,6 +785,7 @@ ID:%s
     <string name="middle_sound_quality">стандартно</string>
     <string name="midnight">Нощ</string>
     <string name="milink_unavaliable_please_update">Mi връзката не е достъпна. Обновете MIUI.</string>
+    <string name="million_char">%s млн</string>
     <string name="millions_songs">Милиони песни</string>
     <string name="missing_title">&lt;Неизвестно></string>
     <string name="miuishare_account_login_ok">Вписване</string>
@@ -866,6 +877,7 @@ ID:%s
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -1003,7 +1015,7 @@ ID:%s
     <string name="online_switch_confirm_title">Изключването на услуги за онлайн съдържание ще направи всички онлайн функции неналични. Изключване въпреки това?</string>
     <string name="online_switch_message">Спирането на онлайн услугите ще засегне ВИП-услугите и Препоръчани. Да се изключат ли все пак?</string>
     <string name="online_switch_setting">Настройки за онлайн съдържание</string>
-    <string name="only_pro_can_choose_hd_sound_quality">HD аудио е достъпно само за PRO членове.</string>
+    <string name="only_pro_can_choose_hd_sound_quality">HD аудио е достъпно само за Gold членове.</string>
     <string name="open_online_service">Необходимо е да включите онлайн услугите, за да работи тази функция. Да се стартират ли сега?</string>
     <string name="open_service">Включи</string>
     <string name="open_settings">Настройки</string>
@@ -1111,7 +1123,7 @@ ID:%s
     <string name="paused_waiting_for_network">Изчакване за мрежа</string>
     <string name="paused_waiting_to_retry">Изчакване за повторен опит.</string>
     <string name="pay_now">Плащане сега</string>
-    <string name="payment_success_message">Благодаря! Вашето плащане е обработено успешно. Насладете се на професионални услуги.</string>
+    <string name="payment_success_message">Благодаря! Вашето плащане е обработено успешно. Насладете се на златни услуги.</string>
     <string name="payment_success_title">Поздравления!</string>
     <string name="pending_apk">Изчакване…</string>
     <string name="permission_declaration_message">Дайте достъп до хранилището от Оптимизация > Разрешения > Разрешения > Хранилище > Музика, за да може Музика да работи нормално.</string>
@@ -1150,6 +1162,7 @@ ID:%s
     <string name="please_select_song">Моля, изберете първо една песен.</string>
     <string name="pm">PM</string>
     <string name="power_save_mode_dialog_msg">Устройството е в режим пестене на захранването. Стартирайте изтеглянето сега?</string>
+    <string name="pre_watched">Прегледано</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="preset_music_playlist">Mi Музика плейлист</string>
     <string name="priority_storage">Съхраняване на SD картата</string>
@@ -1160,6 +1173,7 @@ ID:%s
     <string name="privacy_authorize_revoking">Отмяна на упълномощение…</string>
     <string name="privacy_desc">Правила за поверителност (задължително)</string>
     <string name="privacy_policy">Правила за поверителност</string>
+    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=bg_BG</string>
     <string name="privacy_request_desc">"&lt;Data>Mi Музика се нуждае да събира задължителна лична информация, за да ви предоставя услуги за гледане онлайн. Можете да научите как обработваме събраната информация в нашите &lt;a href=\"%1$s\">Правила за поверителност&lt;/a>. Можете да оттеглите съгласието си за Правилата за поверителност на Mi Музика в Настройки по всяко време.
 Прочетете и приемете нашето &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%1$s\">Правила за поверителност&lt;/a> преди да използвате Mi Музика.
 Ако не приемете да използвате гореспоменатите услуги, няма да можете да използвате някои от функциите на това приложение; но все пак ще имате достъп до основните му функции.&lt;/Data>"</string>
@@ -1168,7 +1182,7 @@ ID:%s
 - Услуги за гледане онлайн"</string>
     <string name="privacy_request_subtitle_offline">Добре дошли в Mi Музика! Това приложение предоставя локален плейър за аудио файлове.</string>
     <string name="privacy_request_title">Правила и условия</string>
-    <string name="pro_member">PRO член</string>
+    <string name="pro_member">Gold член</string>
     <string name="progressbar_title">Проверява се за проблеми със сигурността…</string>
     <string name="project_device">Mi Телефон</string>
     <string name="prompt_grant_write_settings_permission">Позволи промяна на системните настройки</string>
@@ -1179,7 +1193,7 @@ ID:%s
     <string name="pulluprefreshrecyclerview_loading_running">Зареждане…</string>
     <string name="qq_login_btn_content_description">Вписване с QQ</string>
     <string name="queue_is_empty">Опашката за възпроизвеждане е празна.</string>
-    <string name="read_and_agree_hungama_protocol">&lt;Data>Прочетох и приемам &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">Правилата за поверителност на Hungama&lt;/a>&lt;/font>&lt;/Data></string>
+    <string name="read_and_agree_hungama_protocol">&lt;Data>Прочетох и приемам &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">Правилата за поверителност на hungama&lt;/a>&lt;/font>&lt;/Data></string>
     <string name="read_and_agree_joox_protocol">&lt;Data>Прочетох и приемам &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">Правилата за поверителност на JOOX&lt;/a>&lt;/font>&lt;/Data></string>
     <string name="read_and_agree_mi_protocol">&lt;Data>Прочетох и приемам &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%1$s\">Потребителското споразумение&lt;/a>&lt;/font> и &lt;font color=\"#A374F0\">&lt;/color>&lt;a href=\"%2$s\">Правилата за поверителност&lt;/a>&lt;/font>&lt;/Data></string>
     <string name="read_and_agree_protocol">Прочетете и приемете нашето Потребителско споразумение и Правила за поверителност преди да продължите.</string>
@@ -1189,6 +1203,7 @@ ID:%s
     <string name="recommend_songs_when_playing_audio_files">Получавайте препоръки за песни, докато слушате музика.</string>
     <string name="recommended_file_size_download_in_mobile">Използване %s от мобилни данни за изтегляне на файла?</string>
     <string name="recommended_no_file_size_download_in_mobile">Да се използва ли връзка мобилни данни за изтегляне на файла?</string>
+    <string name="refresh">Опресняване</string>
     <string name="register_by_local_phone_long_text">Създайте профил</string>
     <string name="register_by_local_phone_short_text">Създайте профил</string>
     <string name="remove">Премахни</string>
@@ -1217,7 +1232,7 @@ ID:%s
     <string name="retry">Оптитайте отново</string>
     <string name="retry_after_network_available">Няма мрежа. Проверете вашата връзка с мобилни данни и опитайте отново</string>
     <string name="retry_download">Нов опит</string>
-    <string name="revoke_upload_playlist_to_hungama_toast">Онлайн песни няма да бъдат синхронизирвани с Hungama</string>
+    <string name="revoke_upload_playlist_to_hungama_toast">Онлайн песни няма да бъдат синхронизирани с hungama</string>
     <string name="ringtone_editing">Редактор на мелодии</string>
     <string name="ringtone_not_support">Форматът на песента не се поддържа</string>
     <string name="ringtone_selected">Избранa</string>
@@ -1253,6 +1268,7 @@ ID:%s
     <string name="search_instant_online_music">Онлайн</string>
     <string name="search_menu_title">Търсене</string>
     <string name="search_more">Още</string>
+    <string name="search_recommend">Препоръчани</string>
     <string name="search_result_local_songs">На устройството</string>
     <string name="search_result_online_songs">Онлайн</string>
     <string name="search_songs">Търсене на песни</string>
@@ -1315,7 +1331,7 @@ ID:%s
     <string name="sleep_mode_canceled">Таймерът за заспиване е отменен</string>
     <string name="sleep_mode_summary">Използвайте плъзгача по-долу, за да зададете време</string>
     <string name="sleep_mode_title">Спри плейъра след изтичане на времето</string>
-    <string name="sliding_pro_center">PRO център</string>
+    <string name="sliding_pro_center">hungama Gold</string>
     <string name="sns_access_token_expired_warning">Сесията е изтекла. Впишете се пак, за да свържете отново този профил.</string>
     <string name="sns_bind_limit">Твърде много опити. Опитайте други начини за вписване.</string>
     <string name="sns_sign_in">Други начини за вписване</string>
@@ -1338,6 +1354,7 @@ ID:%s
     <string name="start_to_download">Старирайте изтегляне…</string>
     <string name="start_to_play">Подготвяне…</string>
     <string name="start_update">Инсталиране на нова версия…</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Хранилище за клонирани приложения</string>
     <string name="storage_internal">Вътрешна памет</string>
     <string name="storage_sd_card">SD карта</string>
@@ -1430,6 +1447,7 @@ ID:%s
     <string name="the_united_nations_day">Ден на обединените нации</string>
     <string name="the_valentines_day">Свети Валентин</string>
     <string name="the_water_lantern_festival">Фестивал на водните фенери</string>
+    <string name="thousand_char">%s хил</string>
     <string name="thursday">Четвъртък</string>
     <string name="thursday_short">Четв.</string>
     <string name="thursday_shortest">Четв.</string>
@@ -1439,6 +1457,7 @@ ID:%s
     <string name="time_picker_label_hour">Ч</string>
     <string name="time_picker_label_minute">M</string>
     <string name="time_to_upgrade">Налично е обновление</string>
+    <string name="tips_click_here_to_continue">Натиснете, за да възпроизведете</string>
     <string name="title_online_fm_recommend">Най-добри</string>
     <string name="title_online_recommend">Любими списъци с песни</string>
     <string name="title_search_history">История на търсенията</string>
@@ -1451,8 +1470,8 @@ ID:%s
     <string name="toast_download_in_process">Изтегляне...</string>
     <string name="toast_favorite_has_been_added">Успешно добавен в плейлиста</string>
     <string name="toast_follow_success">Успешно последван</string>
-    <string name="toast_hungama_vip_song">Тази песен е достъпна само за PRO членове. Купете абонамент и изтеглете тази песен.</string>
-    <string name="toast_is_pro">Вие сте вече ПРО член.</string>
+    <string name="toast_hungama_vip_song">Тази песен е достъпна само за Gold членове. Купете абонамент и изтеглете тази песен.</string>
+    <string name="toast_is_pro">Вие сте вече Gold член</string>
     <string name="toast_my_playlist_illegal_name">Името на тази плейлиста е невалидно. Преименувайте я.</string>
     <string name="toast_my_playlist_set_to_private">Тази плейлиста вече е лична. Другите хора не могат да я виждат.</string>
     <string name="toast_my_playlist_set_to_public">Тази плейлиста вече е публична. Могат да я виждат и други хора.</string>
@@ -1461,7 +1480,7 @@ ID:%s
     <string name="toast_new_playlist_name_too_long">Името на списъка е твърде дълго</string>
     <string name="toast_normal_songs_for_download">Скоростта на изтеглене е настроена на стандартна.</string>
     <string name="toast_normal_songs_for_stream">Качеството на стриймване е настроено на стандартно.</string>
-    <string name="toast_not_pro">Тази функция е достъпна само за ПРО членове.</string>
+    <string name="toast_not_pro">Тази функция е достъпна само за Gold членове</string>
     <string name="toast_playlist_has_been_added">Успешно добавен към списъка</string>
     <string name="toast_playlist_has_been_private">Този плейлист е личен</string>
     <string name="toast_playlist_has_been_public">Този плейлист е публичен</string>
@@ -1497,8 +1516,8 @@ ID:%s
     <string name="upload_favorite_setting_title">Синхронизиране на песни</string>
     <string name="upload_playlist_to_hungama_negative_text">Без синхронизация</string>
     <string name="upload_playlist_to_hungama_positive_text">Синхронизация</string>
-    <string name="upload_playlist_to_hungama_title">Синхронизирайте онлайн песни с Hungama, за да имате достъп до тях на други устройства, в които използвате своя Xiaomi Профил.</string>
-    <string name="upload_playlist_to_hungama_toast">Онлайн песни ще бъдат синхронизирвани с Hungama</string>
+    <string name="upload_playlist_to_hungama_title">Синхронизирайте онлайн песни с hungama, за да имате достъп до тях на други устройства, в които използвате своя Xiaomi Профил.</string>
+    <string name="upload_playlist_to_hungama_toast">Онлайн песни ще бъдат синхронизирани с hungama</string>
     <string name="user_agreement">Потребителско споразумение</string>
     <string name="user_agreement_hint_3rd_app">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> както и &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил.&lt;/Data></string>
     <string name="user_agreement_hint_3rd_app_mobile">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a>, &lt;a href=%3$s>Потребителското споразумение&lt;/a> и &lt;a href=%4$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%5$s>Правилата и условията на услугите за верификация на China Mobile&lt;/a>.&lt;/Data></string>
@@ -1509,6 +1528,7 @@ ID:%s
     <string name="user_agreement_hint_with_mobile">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на China Mobile&lt;/a>.&lt;/Data></string>
     <string name="user_agreement_hint_with_telecom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на профил на eSurfing&lt;/a>.&lt;/Data></string>
     <string name="user_agreement_hint_with_unicom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на China Unicom&lt;/a>.&lt;/Data></string>
+    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=bg_BG</string>
     <string name="user_avatar_update_title">Промяна на профилната снимка</string>
     <string name="user_avatar_uploading">Момент…</string>
     <string name="user_experience_program_open">Поради ограничения за авторски права, трябва да се регистрирате в Програмата за потребителски отзиви, за да можете да възпроизвеждате изтеглени песни. Можете да направите това в Настройки > Пароли и сигурност > Поверителност > Запишете се в Програмата за потребителски отзиви.</string>
@@ -1530,7 +1550,7 @@ ID:%s
     <string name="video_retry_btn">Оптитайте отново</string>
     <string name="view_album">Покажи албума</string>
     <string name="vip_required">Вземете Премиум абонамент, за да чуете тази песен. Песента е прескочена засега.</string>
-    <string name="vip_required_with_song">%sе налично само за PRO членове. Засега тази песен е пропусната.</string>
+    <string name="vip_required_with_song">%s е налично само за Gold членове. Засега тази песен е пропусната.</string>
     <string name="voice_search_first_hint">Опитайте гласово търсене!</string>
     <string name="watch_video">Гледане</string>
     <string name="wednesday">Сряда</string>
@@ -1546,5 +1566,16 @@ ID:%s
     <string name="yesterday">Вчера</string>
     <string name="you_can_switch_mode_in_settings">Можете да превключвате между режими от Настройки</string>
     <string name="you_may_like">Може да харесате и</string>
+    <string name="youtube_download_canl">Отказ</string>
+    <string name="youtube_download_fail_net">Неуспешно свързване с мрежата. Проверете мрежовите си настройки и опитайте отново.</string>
+    <string name="youtube_download_fail_source">Възникна грешка. Изчакайте минута-две и опитайте отново.</string>
+    <string name="youtube_download_fail_space">Неуспешно изтегляне. Няма достатъчно памет.</string>
+    <string name="youtube_download_fail_unknown">Възникна грешка. Изчакайте минута-две и опитайте отново.</string>
+    <string name="youtube_download_hint">Аудиото от това видео ще се съхранява в устройството Ви във формат MP3 със заглавието на видеото като име на файла. Изтегляне сега?</string>
+    <string name="youtube_download_ing">Един момент…</string>
+    <string name="youtube_download_start">Изтегляне</string>
+    <string name="youtube_download_suc">Успешно изтеглено</string>
     <string name="youtube_play_history">Хронология на клиповете</string>
+    <string name="youtube_share_guide_tip">Вече можете да споделяте клипове с приятели</string>
+    <string name="youtube_tab_explore">Открий</string>
 </resources>

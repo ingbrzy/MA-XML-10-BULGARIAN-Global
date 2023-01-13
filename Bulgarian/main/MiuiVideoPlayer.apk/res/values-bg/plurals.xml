@@ -40,17 +40,33 @@
         <item quantity="other">Вижте %d отговора</item>
         <item quantity="one">Вижте %d отговор</item>
     </plurals>
+    <plurals name="dialog_app_rating_choose_star">
+        <item quantity="other">Избрани са %s звезди</item>
+        <item quantity="one">Избрана е %s звезда</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Превъртане с(ъс) %d секунди напред</item>
+        <item quantity="one">Превъртане с %d секунда напред</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Превъртане с(ъс) %d секунди назад</item>
+        <item quantity="one">Превъртане с %d секунда назад</item>
+    </plurals>
+    <plurals name="fcmpts_dialog_one">
+        <item quantity="other">Гледайте още %s секунди от едно клипче, за да спечелите точки и обмените награди</item>
+        <item quantity="one">Гледайте още %s секунда от едно клипче, за да спечелите точки и обмените награди</item>
+    </plurals>
     <plurals name="feed_back_home">
         <item quantity="other">Връщане към началната страница след %1$d секунди…</item>
         <item quantity="one">Връщане към началната страница след %1$d секунда…</item>
     </plurals>
-    <plurals name="follower">
-        <item quantity="other">%d последователи</item>
-        <item quantity="one">%d последовател</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Преди половин час</item>
         <item quantity="one">Преди половин час</item>
+    </plurals>
+    <plurals name="hint_local_guide_views">
+        <item quantity="other">%s прегледа</item>
+        <item quantity="one">%s преглед</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">След 1 час</item>
@@ -68,9 +84,79 @@
         <item quantity="other">след %d минути</item>
         <item quantity="one">след 1 минута</item>
     </plurals>
+    <plurals name="incentive_dialog_congratulation_get_credits_title">
+        <item quantity="other">Получихте %d точки!</item>
+        <item quantity="one">Получихте %d точка!</item>
+    </plurals>
+    <plurals name="incentive_dialog_credits">
+        <item quantity="other">%d точки</item>
+        <item quantity="one">%d точка</item>
+    </plurals>
+    <plurals name="incentive_dialog_login_and_get_credits_message">
+        <item quantity="other">Впишете се, за да получите %d допълнителни точки</item>
+        <item quantity="one">Впишете се, за да получите %d допълнителна точка</item>
+    </plurals>
+    <plurals name="incentive_dialog_seconds">
+        <item quantity="other">%d секунди</item>
+        <item quantity="one">%d секунда</item>
+    </plurals>
+    <plurals name="incentive_guide_all_time_tip">
+        <item quantity="other">Изгледайте общо %d минути, за да спечелите точки! Желаете ли да изпълните задачата сега?</item>
+        <item quantity="one">Изгледайте общо %d минута, за да спечелите точки! Желаете ли да изпълните задачата сега?</item>
+    </plurals>
+    <plurals name="incentive_guide_coins_tip">
+        <item quantity="other">"Можете да спечелите %d точки
+Налично само днес"</item>
+        <item quantity="one">"Можете да спечелите %d точка
+Налично само днес"</item>
+    </plurals>
+    <plurals name="incentive_guide_current_time_tip">
+        <item quantity="other">Днес гледахте %d минути</item>
+        <item quantity="one">Днес гледахте %d минута</item>
+    </plurals>
+    <plurals name="incentive_popup_window_share_success">
+        <item quantity="other">Успешно споделено. Спечелихте %d точки.</item>
+        <item quantity="one">Успешно споделено. Спечелихте %d точка.</item>
+    </plurals>
+    <plurals name="incentive_popup_window_subscribe_success">
+        <item quantity="other">Успешно абониране. Спечелихте %d точки.</item>
+        <item quantity="one">Успешно абониране. Спечелихте %d точка.</item>
+    </plurals>
+    <plurals name="incentive_task_watchvideo_begin">
+        <item quantity="other">Получете %d точки!</item>
+        <item quantity="one">Получете %d точка!</item>
+    </plurals>
+    <plurals name="incentive_task_watchvideo_finish">
+        <item quantity="other">Днешните задачи са завършени! Получихте %d точки!</item>
+        <item quantity="one">Днешните задачи са завършени! Получихте %d точка!</item>
+    </plurals>
+    <plurals name="incentive_task_watchvideo_of_one">
+        <item quantity="other">Гледахте %1$1dс и получихте %2$2d точки!</item>
+        <item quantity="one">Гледахте %1$1dс и получихте %2$2d точка!</item>
+    </plurals>
+    <plurals name="incentive_task_watchvideo_tip1">
+        <item quantity="other">Гледайте случайно клипче, за да спечелите %d точки</item>
+        <item quantity="one">Гледайте случайно клипче, за да спечелите %d точка</item>
+    </plurals>
+    <plurals name="incentive_task_watchvideo_tip2">
+        <item quantity="other">Гледайте %1$1d секунди от един клип, за да спечелите %2$2d точки</item>
+        <item quantity="one">Гледайте %1$1d секунди от един клип, за да спечелите %2$2d точка</item>
+    </plurals>
+    <plurals name="incentive_toast_share_success">
+        <item quantity="other">Спечелихте %d точки. Продължавайте да споделяте, за да спечелите повече.</item>
+        <item quantity="one">Спечелихте %d точка. Продължавайте да споделяте, за да спечелите повече.</item>
+    </plurals>
+    <plurals name="incentive_toast_subscribe_success">
+        <item quantity="other">Спечелихте %d точки. Абонирайте се за още профили, за да спечелите повече.</item>
+        <item quantity="one">Спечелихте %d точка. Абонирайте се за още профили, за да спечелите повече.</item>
+    </plurals>
     <plurals name="less_than_one_minute_ago">
         <item quantity="other">Току що</item>
         <item quantity="one">Току що</item>
+    </plurals>
+    <plurals name="local_diversion_video_number">
+        <item quantity="other">%d клипа</item>
+        <item quantity="one">%d клип</item>
     </plurals>
     <plurals name="local_video_floder">
         <item quantity="other">%d папки</item>
@@ -93,8 +179,8 @@
         <item quantity="one">Субтитрите ще бъдат показвани %.1f секунда по-късно</item>
     </plurals>
     <plurals name="lv_subtitle_onlinesub_size_float_kb">
-        <item quantity="other">Размер: %.2fКБ</item>
-        <item quantity="one">Размер: %.2fКБ</item>
+        <item quantity="other">Размер: %.2fКB</item>
+        <item quantity="one">Размер: %.2fКB</item>
     </plurals>
     <plurals name="lv_video_count">
         <item quantity="other">%d видеоклип</item>
@@ -124,6 +210,18 @@
         <item quantity="other">%d нови известия</item>
         <item quantity="one">%d ново известие</item>
     </plurals>
+    <plurals name="music_playlist_title_count">
+        <item quantity="other">%d песни</item>
+        <item quantity="one">%d песен</item>
+    </plurals>
+    <plurals name="new_incentive_toast_share_success">
+        <item quantity="other">Успешно споделяне. Получихте %d точки. Вземете ги в Центъра за Точки.</item>
+        <item quantity="one">Успешно споделяне. Получихте %d точка. Вземете я в Центъра за Точки.</item>
+    </plurals>
+    <plurals name="new_incentive_toast_subscribe_success">
+        <item quantity="other">Успешно абониране. Получихте %d точки. Вземете ги в Центъра за Точки.</item>
+        <item quantity="one">Успешно абониране. Получихте %d точка. Вземете я в Центъра за Точки.</item>
+    </plurals>
     <plurals name="notice_user_banned">
         <item quantity="other">Вашето съдържание съдържа неща (%1$s), които нарушават стандартите на нашата общност. Профилът Ви е деактивиран за %2$d дни – до %3$s.</item>
         <item quantity="one">Вашето съдържание съдържа неща (%1$s), които нарушават стандартите на нашата общност. Профилът Ви е деактивиран за %2$d ден – до %3$s.</item>
@@ -151,6 +249,10 @@
     <plurals name="plus_edit_top_titletext">
         <item quantity="other">Избрани са %s елементи</item>
         <item quantity="one">Избран е %s елемент</item>
+    </plurals>
+    <plurals name="plus_local_edit_delete_confirm_text">
+        <item quantity="other">Перманентно изтриване на %s файла?</item>
+        <item quantity="one">Перманентно изтриване на %s файл?</item>
     </plurals>
     <plurals name="plus_player_subtitle_online_size">
         <item quantity="other">Размер на файла: %.2fKB</item>
@@ -195,6 +297,14 @@
     <plurals name="toast_bookmark_max_size">
         <item quantity="other">Добавете до %d отметки</item>
         <item quantity="one">Добавете до %d отметка</item>
+    </plurals>
+    <plurals name="v_confirm_hide_videos_new">
+        <item quantity="other">Скриване на %d избрани файла?</item>
+        <item quantity="one">Скриване на %d избран файл?</item>
+    </plurals>
+    <plurals name="video_like_text">
+        <item quantity="other">%s харесвания</item>
+        <item quantity="one">%s харесване</item>
     </plurals>
     <plurals name="video_view_count">
         <item quantity="other">%d гледания</item>

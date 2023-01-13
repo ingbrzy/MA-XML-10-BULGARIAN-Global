@@ -146,13 +146,21 @@
     <string name="am">AM</string>
     <string name="app_cache">Кеш</string>
     <string name="app_library_category_entertainment">Развлечение</string>
+    <string name="app_library_category_financial_management">Финанси</string>
     <string name="app_library_category_games">Игри</string>
+    <string name="app_library_category_health_and_exercise">Здраве</string>
+    <string name="app_library_category_individualization">Персонализация</string>
     <string name="app_library_category_information">Медия</string>
     <string name="app_library_category_lifestyle">Лайфстайл</string>
+    <string name="app_library_category_originality">Творчество</string>
     <string name="app_library_category_others">Други</string>
     <string name="app_library_category_productivity">Продуктивност</string>
+    <string name="app_library_category_reading_and_information">Новини</string>
+    <string name="app_library_category_shopping_and_food">Пазаруване</string>
     <string name="app_library_category_social">Социални</string>
+    <string name="app_library_category_travel">Пътуване</string>
     <string name="app_library_category_utility">Инструменти</string>
+    <string name="app_library_category_work_and_efficiency">Производителност</string>
     <string name="app_library_title">Приложения</string>
     <string name="app_name_bluetooth">Bluetooth</string>
     <string name="app_name_camera">Камера</string>
@@ -171,6 +179,7 @@
     <string name="app_update_install">Готови за инсталиране на актуализацията.</string>
     <string name="application">Приложения</string>
     <string name="application_name">Браузър</string>
+    <string name="application_upgrade">Обновления</string>
     <string name="aqi_quality_index_break">Смъртоносно</string>
     <string name="aqi_quality_index_dangerous">Опасно</string>
     <string name="aqi_quality_index_good">Добро</string>
@@ -202,6 +211,7 @@
     <string name="bookmark_btn_select_all">Избери всички</string>
     <string name="bookmark_btn_select_none">Размаркирай всички</string>
     <string name="bookmark_cannot_save_url">Този URL адрес не може да бъде добавен към отметки.</string>
+    <string name="bookmark_file_privacy_nightmode_moved_here">Тук могат да бъдат открити преки пътища на функции и режими на сърфиране</string>
     <string name="bookmark_folder_needs_title">Въведете име на групата</string>
     <string name="bookmark_group_lable">Група</string>
     <string name="bookmark_needs_title">Трябва да добавите име на отметката</string>
@@ -296,9 +306,12 @@
     <string name="choose_to_signin">Да</string>
     <string name="choose_to_signup">Не, ще си направя сега</string>
     <string name="choosertitle_sharevia">Сподели чрез:</string>
+    <string name="clean_cache">Изчистване на кеша</string>
     <string name="clear">Изчисти</string>
     <string name="clear_history">Изчисти историята</string>
     <string name="clear_most_visited">Скорошна хронология</string>
+    <string name="clear_result_page_more_content">Открий още</string>
+    <string name="clear_result_page_show_more">Виж повече</string>
     <string name="clear_search_history">Изчисти историята</string>
     <string name="clearable_edittext_clear_description">Изчисти</string>
     <string name="cleared_garbage">Изчистени са %d MB боклук</string>
@@ -317,6 +330,7 @@
     <string name="close_all_tab_alert_title">Затваряне на всички табове</string>
     <string name="close_cant_recommand">Ако изключите тази функция, няма да можете да получавате услуги за персонализирано съдържание.</string>
     <string name="close_cloud_tab_tip">Затваряне на табовете в облака за %s?</string>
+    <string name="close_desktop">Изключихте десктоп версията</string>
     <string name="cloud_loading_tips">Изтеглете надолу за синхрон</string>
     <string name="cloud_no_new_data_toast">Няма нови данни, опитайте по-късно</string>
     <string name="cloud_sync_closed_toast">Не може да се обнови защото синхр. е изключена</string>
@@ -392,6 +406,7 @@
     <string name="contextmenu_webpage_snapshot">Запиши страницата</string>
     <string name="continue_reading">Продължете да четете</string>
     <string name="copy">Копиране</string>
+    <string name="copy_toast_msg">Връзката е копирана в буферната памет</string>
     <string name="copy_url">Копирай URL</string>
     <string name="core_functions_of_browser">Основни функции на Ваше разположение</string>
     <string name="could_not_load_data">Не може да се зареди информация, обновете и опитайте отново</string>
@@ -450,6 +465,7 @@ ID:%s
     <string name="display__quick_entry_of_search">Показване на преки пътища за функции в Лентата с известия</string>
     <string name="doc_viewer_label">Четец (Mi Браузър)</string>
     <string name="doc_viewer_open_out_file_prompt">За да отвори и прегледа файл получен от външни източници, това приложение трябва първо да създаде копие на файла.</string>
+    <string name="doc_viewer_user_guide_profile">Вижте елемента, който преглеждахте тук</string>
     <string name="document_download_background_btn">Изтегляне на заден план</string>
     <string name="document_download_cancel_btn">Отказ</string>
     <string name="document_download_failed">Изтеглянето не е успешно</string>
@@ -623,17 +639,16 @@ ID:%s
     <string name="exo_controls_pause_description">Поставяне на пауза</string>
     <string name="exo_controls_play_description">Възпроизвеждане</string>
     <string name="exo_controls_playback_speed">Скорост</string>
-    <string name="exo_controls_playback_speed_normal">Нормално</string>
     <string name="exo_controls_previous_description">Назад</string>
-    <string name="exo_controls_repeat_all_description">Повтаряне на всички</string>
-    <string name="exo_controls_repeat_off_description">Без повтаряне</string>
-    <string name="exo_controls_repeat_one_description">Повтаряне на един елемент</string>
+    <string name="exo_controls_repeat_all_description">Текущ режим: Повтар. на всички. Превкл. режима за повтаряне.</string>
+    <string name="exo_controls_repeat_off_description">Текущ режим: Без повтаряне. Превкл. режима за повтаряне.</string>
+    <string name="exo_controls_repeat_one_description">Текущ режим: Повтар. на 1 елемент. Превкл. режима за повтаряне.</string>
     <string name="exo_controls_rewind_description">Превъртане назад</string>
     <string name="exo_controls_seek_bar_description">Напредък на възпроизвеждането</string>
     <string name="exo_controls_settings_description">Настройки</string>
     <string name="exo_controls_show">Показване на контролите на плейъра</string>
-    <string name="exo_controls_shuffle_off_description">Разбъркването е изключено</string>
-    <string name="exo_controls_shuffle_on_description">Разбъркването е включено</string>
+    <string name="exo_controls_shuffle_off_description">Активиране на режима за разбъркване</string>
+    <string name="exo_controls_shuffle_on_description">Деактивиране на режима за разбъркване</string>
     <string name="exo_controls_stop_description">Спиране</string>
     <string name="exo_controls_vr_description">режим за VR</string>
     <string name="exo_download_completed">Изтеглянето завърши</string>
@@ -641,6 +656,9 @@ ID:%s
     <string name="exo_download_downloading">Изтегля се</string>
     <string name="exo_download_failed">Изтеглянето не бе успешно</string>
     <string name="exo_download_notification_channel_name">Изтегляния</string>
+    <string name="exo_download_paused">Изтеглянията са на пауза</string>
+    <string name="exo_download_paused_for_network">Изтеглянията чакат връзка с интернет</string>
+    <string name="exo_download_paused_for_wifi">Изтеглянията чакат връзка с Wi-Fi</string>
     <string name="exo_download_removing">Изтеглянията се премахват</string>
     <string name="exo_item_list">%1$s – %2$s</string>
     <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
@@ -664,11 +682,13 @@ ID:%s
     <string name="experience_improve">Програма за потребителски отзиви</string>
     <string name="external_app_restricted_access_error">Mi браузър няма достъп до този елемент.</string>
     <string name="failed_dup_secure_phone_number">Този телефонен номер вече е асоцииран с друг Mi Профил</string>
+    <string name="fallback_menu_item_copy_link">Копиране на връзката</string>
+    <string name="fallback_menu_item_open_in_browser">Отваряне в браузър</string>
+    <string name="fallback_menu_item_share_link">Споделяне на връзката</string>
     <string name="fast_search_title">Бързо търсене</string>
     <string name="fast_than">По-напред сте от %1$s%% потребителя</string>
     <string name="fb_login_tips">Впишете се, за да изтегляте видео от Facebook</string>
     <string name="fb_register_btn">Създайте профил</string>
-    <string name="fcm_fallback_notification_channel_label">Разни</string>
     <string name="featured_this_week">Представени тази седмица</string>
     <string name="feedback_bad">не е</string>
     <string name="feedback_general">Горе-долу</string>
@@ -701,6 +721,7 @@ ID:%s
     <string name="file_picker">Изберете директория</string>
     <string name="filename_empty_alert_message">Въведете име на файла</string>
     <string name="filename_illegal_alert_message">Името на файла съдържа недопустими символи, които ще бъдат автоматично премахнати.</string>
+    <string name="files_stored_in_the_phone">Файлове съхранени на това устройство</string>
     <string name="find_garbage">Открити са %d MB боклук</string>
     <string name="find_new_version">НАЛИЧНА Е НОВА АКТУАЛИЗАЦИЯ</string>
     <string name="find_on_page_cancel">Отказ</string>
@@ -778,6 +799,7 @@ ID:%s
     <string name="friday">Петък</string>
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
+    <string name="game_center">Игри</string>
     <string name="game_center_recommend_play">Прослушване</string>
     <string name="game_center_recommend_title">Препоръчано за Вас</string>
     <string name="game_play">Пусни</string>
@@ -847,6 +869,10 @@ ID:%s
     <string name="homepage_setting">Настройки за Начална страница</string>
     <string name="homepage_top_card_menu">Топ</string>
     <string name="hot_games">Популярни</string>
+    <string name="hot_news_notify_summary">Пуш известия за най-популярните новини</string>
+    <string name="hot_news_notify_tips_light">Можете да изключите Известията за новини в &lt;font color=\"#0D84FF\">Настройките&lt;/font></string>
+    <string name="hot_news_notify_title">Известия за новини</string>
+    <string name="hour_minute">%1$s %2$s</string>
     <string name="i_know">Стоп</string>
     <string name="identity">Идентифициране</string>
     <string name="if_cancel">Отмяна на действието?</string>
@@ -929,6 +955,8 @@ ID:%s
     <string name="loading_tips">Изтеглете надолу за обновяване</string>
     <string name="local_apps">Локални приложения</string>
     <string name="local_bookmarks">Mi</string>
+    <string name="local_file">Локални файлове</string>
+    <string name="local_video_player_label">Видео плейър (Mi Браузър)</string>
     <string name="location_permission_name">Достъп до местоположението</string>
     <string name="lockpattern_continue_button_text">Напред</string>
     <string name="lockpattern_need_to_confirm">Потвърдете фигурата</string>
@@ -957,6 +985,7 @@ ID:%s
     <string name="media_error_video_not_exist">Видеото не съществува</string>
     <string name="memory_clear_nothing_result">Няма кеш за изчистване</string>
     <string name="memory_clear_result">%1$s почистени</string>
+    <string name="memory_management">Управление на паметта</string>
     <string name="memory_usage">Памет</string>
     <string name="menu_addtodesk">На началния екран</string>
     <string name="menu_exit_nightmode">Изход</string>
@@ -1056,6 +1085,7 @@ ID:%s
     <string name="month_september_short">Септ.</string>
     <string name="month_september_shortest">Септ.</string>
     <string name="more">Още</string>
+    <string name="more_convenient_features_and_content">Вижте какви нови инструменти и съдържание може да предложи браузърът!</string>
     <string name="more_description">Меню</string>
     <string name="more_info">Научете повече</string>
     <string name="more_option">Още опции</string>
@@ -1242,6 +1272,7 @@ ID:%s
     <string name="my_account">Моят профил</string>
     <string name="my_cahnnel">Моите канали</string>
     <string name="my_channel">Моите канали</string>
+    <string name="my_prize_entry">Моите награди</string>
     <string name="name_empty">Трябва да въведете име.</string>
     <string name="nav_bottom_bar_back">Назад</string>
     <string name="nav_bottom_bar_close_all">Затвори всички</string>
@@ -1295,6 +1326,7 @@ ID:%s
     <string name="no_network">Проверете мрежовата връзка и опитайте отново.</string>
     <string name="no_phone">Няма телефонен номер</string>
     <string name="no_recent_files">Няма скорошни файлове</string>
+    <string name="no_scalable_applications">Всички приложения са обновени</string>
     <string name="no_space_alert_cancel">По-късно</string>
     <string name="no_space_alert_clean">Освобождаване на място</string>
     <string name="no_space_alert_text">Недостатъчно място</string>
@@ -1326,6 +1358,7 @@ ID:%s
     <string name="novel_continue_read_popup">Четене</string>
     <string name="novel_tab_popup">Преглеждайте най-новите си книги тук</string>
     <string name="novel_tab_popup_ok">OК</string>
+    <string name="occupy">%s заето</string>
     <string name="offline_notification_text">Докоснете, за да отворите рекламата</string>
     <string name="offline_notification_title">Прегледайте рекламата, която запазихте, докато бяхте офлайн</string>
     <string name="offline_opt_in_confirm">ОК</string>
@@ -1336,6 +1369,7 @@ ID:%s
     <string name="ok">ОК</string>
     <string name="one_prefect_author">Създател</string>
     <string name="open_app_confirm_message">Разрешаване на тази страница да отвори %s?</string>
+    <string name="open_desktop">Успешно преминахте към десктоп версията</string>
     <string name="open_google_gaid">За да можете да използвате тази функция се уверете, че не сте изключили персонализираните реклами в Настройки > Google > Реклами.</string>
     <string name="open_personalized_services">Включете персонализираните услуги, за да можете да използвате тази функция.</string>
     <string name="open_private_folder">Пуснете за преглед на скрити папки</string>
@@ -1348,6 +1382,7 @@ ID:%s
     <string name="operation_rename">Преименувай</string>
     <string name="operation_rename_message">Въведете ново име</string>
     <string name="operation_send">Изпрати</string>
+    <string name="opr_activity_title">Гледайте сезона и спечелете награди</string>
     <string name="other_channel">Чукнете, за да добавите още канали.</string>
     <string name="page_info">Инф за страницата</string>
     <string name="page_info_address">Адрес:</string>
@@ -1514,6 +1549,7 @@ ID:%s
     <string name="popular_game_video">Popular Game Video</string>
     <string name="popup_window_attempt">Ще разрешите ли на сайта да отваря изскачащи прозорци?</string>
     <string name="positive_confirm_message">Изключи въпреки това</string>
+    <string name="power_saving_settings">Икономия на батерия</string>
     <string name="pref_accessibility">Достъпност</string>
     <string name="pref_accessibility_title">Достъпност</string>
     <string name="pref_adblock_summary">Някои страници може да се зареждат по-бавно, когато тази функция е включена</string>
@@ -1727,6 +1763,7 @@ ID:%s
     <string name="pwa_hint_added_success">Успешно добавено</string>
     <string name="qr_code_title">QR код</string>
     <string name="qr_description">Сканиране на QR код</string>
+    <string name="quick_access_to_common_functions">Бърз достъп до любимите ви функции</string>
     <string name="quick_search_and_access_to_functions">Бързото търсене Ви дава бърз достъп до функциите, които използвате най-често.</string>
     <string name="quicklink_bookmark_save">Запиши в</string>
     <string name="quicklink_cannot_save_url">Този адрес не може да се добави.</string>
@@ -1744,6 +1781,9 @@ ID:%s
     <string name="quicklinks_most_visited">Добавяне към начална страница</string>
     <string name="quicklinks_most_visited_subtitle">Показване на наскоро посещавани сайтове в нов таб</string>
     <string name="quicklinks_most_visited_title">Добавяне към начална страница</string>
+    <string name="reading__business_recommend_at_end_more">Виж повече</string>
+    <string name="reading__business_recommend_at_end_other_docs">Още за четене</string>
+    <string name="reading__business_recommend_at_end_title">Препоръчано съдържание</string>
     <string name="reading__cancel">Отказ</string>
     <string name="reading__menu_open_with_another_app">Отвори с друго приложение</string>
     <string name="reading__menu_play">Слайдшоу</string>
@@ -1751,6 +1791,7 @@ ID:%s
     <string name="reading__menu_search">Търсене</string>
     <string name="reading__menu_share">Споделяне</string>
     <string name="reading__menu_thumbnail">Тъмбнейли на страници</string>
+    <string name="reading__reading_end">Прекратяване</string>
     <string name="reading__reading_first_page">Това е първата страница</string>
     <string name="reading__reading_last_page">Това е последната страница</string>
     <string name="reading__search_cancel">Отказ</string>
@@ -1869,6 +1910,9 @@ ID:%s
     <string name="search_bar_hint_content">Търсете приложения и съдържание</string>
     <string name="search_bing">Bing</string>
     <string name="search_button_text">Отиди</string>
+    <string name="search_card_online_rec_app">Пазари за приложения</string>
+    <string name="search_card_online_rec_app_install">Инсталиране</string>
+    <string name="search_card_online_rec_app_open">Отваряне</string>
     <string name="search_dianping">Cate</string>
     <string name="search_easou">Easou</string>
     <string name="search_empty_view_hint">Не е намерено нищо</string>
@@ -1943,6 +1987,8 @@ ID:%s
     <string name="setting_searchable_content">Търсени елементи</string>
     <string name="setting_sms_content">SMS съдържание</string>
     <string name="setting_swipe_up">Плъзнете нагоре на Началния екран</string>
+    <string name="settings_search_online_apps">Пазари за приложения</string>
+    <string name="settings_search_online_apps_desc">Съдържание от пазари за приложения</string>
     <string name="share_image_text">Вижте какво споделих! @MIUI</string>
     <string name="share_page_text">Вижте какво споделих: %1$s @MIUI| %2$s</string>
     <string name="share_slide_video_text">Вижте какво споделих: %1$s</string>
@@ -1979,6 +2025,11 @@ ID:%s
     <string name="speed_test_no_network">Неуспешно свързване с мрежата. Проверете мрежовите настройки и опитайте отново.</string>
     <string name="speed_test_ping">Закъснение</string>
     <string name="speed_test_upload">Качване</string>
+    <string name="sport_card_match_week">Седмица %d</string>
+    <string name="sports_card_match_season">Сезон</string>
+    <string name="sports_card_match_status_1">Предстоящ</string>
+    <string name="sports_card_match_status_2">В момента</string>
+    <string name="sports_card_match_status_3">Завършени</string>
     <string name="ssl_bad_clock_date_settings">Задаване на дата</string>
     <string name="ssl_bad_clock_warning" formatted="false">Не може да се създаде сигурна връзка към %s1 защото датата и часа на вашето устройство (%s2) са грешни.</string>
     <string name="ssl_bad_expired_warning">Този канал е предоставен от %1$s. Въпреки това, датата и часа зададени на вашето устройство (%2$s) не позволяват създаването на стабилна връзка с %1$s. Ако все още желаете да използвате този канал можете да зададете правилната дата и час като натиснете \"Продължи\".</string>
@@ -2013,7 +2064,7 @@ ID:%s
     <string name="suggest_access_btn_open">Отваряне</string>
     <string name="suggest_access_btn_play">Пускане</string>
     <string name="suggest_access_btn_view">Преглед</string>
-    <string name="suggest_access_item_app_size">%.2fМБ</string>
+    <string name="suggest_access_item_app_size">%.2fМB</string>
     <string name="suggest_access_item_app_update">Актуализация: %s</string>
     <string name="suggest_access_music">Mi Музика</string>
     <string name="suggest_item_delete_text">Изтрий</string>
@@ -2095,6 +2146,7 @@ ID:%s
     <string name="the_united_nations_day">Ден на обединените нации</string>
     <string name="the_valentines_day">Свети Валентин</string>
     <string name="the_water_lantern_festival">Фестивал на водните фенери</string>
+    <string name="third_image_viewer_label">Преглед на изображения (Mi Браузър)</string>
     <string name="thursday">Четвъртък</string>
     <string name="thursday_short">Четв.</string>
     <string name="thursday_shortest">Четв.</string>
@@ -2127,6 +2179,11 @@ ID:%s
     <string name="translation_query_error_network">Неуспешен превод. Проверете мрежовите си настройки и опитайте отново.</string>
     <string name="translation_result_empty">Неуспешен превод. Опитайте отново.</string>
     <string name="translation_to">Преведи на</string>
+    <string name="trash_cleaner_unit_b">B</string>
+    <string name="trash_cleaner_unit_gb">GB</string>
+    <string name="trash_cleaner_unit_kb">KB</string>
+    <string name="trash_cleaner_unit_mb">MB</string>
+    <string name="trash_cleaner_unit_tb">TB</string>
     <string name="trending_apps_more">Още</string>
     <string name="tuesday">Вторник</string>
     <string name="tuesday_short">Вт.</string>
@@ -2145,6 +2202,7 @@ ID:%s
     <string name="update_no_network_toast">Няма връзка с мрежата</string>
     <string name="update_now">АКТУАЛИЗИРАЙ СЕГА</string>
     <string name="update_phone_notice">Променете настройките за сигурност</string>
+    <string name="upgrade">Обновяване</string>
     <string name="upload_error_log">Качване на регистъра</string>
     <string name="upload_usage_statistics">Включете, за да споделяте статистики за употреба с нас при включен режим инкогнито</string>
     <string name="uploads_disabled">Качването на файлове е ограничено</string>
@@ -2333,10 +2391,13 @@ https://www.facebook.com/miui.global.official/videos/1602181069951748"</string>
     <string name="web_tag_desc">Показване на тъмбнейли на посещавани страници</string>
     <string name="web_tag_tips">Натиснете тук, за да посетите отново</string>
     <string name="web_tag_title">Тъмбнейли на уебстраници</string>
+    <string name="web_tools_moved_here">Инструментите бяха преместени тук</string>
     <string name="web_video_accelerate">Скорост</string>
+    <string name="web_video_default_time">%1$s:%2$s</string>
     <string name="web_video_download">Изтегляне</string>
     <string name="web_video_download_no_access">Изисквани разрешения за изтегляне на елементи</string>
     <string name="web_video_enable_long_click_toast">Възпроизвеждане на %dX скорост</string>
+    <string name="web_video_float_drag_msg">Провлачете за регулиране на размера</string>
     <string name="web_video_list_more">Още</string>
     <string name="web_video_list_playing">Възпроизвеждане</string>
     <string name="web_video_list_replay">Повторно пускане</string>

@@ -30,9 +30,4 @@
         <item>Тапет/Супер тапети</item>
         <item>Супер тапети;Тапет;Динамичен тапет;3D тапет</item>
     </string-array>
-    <string-array name="settings_search_weather">
-        <item>Времето</item>
-        <item>Тапет/Супер тапети/Времето</item>
-        <item>Времето;Информация за времето;Супер тапети;Тапет</item>
-    </string-array>
 </resources>
