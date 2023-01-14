@@ -364,9 +364,7 @@ ID:%s
     <string name="download_method">Изтегляне</string>
     <string name="download_no_application_title">Файлът не може да се отвори</string>
     <string name="download_paused_in_power_save_mode">Изтеглянето е спряно когато Икономия на батерията е включено</string>
-    <string name="download_percent">%d%%</string>
     <string name="download_processing">Изтегля се…</string>
-    <string name="download_progress">%d%%</string>
     <string name="download_quality">Качество при изтегляне</string>
     <string name="download_quality_summary">Разширени настройки на песните, които сте изтеглили</string>
     <string name="download_queued">Чакащи</string>
@@ -475,9 +473,7 @@ ID:%s
     <string name="exo_media_action_repeat_all_description">Повтаряне на всички</string>
     <string name="exo_media_action_repeat_off_description">Без повтаряне</string>
     <string name="exo_media_action_repeat_one_description">Повтаряне на един елемент</string>
-    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Алтернативен запис</string>
     <string name="exo_track_role_closed_captions">Субтитри</string>
     <string name="exo_track_role_commentary">Коментар</string>
@@ -877,7 +873,6 @@ ID:%s
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -1173,7 +1168,6 @@ ID:%s
     <string name="privacy_authorize_revoking">Отмяна на упълномощение…</string>
     <string name="privacy_desc">Правила за поверителност (задължително)</string>
     <string name="privacy_policy">Правила за поверителност</string>
-    <string name="privacy_policy_url">http://www.miui.com/res/doc/privacy.html?lang=bg_BG</string>
     <string name="privacy_request_desc">"&lt;Data>Mi Музика се нуждае да събира задължителна лична информация, за да ви предоставя услуги за гледане онлайн. Можете да научите как обработваме събраната информация в нашите &lt;a href=\"%1$s\">Правила за поверителност&lt;/a>. Можете да оттеглите съгласието си за Правилата за поверителност на Mi Музика в Настройки по всяко време.
 Прочетете и приемете нашето &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%1$s\">Правила за поверителност&lt;/a> преди да използвате Mi Музика.
 Ако не приемете да използвате гореспоменатите услуги, няма да можете да използвате някои от функциите на това приложение; но все пак ще имате достъп до основните му функции.&lt;/Data>"</string>
@@ -1354,7 +1348,6 @@ ID:%s
     <string name="start_to_download">Старирайте изтегляне…</string>
     <string name="start_to_play">Подготвяне…</string>
     <string name="start_update">Инсталиране на нова версия…</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_cloned_app">Хранилище за клонирани приложения</string>
     <string name="storage_internal">Вътрешна памет</string>
     <string name="storage_sd_card">SD карта</string>
@@ -1528,7 +1521,6 @@ ID:%s
     <string name="user_agreement_hint_with_mobile">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на China Mobile&lt;/a>.&lt;/Data></string>
     <string name="user_agreement_hint_with_telecom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на профил на eSurfing&lt;/a>.&lt;/Data></string>
     <string name="user_agreement_hint_with_unicom">&lt;Data>Прочетох и приемам &lt;a href=%1$s>Потребителското споразумение&lt;/a> и &lt;a href=%2$s>Правилата за поверителност&lt;/a> на Mi Профил, както и &lt;a href=%3$s>Правилата и условията на услугите за верификация на China Unicom&lt;/a>.&lt;/Data></string>
-    <string name="user_agreement_url">http://www.miui.com/res/doc/eula.html?lang=bg_BG</string>
     <string name="user_avatar_update_title">Промяна на профилната снимка</string>
     <string name="user_avatar_uploading">Момент…</string>
     <string name="user_experience_program_open">Поради ограничения за авторски права, трябва да се регистрирате в Програмата за потребителски отзиви, за да можете да възпроизвеждате изтеглени песни. Можете да направите това в Настройки > Пароли и сигурност > Поверителност > Запишете се в Програмата за потребителски отзиви.</string>

@@ -988,7 +988,6 @@
     <string name="card_main_private_space_summary">Използвайте Второ пространство все едно имате 2 устройства</string>
     <string name="card_main_private_space_title">Второ пространство</string>
     <string name="card_main_sectool_title">Инструменти</string>
-    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_xspace_action">Създаване</string>
     <string name="card_main_xspace_summary">Създайте два профила за всяко приложение</string>
     <string name="card_main_xspace_title">Клонирани приложения</string>
@@ -1274,7 +1273,6 @@
     <string name="dual_setting_simcard2">SIM 2</string>
     <string name="early_morning">Сутрин</string>
     <string name="edit_phone_num">Редактиране на телефонния номер на SIM картата</string>
-    <string name="ellipsis">…</string>
     <string name="email">Имейл</string>
     <string name="empty" />
     <string name="empty_app">Няма приложения</string>
@@ -1353,9 +1351,7 @@
     <string name="exo_download_paused_for_wifi">Изтеглянията чакат връзка с Wi-Fi</string>
     <string name="exo_download_removing">Изтеглянията се премахват</string>
     <string name="exo_item_list">%1$s – %2$s</string>
-    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
-    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Алтернативен запис</string>
     <string name="exo_track_role_closed_captions">Субтитри</string>
     <string name="exo_track_role_commentary">Коментар</string>
@@ -2433,7 +2429,6 @@ to join our egg hunt!"</string>
     <string name="menu_text_license_manager">Разрешения</string>
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
-    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_unit_b">Б</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
@@ -2442,7 +2437,6 @@ to join our egg hunt!"</string>
     <string name="menu_text_optimize_manage">Подобрете скоростта</string>
     <string name="menu_text_optimize_manage_1">Подобряване на скоростта</string>
     <string name="menu_text_power_manager">Батерия</string>
-    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Премахни от изключения</string>
     <string name="menu_white">Добавяне към изключения</string>
     <string name="mi_ime_not_used">Използвайте клавиатура одобрена от Xiaomi</string>
@@ -2547,7 +2541,6 @@ to join our egg hunt!"</string>
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -3123,11 +3116,6 @@ to join our egg hunt!"</string>
     <string name="power_center_dialog_msg_top">Когато услугата Икономия на батерия е включена, MIUI ще предприеме следните оптимизации:</string>
     <string name="power_center_hints_scan_danger_result">Можете да коригирате този проблем сега</string>
     <string name="power_center_list_item_auto_brightness">Автоматично настройване на яркостта на екрана</string>
-    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
-    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
-    <string name="power_center_list_item_battery_health_model_volume">%s mAh (милиампер-час)</string>
-    <string name="power_center_list_item_battery_status_capacity">мАч</string>
-    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">ч</string>
     <string name="power_center_list_item_close_bluetooth">Изключете Bluetooth</string>
     <string name="power_center_list_item_deep_save_title">Разширени настройки</string>
@@ -3413,7 +3401,6 @@ to join our egg hunt!"</string>
     <string name="pref_normal_traffic_limit">Когато планът за данни е изразходван</string>
     <string name="pref_open_adjust_traffic">Синхронизиране статистиката за трафика с вашия оператор</string>
     <string name="pref_operator_not_set">Оператора не е зададен</string>
-    <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_over_traffic_limit">Когато сте надвишили вашия лимит за данни</string>
     <string name="pref_package_traffic_settings">План за данни</string>
     <string name="pref_pkg_begin_date">Дата за нулиране на сметката</string>
@@ -3689,7 +3676,6 @@ to join our egg hunt!"</string>
     <string name="privacy_using_record">Запис на аудио</string>
     <string name="privacyapp_number_masked_text">Съдържанието на известията е скрито</string>
     <string name="privacyapp_number_unmasked_text">Съдържанието на известията може да се скрие</string>
-    <string name="process_kernel_label">Android операционна система</string>
     <string name="process_mediaserver_label">Медиен сървър</string>
     <string name="process_vpnsdkmanager_label">Game Turbo</string>
     <string name="promotion">Реклами</string>

@@ -195,7 +195,6 @@
     <string name="b_contacts_remove_tips">Желаете ли да премахнете този адрес от списъка на блокирани?</string>
     <string name="back">Назад</string>
     <string name="bcc">Bcc</string>
-    <string name="bcc_heading">"Препращане на: "</string>
     <string name="blank_feedback_toast">Вие трябва да напишете отзив</string>
     <string name="body_forward_email_text">[Forward]</string>
     <string name="body_hint">Съставяне на имейл</string>
@@ -206,7 +205,6 @@
     <string name="cancel">Отказ</string>
     <string name="cancel_action">Отказ</string>
     <string name="cc">Cc</string>
-    <string name="cc_attribution">Копие до %1$s&lt;br></string>
     <string name="cc_bcc">Cc/Bcc</string>
     <string name="cc_heading">"Копие до: "</string>
     <string name="certificate_add_failed">Неуспешно добавяне на сертификата „% s“</string>
@@ -230,7 +228,6 @@
     <string name="click_to_reload">Докоснете екрана, за да се обнови</string>
     <string name="close">Затваряне</string>
     <string name="collapse_recipient_details">Скриване на данни за получателя</string>
-    <string name="colon">:</string>
     <string name="compose">Съставяне на</string>
     <string name="compose_event">Покана</string>
     <string name="compose_paste_address_oob">Твърде много символи</string>
@@ -471,7 +468,6 @@
     <string name="installation_failed">Инсталирането не бе успешно.</string>
     <string name="installing_module">Модулът се инсталира:</string>
     <string name="kilobytes">"%s  КБ"</string>
-    <string name="label_notification_ticker">%1$s: %2$s</string>
     <string name="load_from_remote">Търсене на пощенска кутия на сървъра</string>
     <string name="load_more">Зареди още</string>
     <string name="loading_conversation">Зарежда се…</string>
@@ -872,7 +868,6 @@
     <string name="size_tera_byte">ТБ</string>
     <string name="smtp_password_error">Паролата за сървъра за изходяща поща е неправилна</string>
     <string name="sort_attachment">Сортиране по</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="str_select_all">Избери всички</string>
     <string name="str_select_none">Откажи всички</string>
     <string name="subject_and_snippet">%1$s - %2$s</string>

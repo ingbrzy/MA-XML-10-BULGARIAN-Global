@@ -4,11 +4,6 @@
         <item>Мъж</item>
         <item>Жена</item>
     </string-array>
-    <string-array name="customer_service">
-        <item>@string/customer_service_apply</item>
-        <item>@string/customer_service_complain</item>
-        <item>@string/customer_service_station</item>
-    </string-array>
     <string-array name="net_diag_err_link_quality">
         <item>Лоша Wi-Fi връзка. Превключете безжичните ленти или рестартирайте рутера.</item>
         <item>Няма достъп до мрежата. Свържете се отново с Wi-Fi или рестартирайте рутера.</item>
@@ -62,11 +57,5 @@
     </string-array>
     <string-array name="net_diag_err_network_topology">
         <item>Проверете DHCP настройките на рутера и кабелната връзка</item>
-    </string-array>
-    <string-array name="reproductivity">
-        <item>@string/feedback_reproductivity_everytime</item>
-        <item>@string/feedback_reproductivity_often</item>
-        <item>@string/feedback_reproductivity_occasionally</item>
-        <item>@string/feedback_reproductivity_once</item>
     </string-array>
 </resources>
