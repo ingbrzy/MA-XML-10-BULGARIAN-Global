@@ -23,11 +23,6 @@
         <item>Максимално</item>
         <item>Два дни</item>
     </string-array>
-    <string-array name="entries_pref_key_voice_report">
-        <item>@string/voice_report_wiredon</item>
-        <item>@string/voice_report_anytime</item>
-        <item>@string/voice_report_off</item>
-    </string-array>
     <string-array name="entries_sms_validity_period">
         <item>Не задавай</item>
         <item>1 час</item>

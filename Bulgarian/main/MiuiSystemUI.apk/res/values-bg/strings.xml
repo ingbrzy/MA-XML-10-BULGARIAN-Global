@@ -1456,7 +1456,6 @@ mm"</string>
     <string name="monitoring_description_personal_profile_named_vpn">Личните ви приложения са свързани с интернет чрез %1$s. Активността ви в мрежата, включително имейлите и данните за сърфирането, е видима от доставчика ви на VPN.</string>
     <string name="monitoring_description_two_named_vpns">Това устройство е свързано с интернет чрез %1$s и %2$s. Активността ви в мрежата, включително имейлите и данните за сърфирането, е видима за системния ви администратор.</string>
     <string name="monitoring_description_vpn_settings">Отваряне на настройките за VPN</string>
-    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"%1$s може да има достъп до свързаните с това устройство данни, да управлява приложенията и да променя настройките му.
 
 Обърнете се към %2$s, ако имате въпроси."</string>
@@ -1535,7 +1534,6 @@ mm"</string>
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -1565,7 +1563,6 @@ mm"</string>
     <string name="music_controls_no_title">Няма заглавие</string>
     <string name="nav_bar">Лента за навигация</string>
     <string name="nav_bar_layout">Оформление</string>
-    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="new_notification_image_content_description">%1$s изпрати изображение</string>
     <string name="new_notification_text_content_description">%1$s изпрати съобщение: %2$s</string>
     <string name="new_status_content_description">%1$s има актуализация на състоянието: %2$s</string>
@@ -1771,7 +1768,6 @@ mm"</string>
     <string name="private_dns_mode_provider">Име на хоста на доставчика на частния DNS</string>
     <string name="private_dns_mode_provider_failure">Не можа да се установи връзка</string>
     <string name="private_dns_mode_provider_hostname_hint">Въведете име на хоста на DNS доставчика</string>
-    <string name="process_kernel_label">Android (ОС)</string>
     <string name="profile_connect_timeout_subtext">При свързването възникна проблем. Изключете устройството и го включете отново</string>
     <string name="profile_info_settings_title">Инф. за потр. профил</string>
     <string name="qr_code_scanner_title">Сканиране на QR код</string>
@@ -2111,8 +2107,6 @@ mm"</string>
     <string name="status_bar_clock_date_time_format_12">h:mm a, E, d MMM</string>
     <string name="status_bar_clock_date_weekday_format">EEEE, dd MMMM</string>
     <string name="status_bar_clock_date_weekday_format_12">EEEE, dd MMMM</string>
-    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
-    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_date_format">"E
 d MMM"</string>
     <string name="status_bar_date_format_12">"EEE

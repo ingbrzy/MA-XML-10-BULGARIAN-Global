@@ -886,7 +886,6 @@ ID:%s
     <string name="face_name_edit">Промени</string>
     <string name="face_name_input">Въведете име</string>
     <string name="face_recommend">Препоръки</string>
-    <string name="face_recommend_group_number">%1$d/%2$d</string>
     <string name="facebook_login_btn_content_description">Вписване с Facebook</string>
     <string name="fail_hint">Операцията е неуспешна</string>
     <string name="fail_reason_migrate">Обработване на елементи… Изчакайте минута-две и опитайте отново.</string>
@@ -902,7 +901,6 @@ ID:%s
     <string name="feedback_my_reports">Отзив</string>
     <string name="feedback_problem">Докладвайте проблем</string>
     <string name="feedback_suggest">Изпращане на предложение</string>
-    <string name="fileSizeSuffix">%1$s%2$s</string>
     <string name="file_cannot_print">Този елемент не може да се принтира.</string>
     <string name="file_cannot_screen_throw">Този елемент не може да се прожектира.</string>
     <string name="file_sending">Прехвърляне на файлове…</string>
@@ -1170,7 +1168,6 @@ ID:%s
     <string name="grant_permission_go_and_set">Задай</string>
     <string name="grant_permission_go_and_set_2">Настройки</string>
     <string name="grant_permission_go_and_set_3">Настройки</string>
-    <string name="grant_permission_item">\"%s\"</string>
     <string name="grant_permission_manage_storage">Необходими са разрешения</string>
     <string name="grant_permission_manage_storage_unlock">Отключете устройството си и разрешете на приложението да получава достъп до всички файлове, за да можете да преглеждате елементите.</string>
     <string name="grant_permission_shortcut">Първо разрешете на приложението да създава преки пътища на Началния екран.</string>
@@ -1967,7 +1964,6 @@ ID:%s
     <string name="people_page_label">Хора</string>
     <string name="people_page_photo">Тъмбнейл на човек</string>
     <string name="people_page_unname">Неизвестно</string>
-    <string name="percent_sign">%</string>
     <string name="permission_account_desc">За вписване в системен профил и управлението му</string>
     <string name="permission_account_name">Достъп до профили</string>
     <string name="permission_clipboard_desc">За получаване на достъп и запазване на елементи в клипборда</string>
@@ -2000,7 +1996,6 @@ ID:%s
     <string name="photo_editor_beautify_auto">Автоматично</string>
     <string name="photo_editor_beauty_compare">Оригинално</string>
     <string name="photo_editor_common_download_failed">Неуспешно изтегляне на плъгин. Проверете настройките на мрежата и опитайте отново.</string>
-    <string name="photo_editor_common_download_failed_msg">@string/filter_sky_download_failed_msg</string>
     <string name="photo_editor_common_download_finish">Успешно изтеглен плъгин</string>
     <string name="photo_editor_common_download_sdk_without_wifi_msg">Не сте свързани към Wi-Fi. Желаете ли да изтеглите плъгина (%1$d MB) чрез мобилни данни?</string>
     <string name="photo_editor_common_download_sdk_without_wifi_title">Изтегляне на плъгин</string>
@@ -2087,7 +2082,6 @@ ID:%s
     <string name="photo_editor_talkback_crop_9_18">девет на осемнадесет</string>
     <string name="photo_editor_talkback_crop_free">Безплатни</string>
     <string name="photo_editor_talkback_crop_mirror">Огледало</string>
-    <string name="photo_editor_talkback_crop_movie">@string/filter_category_movie</string>
     <string name="photo_editor_talkback_crop_original">Оригинал</string>
     <string name="photo_editor_talkback_crop_reset">Нулиране</string>
     <string name="photo_editor_talkback_crop_right_rotate">Завъртане на 90 градуса</string>
@@ -2416,18 +2410,13 @@ ID:%s
     <string name="screen_editor_btn_save">Запази</string>
     <string name="screen_editor_btn_shell_off">Премахване на рамка на устройство</string>
     <string name="screen_editor_btn_shell_on">Добавяне на рамка на устройство</string>
-    <string name="screen_editor_crop">@string/photo_editor_long_crop</string>
     <string name="screen_editor_crop_disallowed_with_shell">Не е възможно изрязването на екранна снимка с рамка на устройство</string>
     <string name="screen_editor_delete_dialog_msg">Изтриване на тази екранна снимка?</string>
-    <string name="screen_editor_doodle">@string/photo_editor_doodle</string>
     <string name="screen_editor_finish">Готово</string>
-    <string name="screen_editor_mosaic">@string/photo_editor_mosaic</string>
-    <string name="screen_editor_send">@string/operation_send</string>
     <string name="screen_editor_shell_disallowed_with_crop">Не е възможно добавяне на рамка на устройството към изрязана екранна снимка</string>
     <string name="screen_editor_shell_net_error">Свържете се с мрежата, за да можете да изтеглите рамка на устройството</string>
     <string name="screen_editor_shell_res_downloading">Изтегляне на рамка на устройство…</string>
     <string name="screen_editor_shell_storage_insufficient">Неуспешно изтегляне на рамка на устройството поради недостиг на свободно място в паметта</string>
-    <string name="screen_editor_text">@string/photo_editor_text</string>
     <string name="screen_save_dialog_btn_cancel">Отказ</string>
     <string name="screen_save_dialog_btn_delete">Изтриване на снимката на екрана</string>
     <string name="screen_save_dialog_btn_save">Запази в Галерията</string>
@@ -2577,7 +2566,6 @@ ID:%s
     <string name="share_album_cancel_share">Прекратяване на споделяне</string>
     <string name="share_album_change_background">Промяна на снимката за фон</string>
     <string name="share_album_create_failed">Неуспешно създаване на споделен албум</string>
-    <string name="share_album_create_processing">@string/cloud_bacup_disable_processing</string>
     <string name="share_album_exit_button_text">Прекратяване на споделяне</string>
     <string name="share_album_exit_confirm">Вече няма да имате достъп до всички елементи в този албум, ако продължите. Запазете всички важни елементи, преди да си тръгнете.</string>
     <string name="share_album_exit_confirm_title">Напускане на групата?</string>
@@ -2649,7 +2637,6 @@ ID:%s
     <string name="share_with_family">Сподели със семейството</string>
     <string name="sharer_quota_fulfiled">Вече споделихте този албум с максималния брой потребители.</string>
     <string name="show_cloud_albumlist_summary">След като изключите синхронизацията нови елементи от избрани албуми няма да бъдат качвани в облака.</string>
-    <string name="show_cloud_albumlist_title">@string/album_cloud_list_page_title</string>
     <string name="show_hidden_album_summary">Показване и управление на скритите албуми.</string>
     <string name="show_hidden_album_title">Показване на скритите албуми</string>
     <string name="show_in_other_albums_disable_toast_long_press_menu">Преместено успешно, отидете в Други албуми, за да видите</string>
