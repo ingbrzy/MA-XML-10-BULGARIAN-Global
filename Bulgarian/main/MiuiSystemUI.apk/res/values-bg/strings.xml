@@ -629,6 +629,10 @@
     <string name="daltonizer_mode_protanomaly">Протаномалия (червено – зелено)</string>
     <string name="daltonizer_mode_tritanomaly">Тританомалия (синьо – жълто)</string>
     <string name="daltonizer_type_overridden">Заменено от „%1$s“</string>
+    <string name="dark_mode_power_save_alert_dialog_confirm">Разбрах</string>
+    <string name="dark_mode_power_save_alert_dialog_message">"Ако изключите оптимизирането на MIUI и включите Икономия на батерия, Тъмният режим ще се включи автоматично.
+За да изключите Тъмния режим, изключете Икономия на батерия или включете оптимизирането на MIUI в Настройки > Опции за разработчици > Включване на MIUI оптимизация."</string>
+    <string name="dark_mode_power_save_alert_dialog_title">Тъмен режим</string>
     <string name="data_connection_3_5g">H</string>
     <string name="data_connection_3_5g_plus">H+</string>
     <string name="data_connection_3g">3G</string>
@@ -1452,6 +1456,7 @@ mm"</string>
     <string name="monitoring_description_personal_profile_named_vpn">Личните ви приложения са свързани с интернет чрез %1$s. Активността ви в мрежата, включително имейлите и данните за сърфирането, е видима от доставчика ви на VPN.</string>
     <string name="monitoring_description_two_named_vpns">Това устройство е свързано с интернет чрез %1$s и %2$s. Активността ви в мрежата, включително имейлите и данните за сърфирането, е видима за системния ви администратор.</string>
     <string name="monitoring_description_vpn_settings">Отваряне на настройките за VPN</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"%1$s може да има достъп до свързаните с това устройство данни, да управлява приложенията и да променя настройките му.
 
 Обърнете се към %2$s, ако имате въпроси."</string>
@@ -1530,6 +1535,7 @@ mm"</string>
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -1559,6 +1565,7 @@ mm"</string>
     <string name="music_controls_no_title">Няма заглавие</string>
     <string name="nav_bar">Лента за навигация</string>
     <string name="nav_bar_layout">Оформление</string>
+    <string name="network_speed_suffix">%1$s%2$s</string>
     <string name="new_notification_image_content_description">%1$s изпрати изображение</string>
     <string name="new_notification_text_content_description">%1$s изпрати съобщение: %2$s</string>
     <string name="new_status_content_description">%1$s има актуализация на състоянието: %2$s</string>
@@ -1764,6 +1771,7 @@ mm"</string>
     <string name="private_dns_mode_provider">Име на хоста на доставчика на частния DNS</string>
     <string name="private_dns_mode_provider_failure">Не можа да се установи връзка</string>
     <string name="private_dns_mode_provider_hostname_hint">Въведете име на хоста на DNS доставчика</string>
+    <string name="process_kernel_label">Android (ОС)</string>
     <string name="profile_connect_timeout_subtext">При свързването възникна проблем. Изключете устройството и го включете отново</string>
     <string name="profile_info_settings_title">Инф. за потр. профил</string>
     <string name="qr_code_scanner_title">Сканиране на QR код</string>
@@ -1929,9 +1937,9 @@ mm"</string>
     <string name="reboot_info_auto_boot_global">Предстояща аларма: %s</string>
     <string name="reboot_info_shutdown_alarm_global">Аларма за изключване: %s</string>
     <string name="recent_conversations">Скорошни разговори</string>
-    <string name="recent_used_camera">Това приложение използва камерата</string>
-    <string name="recent_used_camera_and_microphone">Това приложение записа аудио и използва камерата</string>
-    <string name="recent_used_microphone">Това приложение записа аудио</string>
+    <string name="recent_used_camera">Това приложение получи достъп до камерата</string>
+    <string name="recent_used_camera_and_microphone">Това приложение получи достъп до камерата и микрофона</string>
+    <string name="recent_used_microphone">Това приложение получи достъп до микрофона</string>
     <string name="remaining_length_format">Оставащо време: %1$s</string>
     <string name="remote_input_image_insertion_text">изпратено изображение</string>
     <string name="remove_from_settings">Премахване от „Настройки“</string>
@@ -2103,6 +2111,8 @@ mm"</string>
     <string name="status_bar_clock_date_time_format_12">h:mm a, E, d MMM</string>
     <string name="status_bar_clock_date_weekday_format">EEEE, dd MMMM</string>
     <string name="status_bar_clock_date_weekday_format_12">EEEE, dd MMMM</string>
+    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
+    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_date_format">"E
 d MMM"</string>
     <string name="status_bar_date_format_12">"EEE
@@ -2352,9 +2362,9 @@ d MMM"</string>
     <string name="user_setup_dialog_title">Настройване на потребителя?</string>
     <string name="user_setup_profile_dialog_message">Ще настроите ли потребителския профил сега?</string>
     <string name="user_switch_to_user">Превключване към: %s</string>
-    <string name="using_camera">Това приложение използва камерата</string>
-    <string name="using_camera_and_microphone">Това приложение записва аудио и използва камерата</string>
-    <string name="using_microphone">Това приложение записва аудио</string>
+    <string name="using_camera">Това приложение получава достъп до камерата</string>
+    <string name="using_camera_and_microphone">Това приложение получава достъп до камерата и микрофона</string>
+    <string name="using_microphone">Това приложение получава достъп до микрофона</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
     <string name="verify_apps_over_usb_summary">Проверка на инсталираните чрез ADB/ADT приложения за опасно поведение.</string>

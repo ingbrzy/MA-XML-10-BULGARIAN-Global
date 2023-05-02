@@ -40,10 +40,6 @@
         <item quantity="other">Открити са %d резултата</item>
         <item quantity="one">Открит е %d резултат</item>
     </plurals>
-    <plurals name="family_service_member_count">
-        <item quantity="other">%d човека</item>
-        <item quantity="one">%d човек</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Преди половин час</item>
         <item quantity="one">Преди половин час</item>

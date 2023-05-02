@@ -36,14 +36,6 @@
         <item quantity="other">Преди %d мин</item>
         <item quantity="one">Преди 1 мин</item>
     </plurals>
-    <plurals name="exo_controls_fastforward_by_amount_description">
-        <item quantity="other">Превъртане с(ъс) %d секунди напред</item>
-        <item quantity="one">Превъртане с %d секунда напред</item>
-    </plurals>
-    <plurals name="exo_controls_rewind_by_amount_description">
-        <item quantity="other">Превъртане с(ъс) %d секунди назад</item>
-        <item quantity="one">Превъртане с %d секунда назад</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Преди половин час</item>
         <item quantity="one">Преди половин час</item>
@@ -71,10 +63,6 @@
     <plurals name="miuix_appcompat_items_selected">
         <item quantity="other">%d избрани елементи</item>
         <item quantity="one">%d избран елемент</item>
-    </plurals>
-    <plurals name="mtrl_badge_content_description">
-        <item quantity="other">%d нови известия</item>
-        <item quantity="one">%d ново известие</item>
     </plurals>
     <plurals name="num_minutes_ago">
         <item quantity="other">Преди %d минути</item>

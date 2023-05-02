@@ -2,9 +2,9 @@
 <resources>
     <string-array name="additional_cal_dialog_labels">
         <item>Няма</item>
-        <item>Хиджри Самват</item>
-        <item>Шака Самват</item>
-        <item>Викрами Самват</item>
+        <item>Ислямски календар</item>
+        <item>Национален индийски календар</item>
+        <item>Календар Викрам</item>
     </string-array>
     <string-array name="aquarius_info">
         <item>aquarius</item>
@@ -29,6 +29,10 @@
     <string-array name="change_response_labels">
         <item>Само това събитие</item>
         <item>Всички събития от поредицата</item>
+    </string-array>
+    <string-array name="close_alarm_repeating_labels">
+        <item>Изключване веднъж</item>
+        <item>Винаги изключено</item>
     </string-array>
     <string-array name="date_calculate_spinner">
         <item>Препращане</item>
@@ -78,6 +82,10 @@
         <item>libra</item>
         <item>Везни</item>
         <item>23/9 - 23/10</item>
+    </string-array>
+    <string-array name="open_alarm_repeating_labels">
+        <item>Включване веднъж</item>
+        <item>Винаги включено</item>
     </string-array>
     <string-array name="panchang_weeks">
         <item>Неделя</item>

@@ -48,10 +48,11 @@
     <string name="add_holiday_desc">Добавете празници тук</string>
     <string name="add_holiday_title">Добавете празник</string>
     <string name="additional_cal_dialog_title">Изберете календар</string>
-    <string name="additional_cal_pref_title">Допълнителен календар</string>
+    <string name="additional_cal_pref_title">Допълнителни календари</string>
     <string name="additional_calendar_note">Някои допълнителни календари може да не са налични или да варират в зависимост от непостоянни фактори</string>
     <string name="afternoon">Следобяд</string>
     <string name="agenda_month_empty_hint">Няма събития за днес</string>
+    <string name="agenda_not_today_empty_hint">Още няма събития. Създайте едно.</string>
     <string name="agenda_tomorrow">УТРЕ, %1$s</string>
     <string name="agenda_view">Събития</string>
     <string name="alarm_label">Изключи</string>
@@ -182,6 +183,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Традиционен Китайски Календар</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_time_picker_dialog_title">Задаване на дата и час</string>
     <string name="date_today">" (днес)"</string>
     <string name="date_view">Дата</string>
@@ -194,6 +196,8 @@
     <string name="delete_this_event_title">Да се изтрие ли това събитие?</string>
     <string name="description_calendar">Системни приложения/Календар</string>
     <string name="description_calendar_edit_event">Системни приложения/Календар/Дневен ред</string>
+    <string name="description_calendar_huangli" />
+    <string name="description_calendar_subscribe_group" />
     <string name="directory_searching_fmt">Търсене %s…</string>
     <string name="discard_label">Отказ</string>
     <string name="display_to_calendar">Показване в Календара</string>
@@ -270,6 +274,7 @@
     <string name="event_info_when">Кога</string>
     <string name="event_info_where">Къде</string>
     <string name="event_reminder_allday_day_zero">На самия ден в %2$s</string>
+    <string name="event_reminder_custom">Персонализиране</string>
     <string name="event_reminder_value_zero">Преди събитието</string>
     <string name="event_title">Заглавие</string>
     <string name="event_view">Преглед на събитие</string>
@@ -389,6 +394,7 @@
     <string name="holidays_title">Празници</string>
     <string name="horoscope">Хороскоп</string>
     <string name="horoscope_card_title">Хороскопът за днес</string>
+    <string name="horoscope_partner" />
     <string name="horoscope_select_activity_label">Избор на зодиакален знак</string>
     <string name="hour_1">%d час</string>
     <string name="image_processing">Изображението все още не е готово</string>
@@ -422,6 +428,8 @@
     <string name="long_holiday_week_off">Почивни дни от седмицата</string>
     <string name="long_month_date_format">d MMMM yyyy</string>
     <string name="lunar_date">Лунна дата</string>
+    <string name="lunar_day" />
+    <string name="lunar_to_solar" />
     <string name="manage_holidays">Управление на празници</string>
     <string name="manage_title">Управление</string>
     <string name="mark_end">Цикълът свърши</string>
@@ -579,7 +587,7 @@
     <string name="no_visiable_calendar_title">Добави профил</string>
     <string name="none">Няма</string>
     <string name="noon">Обед</string>
-    <string name="not_more_than_three_weekday">Можете да изберете до 3 дни</string>
+    <string name="not_more_than_three_weekday">Можете да изберете до %d дни</string>
     <string name="not_set">Не е зададено</string>
     <string name="notes_hint">Натиснете, за да добавите задача</string>
     <string name="notes_reminders_channel">Напомняния за бележки</string>
@@ -594,6 +602,10 @@
     <string name="notes_weekly">Седмично</string>
     <string name="notification_channel_description" />
     <string name="notification_channel_name">Напомняния в календара</string>
+    <string name="notification_open_setting_button_exit">Не, благодаря</string>
+    <string name="notification_open_setting_button_ok">Разрешаване</string>
+    <string name="notification_open_setting_message">Няма да можете да получавате известия за събития, освен ако не позволите на Календар да Ви изпраща известия.</string>
+    <string name="notification_open_setting_title">Разрешавате ли известия от Календара?</string>
     <string name="numbers">%d</string>
     <string name="pack_up">收起</string>
     <string name="panchang_amanta">Аманта</string>
@@ -621,6 +633,7 @@
     <string name="panchang_yog">Йог</string>
     <string name="partner_compatibility">Съвместимост с партньора/партньорката</string>
     <string name="path_calendar_settings">Системни приложения/Календар/Настройки</string>
+    <string name="permission_denial">Дайте разрешения, за да можете да използвате тази функция</string>
     <string name="permission_description">Подробности за разрешения</string>
     <string name="picker_day">Избран ден: %1$d. Плъзнете вертикално, за да изберете.</string>
     <string name="picker_month">Избран месец: %1$d. Плъзнете вертикално, за да изберете.</string>
@@ -634,7 +647,6 @@
     <string name="pref_title_no_remind">Без напомняне</string>
     <string name="pref_title_notification_remind">Уведомления за напомняне</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
-    <string name="preferences_additional_cal_default">0</string>
     <string name="preferences_alarms_category_title">Звуково напомняне</string>
     <string name="preferences_alarms_sound">Звук</string>
     <string name="preferences_alarms_vibrateWhen">Вибрация</string>
@@ -653,9 +665,9 @@
     <string name="preferences_title">Календар</string>
     <string name="preferences_use_home_tz_descrip">Показва календари и времена на събития в домашния часови пояс, когато пътувате</string>
     <string name="preferences_use_home_tz_title">Използвай домашната часова зона</string>
-    <string name="preferences_week_start_day_default">-1</string>
     <string name="preferences_week_start_day_dialog">Първи ден от седмицата</string>
     <string name="preferences_week_start_day_title">Първи ден от седмицата</string>
+    <string name="premission_description_notice">За изпращане на известия за събития и празници</string>
     <string name="privacy_and_permissions">Поверителност и разрешения</string>
     <string name="privacy_card_description">Приемете нашите Правила за поверителност, за да получите достъп до всички функции.</string>
     <string name="privacy_policy_dialog_agree">Приемам</string>
@@ -681,6 +693,8 @@
     <string name="remind_title_menstruation_start">Напомни ми когато цикълът започне</string>
     <string name="remind_title_record">Напомни ми да запиша</string>
     <string name="repeat_activity_label">Повторение</string>
+    <string name="repeat_alarm_close_title">Това събитие се повтаря. Желаете ли да изключите напомнянето?</string>
+    <string name="repeat_alarm_open_title">Това събитие се повтаря. Желаете ли да зададете напомняне?</string>
     <string name="repeat_custom_activity_label">По избор</string>
     <string name="repeat_custom_prompt_daily">всеки %1$s</string>
     <string name="repeat_custom_prompt_sentence">Събитието ще се повтаря %1$s</string>
@@ -702,6 +716,7 @@
     <string name="repeat_label_frequency">Честота</string>
     <string name="repeat_label_interval">Всеки</string>
     <string name="repeat_label_week">Седмица</string>
+    <string name="repeat_lunar_yearly" />
     <string name="repeat_month_day_splitter">" "</string>
     <string name="repeat_week_info">" %1$s %2$s"</string>
     <string name="repeats_label">Повтори</string>
@@ -722,7 +737,9 @@
     <string name="saving_event">Събитието е запазено</string>
     <string name="saving_event_with_guest">Изпращане на обновяване…</string>
     <string name="search_calendar_edit_event">Среща;Напомняне;Дневен ред</string>
+    <string name="search_calendar_huangli" />
     <string name="search_calendar_settings">Календар;Дневен ред;Напомняне</string>
+    <string name="search_calendar_subscribe_group" />
     <string name="search_events">Търсене на събития</string>
     <string name="search_history">Хронология на търсенията</string>
     <string name="search_menu_title">Търсене</string>
@@ -740,7 +757,7 @@
     <string name="setting_about_summary">Версия:</string>
     <string name="setting_accounts">Календарни профили</string>
     <string name="setting_change_language">Избор на език за Календар</string>
-    <string name="setting_desc_import_todo">Внасяне на планирани задачи от Бележки</string>
+    <string name="setting_desc_import_todo">Внесете чувствителни откъм време задачи от Бележки</string>
     <string name="setting_features_title">Настройки на услугите</string>
     <string name="setting_holiday_display_desc">Поздравителните картички са след списъка Ви със събития</string>
     <string name="setting_holiday_reminder">Напомняне за празник</string>
@@ -777,6 +794,10 @@
     <string name="size_tera_byte">ТБ</string>
     <string name="skip">Пропускане</string>
     <string name="small_week_date_format">EEE dd.MM.yyyy</string>
+    <string name="solar_lunar_convert_date" />
+    <string name="solar_lunar_convert_description" />
+    <string name="solar_lunar_convert_tab" />
+    <string name="solar_to_lunar" />
     <string name="spec_agenda_day_and_month">%1$s/%2$s</string>
     <string name="spec_agenda_view">Специални събития</string>
     <string name="start_date_calculate">Пресметни</string>

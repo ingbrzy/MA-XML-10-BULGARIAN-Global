@@ -152,8 +152,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="cloud_backup_detail_state_summary_china">Устройството трябва да е свързано с WLAN, да се зарежда и да е заключено</string>
     <string name="cloud_backup_detail_time">Последен архив на: %1$s</string>
     <string name="cloud_backup_detail_title">Архивиране на елементи</string>
-    <string name="cloud_backup_get_installed_apps_summary">For backing up and restoring Home screen apps</string>
-    <string name="cloud_backup_get_installed_apps_title">Access the list of apps installed on this device</string>
     <string name="cloud_backup_have_data">Открито е рез. копие в Xiaomi Cloud</string>
     <string name="cloud_backup_in_cancel">Отказ</string>
     <string name="cloud_backup_in_process">Създават се резервни копия</string>
@@ -172,9 +170,6 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="confirm_restore_summary">Вашият Начален екран беше презареден. Архивираните приложения ще бъдат изтеглени автоматично отново.</string>
     <string name="confirm_restore_title">Възстанови</string>
     <string name="copy">Копиране</string>
-    <string name="cta_dialog_all_purpose">Добре дошли в Резервни копия в облака! Можете да използвате това приложение, за да архивирате оформлението на Началния екран, приложенията, системните настройки и данните на WeChat в облака. Уверете се, че използвате най-новата версия, за да можете да се възползвате от всички наши функции.</string>
-    <string name="cta_dialog_permission_description_get_installed_apps">For backing up and restoring apps</string>
-    <string name="cta_dialog_permission_description_storage">За архивиране и възстановяване на елементи</string>
     <string name="customization"><u>Персонализиране</u></string>
     <string name="date_format">HH:mm:ss dd-MM-yyyy</string>
     <string name="date_picker_label_day" />
@@ -402,6 +397,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="open_backup_switch">Превключи на Резервно копие</string>
     <string name="other_device_main_space">Основно работно място</string>
     <string name="other_device_second_space">Второ пространство</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="pc_mode_not_support_restore_warning">Не можете да възстановявате елементи в режим Компютър. Изключете режима Компютър и опитайте отново.</string>
     <string name="permission_to_use">Подробности за разрешения</string>
     <string name="pm">PM</string>

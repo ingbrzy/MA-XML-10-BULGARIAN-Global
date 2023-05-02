@@ -79,6 +79,8 @@
     <string name="cm_terms_title">Условия за ползване на мобилния оператор</string>
     <string name="compass_introduction">Можете да използвате това приложение за навигация, както и за проверка на географските координати, атмосферното налягане и надморската височина.</string>
     <string name="congratulation_label">Насладете се на новият си телефон :)</string>
+    <string name="congratulation_pre_label">Един момент…</string>
+    <string name="congratulation_pre_title">Подготвяне на системата…</string>
     <string name="congratulation_swipe">Плъзнете нагоре, за да влезете в системата</string>
     <string name="congratulation_title">Поздравления!!</string>
     <string name="content_description_complete">Готово</string>
@@ -259,6 +261,7 @@ Features are subject to change. Some of the features above may not be available 
     <string name="midnight">Нощ</string>
     <string name="mint_keyboard_oobe_checkbox">Прочетох и съм съгласен с Правилата за поверителност на Mint клавиатурата</string>
     <string name="mint_keyboard_oobe_terms">Правила за поверителност на Mint клавиатура</string>
+    <string name="miui14_start_up_slogan">Ready. Steady. Live.</string>
     <string name="miui_privacy_policy_no_network">Няма връзка с интернет. Вижте правилата за поверителност на %s</string>
     <string name="miui_provision">Initial setup</string>
     <string name="miui_terms_no_network">Нямате връзка с интернет. Вижте Потребителското споразумение на %s.</string>

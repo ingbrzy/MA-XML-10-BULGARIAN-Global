@@ -4,10 +4,9 @@
         <item>Камера</item>
         <item>Галерия</item>
     </string-array>
-    <string-array name="common_folder_operations">
-        <item>新建</item>
-        <item>重命名</item>
-        <item>删除</item>
+    <string-array name="big_screen_layouts">
+        <item>@string/setting_big_screen_layout_columns</item>
+        <item>@string/setting_big_screen_layout_flat</item>
     </string-array>
     <string-array name="contact_entries">
         <item>Име</item>
@@ -22,20 +21,6 @@
         <item>Адрес</item>
         <item>Бележка</item>
     </string-array>
-    <string-array name="first_guide_contents">
-        <item>Добре дошли в Бележки!</item>
-        <item>Води си бележки</item>
-        <item>Можете да използвате текст, изображения и гласови записи във Вашите бележки. Богатата библиотека от стилове и шрифтове ще направи Вашите обикновени драсканици зашеметяващи.</item>
-        <item>Списъците и напомнянията са тук, за да ви помогнат когато имате нужда от основни и ефективни инструменти за планиране на следващото си пътуване или за да организирате списъка си за покупки.</item>
-        <item>Сподели бележки</item>
-        <item>Можете автоматично да създавате дълги екранни снимки в Бележки и след това да ги споделяте с приятели.</item>
-        <item>Създавайте и управлявайте папки</item>
-        <item>Натиснете стрелката по-долу за създаване на нова папка или управление на вече съществуващи.</item>
-    </string-array>
-    <string-array name="folder_operations">
-        <item>Преименувай</item>
-        <item>Изтрий</item>
-    </string-array>
     <string-array name="font_size_names">
         <item>Малък</item>
         <item>Среден</item>
@@ -46,15 +31,8 @@
         <item>По дата на създаване</item>
         <item>По дата на промяна</item>
     </string-array>
-    <string-array name="second_guide_contents">
-        <item>Гласови бележки</item>
-        <item>Създавайте бележки с помощта на нашата вградена опция реч към текст и прикачвайте оригиналните си гласови записи към бележките.</item>
-    </string-array>
-    <string-array name="second_guide_contents_pad_or_inter">
-        <item>Гласови бележки</item>
-        <item>Вече можете да създавате гласови бележки. Просто натиснете иконата, запишете гласово съобщение и съхранете аудио файла в бележката.</item>
-    </string-array>
-    <string-array name="system_folder_operations">
-        <item>新建</item>
+    <string-array name="setting_phone_note_layout_way">
+        <item>@string/action_mode_switcher_list_description</item>
+        <item>@string/action_mode_switcher_grid_description</item>
     </string-array>
 </resources>

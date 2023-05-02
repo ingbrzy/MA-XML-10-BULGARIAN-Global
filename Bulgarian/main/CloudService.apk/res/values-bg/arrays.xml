@@ -93,7 +93,7 @@
         <item>Открий устройство;Загубено;Облак;Синхронизация;Облачни услуги;Xiaomi Cloud</item>
     </string-array>
     <string-array name="settings_search_find_phone">
-        <item>Открий устройството</item>
+        <item>Намери устройството</item>
         <item>Изтрийте данните и заключете вашето устройство, ако е загубено</item>
         <item>Открий устройство;Загубено;Облак;Синхронизация;Облачни услуги;Xiaomi Cloud</item>
     </string-array>
