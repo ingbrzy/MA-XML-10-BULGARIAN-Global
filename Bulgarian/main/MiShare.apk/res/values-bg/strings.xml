@@ -396,7 +396,6 @@
     <string name="somepc_send_muchfile_files">%1$s Ви изпраща повече от %2$d файла…</string>
     <string name="start_receive_much_files_from_pc">Получаване на повече от %2$d файла от %1$s…</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="sub_title_mishare_switch">Тази функция ще се изключи автоматично след %d минути</string>
     <string name="success_receive_much_file_from_pc">Получихте повече от %2$d файла от %1$s. Натиснете, за да прегледате.</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Неделя</string>
@@ -458,8 +457,6 @@
     <string name="tips_p2p_support_use5g_china">For best results, use a 5 GHz WLAN network.</string>
     <string name="tips_prompt_enable_midrop">Mi Share</string>
     <string name="to_feedback">Доклад</string>
-    <string name="toast_auto_close_in_minutes">Mi Share ще се изключи след %d минути</string>
-    <string name="toast_transfering">Прехвърляне на елементи. Опитайте отново по-късно.</string>
     <string name="today">Днес</string>
     <string name="tomorrow">Утре</string>
     <string name="transfer_intercept_to_remote">Неуспешно изпращане: %1$s</string>
@@ -467,10 +464,8 @@
     <string name="transfer_to_pc_summary_new">&lt;Data>Най-новата версия на MIUI+ инсталирана на Mi Тетрадки е съвместима с Mi Share. Можете да прегледате списъка с поддържани модели на лаптопи в сайта на MIUI+ (&lt;a href=%1$s>%2$s&lt;/a>). Ако лаптопа Ви е в списъка, но MIUI+ не е инсталиран в него, обновете BIOS на лаптопа, както и драйвера за мрежов адаптер и изтеглете MIUI+.&lt;/Data></string>
     <string name="transfer_to_pc_title">Изпращайте файлове до компютри</string>
     <string name="transfer_to_phone_summary">Включете Mi Share използвайки превключвателя в лентата с известията. След това, когато споделяте снимка или файл, ще можете да виждате устройства наблизо. Натиснете името на устройството на получателя, за да му изпратите това, което споделяте.</string>
-    <string name="transfer_to_phone_summary_new">Включете Mi Share в контролния център, за да можете лесно да изпращате и получавате елементи. След като го включите, можете да споделяте елементи с устройства в близост за %d минути, преди да се изключи автоматично.</string>
     <string name="transfer_to_phone_title">Изпращайте файлове до телефони</string>
     <string name="transfer_to_summary">Включете Mi Share използвайки превключвателя в лентата с известията. След това, когато споделяте снимка или файл, ще можете да виждате устройства наблизо. Натиснете името на устройството на получателя, за да му изпратите това, което споделяте.</string>
-    <string name="transfer_to_summary_new">Включете Mi Share в контролния център, за да можете лесно да изпращате и получавате елементи. След като го включите, можете да споделяте елементи с устройства в близост за %d минути, преди да се изключи автоматично.</string>
     <string name="transfer_to_title">Изпращане на файлове към мобилни устройства</string>
     <string name="tuesday">Вторник</string>
     <string name="tuesday_short">Вт.</string>
