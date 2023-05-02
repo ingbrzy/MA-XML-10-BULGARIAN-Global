@@ -237,7 +237,6 @@
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="privacy_settings">Поверителност</string>
     <string name="quit_recording">Изход от Записване на екран</string>
-    <string name="record_time_too_short">Видеоклипа е прекалено кратък</string>
     <string name="recording_failure">Не може да се запише, започни отначало</string>
     <string name="recording_max_size">Записът бе спрян и запазен, защото видеофайлът достигна своя максимален размер. Започнете записването, откъдето сте спрели, ако все още не сте готови.</string>
     <string name="recording_without_mic">Микрофонът е зает и не може да записва звук в момента.</string>

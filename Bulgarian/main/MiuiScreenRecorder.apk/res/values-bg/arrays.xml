@@ -11,6 +11,12 @@
         <item>4Mbps</item>
         <item>1Mbps</item>
     </string-array>
+    <string-array name="screenrecorder_settings_frames">
+        <item>24fps</item>
+        <item>30fps</item>
+        <item>48fps</item>
+        <item>60fps</item>
+    </string-array>
     <string-array name="screenrecorder_settings_orientation">
         <item>Авто</item>
         <item>Портрет</item>
@@ -30,12 +36,6 @@
         <item>Заглуши</item>
         <item>Микрофон</item>
         <item>Системни звуци</item>
-    </string-array>
-    <string-array name="screenrecorder_settings_sound_native">
-        <item>Без</item>
-        <item>Микрофон</item>
-        <item>Система</item>
-        <item>И двете</item>
     </string-array>
     <string-array name="screenrecorder_settings_storage_location">
         <item>Вътрешна памет</item>
