@@ -52,6 +52,7 @@
     <string name="activity_title_uninstall_apps">Приложения</string>
     <string name="activity_title_video">Изтриване на видео</string>
     <string name="activity_title_white_list">Изключения</string>
+    <string name="ad_flag_text">Реклама</string>
     <string name="ad_install_success_dialog_lunch">Отваряне</string>
     <string name="ad_install_success_dialog_title">Инсталирани сауспешно %1$s. Да ги отворя ли?</string>
     <string name="afternoon">Следобяд</string>
@@ -239,6 +240,7 @@
     <string name="dc_item_title_wechat_chat">Почистете историята от WeChat</string>
     <string name="dc_storage_cleaned">Освободени %s</string>
     <string name="dc_storage_info">Налични %1$s | Общо %2$s</string>
+    <string name="dc_storage_info_new">%1$s достъпни</string>
     <string name="deep_clean_completed_tips">Успешно почистено</string>
     <string name="deep_clean_data_path_clean_title">Изчисти кеша</string>
     <string name="deep_clean_uninstall_completed_tips">Успешно деинсталиране</string>
@@ -302,6 +304,7 @@
     <string name="download">Изтегляне</string>
     <string name="downloading">Изтегля се</string>
     <string name="early_morning">Сутрин</string>
+    <string name="empty">" "</string>
     <string name="empty_content_no_ignore_image">Празно</string>
     <string name="empty_content_no_privacy">Празно</string>
     <string name="empty_content_no_similar_image">Няма дубликати</string>
@@ -462,7 +465,6 @@
     <string name="guide_dc_dialog_negative">Отказ</string>
     <string name="guide_dc_dialog_positive">OK</string>
     <string name="guide_dc_dialog_title">Мястото за съхранение намалява</string>
-    <string name="guide_secure_dialog_message">Нивото на оптимизиция е под 80 точки. Да се оптимизира ли сега?</string>
     <string name="guide_secure_dialog_message_new">Резултатът от оптимизацията на Вашето устройство е по-нисък от %d точки. Желаете ли да оптимизирате сега?</string>
     <string name="guide_secure_dialog_negative">Отказ</string>
     <string name="guide_secure_dialog_positive">Оптимизирай</string>
@@ -490,6 +492,7 @@
     <string name="hints_garbage_cleanup_result_safe">Изглежда всичко е наред</string>
     <string name="hints_garbage_handle_item_content">%1$d елементи, %2$s</string>
     <string name="hints_garbage_handle_item_empty_content">Празно</string>
+    <string name="hints_header_left">%d</string>
     <string name="hints_installed_app_fewer">Рядко</string>
     <string name="hints_installed_app_near">Скоро</string>
     <string name="hints_installed_app_never">Никога</string>
@@ -539,6 +542,7 @@
     <string name="last_check_canceled">Предишното сканиране бе отменено</string>
     <string name="load_only_under_wlan">Заредете използвайки само Wi-Fi</string>
     <string name="location_not_found">Файлът не е открит</string>
+    <string name="lock_device_toast">Това устройство е заключено. Отключете, за да използвате Чистач.</string>
     <string name="login_immediately">Вписване</string>
     <string name="long_click_dialog_summary">Дълго натискане за добавяне на изключения.</string>
     <string name="long_click_dialog_title">Известие</string>
@@ -566,15 +570,15 @@
     <string name="menu_view">Преглед в папката</string>
     <string name="midnight">Нощ</string>
     <string name="miuix_access_state_desc">Избрани</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Размаркиране на всички</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Откажи всички</string>
     <string name="miuix_appcompat_action_mode_select_all">Избиране на всички</string>
     <string name="miuix_appcompat_action_mode_title_empty">Изберете елементи</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Повече</string>
     <string name="miuix_appcompat_cancel_description">Отказ</string>
     <string name="miuix_appcompat_confirm_description">Потвърди</string>
     <string name="miuix_appcompat_delete_description">Изтрий</string>
-    <string name="miuix_appcompat_deselect_all">Отмаркиране</string>
-    <string name="miuix_appcompat_deselect_all_description">Размаркирай всички</string>
+    <string name="miuix_appcompat_deselect_all">Откажи всички</string>
+    <string name="miuix_appcompat_deselect_all_description">Откажи всички</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Отказ</string>
     <string name="miuix_appcompat_search_input_description">Търси</string>
     <string name="miuix_appcompat_select_all">Избери всички</string>
@@ -638,6 +642,9 @@
     <string name="msg_update_error_code_success">Обновено</string>
     <string name="msg_update_error_code_unknown_error">Сървърите са заети. Изчакайте малко и опитайте отново.</string>
     <string name="name_debuglog_dir">BSP дебъг регистър</string>
+    <string name="native_body">Основен текст</string>
+    <string name="native_headline">Заглавие</string>
+    <string name="native_media_view">Преглед на мултимедийния файл</string>
     <string name="nb_clear_set">Почистване на кеша, данните за батерията и списъка с информация в лентата с известия</string>
     <string name="network_not_available">Няма връзка с мрежата</string>
     <string name="news_change">Промяна</string>
@@ -744,12 +751,7 @@
     <string name="pref_title_open_optimizer_cloud_scan">Качване</string>
     <string name="pref_title_open_optimizer_memory_scan">Почистване на паметта</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
-    <string name="privacy_app_desc">Профил и парола</string>
-    <string name="privacy_app_desc_message">Профил, пароли и съобщения</string>
-    <string name="privacy_app_desc_search">Профил, пароли и история на търсенията</string>
-    <string name="privacy_app_desc_setting">Профил, пароли и настройки</string>
     <string name="privacy_browser_desc">Търсени елементи</string>
-    <string name="privacy_cache_desc">Профил, пароли, история, настройки и др.</string>
     <string name="privacy_cache_empty">Няма лични данни</string>
     <string name="privacy_cache_scaning">Проверява се…</string>
     <string name="privacy_cache_title">Лични данни</string>
@@ -807,6 +809,7 @@
     <string name="size_peta_byte">ПБ</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">ТБ</string>
+    <string name="skip_ad">Пропусни</string>
     <string name="sponsored">Спонсорирани</string>
     <string name="start_downloading_app">Начало на изтегляне：%1$s</string>
     <string name="start_install">Начало на инсталация</string>
@@ -868,9 +871,7 @@
     <string name="time_picker_label_hour">Ч</string>
     <string name="time_picker_label_minute">M</string>
     <string name="tips_low_storage_dialog_cancel">Отказ</string>
-    <string name="tips_low_storage_dialog_msg_qq">Кешът на приложението QQ е достигнал 3ГБ. Това може да забави вашето устройство. Да се почисти ли кеша сега?</string>
     <string name="tips_low_storage_dialog_msg_qq_new">Размера на кеш от QQ е достигнал %d GB. Това може да забави устройството Ви. Желаете ли да изчистите кеша от QQ сега?</string>
-    <string name="tips_low_storage_dialog_msg_storage">Вие използвате 90% от вашето място за съхранение. Деинсталирайте приложенията, които вече не ви трябват.</string>
     <string name="tips_low_storage_dialog_msg_storage_new">Вие използвате %s от вашето място за съхранение. Деинсталирайте приложенията, които вече не ви трябват.</string>
     <string name="tips_low_storage_dialog_msg_wechat_new">Размера на кеш от WeChat е достигнал %d GB. Това може да забави устройството Ви. Желаете ли да изчистите кеша от WeChat сега?</string>
     <string name="tips_low_storage_dialog_ok">Почисти</string>
@@ -938,6 +939,7 @@
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
     <string name="virus_scan">Сканиране за вируси</string>
+    <string name="watermark_label_prefix">AdMob –</string>
     <string name="wechat_chat_data_type_cache">WeChat кеш</string>
     <string name="wechat_chat_data_type_cache_desc">Може да възстановите тези файлове, след като се свържете с интернет.</string>
     <string name="wechat_chat_data_type_chat">История на чатовете</string>

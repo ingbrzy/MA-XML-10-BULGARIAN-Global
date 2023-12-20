@@ -31,6 +31,13 @@
     <string name="actionbar_button_up_description">Назад</string>
     <string name="afternoon">Следобяд</string>
     <string name="am">AM</string>
+    <string name="call_notification_answer_action">Отговор</string>
+    <string name="call_notification_answer_video_action">Видеообаждане</string>
+    <string name="call_notification_decline_action">Отхвърляне</string>
+    <string name="call_notification_hang_up_action">Затваряне</string>
+    <string name="call_notification_incoming_text">Входящо обаждане</string>
+    <string name="call_notification_ongoing_text">Текущо обаждане</string>
+    <string name="call_notification_screening_text">Преглежда се входящо обаждане</string>
     <string name="clearable_edittext_clear_description">Изчисти</string>
     <string name="close">Затваряне</string>
     <string name="date_picker_label_day" />
@@ -39,7 +46,6 @@
     <string name="date_picker_lunar">Традиционен Китайски Календар</string>
     <string name="date_time_picker_dialog_title">Задаване на дата и час</string>
     <string name="decline">Отхвърлям</string>
-    <string name="dlg_ok">OK</string>
     <string name="early_morning">Сутрин</string>
     <string name="empty" />
     <string name="eras_ad">н.е.</string>
@@ -102,15 +108,15 @@
     <string name="friday_shortest">Пт.</string>
     <string name="midnight">Нощ</string>
     <string name="miuix_access_state_desc">Избрани</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Размаркиране на всички</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Откажи всички</string>
     <string name="miuix_appcompat_action_mode_select_all">Избиране на всички</string>
     <string name="miuix_appcompat_action_mode_title_empty">Изберете елементи</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Повече</string>
     <string name="miuix_appcompat_cancel_description">Отказ</string>
     <string name="miuix_appcompat_confirm_description">Потвърди</string>
     <string name="miuix_appcompat_delete_description">Изтрий</string>
-    <string name="miuix_appcompat_deselect_all">Отмаркиране</string>
-    <string name="miuix_appcompat_deselect_all_description">Размаркирай всички</string>
+    <string name="miuix_appcompat_deselect_all">Откажи всички</string>
+    <string name="miuix_appcompat_deselect_all_description">Откажи всички</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Отказ</string>
     <string name="miuix_appcompat_search_input_description">Търси</string>
     <string name="miuix_appcompat_select_all">Избери всички</string>
@@ -167,9 +173,6 @@
     <string name="morning">Сутрин</string>
     <string name="night">Вечер</string>
     <string name="noon">Обед</string>
-    <string name="notification_channel_network_alerts">Сигнали за мрежата</string>
-    <string name="notification_channel_network_available">Налице е мрежа</string>
-    <string name="notification_channel_network_status">Състояние на мрежата</string>
     <string name="ok">OK</string>
     <string name="pm">PM</string>
     <string name="saturday">Събота</string>
@@ -235,115 +238,12 @@
     <string name="wednesday">Сряда</string>
     <string name="wednesday_short">Ср.</string>
     <string name="wednesday_shortest">Ср.</string>
-    <string name="wifiResourcesAppLabel">Системни Wi-Fi ресурси</string>
-    <string name="wifi_available_action_all_networks">Всички мрежи</string>
-    <string name="wifi_available_action_connect">Свързване</string>
-    <string name="wifi_available_content_failed_to_connect">Докоснете, за да видите всички мрежи</string>
-    <string name="wifi_available_title">Свързване с отворена Wi‑Fi мрежа</string>
-    <string name="wifi_available_title_connected">Установихте връзка с Wi-Fi мрежата</string>
-    <string name="wifi_available_title_connecting">Установява се връзка с Wi-Fi мрежата</string>
-    <string name="wifi_available_title_failed_to_connect">Не можа да се установи връзка с Wi‑Fi мрежата</string>
-    <string name="wifi_ca_cert_dialog_abort_text">Не, без свързване</string>
-    <string name="wifi_ca_cert_dialog_continue_text">Да, свързване</string>
-    <string name="wifi_ca_cert_dialog_message_contact_text">"Контакт:
-%1$s
-
-"</string>
-    <string name="wifi_ca_cert_dialog_message_hint">"Разрешете на тази мрежа да се свърже само ако информацията по-долу изглежда правилна.
-
-"</string>
-    <string name="wifi_ca_cert_dialog_message_issuer_name_text">"Име на издателя:
-%1$s
-
-"</string>
-    <string name="wifi_ca_cert_dialog_message_organization_text">"Организация:
-%1$s
-
-"</string>
-    <string name="wifi_ca_cert_dialog_message_server_name_text">"Име на сървъра:
-%1$s
-
-"</string>
-    <string name="wifi_ca_cert_dialog_message_signature_name_text">"Подпис:
-%1$s
-
-"</string>
-    <string name="wifi_ca_cert_dialog_preT_abort_text">Без свързване</string>
-    <string name="wifi_ca_cert_dialog_preT_continue_text">Свързване въпреки това</string>
-    <string name="wifi_ca_cert_dialog_preT_message_hint">За мрежата %1$s липсва сертификат.</string>
-    <string name="wifi_ca_cert_dialog_preT_message_link">Научете как да добавите сертификати</string>
-    <string name="wifi_ca_cert_dialog_preT_title">Тази мрежа не може да се потвърди</string>
-    <string name="wifi_ca_cert_dialog_title">Надеждна ли е тази мрежа?</string>
-    <string name="wifi_ca_cert_failed_to_install_ca_cert">Инсталирането на сертификата не бе успешно.</string>
-    <string name="wifi_ca_cert_notification_message">Прегледайте подробностите за мрежата %1$s, преди да се свържете. Докоснете, за да продължите.</string>
-    <string name="wifi_ca_cert_notification_preT_abort_text">Без свързване</string>
-    <string name="wifi_ca_cert_notification_preT_continue_text">Свързване въпреки това</string>
-    <string name="wifi_ca_cert_notification_preT_message">За мрежата %1$s липсва сертификат. Докоснете, за да научите как да добавите сертификати.</string>
-    <string name="wifi_ca_cert_notification_preT_title">Тази мрежа не може да се потвърди</string>
-    <string name="wifi_ca_cert_notification_title">Мрежата трябва да бъде потвърдена</string>
-    <string name="wifi_cannot_connect_with_randomized_mac_message">Докоснете, за да промените настройките за поверителност, и опитайте отново</string>
-    <string name="wifi_cannot_connect_with_randomized_mac_title">Не може да се установи връзка с(ъс) %1$s</string>
-    <string name="wifi_connect_alert_message">Приложението %1$s иска да се свърже с Wi-Fi мрежата „%2$s“</string>
-    <string name="wifi_connect_alert_title">Да се разреши ли връзката?</string>
-    <string name="wifi_connect_default_application">Приложение</string>
-    <string name="wifi_disable_mac_randomization_dialog_confirm_text">Промяна на настройката</string>
-    <string name="wifi_disable_mac_randomization_dialog_failure">Настройката за поверителност не може да се промени</string>
-    <string name="wifi_disable_mac_randomization_dialog_message">"За да установи връзка, %1$s трябва да използва MAC адреса (уникален идентификатор) на устройството ви. Понастоящем в настройката ви за поверителност за тази мрежа се използва рандомизиран идентификатор. 
-
-Тази промяна може да даде възможност на устройствата в близост да проследяват местоположението на устройството ви."</string>
-    <string name="wifi_disable_mac_randomization_dialog_network_not_found">Мрежата не е намерена</string>
-    <string name="wifi_disable_mac_randomization_dialog_success">Настройката е актуализирана. Опитайте отново да установите връзка.</string>
-    <string name="wifi_disable_mac_randomization_dialog_title">Да се промени ли настройката за поверителност?</string>
-    <string name="wifi_eap_error_message_code_16384">%1$s – Грешка при удостоверяването на EAP: 16384</string>
-    <string name="wifi_eap_error_message_code_16385">%1$s – Грешка при удостоверяването на EAP: 16385</string>
-    <string name="wifi_eap_error_message_code_32756">%1$s – Грешка при удостоверяването на EAP: 32756</string>
-    <string name="wifi_eap_error_message_code_32760">%1$s – Грешка при удостоверяването на EAP: 32760</string>
-    <string name="wifi_eap_error_message_code_32761">%1$s – Грешка при удостоверяването на EAP: 32761</string>
-    <string name="wifi_eap_error_message_code_32762">%1$s – Грешка при удостоверяването на EAP: 32762</string>
-    <string name="wifi_eap_error_message_code_32763">%1$s – Грешка при удостоверяването на EAP: 32763</string>
-    <string name="wifi_eap_error_message_code_32764">%1$s – Грешка при удостоверяването на EAP: 32764</string>
-    <string name="wifi_eap_error_message_code_32765">%1$s – Грешка при удостоверяването на EAP: 32765</string>
-    <string name="wifi_eap_error_message_code_32766">%1$s – Грешка при удостоверяването на EAP: 32766</string>
-    <string name="wifi_eap_error_message_code_32767">%1$s – Грешка при удостоверяването на EAP: 32767</string>
-    <string name="wifi_eap_error_message_unknown_error_code">%1$s – Грешка при удостоверяването на EAP: неизвестен код на грешка</string>
-    <string name="wifi_enable_request_dialog_message">Можете да изключите Wi‑Fi от бързите настройки</string>
-    <string name="wifi_enable_request_dialog_negative_button">Забраняване</string>
-    <string name="wifi_enable_request_dialog_positive_button">Разрешаване</string>
-    <string name="wifi_enable_request_dialog_title">Да се разреши ли на %1$s да включва Wi‑Fi?</string>
-    <string name="wifi_interface_priority_approve">Разрешаване</string>
-    <string name="wifi_interface_priority_message">Това може да причини проблеми за %3$s.</string>
-    <string name="wifi_interface_priority_message_plural">Това може да доведе до проблеми за следните приложения: %3$s.</string>
-    <string name="wifi_interface_priority_reject">Забраняване</string>
-    <string name="wifi_interface_priority_title">%1$s иска да използва ресурс на мрежата</string>
     <string name="wifi_p2p_enter_pin_message">Въведете задължителния ПИН:</string>
-    <string name="wifi_p2p_frequency_conflict_message">Телефонът временно ще прекрати връзката с Wi-Fi, докато е свързан с/ъс %1$s</string>
     <string name="wifi_p2p_from_message">От:</string>
+    <string name="wifi_p2p_invitation_seconds_remaining">{0,plural, =1{Имате # секунда, за да приемете.}other{Имате # секунди, за да приемете.}}</string>
     <string name="wifi_p2p_invitation_sent_title">Поканата е изпратена</string>
     <string name="wifi_p2p_invitation_to_connect_title">Покана за свързване</string>
     <string name="wifi_p2p_show_pin_message">ПИН:</string>
     <string name="wifi_p2p_to_message">До:</string>
-    <string name="wifi_sim_required_message">За да се свържете с(ъс) %1$s, поставете SIM карта от %2$s</string>
-    <string name="wifi_sim_required_title">Няма връзка с Wi-Fi</string>
-    <string name="wifi_softap_auto_shutdown_timeout_expired_summary">Няма свързани устройства. Докоснете за промяна.</string>
-    <string name="wifi_softap_auto_shutdown_timeout_expired_title">Точката за достъп е изключена</string>
-    <string name="wifi_suggestion_action_allow_app">Разрешаване</string>
-    <string name="wifi_suggestion_action_allow_imsi_privacy_exemption_carrier">Свързване</string>
-    <string name="wifi_suggestion_action_allow_imsi_privacy_exemption_confirmation">Свързване</string>
-    <string name="wifi_suggestion_action_disallow_app">Не, благодаря</string>
-    <string name="wifi_suggestion_action_disallow_imsi_privacy_exemption_carrier">Без свързване</string>
-    <string name="wifi_suggestion_action_disallow_imsi_privacy_exemption_confirmation">Без свързване</string>
-    <string name="wifi_suggestion_content">Предложени от %s мрежи. Устройството може да се свърже автоматично.</string>
-    <string name="wifi_suggestion_imsi_privacy_content">Тези мрежи получават идентификатор за SIM карта, който може да се използва за проследяване на местоположението на устройството</string>
-    <string name="wifi_suggestion_imsi_privacy_exemption_confirmation_content">Ако се свържете, Wi-Fi мрежите на %s може да имат достъп или да споделят уникален идентификатор, свързан със SIM картата ви. Това може да позволи проследяването на местоположението на устройството ви.</string>
-    <string name="wifi_suggestion_imsi_privacy_exemption_confirmation_title">Потвърждавате ли връзката?</string>
-    <string name="wifi_suggestion_imsi_privacy_title">Искате ли да се свържете с Wi-Fi от %s?</string>
-    <string name="wifi_suggestion_title">Да се разрешат ли предложените Wi‑Fi мрежи?</string>
-    <string name="wifi_wakeup_enabled_content">Намирате се в района на запазена мрежа: %1$s</string>
-    <string name="wifi_wakeup_enabled_title">Wi-Fi се включи автоматично</string>
-    <string name="wifi_wakeup_onboarding_action_disable">Без повторно включване</string>
-    <string name="wifi_wakeup_onboarding_subtext">Когато сте в района на запазена мрежа с високо качество</string>
-    <string name="wifi_wakeup_onboarding_title">Wi‑Fi ще се включи автоматично</string>
-    <string name="wifi_watchdog_network_disabled">Не можа да се свърже с Wi-Fi</string>
-    <string name="wifi_watchdog_network_disabled_detailed">" има лоша връзка с интернет."</string>
     <string name="yesterday">Вчера</string>
 </resources>

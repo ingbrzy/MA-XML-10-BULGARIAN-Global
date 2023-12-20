@@ -74,6 +74,7 @@
     <string name="continue_download">Продължете</string>
     <string name="copy">Копиране</string>
     <string name="copy_info">Копирано в кпипборда. Може да споделите с приятели!</string>
+    <string name="copy_toast_msg">Връзката е копирана в буферната памет</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -131,8 +132,20 @@
     <string name="eras_ad">н.е.</string>
     <string name="eras_bc">пр.Хр.</string>
     <string name="evening">Следобед</string>
+    <string name="exo_download_completed">Изтеглянето завърши</string>
+    <string name="exo_download_description">Изтегляне</string>
+    <string name="exo_download_downloading">Изтегля се</string>
+    <string name="exo_download_failed">Изтеглянето не бе успешно</string>
+    <string name="exo_download_notification_channel_name">Изтегляния</string>
+    <string name="exo_download_paused">Изтеглянията са на пауза</string>
+    <string name="exo_download_paused_for_network">Изтеглянията чакат връзка с интернет</string>
+    <string name="exo_download_paused_for_wifi">Изтеглянията чакат връзка с Wi-Fi</string>
+    <string name="exo_download_removing">Изтеглянията се премахват</string>
     <string name="expand_button_title">Разширени</string>
     <string name="extend">Още</string>
+    <string name="fallback_menu_item_copy_link">Копиране на връзката</string>
+    <string name="fallback_menu_item_open_in_browser">Отваряне в браузър</string>
+    <string name="fallback_menu_item_share_link">Споделяне на връзката</string>
     <string name="file_size">Размер:</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -190,6 +203,9 @@
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
     <string name="gigabyteShort_per_seconds">ГБ/сек</string>
+    <string name="icon_create_failure">Неуспешно добавяне на пряк път</string>
+    <string name="icon_create_success">Прекия път е добавен успешно</string>
+    <string name="icon_restore">Натиснете, за да добавите пряк път към Началния екран за Изтегляния</string>
     <string name="info_download_progress">Покажи напредъка на изтегляне</string>
     <string name="info_flow_show">Покажи препоръчаното съдържание</string>
     <string name="insufficient_space">Няма достатъчно място</string>
@@ -212,15 +228,15 @@
     <string name="midnight">Нощ</string>
     <string name="missing_title">&lt;Неизвестно></string>
     <string name="miuix_access_state_desc">Избрани</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Размаркиране на всички</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Откажи всички</string>
     <string name="miuix_appcompat_action_mode_select_all">Избиране на всички</string>
     <string name="miuix_appcompat_action_mode_title_empty">Изберете елементи</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Повече</string>
     <string name="miuix_appcompat_cancel_description">Отказ</string>
     <string name="miuix_appcompat_confirm_description">Потвърди</string>
     <string name="miuix_appcompat_delete_description">Изтрий</string>
-    <string name="miuix_appcompat_deselect_all">Отмаркиране</string>
-    <string name="miuix_appcompat_deselect_all_description">Размаркирай всички</string>
+    <string name="miuix_appcompat_deselect_all">Откажи всички</string>
+    <string name="miuix_appcompat_deselect_all_description">Откажи всички</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Отказ</string>
     <string name="miuix_appcompat_search_input_description">Търси</string>
     <string name="miuix_appcompat_select_all">Избери всички</string>
@@ -306,6 +322,7 @@
     <string name="preferences_title">Настройки</string>
     <string name="privacy_agree_dialog_msg">&lt;Data>Добре дошли в Изтегляния! Можете да използвате това приложение, за да изтегляте файлове.&lt;BR>За да ви предостави услугите, които генерират статистиките за изтегляния, Изтегляния се нуждае да събира задължителна лична информация. Можете да научите как обработваме събраната информация в &lt;a href=\"%1$s\">Правилата за поверителност&lt;/a>.&lt;BR>Прочетете и приемете нашето &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%1$s\">Правила за поверителност&lt;/a> преди да използвате Изтегляния.&lt;BR>Можете да оттеглите съгласието си за Правилата за поверителност на Съобщения в Настройки по всяко време. Ако не приемете нашите Правила за поверителност няма да имате достъп до някои от услугите на това приложение; но все още ще можете да използвате основните функции.&lt;/Data></string>
     <string name="privacy_agree_dialog_title">Условия за ползване</string>
+    <string name="privacy_policy">Правила за поверителност</string>
     <string name="privacy_revoke_dialog_later">Отказ</string>
     <string name="privacy_revoke_dialog_msg">Превключвайки бутона вие оттегляте съгласието си за Правилата за поверителност на Изтегляния. Ние ще спрем да събираме вашите лични данни. Вече събраните лични данни ще бъдат изтрити в рамките на специфичния период посочен в приложимото законодателство. Изтегляния събира вашите лични данни, за да ви предоставя услуги, които генерират статистики на изтегляне. Оттеглянето на вашето съгласие за Правилата за поверителност ще се счита за отказ от услугите, които се базират на вашите събрани лични данни.</string>
     <string name="privacy_revoke_dialog_ok">Оттегляне</string>

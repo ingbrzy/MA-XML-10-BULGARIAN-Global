@@ -31,6 +31,7 @@
     <string name="add_sound">Добавяне на лична настройка</string>
     <string name="afternoon">Следобяд</string>
     <string name="am">AM</string>
+    <string name="app_disable_description_title">Деактивиране на приложението?</string>
     <string name="app_name">Слушалки</string>
     <string name="apply_sound">Приложи</string>
     <string name="bottomsheet_action_expand_halfway">Разгъване наполовина</string>
@@ -64,8 +65,14 @@
     <string name="effect_3dsurround">Завладяващ звук</string>
     <string name="effect_3dsurround_summary">Усилване на дълбочината на възпроизвеждане на звука за слушалки и високоговорители</string>
     <string name="effect_3dsurround_summary_headphone">Усилване на дълбочината на възпроизвеждане на звука за слушалки</string>
+    <string name="effect_dolby">Dolby Atmos</string>
+    <string name="effect_misound">Xiaomi Звук</string>
+    <string name="effect_none">Original</string>
+    <string name="effect_selection">Звукови ефекти</string>
+    <string name="effect_selection_headset">Ефекти на слушалките</string>
     <string name="effect_virtual_surround">Виртуален завладяващ звук</string>
     <string name="effect_virtual_surround_summary">Увеличете дълбочината на звука за аудио и видео възпроизвеждане в слушалките (Тази функция няма да работи при пускане на %.1f аудио)</string>
+    <string name="effect_virtual_surround_summary_spk">Увеличете дълбочината на аудиото и видеото</string>
     <string name="empty" />
     <string name="end_wireless_transmission">Спиране</string>
     <string name="eq_auto">По избор</string>
@@ -150,7 +157,7 @@
     <string name="fmt_weekday_time">W T</string>
     <string name="fmt_weekday_time_timezone">W T z</string>
     <string name="fmt_weekday_timezone">W z</string>
-    <string name="four_note">Тестът ще отнеме около %d минути.</string>
+    <string name="four_note">Теста ще отнеме около %d минути.</string>
     <string name="friday">Петък</string>
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
@@ -201,15 +208,15 @@
     <string name="midnight">Нощ</string>
     <string name="misound_effect_setting">Mi Звук</string>
     <string name="miuix_access_state_desc">Избрани</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Размаркиране на всички</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Откажи всички</string>
     <string name="miuix_appcompat_action_mode_select_all">Избиране на всички</string>
     <string name="miuix_appcompat_action_mode_title_empty">Изберете елементи</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Повече</string>
     <string name="miuix_appcompat_cancel_description">Отказ</string>
     <string name="miuix_appcompat_confirm_description">Потвърди</string>
     <string name="miuix_appcompat_delete_description">Изтрий</string>
-    <string name="miuix_appcompat_deselect_all">Отмаркиране</string>
-    <string name="miuix_appcompat_deselect_all_description">Размаркирай всички</string>
+    <string name="miuix_appcompat_deselect_all">Откажи всички</string>
+    <string name="miuix_appcompat_deselect_all_description">Откажи всички</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Отказ</string>
     <string name="miuix_appcompat_search_input_description">Търси</string>
     <string name="miuix_appcompat_select_all">Избери всички</string>
@@ -270,6 +277,7 @@
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -412,11 +420,14 @@
     <string name="night">Вечер</string>
     <string name="noon">Обед</string>
     <string name="not_set">Не е зададено</string>
-    <string name="not_support_sound_transmission_content">Тази функционалност не се поддържа от свързаното устройство. Пробвайте с друго устройство с Bluetooth.</string>
+    <string name="not_support_sound_transmission_content">Тази функционалност не се поддържа от свързаното устройство. Пробвайте с друго Bluetooth устройство.</string>
     <string name="not_support_sound_transmission_prompt">Внимание</string>
     <string name="now_here">А сега?</string>
     <string name="original_sound">Възпроизведи с оригиналното звучене</string>
     <string name="password_toggle_content_description">Показване на паролата</string>
+    <string name="permission_go_to_settings">Настройки</string>
+    <string name="permission_requesr_content">Разрешете на приложението да се свързве с устройства наблизо в Настройките.</string>
+    <string name="permission_requesr_title">Необходими са разрешения</string>
     <string name="personal_sound">Възпроизведи с приложените настройки</string>
     <string name="pm">PM</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
@@ -457,18 +468,13 @@
     <string name="sound_id_function_description">Персонализирайте кривата на EQ въз основа на предпочитанията си</string>
     <string name="sound_id_function_name">Персонализиран звуц</string>
     <string name="sound_id_headset_status">Настоящи слушалки</string>
-    <string name="sound_id_hz_high">"Сопрано
-%d Hz"</string>
-    <string name="sound_id_hz_low">"Бас
-%d Hz"</string>
-    <string name="sound_id_hz_media">"Среден диапазон
-%d Hz"</string>
+    <string name="sound_id_hz"> %d Hz</string>
+    <string name="sound_id_hz_high">Сопрано %d Hz</string>
+    <string name="sound_id_hz_low">Бас %d Hz</string>
+    <string name="sound_id_hz_media">Среден диапазон %d Hz</string>
     <string name="sound_id_music_one_description">Светлина | %dс</string>
-    <string name="sound_id_music_one_title">Rainy city</string>
     <string name="sound_id_music_three_description">Мелодичен | %dс</string>
-    <string name="sound_id_music_three_title">Trace</string>
     <string name="sound_id_music_two_description">Ритмичен | %dс</string>
-    <string name="sound_id_music_two_title">Night fever</string>
     <string name="sound_id_no_effect_msg">Не използвай персонализиран звук</string>
     <string name="sound_id_notice_headset_change_msg">Използвате различен чифт слушалки. Теста беше прекратен.</string>
     <string name="sound_id_notice_headset_change_msg2">Използвате различен чифт слушалки. Убедете се, че този персонализиран звук съвпада с този чифт слушалки.</string>
@@ -514,6 +520,7 @@
     <string name="sound_transmission_title">Безжичен микрофон</string>
     <string name="spatial_audio">Завладяващ звук</string>
     <string name="spatial_audio_summary">Изпитайте потапяне и усещане за пространство, когато аудиото се възпроизвежда през слушалки</string>
+    <string name="spatial_audio_summary_spk">Изпитайте потапяне и усещане за пространство, когато се възпроизвежда аудио</string>
     <string name="speaker_scenario_resume">Възстановяване на първоначалните ефекти</string>
     <string name="start_test_sound">Начало на теста</string>
     <string name="status_bar_notification_info_overflow">999+</string>

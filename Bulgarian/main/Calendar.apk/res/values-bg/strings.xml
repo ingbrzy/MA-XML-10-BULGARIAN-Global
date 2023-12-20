@@ -183,6 +183,7 @@
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
     <string name="date_picker_lunar">Традиционен Китайски Календар</string>
+    <string name="date_time_fmt" formatted="false">%s, %s</string>
     <string name="date_time_picker_dialog_title">Задаване на дата и час</string>
     <string name="date_today">" (днес)"</string>
     <string name="date_view">Дата</string>
@@ -344,6 +345,8 @@
     <string name="full_scorecard">Пълно табло</string>
     <string name="gadget_no_events">Няма предстоящи събития в календара</string>
     <string name="gadget_title">Календар</string>
+    <string name="glance_card_sub_title">Получавайте вълнуващи истории на Заключения си екран</string>
+    <string name="glance_card_title">Glance за Mi</string>
     <string name="global_action_text_card_manager">Персонализиране на вашия календар</string>
     <string name="global_cricket_no_match">Няма планирани крикет мачове днес. Проверете за други дни.</string>
     <string name="global_football_final">ФИНАЛ</string>

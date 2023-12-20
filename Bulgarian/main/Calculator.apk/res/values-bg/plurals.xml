@@ -5,16 +5,16 @@
         <item quantity="one">Преди 1 час</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">Преди 1 час</item>
-        <item quantity="one">Преди 1 час</item>
+        <item quantity="other">Преди %d часа</item>
+        <item quantity="one">Преди %d час</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Преди половин час</item>
         <item quantity="one">Преди половин час</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">След 1 час</item>
-        <item quantity="one">След 1 час</item>
+        <item quantity="other">След %d часа</item>
+        <item quantity="one">След %d час</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">След половин час</item>
@@ -25,8 +25,8 @@
         <item quantity="one">Всеки момент</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">след %d мин</item>
-        <item quantity="one">след 1 мин</item>
+        <item quantity="other">След %d мин</item>
+        <item quantity="one">След %d мин</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Току що</item>
@@ -34,19 +34,11 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">Преди %d мин</item>
-        <item quantity="one">Преди 1 мин</item>
+        <item quantity="one">Преди %d мин</item>
     </plurals>
-    <plurals name="age_label_days">
-        <item quantity="other">%d дни</item>
-        <item quantity="one">%d ден</item>
-    </plurals>
-    <plurals name="age_label_months">
-        <item quantity="other">%d месеца</item>
-        <item quantity="one">%d месец</item>
-    </plurals>
-    <plurals name="age_label_yrs">
-        <item quantity="other">години</item>
-        <item quantity="one">година</item>
+    <plurals name="delete_msg">
+        <item quantity="other">Изтрий %d елемента?</item>
+        <item quantity="one">Изтрий %d елемент?</item>
     </plurals>
     <plurals name="entries">
         <item quantity="other">%d елемента</item>
@@ -76,10 +68,6 @@
         <item quantity="other">Току що</item>
         <item quantity="one">Току що</item>
     </plurals>
-    <plurals name="loan_repayment_detail">
-        <item quantity="other">Подробни погасявания (%d години)</item>
-        <item quantity="one">Подробно погасяване (%d година)</item>
-    </plurals>
     <plurals name="loan_repayment_detail_unit">
         <item quantity="other">Подробни погасявания (%d години), CNY</item>
         <item quantity="one">Подробно погасяване (%d година), CNY</item>
@@ -96,6 +84,10 @@
         <item quantity="other">Преди %d минути</item>
         <item quantity="one">Преди 1 минута</item>
     </plurals>
+    <plurals name="select_items">
+        <item quantity="other">Избрани са %d елемента</item>
+        <item quantity="one">Избран е %d елемент</item>
+    </plurals>
     <plurals name="tenure_months">
         <item quantity="other">%d месеца</item>
         <item quantity="one">%d месец</item>
@@ -103,5 +95,29 @@
     <plurals name="tenure_years">
         <item quantity="other">%d години</item>
         <item quantity="one">%d година</item>
+    </plurals>
+    <plurals name="unit_data_display_data_b">
+        <item quantity="other">Байта</item>
+        <item quantity="one">Байт</item>
+    </plurals>
+    <plurals name="unit_data_display_data_gb">
+        <item quantity="other">Гигабайта</item>
+        <item quantity="one">Гигабайт</item>
+    </plurals>
+    <plurals name="unit_data_display_data_kb">
+        <item quantity="other">Килобайта</item>
+        <item quantity="one">Килобайт</item>
+    </plurals>
+    <plurals name="unit_data_display_data_mb">
+        <item quantity="other">Мегабайта</item>
+        <item quantity="one">Мегабайт</item>
+    </plurals>
+    <plurals name="unit_data_display_data_pb">
+        <item quantity="other">Петабайта</item>
+        <item quantity="one">Петабайт</item>
+    </plurals>
+    <plurals name="unit_data_display_data_tb">
+        <item quantity="other">Терабайта</item>
+        <item quantity="one">Терабайт</item>
     </plurals>
 </resources>

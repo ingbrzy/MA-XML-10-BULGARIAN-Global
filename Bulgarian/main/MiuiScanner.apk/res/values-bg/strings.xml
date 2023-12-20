@@ -48,6 +48,9 @@
     <string name="back">Назад</string>
     <string name="barcode_into_rectangle">Поставете кода вътре в рамката</string>
     <string name="birthday">Рожден ден:</string>
+    <string name="btn_add_schedule">Добави събитие</string>
+    <string name="btn_send_email">Изпрати имейл</string>
+    <string name="btn_send_message">Изпрати SMS</string>
     <string name="camera_error_title">Грешка в камерата</string>
     <string name="cancel">Отказ</string>
     <string name="choose_open_code_app">Изберете приложение</string>
@@ -60,15 +63,17 @@
     <string name="common_save">Запази</string>
     <string name="company">Компания:</string>
     <string name="confirm">OК</string>
-    <string name="connect_wifi">Свързване към тази мрежа</string>
+    <string name="connect_wifi">Свързване</string>
     <string name="contact_details">QR код контакт:</string>
     <string name="continue_access_web_url">Отидете на уеб адрес</string>
     <string name="continue_to_website">Отидете на уеб страница</string>
     <string name="copy">Копиране</string>
     <string name="copy_text">Копиране текст</string>
     <string name="copy_text_success">Текстът копиран</string>
+    <string name="copy_web_url">Копирай URL</string>
     <string name="crop_cancel_description">Отказ</string>
     <string name="crop_done_description">Готово</string>
+    <string name="cta_purpose">Скенерът трябва да използва вашата камера и да обработва изображенията, които правите, докато използвате приложението. Не използвайте Скенер, за да правите снимки на обекти, съдържащи вашата лична информация. Натискайки „Приемам“, вие се съгласявате с нашите Правила за поверителност и позволявате на Скенер да се свърже с интернет.</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -95,6 +100,8 @@
     <string name="drag_barcode_into_frame">Изтеглете рамката, за да нагласите кода</string>
     <string name="early_morning">Сутрин</string>
     <string name="email">Имейл:</string>
+    <string name="email_message">Основна част</string>
+    <string name="email_sub">Тема</string>
     <string name="empty" />
     <string name="eras_ad">н.е.</string>
     <string name="eras_bc">пр.Хр.</string>
@@ -103,10 +110,11 @@
     <string name="error_get_image">Снимката не можа да се получи</string>
     <string name="error_media_storage_failure">Не може да се запази снимката</string>
     <string name="error_permissions">Скенерът няма права, необходими за нормална работа. Проверете в Настройки, преди да продължите</string>
+    <string name="error_permissions_location">Разрешете на това приложение достъп до точно местоположение, за да работи нормално</string>
     <string name="error_permissions_storage">Разрешете достъп до снимките Ви, за да можете да използвате тази функция</string>
     <string name="evening">Следобед</string>
     <string name="expand_button_title">Разширени</string>
-    <string name="feed_search_fail">Няма резултати, опитайте отново</string>
+    <string name="feed_search_fail">Няма резултати</string>
     <string name="feedback_description_camera_access">Скенерът няма връзка с Камера</string>
     <string name="feedback_description_save_photo">Не може да се запази снимка или видео</string>
     <string name="feedback_phone">phone</string>
@@ -176,7 +184,7 @@
     <string name="jingdong">JD</string>
     <string name="kuaidi100_data">Благодарение на Kuaidi 100</string>
     <string name="label_choose_picture">Изберете изображение</string>
-    <string name="label_flash_light">фенерче</string>
+    <string name="label_flash_light">Светкавица</string>
     <string name="language_entry_chinese_cn">Опростен Китайски</string>
     <string name="language_entry_english">Английски</string>
     <string name="language_entry_french">Френски</string>
@@ -185,7 +193,7 @@
     <string name="language_entry_korean">Корейски</string>
     <string name="language_entry_spanish">Испански</string>
     <string name="logistics">Експресна доставка</string>
-    <string name="low_version_tip">Обновете MIUI до последната версия, за да можете да използвате Скенер.</string>
+    <string name="low_version_tip">Обновете до най-новата версия на системата, за да можете да използвате Скенер.</string>
     <string name="midnight">Нощ</string>
     <string name="mihome_goto_install">Инсталиране</string>
     <string name="mihome_goto_update">Обновяване</string>
@@ -198,7 +206,7 @@
     <string name="mipayin_dialog_more">Още</string>
     <string name="mipayin_dialog_title">Отваряне с</string>
     <string name="miracast_connect">Проекция</string>
-    <string name="miracast_connect_fail">Неуспешна прожекция, опитайте отново</string>
+    <string name="miracast_connect_fail">Неуспешна прожекция. Опитайте отново.</string>
     <string name="miracast_connecting">Прожектиране…</string>
     <string name="miracast_details">Сканирайте QR кода, за да прожектирате</string>
     <string name="miracast_message">Прожекция към %s?</string>
@@ -282,6 +290,7 @@
     <string name="note">Бележка:</string>
     <string name="now_state">"Текущо състояние: "</string>
     <string name="once">Само веднъж</string>
+    <string name="open_web_url">Отвори в Браузър</string>
     <string name="pay_save_this_choose">Запомни избора ми</string>
     <string name="payment_text">Отваряне с %s</string>
     <string name="phone">Телефон:</string>
@@ -290,7 +299,7 @@
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="preparing_sd">Подготвяне на вътрешна памет…</string>
     <string name="privacy_policy">Правила за поверителност</string>
-    <string name="qr_code_details">Детайли за QR код:</string>
+    <string name="qr_code_details">Текст</string>
     <string name="queryNum">Проверете поръчка</string>
     <string name="query_faile">Състоянието и детайлите по поръчката още не са синхронизирани. Проверете поръчката си ръчно.</string>
     <string name="query_more">Повече информация</string>
@@ -301,6 +310,10 @@
     <string name="saturday_short">Сб.</string>
     <string name="saturday_shortest">Сб.</string>
     <string name="scan_result">Резултати</string>
+    <string name="schedule_date">Дата</string>
+    <string name="schedule_description">Описание</string>
+    <string name="schedule_location">Местоположение</string>
+    <string name="schedule_title">Заглавие</string>
     <string name="sdk_not_ready">SDK се подготвя. Опитайте по-късно.</string>
     <string name="search_menu_title">Търсене</string>
     <string name="secure_access_web_url">Отидете на уеб страница</string>
@@ -323,6 +336,7 @@
     <string name="sunday_shortest">Нед.</string>
     <string name="switch_open">Включи</string>
     <string name="taobao">Taobao</string>
+    <string name="text_search">Търсене</string>
     <string name="the_anniversary_of_lifting_martial_law">Годишнина от прекратяването на военно положение</string>
     <string name="the_anti_aggression_day">Ден на борба с агресията</string>
     <string name="the_arbor_day">Ден на дървото</string>
@@ -371,7 +385,9 @@
     <string name="time_picker_label_minute">M</string>
     <string name="title">Длъжност:</string>
     <string name="to_install_title">Този QR Ви пренасочва към неинсталирано приложение. Изтегляне на това приложение сега?</string>
+    <string name="to_message">SMS съдържание</string>
     <string name="to_pay">Завършване на плащане</string>
+    <string name="to_person">Получател</string>
     <string name="today">Днес</string>
     <string name="toinstall">Изтегляне</string>
     <string name="tomorrow">Утре</string>
@@ -392,16 +408,17 @@
     <string name="vender_info_translation_kingsoft">Техническа поддръжка от Kingsoft</string>
     <string name="waybill_num">"Поръчка: "</string>
     <string name="web">Уеб страница:</string>
-    <string name="website_details">Уеб страница:</string>
+    <string name="website_details">URL</string>
     <string name="wednesday">Сряда</string>
     <string name="wednesday_short">Ср.</string>
     <string name="wednesday_shortest">Ср.</string>
     <string name="wifi_details">Wi-Fi:</string>
     <string name="wifi_exist_fail">Точката за безжичен достъп %1$s вече съществува. Изтрийте я, а след това отново сканирайте кода, за да се свържете.</string>
     <string name="wifi_open_fail">Не може да се включи Wi-Fi</string>
+    <string name="wifi_password">Парола</string>
     <string name="wifi_psd_toolong">Паролата е твърде дълга. Въведете паролата ръчно.</string>
     <string name="wifi_pwd">Парола:</string>
-    <string name="wifi_security">Сигурност:</string>
-    <string name="wifi_ssid">SSID:</string>
+    <string name="wifi_security">Шифроване</string>
+    <string name="wifi_ssid">Име на мрежата</string>
     <string name="yesterday">Вчера</string>
 </resources>
