@@ -193,7 +193,6 @@
     <string name="size_peta_byte">ПБ</string>
     <string name="size_suffix">%1$s%2$s</string>
     <string name="size_tera_byte">ТБ</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>

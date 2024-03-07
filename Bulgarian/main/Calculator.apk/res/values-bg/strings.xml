@@ -574,7 +574,6 @@
     <string name="unit_data_display_currency_btn">Бутански нгултрум</string>
     <string name="unit_data_display_currency_bwp">Ботсванска пула</string>
     <string name="unit_data_display_currency_byn">Беларуска рубла</string>
-    <string name="unit_data_display_currency_byr">@string/unit_data_display_currency_byn</string>
     <string name="unit_data_display_currency_cad">Канадски долар</string>
     <string name="unit_data_display_currency_cdf">Конголийски франк</string>
     <string name="unit_data_display_currency_chf">Швейцарски франк</string>

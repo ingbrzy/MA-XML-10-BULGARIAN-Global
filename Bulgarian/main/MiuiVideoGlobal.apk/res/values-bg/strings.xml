@@ -134,7 +134,6 @@
     <string name="cast_forward">Превъртане напред</string>
     <string name="cast_forward_10">Превъртане напред с десет секунди</string>
     <string name="cast_forward_30">Превъртане напред с тридесет секунди</string>
-    <string name="cast_intro_overlay_button_text">@android:string/ok</string>
     <string name="cast_live_label">НА ЖИВО</string>
     <string name="cast_mute">Спиране</string>
     <string name="cast_notification_connected_message">Установена е връзка с/ъс „%1$s“</string>
@@ -1017,7 +1016,6 @@ Mi Video трябва да събере необходимата лична ин
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
-    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -1107,7 +1105,6 @@ Mi Video трябва да събере необходимата лична ин
     <string name="online_play_start_ready_loading_tip_kb">Зареждане %.2f KB/s</string>
     <string name="online_play_start_ready_loading_tip_mb">Зареждане %.2f MB/s</string>
     <string name="online_play_title">Въведете URL</string>
-    <string name="order_alphabet">А – Я</string>
     <string name="order_recently_subscribe">Скорошни абонаменти</string>
     <string name="order_recently_updated">Обновени наскоро</string>
     <string name="out_of_memory_background_playback_is_suspended">Поради недостатъчно памет съдържанието на заден план беше спряно на пауза</string>
@@ -1509,7 +1506,6 @@ Mi Video трябва да събере необходимата лична ин
     <string name="sns_sign_in">Други начини за вписване</string>
     <string name="source">"Източник: "</string>
     <string name="start_download_tip">Добавено в списъка за изтегляне. Проверете напредъка в Профил > Изтегляния</string>
-    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD карта</string>
     <string name="storage_internal_sdcard">Вътрешна памет</string>
     <string name="submit">Изпратено</string>
