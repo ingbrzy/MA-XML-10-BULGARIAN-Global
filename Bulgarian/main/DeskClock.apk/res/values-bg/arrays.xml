@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="alarm_in_furture">
-        <item>Будилник след по-малко от минута</item>
-        <item>Будилник след %1$s</item>
-        <item>Будилник след %2$s</item>
-        <item>Будилник след %1$s %2$s</item>
-        <item>Будилник след %3$s</item>
-        <item>Будилник след %1$s %3$s</item>
-        <item>Будилник след %2$s %3$s</item>
-        <item>Будилник след %1$s %2$s %3$s</item>
+    <string-array name="alarm_in_furture_new_array">
+        <item>Аларма след по-малко от %d мин</item>
+        <item>Аларма след %1$s</item>
+        <item>Аларма след %2$s</item>
+        <item>Аларма след %1$s %2$s</item>
+        <item>Аларма след %3$s</item>
+        <item>Аларма след %1$s %3$s</item>
+        <item>Аларма след %2$s %3$s</item>
+        <item>"Аларма след %1$s %2$s %3$s "</item>
     </string-array>
     <string-array name="alarm_repeat_type">
         <item>Веднъж</item>
@@ -24,15 +24,15 @@
         <item>От пон. до пет.</item>
         <item>По избор</item>
     </string-array>
-    <string-array name="alarm_set">
-        <item>Будилникът e настроен за след по-малко от минута.</item>
-        <item>Будилникът ще се изключи след %1$s.</item>
-        <item>Будилникът ще се изключи след %2$s.</item>
-        <item>Будилникът ще се изключи след %1$s и %2$s.</item>
-        <item>Будилникът ще се изключи след %3$s.</item>
-        <item>Будилникът ще се изключи след %1$s и %3$s.</item>
-        <item>Будилникът ще се изключи след %2$s и %3$s.</item>
-        <item>Будилникът ще се изключи след %1$s %2$s и %3$s.</item>
+    <string-array name="alarm_set_new_array">
+        <item>Аларма след по-малко от %d мин.</item>
+        <item>Аларма след %1$s.</item>
+        <item>Аларма след %2$s.</item>
+        <item>Аларма след %1$s и %2$s.</item>
+        <item>Аларма след %3$s.</item>
+        <item>Аларма след %1$s и %3$s.</item>
+        <item>Аларма след %2$s и %3$s.</item>
+        <item>Аларма след %1$s %2$s и %3$s.</item>
     </string-array>
     <string-array name="aqi_value">
         <item>Добро</item>
@@ -42,20 +42,19 @@
         <item>Много лошо</item>
         <item>Смразяващо</item>
     </string-array>
-    <string-array name="auto_silence_entries">
-        <item>Изключено</item>
-        <item>1 минута</item>
-        <item>5 минути</item>
-        <item>10 минути</item>
-        <item>15 минути</item>
-        <item>20 минути</item>
-        <item>25 минути</item>
-        <item>30 минути</item>
-    </string-array>
     <string-array name="bedtime_guide_repeat_type">
         <item>От понеделник до петък</item>
         <item>Всеки ден</item>
         <item>Работни дни</item>
+    </string-array>
+    <string-array name="bedtime_guide_repeat_type_international">
+        <item>От пон. до пет.</item>
+        <item>Всеки ден</item>
+    </string-array>
+    <string-array name="bedtime_repeat_entires_international">
+        <item>Всеки ден</item>
+        <item>От пон. до пет.</item>
+        <item>Персонализирано</item>
     </string-array>
     <string-array name="bedtime_repeat_entries">
         <item>Всеки ден</item>
@@ -164,7 +163,7 @@
         <item>Баку</item>
         <item>Банкок</item>
         <item>Бейрут</item>
-        <item>Калкута</item>
+        <item>Колката</item>
         <item>Дамаск</item>
         <item>Дака</item>
         <item>Дубай</item>
@@ -350,11 +349,6 @@
         <item>Тегусигалпа</item>
         <item>Парамарибо</item>
         <item>Кито</item>
-    </string-array>
-    <string-array name="clock_bg_setting_entries">
-        <item>Бяло</item>
-        <item>Чернo</item>
-        <item>Автоматично</item>
     </string-array>
     <string-array name="countries_names_miui">
         <item>"Кот д'Ивоар"</item>
@@ -644,40 +638,6 @@
         <item>Суринам</item>
         <item>Еквадор</item>
     </string-array>
-    <string-array name="days_of_week">
-        <item>Нед</item>
-        <item>Пон</item>
-        <item>Вт</item>
-        <item>Ср</item>
-        <item>Чт</item>
-        <item>Пет</item>
-        <item>Сб</item>
-    </string-array>
-    <string-array name="notification_adv_time_entries">
-        <item>В зададеното време</item>
-        <item>15 минути предварително</item>
-        <item>30 минути предварително</item>
-        <item>1 час предварително</item>
-        <item>Без</item>
-    </string-array>
-    <string-array name="snooze_duration_entries">
-        <item>1 минута</item>
-        <item>5 минути</item>
-        <item>10 минути</item>
-        <item>15 минути</item>
-        <item>20 минути</item>
-        <item>25 минути</item>
-        <item>30 минути</item>
-    </string-array>
-    <string-array name="snooze_duration_values">
-        <item>1</item>
-        <item>5</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>25</item>
-        <item>30</item>
-    </string-array>
     <string-array name="time">
         <item>%1$s</item>
         <item>%2$s</item>
@@ -700,10 +660,5 @@
         <item>Няма</item>
         <item>Отлагане</item>
         <item>Изключване</item>
-    </string-array>
-    <string-array name="volume_button_setting_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
 </resources>

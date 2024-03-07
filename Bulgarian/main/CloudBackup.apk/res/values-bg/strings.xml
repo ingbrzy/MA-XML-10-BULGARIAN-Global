@@ -438,6 +438,8 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="other_device_main_space">Основно работно място</string>
     <string name="other_device_second_space">Второ пространство</string>
     <string name="page_title_more_backup_options">Допълнителни услуги за архивиране</string>
+    <string name="pattern_backup_name_with_home">%1$s (%2$s: %3$s)</string>
+    <string name="pattern_backup_name_without_home">%1$s (%2$s)</string>
     <string name="pc_mode_not_support_restore_warning">Не можете да възстановявате елементи в режим Компютър. Изключете режима Компютър и опитайте отново.</string>
     <string name="permission_to_use">Подробности за разрешения</string>
     <string name="pm">PM</string>
@@ -449,6 +451,7 @@ Note: Data for apps you've installed won't be backed up to Xiaomi Cloud."</strin
     <string name="provision_error_connect_title">Не може да се свърже</string>
     <string name="provision_next">Напред</string>
     <string name="provision_restore_data">Възстановяване на елементи</string>
+    <string name="provision_restore_item_backup_name_with_size">%1$s | ≈%2$s</string>
     <string name="provision_skip_underline">Пропускане</string>
     <string name="query_restore_description">Ако възстановите оформлението и настройките на Началния екран, приложенията, които вече са инсталирани, ще бъдат възстановени до първоначалните си позиции на Началния екран. Приложенията, които не са част от това архивиране, ще бъдат преместени на последната страница на Началния екран.</string>
     <string name="query_restore_summary">В Xiaomi Cloud е открито рез. копие на това устройство. Да се възстановят ли приложенията на началния екран и настройките, или да се използва като ново устройство и да се изтрият предишните рез. копия за него в Xiaomi Cloud?</string>

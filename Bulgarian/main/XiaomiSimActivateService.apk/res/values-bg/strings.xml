@@ -36,9 +36,9 @@
     <string name="activate_feature_mi_roaming">Mi Роуминг</string>
     <string name="activate_feature_mms_sync">Синхр. на съобщения</string>
     <string name="activate_feature_mx">Mi Съобщение</string>
-    <string name="activate_feature_register_xiaomi_account">Настройки на Mi Профил</string>
+    <string name="activate_feature_register_xiaomi_account">Настройване на Xiaomi Профил</string>
     <string name="activate_feature_remote_assist">Асистент от разстояние</string>
-    <string name="activate_feature_verify_mx_token">Потвърждение на Mi Профил</string>
+    <string name="activate_feature_verify_mx_token">Потвърждаване на Xiaomi Профил</string>
     <string name="activate_feature_voip">Mi Съобщение VoIP</string>
     <string name="activate_history_canceled_overview">Активирането на SIM картата е отменено. Активацията е изискана от \"%1$s\".</string>
     <string name="activate_history_multisim_canceled_overview">SIM карта %2$d не е активирана. Активацията е изискана от \"%1$s\".</string>
@@ -47,8 +47,8 @@
     <string name="activate_history_success_overview">SIM картата е активирана успешно. Активацията е изискана от \"%1$s\".</string>
     <string name="activate_history_title">Активиране на SIM карта</string>
     <string name="activate_phone_failed_notif_title_sim">Неуспешно активиране на \"%2$s\" чрез SIM карта %1$d</string>
-    <string name="activate_phone_register_xiaomi_account_success_notif_title_sim">Успешно създаване на Mi Профил чрез SIM карта %d</string>
-    <string name="activate_phone_registered_xiaomi_account_failed_notif_title_sim">Неуспешно създаване на Mi Профил чрез SIM карта %d</string>
+    <string name="activate_phone_register_xiaomi_account_success_notif_title_sim">Успешно създадохте Xiaomi Профил чрез SIM карта %d</string>
+    <string name="activate_phone_registered_xiaomi_account_failed_notif_title_sim">Неуспешно създаване на Xiaomi Профил чрез SIM карта %d</string>
     <string name="activate_phone_server_failed_notif_title">Неуспешно активиране на \"%s\"</string>
     <string name="activate_phone_server_success_notif_title">Успешно активиране на \"%s\"</string>
     <string name="activate_phone_success_notif_title_sim">Успешно активиране на \"%2$s\" чрез SIM карта %1$d</string>
@@ -60,8 +60,8 @@
     <string name="activate_popup_confirm_failed_receive_sms">Опитайте отново</string>
     <string name="activate_popup_confirm_failed_send_sms">Изпрати отново</string>
     <string name="activate_popup_confirm_failed_server">Опитайте отново</string>
-    <string name="activate_popup_desc_2_intl_sim_cards_msg_with_charge_hint">За активиране на \"%2$s\", &lt;xliff:g id=number_sms refersto=2>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>международни платени SMS&lt;/b> ще бъдат изпратени. Вашият оператор ще начисли такса за тези съобщения.</string>
-    <string name="activate_popup_desc_2_sim_cards_msg_with_charge_hint">За активиране на \"%2$s\", &lt;xliff:g id=number_sms refersto=2>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>вътрешни платени SMS&lt;/b> ще бъдат изпратени. Вашият оператор ще начисли такси за тези съобщения.</string>
+    <string name="activate_popup_desc_2_intl_sim_cards_msg_with_charge_hint">За активиране на \"%2$s\", &lt;xliff:g id=number_sms refersto=2>%1$d&lt;/xliff:g> &lt;font color=#0097FF>международни платени SMS&lt;/font> ще бъдат изпратени. Вашият оператор ще начисли такси за тези съобщения.</string>
+    <string name="activate_popup_desc_2_sim_cards_msg_with_charge_hint">За активиране на \"%2$s\", &lt;xliff:g id=number_sms refersto=2>%1$d&lt;/xliff:g> &lt;font color=#0097FF>вътрешни платени SMS&lt;/font> ще бъдат изпратени. Вашия оператор ще начисли такси за тези съобщения.</string>
     <string name="activate_popup_desc_all_gateway_failed_query_info">"Вашият телефонен номер не може да се открие. Уверете се, че използвате активна SIM карта.
 Въведете телефонният номер на вашата нова SIM карта, за да реактивирате %s."</string>
     <string name="activate_popup_desc_all_gateway_failed_send_sms">"Не може да се изпрати съобщение за активиране. Уверете се, че използвате активна SIM карта.
@@ -74,21 +74,22 @@
     <string name="activate_popup_desc_failed_receive_sms">Уверете се, че въведеният от вас номер е правилен и SIM картата ви е активна.</string>
     <string name="activate_popup_desc_failed_server">Проверете връзката си и опитайте отново.</string>
     <string name="activate_popup_desc_failed_server_msg">Възникна грешка в сървъра. Проверете мрежовите си настройки и опитайте отново.</string>
-    <string name="activate_popup_desc_find_device_postfix_msg">%1$s. За да активирате \"%3$s\", въведете телефонния номер на SIM карта %2$d. Ако замените тази SIM карта, ще бъде изпратен нов SMS за активация.</string>
-    <string name="activate_popup_desc_find_device_postfix_msg_one_sim">%1$s. За да активирате \"%2$s\", въведете своя телефонен номер. Ако замените тази SIM карта, ще бъде изпратен нов SMS за активация.</string>
-    <string name="activate_popup_desc_intl_sim_card_msg_with_charge_hint">За активиране на \"%2$s\", &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>международен платен SMS&lt;/b> ще бъде изпратен. Вашият оператор ще начисли такса за това съобщение.</string>
-    <string name="activate_popup_desc_mi_account_user_manual">%1$s. &lt;Data>Ако имате някакви въпроси, обърнете се към &lt;a href=https://account.xiaomi.com/helpcenter/faq>Ръководството за употреба на Mi Профил&lt;/a>.&lt;/Data></string>
-    <string name="activate_popup_desc_mixed_sim_cards_msg_with_charge_hint">За активиране на \"%3$s\", &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>вътрешен платен SMS&lt;/b> и &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>&lt;b>международен платен SMS&lt;/b> ще бъдат изпратени. Вашият оператор ще начисли такси за тези съобщения.</string>
+    <string name="activate_popup_desc_find_device_postfix_msg">%1$s За да активирате \"%3$s\", въведете телефонния номер на SIM карта %2$d. Ако замените тази SIM карта, ще бъде изпратен нов SMS за активация.</string>
+    <string name="activate_popup_desc_find_device_postfix_msg_one_sim">%1$s За да активирате \"%2$s\", въведете своя телефонен номер. Ако замените тази SIM карта, ще бъде изпратен нов SMS за активация.</string>
+    <string name="activate_popup_desc_intl_sim_card_msg_with_charge_hint">За активиране на \"%2$s\", &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>международен платен SMS&lt;/font> ще бъде изпратен. Вашият оператор ще начисли такса за това съобщение.</string>
+    <string name="activate_popup_desc_mi_account_user_manual">"%1$s
+&lt;Data>Ако имате някакви въпроси, обърнете се към &lt;a href=https://account.xiaomi.com/helpcenter/faq>Ръководството за употреба на Xiaomi Профил&lt;/a>&lt;/Data>"</string>
+    <string name="activate_popup_desc_mixed_sim_cards_msg_with_charge_hint">За активиране на \"%3$s\", &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>вътрешен платен SMS&lt;/font> и &lt;xliff:g id=number_sms refersto=1>%2$d&lt;/xliff:g> &lt;font color=#0097FF>международен платен SMS&lt;/font> ще бъде изпратен. Вашия оператор ще начисли такси за тези съобщения.</string>
     <string name="activate_popup_desc_sim_card_downlink_msg">За да активирате \"%2$s\", въведете телефонния номер на SIM карта %1$d.</string>
     <string name="activate_popup_desc_sim_card_downlink_msg_one_sim">За да активирате %s, въведете своя телефонен номер.</string>
     <string name="activate_popup_desc_sim_card_msg_with_charge_hint">За активиране на \"%2$s\", &lt;xliff:g id=number_sms refersto=1>%1$d&lt;/xliff:g> &lt;font color=#0097FF>платен SMS&lt;/font> ще бъде изпратен. Вашият оператор ще начисли такса за това съобщение.</string>
-    <string name="activate_popup_desc_voip_privacy_prefix_msg">%1$s. За да активирате \"%3$s\", въведете телефонния номер на SIM карта %2$d. Техническата поддръжка е частично предоставена от Weihuitel. За повече подробности прегледайте Правилата за поверителност на Weihuitel.</string>
-    <string name="activate_popup_desc_voip_privacy_prefix_msg_one_sim">%1$s. За да активирате \"%2$s\", въведете своя телефонен номер. Техническата поддръжка е частично предоставена от Weihuitel. За повече подробности прегледайте Правилата за поверителност на Weihuitel.</string>
+    <string name="activate_popup_desc_voip_privacy_prefix_msg">%1$s За да активирате \"%3$s\", въведете телефонния номер на SIM карта %2$d. Техническата поддръжка е частично предоставена от Weihuitel. За повече подробности прегледайте Правилата за поверителност на Weihuitel.</string>
+    <string name="activate_popup_desc_voip_privacy_prefix_msg_one_sim">%1$s За да активирате \"%2$s\", въведете своя телефонен номер. Техническата поддръжка е частично предоставена от Weihuitel. За повече подробности прегледайте Правилата за поверителност на Weihuitel.</string>
     <string name="activate_popup_failed_send_sms_desc">Неуспешно изпращане на SMS за активация. Уверете се, че SIM карта %d функционира правилно и опитайте отново.</string>
     <string name="activate_popup_failed_send_sms_desc_one_sim">Не е изпратен SMS за активация. Уверете се, че Вашата SIM карта функционира правилно и опитайте отново.</string>
     <string name="activate_progress_status_title">Активиране на \"%s\"…</string>
-    <string name="activate_registered_xiaomi_account_failed_notif_title">Неуспешно създаване на Mi Профил</string>
-    <string name="activate_registered_xiaomi_account_success_notif_title">Успешно създаване на Mi Профил</string>
+    <string name="activate_registered_xiaomi_account_failed_notif_title">Неуспешно създаване на Xiaomi Профил</string>
+    <string name="activate_registered_xiaomi_account_success_notif_title">Успешно създадохте Xiaomi Профил</string>
     <string name="activate_status_desc_acquire_phone_number">Потвърждаване на телефонен номер…</string>
     <string name="activate_status_desc_acquire_phone_number_server_no_info_tip">Не е потвърден телефонен номер. Уверете се, че SIM карта %d функционира правилно и опитайте отново.</string>
     <string name="activate_status_desc_acquire_phone_number_server_no_info_tip_one_sim">Не е потвърден телефонен номер. Уверете се, че Вашата SIM карта функционира правилно и опитайте отново.</string>
@@ -102,8 +103,8 @@
     <string name="activate_status_desc_sending_sms">Изпращане на SMS за активиране…</string>
     <string name="activate_status_desc_wait_for_sms">В очакване на активиращ SMS от сървъра…</string>
     <string name="activate_status_title_activating_sim">Активиране на \"%2$s\" чрез SIM карта %1$d…</string>
-    <string name="activate_status_title_registering_xiaomi_account">Създаване на Mi Профил…</string>
-    <string name="activate_status_title_registering_xiaomi_account_sim">Създаване на Mi Профил чрез SIM карта %d…</string>
+    <string name="activate_status_title_registering_xiaomi_account">Създаване на Xiaomi Профил…</string>
+    <string name="activate_status_title_registering_xiaomi_account_sim">Създаване на Xiaomi Профил чрез SIM карта %d…</string>
     <string name="afternoon">Следобяд</string>
     <string name="am">AM</string>
     <string name="app_name">Xiaomi услуга за активиране на SIM картата</string>
@@ -126,7 +127,7 @@
     <string name="error_sim_not_in_service_tip">SIM карта %d не може да се свърже с мрежата. Уверете се, че SIM картата функционира правилно и опитайте отново.</string>
     <string name="error_sim_not_in_service_tip_one_sim">Неуспешно свързване с мрежата. Уверете се, че Вашата SIM карта функционира правилно и опитайте отново.</string>
     <string name="evening">Следобед</string>
-    <string name="explain_activate_register_xiaomi_account_title">Създаване на Mi Профил</string>
+    <string name="explain_activate_register_xiaomi_account_title">Създаване на Xiaomi Профил</string>
     <string name="explain_activate_send_sms_permission_msg">За да активира %s, вашето устройство се нуждае от разрешение да изпраща SMS за активация. Вашия оператор ще начисли такса за това съобщение.</string>
     <string name="explain_send_sms_permission_button">Потвърждаване</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -186,15 +187,15 @@
     <string name="friday_shortest">Пт.</string>
     <string name="midnight">Нощ</string>
     <string name="miuix_access_state_desc">Избрани</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Размаркиране на всички</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Откажи всички</string>
     <string name="miuix_appcompat_action_mode_select_all">Избиране на всички</string>
     <string name="miuix_appcompat_action_mode_title_empty">Изберете елементи</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Повече</string>
     <string name="miuix_appcompat_cancel_description">Отказ</string>
     <string name="miuix_appcompat_confirm_description">Потвърди</string>
     <string name="miuix_appcompat_delete_description">Изтрий</string>
-    <string name="miuix_appcompat_deselect_all">Отмаркиране</string>
-    <string name="miuix_appcompat_deselect_all_description">Размаркирай всички</string>
+    <string name="miuix_appcompat_deselect_all">Откажи всички</string>
+    <string name="miuix_appcompat_deselect_all_description">Откажи всички</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Отказ</string>
     <string name="miuix_appcompat_search_input_description">Търси</string>
     <string name="miuix_appcompat_select_all">Избери всички</string>
@@ -265,7 +266,7 @@
     <string name="sim_activated_failed_msg">Неуспешно активиране на услуга. Натиснете, за да опитате отново.</string>
     <string name="sim_unactivated_feature_title">\"%s\" не беше активирана</string>
     <string name="sim_unactivated_msg">Тази услуга не беше активирана. Опитайте отново.</string>
-    <string name="sim_unactivated_register_xiaomi_account_feature_title">Не беше създаден Mi Профил</string>
+    <string name="sim_unactivated_register_xiaomi_account_feature_title">Не беше създаден Xiaomi Профил</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>

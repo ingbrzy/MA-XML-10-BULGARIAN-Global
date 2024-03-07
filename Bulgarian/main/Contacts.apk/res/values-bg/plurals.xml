@@ -5,16 +5,16 @@
         <item quantity="one">Преди 1 час</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">Преди 1 час</item>
-        <item quantity="one">Преди 1 час</item>
+        <item quantity="other">Преди %d часа</item>
+        <item quantity="one">Преди %d час</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Преди половин час</item>
         <item quantity="one">Преди половин час</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">След 1 час</item>
-        <item quantity="one">След 1 час</item>
+        <item quantity="other">След %d часа</item>
+        <item quantity="one">След %d час</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">След половин час</item>
@@ -25,8 +25,8 @@
         <item quantity="one">Веднага</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">след %d мин</item>
-        <item quantity="one">след 1 мин</item>
+        <item quantity="other">След %d мин</item>
+        <item quantity="one">След %d мин</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Току-що</item>
@@ -34,7 +34,7 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">Преди %d мин</item>
-        <item quantity="one">Преди 1 мин</item>
+        <item quantity="one">Преди %d мин</item>
     </plurals>
     <plurals name="batch_delete_msg">
         <item quantity="other">Изтриване на %1$d контакти?</item>
@@ -47,14 +47,6 @@
     <plurals name="callNoAnswerTimeFormat">
         <item quantity="other">Звънял %1$d пъти</item>
         <item quantity="one">Звънял %1$d път</item>
-    </plurals>
-    <plurals name="call_record_auto_whitelist_summary">
-        <item quantity="other">%d телефонни номера</item>
-        <item quantity="one">%d телефонен номер</item>
-    </plurals>
-    <plurals name="call_remove_exception_numbers_confirm">
-        <item quantity="other">Изтриване на %d телефонни номера?</item>
-        <item quantity="one">Изтриване на %d телефонен номер?</item>
     </plurals>
     <plurals name="cloud_state_unsynced_count">
         <item quantity="other">%1$d контакти или снимки не бяха синхронизирани</item>
@@ -112,13 +104,13 @@
         <item quantity="other">%1$d номера</item>
         <item quantity="one">%1$d номер</item>
     </plurals>
+    <plurals name="group_sms_error_message">
+        <item quantity="other">SMS-ът не може да има повече от %d получатели.</item>
+        <item quantity="one">SMS-ът не може да има повече от %d получател.</item>
+    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Преди половин час</item>
         <item quantity="one">Преди половин час</item>
-    </plurals>
-    <plurals name="hint_account_contacts">
-        <item quantity="other">%1$d елемента</item>
-        <item quantity="one">%1$d елемент</item>
     </plurals>
     <plurals name="hint_search_contacts">
         <item quantity="other">%1$d контакти</item>
@@ -207,10 +199,6 @@
     <plurals name="searchFoundContacts">
         <item quantity="other">%d открити</item>
         <item quantity="one">%d открит</item>
-    </plurals>
-    <plurals name="search_group_contacts_result">
-        <item quantity="other">%s резултата</item>
-        <item quantity="one">%s резултат</item>
     </plurals>
     <plurals name="select_all_exceed_plurals">
         <item quantity="other">Не избирайте повече от %1$d, не може да изберете всички</item>

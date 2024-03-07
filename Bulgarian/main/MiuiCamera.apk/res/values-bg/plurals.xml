@@ -36,6 +36,10 @@
         <item quantity="other">Преди %d мин</item>
         <item quantity="one">Преди 1 мин</item>
     </plurals>
+    <plurals name="accessibility_auto_night_tip">
+        <item quantity="other">%d-second timer for Night mode</item>
+        <item quantity="one">%d-second timer for Night mode</item>
+    </plurals>
     <plurals name="accessibility_focus_face_detect">
         <item quantity="other">Фокусирано. %d лица са открити</item>
         <item quantity="one">Фокусирано. %d лице е открито</item>
@@ -52,6 +56,14 @@
         <item quantity="other">Продължителност: %d секунди</item>
         <item quantity="one">Продължителност: %d секунда</item>
     </plurals>
+    <plurals name="cinemaster_toast_camera_overflow">
+        <item quantity="other">Можете да свържете до %d камери към същата мрежа</item>
+        <item quantity="one">Можете да свържете до %d камера към същата мрежа</item>
+    </plurals>
+    <plurals name="cinemaster_toast_monitor_overflow">
+        <item quantity="other">Можете да свържете до %d монитора към същата мрежа</item>
+        <item quantity="one">Можете да свържете до %d монитор към същата мрежа</item>
+    </plurals>
     <plurals name="clone_guide_tip2">
         <item quantity="other">Можете да създадете до %d клонинга едновременно.</item>
         <item quantity="one">Можете да създадете до %d клонинг едновременно.</item>
@@ -64,6 +76,10 @@
         <item quantity="other">&lt;Data>Устройството е твърде горещо в момента.&lt;br>Приложението ще се затвори след &lt;font color=#FFCE16>&lt;b>%1$d сек&lt;/b>&lt;/font>. Настоящия прогрес ще бъде запазен автоматично.&lt;/Data></item>
         <item quantity="one">&lt;Data>Устройството е твърде горещо в момента.&lt;br>Приложението ще се затвори след &lt;font color=#FFCE16>&lt;b>%1$d сек&lt;/b>&lt;/font>. Настоящия прогрес ще бъде запазен автоматично.&lt;/Data></item>
     </plurals>
+    <plurals name="exit_version_hint">
+        <item quantity="other">&lt;Data>Версията на Камерата, която използвате, не е съвместима с модела на вашето устройство.&lt;br>Приложението ще се затвори след &lt;font color=#FFCE16>&lt;b>%1$d сек&lt;/b>&lt;/font>. Деинсталирайте обновленията на камерата и опитайте отново.&lt;/Data></item>
+        <item quantity="one">&lt;Data>Версията на Камерата, която използвате, не е съвместима с модела на вашето устройство.&lt;br>Приложението ще се затвори след &lt;font color=#FFCE16>&lt;b>%1$d сек&lt;/b>&lt;/font>. Деинсталирайте обновленията на камерата и опитайте отново.&lt;/Data></item>
+    </plurals>
     <plurals name="fastmotion_pro_min_unit">
         <item quantity="other">%1$d мин</item>
         <item quantity="one">%1$d мин</item>
@@ -71,6 +87,10 @@
     <plurals name="fastmotion_pro_sec_unit">
         <item quantity="other">%1$d сек</item>
         <item quantity="one">%1$d сек</item>
+    </plurals>
+    <plurals name="friend_mode_display_first_dialog">
+        <item quantity="other">Таймерът е включен (%1$d сек). Снимките ще бъдат прехвърлени на това устройство.</item>
+        <item quantity="one">Таймерът е включен (%1$d сек). Снимките ще бъдат прехвърлени на това устройство.</item>
     </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Преди половин час</item>
@@ -107,6 +127,10 @@
     <plurals name="num_minutes_ago">
         <item quantity="other">Преди %d минути</item>
         <item quantity="one">Преди 1 минута</item>
+    </plurals>
+    <plurals name="number_unit_seconds_split">
+        <item quantity="other">%dс</item>
+        <item quantity="one">%dс</item>
     </plurals>
     <plurals name="pad_ccc_temperature_warning_msg">
         <item quantity="other">Вашето устройство е прегрято. Камерата ще се затвори след %d секунди. Вашите снимки или видео клипове ще бъдат съхранени автоматично.</item>

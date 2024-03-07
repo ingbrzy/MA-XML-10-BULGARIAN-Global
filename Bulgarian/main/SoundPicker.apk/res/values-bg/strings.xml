@@ -32,6 +32,13 @@
     <string name="add_ringtone_text">Добавяне на мелодия</string>
     <string name="alarm_sound_default">Стандартен звук за будилника</string>
     <string name="app_label">Sounds</string>
+    <string name="call_notification_answer_action">Отговор</string>
+    <string name="call_notification_answer_video_action">Видеообаждане</string>
+    <string name="call_notification_decline_action">Отхвърляне</string>
+    <string name="call_notification_hang_up_action">Затваряне</string>
+    <string name="call_notification_incoming_text">Входящо обаждане</string>
+    <string name="call_notification_ongoing_text">Текущо обаждане</string>
+    <string name="call_notification_screening_text">Преглежда се входящо обаждане</string>
     <string name="delete_ringtone_text">Изтриване</string>
     <string name="notification_sound_default">Стандартен звук за известяване</string>
     <string name="ringtone_default">Стандартна мелодия</string>

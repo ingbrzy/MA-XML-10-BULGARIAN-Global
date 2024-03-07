@@ -9,7 +9,7 @@
         <item>Няма достъп до мрежата. Свържете се отново с Wi-Fi или рестартирайте рутера.</item>
     </string-array>
     <string-array name="net_diag_err_link_quality_china">
-        <item>Poor WLAN connection. Switch wireless bands or reboot the router.</item>
+        <item>Лоша Wi-Fi връзка. Превключете безжичните ленти или рестартирайте рутера.</item>
         <item>"Can't access network. Reconnect to WLAN or reboot the router."</item>
     </string-array>
     <string-array name="net_diag_err_network_connectivity">
@@ -17,7 +17,7 @@
         <item>Достъпът до мрежата е ограничен. Регулирайте часа на това устройство и проверете мрежовите настройки на рутера.</item>
         <item>Грешка в мрежата. Проверете настройките за HTTP прокси.</item>
         <item>Грешка в мрежата. Проверете дали рутера има достъп до интернет.</item>
-        <item>Неуспешно свързване с мрежата. Свържете се отново с Wi-Fi или рестартирайте рутера.</item>
+        <item>Няма достъп до мрежата. Свържете се отново с Wi-Fi или рестартирайте рутера.</item>
     </string-array>
     <string-array name="net_diag_err_network_connectivity_china">
         <item>Изисква се удостоверяване за достъп до мрежата</item>
@@ -29,7 +29,7 @@
     <string-array name="net_diag_err_network_dns">
         <item>Грешка в DNS сървъра. Проверете DNS конфигурацията на рутера.</item>
         <item>Големи забавяния от DNS сървъра. Проверете DNS конфигурацията на рутера.</item>
-        <item>Няма достъп до шлюза. Свържете се отново с Wi-Fi или рестартирайте рутера.</item>
+        <item>Няма достъп до мрежата. Свържете се отново с Wi-Fi или рестартирайте рутера.</item>
     </string-array>
     <string-array name="net_diag_err_network_dns_china">
         <item>Грешка в DNS сървъра. Проверете DNS конфигурацията на рутера.</item>

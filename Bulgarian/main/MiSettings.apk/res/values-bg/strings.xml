@@ -47,8 +47,10 @@
     <string name="anti_flicker_mode">Анти-трептене</string>
     <string name="anti_flicker_mode_categroy">Режими</string>
     <string name="anti_flicker_mode_summary">Предотвратяване на прекаленото премигане и намаляване на напрежението за очите в условия със слабо осветление</string>
+    <string name="anti_flicker_mode_summary_new">Използвайте DC затъмняване при слаба светлина, за да намалите напрежението на очите</string>
     <string name="anti_flicker_title">Режим анти-трептене</string>
     <string name="app_name">Настройки</string>
+    <string name="app_use">Екранно време на приложения</string>
     <string name="application_sound">Известия за приложението</string>
     <string name="apply_ringtone">Apply</string>
     <string name="arctic_fox">Полярна лисица</string>
@@ -111,7 +113,6 @@
     <string name="branch_whipbird">Turdidae</string>
     <string name="brown_pelican">Brown pelican</string>
     <string name="calendar_sound">Напомняния за събитие</string>
-    <string name="calendar_tip">Звуците за напомняне за събития се отнасят за напомняния, бележки и задачи в календара</string>
     <string name="canada_goose">Canada goose</string>
     <string name="capybara">Capybara</string>
     <string name="capybara_info">Capybaras are semiaquatic herbivore rodents who can hold their breath underwater for up to five minutes at a time.</string>
@@ -307,6 +308,10 @@
     <string name="focus_time_exception_tip">Изглежда системното време се е сменило. Режим Фокус е изключен.</string>
     <string name="follow_apps_settings">Въз основа на настройките на приложението</string>
     <string name="follow_sim1">Прилагане на настройки на SIM 1</string>
+    <string name="footer_global_fps">"
+%1$d. Когато включите режима Производителност, честотата на опресняване ще бъде превключена на системния максимум от %2$d Hz. Настройките на приложението с висока честота на опресняване временно няма да бъдат достъпни."</string>
+    <string name="footer_max_fps" formatted="false">"
+%d. Честотата на опресняване може да се регулира до %s Hz за поддържаните приложения и игри."</string>
     <string name="force_rest">Използвайте почивки между сесиите</string>
     <string name="force_rest_summary">Правете задължителни почивки между сесиите при достигане на лимита</string>
     <string name="force_rest_time">Продължителност на почивката</string>
@@ -419,18 +424,21 @@
     <string name="marabou_stork">Marabou stork</string>
     <string name="marabou_stork_info">The marabou stork is a massive bird, a frequent scavenger.</string>
     <string name="masked_palm_civet">Masked palm civet</string>
+    <string name="max_fps_string">До %s Hz</string>
     <string name="medium_tree_finch">Medium tree finch</string>
+    <string name="mi_transfer_banner_summary">Поддържат се множество марки устройства</string>
+    <string name="mi_transfer_banner_title">Прехвърлете елементи от старото си устройство</string>
     <string name="midnight">Нощ</string>
     <string name="miuix_access_state_desc">Избрани</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Размаркиране на всички</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Откажи всички</string>
     <string name="miuix_appcompat_action_mode_select_all">Избиране на всички</string>
     <string name="miuix_appcompat_action_mode_title_empty">Изберете елементи</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Повече</string>
     <string name="miuix_appcompat_cancel_description">Отказ</string>
     <string name="miuix_appcompat_confirm_description">Потвърди</string>
     <string name="miuix_appcompat_delete_description">Изтрий</string>
-    <string name="miuix_appcompat_deselect_all">Отмаркиране</string>
-    <string name="miuix_appcompat_deselect_all_description">Размаркирай всички</string>
+    <string name="miuix_appcompat_deselect_all">Откажи всички</string>
+    <string name="miuix_appcompat_deselect_all_description">Откажи всички</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Отказ</string>
     <string name="miuix_appcompat_search_input_description">Търси</string>
     <string name="miuix_appcompat_select_all">Избери всички</string>
@@ -582,6 +590,7 @@
     <string name="screen_fps_unit">%d Hz</string>
     <string name="screen_fps_unit_power_save">%dHz (спестява батерия)</string>
     <string name="screen_fps_unit_smooth">%dHz (по-добро качество)</string>
+    <string name="screen_fps_unit_string">%s Hz</string>
     <string name="screen_original_gamut">Разширена</string>
     <string name="screen_original_gamut_summary">Показване на цялото екранно съдържание във възможно най-широката цветова гама</string>
     <string name="screen_paper_mode_apps_loading">Момент…</string>
@@ -640,6 +649,7 @@
     <string name="stop_summary">Всички статистики и данни за Екранно време ще бъдат изтрити, когато изключите тази функция</string>
     <string name="suggestion">Обратна връзка</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
+    <string name="summary_max_fps_for_intelligent">Регулирайте скоростта на опресняване динамично до %s Hz въз основа на сценарии, за да балансирате производителността с консумацията на енергия</string>
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>
     <string name="sunday_shortest">Нед.</string>
@@ -794,7 +804,7 @@
 Това приложение също така се нуждае от връзка с интернет и изисква следните разрешения, за да събира личната Ви информация:"</string>
     <string name="usage_home_premission_second_summary">За да работи нормално, това приложение трябва да събира личната Ви информация. Ние ще пазим личната Ви информация в съответствие с приложимите закони, разпоредби и политики за поверителност.</string>
     <string name="usage_home_premission_second_summary_double_link_prefix">Ние ще защитаваме личната Ви информация в съответствие с всички приложими закони, наредби и правила за поверителност. Ако не се съгласите да дадете тези разрешения или да споделяте и качвате личната си информация, няма да можете да използвате това приложение. Можете да оттеглите упълномощението си в Екранно време > Настройки > Изключване на Екранно време.</string>
-    <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false">"&lt;Data>Преди да използвате това приложение, прочетете и приемете нашето &lt;a href='%1s'>Потребителско споразумение&lt;/a> и &lt;a href='%2s'>Правила за поверителност&lt;/a>.&lt;/Data>"</string>
+    <string name="usage_home_premission_second_summary_double_link_suffix" formatted="false"><Data>"Преди да използвате това приложение, прочетете и приемете нашето &lt;a href='%1s'>Потребителско споразумение&lt;/a> и &lt;a href='%2s'>Правила за поверителност&lt;/a>."</Data></string>
     <string name="usage_home_premission_second_summary_new">Ние ще защитаваме личната Ви информация в съответствие с всички приложими закони, наредби и политики за поверителност. Ако не се съгласите да дадете тези разрешения или да споделяте и качвате личната си информация, няма да можете да използвате това приложение. Можете да оттеглите упълномощаването си в Екранно време > Настройки > Изключване на Екранно време. Ако имате допълнителни въпроси относно поверителността, можете да се свържете с нас на privacy@xiaomi.com.</string>
     <string name="usage_new_category_limit_summary">Задаване на дневен лимит и ограничение за всички приложения в тази категория</string>
     <string name="usage_new_category_limit_title">Ограничаване на употреба за категории на приложения</string>
@@ -842,7 +852,7 @@
     <string name="usage_optional_title">Второстепенни разрешения</string>
     <string name="usage_permisison_agree_desc_o">За да може да ви предоставя статистика за Екранно време, това приложение трябва да събира следната информация: броя пъти отключване на устройството, вашия списък с приложения, както и съответното продължение на използване на приложенията.</string>
     <string name="usage_permisison_agree_desc_p">За да може да ви предоставя статистика за Екранно време и режим Фокусиране, това приложение трябва да събира следната информация: броя пъти отключване на устройството, вашия списък с приложения, както и съответното продължение на използване на приложенията, броя пъти светване на екрана и настройки за режим Фокусиране.</string>
-    <string name="usage_permission_double_link" formatted="false">"&lt;Data>Това приложение се нуждае от достъп до интернет, както и разрешение да събира необходимите лични данни, за да може да функционира нормално. За да можете да се запознаете по-подробно с потребителските си права, както и да се запознаете с начините, по които използваме вашите лични данни прочетете и приемете нашето &lt;a href='%1s'>Потребителско споразумение&lt;/a> и &lt;a href='%2s'>Правила за поверителност&lt;/a>.&lt;/Data>"</string>
+    <string name="usage_permission_double_link" formatted="false"><Data>"Това приложение се нуждае от достъп до интернет, както и разрешение да събира необходимите лични данни, за да може да функционира нормално. За да можете да се запознаете по-подробно с потребителските си права, както и да се запознаете с начините, по които използваме вашите лични данни прочетете и приемете нашето &lt;a href='%1s'>Потребителско споразумение&lt;/a> и &lt;a href='%2s'>Правила за поверителност&lt;/a>."</Data></string>
     <string name="usage_permission_main_desc">"Добре дошли в Екранно време!
 Това приложение се нуждае от достъп до интернет и изисква следните разрешения, за да функционира нормално:"</string>
     <string name="usage_permission_title">Внимание</string>

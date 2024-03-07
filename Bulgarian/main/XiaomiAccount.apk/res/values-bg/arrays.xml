@@ -4,6 +4,10 @@
         <item>Мъж</item>
         <item>Жена</item>
     </string-array>
+    <string-array name="passport_account_user_gender_name">
+        <item>Мъж</item>
+        <item>Жена</item>
+    </string-array>
     <string-array name="settings_search_account_and_authority_global">
         <item>Профили</item>
         <item>Добавяне и управление на профили от трети страни</item>
@@ -11,23 +15,28 @@
     </string-array>
     <string-array name="settings_search_account_and_authority_non_global">
         <item>Профили</item>
-        <item>Добавяне и управление на профили от трети страни</item>
-        <item>Профили;SNS;WeChat;QQ;Mi Профил;Профил;Xiaomi Профил</item>
+        <item>Вижте своите свързани акаунти в WeChat и други SNS</item>
+        <item>Разрешения;SNS;WeChat;Xiaomi Профил;акаунт</item>
     </string-array>
     <string-array name="settings_search_change_password">
         <item>Промяна на парола</item>
         <item>Промяна на парола за Xiaomi Профил</item>
         <item>Смяна на парола;Обновяване на парола;Mi Профил;Профил;Xiaomi Профил</item>
     </string-array>
+    <string-array name="settings_search_cloud_space_share">
+        <item>Семейна памет</item>
+        <item>Преглед/включване на Семейна памет</item>
+        <item>Семейна памет;Споделяне на памет</item>
+    </string-array>
+    <string-array name="settings_search_family_service">
+        <item>Семейни услуги</item>
+        <item>Преглед/включване на Семейни услуги</item>
+        <item>Семейство;Семейни услуги;Семейно споделяне</item>
+    </string-array>
     <string-array name="settings_search_help_center">
         <item>Помощ</item>
         <item>Получаване на помощ и поддръжка на Xiaomi Профил</item>
         <item>Mi Профил;Профил;Xiaomi Профил;Помощ за профил;Помощен център</item>
-    </string-array>
-    <string-array name="settings_search_login_2_step_verify">
-        <item>Потвърждаване в 2 стъпки</item>
-        <item>Задаване на Потвърждаване в 2 стъпки за Вашия Xiaomi Профил</item>
-        <item>Вписване;Влизане;2 стъпки;потвърждаване;Xiaomi;Профил;Mi Профил;Настройки;Xiaomi Профил</item>
     </string-array>
     <string-array name="settings_search_login_and_security">
         <item>Сигурност на профила</item>

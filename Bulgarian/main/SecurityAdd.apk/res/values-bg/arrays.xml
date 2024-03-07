@@ -27,6 +27,20 @@
         <item>Балансирано</item>
         <item>Високо качество</item>
     </string-array>
+    <string-array name="gb_gpu_custom_fps_gear">
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>90</item>
+        <item>120</item>
+    </string-array>
+    <string-array name="gb_gpu_custom_frame_rate_gear">
+        <item>Ниска</item>
+        <item>Стандартна</item>
+        <item>Висока</item>
+        <item>Най-висока</item>
+        <item>По подразбиране</item>
+    </string-array>
     <string-array name="gb_gpu_custom_texture">
         <item>Висока скорост</item>
         <item>Балансирано</item>

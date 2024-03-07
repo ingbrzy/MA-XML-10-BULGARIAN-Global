@@ -33,7 +33,7 @@
     <string name="abrupt_weather_settings_summary_type">Получавай предупреждения за валежи, промени в качеството на въздуха и други важни промени</string>
     <string name="act_find_city_hint">Въведете място</string>
     <string name="act_find_city_hot_city_title">Популярни градове</string>
-    <string name="act_location_error_to_find_city">Неуспешно получаване на информация за местоположението. Можете да добавите град ръчно.</string>
+    <string name="act_location_error_to_find_city">Неуспешно получаване на информация за местоположението. Можете ръчно да добавите местоположение.</string>
     <string name="act_set_city_find_side">Локализиране</string>
     <string name="act_set_city_find_side_error">Не може да се определи позицията ви</string>
     <string name="act_weather_find_city_added">Добавено</string>
@@ -78,17 +78,11 @@
     <string name="aqi_fifteen_dates_time_format">dd.MM</string>
     <string name="aqi_publish_time">Актуализирано %1$s</string>
     <string name="aqi_quality_co_desc">Въглероден оксид</string>
-    <string name="aqi_quality_co_pad">CO: %1$s</string>
     <string name="aqi_quality_no2_desc">Азотен диоксид</string>
-    <string name="aqi_quality_no2_pad">NO₂: %1$s</string>
     <string name="aqi_quality_o3_desc">Озон</string>
-    <string name="aqi_quality_o3_pad">O₃: %1$s</string>
     <string name="aqi_quality_pm10_desc">Вдишвани груби частици</string>
-    <string name="aqi_quality_pm10_pad">PM10: %1$s</string>
     <string name="aqi_quality_pm25_desc">Фини частици</string>
-    <string name="aqi_quality_pm25_pad">PM2.5: %1$s</string>
     <string name="aqi_quality_so2_desc">Серен диоксид</string>
-    <string name="aqi_quality_so2_pad">SO₂: %1$s</string>
     <string name="aqi_station_best_quality_station">Най-добрата наоколо</string>
     <string name="aqi_station_min_distance_station">Близка станция</string>
     <string name="aqi_title_pad">AQI: %1$s</string>
@@ -143,7 +137,7 @@
     <string name="daily_forecast_add_city_message">Следвайте времето в %1$s за по-подробна прогноза.</string>
     <string name="daily_forecast_add_city_title">Следвайте времето в %1$s</string>
     <string name="daily_forecast_detail_date">dd.MM</string>
-    <string name="data_provided_by">Информацията е предоставена отчасти от</string>
+    <string name="data_provided_by">Данните са предоставени отчасти от</string>
     <string name="date_picker_label_day" />
     <string name="date_picker_label_month" />
     <string name="date_picker_label_year" />
@@ -163,6 +157,7 @@
     <string name="dynamic_weather">Времето</string>
     <string name="early_morning">Сутрин</string>
     <string name="edit_city">Редакция на градове</string>
+    <string name="empty">" "</string>
     <string name="empty_view_net_loading">Актуализиране…</string>
     <string name="empty_view_net_unavailable">Няма връзка с мрежата</string>
     <string name="empty_view_refresh">Опитайте отново</string>
@@ -213,8 +208,8 @@
     <string name="feedback_result_fail_no_choice">Изберете текущата прогноза за време</string>
     <string name="feedback_result_fail_no_reason">Благодарим Ви за отзива!</string>
     <string name="feedback_result_fail_same_type">Изглежда, че Вашият доклад не е различен от текущото време. Опитайте отново.</string>
-    <string name="feedback_result_success">Успешно изпратен доклад за грешки, благодарим Ви.</string>
-    <string name="feedback_sandy">Слънчево</string>
+    <string name="feedback_result_success">Успешно изпращане. Благодарим Ви за обратната връзка.</string>
+    <string name="feedback_sandy">Пясъчна буря</string>
     <string name="feedback_sunny">Ясно</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -272,18 +267,21 @@
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
     <string name="hourly_forcast_now">Сега</string>
+    <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
     <string name="hourly_forecast_date">dd.MM</string>
     <string name="index_item_experience_now">Инсталирай сега</string>
     <string name="indices_title_chance_of_rain">Възможно преваляване</string>
     <string name="indices_title_feel">Усеща се</string>
     <string name="indices_title_pressure">Налягане</string>
     <string name="indices_title_uv">UV</string>
-    <string name="indices_title_wind_speed">Скорост на вятъра</string>
     <string name="indices_wind_direction_east">И</string>
     <string name="indices_wind_direction_north">С</string>
     <string name="indices_wind_direction_south">Ю</string>
     <string name="indices_wind_direction_west">З</string>
+    <string name="install_progress">%1$s%%</string>
     <string name="international_details_uv_index_title">UV индекс</string>
+    <string name="item_city_list_region_no_data">-- / --</string>
+    <string name="item_city_list_temperature_no_data">--</string>
     <string name="location_provider_btn_text">Включване на услугите за местоположение</string>
     <string name="location_tag">Локализиране</string>
     <string name="manager_city_option_add_home">Добавяне към начална страница</string>
@@ -294,17 +292,16 @@
     <string name="minute_rain_feedback_title">Информацията за времето е неправилна.</string>
     <string name="minute_rain_now">Сега</string>
     <string name="minute_rain_progress_indicator_original_time">- -</string>
-    <string name="missing_required_permission">Деактивирали сте разрешение, което се изисква.</string>
     <string name="miuix_access_state_desc">Избрани</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Размаркиране на всички</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Откажи всички</string>
     <string name="miuix_appcompat_action_mode_select_all">Избиране на всички</string>
     <string name="miuix_appcompat_action_mode_title_empty">Изберете елементи</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Повече</string>
     <string name="miuix_appcompat_cancel_description">Отказ</string>
     <string name="miuix_appcompat_confirm_description">Потвърди</string>
     <string name="miuix_appcompat_delete_description">Изтрий</string>
-    <string name="miuix_appcompat_deselect_all">Отмаркиране</string>
-    <string name="miuix_appcompat_deselect_all_description">Размаркирай всички</string>
+    <string name="miuix_appcompat_deselect_all">Откажи всички</string>
+    <string name="miuix_appcompat_deselect_all_description">Откажи всички</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Отказ</string>
     <string name="miuix_appcompat_search_input_description">Търси</string>
     <string name="miuix_appcompat_select_all">Избери всички</string>
@@ -392,8 +389,8 @@
     <string name="privacy_grant_or_revoke_settings">Оттегляне на съгласие</string>
     <string name="privacy_grant_success">Успешно придобито разрешение</string>
     <string name="privacy_policy">Правила за поверителност</string>
-    <string name="privacy_policy_msg">&lt;Data>Това приложение съдържа следните функции:&lt;br/>• Информация за времето специфична за вашето местоположение&lt;br/>• Прогноза за времето&lt;br/>• Предупреждения за времето&lt;br/>&lt;br/>Времето се нуждае да събира вашите лични данни, за да ви предоставя основни услуги. Можете да научите как обработваме събраната информация в нашите &lt;a href=\"%1$s\">Правила за поверителност&lt;/a>. Прочетете и приемете нашето &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%3$s\">Правила за поверителност&lt;/a> преди да използвате Времето. Можете да оттеглите съгласието си за Правилата за поверителност на Времето в Настройки по всяко време.&lt;/Data></string>
-    <string name="privacy_policy_msg_for_gp">&lt;Data>Това приложение съдържа следните функции:&lt;br/>• Информация за времето специфична за вашето местоположение&lt;br/>• Прогноза за времето&lt;br/>• Предупреждения за времето&lt;br/>&lt;br/>Времето се нуждае да събира вашите лични данни, включително данни за местоположението, за да ви предоставя тези функции дори когато приложението е затворено или не се използва. Можете да научите как обработваме събраната информация в нашите &lt;a href=\"%1$s\">Правила за поверителност&lt;/a>. Прочетете и приемете нашето &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%3$s\">Правила за поверителност&lt;/a> преди да използвате Времето. Можете да оттеглите съгласието си за Правилата за поверителност на Времето в Настройки по всяко време.&lt;/Data></string>
+    <string name="privacy_policy_msg"><Data>Това приложение съдържа следните функции:&lt;br/>• Информация за времето специфична за вашето местоположение&lt;br/>• Прогноза за времето&lt;br/>• Предупреждения за времето&lt;br/>&lt;br/>Времето се нуждае да събира вашите лични данни, за да ви предоставя основни услуги. Можете да научите как обработваме събраната информация в нашите &lt;a href=\"%1$s\">Правила за поверителност&lt;/a>. Прочетете и приемете нашето &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%3$s\">Правила за поверителност&lt;/a> преди да използвате Времето. Можете да оттеглите съгласието си за Правилата за поверителност на Времето в Настройки по всяко време.</Data></string>
+    <string name="privacy_policy_msg_for_gp"><Data>Това приложение съдържа следните функции:&lt;br/>• Информация за времето специфична за вашето местоположение&lt;br/>• Прогноза за времето&lt;br/>• Предупреждения за времето&lt;br/>&lt;br/>Времето се нуждае да събира вашите лични данни, включително данни за местоположението, за да ви предоставя тези функции дори когато приложението е затворено или не се използва. Можете да научите как обработваме събраната информация в нашите &lt;a href=\"%1$s\">Правила за поверителност&lt;/a>. Прочетете и приемете нашето &lt;a href=\"%2$s\">Потребителско споразумение&lt;/a> и &lt;a href=\"%3$s\">Правила за поверителност&lt;/a> преди да използвате Времето. Можете да оттеглите съгласието си за Правилата за поверителност на Времето в Настройки по всяко време.</Data></string>
     <string name="privacy_revoke_success">Разрешението е успешно отменено</string>
     <string name="privacy_settings">Правила за поверителност</string>
     <string name="pull_fresh_updated">Успешно актуализиране</string>
@@ -412,10 +409,6 @@
     <string name="realtime_wind_default_title">Вятър</string>
     <string name="refresh_fail">Няма връзка с мрежата</string>
     <string name="reminder_from_xiaomi_weather_app">Предупреждения от Mi Време</string>
-    <string name="request_cta_connect_net">Разрешете на това приложение достъп до интернет и дайте задължителните разрешения изброени по-горе.</string>
-    <string name="request_permission_location_dialog_content">За показване на информация за времето, която се отнася за текущото Ви местоположение</string>
-    <string name="request_permission_main_purpose">Показване на информация за времето</string>
-    <string name="request_permission_storage_dialog_content">За споделяне на информация за времето под формата на изображение</string>
     <string name="revoke_fail">Няма връзка с мрежата</string>
     <string name="revoke_privacy_policy_title">Оттегляне на съгласие</string>
     <string name="saturday">Събота</string>
@@ -441,7 +434,7 @@
     <string name="share_button">Споделяне</string>
     <string name="share_menu_title">Споделяне</string>
     <string name="share_subject">Споделяне</string>
-    <string name="share_weather_desc">\#MIUI Времето#Днес %1$s %2$s</string>
+    <string name="share_weather_desc_alert">%1$s%2$s</string>
     <string name="share_weather_desc_split">,</string>
     <string name="share_weather_save_pic_fail">Не може да бъде направена екранна снимка</string>
     <string name="shortcut_short_label_24_hour_forecast">%d-часова прогноза</string>
@@ -568,9 +561,6 @@
     <string name="user_agreement">Потребителско споразумение</string>
     <string name="v7_preference_off">ИЗКЛ.</string>
     <string name="v7_preference_on">ВКЛ.</string>
-    <string name="video_banner_regional_weather_update">Информация за времето в региона</string>
-    <string name="video_banner_weather_forecast">Прогноза за времето</string>
-    <string name="video_banner_weather_update">Най-новата информация за времето</string>
     <string name="view_forecast_item_yesterday">Вчера</string>
     <string name="view_indexes_item_today">Днес</string>
     <string name="view_indexes_item_tommorrow">Утре</string>
@@ -591,9 +581,7 @@
     <string name="wind_power">%d</string>
     <string name="wind_unit">%1$sкм/ч</string>
     <string name="xiaomi_weather_description_content">Времето е системно приложение. След като деинсталирате приложението няма да можете да преглеждате информация за прогнозата или да използвате съответните приспособления.</string>
-    <string name="xiaomi_weather_description_content_remove">Времето е системно приложение. След като премахнете прекия път на Началния екран няма да можете да преглеждате информация за прогнозата или да използвате съответните приспособления.</string>
     <string name="xiaomi_weather_description_title">Деинсталиране на \"Времето\"?</string>
-    <string name="xiaomi_weather_description_title_remove">Премахване на \"Времето\" от Началния екран?</string>
     <string name="yes_vote_ratio">За %1$s%%</string>
     <string name="yesterday">Вчера</string>
 </resources>

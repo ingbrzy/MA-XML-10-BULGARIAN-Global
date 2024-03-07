@@ -940,6 +940,8 @@
     <string name="keyguard_indication_charging_time_wireless">%2$s • Зарежда се безжично • %1$s до пълно зареждане</string>
     <string name="keyguard_indication_trust_unlocked">Поддържа се отключено от надежден агент</string>
     <string name="keyguard_left_mi_wallet">Mi Портфейл</string>
+    <string name="keyguard_left_remotecentral">Mi Дистанционно</string>
+    <string name="keyguard_left_smarthome">Xiaomi Home</string>
     <string name="keyguard_left_torch">Фенерче</string>
     <string name="keyguard_left_view_lock_wallpaper">Сменящи се тапети</string>
     <string name="keyguard_loading_to_editor_tips">Отваряне на Редактора на Заключен екран…</string>
@@ -1221,6 +1223,7 @@ mm"</string>
     <string name="monitoring_description_personal_profile_named_vpn">Личните ви приложения са свързани с интернет чрез %1$s. Активността ви в мрежата, включително имейлите и данните за сърфирането, е видима от доставчика ви на VPN.</string>
     <string name="monitoring_description_two_named_vpns">Това устройство е свързано с интернет чрез %1$s и %2$s. Активността ви в мрежата, включително имейлите и данните за сърфирането, е видима за системния ви администратор.</string>
     <string name="monitoring_description_vpn_settings">Отваряне на настройките за VPN</string>
+    <string name="monitoring_description_vpn_settings_separator">" "</string>
     <string name="monitoring_financed_description_named_management">"%1$s може да има достъп до свързаните с това устройство данни, да управлява приложенията и да променя настройките му.
 
 Обърнете се към %2$s, ако имате въпроси."</string>
@@ -1420,8 +1423,6 @@ mm"</string>
     <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data>Изберете &lt;font color=#a5220e>\"Wipe &amp;amp; Reset\"&lt;/font> и изчакайте, докато устройството се рестартира.;&lt;/Data></string>
     <string name="phone_locked_forget_password_suggesstions_title">Как да изтрия данните?</string>
     <string name="phone_locked_string">Това устройство е заключено</string>
-    <string name="phone_locked_string_owner_user">Твърде много неуспешни опити за въвеждане на паролата за Първо пространство. Устройството е заключено.</string>
-    <string name="phone_locked_string_second_user">Твърде много неуспешни опити за въвеждане на паролата за Второ пространство. Устройството е заключено.</string>
     <string name="pip_close">Затваряне</string>
     <string name="pip_collapse">Свиване</string>
     <string name="pip_edu_text">За достъп до контролите натиснете два пъти <annotation icon="home_icon">НАЧАЛО</annotation></string>
@@ -1823,6 +1824,8 @@ mm"</string>
     <string name="status_bar_clock_date_format_12">E, d MMM</string>
     <string name="status_bar_clock_date_time_format">H:mm E, d MMM</string>
     <string name="status_bar_clock_date_time_format_12">h:mm a, E, d MMM</string>
+    <string name="status_bar_clock_date_weekday_format_12_brief">@string/status_bar_clock_date_format_12</string>
+    <string name="status_bar_clock_date_weekday_format_brief">@string/status_bar_clock_date_format</string>
     <string name="status_bar_ethernet">Ethernet</string>
     <string name="status_bar_settings_auto_rotation">Авт. завъртане на екрана</string>
     <string name="status_bar_work">Потребителски профил в Work</string>

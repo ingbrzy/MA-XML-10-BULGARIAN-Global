@@ -36,6 +36,8 @@
     <string name="app_ver_code">1</string>
     <string name="app_ver_name">1.0</string>
     <string name="bottomsheet_action_expand_halfway">Разгъване наполовина</string>
+    <string name="cast_auth_count_down">Въведете код от \"%1$s\", за да започнете да прожектирате (%2$ds)</string>
+    <string name="cast_auth_title">Въведете код</string>
     <string name="cast_image_des">Инструкции за Прожекция</string>
     <string name="casting_tips">Прожектиране…</string>
     <string name="character_counter_content_description">Въведени знаци: %1$d от %2$d</string>
@@ -43,10 +45,11 @@
     <string name="clear_text_end_icon_content_description">Изчистване на текста</string>
     <string name="clearable_edittext_clear_description">Изчисти</string>
     <string name="close">Затваряне</string>
+    <string name="close_auxiliary_wifi_hint">Изключете „Увеличаване на скоростта на двулентовата Wi-Fi“, за да можете да прожектирате</string>
+    <string name="close_auxiliary_wifi_hint_china">Изключете „Увеличаване на скоростта на двулентовата WLAN“, за да можете да прожектирате</string>
+    <string name="close_dp_casting_hint">Изключете кабела и опитайте отново</string>
     <string name="close_hotspot_hint">Изключете мобилния хотспот преди прожекция</string>
     <string name="close_hotspot_hint_DFS">За да прехвърлите елементи върху телевизора, пътво изключете хотспота.</string>
-    <string name="close_slave_wifi_hint">Прекъснете връзката с помощни Wi-Fi мрежи, преди прожекция</string>
-    <string name="close_slave_wifi_hint_china">Disconnect from auxiliary WLAN networks before casting</string>
     <string name="common_google_play_services_unknown_issue">%1$s има проблеми с услугите за Google Play. Моля, опитайте отново.</string>
     <string name="config_wifi_label_china">Xiaomi Conference Tapcast WLAN</string>
     <string name="config_wifi_label_global">Xiaomi Conference Tapcast Wi-Fi</string>
@@ -65,6 +68,7 @@
     <string name="device_desc_trust">Доверени устройства</string>
     <string name="dialog_can_not_find_device">Не са открити устройства в близост</string>
     <string name="dialog_cancle">Отказ</string>
+    <string name="dialog_close">Изключване</string>
     <string name="dialog_connect_fail">Неуспешно свързване</string>
     <string name="dialog_connect_retry">Натиснете за нов опит</string>
     <string name="dialog_connect_verify_perssion">Първо одобрете проектиране на Вашия телевизор</string>
@@ -79,8 +83,8 @@
     <string name="dialog_nearbydevice_permission_message">Разрешете на това устройство достъп до устройства наблизо, за да можете да използвате функциите за прожектиране.</string>
     <string name="dialog_nearbydevice_permission_title">Необходими са разрешения</string>
     <string name="dialog_nfc_cast_wifi_off">Turn on WLAN to be able to cast using NFC. Turn on now?</string>
-    <string name="dialog_no_device_message">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Свържете Вашето мобилно устройство и телевизор към същата Wi-Fi мрежа.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. В някои телевизори тази функция е налична само когато функцията Огледален екран е включена. Прегледайте &lt;a href=milink://com.milink.service/specification>\"Помощ\"&lt;/a> за повече информация.&lt;/Data></string>
-    <string name="dialog_no_device_message_china">&lt;Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.&lt;/Data></string>
+    <string name="dialog_no_device_message"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Свържете Вашето мобилно устройство и телевизор към същата Wi-Fi мрежа.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. В някои телевизори тази функция е налична само когато функцията Огледален екран е включена. Прегледайте &lt;a href=milink://com.milink.service/specification>\"Помощ\"&lt;/a> за повече информация.</Data></string>
+    <string name="dialog_no_device_message_china"><Data>&lt;xliff:g id=count refersto=1>%1$d&lt;/xliff:g>. Connect both your mobile device and TV to the same WLAN network.&lt;br>&lt;br>&lt;xliff:g id=count refersto=2>%2$d&lt;/xliff:g>. On some TV models, this feature is only available when screen mirroring is on. View &lt;a href=milink://com.milink.service/specification>\"Help\"&lt;/a> to learn more.</Data></string>
     <string name="dialog_ok">OK</string>
     <string name="dialog_only_suport_content">Предавайте снимки, видео или музика</string>
     <string name="dialog_open_wifi_bt">Включи</string>
@@ -94,6 +98,9 @@
     <string name="dialog_scan_message_china">"%1$d. Connect both your mobile device and TV to the same WLAN network.
 
 %2$d. View \"Help\" to learn more."</string>
+    <string name="dialog_scanning_close_dual_wifi_china">Turn off \"Dual band WLAN speed boost\" to be able to cast. Turn this feature off now?</string>
+    <string name="dialog_scanning_close_dual_wifi_global">Изключете „Увеличаване на скоростта на двулентов Wi-Fi“, за да можете да прожектирате. Желаете ли да изключите тази функция?</string>
+    <string name="dialog_scanning_close_tethering">Изключете хотспота, за да можете да прожектирате. Желаете ли да изключите хотспота?</string>
     <string name="dialog_scanning_device">Търсене на устройства в близост…</string>
     <string name="dialog_scanning_precondition">Включете Wi-Fi и Bluetooth на телефона си, за да използвате Безжичен дисплей.</string>
     <string name="dialog_scanning_precondition_new_china">Turn on WLAN, Bluetooth, and location services to be able to use casting. Turn on now?</string>
@@ -101,11 +108,13 @@
     <string name="dialog_select_tv">Изберете устройство (%1$d)</string>
     <string name="dialog_show_help">Помощ</string>
     <string name="disconnect">Спиране на прожекцията</string>
+    <string name="dp_casting_start_hint">Свързан чрез кабел. Прожекцията приключи.</string>
     <string name="dual_wifi_warning_china">Turn off dual WLAN and try again</string>
     <string name="dual_wifi_warning_global">Изключете двойния Wi-Fi и опитайте отново</string>
     <string name="early_morning">Сутрин</string>
     <string name="empty" />
     <string name="enable_screen_projection_summary">Прожектиране на съдържание на екрана върху външен монитор</string>
+    <string name="enable_screen_projection_summary_new">Прожектирайте екрана на мобилно устройство към близките телевизори и други външни монитори</string>
     <string name="eras_ad">н.е.</string>
     <string name="eras_bc">пр.Хр.</string>
     <string name="error_icon_content_description">Грешка</string>
@@ -168,24 +177,32 @@
     <string name="friday_short">Пт.</string>
     <string name="friday_shortest">Пт.</string>
     <string name="global_privacy">Правила и условия</string>
-    <string name="global_privacy_detail">&lt;Data>Прочетете и приемете нашето &lt;a href=%1$s>Потребителско споразумение&lt;/a> и &lt;a href=%2$s>Правила за поверителност&lt;/a> преди да използвате това приложение.&lt;br>Ако не приемате да използвате гореспоменатите услуги, няма да можете да използвате някои от функциите на това приложение, но все още ще имате достъп до основните му функции.&lt;/Data></string>
+    <string name="global_privacy_detail"><Data>Прочетете и приемете нашето &lt;a href=%1$s>Потребителско споразумение&lt;/a> и &lt;a href=%2$s>Правила за поверителност&lt;/a> преди да използвате това приложение.&lt;br>Ако не приемате да използвате гореспоменатите услуги, няма да можете да използвате някои от функциите на това приложение, но все още ще имате достъп до основните му функции.</Data></string>
     <string name="global_privacy_explain">Добре дошли в Прожекция! Това приложение предоставя следните услуги:</string>
     <string name="global_privacy_feature">Употреба на минимизирани прозорци, прожектиране с изключен екран и скриване на лични елементи.</string>
     <string name="global_privacy_main">Прожектиране на елементите от екрана на вашия телефон върху по-голям външен монитор.</string>
     <string name="global_privacy_negative">Не приемам</string>
     <string name="global_privacy_positive">Приемам</string>
     <string name="global_privacy_screencast">Докато записвате или предавате, услугата, предоставяща тази функция, може да улови всяка чувствителна информация, която се показва на Вашия екран или се възпроизвежда от Вашето устройство, включително чувствителна информация като аудио, пароли, информация за плащане, снимки и съобщения.</string>
-    <string name="global_privacy_tip">&lt;Data>За да ви предоставим основните услуги и да оптимизираме процеса на прожектиране, се нуждаем да събираме необходими лични данни. Можете да научите как обработваме събраната информация в нашите &lt;a href=%1$s>Правила за поверителност&lt;/a>. Можете да оттеглите съгласието си за Правилата за поверителност по всяко време в Настройки.&lt;/Data></string>
+    <string name="global_privacy_tip"><Data>За да ви предоставим основните услуги и да оптимизираме процеса на прожектиране, се нуждаем да събираме необходими лични данни. Можете да научите как обработваме събраната информация в нашите &lt;a href=%1$s>Правила за поверителност&lt;/a>. Можете да оттеглите съгласието си за Правилата за поверителност по всяко време в Настройки.</Data></string>
     <string name="hang_up">Прожектиране с изключен екран</string>
     <string name="hang_up_alert_dialog_content">Продължавайте да прожектирате и при изключен екран на устройството. Тази функция намалява консумацията на батерия. Натиснете бутона за включване, за да се покаже отново екрана.</string>
     <string name="hang_up_alert_dialog_neg">Отказ</string>
     <string name="hang_up_alert_dialog_pos">OK</string>
     <string name="hang_up_alert_dialog_title">Ще бъде извършена прожекция с изключен екран…</string>
+    <string name="head_toast_connecting">Свързване…</string>
+    <string name="head_toast_fail">Неуспешно свързване</string>
+    <string name="head_toast_success">Успешно свързване</string>
+    <string name="help_page_question_1st_01_international">"%1$d. Когато устройството, към което прожектирате, е Xiaomi телевизор, включете Miracast на него.
+%2$d. Когато устройството, към което предавате, е телевизор, който не е от Xiaomi, уверете се, че телевизорът поддържа Miracast и че тази функция е включена. Тази функция може да има различно име на някои модели телевизори, като например Безжичен дисплей, Дублиране на екрана или Множество екрани."</string>
+    <string name="help_page_setp_1st_02_international">%1$d. При някои марки телевизори Miracast може да е включено автоматично.</string>
+    <string name="help_page_step_1st_01_international">%1$d. Включете Miracast на своя Xiaomi телевизор.</string>
     <string name="help_page_text_01">Помощ</string>
     <string name="help_page_text_02">Какво е прожектирането?</string>
     <string name="help_page_text_03">Проектирането е предаване на елементи от екрана на Вашия телефон към по-голям външен монитор. То Ви позволява да споделяте изображения и клипове с приятели и семейството, без да използвате мобилни данни.</string>
     <string name="help_page_text_04">Как да прожектирам елементи на по-голям екран?</string>
     <string name="help_page_text_05">Стъпка %1$d: Проверете устройствата си и мрежовата обстановка</string>
+    <string name="help_page_text_05_new">Стъпка %1$d: Проверете устройствата си и мрежовата обстановка</string>
     <string name="help_page_text_06">"%1$d. Xiaomi TVs, set-top boxes, projectors:
 Connect both your mobile device and external monitor to the same WLAN network for best effect. If they are connected to different networks, it might take more time to find the external monitor and connect.
 Note: Older TV models might not support casting across different networks.
@@ -196,13 +213,33 @@ If the two devices can't be connected to the same network, turn on Miracast on y
 Бележка: Възможно е по-стари модели телевизори да не поддържат прожектиране чрез различни мрежи.
 %2$d. Ако използвате телевизори, сет-топ кутии или прожектори от други марки, свържете и мобилното си устройство и външния монитор към същата Wi-Fi мрежа.
 Ако двете устройства не могат да бъдат свързани към същата мрежа, включете Miracast на външния монитор. Названието на функцията Miracast може да варира."</string>
+    <string name="help_page_text_06_new_1">Xiaomi телевизори, декодери и проектори:</string>
+    <string name="help_page_text_06_new_2">"%1$d. Уверете се, че вашето мобилно устройство и външен монитор са свързани към една и съща Wi-Fi мрежа.
+%2$d. На някои Xiaomi телевизори можете да настроите прожекция от телевизора, както и да персонализирате методите за търсене и проверка на устройството."</string>
+    <string name="help_page_text_06_new_3">*Можете да зададете предпочитания за прожекция за вашия телевизор в настройките за прожекция.</string>
+    <string name="help_page_text_06_new_4">Не-Xiaomi телевизори, декодери и проектори:</string>
+    <string name="help_page_text_06_new_5">"%1$d. Уверете се, че вашето мобилно устройство и външен монитор са свързани към една и съща Wi-Fi мрежа.
+%2$d. При някои марки телевизори ще трябва да включите Miracast, за да можете да прожектирате."</string>
+    <string name="help_page_text_06_new_6">Научете повече</string>
     <string name="help_page_text_08">Стъпка %1$d: Включете прожектиране</string>
+    <string name="help_page_text_08_new">Стъпка %1$d: Включете прожектиране</string>
     <string name="help_page_text_09">"Tap the \"Cast\" toggle on your phone's Notification shade. Turn on both WLAN and Bluetooth for a more stable connection."</string>
     <string name="help_page_text_09_global">Натиснете бутона \"Прожекция\" в лентата с известия на Вашето устройство. За по-стабилна връзка включете и Wi-Fi и Bluetooth.</string>
+    <string name="help_page_text_09_new_1">Включете прожекцията в Контролния център на вашето устройство, след което потърсете външен монитор.</string>
     <string name="help_page_text_10">Ако желаете да прожектирате снимки, видео, игри или презентации, можете да използвате вградените функции за прожектиране в съответните приложения.</string>
     <string name="help_page_text_11">Стъпка %1$d: Изберете устройство</string>
+    <string name="help_page_text_11_new">Стъпка %1$d: Изберете устройство</string>
     <string name="help_page_text_12">Изберете външно устройство от списъка с налични устройства, за да започнете прожекция.</string>
+    <string name="help_page_text_12_new_1">Изберете външно устройство от списъка с налични устройства, за да започнете прожекция.</string>
     <string name="help_page_text_13">Не можете да се свържете с външно устройство?</string>
+    <string name="help_page_text_13_act_label_1">ЧЗВ</string>
+    <string name="help_page_text_13_desc_1">"%1$d. Уверете се, че Вашето мобилно устройство и външен монитор са свързани към една и съща Wi-Fi мрежа или хотспот.
+%2$d. Уверете се, че мрежовата среда е стабилна. Ако не, опитайте да рестартирате рутера си или превключете към %3$d GHz мрежов обхват.
+%4$d. Когато прожектирате към телевизор Xiaomi, включете функцията за безжична прожекция на телевизора. Останете на страницата за прожекцията, докато се свързвате.
+%5$d. Някои големи обществени локални мрежи, като тези на компании и училища, не поддържат възможността за откриване на устройства в същата локална мрежа."</string>
+    <string name="help_page_text_13_desc_2">Някои телевизори използват различна от LAN връзка по време на прожекция. Нормално е тези устройства да бъдат изключени от мрежата. Обикновено те ще се свържат отново в рамките на %1$d-%2$d секунди след края на прожекцията.</string>
+    <string name="help_page_text_13_summary_1">Не можете да се свържете с външно устройство</string>
+    <string name="help_page_text_13_summary_2">Прекъсвания в мрежата по време на прожекция</string>
     <string name="help_page_text_14">"%1$d. If you want to use a Xiaomi device, but can't find it in the list of available devices, try the following:
 Connect both your mobile device and the external monitor (e.g. your TV) to the same network, or connect the external monitor to your mobile device's hotspot. If there aren't any networks available or you can't connect both devices to the same network, check whether the casting features on your external monitor are up to date, turn on Bluetooth both on your mobile device and the external monitor, and turn on Miracast on your TV.
 %2$d. If you're casting on a Xiaomi device for the first time, you need to complete verification.
@@ -218,6 +255,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="help_page_text_17">"Можете да излъчвате елементи от Вашия Mi телефон към повечето модели Mi Телевизори с Bluetooth възможности, без да включвате ръчно Miracast.
 Ако трябва да включите Miracast, натиснете бутона [MENU] и изберете Моите приложения > Прожектиране > Miracast."</string>
     <string name="help_page_text_17_1">Клиентско обслужване на Xiaomi: 400-100-5678</string>
+    <string name="help_page_text_17_content">You can project items from your Xiaomi phone on most Xiaomi TV models with Bluetooth capabilities without turning on Miracast manually. If you need to turn on Miracast, press the [MENU] button and start casting by using the option for other Android phones.</string>
     <string name="help_page_text_18">Телевизори Samsung</string>
     <string name="help_page_text_19">Първо се уверете, че Miracast функционалността се поддържа на Вашето устройство. На някои от моделите можете да натиснете бутона [SOURCE] на дистанционното управление и да изберете \"Огледален екран\". На различни модели тази функция е включена по подразбиране.</string>
     <string name="help_page_text_20">Клиентско обслужване на Samsung: 400-810-5858</string>
@@ -280,15 +318,15 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="material_timepicker_text_input_mode_description">Превключете към режима за въвеждане на текст, за да въведете часа.</string>
     <string name="midnight">Нощ</string>
     <string name="miuix_access_state_desc">Избрани</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Размаркиране на всички</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Откажи всички</string>
     <string name="miuix_appcompat_action_mode_select_all">Избиране на всички</string>
     <string name="miuix_appcompat_action_mode_title_empty">Изберете елементи</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Повече</string>
     <string name="miuix_appcompat_cancel_description">Отказ</string>
     <string name="miuix_appcompat_confirm_description">Потвърди</string>
     <string name="miuix_appcompat_delete_description">Изтрий</string>
-    <string name="miuix_appcompat_deselect_all">Отмаркиране</string>
-    <string name="miuix_appcompat_deselect_all_description">Размаркирай всички</string>
+    <string name="miuix_appcompat_deselect_all">Откажи всички</string>
+    <string name="miuix_appcompat_deselect_all_description">Откажи всички</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Отказ</string>
     <string name="miuix_appcompat_search_input_description">Търси</string>
     <string name="miuix_appcompat_select_all">Избери всички</string>
@@ -350,6 +388,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -398,13 +437,13 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="paipai_error_dialog_msg">Проверете мрежовите си настройки и опитайте отново</string>
     <string name="paipai_error_dialog_negative">Разбрах</string>
     <string name="password_toggle_content_description">Показване на паролата</string>
-    <string name="path_setting_cast">Връзка и споделяне/Прожекция</string>
-    <string name="path_setting_cast_demo">Връзка и споделяне/Прожекция/Демота</string>
-    <string name="path_setting_cast_demo_document">Връзка и споделяне/Прожекция/Демота/Документи</string>
-    <string name="path_setting_cast_demo_gallery">Връзка и споделяне/Прожекция/Демота/Снимки и видео</string>
-    <string name="path_setting_cast_demo_game">Връзка и споделяне/Прожекция/Демота/Игри</string>
-    <string name="path_setting_cast_feature">Връзка и споделяне/Прожекция/Специални функции</string>
-    <string name="path_setting_cast_help">Връзка и споделяне/Прожекция/Помощ</string>
+    <string name="path_setting_cast">Още опции за свързване/Прожекция</string>
+    <string name="path_setting_cast_demo">Още опции за свързване/Прожекция/Демота</string>
+    <string name="path_setting_cast_demo_document">Още опции за свързване/Прожекция/Демота/Документи</string>
+    <string name="path_setting_cast_demo_gallery">Още опции за свързване/Прожекция/Демота/Снимки и видео</string>
+    <string name="path_setting_cast_demo_game">Още опции за свързване/Прожекция/Демота/Игри</string>
+    <string name="path_setting_cast_feature">Още опции за свързване/Прожекция/Специални функции</string>
+    <string name="path_setting_cast_help">Още опции за свързване/Прожекция/Помощ</string>
     <string name="permission_allowed">Позволено</string>
     <string name="permission_uballowed">Не е позволено</string>
     <string name="pm">PM</string>
@@ -412,7 +451,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="privacy_agree">Приемам</string>
     <string name="privacy_detail">Разрешете на това приложение да се свързва с интернет и да дава необходимите разрешения преди да продължите.</string>
-    <string name="privacy_detail_extra">&lt;Data>Някои от услугите са предоставени от трета страна, а именно от доставчика на услуги HappyCast. Преди да използвате тези услуги прочетете и приемете &lt;a href=%1$s>Правила за поверителност на HappyCast&lt;/a> и &lt;a href=%2$s>Правна декларация на HappyCast&lt;/a>.&lt;/Data></string>
+    <string name="privacy_detail_extra"><Data>Някои от услугите са предоставени от трета страна, а именно от доставчика на услуги HappyCast. Преди да използвате тези услуги прочетете и приемете &lt;a href=%1$s>Правила за поверителност на HappyCast&lt;/a> и &lt;a href=%2$s>Правна декларация на HappyCast&lt;/a>.</Data></string>
     <string name="privacy_explain">Добре дошли в Прожекция! Прожекция ви позволява да прожектирате елементите от екрана на вашия телефон към по-голям външен екран. Това приложение се нуждае от достъп до интернет, както и от следните разрешения, за да функционира нормално:</string>
     <string name="privacy_negative">Изход</string>
     <string name="privacy_permission_ble">Включване и изключване на Bluetooth</string>
@@ -454,11 +493,11 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="privacy_setting_show_lelink_policy">Преглед на Правилата за поверителност на HappyCast</string>
     <string name="privacy_setting_show_policy">Преглед на Правилата за поверителност</string>
     <string name="privacy_setting_show_user_agreement">Преглед на Потребителското споразумение</string>
-    <string name="privacy_text_1">"&lt;Data>Добре дошли в Проекция! Проекцията Ви позволява да излъчвате елементи от екрана на Вашия телефон към по-голям външен монитор.
+    <string name="privacy_text_1"><Data>"Добре дошли в Проекция! Проекцията Ви позволява да излъчвате елементи от екрана на Вашия телефон към по-голям външен монитор.
 Ние ще защитаваме личната Ви информация в съответствие с приложимите закони, разпоредби и политики за поверителност. Някои функции са предоставени от външния доставчик на услуги HappyCast. Преди да използвате тази функция, прочетете и приемете &lt;a href=%2$s>Правна декларация от HappyCast&lt;/a> и &lt;a href=%1$s>Политика за поверителност на HappyCast&lt;/a>.
-За да работи нормално, приложението трябва да се свърже с интернет и има нужда от следните разрешения, за да събира Вашите лични данни:&lt;/Data>"</string>
-    <string name="privacy_text_2">"&lt;Data>Ако не се съгласите да дадете такива разрешения или личната Ви информация да бъде споделяна и качвана, няма да можете да използвате това приложение. В такива случаи можете да изберете да деинсталирате приложението, да се отпишете от него или да ограничите разрешенията от Настройки.
-Прочетете и приемете нашето &lt;a href=%1$s>Потребителско споразумение&lt;/a> и &lt;a href=%2$s>Политика за поверителност&lt;/a>, преди да използвате тази функция.&lt;/Data>"</string>
+За да работи нормално, приложението трябва да се свърже с интернет и има нужда от следните разрешения, за да събира Вашите лични данни:"</Data></string>
+    <string name="privacy_text_2"><Data>"Ако не се съгласите да дадете такива разрешения или личната Ви информация да бъде споделяна и качвана, няма да можете да използвате това приложение. В такива случаи можете да изберете да деинсталирате приложението, да се отпишете от него или да ограничите разрешенията от Настройки.
+Прочетете и приемете нашето &lt;a href=%1$s>Потребителско споразумение&lt;/a> и &lt;a href=%2$s>Политика за поверителност&lt;/a>, преди да използвате тази функция."</Data></string>
     <string name="privacy_text_pemission">"　　•Извършвайте достъп до изображения и ги съхранявайте на Вашето устройство, за да проектирате тези елементи на външни монитори
 　　•Записвайте разговори и аудио, за да проектирате аудио на външни устройства
 　　•Извършвайте достъп до телефонния номер, IMEI и IMSI, за да идентифицирате устройството си
@@ -480,22 +519,38 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="scan_wifi_label_global">Свързване с Wi-Fi</string>
     <string name="screen_projection">Прожекция</string>
     <string name="screen_projection_characteristics">Специални функции</string>
+    <string name="screen_projection_characteristics_cast_summary">Прожектирайте съдържанието на екрана на телевизор наблизо</string>
+    <string name="screen_projection_characteristics_hang_up_summary_new">Изключете екрана на мобилното устройство, докато прожектирате, за да пестите батерията и да избегнете прегряване</string>
     <string name="screen_projection_characteristics_off_screen_summary">Можете да продължите да прожектирате с изключен екран на устройството ви. Тази функция намалява употребата на батерия.</string>
     <string name="screen_projection_characteristics_off_screen_title">Прожекция с изключен екран</string>
     <string name="screen_projection_characteristics_privacy_protect_summary">Не показвай плаващи известия, входящи повиквания и други лични елементи върху външни монитори.</string>
     <string name="screen_projection_characteristics_privacy_protect_title">Скриване на лични елементи</string>
+    <string name="screen_projection_characteristics_private_summary_new">Защитете поверителността си: докато прожектирате, устройството ви няма да показва плаващи известия, входящи повиквания и други лични елементи</string>
     <string name="screen_projection_characteristics_small_window_summary">Минимизирайте прозореца, който се прожектира, за да можете да използвате други функции на телефона си.</string>
+    <string name="screen_projection_characteristics_small_window_summary_new">Прожектирайте екрана и показвайте съдържанието му в плаващ прозорец, докато използвате други приложения</string>
     <string name="screen_projection_characteristics_small_window_title">Минимизиране на прозорец</string>
+    <string name="screen_projection_entrance_list">Преглед на наличните устройства</string>
+    <string name="screen_projection_entrance_list_new">Преглед на списъка с налични устройства за прожекция</string>
+    <string name="screen_projection_example_document_hint_miui15">*Елементите ще се показват на близкия телевизор</string>
+    <string name="screen_projection_example_document_hint_new"><Data>*За да използвате тази функция, отидете във Файлове > Документи и натиснете иконата &lt;img src=../drawable/ic_cast_icon_photo.png/>.</Data></string>
     <string name="screen_projection_example_document_summary">Показване на презентации върху външен монитор като използвате телефона си за смяна на слайдове и преглед на бележки. Отворете Управление на файлове > Документи, за да изпробвате тази функция.</string>
+    <string name="screen_projection_example_document_summary_miui15">Показвайте презентационни слайдове на телевизор, докато използвате това устройство като дистанционно</string>
     <string name="screen_projection_example_document_title">Документи</string>
+    <string name="screen_projection_example_gallery_hint_miui15">*За да можете да прожектирате снимки и видеоклипове, изберете елемент в Галерия, натиснете „Споделяне“ и след това натиснете иконата „Прожекция“.</string>
+    <string name="screen_projection_example_gallery_hint_new"><Data>*За да използвате тази функция, отидете в Галерия, изберете снимка, натиснете \"Изпрати\" в долната лента и натиснете иконата &lt;img src=../drawable/ic_cast_icon_photo.png />.</Data></string>
     <string name="screen_projection_example_gallery_summary">Натиснете бутона Споделяне под елемент в приложението Галерия, за да го покажете върху външен монитор.</string>
+    <string name="screen_projection_example_gallery_summary_miui15">Преглеждайте своите снимки и видеоклипове на телевизионния екран</string>
     <string name="screen_projection_example_gallery_title">Снимки и видео</string>
+    <string name="screen_projection_example_game_hint_miui15">"*За да можете да прожектирате игри, натиснете „Прожекция“ в Game Turbo, докато играете.
+Уверете се, че сте включили Game Turbo, преди да прожектирате игри."</string>
     <string name="screen_projection_example_game_summary">Game Turbo ви позволява да прожектирате игри върху външен монитор. Използвайте прекия път в лентата с инструменти в Game Turbo, за да активирате тази функция.</string>
+    <string name="screen_projection_example_game_summary_miui15">Гледайте своите игрови сесии на телевизора</string>
     <string name="screen_projection_example_game_title">Игри</string>
     <string name="screen_projection_help">Помощ</string>
     <string name="screen_projection_sample_summary">Прожектиране на документи, игри, снимки и видео</string>
     <string name="screen_projection_sample_title">Демо</string>
     <string name="screen_projection_title">Прожекция</string>
+    <string name="screen_projection_title_miui15">Прожекция</string>
     <string name="search_menu_title">Търсене</string>
     <string name="send">Изпращане</string>
     <string name="show_result_on_tv">Прегледайте резултата на телевизора</string>
@@ -553,6 +608,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="thursday_short">Четв.</string>
     <string name="thursday_shortest">Четв.</string>
     <string name="tile_label">Прожекция</string>
+    <string name="tile_label_v2">Услуги за взаимосвързаност</string>
     <string name="time_picker_dialog_title">Настройте време</string>
     <string name="time_picker_label_hour">Ч</string>
     <string name="time_picker_label_minute">M</string>
@@ -570,7 +626,7 @@ Connect both your mobile device and the external monitor (e.g. your TV) to the s
     <string name="today">Днес</string>
     <string name="tomorrow">Утре</string>
     <string name="trust_device_desc">Тези устройства ще се появяват първи тук когато са наблизо</string>
-    <string name="trust_device_dialog_desc">&lt;Data>%s ще се първо появи сред достъпните устройства когато е наблизо и е маркирано като доверено устройство.&lt;br>&lt;br>Можете да &lt;a href=milink://com.milink.service/trust>управлявате доверените устройства&lt;/a> в Настройки.&lt;/Data></string>
+    <string name="trust_device_dialog_desc"><Data>%s ще се първо появи сред достъпните устройства когато е наблизо и е маркирано като доверено устройство.&lt;br>&lt;br>Можете да &lt;a href=milink://com.milink.service/trust>управлявате доверените устройства&lt;/a> в Настройки.</Data></string>
     <string name="trust_device_dialog_pos">Доверявам се</string>
     <string name="trust_device_dialog_title">Доверено утройство?</string>
     <string name="trust_device_manager">Управление на доверени устройства</string>

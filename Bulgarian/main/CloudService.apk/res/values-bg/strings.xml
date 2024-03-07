@@ -79,6 +79,24 @@
     <string name="cloud_storage_upgrade_text">Подобряване</string>
     <string name="cloud_storage_upgrade_text_now">Подобряване</string>
     <string name="cloud_storage_zero_upgrade_button_text_now">Безплатно надстройване</string>
+    <string name="common_google_play_services_enable_button">Активиране</string>
+    <string name="common_google_play_services_enable_text">%1$s няма да работи, освен ако не активирате услугите за Google Play.</string>
+    <string name="common_google_play_services_enable_title">Активиране на услугите за Google Play</string>
+    <string name="common_google_play_services_install_button">Инсталиране</string>
+    <string name="common_google_play_services_install_text">%1$s няма да се изпълнява, тъй като услугите за Google Play не са инсталирани на устройството ви.</string>
+    <string name="common_google_play_services_install_title">Изтегляне на услугите за Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Наличност на услугите за Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Грешка в услугите за Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s има проблеми с услугите за Google Play. Моля, опитайте отново.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s няма да се изпълнява, тъй като услугите за Google Play не се поддържат от устройството ви.</string>
+    <string name="common_google_play_services_update_button">Актуализиране</string>
+    <string name="common_google_play_services_update_text">%1$s няма да се изпълнява, освен ако не актуализирате услугите за Google Play.</string>
+    <string name="common_google_play_services_update_title">Актуализиране на услугите за Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s няма да се изпълнява без услугите за Google Play. Понастоящем те се актуализират.</string>
+    <string name="common_google_play_services_wear_update_text">Необходима е нова версия на услугите за Google Play. Скоро тя ще се актуализира автоматично.</string>
+    <string name="common_open_on_phone">Отваряне на телефона</string>
+    <string name="common_signin_button_text">Вход</string>
+    <string name="common_signin_button_text_long">Вход с Google</string>
     <string name="confirm_save">Запази</string>
     <string name="connect_network">Свържете се с Wi-Fi или поставете SIM карта</string>
     <string name="connect_network_china">Свържете се към WLAN или инсталирайте SIM карта</string>
@@ -164,6 +182,8 @@
     <string name="feedback_custom_hint">Опишете проблемите, които сте изпитали тук. Ако давате предложение, бихме оценили повече детайли!</string>
     <string name="find_device">Открий устройството</string>
     <string name="find_device_dspt_provision">Ако загубите устройството си, можете да отидете на &lt;font color=#0097FF>%s&lt;/font>, за да го локализирате, заключите или нулирате. Можете винаги да включите или изключите тази функция от Настройки.</string>
+    <string name="find_device_dspt_provision_2">i.mi.com</string>
+    <string name="find_device_dspt_provision_2_int">www.mi.com/micloud</string>
     <string name="find_device_gdpr_prompt">Включвайки Открий устройството Вие приемате нашите <u><a href="app://com.miui.cloudservice.gdpr.license">Правила за поверителност</a></u>. Ако желаете да оттеглите съгласието си, изключете тази функция.</string>
     <string name="find_device_operation_failure_rpc">Невъзможно е да се изпълни операцията поради грешка в RPC.</string>
     <string name="find_device_permissions_footer">Натиснете \"Разрешаване\", за да дадете избраните разрешения.</string>

@@ -2,7 +2,7 @@
 <resources>
     <string-array name="hmode_app_classify1">
         <item>По избор</item>
-        <item>MIUI Икономия на батерия</item>
+        <item>Икономия на батерия</item>
     </string-array>
     <string-array name="hmode_app_classify2">
         <item>Активни приложения</item>

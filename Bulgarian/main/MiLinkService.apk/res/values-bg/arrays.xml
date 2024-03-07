@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_search_connect_car">
+        <item>Комбиниране на приложения</item>
+        <item>Взаимосвързаност/Комбиниране на приложения</item>
+        <item>Характеристики на автомобила</item>
+    </string-array>
+    <string-array name="settings_search_connection_home">
+        <item>Взаимосвързаност</item>
+        <item>Взаимосвързаност/Взаимосвързаност</item>
+        <item>Взаимосвързаност на устройства, услуги за взаимосвързаност на устройства, Xiaomi, Xiaomi AIoT, AIoT, Screen Combo, интелигентна връзка, Mi Smart Hub, взаимосвързаност, Duo, Xiaomi телефон, Xiaomi лаптоп, Multiscreen, Duet, прожекция, комбиниране на приложения, прехвърляне, Предаване на приложения, Огледало, Екосистема Xiaomi, връзка с устройството</item>
+    </string-array>
+    <string-array name="settings_search_connection_privacy">
+        <item>Поверителност</item>
+        <item>Взаимосвързаност/Поверителност</item>
+        <item>Поверителност и взаимосвързаност, Поверителност</item>
+    </string-array>
+    <string-array name="settings_search_connection_service">
+        <item>Xiaomi Взаимосвързаност</item>
+        <item>Взаимосвързаност/Xiaomi Взаимосвързаност</item>
+        <item>Xiaomi услуги за взаимосвързаност, Xiaomi Взаимосвързаност</item>
+    </string-array>
+    <string-array name="settings_search_relay_app">
+        <item>Предаване на приложението</item>
+        <item>Взаимосвързаност/Предаване на приложението</item>
+        <item>Прехвърляне на приложения, предаване, прехвърляне</item>
+    </string-array>
+    <string-array name="settings_search_relay_call">
+        <item>Повиквания</item>
+        <item>Взаимосвързаност/Повиквания</item>
+        <item>Повиквания</item>
+    </string-array>
+    <string-array name="settings_search_relay_network">
+        <item>Мрежова помощ</item>
+        <item>Взаимосвързаност/Мрежова помощ</item>
+        <item>Мрежова помощ, споделяне, споделяне на хотспот</item>
+    </string-array>
+    <string-array name="settings_search_share_Launcher">
+        <item>Начален екран+</item>
+        <item>Взаимосвързаност/Начален екран+</item>
+        <item>Начален екран+, Mi Smart Hub, споделяне на екрана</item>
+    </string-array>
+    <string-array name="settings_search_share_clipboard">
+        <item>Клипборд</item>
+        <item>Взаимосвързаност/Клипборд</item>
+        <item>Клипборд</item>
+    </string-array>
+    <string-array name="settings_search_share_notify">
+        <item>Известия за различни устройства</item>
+        <item>Взаимосвързаност/Известия</item>
+        <item>Известия за различни устройства</item>
+    </string-array>
+</resources>

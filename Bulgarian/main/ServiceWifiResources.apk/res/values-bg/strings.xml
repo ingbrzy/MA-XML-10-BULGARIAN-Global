@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="accept">Приемам</string>
+    <string name="apm_enabled_first_time_message">Функцията за Wi‑Fi ще бъде включена, докато устройството ви е в самолетен режим. Ако не искате това, изключете я.</string>
+    <string name="apm_enabled_first_time_title">Wi‑Fi няма да се изключи</string>
     <string name="decline">Отхвърлям</string>
     <string name="dlg_ok">OK</string>
+    <string name="notification_channel_apm_alerts">Сигнали за APM</string>
     <string name="notification_channel_network_alerts">Сигнали за мрежата</string>
     <string name="notification_channel_network_available">Налице е мрежа</string>
     <string name="notification_channel_network_status">Състояние на мрежата</string>
@@ -21,6 +24,10 @@
 %1$s
 
 "</string>
+    <string name="wifi_ca_cert_dialog_message_expiration_text">"Валидност на сертификата:
+%1$s
+
+"</string>
     <string name="wifi_ca_cert_dialog_message_hint">"Разрешете на тази мрежа да се свърже само ако информацията по-долу изглежда правилна.
 
 "</string>
@@ -36,12 +43,12 @@
 %1$s
 
 "</string>
-    <string name="wifi_ca_cert_dialog_message_signature_name_text">"Подпис:
+    <string name="wifi_ca_cert_dialog_message_signature_name_text">"Отпечатък SHA-256:
 %1$s
 
 "</string>
-    <string name="wifi_ca_cert_dialog_preT_abort_text">Без свързване</string>
-    <string name="wifi_ca_cert_dialog_preT_continue_text">Свързване въпреки това</string>
+    <string name="wifi_ca_cert_dialog_preT_abort_text">Прекратяване на връзката сега</string>
+    <string name="wifi_ca_cert_dialog_preT_continue_text">Поддържайте връзка</string>
     <string name="wifi_ca_cert_dialog_preT_message_hint">За мрежата %1$s липсва сертификат.</string>
     <string name="wifi_ca_cert_dialog_preT_message_link">Научете как да добавите сертификати</string>
     <string name="wifi_ca_cert_dialog_preT_title">Тази мрежа не може да се потвърди</string>
@@ -82,14 +89,29 @@
     <string name="wifi_enable_request_dialog_negative_button">Забраняване</string>
     <string name="wifi_enable_request_dialog_positive_button">Разрешаване</string>
     <string name="wifi_enable_request_dialog_title">Да се разреши ли на %1$s да включва Wi‑Fi?</string>
+    <string name="wifi_enabled_apm_first_time_message">Ако не изключите функцията за Wi‑Fi, устройството ви ще я остави активна следващия път, когато използвате самолетния режим</string>
+    <string name="wifi_enabled_apm_first_time_title">Включване на Wi‑Fi в самолетния режим</string>
     <string name="wifi_interface_priority_approve">Разрешаване</string>
+    <string name="wifi_interface_priority_interface_name_ap">Точка за достъп до Wi‑Fi</string>
+    <string name="wifi_interface_priority_interface_name_ap_bridge">Точка за достъп до Wi‑Fi</string>
+    <string name="wifi_interface_priority_interface_name_nan">Wi‑Fi Aware</string>
+    <string name="wifi_interface_priority_interface_name_p2p">Wi‑Fi Direct</string>
+    <string name="wifi_interface_priority_interface_name_sta">Станция</string>
     <string name="wifi_interface_priority_message">Това може да причини проблеми за %3$s.</string>
     <string name="wifi_interface_priority_message_plural">Това може да доведе до проблеми за следните приложения: %3$s.</string>
     <string name="wifi_interface_priority_reject">Забраняване</string>
     <string name="wifi_interface_priority_title">%1$s иска да използва ресурс на мрежата</string>
+    <string name="wifi_network_disabled_by_admin_button">Затваряне</string>
+    <string name="wifi_network_disabled_by_admin_message">Функцията %1$s е деактивирана от администратора ви.</string>
+    <string name="wifi_network_disabled_by_admin_title">Няма достъп до мрежата</string>
+    <string name="wifi_network_switch_dialog_negative_button">Без превключване</string>
+    <string name="wifi_network_switch_dialog_positive_button">Превключване</string>
+    <string name="wifi_network_switch_dialog_title_bad_internet">%1$s e с ниско качество. Да се превключи ли към %2$s?</string>
+    <string name="wifi_network_switch_dialog_title_no_internet">Изглежда, че %1$s няма връзка с интернет. Да се превключи ли към %2$s?</string>
     <string name="wifi_p2p_enter_pin_message">Въведете задължителния ПИН:</string>
     <string name="wifi_p2p_frequency_conflict_message">Телефонът временно ще прекрати връзката с Wi-Fi, докато е свързан с/ъс %1$s</string>
     <string name="wifi_p2p_from_message">От:</string>
+    <string name="wifi_p2p_invitation_seconds_remaining">{0,plural, =1{Имате # секунда, за да приемете.}other{Имате # секунди, за да приемете.}}</string>
     <string name="wifi_p2p_invitation_sent_title">Поканата е изпратена</string>
     <string name="wifi_p2p_invitation_to_connect_title">Покана за свързване</string>
     <string name="wifi_p2p_show_pin_message">ПИН:</string>

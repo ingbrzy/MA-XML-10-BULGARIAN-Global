@@ -16,7 +16,6 @@
     <string name="provider_label">Контакти</string>
     <string name="sharedUserLabel">Приложения на ядрото на Android</string>
     <string name="sim_state_changed">SIM картата е сменена</string>
-    <string name="third_party_delete_contact_info">\"%s\" изтрива Ваши Mi контакти! Моля използвайте системното приложение \"Контакти\" за безопасното им премахване.</string>
     <string name="update_accounts_changed">Профилите са променени</string>
     <string name="upgrade_out_of_memory_notification_text">Чукнете за да завършите актуализацията.</string>
     <string name="upgrade_out_of_memory_notification_ticker">Актуализацията изисква повече налично място.</string>

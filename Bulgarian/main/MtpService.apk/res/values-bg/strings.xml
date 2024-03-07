@@ -29,6 +29,13 @@
     <string name="abc_toolbar_collapse_description">Свиване</string>
     <string name="accessing_notification_title">От %1$s се осъществява достъп до файловете</string>
     <string name="app_label">MTP хост</string>
+    <string name="call_notification_answer_action">Отговор</string>
+    <string name="call_notification_answer_video_action">Видеообаждане</string>
+    <string name="call_notification_decline_action">Отхвърляне</string>
+    <string name="call_notification_hang_up_action">Затваряне</string>
+    <string name="call_notification_incoming_text">Входящо обаждане</string>
+    <string name="call_notification_ongoing_text">Текущо обаждане</string>
+    <string name="call_notification_screening_text">Преглежда се входящо обаждане</string>
     <string name="downloads_app_label">Изтегляния</string>
     <string name="error_busy_device">Другото устройство е заето. Не можете да прехвърляте файлове, докато то не се освободи.</string>
     <string name="error_locked_device">Няма намерени файлове. Другото устройство може да е заключено. Ако е така, отключете го и опитайте отново.</string>

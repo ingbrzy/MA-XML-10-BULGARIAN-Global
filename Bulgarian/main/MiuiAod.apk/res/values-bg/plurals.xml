@@ -5,16 +5,16 @@
         <item quantity="one">Преди 1 час</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">Преди 1 час</item>
-        <item quantity="one">Преди 1 час</item>
+        <item quantity="other">Преди %d часа</item>
+        <item quantity="one">Преди %d час</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Преди половин час</item>
         <item quantity="one">Преди половин час</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">След 1 час</item>
-        <item quantity="one">След 1 час</item>
+        <item quantity="other">След %d часа</item>
+        <item quantity="one">След %d час</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">След половин час</item>
@@ -25,8 +25,8 @@
         <item quantity="one">Всеки момент</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">след %d мин</item>
-        <item quantity="one">след 1 мин</item>
+        <item quantity="other">След %d мин</item>
+        <item quantity="one">След %d мин</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Току що</item>
@@ -34,11 +34,15 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">Преди %d мин</item>
-        <item quantity="one">Преди 1 мин</item>
+        <item quantity="one">Преди %d мин</item>
     </plurals>
     <plurals name="aod_dual_togother_city">
         <item quantity="other">" %1$sчаса %2$s"</item>
         <item quantity="one">" %1$sчас %2$s"</item>
+    </plurals>
+    <plurals name="atmospheric_pressure_desc">
+        <item quantity="other">Атмосферно налягане: %s хектопаскала</item>
+        <item quantity="one">Атмосферно налягане: %s хектопаскал</item>
     </plurals>
     <plurals name="character_pitch_minus">
         <item quantity="other">Намалено е разстоянието между символите. Разстоянието е %s.</item>
@@ -61,6 +65,54 @@
     <plurals name="half_hour_ago">
         <item quantity="other">Преди половин час</item>
         <item quantity="one">Преди половин час</item>
+    </plurals>
+    <plurals name="health_chart_calories_burned_schedule_format_desc">
+        <item quantity="other">Изгорихте %1$s калории</item>
+        <item quantity="one">Изгорихте %1$s калория</item>
+    </plurals>
+    <plurals name="health_chart_calories_goal_schedule_format_desc">
+        <item quantity="other">Цел на калориите: %1$s калории</item>
+        <item quantity="one">Цел на калориите: %1$s калория</item>
+    </plurals>
+    <plurals name="health_chart_calories_schedule_format">
+        <item quantity="other">%1$s/%2$s ккал</item>
+        <item quantity="one">%1$s/%2$s ккал</item>
+    </plurals>
+    <plurals name="health_chart_sport_time_current_schedule_format_desc">
+        <item quantity="other">Активност: %1$s минути</item>
+        <item quantity="one">Активност: %1$s минута</item>
+    </plurals>
+    <plurals name="health_chart_sport_time_goal_schedule_format_desc">
+        <item quantity="other">Цел за активност: %1$s минути</item>
+        <item quantity="one">Цел за активност: %1$s минута</item>
+    </plurals>
+    <plurals name="health_chart_sport_time_schedule_format">
+        <item quantity="other">%1$s/%2$s мин</item>
+        <item quantity="one">%1$s/%2$s мин</item>
+    </plurals>
+    <plurals name="health_chart_stand_count_schedule_format_desc">
+        <item quantity="other">Изправихте се в рамките на %1$s часа</item>
+        <item quantity="one">Изправихте се в рамките на %1$s час</item>
+    </plurals>
+    <plurals name="health_chart_stand_goal_schedule_format_desc">
+        <item quantity="other">Цел на стоене: %1$s часа</item>
+        <item quantity="one">Цел на стоене: %1$s час</item>
+    </plurals>
+    <plurals name="health_chart_stand_schedule_format">
+        <item quantity="other">%1$s/%2$s часа</item>
+        <item quantity="one">%1$s/%2$s час</item>
+    </plurals>
+    <plurals name="health_chart_step_count_current_schedule_format_desc">
+        <item quantity="other">Текущ брой стъпки: %1$s стъпки</item>
+        <item quantity="one">Текущ брой стъпки: %1$s стъпка</item>
+    </plurals>
+    <plurals name="health_chart_step_count_goal_schedule_format_desc">
+        <item quantity="other">Цел на брой стъпки: %1$s стъпки</item>
+        <item quantity="one">Цел на брой стъпки: %1$s стъпка</item>
+    </plurals>
+    <plurals name="health_chart_step_count_schedule_format">
+        <item quantity="other">%1$s/%2$s стъпки</item>
+        <item quantity="one">%1$s/%2$s стъпка</item>
     </plurals>
     <plurals name="in_a_hour">
         <item quantity="other">След 1 час</item>
@@ -101,5 +153,9 @@
     <plurals name="num_minutes_ago">
         <item quantity="other">Преди %d минути</item>
         <item quantity="one">Преди 1 минута</item>
+    </plurals>
+    <plurals name="weather_temperature_desc">
+        <item quantity="other">Температура: %1$s градуса, %2$s</item>
+        <item quantity="one">Температура: %1$s градус, %2$s</item>
     </plurals>
 </resources>

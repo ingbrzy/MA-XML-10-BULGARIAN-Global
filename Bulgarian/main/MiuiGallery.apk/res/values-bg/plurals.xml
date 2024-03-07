@@ -5,16 +5,16 @@
         <item quantity="one">Преди 1 час</item>
     </plurals>
     <plurals name="abbrev_a_hour_ago">
-        <item quantity="other">Преди 1 час</item>
-        <item quantity="one">Преди 1 час</item>
+        <item quantity="other">Преди %d часа</item>
+        <item quantity="one">Преди %d час</item>
     </plurals>
     <plurals name="abbrev_half_hour_ago">
         <item quantity="other">Преди половин час</item>
         <item quantity="one">Преди половин час</item>
     </plurals>
     <plurals name="abbrev_in_a_hour">
-        <item quantity="other">След 1 час</item>
-        <item quantity="one">След 1 час</item>
+        <item quantity="other">След %d часа</item>
+        <item quantity="one">След %d час</item>
     </plurals>
     <plurals name="abbrev_in_half_hour">
         <item quantity="other">След половин час</item>
@@ -25,8 +25,8 @@
         <item quantity="one">Всеки момент</item>
     </plurals>
     <plurals name="abbrev_in_num_minutes">
-        <item quantity="other">след %d мин</item>
-        <item quantity="one">след 1 мин</item>
+        <item quantity="other">След %d мин</item>
+        <item quantity="one">След %d мин</item>
     </plurals>
     <plurals name="abbrev_less_than_one_minute_ago">
         <item quantity="other">Току що</item>
@@ -34,7 +34,7 @@
     </plurals>
     <plurals name="abbrev_num_minutes_ago">
         <item quantity="other">Преди %d мин</item>
-        <item quantity="one">Преди 1 мин</item>
+        <item quantity="one">Преди %d мин</item>
     </plurals>
     <plurals name="add_secret_ensure_message">
         <item quantity="other">Добави тези елементи към личен албум?</item>
@@ -172,9 +172,9 @@
         <item quantity="other">Избрани %d елементи</item>
         <item quantity="one">Избран %d елемент</item>
     </plurals>
-    <plurals name="delete_burst_photo_from_all_devices_and_cloud_msg">
-        <item quantity="other">Изтриване на %d серийни снимки от Xiaomi Cloud и от всички синхронизирани устройства?</item>
-        <item quantity="one">Изтриване на %d серийна снимка от Xiaomi Cloud и от всички синхронизирани устройства?</item>
+    <plurals name="delete_brust_title">
+        <item quantity="other">Изтриване на %d серийни снимки?</item>
+        <item quantity="one">Изтриване на %d серийна снимка?</item>
     </plurals>
     <plurals name="delete_burst_photo_from_local">
         <item quantity="other">Изтриване на %d серийни снимки?</item>
@@ -192,17 +192,13 @@
         <item quantity="other">Изтрий %d елементи?</item>
         <item quantity="one">Изтрий %d елемент?</item>
     </plurals>
-    <plurals name="delete_photo_from_all_devices_and_cloud_msg">
-        <item quantity="other">Да се изтрият ли %d снимки от всички устройства и от Xiaomi Cloud?</item>
-        <item quantity="one">Да се изтрие ли %d снимка от всички устройства и от Xiaomi Cloud?</item>
+    <plurals name="delete_media_title">
+        <item quantity="other">Изтриване на %d елемента?</item>
+        <item quantity="one">Изтриване на %d елемент?</item>
     </plurals>
     <plurals name="delete_third_party_burst_photo">
         <item quantity="other">Изтриване на %d серийни снимки от устройството?</item>
         <item quantity="one">Изтриване на %d серийна снимка от устройството?</item>
-    </plurals>
-    <plurals name="delete_video_from_all_devices_and_cloud_msg">
-        <item quantity="other">Да се изтрият ли %d видеа от всички устройства и от Xiaomi Cloud?</item>
-        <item quantity="one">Да се изтрие ли %d видео от всички устройства и от Xiaomi Cloud?</item>
     </plurals>
     <plurals name="download_error">
         <item quantity="other">Грешка при изтегляне: %1$d файла</item>
@@ -311,10 +307,6 @@
     <plurals name="photo_count_format">
         <item quantity="other">Общо %1$d елемента</item>
         <item quantity="one">Общо %1$d елемент</item>
-    </plurals>
-    <plurals name="photo_editor_talkback_crop_scale_value">
-        <item quantity="other">Завъртане на %d градуса</item>
-        <item quantity="one">Завъртане на %d градус</item>
     </plurals>
     <plurals name="photo_remain_days">
         <item quantity="other">%d дни</item>
@@ -480,6 +472,10 @@
         <item quantity="other">Не може да се сподели. Обработват се още %d снимки…</item>
         <item quantity="one">Не може да се сподели. Обработва се още %d снимка…</item>
     </plurals>
+    <plurals name="send_too_many_files_error">
+        <item quantity="other">Изберете до %d елемента за изпращане</item>
+        <item quantity="one">Изберете до %d елемент за изпращане</item>
+    </plurals>
     <plurals name="send_video_dialog_desc">
         <item quantity="other">%2$d видеоклипа от %1$s</item>
         <item quantity="one">%2$d видеоклип от %1$s</item>
@@ -577,8 +573,8 @@
         <item quantity="one">%d видеоклип</item>
     </plurals>
     <plurals name="sync_error_title">
-        <item quantity="other">Неуспешно архивиране на %d снимки и клипове</item>
-        <item quantity="one">Неуспешно архивиране на %d снимка или клип</item>
+        <item quantity="other">%d елемента не са синхронизирани</item>
+        <item quantity="one">%d елемент не е синхронизиран</item>
     </plurals>
     <plurals name="sync_oversized_count">
         <item quantity="other">%d елементи са твърде големи, за да бъдат архивирани</item>
@@ -628,6 +624,14 @@
         <item quantity="other"></item>
         <item quantity="one"></item>
     </plurals>
+    <plurals name="tran_notification_complete_msg">
+        <item quantity="other">Неуспешно прехвърляне на %1$d елемента</item>
+        <item quantity="one">Неуспешно прехвърляне на %1$d елемент</item>
+    </plurals>
+    <plurals name="transfer_status_banner_msg_file_failed">
+        <item quantity="other">Неуспешно прехвърляне на %1$d елемента. Посетете i.mi.com, за да ги изтеглите.</item>
+        <item quantity="one">Неуспешно прехвърляне на %1$d елемент. Посетете i.mi.com, за да го изтеглите.</item>
+    </plurals>
     <plurals name="trash_purge_dialog_message_cloud">
         <item quantity="other">%d избрани елемента ще бъдат изтрити завинаги от облака и от всички синхронизирани устройства. Изтриване?</item>
         <item quantity="one">%d избран елемент ще бъде изтрит завинаги от облака и от всички синхронизирани устройства. Изтриване?</item>
@@ -651,6 +655,14 @@
     <plurals name="trash_vip_info_text_login">
         <item quantity="other">Елементите могат да се съхраняват тук %1$d дни (%2$s)</item>
         <item quantity="one">Елементите могат да се съхраняват тук %1$d ден (%2$s)</item>
+    </plurals>
+    <plurals name="trash_vip_info_text_login_medium_or_low_level">
+        <item quantity="other">Елементите ще се съхраняват тук за %1$s дни. Натиснете, за да удължите този период.</item>
+        <item quantity="one">Елементите ще се съхраняват тук за %1$s ден. Натиснете, за да удължите този период.</item>
+    </plurals>
+    <plurals name="trash_vip_info_text_no_sync_server">
+        <item quantity="other">Изтритите елементи се съхраняват в облака за %1$d дни</item>
+        <item quantity="one">Изтритите елементи се съхраняват в облака за %1$d ден</item>
     </plurals>
     <plurals name="trash_vip_info_text_unlogin">
         <item quantity="other">Елементите могат да се съхраняват тук %1$d дни. Надградете плана си, за да удължите този период.</item>

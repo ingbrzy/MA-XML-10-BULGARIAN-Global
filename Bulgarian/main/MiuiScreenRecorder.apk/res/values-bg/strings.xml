@@ -32,9 +32,8 @@
     <string name="am">AM</string>
     <string name="app_name">Запис на екрана</string>
     <string name="app_notification_channel_record_complete">Известия за завършени записи</string>
-    <string name="app_notification_info">Запис на екрана работи във фонов режим</string>
-    <string name="app_notification_record_saved">"Успешно запазен запис.
-Натиснете, за да прегледате"</string>
+    <string name="app_notification_info">В момента се прави запис на екрана…</string>
+    <string name="app_notification_record_saved">Записът на екрана е запазен. Натиснете за преглед.</string>
     <string name="app_notification_title">Запис на екрана</string>
     <string name="auto_stop_title">Видеото е успешно запазено</string>
     <string name="battery_not_allowed_warning">Не може да се прави запис при батерия по-ниска от %1$s. Бъдете сигурни, че сте заредили батерията си поне на %2$s.</string>
@@ -72,7 +71,7 @@
     <string name="evening">Следобед</string>
     <string name="expand_button_title">Разширени</string>
     <string name="first_using_mic_dialog_message">Запис на екран се нуждае от достъп до Вашия микрофон, за да записва звук. Позволи?</string>
-    <string name="first_using_mic_dialog_title">Необходими разрешения</string>
+    <string name="first_using_mic_dialog_title">Необходими са разрешения</string>
     <string name="fixed_frame_rate">Фиксирана скорост на кадър</string>
     <string name="fixed_frame_rate_summary">Записването на видео с фиксирана скорост на кадъра ще подобри възпроизвеждането в социалните мрежи и ще удължи живота на батерията.</string>
     <string name="fmt_chinese_date">N月e</string>
@@ -158,15 +157,15 @@
     <string name="mic_sound">Микрофон</string>
     <string name="midnight">Нощ</string>
     <string name="miuix_access_state_desc">Избрани</string>
-    <string name="miuix_appcompat_action_mode_deselect_all">Размаркиране на всички</string>
+    <string name="miuix_appcompat_action_mode_deselect_all">Откажи всички</string>
     <string name="miuix_appcompat_action_mode_select_all">Избиране на всички</string>
     <string name="miuix_appcompat_action_mode_title_empty">Изберете елементи</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Повече</string>
     <string name="miuix_appcompat_cancel_description">Отказ</string>
     <string name="miuix_appcompat_confirm_description">Потвърди</string>
     <string name="miuix_appcompat_delete_description">Изтрий</string>
-    <string name="miuix_appcompat_deselect_all">Отмаркиране</string>
-    <string name="miuix_appcompat_deselect_all_description">Размаркирай всички</string>
+    <string name="miuix_appcompat_deselect_all">Откажи всички</string>
+    <string name="miuix_appcompat_deselect_all_description">Откажи всички</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Отказ</string>
     <string name="miuix_appcompat_search_input_description">Търси</string>
     <string name="miuix_appcompat_select_all">Избери всички</string>
@@ -236,7 +235,9 @@
     <string name="pm">PM</string>
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="privacy_settings">Поверителност</string>
+    <string name="protect_oneself_when_recording">Обаждането се записва. Защитавайте поверителността на своите лични данни и на данните на други хора, когато използвате тази функционалност.</string>
     <string name="quit_recording">Изход от Записване на екран</string>
+    <string name="record_time_too_short">Видеоклипа е прекалено кратък</string>
     <string name="recording_failure">Не може да се запише, започни отначало</string>
     <string name="recording_max_size">Записът бе спрян и запазен, защото видеофайлът достигна своя максимален размер. Започнете записването, откъдето сте спрели, ако все още не сте готови.</string>
     <string name="recording_without_mic">Микрофонът е зает и не може да записва звук в момента.</string>
@@ -268,7 +269,7 @@
     <string name="sound_source">Източник на звук</string>
     <string name="sound_source_summary">Системни звуци или микрофон</string>
     <string name="sound_source_summary_without_system_sounds">Използвайте микрофона или заглушете звука</string>
-    <string name="start">Старт</string>
+    <string name="start">Започване</string>
     <string name="start_recording">Започни запис</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stop_by_second_space">Превключването между отделните работни места ще спре записа</string>

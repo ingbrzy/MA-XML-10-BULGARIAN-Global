@@ -40,14 +40,14 @@
     </string-array>
     <string-array name="daily_brand">
         <item>Персонализирано</item>
-        <item>Фенска карта Mi</item>
+        <item>Xiaomi фенска карта</item>
         <item>Карта Xiao Tiansheng</item>
         <item>Карта Tencent King</item>
     </string-array>
     <string-array name="daily_rent_card_brands">
         <item>Персонализирани</item>
         <item>Mi Mobile</item>
-        <item>Mi Фенска карта</item>
+        <item>Xiaomi фенска карта</item>
         <item>Карта Tianshen</item>
         <item>Карта Tencent</item>
     </string-array>
@@ -89,6 +89,15 @@
         <item>Ще можете да наблюдавате и документирате съдържанието на екрана ви от разстояние.</item>
         <item>Ще бъде възможен достъп до подробна информация относно вашето устройство.</item>
     </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Нормално</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
     <string-array name="gb_adv_touch_custom_level">
         <item>Най-ниско</item>
         <item>Ниско</item>
@@ -96,10 +105,20 @@
         <item>Високо</item>
         <item>Най-високо</item>
     </string-array>
+    <string-array name="gb_voice_change_gender">
+        <item>@string/gb_voice_changer_gender_man</item>
+        <item>@string/gb_voice_changer_gender_female</item>
+    </string-array>
     <string-array name="input_package_names">
         <item>com.baidu.input_mi</item>
         <item>com.iflytek.inputmethod.miui</item>
         <item>com.sohu.inputmethod.sogou.xiaomi</item>
+    </string-array>
+    <string-array name="key_app_info">
+        <item>източник на инсталиране</item>
+        <item>час на инсталиране</item>
+        <item>източник на актуализиране</item>
+        <item>час на актуализиране</item>
     </string-array>
     <string-array name="lock_mode">
         <item>При заключено устройство</item>
@@ -114,10 +133,20 @@
         <item>Важно: Възможно е множество системни приложения да спрат да функционират.</item>
         <item>Възможно е текстово оформление, профили и съдържание да не бъдат показвани правилно.</item>
     </string-array>
+    <string-array name="operate_entries">
+        <item>@string/auto_task_operation_open</item>
+        <item>@string/auto_task_operation_close</item>
+        <item>@string/auto_task_operation_no_op</item>
+    </string-array>
     <string-array name="operate_entryValues">
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
+    <string-array name="operate_memory_entries">
+        <item>@string/auto_task_operation_open</item>
+        <item>@string/auto_task_operation_close</item>
+        <item>@string/auto_task_operation_no_op</item>
     </string-array>
     <string-array name="operate_memory_entryValues">
         <item>0</item>
@@ -127,6 +156,20 @@
     <string-array name="over_limit_traffic_waring_style">
         <item>Показване на предупреждение</item>
         <item>Предупреждение и изкл. на моб. данни</item>
+    </string-array>
+    <string-array name="pc_battery_history_spinner_choice">
+        <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/power_center_battery_all</item>
+        <item>@string/power_center_battery_software</item>
+        <item>@string/power_center_battery_hardware</item>
+        <item>@string/pc_battery_history_battery_detail_menu_item</item>
+    </string-array>
+    <string-array name="pc_battery_history_spinner_choice_new">
+        <item>@string/pc_battery_history_consume_rank_menu_item</item>
+        <item>@string/power_center_battery_all</item>
+        <item>@string/power_center_battery_software</item>
+        <item>@string/power_center_battery_hardware</item>
+        <item>@string/pc_battery_history_battery_detail_menu_item</item>
     </string-array>
     <string-array name="pc_fast_charge_entry">
         <item>10%</item>
@@ -179,13 +222,13 @@
     </string-array>
     <string-array name="sort_title_new">
         <item>Сортиране по име на приложението</item>
-        <item>Сортиране по честота на използване</item>
-        <item>Сортиране по използване на паметта</item>
-        <item>Подреди по време на инсталиране</item>
+        <item>Сортиране по последно използвани</item>
+        <item>Сортиране по използвана памет</item>
+        <item>Сортиране по време на инсталиране</item>
     </string-array>
     <string-array name="sort_type_new">
         <item>Име на приложение</item>
-        <item>Честота на използване</item>
+        <item>Скоро използвани</item>
         <item>Използвана памет</item>
         <item>Час на инсталиране</item>
     </string-array>
