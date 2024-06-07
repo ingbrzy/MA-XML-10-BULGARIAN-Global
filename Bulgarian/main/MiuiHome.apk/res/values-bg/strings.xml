@@ -351,8 +351,9 @@
     <string name="gadget_load_error">Един момент…</string>
     <string name="gadget_power_clear_button_label">Дълбоко почистване</string>
     <string name="gadget_search_label">Търсене</string>
-    <string name="gadget_weather_title">Времето</string>
+    <string name="gadget_weather_title">Време</string>
     <string name="global_search">Търсене</string>
+    <string name="global_shelf">Търсач на приложения</string>
     <string name="got_it_botton">Разбрах</string>
     <string name="guide_install_app_msg">Приложението не е инсталирано. Искате ли да го потърсите в Google Play?</string>
     <string name="guide_install_app_title">Инсталиране на приложение</string>
@@ -360,6 +361,7 @@
     <string name="guide_privacy_dialog_title">Условия за използване</string>
     <string name="home_gesture_content_center">Център за съдържание</string>
     <string name="home_gesture_global_search">Търсене</string>
+    <string name="home_gesture_global_shelf">Търсач на приложения</string>
     <string name="home_gesture_no_action">Няма действие</string>
     <string name="home_gesture_notification_and_control_center">Лента с известия и Контролен център</string>
     <string name="home_gesture_notification_bar">Известия</string>
@@ -378,7 +380,7 @@
     <string name="international_home_pull_down_sub_content">Можете да превключите този жест, за да отворите Контролния център вместо това в Настройки > Начален екран > Плъзнете надолу по Началния екран.</string>
     <string name="international_home_pull_down_up_btn_get">Разбрах</string>
     <string name="international_home_pull_up_content">Плъзнете нагоре в Начален екран, за да отворите Центъра за съдържание.</string>
-    <string name="international_home_pull_up_sub_content">За да отворите търсене, плъзнете надолу от центъра на Началния екран.</string>
+    <string name="international_home_pull_up_sub_content">За да намерите приложения и предложения за приложения, плъзнете надолу от центъра на Началния екран.</string>
     <string name="item_view_role_description">Раздел</string>
     <string name="jeejen_description">"По-големи UI елементи.
 По-достъпни повиквания.
@@ -443,7 +445,7 @@
     <string name="mi_wallpaper">MIUI Теми</string>
     <string name="midnight">Нощ</string>
     <string name="minus_one_screen">Трезор за приложения</string>
-    <string name="miui_screen_config_title">Настройки за Начален екран</string>
+    <string name="miui_screen_config_title">Оформление на Начален екран</string>
     <string name="miui_setting_config_title">Настройки за Начален екран</string>
     <string name="miui_widget_menu_replace_text">Замяна</string>
     <string name="miui_widget_toast_for_not_support_by_pa">Трезор за приложения не поддържа приспособления с този размер</string>
@@ -519,6 +521,7 @@
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -648,8 +651,9 @@
     <string name="recent_menu_item_info">Инфо</string>
     <string name="recent_menu_item_lock">Заключи</string>
     <string name="recent_menu_item_unlock">Отключи</string>
-    <string name="recent_menu_item_worldcirculate">应用流转</string>
-    <string name="recent_menu_item_worldcirculate_disable">应用无法流转</string>
+    <string name="recent_menu_item_worldcirculate">Прехвърляне на задачи на приложението</string>
+    <string name="recent_menu_item_worldcirculate_disable">Не можете да прехвърляте задачи на приложения между свързани устройства</string>
+    <string name="recent_pin_text">Закачи</string>
     <string name="recents_app_info_button_label">Инф. за приложение</string>
     <string name="recents_config_title">Скорошни</string>
     <string name="recents_dimiss_task">Изчисти</string>
@@ -731,6 +735,7 @@
     <string name="small_window">Плаващ прозорец</string>
     <string name="start_activity_failed">Приложението не успя да стартира.</string>
     <string name="start_new_window">Нов прозорец</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="status_bar_recent_memory_giga">%1$s GB</string>
     <string name="status_bar_recent_memory_info1">%1$s от %2$s са достъпни</string>
     <string name="status_bar_recent_memory_info2" />
@@ -748,8 +753,10 @@
     <string name="switch_personal_assistant_app_vault">Трезор за приложения</string>
     <string name="switch_personal_assistant_google">Google Discover</string>
     <string name="switch_personal_assistant_none">Няма</string>
+    <string name="switch_personal_assistant_summary">Плъзнете надясно на Началния екран, за да отворите Google Discover</string>
     <string name="switch_screen_button_order">Огледални бутони</string>
     <string name="switch_screen_button_order_desc">Огледални бутони Назад и Меню</string>
+    <string name="system_sdk_disabled_toast">Системният SDK е деактивиран. Първо го активирайте.</string>
     <string name="system_shortcuts_edit">Редактиране</string>
     <string name="system_shortcuts_icon_remove">Премахване</string>
     <string name="system_shortcuts_more_operation">Инф за приложение</string>

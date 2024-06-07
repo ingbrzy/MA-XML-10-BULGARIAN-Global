@@ -238,7 +238,7 @@
     <string name="encrypt_prefix">ЛИЧНИ</string>
     <string name="encrypt_setting">Шифроване</string>
     <string name="encrypt_success">Избраните елементи вече са лични</string>
-    <string name="encrypt_success_first_five">Този елемент вече е личен. Можете да преглеждате лични файлове като издърпвате надолу в началната страница на Управление на файлове.</string>
+    <string name="encrypt_success_first_five">Този елемент вече е частен. Издърпайте надолу началната страница на Управление на файлове, за да го видите.</string>
     <string name="encrypting">Шифроване…</string>
     <string name="enter">Отвори Управление на файлове</string>
     <string name="entry_phone_storage_internal">Вътрешна памет</string>
@@ -275,6 +275,7 @@
     <string name="favorite_photo">Снимки</string>
     <string name="favorite_ringtone">Мелодии</string>
     <string name="favorite_screen_cap">Екранни снимки</string>
+    <string name="fileSizeSuffix">%1$s %2$s</string>
     <string name="file_info_canread">Достъпни за четене: </string>
     <string name="file_info_canwrite">Достъпни за писане: </string>
     <string name="file_info_ishidden">Скрити: </string>
@@ -669,6 +670,14 @@
     <string name="partial_delete_failure">Неуспешно изтриване на някои файлове. Опитайте отново.</string>
     <string name="partial_encrypt_success">Неуспешно превръщане на някои файлове в лични. Опитайте отново.</string>
     <string name="path_name_email">Имейл</string>
+    <string name="pattern_hour_minute_12">hh:mm a</string>
+    <string name="pattern_hour_minute_24">HH:mm</string>
+    <string name="pattern_month_day">dd/MM</string>
+    <string name="pattern_month_day_hh_mm_12">dd/MM hh:mm a</string>
+    <string name="pattern_month_day_hh_mm_24">dd/MM HH:mm</string>
+    <string name="pattern_year_month_day">dd/MM/yyyy</string>
+    <string name="pattern_year_month_day_hh_mm_12">dd/MM/yyyy hh:mm a</string>
+    <string name="pattern_year_month_day_hh_mm_24">dd/MM/yyyy HH:mm</string>
     <string name="perm_manage_external_storage">Достъп до всички файлове</string>
     <string name="permission_account_desc">За получаване на достъп до информация за профили съхранявани в устройството Ви</string>
     <string name="permission_account_desc_pad">За получаване на достъп до информация за профили съхранявани в устройството Ви</string>
@@ -710,7 +719,7 @@
     <string name="preference_copied">Копирахте „%1$s“ в буферната памет.</string>
     <string name="privacy_policy">Правила за поверителност</string>
     <string name="privacy_policy_renew">Обновени Правила за Поверителност</string>
-    <string name="privacy_policy_renew_content"><Data>&lt;a href=\"%1$s\">Правилата за поверителност&lt;/a> на Управление на файлове бяха обновени. За да научите повече за потребителските си права, както и как използваме Вашите данни, прочетете и приемете новата версия на Правилата за поверителност преди да продължите.</Data></string>
+    <string name="privacy_policy_renew_content">&lt;Data>&lt;a href=\"%1$s\">Правилата за поверителност&lt;/a> на Управление на файлове бяха обновени. За да научите повече за потребителските си права, както и как използваме Вашите данни, прочетете и приемете новата версия на Правилата за поверителност преди да продължите.&lt;/Data></string>
     <string name="privacy_recall_alert_description" formatted="false">Изчистете всички елементи от Mi Drive, за да можете да оттеглите съгласие. Следвайте тези стъпки, за да изчистите елементите:&lt;br />&lt;xliff:g id=privacy_recall_alert_description_list_1 refersto=1>%1d&lt;/xliff:g>. На началната страница на Mi Drive натиснете и задръжте елемент, за да се появи бутонът \"Избери всички\". Използвайте този бутон, за да изберете до 200 файла наведнъж и да ги изтриете.&lt;br />&lt;xliff:g id=privacy_recall_alert_description_list_2 refersto=2>%2d&lt;/xliff:g>. След това изчистете наскоро изтритите елементи.</string>
     <string name="privacy_recall_alert_reminder_card_summary" formatted="false">&lt;xliff:g id=privacy_recall_alert_reminder_card_summary_list_1 refersto=1>%1d&lt;/xliff:g>. Препоръчваме Ви да архивирате елементите си преди да ги изтриете. За да го направите посетете visit i.mi.com, натиснете Mi Drive и изтеглете елементите си на компютъра.&lt;br />&lt;xliff:g id=privacy_recall_alert_reminder_card_summary_list_2 refersto=2>%2d&lt;/xliff:g>. Наскоро изтрити елементи не могат да бъдат възстановявани.</string>
     <string name="privacy_recall_confirm_button">Оттегляне</string>
@@ -802,6 +811,7 @@
     <string name="set_pattern">Подсилете паролата си</string>
     <string name="set_pattern_btn">Задай</string>
     <string name="set_pattern_msg">Задайте паролата си отново. Паролата за сигурност също работи за снимки, съобщения и бележки.</string>
+    <string name="settings">@string/server_control_settings</string>
     <string name="size_lv1">По-малък от %d KB</string>
     <string name="size_lv2" formatted="false">%1d KB - %2d MB</string>
     <string name="size_lv3" formatted="false">%1d MB - %2d MB</string>

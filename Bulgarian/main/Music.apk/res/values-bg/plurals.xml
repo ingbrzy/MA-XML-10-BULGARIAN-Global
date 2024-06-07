@@ -229,8 +229,8 @@
         <item quantity="one">Остава %d ден</item>
     </plurals>
     <plurals name="web_reward_dialog_title">
-        <item quantity="other">Ако гледате %d секунди, като награда ще получите VIP членство. Ще излезете ли въпреки това?</item>
-        <item quantity="one">Ако гледате %d секунда, като награда ще получите VIP членство. Ще излезете ли въпреки това?</item>
+        <item quantity="other">Ако гледате %d секунди, ще получите награда VIP членство. Желаете ли да излезете?</item>
+        <item quantity="one">Ако гледате %d секунда, ще получите награда VIP членство. Желаете ли да излезете?</item>
     </plurals>
     <plurals name="whitelist_multi_added">
         <item quantity="other">Добавени са %d файла</item>

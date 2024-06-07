@@ -361,6 +361,7 @@
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -468,6 +469,7 @@
     <string name="shutdown_alarm_alert_title">Аларма за изключване</string>
     <string name="shutdown_alarm_disable_summary">Алармата няма да се включва, когато устройствотото е изключено</string>
     <string name="silent_alarm_summary">Без звук</string>
+    <string name="skip_alarm_date_format">%1$s (%2$s)</string>
     <string name="skip_alarm_once_hint">Изключи еднократно на %s</string>
     <string name="sleep_analysis">Статистика</string>
     <string name="sleep_analysis_chart_date_format">dd.MM</string>
@@ -504,6 +506,7 @@
     <string name="snooze_duration_value_twenty_new">%d</string>
     <string name="star_wy_alarm_speech">Запознайте се с Рой Уанг</string>
     <string name="start">Старт</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="stopwatch_running_notification">Хронометър</string>
     <string name="stopwatch_title">Хронометър</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>

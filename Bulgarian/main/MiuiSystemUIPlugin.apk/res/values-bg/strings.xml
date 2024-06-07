@@ -188,7 +188,7 @@
     <string name="kddi_miui_toast_zen_standard_to_off">Включен е Тих режим. Повикванията и известията са заглушени.</string>
     <string name="kddi_miui_toast_zen_to_standard">Включен е Тих режим. Повикванията и известията са заглушени.</string>
     <string name="loading">Непознат статус</string>
-    <string name="mi_smart_hub_entry_title">Mi Smart Hub</string>
+    <string name="mi_smart_hub_entry_title">Xiaomi Smart Hub</string>
     <string name="midnight">Нощ</string>
     <string name="miplay_accessibility_cast">Избор на устройство</string>
     <string name="miplay_accessibility_cover">Корица</string>
@@ -201,6 +201,8 @@
     <string name="miplay_bluetooth_share_des_text">"Потребители на Xiaomi слушалки: отворете кутията за зареждане или натиснете и задръжте бутона на кутията за %dсек
 Потребители на слушалки, които не са от Xiaomi: нулирайте слушалките си в настройките на Bluetooth, след което ги свържете"</string>
     <string name="miplay_bluetooth_share_headphone_pairing">Добавете слушалки, за да споделяте аудио</string>
+    <string name="miplay_bluetooth_share_music_cancel_btn_content_des">Споделянето на аудиото приключи</string>
+    <string name="miplay_bluetooth_share_music_together_btn_content_des">Добавете слушалки, за да споделяте аудио</string>
     <string name="miplay_bluetooth_share_subTitle_text">Споделете звука на устройството с друг човек</string>
     <string name="miplay_bluetooth_share_title_text">Споделяне на аудио</string>
     <string name="miplay_detail_divider_title">Високоговорители</string>

@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="account_user_gender_name">
-        <item>Мъж</item>
-        <item>Жена</item>
-    </string-array>
     <string-array name="exo_controls_playback_speeds">
         <item>0,25x</item>
         <item>0,5x</item>
@@ -35,6 +31,10 @@
         <item>Екстремистки възгледи</item>
         <item>Скрита реклама</item>
         <item>Не го харесвам</item>
+    </string-array>
+    <string-array name="passport_account_user_gender_name">
+        <item>Мъж</item>
+        <item>Жена</item>
     </string-array>
     <string-array name="pref_fling_on_border_gesture_entries">
         <item>Назад/напред</item>
@@ -83,10 +83,6 @@
     <string-array name="pref_web_permissions_sub_two">
         <item>Ограничаване</item>
         <item>Разрешаване</item>
-    </string-array>
-    <string-array name="setting_swipe_up_target">
-        <item>Търсене</item>
-        <item>Новини</item>
     </string-array>
     <string-array name="shortcut_dialog_delete">
         <item>Изтрий</item>

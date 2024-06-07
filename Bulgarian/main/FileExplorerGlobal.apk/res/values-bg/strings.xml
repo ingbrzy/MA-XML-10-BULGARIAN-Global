@@ -875,6 +875,7 @@
     <string name="set_pattern">Подсилете паролата си</string>
     <string name="set_pattern_btn">Задай</string>
     <string name="set_pattern_msg">Задайте паролата си отново. Паролата за сигурност също работи за снимки, съобщения и бележки.</string>
+    <string name="settings">@string/server_control_settings</string>
     <string name="size_lv1">По-малък от %d KB</string>
     <string name="size_lv2" formatted="false">%1d KB - %2d MB</string>
     <string name="size_lv3" formatted="false">%1d MB - %2d MB</string>

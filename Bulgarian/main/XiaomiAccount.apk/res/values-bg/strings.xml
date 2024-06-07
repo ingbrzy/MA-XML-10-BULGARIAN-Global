@@ -93,18 +93,14 @@
     <string name="binded">Свързан</string>
     <string name="binded_description" formatted="false">"%s беше свързан към Вашия Xiaomi Профил.
 Вече можете да влезете във Вашия Xiaomi Профил чрез %s."</string>
-    <string name="bottomsheet_action_expand_halfway">Разгъване наполовина</string>
     <string name="button_agree">Приемам</string>
     <string name="button_close">Затвори</string>
     <string name="button_refuse">Не приемам</string>
     <string name="button_unbind">Прекратяване на връзката</string>
     <string name="cancel">Отказ</string>
     <string name="change_password">Промени паролата</string>
-    <string name="character_counter_content_description">Въведени знаци: %1$d от %2$d</string>
-    <string name="character_counter_overflowed_content_description">Максималният брой знаци е надхвърлен с(ъс) %1$d от %2$d</string>
     <string name="check_apk_update">Проверка за обновления</string>
     <string name="child_account_system_ad_disable_hint">Тази функция не е достъпна за детски профили</string>
-    <string name="clear_text_end_icon_content_description">Изчистване на текста</string>
     <string name="clearable_edittext_clear_description">Изчисти</string>
     <string name="close">Затваряне</string>
     <string name="close_drawer">Затваряне на менюто за навигация</string>
@@ -185,13 +181,11 @@
     <string name="eras_ad">н.е.</string>
     <string name="eras_bc">пр.Хр.</string>
     <string name="error_dup_binded_email">Този имейл адрес вече е свързан с друг Xiaomi Профил.</string>
-    <string name="error_icon_content_description">Грешка</string>
     <string name="error_invalid_bind_address">Въведеният от вас имейл адрес е невалиден.</string>
     <string name="evening">Следобед</string>
     <string name="exceed_binded_phone_times_notice">Този телефонен номер вече е свързан с друг Xiaomi Профил.</string>
     <string name="exit">Изход</string>
     <string name="expand_button_title">Разширени</string>
-    <string name="exposed_dropdown_menu_content_description">Показване на падащото меню</string>
     <string name="facebook">Facebook</string>
     <string name="facebook_login">Вписване с Facebook</string>
     <string name="failed_dup_secure_phone_number">Този телефонен номер вече е свързан с друг Xiaomi Профил</string>
@@ -318,7 +312,6 @@
     <string name="help_center">Помощ</string>
     <string name="i_agree">OK</string>
     <string name="i_agree_continue">Приемам</string>
-    <string name="icon_content_description">Икона за диалогов прозорец</string>
     <string name="identity">Идентифициране</string>
     <string name="in_progress">В ход</string>
     <string name="inconsistent_pwd">Паролите не съвпадат</string>
@@ -327,7 +320,6 @@
     <string name="input_new_pwd">Въведете новата парола</string>
     <string name="input_ps">Въведете парола</string>
     <string name="io_error_title">Потвърдете вашата мрежа</string>
-    <string name="item_view_role_description">Раздел</string>
     <string name="just_a_second">Момент…</string>
     <string name="keep_phone_ticket_login">Вписване с код за потвърждение</string>
     <string name="kr_license_desc">Трябва да се приемете нашето Потребителско споразумение и Правила за поверителност преди да използвате Xiaomi Профил и услугите на Xiaomi Cloud.</string>
@@ -347,18 +339,6 @@
     <string name="login_with_other">Допълнителни опции</string>
     <string name="logout_account">Отписване</string>
     <string name="logout_failed">Неуспешно отписване</string>
-    <string name="material_clock_toggle_content_description">Изберете AM или PM</string>
-    <string name="material_hour_selection">Изберете час</string>
-    <string name="material_hour_suffix">%1$s часа</string>
-    <string name="material_minute_selection">Избиране на минути</string>
-    <string name="material_minute_suffix">%1$s минути</string>
-    <string name="material_timepicker_am">AM</string>
-    <string name="material_timepicker_clock_mode_description">Превключете към режима за часовник, за да въведете часа.</string>
-    <string name="material_timepicker_hour">Час</string>
-    <string name="material_timepicker_minute">Минута</string>
-    <string name="material_timepicker_pm">PM</string>
-    <string name="material_timepicker_select_time">Избор на час</string>
-    <string name="material_timepicker_text_input_mode_description">Превключете към режима за въвеждане на текст, за да въведете часа.</string>
     <string name="mi_account">Моят профил</string>
     <string name="mi_health">Xiaomi Здраве</string>
     <string name="midnight">Нощ</string>
@@ -375,6 +355,7 @@
     <string name="miuix_appcompat_delete_description">Изтрий</string>
     <string name="miuix_appcompat_deselect_all">Откажи всички</string>
     <string name="miuix_appcompat_deselect_all_description">Откажи всички</string>
+    <string name="miuix_appcompat_edit">Редактиране</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Отказ</string>
     <string name="miuix_appcompat_search_input_description">Търси</string>
     <string name="miuix_appcompat_select_all">Избери всички</string>
@@ -429,38 +410,6 @@
     <string name="month_september_shortest">Септ.</string>
     <string name="more">Още</string>
     <string name="morning">Сутрин</string>
-    <string name="mtrl_badge_numberless_content_description">Ново известие</string>
-    <string name="mtrl_chip_close_icon_content_description">Премахване на %1$s</string>
-    <string name="mtrl_exceed_max_badge_number_content_description">Повече от %1$d нови известия</string>
-    <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
-    <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
-    <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
-    <string name="mtrl_picker_date_header_selected">%1$s</string>
-    <string name="mtrl_picker_date_header_title">Избиране на дата</string>
-    <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
-    <string name="mtrl_picker_day_of_week_column_header">Колона за дни: %1$s</string>
-    <string name="mtrl_picker_invalid_format">Форматът е невалиден.</string>
-    <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
-    <string name="mtrl_picker_invalid_format_use">Използвайте: %1$s</string>
-    <string name="mtrl_picker_invalid_range">Невалиден диапазон.</string>
-    <string name="mtrl_picker_navigate_to_year_description">Навигиране до %1$s г.</string>
-    <string name="mtrl_picker_out_of_range">Извън диапазона: %1$s</string>
-    <string name="mtrl_picker_range_header_only_end_selected">Начална дата – %1$s</string>
-    <string name="mtrl_picker_range_header_only_start_selected">%1$s – крайна дата</string>
-    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
-    <string name="mtrl_picker_range_header_title">Избиране на период от време</string>
-    <string name="mtrl_picker_range_header_unselected">Начална дата – крайна дата</string>
-    <string name="mtrl_picker_save">Запазване</string>
-    <string name="mtrl_picker_text_input_date_hint">Дата</string>
-    <string name="mtrl_picker_text_input_date_range_end_hint">Крайна дата</string>
-    <string name="mtrl_picker_text_input_date_range_start_hint">Начална дата</string>
-    <string name="mtrl_picker_text_input_day_abbr">д</string>
-    <string name="mtrl_picker_text_input_month_abbr">м</string>
-    <string name="mtrl_picker_text_input_year_abbr">г</string>
-    <string name="mtrl_picker_toggle_to_calendar_input_mode">Превключване към режим на въвеждане в календар</string>
-    <string name="mtrl_picker_toggle_to_day_selection">Докоснете, за да превключите към избиране на ден</string>
-    <string name="mtrl_picker_toggle_to_text_input_mode">Превключване към режим за въвеждане на текст</string>
-    <string name="mtrl_picker_toggle_to_year_selection">Докоснете, за да превключите към избиране на година</string>
     <string name="multi_user_not_show_sync_activity_message_1">Използвате Xiaomi Профила си от Първо пространство.</string>
     <string name="multi_user_not_show_sync_activity_message_2">В такъв случай цялата налична информация ще бъде синхронизирана с вашето Второ пространство. За да избегнете това, не включвайте синхронизация с Облака.</string>
     <string name="multi_user_not_show_sync_activity_title">Не включвайте синхронизация с Облака</string>
@@ -797,7 +746,6 @@
     <string name="passport_wrong_phone_number_format">Въведеният телефонен номер е с невалиден формат</string>
     <string name="passport_wrong_vcode">Кодът, който сте въвели е грешен</string>
     <string name="passport_wrong_voice">Кодът, който сте въвели, е невалиден</string>
-    <string name="password_toggle_content_description">Показване на паролата</string>
     <string name="password_view_hide_password">Скриване на паролата</string>
     <string name="password_view_show_password">Показване на паролата</string>
     <string name="permission_group_contacts">Контакти</string>
@@ -959,7 +907,7 @@
 %2$d. Ако не можете да нулирате паролата си или някой е заключил устройството Ви, отидете на i.mi.com, за да го отключите.
 %3$d. Вашият номер за отключване: %4$s"</string>
     <string name="update_apk_version_later">Не сега</string>
-    <string name="update_apk_version_now">Обнови</string>
+    <string name="update_apk_version_now">Инсталиране</string>
     <string name="update_email_address_dialog_message">Необходимо е да потвърдите самоличността си преди да обновите имейла.</string>
     <string name="update_email_address_dialog_title">Обновяване на имейл</string>
     <string name="update_phone_notice">Промяна на настройките за сигурност</string>
@@ -971,7 +919,6 @@
     <string name="user_agreement_read_phone_permission_desc">За влизане чрез телефонен номер</string>
     <string name="user_agreement_read_phone_permission_title">Четене на телефонни номера</string>
     <string name="user_agreement_use_account_msg">Xiaomi Профила Ви позволява да получавате достъп до всички услуги предоставени от Xiaomi.</string>
-    <string name="user_agreement_wifi_permission_title">Включване и изключване на Wi-Fi</string>
     <string name="user_agreement_wlan_permission_desc">За проверка на средата за влизане за проблеми със сигурността</string>
     <string name="user_agreement_wlan_permission_title_china">Включване и изключване на WLAN</string>
     <string name="user_avatar_update_title">Промяна на профилната снимка</string>

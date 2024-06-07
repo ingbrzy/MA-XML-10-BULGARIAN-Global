@@ -52,10 +52,6 @@
         <item quantity="other">Превъртане с(ъс) %d секунди назад</item>
         <item quantity="one">Превъртане с %d секунда назад</item>
     </plurals>
-    <plurals name="feed_back_home">
-        <item quantity="other">Връщане към началната страница след %1$d секунди…</item>
-        <item quantity="one">Връщане към началната страница след %1$d секунда…</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Преди половин час</item>
         <item quantity="one">Преди половин час</item>

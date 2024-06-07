@@ -396,6 +396,7 @@ mm"</string>
     <string name="miuix_appcompat_delete_description">Изтрий</string>
     <string name="miuix_appcompat_deselect_all">Откажи всички</string>
     <string name="miuix_appcompat_deselect_all_description">Откажи всички</string>
+    <string name="miuix_appcompat_edit">Редактиране</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Отказ</string>
     <string name="miuix_appcompat_search_input_description">Търси</string>
     <string name="miuix_appcompat_select_all">Избери всички</string>
@@ -553,6 +554,7 @@ mm"</string>
     <string name="somatosensory_temperature_format">Усеща се като %s°</string>
     <string name="standard_clock_panel">Стандартен</string>
     <string name="standard_style">Стандартен</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="step_component_info_active_tip">Брояча на стъпки е предоставен от Xiaomi Здраве. За да можете да продължите, приемете правилата и условията за ползване на Xiaomi Здраве.</string>
     <string name="step_component_info_desc">Брояча на стъпки ще се превърне в трофей при достигане на целта. Брояча на стъпки е предоставен от Xiaomi Здраве.</string>
     <string name="step_component_info_tip">Брояча на стъпки е предоставен от Xiaomi Здраве. За да можете да продължите, инсталирайте или обновете Xiaomi Здраве и приемете правилата и условията за ползване.</string>

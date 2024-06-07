@@ -75,6 +75,7 @@
     <string name="ad_bar_notification_setting_title">Събития</string>
     <string name="ad_click_to_play">Играй Сега</string>
     <string name="ad_flag_text">Реклама</string>
+    <string name="ad_topview_repeat_play">Натиснете, за да пуснете отново</string>
     <string name="add_local_shortcut_add">Добави</string>
     <string name="add_local_shortcut_des">Добавете \"Моите видеа\" към Началния екран, за да получите достъп до локални видео файлове с едно натискане.</string>
     <string name="add_search_channel_link">URL</string>
@@ -134,6 +135,7 @@
     <string name="cast_forward">Превъртане напред</string>
     <string name="cast_forward_10">Превъртане напред с десет секунди</string>
     <string name="cast_forward_30">Превъртане напред с тридесет секунди</string>
+    <string name="cast_intro_overlay_button_text">@android:string/ok</string>
     <string name="cast_live_label">НА ЖИВО</string>
     <string name="cast_mute">Спиране</string>
     <string name="cast_notification_connected_message">Установена е връзка с/ъс „%1$s“</string>
@@ -261,7 +263,7 @@ ID:%s
     <string name="dialog_cancel">Отказ</string>
     <string name="dialog_clearn_content">Желаете ли да изчистите хронологията на сърфиране?</string>
     <string name="dialog_clearn_title">Изчистване на хронологията</string>
-    <string name="dialog_confirm">OК</string>
+    <string name="dialog_confirm">Добавяне</string>
     <string name="dialog_delete_bookmarks_content">Изтриване на отметката?</string>
     <string name="dialog_disagree_continue">Продължи</string>
     <string name="dialog_disagree_info">Ако не приемете Правилата за поверителност на Mi Видео няма да можете да използвате нашите онлайн услуги, и ще можете да гледате само клипчета съхранени в устройството Ви. Желаете ли да продължите?</string>
@@ -288,7 +290,7 @@ ID:%s
 - Локален видео плейър
 Mi Video трябва да събере необходимата лична информация, за да ви предостави основни услуги. Можете да научите как обработваме информацията, която събираме, в нашите Правила за поверителност. Можете да промените свързаните настройки в Профил > Настройки."</string>
     <string name="dialog_privacy_info_new4">Добре дошли в Mi Видео! Това приложение предоставя следните услуги:&lt;br>&lt;/br> - Услуги за онлайн стрийминг&lt;br>&lt;/br>- Местен видео плейър&lt;br>&lt;/br>Mi Видео се нуждае да събира задължителни лични данни, за да Ви предоставя основни услуги. Можете да научите как обработваме информацията, която събираме в нашите Правила за поверителност. Ще можете да промените свързаните настройки в Настройки > Пароли и сигурност.&lt;br>&lt;/br>Прочетете и приемете нашето &lt;a href=%1$s>Потребителско споразумение&lt;/a> и &lt;a href=%2$s>Правила за поверителност&lt;/a> преди да използвате Mi Видео.</string>
-    <string name="dialog_privacy_info_new5">Добре дошли в Mi Video! Това приложение предоставя следните услуги:&lt;br>&lt;/br> - Услуги за онлайн стрийминг&lt;br>&lt;/br>- Локален видео плейър&lt;br>&lt;/br>За да предостави основни услуги, това приложение трябва да събира необходимите лична информация. За подробности вижте нашите Правила за поверителност. Можете да промените настройките си по всяко време в Профил > Настройки.&lt;br>&lt;/br>Прочетете и приемете нашето &lt;a href=%1$s>Потребителско споразумение&lt;/a> и &lt;a href=%2$s>Правила за поверителност&lt;/a> преди да използвате Mi Видео.</string>
+    <string name="dialog_privacy_info_new5">Добре дошли в Mi Video! Това приложение предоставя следните услуги:&lt;br>&lt;/br> - Услуги за онлайн стрийминг&lt;br>&lt;/br>- Локален видео плейър&lt;br>&lt;/br>За да предостави основни услуги, това приложение трябва да събира необходимата лична информация. За подробности вижте нашите Правила за поверителност. Можете да промените настройките си по всяко време в Профил > Настройки.&lt;br>&lt;/br>Прочетете и приемете нашето &lt;a href=%1$s>Потребителско споразумение&lt;/a> и &lt;a href=%2$s>Правила за поверителност&lt;/a> преди да използвате Mi Видео.</string>
     <string name="dialog_privacy_revoke_cancel">Отказ</string>
     <string name="dialog_privacy_revoke_count_down">Оттегляне (%1$dсек)</string>
     <string name="dialog_privacy_revoke_description">Вие оттегляте съгласието си за Правилата за поверителност на Mi Видео. Ние ще спрем да събираме вашите лични данни. Вече събраните лични данни ще бъдат изтрити в рамките на специфичния период посочен в приложимото законодателство. Оттеглянето на вашето съгласие за Правилата за поверителност ще се счита за отказ от услугите, които се базират на вашите събрани лични данни.</string>
@@ -330,6 +332,8 @@ Mi Video трябва да събере необходимата лична ин
     <string name="download_unable_tip">Този елемент не може да бъде изтеглен</string>
     <string name="download_video">Изтегляне на видео</string>
     <string name="downloading">Изтегляне…</string>
+    <string name="draw_ad_button_click_text">Разклатете или натиснете, за да отворите</string>
+    <string name="draw_ad_button_slide_text">Плъзнете за подробности</string>
     <string name="early_morning">Сутрин</string>
     <string name="empty" />
     <string name="empty_channels">Управление на канали</string>
@@ -414,14 +418,10 @@ Mi Video трябва да събере необходимата лична ин
     <string name="feedback_activity_title">Отзиви</string>
     <string name="feedback_contact_empty">Въведете вашите данни за контакт</string>
     <string name="feedback_contact_title">Информация за контакт</string>
-    <string name="feedback_detail_input_hint">Въведете вашето съобщение</string>
-    <string name="feedback_hint">Опишете проблема, който сте срещнали.</string>
     <string name="feedback_hint_contact">Телефон/QQ/имейл</string>
     <string name="feedback_hint_text">Опишете проблема, който сте срещнали.</string>
-    <string name="feedback_input_tip">Тук можете да описвате проблеми и да давате предложения.</string>
     <string name="feedback_net_error">Неуспешно изпращане. Проверете Вашите настройки на мрежата и опитайте отново.</string>
     <string name="feedback_sent">Изпращане</string>
-    <string name="feedback_success">Успешно подаване</string>
     <string name="feedback_success_toast">Успешно изпратен. Благодарим Ви за обратната връзка!</string>
     <string name="feedback_tag_title">Категория</string>
     <string name="feedback_text_empty_toast">Първо въведете Вашия отзив.</string>
@@ -642,6 +642,7 @@ Mi Video трябва да събере необходимата лична ин
     <string name="hidden_channels">Следните канали няма да бъдат показвани на началната страница.</string>
     <string name="hide">Скрий</string>
     <string name="hide_video_toast">Този елемент е скрит. Можете да намерите и управлявате скрити елементи в Local > Папки > Скрити елементи.</string>
+    <string name="hiding_dialog_ok">Задай</string>
     <string name="hint_icon_ad_title">Препоръчани</string>
     <string name="hint_in_mivideo">Сега вече можете да проверявате страничния панел за допълнителни функции</string>
     <string name="history">Хронология</string>
@@ -695,7 +696,6 @@ Mi Video трябва да събере необходимата лична ин
     <string name="inline_mute_click_tip">Натиснете за връщане на звука</string>
     <string name="input_email_address_notice">Ще използваме този имейл за потвърждаване на профила Ви</string>
     <string name="input_new_pwd">Въведете новата парола</string>
-    <string name="input_size_tips_new">Можете да въведете до %d символа</string>
     <string name="isornot_your_mi_account">Това вашият Mi профил ли е?</string>
     <string name="item_card_all_replies">Всички отговори</string>
     <string name="item_card_continue_play">Авт. възпроизвеждане</string>
@@ -799,7 +799,6 @@ Mi Video трябва да събере необходимата лична ин
     <string name="local_zoom_adjust_button">Смяна на режим на показване</string>
     <string name="lock_screen">Заключване на екрана</string>
     <string name="login">Влезте</string>
-    <string name="login_tip">Влезте в профила си, за да можете да получавате отговори на отзивите си.</string>
     <string name="logo_neverthink">Curated by Neverthink.tv</string>
     <string name="logout">Отписване</string>
     <string name="logout_account">Отписване</string>
@@ -887,6 +886,7 @@ Mi Video трябва да събере необходимата лична ин
     <string name="manager_request_continue">Разрешаване</string>
     <string name="manager_request_tip">Не показвай отново</string>
     <string name="manager_request_title">Нямате достъп до този файл</string>
+    <string name="mangotv_episode">Епизод %d</string>
     <string name="mangotv_feature_list_title3">Добавен е епизод %s</string>
     <string name="mangotv_feature_more">Още</string>
     <string name="mangotv_feature_title1">Епизоди</string>
@@ -916,11 +916,13 @@ Mi Video трябва да събере необходимата лична ин
     <string name="miuix_appcompat_delete_description">Изтрий</string>
     <string name="miuix_appcompat_deselect_all">Откажи всички</string>
     <string name="miuix_appcompat_deselect_all_description">Откажи всички</string>
+    <string name="miuix_appcompat_edit">Редактиране</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Отказ</string>
     <string name="miuix_appcompat_search_input_description">Търси</string>
     <string name="miuix_appcompat_select_all">Избери всички</string>
     <string name="miuix_appcompat_select_all_description">Избери всички</string>
     <string name="miuix_appcompat_select_item">Изберете елементи</string>
+    <string name="miuix_dialog_ok">ОК</string>
     <string name="miuix_sbl_tracking_progress_labe_pull_to_refresh">Изтеглете надолу за обновяване</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshed">Успешно обновяване</string>
     <string name="miuix_sbl_tracking_progress_labe_refreshing">Обновяване…</string>
@@ -1016,6 +1018,7 @@ Mi Video трябва да събере необходимата лична ин
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -1045,7 +1048,6 @@ Mi Video трябва да събере необходимата лична ин
     <string name="music_new_user_dialog_got_it">Разбрах</string>
     <string name="music_new_user_dialog_tip">Добре дошли в Mi Видео! Това приложение Ви предоставя локален видео плейър и услуги за възпроизвеждане на музика и видео онлайн.</string>
     <string name="my_favorite_channels">Любимите ми канали</string>
-    <string name="my_feedback_title">Моят отзив</string>
     <string name="native_body">Основен текст</string>
     <string name="native_headline">Заглавие</string>
     <string name="native_media_view">Преглед на мултимедийния файл</string>
@@ -1056,6 +1058,7 @@ Mi Video трябва да събере необходимата лична ин
     <string name="network_failed">Не можах да се свържа с мрежа</string>
     <string name="newyearfestival_go_to_draw_prizes">Към Томболата</string>
     <string name="newyearfestival_watch_the_video_to_draw_prizes">Гледайте клипове, за да участвате в Томболата</string>
+    <string name="next_button">Напред</string>
     <string name="nick_name">Псевдоним</string>
     <string name="night">Вечер</string>
     <string name="no_account">Не сте вписани</string>
@@ -1105,6 +1108,7 @@ Mi Video трябва да събере необходимата лична ин
     <string name="online_play_start_ready_loading_tip_kb">Зареждане %.2f KB/s</string>
     <string name="online_play_start_ready_loading_tip_mb">Зареждане %.2f MB/s</string>
     <string name="online_play_title">Въведете URL</string>
+    <string name="order_alphabet">А – Я</string>
     <string name="order_recently_subscribe">Скорошни абонаменти</string>
     <string name="order_recently_updated">Обновени наскоро</string>
     <string name="out_of_memory_background_playback_is_suspended">Поради недостатъчно памет съдържанието на заден план беше спряно на пауза</string>
@@ -1241,6 +1245,8 @@ Mi Video трябва да събере необходимата лична ин
     <string name="photoPickerNotFoundText">Не са налични снимки.</string>
     <string name="pip">Картина в картината</string>
     <string name="pip_not_supported_toast">Обновете до най-новата версия на системата, за да можете да използвате картина в картината.</string>
+    <string name="play_at_normal_speed">Възпроизвеждане със скорост 1Х</string>
+    <string name="play_at_speed">Възпроизвеждане на %.1fX скорост</string>
     <string name="play_list_player_skeleton_file">mnc_live_tv_list_player_skeleton.json</string>
     <string name="play_list_save_dialog_create">Създаване на плейлист</string>
     <string name="play_list_save_dialog_title">Добавяне към плейлист</string>
@@ -1412,6 +1418,7 @@ Mi Video трябва да събере необходимата лична ин
     <string name="remaining_space_not_enough">Неуспешно изтегляне поради недостатъчно памет</string>
     <string name="reminder">Внимание</string>
     <string name="rename">Преименуване</string>
+    <string name="rename_dialog_ok">ОК</string>
     <string name="rename_word_out">Името на файла е твърде дълго</string>
     <string name="report">Рестартиране</string>
     <string name="report_content_dislike">Насилие или неприлично поведение</string>
@@ -1465,7 +1472,7 @@ Mi Video трябва да събере необходимата лична ин
     <string name="sending">Изпращане…</string>
     <string name="service_error">Грешка в сървъра</string>
     <string name="set_success">Промяната е успешна</string>
-    <string name="setting_privacy_title">Terms and conditions</string>
+    <string name="setting_privacy_title">Правила и условия</string>
     <string name="settings_inline_auto_play">Винаги пускай автоматично</string>
     <string name="settings_inline_auto_play_close">Автоматичното пускане е изключено</string>
     <string name="settings_inline_auto_play_tip_close_forever">Винаги изкл.</string>
@@ -1480,6 +1487,7 @@ Mi Video трябва да събере необходимата лична ин
     <string name="shake_to_open_ad">Разклатете, за да научите повече</string>
     <string name="share">Споделяне</string>
     <string name="share_text_before_link">Гледайте и теглете страхотни клипове безплатно в Mi Видео</string>
+    <string name="share_title">Споделяне</string>
     <string name="share_ugc_waitting">Генериране на линк…</string>
     <string name="shorts_assemble_ad_recommend">Препоръчани</string>
     <string name="show_the_location">Видове известия</string>
@@ -1494,6 +1502,7 @@ Mi Video трябва да събере необходимата лична ин
     <string name="slide_or_click_to_open_ad">Плъзнете или натиснете, за да научите повече</string>
     <string name="slide_save_message">Генериране на видео…</string>
     <string name="slide_to_open_ad">Плъзнете, за да научите повече</string>
+    <string name="small_mango_play_next_episode">Следващ епизод</string>
     <string name="small_video_load_more_hint">Плъзнете нагоре за още клипове</string>
     <string name="small_video_report">Докладване</string>
     <string name="small_video_report_dialog_title">Изберете причина</string>
@@ -1506,9 +1515,9 @@ Mi Video трябва да събере необходимата лична ин
     <string name="sns_sign_in">Други начини за вписване</string>
     <string name="source">"Източник: "</string>
     <string name="start_download_tip">Добавено в списъка за изтегляне. Проверете напредъка в Профил > Изтегляния</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="storage_external_sdcard">SD карта</string>
     <string name="storage_internal_sdcard">Вътрешна памет</string>
-    <string name="submit">Изпратено</string>
     <string name="subscribe">АБОНИРАЙ МЕ</string>
     <string name="subscribe_author_recommend_btn">Абониране</string>
     <string name="subscribe_author_recommend_title">Абонирайте се, за да гледате клипове от тези създатели</string>
@@ -1528,6 +1537,7 @@ Mi Video трябва да събере необходимата лична ин
     <string name="sunday_short">Нед.</string>
     <string name="sunday_shortest">Нед.</string>
     <string name="sure_to_logout">Отписване сега?</string>
+    <string name="swipe_to_exit">Плъзнете отново, за да излезете</string>
     <string name="switch_ratio_pause">Скоростта на възпроизвеждане е нестабилна. Превключете обратно към скоростта по подразбиране.</string>
     <string name="sync_favorites_limit_new">В Любими можете да намерите повече от %d клипове. За да можем да продължим със синхронизацията, ще трябва да изтрием някои от по-старите клипове.</string>
     <string name="sync_favorites_message">Да се синхронизират ли \"любимите\" неща от това устройство с профила Ви? Нещата, които вече не са налични, ще бъдат премахнати.</string>
@@ -1654,7 +1664,6 @@ Mi Video трябва да събере необходимата лична ин
     <string name="toast_incentive_redeem_fail_short_of_storage_2002">Тази награда не е налична в момента. Опитайте отново по-късно.</string>
     <string name="toast_m3u8_download_path_tip">Не можете да променяте пътя на изтегляне на съдържание във формат m3u8</string>
     <string name="toast_play_error_tip">Този файл не може да бъде възпроизведен</string>
-    <string name="toast_request_too_frequently">Не толкова бързо!</string>
     <string name="toast_share_failed">Неуспешен опит за споделяне. Изчакайте минута-две и опитайте отново.</string>
     <string name="today">Днес</string>
     <string name="tomorrow">Утре</string>
@@ -1663,9 +1672,6 @@ Mi Video трябва да събере необходимата лична ин
     <string name="tuesday">Вторник</string>
     <string name="tuesday_short">Вт.</string>
     <string name="tuesday_shortest">Вт.</string>
-    <string name="type_content">Съдържание</string>
-    <string name="type_issue">Проблем</string>
-    <string name="type_suggestion">Предложение</string>
     <string name="ugc_no_net">Неуспешно свързване с мрежата. Проверете настройките на мрежата и опитайте отново.</string>
     <string name="ui_common_title_back">Назад</string>
     <string name="unknow">Непознат</string>
@@ -1690,7 +1696,7 @@ Mi Video трябва да събере необходимата лична ин
     <string name="v_menu_hide">Скриване</string>
     <string name="v_more">Още</string>
     <string name="v_next">Следващо</string>
-    <string name="v_ok">OК</string>
+    <string name="v_ok">Напред</string>
     <string name="v_online_play">На живо</string>
     <string name="v_pw_need_update_app">Актуализирайте Mi Видео, за да използвате всички негови функции</string>
     <string name="v_save">Запазване</string>
@@ -1701,6 +1707,7 @@ Mi Video трябва да събере необходимата лична ин
     <string name="video_download_fail">Неуспешно изтеглено видео</string>
     <string name="video_download_fail_hint">Неуспешно изтегляне</string>
     <string name="video_download_floating_guide">Теглете видеоклипове безплатно</string>
+    <string name="video_download_folder">Изтеглени видеа</string>
     <string name="video_download_folder_title">Mi Видео изтегляния</string>
     <string name="video_download_forbidden">Не можете да теглите от този сайт</string>
     <string name="video_download_login_guide">Впишете се в %s, за да можете да теглите клипове</string>

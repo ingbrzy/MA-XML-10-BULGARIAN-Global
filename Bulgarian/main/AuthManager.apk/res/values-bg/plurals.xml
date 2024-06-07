@@ -36,10 +36,6 @@
         <item quantity="other">Преди %d мин</item>
         <item quantity="one">Преди %d мин</item>
     </plurals>
-    <plurals name="clipboard_read_ai_deny_more">
-        <item quantity="other">Блокирани са %2$d опита на %1$s за достъп до клипборда</item>
-        <item quantity="one">Блокиран е %2$d опит на %1$s за достъп до клипборда</item>
-    </plurals>
     <plurals name="half_hour_ago">
         <item quantity="other">Преди половин час</item>
         <item quantity="one">Преди половин час</item>

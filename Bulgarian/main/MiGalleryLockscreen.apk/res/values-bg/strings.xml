@@ -122,10 +122,14 @@ mm"</string>
     <string name="miuix_appcompat_action_mode_title_empty">Изберете елементи</string>
     <string name="miuix_appcompat_actionbar_immersion_button_more_description">Повече</string>
     <string name="miuix_appcompat_cancel_description">Отказ</string>
+    <string name="miuix_appcompat_cloud_state_disabled">Синхронизирането с облака е изключено</string>
+    <string name="miuix_appcompat_cloud_state_finished">Успешно синхронизиране с облака</string>
+    <string name="miuix_appcompat_cloud_state_syncing">Синхронизиране с облака…</string>
     <string name="miuix_appcompat_confirm_description">Потвърди</string>
     <string name="miuix_appcompat_delete_description">Изтрий</string>
     <string name="miuix_appcompat_deselect_all">Откажи всички</string>
     <string name="miuix_appcompat_deselect_all_description">Откажи всички</string>
+    <string name="miuix_appcompat_edit">Редактиране</string>
     <string name="miuix_appcompat_search_action_mode_cancel">Отказ</string>
     <string name="miuix_appcompat_search_input_description">Търси</string>
     <string name="miuix_appcompat_select_all">Избери всички</string>
@@ -139,6 +143,11 @@ mm"</string>
     <string name="miuix_sbl_tracking_progress_labe_up_none">Това е всичко за сега</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh">Един момент…</string>
     <string name="miuix_sbl_tracking_progress_labe_up_refresh_fail">Неуспешно зареждане</string>
+    <string name="miuix_search_action_mode_cancel">Отказ</string>
+    <string name="miuix_search_history_clear">Изчисти хронологията на търсенията</string>
+    <string name="miuix_search_history_default_title">Хронология на търсенията</string>
+    <string name="miuix_search_recommendation_default_title">Това може да ви интересува</string>
+    <string name="miuix_search_recommendation_item_del_des">Изтрий</string>
     <string name="monday">Понеделник</string>
     <string name="monday_short">Пон.</string>
     <string name="monday_shortest">Пон.</string>
@@ -361,6 +370,7 @@ mm"</string>
     <string name="saturday_shortest">Сб.</string>
     <string name="search_menu_title">Търсене</string>
     <string name="send">Изпращане</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
     <string name="summary_collapsed_preference_list">%1$s, %2$s</string>
     <string name="sunday">Неделя</string>
     <string name="sunday_short">Нед.</string>

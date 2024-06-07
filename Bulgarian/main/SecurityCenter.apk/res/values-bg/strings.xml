@@ -343,6 +343,9 @@
     <string name="app_manager_copy_pkg_to_clip">Копирано в Клипборда</string>
     <string name="app_manager_data_size">Потребителски данни</string>
     <string name="app_manager_default_cleared">Почистено</string>
+    <string name="app_manager_default_close_summary">Няма настройки по подразбиране.</string>
+    <string name="app_manager_default_open_summary">Вие избрахте това приложение да стартира по подразбиране за някои действия.</string>
+    <string name="app_manager_default_open_title">Почисти по подразбиране</string>
     <string name="app_manager_defaults_setting">Стандартни приложения</string>
     <string name="app_manager_details_electric_title">Батерия</string>
     <string name="app_manager_details_storage_title">Памет</string>
@@ -968,6 +971,7 @@
     <string name="card_main_private_space_summary">Използвайте Второ пространство все едно имате 2 устройства</string>
     <string name="card_main_private_space_title">Второ пространство</string>
     <string name="card_main_sectool_title">Инструменти</string>
+    <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
     <string name="card_main_video_manage_title">Управление на видеоклиповете</string>
     <string name="card_main_whatsappclean_title">Почистване на WhatsApp</string>
     <string name="card_main_xspace_action">Създаване</string>
@@ -1337,6 +1341,7 @@
     <string name="dynamic_performance_optimization_title">Динамична производителност</string>
     <string name="early_morning">Сутрин</string>
     <string name="edit_phone_num">Редактиране на телефонния номер на SIM картата</string>
+    <string name="ellipsis">…</string>
     <string name="email">Имейл</string>
     <string name="empty" />
     <string name="empty_app">Няма приложения</string>
@@ -1414,7 +1419,9 @@
     <string name="exo_download_paused_for_wifi">Изтеглянията чакат връзка с Wi-Fi</string>
     <string name="exo_download_removing">Изтеглянията се премахват</string>
     <string name="exo_item_list">%1$s – %2$s</string>
+    <string name="exo_track_bitrate">%1$.2f Мб/сек</string>
     <string name="exo_track_mono">Моно</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
     <string name="exo_track_role_alternate">Алтернативен запис</string>
     <string name="exo_track_role_closed_captions">Субтитри</string>
     <string name="exo_track_role_commentary">Коментар</string>
@@ -1601,6 +1608,7 @@
     <string name="fod_finger_notice_title">Поставете пръста си върху сензора</string>
     <string name="fod_finger_windows_tips">Потвърдете вашия пръстов отпечатък</string>
     <string name="fod_tips_split_screen_more_than_half">Въведете парола</string>
+    <string name="fold_application_mode_name">Оформление на приложения</string>
     <string name="forbid_autobright_summary">Автоматичната ярост на екрана ще бъде изключена, докато играете и отново включена, когато приключите играта</string>
     <string name="forbid_autobright_title">Поправка на яркостта на екрана</string>
     <string name="foreground_traffic">На преден план %s</string>
@@ -2122,7 +2130,7 @@ Xiaomi Gaming Cooler"</string>
     <string name="group_clipboard">Клипборд</string>
     <string name="group_connect_device">Взаимосвързаност</string>
     <string name="group_file">Файлове и документи</string>
-    <string name="group_file_less_t">Access files and media</string>
+    <string name="group_file_less_t">Достъп до файлове и медии</string>
     <string name="group_head_data_ai_clipboard">Защита на клипборда</string>
     <string name="group_head_data_camera_desc">Изключете, за да ограничите достъпа до камерата за всички приложения</string>
     <string name="group_head_data_clipboard_desc">Изключете, за да ограничите достъпа до клипборда за всички приложения</string>
@@ -2599,6 +2607,7 @@ to join our egg hunt!"</string>
     <string name="menu_text_license_manager">Разрешения</string>
     <string name="menu_text_networkassistants">Монитор за данни</string>
     <string name="menu_text_networkassistants_danger">%s над лимита</string>
+    <string name="menu_text_networkassistants_data">%1$s%2$s</string>
     <string name="menu_text_networkassistants_remain">%s остават</string>
     <string name="menu_text_networkassistants_unit_b">Б</string>
     <string name="menu_text_networkassistants_unit_gb">ГБ</string>
@@ -2607,6 +2616,7 @@ to join our egg hunt!"</string>
     <string name="menu_text_optimize_manage">Подобрете скоростта</string>
     <string name="menu_text_optimize_manage_1">Подобряване на скоростта</string>
     <string name="menu_text_power_manager">Батерия</string>
+    <string name="menu_text_power_percent_title">%s</string>
     <string name="menu_wh_remove">Премахни от изключения</string>
     <string name="menu_white">Добавяне към изключения</string>
     <string name="mi_ime_not_used">Използвайте клавиатура одобрена от Xiaomi</string>
@@ -2715,6 +2725,7 @@ to join our egg hunt!"</string>
     <string name="mtrl_picker_a11y_next_month">Преминаване към следващия месец</string>
     <string name="mtrl_picker_a11y_prev_month">Преминаване към предишния месец</string>
     <string name="mtrl_picker_announce_current_selection">Текущ избор: %1$s</string>
+    <string name="mtrl_picker_confirm">@android:string/ok</string>
     <string name="mtrl_picker_date_header_selected">%1$s</string>
     <string name="mtrl_picker_date_header_title">Избиране на дата</string>
     <string name="mtrl_picker_date_header_unselected">Избрана дата</string>
@@ -3246,7 +3257,7 @@ to join our egg hunt!"</string>
     <string name="pc_wireless_charging_special_stand_summary2">Инсталирайте устройството си на стойката, доставена с вашето безжично зарядно устройство, за най-добро зареждане</string>
     <string name="pc_wireless_charging_special_stand_title">Използвайте предоставената стойка за зареждане</string>
     <string name="pc_wireless_handle_connected">Устройството е свързано</string>
-    <string name="pc_wireless_handle_title">Безжична дръжка за камера</string>
+    <string name="pc_wireless_handle_title">Захват за камера</string>
     <string name="pc_work_in_save_mode">Икономия на батерията</string>
     <string name="pc_work_in_super_save_mode">Свръх икономия на батерията</string>
     <string name="pc_xiaoai_create_auto_task">Нова задача от Mi AI</string>
@@ -3307,7 +3318,7 @@ to join our egg hunt!"</string>
     <string name="permission_group_camera">Това разрешение позволява на приложенията да използват камерата за правене на снимки или запис на видеоклипове.</string>
     <string name="permission_group_contact">Това разрешение позволява на приложенията да осъществяват достъп или да редактират контакти, както и да преглеждат контактите на приложението, създадени на това устройство.</string>
     <string name="permission_group_file">Това разрешение позволява на приложенията достъп до всички файлове, съхранени на това устройство.</string>
-    <string name="permission_group_file_less_t">This permission allows apps to access photos, videos, audio, and other files stored on this device.</string>
+    <string name="permission_group_file_less_t">Това разрешение позволява на приложенията да имат достъп до снимки, видеоклипове, аудио и други файлове, съхранени на това устройство.</string>
     <string name="permission_group_image_video">Това разрешение позволява на приложенията да имат достъп до снимки и видеоклипове, съхранени на това устройство.</string>
     <string name="permission_group_location">Това разрешение позволява на приложенията да имат достъп до информация за местоположението чрез мрежа или сателит.</string>
     <string name="permission_group_microphone">Това разрешение позволява на приложенията да използват микрофона за запис на аудио.</string>
@@ -3426,7 +3437,7 @@ to join our egg hunt!"</string>
     <string name="pm_remember_choice">Не показвай отново</string>
     <string name="pm_root_success_notification_infomation">Уверете се, че разбирате рисковете, свързани с ROOT достъпа</string>
     <string name="pm_root_success_notification_title">Имате ROOT достъп</string>
-    <string name="popular_action_anti_spam_title_global">Блокиране на обаждания и съобщения</string>
+    <string name="popular_action_anti_spam_title_global">Block spam calls</string>
     <string name="popular_action_app_lock_title_global">Защитете приложенията си със Заключване на приложения</string>
     <string name="popular_action_card_title">Популярни функции</string>
     <string name="popular_action_first_aid_title_global">За нови потребители</string>
@@ -3482,6 +3493,11 @@ to join our egg hunt!"</string>
     <string name="power_center_dialog_msg_top">Когато функцията за запазване на батерията е включена, ще бъдат извършени следните оптимизации:</string>
     <string name="power_center_hints_scan_danger_result">Можете да коригирате този проблем сега</string>
     <string name="power_center_list_item_auto_brightness">Автоматично настройване на яркостта на екрана</string>
+    <string name="power_center_list_item_battery_health_model_temperature">%d ℃</string>
+    <string name="power_center_list_item_battery_health_model_voltage">%s V</string>
+    <string name="power_center_list_item_battery_health_model_volume">%s mAh (милиампер-час)</string>
+    <string name="power_center_list_item_battery_status_capacity">мАч</string>
+    <string name="power_center_list_item_battery_status_temperature">℃</string>
     <string name="power_center_list_item_battery_status_time">ч</string>
     <string name="power_center_list_item_close_bluetooth">Изключете Bluetooth</string>
     <string name="power_center_list_item_deep_save_title">Разширени настройки</string>
@@ -3794,6 +3810,7 @@ to join our egg hunt!"</string>
     <string name="pref_normal_traffic_limit">Когато планът за данни е изразходван</string>
     <string name="pref_open_adjust_traffic">Синхронизиране статистиката за трафика с вашия оператор</string>
     <string name="pref_operator_not_set">Оператора не е зададен</string>
+    <string name="pref_operator_setting">%1$s: %2$s</string>
     <string name="pref_over_traffic_limit">Когато сте надвишили вашия лимит за данни</string>
     <string name="pref_package_traffic_settings">План за данни</string>
     <string name="pref_pkg_begin_date">Дата за нулиране на сметката</string>
@@ -4094,6 +4111,7 @@ to join our egg hunt!"</string>
     <string name="privacy_using_record">Запис на аудио</string>
     <string name="privacyapp_number_masked_text">Съдържанието на известията е скрито</string>
     <string name="privacyapp_number_unmasked_text">Съдържанието на известията може да се скрие</string>
+    <string name="process_kernel_label">Android операционна система</string>
     <string name="process_mediaserver_label">Медиен сървър</string>
     <string name="process_vpnsdkmanager_label">Game Turbo</string>
     <string name="promotion">Реклами</string>
@@ -5329,7 +5347,7 @@ to join our egg hunt!"</string>
     <string name="vb_video_effects_spatial_summary_new">Насладете се на потапяне и усещане за пространство и посока за поддържано аудио когато използвате слушалки</string>
     <string name="vb_video_effects_srs_premium_sound">Звук</string>
     <string name="vb_video_super_division">Увеличаване</string>
-    <string name="vb_video_super_division_desc">"Автоматично увеличаване на резолюцията когато е ≤720p.
+    <string name="vb_video_super_division_desc">"Автоматично увеличаване на резолюцията когато е ≤720P.
 
 Тази функция изразходва повече енергия.
 
@@ -5379,6 +5397,7 @@ to join our egg hunt!"</string>
     <string name="virus_update_tips_title">Внимание</string>
     <string name="virus_wait_network_dialog_message">Вашият телефон не е свързан с Wi-Fi. Да се използват ли мобилни данни?</string>
     <string name="vtb_ai_subtitle">Субтитри</string>
+    <string name="vtb_ai_subtitle_intl">AI субтитри</string>
     <string name="vtb_func_desc">За тази функция</string>
     <string name="vtb_func_display_style_desc0">AI може да разпознава хора, животни, растения, небе, сгради и други предмети показвани във видеоклипове и да ги подсилва динамично.</string>
     <string name="vtb_func_display_style_desc1">Избраните ефекти няма да се прилагат върху видеоклипове с HDR върху избрани устройства.</string>

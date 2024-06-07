@@ -88,6 +88,7 @@
     <string name="fast_connect_device_battery">Батерия</string>
     <string name="fast_connect_device_box">Кутийка</string>
     <string name="fast_connect_device_box_name">%1$s Кутия</string>
+    <string name="fast_connect_device_button_audio_share_fail">Разбрах</string>
     <string name="fast_connect_device_connect_cancel">Отказ</string>
     <string name="fast_connect_device_connect_ok">Свържи се</string>
     <string name="fast_connect_device_connect_retry">Нов опит</string>
@@ -96,6 +97,12 @@
     <string name="fast_connect_device_headset_l">Ляво</string>
     <string name="fast_connect_device_headset_r">Дясно</string>
     <string name="fast_connect_device_headset_reset">Натиснете и задръжте бутона на кутийката</string>
+    <string name="fast_connect_device_message_audio_share">Споделете звука на това устройство с този чифт слушалки</string>
+    <string name="fast_connect_device_replace_current_device">Превключване на устройства</string>
+    <string name="fast_connect_device_start_audio_share">Споделяне</string>
+    <string name="fast_connect_device_title_audio_share">Слушайте заедно с %1$s</string>
+    <string name="fast_connect_device_title_audio_share_fail">Неуспешно свързване с %1$s. Опитайте отново.</string>
+    <string name="fast_connect_device_title_audio_share_success">Слушане заедно с %1$s</string>
     <string name="fast_connect_device_title_connect_fail">Връзката с %1$s е неуспешна</string>
     <string name="fast_connect_device_title_connecting">Свързва се…</string>
     <string name="fast_connect_device_title_find_headset">Намери %1$s</string>
