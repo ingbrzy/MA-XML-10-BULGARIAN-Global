@@ -386,7 +386,6 @@
     <string name="file_size">Размер:</string>
     <string name="file_title">Име:</string>
     <string name="file_width_height">Размер:</string>
-    <string name="flatshow_page_no">%1$d</string>
     <string name="flight">Полет</string>
     <string name="fmt_chinese_date">N月e</string>
     <string name="fmt_date">D</string>
@@ -1214,7 +1213,6 @@
     <string name="send_signature_confirm_dialog_title">Изпрати съобщение</string>
     <string name="send_sms">Изпрати съобщение</string>
     <string name="send_to">До:</string>
-    <string name="send_to_index_contact">%1$s/%2$s</string>
     <string name="sent_at_time">Изпратено в: %1s</string>
     <string name="sent_label">"Изпратени: "</string>
     <string name="service_abandon_alert">Внимание</string>

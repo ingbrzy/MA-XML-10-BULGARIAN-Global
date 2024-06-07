@@ -61,10 +61,6 @@
         <item>Into the wild</item>
         <item>Wild and free</item>
     </string-array>
-    <string-array name="global_backup_display_title">
-        <item>@string/backup_google_name</item>
-        <item>@string/backup_onedrive_single_name</item>
-    </string-array>
     <string-array name="global_backup_display_value">
         <item>1</item>
         <item>2</item>
@@ -122,11 +118,6 @@
     <string-array name="last_year_group_people">
         <item>Нови и стари приятели</item>
         <item>Миналогодишни събирания</item>
-    </string-array>
-    <string-array name="menu_copy_or_move">
-        <item>Премести</item>
-        <item>Копирай</item>
-        <item>@string/cancel</item>
     </string-array>
     <string-array name="month">
         <item>Януари</item>
